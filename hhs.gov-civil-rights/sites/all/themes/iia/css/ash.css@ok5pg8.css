@@ -1,0 +1,96 @@
+/*
+ * ASH Specific Styles
+ * 2016-05-23
+ */
+
+/*	main-menu	*/
+.nav-about-ash {
+	padding: 10px 50px 20px 120px;
+	background:url(images/about-ash-white.png) 58px #64770b no-repeat;
+}
+
+.nav-about-ash.active {
+	background:url(images/about-ash-gray.png) 58px #e9eaeb no-repeat;
+	border: solid 2px #64770b;
+}
+
+.nav-public-health-offices {
+	padding: 10px 30px 20px 90px;
+	background:url(images/public-health-offices-white.png) 38px #393d6c no-repeat;
+}
+
+.nav-public-health-offices.active {
+	background:url(images/public-health-offices-gray.png) 38px #e9eaeb no-repeat;
+	border: solid 2px #393d6c;
+}
+
+.nav-advisory-committees {
+	padding: 10px 50px 20px 90px;
+	background:url(images/advisory-committees-white.png) 45px #716478 no-repeat;
+}
+
+.nav-advisory-committees.active {
+	background:url(images/advisory-committees-gray.png) 45px #e9eaeb no-repeat;
+	border: solid 2px #716478;
+}
+
+.listing-page .view-content {
+	margin-bottom: 20px;
+}
+
+.below-the-fold-box .view-news-landing-page .view-content {
+	height: 203px;
+	margin-bottom: 10px;
+}
+
+.below-the-fold-box .view-news-landing-page .news-listing-row {
+	padding: 5px 0;
+	border-bottom: solid thin #ccc;
+}
+
+.below-the-fold-box .view-news-landing-page .news-listing-row.views-row-last {
+	border-bottom: none;
+}
+
+.view-news-landing-page .view-footer p {
+	margin: 0;
+	padding: 0;
+	border-bottom: none;
+	font-weight: bold;
+}
+
+.twitter-join {
+	border-top: none;
+}
+
+#flu-vaccine-finder {
+	margin-top: -17px;
+	margin-left: 15px;
+}
+
+.views-field-field-office-external-leadership .field-content,
+.views-field-field-office-external-leadership .field-content p {
+	display: inline;
+}
+
+.views-label-field-office-external-leadership {
+	font-weight: bold;
+}
+
+.view-hhs-agencies-offices .ui-accordion .ui-accordion-header-icon {
+    top: 3px;
+}
+
+
+
+/********************** MOBILE STYLING ****************************************/
+
+@media only screen and (max-width: 767px) {
+
+	#flu-vaccine-finder {
+		margin-top: 0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}

@@ -1,0 +1,520 @@
+/*
+ * NVPO Specific Styles
+ * 2016-03-22
+ * last edit by LG
+ */
+
+/*	main-menu	*/
+.nav-about-nvpo {
+	padding: 10px 50px 20px 120px;
+	background:url(images/about-nvpo-white.png) 45px #127bb5 no-repeat;
+}
+
+.nav-about-nvpo.active {
+	background:url(images/about-nvpo-gray.png) 45px #e9eaeb no-repeat;
+	border: solid 2px #127bb5;
+}
+
+.nav-featured-priorities {
+	padding: 10px 50px 20px 100px;
+	background:url(images/featured-priorities-white.png) 55px #b14135 no-repeat;
+}
+
+.nav-featured-priorities.active {
+	background:url(images/featured-priorities-gray.png) 55px #e9eaeb no-repeat;
+	border: solid 2px #b14135;
+}
+
+.nav-nvac {
+	padding: 10px 12px 20px 65px;
+	background:url(images/nvac-white.png) 10px #a06519 no-repeat;
+}
+
+.nav-nvac.active {
+	padding: 8px 11px 20px 64px;
+	background:url(images/nvac-gray.png) 9px #e9eaeb no-repeat;
+	border: solid 2px #a06519;
+}
+
+.nav-nvp {
+	padding: 10px 40px 20px 85px;
+	background:url(images/nvp-white.png) 25px #716478 no-repeat;
+}
+
+.nav-nvp.active {
+	background:url(images/nvp-gray.png) 25px #e9eaeb no-repeat;
+	border: solid 2px #716478;
+}
+
+.nav-naip {
+	padding: 10px 15px 20px 70px;
+	background:url(images/naip-white.png) 25px #64770b no-repeat;
+}
+
+.nav-naip.active {
+	padding: 8px 14px 20px 69px;
+	background:url(images/naip-gray.png) 25px #e9eaeb no-repeat;
+	border: solid 2px #64770b;
+}
+
+.navbar-fixed-top #main-menu li a.nav-nvac,
+.navbar-fixed-top #main-menu li a.nav-naip {
+	padding: 4px 30px;
+	line-height: 1.2em;
+}
+
+.navbar-fixed-top #main-menu li a.nav-nvac.active,
+.navbar-fixed-top #main-menu li a.nav-naip.active {
+	padding-top: 2px;
+}
+
+.first-tile.pane-node
+{
+	padding: 20px 15px;
+}
+
+.region-content .first-tile li
+{
+	padding-left: 15px;
+}
+
+
+
+/* styles for NVPO Adult Vaccination Pages - 1/11/2016 */
+.nvpointro { /* new div to hold top paragraph on front page */
+	width: 500px; 
+	float: left;
+	display: block;
+}
+.nvpodplink { /* the download plan link on front page */
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: Arial;
+	font-weight: bold;
+	text-align: center; 
+	text-decoration: none;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	width: 125px;
+	clear: left;
+}
+.nvpodplink a:link, .nvpodplink a:visited {
+		color: #9a167c;
+	}
+.nvpomid { /* front page "click each goal..." bar */
+	text-align: center; 
+	font-size: 17px;
+	font-family: verdana;
+	background-color: #148000; /* 14813e */
+	color: #ffffff; 
+	width: 401px; 
+	margin-top: 29px;
+	margin-right: auto; 
+	margin-left: auto;  
+	margin-bottom: 12px;
+	font-weight: bold; 
+	padding: 10px;
+}
+.nvpogoals { /* each individual goal bucket */
+	width: 25%;
+	float: left;
+	text-align: center;
+	font-size: 12px;
+	display: block;
+	margin-bottom: 20px;
+}
+#site-content .nvpodplink a, 
+#site-content .nvpogoals a, 
+#site-content .nvpohighlightbox a {
+	text-decoration: none;
+}
+.nvpogoals a > img { /* the round pics on the front page in the goals */
+	width: 100px;
+	height: 100px;
+	margin-top: 5px;
+}
+.nvpogoals > p { /* some padding for the goal paragraphs */
+	padding: 0 10px;
+}
+.nvpogoaltitle { /* title of each goal bucket */
+	font-size: 15px;
+	font-family: Arial;
+	font-weight: bold;	
+	line-height: 30px;
+}
+.nvpogoaltitle::before { /* adds the down arrow character above the title of the goal */
+	content: "\25BC\00000a";
+	white-space: pre; /* this is required if using css content to add a new line - don't know why but it does */
+}
+.nvpogoalwhich { /* the title under the image */
+	color: #148000;
+	font-weight: bold;
+	font-size: 18px;
+	display: inline-block;
+	margin-top: 17px;
+	margin-bottom: 2px;
+	text-transform: uppercase;
+}
+.nvpohighlightbox { /* box at bottom of page */
+	display: block;
+	height: 168px;
+	padding: 15px;
+	border: 2px solid #ffba00; 
+	text-align: center; 
+	color: #148000; 
+	vertical-align: middle; 
+}
+.nvpohighlightbox h2 { /* title in box at bottom of page */
+	color: #148000;
+	font-weight: bold;
+	text-align: left;
+	margin: 25px;
+	font-size: 24pt;
+	width: 75%;
+}
+.nvpohighlightbox h2 a, .nvpohighlightbox h2 a:visited, .nvpohighlightbox h2 a:link { /* really want that text to be green */
+	color: #148000;
+}
+.nvpohighlightbox a.nvpohighlightboximglink { /* link in box at bottom of page */
+	float: right;
+	text-transform: uppercase;
+	color: #9a167c;
+	display: block;
+	width: 24%;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nvpogoalsubtitle { /* title at top of nvpo page */
+	color: #148000;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: verdana;
+	font-weight: bold;
+}
+
+.nvpogoalpagebody a { /* links on goal pages - could be dangerous doing a blanket change - think about adding class name */
+    color: #9a167c;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: arial;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px; 
+}
+.nvpogoalpagebody a.nvporeadcomment { /* and this will teach me to read my own comments */
+	color: #115095;
+	text-decoration: none;
+	text-transform: none;
+	font-weight: normal;
+	font-size: inherit;
+	font-family: inherit;
+}
+.nvpogoalpagebody a.nvporeadcomment:hover {
+	text-decoration: underline;
+}
+
+.nvpogoalpagebodyimage { /* round image on goal pages */
+	display: block; 
+	float: left; 
+	margin: 10px 30px 0px 10px;
+}
+.nvpogoalpagebodyimage .nvpopageicon { /* possibly temp style to shoehorn the side image for now */
+	width: 182px !important;
+	height: 182px !important;
+    margin-bottom: 20px;
+}
+.nvpogoalpagebodyimage > a.nvposocmed > img { /* was for social media icons - might be removed */
+	width: 24px !important;
+	height: 24px !important;
+}
+.nvpogoalpagebodysublink { /* the "download plan" link in text */
+	float: right;
+	width: 135px;
+	margin: 10px;
+}
+.nvpofliptitle { /* the "to learn more...." part on nvpo page */
+	color: #148000;
+	text-transform: uppercase;
+	font-size: 18px; 
+	clear: both;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.nvpofliptitle > br { /* we want the title line to break in the middle in mobile, but less so in desktop */
+	display: none;
+}
+
+.flip-card-container
+{
+	width: 640px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+.flip-card-container .flip-card
+{
+	width: 200px;
+	height: 300px;
+	margin-top: 30px;
+	margin-left: 16px;
+	/*margin-bottom: 3px;  This is not needed when the silkscreen is not shown. */
+}
+
+.flip-card-container .flip-card.first-column
+{
+	margin-left: 0px;
+}
+
+.flip-card-container .flip-card.first-row
+{
+	margin-top: 0px;
+}
+
+.flip-card-container .flip-card .front-content,
+.flip-card-container .flip-card .back-content
+{
+	width: 202px;
+	overflow: hidden;
+}
+
+
+.flip-card-container .flip-card .silkscreen
+{
+	z-index: 901;
+	position: relative;
+	top: -300px;
+	width: 200px;
+	height: 233px;
+	background-color: #fff;
+	opacity: 0;
+}
+
+.flip-card-container .flip-card .silkscreen.screened
+{
+	opacity: 0.8;
+}
+
+
+/* table on stakeholders page */
+.nvposhtable {
+	border:  1px solid #000000;
+	border-collapse: collapse;
+}
+.nvposhtable .nvposhtablecol1 {
+	width: 35%;
+}
+
+.nvposhtable th {
+	text-align: left;
+	border: none;
+	border-bottom: 1px solid #000000;
+}
+.nvposhtable td {
+	vertical-align: top;
+	border: none;
+	padding: 5px;
+}
+
+.nvpocaption { /* table caption that we're no longer using */
+	text-align: center;
+}
+.nvposysdiv { /* the share your story area */
+	margin-top: 6px;
+}
+.nvposysdiv img.nvpoadvax { /* round image with sys */
+	float: left;
+	margin-right: 20px;
+}
+.nvposysfirst { /* title line for sys */
+	text-transform: uppercase;
+	color: #148000;
+	font-weight: bold;
+	margin-left: -23px;
+	font-size: 18px;
+}
+.nvposysfirst::before { /* add the purple arrow before the title */
+	color: #9a167c;
+	content: "\25B6\0020";
+}
+.nvposyssecond { /* subtitle to sys */
+	color: #148000;
+	text-transform: uppercase;
+}
+.nvposyslink { /* make the text link look like the graphic link we're actually using */
+	border-radius: 11px;
+	background: #026A1D; /* #148000 */
+	padding: 5px 5px 5px 5px;	
+	color: #ffffff !important;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.nvposyslink::after { /* circled arrow in text link */
+	content: "\2794";
+	background-color: #ffffff;
+	color: #148000;
+	font-size: 16px;
+	border-radius: 7px;
+	margin-left: 10px;
+}
+.nvposyslink:hover {
+	text-decoration: none;
+}
+.nvpog4br { /* yep, quick hack */
+	margin-bottom: 5px;
+	clear: both;
+}
+.nvpofakeh2 {
+	font-size: 32px;
+	line-height: 1.3em !important;
+	margin-left: 25px;
+	margin-top: 37px;
+	text-align: left;
+}
+.nvpofakeh2 > a {
+	color: #148000;
+	font-weight: bold;
+}
+.nvposyshash {
+	color: #148000;
+}
+.nvposupportbox { /* box on support page */
+	border: 2px solid #000000;
+	padding: 0 25px 15px;
+}
+
+
+
+/*** NVPO mobile styles ***/
+@media only screen and (max-width: 767px) {/* MEDIA QUERY FOR PHONE/TABLET */
+	.nvpointro {
+		width: 100%;
+	}
+	.nvpodplink {
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		line-height: 14px;
+	}
+	.nvpodplink br {
+		display: none;
+	}
+	.nvpodplink > a > img {
+		margin-bottom: 0;
+	}
+	.nvpogoals {
+		float: none;
+		width: 100%;
+		border-bottom: 1px dotted #d2d2d2;
+		padding-bottom: 20px;
+	}
+	.nvpogoals > br {
+		display: none;
+	}
+	.nvpogoalwhich {
+		margin-top: 0;
+	}
+	.nvpomid {
+		width: 75%;
+	}
+	.nvpohighlightbox {
+		height: auto;
+	}
+	.nvpohighlightbox h2 {
+		width: auto;
+		margin: 0; 
+		text-align: center;
+		font-size: 16pt;
+		padding-bottom: 10px;
+	}
+	.nvpohighlightbox a.nvpohighlightboximglink {
+		margin: 0 auto;
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	.nvpohighlightbox a.nvpohighlightboximglink > br { /* Remove some extra spacing when in mobile mode from the graphic and the link text... */
+		display: none;
+	}
+	.nvpohighlightbox a.nvpohighlightboximglink > br + br { /* ...but leave the break between the link text and the size of the pdf. Yes this was an after-thought. */
+		display: block;
+	}
+	.nvpogoalpagebodysublink a > img {
+		margin-bottom: 0;
+	}
+	.nvpogoalpagebodysublink a > br {
+		display: none;
+	}
+	.nvpogoalpagebodyimage {
+		margin-bottom: 10px;
+	}
+	.nvpogoalpagebodyimage > img + br {
+		display: none;
+	}
+	.nvpogoalpagebodyimage .nvpopageicon {
+		margin-bottom: 0;
+	}
+	.nvpofliptitle > br {
+		display: block;
+	}
+	.nvposysdiv {
+		padding-left: 0;
+	}
+	.nvposysdiv img {
+		clear: both;
+		float: none;
+		margin: 0 auto;
+	}
+	.nvposysdiv img.nvpoadvax {
+		margin: 0 auto 10px;
+		padding-right: 0;
+		float: none;
+		clear: both;
+	}
+	.nvpofakeh2 {
+		margin-left: 0;
+		margin-top: 10px;
+		text-align: center;
+		font-size: 18px;
+	}
+	.nvpogoalpagebodyspacer {
+		display: none;
+	}
+	.flip-card-container
+	{
+		width: 200px;
+	}
+
+	.flip-card-container .flip-card
+	{
+		margin-left: 0px;
+		margin-right: 40px;
+	}
+
+	.flip-card-container .flip-card.first-row
+	{
+		margin-top: 40px;
+	}
+
+	.flip-card-container .flip-card.first-row.first-column
+	{
+		margin-top: 0px;
+	}
+
+	.flip-card-container .flip-card .silkscreen
+	{
+		top: -310px;
+	}
+}
+
+/**NVPO requested we add a new twitter tile and move the sign up box to a new row, the following styles are to remove the HR from that second row - SY**/
+
+.page-nvpo .panels-flexible-row-independent_ia-13.below-the-fold.panels-flexible-row {
+    border: none;
+    margin: 0;
+}

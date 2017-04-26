@@ -1,0 +1,744 @@
+/* OCR (et al) Specific styling */
+
+/* --- Put global codes back to iia.css from here below  ---- */
+
+.main-section .left-nav-region {
+	margin-bottom: 20px;
+}
+
+/* for the resized nav */
+.navbar-fixed-top ul#main-menu li { 
+	margin-bottom: 0px;
+}
+
+/* this next declaration fixes the two level nav split! */
+.navbar-fixed-top #main-menu li.last {
+	float:left;
+}
+/* end two level nav fix */
+
+
+
+/*===============OCR NAV=============== start ===*/
+.ocr-page #main-menu a.ocr-nav-about-us { /* 1 */
+	padding: 20px 25px 20px 111px;		/* was 20 25 20 91 */
+	background:url(images/personnel-nav-icon.png) 40px #a06519 no-repeat;	/* was 20 */
+}
+.ocr-page #main-menu li .ocr-nav-about-us.active { /* 1 */
+	background:url(images/civil_rights_for_consumer_greyicon.png) 39px #e9eaeb no-repeat; /* was 19 */
+	border: solid 2px #a06519;
+	padding: 18px 25px 20px 109px;		/* was 20 25 20 89 */
+	color: #666666;
+}
+.ocr-page.ocr-about-us-menu-trail #main-menu li a.ocr-nav-about-us { color: #666666; }
+.ocr-about-us-menu-trail #main-menu li a.ocr-nav-about-us { /* copy from "#main-menu .ocr-nav-about-us.active" with menu trail addition */
+	background:url(images/civil_rights_for_consumer_greyicon.png) 39px #e9eaeb no-repeat; /* was 19 */
+	border: solid 2px #a06519;
+	padding: 18px 25px 20px 109px;		/* was 20 25 20 90 */
+}	
+
+.ocr-page #main-menu li a.ocr-nav-civil-rights { /* 4 */
+	padding: 20px 25px 20px 92px;		/* was 20 25 20 67 */
+	background:url(images/civil_rights_whiteicon.png) 45px #a34869 no-repeat;	/* 20 */
+}
+.ocr-page #main-menu li .ocr-nav-civil-rights.active { /* 4 */
+	background:url(images/civil_rights_greyicon.png) 44px #e9eaeb no-repeat;	/* 19 */
+	border: solid 2px #a34869;
+	padding: 20px 25px 20px 92px;		/* was 20 25 20 67 */
+}
+
+.ocr-page #main-menu li a.ocr-nav-filing-with-ocr { /* 2 */
+	padding: 10px 25px 10px 98px;			/* was 10 55 10 68 */
+	background:url(images/filing_a_complaint_whiteicon.png) 50px #78508e no-repeat; /* 20 */
+}
+.ocr-page #main-menu li .ocr-nav-filing-with-ocr.active { /* 2 */
+	background:url(images/filing_a_complaint_greyicon.png) 49px #e9eaeb no-repeat; /* 19 */
+	border: solid 2px #78508e;
+	padding: 8px 25px 10px 98px;			/* was 10 55 10 68 */
+}
+
+.ocr-page #main-menu li a.ocr-nav-health-info { /* 5 */
+	padding: 14px 0px 5px 70px;				/* was 5 25 5 69 */ /* hey, another change! was 5 35 5 94 */
+	background:url(images/health_information_privacy_whiteicon.png) 23px #317686 no-repeat; /* 20 */ /* whoops, no longer 45 */
+	line-height: 1.2em;
+}
+.ocr-page #main-menu li .ocr-nav-health-info.active { /* 5 */
+	background:url(images/health_information_privacy_greyicon.png) 23px #e9eaeb no-repeat; /* 19 */
+	border: solid 2px #317686;
+	padding: 14px 0px 5px 70px;				/* was 5 25 5 69 */
+}
+
+.ocr-page #main-menu li a.ocr-nav-newsroom { /* 3 */
+	padding: 20px 25px 20px 96px;			/* was 20 25 20 66 */
+	background:url(images/newsroom_whiteicon.png) 50px #7d6f55 no-repeat; /* 20 */
+}
+.ocr-page #main-menu li .ocr-nav-newsroom.active { /* 3 */
+	background:url(images/newsroom_greyicon.png) 49px #e9eaeb no-repeat; /* 19 */
+	border: solid 2px #7d6f55;
+	padding: 18px 25px 20px 94px;			/* was 20 25 20 64 */
+}
+.page-node-3033.ocr-page #main-menu li .ocr-nav-newsroom { /* 3 */
+	background:url(images/newsroom_greyicon.png) 49px #e9eaeb no-repeat; /* 19 */
+	border: solid 2px #7d6f55;
+	padding: 18px 25px 20px 94px;			/* was 20 25 20 64 */
+	color: #666666;
+}
+
+.ocr-page .navbar-fixed-top #main-menu li a.ocr-nav-about-us, 
+.ocr-page .navbar-fixed-top #main-menu li a.ocr-nav-civil-rights, 
+.ocr-page .navbar-fixed-top #main-menu li a.ocr-nav-filing-with-ocr, 
+.ocr-page .navbar-fixed-top #main-menu li a.ocr-nav-health-info, 
+.ocr-page .navbar-fixed-top #main-menu li a.ocr-nav-newsroom{
+	background-image: none;
+	padding: 10px;
+	width: 235px;
+	
+	-webkit-transition: padding 0.3s ease; 
+	-moz-transition: padding 0.3s ease; 
+	-ms-transition: padding 0.3s ease; 
+	-o-transition: padding 0.3s ease; 
+	transition: padding 0.3s ease;
+	margin-bottom:0px;
+	height: 40px;
+	text-align: center;
+}
+
+.navbar-fixed-top #main-menu li a.ocr-nav-about-us.active, 
+.navbar-fixed-top #main-menu li a.ocr-nav-civil-rights.active, 
+.navbar-fixed-top #main-menu li a.ocr-nav-filing-with-ocr.active, 
+.navbar-fixed-top #main-menu li a.ocr-nav-health-info.active, 
+.navbar-fixed-top #main-menu li a.ocr-nav-newsroom.active  {
+	padding: 8px 10px;
+	margin: 0;
+	height: 40px;
+}
+
+.ocr-page .hide-date, .civil-rights-page .hide-date, .hipaa-page .hide-date {
+	display: none;
+}
+
+@media only screen and (max-width: 767px) {
+	.navbar-fixed-top a.ocr-nav-about-us, 
+	.navbar-fixed-top a.ocr-nav-civil-rights, 
+	.navbar-fixed-top a.ocr-nav-filing-with-ocr, 
+	.navbar-fixed-top a.ocr-nav-health-info, 
+	.navbar-fixed-top a.ocr-nav-newsroom, 
+	.navbar-fixed-top a.ocr-nav-about-us.active, 
+	.navbar-fixed-top a.ocr-nav-civil-rights.active, 
+	.navbar-fixed-top a.ocr-nav-filing-with-ocr.active, 
+	.navbar-fixed-top a.ocr-nav-health-info.active, 
+	.navbar-fixed-top a.ocr-nav-newsroom.active  {
+	}
+} 
+
+
+/*===============OCR NAV=============== end ===*/
+/*===============CIV RIGHTS NAV======== start ===*/ 
+a.civil-rights-nav-cr-for-consumers, a.civil-rights-nav-filling-a-complaint, a.civil-rights-nav-cr-for-providers, a.civil-rights-nav-newsroom { /* as per wt-11083 consumers are individuals. kept previous for code purposes */
+    float: left;
+    width: 220px;
+    height: 60px;
+}
+
+a.civil-rights-nav-cr-for-consumers { /* as per wt-11083 consumers are individuals. kept previous for code purposes */
+	color: #fff;
+	padding: 10px 25px 30px 90px;
+	background:url(images/personnel-nav-icon.png) 20px #a06519 no-repeat;	
+	font-weight: bold;
+	width: 220px;
+}
+.civil-rights-nav-cr-for-consumers.active, .page-civil-rights-for-individuals-faqs-indexhtml #main-menu li a.civil-rights-nav-cr-for-consumers,
+.page-node-4272 #main-menu li a.civil-rights-nav-cr-for-consumers, /* it's a cheat but we don't have a class just for these */
+.page-node-2551 #main-menu li a.civil-rights-nav-cr-for-consumers,
+.page-node-2547 #main-menu li a.civil-rights-nav-cr-for-consumers,
+.page-node-2543 #main-menu li a.civil-rights-nav-cr-for-consumers,
+.page-node-2555 #main-menu li a.civil-rights-nav-cr-for-consumers,
+.page-node-2553 #main-menu li a.civil-rights-nav-cr-for-consumers,
+.page-node-2554 #main-menu li a.civil-rights-nav-cr-for-consumers, 
+.page-node-2550 #main-menu li a.civil-rights-nav-cr-for-consumers,
+.page-node-2545 #main-menu li a.civil-rights-nav-cr-for-consumers,
+.page-node-2552 #main-menu li a.civil-rights-nav-cr-for-consumers,
+.page-node-2582 #main-menu li a.civil-rights-nav-cr-for-consumers { /* as per wt-11083 consumers are individuals. kept previous for code purposes */
+	color: #666;
+	background:url(images/civil_rights_for_consumer_greyicon.png) 20px #e9eaeb no-repeat; 
+	border: solid 2px #a06519;
+	padding: 8px 25px 30px 87px;
+}
+
+.cr-for-consumers-menu-trail a.civil-rights-nav-cr-for-consumers{ /* copy from ".civil-rights-nav-cr-for-consumers.active " with menu trail addition */ /* as per wt-11083 consumers are individuals. kept previous for code purposes */
+	color: #666 !important;
+	background:url(images/civil_rights_for_consumer_greyicon.png) 20px #e9eaeb no-repeat; 
+	border: solid 2px #a06519;
+	padding: 8px 25px 30px 87px;
+}
+
+a.civil-rights-nav-filling-a-complaint { 
+	color: #fff;
+	padding: 10px 41px 30px 98px;	/* 10 41 30 68 */
+	background:url(images/filing_a_complaint_whiteicon.png) 50px #a34869 no-repeat;		/* 20 */
+	font-weight: bold;
+	width: 220px;
+}
+.civil-rights-nav-filling-a-complaint.active { 
+	color: #666;
+	background:url(images/filing_a_complaint_greyicon.png) 48px #e9eaeb no-repeat;		/* 18 */
+	border: solid 2px #a34869;
+	padding: 8px 41px 30px 96px;	/* 8 41 30 66 */
+}
+
+.civil-rights-page.cr-filling-a-complaint-menu-trail #main-menu li a.civil-rights-nav-filling-a-complaint { /* copy from " .civil-rights-nav-filling-a-complaint.active " with menu trail addition */
+	color: #666;
+	background:url(images/filing_a_complaint_greyicon.png) 48px #e9eaeb no-repeat;		/* 18 */
+	border: solid 2px #a34869;
+	padding: 8px 41px 30px 96px;	/* 8 41 30 66 */
+}
+
+a.civil-rights-nav-cr-for-providers { 
+	color: #fff;
+	padding: 10px 25px 30px 82px;	/* 10 25 30 72 */
+	background:url(images/civil_rights_for_providers_whiteicon.png) 30px #317686 no-repeat;	/* 20 */
+	font-weight: bold;
+	width: 220px;	
+}
+.civil-rights-nav-cr-for-providers.active {
+	color: #666;
+	background:url(images/civil_rights_for_providers_greyicon.png) 28px #e9eaeb no-repeat;	/* 18 */
+	border: solid 2px #317686;
+	padding: 8px 25px 30px 80px;	/* 8 25 30 70 */
+}
+
+.civil-rights-page.cr-for-providers-menu-trail #main-menu li a.civil-rights-nav-cr-for-providers { /* copy from " .civil-rights-nav-cr-for-providers.active " with menu trail addition */
+	color: #666;
+	background:url(images/civil_rights_for_providers_greyicon.png) 28px #e9eaeb no-repeat;	/* 18 */
+	border: solid 2px #317686;
+	padding: 8px 25px 30px 80px;	/* 8 25 30 70 */
+}
+
+a.civil-rights-nav-newsroom { 
+	color: #fff;
+	padding: 20px 25px 20px 96px;	/* 20 25 20 64 */
+	background:url(images/newsroom_whiteicon.png) 50px #7d6f55 no-repeat; /* 20 */
+	font-weight: bold;
+	width: 220px;
+}
+.civil-rights-nav-newsroom.active, .page-node-2667.civil-rights-page #main-menu li a.civil-rights-nav-newsroom { 
+	color: #666;
+	background:url(images/newsroom_greyicon.png) 48px #e9eaeb no-repeat;  /* 18 */
+	border: solid 2px #7d6f55;
+	padding: 18px 25px 20px 94px;	/* 18 25 20 62 */
+	margin-bottom: 15px; /* ? */
+}
+
+.civil-rights-page .navbar-fixed-top #main-menu li a.civil-rights-nav-cr-for-consumers, 
+.civil-rights-page .navbar-fixed-top #main-menu li a.civil-rights-nav-filling-a-complaint, 
+.civil-rights-page .navbar-fixed-top #main-menu li a.civil-rights-nav-cr-for-providers, 
+.civil-rights-page .navbar-fixed-top #main-menu li a.civil-rights-nav-newsroom{ /* as per wt-11083 consumers are individuals. kept previous for code purposes */
+	background-image: none;
+	padding: 10px;
+	width: 235px;
+	
+	-webkit-transition: padding 0.3s ease; 
+	-moz-transition: padding 0.3s ease; 
+	-ms-transition: padding 0.3s ease; 
+	-o-transition: padding 0.3s ease; 
+	transition: padding 0.3s ease;
+	margin-bottom:0px;
+	height: 40px;
+	text-align: center;
+}
+
+.civil-rights-page.cr-filling-a-complaint-menu-trail .navbar-fixed-top #main-menu li a.civil-rights-nav-cr-for-consumers.active, 
+.civil-rights-page.cr-filling-a-complaint-menu-trail .navbar-fixed-top #main-menu li a.civil-rights-nav-filling-a-complaint.active, 
+.civil-rights-page.cr-filling-a-complaint-menu-trail .navbar-fixed-top #main-menu li a.civil-rights-nav-cr-for-providers.active, 
+.civil-rights-page.cr-filling-a-complaint-menu-trail .navbar-fixed-top #main-menu li a.civil-rights-nav-newsroom.active  { /* as per wt-11083 consumers are individuals. kept previous for code purposes */
+	padding: 8px 10px;
+	margin: 0;
+	height: 40px;
+} 
+
+/*===============CIV RIGHTS NAV======== end ===*/
+/*===============HIPAA NAV======== start ===*/
+a.hipaa-nav-hipaa-for-consumers, a.hipaa-nav-filling-a-complaint, a.hipaa-nav-hipaa-for-professionals, a.hipaa-nav-newsroom { /* as per wt-11083 consumers are individuals. kept previous for code purposes */
+    float: left;
+    width: 220px;
+    height: 60px;
+}
+
+a.hipaa-nav-hipaa-for-consumers { /* as per wt-11083 consumers are individuals. kept previous for code purposes */
+	color: #fff;
+	padding: 10px 25px 30px 103px; /* 10 25 30 85 */
+	background:url(images/personnel-nav-icon.png) 33px #a06519 no-repeat;	/* 20 */
+	font-weight: bold;
+	width: 220px;
+}
+.hipaa-page #main-menu li .hipaa-nav-hipaa-for-consumers.active { /* as per wt-11083 consumers are individuals. kept previous for code purposes */
+	color: #666;
+	background:url(images/civil_rights_for_consumer_greyicon.png) 32px #e9eaeb no-repeat;	/* 19 */
+	border: solid 2px #a06519;
+	padding: 8px 25px 30px 102px;	/* 8 25 30 84 */
+}
+
+.hipaa-for-consumers-menu-trail #main-menu li a.hipaa-nav-hipaa-for-consumers { /* copy from " .hipaa-nav-hipaa-for-consumers.active " with menu trail addition */ /* as per wt-11083 consumers are individuals. kept previous for code purposes */
+	color: #666;
+	background:url(images/civil_rights_for_consumer_greyicon.png) 33px #e9eaeb no-repeat;
+	border: solid 2px #a06519;
+	padding: 8px 25px 30px 103px;
+}
+
+a.hipaa-nav-filling-a-complaint { 
+	color: #fff;
+	padding: 10px 42px 30px 99px;	/* 10 42 30 64 */
+	background:url(images/filing_a_complaint_whiteicon.png) 50px #a34869 no-repeat;	/* 20 */
+	font-weight: bold;
+	width: 220px;
+}
+.hipaa-nav-filling-a-complaint.active { 
+	/*color: #666;*/
+	/*background:url(images/filing_a_complaint_greyicon.png) 49px #e9eaeb no-repeat;*/	/*	19	*/
+	/*border: solid 2px #a34869;*/
+	/*padding: 8px 42px 30px 97px;*/	/* 8 42 30 62 */
+}
+
+.hipaa-filling-a-complaint-menu-trail #main-menu li a.hipaa-nav-filling-a-complaint { /* copy from " .hipaa-nav-filling-a-complaint.active " with menu trail addition */
+	color: #666;
+	background:url(images/filing_a_complaint_greyicon.png) 49px #e9eaeb no-repeat; /* 19 */
+	border: solid 2px #a34869;
+	padding: 8px 42px 30px 97px;	/* 8 42 30 62 */
+}
+
+a.hipaa-nav-hipaa-for-professionals { 
+	color: #fff;
+	padding: 10px 25px 30px 90px;	/* 10 25 30 72 */
+	background:url(images/hipaa_for_professionals_whiteicon.png) 35px #317686 no-repeat; /* 20 */
+	font-weight: bold;
+	width: 220px;	
+}
+.hipaa-nav-hipaa-for-professionals.active {
+	color: #666;
+	background:url(images/hipaa_for_professionals_greyicon.png) 34px #e9eaeb no-repeat;	/* 19 */
+	border: solid 2px #317686;
+	padding: 8px 25px 30px 88px; /* 8 25 30 70 */
+}
+
+.hipaa-for-professionals-menu-trail #main-menu li a.hipaa-nav-hipaa-for-professionals { /* copy from " .hipaa-nav-filling-a-complaint.active " with menu trail addition */
+	color: #666;
+	background:url(images/hipaa_for_professionals_greyicon.png) 35px #e9eaeb no-repeat;
+	border: solid 2px #317686;
+	padding: 8px 25px 30px 90px;
+}
+
+a.hipaa-nav-newsroom { 
+	color: #fff;
+	padding: 20px 25px 20px 96px; /* 20 25 20 61 */
+	background:url(images/newsroom_whiteicon.png) 50px #7d6f55 no-repeat;	/* 20 */
+	font-weight: bold;
+	width: 220px;
+}
+.hipaa-nav-newsroom.active, .hipaa-page.page-node-3239 #main-menu li .hipaa-nav-newsroom { 
+	color: #666;
+	background:url(images/newsroom_greyicon.png) 49px #e9eaeb no-repeat;	/* 19 */
+	border: solid 2px #7d6f55;
+	padding: 18px 25px 20px 94px; /* 18 25 20 59 */
+	margin-bottom: 15px; /* ? */
+}
+.hipaa-page .navbar-fixed-top #main-menu li a.hipaa-nav-hipaa-for-consumers, 
+.hipaa-filling-a-complaint-menu-trail .navbar-fixed-top #main-menu li a.hipaa-nav-filling-a-complaint, 
+.hipaa-for-professionals-menu-trail .navbar-fixed-top #main-menu li a.hipaa-nav-hipaa-for-professionals, 
+.page-node-3239 .navbar-fixed-top #main-menu li a.hipaa-nav-newsroom { /* as per wt-11083 consumers are individuals. kept previous for code purposes */
+	background-image: none; 
+	padding: 10px;
+	width: 235px;
+	
+	-webkit-transition: padding 0.3s ease; 
+	-moz-transition: padding 0.3s ease; 
+	-ms-transition: padding 0.3s ease; 
+	-o-transition: padding 0.3s ease; 
+	transition: padding 0.3s ease;
+	margin-bottom:0px;
+	height: 40px;
+	text-align: center;
+}
+
+.hipaa-filling-a-complaint-menu-trail .navbar-fixed-top #main-menu li a.hipaa-nav-hipaa-for-consumers.active, 
+.hipaa-filling-a-complaint-menu-trail .navbar-fixed-top #main-menu li a.hipaa-nav-filling-a-complaint.active, 
+.hipaa-filling-a-complaint-menu-trail .navbar-fixed-top #main-menu li a.hipaa-nav-hipaa-for-professionals.active, 
+.hipaa-filling-a-complaint-menu-trail .navbar-fixed-top #main-menu li a.hipaa-nav-newsroom.active  { /* as per wt-11083 consumers are individuals. kept previous for code purposes */
+	padding: 8px 10px;
+	margin: 0;
+	height: 40px;
+}
+
+/*===============HIPAA NAV======== end ===*/
+
+/*===============LEFT NAV======= start ===*/
+/* takes the left nav and makes it look like a compressed nav - avoids the accordion */
+.block-menu-menu-ocr-left-nav ul li , .block-menu-menu-civil-rights-left-nav ul li, .block-menu-menu-hipaa-left-nav ul li {
+    background: #f7f7f7 none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    margin: 0px;
+}
+/*===============LEFT NAV========= end ===*/
+
+
+
+/* ================ Changes to FAQs ================== */
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+	top: -5px;
+}
+.page-faqs .views-row.accordion-row span.accordion-title {
+	font-size: 14px;
+	font-weight: bold;
+	padding-right: 39px;
+}
+.accordion-row .accordion-title {
+	font-size: 14px;
+	font-weight: bold;
+	padding-right: 39px;
+}
+
+/*.ocr-page .field-item.even > h2, .civil-rights-page .field-item.even > h2, .hipaa-page .field-item.even > h2 {
+	border-top: 1px solid #dddddd;
+	padding-top: 20px;
+}*/
+.civil-rights-page .site-content-with-left-nav .field-item.even > p + h2, 
+.ocr-page div[about*='get-help-in-other-languages'] .field-item.even > ul + h2,
+.hipaa-page div[about*='/hipaa/newsroom/news-archive/index.html'] .field-name-body p+h2,
+.hipaa-page div[about*='/hipaa/newsroom/'] .field-name-body h2,
+.ocr-page div[about*='/ocr/newsroom/archive/'] .field-name-body h2,
+.hipaa-filling-a-complaint-menu-trail div[about*='filing-a-complaint'] .field-name-body h2,
+.hipaa-for-consumers-menu-trail div[about*='personal-representatives'] .field-name-body .field-item.even h2 { 
+	padding-top: 20px;
+	border-top: 1px solid #d2d2d2;
+}
+.civil-rights-page .site-content-with-left-nav .field-item.even > p + hr + h2, 
+.ocr-page div[about*='get-help-in-other-languages'] .field-item.even > p + h2, 
+.ocr-page div[about*='/ocr/newsroom/archive/'] .field-name-body > h2:first-child,
+.hipaa-page div[about*='/hipaa/newsroom/news-archive/index.html'] .field-name-body > h2:first-child,
+.hipaa-filling-a-complaint-menu-trail div[about*='filing-a-complaint'] .field-name-body > h2:first-child
+/* .hipaa-for-consumers-menu-trail .field-name-body .field-item.even > div > div:first-child + div > h2*/
+{ /* attempting to target first instance */
+	border-top: none;
+	padding-top: 0;	
+}
+/* following undoes something in the healthcare.css */
+.hipaa-page a.view-all, .hipaa-page p.view-all, .civil-rights-page a.view-all, .civil-rights-page p.view-all, .ocr-page a.view-all, .ocr-page p.view-all{
+	background: rgba(0, 0, 0, 0) url("images/view-all-arrow.png") no-repeat scroll right center;
+    padding: 0 15px 0 0;
+}
+
+/* fix for billboard carousel controls - overwriting behavior in iia.css */
+.view-iia-billboard .carousel .carousel-indicators {
+	bottom: 4px;
+}
+/* fix for billboard text - overwriting behavior in iia.css */
+.views-field-field-subsite-billboard-teas-txt .field-content, .views-field-field-subsite-billboard-teas-tst .field-content {
+	padding: 8px 20px !important; /* this was working at one point but somehow someone overwrote my work. */
+}
+/* fix to billboard for potential border-bottom issue */
+.hipaa-page .field-content > img, .civil-rights-page .field-content > img, .ocr-page .field-content > img {
+	height: 260px;
+}
+/* links in billboard text */
+.view-content .carousel-inner .views-field .field-content a {
+	color: #ffffff !important; /* counters style.css */
+}
+
+#page_2 .voccheckboxesshort, #page_3 .voccheckboxesshort { 
+	background-color: #fbefcd !important;
+}
+
+.panels-flexible-independent_ia{
+  margin-bottom: 30px;
+}
+
+.panels-flexible-region-independent_2column_span-top_region p{
+	margin: 0 0 23px; /* was 0 0 23 */
+}
+
+.iia-footer {
+	/*border-top: 1px solid #d2d2d2;*/
+}
+/* following line because of it-2006 - ah */
+.page-faqs .views-accordion-faqs-page_1-header.accordion-row, .page-faqs .views-accordion-faqs-page_2-header.accordion-row {
+	padding-top: 25px !important;
+}
+/* changes to hipaa faq as per it-2007 - ah */
+.hipaa-page #block-views-faqs-block-3 {
+	border-bottom: 1px solid #dddddd;
+	margin-bottom: 25px;
+}
+.hipaa-page .block.block-block.page-search-block.block-block-29.clearfix {
+	padding-bottom: 25px;
+}
+
+.civil-rights-page .view-content.ui-accordion.ui-widget.ui-helper-reset p > a {
+	line-height: 40px;
+}
+
+.hipaa-page div.content div.first-tile div.pane-content {
+	height: auto !important; /* once again adding code to overwrite something in style.css (line 1577) */
+	max-height: 260px; /* shouldn't break the size */
+}
+.ocr-page .field-item.even img, .civil-rights-page .field-item.even img, .hipaa-page .field-item.even img {
+	margin-left: 20px !important;
+	margin-bottom: 20px !important;
+}
+
+/* resize for mobile section */
+@media only screen and (max-width: 767px) {
+
+a.nav-hhs-home {
+display:block;
+}
+.slicknav_nav a.ocr-nav-about-us, 
+.slicknav_nav a.ocr-nav-civil-rights, 
+.slicknav_nav a.ocr-nav-filing-with-ocr, 
+.slicknav_nav a.ocr-nav-health-info, 
+.slicknav_nav a.ocr-nav-newsroom, 
+.slicknav_nav a.ocr-nav-about-us.active, 
+.slicknav_nav a.ocr-nav-civil-rights.active, 
+.slicknav_nav a.ocr-nav-filing-with-ocr.active, 
+.slicknav_nav a.ocr-nav-health-info.active, 
+.slicknav_nav a.ocr-nav-newsroom.active,
+
+.slicknav_nav a.civil-rights-nav-cr-for-consumers, 
+.slicknav_nav a.civil-rights-nav-filling-a-complaint, 
+.slicknav_nav a.civil-rights-nav-cr-for-providers, 
+.slicknav_nav a.civil-rights-nav-newsroom,
+.slicknav_nav a.civil-rights-nav-cr-for-consumers.active, 
+.slicknav_nav a.civil-rights-nav-filling-a-complaint.active, 
+.slicknav_nav a.civil-rights-nav-cr-for-providers.active, 
+.slicknav_nav a.civil-rights-nav-newsroom.active,
+
+.slicknav_nav a.hipaa-nav-hipaa-for-consumers, 
+.slicknav_nav a.hipaa-nav-filling-a-complaint, 
+.slicknav_nav a.hipaa-nav-hipaa-for-professionals, 
+.slicknav_nav a.hipaa-nav-newsroom,
+.slicknav_nav a.hipaa-nav-hipaa-for-consumers.active, 
+.slicknav_nav a.hipaa-nav-filling-a-complaint.active, 
+.slicknav_nav a.hipaa-nav-hipaa-for-professionals.active, 
+.slicknav_nav a.hipaa-nav-newsroom.active
+ { /* as per wt-11083 consumers are individuals. kept previous for code purposes */
+	font-size: 20px;
+	color: #FFF;
+	width: 100%;
+	font-weight: normal;
+	border: none;
+	margin: 0; 
+	background-image: none;
+	background-color: #185394;
+	padding: 10px 0;
+	border-bottom: solid thin #4b73a3;
+	display: inline-block;
+	text-align: center;
+	}
+
+.navbar-fixed-top a.ocr-nav-about-us, 
+.navbar-fixed-top a.ocr-nav-about-us.active, 
+.navbar-fixed-top a.ocr-nav-civil-rights, 
+.navbar-fixed-top a.ocr-nav-civil-rights.active, 
+.navbar-fixed-top a.ocr-nav-filing-with-ocr, 
+.navbar-fixed-top a.ocr-nav-filing-with-ocr.active, 
+.navbar-fixed-top a.ocr-nav-health-info, 
+.navbar-fixed-top a.ocr-nav-health-info.active, 
+.navbar-fixed-top a.ocr-nav-newsroom, 
+.navbar-fixed-top a.ocr-nav-newsroom.active{
+	width: 100%;
+	}
+
+	
+
+/* comment out the following close bracket and then comment out the @media line below that because why close then reopen? */
+/* } */ /* end mobile resize section - return back to normal layout */
+
+/* @media only screen and (max-width: 767px) { */
+
+/* .panels-flexible-row-l3_layout-4-inside = .panels-flexible-row-l2_and_l3_layout-4-inside */
+	.panels-flexible-row-l3_layout .panels-flexible-row .panels-flexible-region-last {
+		float: right;
+	}
+
+
+.view-iia-billboard .carousel {
+	//height: inherit;
+}
+.panels-flexible-independent_ia .panels-flexible-row .panels-flexible-region-last {
+	float: left;
+}
+div.view-content div.carousel.slide {
+	margin-left: 0px;
+}
+.carousel .carousel-inner {
+	background-color: #666666;
+}
+.panels-flexible-region-independent_ia-left_region {
+	width: 100%;	/* this works at the moment but I'm not sure it will for long. */
+}
+.panels-flexible-row.panels-flexible-row-first + div > div > div.panels-flexible-region-first { /* this appears to target only the "I would like to.." box. Good. */
+	width: 100%;
+}
+.panels-flexible-row.panels-flexible-row-first + div > div > div.panels-flexible-region-first + div { /* targets the billboard container. */
+	width: 100%;
+}
+div.view-content div.carousel.slide { /* centers the billboard for mobile */
+	margin-left: auto;
+	margin-right: auto;
+}
+.view-iia-billboard .carousel { /* possible resize of billboard in mobile - might have to worry about hardcoded image sizes */
+	width: 100%; 
+}
+
+/* some testing for the billboard */
+.field-content > img { background-color: #660000; }
+.region-content img {
+	max-height: 259px !important;
+}
+.carousel-control.left, .carousel-control.right {
+	background-color: #ffffff;
+	height: 258px !important; /* make the controls bigger on mobile */
+	opacity: .5; 
+}
+.view-iia-billboard .carousel-control.right {	/* concept here - on resize, keeps the right arrow on side of image */
+	/* left: 256px; */
+	right: 1px;
+}
+.view-iia-billboard .carousel-control.left {
+	left: -9px;
+}
+.views-field-field-subsite-billboard-headline { /* overriding iia.css again - line 553 */
+	margin-top: 0 !important;
+	padding-left: 20px;
+}
+
+
+.panels-flexible-row-l3_layout .panels-flexible-row .panels-flexible-region-last {
+		float: right;
+	}
+
+
+.view-iia-billboard .carousel {
+	height: inherit;
+}
+.panels-flexible-independent_ia .panels-flexible-row .panels-flexible-region-last {
+	float: left;
+	/* margin-left: 10px; */ /* fixing something */
+}
+.panels-flexible-independent_ia .panels-flexible-region-first, .panels-flexible-independent_ia .panels-flexible-region-last { /* overwrite iia.css - again - line 152 */
+	/*width: 300px !important;*/
+}
+.flip-card .field-name-body.bg-news { /* overwrite healthcare */
+	margin-left: 0 !important;
+	width: 100%;
+}
+.panel-pane.pane-node.first-tile, .panel-pane.pane-node.crosslink-tile { /* overwrite iia again */
+	margin-left: 0 !important;
+}
+div.view-content div.carousel.slide {
+	margin-left: 0px;
+}
+.carousel .carousel-inner {
+	background-color: #666666;
+}
+.panels-flexible-region-independent_ia-left_region {
+	width: 100%;	/* this works at the moment but I'm not sure it will for long. */
+}
+
+/* some breadcrumb mobile changes */
+div#hhs-global-breadcrumbs div.inner > p.breadcrumb {
+	margin-top: 15px !important;
+	margin-bottom: 15px !important;
+}
+.block-panels-mini .flip-card, .block-panels-mini .flip-card .field-name-body, .block-panels-mini .mini-tile, .block-panels-mini .crosslink-tile, .block-panels-mini .first-tile .pane-node {
+//    height: 200px;
+    width: 100% !important; /* they want the box to be 300px wide */
+//    margin-bottom: 10px;
+	margin-top: 0;
+}
+.field.field-name-body.field-type-text-with-summary.field-label-hidden.bg-contracts {
+//	height: 200px !important;
+	width: 100% !important; /* for some reason it was 310. Should be 300 */
+}
+
+/* somehow the control bar for the billboard isn't pulling right. Trying to fix with this - overwrites mobile.css */
+.carousel .carousel-indicators {
+	top: 470px !important;
+}
+.view-iia-billboard .carousel .carousel-indicators {
+	margin-top: -27px !important;  /* was -210 */
+	height: 19px;
+	width: 100% !important; /* someone messed up my formatting. I go away for 1 week and this happens. Changing width to 100% from 95% and adding left: -12px - 10/20/15 - ah */
+	left: -12px;
+}
+
+
+/* fix to panels - need for alignment in mobile (same concern - mobile loads after ocr.css) - it-1936 - 10/05/15 - ah */
+div.content div.panels-flexible-row .left {
+//	margin-left: 10px !important;
+}
+.civil-rights-page .content .panel-flexible .panel-flexible-inside .panels-flexible-row .panels-flexible-row-independent_ia-main-row-inside.clearfix .panels-flexible-region-first.left { /* need to target the last panel */
+//	margin-left: 0px !important;
+}
+.hipaa-page .content .panel-flexible .panel-flexible-inside .panels-flexible-row .panels-flexible-row-independent_ia-main-row-inside.clearfix .panels-flexible-region-first.left { /* need to target the last panel */
+//	margin-left: 0px !important;
+}
+/* fix to mobile panels look - interferes with mobile.css line 16 and style.css line 1667 */
+div.content .panel-flexible .row { /* without the div.content portion, ends up hiding the menu */
+//	margin-left: -10px !important;
+}
+.panel-flexible {
+ padding-bottom:30px;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 0px;
+
+}
+.panel-pane.pane-node.first-tile, .panel-pane.pane-node.crosslink-tile {
+//	margin-left: 0 !important; /* competing with iia.css line 503 */
+	width: 100% !important; /* 300px*/
+}
+.flip-card .field-name-body.bg-news {
+//	margin-left: 0 !important; /* again, don't know why - competing with healthcare.css line 659 */
+}
+.page-stamp { /* once again competing with iia.css line 828 because iia */
+//	border-top: 1px solid #d2d2d2 !important;
+}
+.iia-footer {
+//	border-top: 1px solid #d2d2d2;
+}
+/* extra line spacing for mobile version of sub menu intra page links */
+.view-content.ui-accordion.ui-widget.ui-helper-reset > p {
+	line-height: 40px;
+}
+.hipaa-page div.region-content div.field-items div.field-item p iframe {
+	margin-left: 0 !important; /* counteract the margin-left declaration in iia.css 823 */
+}
+
+.main-section .left-nav-region { /* quick fix to look for expanding sub menu */
+	margin-bottom: 30px;
+}
+
+} 
+/* ***************************************** */
+/* * End of the resized for mobile section * */
+/* ***************************************** */
+
+/* ************************************************* */
+/* * Following section is for localized print styles */
+/* ************************************************* */
+@media print {
+	div.iia-footer {	/* this holds the twitter box */ 
+		display: none;
+	}
+	ul.links.list-inline a { /* this hides the errant "read more" in boxes */
+		display: none;
+	}
+
+}
+
+/* adding for position of twitter box */
+#block-nodeblock-3760 {
+	display: block;
+	float: left;
+	margin-bottom: 20px;
+} 
+

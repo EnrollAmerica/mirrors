@@ -1,0 +1,849 @@
+/* Consolidation styles*/
+
+/*#voc_tool_container{
+	margin-top: 40px;
+}
+*/
+
+.panels-flexible-region-independent_2column_span-top_region p,
+.panels-flexible-region-independent_2column_span-top_region p:last-child {
+    margin: 0px 0px 5px;
+}
+
+.first-tile h2,
+.first-tile .pane-content h2 {
+    display: block !important;
+}
+
+.navbar-fixed-top ul#main-menu li {
+    margin-bottom: 0px;
+}
+
+.navbar-fixed-top #main-menu li.last {
+    float:left;
+}
+
+.hhs-blue-header {
+    min-height: 90px;
+}
+
+.hhs-blue-header .inner{
+    overflow: hidden;
+}
+
+.hhs-blue-header .sticky-nav-search {  
+    top: -90px;
+    left: 889px;
+}
+/* chrome hack */
+@supports (-webkit-appearance:none) { 
+    .hhs-blue-header .sticky-nav-search {
+        left: 893px;
+    }
+}
+
+.site-title {
+    display: block;
+    padding: 5px 0px;
+    clear: left;
+    color:#f8b204;
+    font-weight: bold;
+    font-size:23px;
+    line-height: 24px;
+}
+
+.site-title.very-long-title {
+    font-size:20px;
+}
+
+.site-title a{
+    color:#f8b204;
+    text-decoration:none;
+}
+
+.site-name {
+    position: relative;
+    float:right;
+    top: -80px;
+}
+
+h2.pane-title {
+    display: none;
+}
+
+
+.block-views-what-s-new-block
+{
+    width: 300px;
+    height: 200px;
+    padding: 15px;
+    border: solid 1px #d6d6d6;
+    background:  #f7f7f7;
+    float:left;
+    margin-right:15px;
+}
+
+.block-views-what-s-new-block h2
+{
+    font-size: 20px;
+    color: #185394;
+}
+
+.panels-flexible-row-staff_division_office-1 {
+    padding-bottom:30px;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom:30px;
+}
+
+.panels-flexible-row-staff_division_office-1 {
+    padding-bottom:30px;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom:30px;
+}
+
+
+.panels-flexible-independent_ia .panels-flexible-row,
+.panels-flexible-independent_ia .panels-flexible-region-first.panels-flexible-region-last
+{
+    width: 100%;
+}
+
+.panels-flexible-independent_ia .panels-flexible-region:last-child
+{
+    margin-right: 0px;
+}
+
+.panels-flexible-region-inside
+{
+    padding: 0;
+}
+
+.panels-flexible-independent_ia .two-columns-of-three,
+.panels-flexible-independent_ia .two-columns-of-three .crosslink-tile,
+.panels-flexible-independent_ia .two-columns-of-three .below-the-fold-box
+{
+    width: 620px;
+}
+
+
+/* end potential sizing fix */
+
+
+.panels-flexible-independent_2column_span .panels-flexible-region-independent_2column_span-center {
+    background-color:#f6f7f7 !important;
+    padding:20px;
+    border: 1px solid #cecece;
+    margin-left: 0px;
+}
+
+.panels-flexible-independent_2column_span .panels-flexible-region-independent_2column_span-center h3{
+    margin-top:0px;
+}
+
+.panels-flexible-independent_2column_span .panels-flexible-region-independent_2column_span-center p{
+    margin-bottom:15px;
+}
+
+.panels-flexible-independent_2column_span .panels-flexible-region-independent_2column_span-center {
+    width: 65.2% !important;
+}
+
+div.panels-flexible-row-independent_2column_span-main-row {
+    width:100.8% !important;
+}
+
+
+
+.block-views-what-s-new-block .views-row {
+    border-top: 1px solid #d1d1d1;
+}
+
+.block-views-what-s-new-block .views-row:first-child {
+    border-top: none;
+}
+      
+.block-views-what-s-new-block .views-row .views-field {
+    line-height: 2.24em;
+}
+    
+a.nav-personnel-hhs, a.nav-mission-vision, a.nav-roles, a.nav-contact, a.nav-hhs-home {
+    text-align: center;
+    box-sizing: border-box;
+    font-weight: bold;
+    color: #fff;
+    float: left;
+    width: 220px;
+    margin-bottom:15px; 
+}
+
+a.nav-personnel-hhs {
+    color: #fff;
+    padding: 20px 15px 20px 60px;
+    background:url(images/personnel-nav-icon.png) 20px #a06519 no-repeat;   
+}
+
+.nav-personnel-hhs.active{ 
+    color: #666;
+    background:url(images/about-hhs-nav-icon-grey.png) 50px #a06519 no-repeat;
+    border: solid 2px #1a5293;
+}
+    
+a.nav-mission-vision {
+    color: #fff;
+    padding: 20px 5px 20px 60px;
+    background:url(images/mission-nav-icon.png) 10px #a34869 no-repeat; 
+}
+    
+.nav-mission-vision.active{ 
+    color: #666;
+    background:url(images/about-hhs-nav-icon-grey.png) 50px #a34869 no-repeat;
+    border: solid 2px #1a5293;
+}
+
+a.nav-hhs-home {
+    display:none;
+}
+    
+a.nav-roles {
+    color: #fff;
+    padding: 10px 15px 10px 60px;
+    background:url(images/roles-nav-icon.png) 10px #317686 no-repeat;   
+}
+    
+.nav-roles.active{ 
+    color: #666;
+    background:url(images/about-hhs-nav-icon-grey.png) 50px #317686 no-repeat;
+    border: solid 2px #1a5293;
+}
+    
+a.nav-contact {
+    color: #fff;
+    padding: 20px 15px 20px 60px;
+    background:url(images/contact-nav-icon.png) 0px #7d6f55 no-repeat;
+    margin-right:-10px !important;
+}
+    
+.nav-contact.active{ 
+    color: #666;
+    background:url(images/about-hhs-nav-icon-grey.png) 50px #7d6f55 no-repeat;
+    border: solid 2px #1a5293;
+}
+
+.navbar-fixed-top a.nav-personnel-hhs, .navbar-fixed-top a.nav-mission-vision, .navbar-fixed-top a.nav-roles, .navbar-fixed-top a.nav-contact{
+    background-image: none;
+    padding: 10px;
+    width: 235px;
+    
+    -webkit-transition: padding 0.3s ease; 
+    -moz-transition: padding 0.3s ease; 
+    -ms-transition: padding 0.3s ease; 
+    -o-transition: padding 0.3s ease; 
+    transition: padding 0.3s ease;
+    margin-bottom:0px;
+}
+
+.navbar-fixed-top .nav-personnel-hhs.active, .navbar-fixed-top .nav-roles.active,.navbar-fixed-top .nav-contact.active{
+    padding: 8px 10px;
+    margin: 0;
+    height: 40px;
+}
+
+
+.region-left-nav h2 {
+
+display:none;
+}
+
+.panels-flexible-independent_2column_span .panels-flexible-region-inside {
+    
+    padding-left: 0px;
+}
+
+
+
+/*===============LEFT NAV======= start ===*/
+.block-menu-menu-ocr ul li {
+    background: #f7f7f7 none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    margin: 0px;
+}
+
+/*===============LEFT NAV========= end ===*/
+
+
+.newsletter-signup {
+    width:300px;
+    padding-top: 0;
+    float:left;
+}
+
+.newsletter-signup h2 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.newsletter-signup #email {
+   width: 100%;
+}
+
+.newsletter-signup .submit {
+   background-color: #fbbb3d;
+   color: #185394;
+   height: 30px;
+   width: 76px;
+   font-weight: bold;
+   margin-top: 5px;
+}
+
+.tweets-blog {
+    background-color: #f7f7f7;
+    border: 1px solid #d2d2d2;
+    float: left;
+    font-size: 14px;
+    height: 200x;
+    margin-right: 20px;
+    margin-top: 0px;
+    padding: 20px 0 0 15px;
+    width: 300px;
+    margin-bottom:30px;
+    height:290px;
+}
+
+.tweets-blog  h2 {
+    margin-top: 0;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.view-iia-billboard .carousel {
+   height: 260px;
+   width: 620px;
+   margin-top: 0;
+   background-color: #535353;
+}
+
+.view-iia-billboard .carousel .carousel-inner {
+    cursor: pointer;
+}
+
+.view-iia-billboard h3 a{
+    text-decoration:none;
+    color:#fff !important;
+}
+
+.views-field-field-subsite-billboard-image {
+    float: left;
+    width: 308px;
+}
+
+.views-field-field-subsite-billboard-image img{
+    width: 309px;
+    height: 258px;
+}
+
+.views-field-field-subsite-billboard-headline .field-content{
+    color: #fff;
+    float: right;
+    font-size: 20px;
+    padding: 20px;
+    position: relative;
+    width: 308px;
+}
+
+#site-content .views-field-field-subsite-billboard-headline .field-content a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.views-field-field-subsite-billboard-teas-txt .field-content,
+.views-field-field-subsite-billboard-teas-tst .field-content {
+    color:#cccccc;
+    width:308px;
+    float:right;
+    padding:0px 20px 20px 20px;
+}
+
+.views-field-field-subsite-billboard-teas-txt .field-content p {
+    margin-bottom: 0px;
+}
+
+a.carousel-control.left {
+    width:53px;
+    margin-left:0px;
+}
+
+
+a.carousel-control.right {
+    width:53px !important;
+    margin-left:0px;
+}
+
+.view-iia-billboard .carousel .carousel-indicators {
+    bottom: 10px;
+}
+
+.view-iia-billboard .carousel-control.right {
+    right: 310px;
+    width: 53px;
+}
+
+.panels-flexible-row-l3_layout .panels-flexible-row .panels-flexible-region-last {
+    float: right;
+}
+
+.view-iia-billboard .carousel {
+    height: inherit;
+}
+
+
+.panels-flexible-row-independent_ia-4-inside .panels-flexible-region-first:first-child h2.pane-title{
+    display:block;
+}
+
+.panels-flexible-region .first-tile ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.panels-flexible-region .first-tile li:last-child {
+    border-bottom: 0 none;
+}
+
+.carousel-control {
+    margin-left: -20px;
+}
+
+.panel {
+    box-shadow:0px 0px 0px rgba(0, 0, 0, 0.00)
+}
+
+.logo-container {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f7f7f7;
+
+}
+
+.logo-container-inner {
+    margin: auto;
+    width:940px;
+}
+
+
+
+/********************** MOBILE STYLING ****************************************/
+
+@media only screen and (max-width: 767px) {
+    .panels-flexible-region-independent_2column_span-top_region p, 
+    .panels-flexible-region-independent_2column_span-top_region p:last-child {
+        margin: 20px 0px 5px;
+    }
+
+    a.nav-hhs-home {
+    display:block;
+    }
+
+    .panels-flexible-independent_ia .panels-flexible-row .panels-flexible-region-last {
+        float: left;
+    }
+    div.view-content div.carousel.slide {
+        margin-left: 0px;
+    }
+
+
+
+    .views-field-field-subsite-billboard-headline { /* overriding iia.css again - line 553 */
+        margin-top: 0 !important;
+        padding-left: 20px;
+    }
+
+    .views-field-field-subsite-billboard-image .field-content{
+        width: 100%;
+    }
+    .panels-flexible-row-l3_layout .panels-flexible-row .panels-flexible-region-last {
+        float: right;
+    }
+
+    #flu-vaccine-finder .pane-content{
+        text-align: center;
+    }
+
+    #flu-vaccine-finder p:first-child{
+        margin-bottom: 0;
+    }
+
+    #flu-vaccine-finder iframe{
+        margin-left: 0;
+    }
+
+    #flu-vaccine-finder iframe div.copy {
+        border: 1px solid red;
+    }
+
+    #flu-vaccine-finder iframe div.copy > div {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+    .flip-card .field-name-body.bg-news { /* overwrite healthcare */
+        margin-left: 0 !important;
+        width: 100%;
+    }
+
+    .carousel .carousel-inner {
+        background-color: #666666;
+    }
+    .panels-flexible-region-independent_ia-left_region {
+        width: 100%;    /* this works at the moment but I'm not sure it will for long. */
+    }
+    .panels-flexible-row.panels-flexible-row-first + div > div > div.panels-flexible-region-first { /* this appears to target only the "I would like to.." box. Good. */
+        width: 100%;
+    }
+    .panels-flexible-row.panels-flexible-row-first + div > div > div.panels-flexible-region-first + div { /* targets the billboard container. */
+        width: 100%;
+    }
+    div.view-content div.carousel.slide { /* centers the billboard for mobile */
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .view-iia-billboard .carousel { /* possible resize of billboard in mobile - might have to worry about hardcoded image sizes */
+        width: 100%; 
+    }
+
+
+    .panels-flexible-row.panels-flexible-row-first + div > div > div.panels-flexible-region-first {
+        width: 100%;
+    }
+
+    .panels-flexible-independent_ia .panels-flexible-region-inside {
+        padding-left: 0px;
+    }
+
+    .panels-flexible-independent_2column_span .panels-flexible-region-independent_2column_span-center {
+        width: 100% !important;
+        margin-top: 20px !important;
+    }
+
+
+
+    .below-the-fold .panels-flexible-independent_ia  .panels-flexible-region
+    {
+        margin-bottom: 20px
+    }
+
+    .panels-flexible-independent_ia  .panels-flexible-region-first,
+    .panels-flexible-independent_ia  .panels-flexible-region-last
+    {
+        width: 100%;
+    }
+
+    .panels-flexible-independent_ia .panels-flexible-region-inside
+    {
+        
+        padding-right: 0px;
+    }
+
+    .panels-flexible-independent_ia  .panels-flexible-region-last.middle
+    {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .panel-flexible {
+        border-bottom: 0px;
+    }
+
+    .hhs-blue-header {
+        height: auto !important;
+        min-height: 102px;
+        max-height: 152px;
+    }
+
+    .navbar-fixed-top .hhs-blue-header {
+        padding-bottom: 5px;
+    }
+
+    .hhs-blue-header .site-name {
+        display: block;
+        top: 0px;
+    }
+
+    .slide {
+         /*width: 300px !important;*/
+         /*height: 540px !important;*/
+         /*height: 440px !important*/
+         background-color: #fff !important;
+    }
+
+    .carousel-indicators {
+         background-color: #666 !important;
+    }
+
+    .views-field-field-subsite-billboard-image {
+        float: left; 
+        display: block;
+        /* width:94% !important;*/
+        /*margin-left:12px !important;*/
+    }
+
+    .views-field-field-subsite-billboard-image img{
+        width:100% !important;
+        /*margin-left:12px !important;*/
+        /*margin-left:-10px;*/
+    }
+
+    .views-field-field-subsite-billboard-headline {
+         float: left; 
+         display: block;
+         margin-top: 20px;
+         background-color: #666;
+         width:100%;
+         margin-left: -10px;
+         
+    }
+
+    .views-field-field-subsite-billboard-teas-txt, 
+    .views-field-field-subsite-billboard-teas-tst {
+        float: left !important; 
+        background-color: #666 !important;
+        height: 170px !important;
+        width:100%;
+        margin-bottom:20px;
+    }
+
+
+    a.nav-hhs-home {
+        display:block;
+    }
+
+    a.nav-personnel-hhs, a.nav-personnel-hhs.active, a.nav-mission-vision, a.nav-mission-vision.active, a.nav-roles, a.nav-roles.active, a.nav-contact, a.nav-contact.active, a.nav-hhs-home, a.nav-hhs-home.active{
+        font-size: 20px;
+        color: #FFF;
+        width: 100%;
+        font-weight: normal;
+        border: none;
+        margin: 0; 
+        background-image: none;
+        background-color: #185394;
+        padding: 10px 0;
+        border-bottom: solid thin #4b73a3;
+    }
+
+    .navbar-fixed-top a.nav-personnel-hhs, .navbar-fixed-top a.nav-personnel-hhs.active, .navbar-fixed-top a.nav-contact, .navbar-fixed-top a.nav-contact.active, .navbar-fixed-top a.nav-mission-vision, .navbar-fixed-top a.nav-mission-vision.active, .navbar-fixed-top a.nav-roles, .navbar-fixed-top a.nav-roles.active, .navbar-fixed-top a.nav-hhs-home, .navbar-fixed-top a.nav-hhs-home.active{
+        width: 100%;
+    }
+
+
+     /* Independent IA 2 Column span styles */
+     
+    .panels-flexible-region-independent_2column_span-center {
+    margin-left:0px !important;
+    }
+     
+    .panels-flexible-region-independent_2column_span-middle_region_,
+    .panels-flexible-region-independent_2column_span-left_region__,
+    .panels-flexible-region-independent_2column_span-right_region__,
+    .panels-flexible-region-independent_2column_span-middle_region,
+    .panels-flexible-region-independent_2column_span-left_region_,
+    .panels-flexible-region-independent_2column_span-right_region_, 
+    .panels-flexible-region-independent_2column_span-left_region
+     {
+        float: left;
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+
+    .panels-flexible-region-independent_2column_span-right_region__,
+    .panels-flexible-region-independent_2column_span-right_region_
+
+     {
+        left: 0px !important;
+        position: relative !important;
+        margin-left: 0;
+     }
+     
+    .panels-flexible-region-independent_2column_span-center {
+        width:100%;
+        display:block;
+     }
+     
+    .panels-flexible-independent_ia .two-columns-of-three,
+    .panels-flexible-independent_ia .two-columns-of-three .crosslink-tile ,
+    .panels-flexible-independent_ia .two-columns-of-three .below-the-fold-box
+    {
+        width: 100%;
+    }
+     /*  End Independent IA 2 Column snpan styles */
+     
+     
+    .block-views-what-s-new-block, .newsletter-signup {
+        margin-bottom: 20px;
+    }
+
+    .carousel-control.left {
+        margin-left: 1px;
+    }
+
+    .carousel-control.right {
+        margin-left: -25px;
+    }
+
+    .panels-flexible-row {
+        padding-top: 0px !important;
+    }
+
+
+
+    /****billboard styles Seth added ****/
+    .view-iia-billboard .carousel {
+       background-color: #666666;
+       border: 0px;
+       height: 260px;
+       margin-left: -11px;
+       width: 100%;;
+    }
+
+    .view-iia-billboard .carousel .carousel-inner {
+        border: none;
+    }
+
+    .carousel-inner {
+        width: 100%;
+    }
+
+    .view-iia-billboard h3 a{
+        text-decoration:none;
+        color:#fff !important;
+    }
+
+    .views-field-field-subsite-billboard-image {
+        float: left;
+        width: 100%;
+    }
+
+    .views-field-field-subsite-billboard-headline .field-content{
+        color: #fff;
+        float: right;
+        font-size: 20px;
+        padding: 20px 20px 0 10px;
+        position: relative;
+        width:100%;
+    }
+
+    .views-field-field-subsite-billboard-teas-txt .field-content,
+    .views-field-field-subsite-billboard-teas-tst .field-content {
+        color:#fff;
+        width:100%;
+        float:right;
+        padding: 10px 20px 20px 20px;
+    }
+
+    a.carousel-control.left {
+        width:53px;
+        margin-left:0px;
+    }
+
+
+
+    a.carousel-control.right {
+        width:53px !important;
+        margin-left:0px;
+    }
+
+    .view-iia-billboard .carousel .carousel-indicators {
+        bottom: 10px;
+        width:84%;
+        margin-left:12px;
+        position:absolute;
+        margin-top:300px;
+    }
+
+    .view-iia-billboard .carousel-control.right {
+        right: 315px;
+        width: 53px;
+    }
+
+    .view-iia-billboard .carousel-control.right,
+    .view-iia-billboard .carousel-control.left{
+        display: none;
+    }
+    .carousel-control .icon-next {
+        background: transparent url("images/carousel-right-arrow.png") no-repeat scroll 0% 0%;
+        width: 26px;
+        right: 2px;
+        height: 43px;
+    }
+
+    .flip-card {
+        height:200px;
+    }
+
+    .flip-card .field-name-body {
+       
+        height: 200px !important;
+        /*margin-top: 280px;*/
+     
+    }
+
+    .views-field-field-subsite-billboard-teas-txt, .views-field-field-subsite-billboard-teas-tst {
+    margin-left:-10px;
+    }
+
+    iframe {
+        width:100% !important;
+        float:left;
+        margin-left:-15px;
+    }
+
+    .tweets-blog {
+        padding: 20px 0px 0px 25px;
+        width:100%;
+        margin-top:10px;
+        margin-bottom: 0px;
+    }
+
+    .site-content, .site-content-with-left-nav {
+    padding:0px !important;
+    }
+
+    .page-stamp {
+        /*border-top: none !important;*/
+    }
+
+    .no-left-nav .region-content {
+        width: 100% !important;
+    }
+
+
+    .view-iia-billboard .carousel {
+        height: inherit;
+    }
+
+
+    .view-iia-billboard p{
+        padding-left: 10px;
+    }
+
+    .logo-container {
+    width: 100%;
+    float: left;
+    padding-left: 10px;
+    
+}
+
+.logo-container-inner {
+    width:100%;
+}
+
+}
+
+/*Civil Rights Twitter block fix*/
+.civil-rights-page .tweets-blog {
+	margin-top: 30px;
+	}
+

@@ -1,0 +1,72 @@
+.flip-card-container .flip-card
+{
+	display: inline-block;
+	position: relative;
+	
+	-webkit-perspective: 1600px;
+	-moz-perspective: 1600px;
+	perspective: 1600px;
+}
+
+.flip-card .front-content,
+.flip-card .back-content
+{
+	position: absolute;
+	
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	
+	/* -- transition is the magic sauce for animation -- */
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+	
+	/* for usability purposes */
+	border: 1px solid #fff;		/*	override border-color with background-color	*/
+}
+
+/* for usability purposes */
+.flip-card .front-content.focused,
+.flip-card .back-content.focused
+{
+	border: 1px dotted #999;
+}
+
+/* -- make sure to declare a default for every property that you want animated -- */
+/* -- general styles, including Y axis rotation -- */
+.flip-card .front-content
+{
+	z-index: 900;
+	-webkit-transform: rotateY(0deg);
+	-moz-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+}
+
+.flip-card.flipped .front-content
+{
+	z-index: 900;
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+
+.flip-card .back-content
+{
+	z-index: 800;
+	-webkit-transform: rotateY(-180deg);
+	-moz-transform: rotateY(-180deg);
+	transform: rotateY(-180deg);
+}
+
+.flip-card.flipped .back-content
+{
+	z-index: 1000;
+	-webkit-transform: rotateY(0deg);
+	-moz-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+}
+

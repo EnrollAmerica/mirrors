@@ -1,0 +1,179 @@
+
+
+(function ($) {
+	/* Define namespace GSA */
+	if( typeof GSA === "undefined" || !GSA ) { var GSA = {}; }
+	
+	/* Define object settings */
+	if( typeof GSA.settings === "undefined" || !GSA.settings ) { GSA.settings = new Object(); }
+	
+	
+	GSA.suggestionInput=null;
+	GSA.suggestionSearchValue;
+	GSA.suggestionPopupLock = false;
+	
+	GSA.getSuggestion = function(q,$inputField){				
+		$.getJSON( "/suggest?"+ q +"&max=10&access=access&format=rich", function(data) {
+		  GSA.RenderSuggestion(data,$inputField);
+		});
+	};
+	
+	GSA.RenderSuggestion = function(data, $inputField){
+		//console.log($inputField);
+		var items = [];
+		$.each( data.results, function(key,val) {			
+			items.push(($("<li/>").append($("<a/>",{"href":"#","html":val.name.replace(GSA.suggestionSearchValue,"<span>" + GSA.suggestionSearchValue + "</span>")}))));
+			//items.push(($("<li/>").append($("<a/>",{"href":"#","html":val.name.replace(GSA.suggestionSearchValue,"<span class='b'>" + GSA.suggestionSearchValue + "</span>") + "<span class='l'></span>"}))));
+			//items.push(($("<li/>").append($("<a/>",{"href":"#"}).append($("<span/>").append(val.name.replace(GSA.suggestionSearchValue,"<span>" + GSA.suggestionSearchValue + "</span>"))))));
+		});
+		
+		if(items.length){
+			if ($('#auto-suggest-popup').length){
+				$popup = $('#auto-suggest-popup');
+				$popup.find("ul").remove();
+			}
+			else{
+				var $offset = $inputField.position();
+				//$popup = $("<div/>",{"id":"auto-suggest-popup","aria-live":"polite","style":"top:" + ($offset.top + $inputField.outerHeight() )+"px;left:"+$offset.left+"px;width:"+ ($inputField.outerWidth(true) - 2) + "px;"});
+				//mobile search field faked width, using alternative way to calculate width	
+				//console.log("checkform");
+				//console.log($inputField.parents(".auto-suggest").attr('data-popup-width'));
+				if(typeof ($inputField.parents(".auto-suggest").attr('data-popup-width')) !== 'undefined' && $inputField.parents(".auto-suggest").attr('data-popup-width').length){
+					//console.log($inputField.size());
+					//console.log($inputField.outerWidth());
+					$popup = $("<div/>",{"id":"auto-suggest-popup","aria-live":"polite","style":"top:" + ($offset.top + $inputField.outerHeight() )+"px;left:"+$offset.left+"px;width:"+ $inputField.parents(".auto-suggest").attr('data-popup-width') + "px;"});
+					//console.log("pop1");
+				}
+				else if($inputField.parents(".csswidth").length){					
+					$popup = $("<div/>",{"id":"auto-suggest-popup","aria-live":"polite","style":"top:" + ($offset.top + $inputField.outerHeight() )+"px;left:"+$offset.left+"px;width:"+ $inputField.outerWidth() + "px;"});
+					//console.log("pop1");
+				}
+				else if($inputField.parents(".resultform").length){
+					
+					$popup = $("<div/>",{"id":"auto-suggest-popup","aria-live":"polite","style":"top:" + ($offset.top + $inputField.outerHeight() )+"px;left:"+$offset.left+"px;width:"+ ($inputField.outerWidth(true)-2) + "px;"});
+					//console.log("pop1");
+				}
+				else if($inputField.parents(".healthcare").length){					
+					$popup = $("<div/>",{"id":"auto-suggest-popup","aria-live":"polite","style":"top:" + ($offset.top + $inputField.outerHeight() - 5 )+"px;left:"+($offset.left-80)+"px;width:"+ ($inputField.outerWidth(true)+77) + "px;"});
+					//console.log($offset.left);
+				}
+				else if($inputField.parents(".healthcare2").length){					
+					$popup = $("<div/>",{"id":"auto-suggest-popup","aria-live":"polite","style":"top:" + ($offset.top + $inputField.outerHeight() - 3 )+"px;left:"+($offset.left)+"px;width:"+ ($inputField.outerWidth(true) - 3) + "px;"});
+					//console.log($offset.left);
+				}
+				else{
+					$popup = $("<div/>",{"id":"auto-suggest-popup","aria-live":"polite","style":"top:" + ($offset.top + $inputField.outerHeight() )+"px;left:"+$offset.left+"px;width:"+ ($inputField.parent(".auto-suggest").outerWidth(true) - 45) + "px;"});
+					//console.log("pop2");
+				}
+				
+				
+				$label = $("<div/>",{"id":"suggestionlabel","text":"Suggestions"});								
+				$popup.append($label);
+				GSA.suggestionInput =$inputField;	
+				//console.log("create");
+				$inputField.attr("aria-controls","auto-suggest-popup");
+				
+				$popup.mouseenter(function(e){
+					GSA.suggestionPopupLock = true;
+				}).mouseleave(function(e) {
+					GSA.suggestionPopupLock = false;
+				});
+  			
+				
+			}
+			
+			//$popup.appendTo("body");
+			//$popup.appendTo($inputField.parent".suggestion_input");
+			$inputField.parents(".auto-suggest").append($popup);
+			$list=$( "<ul/>", {
+				"class": "my-new-list",			
+				});
+			
+			$list.appendTo($popup);
+					
+			for(var i in items) {		
+				$list.append(items[i]);
+			}
+			$popup.find("a").click(function(){
+				$popup.find("#selected_suggetion").removeAttr("id");
+				$inputField.val($(this).text());
+				$list = $popup.find("li");
+				$selectedList = $(this).parent("li");
+				$selectedList.attr("id","selected_suggetion");
+				//$list.index($selectedList);
+				$inputField.focus();				
+				$inputField.parents("form").submit();				
+				return false;
+			});
+		}
+		else{
+			$("#auto-suggest-popup").remove();
+		}
+		
+		
+	}
+	
+	GSA.getFieldValue = function($form,fieldName){
+		return $form.find("input[name='" + fieldName + "']").val();
+		
+		
+	};
+	
+	$(document).ready(function () {
+		$( ".auto-suggest input[name='q']").keyup(function(e) {		
+		
+			//console.log(this.value);
+			if(e.which != 40 && e.which != 38){
+				GSA.suggestionSearchValue = this.value;
+				GSA.getSuggestion("q=" + this.value + 
+				"&site=" + GSA.getFieldValue($(this).parents("form"),"site") + 
+				"&client=" + GSA.getFieldValue($(this).parents("form"),"client"),$(this));			
+			}
+		});
+		
+		$( ".auto-suggest input[name='q']").keydown(function(e) {			
+			if(GSA.suggestionInput != null){			
+				if(e.which == 40){			
+					
+					$suggests = $("#auto-suggest-popup").find("li");					
+					index = $suggests.index($("#auto-suggest-popup #selected_suggetion"));
+					
+					
+					
+					if(index < $suggests.length -1){
+						$("#auto-suggest-popup #selected_suggetion").removeAttr("id");
+						var $selected = $suggests.eq(index+1);
+						//console.log($selected.text()); 
+						$selected.attr("id","selected_suggetion");
+						GSA.suggestionInput.val($selected.text());
+					}
+				}
+				else if(e.which == 38){				
+					$suggests = $("#auto-suggest-popup").find("li");
+					index = $suggests.index($("#auto-suggest-popup #selected_suggetion"));					
+					$("#auto-suggest-popup #selected_suggetion").removeAttr("id");					
+					if(index > 0){
+						var $selected = $suggests.eq(index-1);						
+						$selected.attr("id","selected_suggetion");
+						GSA.suggestionInput.val($selected.text());
+					}
+					else{						
+						GSA.suggestionInput.val(GSA.suggestionSearchValue);						
+					}
+				}
+			}
+		});
+		
+		
+		
+		$( ".auto-suggest input[name='q']").focusout(function(e){
+			if(! GSA.suggestionPopupLock)
+				$("#auto-suggest-popup").remove();
+			
+		});
+		
+		
+	});
+
+})(jQuery);
+

@@ -1,0 +1,58 @@
+/*
+ * OHAIDP Specific Styles
+ * 2016-03-22
+ * last edit by LG
+ */
+
+/*	main-menu	*/
+.nav-initiatives {
+	padding: 20px 50px 20px 115px;
+	background:url(images/initiatives-white.png) 30px #a06519 no-repeat;
+}
+
+.nav-initiatives.active {
+	background:url(images/initiatives-gray.png) 30px #e9eaeb no-repeat;
+	border: solid 2px #a06519;
+}
+
+.nav-resources {
+	padding: 20px 40px 20px 100px;
+	background:url(images/resources-white.png) 40px #a34869 no-repeat;
+}
+
+.nav-resources.active {
+	background:url(images/resources-gray.png) 40px #e9eaeb no-repeat;
+	border: solid 2px #a34869;
+}
+
+.nav-contact-us {
+	padding: 20px 20px 20px 100px;
+	background:url(images/contact-us-white.png) 35px #7d6f55 no-repeat;
+}
+
+.nav-contact-us.active {
+	background:url(images/contact-us-gray.png) 35px #e9eaeb no-repeat;
+	border: solid 2px #7d6f55;
+}
+
+.aidsgovwidget {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.first-tile.pane-node
+{
+	padding: 20px 15px;
+}
+
+.region-content .first-tile li
+{
+	padding-left: 15px;
+}
+
+
+/********************** MOBILE STYLING ****************************************/
+
+@media only screen and (max-width: 767px) {
+
+}

@@ -1,0 +1,1086 @@
+var minDesktopWidth = 768;
+
+(function ($) {
+  $(window).load(function(){
+
+
+    /* Twitter Feed
+    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+    */
+
+    /*
+      Initializing Bootstrap tooltip
+    */
+    $('[data-toggle="tooltip"]').tooltip({
+     container: 'body',
+     trigger: 'focus hover click',
+     placement: 'auto top'
+    });
+
+    /*
+      NavBox functionality
+    */
+
+    if ($(".navBoxes").length > 0)
+    {
+      var html = document.getElementsByTagName("html").item(0);
+      var hasCSS3 = (html.className.indexOf("no-csstransforms") == -1)
+
+      $(".no-csstransforms .larger").toggleClass("undisplayed");
+      $(".larger").children().toggleClass("undisplayed");
+
+      //  Expand nav box
+      $(".nav.plus").click(function(){
+        var smallerBox = $(this).parents(".navBox");
+        var largerBox = smallerBox.next();
+
+        if (hasCSS3)
+        {
+          largerBox.toggleClass("atop").delay(600).toggleClass("hidden");
+        }
+        else
+        {
+          largerBox.toggleClass("undisplayed");
+        }
+
+        largerBox.children().toggleClass("undisplayed");
+        return false;
+      });
+
+      //  Contract nav box
+      $(".nav.minus").click(function(){
+        var largerBox = $(this).parents(".navBox");
+        var smallerBox = largerBox.prev();
+
+        largerBox.children().toggleClass("undisplayed");
+
+        if (hasCSS3)
+        {
+          largerBox.toggleClass("hidden");
+          largerBox.toggleClass("atop")
+        }
+        else
+        {
+          largerBox.toggleClass("undisplayed");
+        }
+
+        return false;
+      });
+
+      //  Navigate to L2 pages on click
+      $(".navBoxes .box1.smaller").click(function(){
+        window.location = $("a#to-about").get(0).href;
+        return false;
+      });
+      $(".navBoxes .box2.smaller").click(function(){
+        window.location = $("a#to-programs").get(0).href;
+        return false;
+      });
+      $(".navBoxes .box3.smaller").click(function(){
+        window.location = $("a#to-contracts").get(0).href;
+        return false;
+      });
+      $(".navBoxes .box4.smaller").click(function(){
+        window.location = $("a#to-regulations").get(0).href;
+        return false;
+      });
+    }
+
+
+    /*
+      Flip Card functionality
+    */
+
+    if ($(".flip-card").length > 0)
+    {
+      //  get background image class from title div and add it to field-name-body div
+      $(".flip-card .field-name-body .title").each(function( index ) {
+
+        var classList;
+
+        if ($(this).get(0).classList)
+          classList = $(this).get(0).classList;
+        else if ($(this).get(0).className)    // IE9 has className instead of classList
+          classList = $(this).get(0).className.split(" ");
+
+        if (classList)
+        {
+          for (var i = 0; i < classList.length; i++)
+          {
+            if (classList[i].indexOf("bg-") == 0)
+            {
+              $(this).parents(".flip-card .field-name-body").addClass(classList[i]);
+            }
+          }
+        }
+      });
+
+      //  make the flip card clickable using the title URL
+      $(".flip-card .field-name-body").click(function(){
+        window.location = $(this).find("h2.title a").get(0).href;
+        return false;
+      });
+    }
+
+
+    /*
+      Check if only one image in carousel
+    */
+    $(".carousel").each(function() {
+
+      if ($(this).find(".carousel-inner").find(".item").length > 1)
+      {
+        $(this).addClass("multiple-items");
+      }
+    });
+
+
+    /*
+      Make elements clickable
+    */
+
+    //  make the carousel caption clickable using the URL in the caption
+    $(".carousel-caption").click(function(){
+      window.location = $(this).find("h3 a").get(0).href;
+      return false;
+    });
+
+    //  make the slimboard clickable using the header URL
+    $(".slimboard .container").click(function(){
+      window.location = $(this).find("h3.header a").get(0).href;
+      return false;
+    });
+
+    //  make the grey tiles clickable using the title URL
+    $(".mini-tile").click(function(){
+      window.location = $(this).find("h2.title a").get(0).href;
+      return false;
+    });
+    $(".crosslink-tile").click(function(){
+      window.location = $(this).find("h2.title a").get(0).href;
+      return false;
+    });
+
+
+    /*
+      Remove Empty Rows and Regions
+    */
+
+    if ($(".panel-flexible").length > 0)
+    {
+      //  check each row for children
+      $(".panels-flexible-region-inside-first").each(function( index ) {
+        if ($(this).get(0).children.length == 0)
+        {
+          $(this).parents(".panels-flexible-row").remove();
+        }
+      });
+
+      //  check each region for children
+      $(".panels-flexible-region-inside").each(function( index ) {
+        if ($(this).get(0).children.length == 0)
+        {
+          $(this).parents(".panels-flexible-region").remove();
+        }
+      });
+
+      $(".email_signup .block p").each(function( index ) {
+        if ($(this).get(0).innerHTML == "&nbsp;")
+        {
+          $(this).remove();
+        }
+      });
+
+    }
+
+
+    /*
+      Accordion pages
+    */
+
+    if ($(".accordion-row").length > 0)
+    {
+      //  vertically center the titles
+      $(".block-views-op-divs-section-block .accordion-row .accordion-title").each(function( index ) {
+        $(this).css("top", (78 - $(this).get(0).offsetHeight) / 2 + "px");
+      });
+
+      $(".block-views-topic-sites-block .accordion-row .accordion-title").each(function( index ) {
+        $(this).css("top", (78 - $(this).get(0).offsetHeight) / 2 + "px");
+      });
+
+      function setAriaExpandedFalse()
+      {
+        //  set aria-expanded flag to false for title and icon
+        $(".accordion-row .ui-accordion-header .accordion-title").attr("aria-expanded", "false");
+        $(".accordion-row .ui-accordion-header .ui-accordion-header-icon").attr("aria-expanded", "false");
+      }
+
+      function setAriaExpandedActiveTrue()
+      {
+        //  set aria-expanded flag for active item to true
+        $(".accordion-row .ui-accordion-header-active .accordion-title").attr("aria-expanded", "true");
+        $(".accordion-row .ui-accordion-header-active .ui-accordion-header-icon").attr("aria-expanded", "true");
+      }
+
+      setAriaExpandedFalse();
+      setAriaExpandedActiveTrue();
+
+      $(".accordion-row .ui-accordion-header .accordion-title").click(function() {
+          setAriaExpandedFalse();
+          $(this).attr("aria-expanded", "true");
+          $(this).parents(".ui-accordion-header").find(".ui-accordion-header-icon").attr("aria-expanded", "true");
+      });
+
+      $(".accordion-row .ui-accordion-header .ui-accordion-header-icon").click(function() {
+          setAriaExpandedFalse();
+          $(this).attr("aria-expanded", "true");
+          $(this).parents(".ui-accordion-header").find(".accordion-title").attr("aria-expanded", "true");
+      });
+
+
+      /*
+          views-accordion title that links to another location
+      */
+      $("a.opdiv-title-target").click(function() {
+        window.location = $(this).attr('href');
+        return false;
+      });
+
+      $("a.opdiv-title-target").keydown(function(e){
+        if (e.keyCode == 13 || e.keyCode == 32) {  //checks whether the pressed key is "Enter" or spacebar
+          window.location = $(this).attr('href');
+          return false;
+        }
+      });
+
+      //  Don't tab to parent header of each title.
+      //  Don't tab to anchors that are not links before each title.
+      $("a.opdiv-title-target").each(function() {
+        $(this).parents(".ui-accordion-header").attr("tabindex", -1);
+        $(this).prev().attr("tabindex", -1);
+      });
+
+      //  Add tabindex to make the focus explicit.
+      //  This allows styling with the :focus selector.
+      $(".ui-accordion-header-icon").each(function() {
+        $(this).attr("tabindex", 0);
+      });
+    }
+
+
+
+    /*
+        Add in page anchor to apply to work page for pager links
+    */
+    if ($("#filter-form").length > 0) {
+       var linkPre = $(".pager-previous").children("a").attr('href');
+       $(".pager-previous").children("a").attr('href', linkPre + '#announcement');
+       var linkNext = $(".pager-next").children("a").attr('href');
+       $(".pager-next").children("a").attr('href', linkNext + '#announcement');
+    }
+
+
+    /*
+      External Links
+    */
+    var disclaimerLink = " <a href='//www.hhs.gov/disclaimer.html' title='Exit Disclaimer'>"
+      + "<img src='//www.hhs.gov/sites/all/themes/project_h/css/images/exit_disclaimer.png' alt='exit disclaimer icon' border='0' class='icon-image'>"
+      + "</a>";
+
+    $("a.external-link").after(disclaimerLink);
+
+
+    /*
+      Matched Columns
+    */
+    if ($(window).width() >= 768)
+    {
+      $(".page-news .news-related-news").wrap("<div id='news-mc' class='matched-container'></div>");
+      $(".matched-container").append("<div class='matched-column-divider'></div>");
+      $(".page-news .news-related-blog").appendTo($("#news-mc"));
+
+      $(".matched-container").each(function( index ) {
+        var maxHeight = 0;
+
+        //  get height of tallest column
+        $(this).find(".matched-column").each(function( childIndex ) {
+          maxHeight = Math.max(maxHeight, $(this).get(0).scrollHeight + parseInt($(this).css("padding-bottom")));
+        });
+
+        //  set height of all columns to the max
+        $(this).find(".matched-column").css({height: maxHeight});
+      });
+    }
+
+
+    /*
+      Alerts
+    */
+
+    function getTextContent(element)
+    {
+      if (element != null && element !== undefined)
+        return element.textContent || element.innerText;
+
+      return "";
+    }
+
+
+    if ($(".alert-row").length > 0)
+    {
+      //  add close button to alerts
+      $(".alert-dismissible")
+        .prepend("<button type='button' class='close' data-dismiss='alert' aria-label='Close'></button>");
+
+      //  show any alerts that have not been previously clicked
+      $(".alert-row").each(function( index ) {
+        if ($(".alert-row .views-field-nid .field-content").length > 0)
+        {
+          if ($.cookie('alert-' + getTextContent($(this).find(".views-field-nid .field-content").get(0))))
+          {
+            //  remove the alert row from the DOM
+            $(this).remove();
+          }
+          else
+          {
+            $(this).css("display", "block");
+          }
+        }
+      });
+
+      //  remove alert when close button is clicked
+      $(".alert-dismissible .close").click(function(){
+
+        //  set cookie based on nodeID of the alert
+        var alertID = getTextContent($(this).parents(".alert-row").find(".views-field-nid .field-content").get(0));
+        $.cookie('alert-' + alertID, 'true', { expires: 365, path: '/' });
+
+        //  remove the alert row from the DOM
+        $(this).parents(".alert-row").remove();
+
+        return false;
+      });
+    }
+
+
+    /*
+      Set WMODE for YouTube videos
+    */
+    $("iframe").each(function(){
+      var ifr_source = $(this).attr('src');
+      var wmode = "wmode=transparent";
+      if(ifr_source != null && ifr_source.indexOf('youtube') != -1){
+        if(ifr_source.indexOf('?') != -1) {
+          var getQString = ifr_source.split('?');
+          var oldString = getQString[1];
+          var newString = getQString[0];
+          $(this).attr('src',newString+'?'+wmode+'&'+oldString);
+        }
+        else $(this).attr('src',ifr_source+'?'+wmode);
+      }
+    });
+
+
+    /*
+      Initialize Org Chart
+    */
+    setOrgChartDimensions();
+
+    /*
+      Interactive State Map
+    */
+    if ($(".interactive-map").length > 0)
+    {
+      //  This section is specfic to the Healthcare State By State map
+      if ($(".healthcare .state-status").length > 0)
+      {
+        var stateInfo = new Object;
+
+        stateInfo["AL"] = ["Alabama", false];
+        stateInfo["AK"] = ["Alaska", true];
+        stateInfo["AZ"] = ["Arizona", true];
+        stateInfo["AR"] = ["Arkansas", true];
+        stateInfo["CA"] = ["California", true];
+        stateInfo["CO"] = ["Colorado", true];
+        stateInfo["CT"] = ["Connecticut", true];
+        stateInfo["DE"] = ["Delaware", true];
+        stateInfo["DC"] = ["District of Columbia", true];
+        stateInfo["FL"] = ["Florida", false];
+        stateInfo["GA"] = ["Georgia", false];
+        stateInfo["HI"] = ["Hawaii", true];
+        stateInfo["ID"] = ["Idaho", false];
+        stateInfo["IL"] = ["Illinois", true];
+        stateInfo["IN"] = ["Indiana", true];
+        stateInfo["IA"] = ["Iowa", true];
+        stateInfo["KS"] = ["Kansas", false];
+        stateInfo["KY"] = ["Kentucky", true];
+        stateInfo["LA"] = ["Louisiana", false];
+        stateInfo["ME"] = ["Maine", false];
+        stateInfo["MD"] = ["Maryland", true];
+        stateInfo["MA"] = ["Massachusetts", true];
+        stateInfo["MI"] = ["Michigan", true];
+        stateInfo["MN"] = ["Minnesota", true];
+        stateInfo["MS"] = ["Mississippi", false];
+        stateInfo["MO"] = ["Missouri", false];
+        stateInfo["MT"] = ["Montana", true];
+        stateInfo["NE"] = ["Nebraska", false];
+        stateInfo["NV"] = ["Nevada", true];
+        stateInfo["NH"] = ["New Hampshire", true];
+        stateInfo["NJ"] = ["New Jersey", true];
+        stateInfo["NM"] = ["New Mexico", true];
+        stateInfo["NY"] = ["New York", true];
+        stateInfo["NC"] = ["North Carolina", false];
+        stateInfo["ND"] = ["North Dakota", true];
+        stateInfo["OH"] = ["Ohio", true];
+        stateInfo["OK"] = ["Oklahoma", false];
+        stateInfo["OR"] = ["Oregon", true];
+        stateInfo["PA"] = ["Pennsylvania", true];
+        stateInfo["RI"] = ["Rhode Island", true];
+        stateInfo["SC"] = ["South Carolina", false];
+        stateInfo["SD"] = ["South Dakota", false];
+        stateInfo["TN"] = ["Tennessee", false];
+        stateInfo["TX"] = ["Texas", false];
+        stateInfo["UT"] = ["Utah", false];
+        stateInfo["VT"] = ["Vermont", true];
+        stateInfo["VA"] = ["Virginia", false];
+        stateInfo["WA"] = ["Washington", true];
+        stateInfo["WV"] = ["West Virginia", true];
+        stateInfo["WI"] = ["Wisconsin", false];
+        stateInfo["WY"] = ["Wyoming", false];
+
+        function setStateStatus(abbrev) {
+          var hasStatement = "Has Expanded Medicaid";
+          var notStatement = "Has Not Expanded Medicaid";
+          var hasList = "AK, AZ, AR, CA, CO, CT, DC, DE, HI, IL, IN, IA, KY, MD, MA, MI, MN, MT, NV, NH, NJ, NM, NY, ND, OH, OR, PA, RI, VT, WA, WV";
+          var notList = "AL, FL, GA, ID, KS, LA, ME, MS, MO, NE, NC, OK, SC, SD, TN, TX, UT, VA, WI, WY";
+
+          if (abbrev == null)
+          {
+            $(".healthcare .state-status #theTitle").get(0).innerText = "";
+            $(".healthcare .state-status #theBody").get(0).innerText = "";
+          }
+          else if (abbrev == "hasExpanded")
+          {
+            $(".healthcare .state-status #theTitle").get(0).innerText = hasStatement;
+            $(".healthcare .state-status #theBody").get(0).innerText = hasList;
+          }
+          else if (abbrev == "notExpanded")
+          {
+            $(".healthcare .state-status #theTitle").get(0).innerText = notStatement;
+            $(".healthcare .state-status #theBody").get(0).innerText = notList;
+          }
+          else
+          {
+            $(".healthcare .state-status #theTitle").get(0).innerText = stateInfo[abbrev][0];
+
+            if (stateInfo[abbrev][1])
+              $(".healthcare .state-status #theBody").get(0).innerText = hasStatement;
+            else
+              $(".healthcare .state-status #theBody").get(0).innerText = notStatement;
+          }
+        }
+
+        $(".interactive-map area").hover(
+          function() {
+            setStateStatus($(this).get(0).id);
+          }, function() {
+            setStateStatus(null);
+          }
+        );
+      }
+    }
+
+
+    // Function to add wrapper around the
+    // the left nav in mobile
+    addLeftNavWrapperInMobile();
+
+    // Handles  bookmarked jumplink urls ***************
+    var windowHref = window.location.href;
+    if(windowHref.indexOf('#') > 0){
+      var myTarget = getTargetElement(windowHref);
+      var isMobile = $(window).width() < minDesktopWidth;
+      scrollToTargetAnchor(myTarget, isMobile);
+    }
+    //***************************************************
+
+    /*
+      Webform
+    */
+    if ($(".webform-client-form").length > 0)
+    {
+      //  Add span to webform checkbox labels
+      $(".webform-component input[type='checkbox'] + label").each(function(){
+        $(this).get(0).innerHTML = $.trim($(this).get(0).innerHTML);
+        $(this).prepend("<span></span>");
+      });
+
+      //  Add span to webform radio button labels
+      $(".webform-component input[type='radio'] + label").each(function(){
+        $(this).get(0).innerHTML = $.trim($(this).get(0).innerHTML);
+        $(this).wrapInner("<div class='label-text'></div>");
+        $(this).prepend("<span class='radio-sprite'></span>");
+      });
+
+      //  Add span around label-explanation for MH Parity form
+      $(".webform-client-form[action^='/mental-health-and-addiction-insurance-help'] input[type='radio'] + label .label-text").each(function(){
+        var labelText = $(this).text();
+        labelText = labelText.substr(0, labelText.indexOf(":") + 1) 
+        + "<span class='label-explanation'>" 
+        + labelText.substr(labelText.indexOf(":") + 1) 
+        + "</span>";
+        $(this).get(0).innerHTML = labelText;
+      });
+
+
+
+      //  Add label to webform file input
+      function getLabelHTML(theID) {
+        return "<label for='" + theID + "'>"
+        + "<span class='label-label'>Choose File</span>"
+        + "<span class='form-control form-text' tabindex='0'></span>"
+        + "<span class='button' tabindex='0'>Browse</span>"
+        + "</label>";
+      }
+
+      $(".webform-component input[type='file']").each(function(){
+        $(this).css({
+          width: '0.1px', height: '0.1px', opacity: 0,
+          overflow: 'hidden', position: 'absolute', zIndex: '-1'
+        });
+        $(this).attr("tabindex", -1);
+        $(this).after(getLabelHTML($(this).get(0).id));
+        $(this).parent(".form-managed-file").attr("inputID", $(this).get(0).id);
+        $(this).parent(".form-managed-file").find("button[value='Upload']").addClass("inactive");
+      });
+
+      $(".webform-component input[type='file']").change(function(){
+        $(this).next().find(".form-text").get(0).innerHTML = $(this).get(0).value.substr($(this).get(0).value.lastIndexOf("\\") + 1);
+
+        if ($(this).parent(".form-managed-file").find(".form-text").get(0).innerHTML.length == 0)
+          $(this).parent(".form-managed-file").find("button[value='Upload']").addClass("inactive");
+        else
+          $(this).parent(".form-managed-file").find("button[value='Upload']").removeClass("inactive");
+      });
+
+      $(".form-managed-file button.inactive").mousedown(function(){
+        return false;
+      });
+
+      $(".form-managed-file button[value='Remove']").mousedown(function(){
+        $(this).parents(".form-managed-file").prepend(getLabelHTML($(this).parent(".form-managed-file").attr("inputID")));
+      });
+    }
+
+        // Image Caption Fix
+    $("div.img-and-caption-wrapper").each(function(){
+      // If the wrapper doesn't have a width attribute
+      if($(this).prop('style')['width'] == ''){
+        var imgObj = $(this).find("img.media-element");
+        if((imgObj).hasClass('right')){
+          $(this).find(".field-name-field-file-image-caption").addClass('right');
+        }else if((imgObj).hasClass('left')){
+          $(this).find(".field-name-field-file-image-caption").addClass('left');
+        }else if((imgObj).prop('style')['text-align'] != ''){ // if the image has a text-align property
+          var textAlign = (imgObj).prop('style')['text-align']; // Get the alignment and set it to the caption as well
+          $(this).css('text-align', textAlign);
+        }
+        var imgWidth = $(this).find("img.media-element").outerWidth(true);
+          $(this).css('width', imgWidth);
+      }
+    });
+
+    // PDF styling
+
+    // For all anchors whose href ends with ".pdf"
+    $("a[href$='.pdf'").each(function(){
+
+      // If the anchor has an image as a
+      // child, then skip the iteration
+      if($(this).has("img").length > 0){
+        return true;
+      }else{
+        // If the anchor has not text in
+        // it, then skip the iteration
+        if($(this).text().length <= 0){
+          return true;
+        }
+        
+        $(this).append(" - PDF");
+      }
+      // Replaces the span containing the [PDF] string with a <del> tag
+      $(this).next("span").replaceWith("<del>" + $(this).next("span").text() + "</del>");
+
+      // Finds the string in a parenthesis that starts with PDF, till the
+      // closing parenthesis, and puts it in a <del> tag.
+      // $(this).parent().text($(this).parent().text().replace(/\(PDF([^)]+)\)/g, '<del>$&</del>'));
+        var pdfText = $(this).parent().contents().filter(function(){
+          return this.nodeType === Node.TEXT_NODE;
+        }).text();
+        if(!pdfText){
+          $(this).parent().html().replace(/(\(|\[)PDF([^)\]]*)[\)\]]/g, '<del>$&</del>');
+        }
+        $(this).parent().contents().filter(function(){
+          return this.nodeType === Node.TEXT_NODE;
+        }).text().replace(/(\(|\[)PDF([^)\]]*)[\)\]]/g, '<del>$&</del>');
+
+    });
+  }); // End of onload
+
+
+  /*
+    Responsive code to handle videos - START
+  */
+
+  // Find all YouTube videos
+  var $allVideos = $("iframe[src^=' http://www.youtube-nocookie.com'], iframe[src^='http://www.youtube.com'], iframe[src^=' https://www.youtube-nocookie.com'], iframe[src^='https://www.youtube.com']");
+  var aspectRatio = [];
+
+
+  // The element that is fluid width
+  $fluidEl = $("body");
+
+  // Figure out and save aspect ratio for each video
+  $allVideos.each(function() {
+
+    var ar = this.height / this.width;
+    aspectRatio.push(ar);
+
+    // remove the hard coded width/height
+    $(this)
+      .removeAttr('width')
+      .removeAttr('height');
+  });
+
+  // When the window is resized
+  $(window).resize(function() {
+
+    var minDesktopWidth = 768;
+    var maxVideoWidth = 640;
+    var videoPadding = 30;
+    var newWidth = $fluidEl.width();
+    var inMobileMode = (newWidth < minDesktopWidth);
+    var i = 0;
+
+    if (inMobileMode) {
+      newWidth = newWidth - videoPadding;
+    }
+
+    // Resize all videos according to their own aspect ratio
+    $allVideos.each(function() {
+
+      newWidth = Math.min(maxVideoWidth, newWidth);
+      var $el = $(this);
+      $el
+        .width(newWidth)
+        .height(Math.round(newWidth * aspectRatio[i++]));
+    });
+
+    setOrgChartDimensions();
+
+    // If it is not mobile, remove the left nav wrapper
+    if($(window).width() >= minDesktopWidth){
+      if($('.left-nav-wrapper').length){
+        $('.left-nav-region').css('display','block');
+        $('.left-nav-region').insertBefore($('.left-nav-wrapper'));
+        $('.addthis-with-left-nav').insertBefore('.left-nav-region');
+        $('.left-nav-wrapper').remove();
+      }
+    }else{
+      addLeftNavWrapperInMobile();
+    }
+
+  });
+
+
+  /********************************************************************
+    function:     createLeftNavWrapper
+    parameters:   none
+    description:  Creates the wrapper div and its contents and
+            returns the newly created and populated div
+  *********************************************************************/
+  var createLeftNavWrapper = function(){
+    var leftNavWrapper = $('<div>', { class: 'left-nav-wrapper'});
+    var div = $('<div>', {class: 'nav-wrapper-header'});
+    var h2 = $('<h2>More Topics In This Section</h2>');
+    var ul = $('<ul class="nav"><li><a href="#" class="left-nav-wrapper-icon expanded"></a></li></ul>')
+    h2.appendTo(div);
+    ul.appendTo(div);
+    div.appendTo(leftNavWrapper);
+    return leftNavWrapper;
+  }
+
+
+  /***************************************************************************************
+    function:     addLeftNavWrapperInMobile
+    parameters:   none
+    description:  Wraps the left nav in a collapsable div,
+            - in mobile
+            - in pages that have left navigation
+            Moves the 'print' and 'share' row to the bottom of the left nav
+  *****************************************************************************************/
+  var addLeftNavWrapperInMobile = function(){
+    // Make sure the pages have left nav and don't already have a wrapper
+    if(($('.left-nav-region').length) && !($('.left-nav-wrapper').length)){
+      if($(window).width() < minDesktopWidth){ // Make sure it is mobile
+        var leftNavWrapper = createLeftNavWrapper();
+        leftNavWrapper.insertBefore($('.left-nav-region'));
+        $('.left-nav-region').css('display','none');
+        $('.left-nav-region').appendTo(leftNavWrapper);
+
+
+        $('.left-nav-wrapper-icon').on('click', function(){
+          $('.left-nav-wrapper-icon').toggleClass('collapsed expanded');
+          $('.left-nav-region').toggle();
+          return false;
+        });
+
+        // Move the print/share row below the left-nav
+        $('.addthis-with-left-nav').insertAfter('.left-nav-wrapper');
+      }
+    }
+  }
+
+  /*
+    Responsive code to handle videos - END
+  */
+
+
+  /*
+    Org Chart sizing - BEGIN
+  */
+
+  function setOrgChartDimensions()
+  {
+    //  For getting the mobile height of the chart
+    //  Count li's
+    //  Height = (number of boxes * 80) + 130 (in px)
+    //  Apply style to mobile height
+
+    var listItems = $(".org-chart li").length;
+    var shortSections = $(".org-chart.short-sections li.section").length;
+    var mobileHeight = (listItems * 104) - (shortSections * 30) + 30;
+    var minDesktopWidth = 768;
+
+    if ($(window).width() < minDesktopWidth){
+      $(".org-chart").css( "height", mobileHeight );
+    }
+
+    //  For the desktop width of each department
+    //  Count .department
+    //  Width = ($deptMarginLeft + 100)/$numDepartments - $deptMarginLeft)
+    //  margin-left: 1.5 or 1.5 + (6 - $numDepartments)) (whichever is maximum)
+    //  Apply style to desktop width
+
+    if ($(window).width() >= (minDesktopWidth - 50))
+    {
+      var departmentLevelCount = $(".departments").length;
+
+      if (departmentLevelCount == 1)
+      {
+        var departmentCount = $(".department").length;
+        var deptMarginLeft = 1 + (6 - departmentCount);
+        var deptWidth = (deptMarginLeft + 100)/departmentCount - deptMarginLeft;
+
+        $(".org-chart .department").css( "width", deptWidth + "%" );
+        $(".org-chart .department").css( "margin-left", deptMarginLeft + "%" );
+      }
+      else
+      {
+        for(depRowIndex = 0; depRowIndex < departmentLevelCount; depRowIndex++)
+        {
+          var departmentCount = $(".deps-" + depRowIndex + " .department").length;
+          var deptMarginLeft = 1 + (6 - departmentCount);
+          var deptWidth = (deptMarginLeft + 100)/departmentCount - deptMarginLeft;
+
+          $(".org-chart .deps-" + depRowIndex + " .department").css( "width", deptWidth + "%" );
+          $(".org-chart .deps-" + depRowIndex + " .department").css( "margin-left", deptMarginLeft + "%" );
+        }
+      }
+
+      if ($(".lower-level-row").length > 0)
+      {
+        var levelWidth = parseInt($(".lower-level-row").css( "width"), 10);
+        var subsectionCount = $(".lower-level-row .subsection").length;
+        var minMargin = 4;
+        var subsectionWidth = ((levelWidth + minMargin) / subsectionCount) - minMargin;
+
+        $(".lower-level-row .subsection").css( "width", subsectionWidth + "px" );
+        $(".lower-level-row .subsection").css( "margin-left", minMargin + "px" );
+        $(".lower-level-row .subsection:first-child").css( "margin-left", "0px" );
+      }
+    }
+    else{
+       $(".org-chart .department").css( "width", "100" + "%" );
+       $(".org-chart .department").css( "margin-left", "0" );
+    };
+
+    $(".org-chart .department:first-child").css( "margin-left", "0" );
+  }
+
+  /*
+    Org Chart sizing - END
+  */
+
+$(document).ready(function(){
+
+    var target = null;
+    var scrollFiredForAnchor = false;
+    var exceptionList = ['left-nav-icon', 'carousel-control', 'surveyNav', 'accordion-toggle'];
+    var isException = false;
+    // Fire when an anchor that contains a '#'
+    // but is not exactly equal to '#' is clicked
+    $("#site-content a[href*=#]:not([href=#])").on("click", function(e) {
+      var myAnchor = $(this);
+
+      $.each(exceptionList, function(index, value){
+        if(myAnchor.hasClass(value)){
+          isException = true;
+          return false;
+        }
+      });
+
+      if(!isException){
+        var dataToggle = $(this).attr('data-toggle');
+        if(typeof dataToggle !== typeof undefined && dataToggle !== false){
+          isException = true;
+        }
+      }
+
+
+      if(!isException){
+        var hrefStr = $(this).attr('href');
+        var target = getTargetElement(hrefStr);
+
+        if(target.length){
+          var isMobile = $(window).width() < minDesktopWidth;
+          scrollToTargetAnchor(target, isMobile);
+        }
+      }
+
+    });
+
+
+    /*
+      Determine if using a phone
+    */
+    var isPhone = false; //initiate as false
+    // device detection
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) )
+      isPhone = true;
+    
+    if (isPhone)
+    {
+      var countrycodes = "1"
+      var delimiters = "-|\\.|—|–|&nbsp;"
+      var phonedef = "\\+?(?:(?:(?:" + countrycodes + ")(?:\\s|" + delimiters + ")?)?\\(?[2-9]\\d{2}\\)?(?:\\s|" + delimiters + ")?[2-9]\\d{2}(?:" + delimiters + ")?[0-9a-z]{4})"
+      var spechars = new RegExp("([- \(\)\.:]|\\s|" + delimiters + ")","gi") //Special characters to be removed from the link
+      var phonereg = new RegExp("((^|[^0-9])(href=[\"']tel:)?((?:" + phonedef + ")[\"'][^>]*?>)?(" + phonedef + ")($|[^0-9]))","gi")
+       
+      function ReplacePhoneNumbers(oldhtml) {
+      //  Created by Jon Meck at LunaMetrics.com - Version 1.0
+        var newhtml = oldhtml.replace(/href=['"]callto:/gi,'href="tel:')
+        newhtml = newhtml.replace(phonereg, function ($0, $1, $2, $3, $4, $5, $6) {
+            if ($3)
+              return $1;
+            else if ($4) 
+              return $2+$4+$5+$6;
+            else 
+              return $2+"<a href='tel:"+$5.replace(spechars,"")+"'>"+$5+"</a>"+$6;
+        });
+
+        return newhtml;
+      }
+
+      var noSearchNodes = ["hr","br","script","noscript","comment","img"]
+
+      function checkForPhoneNumbers(currentNode)
+      {
+          // Don't waste time on noSearchNodes
+          if (jQuery.inArray( currentNode.nodeName, noSearchNodes) > -1)
+            return;
+
+          if (currentNode.childNodes.length == 0)
+          // if there are no children and it is a text node, look for and replace phone number
+          {
+            if (currentNode.nodeName == "#text" && 
+                currentNode.textContent != ReplacePhoneNumbers(currentNode.textContent))
+            {
+              var newNode = document.createElement('span');
+              newNode.setAttribute("class", "tempWrapper");
+              newNode.innerHTML = ReplacePhoneNumbers(currentNode.textContent);
+              currentNode.parentNode.insertBefore(newNode, currentNode.nextSibling); 
+              currentNode.remove();
+            }
+          }
+          else  // else, recursively check the children
+          {
+            for (var childIndex = currentNode.childNodes.length - 1; childIndex >= 0; childIndex--)
+            {
+               checkForPhoneNumbers(currentNode.childNodes[childIndex]);
+            }
+          }
+      }
+
+      checkForPhoneNumbers($("body").get(0));
+      $(".tempWrapper a").unwrap();
+    }
+    else  //  Remove the tel links if not using a phone.
+    {
+      $("a[href^='tel:']").each(function() {
+        $(this).replaceWith($(this).text());
+      });
+    }
+
+
+    /*
+      Agencies and Offices page
+    */
+    $(".view-hhs-agencies-offices .views-field-field-logo").each(function() {
+      $(this).siblings().wrapAll("<div class='colRight'></div>");
+      $(this).wrap("<div class='colLeft'></div>");
+    });
+
+}); // End of Document Ready
+
+
+/*******************************************************
+   * Function:  getTargetElement
+   * Parameter:   hrefStr - The href string of a
+   *                        triggering anchor / url
+   * Description: Returns the target element
+   *
+   ****************************************************/
+var getTargetElement = function(hrefStr){
+  var hashStr = hrefStr.split('#')[1];
+  var target = $(document.getElementById(hashStr));
+
+  if(!(target.length)){
+    /* Handles the case where target element
+      contains a name instead of an ID */
+    target = $((document.getElementsByName(hashStr))[0]);
+  }
+  return target;
+}
+
+  /****************************************************
+   * Function:  scrollToTargetAnchor
+   * Parameter:   target - The target element
+   *        isMobile
+   * Description: Scrolls to the calculated location
+   *        of the target anchor
+   ****************************************************/
+  var scrollToTargetAnchor = function(target, isMobile) {
+
+      var mainHeaderHeight = $("#hhs-blue-header .inner").outerHeight(true);
+      var globalNavHeight = $("#hhs-global-nav").outerHeight(true);
+      var globalSearchHeight = $("#hhs-global-search").outerHeight(true);
+      var headerHeight = 0;
+      var extraSpace = 0;
+      var isExternalJumpLink = false;
+      if(window.location.href.indexOf('#') > 0){
+        isExternalJumpLink = true;
+      }
+        if($(window).scrollTop() > 1 && !isExternalJumpLink){
+          // If search nav is hidden when the jumplink
+          // anchor is clicked, then search height is 0
+          globalSearchHeight = 0;
+      mainHeaderHeight = $("#hhs-blue-header").outerHeight();
+
+
+          // If the global nav is sticky
+          globalNavHeight = 40;
+          var numOfMenus = $("#main-menu").children().length;
+          if(numOfMenus > 4){
+            globalNavHeight = 80;
+          }
+
+          extraSpace = 10;
+          if(isMobile){
+            mainHeaderHeight += extraSpace;
+          }
+        }else{
+          if(isMobile){
+            mainHeaderHeight = $("#hhs-blue-header").outerHeight(true) + (55 + $(".site-title").outerHeight(true));
+          }
+        }
+
+        headerHeight = mainHeaderHeight + globalNavHeight + globalSearchHeight;
+
+      var totalHeight = headerHeight + extraSpace;// + 100;
+
+        // Mobile version doesn't have a sticky header
+    if(isMobile){
+      totalHeight = mainHeaderHeight;
+    }
+
+        $('html, body').animate({
+          scrollTop: target.offset().top - totalHeight
+        });
+  }
+
+  /* Input field placeholder text BEGIN */
+
+  $.support.placeholder = ('placeholder' in document.createElement('input'));
+
+  //fix for Old IE
+  $(function () {
+    if (!$.support.placeholder) {
+      $("[placeholder]").focus(function () {
+        if ($(this).val() == $(this).attr("placeholder")) $(this).val("");
+      }).blur(function () {
+        if ($(this).val() == "") $(this).val($(this).attr("placeholder"));
+      }).blur();
+
+      $("[placeholder]").parents("form").submit(function () {
+        $(this).find('[placeholder]').each(function() {
+          if ($(this).val() == $(this).attr("placeholder")) {
+            $(this).val("");
+          }
+        });
+      });
+    }
+  });
+
+  /* Input field placeholder text END */
+
+  /* Read the Law accordion back to top */
+  $(document).ready(function(){
+
+    $('#accordion2').on('shown.bs.collapse', function () {
+
+    	var activePanel = $(this).find('.panel-title.active');
+    	var isMobile = $(window).width() < minDesktopWidth;
+    	scrollToTargetAnchor(activePanel, isMobile);
+    });
+
+
+    /* Read the Law accordion back to top END */
+    $(".accordion h3.panel-title").click(function() {
+      $(".accordion h3.panel-title.active").not(this).removeClass('active');
+      $(this).toggleClass('active');
+    });
+
+    /* Adding swipe action for billboard */
+    $("#views-bootstrap-carousel-1").swiperight(function() {
+      $("#views-bootstrap-carousel-1").carousel('prev');
+    });
+    $("#views-bootstrap-carousel-1").swipeleft(function() {
+      $("#views-bootstrap-carousel-1").carousel('next');
+    });
+
+    $('div.view-id-iia_billboard div.carousel-inner').on('click', function(){
+      window.location = $(this).find('.item.active a').attr('href');
+      return false;
+    });
+
+    if(window.location.href.indexOf("hepatitis/blog") > -1) {
+       $('.field-name-dynamic-title a').wrap( "<h2></h2>" );
+         $('.pager-item.active').prepend('<label for="pagerer-page" class="sr-only">Page</label>');
+         $('.pagerer-page').attr('id', 'pagerer-page');
+    }
+
+  });
+
+})(jQuery);

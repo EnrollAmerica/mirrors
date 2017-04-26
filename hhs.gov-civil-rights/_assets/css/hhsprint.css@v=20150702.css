@@ -1,0 +1,95 @@
+/* 2014-05-20 */
+/* German M - Updated styles for H2 and H3 */
+
+@media print
+ { 
+ 
+body, div#main-content p {
+	background: none;
+	color: black;
+	font-size:20px;
+	line-height: 32px;
+}
+
+a, a:link, a:visited {
+	color: #000;
+	}
+
+/** Elements, classes and ids not to be printed. **/	
+.noprint, .left-column, .breadcrumbs, .header-menu, .addthis, .footer-container, .gen-footer-container, #voc_tool_container, a[href="#top"], form, #main-nav-container {
+	display: none;
+	}
+
+.logo {
+	color:#000000;
+	font-size:36px !important; 
+	border-bottom: #000 5px  solid !important;
+	padding: 10px;
+	height: auto;
+	width:100%;
+	}
+	
+.logo a{
+	float: left;
+	}
+
+.yellow{
+	color:#000000;
+	}
+	
+.gov {
+    color: #000;
+    font-size: 40px;
+}
+
+.logo-name{ 
+	float:right;
+	margin-left: 50px;
+	margin-top: 20px;
+	}
+
+.content {
+    margin: 0;
+	clear: both;
+	width: 100% !important;
+}
+
+.no-sidebar-layout .content{
+	margin: 0;
+	clear: both;
+	width: 100% !important;
+	}
+
+.content h1{
+	font-size:32px;
+	}
+	
+#main-content h2{
+	font-size:26px;
+	}
+	
+#main-content h3{
+	font-size:22px;
+	}
+
+#site-wrapper{
+	border: none;
+	}
+
+.right-column{
+	clear: both;
+	width: 100%;
+	}
+
+.sidebar p.title {
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 0;
+}
+
+.sidebar{
+	width: 100%;
+	}
+
+ }

@@ -1,0 +1,69 @@
+/*
+===============================================================
+Expander
+===============================================================
+*/
+
+.expand {
+	width: 100%;
+}
+
+.expand .unexpand a{
+	display: block;
+	background-image: url(../images/sys_images/show.jpg);
+	background-position: top left;
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	padding-top: 4px;
+	/*
+	height: 1.9em;
+	min-height:1.9em;		
+	*/
+	padding-bottom: 5px;
+}
+
+.expand .expanded {
+	
+}
+
+.expand .open a{
+	background-image: none;
+	padding-top: 0px;
+	padding-left: 0px;
+	height: auto;
+}
+
+.expand .close a{
+	display: none;
+}
+
+.expand .close {
+	display: none;
+}
+
+.expand .expanded .hidedetails {	
+	
+}
+
+.expand .expanded .hidedetails .collapselink{
+	float: right;
+	display: block;
+	background-image: url(../images/sys_images/hide.jpg);
+	background-position: top left;
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	padding-top: 4px;
+	color: blue;
+	text-decoration: underline;
+	cursor: pointer;
+	padding-bottom: 10px;
+}
+.expandlink p.elink{
+	float: right;
+	margin: 0px 0px;
+	clear: both;
+}
+
+.expandlink a{
+	
+}

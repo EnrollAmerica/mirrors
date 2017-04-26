@@ -1,0 +1,1071 @@
+/* Last modified 7/22/15 */
+
+.page-blog .field-name-body,
+.page-subsite-blog .field-name-body{
+  margin-bottom: 20px;
+  
+}
+
+.page-blog li input.pagerer-page, .page-subsite-blog li input.pagerer-page {
+    width:35px  !important;
+    height:35px  !important;
+    border: solid 1px  #cdcdcd !important;
+    padding:0px !important;
+    position:relative;
+    margin-left: -8px !important;
+    margin:0px !important;
+    padding-top: 0px !important;
+    padding-top:8px \0/ !important;
+    float:left;
+}
+
+.page-blog table.pagerer, .page-subsite-blog table.pagerer {
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.page-blog input.pagerer-page, .page-subsite-blog input.pagerer-page {
+  width:none \0/ !important;
+  
+  max-width:35px \0/ !important; 
+}
+
+.page-blog h1 /*, .page-subsite-blog h1*/ {
+   font-size: 30px;
+}
+.hepatitis.page-subsite-blog h1 {
+	/*margin-bottom: 5px;*/
+}
+.page-blog .node-internal-blog-post, .page-blog .node-external-blog-post, .page-subsite-blog .node-internal-blog-post, .page-subsite-blog .node-external-blog-post {
+   /*font-size: 14px;*/
+   /*font-size: 0.875em;*/ /* removed as per cd-2075 - should revert to size in style.css */
+   color: #333;
+   padding-bottom: 20px;
+   border-bottom: 1px solid #ccc;
+   margin-bottom: 20px;
+   width: 640px;
+}
+
+.page-blog .field-name-field-file-image-caption, .page-subsite-blog .field-name-field-file-image-caption  {
+
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.page-blog .group-header, .hepatitis.page-subsite-blog .group-header {
+   font-size: 20px;
+   margin-bottom: 20px;
+}
+
+.page-blog .group-left, .hepatitis.page-subsite-blog .group-left {
+   width: 160px;
+   height: 120px;
+   margin-right: 20px;
+}
+
+.page-blog .group-right, .hepatitis.page-subsite-blog .group-right {
+   width: 460px;
+}
+
+.page-blog .blog-post h2 a, .page-blog .region-left-nav a, .page-blog .region-left-nav h4, .page-subsite-blog .blog-post h2 a {
+   color: #185394;
+}
+
+.page-blog .views-label-field-categorized, .page-blog .views-label-field-tagged, .page-blog .date-display-single, .page-subsite-blog .views-label-field-categorized, .page-subsite-blog .views-label-field-tagged, .page-subsite-blog .date-display-single {
+   font-weight: bold;
+}
+
+.page-blog .views-field-field-categorized, .page-subsite-blog .views-field-field-categorized {
+   display: block;
+}
+
+.page-blog .view-id-blog_home, .hepatitis.page-subsite-blog .view-id-blog_home {
+   border-bottom: 1px solid #ccc !important;
+}
+
+.page-blog .left-nav-region {
+   float: left;
+   display: block;
+}
+
+.page-blog .site-content, .page-subsite-blog .site-content {
+   float: none;
+}
+
+.page-blog .region-left-nav {
+   border: 1px solid #d2d2d2;
+   background-color: #f7f7f7;
+   margin-top: -115px;
+   font-size: 14px;
+}
+
+.page-blog .region-left-nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.page-blog .region-left-nav ul li {
+   border: none;
+   border-top: 1px solid #d2d2d2;
+   font-weight: normal;
+   /*padding: 5px 11px 5px 20px;*/
+   margin: 0;
+}
+
+.page-blog .region-left-nav ul li a {
+   padding: 5px 11px 5px 20px;
+    display: block;
+    width: 100%;
+}
+
+.page-blog .region-left-nav ul li:first-child {
+   border-top: none;
+}
+
+.page-blog .views-field-name, .page-subsite-blog .views-field-name {
+   display: inline-block;
+   padding: 0px;
+   width: 100%
+}
+
+/*
+
+.page-blog .clearfix:before, .page-blog .clearfix:after {
+    content: "" !important;
+    display: none !important;
+    width:625px;
+}
+*/
+
+.page-blog .media-element-container {
+
+  /*width:300px;*/
+  margin-left: 8px;
+  font-style: italic;
+  text-align: center;
+}
+
+.page-blog  .right /* , .page-subsite-blog .right */{
+
+  width:300px !important;
+  float: right;
+
+}
+
+.page-blog  .left /* , .page-subsite-blog .left */{
+
+  width:300px !important;
+  float: left;
+  margin-left: 0px;
+  margin-right: 20px;
+  padding-left: 0px;
+
+}
+
+.page-blog .blog-archive, .page-subsite-blog .blog-archive {
+   float:left; /* was left 4-30-15 - ah */
+   margin: 20px 0 30px 0;
+   border: 1px solid #d2d2d2;
+   background-color: #f7f7f7;
+   font-size: 14px;
+   width: 310px; 
+   height: 305px;
+   padding: 0px 20px 0px 20px;
+}
+
+.page-blog .blog-archive h2, .page-subsite-blog .blog-archive h2 {
+   font-size: 20px; /* was 17px - 4-28-15 ah */
+   padding: 0 0 0 0px;
+   /* font-weight: bold; */ /* 4-28-15 - ah */
+   margin-top: 20px !important;
+}
+
+.page-blog .blog-archive .blog-archive-block-footer, .page-subsite-blog .blog-archive .blog-archive-block-footer {
+  padding: 20px 0 0 0px;
+}
+
+.page-blog .blog-archive ul, .page-subsite-blog .blog-archive ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.page-blog .blog-archive ul li, .page-subsite-blog .blog-archive ul li {
+   border: none;
+   border-top: 1px solid #d2d2d2;
+   font-weight: normal;
+   padding: 5px 0 5px 0px;
+   margin: 0;
+}
+
+.page-blog .blog-archive ul li:first-child, .page-subsite-blog .blog-archive ul li:first-child {
+   border-top: none;
+}
+
+.page-blog .related-posts-blog, .page-subsite-blog .related-posts-blog {
+   float: left;
+   margin-top: 20px;
+   border: 1px solid #d2d2d2;
+   background-color: #f7f7f7;
+   font-size: 14px;
+   width: 300px;
+   height: 305px;
+   margin-right: 30px;
+}
+
+.page-blog .related-posts-blog h2, .page-subsite-blog .related-posts-blog h2 {
+   font-size: 20px; /* was 17px - 4-28-15 - ah */
+   padding: 20px 0 0 10px;
+   /* font-weight: bold; */ /* 4-28-15 - ah */
+}
+
+
+
+.page-blog  .block-views-related-posts-block, .page-subsite-blog  .block-views-related-posts-block {
+
+   float: left;
+   margin-top: 20px;
+   border: 1px solid #d2d2d2;
+   background-color: #f7f7f7;
+   font-size: 14px;
+   width: 310px; 
+   height: 305px;
+   margin-right: 20px;
+   padding-top: 20px;
+
+}
+
+.page-blog .block-views-related-posts-block h2, .page-subsite-blog .block-views-related-posts-block h2 {
+    font-size: 20px !important; /* was 17px - 4-28-15 - ah */
+    /* font-weight: bold; */ /* 4-28-15 - ah */
+    padding: 0 0 0 10px;
+}
+
+
+.page-blog .block-views-related-posts-block  ul, .page-subsite-blog .block-views-related-posts-block  ul {
+    list-style: none !important;
+    list-style-type: none !important;
+    padding-left: 0px;
+
+}
+
+
+.page-blog .block-views-related-posts-block  ul li .ds-1col, .page-subsite-blog .block-views-related-posts-block  ul li .ds-1col {
+	padding: 5px 5px 5px 10px;
+	margin-bottom: 0px;
+    float: left;
+    position: relative;
+    width: 100%;
+    overflow:hidden;
+    height:85px;
+    
+   
+}
+
+.page-blog .block-views-related-posts-block ul li:last-child .ds-1col, .page-subsite-blog .block-views-related-posts-block ul li:last-child .ds-1col {
+   border-bottom: none !important;
+}
+
+
+.page-blog .block-views-related-posts-block li .views-row, .page-subsite-blog .block-views-related-posts-block li .views-row {
+    float: left;
+    position: relative;
+}
+
+.page-blog .block-views-related-posts-block .ds-1col img, .page-subsite-blog .block-views-related-posts-block .ds-1col img {
+    height: 60px;
+    width: 80px;
+    float: left;
+	margin: 5px 10px  5px 0px;
+}
+
+
+
+
+
+.page-blog .view-generic-basic-page-related-blog-posts .view-content .views-row, .page-subsite-blog .view-generic-basic-page-related-blog-posts .view-content .views-row {
+   float: left;
+   border-top: 1px solid #d2d2d2;
+   padding: 5px 0 5px 10px;
+}
+
+.page-blog .view-generic-basic-page-related-blog-posts .view-content .views-row:first-child, .page-subsite-blog .view-generic-basic-page-related-blog-posts .view-content .views-row:first-child {
+   float: left;
+   border-top: none;
+}
+
+.page-blog .tweets-blog, .hepatitis.page-subsite-blog .tweets-blog {
+   float: left;
+   margin-top: 20px;
+   border: 1px solid #d2d2d2;
+   background-color: #f7f7f7;
+   font-size: 14px;
+   width: 310px; 
+   height: 305px; 
+   margin-right: 20px;
+   padding: 20px;
+}
+.hepatitis.page-subsite-blog .tweets-blog { 
+	height: 310px;
+	padding: 0 0 0 15px;
+}
+.page-blog .tweets-blog h2, .page-subsite-blog .tweets-blog h2 {
+   font-size: 20px; /* was 17px 4-28-15 - ah */
+   padding: 0;
+   /* font-weight: bold; */ /* 4-28-15 - ah */
+}
+
+.page-subsite-blog .hepatitis-tweets-blog { /* moves hep twitter box right */
+	float: right;
+	margin-right: 0 !important;
+	padding-bottom: 20px;
+	padding-right: 20px;
+}
+
+.page-blog .signup-blog, .page-subsite-blog .signup-blog {
+   display: inline-block;
+   font-size: 14px;
+   padding-right: 20px;
+   border-right: 1px solid #d2d2d2;
+}
+
+.page-blog .signup-blog h2, .page-subsite-blog .signup-blog h2 {
+   font-size: 20px;
+   color: #333;
+}
+
+.page-blog .signup-blog form, .page-subsite-blog .signup-blog form {
+   margin-top: -15px;
+}
+
+.page-blog .signup-blog form label, .page-subsite-blog .signup-blog form label {
+   font-weight: normal;
+}
+
+.page-blog .signup-blog .long, .page-subsite-blog .signup-blog .long {
+   width: 217px !important;
+   height: 30px;
+   margin-right: 10px;
+   margin-top: -10px;
+   width:150px \0/ !important;
+}
+
+.page-blog .signup-blog .submit, .page-subsite-blog .signup-blog .submit {
+   height: 30px;
+   font-weight: bold;
+   padding: 0 7px !important;
+   background-color: #fdb000;
+   color: #115095;
+   border: none;
+}
+
+.page-blog .rss-blog p:last-child, .page-subsite-blog .rss-blog p:last-child {
+  margin: 0;
+}
+
+.page-blog .blog-updates-rss, .page-subsite-blog .blog-updates-rss {
+   float: right;
+   width: 640px;
+}
+
+.page-blog .region-blog-updates-rss, .page-subsite-blog .region-blog-updates-rss {
+   float: left;
+   margin-bottom: 25px;
+}
+.page-blog .rss-blog, .page-subsite-blog .rss-blog {
+   float: right;
+   display: inline-block;
+   margin-left: 20px;
+   margin-top: -20px;
+   font-size: 14px;
+}
+
+.page-blog .rss-blog h2, .page-subsite-blog .rss-blog h2 {
+   font-size: 20px;
+   width: 300px;
+   color: #333;
+}
+
+.page-blog .rss-updates, .page-subsite-blog .rss-updates {
+   margin-top: 5px;
+}
+
+.page-blog .field-name-field-tagged, .page-blog .field-name-field-categorized, .page-subsite-blog .field-name-field-tagged, .page-subsite-blog .field-name-field-categorized {
+   display: block;
+}
+
+.page-blog .field-name-field-tagged .field-label, .page-blog .field-name-field-categorized .field-label, 
+.page-blog .field-name-field-tagged .field-items, .page-blog .field-name-field-categorized .field-items,
+.page-subsite-blog .field-name-field-tagged .field-label, .page-subsite-blog .field-name-field-categorized .field-label, 
+.page-subsite-blog .field-name-field-tagged .field-items, .page-subsite-blog .field-name-field-categorized .field-items {
+    display: inline-block;
+}
+
+.page-blog .field-name-field-post-date, .page-blog .field-name-byline, 
+.page-blog .field-name-field-post-date .field-items, .page-blog .field-name-byline .field-items, 
+.page-blog .field-name-field-post-date .field-items .field-item, .page-blog .field-name-byline .field-items .field-item,
+.page-subsite-blog .field-name-field-post-date, .page-subsite-blog .field-name-byline, 
+.page-subsite-blog .field-name-field-post-date .field-items, .page-subsite-blog .field-name-byline .field-items, 
+.page-subsite-blog .field-name-field-post-date .field-items .field-item, .page-subsite-blog .field-name-byline .field-items .field-item {
+    display: inline;
+}
+
+.page-blog .field-name-custom-posted-in .field-items .field-item, .page-blog .field-name-custom-tags .field-items .field-item, 
+.page-blog .field-name-custom-posted-in .field-items .field-label, .page-blog .field-name-custom-tags .field-items .field-label, 
+.page-subsite-blog .field-name-custom-posted-in .field-items .field-item, .page-subsite-blog .field-name-custom-tags .field-items .field-item, 
+.page-subsite-blog .field-name-custom-posted-in .field-items .field-label, .page-subsite-blog .field-name-custom-tags .field-items .field-label{
+    display: inline;
+}
+
+.page-blog .field-name-byline, .page-subsite-blog .field-name-byline {
+    margin-left: 10px;
+    padding-left: 10px;
+    font-style: italic;
+    /*color: #185394;*/
+    border-left: 1px solid #000;
+}
+
+.page-blog .field-name-field-description-summary, .page-subsite-blog .field-name-field-description-summary {
+    padding: 10px 0;
+}
+
+.page-blog .pagerer .table .table-striped, .page-subsite-blog .pagerer .table .table-striped {
+    margin:0px !important;
+    padding:0px !important;
+
+}
+
+.page-blog table.pagerer tbody, table.pagerer tbody tr, table.pagerer tbody tr td, .page-subsite-blog table.pagerer tbody, .page-subsite-blog table.pagerer tbody tr, .page-subsite-blog table.pagerer tbody tr td {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+
+  }
+
+ .page-blog .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th, .page-subsite-blog .table-striped > tbody > tr:nth-child(2n+1) > td, .page-subsite-blog .table-striped > tbody > tr:nth-child(2n+1) > th {
+
+  background-color: none;
+  float:right;
+}
+
+ /* .page-blog .pagerer-pager ul {
+
+    float: right !important;
+   
+    
+  }*/
+
+    /*.blog-archive-home .pager {
+display:none;
+  }*/
+.page-blog .pager, .page-subsite-blog .pager {
+  float:right;
+  min-width:157px;
+}
+
+.page-blog .pagerer .pagerer-right, .page-subsite-blog .pagerer .pagerer-right {
+    margin-top: 0px;
+    background-color:#fff !important;
+    float: right;
+
+}
+
+.page-blog .pagerer .pager, .page-subsite-blog .pagerer .pager {
+
+   margin:0px;
+   max-height:35px !important;
+   padding-left: 50px;
+
+
+}
+
+.page-blog .pagerer .pager li > a, .page-blog .pager li > span, .page-subsite-blog .pagerer .pager li > a, .page-subsite-blog .pager li > span {
+    /*background-color: #185493;*/
+    background-color: #eee;
+    border: solid 1px  #cdcdcd !important;
+    border-radius: 0px !important;
+    display: inline-block;
+    padding:0px !important;
+    width:35px;
+    height:35px;
+    color:#185493 !important;
+    font-size:0px !important;
+    float:left;
+}
+
+.page-blog .pagerer  .last a, .page-subsite-blog .pagerer  .last a {
+    /*background-color: #185493;*/
+    background-color: #eee;
+    border: solid 0px  #cdcdcd !important;
+    border-radius: 0px !important;
+    display: inline-block;
+    padding:0px !important;
+    background-image: url(images/pagination_right_arrow.png) !important;
+    background-repeat:no-repeat !important;
+    background-position: 12px 12px !important;
+    width:35px;
+    height:35px;
+    color:#185493 !important;
+    font-size:0px !important;
+    float:left;
+}
+
+.page-blog .pagerer .last a:hover, .page-subsite-blog .pagerer .last a:hover {
+    /*background-color: #185493;*/
+    background-color: #eee;
+    border: solid 0px  #cdcdcd !important;
+    border-radius: 0px !important;
+    display: inline-block;
+    padding:0px !important;
+    background-image: url(images/pagination_right_arrow_on_roll_over.png) !important;
+    background-repeat:no-repeat !important;
+    background-position: 12px 12px !important;
+    width:35px;
+    height:35px;
+    color:#185493 !important;
+    font-size:0px !important;
+    float:left;
+}
+
+
+
+
+.page-blog .pagerer .pager li > a:hover, .page-blog .pager li > span, .page-subsite-blog .pagerer .pager li > a:hover, .page-subsite-blog .pager li > span {
+    background-color: #185493;
+    border:0 !important;
+    color:#fff !important;
+    font-size:0px !important;
+    float:left;
+    
+}
+
+
+.page-blog .pagerer .first a, .page-subsite-blog .pagerer .first a {
+    /*background-color: #185493;*/
+    background-color: #eee;
+    border: solid 0px  #cdcdcd !important;
+    border-radius: 0px !important;
+    display: inline-block;
+    padding:0px !important;
+    background-image: url(images/pagination_left_arrow.png) !important;
+    background-repeat:no-repeat !important;
+    background-position: 12px 12px !important;
+    width:35px;
+    height:35px;
+    color:#185493 !important;
+    font-size:0px !important;
+    float:left;
+}
+
+.page-blog .pagerer .first a:hover, .page-subsite-blog .pagerer .first a:hover {
+    /*background-color: #185493;*/
+    background-color: #eee;
+    border: solid 0px  #cdcdcd !important;
+    border-radius: 0px !important;
+    display: inline-block;
+    padding:0px !important;
+    background-image: url(images/pagination_left_arrow_on_roll_over.png) !important;
+    background-repeat:no-repeat !important;
+    background-position: 12px 12px !important;
+    width:35px;
+    height:35px;
+    color:#185493 !important;
+    font-size:0px !important;
+    float:left;
+}
+
+
+.page-blog .pagerer .pager-item, .page-subsite-blog .pagerer .pager-item {
+    /*margin-right: 5px;*/
+    padding: 9px 2px;
+    position: relative;
+    float:left;              
+}
+
+.page-blog .pagerer .widget, .page-subsite-blog .pagerer .widget {
+    padding: 0 3px;
+}
+
+.page-blog .pagerer .widget input, .page-subsite-blog .pagerer .widget input {
+      font-size: 12px;
+}
+  
+.page-blog  .active, .page-subsite-blog  .active {
+  margin-top: 0px !important;  
+}
+
+.page-blog .pagerer .pager-previous .active.first, .page-subsite-blog .pagerer .pager-previous .active.first {
+   float:left;
+  
+}
+
+.page-blog .ctools-collapsible-container .ctools-toggle, .page-subsite-blog .ctools-collapsible-container .ctools-toggle {
+    float: right;
+    width: 29px;
+    height: 29px;
+    cursor: pointer;
+    background-position: center;
+    /*background-position: -5px -5px;*/
+    background-repeat: no-repeat;
+    background-image: url(images/collapse.png);
+    /*border:1px solid #d2d2d2;*/
+    margin-right: 5px;
+    margin-bottom: 3px;
+	margin-top: -5px;
+}
+
+.page-blog .ctools-collapsible-container .ctools-toggle-collapsed, .page-subsite-blog .ctools-collapsible-container .ctools-toggle-collapsed {
+    background-image: url(images/expand.png);
+}
+
+.page-blog .field-name-field-tagged .field-items .field-item,
+.page-blog .field-name-field-categorized .field-items .field-item,
+.page-subsite-blog .field-name-field-tagged .field-items .field-item,
+.page-subsite-blog .field-name-field-categorized .field-items .field-item {
+    display: inline;
+    padding-left: 10px;
+}
+
+.page-blog .field-name-field-tagged{
+	margin-top: 20px;
+}
+
+.page-subsite-blog .field-name-field-tagged {
+	margin-top: 0px;
+}
+
+.page-blog .related-posts-blog .views-field-field-thumbnail-image, .page-blog .related-posts-blog .views-field-field-thumbnail-image .field-content,
+.page-blog .related-posts-blog .views-field-title-1, .page-blog .related-posts-blog .views-field-title-1 .field-content,
+.page-subsite-blog .related-posts-blog .views-field-field-thumbnail-image, .page-subsite-blog .related-posts-blog .views-field-field-thumbnail-image .field-content,
+.page-subsite-blog .related-posts-blog .views-field-title-1, .page-subsite-blog .related-posts-blog .views-field-title-1 .field-content {
+   display: inline;
+}
+
+.page-blog .related-posts-blog .views-field-title-1 a, .page-subsite-blog .related-posts-blog .views-field-title-1 a {
+   float: right;
+   width: 185px;
+}
+
+.page-blog .related-posts-blog .views-field-field-thumbnail-image .field-content img, .page-subsite-blog .related-posts-blog .views-field-field-thumbnail-image .field-content img {
+    height: 60px;
+    width: 80px;
+    margin-right: 20px;
+}
+
+.page-blog .field-name-field-original-blog-name, .page-subsite-blog .field-name-field-original-blog-name {
+    border: 1px solid #d2d2d2;
+    background-color: #f7f7f7;
+    padding: 10px;
+	margin-top: 20px;
+}
+
+
+.page-blog .voc_tool_container, .page-subsite-blog .voc_tool_container {
+	margin-top:10px;
+}
+
+.node-type-internal-blog-post .field-items p:first-child{
+
+margin-top: 10px;
+
+}
+
+.node-type-external-blog-post .field-items p:first-child{
+
+margin-top: 10px;
+
+}
+
+.blog-archive-home #block-views-posts-by-date-block-1{
+display: none;
+}
+
+.page-blog-archive .view-header {
+  margin-bottom: 20px;
+}
+
+.page-blog .linked-caption, .page-subsite-blog .linked-caption {
+
+margin-top:-17px;
+text-align:center;
+font-style:italic;
+
+}
+/* New section for hepatitis blog - copied from healthcare.css */
+
+.block-views-hepatitis-blog-page-block-1.whats-new {
+    background-color: #f6f7f7;
+    border: 1px solid #cecece;
+    float: left;
+    height: 310px;
+	margin: 20px 20px 20px 0px; /* was just margin-right */
+    padding: 20px;
+    width: 310px; /* for hep, 310, for healthcare, 300 */
+}
+.block-views-hepatitis-blog-page-block-1.whats-new h2 {
+    font-size: 20px;
+    margin-top: -5px;
+}
+.block-views-hepatitis-blog-page-block-1.whats-new .views-row {
+    border-bottom-color: #cecece;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    clear: both;
+    display: block;
+    height: 78px;
+    margin-bottom: 15px;
+}
+.block-views-hepatitis-blog-page-block-1.whats-new .views-field-field-thumbnail-image {
+    float: left;
+    margin-right: 19px;
+}
+.block-views-hepatitis-blog-page-block-1.whats-new .views-field-field-thumbnail-image img {
+    height: 60px;
+    width: 80px;
+}
+.block-views-hepatitis-blog-page-block-1.whats-new .views-field .views-field-title {
+    width: 100px;
+}
+.view-hepatitis-blog-page .blog-post {
+	border-top: 1px solid #cecece;
+	padding: 5px 0 20px;
+}
+.view-hepatitis-blog-page .views-row-first.blog-post {
+	border-top: none;
+	padding-top: 0;
+	margin-top: -10px;
+}
+
+.block-panels-mini-hepatitis-viral-hepatitis-mini-p.contextual-links-region {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #cecece;
+}
+
+body.hepatitis .field-type-taxonomy-term-reference .field-items .field-item + .field-item::before {
+/* this should add a bar between tags for blogs */
+	content: '|\00a0\00a0';
+}
+body.hepatitis .field-type-taxonomy-term-reference .field-items .field-item a+a::before {
+/* this should add a bar between tags for blogs */
+	content: '|\00a0\00a0';
+}
+.hepatitis.page-blog .field-name-field-tagged .field-label, .hepatitis.page-blog .field-name-field-categorized .field-label, 
+.hepatitis.page-blog .field-name-field-tagged .field-items, .hepatitis.page-blog .field-name-field-categorized .field-items,
+.hepatitis.page-subsite-blog .field-name-field-tagged .field-label, .hepatitis.page-subsite-blog .field-name-field-categorized .field-label, 
+.hepatitis.page-subsite-blog .field-name-field-tagged .field-items, .hepatitis.page-subsite-blog .field-name-field-categorized .field-items {
+    display: inline; 
+}
+
+.hepatitis.page-subsite-blog .field-name-field-post-date {
+    float: left;
+}
+.hepatitis.page-subsite-blog .node-subsite-blog.view-mode-full .field-name-field-post-date::after { /* for blog entries */
+    content: '\00a0\00a0|\00a0\00a0';
+}
+.hepatitis.page-subsite-blog .block-views-hepatitis-blog-page-block-2 .field-name-field-post-date::after { /* for blog landing page */
+	content: '|\00a0\00a0';
+}
+
+body.hepatitis div.group-right div.field-items div.field-item.even span.date-display-single {
+	float: left;
+	margin-right: 10px;
+}
+.hepatitis .field-name-hepatitis-by-line {
+	border-bottom: 1px solid #cccccc;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+/*.hepatitis .field-name-body {
+	border-top: 1px solid #cccccc;
+	padding-top: 20px;
+	margin-top: 20px;
+}*/
+/*.hepatitis div.summary-wrapper+.field-name-body { 
+	border-top: none;
+	padding-top: 0;
+	margin-top: 0;
+}*/
+.hepatitis .field-name-hepatitis-by-line+.summary-wrapper { /* attempt to remove the extra line when a summary is present */
+	border-top: none;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.hepatitis .view-hepatitis-blog-page .field-name-hepatitis-by-line {
+	border-bottom: none;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+
+.hepatitis.page-subsite-blog div.view-id-hepatitis_blog_page div.field-items div.field-item.even h2 {
+	font-size: 20px;
+}
+
+.hepatitis.page-subsite-blog .blog-tweets-archives {
+	border-top: 1px solid #cecece;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+.block.block-panels-mini.block-panels-mini-hepatitis-viral-hepatitis-mini-p {
+	border-bottom: none;
+	padding-bottom: 20px;
+}
+.hepatitis.page-subsite-blog .region-blog-tweets-archives .page-stamp{
+	border-top: none;
+	margin-top: 0;
+	padding-top: 0;
+}
+.page-node-5004.hepatitis.page-subsite-blog .page-stamp {
+	border-top: 1px solid #cecece;
+	padding-top: 20px;
+}
+.hepatitis.page-subsite-blog .block-views-hepatitis-blog-page-block-3, 
+.hepatitis.page-subsite-blog .block-views-hepatitis-blog-page-block-4,
+.hepatitis.page-subsite-blog .block-views-hepatitis-blog-page-block-5 {
+	border-bottom: 1px solid #cecece;
+	margin-bottom: 20px;
+}
+.hepatitis.page-subsite-blog .view-content > .views-row-last.blog-post {
+	border-bottom: 1px solid #cecece;
+	margin-bottom: 20px;
+}
+.hepatitis.page-subsite-blog div.view-hepatitis-blog-page.view-id-hepatitis_blog_page .blog-post .view-mode-teaser .group-right .field-name-hepatitis-by-line .field-items .field-item,
+.hepatitis.page-subsite-blog div[about*='/hepatitis/blog/'] div.field-name-hepatitis-by-line .field-items .field-item,
+.hepatitis.page-subsite-blog span[property="schema:author"], 
+.hepatitis.page-subsite-blog span[property="schema:contributor"] 
+{
+	font-style: italic;
+}
+.hepatitis.page-subsite-blog .view-hepatitis-blog-page.view-id-hepatitis_blog_page .views-row .group-left .field-items .field-item a img[typeof='foaf:Image'] {
+	max-height: 120px;
+	max-width: 160px;
+}
+.page-hepatitis-blog-indexhtml.hepatitis.page-subsite-blog table.pagerer { /* remove some extra space at bottom of table which holds page chooser on blog */
+	margin-bottom: 1px;
+}
+.block-views-hepatitis-blog-page-block-2 .view-hepatitis-blog-page.view-id-hepatitis_blog_page table.pagerer {
+	margin-bottom: 1px;
+}
+/*.page-subsite-blog .field-name-body.field-type-text-with-summary .field-items .field-item div.right {
+  float: right;
+  padding-left: 15px;
+  max-width: 50%;
+  text-align: center;
+}*/
+/*.page-subsite-blog .field-name-body.field-type-text-with-summary .field-items .field-item div.left {
+  float: left;
+  margin-left: 0px;
+  margin-right: 20px;
+  padding-left: 0px;
+}*/
+.hepatitis.page-subsite-blog.page-hepatitis-blog-indexhtml div.site-content-with-left-nav a#main-content+h1 { /* attempting to target only the blog landing page title  */
+	margin-bottom: 10px;
+}
+/* a few cheats because I want this to work */
+.hepatitis.page-subsite-blog div[about="/hepatitis/blog/index.html"] .field.field-name-body.field-type-text-with-summary {
+	display: none;
+}
+.hepatitis.page-subsite-blog div[about="/hepatitis/blog/index.html"] .field.field-name-full-title-as-h1 h1 {
+	margin-bottom: 15px;
+}
+.hepatitis.page-subsite-blog div[about="/hepatitis/blog/index.html"] .field h2+a {
+	font-size: 20px;
+}
+
+
+/* end new hepatitis blog section */
+
+
+/* start delivery system reform blog section */
+
+.page-healthcare-delivery-system-reform-blog .views-row {
+	float: left;
+	border-top: 1px solid #cecece;
+	padding: 20px 0;
+}
+.page-healthcare-delivery-system-reform-blog .views-row-first {
+	border-top: none;
+	padding-top: 0;
+}
+.page-healthcare-delivery-system-reform-blog .views-field-field-thumbnail-image {
+    float: left;
+	height: 120px;
+    margin-right: 20px;
+    width: 160px;
+	margin-bottom: 20px;
+}
+.page-healthcare-delivery-system-reform-blog .views-field-field-post-date, 
+.page-healthcare-delivery-system-reform-blog .views-field-field-blog-post-author {
+   float: left;
+   display: inline;
+}
+.page-healthcare-delivery-system-reform-blog .views-field-field-categorized .views-label-field-categorized, 
+.page-healthcare-delivery-system-reform-blog .views-field-field-categorized .field-content,
+.page-healthcare-delivery-system-reform-blog .views-field-field-tagged .views-label-field-tagged, 
+.page-healthcare-delivery-system-reform-blog .views-field-field-tagged .field-content {
+     float: left;
+	 display: inline;
+}
+.page-healthcare-delivery-system-reform-blog .views-field-field-categorized .views-label-field-categorized,
+.page-healthcare-delivery-system-reform-blog .views-field-field-tagged .views-label-field-tagged {
+     padding-right: 10px;
+}
+.page-healthcare-delivery-system-reform-blog .views-field-field-description-summary,
+.page-healthcare-delivery-system-reform-blog .views-field-field-categorized,
+.page-healthcare-delivery-system-reform-blog .views-field-field-tagged {
+     float: left;
+	 display: block;
+	 width: 71%;
+}
+
+@media only screen and (max-width: 767px) {
+.page-healthcare-delivery-system-reform-blog .views-field-field-thumbnail-image,
+.page-healthcare-delivery-system-reform-blog .views-field-field-description-summary,
+.page-healthcare-delivery-system-reform-blog .views-field-field-categorized,
+.page-healthcare-delivery-system-reform-blog .views-field-field-tagged {
+width: 100%;
+}
+}
+
+/* end delivery system reform blog section */
+ 
+/* END TWITTER PULLQUOTE */
+
+/* MEDIA QUERY FOR PHONE/TABLET */
+@media only screen and (max-width: 767px) {
+
+   .page-blog .main-section, .page-subsite-blog .main-section {
+		padding-top: 0;
+    }
+
+  .page-blog .block-system-main, .hepatitis.page-subsite-blog .block-system-main {
+       width: 100%;
+   }
+   
+   .page-blog .group-left, .page-subsite-blog .group-left {
+       margin-right: 0;
+   }
+   
+   .page-blog .text-sizer, .page-subsite-blog .text-sizer {
+       display:none;
+   }
+   
+   .page-blog .voc-blog, .page-subsite-blog .voc-blog {
+       width: 300px;
+   }
+   
+   .page-blog .site-content-with-left-nav, .page-subsite-blog .site-content-with-left-nav {
+        float: left;
+    }
+   
+   .page-blog .group-right, .page-subsite-blog .group-right {
+      /*width: 300px;*/
+      width:100%;
+   }
+   
+   .page-blog .hhs-global-nav, .page-subsite-blog .hhs-global-nav {
+       display: none;
+   }
+   
+   .page-blog .region-left-nav {
+       margin-top: 0;
+   }
+
+   .page-blog .site-content-with-left-nav {
+        width: 300px;
+   }
+   .page-blog .blog-updates-rss, .page-subsite-blog .blog-updates-rss {
+       float: left;
+       margin-top:20px;
+       width: 300px;
+   }
+   
+   .page-blog .blog-tweets-archives /*, .page-subsite-blog .blog-tweets-archives*/ {
+       width: 300px;
+   } 
+   
+   .page-blog .signup-blog, .page-subsite-blog .signup-blog {
+       padding-right: 0;
+       border-right: none;
+   }
+    
+   .page-blog iframe, .page-subsite-blog iframe {
+       width: 50%;
+       height: 50%;
+   }
+   
+   .page-blog .rss-blog, .page-subsite-blog .rss-blog {
+       margin-left: 0;
+       float: left;
+       margin-top: 5px;
+   }
+   
+   .page-blog .addthis, .page-subsite-blog .addthis {
+       float: left;
+       padding-top: 10px;
+       width: 100%; /* was 300px - 4-30-15 - ah  */
+   }
+   
+   .page-blog .tweets-blog, .page-blog .blog-archive, .page-blog .related-posts-blog, .page-subsite-blog .tweets-blog, .page-subsite-blog .blog-archive, .page-subsite-blog .related-posts-blog {
+       /* margin-left: -10px; 4-30-15 - ah */
+   }
+
+   .page-blog .pagerer .pager, .page-subsite-blog .pagerer .pager {
+      float: left; 
+      width:100%;
+   }
+   
+   .page-blog .ctools-collapsible-content, .page-subsite-blog .ctools-collapsible-content {
+      display: none;
+   }
+   
+   .page-blog .ctools-collapsible-container .ctools-toggle, .page-subsite-blog .ctools-collapsible-container .ctools-toggle {
+       background-image: url(images/expand.png);
+   }
+
+   .page-blog .ctools-collapsible-container .ctools-toggle-collapsed, .page-subsite-blog .ctools-collapsible-container .ctools-toggle-collapsed {
+       background-image: url(images/collapse.png);
+    }
+    
+    .twitter-timeline {
+       height: 200px !important;
+    }
+    
+
+.page-blog-archive .pagerer .pager {
+float: left;
+  }
+  
+  .page-blog  iframe, .page-subsite-blog  iframe {
+  width:100%;
+  height:300px;
+}
+
+.page-blog .node-internal-blog-post, .page-blog .node-external-blog-post, .page-subsite-blog .node-internal-blog-post, .page-subsite-blog .node-external-blog-post {
+
+width:100%;
+}
+/*hep mobile section*/
+.hepatitis.page-subsite-blog .whats-new.block-views-hepatitis-blog-page-block-1 {
+	width: 100%;
+}
+.hepatitis.page-subsite-blog .tweets-blog.hepatitis-tweets-blog {
+	width: 100%;
+	margin-bottom: 20px;
+}
+.hepatitis.page-subsite-blog .group-right {
+   width: 100%;
+}
+
+.hepatitis.page-subsite-blog .field-name-hepatitis-by-line .field-item.even {
+	margin-bottom: 10px;
+}
+.hepatitis.page-subsite-blog .view-hepatitis-blog-page.view-id-hepatitis_blog_page .view-content .node-teaser .group-header .field-items .field-item h2  {
+	line-height: 1.2;
+}
+/*end hep mobile section */
+
+}

@@ -1,0 +1,42 @@
+.timeline-entry:before {
+  content: ' ';
+  /* unneeded for updates styles (see comment below)   
+  font-size: 41px;
+  line-height: 14px; */
+  color: #195494;
+  float: left;
+  position: relative;
+  margin-left: 3px;
+  z-index: 2;
+  /* updated styles to avoid differing mobile sizes for blue timeline circle */
+  background-color: #195494;
+  border-radius: 18px;
+  height: 18px;
+  width: 18px;
+}
+
+.timeline-container {
+  position: relative;
+}
+
+.timeline-content {
+  padding: 0 0 0 40px;
+}
+
+.timeline-entry-date {
+  font-weight: bold;
+}
+
+.timeline:before {
+  content: "";
+  width: 6px;
+  height: 100%;
+  background: #CCC;
+  left: 9px;
+  top: 1px;
+  position: absolute;
+  z-index: 2;
+  border: 1px solid #999;
+}
+
+

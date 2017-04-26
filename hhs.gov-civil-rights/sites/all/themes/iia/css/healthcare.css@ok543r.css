@@ -1,0 +1,850 @@
+
+/*===============Healthcare NAV=============== start ===*/
+
+.healthcare #main-menu .active {
+  color:#666;
+  background-color: #e9eaeb;
+}
+
+#main-menu .nav-purple {
+  background-color: #78508e;
+}
+
+#main-menu .nav-purple.active {
+  border-color: #78508e;
+}
+
+a.nav-insurance-marketplace-hhs, a.nav-delivery-system-reform, a.nav-about-the-law-hhs, a.nav-coverage-to-care-hhs, a.nav-facts-features-hhs  {
+  float: left;
+  width: 220px;
+  height: 60px;
+  text-align: center;
+  box-sizing: border-box;
+  font-weight: bold;
+  color: #fff;
+}
+
+a.nav-insurance-marketplace-hhs {
+  padding: 10px 15px 0px 65px;
+  background:url(images/healthcare/insurance-nav-icon.png) 25px #a06519 no-repeat;  
+}
+
+.nav-insurance-marketplace-hhs.active { 
+  background:url(images/healthcare/civil_rights_greyicon.png) 10px #e9eaeb no-repeat;
+  border: solid 2px #a06519;
+  padding: 18px 25px 20px 88px; 
+}
+
+a.nav-delivery-system-reform {
+  padding: 10px 15px 0px 65px;
+  background:url(images/gears-nav-icon-white.png) 20px #a06519 no-repeat;  
+}
+
+.nav-delivery-system-reform.active { 
+  background:url(images/gears-nav-icon-gray.png) 20px #e9eaeb no-repeat;
+  border: solid 2px #a06519;
+  padding: 10px 15px 0px 65px;
+}
+
+a.nav-about-the-law-hhs {
+  padding: 19px 9px 0px 70px;
+  background:url(images/healthcare/about-the-law-nav-icon.png) 20px #a34869 no-repeat;  
+}
+
+.read-the-law a.nav-about-the-law-hhs
+{ 
+  color: #666 !important;
+  background:url(images/healthcare/about-the-law_greyicon.png) 20px #e9eaeb no-repeat;
+  border: solid 2px #a34869;
+  padding: 19px 9px 20px 70px;  
+}
+
+.nav-about-the-law-hhs.active { 
+  background:url(images/healthcare/about-the-law_greyicon.png) 20px #e9eaeb no-repeat;
+  border: solid 2px #a34869;
+  padding: 19px 9px 1px 70px; 
+}
+
+a.nav-coverage-to-care-hhs {
+  padding: 20px 20px 20px 65px;
+  background:url(images/healthcare/coverage-nav-icon.png) 19px #317686 no-repeat; 
+}
+
+.nav-coverage-to-care-hhs.active { 
+  background:url(images/healthcare/coverage-icon_greyicon.png) 19px #e9eaeb no-repeat;
+  border: solid 2px #317686;
+  padding: 20px 20px 20px 65px; 
+}
+
+a.nav-facts-features-hhs {
+  padding: 20px 15px 20px 60px;
+  background:url(images/healthcare/facts-nav-icon.png) 20px #7d6f55 no-repeat;  
+}
+
+.nav-facts-features-hhs.active { 
+  background:url(images/healthcare/facts_features_greyicon.png) 20px #e9eaeb no-repeat;
+  border: solid 2px #7D6F55;
+  padding: 20px 15px 20px 60px; 
+}
+
+.facts-features a.nav-facts-features-hhs {
+  color: #666 !important;
+  background:url(images/healthcare/facts_features_greyicon.png) 20px #e9eaeb no-repeat;
+  border: solid 2px #7D6F55;
+  padding: 20px 15px 20px 60px; 
+}
+
+
+.navbar-fixed-top  a.nav-insurance-marketplace-hhs, .navbar-fixed-top a.nav-delivery-system-reform, .navbar-fixed-top a.nav-about-the-law-hhs, .navbar-fixed-top a.nav-coverage-to-care-hhs, .navbar-fixed-top a.nav-facts-features-hhs{
+  background-image: none;
+  padding: 10px;
+  width: 235px;
+  
+  -webkit-transition: padding 0.3s ease; 
+  -moz-transition: padding 0.3s ease; 
+  -ms-transition: padding 0.3s ease; 
+  -o-transition: padding 0.3s ease; 
+  transition: padding 0.3s ease;
+  margin-bottom:0px;
+  margin-bottom:0px;
+  height: 40px;
+  text-align: center;
+}
+
+
+.navbar-fixed-top a.nav-insurance-marketplace-hhs.active, .navbar-fixed-top a.nav-delivery-system-reform.active, .navbar-fixed-top a.nav-about-the-law-hhs.active, .navbar-fixed-top a.nav-coverage-to-care-hhs.active, .navbar-fixed-top a.nav-facts-features-hhs.active  {
+  padding: 8px 10px;
+  margin: 0;
+  height: 40px;
+  
+}
+
+
+/*===============Healthcare NAV=============== end ===*/
+
+
+
+.region-left-nav h2 {
+display:none;
+}
+
+
+/*===============Healthcare Flip Cards=============== end ===*/
+
+/*===============Healthcare share your story panel=============== start ===*/
+
+
+.view-getcovered-my-story {
+margin-bottom:13px;
+}
+
+.view-getcovered-my-story .views-row {
+width:160px;
+float:left;
+margin-right:20px;
+
+}
+
+.view--getcovered-my-story .views-row-3 {
+margin-right:0px;
+}
+
+.view--getcovered-my-story .views-row-6 {
+margin-right:0px !important;
+}
+
+.view--getcovered-my-story .views-row-9 {
+margin-right:0px !important;
+}
+
+.view--getcovered-my-story .views-row-12 {
+margin-right:0px !important;
+}
+
+.view--getcovered-my-story .views-row-15 {
+margin-right:0px !important;
+}
+
+.view--getcovered-my-story .views-row-18 {
+margin-right:0px !important;
+}
+
+.view--getcovered-my-story .views-row-21 {
+margin-right:0px !important;
+}
+
+
+.MyStoryCell .field-content {
+position:relative;
+margin-left:20px;
+}
+
+.view-getcovered-my-story  .views-field-title {
+height:60px;
+
+}
+
+.view-getcovered-my-story .views-field-field-landing-page-feature-image {
+float:left;
+padding-right:11px;
+
+}
+
+.view-getcovered-my-story .view-all {
+margin:0px 20px 0px 0px;
+border: solid 1px #185395;
+padding-right:30px;
+background:rgba(0, 0, 0, 0) url("images/view-all-arrow.png") no-repeat scroll 225px center;
+}
+
+.view-getcovered-my-story  .share{
+background:rgba(0, 0, 0, 0) url("images/view-all-arrow.png") no-repeat scroll 215px center !important;
+}
+
+a.view-all, p.view-all {
+    padding: 10px 10px 10px 10px;
+   
+}
+
+.view-getcovered-my-story hr{
+padding-top:10px;
+}
+
+.submitted {
+display:none;
+}
+
+.field-name-field-story-author- {
+font-style:italic;
+}
+
+.panels-flexible-region-independent_2column_span-center {
+    float: left;
+    width: 600px;
+}
+
+/*===============Healthcare share your story panel=============== end ===*/
+
+/*===============Healthcare releated blog post block=============== start ===*/
+
+.whats-new {
+width:300px;
+float:left;
+background-color:#f6f7f7;
+border: 1px solid #cecece;
+margin-right:20px;
+padding:20px;
+/*margin-left: 10px;*/
+height:290px;
+}
+.whats-new h2 {
+ font-size: 20px;
+    margin-top: -5px;
+    
+    }
+
+.whats-new .views-row {
+display:block;
+clear:both;
+height:78px;
+border-bottom: 1px solid #cecece;
+margin-bottom:15px;
+
+}
+
+.whats-new .views-field-field-thumbnail-image {
+float:left;
+margin-right:19px;
+
+}
+
+.whats-new .views-field-field-thumbnail-image img{
+width:80px;
+height:60px;
+}
+
+.whats-new  .views-field .views-field-title {
+width: 100px;
+}
+/*===============Healthcare releated blog post block=============== end ===*/
+
+.page-blog .ds-1col p{
+display:none !important;
+}
+
+/*===============Healthcare My STory Form =============== starts ===*/
+
+
+.MyStoryContainer {
+   float: left;
+   width: 912px;
+   /*border-top: 1px solid #ccc;*/
+   padding: 0px 0px 0px 0px;
+    /*margin-bottom: 7px;*/
+}         
+
+.MyStoryContainer2 {
+   float: left;
+   width: 912px;
+   padding: 0 0 20px 0;
+}  
+
+.MyStoryColumn1 {
+   float: left;
+   width: 290px;
+}   
+
+.MyStoryColumn2, .MyStoryColumn3 {
+   float: left;
+   width: 290px;
+   margin-left: 16px;
+}     
+.MyStoryCell {
+   float: left;
+   width: 290px;
+   margin-bottom: 15px;
+}     
+
+.MyStoryFrame {
+   float: left;
+   width: 596px;
+   margin-left: 20px;
+   margin-bottom: 15px;
+}
+
+
+.MyStoryCellLink {
+
+   border-top: 6px solid #a8d46d;
+   border-left: 1px solid #ccc;
+   border-bottom: 1px solid #ccc;
+   border-right: 1px solid #ccc;
+   font-weight:bold;
+    height: 40px;
+    padding: 5px 11px;
+}   
+
+ a:link .MyStoryCellLink, a:active .MyStoryCellLink, a:visited .MyStoryCellLink {
+   color: #046792;
+   padding-left:0px;
+   font-weight: bold;
+   font-size: 13px; 
+   width:200px;
+   float:left;
+}   
+
+.media-element-container {
+
+    margin-left: 0px !important;
+}
+
+
+/*===============Healthcare My STory Form =============== end ===*/
+
+/*===============Coverage Page =============== start ===*/
+
+.coverage.MyStoryContainer {
+  float: left;
+    padding: 20px 0 0;
+    width: 960px !important;
+}
+.coverage .MyStoryColumn1 {
+    float: left;
+    width: 300px;
+}
+
+.coverage .MyStoryColumn2, .coverage .MyStoryColumn3 {
+   float: left;
+   width: 300px;
+   margin-left: 20px;
+}  
+
+.coverage .MyStoryCell img {
+    height: 317px;
+    width: 300px;
+}
+
+.coverage .MyStoryCell {
+    width: 300px;
+}
+
+.coverage .MyStoryCellLink {
+  height:40px;
+    width: 300px;
+    margin-bottom:5px;
+}
+
+.CoverageMobile {
+display:none;
+}
+
+
+/*===============Coverage Page =============== end ===*/
+
+/*===============Healthcare State by state columns =============== end ===*/
+
+.state-col {
+width:150px;
+float:left;
+margin-right:90px !important;
+}
+
+.page-node-2385 .region-content ul, .region-content ol {
+    margin: 20px 0px;
+    padding: 0 0 0 20px;
+}
+
+.state-col-last{
+width:150px;
+float:left;
+margin-right:0x !important;
+}
+
+.region-content ul li, .region-content ol li{
+  margin: 0 0 10px;
+  }
+
+/*===============Healthcare State by state columns =============== end ===*/
+
+/*===============Healthcare Blog page =============== start ===*/
+.page-blog .region-left-nav {
+   margin-top:0px;
+}
+
+.page-blog .field-name-full-title-as-h1 {
+display:none !important;
+}
+
+.page-blog .field-name-body {
+display:none;
+}
+
+.page-blog .ds-1col {
+display:none !important;
+}
+/*===============Healthcare Blog page =============== end ===*/
+
+.whatsyourstory {
+    float: right;
+    position: relative;
+    margin-top:-20px !important;
+}
+
+.MyStoryColumn1 {
+    float: left;
+    width: 200px;
+}
+
+.MyStoryColumn2, .MyStoryColumn3 {
+    float: left;
+    margin-left: 16px;
+    width: 200px;
+}
+
+.MyStoryCell  {
+width:200px;
+
+}
+
+.MyStoryCell img {
+width:200px;
+height:200px;
+}
+
+.story_share img{
+width:22px !important;
+height:22px !important;
+}
+
+
+
+/*.field .field-label {
+    float: left;
+    font-weight:normal;
+}
+*/
+.view--getcovered-my-story {
+
+}
+
+.view--getcovered-my-story .views-row {
+width:200px;
+float:left;
+margin-right:20px;
+margin-bottom:20px;
+}
+
+.view--getcovered-my-story .views-row:nth-child(3) {
+margin-right:0px;
+}
+
+.views-field-field-call-to-action .field-content{
+float:left;
+width:200px;
+font-weight:bold;
+border-top:solid #a7d46d 5px;
+border-left: solid 1px #d6d6d6;
+border-right:solid 1px #d6d6d6;
+border-bottom: solid 1px #d6d6d6;
+padding: 5px 11px;
+height:40px;
+}
+
+.share img{ 
+width:18px !important;
+height:18px !important;
+
+}
+
+.views-field-field-story-tile-image {
+
+
+}
+
+.share-social-buttons {
+width:40px;
+float:right;
+}
+
+/*#voc-wrapper {
+margin:0px;
+}
+*/
+.page-node-2019 div.panels-flexible-row {
+    padding-top: 0pxS !importnant;
+}
+
+/*===============VOC Tool =============== start ===*/
+#voc_tool_container #page_2, #page_3 {
+    background: rgba(0, 0, 0, 0) url("images/voc-bg.png") no-repeat scroll right top;
+    color: #333;
+    float: left;
+    height: 295px;
+    line-height: 1.25em;
+    width: 425px;
+}
+
+/*===============VOC Tool =============== end ===*/
+
+.view-iia-affordable-care-act- .view-footer {
+font-weight:bold;
+margin:-5px 0px 10px -12px;
+}
+
+.view-iia-affordable-care-act- .view-footer a.view-all, p.view-all{
+padding:15px !important;
+}
+
+.accordion {
+border-bottom: solid 1px #c4c4c4;
+}
+
+.accordion h3 {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #fff url("/sites/default/files/arrow-square.png") no-repeat scroll 610px -30px;
+    cursor: pointer;
+    margin: 0;
+    /*padding: 20px 5px;*/
+    color:#185394 !important;
+    font-size:14px;
+    font-weight:bold;
+    display:inline-block;
+    width:120%;
+}
+
+.accordion h3.active {
+
+    background-position: 610px 17px;
+}
+.accordion .text {
+    background: #fff none repeat scroll 0 0;
+    margin: 0;
+    padding: 10px 30px 20px;
+    border:none;
+}
+
+.select-state {
+  margin-bottom: 20px;
+}
+
+.state-status {
+  height: 55px;
+  text-align: center;
+}
+
+.state-status #theTitle {
+  font-size: 16px
+}
+
+.state-status #theBody {
+  display: inline-block;
+  width: 500px;
+  font-size: 12px
+}
+
+.panels-flexible-independent_2column_span{
+  margin-bottom: 30px;
+}
+
+.no-left-nav .region-content{
+width:940px;
+}
+
+
+.page-blog .group-header { margin-top: -5px; }
+
+.accordion-heading a{
+display:inline-block;
+padding: 15px 5px;
+width:100%;
+}
+
+.accordion-heading a:focus{
+display:block;
+}
+
+.panel-heading {
+    padding: 0px;
+    border-bottom: 1px solid transparent;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+.panel-default {
+    border:none;
+}
+
+.site-content-with-left-nav a.accordion-toggle {
+    max-width: 640px;
+}
+
+.panels-flexible-row-independent_2column_span-main-row .node-basic-snippet, .grey-feature-box, .feature-window-box-left {
+    background-color: #f6f7f7;
+    border: 0px solid #d6d6d6;
+    margin-top: 0px;
+   
+}
+
+.panels-flexible-row-independent_2column_span-main-row .node-basic-snippet, .grey-feature-box {
+    padding: 0px 0px 0px;
+}
+
+.panels-flexible-independent_2column_span .panels-flexible-region-independent_2column_span-center {
+
+    height: 260px;
+}
+
+@media only screen and (max-width: 767px) {
+
+
+.slicknav_nav a.nav-insurance-marketplace-hhs, 
+.slicknav_nav a.nav-about-the-law-hhs, 
+.slicknav_nav a.nav-coverage-to-care-hhs, 
+.slicknav_nav a.nav-facts-features-hhs,
+.slicknav_nav a.nav-insurance-marketplace-hhs.active, 
+.slicknav_nav a.nav-about-the-law-hhs.active, 
+.slicknav_nav a.nav-coverage-to-care-hhs.active, 
+.slicknav_nav a.nav-facts-features-hhs.active 
+{
+  font-size: 20px;
+  color: #FFF;
+  width: 100%;
+  font-weight: normal;
+  border: none;
+  margin: 0; 
+  background-image: none;
+  background-color: #185394;
+  padding: 10px 0;
+  border-bottom: solid thin #4b73a3;
+  display: inline-block;
+  text-align: center;
+
+}
+
+.whats-new {
+width:100%;
+margin-left:0px;
+margin-top: 30px;
+}
+
+.tweets-blog {
+width:100%;
+margin-left:0px;
+margin-top:10px;
+}
+ 
+ .view-getcovered-my-story .view-all {
+width:100%;
+display:block;
+}
+
+.view-getcovered-my-story  .share {
+width:100%;
+}
+
+.panel-pane.pane-node.first-tile, .panel-pane.pane-node.crosslink-tile {
+    /*width: 270% !important;*/
+    clear:both !important;
+}
+
+.state-col {
+margin-top:-20px !important;
+}
+
+.view-getcovered-my-story .views-row {
+width:100%;
+margin-bottom:8px;
+
+}
+
+.view-getcovered-my-story .view-all {
+margin-bottom:8px;
+}
+
+
+
+.view-iia-billboard .carousel {
+
+    width: 100%;
+    clear:both;  
+    position:relative;
+   
+}
+
+.panels-flexible-region-independent_2column_span-middle_region__ {
+    float: left;
+    width: 100%;
+    clear:both;
+}
+
+
+
+.panels-flexible-region-independent_2column_span-center {
+width:100%;
+}
+
+.CoverageDesktop {
+display:none;
+}
+
+.CoverageMobile {
+display:block;
+width:100%;
+}
+ 
+
+.coverage .MyStoryCell img {
+    height: 316px;
+   /* width: 100%;*/
+}
+
+.coverage .MyStoryCell {
+    width: 100%;
+}
+
+/*.coverage .MyStoryCellLink {
+
+    width: 100%;
+}*/
+
+.MyStoryCellLink {
+  width:200px;
+}
+
+#flash-state-map {
+display:none;
+}
+
+
+.MyStoryColumn1 {
+width:100% !important;
+float:left;
+
+}
+
+.MyStoryCell {
+clear:right;
+display:block;
+width: 100%;
+}
+
+.MyStoryFrame {
+width:100% !important;
+float:left;
+
+}
+
+
+.whatsyourstory {
+float:left !important;
+}
+
+
+.read-more {
+margin-left:-3px;
+clear:both;
+display:block;
+}
+
+
+.requiredInput {
+margin-top:5px;
+}
+
+.select-state{
+display:block;
+margin-bottom: 30px;
+}
+
+.state-status {
+display:none;
+}
+
+.accordion h3 {
+    background: #fff url("/sites/default/files/expand.png") no-repeat scroll 100%;
+    padding: 20px 69px 20px 10px !important;
+    width:100%;
+ 
+}
+
+
+
+.accordion-heading a{
+display:inline-block;
+width:125%;
+ padding: 15px 50px 0px 0px
+}
+
+.accordion h3.active {
+  background: #fff url("/sites/default/files/collapse.png") no-repeat scroll 100%;
+    padding: 20px 49px 20px 10px !important;
+     
+}
+
+.accordion-heading a {
+  margin-left:0px;
+}
+
+
+.MyStoryContainer {
+  width :100%;
+}
+
+.coverage.MyStoryContainer {
+   
+    width: 100% !important;
+}
+
+.panels-flexible-independent_2column_span .panels-flexible-region-independent_2column_span-center {
+
+    height: auto;
+}
+
+.panels-flexible-independent_2column_span {
+    margin-bottom: 0px;
+}
+ 
+}

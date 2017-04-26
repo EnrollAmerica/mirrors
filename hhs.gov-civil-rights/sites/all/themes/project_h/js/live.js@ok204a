@@ -1,0 +1,216 @@
+jQuery(document).ready(function($){
+$('head').append('<script type="text/javascript" src="https://www.hhs.gov/utilities/amp/amp/amp.js"></script> <script type="text/javascript" src="https://www.hhs.gov/utilities/amp/resources/accessibility/AccessibilityMenu.js"><\/script>');
+	$('body').attr('onload', 'loadHandler(event)');
+	$('body').attr('ontouchstart', '');
+
+	$('#playButton').click(function() {
+		$(this).addClass('hidden');
+		$(this).parent("div").attr({ "aria-hidden": "true", "tabindex": "-1" }); 
+		$('#pauseButton').removeClass('hidden').focus();
+		$('#pauseButton').parent("div").attr({ "aria-hidden": "false", "tabindex": "" }); 
+	});
+	$('#pauseButton').click(function() {
+		$(this).addClass('hidden');
+		$(this).parent("div").attr({ "aria-hidden": "true", "tabindex": "-1" }); 
+		$('#playButton').removeClass('hidden').focus();
+		$('#playButton').parent("div").attr({ "aria-hidden": "false", "tabindex": "" }); 
+	});
+	$('#muteButton').click(function() {
+		$(this).addClass('hidden');
+		$(this).parent("div").attr({ "aria-hidden": "true", "tabindex": "-1" }); 
+		$('#unmuteButton').removeClass('hidden').focus();
+		$('#unmuteButton').parent("div").attr({ "aria-hidden": "false", "tabindex": "" }); 
+	});
+	$('#unmuteButton').click(function() {
+		$(this).addClass('hidden');
+		$(this).parent("div").attr({ "aria-hidden": "true", "tabindex": "-1" }); 
+		$('#muteButton').removeClass('hidden').focus();
+		$('#muteButton').parent("div").attr({ "aria-hidden": "false", "tabindex": "" }); 
+	});
+	$('#captionOnButton').click(function() {
+		$(this).addClass('hidden');
+		$(this).parent("div").attr({ "aria-hidden": "true", "tabindex": "-1" }); 
+		$('#captionOffButton').removeClass('hidden').focus();
+		$('#captionOffButton').parent("div").attr({ "aria-hidden": "false", "tabindex": "" }); 
+	});
+	$('#captionOffButton').click(function() {
+		$(this).addClass('hidden');
+		$(this).parent("div").attr({ "aria-hidden": "true", "tabindex": "-1" }); 
+		$('#captionOnButton').removeClass('hidden').focus();
+		$('#captionOnButton').parent("div").attr({ "aria-hidden": "false", "tabindex": "" }); 
+	});
+	$('#fullscreenButton').click(function() {
+		$(this).addClass('hidden');
+		$(this).parent("div").attr({ "aria-hidden": "true", "tabindex": "-1" }); 
+		$('#normalscreenButton').removeClass('hidden').focus();
+		$('#normalscreenButton').parent("div").attr({ "aria-hidden": "false", "tabindex": "" }); 
+		fullscreen();
+	});
+	$('#normalscreenButton').click(function() {
+		$(this).addClass('hidden');
+		$(this).parent("div").attr({ "aria-hidden": "true", "tabindex": "-1" }); 
+		$('#fullscreenButton').removeClass('hidden').focus();
+		$('#fullscreenButton').parent("div").attr({ "aria-hidden": "false", "tabindex": "" }); 
+		normalscreen();
+	});
+
+	function fullscreen(elem) {
+		if (navigator.userAgent.indexOf('MSIE') !== -1 || navigator.appVersion.indexOf('Trident/') > 0) {
+			self.moveTo(0,0);
+			self.resizeTo(screen.availWidth,screen.availHeight);
+			$('#akamai-media-player').addClass('fullscreen');
+			$('#menu').addClass('control');
+			$('#fullscreenButton').addClass('hidden');
+			$('#normalscreenButton').removeClass('hidden');  
+			$('.top-container, .hhs-global-footer, .blog-tweets-archives, .pane-current-streaming-event').toggle();
+		} else {
+			$('.site-content').attr('id', 'videocontrol');
+			var elem = document.getElementById("videocontrol");
+			if(elem.requestFullscreen) {
+				elem.requestFullscreen();
+			} else if(elem.mozRequestFullScreen) {
+				elem.mozRequestFullScreen();
+			} else if(elem.webkitRequestFullscreen) {
+				elem.webkitRequestFullscreen();
+			} else if(elem.msRequestFullscreen) {
+				elem.msRequestFullscreen();
+			}                       
+			$('#akamai-media-player').addClass('fullscreen');
+			$('#menu').addClass('control');
+			$('#fullscreenButton').addClass('hidden');
+			$('#normalscreenButton').removeClass('hidden');  
+			$('.top-container, .hhs-global-footer, .blog-tweets-archives, .pane-current-streaming-event').toggle();
+		}
+	}
+
+	function normalscreen() {
+		if (navigator.userAgent.indexOf('MSIE') !== -1 || navigator.appVersion.indexOf('Trident/') > 0) {
+			$('#akamai-media-player').removeClass('fullscreen');
+			$('#menu').removeClass('control');
+			$('#fullscreenButton').removeClass('hidden');
+			$('#normalscreenButton').addClass('hidden');
+			$('.top-container, .hhs-global-footer, .blog-tweets-archives').toggle();
+		} else {
+			if (document.exitFullscreen) {
+				document.exitFullscreen();
+			} else if (document.msExitFullscreen) {
+				document.msExitFullscreen();
+			} else if (document.mozCancelFullScreen) {
+				document.mozCancelFullScreen();
+			} else if (document.webkitExitFullscreen) {
+				document.webkitExitFullscreen();
+			}
+			$('#akamai-media-player').removeClass('fullscreen');
+			$('#menu').removeClass('control');
+			$('#fullscreenButton').removeClass('hidden');
+			$('#normalscreenButton').addClass('hidden'); 
+		}
+	}
+
+	document.addEventListener("fullscreenchange", function() {
+		if(document.fullscreenElement == null) {
+			$('#akamai-media-player').removeClass('fullscreen');
+			$('#menu').removeClass('control');
+			$('#fullscreenButton').removeClass('hidden');
+			$('#normalscreenButton').addClass('hidden');
+			$('.top-container, .hhs-global-footer, .blog-tweets-archives, .pane-current-streaming-event').toggle();
+		}
+	});
+	document.addEventListener("mozfullscreenchange", function() {
+		if(document.mozFullScreenElement == null) {
+			$('#akamai-media-player').removeClass('fullscreen');
+			$('#menu').removeClass('control');
+			$('#fullscreenButton').removeClass('hidden');
+			$('#normalscreenButton').addClass('hidden');
+			$('.top-container, .hhs-global-footer, .blog-tweets-archives, .pane-current-streaming-event').toggle();
+		}
+	});
+	document.addEventListener("webkitfullscreenchange", function() {
+		if(document.webkitFullscreenElement == null) {
+			$('#akamai-media-player').removeClass('fullscreen');
+			$('#menu').removeClass('control');
+			$('#fullscreenButton').removeClass('hidden');
+			$('#normalscreenButton').addClass('hidden');
+			$('.top-container, .hhs-global-footer, .blog-tweets-archives, .pane-current-streaming-event').toggle();
+		}
+	});
+	document.addEventListener("msfullscreenchange", function() {
+		if(document.msFullscreenEnabled == null) {
+			$('#akamai-media-player').removeClass('fullscreen');
+			$('#menu').removeClass('control');
+			$('#fullscreenButton').removeClass('hidden');
+			$('#normalscreenButton').addClass('hidden');
+			$('.top-container, .hhs-global-footer, .blog-tweets-archives, .pane-current-streaming-event').toggle();
+		}
+	});
+
+	if($(".breadcrumb").html().indexOf("live-secure1") > -1) {
+		$(".breadcrumb").empty(); 
+		$(".breadcrumb").html("<a href='/'>Home</a> > <a href='/live'>Live</a>");
+	}      
+
+	if($(".breadcrumb").html().indexOf("live-secure2") > -1) {
+		$(".breadcrumb").empty(); 
+		$(".breadcrumb").html("<a href='/'>Home</a> > <a href='/live'>Live</a>");
+	}
+
+	if($(".breadcrumb").html().indexOf("live-secure3") > -1) {
+		$(".breadcrumb").empty(); 
+		$(".breadcrumb").html("<a href='/'>Home</a> > <a href='/live'>Live</a>");
+	}
+	
+	if($(".breadcrumb").html().indexOf("live-1") > -1) {
+		$(".breadcrumb").empty(); 
+		$(".breadcrumb").html("<a href='/'>Home</a> > <a href='/live'>Live</a>");
+	}      
+
+	if($(".breadcrumb").html().indexOf("live-2") > -1) {
+		$(".breadcrumb").empty(); 
+		$(".breadcrumb").html("<a href='/'>Home</a> > <a href='/live'>Live</a>");
+	}
+
+	if($(".breadcrumb").html().indexOf("live-3") > -1) {
+		$(".breadcrumb").empty(); 
+		$(".breadcrumb").html("<a href='/'>Home</a> > <a href='/live'>Live</a>");
+	}
+
+	if($(".breadcrumb").html().indexOf("live-coop") > -1) {
+		$(".breadcrumb").empty(); 
+		$(".breadcrumb").html("<a href='/'>Home</a> > <a href='/live'>Live</a>");
+	}
+
+	if ($(".block.upcoming-events .view .view-empty").length > 0) {
+		$(".block.upcoming-events .view .view-empty").css("display", "none");
+		$(".block.upcoming-events>h2").css("display", "none");
+		$(".block.upcoming-events").css("padding-top", "20px");
+	}
+
+
+// ADDS BOLD ON DATE, FOR MULTI DATE LIST
+	if ($(".page-live .multi-date-list .date-display-single").length > 0)
+	{
+		String.prototype.nthIndexOf = function(pattern, n) {
+			var i = -1;
+
+			while (n-- && i++ < this.length) {
+				i = this.indexOf(pattern, i);
+				if (i < 0) break;
+			}
+
+			return i;
+		}
+
+		$(".page-live .multi-date-list .date-display-single").each(function( index ) {
+			//	Get key indices for string manipulation
+			var endOfDate = this.innerHTML.nthIndexOf(' ', 3);	//	find the third space
+			var endOfStartTime = this.innerHTML.indexOf('</span>') + 8;
+			var startOfEndTime = this.innerHTML.indexOf('<span class="date-display-end') - 1;
+			
+			//	Change "to" to hyphen
+			this.innerHTML = this.innerHTML.substr(0, endOfStartTime) + "-" + this.innerHTML.substr(startOfEndTime);
+			
+			//	Add span tag around date text
+			this.innerHTML = "<span class='date-only'>" + this.innerHTML.substr(0, endOfDate) + "</span>" + this.innerHTML.substr(endOfDate);
+		});
+	}
+});

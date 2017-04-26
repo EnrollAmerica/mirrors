@@ -1,0 +1,289 @@
+.page-faqs .field-name-body{
+  display: none;
+}
+
+.page-faqs .group-header {
+   font-size: 20px;
+   margin-bottom: 5px;
+}
+
+.page-faqs .views-faqs .accordion-row{
+  border-bottom: solid thin #e6e6e6;
+  border-top: none;
+  padding: 20px 0;
+  margin: 0;
+  width: 100%;
+  float: left;
+}
+
+/**** Left Navigation styles ****/
+
+.page-faqs .region-left-nav a, .page-faqs .region-left-nav h4 {
+   color: #185394;
+}
+
+.page-faqs .views-label-field-categorized {
+   font-weight: bold;
+   display: block;
+}
+
+.page-faqs .left-nav-region {
+   float: left;
+   display: block;
+}
+
+.page-faqs .site-content {
+   float: none;
+}
+
+.page-faqs .region-left-nav {
+   border: 1px solid #d2d2d2;
+   background-color: #f7f7f7;
+   font-size: 14px;
+}
+
+.page-faqs .region-left-nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.page-faqs .region-left-nav ul li {
+   border: none;
+   border-top: 1px solid #d2d2d2;
+   font-weight: normal;
+   margin: 0;
+}
+
+.page-faqs .region-left-nav ul li a {
+   padding: 5px 11px 5px 20px;
+    display: block;
+    width: 100%;
+}
+
+.page-faqs .region-left-nav ul li:first-child {
+   border-top: none;
+}
+
+.page-faqs .views-field-name {
+   display: inline-block;
+   padding: 0px;
+   width: 100%
+}
+
+
+.page-faqs .field-name-field-tagged, .page-faqs .field-name-field-categorized {
+   display: block;
+}
+
+.page-faqs .field-name-field-tagged .field-label, .page-faqs .field-name-field-categorized .field-label,
+.page-faqs .field-name-field-tagged .field-items, .page-faqs .field-name-field-categorized .field-items {
+    display: inline-block;
+}
+
+.page-faqs .field-name-field-post-date, .page-faqs .field-name-byline,
+.page-faqs .field-name-field-post-date .field-items, .page-faqs .field-name-byline .field-items,
+.page-faqs .field-name-field-post-date .field-items .field-item, .page-faqs .field-name-byline .field-items .field-item {
+    display: inline;
+}
+
+.page-faqs .field-name-custom-posted-in .field-items .field-item, .page-faqs .field-name-custom-tags .field-items .field-item,
+.page-faqs .field-name-custom-posted-in .field-items .field-label, .page-faqs .field-name-custom-tags .field-items .field-label {
+    display: inline;
+}
+
+.page-faqs .field-name-byline {
+    margin-left: 10px;
+    padding-left: 10px;
+    font-style: italic;
+    /*color: #185394;*/
+    border-left: 1px solid #000;
+}
+
+.page-faqs  .active{
+  margin-top: 0px !important;
+}
+
+.page-faqs .pagerer .pager-previous .active.first {
+   float:left;
+}
+
+.ctools-collapsible-container .ctools-toggle {
+    background-image: url(images/collapse.png);
+}
+
+.ctools-collapsible-container .ctools-toggle-collapsed {
+    background-image: url(images/expand.png);
+}
+
+.page-faqs .ctools-collapsible-container .ctools-toggle {
+    float: right;
+    width: 29px;
+    height: 29px;
+    cursor: pointer;
+    background-position: center;
+    margin-right: 5px;
+    margin-bottom: 3px;
+    margin-top: -5px;
+}
+
+.page-faqs .field-name-field-tagged .field-items .field-item,
+.page-faqs .field-name-field-categorized .field-items .field-item  {
+    display: inline;
+    padding-left: 10px;
+}
+
+.view-FAQs-left-nav li:hover,.view-FAQs-left-nav li:focus {
+  background-color: #eee;
+}
+
+.view-FAQs-left-nav a{
+  text-decoration: none;
+}
+
+/**** End Left Navigation styles ****/
+
+
+/*FAQS ********************** 20150609 ********************************/
+
+
+/******** Answer page and full answer page common style ***********/
+.page-faqs .page-search-block{
+  clear: both;
+  border-top: 1px solid #d2d2d2;
+  padding-top: 20px;
+}
+
+
+/********************** answers page ***********************************/
+.page-faqs .views-row-last{
+    border-bottom: solid thin #d2d2d2;
+}
+
+.page-faqs .views-row-last:last-child{
+	border-bottom: none;
+}
+
+
+.page-faqs .views-row-first{
+    border-top: none;
+}
+
+.page-faqs .views-accordion-faqs-page_1-header.accordion-row, .page-faqs .views-accordion-faqs-page_2-header.accordion-row {
+  border: none;
+  padding: 20px 0 0 0;
+  font-size: 20px;
+}
+
+.page-faqs a:focus>span.accordion-title{
+  border: 1px dotted #999;
+}
+
+
+/************ Full Answer styles *******************************************/
+
+.page-faqs .field-label-above {
+    border-top: 1px solid #d2d2d2;
+    padding: 0 0 20px;
+}
+
+
+
+/*.page-faqs .field-name-field-faq-full-answer{
+  padding-bottom: 20px;
+}*/
+
+/*.page-faqs .views-field-field-faq-full-answer{
+  padding-top: 10px;
+}*/
+
+.page-faqs .field-name-field-related-questions div.field-item{
+  display: list-item ;
+  margin-left: 1.3em;
+  list-style-type: disc;
+}
+
+.page-faqs .field-name-field-related-questions div.field-item a{
+  text-decoration: none;
+}
+
+.page-faqs .field .field-label{ /* category header */
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+
+/*********** Landing Page Style **********************************/
+.page-faqs h2.block-title{
+    font-family: Helvetica, Arial, Sans-serif;
+    font-size: 20px;
+    color: #333333;
+}
+
+.page-faqs span.ui-accordion-header-icon.ui-icon.ui-icon-triangle-1-e,
+.page-faqs span.ui-accordion-header-icon.ui-icon.ui-icon-triangle-1-s{
+  top: -4px ;
+  right: 2px ;
+}
+
+.page-faqs .view-faqs{
+  list-style: decimal;
+  counter-reset: section;
+}
+
+.faqs-landing-page span.accordion-title:before{
+  counter-increment: section;
+  content: counter(section) ". ";
+  font-weight: bold;
+  color: black;
+}
+
+.faqs-landing-page .page-search-block{
+  clear: both;
+  padding-top: 20px;
+  border-top: none;
+}
+
+.page-faqs .views-row.accordion-row span.accordion-title{
+  font-size: 14px;
+  font-weight: bold;
+  padding-right: 39px;
+}
+
+.page-faqs .faq-landing-search{
+  height: 125px;
+}
+
+.faqs-landing-page a:focus>span.field-content>span.accordion-title{
+  border: 1px dotted #999;
+}
+
+
+/* Mobile CSS*/
+@media only screen and (max-width: 767px){
+
+  .page-faqs .faq-landing-search input#HHS, .page-faqs .page-search-block input#HHS{
+    left: -200px;
+    bottom: -12px;
+    margin-bottom: 40px;
+  }
+
+  .page-faqs .faq-landing-search{
+    margin-bottom: 75px;
+  }
+
+  .page-faqs .faq-landing-search .hhs-global-search div.inner,
+  .page-faqs .page-search-block .hhs-global-search div.inner {
+    width: 300px;
+    padding-left: 0;
+  }
+
+  .page-faqs .view-id-faqs .accordion-title{
+    margin: 0 ;
+  }
+
+  .page-faqs #block-views-faqs-block-1 h2.block-title{
+    top: 20px;
+  }
+}
