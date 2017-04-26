@@ -1,0 +1,52 @@
+div.xmlbc_container {
+    background: #fff none repeat scroll 0 0;
+}
+.xmlbc_container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+}
+body {
+	background: #eee url(../img/bgBody.png) repeat-x;
+}
+/* wrapper for header and body; */
+div#main {
+	background: white;
+	color: #000;
+	margin: 0 auto -65px;
+	position: relative;
+	width: 980px;
+}
+
+div.leftnav {
+    color: #000000;
+    float: left;
+    font: bold 12px/14px arial,verdana,sans-serif;
+    margin: 1em 0 15px;
+    overflow: hidden;
+    padding: 0 0 0 0.5em;
+    width: 185px;
+}
+
+div.content {
+    background-color: #ffffff;
+    color: #000000;
+    float: none;
+    font: 12px arial,verdana,sans-serif;
+    height: auto;
+    margin: 1em 1em 3em 16.5em;
+    padding: 5px 0 0 5px;
+    position: static;
+    width: auto;
+}
+div.content a {
+	text-decoration: underline;
+}
+p {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+table, tbody, tfoot, thead, tr, th, td {
+    vertical-align: middle;
+}
+

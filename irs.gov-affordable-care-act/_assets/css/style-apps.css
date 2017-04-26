@@ -1,0 +1,80 @@
+.app-content {
+	font: 12px arial, verdana, sans-serif;		
+	color: #000;
+	background-color: #FFF; 
+	position: static;
+	float: none;
+	height: auto;
+	width: auto;	
+	padding: 5px 0px 20px 20px;
+	margin: 1em 1em 0em 1em;
+}
+
+.app-content table {
+	width: 600px;
+}
+
+.app-content tr {
+	background-color: #FFF;
+}
+
+#content .app-content table td {
+	padding: 0;
+	border: none;
+	text-align: left;
+}
+
+.app-content li {
+	margin: 0 0 0 40px;
+}
+
+.app-content h1 {
+	font:bold 15px arial, verdana, sans-serif;
+	color: #001E5A;	
+}
+
+.app-content h2 {
+	font:bold 14px arial, verdana, sans-serif;
+	color: #001E5A;
+}
+
+.app-content h3 {
+	font:bold 13px arial, verdana, sans-serif;
+	color: #001E5A;
+}
+
+.app-content h3 + p, .app-content h3 + ul {
+	margin-top: 15px;
+}
+
+.app-content h4 {
+	font:bold 12px arial, verdana, sans-serif;
+	color: #001E5A;
+}
+
+/* Error message style */
+.errors {
+	color: #F00;
+	vertical-align: bottom;	
+}
+
+.errors h3 {
+	color: #F00;
+	font: 13px arial, verdana, sans-serif;
+	vertical-align: middle;
+}
+
+.errors img {
+	vertical-align: bottom;
+	height: 22px;
+	width: 25px;
+}
+
+.errors ul, .errors li {
+	margin: 0;
+}
+
+.errors li {
+	width: 415px;
+	list-style: none;
+}
