@@ -1,0 +1,77 @@
+/*Customized styles START*/
+
+.dl-results .showmore-btn {background-image: url("/resources/images/dynamic-lists/show-more-less-arrows.png"); background-position: right -22px!important;}
+th {background: #cee3ed;}
+tr:nth-child(2n) {background: #fff;}
+.show-more-less img, .show-more-less div {vertical-align: middle; color: #166893; font-size: 16px;}
+.show-more-less img {margin-right: 5px;}
+.showmore-btn, .showless-btn {border-radius: 0;}
+.ng-binding { color: #000; font-size: 13px;}
+.dl-results .documents table {width: 550px;}
+.usa-button, .usa-button-primary, .usa-button:visited, .usa-button-primary:visited, button, [type="button"], [type="submit"], [type="reset"], [type="image"] {background-color: #17415f; font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif; font-size: 14.4px; font-weight: 700; line-height: 1; margin-left: 0; padding: 0.4em 0.8em;}
+#facet label {color: #000;}
+.facet-container > h3 {color: #046791; margin-top: 1.25rem;}
+/*Customized styles END*/
+
+h2 {
+	color: #026667;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	text-align: left;
+}
+#hor-minimalist-b {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border-collapse: collapse;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	text-align: left;
+	width: 480px;
+}
+#hor-minimalist-b .stateinfo {
+    font-weight: bold;
+}
+#hor-minimalist-b th {
+	border-top: 2px solid #086792;
+	border-bottom: 1px solid #CCC;
+	color: #333333;
+	padding: 8px 10px;
+	padding-left: 8px;
+}
+#hor-minimalist-b td {
+	border-bottom: 1px solid #CCC;
+	color: #333333;
+	padding: 8px 10px;
+	vertical-align: top;
+}
+#hor-minimalist-b tbody tr:hover td {
+	color: #333333;
+}
+
+/*supporting docs list styling*/
+
+#hor-minimalist-b ul {
+	padding-left: 0;
+	margin-left: 0;
+	display: block;
+	list-style-type: none;
+}
+
+#hor-minimalist-b li {
+	display:block;
+	border-bottom: 2px solid #CCC;
+	padding: 5px;
+	color: #999;
+}
+
+#hor-minimalist-b li a {
+	color: #006666;
+	text-decoration: none;
+}
+
+#hor-minimalist-b li a:visited a:active {
+	color: #666;
+}
+
+#hor-minimalist-b li a:hover {
+	color: #033;
+}

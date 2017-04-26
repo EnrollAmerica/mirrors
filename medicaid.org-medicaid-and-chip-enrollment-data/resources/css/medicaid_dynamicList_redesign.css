@@ -1,0 +1,978 @@
+/*
+ *  File:         medicaid_dynamicList_redesign.css
+ *  CVS:          $Id$
+ *  Description:  CSS definitions for DataTables pages used in Medicaid.gov
+ *  Author:       Allan Jardine
+ *  Created:      Tue May 12 06:47:22 BST 2009
+ *  Modified:     10-06-2011 by Nate Mudd
+ *					05-13-2015 by Bernadette Macias
+ *  Language:     CSS
+ *  Project:      DataTables (Medicaid.gov)
+ *
+ *  Copyright 2009 Allan Jardine. All Rights Reserved.
+ *
+ * ***************************************************************************
+ * DESCRIPTION
+ *
+ * The styles given here are suitable for the demos that are used with the standard DataTables
+ * distribution (see www.datatables.net). You will most likely wish to modify these styles to
+ * meet the layout requirements of your site.
+ *
+ * Common issues:
+ *   'full_numbers' pagination - I use an extra selector on the body tag to ensure that there is
+ *     no conflict between the two pagination types. If you want to use full_numbers pagination
+ *     ensure that you either have "example_alt_pagination" as a body class name, or better yet,
+ *     modify that selector.
+ *   Note that the path used for Images is relative. All images are by default located in
+ *     ../images/dynamic-lists/ - relative to this CSS file.
+ */
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * DataTables features
+ */
+ 
+ /*media all*/
+input[type='checkbox'] {
+ border: none;
+}
+
+.dl-results strong, .dl-results span, .dl-results td {font-size: 13px!important;}
+
+.dl-results tr {background-color: #ffffff;}
+
+.filter_reset {
+    text-align: right;
+}
+
+table#dynamic-list td {font-size: 13.6px;}
+
+
+
+.dataTables_wrapper {
+	/* Remove these lines once all dynamic lists have been deployed. The following lines reset the styles set in medicaid_dynamicList.css */
+	position: auto;
+	min-height: auto; margin-right: auto;
+	clear: none;
+	_height: auto;
+	zoom: auto;  /* Feeling sorry for IE */
+}
+
+.dataTables_processing {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 250px;
+	height: 30px;
+	margin-left: -125px;
+	margin-top: -15px;
+	padding: 14px 0 2px 0;
+	border: 1px solid #ddd;
+	text-align: center;
+	color: #999;
+	font-size: 14px;
+	background-color: white;
+}
+
+
+/* Pagination nested */
+.paginate_disabled_previous, .paginate_enabled_previous, .paginate_disabled_next, .paginate_enabled_next {
+	height: 19px;
+	width: 19px;
+	margin-left: 3px;
+	float: left;
+}
+
+.paginate_disabled_previous {
+	background-image: url('../images/dynamic-lists/back_disabled.jpg');
+}
+
+.paginate_enabled_previous {
+	background-image: url('../images/dynamic-lists/back_enabled.jpg');
+}
+
+.paginate_disabled_next {
+	background-image: url('../images/dynamic-lists/forward_disabled.jpg');
+}
+
+.paginate_enabled_next {
+	background-image: url('../images/dynamic-lists/forward_enabled.jpg');
+}
+
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * DataTables dynamic-list
+ */
+table.dynamic-list {
+	margin: 0px auto;
+	clear: both;
+	width: 100%;
+	
+	/* Note Firefox 3.5 and before have a bug with border-collapse
+	 * ( https://bugzilla.mozilla.org/show%5Fbug.cgi?id=155955 ) 
+	 * border-spacing: 0; is one possible option. Conditional-css.com is
+	 * useful for this kind of thing
+	 *
+	 * Further note IE 6/7 has problems when calculating widths with border width.
+	 * It subtracts one px relative to the other browsers from the first column, and
+	 * adds one to the end...
+	 *
+	 * If you want that effect I'd suggest setting a border-top/left on th/td's and 
+	 * then filling in the gaps with other borders.
+	 */
+}
+
+table.dynamic-list {
+ border-collapse:collapse;
+}
+
+table.dynamic-list thead th {
+ border:none !important;
+}
+
+table.dynamic-list tfoot th {
+	padding: 3px 18px 3px 10px;
+	border-top: 1px solid black;
+	font-weight: bold;
+	border:none !important;
+}
+
+table.dynamic-list tr.heading2 td {
+	border-bottom: none;	
+}
+
+table.dynamic-list tbody td {
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: dotted;
+	border-left-style: dotted;
+	border-right-color: #333;
+	border-left-color: #333;
+	border-top-style: none;
+	border-bottom-style: none;
+	padding-top: 6px;
+	padding-right: 10px;
+	padding-bottom: 6px;
+	padding-left: 10px;
+}
+
+table.dynamic-list td.center {
+	text-align: center;
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * DataTables sorting
+ */
+
+.sorting_asc {
+	background-image: url('../images/dynamic-lists/sort_asc_redesign.png') !important;
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+
+.sorting_desc {
+	background-image: url('../images/dynamic-lists/sort_desc_redesign.png') !important;
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+
+.sorting {
+	background-image: url('../images/dynamic-lists/sort_both_redesign.png') !important;
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+
+.sorting_asc_disabled {
+	background-image: url('../images/dynamic-lists/sort_asc_disabled_redesign.png') !important;
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+
+.sorting_desc_disabled {
+	background-image: url('../images/dynamic-lists/sort_desc_disabled_redesign.png') !important;
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+
+tr.odd {
+	background-color: #FFFFFF;
+	height: 38px;
+	
+	/* Remove these lines once all dynamic lists have been deployed and only a single CSS is needed. */
+	background-image: none;
+	text-decoration: none;
+}
+
+tr.odd .closed {
+/* Remove these lines once all dynamic lists have been deployed and only a single CSS is needed. */
+background-color: none;
+background: none;
+padding-left:0px;
+}
+
+tr.odd .open {
+/* Remove these lines once all dynamic lists have been deployed and only a single CSS is needed. */
+background-color: none;
+background: none;
+padding-left:0px;
+}
+
+tr.even {
+	background-color: #e6e7e8;
+	height: 38px;
+	/* Remove these lines once all dynamic lists have been deployed and only a single CSS is needed. */
+	background-image: none;
+	text-decoration: none;
+}
+
+tr.even .closed {
+/* Remove these lines once all dynamic lists have been deployed and only a single CSS is needed. */
+background-color: none;
+background: none;
+padding-left:0px;
+}
+
+tr.even .open {
+/* Remove these lines once all dynamic lists have been deployed and only a single CSS is needed. */
+background-color: none;
+background: none;
+padding-left:0px;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Misc
+ */
+ 
+.dataTables_scroll {
+	clear: both;
+}
+
+.dataTables_scrollBody {
+	*margin-top: -1px;
+}
+
+.top, .bottom {
+	padding: 15px;
+	background-color: #F5F5F5;
+	border: 1px solid #CCCCCC;
+}
+
+.top .dataTables_info {
+	float: none;
+}
+
+.clear {
+	clear: both;
+}
+
+.dataTables_empty {
+	text-align: center;
+}
+
+tfoot input {
+	margin: 0.5em 0;
+	width: 100%;
+	color: #444;
+}
+
+tfoot input.search_init {
+	color: #999;
+}
+
+td.group {
+	background-color: #d1cfd0;
+	border-bottom: 2px solid #A19B9E;
+	border-top: 2px solid #A19B9E;
+}
+
+td.details.even {
+    background-image: linear-gradient(bottom, #FEFBF6 13%, #E9E0CF 70%);
+    background-image: -o-linear-gradient(bottom, #FEFBF6 13%, #E9E0CF 70%);
+    background-image: -moz-linear-gradient(bottom, #FEFBF6 13%, #E9E0CF 70%);
+    background-image: -webkit-linear-gradient(bottom, #FEFBF6 13%, #E9E0CF 70%);
+    background-image: -ms-linear-gradient(bottom, #FEFBF6 13%, #E9E0CF 70%);
+    background-image: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0.13, #FEFBF6),
+	    color-stop(0.7, #E9E0CF)
+    );
+}
+
+td.details.even {
+	background: #D2E9FF;
+}
+
+td.details.odd {
+    background-image: linear-gradient(bottom, #EBF0EC 48%, #D4E3E8 92%);
+    background-image: -o-linear-gradient(bottom, #EBF0EC 48%, #D4E3E8 92%);
+    background-image: -moz-linear-gradient(bottom, #EBF0EC 48%, #D4E3E8 92%);
+    background-image: -webkit-linear-gradient(bottom, #EBF0EC 48%, #D4E3E8 92%);
+    background-image: -ms-linear-gradient(bottom, #EBF0EC 48%, #D4E3E8 92%);
+
+    background-image: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0.48, #EBF0EC),
+	    color-stop(0.92, #D4E3E8)
+    );
+}
+
+td.details.odd {
+	background:#FFFFFF;
+}
+
+td.details table {
+  border-collapse: collapse;
+  width: 100%;
+}
+table.innerTable {
+ table-layout:fixed;
+ width:100%;
+ word-wrap:break-word;
+}
+
+td.details table a {
+	color:#666666;
+}
+
+td.details table td, table th {
+	border: 1px solid #CCCCCC;
+}
+td.details table tr:first-child td {
+  border-top: 0;
+}
+td.details table tr:last-child td {
+  border-bottom: 0;
+}
+td.details table tr td:first-child,
+td.details table tr th:first-child {
+  border-left: 0;
+  width: 20%;
+  text-align:right;
+}
+td.details table tr td:last-child,
+td.details table tr th:last-child {
+  border-right: 0;
+}
+
+.detailed_arrow {
+background: none;
+padding-left:0px;
+}
+
+.paging_full_numbers {
+	height: 22px;
+	line-height: 22px;
+}
+
+.paging_full_numbers span.paginate_button,
+ 	.paging_full_numbers span.paginate_active {
+	padding: 2px 4px;
+	margin: 0 3px;
+	cursor: pointer;
+	*cursor: hand;
+	text-decoration: underline;	
+	border: none;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+}
+
+.paging_full_numbers span.paginate_button {
+     background-color: transparent;
+}
+
+.paging_full_numbers span.paginate_button:hover {
+	font-weight: bold;	
+	background-color: transparent
+}
+
+.paging_full_numbers span.paginate_active {
+	font-weight:bold;
+	text-decoration:none;	
+	background-color: transparent;
+}
+
+table.dynamic-list tr.even.row_selected td {
+	background-color: #B0BED9;
+}
+
+table.dynamic-list tr.odd.row_selected td {
+	background-color: #9FAFD1;
+}
+
+
+/*
+ * Sorting classes for columns
+ */
+/* For the standard odd/even */
+tr.odd td.sorting_1 {
+	background-color: #D2E9FF;
+}
+
+tr.odd td.sorting_2 {
+	background-color: #D2E9FF;
+}
+
+tr.odd td.sorting_3 {
+	background-color: #D2E9FF;
+}
+
+tr.even td.sorting_1 {
+	background-color: white;
+}
+
+tr.even td.sorting_2 {
+	background-color: white;
+}
+
+tr.even td.sorting_3 {
+	background-color: white;
+}
+
+#dynamic-list tbody tr {
+cursor:text;
+}
+
+#dynamic-list tbody tr td.linkCol {
+cursor:pointer;
+text-decoration:underline;
+}
+
+.ui-state-hover-odd  {
+    background-color: #91ADAD !important;
+}
+
+.ui-state-hover-even  {
+    background-color: #E6E6E6 !important;
+}
+
+/* CUSTOM */
+#demo {
+	width:97%;
+	margin-left: 0px 0px 0px 0px;
+	margin-right: 0px 0px 0px 0px;
+	background-color:#FFFFFF;
+	padding:15px;
+	border:1px solid #999;
+}
+
+#demo h2 {
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-left: 3px;
+}
+
+.filtercontainer {
+	background-color: #659a9a;
+	padding: 10px;
+	margin-bottom: 10px;
+	display: block;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	height: 115px;
+	overflow:hidden; /* instead of clearfix div */
+}
+
+.filtercontainer-tall {
+	background-color: #659a9a;
+	padding: 10px;
+	margin-bottom: 10px;
+	display: block;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	height: 210px;
+	overflow: hidden; /* instead of clearfix div */
+}
+
+.filterreset {
+	margin-top: 10px;
+}
+
+.filterreset input {
+	font-size: 12px;
+	padding-top: 2px;
+	padding-right: 10px;
+	padding-bottom: 2px;
+	padding-left: 10px;
+	float:right;
+}
+
+.filtercontainer h3 {
+	margin-bottom: 5px;
+	color: #006666;
+	margin-top: 0px;
+}
+
+.filtercolumnright{
+    height: 50px;
+	float:right;
+    background:#FFF;
+	padding: 15px;
+	margin-left: 10px;
+}
+.filtercolumnleft{
+    height: 50px;
+	float:left;
+    background:#FFF;
+	padding: 15px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.filtercolumnmiddle{
+    height: 50px;
+	overflow: hidden;
+    background:#FFF;
+	padding: 15px;
+}
+
+.filtercolumnmiddle-short{
+    height: 50px;
+	overflow: hidden;
+    background:#FFF;
+	padding: 15px;
+	width: 240px;
+}
+
+.filterButton {
+    background-color: #EAE3D9;
+    border: 1px solid #C0B19C;
+    background-image: linear-gradient(bottom, #E9E0CF 43%, #FEFBF6 86%);
+    background-image: -o-linear-gradient(bottom, #E9E0CF 43%, #FEFBF6 86%);
+    background-image: -moz-linear-gradient(bottom, #E9E0CF 43%, #FEFBF6 86%);
+    background-image: -webkit-linear-gradient(bottom, #E9E0CF 43%, #FEFBF6 86%);
+    background-image: -ms-linear-gradient(bottom, #E9E0CF 43%, #FEFBF6 86%);
+    background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.43, #E9E0CF),
+	color-stop(0.86, #FEFBF6)
+    );
+    color: #773802;
+    cursor: pointer;
+    * cursor: hand;
+    padding: 5px 10px 5px 10px;
+    margin: 0 5px 0 0;
+}
+
+.dataTables_length {
+	float: left;
+	margin:10px 0 10px 5px;
+}
+
+.dataTables_length label {
+    font-weight:bold;
+}
+
+.dataTables_length select {
+}
+
+.dataTables_filter {
+	margin: 0 0 0 0px;
+}
+
+.dataTables_info {
+	float: left;
+	font-weight:bold;
+	margin-top: 5px;
+	margin-right: 0;
+	margin-bottom: 3px;
+	margin-left: 0;
+	color: none;
+}
+
+.dataTables_paginate {
+	float:right;
+	margin: 10px 0 0 0;
+}
+
+#dynamic-list_previous {
+}
+
+.dataTables_filter label {
+	height: 50px;
+	float:right;
+    background:#FFF;
+	padding: 15px;
+	margin-left: 10px;
+    font-weight:bold;
+}
+
+.dataTables_filter input {
+    height: 50px;
+	float:right;
+    background:#FFF;
+	padding: 15px;
+	margin-left: 10px;
+	float:left;
+	border: none;
+	width: auto;
+	color: none;
+}
+table.dynamic-list thead th {
+	background-color: #0a3334;
+	background-image: none;
+	border: none;
+	color: #FFFFFF;
+	cursor: pointer;
+	* cursor: hand;
+	font-weight: bold;
+	height: 40px;
+	padding-top: 0px;
+	padding-right: 30px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+table.dynamic-list tfoot th {
+	background-color: #0a3334;
+	font-weight: bold;
+	color: #FFFFFF;
+	cursor: pointer;
+	* cursor: hand;
+	height: 40px;
+	text-align: left;
+	padding-right: 30px;
+	padding-left: 10px;
+	vertical-align: middle;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.rounded-top-left {
+	-moz-border-radius-topleft: 0px;
+    border-top-left-radius: 0px;
+}
+
+.rounded-top-right {
+	-moz-border-radius-topright: 0px;
+    border-top-right-radius: 0px;
+    border-right:none;
+}
+
+.rounded-bottom-left {
+	-moz-border-radius-bottomleft: 0px;
+    border-bottom-left-radius: 0px;
+    border-left:none !important;
+}
+
+.rounded-bottom-right {
+	-moz-border-radius-bottomright: 0px;
+    border-bottom-right-radius: 0px;
+    border-right:none !important;
+}
+
+.DTTT_container {
+margin-right:5%;
+}
+
+.508-link {
+	text-align:right;
+	margin-top: 20px;}
+	
+.none {
+	display: none;
+}
+
+/*wow-2*/
+.keyword {
+	height: 17px;
+	padding: 5px;
+	border: 0;
+	background: #fff;
+}
+
+#facet {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #999;
+	padding-top: 20px;
+	font-size: 95%;
+}
+
+#facet h2 {
+	margin-top: 0px;
+	padding-top: 0px;
+	text-transform: uppercase;
+	color: #000;
+	font-size: 16px;
+}
+
+#facet h3 {
+	color: #066792;
+	margin-top: 20px;
+}
+
+#facet .small {
+	font-size: 11px;
+	font-style: oblique;
+}
+
+.facet-container {
+	background-color: #f2f2f3;
+	padding-top: 5px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	margin-bottom: 20px;
+}
+
+.check-indent {
+	margin-left: 20px;
+}
+
+.filter-box-background {
+	background-color: #FFF;
+	padding: 7px;
+}
+
+/*scrollbar*/
+.scrollboxcontainer {
+	border: 0px;
+	width: 180px;
+	height: 100px;
+	overflow-y: scroll;
+	background-color: #FFF;
+	padding: 7px;
+}
+
+.resetButton {
+	padding: 3px;
+	font-size: 12px;
+	background-color: #166893;
+	font-weight: bold;
+	color: #fff;
+	margin-left: 20px;
+	border-width: 1px;
+}
+
+.results-box {
+	width: 640px;
+}
+
+.pull-right {
+	float:right;
+}
+
+.dl-results {
+	border: 2px solid #999;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-bottom: 20px;
+}
+
+.dl-results table, th, tr, td {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	margin-bottom: 0px;
+	margin-top: 10px;
+}
+
+.dl-results .program-label p {
+	width: 190px;
+	font-size: 15px;
+	height: 40px;
+}
+
+.dl-results .program-name p {
+	width: 270px;
+	font-weight: bold;
+	color: #166893;
+	font-size: 15px;
+}
+
+.dl-results .status {
+	color: #166893;
+}
+
+.dl-results .show-more-less  {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #000000;
+}
+
+.dl-results .more-pane {
+    display: none;
+  }
+  
+.dl-results .more-pane h2 {
+	color: #166893;
+	font-variant: normal;
+	text-transform: none;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	font-size: 16px;
+  }
+  
+.dl-doc-header {
+	font-variant: normal;
+	color: #166893;	
+}
+  
+.dl-results .documents table {
+    width: 560px;
+}
+
+.dl-results .documents table th, td, tr {
+	padding: 4px;
+	border: 0px;
+}
+
+.dl-results .documents table th {
+	border: 0px;
+	background-color: #e6e6e8;
+	text-transform: uppercase;
+	font-size: 12px;
+	text-align: left;
+	margin: 0px;
+}
+.dl-results .documents .doc-title {
+	width: 300px;
+}
+
+.dl-results .scroll {
+    max-height: 100px;
+    overflow: auto;
+}
+
+.dl-results .more-pane img {
+	padding: 6px;
+	vertical-align: middle;
+}
+
+.dl-results .more-pane th {
+	background-color:#FFF;
+	border-color:#FFF;
+}
+
+.dl-results .more-pane th div {
+	color: #166893;
+	font-size: 16px;
+	background-color: #cee3ed;
+	border-color: #FFF;
+}
+
+.dl-results .comment-btn {
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 12px;
+	background: #166893;
+	padding: 3px 10px 3px 10px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.dl-results  .comment-btn:hover {
+  background: #036;
+  text-decoration: none;
+}
+
+.dl-results .showmore-btn {
+    background-color: #166893;
+    background-image: url('../images/dynamic-lists/show-more-less-arrows.png');
+    background-position: right -24px;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1em;
+    margin-bottom: 10px;
+    margin-right: 8px;
+    outline: medium none;
+    overflow: visible;
+    padding: 7px 35px 7px 7px;
+    position: relative;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.dl-results .showless-btn {
+    background-color: #166893;
+    background-image: url('../images/dynamic-lists/show-more-less-arrows.png');
+    background-position: right 0px;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1em;
+    margin-bottom: 10px;
+    margin-right: 8px;
+    outline: medium none;
+    overflow: visible;
+    padding: 7px 35px 7px 7px;
+    position: relative;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.dl-508-link {
+	float: right;
+	color: #000;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.dl-results a[href $='.pdf'] { 
+   padding-right: 18px;
+   background: transparent url('http://www.medicaid.gov/resources/images/icons/icon_pdf.gif') no-repeat center right;
+}
+
+.dl-results a[href $='.zip'] { 
+   padding-right: 18px;
+   background: transparent url('http://www.medicaid.gov/resources/images/icons/icon_zip.gif') no-repeat center right;
+}
+/* wow2 end*/
+
+
+/* 2015-06-26: bmw: changed source as needed in order to use with updated global template (mdGt2015) from Release 2.0 */
+
+#demo {
+	margin-left: 0px 0px 0px 0px;
+	margin-right: 0px 0px 0px 0px;
+	background-color:white;
+	padding:0px 0px 0px 0px;
+	border:none;
+}
+.paging_full_numbers span.paginate_button,
+.paging_full_numbers span.paginate_active {
+	padding: 2px 4px;
+	margin: 0 0px;
+	cursor: pointer;
+	*cursor: hand;
+	text-decoration: underline;
+	border: none;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+}
+#keywords {
+	width: 158px;
+}
+.dl-results {
+	border: 2px solid #999;
+	margin-bottom: 20px;
+	padding-right: 3px;
+	padding-left: 3px;
+}
+.waivers-508-version {
+	position: relative; 
+	top: auto; 
+	height: 1px; 
+ }
