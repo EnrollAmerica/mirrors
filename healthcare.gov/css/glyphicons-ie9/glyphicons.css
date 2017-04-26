@@ -1,0 +1,521 @@
+/* Reformat Glyphicon Class */
+
+.glyphicons {
+    display: inline-block;
+    overflow: hidden;
+    color: transparent;
+    font-family: sans-serif;
+    width: 16px;
+    height: 16px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#actionbar .glyphicon, #actionbar .glyphicons, #actionbar .glyphicons:before, #actionbar .glyphicons-icon {
+  padding: 10px 0 26px;
+}
+
+/* / Reformat Glyphicon Class */
+
+/* Clear Glyphicon Font Oultines */
+
+.glyphicons.user:before,
+.glyphicons.list:before,
+.glyphicons.usd:before,
+.glyphicons.edit:before,
+.glyphicons.calendar:before,
+.glyphicons.road:before,
+.glyphicons.address_book:before,
+.glyphicons.calculator:before,
+.glyphicons.briefcase:before,
+.glyphicons.comments:before,
+.glyphicons.phone_alt:before,
+.glyphicons.envelope:before,
+.glyphicons.search:before,
+.glyphicon-question-sign:before,
+.glyphicon-remove:before,
+.glyphicon-more_items:before,
+.glyphicon-notes_2:before,
+.glyphicon-group:before,
+.glyphicon-print:before,
+.glyphicons.parents:before,
+.glyphicons.shop_window:before,
+.glyphicons.headphones:before,
+.glyphicons.message_plus:before,
+.glyphicons.circle_question_mark:before,
+.glyphicons.file_export:before,
+.glyphicons.sort:before,
+.glyphicons.hospital:before,
+.glyphicons.circle_arrow_right:before,
+.glyphicons.pen:before,
+.glyphicons.check:before,
+.glyphicons.refresh:before,
+.glyphicons.inbox_in:before,
+.glyphicons.stroller:before,
+.glyphicons.print:before,
+.glyphicons.person:before,
+.glyphicons.file:before {
+  content: "";
+}
+
+/* / Clear Glyphicon Font Oultines */
+
+/* Glyphicon PNG Replacements */
+
+.glyphicons.user {
+    background-image: url('images/glyphicons_003_user-white.png');
+}
+
+.glyphicons.list {
+    background-image: url('images/glyphicons_114_list-white.png');
+}
+
+.glyphicons.usd {
+    background-image: url('images/glyphicons_227_usd-white.png');
+}
+
+.glyphicons.edit {
+    background-image: url('images/glyphicons_150_edit-white.png');
+}
+
+.glyphicons.calendar {
+    background-image: url('images/glyphicons_045_calendar-white.png');
+}
+
+.glyphicons.road {
+    background-image: url('images/glyphicons_026_road-white.png');
+}
+
+footer .glyphicons.road {
+    background-image: url('images/glyphicons_026_road-grey.png');
+}
+
+.glyphicons.address_book {
+    background-image: url('images/glyphicons_088_address_book-white.png');
+}
+
+.glyphicons.calculator {
+    background-image: url('images/glyphicons_323_calculator-white.png');
+}
+
+.glyphicons.briefcase {
+    background-image: url('images/glyphicons_341_briefcase-white.png');
+}
+
+.glyphicons.comments {
+    background-image: url('images/glyphicons_309_comments-white.png');
+}
+
+.glyphicons.search {
+    background-image: url('images/glyphicons_027_search-white.png');
+}
+
+.glyphicons.more_items {
+    background-image: url('images/glyphicons_318_more_items-white.png');
+}
+
+.glyphicons.notes_2 {
+    background-image: url('images/glyphicons_029_notes_2-white.png');
+}
+
+.glyphicons.group {
+    background-image: url('images/glyphicons_043_group-white.png');
+}
+
+.glyphicons.suitcase {
+    background-image: url('images/glyphicons_357_suitcase-white.png');
+}
+
+.glyphicons.sort {
+    background-image: url('images/glyphicons_319_sort-white.png');
+}
+ 
+.glyphicons.hospital {
+    background-image: url('images/glyphicons_298_hospital-white.png');
+}
+
+.glyphicons.circle_arrow_right {
+    background-image: url('images/glyphicons_217_circle_arrow_right-green.png');
+}
+
+.glyphicons.pen {
+    background-image: url('images/glyphicons_235_pen-white.png');
+}
+
+.glyphicons.check {
+    background-image: url('images/glyphicons_152_check-white.png');
+}
+
+.glyphicons.refresh {
+    background-image: url('images/glyphicons_081_refresh-white.png');
+}
+
+.glyphicons.inbox_in {
+    background-image: url('images/glyphicons_134_inbox_in-white.png');
+}
+
+.glyphicons.stroller {
+    background-image: url('images/glyphicons_075_stroller-white.png');
+}
+
+.glyphicons.person {
+    background-image: url('images/glyphicons-593-person-white.png');
+}
+
+.glyphicons.file {
+    background-image: url('images/glyphicons_036_file-white.png');
+}
+
+
+/* / Glyphicon PNG Replacements */
+
+/* Glyphicon PNG Replacements for Footer Links */
+
+.glyphicons.phone_alt {
+    background-image: url('images/glyphicons_441_phone_alt-grey.png');
+}
+
+a:hover.glyphicons.phone_alt {
+    background-image: url('images/glyphicons_441_phone_alt-grey_hover.png');
+}
+
+.glyphicons.envelope {
+    background-image: url('images/glyphicons_010_envelope-grey.png');
+}
+
+a:hover.glyphicons.envelope {
+    background-image: url('images/glyphicons_010_envelope-grey_hover.png');
+}
+
+.col-connect-with-us .glyphicons.comments {
+    background-image: url('images/glyphicons_309_comments-grey.png');
+}
+
+.col-connect-with-us a:hover.glyphicons.comments {
+    background-image: url('images/glyphicons_309_comments-grey_hover.png');
+}
+
+/* / Glyphicon PNG Replacements for Footer Links */
+
+/* Blog Header Link */
+
+.blog-heading .glyphicons.comments {
+    background-image: url('images/glyphicons_309_comments-blue.png');
+}
+
+.blog-heading a:hover.glyphicons.comments {
+    background-image: url('images/glyphicons_309_comments-blue_hover.png');
+}
+
+/* / Blog Header Link */
+
+/* Customize Specific Glyphicons */
+
+#secondary-cta .cta-icon .glyphicons { border-radius:0; border:17px solid #043f59; }
+.small-business#secondary-cta .cta-icon .glyphicons { border-color: #04689b; }
+#actionbar .glyphicons { margin-bottom:20px; }
+.with-icon .comments.glyphicons { margin-top:0; width:22px; height:22px; }
+.col-connect-with-us .glyphicons { margin-top:4px; width:22px; height:22px; }
+
+/* Customize tools glyphicons */
+.glyphicon-question-sign {
+    background-image: url('images/glyphicons_194_circle_question_mark-white.png');
+    display: inline-block;
+    overflow: hidden;
+    color: transparent;
+    font-family: sans-serif;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 3px;
+    padding-left: 0px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.glyphicon-remove {
+    background-image: url('images/glyphicons_207_remove_2-white.png');
+    display: inline-block;
+    overflow: hidden;
+    color: transparent;
+    font-family: sans-serif;
+    width: 12px;
+    height: 15px;
+    margin-bottom: 1px;
+    padding-left: 0px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/* End Customize tools glyphicons */
+
+.glyphicon-print {
+
+    background-image: url('images/glyphicons_015_print-blue.png');
+    display: inline-block;
+    overflow: hidden;
+    color: transparent;
+    font-family: sans-serif;
+    width: 15px;
+    height: 16px;
+    margin-bottom: 1px;
+    padding-left: 0px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* Contact Us */
+
+.glyphicons.parents {
+    background-image: url('images/glyphicons_024_parents-white.png');
+}
+
+.glyphicons.shop_window {
+    background-image: url('images/glyphicons_451_shop_window-white.png');
+}
+
+.glyphicons.headphones {
+    background-image: url('images/glyphicons_076_headphones-white.png');
+}
+
+.glyphicons.message_plus {
+    background-image: url('images/glyphicons_124_message_plus-white.png');
+}
+
+#contact-us .tab-content .glyphicons.circle_question_mark {
+    background-image: url('images/glyphicons_194_circle_question_mark-white.png');
+}
+
+.glyphicons.circle_question_mark {
+    background-image: url('images/glyphicons_194_circle_question_mark-white.png');
+}
+
+#contact-us .glyphicons.road {
+    background-image: url('images/glyphicons_026_road-white.png');
+}
+
+.glyphicons.file_export {
+    background-image: url('images/glyphicons_359_file_export-white.png');
+}
+
+/* End Conact Us */
+
+@media (max-width:767px) {
+    #secondary-cta .cta-icon .glyphicons { display:none; }   
+}
+
+/* / Customize Specific Glyphicons */
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+
+    /* Retina Glyphicon Replacements */
+
+    .glyphicons.user {
+        background-image: url('images/glyphicons_003_user@2x-white.png');
+    }
+
+    .glyphicons.list {
+        background-image: url('images/glyphicons_114_list@2x-white.png');
+    }
+
+    .glyphicons.usd {
+        background-image: url('images/glyphicons_227_usd@2x-white.png');
+    }
+
+    .glyphicons.edit {
+        background-image: url('images/glyphicons_150_edit@2x-white.png');
+    }
+
+    .glyphicons.calendar {
+        background-image: url('images/glyphicons_045_calendar@2x-white.png');
+    }
+
+	.glyphicons.search {
+        background-image: url('images/glyphicons_027_search@2x-white.png');
+    }
+
+    .glyphicons.road {
+        background-image: url('images/glyphicons_026_road@2x-white.png');
+    }
+
+    footer .glyphicons.road {
+        background-image: url('images/glyphicons_026_road@2x-grey.png');
+    }
+
+    .glyphicons.address_book {
+        background-image: url('images/glyphicons_088_address_book@2x-white.png');
+    }
+
+    .glyphicons.calculator {
+        background-image: url('images/glyphicons_323_calculator@2x-white.png');
+    }
+
+    .glyphicons.briefcase {
+        background-image: url('images/glyphicons_341_briefcase@2x-white.png');
+    }
+
+    .glyphicons.comments {
+        background-image: url('images/glyphicons_309_comments@2x-white.png');
+    }
+
+    /* / Retina Glyphicon Replacements */
+
+    /* Retina Glyphicon Replacements for Footer Links */
+    
+    .glyphicons.phone_alt {
+        background-image: url('images/glyphicons_441_phone_alt@2x-grey.png');
+    }
+
+    a:hover.glyphicons.phone_alt {
+        background-image: url('images/glyphicons_441_phone_alt@2x-grey_hover.png');
+    }
+
+    .glyphicons.envelope {
+        background-image: url('images/glyphicons_010_envelope@2x-grey.png');
+    }
+
+    a:hover.glyphicons.envelope {
+        background-image: url('images/glyphicons_010_envelope@2x-grey_hover.png');
+    }
+
+    .col-connect-with-us .glyphicons.comments {
+        background-image: url('images/glyphicons_309_comments@2x-grey.png');
+    }
+
+    .col-connect-with-us a:hover.glyphicons.comments {
+        background-image: url('images/glyphicons_309_comments@2x-grey_hover.png');
+    }
+
+    /* / Retina Glyphicon Replacements for Footer Links */
+
+    /* Blog Header Link */
+
+    .blog-heading .glyphicons.comments {
+        background-image: url('images/glyphicons_309_comments@2x-blue.png');
+    }
+
+    .blog-heading a:hover.glyphicons.comments {
+        background-image: url('images/glyphicons_309_comments@2x-blue_hover.png');
+    }
+
+    /* / Blog Header Link */
+
+    .glyphicon-question-sign {
+        background-image: url('images/glyphicons_194_circle_question_mark@2x-white.png');
+    }
+
+    .glyphicon-remove {
+        background-image: url('images/glyphicons_207_remove_2@2x-white.png');
+    }
+
+    .glyphicons.more_items {
+        background-image: url('images/glyphicons_318_more_items@2x-white.png');
+    }
+
+    .glyphicons.notes_2 {
+        background-image: url('images/glyphicons_029_notes_2@2x-white.png');
+    }
+
+    .glyphicons.group {
+        background-image: url('images/glyphicons_043_group@2x-white.png');
+    }
+
+    .glyphicons.suitcase {
+        background-image: url('images/glyphicons_357_suitcase@2x-white.png');
+    }
+
+    .glyphicons.sort {
+        background-image: url('images/glyphicons_319_sort@2x-white.png');
+    }
+
+    .glyphicons.hospital {
+        background-image: url('images/glyphicons_298_hospital@2x-white.png');
+    }
+
+    .glyphicons.circle_arrow_right {
+        background-image: url('images/glyphicons_217_circle_arrow_right@2x-green.png');
+    }
+
+    .glyphicons.pen {
+        background-image: url('images/glyphicons_235_pen@2x-white.png');
+    }
+
+    .glyphicons.check {
+        background-image: url('images/glyphicons_152_check@2x-white.png');
+    }
+
+    .glyphicons.refresh {
+        background-image: url('images/glyphicons_081_refresh@2x-white.png');
+    }
+
+    .glyphicons.inbox_in {
+        background-image: url('images/glyphicons_134_inbox_in@2x-white.png');
+    }
+
+    .glyphicons.stroller {
+        background-image: url('images/glyphicons_075_stroller@2x-white.png');
+    }
+
+    .glyphicon-print {
+
+        background-image: url('images/glyphicons_015_print@2x-blue.png');
+        display: inline-block;
+        overflow: hidden;
+        color: transparent;
+        font-family: sans-serif;
+        width: 15px;
+        height: 16px;
+        margin-bottom: 1px;
+        padding-left: 0px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .glyphicons.person {
+        background-image: url('images/glyphicons-593-person@2x-white.png');
+    }
+
+    .glyphicons.file {
+        background-image: url('images/glyphicons_036_file@2x-white.png');
+    }
+
+
+    /* Contact Us */
+
+    .glyphicons.parents {
+        background-image: url('images/glyphicons_024_parents@2x-white.png');
+    }
+
+    .glyphicons.shop_window {
+        background-image: url('images/glyphicons_451_shop_window@2x-white.png');
+    }
+
+    .glyphicons.headphones {
+        background-image: url('images/glyphicons_076_headphones@2x-blue.png');
+    }
+
+    .glyphicons.message_plus {
+        background-image: url('images/glyphicons_124_message_plus@2x-blue.png');
+    }
+
+    #contact-us .tab-content .glyphicons.circle_question_mark {
+        background-image: url('images/glyphicons_194_circle_question_mark@2x-blue.png');
+    }
+
+    .glyphicons.circle_question_mark {
+        background-image: url('images/glyphicons_194_circle_question_mark@2x-white.png');
+    }
+
+    #contact-us .glyphicons.road {
+        background-image: url('images/glyphicons_026_road@2x-blue.png');
+    }
+
+    .glyphicons.file_export {
+        background-image: url('images/glyphicons_359_file_export@2x-blue.png');
+    }
+
+
+    /* End Contact Us */
+}

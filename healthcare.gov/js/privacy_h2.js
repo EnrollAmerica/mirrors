@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".lite-card-inner h2").addClass("spacer-top40")});

@@ -1,0 +1,3819 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="utf-8">
+      <script src="/tax-tool/config.js"></script>
+      <script type="text/javascript">
+window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(){}function r(t){function e(t){return t&&t instanceof n?t:t?a(t,i,o):o()}function s(n,r,o){t&&t(n,r,o);for(var i=e(o),a=f(n),s=a.length,c=0;s>c;c++)a[c].apply(i,r);return i}function c(t,e){d[t]=f(t).concat(e)}function f(t){return d[t]||[]}function u(){return r(s)}var d={};return{on:c,emit:s,create:u,listeners:f,context:e,_events:d}}function o(){return new n}var i="nr@context",a=t("gos");e.exports=r()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:23,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,a){try{f?f-=1:r("err",[a||new UncaughtException(t,e,n)])}catch(c){try{r("ierr",[c,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof s?s.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=t("loader"),s=window.onerror,c=!1,f=0;a.features.err=!0,t(5),window.onerror=e;try{throw new Error}catch(u){"stack"in u&&(t(1),t(2),"addEventListener"in window&&t(3),a.xhrWrappable&&t(4),c=!0)}i.on("fn-start",function(){c&&(f+=1)}),i.on("fn-err",function(t,e,r){c&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){c&&!this.thrown&&f>0&&(f-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:9,2:8,3:6,4:10,5:3,6:24,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1),i=t(2);t("loader").features.stn=!0,t(3);var a=Event;n.on("fn-start",function(t){var e=t[0];e instanceof a&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof a&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),i.on("fn-start",function(){this.bstStart=Date.now()}),i.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.clearResourceTimings?window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1):window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:9,2:8,3:7,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],6:[function(t,e){function n(t){for(var e=t;e&&!e.hasOwnProperty("addEventListener");)e=Object.getPrototypeOf(e);e&&r(e)}function r(t){a.inPlace(t,["addEventListener","removeEventListener"],"-",o)}function o(t){return t[1]}var i=t("ee").create(),a=t(1)(i),s=t("gos");e.exports=i,r(window),"getPrototypeOf"in Object?(n(document),n(XMLHttpRequest.prototype)):XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&r(XMLHttpRequest.prototype),i.on("addEventListener-start",function(t){if(t[1]){var e=t[1];if("function"==typeof e){var n=s(e,"nr@wrapped",function(){return a(e,"fn-",null,e.name||"anonymous")});this.wrapped=t[1]=n}else"function"==typeof e.handleEvent&&a.inPlace(e,["handleEvent"],"fn-")}}),i.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:25,ee:"QJf3ax",gos:"7eSDFh"}],7:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState","replaceState"],"-")},{1:25,ee:"QJf3ax"}],8:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:25,ee:"QJf3ax"}],9:[function(t,e){function n(t,e,n){t[0]=i(t[0],"fn-",null,n)}function r(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=i(t[0],"fn-",this,n)}var o=t("ee").create(),i=t(1)(o);e.exports=o,i.inPlace(window,["setTimeout","setImmediate"],"setTimer-"),i.inPlace(window,["setInterval"],"setInterval-"),i.inPlace(window,["clearTimeout","clearImmediate"],"clearTimeout-"),o.on("setInterval-start",n),o.on("setTimer-start",r)},{1:25,ee:"QJf3ax"}],10:[function(t,e){function n(){f.inPlace(this,p,"fn-",o)}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-",o)}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,p=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[e],e),e.hasOwnProperty("addEventListener")&&u.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:6,2:25,ee:"QJf3ax"}],11:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var o=0;u>o;o++)t.removeEventListener(f[o],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=this.lastSize||n(t);if(i&&(r.rxSize=i),this.sameOrigin){var s=t.getResponseHeader("X-NewRelic-App-Data");s&&(e.cat=s.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,c.emit("xhr-done",[t],t),a("xhr",[e,r,this.startTime])}}}function n(t){var e=t.responseType,n="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return r(n)}function r(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function o(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var i=t("loader");if(i.xhrWrappable){var a=t("handle"),s=t(2),c=t("ee"),f=["load","error","abort","timeout"],u=f.length,d=t(1),p=t(3),l=window.XMLHttpRequest;i.features.xhr=!0,t(5),t(4),c.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=e,n.ended=!1,n.xhrGuids={},n.lastSize=0,p&&(p>34||10>p)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),c.on("open-xhr-start",function(t){this.params={method:t[0]},o(this,t[1]),this.metrics={}}),c.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),c.on("send-xhr-start",function(t,e){var n=this.metrics,o=t[0],i=this;if(n&&o){var a=r(o);a&&(n.txSize=a)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{c.emit("internal-error",[n])}catch(r){}}};for(var s=0;u>s;s++)e.addEventListener(f[s],this.listener,!1)}),c.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),c.on("xhr-load-added",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),c.on("xhr-load-removed",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),c.on("addEventListener-end",function(t,e){e instanceof l&&"load"===t[0]&&c.emit("xhr-load-added",[t[1],t[2]],e)}),c.on("removeEventListener-end",function(t,e){e instanceof l&&"load"===t[0]&&c.emit("xhr-load-removed",[t[1],t[2]],e)}),c.on("fn-start",function(t,e,n){e instanceof l&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),c.on("fn-end",function(t,e){this.xhrCbStart&&c.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:12,3:14,4:10,5:6,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],12:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],13:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:23,2:24,handle:"D5DuLP"}],14:[function(t,e){var n=0,r=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);r&&(n=+r[1]),e.exports=n},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){if(!h++){var t=l.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){t[e]||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;l.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=l.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=window,f=c.document;t(2);var u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-852.min.js"},p=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),l=e.exports={offset:i(),origin:u,features:{},xhrWrappable:p};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()]);var h=0},{1:23,2:13,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],23:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],24:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],25:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@original",a=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,c;try{i=this,n=o(arguments),s="function"==typeof r?r(n,i):r||{}}catch(u){d([u,"",[n,i,a],s])}f(e+"start",[n,i,a],s);try{return c=t.apply(i,n)}catch(p){throw f(e+"err",[n,i,p],s),p}finally{f(e+"end",[n,i,c],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=t,u(t,nrWrapper),nrWrapper)}function c(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function f(e,n,r){if(!s){s=!0;try{t.emit(e,n,r)}catch(o){d([o,e,n,r])}s=!1}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){d([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function d(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=c,e.flag=i,e}},{1:24,ee:"QJf3ax"}]},{},["G9z0Bl",4,11,5]);
+;NREUM.info={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",licenseKey:window.APP_CONFIG.nrLicenseKey,applicationID:window.APP_CONFIG.nrApplicationID,sa:1,agent:"js-agent.newrelic.com/nr-852.min.js"}
+</script>
+
+
+    <script>
+      window.PHRASE_CONFIG = {
+        prefix: "[[__",
+        suffix: "__]]"
+      }
+    </script>
+    <title>Health coverage tax tool | HealthCare.gov</title>
+    <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <meta name="robots" content="noindex, nofollow">
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@HealthCareGov" />
+    <meta name="twitter:title" content="Tax Tools | HealthCare.gov: Health coverage tax tool" />
+
+    <meta property="og:image" content="/tax-tool/assets/share-f75fb583601c7c7959de2eec02a3dfbca9d94ac1862e2234dfeb75a814d28b2c.png" />
+    <meta property="og:site_name" content="Health coverage tax tool | HealthCare.gov" />
+    <meta property="og:url" content="https://www.healthcare.govtax-tool/" />
+    <meta property="og:description" content=">Get information to help file your income taxes" />
+
+    <meta name="apple-mobile-web-app-title" content="HealthCare.gov" />
+    <meta name="application-name" content="HealthCare.gov" />
+
+    <link href="/tax-tool/assets/favicon-0c090893794a5c8c108f8301000a1f8f7ddf3f73caab956dc2e525025c021b80.ico" rel="shortcut icon" type="image/x-icon"/>
+
+    <meta name="msapplication-TileImage" content="/tax-tool/assets/tile-f66dfd7fe286845a483fee912d6ed6f790cde5b43cea0b3b9adb962b5e4acfa7.png"/>
+    <meta name="msapplication-TileColor" content="#ffffff" />
+
+    <link href="/tax-tool/assets/apple-touch-icon-0ff8ad57d8bac356428ba07795aa772d8bde30a63912b1e9959523e7cc97137b.png" rel="apple-touch-icon" />
+    <link href="/tax-tool/assets/apple-touch-icon-72x72-c6ca86fea140112479b9d03bfd010d5c1c6d4572a34bec5965485366ab313659.png" rel="apple-touch-icon" sizes="72x72" />
+    <link href="/tax-tool/assets/apple-touch-icon-114x114-0654e170faaea42fcaa11aa3a3fbd81f06b14294f7132120c0fd30ddd243f40b.png" rel="apple-touch-icon" sizes="114x114" />
+    <link href="/tax-tool/assets/apple-touch-icon-152x152-9b0a0508e4b76a81c82741a31c431eed4ebfce23124a183ef5b51f79ccc399e1.png" rel="apple-touch-icon" sizes="152x152"/>
+
+    <base href="/tax-tool/" />
+    <link rel="stylesheet" media="screen" href="/tax-tool/webpack/app_styles-09c223ebf58c2a543508.css" />
+    <link rel="stylesheet" media="screen" href="/tax-tool/webpack/vendor_styles-d1d39d56f5974a0e566d.css" />
+    <link rel="stylesheet" media="print" href="/tax-tool/webpack/print-49750616451e1b0e1be6.css" />
+
+    <!--[if lte IE 9]>
+      <link rel="stylesheet" media="screen" href="/tax-tool/webpack/ie-cafa45fafebb00200813.css" />
+    <![endif]-->
+
+    <script src="/tax-tool/webpack/application-5b99dd04024c3489d38e.js"></script>
+
+    <script>
+      var baseConfig = {"translationCache":{"month_1_name":"January","month_2_name":"February","month_3_name":"March","month_4_name":"April","month_5_name":"May","month_6_name":"June","month_7_name":"July","month_8_name":"August","month_9_name":"September","month_10_name":"October","month_11_name":"November","month_12_name":"December","relationship_1":"Spouse","relationship_2":"Parent","relationship_3":"Stepparent","relationship_4":"Parent's domestic partner","relationship_5":"Son/daughter","relationship_6":"Stepson/Stepdaughter","relationship_7":"Child of domestic partner","relationship_8":"Brother/sister","relationship_9":"Stepbrother/stepsister","relationship_10":"Uncle/aunt","relationship_11":"Nephew/Niece","relationship_12":"First cousin","relationship_13":"Grandparent","relationship_14":"Grandchild","relationship_15":"Other relative","relationship_16":"Other unrelated","relationship_17":"Domestic Partner","start":"Start","tax_year":"Tax year","tax_tools_enrollees":"Family members","review_title":"Review your information","your_tax_information":"Your tax information"},"rails_app_root":"/tax-tool"}
+      angular.forEach(window.APP_CONFIG, function(value, key){
+        baseConfig[key] = value;
+      });
+      baseConfig.taxYears = [2014, 2015, 2016];
+      angular.module('shopperApp.config').constant("appConfig", baseConfig);
+    </script>
+
+      <script type="text/javascript" src="//tags.tiqcdn.com/utag/cmsgov/healthcare-learn/prod/utag.sync.js"></script>
+  </head>
+  <body ng-app="shopperApp" class="hcapp-taxtools" id="hc-gov-assets"
+    ng-class="['application',
+    {'blue-bg': !$state.is('plans') && !$state.is('plans.details') && !$state.is('plans.compare'),
+    'blue-light': $state.is('plans') || $state.is('plans.details') || $state.is('plans.compare')},
+    'no-touch']">
+      <script type="text/javascript">
+
+        var utag_data = {
+          "single_page_app": "true",
+          "page_type": "tool",
+          "page_topic": "taxes",
+          "page_lifecycle": "enrolled",
+          "page_audience": "individuals"
+        };
+        (function(a,b,c,d){
+          a='//tags.tiqcdn.com/utag/cmsgov/healthcare-learn/'+(/www.healthcare.gov|www.cuidadodesalud.gov/.test(window.location.hostname)?'prod':'dev')+'/utag.js';
+          b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+          a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+        })();
+      </script>
+
+        <script type="text/ng-template" id="enrollees/essential_months.html">
+      <form name="form" novalidate class="css-form" ng-submit="setEssentialMonths()">
+  <div class="form-group monthbox">
+    <h2 id="month-set-heading" aria-flowto="next-info">Health coverage eligibility and exemption status</h2>
+
+    <div id="next-info" aria-flowto="month-set">
+      <h3>Step 2 of 2:
+        <b>
+        <span ng-if="currentEnrollee.relationship">
+          {{currentEnrollee.relationship}},
+        </span>
+        Family member {{enrolleeNum}}
+        </b>
+
+      </h3>
+      <p><p id="select-months">Select the months in {{year.value}} that this family member was eligible for coverage outside the Marketplace, like Medicare, Medicaid, CHIP, or an employer plan.</p>
+
+<p>Any months for which you indicated that this family member was eligible for employer coverage or qualified for another exemption are disabled. This family member  is either not eligible for or does not need an affordability exemption for these months.</p>
+</p>
+    </div>
+
+    <month-set months="addedEssentialMonths" id="month-set" aria-describedby="month-set-heading" arialabel="select-months">
+
+  </div>
+
+  <div class="actions u-sm-span-6 u-sm-mx-auto u-mt4">
+    <div class="row">
+      <div class="col-sm-8 u-sm-pr1">
+        <button role="button" class="u-block u-span-12 continueBtn btn btn-green btn-success btn-md" role="button">Continue</button>
+      </div>
+    </div>
+  </div>
+</form>
+
+    </script>
+    <script type="text/ng-template" id="enrollees/enrollee.html">
+      <div ui-view="enrollee" class="animate">
+</div>
+
+    </script>
+    <script type="text/ng-template" id="enrollees/additional.html">
+      <form name="form" novalidate class="form-group" ng-submit="setAdditional(form.$valid)">
+  <fieldset>
+    <legend class="u-font-size-h2">Do you have any other people in your family?</legend>
+    <div ng-if="flowType.value == '8962'">
+        <p>Include as family members only people for whom ALL of the following apply. The person: </p>
+
+<ul>
+<li>Will be claimed as a personal exemption on your {{year.value}} tax return (if you claim a personal exemption for yourself on your return, be sure to include yourself if the following two items apply to you)</li>
+<li>Was enrolled in a {{year.value}} Marketplace plan</li>
+<li>Was <b>not</b> eligible for coverage outside the Marketplace (like Medicare, Medicaid, or a job-based plan) for at least one of the months they were enrolled in a Marketplace plan</li>
+</ul>
+    </div>
+    <div ng-if="flowType.value == '8965'">
+      Include only members of your family who will be claimed as a personal exemption on your {{year.value}} tax return
+    </div>
+
+
+    <div class="toggle-buttons u-clearfix u-mt4">
+
+      <label for="additional-yes" class="btn radio-label qa-additional-yes" ng-attr-aria-checked="{{ data.additional == true }}">
+      <input id="additional-yes" required type="radio" name="purchased" ng-model="data.additional" ng-value="true" >Yes</label>
+
+      <label for="additional-no" class="btn radio-label" ng-attr-aria-checked="{{ data.additional == false }}">
+      <input id="additional-no" required type="radio" name="purchased" ng-model="data.additional" ng-value="false">
+      No</label>
+
+    </div>
+
+
+    <div ng-if="data.additional" class="u-clearfix u-mt4">
+      <div class="question-conditional u-clearfix" id="additional-number" aria-live="polite" aria-describedby="additional-yes" aria-relevant="additions removals">
+        <label for="additional-number-input"> How many? </label>
+        <input
+          auto-focus when="{{data.additional}}"
+          required
+          class="form-control"
+          id="additional-number-input"
+          ng-pattern=/^[1-9][0-9]?$/
+          maxlength="2"
+          name="total"
+          ng-model="data.additionalCount"
+          type="text"
+          autocorrect="off"
+          autocapitalize="off"
+          placeholder="Example: 1">
+        </input>
+      </div>
+    </div>
+
+  </fieldset>
+
+  <div class="actions u-sm-span-6 u-sm-mx-auto u-mt4">
+    <div class="row">
+      <div class="col-sm-12 u-sm-pr1">
+        <button type="submit" role="button" class="u-block u-span-12 continueBtn btn btn-green btn-success btn-md" ng-disabled="form.$invalid">Continue</button>
+      </div>
+    </div>
+  </div>
+</form>
+
+    </script>
+    <script type="text/ng-template" id="enrollees/form.html">
+      <form name="form" novalidate class="css-form error-styling" ng-submit="persist(form.$valid)">
+  <div class="form-group">
+    <div class="row">
+      <div class="col-xs-12">
+        <h2 class="qa-step-title" id="item-description">Family member {{enrolleeNum}}</b></span> </h2>
+
+        <div ng-if="flowType == '8962' && currentEnrollee.id == 'primary'">
+        <p>  <span class="glyphicon glyphicon-info-sign" aria-label="information" aria-hidden="true"></span> <a class="help-link qa-modal-trigger" href="" quick-modal modal-body="<h2>Family member 1 is generally the person who:</h2>
+<ul>
+    <li>Will file a federal income tax return for {{ year.value }} and claim himself or herself as a personal exemption;</li>
+    <li>Was enrolled in Marketplace coverage in {{ year.value }}; and</li>
+    <li>In {{ year.value }}, wasn’t eligible for health coverage outside the Marketplace for one or more months the person had Marketplace coverage. </li>
+</ul>
+<p>For a married couple filing a joint return who were both enrolled in Marketplace coverage, and not eligible for coverage outside the Marketplace, either spouse may be Family member 1.</p>
+
+<h2>If no one in your family is described above:</h2>
+<p>Use one of the rules below to determine which member of your “coverage family” is Family member 1. (Your coverage family consists of everyone you’ll claim as personal exemptions on your {{ year.value }} tax return who was enrolled in Marketplace coverage for one or more months in {{ year.value }} that he or she wasn’t eligible for coverage outside the Marketplace.)</p>
+
+<ul>
+    <li>If only one person was in your coverage family in {{ year.value }}, he or she is Family member 1.</li>
+    <li>If more than one person was in your coverage family, Family member 1 can be any of the family members who lived with you in {{ year.value }}. </li>
+    <li>If none of the coverage family members lived with you, the oldest one is Family member 1.</li>
+</ul>" modal-title="Who should I use as family member 1?">Who should I use as family member 1?</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <div ng-if="flowType == '8962'">
+          <p>Include as family members only people for whom ALL of the following apply. The person: </p>
+
+<ul>
+<li>Will be claimed as a personal exemption on your {{year.value}} tax return (if you claim a personal exemption for yourself on your return, be sure to include yourself if the following two items apply to you)</li>
+<li>Was enrolled in a {{year.value}} Marketplace plan</li>
+<li>Was <b>not</b> eligible for coverage outside the Marketplace (like Medicare, Medicaid, or a job-based plan) for at least one of the months they were enrolled in a Marketplace plan</li>
+</ul>
+        </div>
+
+        <div ng-if="flowType == '8965' && currentEnrollee.id == 'primary'">
+          Family member 1 should be the primary taxpayer in your family. If a married couple files a joint return, either spouse may be Family member 1. Your family is everyone (including you) who you plan to include on your same federal income tax return.
+        </div>
+
+        <div ng-if="flowType == '8965' && currentEnrollee.id != 'primary'">
+          Include only members of your family who will be claimed as a personal exemption on your {{year.value}} tax return
+        </div>
+      </div>
+    </div>
+
+    <fieldset ng-if="currentEnrollee.id != 'primary'" class="group">
+      <legend class="sub form">
+        <span class="row col-xs-12" id="this-person">
+            <hr />
+          This person lived in the same state and ZIP code (for the entire year) as family member 1
+        </span>
+      </legend>
+      <div class="row">
+        <div class="col-xs-12" role="radiogroup" aria-labelledby="this-person">
+
+          <div class="toggle-buttons">
+
+          <label for="other-locations-false" id="other-locations-0-label" role="radio" class="btn radio-label" ng-attr-aria-checked="{{ currentEnrollee.hasOtherLocations == false }}">
+            <input id="other-locations-false" required type="radio" name="other-locations" ng-model="currentEnrollee.hasOtherLocations" ng-value="false">Yes
+          </label>
+
+          <label for="other-locations-true" id="other-locations-1-label" role="radio" class="btn radio-label" ng-attr-aria-checked="{{ currentEnrollee.hasOtherLocations == true }}">
+            <input id="other-locations-true" required type="radio" name="other-locations" ng-model="currentEnrollee.hasOtherLocations" ng-value="true" >No
+          </label>
+        </div>
+
+        </div>
+      </div>
+    </fieldset>
+
+    <fieldset class="group">
+      <legend class="sub form u-mt4">
+        <span class="row col-xs-12">
+
+          Date of Birth
+        </span>
+      </legend>
+
+      <div class="row dobCols">
+        <div class="col-xs-12 col-md-6">
+          <input type="tel" ui-mask="99/99/9999" aria-label="Date of Birth" class="dob-item" id="dob-input" ng-model="dob.value" model-view-value="true" placeholder="MM/DD/YYYY">
+        </div>
+      </div>
+    </fieldset>
+
+
+    <fieldset id="other" class="sub form">
+      <legend id="other-info" aria-labelledby="item-description" for="not-employer" class="sub form u-mt4 ">
+        <span class="row col-xs-12">
+          Other information
+        </span>
+      </legend>
+      <div class="row">
+
+        <div class="col-xs-12 col-md-9" ng-if="currentEnrollee.id != 'primary'">
+          <label for="primary-relationship" class="">
+            Relationship to first family member
+          </label>
+          <span>
+            <select id="primary-relationship" ng-model="currentEnrollee.relationship" ng-options="rel for rel in relationshipNames">
+              <option value="">Select one...</option>
+            </select>
+          </span>
+        </div>
+
+        <div class="col-xs-12">
+          <label for="meets-reqs" ng-if="flowType == '8962' && currentEnrollee != 'primary'">
+            <input id="meets-reqs" type="checkbox" ng-model="currentEnrollee.meetsRequirements">
+            <span>This person meets the requirements listed above</span>
+          </label>
+
+          <label for="enrollee-is-tobacco" ng-if="flowType == '8965'" ng-class="{disabled: !over18DuringYear()}">
+            <input id="enrollee-is-tobacco" type="checkbox" ng-model="currentEnrollee.tobacco" ng-value="true" ng-disabled="!over18DuringYear()">
+            <span>This person uses tobacco</span>
+
+            <a role="button" tooltip
+               href="javascript:;"
+               aria-label="information"
+               title="Used tobacco products during the past year.  ">
+              <span class="glyphicon glyphicon-info-sign"></span>
+            </a>
+
+          </label>
+        </div>
+      </div>
+    </fieldset>
+
+  </div>
+
+  <div class="actions u-sm-span-6 u-sm-mx-auto u-mt4">
+    <div class="row">
+      <div class="col-sm-8 u-sm-pr1">
+        <button type="submit" role="button" ng-disabled="form.$invalid || !valid()" class="u-block u-span-12 continueBtn btn btn-green btn-md">Continue</button>
+      </div>
+      <div class="col-sm-4 u-sm-pl1" ng-if="currentEnrollee.id === 'primary'">
+        <a role="button" id="back-btn" class="u-block u-span-12 btn btn-md secondary btn-skip-sm" ui-sref="index.start({flow: flowType})">back</a>
+      </div>
+    </div>
+  </div>
+</form>
+
+    </script>
+    <script type="text/ng-template" id="enrollees/employer_months.html">
+      <form name="form" novalidate class="css-form" ng-submit="setEmployerMonths()">
+  <div class="form-group monthbox">
+    <h2 id="month-set-heading" aria-flowto="next-info">Health coverage eligibility and exemption status</h2>
+
+    <div id="next-info" aria-flowto="month-set">
+
+      <h3>Step 1 of 2:
+        <b>
+        <span ng-if="currentEnrollee.relationship">
+          {{currentEnrollee.relationship}},
+        </span>
+        Family member {{enrolleeNum}}
+        </b>
+      </h3>
+
+      <p>Select the months that this family member:</p>
+
+      <ul>
+        <li><b>Was</b> eligible for employer coverage OR</li>
+        <li><b>Had</b> another coverage exemption</li>
+      </ul>
+    </div>
+
+    <month-set months="addedEmployerMonths" id="month-set" aria-describedby="month-set-heading" arialabel="next-info">
+
+  </div>
+
+  <div class="actions u-sm-span-6 u-sm-mx-auto u-mt4">
+    <div class="row">
+      <div class="col-sm-8 u-sm-pr1">
+        <button role="button" class="u-block u-span-12 continueBtn btn btn-green btn-success btn-md" role="button">Continue</button>
+      </div>
+      <div class="col-sm-4 u-sm-pl1">
+        <a role="button" id="back-btn" class="u-block u-span-12 btn btn-md secondary btn-skip-sm" ui-sref="^.base">back</a>
+      </div>
+    </div>
+  </div>
+</form>
+
+    </script>
+    <script type="text/ng-template" id="enrollees/marketplace_months.html">
+      <form name="form" novalidate class="css-form" ng-submit="setMarketplaceMonths()">
+  <div class="form-group monthbox">
+    <h2 id="month-set-heading" aria-flowto="next-info">
+      Which months did 
+      <b>
+      <span ng-if="currentEnrollee.relationship">
+        {{currentEnrollee.relationship}},
+      </span>
+      Family member {{enrolleeNum}}
+      </b>
+      have Marketplace coverage?
+    </h2>
+
+    <div id="next-info" aria-flowto="month-set">
+      <div ng-if="currentEnrollee.id == 'primary'">
+        <p>Select the months in {{year.value}} that <b>both</b> of the following applied.</p>
+
+<p>This person was:</p>
+<ul>
+<li><b>Enrolled</b> in Marketplace coverage (and the premium was paid) AND</li>
+<li><b>Not eligible</b> for coverage outside the Marketplace</li>
+</ul>
+
+      </div>
+
+      <div ng-if="currentEnrollee.id != 'primary'">
+        <p>Select the months in 2015 that this family member was both:</p>
+<ul>
+<li>Enrolled in Marketplace coverage for which the premium was paid, AND</li>
+<li>Not eligible for other coverage outside the Marketplace.</li>
+</ul>
+      </div>
+    </div>
+
+    <month-set months="addedMarketplaceMonths" aria-describedby="month-set-heading" id="month-set" arialabel="next-info" />
+
+  </div>
+
+  <div class="actions u-sm-span-6 u-sm-mx-auto u-mt4">
+    <div class="row">
+      <div class="col-sm-8 u-sm-pr1">
+        <button role="button" class="u-block u-span-12 continueBtn btn btn-green btn-success btn-md">Continue</button>
+      </div>
+      <div class="col-sm-4 u-sm-pl1">
+        <a role="button" id="back-btn" class="u-block u-span-12 btn btn-md secondary btn-skip-sm" ui-sref="^.base">back</a>
+      </div>
+    </div>
+  </div>
+</form>
+    </script>
+    <script type="text/ng-template" id="enrollees/confirm.html">
+      <form name="form" novalidate class="css-form" ng-submit="confirm()">
+  <div class="card review household">
+    <h2 class="rule">Confirm your family members</h2>
+
+    <ol class="plain">
+      <li ng-repeat="enrollee in set">
+        <div class="summary-group">
+          <div class="row" aria-live="polite">
+            <div class="col-xs-12 col-sm-8">
+              <h3 id="enrollee-{{$index}}">
+                Date of Birth: {{enrollee.dob.m}}/{{enrollee.dob.d}}/{{enrollee.dob.y}}
+              </h3>
+              <ul class="enrollee">
+                <li ng-if="enrollee.id == 'primary'">
+                  Primary
+                </li>
+                <li ng-if="enrollee.id != 'primary'">
+                  {{enrollee.relationship}}
+                </li>
+                <li id="months-{{$index}}" ng-if="enrollee.marketplace_months.length">
+                  <month-names target="enrollee" key="marketplace_months"></month-names>
+                </li>
+
+                <li id="months-{{$index}}" ng-if="enrollee.employer_months.length">
+                  <div>Was eligible for employer coverage OR Had another coverage exemption for the following months:</div>
+                  <month-names target="enrollee" key="employer_months"></month-names>
+                </li>
+
+                <li id="months-{{$index}}" ng-if="enrollee.essential_months.length">
+                  <div>Was eligible for coverage outside the Marketplace for the following months:</div>
+                  <month-names target="enrollee" key="essential_months"></month-names>
+                </li>
+
+                <li ng-if="enrollee.tobacco">
+                  This family member uses tobacco.
+                </li>
+              </ul>
+            </div>
+            <div class="col-xs-12 col-sm-4 text-right">
+              <a href="javascript:;" id="remove-{{$index}}" ng-click="confirmRemove(enrollee.id)" class="btn btn-xs btn-remove remove-enrollee" role="button" target="_self" aria-labelledby="remove-{{$index}} enrollee-{{$index}} months-{{$index}}" ng-disabled="confirmRemoveID == enrollee.id" ng-if="enrollee.id != 'primary'">
+                <span>Remove</span>
+              </a>
+              <a href="javascript:;" id="edit-{{$index}}" class="btn btn-xs btn-edit" role="button" target="_self" ui-sref="^.enrollee({id: enrollee.id})" aria-labelledby="edit-{{$index}} enrollee-{{$index}} months-{{$index}}">
+                <span>EDIT</span>
+              </a>
+            </div>
+            <div class="col-xs-12 col-sm-4" ng-if="confirmRemoveID == enrollee.id">
+              <span id="confirm-remove" focus-me tabindex="-1">
+                Are you sure you want to remove this person?
+              </span>
+            </div>
+            <div class="col-xs-12 col-sm-4 text-right" ng-if="confirmRemoveID == enrollee.id">
+              <a href="javascript:;" id="yes-remove-{{$index}}" ng-click="remove(enrollee.id)" class="btn btn-xs btn-remove remove-enrollee-yes" role="button" target="_self" aria-labelledby="confirm-remove yes-remove-{{$index}} ernollee-{{$index}}">
+                <span>Yes</span>
+              </a>
+              <a href="javascript:;" id="no-remove-{{$index}}" class="btn btn-xs btn-edit remove-enrollee-no" role="button" target="_self" ng-click="dismissRemove()" aria-labelledby="confirm-remove no-remove-{{$index}} enrollee-{{$index}}">
+                <span>No</span>
+              </a>
+            </div>
+          </div>
+
+      </li>
+    </ol>
+    <a role="button" href="javascript:" ui-sref="^.additional" class="btn btn-edit btn-lg btn-block addAdditional"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Add an additional family member</a>
+
+
+
+        </div>
+
+        <div class="actions">
+          <button role="button" class="continueBtn btn btn-green btn-success btn-md" role="button">Continue</button>
+        </div>
+</form>
+
+    </script>
+    <script type="text/ng-template" id="enrollees/index.html">
+      <div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+
+      <div ui-view="enrollees">
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    </script>
+    <script type="text/ng-template" id="results/main.html">
+      <div class="plans-spinner-wrapper">
+  <span us-spinner="{color:'black', radius:25, width:8, length: 16}" spinner-key="loading-results-spinner" spinner-start-active="true"></span>
+</div>
+
+<div ui-view="results" ng-show="resultsLoaded">
+</div>
+
+<div class="container">
+    <div class="actions u-sm-span-12 u-sm-mx-auto u-mt4" ng-show="resultsLoaded">
+        <div class="row">
+            <div class="col-sm-4">
+                <button role="button" ng-click="print()" class="u-block u-span-12 printBtn btn btn-md btn-success">
+                    Print
+                </button>
+            </div>
+            <div class="col-sm-4">
+                <a role="button" ng-href="{{pdfLink}}" ng-click="getPdf($event)" target="_blank" class="u-block u-span-12 pdfBtn btn btn-md btn-success">
+                    Save as <abbr title="Portable Document Format">PDF</abbr>
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <a role="button" target="_blank" ng-href="{{mailtoLink}}" ng-click="mailLink($event)" class="u-block u-span-12 emailBtn btn btn-md btn-success">
+                    Email
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    </script>
+    <script type="text/ng-template" id="results/form8965.html">
+      <div class="results-page qa-8965-results">
+    <div class="alert alert-success left-align">
+        <div class="container">
+            <div class="form-group">
+                <h2 class="h2">Your tax information</h2>
+                <h3 class="sub form">Information to claim an affordability exemption</h3>
+<p>Use the monthly premiums below to complete the Marketplace Coverage Affordability Worksheet (IRS Form 8965 Instructions, page 11). When you complete the worksheet, you’ll find out if you qualify for the affordability exemption. The instructions explain how to claim the exemption if you do.
+</p>
+                <p>Enter premiums on the lines of the Marketplace Affordability Worksheet indicated below.</p>
+            </div>
+            <h3 class="download-block">What to do next</h3>
+
+            <div class="download-block">
+              <h4>Download the {{ formInfo.year }} Form {{ formInfo.type }} and instructions</h4>
+
+              <div class="row">
+                <div class="col-12 col-sm-5">
+                  <button class="btn btn-md btn-success btn-block create-account-btn" ng-click="downloadForm('i', formInfo)">
+                    Instructions for form {{ formInfo.type }} - {{ formInfo.year }} (<abbr>PDF</abbr>)
+                  </button>
+                </div>
+                <div class="col-12 col-sm-5">
+                  <button class="btn btn-md btn-success btn-block create-account-btn" ng-click="downloadForm('f', formInfo)">
+                    Form {{ formInfo.type }} - {{ formInfo.year }} (<abbr>PDF</abbr>)
+                  </button>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="results">
+            <div class="form-group">
+                <div ng-if="loadedMonths == null">
+                    LOADING
+                </div>
+
+                <div class="noResults" ng-if="loadedMonths == 0">
+                    <h3 class="sub form">No results</h3>
+                    <b>Are any months missing below? </b>
+<p>If months aren’t shown, your family doesn’t qualify for a Premium Tax Credit for that month. This can happen if: </p>
+ <ul>
+<li>No family member was enrolled in Marketplace coverage,</li>
+<li>A family member was enrolled but the premiums were not paid, OR</li>
+<li>All enrolled family members were eligible for coverage outside the Marketplace</li>
+</ul>
+                </div>
+
+                <div class="missingMonthExplainer" ng-if="loadedMonths != 12 && loadedMonths != 0">
+                    <p><b>Are any months missing below? </b>
+<p>If months aren’t shown, your family doesn’t qualify for a Premium Tax Credit for that month. This can happen if: </p>
+ <ul>
+<li>No family member was enrolled in Marketplace coverage,</li>
+<li>A family member was enrolled but the premiums were not paid, OR</li>
+<li>All enrolled family members were eligible for coverage outside the Marketplace</li>
+</ul></p>
+                </div>
+
+                <ul ng-if="loadedMonths">
+                  <li class="row header" aria-hidden="true">
+                    <div class="col-xs-4 col-xs-offset-4">
+                      <h4 class="alternate">Monthly Lowest cost Bronze plan premium</h4>
+                    </div>
+                    <div class="col-xs-4">
+                      <h4 class="alternate">Monthly Second lowest cost Silver plan premium</h4>
+                    </div>
+                  </li>
+                    <li ng-if="months[0].display" class="row qa-8965-result">
+                      <div class="col-xs-4">
+                        <h5 class="month" aria-hidden="true">
+                          January
+                        </h5>
+                        <h4 class="month sr-only">
+                          January
+                        </h4>
+                      </div>
+
+
+
+                      <div class="col-xs-4" ng-if="months[0].lcbp.premium">
+                        <span class="premium bronze">
+                          <b ng-if="months[0].lcbp.premium">
+                            <span class="sr-only">
+                              Monthly Lowest cost Bronze plan premium
+                            </span>
+                            <span class="qa-bronze-amount">{{months[0].lcbp.premium | currency:symbol:2}}</span>
+                          </b>
+                          <b ng-if="months[0].lcbp.skipped.length">
+                            <span class="translation_missing" title="translation missing: en-US.lcbp_same_state_skip_reason">Lcbp Same State Skip Reason</span>
+                            <ul class="plain lcbpSkipped">
+                              <li ng-repeat="enr in months[0].lcbp.skipped">
+                                {{enr.enrollee.relationship}}: {{enr.enrollee.dob.m}}/{{enr.enrollee.dob.d}}/{{enr.enrollee.dob.y}}
+                              </li>
+                            </ul>
+                          </b>
+                        </span>
+                        <span class="premium bronze" ng-if="!months[0].lcbp.premium">
+                          N/A
+                        </span>
+                      </div>
+
+
+                      <div class="col-xs-4" ng-if="months[0].lcbp.premium">
+                        <span class="premium silver" >
+                          <b>
+                            <span class="sr-only">
+                              Monthly Second lowest cost Silver plan premium
+                            </span>
+                            <span class="qa-silver-amount">{{(months[0].slcsp.premium || 0 )| currency:symbol:2}}</span>
+                          </b>
+                          <b ng-if="months[0].slcsp.skipped.length">
+                            SLCSP skipped for:
+                            <ul class="plain slcspSkipped">
+                              <li ng-repeat="enr in months[0].slcsp.skipped">
+                                {{enr.enrollee.relationship}}: {{enr.enrollee.dob.m}}/{{enr.enrollee.dob.d}}/{{enr.enrollee.dob.y}}
+                              </li>
+                            </ul>
+                          </b>
+                        </span>
+
+                      </div>
+
+                      <div class="col-xs-8 hixLink" ng-if="months[0].hix.length">
+                        <span class="premium">
+                          <div ng-repeat="hixLoc in months[0].hix">
+                            Visit
+                            <a role="button" ng-href="{{hixLoc.hix_url}}">{{ hixLoc.hix_name }}</a> for this month's information ({{hixLoc.state}})
+                          </div>
+                        </span>
+                      </div>
+                    </li>
+                    <li ng-if="months[1].display" class="row qa-8965-result">
+                      <div class="col-xs-4">
+                        <h5 class="month" aria-hidden="true">
+                          February
+                        </h5>
+                        <h4 class="month sr-only">
+                          February
+                        </h4>
+                      </div>
+
+
+
+                      <div class="col-xs-4" ng-if="months[1].lcbp.premium">
+                        <span class="premium bronze">
+                          <b ng-if="months[1].lcbp.premium">
+                            <span class="sr-only">
+                              Monthly Lowest cost Bronze plan premium
+                            </span>
+                            <span class="qa-bronze-amount">{{months[1].lcbp.premium | currency:symbol:2}}</span>
+                          </b>
+                          <b ng-if="months[1].lcbp.skipped.length">
+                            <span class="translation_missing" title="translation missing: en-US.lcbp_same_state_skip_reason">Lcbp Same State Skip Reason</span>
+                            <ul class="plain lcbpSkipped">
+                              <li ng-repeat="enr in months[1].lcbp.skipped">
+                                {{enr.enrollee.relationship}}: {{enr.enrollee.dob.m}}/{{enr.enrollee.dob.d}}/{{enr.enrollee.dob.y}}
+                              </li>
+                            </ul>
+                          </b>
+                        </span>
+                        <span class="premium bronze" ng-if="!months[1].lcbp.premium">
+                          N/A
+                        </span>
+                      </div>
+
+
+                      <div class="col-xs-4" ng-if="months[1].lcbp.premium">
+                        <span class="premium silver" >
+                          <b>
+                            <span class="sr-only">
+                              Monthly Second lowest cost Silver plan premium
+                            </span>
+                            <span class="qa-silver-amount">{{(months[1].slcsp.premium || 0 )| currency:symbol:2}}</span>
+                          </b>
+                          <b ng-if="months[1].slcsp.skipped.length">
+                            SLCSP skipped for:
+                            <ul class="plain slcspSkipped">
+                              <li ng-repeat="enr in months[1].slcsp.skipped">
+                                {{enr.enrollee.relationship}}: {{enr.enrollee.dob.m}}/{{enr.enrollee.dob.d}}/{{enr.enrollee.dob.y}}
+                              </li>
+                            </ul>
+                          </b>
+                        </span>
+
+                      </div>
+
+                      <div class="col-xs-8 hixLink" ng-if="months[1].hix.length">
+                        <span class="premium">
+                          <div ng-repeat="hixLoc in months[1].hix">
+                            Visit
+                            <a role="button" ng-href="{{hixLoc.hix_url}}">{{ hixLoc.hix_name }}</a> for this month's information ({{hixLoc.state}})
+                          </div>
+                        </span>
+                      </div>
+                    </li>
+                    <li ng-if="months[2].display" class="row qa-8965-result">
+                      <div class="col-xs-4">
+                        <h5 class="month" aria-hidden="true">
+                          March
+                        </h5>
+                        <h4 class="month sr-only">
+                          March
+                        </h4>
+                      </div>
+
+
+
+                      <div class="col-xs-4" ng-if="months[2].lcbp.premium">
+                        <span class="premium bronze">
+                          <b ng-if="months[2].lcbp.premium">
+                            <span class="sr-only">
+                              Monthly Lowest cost Bronze plan premium
+                            </span>
+                            <span class="qa-bronze-amount">{{months[2].lcbp.premium | currency:symbol:2}}</span>
+                          </b>
+                          <b ng-if="months[2].lcbp.skipped.length">
+                            <span class="translation_missing" title="translation missing: en-US.lcbp_same_state_skip_reason">Lcbp Same State Skip Reason</span>
+                            <ul class="plain lcbpSkipped">
+                              <li ng-repeat="enr in months[2].lcbp.skipped">
+                                {{enr.enrollee.relationship}}: {{enr.enrollee.dob.m}}/{{enr.enrollee.dob.d}}/{{enr.enrollee.dob.y}}
+                              </li>
+                            </ul>
+                          </b>
+                        </span>
+                        <span class="premium bronze" ng-if="!months[2].lcbp.premium">
+                          N/A
+                        </span>
+                      </div>
+
+
+                      <div class="col-xs-4" ng-if="months[2].lcbp.premium">
+                        <span class="premium silver" >
+                          <b>
+                            <span class="sr-only">
+                              Monthly Second lowest cost Silver plan premium
+                            </span>
+                            <span class="qa-silver-amount">{{(months[2].slcsp.premium || 0 )| currency:symbol:2}}</span>
+                          </b>
+                          <b ng-if="months[2].slcsp.skipped.length">
+                            SLCSP skipped for:
+                            <ul class="plain slcspSkipped">
+                              <li ng-repeat="enr in months[2].slcsp.skipped">
+                                {{enr.enrollee.relationship}}: {{enr.enrollee.dob.m}}/{{enr.enrollee.dob.d}}/{{enr.enrollee.dob.y}}
+                              </li>
+                            </ul>
+                          </b>
+                        </span>
+
+                      </div>
+
+                      <div class="col-xs-8 hixLink" ng-if="months[2].hix.length">
+                        <span class="premium">
+                          <div ng-repeat="hixLoc in months[2].hix">
+                            Visit
+                            <a role="button" ng-href="{{hixLoc.hix_url}}">{{ hixLoc.hix_name }}</a> for this month's information ({{hixLoc.state}})
+                          </div>
+                        </span>
+                      </div>
+                    </li>
+                    <li ng-if="months[3].display" class="row qa-8965-result">
+                      <div class="col-xs-4">
+                        <h5 class="month" aria-hidden="true">
+                          April
+                        </h5>
+                        <h4 class="month sr-only">
+                          April
+                        </h4>
+                      </div>
+
+
+
+                      <div class="col-xs-4" ng-if="months[3].lcbp.premium">
+                        <span class="premium bronze">
+                          <b ng-if="months[3].lcbp.premium">
+                            <span class="sr-only">
+                              Monthly Lowest cost Bronze plan premium
+                            </span>
+                            <span class="qa-bronze-amount">{{months[3].lcbp.premium | currency:symbol:2}}</span>
+                          </b>
+                          <b ng-if="months[3].lcbp.skipped.length">
+                            <span class="translation_missing" title="translation missing: en-US.lcbp_same_state_skip_reason">Lcbp Same State Skip Reason</span>
+                            <ul class="plain lcbpSkipped">
+                              <li ng-repeat="enr in months[3].lcbp.skipped">
+                                {{enr.enrollee.relationship}}: {{enr.enrollee.dob.m}}/{{enr.enrollee.dob.d}}/{{enr.enrollee.dob.y}}
+                              </li>
+                            </ul>
+                          </b>
+                        </span>
+                        <span class="premium bronze" ng-if="!months[3].lcbp.premium">
+                          N/A
+                        </span>
+                      </div>
+
+
+                      <div class="col-xs-4" ng-if="months[3].lcbp.premium">
+                        <span class="premium silver" >
+                          <b>
+                            <span class="sr-only">
+                              Monthly Second lowest cost Silver plan premium
+                            </span>
+                            <span class="qa-silver-amount">{{(months[3].slcsp.premium || 0 )| currency:symbol:2}}</span>
+                          </b>
+                          <b ng-if="months[3].slcsp.skipped.length">
+                            SLCSP skipped for:
+                            <ul class="plain slcspSkipped">
+                              <li ng-repeat="enr in months[3].slcsp.skipped">
+                                {{enr.enrollee.relationship}}: {{enr.enrollee.dob.m}}/{{enr.enrollee.dob.d}}/{{enr.enrollee.dob.y}}
+                              </li>
+                            </ul>
+                          </b>
+                        </span>
+
+                      </div>
+
+                      <div class="col-xs-8 hixLink" ng-if="months[3].hix.length">
+                        <span class="premium">
+                          <div ng-repeat="hixLoc in months[3].hix">
+                            Visit
+                            <a role="button" ng-href="{{hixLoc.hix_url}}">{{ hixLoc.hix_name }}</a> for this month's information ({{hixLoc.state}})
+                          </div>
+                        </span>
+                      </div>
+                    </li>
+                    <li ng-if="months[4].display" class="row qa-8965-result">
+                      <div class="col-xs-4">
+                        <h5 class="month" aria-hidden="true">
+                          May
+                        </h5>
+                        <h4 class="month sr-only">
+                          May
+                        </h4>
+                      </div>
+
+
+
+                      <div class="col-xs-4" ng-if="months[4].lcbp.premium">
+                        <span class="premium bronze">
+                          <b ng-if="months[4].lcbp.premium">
+                            <span class="sr-only">
+                              Monthly Lowest cost Bronze plan premium
+                            </span>
+                            <span class="qa-bronze-amount">{{months[4].lcbp.premium | currency:symbol:2}}</span>
+                          </b>
+                          <b ng-if="months[4].lcbp.skipped.length">
+                            <span class="translation_missing" title="translation missing: en-US.lcbp_same_state_skip_reason">Lcbp Same State Skip Reason</span>
+                            <ul class="plain lcbpSkipped">
+                              <li ng-repeat="enr in months[4].lcbp.skipped">
+                                {{enr.enrollee.relationship}}: {{enr.enrollee.dob.m}}/{{enr.enrollee.dob.d}}/{{enr.enrollee.dob.y}}
+                              </li>
+                            </ul>
+                          </b>
+                        </span>
+                        <span class="premium bronze" ng-if="!months[4].lcbp.premium">
+                          N/A
+                        </span>
+                      </div>
+
+
+                      <div class="col-xs-4" ng-if="months[4].lcbp.premium">
+                        <span class="premium silver" >
+                          <b>
+                            <span class="sr-only">
+                              Monthly Second lowest cost Silver plan premium
+                            </span>
+                            <span class="qa-silver-amount">{{(months[4].slcsp.premium || 0 )| currency:symbol:2}}</span>
+                          </b>
+                          <b ng-if="months[4].slcsp.skipped.length">
+                            SLCSP skipped for:
+                            <ul class="plain slcspSkipped">
+                              <li ng-repeat="enr in months[4].slcsp.skipped">
+                                {{enr.enrollee.relationship}}: {{enr.enrollee.dob.m}}/{{enr.enrollee.dob.d}}/{{enr.enrollee.dob.y}}
+                              </li>
+                            </ul>
+                          </b>
+                        </span>
+
+                      </div>
+
+                      <div class="col-xs-8 hixLink" ng-if="months[4].hix.length">
+                        <span class="premium">
+                          <div ng-repeat="hixLoc in months[4].hix">
+                            Visit
+                            <a role="button" ng-href="{{hixLoc.hix_url}}">{{ hixLoc.hix_name }}</a> for this month's information ({{hixLoc.state}})
+                          </div>
+                        </span>
+                      </div>
+                    </li>
+                    <li ng-if="months[5].display" class="row qa-8965-result">
+                      <div class="col-xs-4">
+                        <h5 class="month" aria-hidden="true">
+                          June
+                        </h5>
+                        <h4 class="month sr-only">
+                          June
+                        </h4>
+                      </div>
+
+
+
+                      <div class="col-xs-4" ng-if="months[5].lcbp.premium">
+                        <span class="premium bronze">
+                          <b ng-if="months[5].lcbp.premium">
+                            <span class="sr-only">
+                              Monthly Lowest cost Bronze plan premium
+                            </span>
+                            <span class="qa-bronze-amount">{{months[5].lcbp.premium | currency:symbol:2}}</span>
+                          </b>
+                          <b ng-if="months[5].lcbp.skipped.length">
+                            <span class="translation_missing" title="translation missing: en-US.lcbp_same_state_skip_reason">Lcbp Same State Skip Reason</span>
+                            <ul class="plain lcbpSkipped">
+                              <li ng-repeat="enr in months[5].lcbp.skipped">
+                                {{enr.enrollee.relationship}}: {{enr.enrollee.dob.m}}/{{enr.enrollee.dob.d}}/{{enr.enrollee.dob.y}}
+                              </li>
+                            </ul>
+                          </b>
+                        </span>
+                        <span class="premium bronze" ng-if="!months[5].lcbp.premium">
+                          N/A
+                        </span>
+                      </div>
+
+
+                      <div class="col-xs-4" ng-if="months[5].lcbp.premium">
+                        <span class="premium silver" >
+                          <b>
+                            <span class="sr-only">
+                              Monthly Second lowest cost Silver plan premium
+                            </span>
+                            <span class="qa-silver-amount">{{(months[5].slcsp.premium || 0 )| currency:symbol:2}}</span>
+                          </b>
+                          <b ng-if="months[5].slcsp.skipped.length">
+                            SLCSP skipped for:
+                            <ul class="plain slcspSkipped">
+                              <li ng-repeat="enr in months[5].slcsp.skipped">
+                                {{enr.enrollee.relationship}}: {{enr.enrollee.dob.m}}/{{enr.enrollee.dob.d}}/{{enr.enrollee.dob.y}}
+                              </li>
+                            </ul>
+                          </b>
+                        </span>
+
+                      </div>
+
+                      <div class="col-xs-8 hixLink" ng-if="months[5].hix.length">
+                        <span class="premium">
+                          <div ng-repeat="hixLoc in months[5].hix">
+                            Visit
+                            <a role="button" ng-href="{{hixLoc.hix_url}}">{{ hixLoc.hix_name }}</a> for this month's information ({{hixLoc.state}})
+                          </div>
+                        </span>
+                      </div>
+                    </li>
+                    <li ng-if="months[6].display" class="row qa-8965-result">
+                      <div class="col-xs-4">
+                        <h5 class="month" aria-hidden="true">
+                          July
+                        </h5>
+                        <h4 class="month sr-only">
+                          July
+                        </h4>
+                      </div>
+
+
+
+                      <div class="col-xs-4" ng-if="months[6].lcbp.premium">
+                        <span class="premium bronze">
+                          <b ng-if="months[6].lcbp.premium">
+                            <span class="sr-only">
+                              Monthly Lowest cost Bronze plan premium
+                            </span>
+                            <span class="qa-bronze-amount">{{months[6].lcbp.premium | currency:symbol:2}}</span>
+                          </b>
+                          <b ng-if="months[6].lcbp.skipped.length">
+                            <span class="translation_missing" title="translation missing: en-US.lcbp_same_state_skip_reason">Lcbp Same State Skip Reason</span>
+                            <ul class="plain lcbpSkipped">
+                              <li ng-repeat="enr in months[6].lcbp.skipped">
+                                {{enr.enrollee.relationship}}: {{enr.enrollee.dob.m}}/{{enr.enrollee.dob.d}}/{{enr.enrollee.dob.y}}
+                              </li>
+                            </ul>
+                          </b>
+                        </span>
+                        <span class="premium bronze" ng-if="!months[6].lcbp.premium">
+                          N/A
+                        </span>
+                      </div>
+
+
+                      <div class="col-xs-4" ng-if="months[6].lcbp.premium">
+                        <span class="premium silver" >
+                          <b>
+                            <span class="sr-only">
+                              Monthly Second lowest cost Silver plan premium
+                            </span>
+                            <span class="qa-silver-amount">{{(months[6].slcsp.premium || 0 )| currency:symbol:2}}</span>
+                          </b>
+                          <b ng-if="months[6].slcsp.skipped.length">
+                            SLCSP skipped for:
+                            <ul class="plain slcspSkipped">
+                              <li ng-repeat="enr in months[6].slcsp.skipped">
+                                {{enr.enrollee.relationship}}: {{enr.enrollee.dob.m}}/{{enr.enrollee.dob.d}}/{{enr.enrollee.dob.y}}
+                              </li>
+                            </ul>
+                          </b>
+                        </span>
+
+                      </div>
+
+                      <div class="col-xs-8 hixLink" ng-if="months[6].hix.length">
+                        <span class="premium">
+                          <div ng-repeat="hixLoc in months[6].hix">
+                            Visit
+                            <a role="button" ng-href="{{hixLoc.hix_url}}">{{ hixLoc.hix_name }}</a> for this month's information ({{hixLoc.state}})
+                          </div>
+                        </span>
+                      </div>
+                    </li>
+                    <li ng-if="months[7].display" class="row qa-8965-result">
+                      <div class="col-xs-4">
+                        <h5 class="month" aria-hidden="true">
+                          August
+                        </h5>
+                        <h4 class="month sr-only">
+                          August
+                        </h4>
+                      </div>
+
+
+
+                      <div class="col-xs-4" ng-if="months[7].lcbp.premium">
+                        <span class="premium bronze">
+                          <b ng-if="months[7].lcbp.premium">
+                            <span class="sr-only">
+                              Monthly Lowest cost Bronze plan premium
+                            </span>
+                            <span class="qa-bronze-amount">{{months[7].lcbp.premium | currency:symbol:2}}</span>
+                          </b>
+                          <b ng-if="months[7].lcbp.skipped.length">
+                            <span class="translation_missing" title="translation missing: en-US.lcbp_same_state_skip_reason">Lcbp Same State Skip Reason</span>
+                            <ul class="plain lcbpSkipped">
+                              <li ng-repeat="enr in months[7].lcbp.skipped">
+                                {{enr.enrollee.relationship}}: {{enr.enrollee.dob.m}}/{{enr.enrollee.dob.d}}/{{enr.enrollee.dob.y}}
+                              </li>
+                            </ul>
+                          </b>
+                        </span>
+                        <span class="premium bronze" ng-if="!months[7].lcbp.premium">
+                          N/A
+                        </span>
+                      </div>
+
+
+                      <div class="col-xs-4" ng-if="months[7].lcbp.premium">
+                        <span class="premium silver" >
+                          <b>
+                            <span class="sr-only">
+                              Monthly Second lowest cost Silver plan premium
+                            </span>
+                            <span class="qa-silver-amount">{{(months[7].slcsp.premium || 0 )| currency:symbol:2}}</span>
+                          </b>
+                          <b ng-if="months[7].slcsp.skipped.length">
+                            SLCSP skipped for:
+                            <ul class="plain slcspSkipped">
+                              <li ng-repeat="enr in months[7].slcsp.skipped">
+                                {{enr.enrollee.relationship}}: {{enr.enrollee.dob.m}}/{{enr.enrollee.dob.d}}/{{enr.enrollee.dob.y}}
+                              </li>
+                            </ul>
+                          </b>
+                        </span>
+
+                      </div>
+
+                      <div class="col-xs-8 hixLink" ng-if="months[7].hix.length">
+                        <span class="premium">
+                          <div ng-repeat="hixLoc in months[7].hix">
+                            Visit
+                            <a role="button" ng-href="{{hixLoc.hix_url}}">{{ hixLoc.hix_name }}</a> for this month's information ({{hixLoc.state}})
+                          </div>
+                        </span>
+                      </div>
+                    </li>
+                    <li ng-if="months[8].display" class="row qa-8965-result">
+                      <div class="col-xs-4">
+                        <h5 class="month" aria-hidden="true">
+                          September
+                        </h5>
+                        <h4 class="month sr-only">
+                          September
+                        </h4>
+                      </div>
+
+
+
+                      <div class="col-xs-4" ng-if="months[8].lcbp.premium">
+                        <span class="premium bronze">
+                          <b ng-if="months[8].lcbp.premium">
+                            <span class="sr-only">
+                              Monthly Lowest cost Bronze plan premium
+                            </span>
+                            <span class="qa-bronze-amount">{{months[8].lcbp.premium | currency:symbol:2}}</span>
+                          </b>
+                          <b ng-if="months[8].lcbp.skipped.length">
+                            <span class="translation_missing" title="translation missing: en-US.lcbp_same_state_skip_reason">Lcbp Same State Skip Reason</span>
+                            <ul class="plain lcbpSkipped">
+                              <li ng-repeat="enr in months[8].lcbp.skipped">
+                                {{enr.enrollee.relationship}}: {{enr.enrollee.dob.m}}/{{enr.enrollee.dob.d}}/{{enr.enrollee.dob.y}}
+                              </li>
+                            </ul>
+                          </b>
+                        </span>
+                        <span class="premium bronze" ng-if="!months[8].lcbp.premium">
+                          N/A
+                        </span>
+                      </div>
+
+
+                      <div class="col-xs-4" ng-if="months[8].lcbp.premium">
+                        <span class="premium silver" >
+                          <b>
+                            <span class="sr-only">
+                              Monthly Second lowest cost Silver plan premium
+                            </span>
+                            <span class="qa-silver-amount">{{(months[8].slcsp.premium || 0 )| currency:symbol:2}}</span>
+                          </b>
+                          <b ng-if="months[8].slcsp.skipped.length">
+                            SLCSP skipped for:
+                            <ul class="plain slcspSkipped">
+                              <li ng-repeat="enr in months[8].slcsp.skipped">
+                                {{enr.enrollee.relationship}}: {{enr.enrollee.dob.m}}/{{enr.enrollee.dob.d}}/{{enr.enrollee.dob.y}}
+                              </li>
+                            </ul>
+                          </b>
+                        </span>
+
+                      </div>
+
+                      <div class="col-xs-8 hixLink" ng-if="months[8].hix.length">
+                        <span class="premium">
+                          <div ng-repeat="hixLoc in months[8].hix">
+                            Visit
+                            <a role="button" ng-href="{{hixLoc.hix_url}}">{{ hixLoc.hix_name }}</a> for this month's information ({{hixLoc.state}})
+                          </div>
+                        </span>
+                      </div>
+                    </li>
+                    <li ng-if="months[9].display" class="row qa-8965-result">
+                      <div class="col-xs-4">
+                        <h5 class="month" aria-hidden="true">
+                          October
+                        </h5>
+                        <h4 class="month sr-only">
+                          October
+                        </h4>
+                      </div>
+
+
+
+                      <div class="col-xs-4" ng-if="months[9].lcbp.premium">
+                        <span class="premium bronze">
+                          <b ng-if="months[9].lcbp.premium">
+                            <span class="sr-only">
+                              Monthly Lowest cost Bronze plan premium
+                            </span>
+                            <span class="qa-bronze-amount">{{months[9].lcbp.premium | currency:symbol:2}}</span>
+                          </b>
+                          <b ng-if="months[9].lcbp.skipped.length">
+                            <span class="translation_missing" title="translation missing: en-US.lcbp_same_state_skip_reason">Lcbp Same State Skip Reason</span>
+                            <ul class="plain lcbpSkipped">
+                              <li ng-repeat="enr in months[9].lcbp.skipped">
+                                {{enr.enrollee.relationship}}: {{enr.enrollee.dob.m}}/{{enr.enrollee.dob.d}}/{{enr.enrollee.dob.y}}
+                              </li>
+                            </ul>
+                          </b>
+                        </span>
+                        <span class="premium bronze" ng-if="!months[9].lcbp.premium">
+                          N/A
+                        </span>
+                      </div>
+
+
+                      <div class="col-xs-4" ng-if="months[9].lcbp.premium">
+                        <span class="premium silver" >
+                          <b>
+                            <span class="sr-only">
+                              Monthly Second lowest cost Silver plan premium
+                            </span>
+                            <span class="qa-silver-amount">{{(months[9].slcsp.premium || 0 )| currency:symbol:2}}</span>
+                          </b>
+                          <b ng-if="months[9].slcsp.skipped.length">
+                            SLCSP skipped for:
+                            <ul class="plain slcspSkipped">
+                              <li ng-repeat="enr in months[9].slcsp.skipped">
+                                {{enr.enrollee.relationship}}: {{enr.enrollee.dob.m}}/{{enr.enrollee.dob.d}}/{{enr.enrollee.dob.y}}
+                              </li>
+                            </ul>
+                          </b>
+                        </span>
+
+                      </div>
+
+                      <div class="col-xs-8 hixLink" ng-if="months[9].hix.length">
+                        <span class="premium">
+                          <div ng-repeat="hixLoc in months[9].hix">
+                            Visit
+                            <a role="button" ng-href="{{hixLoc.hix_url}}">{{ hixLoc.hix_name }}</a> for this month's information ({{hixLoc.state}})
+                          </div>
+                        </span>
+                      </div>
+                    </li>
+                    <li ng-if="months[10].display" class="row qa-8965-result">
+                      <div class="col-xs-4">
+                        <h5 class="month" aria-hidden="true">
+                          November
+                        </h5>
+                        <h4 class="month sr-only">
+                          November
+                        </h4>
+                      </div>
+
+
+
+                      <div class="col-xs-4" ng-if="months[10].lcbp.premium">
+                        <span class="premium bronze">
+                          <b ng-if="months[10].lcbp.premium">
+                            <span class="sr-only">
+                              Monthly Lowest cost Bronze plan premium
+                            </span>
+                            <span class="qa-bronze-amount">{{months[10].lcbp.premium | currency:symbol:2}}</span>
+                          </b>
+                          <b ng-if="months[10].lcbp.skipped.length">
+                            <span class="translation_missing" title="translation missing: en-US.lcbp_same_state_skip_reason">Lcbp Same State Skip Reason</span>
+                            <ul class="plain lcbpSkipped">
+                              <li ng-repeat="enr in months[10].lcbp.skipped">
+                                {{enr.enrollee.relationship}}: {{enr.enrollee.dob.m}}/{{enr.enrollee.dob.d}}/{{enr.enrollee.dob.y}}
+                              </li>
+                            </ul>
+                          </b>
+                        </span>
+                        <span class="premium bronze" ng-if="!months[10].lcbp.premium">
+                          N/A
+                        </span>
+                      </div>
+
+
+                      <div class="col-xs-4" ng-if="months[10].lcbp.premium">
+                        <span class="premium silver" >
+                          <b>
+                            <span class="sr-only">
+                              Monthly Second lowest cost Silver plan premium
+                            </span>
+                            <span class="qa-silver-amount">{{(months[10].slcsp.premium || 0 )| currency:symbol:2}}</span>
+                          </b>
+                          <b ng-if="months[10].slcsp.skipped.length">
+                            SLCSP skipped for:
+                            <ul class="plain slcspSkipped">
+                              <li ng-repeat="enr in months[10].slcsp.skipped">
+                                {{enr.enrollee.relationship}}: {{enr.enrollee.dob.m}}/{{enr.enrollee.dob.d}}/{{enr.enrollee.dob.y}}
+                              </li>
+                            </ul>
+                          </b>
+                        </span>
+
+                      </div>
+
+                      <div class="col-xs-8 hixLink" ng-if="months[10].hix.length">
+                        <span class="premium">
+                          <div ng-repeat="hixLoc in months[10].hix">
+                            Visit
+                            <a role="button" ng-href="{{hixLoc.hix_url}}">{{ hixLoc.hix_name }}</a> for this month's information ({{hixLoc.state}})
+                          </div>
+                        </span>
+                      </div>
+                    </li>
+                    <li ng-if="months[11].display" class="row qa-8965-result">
+                      <div class="col-xs-4">
+                        <h5 class="month" aria-hidden="true">
+                          December
+                        </h5>
+                        <h4 class="month sr-only">
+                          December
+                        </h4>
+                      </div>
+
+
+
+                      <div class="col-xs-4" ng-if="months[11].lcbp.premium">
+                        <span class="premium bronze">
+                          <b ng-if="months[11].lcbp.premium">
+                            <span class="sr-only">
+                              Monthly Lowest cost Bronze plan premium
+                            </span>
+                            <span class="qa-bronze-amount">{{months[11].lcbp.premium | currency:symbol:2}}</span>
+                          </b>
+                          <b ng-if="months[11].lcbp.skipped.length">
+                            <span class="translation_missing" title="translation missing: en-US.lcbp_same_state_skip_reason">Lcbp Same State Skip Reason</span>
+                            <ul class="plain lcbpSkipped">
+                              <li ng-repeat="enr in months[11].lcbp.skipped">
+                                {{enr.enrollee.relationship}}: {{enr.enrollee.dob.m}}/{{enr.enrollee.dob.d}}/{{enr.enrollee.dob.y}}
+                              </li>
+                            </ul>
+                          </b>
+                        </span>
+                        <span class="premium bronze" ng-if="!months[11].lcbp.premium">
+                          N/A
+                        </span>
+                      </div>
+
+
+                      <div class="col-xs-4" ng-if="months[11].lcbp.premium">
+                        <span class="premium silver" >
+                          <b>
+                            <span class="sr-only">
+                              Monthly Second lowest cost Silver plan premium
+                            </span>
+                            <span class="qa-silver-amount">{{(months[11].slcsp.premium || 0 )| currency:symbol:2}}</span>
+                          </b>
+                          <b ng-if="months[11].slcsp.skipped.length">
+                            SLCSP skipped for:
+                            <ul class="plain slcspSkipped">
+                              <li ng-repeat="enr in months[11].slcsp.skipped">
+                                {{enr.enrollee.relationship}}: {{enr.enrollee.dob.m}}/{{enr.enrollee.dob.d}}/{{enr.enrollee.dob.y}}
+                              </li>
+                            </ul>
+                          </b>
+                        </span>
+
+                      </div>
+
+                      <div class="col-xs-8 hixLink" ng-if="months[11].hix.length">
+                        <span class="premium">
+                          <div ng-repeat="hixLoc in months[11].hix">
+                            Visit
+                            <a role="button" ng-href="{{hixLoc.hix_url}}">{{ hixLoc.hix_name }}</a> for this month's information ({{hixLoc.state}})
+                          </div>
+                        </span>
+                      </div>
+                    </li>
+                </ul>
+
+
+
+                <div ng-if="!slcspSkippedMonths && !lcbpSkippedMonths" class="all-same-zips-explainer">
+                  <p><b>You may have to complete more than one worksheet.</b> If the monthly premiums in either column changed during the year, you'll need to complete a separate worksheet for each part of the year. These premiums may change if during the year you or any family members: lived in different locations, had different eligibility for other exemptions or had different eligibility for certain coverage.</p>
+
+                </div>
+
+                <div ng-if="lcbpSkippedMonths && !slcspSkippedMonths" class="same-state-diff-zips-explainer">
+                  <h5>Instructions for families that live in the same state, but in multiple ZIP codes</h5>
+<p>If every member of your family did not live in the same ZIP code, you will need to run this tax tool more than once to get your SLCSP premium and lowest cost bronze plan premium. </p>
+
+<p>For a given month, if any member of your family lived in a different ZIP code from the other members of your family but all of the members of your family lived in the same state, you will need to do the following:</p>
+
+<h5>Figure the SLCSP premium for all members of your family. </h5>
+<p>To do this, add all of the other members of your family after entering in the information for Family member 1.  Once you have a SLCSP premium for the entire family, write down that number.  This number is your SLCSP premium.  </p>
+<p>Note: Ignore the lowest cost bronze plan premium.</p>
+
+<h5>Figure the lowest cost bronze plan premium for all members of your family who lived in the same zip code as Family member 1.</h5>  <p>To do this, run the tax tool again.  Enter Family member 1’s information and only add members of your family who lived in the same ZIP code as Family member 1.  Once you have a lowest cost bronze plan premium for this portion of your family, write down that number.  
+<p>Note: Ignore the SLCSP premium.</p>
+
+<h5>Figure the lowest cost bronze plan premium for all members of your family who lived in a different ZIP code from Family member 1.</h5>
+<p>To do this, run the tax tool again for any members who lived in a different ZIP code from Family member 1.  If members of your family lived in more than two ZIP codes during a month, run the tax tool again for each additional ZIP code.  Once you have a lowest cost bronze plan premium for these members of your family, add it to the lowest cost bronze plan premium that you obtained in the second step.  This is your family’s lowest cost bronze plan premium. </p>
+
+<p>Note: Ignore the SLCSP premium.</p>
+
+                </div>
+
+                <div ng-if="slcspSkippedMonths" class="diff-states-explainer">
+                  <h5>Instructions for families that live in multiple states</h5>
+
+<p>If every member of your family did not live in the same zip code, you will need to run this tax tool more than once to get your SLCSP premium and lowest cost bronze plan premium. </p>
+
+<p>If any member of your family lived in a different state from the other members of your family, you will need to do the following:</p>
+
+<h5>Figure the SLCSP premium for all members of your family who lived in the same state as Family member 1.</h5> 
+<p>To do this, add all of the family members who lived in the same state as Family member 1 after entering in the information for Family member 1. Once you have a SLCSP premium for this portion of your family, write down that number. Ignore the lowest cost bronze plan premium.</p>
+
+<h5>Figure the SLCSP premium for all members of your family who lived in a different state from Family member 1. </h5>
+To do this, run the tax tool again for any family members who lived in a different state from Family member 1.  If members of your family lived in more than two states during a month, run the tax tool again for each additional state. Once you have a SLCSP premium for these members of your family, add it to the SLCSP premium that you obtained in the first step.  This is your family’s SLCSP premium for each month. Ignore the lowest cost bronze plan premium.</p>
+
+<h5>Figure the lowest cost bronze plan premium for all members of your family who lived in the same zip code as Family member 1.</h5> 
+<p>To do this, run the tax tool again.  Enter Family member 1’s information and only add members of your family who lived in the same zip code as Family member 1.  Once you have a lowest cost bronze plan premium for this portion of your family, write down that number. Ignore the SLCSP premium.</p>
+
+<h5>Figure the lowest cost bronze plan premium for all members of your coverage family who lived in a different zip code from Family member 1. </h5>
+<p>To do this, run the tax tool again for any members who lived in a different zip code from Family member 1.  If members of your family lived in more than two zip codes during a month, run the tax tool again for each additional zip code. Once you have a lowest cost bronze plan premium for these members of your family, add it to the lowest cost bronze plan premium that you obtained in the third step.  This is your family’s lowest cost bronze plan premium. Ignore the SLCSP premium.</p>
+
+                </div>
+
+                <div ng-if="lcbpSkipped.length" class="separate-lcbp-instructions">
+                    <h5>Separate LCBP Family Members</h5>
+                    <ul class="plain">
+                        <li ng-repeat="enr in lcbpSkipped">
+                            {{enr.relationship}}: {{enr.dob.m}}/{{enr.dob.d}}/{{enr.dob.y}}
+                        </li>
+                    </ul>
+                </div>
+                <div ng-if="slcspSkipped.length" class="separate-slcsp-instructions">
+                    <h5>Separate SLCSP Family Members</h5>
+                    <ul>
+                        <li ng-repeat="enr in slcspSkipped">
+                            {{enr.relationship}}: {{enr.dob.m}}/{{enr.dob.d}}/{{enr.dob.y}}
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </script>
+    <script type="text/ng-template" id="results/form8962.html">
+      <div class="results-page qa-8962-results">
+    <div class="alert alert-success left-align">
+        <div class="container">
+            <div class="form-group">
+                <h2 class="h2 qa-8962-title">Your {{year.value}} second lowest cost Silver plan (SLCSP) premiums</h2>
+                <p>These monthly premiums are used to calculate your premium tax credit. Enter these amounts on IRS Form 8962 when you prepare your {{year.value}} income tax return.</p>
+            </div>
+            <div class="download-block">
+              <h4>Download the {{ formInfo.year }} Form {{ formInfo.type }} and instructions</h4>
+
+              <div class="row">
+                <div class="col-12 col-sm-5">
+                  <button class="btn btn-md btn-success btn-block create-account-btn" ng-click="downloadForm('i', formInfo)">
+                    Instructions for form {{ formInfo.type }} - {{ formInfo.year }} (<abbr>PDF</abbr>)
+                  </button>
+                </div>
+                <div class="col-12 col-sm-5">
+                  <button class="btn btn-md btn-success btn-block create-account-btn" ng-click="downloadForm('f', formInfo)">
+                    Form {{ formInfo.type }} - {{ formInfo.year }} (<abbr>PDF</abbr>)
+                  </button>
+                </div>
+              </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </div>
+    <div class="container">
+        <div class="form-group">
+            <p class="missingMonthExplainer" ng-if="loadedMonths != 12 && loadedMonths != 0">
+                <p><b>Are any months missing below?</b> If months aren’t shown, your family doesn’t qualify for a Premium Tax Credit for that month. This can happen if:  </p>
+
+<ul>
+<li>No family member was enrolled in Marketplace coverage</li>
+<li>A family member was enrolled but the premiums were not paid OR</li>
+<li>All enrolled family members were eligible for coverage outside the Marketplace</li>
+</ul>
+            </p>
+        </div>
+        <div class="form-group">
+            <div class="results">
+                <div class="noResults requirements" ng-if="loadedMonths == 0">
+                  <h3>No results</h3>
+                </div>
+
+                <ul ng-if="loadedMonths">
+                    <li class="header">
+                        <h3 class="sub form">Monthly Second lowest cost Silver plan premium</h3>
+                        <p class="reference">
+                            Enter these amounts on Form 8962, Part II, column b. But see 8962 instructions, starting p. 9, for important information.
+                        </p>
+                    </li>
+                    <li ng-if="months[0].premium || months[0].hix.length" class="row">
+                        <div class="col-xs-4">
+                            <h4 class="month">
+                                January
+                            </h4>
+                        </div>
+                        <div class="col-xs-8" ng-if="months[0].premium">
+                          <span class="premium qa-8962-result">
+                            <p>
+                              <b ng-if="months[0].premium">
+                                {{months[0].premium | currency:symbol:2}}
+                              </b>
+                            </p>
+                            <b ng-if="months[0].skipped.length && !months[0].hix.length">
+                              SLCSP skipped for:
+                              <ul>
+                                <li ng-repeat="enr in months[0].skipped">
+                                  {{enr.enrollee.relationship || "First family member"}}: {{enr.enrollee.dob.m}}/{{enr.enrollee.dob.d}}/{{enr.enrollee.dob.y}}
+                                </li>
+                              </ul>
+                            </b>
+                          </span>
+                        </div>
+                        <div class="col-xs-6 hixLink" ng-if="months[0].hix.length">
+                          <span class="premium" ng-repeat="hixLoc in months[0].hix">
+                            Visit
+                            <a role="button" ng-href="{{hixLoc.hix_url}}">{{ hixLoc.hix_name }}</a> for this month's information ({{hixLoc.state}})
+                          </span>
+                        </div>
+                    </li>
+                    <li ng-if="months[1].premium || months[1].hix.length" class="row">
+                        <div class="col-xs-4">
+                            <h4 class="month">
+                                February
+                            </h4>
+                        </div>
+                        <div class="col-xs-8" ng-if="months[1].premium">
+                          <span class="premium qa-8962-result">
+                            <p>
+                              <b ng-if="months[1].premium">
+                                {{months[1].premium | currency:symbol:2}}
+                              </b>
+                            </p>
+                            <b ng-if="months[1].skipped.length && !months[1].hix.length">
+                              SLCSP skipped for:
+                              <ul>
+                                <li ng-repeat="enr in months[1].skipped">
+                                  {{enr.enrollee.relationship || "First family member"}}: {{enr.enrollee.dob.m}}/{{enr.enrollee.dob.d}}/{{enr.enrollee.dob.y}}
+                                </li>
+                              </ul>
+                            </b>
+                          </span>
+                        </div>
+                        <div class="col-xs-6 hixLink" ng-if="months[1].hix.length">
+                          <span class="premium" ng-repeat="hixLoc in months[1].hix">
+                            Visit
+                            <a role="button" ng-href="{{hixLoc.hix_url}}">{{ hixLoc.hix_name }}</a> for this month's information ({{hixLoc.state}})
+                          </span>
+                        </div>
+                    </li>
+                    <li ng-if="months[2].premium || months[2].hix.length" class="row">
+                        <div class="col-xs-4">
+                            <h4 class="month">
+                                March
+                            </h4>
+                        </div>
+                        <div class="col-xs-8" ng-if="months[2].premium">
+                          <span class="premium qa-8962-result">
+                            <p>
+                              <b ng-if="months[2].premium">
+                                {{months[2].premium | currency:symbol:2}}
+                              </b>
+                            </p>
+                            <b ng-if="months[2].skipped.length && !months[2].hix.length">
+                              SLCSP skipped for:
+                              <ul>
+                                <li ng-repeat="enr in months[2].skipped">
+                                  {{enr.enrollee.relationship || "First family member"}}: {{enr.enrollee.dob.m}}/{{enr.enrollee.dob.d}}/{{enr.enrollee.dob.y}}
+                                </li>
+                              </ul>
+                            </b>
+                          </span>
+                        </div>
+                        <div class="col-xs-6 hixLink" ng-if="months[2].hix.length">
+                          <span class="premium" ng-repeat="hixLoc in months[2].hix">
+                            Visit
+                            <a role="button" ng-href="{{hixLoc.hix_url}}">{{ hixLoc.hix_name }}</a> for this month's information ({{hixLoc.state}})
+                          </span>
+                        </div>
+                    </li>
+                    <li ng-if="months[3].premium || months[3].hix.length" class="row">
+                        <div class="col-xs-4">
+                            <h4 class="month">
+                                April
+                            </h4>
+                        </div>
+                        <div class="col-xs-8" ng-if="months[3].premium">
+                          <span class="premium qa-8962-result">
+                            <p>
+                              <b ng-if="months[3].premium">
+                                {{months[3].premium | currency:symbol:2}}
+                              </b>
+                            </p>
+                            <b ng-if="months[3].skipped.length && !months[3].hix.length">
+                              SLCSP skipped for:
+                              <ul>
+                                <li ng-repeat="enr in months[3].skipped">
+                                  {{enr.enrollee.relationship || "First family member"}}: {{enr.enrollee.dob.m}}/{{enr.enrollee.dob.d}}/{{enr.enrollee.dob.y}}
+                                </li>
+                              </ul>
+                            </b>
+                          </span>
+                        </div>
+                        <div class="col-xs-6 hixLink" ng-if="months[3].hix.length">
+                          <span class="premium" ng-repeat="hixLoc in months[3].hix">
+                            Visit
+                            <a role="button" ng-href="{{hixLoc.hix_url}}">{{ hixLoc.hix_name }}</a> for this month's information ({{hixLoc.state}})
+                          </span>
+                        </div>
+                    </li>
+                    <li ng-if="months[4].premium || months[4].hix.length" class="row">
+                        <div class="col-xs-4">
+                            <h4 class="month">
+                                May
+                            </h4>
+                        </div>
+                        <div class="col-xs-8" ng-if="months[4].premium">
+                          <span class="premium qa-8962-result">
+                            <p>
+                              <b ng-if="months[4].premium">
+                                {{months[4].premium | currency:symbol:2}}
+                              </b>
+                            </p>
+                            <b ng-if="months[4].skipped.length && !months[4].hix.length">
+                              SLCSP skipped for:
+                              <ul>
+                                <li ng-repeat="enr in months[4].skipped">
+                                  {{enr.enrollee.relationship || "First family member"}}: {{enr.enrollee.dob.m}}/{{enr.enrollee.dob.d}}/{{enr.enrollee.dob.y}}
+                                </li>
+                              </ul>
+                            </b>
+                          </span>
+                        </div>
+                        <div class="col-xs-6 hixLink" ng-if="months[4].hix.length">
+                          <span class="premium" ng-repeat="hixLoc in months[4].hix">
+                            Visit
+                            <a role="button" ng-href="{{hixLoc.hix_url}}">{{ hixLoc.hix_name }}</a> for this month's information ({{hixLoc.state}})
+                          </span>
+                        </div>
+                    </li>
+                    <li ng-if="months[5].premium || months[5].hix.length" class="row">
+                        <div class="col-xs-4">
+                            <h4 class="month">
+                                June
+                            </h4>
+                        </div>
+                        <div class="col-xs-8" ng-if="months[5].premium">
+                          <span class="premium qa-8962-result">
+                            <p>
+                              <b ng-if="months[5].premium">
+                                {{months[5].premium | currency:symbol:2}}
+                              </b>
+                            </p>
+                            <b ng-if="months[5].skipped.length && !months[5].hix.length">
+                              SLCSP skipped for:
+                              <ul>
+                                <li ng-repeat="enr in months[5].skipped">
+                                  {{enr.enrollee.relationship || "First family member"}}: {{enr.enrollee.dob.m}}/{{enr.enrollee.dob.d}}/{{enr.enrollee.dob.y}}
+                                </li>
+                              </ul>
+                            </b>
+                          </span>
+                        </div>
+                        <div class="col-xs-6 hixLink" ng-if="months[5].hix.length">
+                          <span class="premium" ng-repeat="hixLoc in months[5].hix">
+                            Visit
+                            <a role="button" ng-href="{{hixLoc.hix_url}}">{{ hixLoc.hix_name }}</a> for this month's information ({{hixLoc.state}})
+                          </span>
+                        </div>
+                    </li>
+                    <li ng-if="months[6].premium || months[6].hix.length" class="row">
+                        <div class="col-xs-4">
+                            <h4 class="month">
+                                July
+                            </h4>
+                        </div>
+                        <div class="col-xs-8" ng-if="months[6].premium">
+                          <span class="premium qa-8962-result">
+                            <p>
+                              <b ng-if="months[6].premium">
+                                {{months[6].premium | currency:symbol:2}}
+                              </b>
+                            </p>
+                            <b ng-if="months[6].skipped.length && !months[6].hix.length">
+                              SLCSP skipped for:
+                              <ul>
+                                <li ng-repeat="enr in months[6].skipped">
+                                  {{enr.enrollee.relationship || "First family member"}}: {{enr.enrollee.dob.m}}/{{enr.enrollee.dob.d}}/{{enr.enrollee.dob.y}}
+                                </li>
+                              </ul>
+                            </b>
+                          </span>
+                        </div>
+                        <div class="col-xs-6 hixLink" ng-if="months[6].hix.length">
+                          <span class="premium" ng-repeat="hixLoc in months[6].hix">
+                            Visit
+                            <a role="button" ng-href="{{hixLoc.hix_url}}">{{ hixLoc.hix_name }}</a> for this month's information ({{hixLoc.state}})
+                          </span>
+                        </div>
+                    </li>
+                    <li ng-if="months[7].premium || months[7].hix.length" class="row">
+                        <div class="col-xs-4">
+                            <h4 class="month">
+                                August
+                            </h4>
+                        </div>
+                        <div class="col-xs-8" ng-if="months[7].premium">
+                          <span class="premium qa-8962-result">
+                            <p>
+                              <b ng-if="months[7].premium">
+                                {{months[7].premium | currency:symbol:2}}
+                              </b>
+                            </p>
+                            <b ng-if="months[7].skipped.length && !months[7].hix.length">
+                              SLCSP skipped for:
+                              <ul>
+                                <li ng-repeat="enr in months[7].skipped">
+                                  {{enr.enrollee.relationship || "First family member"}}: {{enr.enrollee.dob.m}}/{{enr.enrollee.dob.d}}/{{enr.enrollee.dob.y}}
+                                </li>
+                              </ul>
+                            </b>
+                          </span>
+                        </div>
+                        <div class="col-xs-6 hixLink" ng-if="months[7].hix.length">
+                          <span class="premium" ng-repeat="hixLoc in months[7].hix">
+                            Visit
+                            <a role="button" ng-href="{{hixLoc.hix_url}}">{{ hixLoc.hix_name }}</a> for this month's information ({{hixLoc.state}})
+                          </span>
+                        </div>
+                    </li>
+                    <li ng-if="months[8].premium || months[8].hix.length" class="row">
+                        <div class="col-xs-4">
+                            <h4 class="month">
+                                September
+                            </h4>
+                        </div>
+                        <div class="col-xs-8" ng-if="months[8].premium">
+                          <span class="premium qa-8962-result">
+                            <p>
+                              <b ng-if="months[8].premium">
+                                {{months[8].premium | currency:symbol:2}}
+                              </b>
+                            </p>
+                            <b ng-if="months[8].skipped.length && !months[8].hix.length">
+                              SLCSP skipped for:
+                              <ul>
+                                <li ng-repeat="enr in months[8].skipped">
+                                  {{enr.enrollee.relationship || "First family member"}}: {{enr.enrollee.dob.m}}/{{enr.enrollee.dob.d}}/{{enr.enrollee.dob.y}}
+                                </li>
+                              </ul>
+                            </b>
+                          </span>
+                        </div>
+                        <div class="col-xs-6 hixLink" ng-if="months[8].hix.length">
+                          <span class="premium" ng-repeat="hixLoc in months[8].hix">
+                            Visit
+                            <a role="button" ng-href="{{hixLoc.hix_url}}">{{ hixLoc.hix_name }}</a> for this month's information ({{hixLoc.state}})
+                          </span>
+                        </div>
+                    </li>
+                    <li ng-if="months[9].premium || months[9].hix.length" class="row">
+                        <div class="col-xs-4">
+                            <h4 class="month">
+                                October
+                            </h4>
+                        </div>
+                        <div class="col-xs-8" ng-if="months[9].premium">
+                          <span class="premium qa-8962-result">
+                            <p>
+                              <b ng-if="months[9].premium">
+                                {{months[9].premium | currency:symbol:2}}
+                              </b>
+                            </p>
+                            <b ng-if="months[9].skipped.length && !months[9].hix.length">
+                              SLCSP skipped for:
+                              <ul>
+                                <li ng-repeat="enr in months[9].skipped">
+                                  {{enr.enrollee.relationship || "First family member"}}: {{enr.enrollee.dob.m}}/{{enr.enrollee.dob.d}}/{{enr.enrollee.dob.y}}
+                                </li>
+                              </ul>
+                            </b>
+                          </span>
+                        </div>
+                        <div class="col-xs-6 hixLink" ng-if="months[9].hix.length">
+                          <span class="premium" ng-repeat="hixLoc in months[9].hix">
+                            Visit
+                            <a role="button" ng-href="{{hixLoc.hix_url}}">{{ hixLoc.hix_name }}</a> for this month's information ({{hixLoc.state}})
+                          </span>
+                        </div>
+                    </li>
+                    <li ng-if="months[10].premium || months[10].hix.length" class="row">
+                        <div class="col-xs-4">
+                            <h4 class="month">
+                                November
+                            </h4>
+                        </div>
+                        <div class="col-xs-8" ng-if="months[10].premium">
+                          <span class="premium qa-8962-result">
+                            <p>
+                              <b ng-if="months[10].premium">
+                                {{months[10].premium | currency:symbol:2}}
+                              </b>
+                            </p>
+                            <b ng-if="months[10].skipped.length && !months[10].hix.length">
+                              SLCSP skipped for:
+                              <ul>
+                                <li ng-repeat="enr in months[10].skipped">
+                                  {{enr.enrollee.relationship || "First family member"}}: {{enr.enrollee.dob.m}}/{{enr.enrollee.dob.d}}/{{enr.enrollee.dob.y}}
+                                </li>
+                              </ul>
+                            </b>
+                          </span>
+                        </div>
+                        <div class="col-xs-6 hixLink" ng-if="months[10].hix.length">
+                          <span class="premium" ng-repeat="hixLoc in months[10].hix">
+                            Visit
+                            <a role="button" ng-href="{{hixLoc.hix_url}}">{{ hixLoc.hix_name }}</a> for this month's information ({{hixLoc.state}})
+                          </span>
+                        </div>
+                    </li>
+                    <li ng-if="months[11].premium || months[11].hix.length" class="row">
+                        <div class="col-xs-4">
+                            <h4 class="month">
+                                December
+                            </h4>
+                        </div>
+                        <div class="col-xs-8" ng-if="months[11].premium">
+                          <span class="premium qa-8962-result">
+                            <p>
+                              <b ng-if="months[11].premium">
+                                {{months[11].premium | currency:symbol:2}}
+                              </b>
+                            </p>
+                            <b ng-if="months[11].skipped.length && !months[11].hix.length">
+                              SLCSP skipped for:
+                              <ul>
+                                <li ng-repeat="enr in months[11].skipped">
+                                  {{enr.enrollee.relationship || "First family member"}}: {{enr.enrollee.dob.m}}/{{enr.enrollee.dob.d}}/{{enr.enrollee.dob.y}}
+                                </li>
+                              </ul>
+                            </b>
+                          </span>
+                        </div>
+                        <div class="col-xs-6 hixLink" ng-if="months[11].hix.length">
+                          <span class="premium" ng-repeat="hixLoc in months[11].hix">
+                            Visit
+                            <a role="button" ng-href="{{hixLoc.hix_url}}">{{ hixLoc.hix_name }}</a> for this month's information ({{hixLoc.state}})
+                          </span>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /.results-page qa-8962-results -->
+
+    </script>
+    <script type="text/ng-template" id="shared/quick_modal.html">
+      <div class="modal-content plan-card-modal">
+  <div class="modal-header">
+    <div class="row">
+      <div class="col-xs-12 col-md-10">
+        <h3 class="modal-title" ng-bind-html="title">
+        </h3>
+      </div>
+    </div>
+    <button role="button" type="button" class="btn btn-md modal-close-btn in-network" ng-click= "$dismiss()">Close</button>
+
+  </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="modal-body" ng-bind-html="body">
+      </div>
+    </div>
+  </div>
+</div>
+
+    </script>
+    <script type="text/ng-template" id="shared/results_message.html">
+      <div class="alert alert-information">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="row">
+          <div class="col-xs-8 col-sm-9">
+            <span ng-if="!household.income && !household.hasEnrollees() && currentMarket == 'individual'">
+              <span class="translation_missing" title="translation missing: en-US.see_plan_prices_based_on_income">See Plan Prices Based On Income</span>
+            </span>
+
+            <span ng-if="household.hasEnrollees()">
+              <span class="font-weight-lite">People covered:</span>
+              <span class="font-weight-medium capitalize" ng-if="household.selfCovered()"> {{enrollees.PRIMARY}} (Age {{enrollees.getPrimary().age}})<span ng-if="household.spouseCovered()">,</span></span>
+              <span class="font-weight-medium capitalize" ng-if="household.spouseCovered()"> {{enrollees.SPOUSE}} (Age {{enrollees.getSpouse().age}}) </span>
+              <span class="font-weight-medium" ng-if="household.coveredDependentCount()">
+                and <span>{{ household.coveredDependentCount() }} other dependents</span>
+              </span>
+              <span ng-if="household.aptc">
+                <span class="font-weight-lite"> with </span>
+                <span class="font-weight-medium lowercase">Estimated tax credit</span>
+                <span class="font-weight-lite"> of </span>
+                <span class="font-weight-medium">
+                  {{ household.aptc | currency : symbol }}<span class="capitalize">/month</span>
+                </span>
+              </span>
+            </span>
+          </div>
+          <div class="col-xs-4 col-sm-3 text-right">
+            <a ng-if="household.hasEnrollees() && !household.income && currentMarket == 'individual'" class="btn btn-sm message-bar-btn message-income" ui-sref="index.income"> <span class="translation_missing" title="translation missing: en-US.add_income">Add Income</span> </a>
+            <a ng-if="household.income && household.hasEnrollees() && currentMarket == 'individual'" class="btn btn-sm message-bar-btn message-edit" ui-sref="index.enrollee_summary"> EDIT </a>
+            <a ng-if="currentMarket == 'shop'" class="btn btn-sm message-bar-btn message-edit" ui-sref="shop.enrolleesSummary"> Add additional people </a>
+            <a ng-if="!household.hasEnrollees() && currentMarket == 'individual'" class="btn btn-sm message-bar-btn message-edit" ui-sref="index.buying"> Add Your Household </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    </script>
+    <script type="text/ng-template" id="shared/entry.html">
+      <div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <div class="action-card first">
+            <h3 id="premium-tax-credit">Figure out your premium tax credit</h3>
+<ul>
+    <li class="u-mt3">This tool provides accurate information about your <b>“second lowest cost Silver plan” (SLCSP)</b>. </li>
+    <li class="u-mt3">You’ll use it to fill out IRS Form 8962, Premium Tax Credit, and figure out your premium tax credit.</li>
+</ul>
+            <a aria-describedby="premium-tax-credit" href="javascript:;" role="button" id="flow-8962" ng-click="setFlow('8962')" class="continueBtn btn btn-green btn-md btn-block">Get Started</a>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <div class="action-card second">
+            <h3 id="affordability-exemption">Claim an "affordability" exemption</h3>
+<ul>
+    <li class="u-mt3">This tool provides information you need to claim an affordability exemption, including the price of the <b>lowest cost Bronze plan and your second lowest cost Silver Plan (SLCSP)</b>.</li>
+    <li class="u-mt3">You’ll use it to fill out IRS Form 8965, Health Coverage Exemptions.</li>
+    <li class="u-mt3">If you claim an affordability exemption, you don’t have to make a payment for not having health coverage.</li>
+</ul>
+
+            <a aria-describedby="affordability-exemption" href="javascript:;" role="button" id="flow-8965" ng-click="setFlow('8965')" class="continueBtn btn btn-green btn-md btn-block">Get Started</a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="message minimal">
+              <p>Learn about <b><a class="help-link" href="https://www.healthcare.gov/taxes/">figuring out your premium tax credit</a></b> or <b><a class="help-link" href="https://www.healthcare.gov/exemptions-tool/#/results/2016/details/marketplace-affordability">qualifying for the affordability exemption</a></b>.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</div>
+
+    </script>
+    <script type="text/ng-template" id="shared/start_warning_modal.html">
+      <div class="modal-header">
+  <div class="row">
+    <div class="col-xs-12 col-md-10">
+      <h3 class="info-title">Warning: You may lose your work</h3>
+    </div>
+  </div>
+  <button class="btn btn-md modal-close-btn zip-code" type="button" ng-click="$dismiss()">Close</button>
+</div>
+<div class="row">
+  <div class="col-md-10">
+    <div class="modal-body zip-body">
+      <p>Your answers haven’t been saved. If you select <b>continue</b> you’ll return to the first screen and have to answer all the questions again. If you don’t want to go back, select <b>close</b>.</p>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="action">
+    <button class="col-xs-10 col-xs-offset-1 btn btn-lg btn-success btn-hero continue-btn" type="button" ng-click="ok()">Continue</button>
+  </div>
+</div>
+
+    </script>
+    <script type="text/ng-template" id="shared/start_8965_modal.html">
+      <div class="modal-content plan-card-modal">
+  <div class="modal-header">
+    <div class="row">
+      <div class="col-xs-12 col-md-10">
+        <h3 class="modal-title">
+          The affordability exemption
+        </h3>
+      </div>
+    </div>
+    <button role="button" type="button" class="btn btn-md modal-close-btn in-network" ng-click= "$dismiss()">Close</button>
+
+  </div>
+  <div class="modal-body">
+    <div class="row">
+      <div class="col-xs-12">
+        <p>Most people who don't have coverage for all or part of the year must pay a fee or claim an exemption from the requirement to have health coverage. One exemption is based on whether a health plan is considered affordable for you. In order to find out if you qualify for an affordability exemption, you'll need to complete IRS Form 8965. To do that, you'll need to know the premiums for both of the following: </p>
+
+<ul>
+<li>The lowest cost Bronze plan available to your family</li>
+<li>The second lowest cost Silver plan available to your family </li>
+</ul>
+
+<p>We'll ask a few questions about you and your family members and provide both sets of numbers you need to claim the affordability exemption.</p>
+      </div>
+    </div>  
+  </div>
+</div>
+
+    </script>
+    <script type="text/ng-template" id="shared/qualtrics_modal.html">
+      <iframe ng-src="{{url}}"/>
+<div class="row">
+  <div class="col-xs-12">
+
+    <div class="actions">
+      <button role="button" class="col-xs-12 btn btn-md btn-secondary" ng-click="$dismiss()">Close</button>
+    </div>
+  </div>
+</div>
+
+    </script>
+    <script type="text/ng-template" id="shared/start_8962_modal.html">
+      <div class="modal-content plan-card-modal">
+  <div class="modal-header">
+    <div class="row">
+      <div class="col-xs-12 col-md-10">
+        <h3 class="modal-title">
+          What’s an SLCSP, and do I need to use this tool to find it?
+        </h3>
+      </div>
+    </div>
+    <button role="button" type="button" class="btn btn-md modal-close-btn in-network" ng-click= "$dismiss()">Close</button>
+
+  </div>
+  <div class="modal-body">
+    <div class="row">
+      <div class="col-xs-12">
+        <p>The second lowest cost Silver plan (SLCSP) is the health plan in the Silver category with the second lowest premium available to the members of your family, including you, who enrolled in Marketplace coverage and weren't eligible for other health coverage. It's not necessarily the plan you or your family members enrolled in. It's a plan whose premium is used to determine your premium tax credit.</p>
+
+<p> When you get your results from this tool, we’ll tell you how to use the SLCSP information to complete your tax forms. </p>
+
+<h2>Do I need to use this tool?</h2>
+
+<p>You need to use this tool <strong>only</strong> if one of these applies to the information in Part III, column C of your Form 1095-A:</p>
+<ul>
+<li>It doesn’t include information about your SLCSP premium</li>
+<li>The information about your SLCSP premium is incorrect or incomplete</li>
+
+<p>This could be the case if:</p>
+<ul>
+<li>You had a change to your household in {{year.value}} that you didn’t report to the Marketplace — like having a baby, moving to a new home, a tax dependent changing status, or a family member getting job-based coverage </li>
+<li>You didn’t apply for financial assistance when you filled out your {{year.value}} Marketplace application, and now want to find out if you qualify</li>
+<li>You didn’t take advance payments of the premium tax credit to lower the amount you paid for monthly premiums in {{year.value}}</li>
+
+</ul>
+
+</li>
+</ul>
+
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+    </script>
+    <script type="text/ng-template" id="shared/mobile_flyout.html">
+      
+<!-- Mobile flyout -->
+<div id="sidr" class="visible-xs" ng-class="{visible: showMobileMenu}">
+  <ul class="header-actions learn-menu">
+    <li>
+    <a href="javascript:" class="learn header-link" tab-name="learn" ng-click="setCurrentTab('learn')">Individuals &amp; Families</a>
+    </li><li>
+    <a href="javascript:" class="marketplace header-link" tab-name="marketplace" ng-click="setCurrentTab('marketplace')">Small Businesses</a>
+    </li>
+  </ul>
+
+  <div id="sidr-submenu" ng-class="{'dark-blue': currentTab == 'marketplace', 'light-blue': currentTab == 'learn'}">
+    <form role="search" class="gsearch" name="gsearch" method="get" action="/search">
+      <button class="btn btn-search" value="search" ng-class="{'dark-blue': currentTab == 'learn', 'light-blue': currentTab == 'marketplace'}">
+        Search
+      </button>
+
+      <div class="question">
+        <input id="mobile-search" name="q" class="mobile-search form-control" placeholder="Search" title="" type="search" autocomplete="off">
+      </div>
+
+      <input type='hidden' name='output' value='xml_no_dtd'>
+      <input type='hidden' name='site' value='healthcare'>
+      <input type='hidden' name='proxystylesheet' value='json'>
+      <input type='hidden' name='client' value='json'>
+      <input type='hidden' name='lr' value='lang_en'>
+      <input type='hidden' name='ie' value='UTF-8'>
+      <input type='hidden' name='oe' value='UTF-8'>
+      <input type='hidden' name='access' value='p'>
+      <input type='hidden' name='sort' value='date:D:L:d1'>
+      <input type='hidden' name='start' value='0'>
+      <input type='hidden' name='num' value='6'>
+      <input type='hidden' name='getfields' value='search-title.content-type.topics.bite.yturl.thumbnail'>
+      <input type='hidden' name='rc' value='1'>
+      <input type='hidden' name='filter' value='0'>
+    </form>
+
+    <ul id="learn-links" class="utility-section learn-links" ng-class="{'light-blue active': currentTab == 'learn'}">
+      <li> <a href='/get-coverage'>Get coverage</a></li>
+      <li> <a href='/have-coverage'>Keep or Change Your Plan</a> </li>
+      <li> <a href='/get-answers'>Get Answers</a> </li>
+    </ul>
+
+    <ul class="utility-section marketplace-links" ng-class="{'dark-blue active': currentTab == 'marketplace'}">
+      <li> <a href='/small-businesses/employers'>For Employers</a> </li>
+      <li> <a href='/small-businesses/employees'>For Employees</a> </li>
+      <li> <a href='/small-businesses/get-answers'>Get Answers</a> </li>
+    </ul>
+  </div>
+</div>
+<!-- /Mobile flyout -->
+
+    </script>
+    <script type="text/ng-template" id="shared/progress.html">
+      <div>
+  <div class="hcapp-app_nav">
+    <div class="container">
+      <div class="row">
+        <div class="u-span-12 u-px3 u-table u-table-fixed">
+          <div class="u-table-cell u-span-7 u-sm-span-7 u-md-span-9 u-align-middle">
+            <div class="hcapp-progress qa-progress">
+              <h2 class="visuallyhidden" id="hcapp-progress_title">
+                Steps
+              </h2>
+              <ol class="hcapp-progress_nav" role="navigation" aria-describedby="hcapp-progress_title">
+                <progress-line ng-repeat="step in progress.progressSteps" progress-step="step" step-number="$index + 1" />               
+              </ol>
+              <p class="hcapp-progress_current" aria-hidden="true">
+                {{ currentProgressLabel }}
+              </p>
+            </div>
+            <!-- /.hcapp-progress -->
+          </div>
+          <!-- /.u-md-table-cell u-md-span-9 -->
+        </div>
+      </div><!-- /.row -->
+    </div><!-- /.container -->
+  </div><!-- /.hcapp-app_nav -->
+</div>
+    </script>
+    <script type="text/ng-template" id="shared/footer.html">
+        <div load-footer>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--googleoff: all-->
+
+<footer class="footer-small " role="contentinfo">
+	<h2 class="accessibility">Footer</h2>
+	<div class="container">
+
+		
+		<div class="hidden-xs">
+				
+			
+
+			
+
+				
+
+
+
+
+<div class="row row-links">
+
+  <div class="col-sm-4">
+    <small class="up-case">
+      
+        
+          <a href='/topics'>All Topics</a>
+        
+         | 
+      
+        
+          <a href='/glossary'>Glossary</a>
+        
+         | 
+      
+        
+          <a href='/contact-us'>Contact Us</a>
+        
+         | 
+      
+        
+          <a href='/archive'>Archive</a>
+        
+         
+      
+    </small>
+  </div>
+  
+
+  <div class="col-sm-8 text-right">
+    <small class="up-case">
+      
+        
+          <a target='_blank' href='http://www.cms.gov/About-CMS/Agency-Information/Aboutwebsite/CMSNondiscriminationNotice.html'>Nondiscrimination / Accessibility</a>
+        
+         | 
+      
+        
+          <a href='/privacy'>Privacy Policy</a>
+        
+         | 
+      
+        
+          <a href="#" data-privacy-policy="modal-trigger-footer">Privacy Settings</a>
+        
+         | 
+      
+        
+          <a href='/privacy/#links'>Linking Policy</a>
+        
+         | 
+      
+        
+          <a href='/using-this-site'>Using This Site</a>
+        
+         | 
+      
+        
+          <a target='_blank' href='http://www.hhs.gov/open/plain-writing/index.html'>Plain Writing</a>
+        
+         
+      
+    </small>
+  </div>
+  
+
+</div>
+
+
+<div class="row lang-row">
+  <div class="col-sm-9 col-sm-offset-3 text-right">
+      
+      
+      
+        <span class="up-case"><a href="/language-resource/#chinese" lang="zh">中文</a><span class="lang-row-pipe">&nbsp;|&nbsp;</span>
+          
+        <span class="up-case"><a href="/language-resource/#creole" lang="ht">Kreyòl</a><span class="lang-row-pipe">&nbsp;|&nbsp;</span>
+          
+        <span class="up-case"><a href="/language-resource/#french" lang="fr">Français</a><span class="lang-row-pipe">&nbsp;|&nbsp;</span>
+          
+        <span class="up-case"><a href="/language-resource/#german" lang="de">Deutsch</a><span class="lang-row-pipe">&nbsp;|&nbsp;</span>
+          
+        <span class="up-case"><a href="/language-resource/#gujarati" lang="gu">ગુજરાતી</a><span class="lang-row-pipe">&nbsp;|&nbsp;</span>
+          
+        <span class="up-case"><a href="/language-resource/#hindi" lang="hi">हिंदी</a><span class="lang-row-pipe">&nbsp;|&nbsp;</span>
+          
+        <span class="up-case"><a href="/language-resource/#italian" lang="it">Italiano</a><span class="lang-row-pipe">&nbsp;|&nbsp;</span>
+          
+        <span class="up-case"><a href="/language-resource/#japanese" lang="ja">日本語</a><span class="lang-row-pipe">&nbsp;|&nbsp;</span>
+          
+        <span class="up-case"><a href="/language-resource/#korean" lang="ko">한국어</a><span class="lang-row-pipe">&nbsp;|&nbsp;</span>
+          
+        <span class="up-case"><a href="/language-resource/#polish" lang="pl">Polski</a><span class="lang-row-pipe">&nbsp;|&nbsp;</span>
+          
+        <span class="up-case"><a href="/language-resource/#portuguese" lang="pt">Português</a><span class="lang-row-pipe">&nbsp;|&nbsp;</span>
+          
+        <span class="up-case"><a href="/language-resource/#russian" lang="ru">Русский</a><span class="lang-row-pipe">&nbsp;|&nbsp;</span>
+          
+        <span class="up-case"><a href="/language-resource/#spanish" lang="es">Español</a><span class="lang-row-pipe">&nbsp;|&nbsp;</span>
+          
+        <span class="up-case"><a href="/language-resource/#tagalog" lang="tl">Tagalog</a><span class="lang-row-pipe">&nbsp;|&nbsp;</span>
+          
+        <span class="up-case"><a href="/language-resource/#vietnamese" lang="vi">tiếng việt</a><span class="lang-row-pipe">&nbsp;|&nbsp;</span>
+          
+        </span>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-5 col-lg-3" style="font-size: 10px; line-height: 14px;">
+    <a title="HHS.gov" class="icon eagle" href="http://www.hhs.gov/">
+      HHS.gov
+    </a>
+    <span>A federal government website managed and paid for by the U.S. Centers for Medicare & Medicaid Services. 7500 Security Boulevard, Baltimore, MD 21244</span>
+  </div>
+  
+  <div class="col-sm-4 pull-right">
+    <ul class="list-inline pull-right">
+      <li><a title="Whitehouse.gov" class="icon whitehouse" href="http://www.whitehouse.gov/">
+        Whitehouse.gov
+      </a></li>
+      <li><a title="USA.gov" class="icon usagov" href="http://www.usa.gov/">
+        USA.gov
+      </a></li>
+    </ul>
+  </div>
+  
+</div>
+
+
+
+			
+
+		</div>
+		
+
+		<div class="visible-xs">
+			
+
+			
+
+				
+
+
+
+<div class="row spacer-bottom20">
+  <div class="col-xs-12 text-center">
+    <small class="up-case">
+
+      
+        
+          <a href='/topics'>All Topics</a>
+        
+         | 
+      
+        
+          <a href='/glossary'>Glossary</a>
+        
+         | 
+      
+        
+          <a href='/contact-us'>Contact Us</a>
+        
+         | 
+      
+        
+          <a href='/archive'>Archive</a>
+        
+         
+      
+
+    </small>
+  </div>
+  
+</div>
+
+
+<div class="row spacer-bottom20">
+  <div class="col-xs-12 text-center">
+    <small class="up-case">
+
+      
+        
+          <a target='_blank' href='http://www.cms.gov/About-CMS/Agency-Information/Aboutwebsite/CMSNondiscriminationNotice.html'>Nondiscrimination / Accessibility</a>
+        
+         | 
+      
+        
+          <a href='/privacy'>Privacy Policy</a>
+        
+         | 
+      
+        
+          <a href="#" data-privacy-policy="modal-trigger-footer">Privacy Settings</a>
+        
+         | 
+      
+        
+          <a href='/privacy/#links'>Linking Policy</a>
+        
+         | 
+      
+        
+          <a href='/using-this-site'>Using This Site</a>
+        
+         | 
+      
+        
+          <a target='_blank' href='http://www.hhs.gov/open/plain-writing/index.html'>Plain Writing</a>
+        
+         
+      
+
+    </small>
+  </div>
+  
+</div>
+<hr class="last-row">
+
+
+<div class="row lang-row">
+  <div class="col-xs-12 text-center">
+      
+      
+      
+        <span class="up-case"><a href="/language-resource/#chinese" lang="zh">中文</a><span class="lang-row-pipe">&nbsp;|&nbsp;</span>
+          
+        <span class="up-case"><a href="/language-resource/#creole" lang="ht">Kreyòl</a><span class="lang-row-pipe">&nbsp;|&nbsp;</span>
+          
+        <span class="up-case"><a href="/language-resource/#french" lang="fr">Français</a><span class="lang-row-pipe">&nbsp;|&nbsp;</span>
+          
+        <span class="up-case"><a href="/language-resource/#german" lang="de">Deutsch</a><span class="lang-row-pipe">&nbsp;|&nbsp;</span>
+          
+        <span class="up-case"><a href="/language-resource/#gujarati" lang="gu">ગુજરાતી</a><span class="lang-row-pipe">&nbsp;|&nbsp;</span>
+          
+        <span class="up-case"><a href="/language-resource/#hindi" lang="hi">हिंदी</a><span class="lang-row-pipe">&nbsp;|&nbsp;</span>
+          
+        <span class="up-case"><a href="/language-resource/#italian" lang="it">Italiano</a><span class="lang-row-pipe">&nbsp;|&nbsp;</span>
+          
+        <span class="up-case"><a href="/language-resource/#japanese" lang="ja">日本語</a><span class="lang-row-pipe">&nbsp;|&nbsp;</span>
+          
+        <span class="up-case"><a href="/language-resource/#korean" lang="ko">한국어</a><span class="lang-row-pipe">&nbsp;|&nbsp;</span>
+          
+        <span class="up-case"><a href="/language-resource/#polish" lang="pl">Polski</a><span class="lang-row-pipe">&nbsp;|&nbsp;</span>
+          
+        <span class="up-case"><a href="/language-resource/#portuguese" lang="pt">Português</a><span class="lang-row-pipe">&nbsp;|&nbsp;</span>
+          
+        <span class="up-case"><a href="/language-resource/#russian" lang="ru">Русский</a><span class="lang-row-pipe">&nbsp;|&nbsp;</span>
+          
+        <span class="up-case"><a href="/language-resource/#spanish" lang="es">Español</a><span class="lang-row-pipe">&nbsp;|&nbsp;</span>
+          
+        <span class="up-case"><a href="/language-resource/#tagalog" lang="tl">Tagalog</a><span class="lang-row-pipe">&nbsp;|&nbsp;</span>
+          
+        <span class="up-case"><a href="/language-resource/#vietnamese" lang="vi">tiếng việt</a><span class="lang-row-pipe">&nbsp;|&nbsp;</span>
+          
+        </span>
+  </div>
+</div>
+
+<div class="row tiny-text">
+  <div class="col-xs-12 text-center">
+    <a title="HHS.gov" class="icon eagle gov-icons-center" href="http://www.hhs.gov/">
+      HHS.gov
+    </a>
+    A federal government website managed and paid for by the U.S. Centers for Medicare & Medicaid Services. 7500 Security Boulevard, Baltimore, MD 21244
+  </div>
+  
+</div>
+
+
+<div class="row">
+  <div class="col-xs-12">
+    <ul class="list-inline gov-icons-center">
+      <li><a title="Whitehouse.gov" class="icon whitehouse" href="http://www.whitehouse.gov/">
+        Whitehouse.gov
+      </a></li>
+      <li><a title="USA.gov" class="icon usagov" href="http://www.usa.gov/">
+        USA.gov
+      </a></li>
+    </ul>
+  </div>
+  
+</div>
+
+
+
+			
+
+		</div>
+		
+
+  </div>
+</footer>
+
+  
+  <div class="bottom-right fadeable hidden-xs" id="back-to-top">
+    <a href="#" class="btn btn-sm">
+      <span class="glyphicon glyphicon-chevron-up sr-only" aria-hidden="true"></span> Back to top
+    </a>
+  </div>
+
+
+
+
+<div id='subscribe-modal' class='modal fade' role='dialog' aria-labelledby='modal-nams' aria-hidden="true">
+  <!--googleoff: all-->
+<form class='group' id='subscribe-form-modal' class='subscribe-form'>
+
+  
+  
+  <input id="key" type='hidden' name='a' value='1'/>
+  
+  
+
+  
+  
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class='modal-header'>
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h1 title='Sign up for updates & reminders from HealthCare.gov modal window' id='modal-nams'>Sign up for updates & reminders from HealthCare.gov</h1>
+      </div>
+      <div class='modal-body'>
+  
+  
+  
+  <div class='forms screen' id='screen1'>
+    <div class='subscribe-type group'>
+      <p>Subscribe to get email (or text) updates with important deadline reminders, useful tips, and other information about your health insurance.</p>
+     
+
+<div class="error-msg row hide" aria-hidden='true'>
+	<div class="col-md-12">
+			<h2 id="error-title" role="alert" tabindex="0">Your information contains <span class="errorNumber"></span> error(s):</h2>
+			
+			<a class="invalid-state hide error-text-box" aria-hidden='true' role="alert" onclick="document.getElementById('modal-state-dropdown').focus(); return false;" href="#">Please choose a state.</a></li>
+			
+			<a class="invalid-email hide error-text-box" aria-hidden='true' role="alert" onclick="document.getElementById('address-modal').focus(); return false;" href="#">Sorry, that email address is invalid.</a>
+			<a class="invalid-number hide error-text-box" aria-hidden='true' role="alert" onclick="document.getElementById('number-modal').focus(); return false;" href="#">Sorry, that mobile phone number is invalid.</a>
+			
+			<a class="blank-email hide error-text-box" aria-hidden='true' role="alert" onclick="document.getElementById('address-modal').focus(); return false;" href="#">You need to provide either your email address or mobile phone number.</a>
+
+			<a class="blank-number hide error-text-box" aria-hidden='true' role="alert" onclick="document.getElementById('number-modal').focus(); return false;" href="#">You need to provide either your email address or mobile phone number.</a>
+			
+			<a class="invalid-checkbox hide error-text-box" aria-hidden='true' role="alert" onclick="document.getElementById('check1').focus(); return false;" href="#">Please select a topic.</a>
+
+			<a class="blank-campaign hide error-text-box" aria-hidden='true' role="alert" onclick="document.getElementById('address-modal').focus(); return false;" href="#">Please enter your email address.</a>
+	</div>
+</div>
+
+     
+
+          <div class="clearfix spacer-bottom20"></div>
+          <label for='modal-state-dropdown'>Pick your state</label>
+        
+        
+
+           
+
+           <!-- State Select input -->
+          <div class="form-select">
+            <select class="form-control state subscribe-state" id='modal-state-dropdown' name='q_23536' required>
+              <option disabled selected value='state'>Select a state</option>
+              
+                     
+
+
+<option value="58659">Alabama</option>
+<option value="58660">Alaska</option>
+<option value="58661">Arizona</option>
+<option value="58662">Arkansas</option>
+<option value="58663">California</option>
+<option value="58664">Colorado</option>
+<option value="58665">Connecticut</option>
+<option value="58666">Delaware</option>
+<option value="58667">District of Columbia</option>
+<option value="58668">Florida</option>
+<option value="58669">Georgia</option>
+<option value="58670">Hawaii</option>
+<option value="58671">Idaho</option>
+<option value="58672">Illinois</option>
+<option value="58673">Indiana</option>
+<option value="58674">Iowa</option>
+<option value="58675">Kansas</option>
+<option value="58676">Kentucky</option>
+<option value="58677">Louisiana</option>
+<option value="58678">Maine</option>
+<option value="58679">Maryland</option>
+<option value="58680">Massachusetts</option>
+<option value="58681">Michigan</option>
+<option value="58682">Minnesota</option>
+<option value="58683">Mississippi</option>
+<option value="58684">Missouri</option>
+<option value="58685">Montana</option>
+<option value="58686">Nebraska</option>
+<option value="58687">Nevada</option>
+<option value="58688">New Hampshire</option>
+<option value="58689">New Jersey</option>
+<option value="58690">New Mexico</option>
+<option value="58691">New York</option>
+<option value="58692">North Carolina</option>
+<option value="58693">North Dakota</option>
+<option value="58694">Ohio</option>
+<option value="58695">Oklahoma</option>
+<option value="58696">Oregon</option>
+<option value="58697">Pennsylvania</option>
+<option value="58698">Rhode Island</option>
+<option value="58699">South Carolina</option>
+<option value="58700">South Dakota</option>
+<option value="58701">Tennessee</option>
+<option value="58702">Texas</option>
+<option value="58703">Utah</option>
+<option value="58704">Vermont</option>
+<option value="58705">Virginia</option>
+<option value="58706">Washington</option>
+<option value="58707">West Virginia</option>
+<option value="58708">Wisconsin</option>
+<option value="58709">Wyoming</option>
+<option value="58710">American Samoa</option>
+<option value="58711">Guam</option>
+<option value="58712">Northern Mariana Islands</option>
+<option value="58713">Puerto Rico</option>
+<option value="58714">Virgin Islands</option>
+
+        
+        
+          </select>
+          <span class="caret"></span>
+          <p id="invalid-state-id" class="invalid-state hide error-text" aria-hidden='true'>Please choose a state.</p>
+        </div>
+
+      
+      
+      <div class="row"><div class="col-sm-6"><div class="spacer-bottom20"></div> <!-- Left column div on modal view -->
+
+        <label for='address-modal'>Get email updates</label>
+      
+      
+
+       
+
+      <!-- Email text input -->
+      <input class="form-control subscribe-email" placeholder='Enter email address' id="address-modal" name='e' type='email' optional value=''/>
+      <p id="invalid-email-id" class="invalid-email hide error-text" aria-hidden='true'>Sorry, that email address is invalid.</p>
+      <p id="blank-email-id" class="blank-email hide error-text" aria-hidden='true'>You need to provide either your email address or mobile phone number.</p>
+       <div class="spacer-bottom40"></div></div><!-- Close Left column div on modal view -->
+      
+      
+
+    
+
+    <div class="col-sm-6"> <!-- Right column div on modal view -->
+      <div class="clearfix spacer-bottom20"></div>
+      <label for='number-modal'>Get text message updates (optional)</label>
+    
+     
+    
+      
+
+      <!-- Number text input -->
+      <input class="form-control subscribe-number" title='Phone Number' placeholder='Enter mobile phone number' id="number-modal" name='w' type='tel'/>
+      <p id="invalid-number-id" class="invalid-number hide error-text" aria-hidden='true'>Sorry, that mobile phone number is invalid.</p>
+      <p id="blank-number-id" class="blank-number hide error-text" aria-hidden='true'>You need to provide either your email address or mobile phone number.</p>
+      <div class="spacer-bottom40"></div>
+      </div></div>
+    
+    
+
+    <!-- Topics screen -->
+    
+
+      </div>
+    </div>
+    
+    
+    <!-- Topics screen -->
+    
+
+    <div id='screen3' class="hidden" >
+      <fieldset class="sub">
+        <legend class="sr-only">What would you like to get updates about?</legend>
+        
+
+<div class="error-msg row hide" aria-hidden='true'>
+	<div class="col-md-12">
+			<h2 id="error-title-screen2" role="alert" tabindex="0">Your information contains <span class="errorNumber"></span> error(s):</h2>
+			
+			<a class="invalid-checkbox hide error-text-box" aria-hidden='true' role="alert" onclick="document.getElementById('check1').focus(); return false;" href="#">Please select a topic.</a>
+	</div>
+</div>
+        <div class="checkbox">
+          <label><input type="checkbox" id="check1" name="t[]" value="USCMSHIM_19">Health insurance for individuals & families</label>
+        </div>
+        <div class="checkbox">
+          <label><input type="checkbox" id="check2" name="t[]" value="USCMSHIM_20">Health insurance for small businesses</label>
+        </div>
+        <div class="checkbox">
+          <label><input type="checkbox" id="check3" name="t[]" value="USCMSHIM_2">News & information from the HealthCare.gov blog</label>
+        </div>
+      </fieldset>
+      <p class="invalid-checkbox hide error-text" aria-hidden='true'>Please select a topic.</p>
+    </div>
+
+    
+    
+    <!--complete-->
+    <div class='complete screen hidden' id='screen2'>
+      <p>Now that you’re signed up, we’ll send you deadline reminders, plus tips about how to get enrolled, stay enrolled, and get the most from your health insurance.</p>
+      <h2></h2>
+      <p></p>
+    </div>
+  
+  </div>  
+  
+  <div class='modal-footer'>
+    
+    
+    
+    <a class='privacy pull-left' href='/privacy'>Privacy policy</a>
+    <!-- continue button -->
+    <input title='CONTINUE' class='btn btn-md btn-green continue pull-right' type='submit' value='SIGN UP'>
+
+    <!-- Submit button -->
+    <input title='CONTINUE' class='btn btn-md btn-green col-sm-3 pull-right valid modal-submit' type='submit' value='CONTINUE'>
+      
+    <a href='/' class='btn btn-md btn-green next col-sm-3 pull-right valid'>CLOSE</a>
+
+    
+  
+  </div>
+
+  </div></div>  
+
+</form>
+
+</div>
+
+
+</div>
+
+<!--googleon: all-->
+
+  </div>
+
+    </script>
+    <script type="text/ng-template" id="shared/skipnav.html">
+      <a href="javascript:;" tabindex=0 ng-click="scrollTo('skipnav')" target="_self" class="show-on-focus" aria-flowto="skipnav">Skip navigation</a>
+
+    </script>
+    <script type="text/ng-template" id="shared/month_set.html">
+      <div class="actions u-clearfix u-m1 u-sm-m1">
+  <div class="row u-table-row u-md-right">
+    <div class="u-sm-span-6 u-table-cell">
+      <a role="button" aria-controls="month-picker" href="javascript:;" role="button" class=" btn btn-edit btn-lg selectAll" ng-click="selectAll()">
+        Select all months
+      </a>
+    </div>
+
+    <div class="u-sm-span-6 u-table-cell">
+      <a role="button" aria-controls="month-picker" href="javascript:;" role="button" class="btn btn-edit btn-lg  selectNone" ng-click="selectNone()">
+        Unselect all months
+      </a>
+    </div>
+
+  </div>
+</div>
+
+
+
+<div class="question-picker" role="group" aria-labelledby="{{arialabel}}">
+  <ol id="month-picker">
+      <li class="col-xs-4 col-md-3 col-lg-2" ng-class="{disabled: months[1].blocked}">
+        <label for="month-check-1">
+          <input id="month-check-1" type="checkbox" ng-model="months[1].selected" ng-if="!months[1].blocked">
+          January
+        </label>
+      </li>
+      <li class="col-xs-4 col-md-3 col-lg-2" ng-class="{disabled: months[2].blocked}">
+        <label for="month-check-2">
+          <input id="month-check-2" type="checkbox" ng-model="months[2].selected" ng-if="!months[2].blocked">
+          February
+        </label>
+      </li>
+      <li class="col-xs-4 col-md-3 col-lg-2" ng-class="{disabled: months[3].blocked}">
+        <label for="month-check-3">
+          <input id="month-check-3" type="checkbox" ng-model="months[3].selected" ng-if="!months[3].blocked">
+          March
+        </label>
+      </li>
+      <li class="col-xs-4 col-md-3 col-lg-2" ng-class="{disabled: months[4].blocked}">
+        <label for="month-check-4">
+          <input id="month-check-4" type="checkbox" ng-model="months[4].selected" ng-if="!months[4].blocked">
+          April
+        </label>
+      </li>
+      <li class="col-xs-4 col-md-3 col-lg-2" ng-class="{disabled: months[5].blocked}">
+        <label for="month-check-5">
+          <input id="month-check-5" type="checkbox" ng-model="months[5].selected" ng-if="!months[5].blocked">
+          May
+        </label>
+      </li>
+      <li class="col-xs-4 col-md-3 col-lg-2" ng-class="{disabled: months[6].blocked}">
+        <label for="month-check-6">
+          <input id="month-check-6" type="checkbox" ng-model="months[6].selected" ng-if="!months[6].blocked">
+          June
+        </label>
+      </li>
+      <li class="col-xs-4 col-md-3 col-lg-2" ng-class="{disabled: months[7].blocked}">
+        <label for="month-check-7">
+          <input id="month-check-7" type="checkbox" ng-model="months[7].selected" ng-if="!months[7].blocked">
+          July
+        </label>
+      </li>
+      <li class="col-xs-4 col-md-3 col-lg-2" ng-class="{disabled: months[8].blocked}">
+        <label for="month-check-8">
+          <input id="month-check-8" type="checkbox" ng-model="months[8].selected" ng-if="!months[8].blocked">
+          August
+        </label>
+      </li>
+      <li class="col-xs-4 col-md-3 col-lg-2" ng-class="{disabled: months[9].blocked}">
+        <label for="month-check-9">
+          <input id="month-check-9" type="checkbox" ng-model="months[9].selected" ng-if="!months[9].blocked">
+          September
+        </label>
+      </li>
+      <li class="col-xs-4 col-md-3 col-lg-2" ng-class="{disabled: months[10].blocked}">
+        <label for="month-check-10">
+          <input id="month-check-10" type="checkbox" ng-model="months[10].selected" ng-if="!months[10].blocked">
+          October
+        </label>
+      </li>
+      <li class="col-xs-4 col-md-3 col-lg-2" ng-class="{disabled: months[11].blocked}">
+        <label for="month-check-11">
+          <input id="month-check-11" type="checkbox" ng-model="months[11].selected" ng-if="!months[11].blocked">
+          November
+        </label>
+      </li>
+      <li class="col-xs-4 col-md-3 col-lg-2" ng-class="{disabled: months[12].blocked}">
+        <label for="month-check-12">
+          <input id="month-check-12" type="checkbox" ng-model="months[12].selected" ng-if="!months[12].blocked">
+          December
+        </label>
+      </li>
+  </ol>
+</div>
+
+    </script>
+    <script type="text/ng-template" id="shared/missing_8965_modal.html">
+      <div class="modal-content plan-card-modal">
+  <div class="modal-header">
+    <div class="row">
+      <div class="col-xs-12 col-md-10">
+        <h3 class="modal-title">
+          <span class="translation_missing" title="translation missing: en-US.missing_8965_modal_title">Missing 8965 Modal Title</span>
+        </h3>
+      </div>
+    </div>
+    <button role="button" type="button" class="btn btn-md modal-close-btn in-network" ng-click= "$dismiss()">Close</button>
+
+  </div>
+  <div class="modal-body">
+    <span class="translation_missing" title="translation missing: en-US.missing_8965_modal_body">Missing 8965 Modal Body</span>
+  </div>
+</div>
+
+    </script>
+    <script type="text/ng-template" id="shared/desktop_nav.html">
+      
+<!-- Desktop nav -->
+<div class="navbar hidden-xs" id="desktop-nav">
+  <div class="pull-left">
+    <a href="/"><img class="logo" alt="HealthCare.gov" src="/tax-tool/assets/logo-en-1abfaa3d8b8fc7e0a70628979530f8bb0cdd0ec2d3c9e3cf2338a13b91cee369.png" /></a>
+    <h1 class="sr-only">Healthcare<abbr title="dot">.</abbr>gov</h1>
+  </div>
+
+  <div class="pull-left">
+    <ul class="header-actions">
+      <li class="individuals-and-families-link active">
+      <a href="/" class="header-link">Individuals &amp; Families<a>
+          </li>
+          <li class="small-businesses-link">
+          <a href="/small-businesses/" class="header-link">Small Businesses<a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="pull-right">
+            <ul class="header-actions user-action-list">
+              <li class="liteac-login topnav">
+              <a data-lang="en-US" href="/marketplace/global/en_US/registration" class="header-link">Log in</a>
+              </li>
+              <li lang="en">
+              <a data-lang="en-US" class="btn btn-info btn-sm toggle-language" href="https://www.cuidadodesalud.gov/tax-tool/">Español</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- /Desktop nav -->
+
+
+    </script>
+    <script type="text/ng-template" id="shared/layout.html">
+      <section class="main" role="main">
+  <div ui-view="main"></div>
+</section>
+
+    </script>
+    <script type="text/ng-template" id="shared/month_names.html">
+      <span ng-if="startMonth">{{startMonth}} - {{endMonth}}</span>
+<span ng-if="!startMonth"><span class="translation_missing" title="translation missing: en-US.none">None</span></span>
+
+    </script>
+    <script type="text/ng-template" id="shared/missing_8962_modal.html">
+      <div class="modal-content plan-card-modal">
+  <div class="modal-header">
+    <div class="row">
+      <div class="col-xs-12 col-md-10">
+        <h3 class="modal-title">
+          <span class="translation_missing" title="translation missing: en-US.missing_8962_modal_title">Missing 8962 Modal Title</span>
+        </h3>
+      </div>
+    </div>
+    <button role="button" type="button" class="btn btn-md modal-close-btn in-network" ng-click= "$dismiss()">Close</button>
+
+  </div>
+  <div class="modal-body">
+    <span class="translation_missing" title="translation missing: en-US.missing_8962_modal_body">Missing 8962 Modal Body</span>
+  </div>
+</div>
+
+    </script>
+    <script type="text/ng-template" id="shared/progress_line.html">
+      <li class="hcapp-progress_item" ng-class="{
+  'is-pending': (stateName !== 'completed' && stateName !== 'current'),
+  'is-completed': stateName === 'completed',
+  'is-current': stateName === 'current'
+}">
+  <a class="hcapp-progress_link qa-progress_link"
+    title="{{progressStep.viewLabel}}"
+    href="javascript:;"
+    ng-click="goToStep()"
+    ng-if="stateName === 'completed'">
+    <span class="visuallyhidden">
+      Completed:
+    </span>
+    <span class="visuallyhidden">Step </span><span class="qa-progress_step">{{ ::stepNumber }}</span>
+    <span class="visuallyhidden">: {{ ::progressStep.viewLabel }}</span>
+  </a>
+
+  <span class="hcapp-progress_step" ng-if="stateName !== 'completed'">
+    <span class="visuallyhidden">
+      <span ng-if="stateName === 'current'">
+        In Progress:
+      </span>
+      <span ng-if="stateName !== 'current'">
+        Next step:
+      </span>
+    </span>
+    <span class="visuallyhidden">Step </span>
+    <span class="qa-progress_step">
+      {{ ::stepNumber }}
+    </span>
+  </span>
+</li>
+    </script>
+    <script type="text/ng-template" id="shared/api_error.html">
+      <div class="error-msg">
+  <h2 class="error-title">Sorry there was an error.
+    <span class="capitalize">please</span> <a class="error-link">try this again</a>.</h2>
+</div>
+
+
+    </script>
+    <script type="text/ng-template" id="shared/shop_progress.html">
+      <div class="progress-board" ng-class="{showMenu: showMenu}">
+  <span class="sr-only" id="steps">Steps</span>
+  <ol role="navigation" aria-labelledby="steps">
+    <progress-line click-event="openZipModal" key="zipcode">ZIP Code<span ng-if="shopCompany.county.zipcode">: {{shopCompany.county.zipcode}}</span></progress-line>
+    <progress-line key="enrollees"><span class="translation_missing" title="translation missing: en-US.enrollees">Enrollees</span></progress-line>
+  </ol>
+  <a class="button backButton" href="javascript:" ng-click="back()">
+    <span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
+    <span class="sr-only">back</span>
+  </a>
+  <a class="button menuButton" ng-click="toggleMenu()" href="javascript:">
+    <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+    <span class="sr-only">Menu</span>
+  </a>
+
+  <a class="button closeButton" ng-click="toggleMenu()" href="javascript:">
+    <span>Close</span>
+  </a>
+
+</div>
+
+    </script>
+    <script type="text/ng-template" id="shared/messages.html">
+      <!-- Messages -->
+<div role="alert" aria-live="polite" class="alertBox">
+  <div focus-me tabindex="-1" aria-hidden="false" class="alert animate" ng-repeat="message in messages" ng-class="{'alert-success': message.type == 'success'}">
+
+    <span ng-if="message.apiError">
+      <span class="error-title">Sorry there was an error.
+        <span class="capitalize">please</span>
+        <a ng-click="reload()" class="error-link">try this again</a>.
+      </span>
+    </span>
+
+    <span ng-if="!message.apiError">
+      {{message.text}}
+    </span>
+
+    <button type="button" class="close" aria-label="Close" ng-click="dismiss()"><span aria-hidden="true">&times;</span></button>
+
+  </div>
+</div>
+
+    </script>
+    <script type="text/ng-template" id="locations/zip_form.html">
+      <form ng-submit="forceLookup()" name="form" novalidate class="css-form error-styling">
+
+  <div ng-if="noCountiesFound" class="actions">
+    <div class="row">
+      <div class="col-xs-12">
+        <div>
+          <div id="error-value" class="group" role="alert">
+            <div focus-me tabindex="-1" class="error-msg row" aria-flowto="zip-code-form" aria-hidden="false" aria-live="polite" aria-relevant="additions removals">
+              Please enter a valid <abbr>ZIP</abbr> Code.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <fieldset class="form-group search">
+    <div class="zip-spinner-wrapper">
+      <span us-spinner="{color:'black', radius:4, width:2, length: 4}" spinner-key="loading-zips-spinner" spinner-start-active="false"></span>
+    </div>
+    <div class="large bg input-group">
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
+          <div class="row row-no-padding">
+            <div class="col-sm-12">
+              <h2>Location</h2>
+              <label id="zip-code-form" for="zip-code">
+
+                ZIP code where  Family member {{enrolleeNum}} lived in {{year.value}}
+
+              </label>
+            </div>
+            <div class="col-sm-8 zip-input">
+              <input auto-focus type="tel" id="zip-code" class="bg form-control zipEntry"  ng-pattern="/^\d{1,5}$/" required="" name="zip" ng-model="entry.zipcode"
+                     ng-class="{errorBorder: (form.$submitted || form.zip.$touched) && (form.zip.$error.required || form.zip.$error.pattern || noCountiesFound)}"
+                     type="tel" placeholder="Example: 60647" autocorrect="off" autocapitalize="off" autocomplete="off" />
+            </div>
+            <div class="col-sm-4">
+              <button class="btn btn-green btn-md btn-block btn-success zipBtn" aria-describedby="zip-code-form" aria-controls="zip-results" aria-flowto="zip-search-results">Search</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        <div class="results-entry plain slim animate" ng-if="entry.counties.length" id="zip-search-results" aria-live="polite" aria-relevant="additions removals">
+
+          <h3 focusable name="chooseLocation" tabIndex="-1">Choose your location</h3>
+
+          <ul class="input-results-group" id="zip-results">
+
+            <!-- HC.gov Results -->
+
+            <li ng-repeat="county in entry.counties" for="county-{{$index}}" class="inputSearchBlock" ng-if="county.stateLoaded">
+              <a href="javascript:" role="button" class="continueBtn" ng-click="confirmCounty(county)" name="buying" ng-value="county">
+                <div class="FFM">
+                  <div class="row">
+                    <div class="col-xs-6 col-sm-8">
+                      <div class="item">
+                        <b>{{county.name}},</b> {{county.state}}
+                      </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4">
+                      <span>Choose</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </fieldset>
+
+</form>
+
+    </script>
+    <script type="text/ng-template" id="locations/all_year.html">
+      <form name="form" novalidate class="css-form" ng-submit="setAllYear()">
+  <fieldset>
+    <legend class="u-font-size-h2">Did <b>Family member {{enrolleeNum}}</b> live at this location for all 12 months of {{year.value}}?</legend>
+
+    <div class="toggle-buttons">
+      <label for="all-year-yes" class="btn radio-label qa-all-year" ng-attr-aria-checked="{{ allYear == true }}">
+        <input id="all-year-yes" required type="radio" name="purchased" ng-model="allYear" ng-value="true"  >Yes</label>
+
+      <label for="all-year-no" class="btn radio-label" ng-attr-aria-checked="{{ allYear == false }}">
+        <input id="all-year-no" required type="radio" name="purchased" ng-model="allYear" ng-value="false">
+        No
+    </label>
+    </div>
+
+  </fieldset>
+
+  <div class="actions u-sm-span-6 u-sm-mx-auto u-mt4">
+    <div class="row">
+      <div class="col-sm-8 u-sm-pr1">
+        <button role="button" class="u-block u-span-12 continueBtn btn btn-green btn-success btn-md" role="button">Continue</button>
+      </div>
+  </div>
+</form>
+
+    </script>
+    <script type="text/ng-template" id="locations/additional.html">
+      <form name="form" novalidate class="form-group" ng-submit="setAdditional()">
+  <fieldset>
+    <legend class="u-font-size-h2">Did <b>Family member {{enrolleeNum}}</b> live at any other locations in {{year.value}}?</legend>
+
+    <div class="toggle-buttons">
+      <label for="additional-yes" class="btn radio-label qa-additional-yes" ng-attr-aria-checked="{{ data.additional == true }}">
+        <input id="additional-yes" required type="radio" name="purchased" ng-model="data.additional" ng-value="true"   >Yes</label>
+
+
+      <label for="additional-no" class="btn radio-label" ng-attr-aria-checked="{{ data.additional == false }}">
+        <input id="additional-no" required type="radio" name="purchased" ng-model="data.additional" ng-value="false">
+        No</label>
+    </div>
+  </fieldset>
+
+  <div class="actions u-sm-span-6 u-sm-mx-auto u-mt4">
+    <div class="row">
+      <div class="col-sm-8 u-sm-pr1">
+        <button role="button" class="u-block u-span-12 continueBtn btn btn-green btn-success btn-md" role="button">Continue</button>
+      </div>
+    </div>
+  </div>
+</form>
+
+    </script>
+    <script type="text/ng-template" id="locations/months.html">
+      <form name="form-group" novalidate class="css-form" ng-submit="setMonths()">
+  <fieldset>
+    <legend id="month-set-heading" aria-flowto="next-info">Which months did <b>family member {{enrolleeNum}}</b> live at this zip code {{currentLocation.county.zipcode}}?</legend>
+
+    <div id="next-info" aria-flowto="month-set">
+      <p>Select each month that   Family member {{enrolleeNum}} lived at this ZIP code, as of the first day of that month. Months previously selected have been disabled. </p>
+    </div>
+
+    <month-set months="addedMonths" id="month-set" aria-describedby="month-set-heading" arialabel="next-info">
+
+  </fieldset>
+
+  <div class="actions u-sm-span-6 u-sm-mx-auto u-mt4">
+    <div class="row">
+      <div class="col-sm-12">
+        <button role="button" ng-disabled="!validMonthSet()" class="u-block u-span-12 continueBtn btn btn-green btn-success btn-md" >Continue</button>
+      </div>
+    </div>
+  </div>
+</form>
+
+    </script>
+    <script type="text/ng-template" id="locations/confirm.html">
+      <form name="form" novalidate class="form-group" ng-submit="confirm()">
+  <div class="household">
+    <h2 class="qa-step-title">Confirm your locations</h2>
+
+    <ol class="plain">
+      <li ng-repeat="location in set" class="qa-location-row">
+        <div class="summary-group">
+          <div class="row" aria-live="polite">
+            <div class="col-xs-12 col-sm-6">
+              <h3 id="location-{{$index}}">
+                Location: {{location.county.zipcode}}, {{location.county.name}} {{location.county.state}}
+
+              </h3>
+              <span id="months-{{$index}}">
+                <month-names target="location"></month-names>
+              </span>
+
+            </div>
+            <div class="col-xs-12 col-sm-6 text-right">
+              <a href="javascript:;" id="remove-{{$index}}" ng-click="confirmRemove(location.id)" class="btn btn-xs btn-remove remove-location" role="button" target="_self" aria-labelledby="remove-{{$index}} location-{{$index}} months-{{$index}}" ng-disabled="confirmRemoveID == location.id">
+                <span>Remove</span>
+              </a>
+              <a href="javascript:;" id="edit-{{$index}}" class="btn btn-xs btn-edit" role="button" target="_self" ui-sref="^.months({locationID: location.id})" aria-labelledby="edit-{{$index}} location-{{$index}} months-{{$index}}">
+                <span>EDIT</span>
+              </a>
+            </div>
+            <div class="col-xs-12 col-sm-6" ng-if="confirmRemoveID == location.id">
+              <span id="confirm-remove" focus-me tabindex="-1">
+                Are you sure you want to remove this location?
+              </span>
+            </div>
+            <div class="col-xs-12 col-sm-6 text-right" ng-if="confirmRemoveID == location.id">
+              <a href="javascript:;" id="yes-remove-{{$index}}" ng-click="remove(location.id)" class="btn btn-xs btn-remove remove-location-yes" role="button" target="_self" aria-labelledby="confirm-remove yes-remove-{{$index}} location-{{$index}}">
+                <span>Yes</span>
+              </a>
+              <a href="javascript:;" id="no-remove-{{$index}}" class="btn btn-xs btn-edit remove-location-no" role="button" target="_self" ng-click="dismissRemove()" aria-labelledby="confirm-remove no-remove-{{$index}} location-{{$index}}">
+                <span>No</span>
+              </a>
+            </div>
+          </div>
+          <div class="row hixLink" ng-if="location.county.hix_url">
+            <div class="col-xs-12">
+              <h4 class="light">Tax information for this month will be available via your state marketplace</h4>
+
+              <a role="button" ng-href="{{location.county.hix_url}}">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="item">
+                      <em> {{ location.county.hix_name }}</em> is your state’s Marketplace.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12">
+                  <span class="u-underline">
+                    Visit {{ location.county.hix_name }}&rsquo;s website.
+                  </span>
+                </div>
+              </a>
+
+            </div>
+          </div>
+      </li>
+    </ol>
+    <button role="button" href="javascript:" ui-sref="^.zipcode" class="addAdditional btn-edit btn btn-lg btn-block" ng-if="monthsSelected < 12"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Add additional locations</button>
+
+    </div>
+    <div class="disclaimer" ng-if="ffmCount && ffmCount != set.length">
+      Note: this tool will only provide information for the months that you lived in a location covered by the federal marketplace.
+    </div>
+
+    <div class="actions u-sm-span-6 u-sm-mx-auto u-mt4">
+      <div class="row">
+        <div class="col-sm-8 u-sm-pr1">
+          <button role="button" class="u-block u-span-12 continueBtn btn btn-green btn-success btn-md" role="button" ng-if="ffmCount">Continue</button>
+        </div>
+      </div>
+    </div>
+</form>
+
+    </script>
+    <script type="text/ng-template" id="locations/index.html">
+      <div ui-view="locations" class="animate">
+</div>
+
+    </script>
+    <script type="text/ng-template" id="household/start8962.html">
+      <div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+
+      <div class="form-group">
+        <h2>Get information to figure out your premium tax credit</h2>
+
+        <p>
+          To calculate your {{year.value}} premium tax credit, you'll fill out IRS Form 8962. It asks for your <strong>second lowest cost Silver plan (SLCSP)</strong> premium, which may be missing or incorrect on your Form 1095-A. We'll ask a few questions on the following screens and provide your correct SLCSP premium.
+        </p>
+
+        <p><a class="info tip qa-modal-trigger" href="javascript:" ng-click="startPageModal()">
+          <span class="glyphicon glyphicon-info-sign" aria-label="information" aria-hidden="true"></span>
+          What’s an SLCSP, and do I need to use this tool to find it?
+        </a>
+        </p>
+
+
+        <h3 class="sub form">
+          What you’ll need to use this tool:
+        </h3>
+        <ul class="simple">
+          <li>
+            The ZIP code and county where you and each covered family member lived each month of {{year.value}} while enrolled in a Marketplace plan.
+          </li>
+          <li>
+            The birthdate of each family member covered
+          </li>
+          <li>
+            The months each family member was enrolled in Marketplace coverage <b>and</b> was not eligible for other health coverage
+          </li>
+        </ul>
+
+
+      </div>
+
+      <div class="actions u-sm-span-6 u-sm-mx-auto u-mt4">
+        <div class="row">
+          <div class="col-sm-8 u-sm-pr1">
+            <a role="button" id="continue-btn" class="u-block u-span-12 continueBtn btn btn-green btn-success btn-md" role="button" ui-sref="index.enrollees.enrollee.base({id: 'primary'})">Continue</a>
+          </div>
+          <div class="col-sm-4 u-sm-pl1">
+            <a role="button" id="back-btn" class="u-block u-span-12 btn btn-md secondary btn-skip-sm" ui-sref="index.year">back</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    </script>
+    <script type="text/ng-template" id="household/year.html">
+      <div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+
+      <form name="form" novalidate class="css-form" ng-submit="setYear()">
+        <fieldset>
+          <legend class="u-font-size-h2 qa-step-title">What tax year do you need information for?</legend>
+
+          <div class="toggle-buttons">
+            <label ng-repeat="selectableYear in years" for="all-year-{{$index}}" class="btn radio-label" ng-attr-aria-checked="{{ year.value == selectableYear }}">
+              <input id="all-year-{{$index}}" required type="radio" name="year" ng-model="year.value" ng-value="selectableYear" >{{selectableYear}}
+            </label>
+          </div>
+
+
+
+        </fieldset>
+
+        <div class="actions u-sm-span-6 u-sm-mx-auto u-mt4">
+          <div class="row">
+            <div class="col-sm-8 u-sm-pr1">
+              <button type="submit" role="button" id="continue-btn" class="u-block u-span-12 continueBtn btn btn-green btn-success btn-md">Continue</button>
+            </div>
+            <div class="col-sm-4 u-sm-pl1">
+              <button type="button" role="button" id="back-btn" class="u-block u-span-12 btn btn-md secondary btn-skip-sm" data-ng-click="openStartModal()">back</button>
+            </div>
+          </div>
+        </div>
+      </form>
+
+    </div>
+  </div>
+</div>
+
+    </script>
+    <script type="text/ng-template" id="household/start8965.html">
+      <div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+
+      <div class="form-group">
+        <h2>Get information you need to claim an affordability exemption</h2>
+
+        <p>
+          To claim an affordability exemption, you'll need to know the premiums of 2 health plans available to your family in {{year.value}}: the lowest cost Bronze plan and the second lowest cost Silver Plan (SLCSP). We'll ask a few questions and provide both premiums.
+        </p>
+
+        <p>
+          <a class="info tip qa-modal-trigger" href="javascript:" ng-click="startPageModal()">
+            <span class="glyphicon glyphicon-info-sign" aria-label="information" aria-hidden="true"></span>
+            What's an "affordability exemption," and do I qualify?
+          </a>
+        </p>
+
+        <h3 class="sub form">
+          What you’ll need to use this tool:
+        </h3>
+        <ul>
+          <li>
+            The ZIP code and county where each family member lived, for each month of {{year.value}}
+          </li>
+          <li>
+            The birthdate of each family member
+          </li>
+          <li>
+            The months each family member didn't have another coverage exemption
+          </li>
+          <li>
+            The months each family member was not eligible for coverage outside the Marketplace, including employer coverage
+          </li>
+        </ul>
+      </div>
+
+      <div class="actions u-sm-span-6 u-sm-mx-auto u-mt4">
+        <div class="row">
+          <div class="col-sm-8 u-sm-pr1">
+            <a role="button" id="continue-btn" class="u-block u-span-12 continueBtn btn btn-green btn-success btn-md" role="button" ui-sref="index.enrollees.enrollee.base({id: 'primary'})">Get Started</a>
+          </div>
+          <div class="col-sm-4 u-sm-pl1">
+            <a role="button" id="back-btn" class="u-block u-span-12 btn btn-md secondary btn-skip-sm" ui-sref="index.year">back</a>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+
+    </script>
+    <script type="text/ng-template" id="household/review.html">
+      <div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+
+      <div class="form-group">
+
+        <h2 class="qa-step-title">Review your information </h2>
+
+        <!-- Zipcode -->
+        <div class="summary-group">
+          <div class="row">
+            <div class="col-xs-9">
+              <h3 class="inline" id="household-year">Year</h3> {{ household.year }}
+            </div>
+            <div class="col-sm-3 text-right">
+              <button aria-describedby="household-year" class="btn btn-sm btn-edit year-edit-btn" ng-click="openStartModal()">EDIT</button>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Household -->
+
+        <div class="summary-group">
+          <div class="row">
+            <div class="col-xs-9">
+              <h3 id="first-enrollee"><span class="translation_missing" title="translation missing: en-US.first_family_member">First Family Member</span></h3>
+            </div>
+
+          </div>
+
+          <ol class="list-unstyled information-review enrollees">
+            <li class="enrollee-entry row">
+
+              <div class="dob col-xs-12 col-sm-6 col-md-6">
+                <h4>Date of Birth: {{firstFamilyMember.dob.m}}/{{firstFamilyMember.dob.d}}/{{firstFamilyMember.dob.y}}</h4>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-6 text-right">
+                <button aria-describedby="first-enrollee" class="btn btn-sm btn-edit primary-edit-btn" ui-sref="index.enrollees.primary"> EDIT</button>
+              </div>
+
+
+              <div class="col-xs-12">
+
+                <div ng-if="firstFamilyMember.tobacco">
+                  This family member uses tobacco.
+                </div>
+              </div>
+
+              <div class="col-xs-6">
+                <h5 class="review-box" >Coverage Information</h5>
+                <div id="months-marketplace-{{$index}}" ng-if="flowType.value == '8962'">
+                  <div>Met the coverage requirements for the following months:</div>
+                  <ul class="plain">
+                    <li>
+                      <b><month-names target="firstFamilyMember" key="marketplace_months"></month-names></b>
+                    </li>
+                  </ul>
+
+                </div>
+
+                <div id="months-employer-{{$index}}" ng-if="flowType.value == '8965'">
+                  <div>Was eligible for employer coverage OR Had another coverage exemption for the following months:</div>
+                  <ul class="plain">
+                    <li>
+                      <b><month-names target="firstFamilyMember" key="employer_months"></month-names></b>
+                    </li>
+                  </ul>
+                </div>
+
+                <div id="months-outside-{{$index}}" ng-if="flowType.value == '8965'">
+                  <div>Was eligible for coverage outside the Marketplace for the following months:</div>
+                    <ul class="plain">
+                      <li>
+                        <b><month-names target="firstFamilyMember" key="essential_months"></month-names></b>
+                      </li>
+                    </ui>
+                </div>
+              </div>
+              <div class="col-xs-6">
+                <h5 class="review-box" ng-if="locations.length">Locations</h5>
+                <ul class="plain locations">
+                  <li ng-repeat="location in locations">
+                    <div>
+                      Location: {{location.county.zipcode}}, {{location.county.name}} {{location.county.state}}
+                    </div>
+                    <div>
+                      <month-names target="location"></month-names>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ol>
+
+        </div>
+
+        <div class="summary-group">
+          <div class="row">
+            <div class="col-xs-9">
+              <h3 id="other-family-members">Other family members</h3>
+            </div>
+
+          </div>
+
+          <ol class="list-unstyled information-review enrollees">
+            <li class="enrollee-entry row" ng-repeat="enr in otherEnrollees">
+
+              <div class="col-xs-12 col-sm-6 col-md-6" id="enrollee-{{enr.enrollee.id}}">
+                <h4>{{enr.enrollee.relationship}}</h4>
+                <span class="dob">
+                  Date of Birth: {{enr.enrollee.dob.m}}/{{enr.enrollee.dob.d}}/{{enr.enrollee.dob.y}}
+                </span>
+                <div ng-if="enr.enrollee.tobacco">
+                  This family member uses tobacco.
+                </div>
+              </div>
+
+
+              <div class="col-xs-12 col-sm-6 col-md-6 text-right">
+                <a href="javascript:;" id="remove-{{$index}}" ng-click="confirmRemove(enr.enrollee.id)" class="btn btn-sm btn-remove remove-enrollee" role="button" target="_self" aria-labelledby="enrollee-{{enr.enrollee.id}} remove-{{$index}} enrollee-{{$index}} months-{{$index}}" ng-disabled="confirmRemoveID == enr.enrollee.id">
+                  <span>Remove</span>
+                </a>
+                <button aria-describedby="enrollee-{{enr.enrollee.id}}" class="btn btn-sm btn-edit enrollees-edit-btn" ui-sref="index.enrollees.enrollee.base({id: enr.enrollee.id})"> EDIT</button>
+              </div>
+              <div class="row">
+                <div class="col-xs-12" ng-if="confirmRemoveID == enr.enrollee.id">
+                  <span id="confirm-remove" focus-me tabindex="-1" aria-live="polite" aria-relevant="additions removals">
+                    <div class="row">
+                      <div class="col-xs-12">
+                        Are you sure you want to remove this person?
+                      </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-xs-12" ng-if="confirmRemoveID == enr.enrollee.id">
+                      <div class="actions">
+                        <a href="javascript:;" id="yes-remove-{{$index}}" ng-click="remove(enr.enrollee.id)" class="btn btn-xs btn-remove remove-enrollee-yes" role="button" target="_self" aria-labelledby="confirm-remove yes-remove-{{$index}} ernollee-{{$index}}">
+                          <span>Yes</span>
+                        </a>
+                        <a href="javascript:;" id="no-remove-{{$index}}" class="btn btn-xs btn-edit remove-enrollee-no" role="button" target="_self" ng-click="dismissRemove()" aria-labelledby="confirm-remove no-remove-{{$index}} enrollee-{{$index}}">
+                          <span>No</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  </span>
+                </div>
+              </div>
+
+
+              <div class="col-sm-6">
+                <h5 class="review-box" >Coverage Information</h5>
+                <div id="months-marketplace-{{$index}}" ng-if="flowType.value == '8962'">
+                  <div>Met the coverage requirements for the following months:</div>
+                  <month-names target="enr.enrollee" key="marketplace_months"></month-names>
+                </div>
+
+                <div id="months-employer-{{$index}}" ng-if="flowType.value == '8965'">
+                  <div>Was eligible for employer coverage OR Had another coverage exemption for the following months:</div>
+                  <month-names target="enr.enrollee" key="employer_months"></month-names>
+                </div>
+
+                <div id="months-outside-{{$index}}" ng-if="flowType.value == '8965'">
+                  <div>Was eligible for coverage outside the Marketplace for the following months:</div>
+                  <month-names target="enr.enrollee" key="essential_months"></month-names>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <h5>Locations</h5>
+                <div class="review-box" ng-if="!enr.locations.length"><span class="translation_missing" title="translation missing: en-US.lived_with_first_all_year">Lived With First All Year</span></div>
+                <h5 class="review-box" ng-if="enr.locations.length"></h5>
+                <ul class="plain locations">
+                  <li ng-repeat="location in enr.locations">
+                    <div>
+                      Location: {{location.county.zipcode}}, {{location.county.name}} {{location.county.state}}
+                    </div>
+                    <div>
+                      <month-names target="location"></month-names>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+            </li>
+          </ol>
+
+        </div>
+      </div>
+
+
+      <div class="actions u-sm-span-10 u-sm-mx-auto u-mt4">
+        <div class="row">
+          <div class="col-sm-6 u-sm-pr1">
+             <button id="continue-btn" role="button" ng-click="proceed()" class="u-block u-span-12 continueBtn btn btn-green btn-md">Continue</button>
+          </div>
+          <div class="col-sm-6 u-sm-pl1">
+            <a href="javascript:" role="button" class="u-block u-span-12 btn btn-md secondary addAdditional" ui-sref="index.enrollees.additional">
+              <span class="glyphicon glyphicon-plus u-color-white" aria-hidden="true"></span> Add an additional family member
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    </script>
+    <script type="text/ng-template" id="household/flow.html">
+      <h2 class="rule">What do you need the information for? </h2>
+
+<div class="row">
+  <div class="col-sm-6">
+    <a class="btn" role="button" id="flow-8962" ng-click="setFlow('8962')" href="javascript:">
+      To figure out my premium tax credit <span>(Form 8962)</span>
+    </a>
+  </div>
+
+  <div class="col-sm-6">
+    <a class="btn" role="button" id="flow-8965" ng-click="setFlow('8965')" href="javascript:">
+      To claim an affordability exemption <span>(Form 8965)</span>
+    </a>
+  </div>
+</div>
+
+    </script>
+
+
+    <!--[if lt IE 9]>
+    <div class="alert browser-alert text-center" role="alert" >
+    <div class="">
+    <div class="row">
+    <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+    <strong>Browser upgrade required</strong>
+    <p>Our website has detected that you are using an outdated browser that will prevent you from using this service. To upgrade Internet Explorer, please visit: <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">the Microsoft Internet Explorer website</a>.</p>
+    </div>
+    </div>
+    </div>
+    </div>
+    <![endif]-->
+
+
+
+    <div ng-controller="mobileMenuCtrl" class="wrapperContainer">
+      
+<!-- Mobile flyout -->
+<div id="sidr" class="visible-xs" ng-class="{visible: showMobileMenu}">
+  <ul class="header-actions learn-menu">
+    <li>
+    <a href="javascript:" class="learn header-link" tab-name="learn" ng-click="setCurrentTab('learn')">Individuals &amp; Families</a>
+    </li><li>
+    <a href="javascript:" class="marketplace header-link" tab-name="marketplace" ng-click="setCurrentTab('marketplace')">Small Businesses</a>
+    </li>
+  </ul>
+
+  <div id="sidr-submenu" ng-class="{'dark-blue': currentTab == 'marketplace', 'light-blue': currentTab == 'learn'}">
+    <form role="search" class="gsearch" name="gsearch" method="get" action="/search">
+      <button class="btn btn-search" value="search" ng-class="{'dark-blue': currentTab == 'learn', 'light-blue': currentTab == 'marketplace'}">
+        Search
+      </button>
+
+      <div class="question">
+        <input id="mobile-search" name="q" class="mobile-search form-control" placeholder="Search" title="" type="search" autocomplete="off">
+      </div>
+
+      <input type='hidden' name='output' value='xml_no_dtd'>
+      <input type='hidden' name='site' value='healthcare'>
+      <input type='hidden' name='proxystylesheet' value='json'>
+      <input type='hidden' name='client' value='json'>
+      <input type='hidden' name='lr' value='lang_en'>
+      <input type='hidden' name='ie' value='UTF-8'>
+      <input type='hidden' name='oe' value='UTF-8'>
+      <input type='hidden' name='access' value='p'>
+      <input type='hidden' name='sort' value='date:D:L:d1'>
+      <input type='hidden' name='start' value='0'>
+      <input type='hidden' name='num' value='6'>
+      <input type='hidden' name='getfields' value='search-title.content-type.topics.bite.yturl.thumbnail'>
+      <input type='hidden' name='rc' value='1'>
+      <input type='hidden' name='filter' value='0'>
+    </form>
+
+    <ul id="learn-links" class="utility-section learn-links" ng-class="{'light-blue active': currentTab == 'learn'}">
+      <li> <a href='/get-coverage'>Get coverage</a></li>
+      <li> <a href='/have-coverage'>Keep or Change Your Plan</a> </li>
+      <li> <a href='/get-answers'>Get Answers</a> </li>
+    </ul>
+
+    <ul class="utility-section marketplace-links" ng-class="{'dark-blue active': currentTab == 'marketplace'}">
+      <li> <a href='/small-businesses/employers'>For Employers</a> </li>
+      <li> <a href='/small-businesses/employees'>For Employees</a> </li>
+      <li> <a href='/small-businesses/get-answers'>Get Answers</a> </li>
+    </ul>
+  </div>
+</div>
+<!-- /Mobile flyout -->
+
+
+      <div id="wrapper" ng-class="{push: showMobileMenu}">
+        <div class="wrapperBox" data-role="page">
+          <div class="container-whole">
+            <div id="header" role="banner">
+              <skip-nav></skip-nav>
+              <div class="container">
+                <div class="visible-xs mobile-main-top" id="mobile-nav">
+                  <div class="pull-left">
+                    <a href="javascript:" ng-click="toggleMenu()" class="btn-primary mobile-menu-btn pull-left">
+                      <span class="hidden">Menu</span>
+                      <i class="glyphicon glyphicon-th-list"></i>
+                    </a>
+                    <a href="/"><img class="logo" src="/tax-tool/assets/logo-0fa6608097f9162b3efbe478cae2a88aea6498e5f1b7ddf6c4f882e16dd0eac3.png" alt="HealthCare.gov"></a>
+                  </div>
+                  <div class="pull-right mobile-user-actions">
+                    <a data-lang="en-US" class="mobile-right-top" href="/marketplace/global/en_US/registration">Log in</a>
+                    <a class="mobile-user-actions lang mobile-right-bottom toggle-language hide-es" data-lang="es" href="https://www.cuidadodesalud.gov/tax-tool/">Español</a>
+                  </div>
+                </div>
+                <div class="navbar hidden-xs" id="desktop-nav">
+                  <div class="pull-left">
+                    <a href="/"><img class="logo" src="/tax-tool/assets/logo-0fa6608097f9162b3efbe478cae2a88aea6498e5f1b7ddf6c4f882e16dd0eac3.png" alt="HealthCare.gov"></a>
+                  </div>
+                  <div class="pull-left">
+                    <ul class="header-actions" role="navigation" aria-label="Primary">
+                      <li class="learn-link active" >
+                        <a href="/" class="header-link">Individuals &amp; Families</a>
+                      </li>
+                      <li class="learn-link">
+                        <a href="/small-businesses/" class="header-link">Small Businesses</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="pull-right">
+                    <ul class="header-actions user-action-list">
+                      <li class="liteac-login topnav">
+                        <a data-lang="en-US" href="/marketplace/global/en_US/registration" class="header-link">Log in</a>
+                      </li>
+                      <li lang="es" class="hide-es">
+                        <a data-lang='es' href="https://www.cuidadodesalud.gov/tax-tool/" class="btn btn-info btn-sm toggle-language">Español</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End nav -->
+          <div class="app">
+
+            <div class="title" ui-view="title">
+              <div class="title-container u-px0 u-pt2 u-pb3 u-py4">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <ng-switch on="$root.persistables.tax_tools_household_flowType" ng-cloak>
+                      <h1 ng-switch-default focusable name="mainHeader" class="hcapp-app_heading u-m0 u-font-size-mega u-line-height-hecto qa-app-title">
+                        Health coverage tax tool
+                      </h1>
+                      <h1 ng-switch-when="8962" focusable name="mainHeader" class="hcapp-app_heading u-m0 u-font-size-mega u-line-height-hecto qa-app-title">
+                        <span ng-show="$root.state.current.name !== 'index.year'">
+                          {{ $root.persistables.tax_tools_household_year }}
+                        </span>
+                        Premium Tax Credit
+                      </h1>
+                      <h1 ng-switch-when="8965" focusable name="mainHeader" class="hcapp-app_heading u-m0 u-font-size-mega u-line-height-hecto qa-app-title">
+                        <span ng-show="$root.state.current.name !== 'index.year'">
+                          {{ $root.persistables.tax_tools_household_year }}
+                        </span>
+                        Affordability Exemption
+                      </h1>
+                    </ng-switch>
+
+                    <div ng-if="!$root.persistables.tax_tools_household_flowType">
+                      <p class="u-m0 qa-app-subtitle">Get information to help file your income taxes</p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="fixed-message" ui-view="fixed-message"></div>
+            <div ui-view="progress" class="progress hcapp-stickyBar-nav fixedsticky" fixed-sticky></div>
+            <div class="messages" ui-view="messages"></div>
+            <div id="main-body-content" class="main-body-content featured" role="main">
+              <div class="application">
+                <div ui-view id="skipnav"></div>
+              </div>
+            </div>
+          </div>
+          <div class="footerPush"></div>
+        </div>
+
+        <div class="footer" ui-view="footer"></div>
+      </div>
+    </div>
+  </body>
+</html>
