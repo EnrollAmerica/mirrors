@@ -1,0 +1,11 @@
+/*
+ * Jquery Sameheight Responsive
+ * https://github.com/DiederikLascaris/jquery-sameheight
+ *
+ * Author: D. Lascaris (Runesa)
+ * Version: 1.1
+ *
+ * Licensed under the MIT license.
+ *
+ */
+;(function(e){e.fn.sameheight=function(){var t=0,n=e(this);thisSelector=n.selector;n.each(function(){e(this).css({height:"auto"});var n=e(this).height();if(n>t){t=n}});return n.height(t)};e(window).resize(function(){e(thisSelector).sameheight()})})(jQuery);

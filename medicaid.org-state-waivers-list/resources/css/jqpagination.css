@@ -1,0 +1,103 @@
+
+.pagenumber::-ms-clear {
+    width: 0;
+	height: 0;
+}
+
+.pagination {
+  display: inline-block;
+  border-radius: 3px; }
+
+.pagination a {
+  display: block;
+  float: left;
+  width: 20px;
+  height: 20px;
+  outline: none;
+  border-right: 1px solid #CDCDCD;
+  border-left: 1px solid #CDCDCD;
+  color: #555555;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: Helvetica, Arial, sans-serif;
+  /* ATTN: need a better font stack */
+  background-color: #f3f3f3;}
+  .pagination a:hover, .pagination a:focus, .pagination a:active {
+    background-color: #006699;
+	color: white;
+	border: 1px solid #cdcdcd;}
+  .pagination a.previous:hover, .pagination a.previous:focus, .pagination a.previous:active, .pagination a.next:hover,
+  .pagination a.next:focus, .pagination a.next:active, .pagination a.disabled, .pagination a.disabled:hover, 
+  .pagination a.disabled:focus, .pagination a.disabled:active {
+    background-color: #006699;
+    cursor: default;}
+
+.pagination a:first-child {
+  border: none;
+  border-radius: 2px 0 0 2px; }
+
+.pagination a:last-child {
+  border: none;
+  border-radius: 0 2px 2px 0; }
+
+.pagination input {
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 115px;
+  height: 20px;
+  outline: none;
+  border: none;
+  vertical-align: middle;
+  text-align: center; }
+
+/* gigantic class for demo purposes */
+.gigantic.pagination {
+  margin:20px 0 0; 
+  float: right;}
+
+.gigantic.pagination a {
+  font-size: 30px;
+    background-color: #eee;
+    border-radius: 0;
+    color: #046791;
+	font-weight:bold;
+    float: left;
+    height: 35px;
+    width: 35px;
+	line-height:30px;
+	border: solid 1px #ccc;
+  }
+
+.gigantic.pagination input {
+  width: 35px;
+  font-size: 15px;
+  font-family: Helvetica, Arial, sans-serif;
+  margin:0 10px 0 10px;
+  padding:7px 0;
+  border: solid 1px #ccc;}
+
+/* log element for demo purposes */
+.log {
+  display: none;
+  background-color: #EDEDED;
+  height: 300px;
+  width: 524px;
+  overflow: auto;
+  margin-left: 0;
+  list-style: none;
+  padding: 10px; }
+  .log li {
+    margin-top: 0;
+    margin-bottom: 5px; }
+	
+.pagination span {float:left;
+				padding-top: 9px;
+				font-family: Helvetica, Arial, sans-serif;
+				font-size: 15px;
+				color: #000;}
+				
+#max_pages {margin-right: 10px;}
+
