@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">  <!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://aspe.hhs.gov/sites/default/files/Favicon2.png" type="image/png" />
+<meta name="description" content="Child Support and TANF Interaction: Literature Review Prepared for: Assistant Secretary for Planning and Evaluation Prepared by: The Lewin Group Mary Farrel, Asaph Glosser, and Karen Gardiner under subcontract to Manpower Demonstration Research Corporation April 11, 2003" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://aspe.hhs.gov/basic-report/child-support-and-tanf-interaction-literature-review-april-2003" />
+<link rel="shortlink" href="https://aspe.hhs.gov/node/64636" />
+<meta property="og:site_name" content="ASPE" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aspe.hhs.gov/basic-report/child-support-and-tanf-interaction-literature-review-april-2003" />
+<meta property="og:title" content="Child Support and TANF Interaction: Literature Review, April 2003" />
+<meta property="og:description" content="Child Support and TANF Interaction: Literature Review Prepared for: Assistant Secretary for Planning and Evaluation Prepared by: The Lewin Group Mary Farrel, Asaph Glosser, and Karen Gardiner under subcontract to Manpower Demonstration Research Corporation April 11, 2003" />
+<meta property="og:updated_time" content="2017-02-21T11:52:07-05:00" />
+<meta property="article:published_time" content="2015-11-23T02:47:03-05:00" />
+<meta property="article:modified_time" content="2017-02-21T11:52:07-05:00" />
+
+  <title>Child Support and TANF Interaction: Literature Review, April 2003 | ASPE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+  <link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__5ln8neBOcJfyUveiD4y9fhI6kHBLOQ_YL0mMC-LS9a0__TPJIZT9UBnf_685NlFTJ5KnZVsjwFk6ACQ-nwwygmwU__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ng49uRH5y4Hl9VF9hHW_vXOj-mcOc2u2ShJqJ1YKIGU__FoMCD14GBvZaRiqSQ_JpP1w3rDB21n7H2Ar4pRZaIh8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__Hskudx14OJ5Hz8vqU7CUgN6SDV5rINZuEq9VuGsSeyc__EwNIl3xeFrniW2TmonovTzhSs3X5MdFps210puE7jog__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__9rZoaX9BdzjjNucvYxduxeNAVO2zgW_Rvjhb5rq5whc__lSr_y16grDSgHf4booPChnF7QXz3TQY3hafH49twE0k__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZgfI_ZPib5yVY0o5aKo_6TFn946Tuu_nFDa0ySTmkSc__2FTFrNw2eNh0mpHIOA34r6YRwBZMm2PjJ_JubnwLigg__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__dxabpJ5rQgDSixKgLJZjWc1beC6mpROKwVrmWxI5eno__rqhz_hGsE_i59O7-W991o71_Jxw1QOtGMxn4nsOLHY8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZbRCq2NqWgK-HXAQI3So0N1n0nr4HonsJS3eQuuxukw__7Olkk8Locn8Dj0eR0Ww3rbV9lks9sxipcboMXB18RRs__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+
+	<!-- Head Libs -->
+	<script src="/sites/all/themes/stability/stability_aspe/vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/sites/all/themes/stability/vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" href="/sites/all/themes/stability/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/stability/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/stability/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/stability/images/apple-touch-icon-144x144.png">
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-64636 node-type-basic-report">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-JLFR"
+                  height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JLFR');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-nav" class="accessibility_menu">
+    <strong>Shortcut Navigation:</strong>
+    <ul>
+      <li><a href="#content" accesskey="c" title="Skip to page content (ctrl/alt + c)">Page Content</a></li>
+      <li><a href="#nav" accesskey="m" title="Skip to main navigation menu (ctrl/alt + m)">Site Navigation</a></li>
+
+      <li><a href="#Footer" accesskey="f" title="Skip to footer (ctrl/alt + f)">Footer</a></li>
+    </ul>
+  </div>
+
+    
+<div class="site-wrapper">
+  
+  <header class="header header-menu-fullw header-top-clean">
+    <div id="brand-bar">
+        <div class="container">
+                    <img alt='bird' src="/sites/all/themes/stability/stability_aspe/images/bird.png"> <a target="blank" tabindex="4" href="http://www.hhs.gov/">U.S. Department of Health & Human Services</a>
+        </div>
+
+    </div>
+    <div class="header-main">
+        <div class="container clearfix">
+            <div class="social-links-wrapper">
+                <ul class="social-links social-links__light">
+                                                          <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw.png"/></a></li>
+                                    <!--                  --><!--                    <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin.png"/></a></li>-->
+<!--                  -->
+                                                                      </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                                <div class="site_name_wrapper">
+                                     <span class="h1">
+                                      <a href="/">ASPE</a>
+                                       </span>
+                                  <p class="tagline"><p>Office of The Assistant Secretary</p><p> for Planning and Evaluation</p></p>
+                    </div>
+            </div>
+            <!-- Logo / End -->
+            <div class="header_right_wrapper">
+                <div class="search-form">
+                    <form action="/basic-report/child-support-and-tanf-interaction-literature-review-april-2003" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class = "input-group"><div class="form-type-textfield form-item-search-block-form form-item form-group">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search Site..." class="form-control form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input class="btn btn-primary btn-icon form-submit" type="image" id="edit-submit" name="submit" value="Search" src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/search-white2.png" alt="Search" title="Search" /></div></div><input type="hidden" name="form_build_id" value="form-HM0nqeVyGi7SlK7KY0yWvU-867teTEsYIDBChQpKsa4" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </div>
+                <button type="button" class="navbar-toggle" value="Menu">
+                    <i class="fa fa-bars"></i>Menu
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-main">
+        <div class="container">
+          <ul data-breakpoint="767" class="flexnav">
+                <li class="first expanded"><a href="/basic-search/about" title="">About</a><ul><li class="first leaf"><a href="/mission" title="">Mission</a></li>
+<li class="leaf"><a href="/key-staff" title="">Leadership</a></li>
+<li class="leaf"><a href="https://www.usajobs.gov/" title="">Careers</a></li>
+<li class="expanded"><a href="/coordination" title="linkTo">Coordination</a><ul><li class="first leaf"><a href="/evaluation-evidence" title="">Evaluation &amp; Evidence</a></li>
+<li class="leaf"><a href="/national-alzheimers-project-act">National Alzheimer&#039;s Project Act</a></li>
+<li class="leaf"><a href="/health-and-human-services-hhs-data-council">HHS Data Council</a></li>
+<li class="last leaf"><a href="/national-committee-vital-and-health-statistics" title="National Council on Vital and Health Statistics">National Council on Vital and Health Statistics</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/divisions" title="">Offices</a><ul><li class="first leaf"><a href="/office-disability-aging-and-long-term-care-policy-daltcp">Disability, Aging, and Long-Term Care Policy</a></li>
+<li class="leaf"><a href="/office-health-policy-hp">Health Policy</a></li>
+<li class="leaf"><a href="/office-human-services-policy">Human Services Policy</a></li>
+<li class="last leaf"><a href="/office-science-and-data-policy">Science and Data Policy</a></li>
+</ul></li>
+<li class="leaf"><a href="/strategic-planning" title="Strategic Planning">Strategic Planning</a></li>
+<li class="last leaf"><a href="/contact-aspe" title="">Contact ASPE</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/topics" title="">Topics</a><ul><li class="first leaf"><a href="/affordable-care-act-research">Affordable Care Act Research</a></li>
+<li class="leaf"><a href="/alzheimers-dementia">Alzheimer&#039;s / Dementia</a></li>
+<li class="leaf"><a href="/early-childhood">Early Childhood</a></li>
+<li class="leaf"><a href="/incarceration-reentry">Incarceration &amp; Reentry</a></li>
+<li class="leaf"><a href="/opioid-abuse-us-and-hhs-actions-address-opioid-drug-related-overdoses-and-deaths" title="Opioids">Opioids</a></li>
+<li class="leaf"><a href="/patient-centered-outcomes-research-trust-fund">Patient-Centered Outcomes Research Trust Fund (PCORTF)</a></li>
+<li class="expanded"><a href="/basic-search/poverty" title="">Poverty</a><ul><li class="first leaf"><a href="/poverty-guidelines">Poverty Guidelines</a></li>
+<li class="last leaf"><a href="/poverty-estimates-trends-and-analysis">Poverty Analysis</a></li>
+</ul></li>
+<li class="leaf"><a href="/teen-pregnancy-prevention">Teen Pregnancy Prevention</a></li>
+<li class="leaf"><a href="/homelessness">Homelessness</a></li>
+<li class="last leaf"><a href="/medicare-access-and-chip-reauthorization-act-2015">MACRA</a></li>
+</ul></li>
+<li class="leaf"><a href="/reports" title="">Publications</a></li>
+<li class="last expanded"><a href="/basic-search/datasets" title="">Data and Tools</a><ul><li class="first last leaf"><a href="/evaluations" title="">Evaluation Database</a></li>
+</ul></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation / End -->
+</header>  <div class="main" role="main">
+    <!--PAGEWATCH CODE="USHHS_458"-->
+    <section class="page-heading">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+                <h1>
+                    
+          Child Support and TANF Interaction: Literature Review, April 2003        </h1>
+                                 <p class="author">
+                                                 <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2003-04-11T00:00:00-04:00">04/11/2003</span>               
+                           </p>
+
+
+                  </div>
+
+
+        <div class="col-md-6">
+           <ul class="breadcrumb"><li class="first"><a href="/" title="Home">Home</a></li>
+<li class="last">Child Support and TANF Interac...</li>
+</ul>        </div>
+
+
+    </div>
+  </div>
+</section>
+    
+      <div  class="nd-region nd-region-filter">
+  
+       
+
+    
+      <div  id="Filter" class="row">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region nd-region-similar-content">
+  
+       
+
+    
+      <div  id="Similar-Content" class="row">     
+
+        
+                  
+        
+                                    <div  id="top" class="">
+                          
+                              <div id="block-views-2100ccfdd214bdbcf634d7e4832c265b" class="widget block block-views solr-similar-content" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Similar</span> content</h3>
+		</div>
+    
+  <div class="view view-similar-content-solr view-id-similar_content_solr view-display-id-block_solr_similar_content view-dom-id-92a4a3a6f30c41be56206a4ac286ff1d">
+        
+  
+  
+      
+    
+    <span class="field-content"><a href="/execsum/benefits-and-costs-increased-child-support-distribution-current-and-former-tanf-families">Benefits and Costs of Increased Child Support Distribution to Current and Former TANF Families</a></span>    
+    <span class="field-content"><a href="/pdf-report/benefits-and-costs-increased-child-support-distribution-current-and-former-tanf-families">Benefits and Costs of Increased Child Support Distribution to Current and Former TANF Families</a></span>    
+    <span class="field-content"><a href="/basic-report/benefits-and-costs-increased-child-support-distribution-current-and-former-tanf-families">Benefits and Costs of Increased Child Support Distribution to Current and Former TANF Families</a></span>    
+    <span class="field-content"><a href="/basic-report/state-wage-pass-through-legislation-analysis">State Wage Pass-Through Legislation: An Analysis</a></span>    
+    <span class="field-content"><a href="/basic-report/characteristics-families-using-title-iv-d-services-1995">Characteristics of Families Using Title IV-D Services in 1995</a></span>  
+  
+  
+  
+  
+  
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Content">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  class="col-md-12 " id="content">
+                          
+                              <div id="block-aspe-aspe-addthis" class="widget block block-aspe" >
+  
+      
+  <div class="clearfix">
+  <ul class="addthis_sharing_toolbox node-share__links" data-url="https://aspe.hhs.gov/basic-report/child-support-and-tanf-interaction-literature-review-april-2003" data-title="Child Support and TANF Interaction: Literature Review, April 2003">
+    <li><a class="addthis_button_print"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/print-white.png" alt="print" /></a></li>
+    <li><a class="addthis_button_email"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/mail-white.png" alt="email" /></a></li>
+    <li><a class="addthis_button_twitter"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/tw.png" alt="twitter" /></a></li>
+<!--    <li><a class="addthis_button_facebook">--><!--</a></li>-->
+    <li><a class="addthis_button_compact"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/plus-white.png" alt="compact" /></a></li>
+  </ul>
+</div>
+
+  </div> <!-- /.block -->
+
+                
+    
+  
+  <div class="content clearfix node-basic-report">
+    <p>Child Support and TANF Interaction: Literature Review</p>
+<p><em>Prepared for:</em> Assistant Secretary for Planning and Evaluation</p>
+<p><em>Prepared by:</em> The Lewin Group Mary Farrel, Asaph Glosser, and Karen Gardiner under subcontract to Manpower Demonstration Research Corporation</p>
+<p>April 11, 2003</p>
+<h2><a name="TOC" id="TOC">Contents</a></h2>
+<ol><li><a href="#I">INTRODUCTION</a>
+<ol><li><a href="#IA">Study Questions</a></li>
+<li><a href="#IB">Organization of Literature Review</a></li>
+</ol></li>
+<li><a href="#II">CHILD SUPPORT STATUS OF LOW-INCOME FAMILIES</a>
+<ol><li><a href="#IIA">Paternity Establishment, Child Support Orders, and Child Support Receipt</a>
+<ol><li><a href="#IIA1">Paternity Establishment</a></li>
+<li><a href="#IIA2">Child Support Orders</a></li>
+<li><a href="#IIA3">Child Support Collection</a></li>
+</ol></li>
+<li><a href="#IIB">Importance of Child Support Income</a></li>
+</ol></li>
+<li><a href="#III">PATTERNS OF CHILD SUPPORT RECEIPT AROUND WELFARE EXIT</a>
+<ol><li><a href="#IIIA">Child Support Receipt by Welfare Leavers</a></li>
+<li><a href="#IIIB">Child Support as an Income Source Upon Welfare Exit</a></li>
+<li><a href="#IIIC">Distribution of Collections to Welfare Leavers</a></li>
+</ol></li>
+<li><a href="#IV">CHILD SUPPORT RECEIPT AND SELF SUFFICIENCY</a>
+<ol><li><a href="#IVA">Welfare Exit</a></li>
+<li><a href="#IVB">Welfare Re-entry</a></li>
+<li><a href="#IVC">Welfare Caseloads</a></li>
+</ol></li>
+<li><a href="#V">WELFARE REFORM AND CHILD SUPPORT</a>
+<ol><li><a href="#VA">Findings from Impact Studies</a></li>
+<li><a href="#VB">Findings from Leaver and Other Studies</a></li>
+</ol></li>
+<li><a href="#VI">PASS-THROUGH AND DISTRIBUTION POLICIES AND CHILD SUPPORT</a>
+<ol><li><a href="#VIA">Recent Policy Changes</a>
+<ol><li><a href="#VIA1">Current Assistance</a></li>
+<li><a href="#VIA2">Former Assistance</a></li>
+</ol></li>
+<li><a href="#VIB">Relevant Research</a></li>
+</ol></li>
+<li><a href="#VII">AWARENESS OF CHILD SUPPORT RECEIPT AND COLLECTION EFFORTS</a></li>
+<li><a href="#VIII">COORDINATION BETWEEN TANF AND CHILD SUPPORT</a>
+<ol><li><a href="#VIIIA">Administrative Linkages</a></li>
+<li><a href="#VIIIB">System Automation and Integration</a></li>
+</ol></li>
+<li><a href="#IX">CONCLUSION</a></li>
+</ol><ul><li><a href="#ref">References</a></li>
+<li>
+<p><a href="#Apa">Appendix A</a></p>
+</li>
+<li>
+<p><a href="#Endnotes">Endnotes</a></p>
+</li>
+</ul><p> </p>
+<h2><a name="I" id="I">I. INTRODUCTION</a></h2>
+<p>Child support provides an important source of income for many low-income families. Because state welfare reform policies have placed a stronger emphasis on work and adopted time limits on welfare receipt, increasing child support for families while they are on welfare and after they leave becomes even more critical for family self-sufficiency.</p>
+<p>Welfare and child support programs have long been intertwined. The child support enforcement program (CSE), Title IV-D of the Social Security Act, was established in 1975 primarily as a method of reducing public expenditures on welfare. If the family is on welfare, child support obtained from non-custodial parents by the CSE agency is used to reimburse the government for benefits paid to these families (i.e., cost recovery).<sup><a href="#1">(1)</a></sup> Reforms in the Personal Responsibility and Work Opportunity Reconciliation Act (PRWORA) and other policy changes have shifted the child support enforcement program toward a more family-centered mission.</p>
+<p>Given the common populations served and the role that child support payments play in self-sufficiency and cost recovery, understanding the interaction between child support and welfare is important. The Department of Health and Human Services Assistant Secretary for Planning and Evaluation (ASPE) contracted with Manpower Demonstration Research Corporation (MDRC) to conduct a study that examines the interaction between Temporary Assistance for Needy Families (TANF) and child support. This literature review provides background information for this study.</p>
+<h3><a name="IA" id="IA">A. Study Questions</a></h3>
+<p>The study will analyze national survey data, state administrative data, and program data to determine the extent of child support program participation and receipt among current and former welfare clients and the contribution of payments to self-sufficiency. It seeks to answer the following questions:</p>
+<ul><li>What is the child support enforcement status of TANF recipients and women who have left TANF? For example, what share of custodial mothers have child support orders, what percent are receiving child support, how much do they receive, on average, and how significant is child support income as a fraction of total family income?</li>
+<li>What are the patterns of child support receipt around welfare exit? For example, how many families receive child support in the months immediately after exiting welfare? Do families begin to receive child support paid on their behalf as soon as they exit welfare or is there a delay?</li>
+<li>What are the effects of child support receipt on self sufficiency, including the likelihood of leaving welfare and returning to welfare?</li>
+<li>What are the effects of welfare reform on the relationship between welfare and child support? Have time limits, financial incentives, and work mandates affected child support receipt negatively or positively?</li>
+<li>Do state pass-through and distribution policies affect the child support status of low-income women and the relationship between child support receipt and welfare exit and reentry? For example, are more current and former welfare recipients receiving child support in states that have more generous child support policies? Are women in these states more likely to leave welfare?</li>
+<li>Do families know how much child support they will receive when they leave TANF? Do they know how much child support is being paid on their behalf while they are receiving TANF?</li>
+</ul><h3><a name="IB" id="IB">B. Organization of Literature Review</a></h3>
+<p>The remainder of this paper provides background information on each of the questions listed above and reviews findings from previous research. It also explores the coordination that exists between TANF and child support. The paper is organized as follows:</p>
+<ul><li><a href="#II">Section II</a> reviews the child support status of low-income families, including how child support policies have affected the establishment of paternity and support orders, as well as child support collections.</li>
+<li><a href="#III">Section III</a> examines the pattern of receipt around welfare exit.</li>
+<li><a href="#IV">Section IV</a> reviews research on the effect of child support income on welfare exit and re-entry.</li>
+<li><a href="#V">Section V</a> summarizes the studies examining the effect of welfare reform policies on child support.</li>
+<li><a href="#VI">Section VI</a> describes pass-through and distribution policies and the effect these have had on child support receipt.</li>
+<li><a href="#VII">Section VII</a> briefly describes the limited research on welfare recipients’ awareness of child support receipt.</li>
+<li><a href="#VIII">Section VIII</a> describes the collaborative efforts between TANF and child support and how these might improve service delivery.</li>
+<li><a href="#IX">Section IX</a> provides a brief summary of this review.</li>
+</ul><h2><a name="II" id="II">II. CHILD SUPPORT STATUS OF LOW-INCOME FAMILIES</a></h2>
+<p>Child support is considered to be one key factor in increasing self-sufficiency among low-income families. This study will address several questions related to the child support status of current and former welfare recipients. First, what roles have child support policies played in increasing child support? Second, how significant is child support income to total family income? Prior studies have examined the child support status of welfare recipients and other low-income families.</p>
+<h3><a name="IIA" id="IIA">A. Paternity Establishment, Child Support Orders, and Child Support Receipt</a></h3>
+<p>Welfare recipients have always been less likely to report receiving child support than non-welfare single parents. However, the share of welfare recipients receiving child support has increased considerably in the past two decades. Huang et al (2000) examined the March Current Population Surveys (CPS) and found that the proportion of welfare recipients receiving child support increased from 9 percent in 1980 to 26 percent in 1996. Among all single parents (receiving welfare and not receiving welfare) the 1980 to 1996 increase was smaller – from 28 to 35 percent. By 1998, the percent of welfare recipients who received child support income had increased to 28 percent (Bartfeld and Sandefur, 2001).</p>
+<p>Child support enforcement policies have likely played a role in increasing child support receipt among the welfare population. These policies focus on three areas: paternity establishment, order establishment, and child support collection.</p>
+<h4><a name="IIA1" id="IIA1">1. Paternity Establishment</a></h4>
+<p>A child support order cannot be established without the establishment or acknowledgement of paternity. Child support enforcement laws and policies have been strengthened to increase paternity establishment. For example, in 1988, the Family Support Act (FSA) included provisions mandating genetic testing in disputed cases and increasing the use of civil procedures for establishing paternity. The Omnibus Budget Reconciliation Act of 1993 required states to adopt procedures for voluntary paternity acknowledgment, in response to the experiences of successful hospital-based programs implemented in a handful of states. It also increased states’ paternity establishment goal from 50 percent of the children in their caseload to 75 percent. PRWORA increased this standard to 90 percent.</p>
+<p>Nationally, the number of children for whom paternity was established has increased from less than 300,000 FY 1987 (Green Book, 2000) to over 1.5 million in FY 2001 (Office of Child Support Enforcement, 2003). In 1999, at least 614,000 fathers voluntarily acknowledged their paternity, an increase of over 600 percent in a four-year period (Bartfeld and Sandefur, 2001).</p>
+<p>Researchers examined characteristics associated with paternity establishment. Seltzer (1999) found higher rates of establishment among mothers who were white, more educated, had cohabitated with the father at the child’s birth, and who had multiple children with the father. Beller and Graham (1993) and Hanson et al (1996) also found a higher likelihood of paternity establishment among women who had higher levels of education and were white. Bartfeld and Sandefur (2001) found that, among TANF families, groups with particularly low rates of paternity establishment, after controlling for other differences, included children of noncitizens, Hispanics, Asians and to a lesser extent, African Americans, children in larger families, and children born to older mothers.</p>
+<p>Sorensen and Halpern (1999), examined the extent to which the in-hospital paternity establishment policies increased child support. This study found that such policies increased support for never-married mothers not receiving Aid to Families with Dependent Children (AFDC), but had no effect on other groups of single mothers. The authors suspected that the never-married mothers on AFDC had little incentive to cooperate because nearly all child support collected is used to reimburse the government.</p>
+<h4><a name="IIA2" id="IIA2">2. Child Support Orders</a></h4>
+<p>Establishing child support orders has historically been the responsibility of the court system. Relying on the courts to establish child support orders, however, can be expensive and time consuming. In addition, judicial discretion resulted in a wide range of awards for families in similar circumstances. Several policy changes were enacted to reduce the costs, time requirements, and variability of awards. The 1984 Child Support Amendments required that states implement processes — either administrative or judicial — that would expedite the process for establishing support orders.<sup><a href="#2">(2)</a></sup> In an attempt to reduce the variability in child support awards, the 1984 Child Support Amendments also required that each state establish guidelines for determining child support award amounts, although these guidelines were not binding on judges. The 1988 FSA required that states’ child support guidelines be the presumptively correct amount to be paid (i.e., be binding on judges unless a written finding was issued).</p>
+<p>To ensure that welfare recipients cooperate, PRWORA mandated that states penalize TANF recipients’ benefit amounts by at least 25 percent if they do not cooperate with the CSE agency in establishing support.<sup><a href="#3">(3)</a></sup></p>
+<p>The federal Office of Child Support Enforcement (OCSE) collects aggregate data from states regarding the families in their IV-D programs. In FY 2001, the median state had established orders for 70 percent of its IV-D caseload, an increase from 64 percent in FY 1999.<sup><a href="#4">(4)</a></sup> Analysis of the 1999 Child Support Supplement to the Current Population Survey (CPS, CSS) found that about 59 percent of all custodial parents (regardless of IV-D status) had a child support award in 1999 (Grall, 2002).</p>
+<p>Other studies focus on subsets of custodial parents. An increasing number of poor women have child support orders, which might reflect, in part, the policy changes outlined above. The percentage of poor women who had an order increased 39 percent between 1978 and 1997. However, among all women (poor and non-poor), the percentage who had an order <em>decreased</em> by 7 percent (Green Book, 2000).<sup><a href="#5">(5)</a></sup></p>
+<p>It is important to note that these statistics report the percent of women with <em>any</em> child support order, and not the percent of women with orders for all of their children. Bartfeld and Sandefur (2001) examined administrative data for Wisconsin’s welfare caseload and found that, from October 1997 through June 1998, 57 percent had an order for at least one child, yet only 24 percent of mothers had orders established on behalf of all of their children.</p>
+<h4><a name="IIA3" id="IIA3">3. Child Support Collection</a></h4>
+<p>Once support orders are in place, OCSE will begin seeking payments from non-custodial parents. A number of enforcement policies were mandated by the federal government to collect payments. Starting in 1982, the federal tax refunds of delinquent non-custodial parents have been intercepted to satisfy past support due. The 1984 Child Support Enforcement Amendments mandated that states implement procedures to intercept state income tax refunds payable to non-custodial parents up to the amount of the overdue support. The FSA of 1988 required immediate wage withholding to begin in November 1990 for all new or modified orders being enforced by states, regardless of whether the non-custodial parents were delinquent.<sup><a href="#6">(6)</a></sup> It also mandated that states have fully operational automated systems in place by the beginning of FY 1996. PRWORA further expanded collection efforts by mandating that states establish an automated directory of new hires and requiring employers to report all new hires within 20 days after the employee is hired. It also mandated that states have laws permitting the revocation of driver’s, professional, occupational, and recreational licenses of non-custodial parents who owed past-due child support or who failed to respond to warrants issued in paternity or support proceedings. The<em> </em>Multi-state Financial Institution Data Match, implemented in July 1999, locates financial assets of delinquent obligors.</p>
+<p>The amount of support collected depends upon the population under review. For instance, data is available on the proportion of support collected for families in the IV-D caseload. According to OCSE, the median state collected 56 percent of current support due for its IV-D caseload in FY 2001.<sup><a href="#7">(7)</a></sup> The CPS, CSS reports on collections for all custodial parents. According to these data, 74 percent of custodial parents with child support orders received some amount and 45 percent received the full amount due (Grall, 2002).</p>
+<p>Several studies have examined the extent to which these expanded enforcement tools have increased child support receipt. Most analyzed the CPS merged with state child support policy information. Sorensen and Halpern (1999) examined the March CPS (1976 – 1997) and found that overall, CSE has increased child support receipt by 8 percentage points for never-married mothers, explaining about one-half of the increase for this group. This study also explored the effect of the program on previously-married mothers but found a smaller effect.<sup><a href="#8">(8)</a></sup></p>
+<p>Examining the effects of specific policies, Sorensen and Halpern (1999) found that the state income tax intercept program and presumptive guidelines had significant positive impacts on the rate of child support receipt for both never-married and previously-married mothers. Wage withholding, however, increased child support receipt among previously married mothers on AFDC only. The directory of new hires had little effect on any subgroup. However, at the time of the study, states were just beginning to use the directory.</p>
+<p>Cassetty et al (2002) went further and examined the effect of various enforcement policies on specific child support outcomes (paternity establishment, proportion of cases with collections, and average size of collection). This study found that the full federal certification of a state’s automated data system did not have a significant impact on paternity establishment or the proportion of cases with collections, but increased the average amount collected among those cases with collections. New-hire reporting appeared to have increased the proportion of cases with collections, but did not appear to have increased the average size of the collections or, understandably, paternity establishment. Immediate wage withholding had a negative relationship with average collections per case with any collections. The authors surmised that this policy might be increasing the representation of low-paying cases, reducing the overall average collected.</p>
+<h3><a name="IIB" id="IIB">B. Importance of Child Support Income</a></h3>
+<p>Among women who received support in 1999, the average payment received in the year was about $3,844. Among those who were never married, the average amount dropped to $2,676. Not surprisingly, the child support payments were lower for women living under the poverty level. The average annual amount received among women in poverty was about $2,788 in 1999; among those who had never been married, the average was $2,418 (CPS, CSS 2000).</p>
+<p>Studies have attempted to measure the effect of child support on reducing poverty and generally found that it reduces poverty, but not substantially. Meyer and Hu (1999) examined the antipoverty effectiveness of child support using the March 1996 CPS sample of mother-only families with children. They found that in 1995, among poor women who received child support, 21 to 23 percent were brought out of poverty by child support alone. However, less than one-third of the women received child support, reducing the overall antipoverty effect to 6 to 7 percent of women brought out of poverty.<sup><a href="#9">(9)</a></sup> The authors also examined trends from 1988 through 1995, finding that the overall effect of child support on poverty rates was highest in 1995.</p>
+<p>Sorensen and Zibman (2000) focused on the extent to which <em>children</em> benefit from child support, using the 1997 National Survey of America’s Families (NSAF). They estimated that child support reduces poverty among children by about 5 percent, and it reduces the poverty gap by 8 percent. Overall, they found that child support is a significant income source for those who receive it, especially poor children not on cash assistance. In 1996, among those families who received child support, the average child received $3,795 (representing 16 percent of the family’s income) from child support. Most of the family’s income came from earnings. Among <em>poor</em> children, the average child received just $1,979, but this represented 26 percent of the family’s income (38 percent of family income came from earnings and 20 percent from cash assistance).</p>
+<p>Sorensen and Zibman (2000) also found that while child support is an important source of income to those receiving it, most poor children eligible for child support (71 percent) did not receive it in 1996. Not surprisingly, child support assistance was less common among children who had no child support order (37 percent of children without an order received support compared with two-thirds of children with a child support order).</p>
+<h2><a name="III" id="III">III. PATTERNS OF CHILD SUPPORT RECEIPT AROUND WELFARE EXIT</a></h2>
+<p>When considering the role of child support in promoting self-sufficiency, it is important to examine its role as custodial parents leave welfare. This section focuses on patterns of child support receipt around welfare exit. For example, how many families receive child support in the months immediately after exiting welfare? How significant is child support income to total income? Are child support collections being properly distributed to families after they exit welfare? Research that examines changes in child support status after exiting welfare may reveal the nature and extent of any problems that exist.</p>
+<h3><a name="IIIA" id="IIIA">A. Child Support Receipt by Welfare Leavers</a></h3>
+<p>Acs et al (2001) synthesized 15 welfare-leaver studies funded by ASPE.<sup><a href="#10">(10)</a></sup> The report found that the percent of leavers who reported income from child support ranged from a low of 11 percent in the District of Columbia to a high of 46 percent in Massachusetts, and in six of the eight states that asked, over 20 percent of leavers report receiving child support. Sorensen and Zibman (2000) encountered somewhat higher results. Using data from the 1997 NSAF, they found that over 42 percent of children with a nonresident parent whose families left welfare received child support in 1996.</p>
+<p>Recent research indicates that the rate of child support receipt among poor families increases after welfare exit. Miller (2002) used data from a variety of state and national programs to compare the well-being and income of families who stayed on welfare, left welfare, and cycled on and off welfare.<sup><a href="#11">(11)</a></sup> Combining data from all programs, welfare leavers were significantly more likely to report that some of their household income was derived from child support than individuals who remained on welfare (18 percent versus 11 percent).</p>
+<p>Meyer and Cancian (2002a) examined child support patterns of a national sample of women who left welfare in the 1980s. In the first year after leaving AFDC, 17 percent received child support, a proportion that increased moderately over the next years to 25 percent by the tenth year after leaving.</p>
+<p>Acs et al (2001) also compared the income of families that were continuous leavers (i.e., remained off TANF for at least one year) and all leavers. Continuous leavers were slightly more likely to have child support income in the two states for which the data was available.<sup><a href="#12">(12)</a></sup> In Arizona, 20 percent of continuous leavers had child support income, compared with 16 percent of all leavers. In Iowa, continuous leavers also were more likely to receive child support (33 percent versus 28 percent).</p>
+<h3><a name="IIIB" id="IIIB">B. Child Support as an Income Source Upon Welfare Exit</a></h3>
+<p>Child support payments represent a valuable source of income for TANF leavers. Sorensen and Zibman (2000) found that child support payments represent roughly 30 percent of custodial parents’ income in former-assistance cases where any amount of child support was paid. A study of Ohio’s welfare program found similar results. Surveying a random sample of 631 welfare leavers, researchers report that more than a quarter of the respondents cited child support as a non-employment source of income (Ohio Department of Job and Family Services, 2000). Furthermore, based on interviews with a group of Virginia families affected by the time limits enacted under the state’s 1995 welfare reform, Gordon et al (1999) suggest that child support helped replace some portion of lost TANF benefits for roughly one-fifth of leaver families.<sup><a href="#13">(13)</a></sup></p>
+<p>Using information from four states,<sup><a href="#14">(14)</a></sup> Acs et al (2001) also explored the relative importance of different sources of income for leavers. Among leavers who had child support income, the average monthly amount ranged from $226 in Missouri to $285 in Washington; this represented 27 percent and 29 percent, respectively, of income for these leavers. When all leaver families are considered (including those that did not receive child support), child support ranged from 3 percent of income in Arizona to 6 percent in Iowa and Washington.</p>
+<p>Acs et al (2001) examined child support receipt by the employment status of leavers in three states.<sup><a href="#15">(15)</a></sup> In two states, currently employed leavers were more likely to receive child support than currently unemployed ones (35 percent versus 17 percent in Iowa; 26 percent versus 17 percent in Washington). There was little difference in the percent of families with child support in Arizona based on whether the leaver was currently employed or not (17 percent and 16 percent, respectively). Among those with child support income, the average monthly amount was higher for currently employed leavers than unemployed ones in Arizona ($252 versus $229) but not Washington ($247 versus $264).<sup><a href="#16">(16)</a></sup> In a longitudinal evaluation of the Minnesota Family Investment Program (MFIP), the Minnesota Department of Human Services (2000) found that roughly one-fourth of former MFIP recipients who were unemployed were receiving child support payments averaging between $300 and $400 a month, and more than one-third of working leavers were receiving similar payments.</p>
+<h3><a name="IIIC" id="IIIC">C. Distribution of Collections to Welfare Leavers</a></h3>
+<p>In order for child support to be an effective income support for welfare leavers, the distribution of collections must be both prompt and accurate. Once a family leaves TANF, CSE agencies’ State Distribution Units (SDUs) are responsible for distributing collections made on their behalf, as they do for other families. SDUs are required to distribute any collections owed to former-assistance families within two business days of receipt. Proper distribution of these funds requires that state IV-D and IV-A agencies establish clear lines of communication and effectively integrate their automated systems. See Section VI.A.2 for a detailed discussion of the distribution requirements in former-assistance cases.</p>
+<p>Recent research raises some issues about the distribution of support to these families. In an analysis of states’ distribution policies, a 2001 study by the U.S. Department of Health and Human Services Office of the Inspector General (OIG) explored the status of child support distribution to current and former TANF recipients.<sup><a href="#17">(17)</a></sup> OIG found that, often, the two programs’ automated systems are incompatible, delaying the distribution of support to families. The report indicates that it takes as much as a month for some SDUs to forward collections to TANF-leavers. The OIG report also cited frequent underpayment — particularly in cases where there was a recent change in TANF status.</p>
+<h2><a name="IV" id="IV">IV. CHILD SUPPORT RECEIPT AND SELF SUFFICIENCY</a></h2>
+<p>This section focuses on the third research question: What are the effects of child support receipt on self sufficiency, including the likelihood of leaving welfare and returning to welfare? As discussed above, child support and welfare receipt interact. Child support might help welfare recipients leave welfare or avoid it altogether. Also, welfare recipients who are receiving child support when they leave might be less likely to return to welfare if the support helps them regain self-sufficiency. Several studies have examined this interaction between child support and welfare receipt.</p>
+<h3><a name="IVA" id="IVA">A. Welfare Exit </a></h3>
+<p>Huang et al (2002) conducted a hazard analysis, using the 1979-1996 National Longitudinal Survey of Youth (NLSY) to examine whether child support affected the likelihood of leaving welfare. The sample included mothers who began a welfare spell during the 1979-1996 period. The results indicated that women who received $1,000 in child support payments in the previous year were 18 percent more likely to exit welfare (defined as three consecutive months of non-receipt). Interestingly, other types of unearned income had no effect on welfare exiting. An earlier analysis conducted by Huang et al (2000), using the 1979 to 1997 March CPS files, estimated that improvement in child support collection between 1980 and 1996 reduced welfare caseloads by 12 to 17 percent over that period of time.</p>
+<p>Meyer (1993) examined a sample of divorced women in Wisconsin and found that large amounts of child support (more than $300 per month) were needed to increase welfare exits. Small amounts of child support (between $1 and $100 per month) were associated with a <em>decrease</em> in welfare exit. The authors speculated that this unexpected result was perhaps due to unmeasured differences between women whose ex-husbands pay small amounts and women whose ex-husbands pay nothing.</p>
+<h3><a name="IVB" id="IVB">B. Welfare Re-entry</a></h3>
+<p>In general, studies that have examined the effect of child support on welfare re-entry have found that parents receiving child support while on welfare were less likely to return to welfare than parents who were not receiving child support. According to testimony heard before the Human Resources Subcommittee of the House Ways and Means Committee, custodial parents receiving child support have a 9 percent chance of returning, while parents not receiving child support have a 31 percent chance of returning (Golden, 2000).</p>
+<p>The Huang et al (2000) study also examined the determinants of welfare re-entry. This study found that receiving $1,000 in child support payments in the previous year reduced welfare re-entry by 12 percent. As was true for welfare exit, other unearned income did not have any effect on re-entry. Meyer (1993) also examined the effect of child support on re-entry and found that for divorced women in Wisconsin, any amount of child support decreased the likelihood of welfare recidivism.</p>
+<h3><a name="IVC" id="IVC">C. Welfare Caseloads</a></h3>
+<p>Numerous studies have examined the effect of the economy and welfare reform on the welfare caseload declines experienced by states in recent years (e.g., Blank, 2001; Council of Economic Advisors, 1999). However, few have incorporated the effect of increased child support income. Hu (1999) analyzed the Panel Study of Income Dynamics (PSID) to estimate the effect of child support reforms on welfare recipiency. He limited the sample to all women who experienced marital breakup (either divorce or separation) and became heads of households between 1969 and 1987. He found that a $1,000 increase in annual child support payments decreased welfare receipt by about 4 percentage points on average. He also found that higher child support payments increased the average hours of work.</p>
+<h2><a name="V" id="V">V. WELFARE REFORM AND CHILD SUPPORT </a></h2>
+<p>States have reformed their welfare programs in response to requirements enacted in PRWORA and the new flexibility this legislation granted states. This study will examine the effect of three policies — time limits, financial incentives, and work mandates — on child support receipt.</p>
+<p>Time limits might have a positive affect on child support receipt if they increase women’s and case workers’ motivation to secure this support as an income source before welfare benefits expire. Alternatively, time limits might affect child support negatively if the support payments are not transferred to the families after exit as required. A recent OIG report (2001) found that 11 of the 51 states cited difficulties accurately transferring child support payments to families who have left TANF.</p>
+<p>Financial incentives and work mandates are both designed to increase employment among welfare recipients. Increases in work activity might increase a woman’s sense of independence and reduce her perceived need for child support or might reduce her eligibility for cash assistance and motivate her to look for additional income sources such as child support.</p>
+<h3><a name="VA" id="VA">A. Findings from Impact Studies </a></h3>
+<p>Several experimental evaluations of state welfare reform programs have measured the impact of these programs on child support receipt and payment levels. Florida’s Family Transition Program (FTP) included a 24 or 36 month time limit (depending on the client’s education and work history), financial work incentives, and additional work requirements (30 hours per week rather than 20 hours required under AFDC). In addition, FTP provided intensive case management services. As reported in Bloom et al (2001a), FTP produced a modest increase in child support payments ($20 a month at the end of a four-year follow-up period) for the FTP group relative to families who were subject to prior welfare (AFDC) rules. The program had a slightly larger impact among more at-risk families (a $25 increase). FTP increased the proportion of <em>children</em> who received support from their father by 5 percentage points. Among the most at-risk children, FTP increased the percentage of children who received support by 9 percentage points.</p>
+<p>Connecticut’s Jobs First program limited families to 21 cumulative months of cash assistance unless they received an exemption or extension. It included a financial work incentive that allowed employed recipients to retain their full welfare grant as long as they were earning less than the federal poverty level, and it required recipients to work or to participate in employment services designed to help them find jobs quickly. Jobs First also changed some rules specific to child support payments. First, all support collected on behalf of children receiving assistance in Jobs First was given directly to the custodial parent (instead of the $50 pass-through under prior rules). This was designed to make it easier for recipients to see how much support was collected. When Connecticut transitioned to an Electronic Benefit Transfer (EBT) system, the support became less visible, although parents were sent a notice informing them how much was paid. In addition, Jobs First disregarded $100 of child support, rather than the first $50 (as mandated under pre-PRWORA distribution regulations). As reported in Bloom et al (2002), Jobs First increased child support income by $30 a month at the end of the three-year follow-up period. Because information on child support receipt was obtained from a client survey, the authors cautioned that it might be the case that parents in the Jobs First group were more aware of the child support payments they received than the AFDC group.</p>
+<h3><a name="VB" id="VB">B. Findings from Leaver and Other Studies</a></h3>
+<p>Researchers have paid particular attention to child support receipt in cases where families’ welfare benefits expired due to time limits. GAO (1998) analyzed automated case file data in three states — Connecticut, Florida, and Virginia — to determine how successful states were in obtaining child support for families exhausting their time limits. This study found that about 20 to 30 percent of TANF families had any child support collected for them in the 12 months before their welfare benefits were terminated. At least one-half of the child support cases without collections lacked a child support order. For families that received child support, the median collections for leavers among the three states ranged from $581 to $1,348 for the 12-month period.</p>
+<p>However, the share of time-limited families receiving child support appears to increase over time. Gordon et al (2002) used data collected from follow-up interviews and analysis of administrative data from two cohorts in Virginia to show patterns of child support receipt 18 months after benefit expiration.<sup><a href="#18">(18)</a></sup> The analysis found a substantial increase in the percentage of families receiving child support in the 18 months after case closure; 22 percent received child support at the time of TANF exit, 30 percent received support after 6 months, and 34 percent were receiving payments a year and a half post-exit. A similar pattern emerged in terms of the amount of support received; the average amount of support received by families increased from $48 to $221 over the 18 month period.<sup><a href="#19">(19)</a></sup> In an earlier report, Gordon et al (1999) surveyed TANF leavers and found similar results.</p>
+<p>Using data from the FTP evaluation, Miller (2002) looked at differences in household income (including child support) for those who left welfare due to time limits and those who left for other reasons. The proportion of respondents who reported child support income was higher for time limit leavers than for non-time limit leavers (46 percent versus 30 percent). Both groups of leavers were more likely to have child support income than current assistance cases (14 percent).<sup><a href="#20">(20)</a></sup></p>
+<p>Bloom et al (2001b) reviewed the results from surveys of individuals whose welfare cases were closed because of time limits in Connecticut, Florida, Massachusetts, North Carolina, Ohio, South Carolina, Utah, and Virginia. While the surveys did not measure child support receipt consistently, in general, between one-fourth and one-third of respondents reported that they were receiving at least some child support payments when interviewed.</p>
+<h2><a name="VI" id="VI">VI. PASS-THROUGH AND DISTRIBUTION POLICIES AND CHILD SUPPORT</a></h2>
+<p>This section addresses the fifth research question: Do state pass-through and distribution policies affect the child support status of low-income women and the relationship between child support receipt and welfare exit and re-entry? Although there have been few studies that examine these issues, there is evidence that pass-through and distribution policies affect child support receipt.</p>
+<h3><a name="VIA" id="VIA">A. Recent Policy Changes</a></h3>
+<p>Families receiving welfare must assign to the state the rights to all child support up to the total amount of assistance paid to the family. For these cases, federal regulations dictate the distribution of collections — for both current support orders and past support due.<sup>(21)</sup> They also determine in what order payments will be made when multiple parties have a claim to the support. PRWORA re-prioritized the order in which various parties could lay claim to child support collections in order to satisfy both current support orders and arrearages.</p>
+<h4><a name="VIA1" id="VIA1">1. Current Assistance </a></h4>
+<p>States have the right to any current support that is paid on behalf of the families while they are on public assistance. As long as the family is on welfare, the child support payments are retained by the state and split with the federal government.</p>
+<p>Prior to PRWORA, clients were also required to permanently assign to states the rights to support obligations that accumulated before they applied for welfare benefits. However, under PRWORA, states only have the rights to pre-assistance arrearages while the family is on welfare. Once the custodial parent leaves TANF, the rights revert back to the family.<sup><a href="#22">(22)</a></sup></p>
+<p>PRWORA also eliminated the requirement that limited the collections a state could retain each month to the amount of public assistance paid in the month the support was collected. Under PRWORA, states can retain the monthly payments up to the cumulative amount of unreimbursed assistance to the family.</p>
+<p>Pre-PRWORA, states were required to distribute the first $50 in child support collections each month to custodial parents, and the state IV-A agencies disregarded the amount distributed to the family in their calculation of families’ AFDC payment. By disregarding these funds, collections on current-assistance cases could increase a family’s income by as much as $50. If the state elected to pass-through this amount to the family as a separate check, it had the added effect of notifying the family that the non-custodial parent was making support payments.</p>
+<p>As noted above, states and the federal government split collections made on behalf of families on welfare. As a result of PRWORA, states are allowed to set their own pass-through and disregard policies. However, the federal government no longer helps states to fund these policies. States that opt to disregard and pass-through support to the custodial parents must deduct that amount from their share of collections or subsidize the amount with additional state monies.</p>
+<p><em><strong>Appendix Exhibit A-1</strong></em> shows state pass-through and disregard policies as of April, 2002. Since PRWORA was enacted, less than half of the states have implemented policies that pass-through some amount of collections to TANF recipients. While a few states increased the amount of the pass-through after PRWORA, most of the those that retained pass-through policies continued to forward the first $50 to the family. Similarly, 23 states have policies in place that disregard some amount of collections for the purpose of public assistance eligibility and benefit amount.<sup><a href="#23">(23)</a></sup></p>
+<h4><a name="VIA2" id="VIA2">2. Former Assistance</a></h4>
+<p>Whereas PRWORA enables states to keep larger shares of support collected on behalf of current TANF recipients than did the previous legislation, it created policies that direct substantially more money to custodial parents once they leave the welfare rolls.</p>
+<p>One of the most striking changes in distribution requirements as a result of PRWORA deals with how collections on arrearages for families who formerly received welfare benefits are distributed. For the most part, the regulations dictating the distribution of collections in these cases are not left to the discretion of the states.<sup><a href="#24">(24)</a></sup></p>
+<p>In terms of support not obtained through the federal income tax refund offset (e.g., wage withholding), PRWORA did not change how support payments are distributed <em>when collections are less than or equal to the monthly support obligation</em>. In other words, current support collected is distributed to the family. If the order amount is $400 and $400 is collected, the family retains the entire amount. (See <em><strong><a href="#apa2">Appendix Exhibit A-2, Priority 1</a></strong></em>).</p>
+<p>However, collections from non-custodial parents that exceed the monthly support obligation ($400 in the example above) are now treated differently. <em><strong><a href="#apa2">Appendix Exhibit A-2 (Priorities 2-6)</a> </strong></em>shows the order in which any remaining collections are distributed.</p>
+<ul><li>Pre-PRWORA, the states decided how these excess payments were to be distributed. The state could either retain the payments and apply them to unreimbursed assistance, or they could be distributed to the family.</li>
+<li>As of October 2000, support paid that exceeds the monthly support obligation is first distributed to the family to the extent that arrearages were never assigned to the state (i.e., arrearages accrued post-TANF, <em><strong><a href="#apa2">Appendix Exhibit A-2 Priority 2</a></strong></em>).<sup><a href="#25">(25)</a></sup></li>
+</ul><p>The exception, as noted above, is if collections are obtained through the federal income tax offset.</p>
+<p>· If there are remaining funds after having satisfied never-assigned arrearages, then the funds are paid towards any unassigned or conditionally assigned arrearages owed to the family (<em><strong>Appendix Exhibit A-2, Priorities 3-4</strong></em>).(26)</p>
+<p>· If, after satisfying these requirements there are still funds left over, then states may retain them to satisfy arrearages they are owed (<em><strong>Appendix Exhibit A-2, Priority 5</strong></em>). States are allowed to distribute any funds collected under “Priority 5” of the process to the custodial parent. However, regardless of how states choose to distribute the money, they must pay the federal government its share.</p>
+<p>Finally, any remaining funds are distributed to the family (<em><strong>Appendix Exhibit A-2, Priority 6</strong></em>).</p>
+<p><strong>B. Relevant Research </strong></p>
+<p>PRWORA significantly changed the way in which child support collections are distributed to welfare recipients by allowing states to set their own pass-through and disregard policies. Similarly, the requirements under PRWORA that dictate the order in which arrearages are satisfied in former-assistance cases substantially altered distribution of collections to welfare leavers. However, despite the changes that have occurred, there is limited research that examines the effect of such policies on child support receipt, self-sufficiency, welfare exit, and welfare recidivism. Some researchers have looked at the effect of various statutory changes on child support enforcement (Beller and Graham, 1993; Garfinkel and Robins, 1994; Freeman and Waldfogel, 1998), but pass-through and disregard policies were not included in the analyses.</p>
+<p>As part of their analysis of March CPS data (1976-1997), Sorensen and Halpern (1999) tested the effect of pass-through policies on child support receipt. Using multivariate regressions, the study shows that pass-through policies have a positive significant effect on child support receipt for single mothers on AFDC. The effect is larger for single-women who were never married (the likelihood increases by 5 percent) than for previously-married women (2 percent increase).</p>
+<p>The most recent research on the effects of pass-through and disregard policies has been conducted as part of the Institute for Research on Poverty’s (IRP) <em>W-2 Child Support Demonstration Evaluation Report on Nonexperimental Analyses</em> (2002). Cassetty et al (2002) used administrative data and a new measure of the level of effective disregard policies to analyze the effect of these policies on child support receipt.(27) Using annual state-level administrative data from state IV-D and IV-A sources, this study found that higher disregard amounts are significantly associated with increased paternity establishment and an increased percentage of cases with collections. However, the analysis did not indicate that disregards have any discernable effect on the average amount of collections.</p>
+<p>Based on March CPS data from 1985-2000, Cassetty (2002) encountered similar results. The analysis shows that higher disregard amounts are positively associated with receipt of child support payments at the 10 percent significance level.</p>
+<p>In addition to studies based on national data, IRP has also conducted research based solely on data from Wisconsin. Meyer and Cancian (2002b) used a multivariate analysis of data from the Wisconsin Court Record Database, merged with administrative records of monthly AFDC amounts, to examine whether state pass-through and disregard policies affect changes in non-custodial parent support payments, based on the custodial parents’ welfare status. The authors track monthly child support payments, custodial parents’ welfare status, and a range of demographic variables for 12 cohorts—following each cohort for 2 to 7 years. Because custodial parents receive a greater share of collections once they leave welfare, the authors expected support payments to increase upon welfare exit. However, their analysis did not demonstrate an effect from disregard and pass-through policies on these patterns.</p>
+<p>VII. AWARENESS OF CHILD SUPPORT RECEIPT AND COLLECTION EFFORTS</p>
+<p>The final research question addresses whether families know how much child support they are receiving while on TANF and how much they will receive once they go off welfare. It has long been a concern among researchers that custodial parents receiving welfare are not fully aware of how much child support is being paid on their behalf. This issue is important from a research standpoint, since statistics on child support receipt generally come from self-reported information on surveys—and also from a policy perspective—knowledge of child support receipt may encourage custodial parents to leave welfare and may give them a greater stake in pursuing regular child support payments. Similarly, knowledge of child support receipt among former welfare recipients may affect their ability to increase self-sufficiency and ensure proper distribution of support. Thus, it is important to assess custodial parents’ knowledge of payments as well as their knowledge of broader child support rules.</p>
+<p>Federal regulations require that states issue all current- or former-assistance custodial parents monthly notices that inform them of the amount of support collected on their behalf, including current support, arrearages, and the amount paid to the family. States have the option of only sending quarterly notices, but if they elect this option they must also have a toll-free automated voice response system to provide custodial parents with any information they would have otherwise received through the monthly mailings.</p>
+<p>An OIG (2001) study highlighted the importance of custodial parents’ awareness of the child support collections made on their behalf. The study included a survey of all 50 states and the District of Columbia as well as in-depth case studies of five states’ distribution policies. The OIG (2001) found that over half of all states experience difficulty in the timely and accurate distribution of collections in former-assistance cases. Along with ineffective distribution policies, many states also do not have systems in place to identify distribution errors. In fact, the report indicates that in four of the five case-study states, custodial parents are responsible for ensuring that collections are distributed appropriately. Although these policies suggest that states should be very concerned with the quality of their notification processes, through interviews and case notes reviews the OIG study found that custodial parents often struggled to understand the monthly accounting forms they received. A number of clients reported that they experienced similar problems with the automated phone systems. The report indicates that insufficient client notification may preclude custodial parents from accurately monitoring the distribution of support collected on their behalf, citing the fact that, of the 145 cases reviewed, two referenced a parent requesting that the state CSE agency resolve a discrepancy in distributions.</p>
+<p>Meyer and Hu (1999) used data from the CPS to explore the extent to which current welfare recipients accurately report the amount of child support paid on their behalf. Their analysis shows that, among female welfare recipients who report receipt of any amount of child support, almost half reported an amount that exceeded the disregard.(28) These findings might suggest that many welfare recipients are aware of the additional collections being made on their behalf, even if the state is not forwarding the funds to the custodial parents. Conversely, the findings could reflect the extent to which welfare recipients are receiving informal and undocumented support. However, considering the federal notification requirements and the concerns raised in the OIG’s 2001 report, the results of Meyer and Hu’s (1999) analysis necessitate further study of client awareness and its effect on child support outcomes and self-sufficiency.</p>
+<p>VIII. COORDINATION BETWEEN TANF AND CHILD SUPPORT</p>
+<p>Increasingly, administrators and legislators at all levels of government are acknowledging the importance of collaboration between various social service agencies. The relationship between TANF and CSE is no exception. These agencies are linked through legislative mandate (see Section I). As such, they share overlapping populations. Nationally, over 60 percent of the total IV-D caseload is comprised of either current or former public assistance cases (18 and 46 percent, respectively). In some states, as much as 86 percent of the caseload is comprised of current and former assistance recipients. But it is their congruent goals of promoting self-sufficiency among needy families that represent the most compelling evidence for a unified approach in their service delivery.</p>
+<p>Because these programs are linked by their constituencies, goals, and legislative mandates, there are numerous points at which the child support and TANF agencies can coordinate their efforts in order to improve overall service delivery and increase the number of custodial parents achieving self-sufficiency. Although the literature offers few examples of this collaboration, some work exists that highlights the importance of improving communication and cooperation across these agencies. The following sub-sections discuss two main areas where collaborative efforts by CSE and TANF programs can improve service delivery to current and former assistance recipients. The first sub-section addresses administrative issues that affect interagency interaction and program performance (e.g. staffing, participation requirements, intake interview protocol); the second deals with the design and interfacing of the two programs’ information systems.</p>
+<p><strong>A. Administrative Linkages </strong></p>
+<p>In order to avoid having their TANF grants reduced, custodial parents must cooperate with the state CSE program. For example, if paternity is not established, the custodial parent must provide the CSE program with information about the non-custodial parent. In other cases, cooperation might include providing the most current information about where the non-custodial parent resides and is working in order to facilitate order establishment and wage-withholding.</p>
+<p>States also have a financial stake in establishing and enforcing child support orders. If custodial parent cooperation with CSE staff results in order establishment and wage withholding, the state receives more reimbursement for TANF payments. Simultaneously, the state CSE program benefits because its performance on order establishment and collections are two criteria used to determine incentive payments paid by OCSE. Poor CSE performance also affects TANF program funding. States that perform below a certain threshold and do not improve their performance face reductions in their TANF block grants.</p>
+<p>State CSE staff rely heavily on information TANF workers collect from new clients. Thus, to do their jobs, CSE programs depend in part on the TANF staff to understand the importance of this information and to efficiently pass it along to their CSE counterparts. Often, this information is not detailed enough to be very useful in the CSE programs’ efforts to secure support payments from non-custodial parents.(29)</p>
+<p>States have begun to address the role of interagency collaboration in program performance. As the examples below illustrate, states have attempted to improve program performance through administrative initiatives including: co-location, cross-agency training, and more stringent TANF eligibility requirements.</p>
+<p>· A Rockefeller Institute of Government report (Ragan 2002) found that co-location enables more unified governance and eases the process of interagency collaboration.</p>
+<p>· A 1998 OCSE Dear Colleague Letter to state IV-A and IV-E Directors cited examples of state and county CSE programs that have benefited from co-location. In Virginia, TANF and CSE caseworkers are teamed within their offices in order to facilitate improved client cooperation, including the pairing of staff from the two agencies so that they are working on the same caseloads. In addition to co-locating CSE and TANF, the Kenosha County (Wisconsin) Job Center program includes the local employment services and child care agencies.</p>
+<p>· A 1994 GAO report points to a number of states that, as of its release, had made strides towards increased program integration. For example, Oregon created a single oversight agency for its CSE and welfare programs, which led to the creation of a single computer system for both programs, improved intake forms, and increased training. As part of this effort, welfare workers now receive training on how to use the new computer system to correctly enter identifying information that is useful to CSE efforts.</p>
+<p>· OCSE (2000) describes how, in an attempt to encourage client cooperation, Florida conducted a demonstration pilot in Bay County to assess the effect of early cooperation with CSE as an eligibility requirement for all custodial parents seeking TANF benefits. In order to become eligible, families must visit the county’s CSE offices to provide the information needed to initiate a support order. Until the applicant is able to demonstrate good cause for non-cooperation, he or she remains ineligible for TANF benefits. Compared to a control site operating under Florida’s traditional CSE laws, there were far fewer sanction requests made in Bay County. Furthermore, the results indicated that if the policy had been implemented statewide, Florida could have saved an estimated $12.4 million in TANF payments to welfare recipients who failed to cooperate and $1 million in staff time devoted to pre-interview and sanctioning activities.</p>
+<p><strong>B. System Automation and Integration </strong></p>
+<p>Prompt and accurate distribution of collections makes child support a more effective income support for welfare leavers. In an analysis of states’ distribution policies, the 2001 OIG study identifies some coordination issues—with particular attention paid to the relationship between states’ IV-A and IV-D agencies. Issues include:</p>
+<p>· <strong>A Lag in the Distribution of Collections</strong>. OIG found that it can take up to a month for some State Distribution Units (SDUs) to forward collections to TANF-leavers. SDUs are required to distribute any collections owed to former-assistance families within two business days of receipt. However, state CSE programs must receive notification from the IV-A agency in order to redirect these collections. OIG suggests that collections should be redistributed to families through states’ automated systems as soon as the system recognizes that the custodial parent has left TANF. This requires prompt updates of client status by TANF workers.</p>
+<p>· <strong>Underpayments.</strong> The OIG report cited some underpayment to custodial families—particularly in cases where there was a recent change in TANF status. Systematic reviews of distribution in former-assistance cases may prevent underpayment, especially since distribution rules change dramatically once a family has left TANF. Better system interfacing could address this problem.</p>
+<p>· <strong>Appropriate Client Notification.</strong> OIG noted that current TANF recipients were not always properly informed of collections being made on their behalf. In particular, in current assistance cases, custodial parents should be notified if collections exceed their TANF grant. In these cases, families could supplement their income with child support collections instead of remaining on welfare. Additionally, insufficient client notification may preclude custodial parents—both current and former TANF recipients—from accurately monitoring the distribution of support collected on their behalf.</p>
+<p>· <strong>Correct Contact Information</strong>. OIG suggested that distribution could be improved through increased efforts to obtain and verify address information for TANF leavers. In particular, TANF and CSE agencies could verify custodial parents’ addresses in the TANF discontinuation notice and the CSE continuing services notice.</p>
+<p><strong>IX. CONCLUSION </strong></p>
+<p>The overall findings from previous literature include the following:</p>
+<p>· The proportion of welfare recipients receiving child support has been increasing considerably in the past two decades. This is due, in part, to stronger child support enforcement laws and policies, which have increased paternity establishment, child support orders, and collection of child support payments for children in the IV-D program.</p>
+<p>· Child support income reduces poverty substantially for those women who receive it. Because only one-third of all poor women receive child support, the overall antipoverty effect of child support income is modest.</p>
+<p>· Women who receive child support are more likely to exit welfare and not return. One study found, however, that large amounts of child support are needed to increase welfare exits.</p>
+<p>· After recipients leave welfare, they tend to report higher rates of child support receipt. Child support among those welfare leavers who receive it comprises a significant share (more than one-quarter) of their total income.</p>
+<p>· There is limited research on how specific welfare policies, such as time limits, financial sanctions, and work mandates, affect child support receipt.</p>
+<p>· CSE and TANF programs are linked through legislative mandate, overlapping populations, and congruent goals, suggesting both a need for and a benefit to collaboration. While there is some evidence of collaboration at the state and local levels (e.g., co-locating TANF and CSE staff), many areas could be improved upon, including child support underpayments and a lag in the distribution of collections.</p>
+<p>While a substantial body of research on the interaction between child support and TANF has been conducted to date, most of the studies focused on the period prior to the passage of PRWORA. As discussed earlier, PRWORA imposed a number of changes that could affect child support receipt: (1) it allowed states to eliminate or set their own pass-through and disregard policies; (2) it reprioritized the distribution of collections in former-assistance cases; (3) it increased the paternity establishment goal from 75 percent to 90 percent; (4) it mandated that TANF recipients cooperate with the CSE agency in establishing support or face a financial sanction; (5) it expanded collection efforts by mandating that states establish an automated directory of new hires and requiring employers to report all new hires; (6) it mandated that states have laws permitting the revocation of licenses of non-custodial parents who owed past-due child support; and (7) it imposed time limits, financial incentives, and work mandates, which could indirectly affect child support receipt.</p>
+<p>This study will analyze several data sources that follow a sample of individuals after 1996, when PRWORA was enacted. These include the following:</p>
+<p>· The Survey of Income and Program Participation (SIPP), which covers the period from 1996 to 2000;</p>
+<p>· The Wisconsin Child Support Demonstration Evaluation, which follows a sample who entered Wisconsin’s W-2 program between September of 1997 (when it began) through July 8, 1998;</p>
+<p>· The National Survey of America’s Families, which is a nationally representative household survey fielded in 1997 and 1999; and</p>
+<p>· The Project on Devolution and Urban Change, which includes two waves of survey data (the first wave in 1998/1999 and the second wave in 2001) for a sample of residents in low-income neighborhoods in four counties.</p>
+<p>Additional pre-PRWORA data sources will also be analyzed. These include studies that occurred in states and communities experimenting with new policies, many of which were later implemented by other states after PRWORA was enacted. These include the following:</p>
+<ul><li>Welfare-to-work evaluations in Connecticut and Florida, which included time limits, financial incentives, and stricter work mandates;</li>
+<li>Welfare-to-work evaluations in Minnesota and Vermont, which had no time limit, but had generous financial incentives and work mandates;</li>
+<li>Parents’ Fair Share evaluation, which included a combination of enhanced child support enforcement, employment and training services, and peer support.</li>
+</ul><p>This study is unique in using several data sources, covering different samples and geographical areas, to answer a common set of research questions. It will build on the research conducted thus far and contribute significantly to the growing body of research on the interaction between TANF and child support.</p>
+<p>[ Go to <a href="#TOC">Contents</a> ]</p>
+<h2><a name="ref" id="ref">References</a></h2>
+<p>Acs, Gregory, Pamela Loprest, and Tracy Roberts (2001). <em>Final Synthesis Report of Findings from ASPE “Leavers” Grants</em>. Washington, DC: The Urban Institute.</p>
+<p>Bartfeld, Judi and Gary Sandefur (2001). “Paternity Establishment and Child Support Orders among W-2 Participants”, in <em>W2 Child Support Demonstration Evaluation Phase I: Final Report</em>, Vol II. Madison, WI: Institute for Research on Poverty, University of Wisconsin–Madison.</p>
+<p>Beller, Andrea H. and John W. Graham (1993). <em>Small Changes: The Economics of Child Support</em>. New Haven, CT: Yale University Press.</p>
+<p>Blank, Rebecca (2001) “Declining Caseloads/Increased Work: What Can We Conclude About the Effects of Welfare Reform?” <em>Economic Policy Review </em>(September). New York: Federal Reserve Bank of New York.</p>
+<p>Bloom, Dan, Susan Scrivener, Charles Michalopoulos, Pamela Morris, Richard Hendra, Diana Adams-Ciardullo, and Johanna Walter (2002). <em>Final Report on Connecticut's Welfare Reform Initiative</em>. New York: Manpower Demonstration Research Corporation.</p>
+<p>Bloom, Dan, James Kemple, Pamela Morris, Susan Scrivener, Nandita Verma, and Richard Hendra (2001a). <em>Final Report on Florida's Initial Time-Limited Welfare Program</em>. New York: Manpower Demonstration Research Corporation.</p>
+<p>Bloom, Dan, Mary Farrell, and Barbara Fink (2001b). <em>Welfare Time Limits: State Policies, Implementation, and Effects on Families</em>. New York: Manpower Demonstration Research Corporation.</p>
+<p>Cassetty, Judith (2002). “Child Support Disregard Policies and Program Outcomes: An Analysis of the Microdata from the CPS”, in <em>W2 Child Support Demonstration Evaluation Report on Nonexperimental Analyses</em>, Vol III. Madison, WI: Institute for Research on Poverty, University of Wisconsin–Madison.</p>
+<p>Cassetty, Judith, Maria Cancian, and Daniel Meyer (2002). “Child Support Disregard Policies and Program Outcomes: An Analysis of Data from the OCSE”, in <em>W2 Child Support Demonstration Evaluation Report on Nonexperimental Analyses</em>, Vol III. Madison, WI: Institute for Research on Poverty, University of Wisconsin–Madison.</p>
+<p>Council of Economic Advisors (1999). <em>The Effects of Welfare Policy and the Economic Expansion on Welfare Caseloads: An Update. </em>Washington, DC.</p>
+<p>Freeman, Richard B. and Jane Waldfogel (1998). “Dunning Delinquent Dads: The Effects of Child Support Enforcement Policy on Child Support Receipt by Never Married Women.” Cambridge, MA: Working Paper no. W6664, National Bureau of Economic Research.</p>
+<p>Gardiner, Karen, John Tapogna, and Michael E. Fishman (Forthcoming). <em>Administrative and Judicial Processes for Establishing Child Support Orders</em>. Report to the Office of Child Support Enforcement, U.S. Department of Health and Human Services. Washington, DC: The Lewin Group.</p>
+<p>Garfinkel, Irwin and Philip K. Robins (1994). “The Relationship between Child Support Enforcement Tools and Child Support Outcomes,” in <em>Child Support and Child Well-Being</em>, edited by Irwin Garfinkel, Sara S. McLanahan, and Philip K. Robins. Lanham, MD: University Press of America.</p>
+<p>Golden, Olivia A., Assistant Secretary for Children and Families, U.S. Department of Health and Human Services (2000). <em>Hearing on Child Support Enforcement Reforms: Testimony before the Subcommittee on Human Resources of the House Committee on Ways and Means</em>, 106<sup>th</sup> Congress, May 18, 2000.</p>
+<p>Gordon, Anne, Carole Kuhns, Renee Loeffler, Roberto Agodini (1999). <em>Experiences of Virginia Time Limit Families in the Six Months After Case Closure: Results for an Early Cohort</em>. Princeton, NJ: Mathematica Policy Research, Inc.</p>
+<p>Gordon, Anne, Jacqueline Kauff, Carole Kuhns, and Renee Loeffler (2002). <em>Experiences of Virginia Time Limit Families After Case Closure: 18-Month Followup with Cases Closed in 1998 and 1999</em>. Princeton, NJ: Mathematica Policy Research, Inc.</p>
+<p>Grall, Timothy (2002). <em>Custodial Mothers and Fathers and Their Child Support.</em> Washington, DC: P60-217, U.S. Bureau of the Census.</p>
+<p>Hanson, Thomas L., Irwin Garfinkel, Sara McLanahan, and Cynthia Miller. 1996. “Trends in Child Support Outcomes.” <em>Demography </em>33(4):483–496.</p>
+<p>Hu, Wei-Yin (1999). “Child Support, Welfare Dependency, and Women’s Labor Supply.” <em>Journal of Human Resources </em>34(1): 71-103.</p>
+<p>Huang, Chien-Chung, Irwin Garfinkel, and Jane Waldfogel (2000). “Child Support and Welfare Caseloads.” Madison, WI: Discussion Paper no. 1218-00, Institute for Research on Poverty, University of Wisconsin-Madison.</p>
+<p>Huang, Chien-Chung, James Kunz, and Irwin Garfinkel (2002). “The Effect of Child Support on Welfare Exits and Re-Entries.” <em>Journal of Policy Analysis and Management</em> 21(4): 557-576.</p>
+<p>Macro International and the Ohio Department of Job and Family Services (2000). <em>Ohio Job and Family Services Legislative Outcome Study</em>. Columbus, OH.</p>
+<p>Meyer, Daniel R. (1993). “Child Support and Welfare Dynamics: Evidence from Wisconsin.” <em>Demography </em>30(1): 45-62.</p>
+<p>Meyer, Daniel R. and Maria Cancian (2002a). “Ten Years Later: Economic Well-Being Among Those Who Left Welfare.” <em>Journal of Applied Social Sciences</em> 25:13-30.</p>
+<p>Meyer, Daniel R. and Maria Cancian (2002b). “Exploring Potential Effects of a Child Support Pass-Through and Disregard: Did Formal Child Support Payments Change When mothers Went on and off AFDC?”, in <em>W2 Child Support Demonstration Evaluation Report on Nonexperimental Analyses</em>, Vol III. Madison, WI: Institute for Research on Poverty, University of Wisconsin–Madison.</p>
+<p>Meyer, Daniel R. and Mei-Chen Hu (1999) “A Note on the Anti-Poverty Effectiveness of Child Support Among Mother-Only Families.” <em>Journal of Human Resources </em>34(1): 225-234.</p>
+<p>Miller, Cynthia (2002). <em>Leavers, Stayers, and Cyclers: An Analysis of the Welfare Caseload</em>. New York: Manpower Demonstration Research Corporation.</p>
+<p>Minnesota Department of Human Services, Program Assessment and Integrity Division (2000). <em>Minnesota Family Investment Program Longitudinal Study: One Year After Baseline</em>. Minneapolis, MN.</p>
+<p>Ragan, Mark (2002). <em>Service Integration in Colorado: Connecting Programs to Provide Better Services in Mesa and El Paso Counties.</em> Albany, NY: Rockefeller Institute of Government.</p>
+<p>Roberts, Paula and Michelle Jordan (2002). <em>State Policies Regarding Pass-Through and Disregard of Current Month’s Child Support Collected for Families Receiving TANF-Funded Cash Assistance</em>. Washington, DC: Center for Law and Social Policy.</p>
+<p>Seltzer, Judith A. (1999). “Legal Fatherhood for Children Born Out of Wedlock.” Paper presented at “Conference on Nonmarital Childbearing,” Institute for Research on Poverty, University of Wisconsin–Madison, April 29–30, 1999.</p>
+<p>Sorensen, Elaine and Ariel Halpern (1999). <em>Child Support Enforcement: How Well is it Doing?</em> Washington, DC: The Urban Institute.</p>
+<p>Sorensen, Elaine and Chava Zibman (2000). <em>To What Extent Do Children Benefit from Child Support?</em> Washington, DC: The Urban Institute.</p>
+<p>U.S. Census Bureau, Current Population Survey, April 2000. Washington, DC.</p>
+<p>U.S. Department of Health and Human Services, Office of Child Support Enforcement (2000). <em>Best Practices and Good Ideas in Child Support Enforcement 2000</em>. Washington, DC.</p>
+<p>U.S. Department of Health and Human Services, Office of the Inspector General (2000). <em>Client Cooperation with Child Support Enforcement: The Role of Public Assistance Agencies</em>. OEI-06-98-00042. Washington, DC.</p>
+<p>U.S. Department of Health and Human Services, Office of Inspector General (2001). <em>Distributing Collected Child Support to Families Exiting TANF</em>. OEI-05-01-00220. Washington, DC.</p>
+<p>U.S. Department of Health and Human Services, Office of Child Support Enforcement (2003). <em>Child Support Enforcement FY 2001 Annual Statistical Report</em>. http://www.acf.hhs.gov/programs/cse/pubs/2003/reports/statistical_report/</p>
+<p>U.S. General Accounting Office (1994). <em>Child Support Enforcement: Families Could Benefit From Stronger Enforcement Program.</em> HEH-95-24. Washington, DC.</p>
+<p>U.S. General Accounting Office (1998). <em>Welfare Reform: Child Support an Uncertain Income Supplement for Families Leaving Welfare.</em> HEH-98-168. Washington, DC.</p>
+<p>U.S. House of Representatives, Committee on Ways and Means (2000). <em>2000 Green Book</em>. Washington, DC: U.S. Government Printing Office.</p>
+<p>[ Go to <a href="#TOC">Contents</a> ]</p>
+<p> </p>
+<h2><a name="Apa" id="Apa">APPENDIX A:</a><br /><strong>CHILD SUPPORT PASS-THROUGH, DISREGARD, AND DISTRIBUTION POLICIES </strong></h2>
+<p> </p>
+<table align="Center" border="" cellpadding="2" cellspacing="0"><caption><strong><a name="apa1" id="apa1">Appendix Exhibit A-1:</a><br />
+		State Pass-Through and Disregard Policies as of April, 2002 </strong></caption>
+<tbody><tr><th>STATE</th>
+<th>STATUS</th>
+</tr><tr><td>Alabama</td>
+<td>Up to $50 passed through. Amount counted as income</td>
+</tr><tr><td>Alaska</td>
+<td>Up to $50 passed through. Amount disregarded for purposes of eligibility and benefits.</td>
+</tr><tr><td>Arizona</td>
+<td>No pass-through/disregard.</td>
+</tr><tr><td>Arkansas</td>
+<td>No pass-through/disregard.</td>
+</tr><tr><td>California</td>
+<td>Up to $40 passed through. Amount disregarded for purposes of eligibility and benefits.</td>
+</tr><tr><td>Colorado</td>
+<td>No pass-through/disregard.</td>
+</tr><tr><td>Connecticut</td>
+<td>State passes through all support to family. Up to $50 disregarded for purposes of calculating benefits.</td>
+</tr><tr><td>Delaware</td>
+<td>Up to $50 passed through. Amount disregarded for purposes of eligibility and benefits. State also uses fill-the-gap budgeting.</td>
+</tr><tr><td>District of Columbia</td>
+<td>No pass-through/disregard.</td>
+</tr><tr><td>Florida</td>
+<td>No pass-through/disregard.</td>
+</tr><tr><td>Georgia</td>
+<td>State passes through and disregards some or all support for purposes of fill-the-gap budgeting.</td>
+</tr><tr><td>Hawaii</td>
+<td>No pass-through/disregard.</td>
+</tr><tr><td>Idaho</td>
+<td>No pass-through/disregard.</td>
+</tr><tr><td>Illinois</td>
+<td>Up to $50 passed through. Amount disregarded for purposes of eligibility and benefits.</td>
+</tr><tr><td>Indiana</td>
+<td>No pass-through/disregard.</td>
+</tr><tr><td>Iowa</td>
+<td>No pass-through/disregard.</td>
+</tr><tr><td>Kansas</td>
+<td>No pass-through/disregard.</td>
+</tr><tr><td>Kentucky</td>
+<td>No pass-through. However, the first $50 is disregarded for purposes of gross income test used in determining TANF eligibility. If meet gross income test, full amount disregarded for purposes of eligibility and benefits.</td>
+</tr><tr><td>Louisiana</td>
+<td>No pass-through/disregard.</td>
+</tr><tr><td>Maine</td>
+<td>Up to $50 passed through. Amount disregarded for purposes of eligibility and benefits. State also uses fill-the-gap budgeting.</td>
+</tr><tr><td>Maryland</td>
+<td>No pass-through/disregard.</td>
+</tr><tr><td>Massachusetts</td>
+<td>Up to $50 passed through. Amount disregarded for purposes of eligibility and benefits. Exception: If a child is excluded from grant by family cap then all child support collected is passed-through and $90 is disregarded.</td>
+</tr><tr><td>Michigan</td>
+<td>Up to $50 passed through. Amount disregarded for purposes of eligibility and benefits.</td>
+</tr><tr><td>Minnesota</td>
+<td>State passes through all support up to court order to families but does not disregard any for purposes of calculating benefits.</td>
+</tr><tr><td>Mississippi</td>
+<td>No pass-through/disregard.</td>
+</tr><tr><td>Missouri</td>
+<td>No pass-through/disregard.</td>
+</tr><tr><td>Montana</td>
+<td>No pass-through/disregard.</td>
+</tr><tr><td>Nebraska</td>
+<td>No pass-through/disregard.</td>
+</tr><tr><td>Nevada</td>
+<td>Up to $75 passed through. Amount disregarded for purposes of eligibility and benefits.</td>
+</tr><tr><td>New Hampshire</td>
+<td>No pass-through/disregard.</td>
+</tr><tr><td>New Jersey</td>
+<td>Up to $50 passed through. Amount disregarded for purposes of eligibility and benefits.</td>
+</tr><tr><td>New Mexico</td>
+<td>Up to $50 passed through. Amount disregarded for purposes of eligibility and benefits.</td>
+</tr><tr><td>New York</td>
+<td>Up to $50 passed through. Amount disregarded for purposes of eligibility and benefits.</td>
+</tr><tr><td>North Carolina</td>
+<td>No pass-through/disregard.</td>
+</tr><tr><td>North Dakota</td>
+<td>No pass-through/disregard.</td>
+</tr><tr><td>Ohio</td>
+<td>No pass-through/disregard.</td>
+</tr><tr><td>Oklahoma</td>
+<td>No pass-through/disregard.</td>
+</tr><tr><td>Oregon</td>
+<td>No pass-through/disregard.</td>
+</tr><tr><td>Pennsylvania</td>
+<td>Up to $50 passed through. Amount disregarded for purposes of eligibility and benefits.</td>
+</tr><tr><td>Rhode Island</td>
+<td>Up to $50 passed through. Amount disregarded for purposes of eligibility and benefits.</td>
+</tr><tr><td>South Carolina</td>
+<td>State passes through and disregards some or all support for purposes of fill-the-gap budgeting.</td>
+</tr><tr><td>South Dakota</td>
+<td>No pass-through/disregard.</td>
+</tr><tr><td>Tennessee</td>
+<td>State passes through and disregards some or all support for purposes of fill-the-gap budgeting.</td>
+</tr><tr><td>Texas</td>
+<td>State retains all support collected. However, TANF grant for those on whose behalf current support is collected is increased by up to $50 a month.</td>
+</tr><tr><td>Utah</td>
+<td>No pass-through/disregard.</td>
+</tr><tr><td>Vermont</td>
+<td>Family Bonus Payment - The first $50 is passed through. That amount is disregarded for purposes of eligibility.
+<p> </p>
+<p>Parent Share Payment - The amount in excess of $50 from support collected is passed through. That amount is deducted from the grant</p>
+</td>
+</tr><tr><td>Virginia</td>
+<td>Up to $50 passed through. Amount disregarded for purposes of eligibility and benefits.</td>
+</tr><tr><td>Washington</td>
+<td>No pass-through/disregard.</td>
+</tr><tr><td>West Virginia</td>
+<td>State retains all support collected. However, TANF grant for those on whose behalf current support is collected is increased by up to $50 a month.</td>
+</tr><tr><td>Wisconsin<sup>(1)</sup></td>
+<td>Experimental Group or 100% Pass-Through - State passes through all support to the family. Full amount is disregarded for purposes of benefits.
+<p> </p>
+<p>Control Group or Partial Pass-Through - State passes through up to $50 or 41%, whichever is greater, for participants receiving a cash benefit or participants with a state-subsidized job. Amount is disregarded for purposes of eligibility and benefits. (If they move up to receive case management and child care or child support services, they also get full support passed through.)</p>
+</td>
+</tr><tr><td>Wyoming</td>
+<td>No pass-through/disregard.</td>
+</tr><tr><td colspan="2"><strong>Note:</strong>
+<p>(1) As of July 2002, the State passes through all support to the family and the full amount is disregarded for purpose of benefits.</p>
+<p><strong>Source:</strong> Roberts and Jordan (2002).</p>
+</td>
+</tr></tbody></table><p> </p>
+<h2><a name="apa2" id="apa2">Appendix Exhibit A-2:<br />
+	Distribution Priorities for Former-Assistance Cases</a></h2>
+<p><img alt="Appendix Exhibit A-2: Distirbution Priorities for Former-Assistance Cases." src="/system/files/images-reports-basic/64636/A2.gif" style="height:333px; width:505px" /></p>
+<p>[ Go to <a href="#TOC">Contents</a> ]</p>
+<h2><a name="Endnotes" id="Endnotes">Endnotes</a></h2>
+<p><a name="1" id="1">(1)</a> The 1975 law also allowed families not on welfare to apply for CSE services. Support collected on behalf of these families is distributed directly to them. These families, however, are the minority. Fiscal year (FY) 2001 data indicates that of the roughly 17 million child support cases nationally, about 18 percent were current public assistance recipients and 46 percent former recipients.</p>
+<p><a name="2" id="2">(2)</a> A recent Lewin Group study found that 12 states have administrative processes for establishing orders, 24 have judicial processes, and 15 have quasi-judicial ones (Gardiner et al, Forthcoming).</p>
+<p><a name="3" id="3">(3)</a> In order to avoid sanction for non-cooperation, the custodial parent must give evidence of “good-cause” for his or her reluctance to cooperate. Exceptions are most often made for cases involving rape, incest, or domestic violence.</p>
+<p><a name="4" id="4">(4)</a> Unpublished OCSE administrative data based on state submission of the OCSE-157 form. Median scores only include data from those states that passed OCSE data reliability audits.</p>
+<p><a name="5" id="5">(5)</a> Poor is defined as below the federal poverty level.</p>
+<p><a name="6" id="6">(6)</a> According to OCSE, over 60 percent of all child support is obtained through wage withholding (<a href="http://www.acf.dhhs.gov/news/facts/csenew.html">http://www.acf.dhhs.gov/news/facts/csenew.html</a>). [Accessed April 2003].</p>
+<p><a name="7" id="7">(7)</a> Unpublished OCSE administrative data based on state submission of the OCSE-157 form. OCSE calculates this number by dividing support collected by the total amount due for each state. Median only includes data from those states that passed OCSE data reliability audits.</p>
+<p><a name="8" id="8">(8)</a> Several studies examine never-married women separately from previously-married women to disentangle the effect of the changes in family composition over time. Never-married women have lower child support receipt rates than previously-married women, but this group comprises a growing share of single-mother families. The gains achieved by the never-married group would be masked by a substantially smaller increase in child support receipt among all single-mother families.</p>
+<p><a name="9" id="9">(9)</a> The lower bound estimate was calculated by examining families who would be poor if they had no income from other transfer programs (social insurance and cash welfare); the higher bound estimate was calculated using the other forms of income sources to determine income pre-child support and post-child support.</p>
+<p><a name="10" id="10">(10)</a> Surveys in eight of the studies asked about child support income (District of Columbia, Illinois, Iowa, Massachusetts, Missouri, South Carolina, Washington, and Cuyahoga County, Ohio).</p>
+<p><a name="11" id="11">(11)</a> Data from the following programs were used: Vermont’s Welfare Restructuring Project (WRP), the Minnesota Family Investment Program (MFIP), the National Evaluation of Welfare-to-Work Strategies (<a href="http://aspe.hhs.gov/hsp/NEWWS/">NEWWS</a>), Florida’s Family Transition Program (FTP) and Connecticut’s Job First Program (Jobs First).</p>
+<p><a name="12" id="12">(12)</a> Arizona and Iowa.</p>
+<p><a name="13" id="13">(13)</a> Results from Gordon et al (1999) only include families who left welfare because their benefits expired.</p>
+<p><a name="14" id="14">(14)</a> Arizona, Iowa, Missouri, and Washington.</p>
+<p><a name="15" id="15">(15)</a> Arizona, Iowa, and Washington.</p>
+<p><a name="16" id="16">(16)</a> Information was not available for Iowa.</p>
+<p><a name="17" id="17">(17)</a> As part of the study, OIG surveyed all 50 states and the District of Columbia and conducted in-depth case studies of five states’ distribution policies. The case studies included interviews with CSE and TANF staff in each of the five states and reviews of 145 TANF-leaver case files.</p>
+<p><a name="18" id="18">(18)</a> The first cohort is composed of all families whose welfare benefits expired between February 1 and June 30, 1998, the second includes all cases closed due to time limits between February 1 and June 30, 1999.</p>
+<p><a name="19" id="19">(19)</a> Virginia’s pass-through and disregard polices mean that families receive up to $50 per month in child support while on welfare, thus explaining the average amount received during the last month on TANF ($48). This amount jumped to $207 six months after exit, and increased to $221 after 18 months.</p>
+<p><a name="20" id="20">(20)</a> The report notes that findings should be interpreted with caution due to small sample sizes.</p>
+<p><a name="21" id="21">(21)</a> Title IV, Part D, Section 457 of the Social Security Act lists the full regulations governing child support assignment and distribution policies.</p>
+<p><a name="22" id="22">(22)</a> The one exception to this policy affects collections made through the federal income tax refund offset. The state retains the rights to pre-assistance arrearages when collections are made through this mechanism. Because of this stipulation, the rights to pre-assistance arrearages (not exceeding the cumulative amount of unreimbursed assistance) are referred to as “conditionally-assigned arrearages.”</p>
+<p><a name="23" id="23">(23)</a> There are some states that have pass-through policies but no disregard. As a result, some states now send a portion of current collections to TANF recipients, but they simultaneously reduce the family’s welfare grant by the amount passed-through. Cassetty (2002) suggests that future research should attempt to disentangle the independent effects of pass-through and disregard policies.</p>
+<p><a name="24" id="24">(24)</a> The exception is support obtained through the federal income tax refund offset. When these collections are made for families no longer on welfare, they are retained by the state and applied to assigned arrearages (in an order determined by each individual state) up to the amount of unreimbursed public assistance funds paid to the family.</p>
+<p><a name="25" id="25">(25)</a> States were allowed to phase-in the distribution requirements in PRWORA. The legislation required the states to have fully implemented the policies by October 1, 2000.</p>
+<p><a name="26" id="26">(26)</a> Unassigned arrearages refers to pre-assistance past support due which exceeds the cumulative amount of unreimbursed assistance and was assigned to the state while the custodial parent was receiving welfare benefits. See &lt;<a href="#22">22</a>&gt; for an explanation of conditionally assigned arrearages. The order in which these arrearages are satisfied is at states’ discretion.</p>
+<p><a name="27" id="27">(27)</a> Sorensen and Halpern (1999) used $50 per month as the definition of pass-through policies. Cassety et al (2002) allowed for variable disregards (e.g., for states that had “fill-the-gap” policies and states experimenting with other levels of fixed disregards under waivers).</p>
+<p><a name="28" id="28">(28)</a> The authors do note that some limitations with the data does not make the analysis completely conclusive.</p>
+<p><a name="29" id="29">(29)</a> An OIG report (2000) suggests a number of reasons that information collected by TANF staff might lack necessary detail: TANF staff face time pressures; they do not use information about non-custodial parents for TANF purposes so might not understand which information is most useful to CSE staff; they have little direct incentive to collect the data since the child support interview is not a “performance indicator” for frontline workers; and they lack the databases to verify information clients provide (e.g., motor vehicle or employment data).</p>
+<div class="group-tags"><div class="field-label">Tags:&nbsp;</div><a href="/terms/economic-support-and-employment">Economic Support and Employment</a><a href="/terms/child-support-0">Child Support</a><a href="/terms/welfare-welfare-reformtanf">Welfare/ Welfare Reform/TANF</a><a href="/terms/family-and-marriage-issues">Family and Marriage Issues</a><a href="/terms/child-support">Child Support</a><a href="/terms/family-strengthening">Family Strengthening</a><a href="/terms/child-support-1">Child Support</a><a href="/terms/welfare-work-and-self-sufficiency">Welfare, Work, and Self-Sufficiency</a><a href="/terms/applicant-recipient-and-leavers-studies-descriptive-characteristics">Applicant, Recipient, and Leavers Studies (Descriptive Characteristics)</a></div>  </div>
+
+      <footer>
+          </footer>
+  
+    <div id="block-webform-client-block-158521" class="widget block block-webform" >
+  
+      
+  <div id="webform-ajax-wrapper-158521"><form class="webform-client-form webform-client-form-158521" action="/basic-report/child-support-and-tanf-interaction-literature-review-april-2003" method="post" id="webform-client-form-158521" accept-charset="UTF-8"><div><div class="webform-progressbar">
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-radios webform-component--was-this-page-helpful">
+  <label for="edit-submitted-was-this-page-helpful">Was this page helpful? <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-was-this-page-helpful" class="form-radios"><div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-1" name="submitted[was_this_page_helpful]" value="1" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-1">Yes </label>
+
+</div>
+<div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-2" name="submitted[was_this_page_helpful]" value="0" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-2">No </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="4" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-gzWqyh9Ay82FqHq9X0Wd5s1XdO4wpnsQkNUPlAoUtM4" />
+<input type="hidden" name="form_id" value="webform_client_form_158521" />
+<input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-158521" />
+<div class="form-actions"><input class="webform-next button-primary btn btn-default form-submit" type="submit" id="edit-webform-ajax-next-158521" name="op" value="Next &gt;" /></div>
+<div class="is-useful-disclaimer"> <a href="/%23" class="" title="Survey Disclaimer" data-toggle="modal" data-target="#disclamerModal">Form Approved OMB# 0990-0379 Exp. Date 8/31/2017</a></div>
+<div class="modal fade" id="disclamerModal" tabindex="-1" role="dialog" aria-labelledby="disclamerModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="disclamerModalLabel">Survey Disclaimer</h2>
+      </div>
+      <div class="modal-body">
+         According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this information collection is 0990-0379. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, gather the data needed, and complete and review the information collection. If you have comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: U.S. Department of Health & Human Services, OS/OCIO/PRA, 200 Independence Ave., S.W., Suite 336-E, Washington D.C. 20201, Attention: PRA Reports Clearance Officer.      </div>
+    </div>
+  </div>
+</div></div></form></div>
+  </div> <!-- /.block -->
+<meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/child-support-and-tanf-interaction-literature-review-april-2003" itemref="md1 md3 md5 md7 md9 md11 md13 md15 md17 md19" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/economic-support-and-employment" id="md3" itemref="md2" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/child-support-0" id="md5" itemref="md4" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/welfare-welfare-reformtanf" id="md7" itemref="md6" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/family-and-marriage-issues" id="md9" itemref="md8" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/child-support" id="md11" itemref="md10" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/family-strengthening" id="md13" itemref="md12" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/child-support-1" id="md15" itemref="md14" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/welfare-work-and-self-sufficiency" id="md17" itemref="md16" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/applicant-recipient-and-leavers-studies-descriptive-characteristics" id="md19" itemref="md18" />              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <footer  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Footer">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  id="footer_sitemap-footer_sitemap" class="col-sm-6 col-md-6 col-lg-4 ">
+                          
+                              <div id="block-footer-sitemap-footer-sitemap" class="widget block block-footer-sitemap" >
+  
+      
+  <div id="footer-sitemap" class="clearfix">
+  <div class="fs-block-content"><div class="menu-footer-utility"><ul class="footer_links_menu-footer-utility total-items-2 parent-items-0 single-items-0"><li class="menu-5021 depth-1 total-children-8 parent-children-0 single-children-8  first"><a href="/" title="look at ASPE Home" class="fs-root-link">ASPE Home</a><ul class="footer_links_menu-footer-utility total-items-8 parent-items-0 single-items-0"><li class="menu-5026 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/" title="look at HHS Home">HHS Home</a></li>
+<li class="menu-66281 depth-1 fs-no-children"><a href="http://www.usa.gov/" title="look at USA.gov">USA.gov</a></li>
+<li class="menu-66316 depth-1 fs-no-children"><a href="https://oig.hhs.gov/" title="look at Office of the Inspector General">Office of the Inspector General</a></li>
+<li class="menu-66321 depth-1 fs-no-children"><a href="http://www.whitehouse.gov" title="look at The White House">The White House</a></li>
+<li class="menu-5046 depth-1 fs-no-children"><a href="http://www.hhs.gov/Accessibility.html" title="look at Accessibility">Accessibility</a></li>
+<li class="menu-66326 depth-1 fs-no-children"><a href="http://www.hhs.gov/about/budget/index.html" title="look at Budget/Performance">Budget/Performance</a></li>
+<li class="menu-2551 depth-1 fs-no-children"><a href="http://www.hhs.gov/Privacy.html" title="look at Privacy Policy">Privacy Policy</a></li>
+<li class="menu-197776 depth-1 fs-no-children  last"><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" title="Nondiscrimination Notice">Nondiscrimination Notice</a></li>
+</ul></li>
+<li class="menu-5051 depth-1 total-children-4 parent-children-0 single-children-4  last"><a href="http://www.hhs.gov/foia/" title="look at FOIA" class="fs-root-link">FOIA</a><ul class="footer_links_menu-footer-utility total-items-4 parent-items-0 single-items-0"><li class="menu-5056 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/open/recordsandreports/plainwritingact/index.html" title="look at Plain Writing Act">Plain Writing Act</a></li>
+<li class="menu-5061 depth-1 fs-no-children"><a href="http://www.hhs.gov/asa/eeo/no_fear_bullet_3.html" title="look at No Fear Act">No Fear Act</a></li>
+<li class="menu-5066 depth-1 fs-no-children"><a href="http://www.hhs.gov/Disclaimer.html" title="look at Disclaimers">Disclaimers</a></li>
+<li class="menu-2546 depth-1 fs-no-children  last"><a href="http://www.hhs.gov/plugins.html" title="look at Viewers &amp; Players">Viewers &amp; Players</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-5 " id="stability_cms-contact_us">
+                          
+                              <div id="block-stability-cms-contact-us" class="widget block block-stability-cms" >
+  
+      
+  <div class="contacts-widget widget widget__footer">
+	<div class="widget-content">
+		<ul class="contacts-info-list">
+      			<li>
+<!--				<i class="fa fa-map-marker">Address</i>-->
+                <div class="info-icons">
+                    <img  alt="map" class= 'map-icons' src="/sites/all/themes/stability/stability_aspe/images/map.png"/>
+                </div>
+                <div class="info-item">
+					Assistant Secretary for Planning and Evaluation, Room 415F<br />
+U.S. Department of Health and Human Services<br />
+200 Independence Avenue, SW<br />
+Washington, D.C. 20201				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-phone">phone</i>-->
+                <div class="info-icons">
+                    <img alt="phone" src="/sites/all/themes/stability/stability_aspe/images/phone.png"/>
+                </div>
+				<div class="info-item">
+					+1 202.690.7858				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-envelope">email</i>-->
+                <div class="info-icons">
+                    <img alt="mail" src="/sites/all/themes/stability/stability_aspe/images/mail-white.png"/>
+                </div>
+				<span class="info-item">
+					<a href="mailto:osaspeinfo@hhs.gov">osaspeinfo@hhs.gov</a>
+				</span>
+			</li>
+      			                					</ul>
+	</div>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-3 " id="footer">
+                          
+                              <div id="block-block-36" class="widget block block-block" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sign-up</span> for Email Updates</h3>
+		</div>
+    
+  <div class="email_updates">
+<button class="btn btn-default" name="subscribe-button" type="submit" value="subscribe">subscribe</button>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-12 " id="menu-menu-footer-language-menu">
+                          
+                              <div id="block-menu-menu-footer-language-menu" class="widget block block-menu" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Language</span> Assistance Available</h3>
+		</div>
+    
+  <ul class="menu"><li class="first expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#spanish" title="Español">Español</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#chinese" title="繁體中文">繁體中文</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#vietnamese" title="Tiếng Việt">Tiếng Việt</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#korean" title="한국어">한국어</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#tagalog" title="Tagalog">Tagalog</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#russian" title="Русский">Русский</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#arabic" title="العربية">العربية</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#creole" title="Kreyòl Ayisyen">Kreyòl Ayisyen</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#french" title="Français">Français</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#polish" title="Polski">Polski</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#portuguese" title="Português">Português</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#italian" title="Italiano">Italiano</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#german" title="Deutsch">Deutsch</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#japanese" title="日本語">日本語</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#farsi" title="فارسی">فارسی</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#english" title="English">English</a></li>
+</ul></li>
+</ul>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+      </div>
+
+          </div>
+    
+    
+      </footer>
+    
+
+    <!--/PAGEWATCH-->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+                        </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="social-links-wrapper">
+              <span class="social-links-txt">Connect with us</span>
+              <ul class="social-links social-links__dark">
+                                                  <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw-grey.png"/></a></li>
+                                <!--                --><!--                  <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin-grey.png"/></a></li>-->
+<!--                -->
+                                                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>  <script type="text/javascript" src="/sites/default/files/advagg_js/js__VWRymaMz6HfrhnrcJNGcDiSvLVrvhaXvBa7nrBYy8gc__jntPwP3D6myJZH1jW19fXrk5cYMHGRL8NQION22VSEA__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5486d15a696bff0c"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__g6mKbcakHxQkz4ZHYaxdO_xqONINvRMgsHh1zAK-fr0__ATHtEmHaeZ0jidpGU22EkhmPDBSgjD8z0bVDQMI-BIY__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__KUp4PrfOt9BSXUVl8Ctb3dhCMBe4MNVMeb4Gyorx8yY__7g4BeXscCIZAfuu1vxsCj2RIemg-eEK0QpChP9LDmFQ__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__PNjAgubM_3xXRLp4uLsYnv8wQAdT89-RYkSPxT6T45c__rFQwFK4pA5ZaWZSF7FPTfKbbpus0h-5IS8ayrNZGrb4__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__vQiLul2UcfC4nBAR09mhYVBYzRmiNDm2dj3GgSubV38__w84oZe-ZODKe7XnnlbrjV4IWHISOy4PioFEMVgx9hZo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__QJw3g0kOdwsv4twSZLP931zBzsHy50VEHpEN_znIitQ__A6QOuWXElDipBM2iChbWhjAAt3KlUwZ-jODoxdpbwiw__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stability_aspe","theme_token":"I80zjfxh5IN5FlaBEUtE4OR2gpsM2hWQxBXhyNT7tiA","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/footable.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/aspe_nodes.admin.css":1,"sites\/all\/modules\/custom\/aspe_views\/theme\/css\/aspe_views.admin.css":1,"sites\/all\/modules\/forked\/book\/book.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/openpublic\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.css":1,"profiles\/openpublic\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openpublic\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/openpublic\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/themes\/stability\/css\/bootstrap.min.css":1,"sites\/all\/themes\/stability\/css\/fonts\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.theme.css":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/stability\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/stability\/css\/theme.css":1,"sites\/all\/themes\/stability\/css\/theme-elements.css":1,"sites\/all\/themes\/stability\/css\/animate.min.css":1,"sites\/all\/themes\/stability\/css\/skins\/red.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/slideshow.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/font-main.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/styleless.less":1,"sites\/all\/themes\/stability\/css\/skins\/blue.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/aspe\/theme\/js\/aspe.login-confirm.js":1,"sites\/all\/modules\/custom\/aspe_report\/modules\/aspe_databooks\/js\/aspe_databooks.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.highcharts.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/datatables\/dataTables.min.js":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.min.js":1,"sites\/all\/libraries\/highcharts\/highcharts.js":1,"sites\/all\/libraries\/highcharts\/highcharts.exporting.js":1,"sites\/all\/libraries\/highcharts\/highcharts.map.js":1,"sites\/all\/libraries\/highcharts\/highcharts.us-all.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.footable.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5486d15a696bff0c":1,"misc\/progress.js":1,"profiles\/openpublic\/modules\/contrib\/webform\/js\/webform.js":1,"profiles\/openpublic\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/stability\/vendor\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/stability\/vendor\/bootstrap.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flexnav.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flickrfeed.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.sloppy-masonry.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.fitvids.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.stellar.min.js":1,"sites\/all\/themes\/stability\/vendor\/snap.svg-min.js":1,"sites\/all\/themes\/stability\/js\/custom.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/aspe.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/html5shiv.min.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/main-menu.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/keyboard-control.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tabBehavior.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tileStringTrimmer.js":1}},"webform":{"conditionals":{"webform-client-form-158521":{"ruleGroups":[],"sourceMap":[],"values":[]}}},"ajax":{"edit-webform-ajax-next-158521":{"callback":"webform_ajax_callback","wrapper":"webform-ajax-wrapper-158521","progress":{"message":"","type":"throbber"},"event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Next \u003E"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/basic-report\/child-support-and-tanf-interaction-literature-review-april-2003":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"([a-z0-9]\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This website contains links to other federal and state agencies and private organizations. The Department of Health and Human Services (HHS) cannot attest to the accuracy of information provided by these nonfederal website links. Linking to nonfederal sites does not constitute an endorsement by HHS or any of its employees of the sponsors or the information and products presented on the sites. You will be subject to the destination site\u0027s privacy policy when you leave the ASPE website.\r\n\r\nThank you for visiting aspe.hhs.gov!","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"stability":{"flickr_id":"52617155@N08","logo_sticky":"28"},"field_group":{"div":"full","hidden":"full"}});
+//--><!]]>
+</script>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config={pubid:"ra-5486d15a696bff0c",ui_click:false}
+//--><!]]>
+</script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4837db659","applicationID":"10708002","transactionName":"MwNaZBRSXEtXB0BdWQpJbUIPHFtWUgFMGkYMFg==","queueTime":0,"applicationTime":30,"atts":"H0RZElxIT0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

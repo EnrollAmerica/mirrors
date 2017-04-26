@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">  <!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://aspe.hhs.gov/sites/default/files/Favicon2.png" type="image/png" />
+<meta name="description" content="The Lewin Group, Inc. Berkeley Policy Associates, Cornell University" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://aspe.hhs.gov/execsum/research-employment-supports-people-disabilities-summary-focus-group-findings" />
+<link rel="shortlink" href="https://aspe.hhs.gov/node/99031" />
+<meta property="og:site_name" content="ASPE" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aspe.hhs.gov/execsum/research-employment-supports-people-disabilities-summary-focus-group-findings" />
+<meta property="og:title" content="Research on Employment Supports for People with Disabilities: Summary of the Focus Group Findings" />
+<meta property="og:description" content="The Lewin Group, Inc. Berkeley Policy Associates, Cornell University" />
+<meta property="og:updated_time" content="2016-12-03T04:14:25-05:00" />
+<meta property="article:published_time" content="2015-12-09T05:06:47-05:00" />
+<meta property="article:modified_time" content="2016-12-03T04:14:25-05:00" />
+
+  <title>Research on Employment Supports for People with Disabilities: Summary of the Focus Group Findings | ASPE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+  <link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__5ln8neBOcJfyUveiD4y9fhI6kHBLOQ_YL0mMC-LS9a0__TPJIZT9UBnf_685NlFTJ5KnZVsjwFk6ACQ-nwwygmwU__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ng49uRH5y4Hl9VF9hHW_vXOj-mcOc2u2ShJqJ1YKIGU__FoMCD14GBvZaRiqSQ_JpP1w3rDB21n7H2Ar4pRZaIh8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__Hskudx14OJ5Hz8vqU7CUgN6SDV5rINZuEq9VuGsSeyc__EwNIl3xeFrniW2TmonovTzhSs3X5MdFps210puE7jog__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__9rZoaX9BdzjjNucvYxduxeNAVO2zgW_Rvjhb5rq5whc__lSr_y16grDSgHf4booPChnF7QXz3TQY3hafH49twE0k__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZgfI_ZPib5yVY0o5aKo_6TFn946Tuu_nFDa0ySTmkSc__2FTFrNw2eNh0mpHIOA34r6YRwBZMm2PjJ_JubnwLigg__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__dxabpJ5rQgDSixKgLJZjWc1beC6mpROKwVrmWxI5eno__rqhz_hGsE_i59O7-W991o71_Jxw1QOtGMxn4nsOLHY8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZbRCq2NqWgK-HXAQI3So0N1n0nr4HonsJS3eQuuxukw__7Olkk8Locn8Dj0eR0Ww3rbV9lks9sxipcboMXB18RRs__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+
+	<!-- Head Libs -->
+	<script src="/sites/all/themes/stability/stability_aspe/vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/sites/all/themes/stability/vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" href="/sites/all/themes/stability/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/stability/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/stability/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/stability/images/apple-touch-icon-144x144.png">
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-99031 node-type-report-exec-sum">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-JLFR"
+                  height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JLFR');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-nav" class="accessibility_menu">
+    <strong>Shortcut Navigation:</strong>
+    <ul>
+      <li><a href="#content" accesskey="c" title="Skip to page content (ctrl/alt + c)">Page Content</a></li>
+      <li><a href="#nav" accesskey="m" title="Skip to main navigation menu (ctrl/alt + m)">Site Navigation</a></li>
+
+      <li><a href="#Footer" accesskey="f" title="Skip to footer (ctrl/alt + f)">Footer</a></li>
+    </ul>
+  </div>
+
+    
+<div class="site-wrapper">
+  
+  <header class="header header-menu-fullw header-top-clean">
+    <div id="brand-bar">
+        <div class="container">
+                    <img alt='bird' src="/sites/all/themes/stability/stability_aspe/images/bird.png"> <a target="blank" tabindex="4" href="http://www.hhs.gov/">U.S. Department of Health & Human Services</a>
+        </div>
+
+    </div>
+    <div class="header-main">
+        <div class="container clearfix">
+            <div class="social-links-wrapper">
+                <ul class="social-links social-links__light">
+                                                          <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw.png"/></a></li>
+                                    <!--                  --><!--                    <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin.png"/></a></li>-->
+<!--                  -->
+                                                                      </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                                <div class="site_name_wrapper">
+                                     <span class="h1">
+                                      <a href="/">ASPE</a>
+                                       </span>
+                                  <p class="tagline"><p>Office of The Assistant Secretary</p><p> for Planning and Evaluation</p></p>
+                    </div>
+            </div>
+            <!-- Logo / End -->
+            <div class="header_right_wrapper">
+                <div class="search-form">
+                    <form action="/execsum/research-employment-supports-people-disabilities-summary-focus-group-findings" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class = "input-group"><div class="form-type-textfield form-item-search-block-form form-item form-group">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search Site..." class="form-control form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input class="btn btn-primary btn-icon form-submit" type="image" id="edit-submit" name="submit" value="Search" src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/search-white2.png" alt="Search" title="Search" /></div></div><input type="hidden" name="form_build_id" value="form-QDRIEVW3tJwuV4pk9okmU-xn28S_RXHgMyU-lS3JAig" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </div>
+                <button type="button" class="navbar-toggle" value="Menu">
+                    <i class="fa fa-bars"></i>Menu
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-main">
+        <div class="container">
+          <ul data-breakpoint="767" class="flexnav">
+                <li class="first expanded"><a href="/basic-search/about" title="">About</a><ul><li class="first leaf"><a href="/mission" title="">Mission</a></li>
+<li class="leaf"><a href="/key-staff" title="">Leadership</a></li>
+<li class="leaf"><a href="https://www.usajobs.gov/" title="">Careers</a></li>
+<li class="expanded"><a href="/coordination" title="linkTo">Coordination</a><ul><li class="first leaf"><a href="/evaluation-evidence" title="">Evaluation &amp; Evidence</a></li>
+<li class="leaf"><a href="/national-alzheimers-project-act">National Alzheimer&#039;s Project Act</a></li>
+<li class="leaf"><a href="/health-and-human-services-hhs-data-council">HHS Data Council</a></li>
+<li class="last leaf"><a href="/national-committee-vital-and-health-statistics" title="National Council on Vital and Health Statistics">National Council on Vital and Health Statistics</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/divisions" title="">Offices</a><ul><li class="first leaf"><a href="/office-disability-aging-and-long-term-care-policy-daltcp">Disability, Aging, and Long-Term Care Policy</a></li>
+<li class="leaf"><a href="/office-health-policy-hp">Health Policy</a></li>
+<li class="leaf"><a href="/office-human-services-policy">Human Services Policy</a></li>
+<li class="last leaf"><a href="/office-science-and-data-policy">Science and Data Policy</a></li>
+</ul></li>
+<li class="leaf"><a href="/strategic-planning" title="Strategic Planning">Strategic Planning</a></li>
+<li class="last leaf"><a href="/contact-aspe" title="">Contact ASPE</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/topics" title="">Topics</a><ul><li class="first leaf"><a href="/affordable-care-act-research">Affordable Care Act Research</a></li>
+<li class="leaf"><a href="/alzheimers-dementia">Alzheimer&#039;s / Dementia</a></li>
+<li class="leaf"><a href="/early-childhood">Early Childhood</a></li>
+<li class="leaf"><a href="/incarceration-reentry">Incarceration &amp; Reentry</a></li>
+<li class="leaf"><a href="/opioid-abuse-us-and-hhs-actions-address-opioid-drug-related-overdoses-and-deaths" title="Opioids">Opioids</a></li>
+<li class="leaf"><a href="/patient-centered-outcomes-research-trust-fund">Patient-Centered Outcomes Research Trust Fund (PCORTF)</a></li>
+<li class="expanded"><a href="/basic-search/poverty" title="">Poverty</a><ul><li class="first leaf"><a href="/poverty-guidelines">Poverty Guidelines</a></li>
+<li class="last leaf"><a href="/poverty-estimates-trends-and-analysis">Poverty Analysis</a></li>
+</ul></li>
+<li class="leaf"><a href="/teen-pregnancy-prevention">Teen Pregnancy Prevention</a></li>
+<li class="leaf"><a href="/homelessness">Homelessness</a></li>
+<li class="last leaf"><a href="/medicare-access-and-chip-reauthorization-act-2015">MACRA</a></li>
+</ul></li>
+<li class="leaf"><a href="/reports" title="">Publications</a></li>
+<li class="last expanded"><a href="/basic-search/datasets" title="">Data and Tools</a><ul><li class="first last leaf"><a href="/evaluations" title="">Evaluation Database</a></li>
+</ul></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation / End -->
+</header>  <div class="main" role="main">
+    <!--PAGEWATCH CODE="USHHS_458"-->
+    <section class="page-heading">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+                <h1>
+                    
+          Research on Employment Supports for People with Disabilities: Summary of the Focus Group Findings        </h1>
+                                 <p class="author">
+                                                 <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2001-09-01T00:00:00-04:00">09/01/2001</span>               
+                           </p>
+
+
+                  </div>
+
+
+        <div class="col-md-6">
+           <ul class="breadcrumb"><li class="first"><a href="/" title="Home">Home</a></li>
+<li class="last">Research on Employment Support...</li>
+</ul>        </div>
+
+
+    </div>
+  </div>
+</section>
+    
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Content">     
+
+        
+                  
+        
+                                    <div  class="col-md-12 " id="content">
+                          
+                              <div id="block-aspe-aspe-addthis" class="widget block block-aspe" >
+  
+      
+  <div class="clearfix">
+  <ul class="addthis_sharing_toolbox node-share__links" data-url="https://aspe.hhs.gov/execsum/research-employment-supports-people-disabilities-summary-focus-group-findings" data-title="Research on Employment Supports for People with Disabilities: Summary of the Focus Group Findings">
+    <li><a class="addthis_button_print"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/print-white.png" alt="print" /></a></li>
+    <li><a class="addthis_button_email"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/mail-white.png" alt="email" /></a></li>
+    <li><a class="addthis_button_twitter"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/tw.png" alt="twitter" /></a></li>
+<!--    <li><a class="addthis_button_facebook">--><!--</a></li>-->
+    <li><a class="addthis_button_compact"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/plus-white.png" alt="compact" /></a></li>
+  </ul>
+</div>
+
+  </div> <!-- /.block -->
+
+                
+    
+  
+  <div class="content clearfix node-report-exec-sum">
+    <p style="text-align: center;"><strong>The Lewin Group, Inc.</strong></p>
+<p style="text-align: center;"><strong>Berkeley Policy Associates, Cornell University</strong></p>
+<hr /><blockquote><p><em>This report was prepared under contract #HHS-100-97-0011 between the U.S. Department of Health and Human Services (HHS), Office of Disability, Aging and Long-Term Care Policy (DALTCP) and The Lewin Group. For additional information about the study, you may visit the DALTCP home page at http://aspe.hhs.gov/daltcp/home.htm or contact the ASPE Project Officer, Andreas Frank, at HHS/ASPE/DALTCP, Room 424E, H.H. Humphrey Building, 200 Independence Avenue, SW, Washington, DC 20201. His e-mail address is: Andreas.Frank@hhs.gov.</em></p>
+</blockquote>
+<hr /><p> </p>
+<h2>A. INTRODUCTION</h2>
+<p>This report summarizes the findings from information collected during three sets of focus groups conducted for a study on employment supports for people with disabilities sponsored by the Office of the Assistant Secretary for Planning and Evaluation (ASPE) within the U.S. Department of Health and Human Services. The study is intended to increase the understanding of the role of various supports in helping people with disabilities find and maintain employment.</p>
+<p>The findings in this report are from focus groups conducted with 284 participants with significant disabilities, all of whom had obtained a measure of employment success, in Los Angeles, California; Newark, New Jersey; and Seattle/Tacoma, Washington, between April and December 2000. The focus groups were conducted between April and December 2000. All participants were 18 years old or older, had a significant disability with onset prior to first substantial employment, and had annual earnings of at least $8,240 before taxes and transfers. At the time of the focus groups, the latter was the federal poverty line for a family of one.<sup><a href="#note1">1</a></sup> It is approximately equivalent to working 30 hours a week at the federal minimum wage. Basic socio-demographic, disability, and employment information was collected via a telephone screening instrument and a pre-focus group registration form.</p>
+<p>A slight majority of participants were male, and their average age was 38 at the time of interview. Just over half (55 percent) had experienced disability onset before age 13. Just over half were single, 61 percent were white, 16 percent were African-American, and 13 percent were of Hispanic ethnicity. While all had substantial earnings, 23 percent had annual earnings below $10,000. Median earnings were under $20,000. Only 7 percent had earnings above $50,000. Many lived in households with other income; median household income was about $40,000. The largest impairment category was mental illness (30 percent), followed by communication (21 percent) and mobility (19 percent) impairments.</p>
+<p>Prior to each focus group session, participants were asked to rank on a scale of 1 (very important) to 5 (not important) the importance of various supports in helping them find and maintain employment. About 75 percent (or more) of participants assigned a rank of 1 or 2 to each of five supports (listed in descending order): family encouragement; access to health insurance; skills development and training; college; and employer accommodations. Job coach services, personal assistance services (PAS) and special education ranked lowest, with more than 45 percent of participants assigning a rank of 4 or 5 to these supports.</p>
+<p>We asked focus group participants to discuss supports that were important to them at three critical periods of their lives: during childhood or at disability onset; obtaining first employment or first employment after disability onset; and in maintaining current employment. We present the findings from these focus groups below. Because we found that the supports used to obtain first employment and those used to maintain current employment were very similar, we have combined the discussion of these topics into one section.<sup><a href="#note2">2</a></sup></p>
+<p> </p>
+<h2>B. SUPPORTS USED DURING CHILDHOOD/AT ONSET OF DISABILITY</h2>
+<p>In this section we describe the supports that focus group participants used during childhood, or at disability onset. Among the supports identified, special education and health insurance generated the most discussion. While health insurance was widely experienced as a positive support, special education received mixed reviews. Participants also discussed Social Security Disability Insurance (SSDI), Supplemental Security Income (SSI), assistive devices, self-motivation, and the support of family and friends.</p>
+<h3>1. Special Education</h3>
+<p>Participants who developed disabilities during childhood commonly reported use of special education, and offered mixed assessments of its value. Among those who identified special education as a valuable support, a number noted the ability of the special education system to provide accommodations as an attractive feature. Other participants who experienced special education as a positive support attributed their positive experiences to special education teachers that challenged them, expected them to be productive, who were even willing to break rules to provide unconventional or additional supports or accommodations:</p>
+<ul><li>
+<p><em>"There were these two social workers [on the school's Child Study Team]. One had been there many, many years. They kind of adopted me. They said, If you're not going to come to school, then just come to see us at the Board of Ed office and we'll go over all the subjects with you.' They knew I was really smart, so they just gave me the homework[I wouldn't have made it] if it wasn't for the diligence of this lady, who would basically say, Just come over and bring a lunch.'"</em></p>
+</li>
+<li>
+<p><em>"I eventually did go back to school and finished, [but it was] with these people's helpThey broke every rule in the book and I loved them. They were not supposed to take me out to lunch and to come over to my house. [Also, there's a limit on the] number of days that you could be out of school but they said no, he's got some kind of doctor's note or something."</em></p>
+</li>
+</ul><p>Many participants also described negative experiences with special education, saying that special education programs provided no vocational classes or job opportunities; others said that their programs lacked basic instructional materials and teacher expertise, or that the programs did not otherwise meet their basic needs. Some even said that special education may actually have been damaging because it didn't provide education but was merely a place to "park" children with disabilities.</p>
+<ul><li>
+<p><em>"Special ed was just a place to beI was put there because I couldn't walk very well. I hated that. I was with other people who couldn't walk very well either, so we got to do other things that we were good atand we played silly gamesI never got any particular training."</em></p>
+</li>
+<li>
+<p><em>"[I also] went to a [segregated] school and it was horrible. I did</em> not <em>get an education there. I went there from first grade through high school, and I hated every minute of it because most of the kids were -- I'm not sure how to put it -- severely emotionally disabled. I did not belong there. The teachersthey pretty much coddled us and would pat our heads a lot, you know, that kind of an attitude."</em></p>
+</li>
+</ul><p>Among special education participants who were mainstreamed (moved from special education into regular classrooms), many were happier after mainstreaming was initiated, but said gaining access to necessary accommodations in the mainstream environment was a substantial challenge:</p>
+<ul><li>
+<p><em>"I was actually the only one with a physical disability on campus. I was the only person in a wheelchair. Back then in high school, I started to do my own advocating for someone with disabilities. None of my classrooms were equipped with wheelchair ramps, so I [told] the principal that I would go to the city college. In other words, I was blabbering a lot of things that I didn't really know what I was saying in order to get action or to see some results. I did. I saw results. They started building ramps. I just started telling them I probably won't be the only person who uses a wheelchair attending your school, and it helped."</em></p>
+</li>
+<li>
+<p><em>"Six weeks before the end of the semester I broke my foot and I was not doing well in first semester algebra. I had a teacher who always wrote equations on the board and didn't bother, unless he was asked two or three times, to [say] them out loud. So my mother calls to arrange for me to have a tutor the last six weeks. [The vice-principal] said, basically, Well, what's the problem, your son is blind, he's not going to college anyway.' And my mother went off on him like Cher went off on the poor principal in 'Mask,' and said my son will either have a tutor or I will go to [the media]. Needless to say, I got a tutor."</em></p>
+</li>
+</ul><h3>2. Health Insurance</h3>
+<p>Many participants (including users of both public and private health insurance) cited health insurance as critical to preserving their families' financial well-being, and to receiving needed medical services and prescription drugs. Many participants experienced some limitation in coverage (due to policy restrictions or switching plans) during childhood, which they said had been detrimental to rehabilitation. Other participants described difficulty securing consistent coverage through public health insurance programs.</p>
+<p>Generally, participants were more likely to describe use of private health insurance than public health insurance during childhood, and those covered by private insurance were more likely to identify and discuss importance of insurance receipt as a critical support.</p>
+<ul><li>
+<p><em>"I lived in the hospital. I always went to private specialists." My mom always said, You HAVE to have insurance.'" </em></p>
+</li>
+</ul><p>Some participants were assisted by charitable organizations that provided free or reduced cost medical care. For example, two participants said that the Shriners' Hospital paid for substantial portions of their medical services.</p>
+<p>Many participants reported paying out-of-pocket for medical costs, if not covered by health insurance. One participant was deafened by a head injury and reported receiving little medical care at the time because her parents had to cover the costs. She commented on the lasting consequences of improper treatment:</p>
+<ul><li>
+<p><em>"I didn't even end up in the hospital. I went right home the night of my head injury. [I didn't get] the right treatment at first, which is probably [the reason for] some of the damage to my left ear, because at first my father thought I was faking a lot of itMy first four audiograms, I believe my parents actually paid cash for those. And after thatwe did two health fair varieties that referred me for further audiograms of a more acute nature." </em></p>
+</li>
+</ul><h3>3. Supplemental Security Income</h3>
+<p>In general, most participants did not report use of SSI during childhood, with some citing lack of awareness as the reason why their parents did not seek public services or supports for which they or their children might qualify. Among those who did report receiving SSI during childhood, most reported positive experiences with the benefit.</p>
+<p>A number of participants began receiving SSI in high school or later, and one reported that SSI receipt resulted in increased independence on her part:</p>
+<ul><li>
+<p><em>"I did get SSI and that was when I considered myself emancipated from my Dad so I couldbe on my own."</em></p>
+</li>
+</ul><h3>4. Parental Expectations and Teacher, Mentor and Peer Support</h3>
+<p>The family experiences of focus group participants varied considerably, with some participants reporting that their parents were particularly supportive, while others reported how they had to succeed despite a lack of support (or even outright discouragement) from their parents. Among participants whose parents were supportive, many said their parents encouraged them to accept their conditions, to make realistic choices, and to have high expectations of themselves. Others said their parents were important sources of emotional support and encouragement:</p>
+<ul><li>
+<p><em>"I was encouraged by the family. There was never any expectation that I <strong>wouldn't</strong> work."</em></p>
+</li>
+<li>
+<p><em>"My parents wanted to make sure first and foremost that I had as much normal experience as everybody else. They didn't want me treated special, but at the same time they obviously were concerned with my safety and well-being. So, they outwardly tried to encourage me to do as much as I felt I could do and not to worry about anything, and if I had a problem I'd come to them and they'd work it out. They're overall very supportive."</em></p>
+</li>
+</ul><p>Some participants struggled with parents and family members who fostered a sense of dependence and disability:</p>
+<ul><li>
+<p><em>"My mother was born and raised in Korea. And if you go to Korea, you don't see handicapped people. They're either hidden away or sent to the country I guess, whatever, but you didn't see them. [For Asian-Americans,] it's a big thing -- number one -- to deal with someone who's handicapped in the family. I think your expectations as a parent, you lower them. You hope the best for your child, but you also think what the reality is probably going to be. They're never going to be able to support themselves. Who's going to fall in love with a person like this?"</em></p>
+</li>
+</ul><p>A number of participants discussed how in early childhood or at disability onset they developed a strong determination to succeed despite the low expectations of others. Rather than accepting the low expectations of others, including parents and teachers, they became intent on proving them wrong.</p>
+<ul><li>
+<p><em>"[My parents told me,] I don't know why you're going to school. You're never going to get a job.' [So] those were the spots where defiance was the mode."</em></p>
+</li>
+<li>
+<p><em>"[I learned to believe] that I have to be better than other people, because it's important because people look down on people with disabilities already."</em></p>
+</li>
+</ul><h3>5. Other Supports</h3>
+<p>Several other supports were mentioned by focus group participants as being useful during childhood or at the onset of disability. A number of participants engaged in school-based work preparation programs and had generally positive experiences. One participant said she had enrolled in a 60-credit childcare class offering comprehensive information about the childcare industry and training to be a childcare specialist. Another said he enrolled in a school-based work program that included interviewing skills, which he said was useful in preparing him for subsequent job interviews. Two participants in one focus group said they took useful courses in money management in school. Several individuals had informal "work-study" arrangements at school and in summer programs. Others mentioned having used assistive devices during school.</p>
+<p> </p>
+<h2>C. SUPPORTS USED IN SECURING THE FIRST JOB AND IN MAINTAINING CURRENT EMPLOYMENT</h2>
+<p>In this section we describe the supports that participants found most useful in getting a first job and in maintaining current employment. Among the supports identified, participants spoke at length about health insurance, employer accommodations, and personal motivation. Participants also spoke about SSDI and SSI, in-kind support programs, and support from family and friends.</p>
+<h3>1. Health Insurance</h3>
+<p>Health insurance coverage is especially important for many people with disabilities, as their need for medical services is much greater than that of people without physical or mental impairments. Because of their medical conditions, however, people with disabilities often have difficulty obtaining private health insurance, or face restrictions in the types of services their insurance will cover.</p>
+<p>For those receiving SSDI or SSI, eligibility to receive public health insurance was cited as one of the most attractive features of benefit receipt:</p>
+<ul><li>
+<p><em>"It's not just Social Security, it's also the medical benefits. When you're mentally ill and you work just part-time, you get SSI, you get Medicare or Medicaid."</em></p>
+</li>
+</ul><p>Access to health insurance played a key role for many participants in influencing decisions to enter the labor force. Public health insurance for people with disabilities is typically linked to receipt of SSDI or SSI, and many focus group participants described struggling with the choice between seeking employment and losing access to health insurance provided through SSDI/SSI. Others cited the importance of employment for providing access to private health insurance.</p>
+<ul><li>
+<p><em>"[Healthcare] is one of the biggest [issues] for me, more than accommodations. If the government really wants to help people continue employment and pay taxes, then find ways to get rid of some of the regulations and stupid rules that prohibit people [from working]. Most people I've ever met, it's like, hell, I don't need the $500 that Social Security gives me [but I need the Medi-Cal]. I can get a good job, but I can't live without my health insurance."</em></p>
+</li>
+</ul><p>Many participants described their experiences in searching for employment that would provide access to private health insurance comparable, or superior, to coverage under Medicare or Medicaid. A number of participants said that even though they considered features of private health insurance carefully before accepting an offer of employment, they were not always able to accurately assess benefits, or to secure the level of benefits they desired. Once employed, participants noted that continuous access to sufficient private health insurance was not guaranteed as some employers might choose to make unanticipated and disruptive policy changes.</p>
+<p>Among participants with access to needed private health insurance through employment, retaining coverage served as one of the main attractions to continued work, regardless of the circumstances of employment:</p>
+<ul><li>
+<p><em>"I think they're trying to get me to quit because there's only one, as far as I can tell, really, really unpleasant supervisor to work for, [and] after about a year they shifted me to him for no apparent reason hoping he would scream at me and yell at me and chastise me, so that I would just quit. That was seven months ago and I have not quit yet. You want to know why? I need the medical benefits so badly. They're worth more to me than the wages are."</em></p>
+</li>
+</ul><p>Many participants described work and other management strategies they had employed in order to retain health insurance coverage. Typically, participants managed their earnings in order to retain Social Security benefits, which allowed them to retain access to public health insurance. Techniques include taking time off, shifting responsibilities, working without pay, shifting to part-time employment, and turning down promotions. One participant said that he makes sure that he does not go over the earnings limit, and that his boss keeps tabs for him and tells him when and when not to work.</p>
+<p>In some cases, participants reported that they were advised by program personnel to manage earnings. Several reported having been advised by vocational rehabilitation (VR) counselors and others receiving benefits to stay underemployed to keep benefits while another said:</p>
+<ul><li>
+<p><em>"I can remember quite some years ago, I actually had a caseworker tell mebecause I kept saying I want to go to work, I want to go to workshe said the reality is you can't work because if you go to work, you lose your benefits, you have no medical coverage, you have no health coverage, what are you going to do?' This was a caseworker with DSHS and she said I'm telling you this in your best interest.' This was a long time ago because at that time, I would have lost everything."</em></p>
+</li>
+</ul><h3>2. Social Security Disability Programs</h3>
+<p>Many, if not most, of the focus group participants had received at one time or another, or were currently receiving, SSDI or SSI disability income. Unlike access to health insurance, which participants nearly universally identified as a necessary support, perception of the value of SSDI and SSI varied. A number of participants reported that income support programs had been absolutely critical in keeping them on the path toward employment, while others described SSDI and SSI as insufficient and valuable mostly for the access to health insurance they could provide.</p>
+<p>Among those who had received SSDI and SSI, most were grateful for the income the programs provided, but were unhappy with the amount of the benefit, or with the earnings restrictions associated with the benefit. In general, participants' comments echoed a major concern: SSDI and/or SSI benefits were not sufficient to live on, but fear of loss of benefits discouraged work attempts for some, and for others the benefits disappeared too soon after first work attempts were made:</p>
+<ul><li>
+<p><em>"I had to stay working 20 hours a week at $5.50 an hour, just so I can still get SSI or SSDI. It makes it hard for you to get into full-time work. It's like a crutch or something."</em></p>
+</li>
+<li>
+<p><em>"It seems as though when you do work, you're penalized for it. They cut your monies and I don't understand it. It really puts a damper on getting better."</em></p>
+</li>
+</ul><p>In one focus group, all agreed with a participant who said that Social Security, Section 8 housing assistance, and other income-based incentives were always taken away just when they were needed most -- at first employment. At this time, said the participant, one does not have any savings and needs to have something to "tide you over more than ever before" for the costs associated with employment, such as transportation, clothing, and day care.</p>
+<p>Participants across focus groups related numerous stories about SSI overpayments, including difficulty in identifying and resolving them.</p>
+<ul><li>
+<p><em>"I went down there with a case manager and we reported everything. And they said, Okay, everything's fine.' It's, like, you <strong>should</strong> be getting that money. And then time goes by. I don't think anything about it andlike a year or something goes by, and another case manager says, Wait a minute. You're being overpaid. You're going to have to pay all that money back.' And so I start to go, Oh my God, it's going to be thousands of dollars.' And so we went down to SSI and they said, Well, there's nothing we can do about it. You have to just put that money all in an account and just save it.'But we came to the conclusion [that] if I had saved all that money, then they would have taken my medical benefits away from me because Id have too much money that I'm savingThey do it to everybody. And it doesn't help you get on your feet. It doesn't help you keep a job. I've worked very hard to get where I am, and I really don't think it's fair that I have a $7,000 debt that I have to pay back."</em></p>
+</li>
+<li>
+<p><em>"I'm paying $10 a month for the next 19 years to pay back $2,300. They're taking it out of my Social Security." </em></p>
+</li>
+</ul><p>Most reporting the experience of overpayments were eventually acquiescent regarding reimbursement. However, at least one participant found that by continually challenging the request for reimbursement the debt was eventually forgiven, a process that he likens to his initial application for benefits:</p>
+<ul><li>
+<p><em>"SSI has [a] formYou just call them on the phone or look them in the face and say, I cannot pay. What can we do?'And they will eventually hand you that form. [Then] it takes months and months and months of resubmitting this same form over and over and overIt's just like applying -- this is the funny part -- it's just like applying for SSI in the beginning. You get the three denials, and then finally with enough people behind you, they'll finally accept it. [You tell them,] I have no money. I'm incapable of paying this money back.' Denied. Start again. Denied. Start again. Denied. Start again. Oh, okay, here you go.' It's the same exact process."</em></p>
+</li>
+</ul><h3>3. Vocational Rehabilitation</h3>
+<p>Participants highly valued supports and services that were individualized, and that enabled them to participate more fully in mainstream society. For example, participants were most pleased with VR providing or paying for equipment and services, such as computers, assistive technologies, transportation, education, and third-party training. Such supports targeted specific needs and promoted independence. They were less satisfied with services received in a "sheltered" or segregated environment, such as job training provided through the state VR system.</p>
+<ul><li>
+<p><em>"DVR is a very, very, very, very good organization. It's been really good with me. They paid for classes [and] class fees [and] they paid for my books. They gave me transportation, supplied me with transportation, gas." </em></p>
+</li>
+</ul><p>Others noted the agency's excessive bureaucracy made timely access to services difficult.</p>
+<ul><li>
+<p><em>"That's a real problem, transportation. [Like she's] saying, her van is falling apart. Then when you get approved [for a] van and get evaluated, it's a three-year process. So in the meantime, you [still] have a disability and it could become aggravated." </em></p>
+</li>
+</ul><p>Others said that VR funding fell short regarding education, and one participant said that despite its strengths, the VR system has minimal positive impact on employment:</p>
+<ul><li>
+<p><em>"During my junior year [of college] we decided to see if [VR] could assist. Certainly they didn't with tuition because it was a private university, but they did help with paying for readers and textbooks. [People may] get some peripheral assistance from [VR], maybe with textbooks or financial aid or whatever, but the people who really are successful and find work tend to do it despite, rather than because of, rehab."</em></p>
+</li>
+</ul><p>Particularly for people with mental retardation/developmental disability, job coaches provided through VR services play very important roles in securing and maintaining employment. Such coaches provide motivation and support, serve as a source of information about services, mentor and counsel individuals, in some cases accompany individuals on job interviews, and even help resolve employment disputes and difficulties. Because the role of the job counselor can be so critical, participants' perceptions regarding VR may be heavily influenced by behavior of the job coach or case manager.</p>
+<p>Participants noted that the levels of knowledge, compassion, and skill of VR staff are important to the success of VR services, and in the absence of a qualified counselor, it is important to self-advocate and have a clear idea of what you want. Several individuals with mental disorders indicated that they were not successful in obtaining assistance from the traditional VR system, but were able to find the employment services and supports they needed in the mental health system.</p>
+<h3>4. Employers</h3>
+<p>Focus group participants reported a wide range of experiences with employers in seeking accommodations for their disabilities, including modifications to elevators, doors, entrances and exits and other features of the building; receipt of additional training time; receipt of flexible job hours; ability to work from home; or changes in job duties. Employers provided some accommodations through formal disability integration policies, and other employers provided supports more informally. In all cases, participants regarded the accommodations as important, or even essential.</p>
+<p>Among building modifications, the installation of ramps and other features to accommodate wheelchairs were most often cited.</p>
+<p>A number of participants said that flexible work schedules were a particularly important accommodation. Flexible scheduling allows them to work efficiently, keep doctor appointments and stay healthy.</p>
+<p>Participants, particularly those with hearing or vision impairments, also commonly reported access to assistive devices and technologies. Such technologies typically included computers with Braille and speech access, optical character recognition software, Opticon (to convert text to large print), JAWS software (converts computer screen output into speech), TTYs (teletypewriters), electronic schedulers, and others.</p>
+<p>The accommodations most frequently cited as being provided by employers include:</p>
+<ul><li>Flexible job hours;</li>
+<li>Flexibility with job description/duties ability to work from home;</li>
+<li>Time off for medical appointments;</li>
+<li>Installation of TTY;</li>
+<li>Installation of modified computer mouse;</li>
+<li>Installation of large computer monitor;</li>
+<li>Installation of optical character recognition software;</li>
+<li>Installation of software to increase size/definition of computer screen text;</li>
+<li>Installation of text-to-speech and speech-to-text software;</li>
+<li>Bathroom modification to fixtures and walls to enlarge space;</li>
+<li>Provision of interpreters at meetings;</li>
+<li>Adjustment of desk height;</li>
+<li>Wheelchair modification;</li>
+<li>Installation of ramps;</li>
+<li>Access to electronic schedulers; and</li>
+<li>Graduated schedule during job startup.</li>
+</ul><p>Many participants said that the behavior of immediate supervisors played a major role in job entry and career development. Having a supportive supervisor aided in securing accommodations, educating co-workers about accommodations and disability, protecting confidentiality, and ensuring that co-workers provide tools and information necessary for the individual to complete tasks.</p>
+<ul><li>
+<p><em>"The job I got now is the best one I got, cause they are supportive and they know how to treat people with disabilities. What they did on another job is that they would fire you. Here they just sit you down and talk to you."</em></p>
+</li>
+<li>
+<p><em>"I just lost an employer who was wonderful. This man came in six months after I had become totally deaf and he could communicate with me perfectly well. I finally got to a comfort level where I was able to tell him that, 'These people in the building and in our office will not let me do my job. They're going to everybody else to ask their questions.' He took a hold of the situation and he redirected everybody. Everybody who called him on the phone with a question that was mine to answer, he said, 'Call Christine, or email her or walk into her office.' Everybody who walked in his office with a budget report, he said, 'You go see Christine.' He just pushed in that direction. That helped a lot. He also implemented site visits for me to go out into every one of the buildings every month, so I meet face to face with principals and bookkeepers in every building, and we can improve communication and they'd stop being afraid of me." </em></p>
+</li>
+</ul><p>A number of participants cited substantial difficulties in gaining access to needed accommodations. In some cases, they were able to prevail, and in other cases they worked around the lack of accommodations.</p>
+<ul><li>
+<p><em>"I wish I could receive permission to telecommute. I'm fighting for that now. They're denying me. They said that telecommuting is not a reasonable accommodation, that telecommuting has to do with the distance that you live from [work] and not from your disability. They did allow me [to work out of another] office on the days that I was supposed to wait to see if I was called for jury duty. But I don't think that is a reasonable accommodation. I think I was accommodating them, frankly." </em></p>
+</li>
+</ul><p>Participants also described various experiences negotiating with employers for needed accommodations. For some, providing information and technical assistance to an employer was sufficient, for others, accommodations were substantially delayed or never received due to differences between employees and employers regarding priorities, or lack of access to information:</p>
+<ul><li>
+<p><em>"I have a very similar [situation with my keyboard] where I actually went out to the trash, found a couple of cardboard boxes, put the keyboard on top, and said, Right! I'm accommodated.'"</em></p>
+</li>
+</ul><p>Several participants cited co-worker or supervisor attitudes that made gaining access to needed accommodations very difficult:</p>
+<ul><li>
+<p><em>"I found that some people, especially old timers, still have an attitude about it. I mean old, '70s, late-'60s. You know it costs money to build ramps.' They've got that mind-set, back when they were a kid, cripples stayed home and I'm paying taxes to put curb cuts in for you.'"</em></p>
+</li>
+<li>
+<p><em>"As far as accommodations at my workplace, they have built a cubicle a little large to accommodate the chair, but it took three years to get electronic doors in the front entrance of the building. After vigorous complaining from me and other employees and the clients that come into the center, it took a while for the landlord of the building to make changes that needed to be made.The doors are still really heavy in the building, but by and large, physical accommodation is not a problem. It's the attitudinal accommodations that get me in trouble." </em></p>
+</li>
+</ul><p>Participants also said that supervisors need to understand the nature of the disability and the required accommodations, and when they do not, employment situations often fail. Newark participants were more likely to have stories about an employer failing or refusing to accommodate a disability and to report concerns about divulging the presence of a disability to an employer or potential employer.</p>
+<ul><li>
+<p><em>"I asked for accommodations,for 32 hours instead of 30 and I had a doctor's certificate about it. They said they wouldn't compromise the security of the building, and [I] was not granted any accommodations. So I quit, basically because their approach was, Now you created us an ADA case,' although they knew I was disabled before they hired me. It was not a very good situation."</em></p>
+</li>
+<li>
+<p><em>"[If] supervisors and co-workersunderstand job accessibility and job accommodation, then they don't feel they have to take on more of your share." </em></p>
+</li>
+</ul><p>Many participants said that lack of understanding about disability sometimes led to anxiety and fear among their co-workers:</p>
+<ul><li>
+<p><em>"I was working in a hearing environment, and many of the people had known me for 12 years. Suddenly I was totally deaf, and people stopped talking to me. One of my biggest experiences was the absolute vanishing of support when that change happened, in a place that I had been for years. People were afraid of me because they didn't know what to do."</em></p>
+</li>
+<li>
+<p><em>"[Sometimes] your co-workers just simply don't understand or don't have any knowledge of disabilities and they're scared because you have a disability -- like it's catching." </em></p>
+</li>
+</ul><p>Participants also reported that the willingness of co-workers to learn about the nature of the disability was also important for ensuring a comfortable and productive work environment:</p>
+<ul><li>
+<p><em>"When I work around a lot of people, they make me uncomfortable. [There] might be one or two people that I'll open up to, [but] other than that it's like everybody else I'm uncomfortable with. I'd rather be outside or I'd rather be just by myself, basically, instead of with people[At the job I was in before,] I couldn't keep up with the conversationI would get confused [and] I'd feel left out of the conversation or like I'm not really involved in the group."</em></p>
+</li>
+<li>
+<p><em>"My first job was one of the most horrible experiences of my life and I actually haven't spent a lot of time thinking about it for a number of years and I'm finding that I'm getting upset sitting and thinking about it. It was awful. I was a medical transcriptionist. They hired me and I was shocked but then it went down from there because nobody would talk to me and the most painful thing I remember is the whole office planned a party right around me and didn't invite me. That was really hard but from that I learned that I really did, as a blind person, have to make some extra social efforts, whether I wanted to or not. Whether I wanted to go out for a beer after work with somebody or have lunch with somebody, I had to do it." </em></p>
+</li>
+</ul><p>One person stressed the need for training about hidden disabilities:</p>
+<ul><li>
+<p><em>"So if you look at me and I can see youand you know I can talk, you wouldn't know that I was legally blind or you wouldn't know I was hard of hearing if you were just looking. So if I go to my employer and I say I'm disabled and I have the medical records to prove it, they don't believe it. I think a lot of employers need disability trainingI thought that was what the ADA was for. To have [disability awareness training] mandated. But everyone doesn't get trained. The [employer] can say they can have disability awareness but until [they] actually get a person like me [with a hidden disability] -- that'll show you if the company has it."</em></p>
+</li>
+</ul><p>A number of participants said that even relatively small efforts at education can be effective. One person described how employer knowledge of the Americans with Disabilities Act (ADA) helped ensure access to employment:</p>
+<ul><li>
+<p><em>"I'm in a job thanks to the ADA. I might have lost my last job and the person who was in charge of our unit did not want to hire meThey said, You're going to hire him, and she hired me kicking and screaming and she's no longer there. They don't want to get sued." </em></p>
+</li>
+</ul><p>A number of participants, particularly those with a mental illness, discussed a reluctance to disclose their disabilities to employers and potential employers because of concerns regarding employer reaction, fears about being treated differently by co-workers, and consequences for employment.</p>
+<ul><li>
+<p><em>"Half the time, to be honest, I don't want to even disclose my disability when I go for a job because I feel that can work against me so many times."</em></p>
+</li>
+<li>
+<p><em>"I don't like to tell them that I have a mental illness because -- it's just that people don't treat you right."</em></p>
+</li>
+<li>
+<p><em>"One thing about my disability is that it's not really apparent.My employer doesn't know I'm disabled and I don't want him to know. See, my illness doesn't prevent me from doing my job. I take medication [so] there's no symptomsI do my job fine and I don't want them to think I'm disabled because they'll think that I need help." </em></p>
+</li>
+</ul><p>Participants with hidden disabilities talked about the difficulties they encountered because even after disclosure, some employers, co-workers, or others did not believe they had disabilities:</p>
+<ul><li>
+<p><em>"They don't always know how I'm feeling and I may look fine but I might be having a hard time. But I let people know that I do have a disability. It's hard because they really don't believe it." </em></p>
+</li>
+</ul><p>A participant with multiple sclerosis said that living with a non-apparent disability is both harder and easier than living with an apparent disability. She said that she must spend time explaining the nature of her disability to others because people do not usually have such knowledge. At the same time, she said that she can be treated with a degree of normalcy that people with apparent disabilities do not typically experience.</p>
+<p>Others reported experiencing workplace discrimination, including termination, and other difficulties after disclosing their disabilities. For example, one woman said she disclosed her disability, in confidence, to her supervisor, who violated her trust by sharing the information with co-workers.</p>
+<p>Others said that lack of understanding on the parts of employers, and potential employers, had led to lost promotions and lost employment opportunities. One hearing-impaired participant said that she had tried repeatedly to work as a paralegal, but that no company was willing to risk taking her on because of her disability. She said that she could not find a good job in her field because people will not hire her because of her disability. As she put it, <em>"They won't say it to your face, but you can tell."</em> She said that it was the attitudes of employers that hurt people with disabilities most: <em>"Attitudinal barriers are the biggest deterrent to getting work."</em></p>
+<h3>5. Personal Motivation</h3>
+<p>One factor apparent throughout all of the focus groups and across all disabilities was the importance of both purpose and determination in contributing to successful employment outcomes among participants. Many participants made explicit references to the value of being motivated and resourceful, both to secure benefits and later to secure employment.<sup><a href="#note3">3</a></sup></p>
+<p>Numerous participants described the challenges in learning the complex set of benefits available to adults with disabilities. For many, success in navigating this structure was related to desire:</p>
+<ul><li>
+<p><em>"You do what you've got to doYou know how to be creative. Whereas somebody else may look at what the procedure is, you're looking more at, How can we make this happen?'It's just a matter of at some point you have to kind of take responsibility and just kind of go after itI'm a survivor at heart. I think that that's a good trait to some extent because I've always done what I've had to do to get my basic needs met."</em></p>
+</li>
+<li>
+<p><em>"I was depending on public transportation, which we all know is the worst, especially if you're a wheelchair user. I would go to school. It started at nine o'clock, [so] I would leave home at seven o'clock in the morning, get passed up by several busses; [the driver would say,] Sorry, buddy, my lift doesn't work'I got to the point where I was so damn frustrated I [decided] to try to get my own car. So I started hustling. I was going to get a car; I was determined. Once again, my determination [paid off, and] my financial aid money backed my loans and I had a car." </em></p>
+</li>
+</ul><p>Numerous others described the importance of self-reliance in seeking employment, and in maintaining, and advancing in employment. For some, the desire to be independent was a key motivating factor in seeking employment. Participants also described the need to assert themselves in receiving needed accommodations at work.</p>
+<ul><li>
+<p><em>"I had lots of off-and-on types of jobs. I had jobs through the community college, looked into the Disabled Student ServicesI remember going to the employment office when I needed to find work, and [it was,] Go to the Department of Rehab, go to the Department of Rehab, go to the Department of Rehab.' I'm like, I can go anywhere. I don't have to go just to the Department of Rehab."</em></p>
+</li>
+<li>
+<p><em>"That is why I went to work, I wanted to be able to make it on my own somewhere." </em></p>
+</li>
+</ul><p>A number of participants said that experiences early in life motivated them to succeed. In particular, some were intent on proving wrong those who held low expectations for them.</p>
+<ul><li>
+<p><em>"It seemed to me that just by getting a job, by getting off of welfare, by moving forward I was defying the odds, defying what was expected of me."</em></p>
+</li>
+<li>
+<p><em>"I always had the attitude, don't tell me I can't do it, I'll prove you wrong."</em></p>
+</li>
+</ul><h3>6. Other Supports</h3>
+<p>The supports discussed above are among those most frequently mentioned by focus group participants. Other additional supports were discussed to varying degrees. While not as widely used, these supports provided critical help to a number of participants. In some cases, the supports are most relevant to individuals with particular impairments.</p>
+<p><strong>a. Personal Assistance Services (PAS)</strong></p>
+<p>Few participants used PAS, but those who did were generally quite positive about them. One participant said that her assistant serves as her reader at work, which has allowed her to keep her job. Another participant uses a personal assistant both on and off the job, because she requires constant assistance. Several individuals struggled with the idea of using PAS, with one person saying she could not get used to the idea of a stranger touching her. Others, however, credited personal assistance with helping them regain a sense of independence.</p>
+<p>Among those who received PAS at home, the level of support needed varied with the severity of the individual's condition. Some individuals require assistance with housework only, while others, need more extensive care, such as caregivers and personal attendants.</p>
+<p>Individuals who needed PAS in childhood typically did not receive formal services, but instead received care from family members.</p>
+<p><strong>b. Housing/Community Living Programs </strong></p>
+<p>Many participants equated access to non-institutional and non-shared housing with independence. Having both a place to live, and having this sense of independence, agreed many participants, was linked to gaining a foothold in employment. In a number of cases, participants credited both Section 8 and supported housing programs with assisting them with their housing needs. Two participants described becoming homeowners through special housing programs. One bought a home through the Federal Housing Authority. The other built her own home with the assistance of a community non-profit organization.</p>
+<p>Not all participants, however, were positive about the Section 8 subsidized housing program. Even if eligible for Section 8 housing, participants expressed difficulty in obtaining the certificate. Then, some participants said, finding housing was a further challenge. Two people said they had recently received a Section 8 certificate, but had not yet found housing. Another participant expressed great surprise that anyone ever moved off the waiting list and obtained a Section 8 certificate.</p>
+<p>Numerous participants favorably described independent living skills training they had received through Community Living Programs.</p>
+<p><strong>c. Transportation </strong></p>
+<p>Many participants have access to public transportation only, and could not get to work otherwise. Among those who use public transportation, a number reported use of subsidized fare and access to free van service. Among the participants who used private transportation, a number of methods were employed to gain access. For instance, VR paid for modifications for several participants' vehicles, and in many cases participants said that spouses, other family members, and friends regularly included them as passengers in private vehicles. Another person carpools with co-workers, and one person reported having been provided transportation by her job coach.</p>
+<p>A common theme among focus groups regarding transportation was the need for access to reliable transportation, in order to maintain employment. Some participants were frustrated by provisions or restrictions associated with public programs. For example, one participant, who lives in the Seattle suburbs where there is no bus service or other public transportation, talked about the difficulty of securing a reliable car while receiving Medicaid or SSI benefits.</p>
+<p>Among those with access to public transportation, many expressed satisfaction with the available subsidy programs.</p>
+<p>Public transportation is extremely important to people with disabilities living in Los Angeles County. Many participants regularly use ACCESS Services, Los Angeles County's paratransit system for people with disabilities. Nonetheless, participants reported problems with the system. One person complained about bus drivers' limited training about accessibility for people with disabilities. Another said he had found it difficult to get information about how to use the bus service, and another was not satisfied with the bus schedules. Others noted limitations in service hours and unreliability.</p>
+<p>A number of participants drive their own cars, and many have adaptive equipment on board. Some had paid for their adaptive equipment themselves or with the assistance of family members, and others had received funding from VR to make the modifications. Three participants said that they had received rebates from a car manufacturer after fitting their new cars with adaptive equipment. They had learned about the money-back option offered by most automobile manufacturers through word-of-mouth and through advertisements in disability magazines. Many participants said that they wished to be able to drive themselves to gain a greater sense of independence, but this was difficult to accomplish for some because needed adaptive equipment was expensive and sometimes difficult to find.</p>
+<p><strong>d. Informal Supports from Family and Friends </strong></p>
+<p>Many related stories and events illustrating the substantial support provided by family and friends. Among the key functions performed by family and friends was the extent to which they were able to help participants accept their disabilities, encourage work efforts, and reinforce a positive self-image. Several participants said their families and friends had provided considerable support in maintaining their current jobs, including providing help with transportation, shopping, food preparation and offering emotional support.</p>
+<p>Some participants reported that friends and peers whom they met in their treatment programs provided support and pressure to seek help or change medication. This was particularly important when participants had difficulty perceiving their own needs and level of disability.</p>
+<p><strong>e. Plans to Achieve Self Sufficiency (PASS) </strong></p>
+<p>Only three participants in Newark reported using PASS, and each was positive about the program. One used the program to buy a van for his work, and another used PASS to save money to start a computer business. Another, who eventually used PASS, said that taking advantage of the program was difficult because of a lack of knowledge of the program by Social Security Administration (SSA) staff.</p>
+<p>Several participants in Los Angeles were familiar with PASS, and discussed how it could be used to purchase assistive technology. However, they said that only a small number of VR counselors -- and an even smaller number of Social Security counselors -- were familiar with the program or trained in how to write a PASS plan.</p>
+<p>Los Angeles participants who had written PASS plans reported that the plans were very helpful in providing assistance during the transition from school to work. In some cases, SSA or Southern California Rehabilitation Services had assisted individuals with writing their plans. One participant wrote her own PASS plan for computer equipment. Another was able to purchase a van for work through his plan.</p>
+<p><strong>f. State Workforce Development Systems </strong></p>
+<p>Among participants who used State Workforce Development Systems, those with the fewest skills, and seeking entry-level positions, appeared to be most satisfied with the service. Those who sought assistance with more specialized work were less satisfied.</p>
+<ul><li>
+<p><em>"Whenever I've talked to job developers in the past, what I've heard is that, regardless of my degree, regardless of my training, or the awards I've received, or all the things I've done, what they could help me do is find a $7-an-hour job. If I want that, they'll help me. But if I'm looking for a professional position, then they can't help me, and it's be off with you.' " </em></p>
+</li>
+</ul><p><strong>g. Other Organizations </strong></p>
+<p>Focus group participants reported a variety of other organizations that provided support for employment efforts:</p>
+<p><strong><em>Disability Advocacy Organizations</em></strong>. Several participants reported using different disability advocacy organizations for assistance with their ongoing needs. In some cases, disability advocacy groups helped provide funding for assistive technologies, offered training, or helped participants fight for needed accommodations. Others reported receiving emotional support and encouragement from such organizations.</p>
+<p><em><strong>Organized Sports</strong></em>. Participants agreed that participation in sports provides them with friendships, a sense of family, and a peer support group for people with similar disabilities who face many of the same issues. They also agreed that participation in team sports builds skills that carry over into their professional lives as members of a company team. Special Olympics was a significant source of support for a number of participants, who said that participation had contributed to an increased sense of self-worth and self-reliance.</p>
+<p><em><strong>Peer Mentors and Role Models</strong></em>. A number of participants mentioned the value of having role models and mentors available to provide advice during difficult periods. Participants described receiving support from others with similar disabilities following an injury, during the transition from school to work, and while seeking employment.</p>
+<p><strong><em>Religious Organizations</em></strong>. Several participants gained a great deal of support from religious communities, including spiritual and emotional support, access to support networks, access to social networks, and access to volunteer work.</p>
+<p> </p>
+<h2><a id="notes" name="notes">NOTES</a></h2>
+<ol><li>
+<p><a id="note1" name="note1">Source</a>: Federal Register (1999).</p>
+</li>
+<li>
+<p><a id="note2" name="note2">Supports</a> used in securing a first job refer to supports used during transition from school to work, or from disability onset to work.</p>
+</li>
+<li>
+<p><a id="note3" name="note3">While</a> expectations and motivation played a critical role in the employment success of those we interviewed, this does not mean, of course, that those who have not achieved a similar measure of employment success are not highly motivated. The most highly motivated individuals might be unable to overcome the barriers and disincentives to employment that are faced by many people with disabilities.</p>
+</li>
+</ol><div class="group-tags"><div class="field-label">Tags:&nbsp;</div><a href="/terms/disability-aging-and-long-term-care-research">Disability, Aging and Long-Term Care Research</a><a href="/terms/publications-2">Publications</a><a href="/terms/employment">Employment</a><a href="/terms/training-licenses-workforce-development">Training, Licenses, Workforce Development</a></div>  </div>
+
+      <footer>
+          </footer>
+  
+    <div id="block-webform-client-block-158521" class="widget block block-webform" >
+  
+      
+  <div id="webform-ajax-wrapper-158521"><form class="webform-client-form webform-client-form-158521" action="/execsum/research-employment-supports-people-disabilities-summary-focus-group-findings" method="post" id="webform-client-form-158521" accept-charset="UTF-8"><div><div class="webform-progressbar">
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-radios webform-component--was-this-page-helpful">
+  <label for="edit-submitted-was-this-page-helpful">Was this page helpful? <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-was-this-page-helpful" class="form-radios"><div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-1" name="submitted[was_this_page_helpful]" value="1" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-1">Yes </label>
+
+</div>
+<div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-2" name="submitted[was_this_page_helpful]" value="0" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-2">No </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="4" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-m6nJsiBacLVvFk32sFro3g7Ah99qukqZEjGLaXpVHyY" />
+<input type="hidden" name="form_id" value="webform_client_form_158521" />
+<input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-158521" />
+<div class="form-actions"><input class="webform-next button-primary btn btn-default form-submit" type="submit" id="edit-webform-ajax-next-158521" name="op" value="Next &gt;" /></div>
+<div class="is-useful-disclaimer"> <a href="/%23" class="" title="Survey Disclaimer" data-toggle="modal" data-target="#disclamerModal">Form Approved OMB# 0990-0379 Exp. Date 8/31/2017</a></div>
+<div class="modal fade" id="disclamerModal" tabindex="-1" role="dialog" aria-labelledby="disclamerModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="disclamerModalLabel">Survey Disclaimer</h2>
+      </div>
+      <div class="modal-body">
+         According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this information collection is 0990-0379. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, gather the data needed, and complete and review the information collection. If you have comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: U.S. Department of Health & Human Services, OS/OCIO/PRA, 200 Independence Ave., S.W., Suite 336-E, Washington D.C. 20201, Attention: PRA Reports Clearance Officer.      </div>
+    </div>
+  </div>
+</div></div></form></div>
+  </div> <!-- /.block -->
+<meta  itemscope="" itemid="https://aspe.hhs.gov/execsum/research-employment-supports-people-disabilities-summary-focus-group-findings" itemref="md1 md3 md5 md7 md9" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/disability-aging-and-long-term-care-research" id="md3" itemref="md2" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/publications-2" id="md5" itemref="md4" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/employment" id="md7" itemref="md6" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/training-licenses-workforce-development" id="md9" itemref="md8" />              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <footer  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Footer">     
+
+        
+                  
+        
+                  
+        
+                                    <div  id="footer_sitemap-footer_sitemap" class="col-sm-6 col-md-6 col-lg-4 ">
+                          
+                              <div id="block-footer-sitemap-footer-sitemap" class="widget block block-footer-sitemap" >
+  
+      
+  <div id="footer-sitemap" class="clearfix">
+  <div class="fs-block-content"><div class="menu-footer-utility"><ul class="footer_links_menu-footer-utility total-items-2 parent-items-0 single-items-0"><li class="menu-5021 depth-1 total-children-8 parent-children-0 single-children-8  first"><a href="/" title="look at ASPE Home" class="fs-root-link">ASPE Home</a><ul class="footer_links_menu-footer-utility total-items-8 parent-items-0 single-items-0"><li class="menu-5026 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/" title="look at HHS Home">HHS Home</a></li>
+<li class="menu-66281 depth-1 fs-no-children"><a href="http://www.usa.gov/" title="look at USA.gov">USA.gov</a></li>
+<li class="menu-66316 depth-1 fs-no-children"><a href="https://oig.hhs.gov/" title="look at Office of the Inspector General">Office of the Inspector General</a></li>
+<li class="menu-66321 depth-1 fs-no-children"><a href="http://www.whitehouse.gov" title="look at The White House">The White House</a></li>
+<li class="menu-5046 depth-1 fs-no-children"><a href="http://www.hhs.gov/Accessibility.html" title="look at Accessibility">Accessibility</a></li>
+<li class="menu-66326 depth-1 fs-no-children"><a href="http://www.hhs.gov/about/budget/index.html" title="look at Budget/Performance">Budget/Performance</a></li>
+<li class="menu-2551 depth-1 fs-no-children"><a href="http://www.hhs.gov/Privacy.html" title="look at Privacy Policy">Privacy Policy</a></li>
+<li class="menu-197776 depth-1 fs-no-children  last"><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" title="Nondiscrimination Notice">Nondiscrimination Notice</a></li>
+</ul></li>
+<li class="menu-5051 depth-1 total-children-4 parent-children-0 single-children-4  last"><a href="http://www.hhs.gov/foia/" title="look at FOIA" class="fs-root-link">FOIA</a><ul class="footer_links_menu-footer-utility total-items-4 parent-items-0 single-items-0"><li class="menu-5056 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/open/recordsandreports/plainwritingact/index.html" title="look at Plain Writing Act">Plain Writing Act</a></li>
+<li class="menu-5061 depth-1 fs-no-children"><a href="http://www.hhs.gov/asa/eeo/no_fear_bullet_3.html" title="look at No Fear Act">No Fear Act</a></li>
+<li class="menu-5066 depth-1 fs-no-children"><a href="http://www.hhs.gov/Disclaimer.html" title="look at Disclaimers">Disclaimers</a></li>
+<li class="menu-2546 depth-1 fs-no-children  last"><a href="http://www.hhs.gov/plugins.html" title="look at Viewers &amp; Players">Viewers &amp; Players</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-5 " id="stability_cms-contact_us">
+                          
+                              <div id="block-stability-cms-contact-us" class="widget block block-stability-cms" >
+  
+      
+  <div class="contacts-widget widget widget__footer">
+	<div class="widget-content">
+		<ul class="contacts-info-list">
+      			<li>
+<!--				<i class="fa fa-map-marker">Address</i>-->
+                <div class="info-icons">
+                    <img  alt="map" class= 'map-icons' src="/sites/all/themes/stability/stability_aspe/images/map.png"/>
+                </div>
+                <div class="info-item">
+					Assistant Secretary for Planning and Evaluation, Room 415F<br />
+U.S. Department of Health and Human Services<br />
+200 Independence Avenue, SW<br />
+Washington, D.C. 20201				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-phone">phone</i>-->
+                <div class="info-icons">
+                    <img alt="phone" src="/sites/all/themes/stability/stability_aspe/images/phone.png"/>
+                </div>
+				<div class="info-item">
+					+1 202.690.7858				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-envelope">email</i>-->
+                <div class="info-icons">
+                    <img alt="mail" src="/sites/all/themes/stability/stability_aspe/images/mail-white.png"/>
+                </div>
+				<span class="info-item">
+					<a href="mailto:osaspeinfo@hhs.gov">osaspeinfo@hhs.gov</a>
+				</span>
+			</li>
+      			                					</ul>
+	</div>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-3 " id="footer">
+                          
+                              <div id="block-block-36" class="widget block block-block" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sign-up</span> for Email Updates</h3>
+		</div>
+    
+  <div class="email_updates">
+<button class="btn btn-default" name="subscribe-button" type="submit" value="subscribe">subscribe</button>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-12 " id="menu-menu-footer-language-menu">
+                          
+                              <div id="block-menu-menu-footer-language-menu" class="widget block block-menu" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Language</span> Assistance Available</h3>
+		</div>
+    
+  <ul class="menu"><li class="first expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#spanish" title="Español">Español</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#chinese" title="繁體中文">繁體中文</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#vietnamese" title="Tiếng Việt">Tiếng Việt</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#korean" title="한국어">한국어</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#tagalog" title="Tagalog">Tagalog</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#russian" title="Русский">Русский</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#arabic" title="العربية">العربية</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#creole" title="Kreyòl Ayisyen">Kreyòl Ayisyen</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#french" title="Français">Français</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#polish" title="Polski">Polski</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#portuguese" title="Português">Português</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#italian" title="Italiano">Italiano</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#german" title="Deutsch">Deutsch</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#japanese" title="日本語">日本語</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#farsi" title="فارسی">فارسی</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#english" title="English">English</a></li>
+</ul></li>
+</ul>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+      </div>
+
+          </div>
+    
+    
+      </footer>
+    
+
+    <!--/PAGEWATCH-->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+                        </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="social-links-wrapper">
+              <span class="social-links-txt">Connect with us</span>
+              <ul class="social-links social-links__dark">
+                                                  <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw-grey.png"/></a></li>
+                                <!--                --><!--                  <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin-grey.png"/></a></li>-->
+<!--                -->
+                                                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>  <script type="text/javascript" src="/sites/default/files/advagg_js/js__VWRymaMz6HfrhnrcJNGcDiSvLVrvhaXvBa7nrBYy8gc__jntPwP3D6myJZH1jW19fXrk5cYMHGRL8NQION22VSEA__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5486d15a696bff0c"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__g6mKbcakHxQkz4ZHYaxdO_xqONINvRMgsHh1zAK-fr0__ATHtEmHaeZ0jidpGU22EkhmPDBSgjD8z0bVDQMI-BIY__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__KUp4PrfOt9BSXUVl8Ctb3dhCMBe4MNVMeb4Gyorx8yY__7g4BeXscCIZAfuu1vxsCj2RIemg-eEK0QpChP9LDmFQ__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__PNjAgubM_3xXRLp4uLsYnv8wQAdT89-RYkSPxT6T45c__rFQwFK4pA5ZaWZSF7FPTfKbbpus0h-5IS8ayrNZGrb4__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__vQiLul2UcfC4nBAR09mhYVBYzRmiNDm2dj3GgSubV38__w84oZe-ZODKe7XnnlbrjV4IWHISOy4PioFEMVgx9hZo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__QJw3g0kOdwsv4twSZLP931zBzsHy50VEHpEN_znIitQ__A6QOuWXElDipBM2iChbWhjAAt3KlUwZ-jODoxdpbwiw__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stability_aspe","theme_token":"gppOszReWJ2eqGWoae7mYyza85iMGnKVBJOiITT9oXM","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/footable.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/aspe_nodes.admin.css":1,"sites\/all\/modules\/custom\/aspe_views\/theme\/css\/aspe_views.admin.css":1,"sites\/all\/modules\/forked\/book\/book.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/openpublic\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.css":1,"profiles\/openpublic\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openpublic\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/openpublic\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/themes\/stability\/css\/bootstrap.min.css":1,"sites\/all\/themes\/stability\/css\/fonts\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.theme.css":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/stability\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/stability\/css\/theme.css":1,"sites\/all\/themes\/stability\/css\/theme-elements.css":1,"sites\/all\/themes\/stability\/css\/animate.min.css":1,"sites\/all\/themes\/stability\/css\/skins\/red.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/slideshow.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/font-main.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/styleless.less":1,"sites\/all\/themes\/stability\/css\/skins\/blue.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/aspe\/theme\/js\/aspe.login-confirm.js":1,"sites\/all\/modules\/custom\/aspe_report\/modules\/aspe_databooks\/js\/aspe_databooks.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.highcharts.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/datatables\/dataTables.min.js":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.min.js":1,"sites\/all\/libraries\/highcharts\/highcharts.js":1,"sites\/all\/libraries\/highcharts\/highcharts.exporting.js":1,"sites\/all\/libraries\/highcharts\/highcharts.map.js":1,"sites\/all\/libraries\/highcharts\/highcharts.us-all.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.footable.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5486d15a696bff0c":1,"misc\/progress.js":1,"profiles\/openpublic\/modules\/contrib\/webform\/js\/webform.js":1,"profiles\/openpublic\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/stability\/vendor\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/stability\/vendor\/bootstrap.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flexnav.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flickrfeed.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.sloppy-masonry.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.fitvids.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.stellar.min.js":1,"sites\/all\/themes\/stability\/vendor\/snap.svg-min.js":1,"sites\/all\/themes\/stability\/js\/custom.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/aspe.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/html5shiv.min.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/main-menu.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/keyboard-control.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tabBehavior.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tileStringTrimmer.js":1}},"webform":{"conditionals":{"webform-client-form-158521":{"ruleGroups":[],"sourceMap":[],"values":[]}}},"ajax":{"edit-webform-ajax-next-158521":{"callback":"webform_ajax_callback","wrapper":"webform-ajax-wrapper-158521","progress":{"message":"","type":"throbber"},"event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Next \u003E"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/execsum\/research-employment-supports-people-disabilities-summary-focus-group-findings":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"([a-z0-9]\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This website contains links to other federal and state agencies and private organizations. The Department of Health and Human Services (HHS) cannot attest to the accuracy of information provided by these nonfederal website links. Linking to nonfederal sites does not constitute an endorsement by HHS or any of its employees of the sponsors or the information and products presented on the sites. You will be subject to the destination site\u0027s privacy policy when you leave the ASPE website.\r\n\r\nThank you for visiting aspe.hhs.gov!","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"stability":{"flickr_id":"52617155@N08","logo_sticky":"28"},"field_group":{"div":"full"}});
+//--><!]]>
+</script>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config={pubid:"ra-5486d15a696bff0c",ui_click:false}
+//--><!]]>
+</script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4837db659","applicationID":"10708002","transactionName":"MwNaZBRSXEtXB0BdWQpJeVMSWl1WGQpbUFM7FllXA2xEUVMT","queueTime":0,"applicationTime":1790,"atts":"H0RZElxIT0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

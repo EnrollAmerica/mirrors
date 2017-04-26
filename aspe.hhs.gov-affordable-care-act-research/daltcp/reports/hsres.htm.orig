@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">  <!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://aspe.hhs.gov/sites/default/files/Favicon2.png" type="image/png" />
+<meta name="description" content="Peter Kemper, Randall S. Brown, George J. Carcagno, Robert A. Applebaum, Jon B. Christianson, Walter Corson, Shari Miller Dunstan, Thomas Grannemann, Margaret Harrigan, Nancy Holden, Barbara R. Phillips, Jennifer Schore, Craig Thornton, Judith Wooldridge and Felicity Skidmore April 1988" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://aspe.hhs.gov/execsum/evaluation-national-long-term-care-demonstration" />
+<link rel="shortlink" href="https://aspe.hhs.gov/node/99706" />
+<meta property="og:site_name" content="ASPE" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aspe.hhs.gov/execsum/evaluation-national-long-term-care-demonstration" />
+<meta property="og:title" content="The Evaluation of the National Long-Term Care Demonstration" />
+<meta property="og:description" content="Peter Kemper, Randall S. Brown, George J. Carcagno, Robert A. Applebaum, Jon B. Christianson, Walter Corson, Shari Miller Dunstan, Thomas Grannemann, Margaret Harrigan, Nancy Holden, Barbara R. Phillips, Jennifer Schore, Craig Thornton, Judith Wooldridge and Felicity Skidmore April 1988" />
+<meta property="og:updated_time" content="2017-03-20T02:37:16-04:00" />
+<meta property="article:published_time" content="2015-12-09T05:08:02-05:00" />
+<meta property="article:modified_time" content="2017-03-20T02:37:16-04:00" />
+
+  <title>The Evaluation of the National Long-Term Care Demonstration | ASPE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+  <link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__5ln8neBOcJfyUveiD4y9fhI6kHBLOQ_YL0mMC-LS9a0__TPJIZT9UBnf_685NlFTJ5KnZVsjwFk6ACQ-nwwygmwU__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ng49uRH5y4Hl9VF9hHW_vXOj-mcOc2u2ShJqJ1YKIGU__FoMCD14GBvZaRiqSQ_JpP1w3rDB21n7H2Ar4pRZaIh8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__Hskudx14OJ5Hz8vqU7CUgN6SDV5rINZuEq9VuGsSeyc__EwNIl3xeFrniW2TmonovTzhSs3X5MdFps210puE7jog__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__9rZoaX9BdzjjNucvYxduxeNAVO2zgW_Rvjhb5rq5whc__lSr_y16grDSgHf4booPChnF7QXz3TQY3hafH49twE0k__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZgfI_ZPib5yVY0o5aKo_6TFn946Tuu_nFDa0ySTmkSc__2FTFrNw2eNh0mpHIOA34r6YRwBZMm2PjJ_JubnwLigg__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__dxabpJ5rQgDSixKgLJZjWc1beC6mpROKwVrmWxI5eno__rqhz_hGsE_i59O7-W991o71_Jxw1QOtGMxn4nsOLHY8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZbRCq2NqWgK-HXAQI3So0N1n0nr4HonsJS3eQuuxukw__7Olkk8Locn8Dj0eR0Ww3rbV9lks9sxipcboMXB18RRs__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+
+	<!-- Head Libs -->
+	<script src="/sites/all/themes/stability/stability_aspe/vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/sites/all/themes/stability/vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" href="/sites/all/themes/stability/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/stability/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/stability/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/stability/images/apple-touch-icon-144x144.png">
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-99706 node-type-report-exec-sum">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-JLFR"
+                  height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JLFR');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-nav" class="accessibility_menu">
+    <strong>Shortcut Navigation:</strong>
+    <ul>
+      <li><a href="#content" accesskey="c" title="Skip to page content (ctrl/alt + c)">Page Content</a></li>
+      <li><a href="#nav" accesskey="m" title="Skip to main navigation menu (ctrl/alt + m)">Site Navigation</a></li>
+
+      <li><a href="#Footer" accesskey="f" title="Skip to footer (ctrl/alt + f)">Footer</a></li>
+    </ul>
+  </div>
+
+    
+<div class="site-wrapper">
+  
+  <header class="header header-menu-fullw header-top-clean">
+    <div id="brand-bar">
+        <div class="container">
+                    <img alt='bird' src="/sites/all/themes/stability/stability_aspe/images/bird.png"> <a target="blank" tabindex="4" href="http://www.hhs.gov/">U.S. Department of Health & Human Services</a>
+        </div>
+
+    </div>
+    <div class="header-main">
+        <div class="container clearfix">
+            <div class="social-links-wrapper">
+                <ul class="social-links social-links__light">
+                                                          <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw.png"/></a></li>
+                                    <!--                  --><!--                    <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin.png"/></a></li>-->
+<!--                  -->
+                                                                      </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                                <div class="site_name_wrapper">
+                                     <span class="h1">
+                                      <a href="/">ASPE</a>
+                                       </span>
+                                  <p class="tagline"><p>Office of The Assistant Secretary</p><p> for Planning and Evaluation</p></p>
+                    </div>
+            </div>
+            <!-- Logo / End -->
+            <div class="header_right_wrapper">
+                <div class="search-form">
+                    <form action="/execsum/evaluation-national-long-term-care-demonstration" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class = "input-group"><div class="form-type-textfield form-item-search-block-form form-item form-group">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search Site..." class="form-control form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input class="btn btn-primary btn-icon form-submit" type="image" id="edit-submit" name="submit" value="Search" src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/search-white2.png" alt="Search" title="Search" /></div></div><input type="hidden" name="form_build_id" value="form-ZyMpr4YO0Xh_HzALZoD2Yox8CDiLaJRq8Qrgc7z-mUw" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </div>
+                <button type="button" class="navbar-toggle" value="Menu">
+                    <i class="fa fa-bars"></i>Menu
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-main">
+        <div class="container">
+          <ul data-breakpoint="767" class="flexnav">
+                <li class="first expanded"><a href="/basic-search/about" title="">About</a><ul><li class="first leaf"><a href="/mission" title="">Mission</a></li>
+<li class="leaf"><a href="/key-staff" title="">Leadership</a></li>
+<li class="leaf"><a href="https://www.usajobs.gov/" title="">Careers</a></li>
+<li class="expanded"><a href="/coordination" title="linkTo">Coordination</a><ul><li class="first leaf"><a href="/evaluation-evidence" title="">Evaluation &amp; Evidence</a></li>
+<li class="leaf"><a href="/national-alzheimers-project-act">National Alzheimer&#039;s Project Act</a></li>
+<li class="leaf"><a href="/health-and-human-services-hhs-data-council">HHS Data Council</a></li>
+<li class="last leaf"><a href="/national-committee-vital-and-health-statistics" title="National Council on Vital and Health Statistics">National Council on Vital and Health Statistics</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/divisions" title="">Offices</a><ul><li class="first leaf"><a href="/office-disability-aging-and-long-term-care-policy-daltcp">Disability, Aging, and Long-Term Care Policy</a></li>
+<li class="leaf"><a href="/office-health-policy-hp">Health Policy</a></li>
+<li class="leaf"><a href="/office-human-services-policy">Human Services Policy</a></li>
+<li class="last leaf"><a href="/office-science-and-data-policy">Science and Data Policy</a></li>
+</ul></li>
+<li class="leaf"><a href="/strategic-planning" title="Strategic Planning">Strategic Planning</a></li>
+<li class="last leaf"><a href="/contact-aspe" title="">Contact ASPE</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/topics" title="">Topics</a><ul><li class="first leaf"><a href="/affordable-care-act-research">Affordable Care Act Research</a></li>
+<li class="leaf"><a href="/alzheimers-dementia">Alzheimer&#039;s / Dementia</a></li>
+<li class="leaf"><a href="/early-childhood">Early Childhood</a></li>
+<li class="leaf"><a href="/incarceration-reentry">Incarceration &amp; Reentry</a></li>
+<li class="leaf"><a href="/opioid-abuse-us-and-hhs-actions-address-opioid-drug-related-overdoses-and-deaths" title="Opioids">Opioids</a></li>
+<li class="leaf"><a href="/patient-centered-outcomes-research-trust-fund">Patient-Centered Outcomes Research Trust Fund (PCORTF)</a></li>
+<li class="expanded"><a href="/basic-search/poverty" title="">Poverty</a><ul><li class="first leaf"><a href="/poverty-guidelines">Poverty Guidelines</a></li>
+<li class="last leaf"><a href="/poverty-estimates-trends-and-analysis">Poverty Analysis</a></li>
+</ul></li>
+<li class="leaf"><a href="/teen-pregnancy-prevention">Teen Pregnancy Prevention</a></li>
+<li class="leaf"><a href="/homelessness">Homelessness</a></li>
+<li class="last leaf"><a href="/medicare-access-and-chip-reauthorization-act-2015">MACRA</a></li>
+</ul></li>
+<li class="leaf"><a href="/reports" title="">Publications</a></li>
+<li class="last expanded"><a href="/basic-search/datasets" title="">Data and Tools</a><ul><li class="first last leaf"><a href="/evaluations" title="">Evaluation Database</a></li>
+</ul></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation / End -->
+</header>  <div class="main" role="main">
+    <!--PAGEWATCH CODE="USHHS_458"-->
+    <section class="page-heading">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+                <h1>
+                    
+          The Evaluation of the National Long-Term Care Demonstration        </h1>
+                                 <p class="author">
+                                                 <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="1988-04-01T00:00:00-05:00">04/01/1988</span>               
+                           </p>
+
+
+                  </div>
+
+
+        <div class="col-md-6">
+           <ul class="breadcrumb"><li class="first"><a href="/" title="Home">Home</a></li>
+<li class="last">The Evaluation of the National...</li>
+</ul>        </div>
+
+
+    </div>
+  </div>
+</section>
+    
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Content">     
+
+        
+                  
+        
+                                    <div  class="col-md-12 " id="content">
+                          
+                              <div id="block-aspe-aspe-addthis" class="widget block block-aspe" >
+  
+      
+  <div class="clearfix">
+  <ul class="addthis_sharing_toolbox node-share__links" data-url="https://aspe.hhs.gov/execsum/evaluation-national-long-term-care-demonstration" data-title="The Evaluation of the National Long-Term Care Demonstration">
+    <li><a class="addthis_button_print"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/print-white.png" alt="print" /></a></li>
+    <li><a class="addthis_button_email"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/mail-white.png" alt="email" /></a></li>
+    <li><a class="addthis_button_twitter"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/tw.png" alt="twitter" /></a></li>
+<!--    <li><a class="addthis_button_facebook">--><!--</a></li>-->
+    <li><a class="addthis_button_compact"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/plus-white.png" alt="compact" /></a></li>
+  </ul>
+</div>
+
+  </div> <!-- /.block -->
+
+                
+    
+  
+  <div class="content clearfix node-report-exec-sum">
+    <h3>Peter Kemper, Randall S. Brown, George J. Carcagno, Robert A. Applebaum, Jon B. Christianson, Walter Corson, Shari Miller Dunstan, Thomas Grannemann, Margaret Harrigan, Nancy Holden, Barbara R. Phillips, Jennifer Schore, Craig Thornton, Judith Wooldridge and Felicity Skidmore</h3>
+<h3>April 1988</h3>
+<hr /><blockquote><p><em>This <strong>Health Services Research Special Issue</strong> (Volume 23, Number 1) was a result of contract #HHS-100-80-0157 between the U.S. Department of Health and Human Services (HHS), Office of Social Services Policy (now the Office of Disability, Aging and Long-Term Care Policy) and Mathematica Policy Research, Inc. For additional information about the study, you may visit the DALTCP home page at http://aspe.hhs.gov/daltcp/home.htm or contact the office at HHS/ASPE/DALTCP, Room 424E, H.H. Humphrey Building, 200 Independence Avenue, SW, Washington, DC 20201. The e-mail address is: webmaster.DALTCP@hhs.gov. The DALTCP Project Officer was Robert Clark.</em></p>
+</blockquote>
+<hr /><blockquote><p>The Channeling demonstration sought to substitute community care for nursing home care to reduce long-term care costs and improve the quality of life of elderly clients and the family members and friends who care for them. Two interventions were tested, each in five sites; both had comprehensive case management at their core. One model added a small amount of additional funding for direct community services to fill the gaps in the existing system; the other substantially expanded coverage of community services regardless of categorical eligibility under existing programs. The demonstration was evaluated using a randomized experimental design to test the effects of Channeling on use of community care, nursing homes, hospitals, and informal caregiving, and on measures of the quality of life of clients and their informal caregivers. Data were obtained from interviews with clients and informal caregivers; service use and cost records came from Medicare, Medicaid, Channeling, and providers; and death records for an 18-month follow-up period were examined.</p>
+</blockquote>
+<p>The U.S. Department of Health and Human Services (DHHS) began the National Long-Term Care Demonstration at a time when many believed that the nation's long-term care system was inappropriately oriented toward nursing home rather than community care. This orientation was believed to be a major contributor to the rapidly increasing costs of long-term care. The demonstration--known as Channeling--was a rigorous test of the effectiveness of comprehensive case management and expanded community services in serving as a way to contain the costs of long-term care of the elderly and to improve the quality of life of elderly clients and the family members and friends who care for them.</p>
+<p>The purpose of this issue, which is based on the <strong><a href="/daltcp/reports/chanes.htm">Final Report</a></strong> of the demonstration (Kemper et al., 1986), is to present the basic findings of the Channeling evaluation, to compare them to the results of other community care demonstrations, and to guide interested readers to more thorough treatment of them in the extensive series of technical reports on Channeling. This provides a brief description of the Channeling intervention, its intended effects, and its organization and implementation. It then describes the evaluation design and the data used to measure Channeling's effects, concluding with a road map of the full issue.</p>
+<p> </p>
+<h2>A. OVERVIEW OF THE CHANNELING INTERVENTION</h2>
+<p>Channeling was designed to serve severely impaired older persons who require long-term care services for an extended period of time and who, in the absence of Channeling, are at high risk of being institutionalized--that is, placed permanently in a nursing home. For this group of people, the objective of Channeling was to substitute services provided in he community--both formal services and the informal care provided by family and friends--for nursing home care, wherever community care was appropriate. This substitution was intended, in turn, to reduce costs and to improve the quality of life of its clients and their informal caregivers.</p>
+<p>To achieve Channeling's objective of managing the service use of impaired elderly clients at risk of nursing home placement, its designers specified two models--the basic case management model and the financial control model--that shared a set of core functions (described further in the articles by Applebaum and by Phillips, Kemper, and Applebaum, in the full issue):</p>
+<ul><li>
+<p><em>Outreach, screening, and eligibility determination</em> were designed to attract potential clients to Channeling and to identify within that group the persons who met the eligibility criteria.</p>
+</li>
+<li>
+<p><em>Assessment, care planning, and service initiation followed</em>. The assessment function was designed to collect the information--on functioning, unmet service needs, financial resources, and personal and household characteristics--necessary to develop a care plan. This plan, in turn, dictated the services to be arranged and initiated by the Channeling case manager.</p>
+</li>
+<li>
+<p>Monitoring and reassessment followed for as long as clients remained in Channeling. These functions were designed to ensure that services were provided as specified in the care plan and that the care plan was modified as needed.</p>
+</li>
+</ul><p>In addition to these core functions the basic case management model had one program feature, and the financial control model several, to enhance the case manager's ability to implement care plans while limiting the resources used. (These are discussed further in Corson, Grannemann, and Holden, in full issue.)</p>
+<h3>1. The Basic Case Management Model</h3>
+<p>The basic case management model was designed to test the premise that the major difficulty in getting appropriate long-term care in the community is not lack of financing for services but lack of information about and ability to obtain and manage services under the existing service system, thus leading to a mismatch of services and needs. Case management was intended, therefore, to determine needs and to help arrange and coordinate services under the existing system. A limited amount of discretionary funding was provided for Channeling projects to purchase community services to fill residual service gaps that would have prevented implementation of a comprehensive care plan.</p>
+<h3>2. The Financial Control Model</h3>
+<p>The financial control model added to the core Channeling functions several features designed to test the premise that inadequate public financing of community services leads to inappropriate use of nursing homes. In order to alter service access and use while still controlling costs, the financial control model incorporated several additional features.</p>
+<p>Service access and use were addressed through <strong>expanded service coverage</strong>, a <strong>funds pool</strong>, and case manager <strong>authorization power</strong>. The first extended funding to purchase community services not covered under existing government programs. The second used waivers to enable Channeling to use Medicaid, Medicare, and other public program funds irrespective of clients' categorical eligibility. (Clients did, however, have to be covered by Medicare Part A to be eligible for Channeling in the financial control sites.) The third gave case managers power to authorize the amount, duration, and scope of services paid for from the funds pool.</p>
+<p>The cost-control objective was addressed through <strong>a limit on average service expenditures</strong> (averaged across all clients), <strong>a limit on individual service expenditures</strong>, and <strong>cost sharing by clients</strong>. The limits on average and individual service expenditures were set at 60 percent and 85 percent, respectively, of prevailing nursing home rates. (The individual service expenditure limit could be waived by state approval.) The cost-sharing provision went into effect for clients with incomes in excess of a protected amount for services that would not otherwise have been available without charge.</p>
+<p>In addition to the material contained in the full issue, further detail on the planned intervention can be found in Gottesman (1981), and the operational experience and its implications are discussed in the evaluation's detailed implementation and process report (Carcagno et al., 1986).</p>
+<p> </p>
+<h2>B. INTENDED EFFECTS</h2>
+<p>The Channeling approach, like that of a number of other community care demonstrations, was designed with the overall objectives of controlling the costs of long-term care while maintaining or improving the quality of clients' and informal caregivers' lives. How the specific effects were intended to come about is described briefly below.</p>
+<p><strong>Increased Use of Community Services</strong>. Channeling was intended to increase use of community services by providing in-home care to people who would otherwise have been in nursing homes. In addition, those who would have remained in the community in any case but with some service needs unmet were expected to increase their use of services under Channeling. The increase in community service use was expected to be greater under the financial control model than under the basic case management model because of the greater direct-service purchasing power of the financial model. (The article by Corson, Grannemann, and Holden in the full issue presents the results on community service use.)</p>
+<p><strong>Reduced Use of Nursing Homes</strong>. Substitution of community care for nursing home care was the primary intended effect of Channeling, to be brought about directly through the activities of case managers and indirectly through the lower price of community care to potential clients. (See Wooldridge and Schore, in full issue, for the results.)</p>
+<p><strong>Reduced Use of Hospitals</strong>. Although not Channeling's primary objective, reduced use of hospitals might also result from expended community services to the extent that, in the absence of Channeling, persons remain hospitalized longer than medically necessary because of inadequate care at home or a shortage of nursing home beds. This reduction might be offset to the extent that comprehensive care management identified medical problems that would otherwise have gone untreated. (See Wooldridge and Schore, in full issue.)</p>
+<p><strong>Reduced Costs of Long-Term Care</strong>. Channeling was intended to reduce costs through the substitution of lower-cost community care for nursing home care. The success in doing so depends on whether Channeling was able to reduce nursing home use by enough to offset the cost of case management and expanded community services. (See Thornton, Dunstan, and Kemper, in full issue.)</p>
+<p><strong>Maintenance of Level of Informal Caregiving</strong>. The intended cost savings from reduction in the use of nursing home care was based in part on the expectation that family and friends would--as a result both of support and encouragement from case managers and of direct services (such as respite care)--at least maintain their informal caregiving efforts. It was recognized, however, that some substitution of formal for informal care might occur. (See Christianson, in full issue.)</p>
+<p><strong>Improved Quality of Lives of Clients and Informal Caregivers</strong>. Channeling was intended to improve the quality of clients' lives in two ways. Lower use of nursing homes was expected to reduce some of the debilitating effects of forced relocation and institutionalization on clients' functioning, on their life expectancy, and on their social/psychological well-being. Expanded community services were expected to reduce unmet needs, increase satisfaction with service arrangements, increase longevity, and improve social/psychological well-being. The well-being of informal caregivers was expected to improve, because the availability of respite care and case manager support was expected to reduce strain and anxiety about adequacy of care. (See Applebaum et al., in full issue.)</p>
+<p> </p>
+<h2>C. ORGANIZATION AND IMPLEMENTATION OF THE DEMONSTRATION</h2>
+<p>The Channeling initiative was intended to be a true national demonstration carried out by states and local entities within a uniform framework, rather than an assembly of relatively specialized local projects. The experience of prior community care initiatives was of substantial use to the Channeling planners. Indeed, the features tested in them--screening and assessment, care planning, case management, expended coverage of community services, and cost controls--as well as their evaluations provided the foundation for the Channeling demonstration's design.</p>
+<p>DHHS had overall responsibility for the demonstration. Within the Department three agencies participated in the design and conduct of the demonstration: the Health Care Financing Administration (HCFA), the Administration on Aging, and the Office of the Assistant Secretary for Planning and Evaluation (ASPE). Responsibility for managing the initiative was lodged in ASPE. A steering committee drawn from all three agencies determined basic demonstration policy. A demonstration management team, made up of staff from the three agencies, managed the day-to-day operation of the demonstration.</p>
+<p>Two contractors were chosen to support Federal staff in conducting the demonstration. Mathematica Policy Research (MPR) was selected as the research contractor to develop the evaluation design, collect the necessary data, and analyze Channeling's effects. MPR was supported by two major subcontractors, the Levinson Policy Institute at Brandeis University and Arthur Young and Company. The Temple University Institute on Aging was selected as the technical assistance contractor to assist in designing operational procedures, training project staff, and monitoring the implementation of the intended program design.</p>
+<h3>1. Selection of State and Sites</h3>
+<p>Twenty-eight states responded to an April 1980 request for proposals to operate Channeling projects. Among the criteria used for the selection of states were evidence of interest and commitment to the project at the state level; capacity to perform the basic case management model functions; whether the proposed demonstration areas were such that the basic Channeling intervention would represent a change from the existing system; and the general quality of the proposal.</p>
+<p>As part of the proposal, the governor in each applicant state designated a lead agency to be responsible for contributing to and overseeing implementation of the local Channeling projects. In its proposal, each state could identify up to three potential sites where the demonstration might take place, with the understanding that one site eventually would be chosen. In September 1980, contracts were awarded to 12 states: Florida, Hawaii, Kentucky, Maine, Maryland, Massachusetts, Missouri, New Jersey, New York, Ohio, Pennsylvania, and Texas.</p>
+<p>Once the states were selected, detailed proposals were prepared by the candidate sites as the basis for selection of subcontractor agencies to operate local Channeling projects generally encouraged a number of different organizations to request consideration as Channeling project host agencies, although in no case did a state solicit proposals from more than one host agency in a specific site. Some states solicited formal proposals from agencies interested in operating a Channeling project; others contacted specific organizations and asked them to apply for host agency status. Sites were selected in January 1981, after a process that involved review of the site proposals by the staffs of three Federal agencies and the technical assistance and evaluation contractors.</p>
+<h3>2. Designation of the Financial Control Model States</h3>
+<p>Initial plans for the demonstration included four different models of Channeling to be tested in 23 sites, with the additional sites selected in a second procurement. Federal budget cutbacks subsequently ruled out a second procurement, compressed the design to two models as the maximum that could be feasibly tested, and reduced the number of sites included in the evaluation from twelve to ten. (Hawaii and Missouri were dropped from the evaluation, although they continued to operate their Channeling projects.) As a result, it became necessary to select from among the Channeling projects already chosen those that would implement the financial control model. In June 1981, the Federal team issued guidelines outlining the features planned for this model and required state letters of intent to operate financial control projects.</p>
+<p>All of the states except Texas applied to be designated to test the financial control model. They described their plans and capacities to implement the major features of the financial control model described above. In reviewing these applications, DHHS emphasized satisfactory answers to two questions. First, did the project have the capacity to implement the more complex financial control model (a centralized local project organization and a well-developed service system that could support it)? Second, in the remaining sites in which the basic model would be tested, would the difference between the basic model treatment and the existing service environments be large enough to enable Channeling to have its intended effects? Both considerations worked to place the financial control model projects in the richer community service environments. In September 1981, after detailed negotiations with key state agency representatives, DHHS designated the projects that would implement the financial control model of Channeling. The sites and local host agencies are listed in <a href="#TABLE1">Table 1</a>.</p>
+<h3>3. Operational Planning and Implementation</h3>
+<p>Staff from the Federal agencies, contractors, and projects at both the state and site level were all involved in the design and implementation of Channeling. The demonstration-wide participation in these activities was crucial to the establishment of uniform procedures across sites, the commitment of project staff to the evaluation objectives of the demonstration, and the faithfulness of program operators to the operational constraints imposed on them by the research requirements.</p>
+<p>The evaluation contractor developed the research and data collection plans. Its subcontractor, Arthur Young and Company, designed the automated system used by financial control model projects to monitor service expenditures. The evaluation contractor also established an institutional review board, which was responsible for ensuring the protection of Channeling sample members.</p>
+<p>As part of the operational planning, the technical assistance contractor tested the procedures for informed consent, screening, baseline assessment, and client tracking, and trained project staff to conduct them. The contractor also led the design of systems and procedures for case finding, care planning, use of service expansion funds, client cost sharing, and the service audit/program review function.</p>
+<p>Some projects began accepting clients in February 1982, after intensive operational planning and development of the evaluation design. By June 1982, all projects were in operation. Caseload buildup was slower than planned, particularly at the smaller sites, but by about a year later, all projects had reached their planned caseloads. They operated a full caseload until Jun 1984. Between July 1984 and March 1985, they carried out plans to end federally supported operations. Eight of the projects continued operations under other auspices after the end of their Federal contract support.</p>
+<p> </p>
+<h2>D. PRIOR RESEARCH</h2>
+<p>Research on community care alternatives to institutionalization began in the late 1960s and early 1970s, with a series of small demonstrations that provided clients with case workers and a limited amount of expanded home health services (Nielsen et al., 1970; Goldberg, 1970; Katz et al., 1972; Blenkner et al., 1974; and Hedrick and Inui, 1986). These studies are not directly relevant to the current service system, because use of home health care under Medicare and Medicaid had not grown to present levels. For example, one study focused on visiting nursing care and several on home health aide care, both widely available today under Medicare and (for those with low incomes) Medicaid. Despite the fact that these studies tested a rather limited intervention and were evaluated with small samples, they demonstrated that field tests could be successfully undertaken, thus laying the foundation for larger, more comprehensive community care demonstrations.</p>
+<p>Studies of the hypothetical costs of community care were undertaken during the 1970s (Greenberg, 1974; Rathbone-McCuan and Lohn, 1975; Sager, 1977; and General Accounting Office, 1977). In these studies, a sample of older persons with long-term care needs was assessed, hypothetical community service packages were constructed to meet these needs, and the cost of these service packages was compared to the cost of nursing home care. The results of the hypothetical service-package studies indicated that in most cases community care was less costly than institutional care. Proponents used these results to argue for an expansion of community care. Their critics were quick to point out, however, that direct comparisons with nursing home care exaggerated the effects of community care because if could not be assumed that all those receiving community care would have been institutionalized without it. An appropriate comparison, in other words, would require some way to measure that the experiences of these people would have been without access to the indicated services.</p>
+<p>Continued interest in the effects of community care alternatives led to a series of government-sponsored community care demonstrations (Channeling is one of the most recent) to make comparisons based on actual experience rather than hypothetical cases. (See Kemper, Applebaum, and Harrigan, 1987; and Applebaum, Harrigan, and Kemper, 1986, for a review of these demonstrations.) Throughout the rest of this issue, we compare the Channeling results to those of the other community care demonstrations (based on Applebaum, Harrigan, and Kemper, 1986).</p>
+<p> </p>
+<h2>E. EVALUATION DESIGNS OF CHANNELING AND OTHER DEMONSTRATIONS</h2>
+<p>Accurate assessment of the effects of a demonstration program requires an evaluation design that permits determination of how the actual experience of program participation differs from what it would have been in the absence of the program. Whether evaluation estimates of a community care demonstration's effects provide a sound basis for determining its true effects on costs and life quality depends on the number and diversity of the demonstration's sites, the comparison methodology, the sample size, the length and frequency of follow-up, and the data sources. These dimensions of the evaluation designs of Channeling and the 14 other community care demonstration to which we will compare it in subsequent articles are summarized in <a href="#TABLE2">Table 2</a>.</p>
+<p><strong>Number and Diversity of Sites</strong>. The Channeling demonstration was implemented in ten sites, five to test each Channeling model. This reduced the likelihood that the results would either be artifacts of a particular implementation of Channeling or of special characteristics of the service environment. These ten sites provided a relatively wide range of environments. Although six of the sites were located on the Eastern Seaboard, the geographic range included states in the Northeast, Midwest, South, and Southwest. There was also rural/urban diversity, ranging from cities like Baltimore, Cleveland, Houston, Miami, and Philadelphia to rural areas like eastern Kentucky and southern Maine.</p>
+<p>The number and diversity of sites of the other demonstrations were quite limited. All except one were restricted to a single state, and ten were restricted to a single site.</p>
+<p><strong>Comparison Methodology</strong>. To measure the effect of a program, it is essential to be able to contrast the experiences of the persons to whom the program services were available--the treatment group--with some measure of what the experiences of the same persons would have been had they not had the benefit of the service opportunities provided by the demonstration (Kemper, 1983). This is done by selecting a group of persons as similar to the treatment group as possible--except for the opportunity to receive demonstration services--and measuring their experiences as a benchmark against which to compare the experience of the treatment group.</p>
+<p>One way is to select a group of nonparticipants and to match them with participants so that the characteristics of the two groups are similar; the other way is to select a nonprogram benchmark group by random assignment of eligible applicants either to receive the program services (treatment status) or to receive only those services regularly available in the community (control status). Random assignment is usually the more powerful strategy, because it virtually ensures that, for a large sample, the average characteristics and environments of the treatment group are the same as those of the control group. The evaluation does not have to depend, as in the comparison-group strategy, on its ability to measure a set of characteristics on which to match. In addition, however well comparison groups are matched on measured characteristics, there will always be unmeasured characteristics that may distort the benchmark comparison in unknowable ways.</p>
+<p>Of the 14 demonstrations other than Channeling, six chose a comparison-group strategy. Each of these studies ended up with comparison groups that differed on at least one measured characteristic that could be expected to affect the results. For example, one demonstration had a race mismatch, with a treatment group predominantly Oriental (Chinese) and a comparison group predominantly Caucasian; another had a treatment group that was somewhat older than its comparison group; a third had both race and age differences. Eight chose a random assignment strategy.</p>
+<p>The Channeling evaluation used a randomized design (Kemper et al., 1982). This should provide unbiased estimates of Channeling's effects compared to the existing community care systems in the ten demonstration sites. The Channeling evaluation is therefore based on a very particular comparison. It is not a test of Channeling compared to the total absence of case management and formal community services. Rather, it compares Channeling to the case management and formal services that already existed in those ten sites.</p>
+<p><strong>Sample Size</strong>. Channeling's overall sample at randomization was 6,326, about evenly divided between the basic case management and financial control models. Most analysis samples were smaller due to attrition and in some cases subsampling (see further on).</p>
+<p>The sample sizes of the other community care demonstrations span a wide range. The smallest used a sample of one 140 people. Four of the studies had sample sizes between 400 and 600. The largest of the other demonstrations used a sample size of 4,200, but it relied only on Medicaid and Medicare records for a matched comparison group.</p>
+<p><strong>Length and Frequency of Follow-up</strong>. The length of follow-up also varied among the other community care demonstrations. Of the 13 that used individual-level data, all followed their respective samples for at least 12 months after program enrollment. Two followed at least some of their sample for 18 months. Five followed a subsample for two years or longer. Channeling followed the full sample for 12 months, and half the sample for 18 months.</p>
+<p>Frequency of follow-up also varied across demonstrations. One demonstration had a single follow-up 12 months after enrollment. Another followed up at 12 and at 18 months. Three demonstrations followed up every three months, at least for the first six months. The rest had follow-ups at six-month intervals, as did Channeling.</p>
+<p><strong>Data Sources</strong>. Five potential sources of data area available to demonstrations of this kind: individual interviews with treatment and control (or comparison) groups (potentially supplemented by service use and cost diaries that the individual maintain); demonstration project records (for clients only); public program records such as Medicare and Medicaid claims; provider records; and official death records.</p>
+<p>The other demonstrations varied in the range of data sources they were able to exploit. Two were limited to a single data source (other than project records)--individual interviews with treatment and comparison groups in one case, and aggregate county social service department data in the other. Six combined individual interviews with records data from Medicare, Medicaid, or project records, but did not collect both Medicaid and Medicare data. (One of these also collected official death records.) The remaining six projects used individual interviews and both Medicaid and Medicare records. (Two of these also relied on service use and cost diaries.)</p>
+<p>In addition to individual interviews, project records, and Medicare and Medicaid records, Channeling collected data from service providers on the use and cost of services not covered by Medicare, Medicaid, or Channeling; interviewed the primary informal caregivers of a subsample of the treatment and control groups; and obtained official death records.</p>
+<p> </p>
+<h2>F. THE RANDOM ASSIGNMENT AND DATA COLLECTION PROCESS</h2>
+<p>Collecting these data required an extensive data collection effort. An evaluation report on randomization and data collection procedures (Phillips et al., 1986) details the process. Figure 1 provides a simplified overview of the data collection activities, from the initial telephone screening interview to determine program eligibility to the 18-month follow-up interview.</p>
+<p>Initial eligibility for Channeling was determined through a 15- to 25-minute telephone <em>screening interview</em> administered to all applicants or their proxies. The screen contained information on referral source, functioning, living arrangement, insurance coverage, unmet needs, informal supports, income, and demographic characteristics.</p>
+<p>Those found eligible for Channeling were then <em>randomly assigned</em> (by evaluation staff) to treatment or control group status. Those assigned to the treatment group were referred to Channeling case managers. Those assigned to the control group were referred by the special screening staff back to the agency that had originally referred them to Channeling, so they continued to rely on the existing long-term care system. Self and family referrals were directed to information and referral agencies.</p>
+<p>The design sought to minimize the possibility that Channeling could affect the experience of the control group. The screening personnel were located separately from case management staff to ensure that case management staff would have no knowledge of applicants who might later be assigned to the control group. The decision to use telephone rather than in-person screening was also made in part to minimize control group members' contact with Channeling.</p>
+<p>Interviews with project staff and referral sources conducted as part of the implementation research indicated that these procedures were successful. There was no indication that the research procedures affected the control group. Special efforts of providers on behalf of controls were reported only in isolated instances in two sites. These interviews also indicated that the randomization procedures were implemented as designed. Moreover, as Brown indicates in the an article in the full issue, analysis of the characteristics of treatment and control groups at randomization concluded that randomization had worked, resulting in two groups that were very similar on a wide range of initial characteristics (Brown and Harrigan, 1986).</p>
+<p>The next step in the process, on average about a week after random assignment, was for both treatment and control groups to receive a <em>baseline interview</em>. This structured needs assessment contained comprehensive information on physical and mental functioning, unmet needs for care, living arrangements, physical health, medical care, formal and informal in-home care, well-being, income and assets, insurance coverage, housing, and demographic characteristics. Channeling staff felt it necessary that they administer the baseline assessment to clients, because it was the basis for the care planning and case management that formed the core of the Channeling approach. For them to do assessments of the control group as well, however, would have violated the evaluation requirement that control group members be insulated from Channeling. Therefore, the baseline interview to the control group was administered, instead, by evaluation staff.</p>
+<p>Different interviewing staff inevitably introduced the possibility of another danger to the evaluation--noncomparability of data for the two groups. To minimize the danger, the baseline instrument was the same for the two groups, and the interviewer training was also standardized. Subsequent analysis indicated that some variables were not measured comparably, and they were replaced with corresponding variables from the screening interview (which was comparably collected) or dropped as control variables (see Brown, in full issue; and Brown and Mossel, 1984). The baseline assessment was the only interview that was conducted in noncomparable fashion. All of the subsequent follow-up interviews for both groups were administered by evaluation staff, and the records searches were done for the whole sample irrespective of treatment/control status.</p>
+<p>Those who completed baseline interviews were followed up 6, 12, and 18 months after randomization. (In order to limit the data collection period, only the first half of the sample to enroll was followed after 12 months.) The <em>follow-up interviews</em> asked sample members or their proxies about hospital and nursing home use, housing, formal and informal care, insurance coverage, health status, living arrangement, social and psychological well-being, income and assets, physical functioning, and unmet needs.</p>
+<p>Official <em>death records</em> in each of the ten states were searched for all sample members who did not complete their last scheduled interview. To ensure comparability between the treatment and control groups, information on which the searches were based (name, Social Security number, date of birth, dates covered by the study, and place of residence) were taken only from the screening interview which was comparably collected.</p>
+<p><em>Medicare claims</em> records were obtained centrally from HCFA. For those sample members covered by Medicaid, <em>Medicaid claims</em> records were obtained from the state Medicaid agency in each of the demonstration states. (Some sample members reported in their follow-up interviews that they had become eligible for Medicaid, and their files were requested as well.) The claims files contained information on use, expenditures, and charges for hospitals, nursing homes, home health care, physicians, and other medical services covered by these programs. In addition, records of Channeling project claims for reimbursement for services under the financial control model provided data on the use and expenditures for community services provided under waivers.</p>
+<p>Although Medicare and Medicaid cover a substantial share of expenditures, they do not include private and other government expenditures or nonmedical services. To capture these service use and expenditure data, <em>provider billing records</em> were obtained for service use identified in the follow-up interviews. Records on hospital and nursing home use were collected when use reported in the follow-up interview was not covered by Medicare or Medicaid. For community services, billing records were collected for a 20 percent subsample of the treatment and control groups.</p>
+<p>To obtain more detail on information caregivers, an <em>informal caregivers interview</em> was administered to the primary informal caregiver identified by a subsample of the treatment and control groups. Conducted at baseline, six months, and 12 months, the informal caregivers interview contained information on the type and amount of care given by the primary caregiver; the type of care given by other informal caregivers; the amount of financial support given by all family and friends; the stress and strain experienced by the primary caregivers; their satisfaction with care arrangements; and their well-being, employment, income, and demographic characteristics.</p>
+<p><a href="#TABLE3">Table 3</a> shows which data sources were used to estimate the effects of Channeling for each outcome and the maximum sample sizes available for analysis. (The actual number of observations available for a particular outcome depends on the extent of nonresponse to that item.)</p>
+<p>In addition to the data gathered for analysis of Channeling's effects, data were also collected on the implementation of the demonstration and program operations. These data came from interviews with Channeling staff, service providers, and other knowledgeable people at the site level; project cost and client tracking reports; and public and project documents (Carcagno et al., 1986).</p>
+<p> </p>
+<h2>G. THE FULL ISSUE</h2>
+<p>The Channeling demonstration was designed as a rigorous test of the two models of Channeling. The full issue presents the results of that test. Brown shows the statistical methodology used to estimate Channeling's effects and summarizes the methodological issues confronted in the evaluation. Applebaum's article describes the process of referring clients to Channeling, screening them, and determining their eligibility. It then presents the characteristics of Channeling clients, comparing them to people in nursing homes, those in other community care demonstrations, and the nationally eligible population. Phillips, Kemper, and Applebaum document the case management that Channeling gave its clients and contrast it with that available to the control group. Corson, Grannemann, and Holden document the implementation of direct service provision and cost controls over service use, and compare services received by the treatment group to those received by the control group. The next four articles present estimates of Channeling's effects on caregiving by family members and friends (Christianson); the use of nursing homes, hospitals, and other medical services (Wooldridge and Schore); public and private costs (Thornton, Dunstan, and Kemper); and mortality, functioning, and well-being (Applebaum et al.). Kemper's article concludes the presentation of the results by summarizing the findings and assessing their generalizability and the confidence that can be place in them. The issue itself concludes with commentaries by two respected experts on the care of the impaired elderly.</p>
+<p> </p>
+<h2>H. REFERENCES</h2>
+<p>Applebaum, R.A. The evaluation of the National Long-Term Care Demonstration: 3. Recruitment and characteristics of Channeling clients. <em><strong>Health Services Research</strong></em> 23(1) (full issue).</p>
+<p>Applebaum, R.A., et al. The evaluation of the National Long-Term Care Demonstration: 9. The effect of Channeling on mortality, functioning, and well-being. <em><strong>Health Services Research</strong></em> 23(1) (full issue).</p>
+<p>Applebaum, R.A., M. Harrigan, and P. Kemper. <em><strong><a href="/daltcp/reports/tablees.htm">The Evaluation of the National Long-Term Care Demonstration: Tables Comparing Channeling to Other Community Care Demonstrations</a></strong></em>. Princeton, NJ: Mathematica Policy Research, 1986.</p>
+<p>Blenkner, M., et al. <em><strong>Final Report: Protective Services for Older People</strong></em>. Cleveland, OH: The Benjamin Rose Institute, 1974.</p>
+<p>Brown, R.S. The evaluation of the National Long-Term Care Demonstration: 2. Estimation methodology. <em><strong>Health Services Research</strong></em> 23(1) (full issue).</p>
+<p>Brown, R.S., and M. Harrigan. <em><strong><a href="/daltcp/reports/compares.htm">The Comparability of Treatment and Control Groups at Randomization</a></strong></em>. Princeton, NJ: Mathematica Policy Research, 1986.</p>
+<p>Brown, R.S., and P.A. Mossel. <em><strong><a href="/daltcp/reports/baslines.htm">Examination of the Equivalence of Treatment and Control Groups and the Comparability of Baseline Data</a></strong></em>. Princeton, NJ: Mathematica Policy Research, 1984.</p>
+<p>Carcagno, G.J., et al. <em><strong><a href="/daltcp/reports/proceses.htm">The Evaluation of the National Long-term Care Demonstration: The Planning and Operational Experience of the Channeling Projects</a></strong></em>. Princeton, NJ: Mathematica Policy Research, 1986.</p>
+<p>Christianson, J.B. The evaluation of the National Long-Term Care Demonstration: 6. The effect of Channeling on informal caregiving. <em><strong>Health Services Research</strong></em> 23(1) (full issue).</p>
+<p>Corson, W., T. Grannemann, and N. Holden. The evaluation of the National Long-Term Care Demonstration: 5. Formal community services under Channeling. <em><strong>Health Services Research</strong></em> 23(1) (full issue).</p>
+<p>General Accounting Office. <em><strong>The Well-Being of the Older People in Cleveland, Ohio</strong></em>. Publication No. HRD-77-70. Washington, DC: U.S. General Accounting Office, April 19, 1977.</p>
+<p>Goldberg, M. <em><strong>Helping the Aged, a Field Experiment in Social Work</strong></em>. London: George Allen and Unwin Limited, 1970.</p>
+<p>Gottesman, L.E. <em><strong>Client-Level Functions of the Long-Term Care Demonstration: The Basic Intervention</strong></em>. Philadelphia, PA: Temple University Institute on Aging, 1981.</p>
+<p>Greenberg, J.N. The Cost of In-Home Services. In <em><strong>A Planning Study of Services to Non-Institutionalized Older Persons in Minnesota</strong></em>. Saint Paul, MN: Governor's Citizens Council on Aging, 1974.</p>
+<p>Hedrick, S.C., and T.S. Inui. The effectiveness and cost of home care: An information synthesis. <em><strong>Health Services Research</strong></em> 20(6):851-80, February 1986, Part II.</p>
+<p>Katz, S., et al. <em><strong>Effects of Continued Care: A Study of Chronic Illness in the Home</strong></em>. Hyattsville, MD: U.S. Department of Health, Education, and Welfare, National Center for Health Services Research and Development, December 1972.</p>
+<p>Kemper, P. Design issues for evaluations of community care demonstrations. <em><strong>Home Health Care Services Quarterly</strong></em> 4(1):15-29, Spring 1983.</p>
+<p>Kemper, P., et al. <em><strong><a href="/daltcp/reports/designes.htm">Initial Research Design of the National Long-Term Care Demonstration</a></strong></em>. Princeton, NJ: Mathematica Policy Research, 1982.</p>
+<p>Kemper, P., et al., <em><strong><a href="/daltcp/reports/chanes.htm">The Evaluation of the National Long-Term Care Demonstration: Final Report</a></strong></em>. Princeton, NJ: Mathematica Policy Research, 1986.</p>
+<p>Kemper, P., R.A. Applebaum, and M. Harrigan. Community care demonstrations: What have we learned? <em><strong>Health Care Financing Review</strong></em> 8(4):87-100, Summer 1987.</p>
+<p>Neilsen, M., et al. <em><strong>Home Aide Service and the Aged: A Controlled Study, Part I</strong></em>. Cleveland, OH: The Benjamin Rose Institute, 1970.</p>
+<p>Phillips, B.R., et al. <em><strong><a href="/daltcp/reports/sydataes.htm">The Evaluation of the National Long-Term Care Demonstration: Survey Data Collection Design and Procedures</a></strong></em>. Princeton, NJ: Mathematica Policy Research, 1986.</p>
+<p>Phillips, B.R., P. Kemper, and R.A. Applebaum. The evaluation of the National Long-Term Care Demonstration: 4. Case management under Channeling. <em><strong>Health Services Research</strong></em> 23(1) (full issue).</p>
+<p>Rathbone-McCuan, E., and H. Lohn. <em><strong>Cost Effectiveness of Geriatric Day Care: A Final Report</strong></em>. Baltimore, MD: Levindale Geriatric Research Center, 1975.</p>
+<p>Sager, A. Estimating the Costs of Diverting Patients from Nursing Homes to Home Care. Paper presented at the Annual Meeting of the Gerontological Society, San Francisco, CA, 1977.</p>
+<p>Thornton, C., S.M. Dunstan, and P. Kemper. The evaluation of the National Long-Term Care Demonstration: 8. The effect of Channeling on health and long-term care costs. <em><strong>Health Services Research</strong></em> 23(1) (full issue).</p>
+<p>Wooldridge, J., and J. Schore. The evaluation of the National Long-Term Care Demonstration: 7. The effect of Channeling on the use of nursing homes, hospitals, and other medical services. <em><strong>Health Services Research</strong></em> 23(1) (full issue).</p>
+<hr /><p> </p>
+<table border="BORDER"><tbody><tr><td colspan="2"><strong><a id="TABLE1" name="TABLE1">TABLE 1</a>: CHANNELING SITES AND HOST AGENCIES, BY MODEL</strong></td>
+</tr><tr><td colspan="2"><em><strong>Basic Case Management Model</strong></em></td>
+</tr><tr><td>Eastern Kentucky (8 counties)</td>
+<td>Department of Social Services, State Department of Human Resources</td>
+</tr><tr><td>Southern Maine (2 counties)</td>
+<td>Southern Maine Senior Citizens, Inc.</td>
+</tr><tr><td>Baltimore, Maryland</td>
+<td>City of Baltimore, Council on Aging and Retirement Education/Area Agency on Aging</td>
+</tr><tr><td>Middlesex County, New Jersey</td>
+<td>County Department of Human Services</td>
+</tr><tr><td>Houston, Texas</td>
+<td>Texas Research Institute for Mental Sciences</td>
+</tr><tr><td colspan="2"><em><strong>Financial Control Model</strong></em></td>
+</tr><tr><td>Miami, Florida</td>
+<td>Miami Jewish Home and Hospital for the Aged</td>
+</tr><tr><td>Greater Lynn, Massachusetts</td>
+<td>Greater Lynn Senior Services, Inc.</td>
+</tr><tr><td>Rensselaer County, New York</td>
+<td>Rensselaer County Department on Aging</td>
+</tr><tr><td>Cleveland, Ohio</td>
+<td>Western Reserve Area Agency on Aging</td>
+</tr><tr><td>Philadelphia, Pennsylvania</td>
+<td>Philadelphia Corporation on Aging</td>
+</tr><tr><td colspan="2">SOURCE: Carcagno et al., 1986, Table III.1.</td>
+</tr></tbody></table><p> </p>
+<table border="BORDER"><tbody><tr><td colspan="7"><strong><a id="TABLE2" name="TABLE2">TABLE 2</a>: EVALUATION METHODOLOGIES OF COMMUNITY CARE DEMONSTRATIONS</strong></td>
+</tr><tr><td><strong>Demonstration (Period Evaluated) </strong></td>
+<td><strong>States</strong></td>
+<td><strong>Sites</strong></td>
+<td><strong>Comparison Methodology</strong></td>
+<td><strong>Sample Size</strong></td>
+<td><strong>Months of Follow-up</strong></td>
+<td><strong>Data Sources</strong></td>
+</tr><tr><td>Worcester Home Care (1973-1975)</td>
+<td>1</td>
+<td>1</td>
+<td>Random assignment</td>
+<td>485</td>
+<td>12</td>
+<td>
+<p>Individual interviews</p>
+<p>Project records</p>
+<p> </p>
+</td>
+</tr><tr><td>NCHSR Day Care/Homemaker Experiment (1975-1977)</td>
+<td>4</td>
+<td>6</td>
+<td>Random assignment</td>
+<td>1,566</td>
+<td>3, 6, 9, 12</td>
+<td>
+<p>Individual interviews</p>
+<p>Project records</p>
+<p>Medicare records</p>
+<p> </p>
+</td>
+</tr><tr><td>Triage (1976-1979)</td>
+<td>1</td>
+<td>1</td>
+<td>Comparison group outside area (age differences)</td>
+<td>502</td>
+<td>6, 12, 18, 24</td>
+<td>
+<p>Individual interviews</p>
+<p>Diaries</p>
+<p>Project records</p>
+<p>Medicare records</p>
+<p>Medicaid records</p>
+<p> </p>
+</td>
+</tr><tr><td>Georgia AHS (1977-1980)</td>
+<td>1</td>
+<td>1</td>
+<td>Random assignment</td>
+<td>1,332</td>
+<td>6, 12, 18, 24</td>
+<td>
+<p>Individual interviews</p>
+<p>Project records</p>
+<p>Medicaid records (with Medicare crossover)</p>
+<p> </p>
+</td>
+</tr><tr><td>ACCESS (1977-1980)</td>
+<td>1</td>
+<td>1</td>
+<td>County-level comparison</td>
+<td>---</td>
+<td>24</td>
+<td>Department of Social Service Records</td>
+</tr><tr><td>Wisconsin CCO (1978-1980)</td>
+<td>1</td>
+<td>1</td>
+<td>Random assignment</td>
+<td>417</td>
+<td>6, 12</td>
+<td>
+<p>Individual interviews</p>
+<p>Medicaid records</p>
+<p>Death records</p>
+<p> </p>
+</td>
+</tr><tr><td>On Lok (1979-1983)</td>
+<td>1</td>
+<td>1</td>
+<td>Comparison group outside area, matched on characteristics (race, sex, and institutionalization differences)</td>
+<td>140</td>
+<td>6, 12, 18, 24</td>
+<td>
+<p>Individual interviews</p>
+<p>Project records</p>
+<p>Provider records</p>
+<p> </p>
+</td>
+</tr><tr><td>MSSP (1980-1983)</td>
+<td>1</td>
+<td>8</td>
+<td>Comparison group within and outside area, matched on whether in hospital, nursing home, or community (impairment differences)</td>
+<td>4,200</td>
+<td>6, 12</td>
+<td>
+<p>Individual interviews</p>
+<p>Medicare records</p>
+<p>Medicaid records</p>
+<p> </p>
+</td>
+</tr><tr><td>South Carolina LTC (1980-1984)</td>
+<td>1</td>
+<td>1</td>
+<td>Random assignment</td>
+<td>1,867</td>
+<td>3, 6, 12, 18, 24, 36</td>
+<td>
+<p>Individual interviews</p>
+<p>Project records</p>
+<p>Medicare records</p>
+<p>Medicaid records</p>
+<p> </p>
+</td>
+</tr><tr><td>Project OPEN (1980-1983)</td>
+<td>1</td>
+<td>1</td>
+<td>Random assignment</td>
+<td>335</td>
+<td>6, 12, 18, 24, 30, 36</td>
+<td>
+<p>Individual interviews</p>
+<p>Project records</p>
+<p>Medicare records</p>
+<p> </p>
+</td>
+</tr><tr><td>Nursing Home Without Walls (1980-1983)</td>
+<td>1</td>
+<td>9</td>
+<td>Comparison group within and outside area (age, race differences)</td>
+<td>1,373</td>
+<td>6, 12</td>
+<td>
+<p>Individual interviews</p>
+<p>Medicare records</p>
+<p>Medicaid records</p>
+<p>Food stamp records</p>
+<p>SSI records</p>
+<p> </p>
+</td>
+</tr><tr><td>New York City Home Care (1980-1983)</td>
+<td>1</td>
+<td>1</td>
+<td>Comparison group outside area (impairment differences)</td>
+<td>704</td>
+<td>6, 12</td>
+<td>
+<p>Individual interviews</p>
+<p>Diaries</p>
+<p>Medicare records</p>
+<p>Medicaid records</p>
+<p> </p>
+</td>
+</tr><tr><td>Florida Pentastar (1981-1983)</td>
+<td>1</td>
+<td>5</td>
+<td>Random assignment (plus comparison group outside area)</td>
+<td>1,046</td>
+<td>12, 18</td>
+<td>
+<p>Individual interviews</p>
+<p>Medicare records</p>
+<p>Medicaid records</p>
+<p>Food stamp records</p>
+<p> </p>
+</td>
+</tr><tr><td>San Diego LTC (1981-1983)</td>
+<td>1</td>
+<td>1</td>
+<td>Random assignment</td>
+<td>819</td>
+<td>3, 6, 12, 18</td>
+<td>
+<p>Individual interviews</p>
+<p>Medicare records</p>
+<p> </p>
+</td>
+</tr><tr><td>Channeling (1982-1984)</td>
+<td>10</td>
+<td>10</td>
+<td>Random assignment</td>
+<td>6,326</td>
+<td>6, 12, 18</td>
+<td>
+<p>Individual interviews</p>
+<p>Project records</p>
+<p>Medicare records</p>
+<p>Medicaid records</p>
+<p>Provider records</p>
+<p>Death records</p>
+<p>Caregiver interviews</p>
+<p> </p>
+</td>
+</tr><tr><td colspan="7">SOURCE: Applebaum, Harrigan, and Kemper, 1986, Table 2.</td>
+</tr></tbody></table><p> </p>
+<table border="BORDER"><tbody><tr><td colspan="8"><strong><a id="TABLE3" name="TABLE3">TABLE 3</a>: SUBJECT AREAS, DATA SOURCES, AND MAXIMUM SAMPLE SIZES</strong></td>
+</tr><tr><td rowspan="3"><strong>Subject Areas</strong></td>
+<td rowspan="3"><strong>Primary Data Sources</strong></td>
+<td colspan="6"><strong>Maximum Sample Size*</strong></td>
+</tr><tr><td colspan="3"><strong>Basic Case Management</strong></td>
+<td colspan="3"><strong>Financial Control</strong></td>
+</tr><tr><td><strong>6 Months</strong></td>
+<td><strong>12 Months</strong></td>
+<td><strong>18 Months</strong></td>
+<td><strong>6 Months</strong></td>
+<td><strong>12 Months</strong></td>
+<td><strong>18 Months</strong></td>
+</tr><tr><td>Formal community care</td>
+<td>Individual interviews</td>
+<td>1,647</td>
+<td>1,377</td>
+<td>520</td>
+<td>1,803</td>
+<td>1,475</td>
+<td>546</td>
+</tr><tr><td>Nursing home use</td>
+<td>
+<p>Medicare/Medicaid records</p>
+<p>Provider records</p>
+<p> </p>
+</td>
+<td>2,184</td>
+<td>1,876</td>
+<td>741</td>
+<td>2,409</td>
+<td>2,023</td>
+<td>774</td>
+</tr><tr><td>Hospitals and other medical services</td>
+<td>
+<p>Medicare/Medicaid records</p>
+<p>Provider records</p>
+<p> </p>
+</td>
+<td>2,712</td>
+<td>2,291</td>
+<td>1,037</td>
+<td>2,842</td>
+<td>2,406</td>
+<td>1,017</td>
+</tr><tr><td>Client quality of life</td>
+<td>Individual interviews</td>
+<td>1,937</td>
+<td>1,671</td>
+<td>647</td>
+<td>2,061</td>
+<td>1,745</td>
+<td>668</td>
+</tr><tr><td>Mortality</td>
+<td>Death records searches</td>
+<td>3,124</td>
+<td>3,124</td>
+<td>1,619</td>
+<td>3,202</td>
+<td>3,202</td>
+<td>1,546</td>
+</tr><tr><td>Caregiver quality of life</td>
+<td>Caregiver interviews</td>
+<td>515</td>
+<td>401</td>
+<td>---¤</td>
+<td>612</td>
+<td>469</td>
+<td>---¤</td>
+</tr><tr><td>Costs</td>
+<td>
+<p>Medicare/Medicaid records</p>
+<p>Provider records</p>
+<p>Channeling project cost records</p>
+<p>Individual interviews</p>
+<p> </p>
+</td>
+<td>---§</td>
+<td>---§</td>
+<td>---§</td>
+<td>---§</td>
+<td>---§</td>
+<td>---§</td>
+</tr><tr><td rowspan="2">Informal care</td>
+<td>Individual interviews</td>
+<td>1,605</td>
+<td>1,345</td>
+<td>510</td>
+<td>1,767</td>
+<td>1,456</td>
+<td>534</td>
+</tr><tr><td>Caregiver interviews</td>
+<td>515</td>
+<td>401</td>
+<td>---¤</td>
+<td>612</td>
+<td>469</td>
+<td>---¤</td>
+</tr></tbody></table><p> </p>
+<div class="group-tags"><div class="field-label">Tags:&nbsp;</div><a href="/terms/disability-aging-and-long-term-care-research">Disability, Aging and Long-Term Care Research</a><a href="/terms/publications-2">Publications</a><a href="/terms/health-providers-informal">Health Providers, Informal</a><a href="/terms/informal-caregivers">Informal Caregivers</a><a href="/terms/health-services-formal">Health Services, Formal</a><a href="/terms/case-management">Case Management</a><a href="/terms/home-and-community-based-services">Home and Community-Based Services</a><a href="/terms/long-term-care">Long-Term Care</a></div>  </div>
+
+      <footer>
+          </footer>
+  
+    <div id="block-webform-client-block-158521" class="widget block block-webform" >
+  
+      
+  <div id="webform-ajax-wrapper-158521"><form class="webform-client-form webform-client-form-158521" action="/execsum/evaluation-national-long-term-care-demonstration" method="post" id="webform-client-form-158521" accept-charset="UTF-8"><div><div class="webform-progressbar">
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-radios webform-component--was-this-page-helpful">
+  <label for="edit-submitted-was-this-page-helpful">Was this page helpful? <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-was-this-page-helpful" class="form-radios"><div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-1" name="submitted[was_this_page_helpful]" value="1" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-1">Yes </label>
+
+</div>
+<div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-2" name="submitted[was_this_page_helpful]" value="0" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-2">No </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="4" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-zwQ3wHm_sgGZit3ZAVp2HjByWhQRHUPJmVPRkTXgn0U" />
+<input type="hidden" name="form_id" value="webform_client_form_158521" />
+<input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-158521" />
+<div class="form-actions"><input class="webform-next button-primary btn btn-default form-submit" type="submit" id="edit-webform-ajax-next-158521" name="op" value="Next &gt;" /></div>
+<div class="is-useful-disclaimer"> <a href="/%23" class="" title="Survey Disclaimer" data-toggle="modal" data-target="#disclamerModal">Form Approved OMB# 0990-0379 Exp. Date 8/31/2017</a></div>
+<div class="modal fade" id="disclamerModal" tabindex="-1" role="dialog" aria-labelledby="disclamerModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="disclamerModalLabel">Survey Disclaimer</h2>
+      </div>
+      <div class="modal-body">
+         According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this information collection is 0990-0379. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, gather the data needed, and complete and review the information collection. If you have comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: U.S. Department of Health & Human Services, OS/OCIO/PRA, 200 Independence Ave., S.W., Suite 336-E, Washington D.C. 20201, Attention: PRA Reports Clearance Officer.      </div>
+    </div>
+  </div>
+</div></div></form></div>
+  </div> <!-- /.block -->
+<meta  itemscope="" itemid="https://aspe.hhs.gov/execsum/evaluation-national-long-term-care-demonstration" itemref="md1 md3 md5 md7 md9 md11 md13 md15 md17" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/disability-aging-and-long-term-care-research" id="md3" itemref="md2" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/publications-2" id="md5" itemref="md4" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/health-providers-informal" id="md7" itemref="md6" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/informal-caregivers" id="md9" itemref="md8" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/health-services-formal" id="md11" itemref="md10" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/case-management" id="md13" itemref="md12" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/home-and-community-based-services" id="md15" itemref="md14" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/long-term-care" id="md17" itemref="md16" />              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <footer  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Footer">     
+
+        
+                  
+        
+                  
+        
+                                    <div  id="footer_sitemap-footer_sitemap" class="col-sm-6 col-md-6 col-lg-4 ">
+                          
+                              <div id="block-footer-sitemap-footer-sitemap" class="widget block block-footer-sitemap" >
+  
+      
+  <div id="footer-sitemap" class="clearfix">
+  <div class="fs-block-content"><div class="menu-footer-utility"><ul class="footer_links_menu-footer-utility total-items-2 parent-items-0 single-items-0"><li class="menu-5021 depth-1 total-children-8 parent-children-0 single-children-8  first"><a href="/" title="look at ASPE Home" class="fs-root-link">ASPE Home</a><ul class="footer_links_menu-footer-utility total-items-8 parent-items-0 single-items-0"><li class="menu-5026 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/" title="look at HHS Home">HHS Home</a></li>
+<li class="menu-66281 depth-1 fs-no-children"><a href="http://www.usa.gov/" title="look at USA.gov">USA.gov</a></li>
+<li class="menu-66316 depth-1 fs-no-children"><a href="https://oig.hhs.gov/" title="look at Office of the Inspector General">Office of the Inspector General</a></li>
+<li class="menu-66321 depth-1 fs-no-children"><a href="http://www.whitehouse.gov" title="look at The White House">The White House</a></li>
+<li class="menu-5046 depth-1 fs-no-children"><a href="http://www.hhs.gov/Accessibility.html" title="look at Accessibility">Accessibility</a></li>
+<li class="menu-66326 depth-1 fs-no-children"><a href="http://www.hhs.gov/about/budget/index.html" title="look at Budget/Performance">Budget/Performance</a></li>
+<li class="menu-2551 depth-1 fs-no-children"><a href="http://www.hhs.gov/Privacy.html" title="look at Privacy Policy">Privacy Policy</a></li>
+<li class="menu-197776 depth-1 fs-no-children  last"><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" title="Nondiscrimination Notice">Nondiscrimination Notice</a></li>
+</ul></li>
+<li class="menu-5051 depth-1 total-children-4 parent-children-0 single-children-4  last"><a href="http://www.hhs.gov/foia/" title="look at FOIA" class="fs-root-link">FOIA</a><ul class="footer_links_menu-footer-utility total-items-4 parent-items-0 single-items-0"><li class="menu-5056 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/open/recordsandreports/plainwritingact/index.html" title="look at Plain Writing Act">Plain Writing Act</a></li>
+<li class="menu-5061 depth-1 fs-no-children"><a href="http://www.hhs.gov/asa/eeo/no_fear_bullet_3.html" title="look at No Fear Act">No Fear Act</a></li>
+<li class="menu-5066 depth-1 fs-no-children"><a href="http://www.hhs.gov/Disclaimer.html" title="look at Disclaimers">Disclaimers</a></li>
+<li class="menu-2546 depth-1 fs-no-children  last"><a href="http://www.hhs.gov/plugins.html" title="look at Viewers &amp; Players">Viewers &amp; Players</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-5 " id="stability_cms-contact_us">
+                          
+                              <div id="block-stability-cms-contact-us" class="widget block block-stability-cms" >
+  
+      
+  <div class="contacts-widget widget widget__footer">
+	<div class="widget-content">
+		<ul class="contacts-info-list">
+      			<li>
+<!--				<i class="fa fa-map-marker">Address</i>-->
+                <div class="info-icons">
+                    <img  alt="map" class= 'map-icons' src="/sites/all/themes/stability/stability_aspe/images/map.png"/>
+                </div>
+                <div class="info-item">
+					Assistant Secretary for Planning and Evaluation, Room 415F<br />
+U.S. Department of Health and Human Services<br />
+200 Independence Avenue, SW<br />
+Washington, D.C. 20201				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-phone">phone</i>-->
+                <div class="info-icons">
+                    <img alt="phone" src="/sites/all/themes/stability/stability_aspe/images/phone.png"/>
+                </div>
+				<div class="info-item">
+					+1 202.690.7858				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-envelope">email</i>-->
+                <div class="info-icons">
+                    <img alt="mail" src="/sites/all/themes/stability/stability_aspe/images/mail-white.png"/>
+                </div>
+				<span class="info-item">
+					<a href="mailto:osaspeinfo@hhs.gov">osaspeinfo@hhs.gov</a>
+				</span>
+			</li>
+      			                					</ul>
+	</div>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-3 " id="footer">
+                          
+                              <div id="block-block-36" class="widget block block-block" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sign-up</span> for Email Updates</h3>
+		</div>
+    
+  <div class="email_updates">
+<button class="btn btn-default" name="subscribe-button" type="submit" value="subscribe">subscribe</button>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-12 " id="menu-menu-footer-language-menu">
+                          
+                              <div id="block-menu-menu-footer-language-menu" class="widget block block-menu" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Language</span> Assistance Available</h3>
+		</div>
+    
+  <ul class="menu"><li class="first expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#spanish" title="Español">Español</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#chinese" title="繁體中文">繁體中文</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#vietnamese" title="Tiếng Việt">Tiếng Việt</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#korean" title="한국어">한국어</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#tagalog" title="Tagalog">Tagalog</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#russian" title="Русский">Русский</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#arabic" title="العربية">العربية</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#creole" title="Kreyòl Ayisyen">Kreyòl Ayisyen</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#french" title="Français">Français</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#polish" title="Polski">Polski</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#portuguese" title="Português">Português</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#italian" title="Italiano">Italiano</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#german" title="Deutsch">Deutsch</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#japanese" title="日本語">日本語</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#farsi" title="فارسی">فارسی</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#english" title="English">English</a></li>
+</ul></li>
+</ul>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+      </div>
+
+          </div>
+    
+    
+      </footer>
+    
+
+    <!--/PAGEWATCH-->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+                        </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="social-links-wrapper">
+              <span class="social-links-txt">Connect with us</span>
+              <ul class="social-links social-links__dark">
+                                                  <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw-grey.png"/></a></li>
+                                <!--                --><!--                  <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin-grey.png"/></a></li>-->
+<!--                -->
+                                                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>  <script type="text/javascript" src="/sites/default/files/advagg_js/js__VWRymaMz6HfrhnrcJNGcDiSvLVrvhaXvBa7nrBYy8gc__jntPwP3D6myJZH1jW19fXrk5cYMHGRL8NQION22VSEA__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5486d15a696bff0c"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__g6mKbcakHxQkz4ZHYaxdO_xqONINvRMgsHh1zAK-fr0__ATHtEmHaeZ0jidpGU22EkhmPDBSgjD8z0bVDQMI-BIY__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__KUp4PrfOt9BSXUVl8Ctb3dhCMBe4MNVMeb4Gyorx8yY__7g4BeXscCIZAfuu1vxsCj2RIemg-eEK0QpChP9LDmFQ__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__PNjAgubM_3xXRLp4uLsYnv8wQAdT89-RYkSPxT6T45c__rFQwFK4pA5ZaWZSF7FPTfKbbpus0h-5IS8ayrNZGrb4__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__vQiLul2UcfC4nBAR09mhYVBYzRmiNDm2dj3GgSubV38__w84oZe-ZODKe7XnnlbrjV4IWHISOy4PioFEMVgx9hZo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__QJw3g0kOdwsv4twSZLP931zBzsHy50VEHpEN_znIitQ__A6QOuWXElDipBM2iChbWhjAAt3KlUwZ-jODoxdpbwiw__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stability_aspe","theme_token":"ChqxC03yia50bk8EDsxEiiIQHsMhhU0p7KZOUnPgcTk","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/footable.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/aspe_nodes.admin.css":1,"sites\/all\/modules\/custom\/aspe_views\/theme\/css\/aspe_views.admin.css":1,"sites\/all\/modules\/forked\/book\/book.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/openpublic\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.css":1,"profiles\/openpublic\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openpublic\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/openpublic\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/themes\/stability\/css\/bootstrap.min.css":1,"sites\/all\/themes\/stability\/css\/fonts\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.theme.css":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/stability\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/stability\/css\/theme.css":1,"sites\/all\/themes\/stability\/css\/theme-elements.css":1,"sites\/all\/themes\/stability\/css\/animate.min.css":1,"sites\/all\/themes\/stability\/css\/skins\/red.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/slideshow.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/font-main.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/styleless.less":1,"sites\/all\/themes\/stability\/css\/skins\/blue.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/aspe\/theme\/js\/aspe.login-confirm.js":1,"sites\/all\/modules\/custom\/aspe_report\/modules\/aspe_databooks\/js\/aspe_databooks.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.highcharts.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/datatables\/dataTables.min.js":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.min.js":1,"sites\/all\/libraries\/highcharts\/highcharts.js":1,"sites\/all\/libraries\/highcharts\/highcharts.exporting.js":1,"sites\/all\/libraries\/highcharts\/highcharts.map.js":1,"sites\/all\/libraries\/highcharts\/highcharts.us-all.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.footable.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5486d15a696bff0c":1,"misc\/progress.js":1,"profiles\/openpublic\/modules\/contrib\/webform\/js\/webform.js":1,"profiles\/openpublic\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/stability\/vendor\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/stability\/vendor\/bootstrap.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flexnav.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flickrfeed.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.sloppy-masonry.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.fitvids.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.stellar.min.js":1,"sites\/all\/themes\/stability\/vendor\/snap.svg-min.js":1,"sites\/all\/themes\/stability\/js\/custom.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/aspe.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/html5shiv.min.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/main-menu.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/keyboard-control.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tabBehavior.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tileStringTrimmer.js":1}},"webform":{"conditionals":{"webform-client-form-158521":{"ruleGroups":[],"sourceMap":[],"values":[]}}},"ajax":{"edit-webform-ajax-next-158521":{"callback":"webform_ajax_callback","wrapper":"webform-ajax-wrapper-158521","progress":{"message":"","type":"throbber"},"event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Next \u003E"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/execsum\/evaluation-national-long-term-care-demonstration":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"([a-z0-9]\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This website contains links to other federal and state agencies and private organizations. The Department of Health and Human Services (HHS) cannot attest to the accuracy of information provided by these nonfederal website links. Linking to nonfederal sites does not constitute an endorsement by HHS or any of its employees of the sponsors or the information and products presented on the sites. You will be subject to the destination site\u0027s privacy policy when you leave the ASPE website.\r\n\r\nThank you for visiting aspe.hhs.gov!","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"stability":{"flickr_id":"52617155@N08","logo_sticky":"28"},"field_group":{"div":"full"}});
+//--><!]]>
+</script>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config={pubid:"ra-5486d15a696bff0c",ui_click:false}
+//--><!]]>
+</script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4837db659","applicationID":"10708002","transactionName":"MwNaZBRSXEtXB0BdWQpJbUIPHFtWUgFMGkYMFg==","queueTime":0,"applicationTime":31,"atts":"H0RZElxIT0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

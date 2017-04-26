@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">  <!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://aspe.hhs.gov/sites/default/files/Favicon2.png" type="image/png" />
+<meta name="description" content="  Poor Finances: Assets and Low-Income Households Assets, Poverty, and Public Policy: Challenges in Definition and Measurement December 2008 By: Yunju Nam, Jin Huang, and Michael Sherraden Center for Social Development Washington University in Saint Louis" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://aspe.hhs.gov/basic-report/assets-poverty-and-public-policy-challenges-definition-and-measurement" />
+<link rel="shortlink" href="https://aspe.hhs.gov/node/69756" />
+<meta property="og:site_name" content="ASPE" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aspe.hhs.gov/basic-report/assets-poverty-and-public-policy-challenges-definition-and-measurement" />
+<meta property="og:title" content="Assets, Poverty, and Public Policy: Challenges in Definition and Measurement" />
+<meta property="og:description" content="  Poor Finances: Assets and Low-Income Households Assets, Poverty, and Public Policy: Challenges in Definition and Measurement December 2008 By: Yunju Nam, Jin Huang, and Michael Sherraden Center for Social Development Washington University in Saint Louis" />
+<meta property="og:updated_time" content="2017-03-30T10:23:37-04:00" />
+<meta property="article:published_time" content="2015-11-23T03:05:49-05:00" />
+<meta property="article:modified_time" content="2017-03-30T10:23:37-04:00" />
+
+  <title>Assets, Poverty, and Public Policy: Challenges in Definition and Measurement | ASPE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+  <link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__5ln8neBOcJfyUveiD4y9fhI6kHBLOQ_YL0mMC-LS9a0__TPJIZT9UBnf_685NlFTJ5KnZVsjwFk6ACQ-nwwygmwU__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ng49uRH5y4Hl9VF9hHW_vXOj-mcOc2u2ShJqJ1YKIGU__FoMCD14GBvZaRiqSQ_JpP1w3rDB21n7H2Ar4pRZaIh8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__Hskudx14OJ5Hz8vqU7CUgN6SDV5rINZuEq9VuGsSeyc__EwNIl3xeFrniW2TmonovTzhSs3X5MdFps210puE7jog__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__9rZoaX9BdzjjNucvYxduxeNAVO2zgW_Rvjhb5rq5whc__lSr_y16grDSgHf4booPChnF7QXz3TQY3hafH49twE0k__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZgfI_ZPib5yVY0o5aKo_6TFn946Tuu_nFDa0ySTmkSc__2FTFrNw2eNh0mpHIOA34r6YRwBZMm2PjJ_JubnwLigg__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__dxabpJ5rQgDSixKgLJZjWc1beC6mpROKwVrmWxI5eno__rqhz_hGsE_i59O7-W991o71_Jxw1QOtGMxn4nsOLHY8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZbRCq2NqWgK-HXAQI3So0N1n0nr4HonsJS3eQuuxukw__7Olkk8Locn8Dj0eR0Ww3rbV9lks9sxipcboMXB18RRs__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+
+	<!-- Head Libs -->
+	<script src="/sites/all/themes/stability/stability_aspe/vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/sites/all/themes/stability/vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" href="/sites/all/themes/stability/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/stability/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/stability/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/stability/images/apple-touch-icon-144x144.png">
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-69756 node-type-basic-report">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-JLFR"
+                  height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JLFR');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-nav" class="accessibility_menu">
+    <strong>Shortcut Navigation:</strong>
+    <ul>
+      <li><a href="#content" accesskey="c" title="Skip to page content (ctrl/alt + c)">Page Content</a></li>
+      <li><a href="#nav" accesskey="m" title="Skip to main navigation menu (ctrl/alt + m)">Site Navigation</a></li>
+
+      <li><a href="#Footer" accesskey="f" title="Skip to footer (ctrl/alt + f)">Footer</a></li>
+    </ul>
+  </div>
+
+    
+<div class="site-wrapper">
+  
+  <header class="header header-menu-fullw header-top-clean">
+    <div id="brand-bar">
+        <div class="container">
+                    <img alt='bird' src="/sites/all/themes/stability/stability_aspe/images/bird.png"> <a target="blank" tabindex="4" href="http://www.hhs.gov/">U.S. Department of Health & Human Services</a>
+        </div>
+
+    </div>
+    <div class="header-main">
+        <div class="container clearfix">
+            <div class="social-links-wrapper">
+                <ul class="social-links social-links__light">
+                                                          <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw.png"/></a></li>
+                                    <!--                  --><!--                    <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin.png"/></a></li>-->
+<!--                  -->
+                                                                      </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                                <div class="site_name_wrapper">
+                                     <span class="h1">
+                                      <a href="/">ASPE</a>
+                                       </span>
+                                  <p class="tagline"><p>Office of The Assistant Secretary</p><p> for Planning and Evaluation</p></p>
+                    </div>
+            </div>
+            <!-- Logo / End -->
+            <div class="header_right_wrapper">
+                <div class="search-form">
+                    <form action="/basic-report/assets-poverty-and-public-policy-challenges-definition-and-measurement" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class = "input-group"><div class="form-type-textfield form-item-search-block-form form-item form-group">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search Site..." class="form-control form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input class="btn btn-primary btn-icon form-submit" type="image" id="edit-submit" name="submit" value="Search" src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/search-white2.png" alt="Search" title="Search" /></div></div><input type="hidden" name="form_build_id" value="form-Z4y61FUCKi2-S6Fgnmp1cNnm_8jIjPcS1giZHxmg4XY" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </div>
+                <button type="button" class="navbar-toggle" value="Menu">
+                    <i class="fa fa-bars"></i>Menu
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-main">
+        <div class="container">
+          <ul data-breakpoint="767" class="flexnav">
+                <li class="first expanded"><a href="/basic-search/about" title="">About</a><ul><li class="first leaf"><a href="/mission" title="">Mission</a></li>
+<li class="leaf"><a href="/key-staff" title="">Leadership</a></li>
+<li class="leaf"><a href="https://www.usajobs.gov/" title="">Careers</a></li>
+<li class="expanded"><a href="/coordination" title="linkTo">Coordination</a><ul><li class="first leaf"><a href="/evaluation-evidence" title="">Evaluation &amp; Evidence</a></li>
+<li class="leaf"><a href="/national-alzheimers-project-act">National Alzheimer&#039;s Project Act</a></li>
+<li class="leaf"><a href="/health-and-human-services-hhs-data-council">HHS Data Council</a></li>
+<li class="last leaf"><a href="/national-committee-vital-and-health-statistics" title="National Council on Vital and Health Statistics">National Council on Vital and Health Statistics</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/divisions" title="">Offices</a><ul><li class="first leaf"><a href="/office-disability-aging-and-long-term-care-policy-daltcp">Disability, Aging, and Long-Term Care Policy</a></li>
+<li class="leaf"><a href="/office-health-policy-hp">Health Policy</a></li>
+<li class="leaf"><a href="/office-human-services-policy">Human Services Policy</a></li>
+<li class="last leaf"><a href="/office-science-and-data-policy">Science and Data Policy</a></li>
+</ul></li>
+<li class="leaf"><a href="/strategic-planning" title="Strategic Planning">Strategic Planning</a></li>
+<li class="last leaf"><a href="/contact-aspe" title="">Contact ASPE</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/topics" title="">Topics</a><ul><li class="first leaf"><a href="/affordable-care-act-research">Affordable Care Act Research</a></li>
+<li class="leaf"><a href="/alzheimers-dementia">Alzheimer&#039;s / Dementia</a></li>
+<li class="leaf"><a href="/early-childhood">Early Childhood</a></li>
+<li class="leaf"><a href="/incarceration-reentry">Incarceration &amp; Reentry</a></li>
+<li class="leaf"><a href="/opioid-abuse-us-and-hhs-actions-address-opioid-drug-related-overdoses-and-deaths" title="Opioids">Opioids</a></li>
+<li class="leaf"><a href="/patient-centered-outcomes-research-trust-fund">Patient-Centered Outcomes Research Trust Fund (PCORTF)</a></li>
+<li class="expanded"><a href="/basic-search/poverty" title="">Poverty</a><ul><li class="first leaf"><a href="/poverty-guidelines">Poverty Guidelines</a></li>
+<li class="last leaf"><a href="/poverty-estimates-trends-and-analysis">Poverty Analysis</a></li>
+</ul></li>
+<li class="leaf"><a href="/teen-pregnancy-prevention">Teen Pregnancy Prevention</a></li>
+<li class="leaf"><a href="/homelessness">Homelessness</a></li>
+<li class="last leaf"><a href="/medicare-access-and-chip-reauthorization-act-2015">MACRA</a></li>
+</ul></li>
+<li class="leaf"><a href="/reports" title="">Publications</a></li>
+<li class="last expanded"><a href="/basic-search/datasets" title="">Data and Tools</a><ul><li class="first last leaf"><a href="/evaluations" title="">Evaluation Database</a></li>
+</ul></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation / End -->
+</header>  <div class="main" role="main">
+    <!--PAGEWATCH CODE="USHHS_458"-->
+    <section class="page-heading">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+                <h1>
+                    
+          Assets, Poverty, and Public Policy: Challenges in Definition and Measurement        </h1>
+                                 <p class="author">
+                                                 <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2008-12-30T00:00:00-05:00">12/30/2008</span>               
+                           </p>
+
+
+                  </div>
+
+
+        <div class="col-md-6">
+           <ul class="breadcrumb"><li class="first"><a href="/" title="Home">Home</a></li>
+<li class="last">Assets, Poverty, and Public Po...</li>
+</ul>        </div>
+
+
+    </div>
+  </div>
+</section>
+    
+      <div  class="nd-region nd-region-filter">
+  
+       
+
+    
+      <div  id="Filter" class="row">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region nd-region-similar-content">
+  
+       
+
+    
+      <div  id="Similar-Content" class="row">     
+
+        
+                  
+        
+                                    <div  id="top" class="">
+                          
+                              <div id="block-views-2100ccfdd214bdbcf634d7e4832c265b" class="widget block block-views solr-similar-content" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Similar</span> content</h3>
+		</div>
+    
+  <div class="view view-similar-content-solr view-id-similar_content_solr view-display-id-block_solr_similar_content view-dom-id-1db249b5fbb7a0a4a494e095c55bb2ab">
+        
+  
+  
+      
+    
+    <span class="field-content"><a href="/basic-report/asset-building-over-life-course">Asset Building over the Life Course</a></span>    
+    <span class="field-content"><a href="/basic-report/effects-holding-assets-social-and-economic-outcomes-families-review-theory-and-evidence">Effects of Holding Assets on Social and Economic Outcomes of Families: A Review of Theory and Evidence</a></span>    
+    <span class="field-content"><a href="/basic-report/determinants-asset-building">Determinants of Asset Building</a></span>    
+    <span class="field-content"><a href="/basic-report/poor-finances-assets-and-low-income-households-introduction-series">Poor Finances: Assets and Low-Income Households: Introduction to the Series</a></span>    
+    <span class="field-content"><a href="/execsum/balance-sheets-low-income-households-what-we-know-about-their-assets-and-liabilities">Balance Sheets of Low-Income Households: What We Know about Their Assets and Liabilities</a></span>  
+  
+  
+  
+  
+  
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Content">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  class="col-md-12 " id="content">
+                          
+                              <div id="block-aspe-aspe-addthis" class="widget block block-aspe" >
+  
+      
+  <div class="clearfix">
+  <ul class="addthis_sharing_toolbox node-share__links" data-url="https://aspe.hhs.gov/basic-report/assets-poverty-and-public-policy-challenges-definition-and-measurement" data-title="Assets, Poverty, and Public Policy: Challenges in Definition and Measurement">
+    <li><a class="addthis_button_print"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/print-white.png" alt="print" /></a></li>
+    <li><a class="addthis_button_email"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/mail-white.png" alt="email" /></a></li>
+    <li><a class="addthis_button_twitter"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/tw.png" alt="twitter" /></a></li>
+<!--    <li><a class="addthis_button_facebook">--><!--</a></li>-->
+    <li><a class="addthis_button_compact"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/plus-white.png" alt="compact" /></a></li>
+  </ul>
+</div>
+
+  </div> <!-- /.block -->
+
+                
+    
+  
+  <div class="content clearfix node-basic-report">
+    <p> </p>
+<h3><em><a href="/hsp/07/PoorFinances/index.shtml">Poor Finances: Assets and Low-Income Households</a></em></h3>
+<p>Assets, Poverty, and Public Policy: Challenges in Definition and Measurement</p>
+<p>December 2008</p>
+<p><em>By:</em> Yunju Nam, Jin Huang, and Michael Sherraden Center for Social Development Washington University in Saint Louis</p>
+<div>
+<div class="bordered-text">This report was prepared for and funded by the U.S. Department of Health and Human Services, Office of the Assistant Secretary for Planning and Evaluation (HHS/ASPE) under Order Number GS23F8198H / HHSP233200400131U to the Urban Institute and its collaborators at the Center for Social Development (CSD) at Washington University in St. Louis, and the New America Foundation. This report was prepared between September 2004 and November 2006. John Tambornino, Jeremías Alvarez, and Linda Mellgren at HHS were project officers, Signe-Mary McKernan of the Urban Institute was overall project director, and Michael Sherraden directed the work at CSD. Views expressed are those of the authors and do not represent official positions of the Department of Health and Human Services, the Urban Institute, its trustees, or its sponsors.</div>
+</div>
+<p><em>A Report in the Series</em><a href="/hsp/07/PoorFinances/index.shtml">Poor Finances: Assets and Low-Income Households</a></p>
+<p><em>This report is available on the Internet at:</em><a href="http://aspe.hhs.gov/hsp/07/PoorFinances/Definitions/index.shtml">http://aspe.hhs.gov/hsp/07/PoorFinances/Definitions/index.shtml</a></p>
+<p><a href="/system/files/pdf/75711/report.pdf">Printer Friendly Version in PDF Format</a> (45 pages)</p>
+<h2><a id="TOC">Contents</a></h2>
+<p><a href="#execsum"><strong>Executive Summary</strong></a></p>
+<ul><li><a href="#Definitions">Definitions and Measures of Assets and Asset Poverty in the Consumption Model</a></li>
+<li><a href="#theory">Definitions and Measures of Assets in Social Stratification Theory</a></li>
+<li><a href="#perspective">Definitions and Measures of Assets in an Assets for Development Perspective</a></li>
+<li><a href="#Suggestions">Suggestions for Alternative Definitions and Measures of Assets</a></li>
+</ul><p><a href="/hsp/07/PoorFinances/intro.shtml">Introduction to the Series</a></p>
+<p><a href="#Acknowledgments">Acknowledgments</a></p>
+<p><strong>Chapters</strong></p>
+<ol><li><a href="#Introduction">Introduction</a></li>
+<li><a href="#2005">Concepts and Theoretical Perspectives</a>
+<ol><li><a href="#2006">Assets as a Storehouse for Future Consumption</a>
+<ul><li><a href="#_Toc151272007">Concepts and Definitions of Assets in a Consumption Framework</a></li>
+<li><a href="#_Toc151272008">Measures of Assets in the Consumption Framework</a></li>
+<li><a href="#_Toc151272009">Asset Measures in Public Policies Based on a Consumption Perspective</a></li>
+<li><a href="#_Toc151272010">Assets in Alternative Measures of Economic Well-Being and Poverty Based on the Consumption Framework</a></li>
+</ul></li>
+<li><a href="#_Toc151272011">Assets in Social Stratification Theory</a>
+<ul><li><a href="#_Toc151272012">Concepts and Definitions of Assets in Social Stratification</a></li>
+<li><a href="#_Toc151272013">Measures of Assets in Social Stratification Research</a></li>
+</ul></li>
+<li><a href="#_Toc151272014">Assets for Development Framework</a>
+<ul><li><a href="#_Toc151272015">Concepts and Definitions of Assets from an Assets for Development Perspective</a></li>
+<li><a href="#_Toc151272016">Measures of Assets in the Development Framework</a></li>
+<li><a href="#_Toc151272017">Asset Building Interventions from the Assets for Development Perspective</a></li>
+</ul></li>
+<li><a href="#_Toc151272018">Definitions and Measures of Asset Poverty</a>
+<ul><li><a href="#_Toc151272019">Asset Poverty Measures within the Consumption Framework</a></li>
+<li><a href="#_Toc151272020">Asset Poverty Measures outside a Consumption Framework</a></li>
+</ul></li>
+</ol></li>
+<li><a href="#_Toc151272021">Definitions of Assets and Asset Poverty</a>
+<ol><li><a href="#_Toc151272022">Conceptual Framework for Alternative Definitions and Measures of Assets</a>
+<ul><li><a href="#_Toc151272023">Developing Asset Measures, Especially among Low-Income Populations</a></li>
+</ul></li>
+<li><a href="#_Toc151272024">Suggestions for Future Research on Asset Measures</a>
+<ul><li><a href="#_Toc151272025">Asset Accumulation Process Measures</a></li>
+<li><a href="#_Toc151272026">Asset Possession Measures</a></li>
+<li><a href="#_Toc151272027">Expected Assets</a></li>
+<li><a href="#_Toc151272028">Asset Measures from the Perspective of Low-Income People</a></li>
+</ul></li>
+<li><a href="#_Toc151272029">Toward Alternative Measures of Asset Poverty</a>
+<ul><li><a href="#_Toc151272030">Asset Thresholds in Household Development</a></li>
+<li><a href="#_Toc151272031">Assets that May Change Cognition and Behavior </a></li>
+<li><a href="#_Toc151272032">Assets and Development of the Next Generation.</a></li>
+<li><a href="#_Toc151272033">Asset Measures that Can Assess Inequalities</a></li>
+</ul></li>
+</ol></li>
+<li><a href="#_Toc151272034">Summary and Conclusion</a></li>
+</ol><p><a href="#_Toc151272035">References</a></p>
+<p><a href="#Endnotes">Endnotes</a></p>
+<p><a id="execsum">Executive Summary</a></p>
+<p>In recent years, interest in assets in the context of social policy has been increasing among researchers and decision makers. Asset-building interventions have been considered and tested as a household development strategy in the United States. Researchers have explored factors that may affect asset accumulation in low-income households and possible effects of asset holding on economic, social, and psychological well-being. At the same time, strategic interventions have begun to help low-income households build assets. Examples include Individual Development Account (IDA) programs and the relaxation of asset eligibility rules in Temporary Aid to Needy Families (TANF) and other means-tested programs.</p>
+<p>Despite increased attention to assets, existing research provides only limited information in terms of definitions and measurement of assets and asset poverty. Links between theories and measures are tenuous, especially regarding assets held by low-income households.</p>
+<p>The goals of this report are (1) to review definitions and measures of assets and asset poverty in existing theories and empirical studies and (2) to offer suggestions for development of better definitions and measures to inform future research and policy development. In this report, the authors link definitions and measures of assets and asset poverty with major theories of asset accumulation as explicitly as possible. This report considers:</p>
+<ul><li>Three major perspectives on assets: the consumption model, social stratification theory, and an assets for development perspective</li>
+<li>Definitions and measures of asset poverty in existing studies</li>
+<li>Suggestions for developing better measures of assets and asset poverty</li>
+</ul><h3><a id="Definitions">Definitions and Measures of Assets and Asset Poverty in the Consumption Model</a></h3>
+<p>With few exceptions, existing measures of assets and asset poverty are based implicitly or explicitly on the consumption model. The consumption model defines financial assets and physical properties as a storehouse for future consumption and it is connected to life-cycle and buffer-stock theories of asset accumulation. In this model, saving is viewed as a way of balancing the fluctuation of household financial resources for consumption across an individuals life. That is to say, people save to prepare for periods of no or low income, for example, after retirement or during unemployment. From this perspective, assets and income are viewed as alternative forms of economic resources available for consumption. However, assets and income are somewhat different  assets are a stock of financial resources, and income is a flow (Ando and Modigliani 1963; Banterle 2002; Carroll 1997; Hubbard, Skinner, and Zeldes 1994; Leland 1968; Modigliani 1986; Shefrin and Thaler 1988).</p>
+<p>Since assets are defined as financial resources for future consumption, the major criteria in measuring assets are how much and how readily a household can use assets for consumption when current income declines. Based on this perspective, the most commonly-used measures are net worth and total amount of liquid assets. Net worth measures net financial resources (the sum of all assets minus liabilities), while liquid assets measure financial assets that are easily converted into cash.</p>
+<p>Scholars using the consumption model have experimented with income-wealth joint measures of economic well-being and poverty as an alternative to measures based on income alone. Thus, recognizing that income is not perfectly correlated with assets, the consumption model seeks to develop better indicators of economic well-being and poverty by taking assets into account. The two major approaches for calculating assets into income are the annuitization approach and the fill the gap approach. For example, one existing conceptualization of asset poverty is based on the fill the gap approach where asset poverty is defined as the lack of wealth-type resources sufficient to enable a household to meet its basic needs for some limited period of time (Haveman and Wolff 2005; Shapiro 2004). Haveman and Wolff (2005) operationalize asset poverty as the lack of wealth to maintain a household above the poverty threshold for three months without income.</p>
+<h3><a id="theory">Definitions and Measures of Assets in Social Stratification Theory</a></h3>
+<p>In social stratification theory, assets are viewed as an indicator of class status and a major vehicle for transmitting class from one generation to the next. Social stratification theory considers assets to be a critical mechanism through which socioeconomic structure has been maintained. In this regard, assets are conceptually distinct from income. First, assets can be accumulated over a lifetime and seldom change quickly. Accordingly, assets are a more stable indicator of economic status than is income. Second, assets can be passed from one generation to the next, perpetuating inequalities in socioeconomic status across generations. Third, assets can provide command over greater resources than income alone, and hence create a wide range of opportunities. Assets enable their owners to purchase what is needed for maintaining or moving up to a middle- or upper-class status, such as an education, a business property, or a home. In the case of low-income families, assets can be a path to self-sufficiency.</p>
+<p>Although assets are defined differently, scholars in social stratification theory have not developed distinct measures of assets that reflect theoretical differences from the consumption model. Social stratification research often uses the same asset measures developed by the consumption model, such as net worth and financial assets.</p>
+<p>Social stratification theory, however, considers the roles of assets at critical life events more closely than the consumption model. Stratification theory focuses not only on the amount and/or liquidity of assets, but also the timing of asset possession and investment. Stratification theory also pays special attention to measures of intergenerational transfer of assets, both <em>inter vivos</em> transfers and inheritance.</p>
+<p>Although scholars in social stratification theory have not developed measures of asset poverty, some have conceptualized head-start assets, an asset threshold at which a household might achieve or maintain middle-class status. Since home ownership in a middle-class neighborhood often enables children to benefit from better quality education and other social and cultural resources, head-start assets can be operationalized as the amount of financial assets to buy a median-priced home, including both down payment and closing costs. If this measure of head-start assets is found to be associated with achieving and maintaining middle-class status, additional measures of head-start assets for milestone life events  such as entering and graduating from college, marriage, child birth, employment, and career achievements  could be developed.</p>
+<h3><a id="perspective">Definitions and Measures of Assets in an Assets for Development Perspective</a></h3>
+<p>Increasing numbers of researchers and policymakers view assets as a vehicle for socioeconomic development. From this perspective, assets promote the capacity of individuals to achieve goals beyond satisfaction of consumption needs. Assets generate economic, social, and psychological effects for their owners that income alone cannot, in part because the former is a more stable and reliable form of financial resources than the latter. Assets, therefore, may enable their owners to make and implement a long-term plan for improving economic, social, and psychological stability; financial assets and physical properties may encourage future orientation by connecting people with a viable and hopeful future; financial assets and physical properties may promote development of other types of assets including human capital; assets may allow people to take risks when needed and not to make costly financial decisions out of short-term economic needs; and financial assets and physical properties may increase social influence and civic participation (Sherraden 1991). Accordingly, asset-building interventions may be effective tools for promoting individual and household development. In other applications, this framework pays special attention to asset-building interventions, such as IDAs.</p>
+<p>Scholars in the assets for development perspective have also relied mainly on asset measures developed by the consumption model. Net worth and financial assets are frequently used in estimating determinants and effects of asset accumulation. Much more work remains to be done in defining and developing asset measures from this perspective.</p>
+<h3><a id="Suggestions">Suggestions for Alternative Definitions and Measures of Assets</a></h3>
+<p>As discussed above, existing measures of assets and asset poverty are based mainly on the consumption model. Since assets in social stratification theory and the assets for development perspective have distinct roles and concepts from those defined in the consumption model, consumption-based measures do not fully capture the complexity of the asset accumulation process, the meaning and nature of holding and using assets, or the effects of holding and using assets.</p>
+<p>Individuals accumulate assets for more than one reason. To be sure, people save in order to smooth consumption, to prepare for economic shocks, and for retirement. But they also save and accumulate assets to move up economically (e.g., saving for education and/or a small business), to improve social standing, and/or to improve the life chances of their children. Definitions of assets and asset poverty have not captured this complexity.</p>
+<p>Also, existing consumption-based measures do not take into account the fact that individuals at different positions or in different circumstances may define assets differently. Since low-income people may have concepts and definitions of assets distinctly different from middle- or upper-income people, measures of assets and asset poverty that better reflect low-income peoples understandings and perspectives could be useful in the field.</p>
+<p>With all of the above in mind, the following are some considerations:</p>
+<ul><li><strong><em>Asset accumulation process measures:</em></strong>  The process of asset accumulation may be as important as the total amount of accumulated assets in order to understand social and psychological aspects of asset accumulation, as well as economic impacts. Examples of asset accumulation process measures could include timing of assets acquired, saving patterns, and stage of overall asset accumulation.</li>
+<li><strong><em>Asset possession measures:</em></strong>  Existing studies often use net worth and liquid assets for measurement of asset possession. Other types of asset possession measures could also be developed in order to reflect multiple aspects of assets, e.g., passive versus active assets and assets that reflect their owners purposes.</li>
+<li><strong><em>Expected assets:</em></strong>  Expected assets can be defined as what people anticipate owning across their life course. Considering that assets affect peoples behaviors and attitudes through their expectations for the future, the expected amounts of accumulated assets may in some circumstances be as or more important as the actual amount of assets at a given time.</li>
+<li><strong><em>Assets measures from low-income peoples perspectives:</em></strong>  Existing measures do not take into account that low-income peoples definitions of assets may differ from those of middle- or upper-income people. For example, previous studies rarely include the value of durable household goods in calculating net worth, even though low-income people often mention durables as important assets.</li>
+<li><strong><em>Asset poverty measures based on assets for development perspective:</em></strong>  Asset poverty may be defined as a lack of assets that traps a family in substandard economic and social conditions, or assets below the threshold at which a virtuous cycle of asset accumulation and positive effects can begin. If specified and tested, these conceptualizations may be able to identify possible thresholds of asset poverty from assets for development perspective.</li>
+</ul><p>Overall, the assets perspective is a new area of theory and research in social policy, and the level of knowledge development reflects this nascent status. Even basic definitions and measures are not yet in place to inform the social stratification and assets for development perspectives in asset accumulation. Existing measures do not capture the multiple and complex aspects of assets. This report begins to lay out these issues and challenges. In the process, promising directions for conceptualization and research are suggested. Going forward, there is a great deal more work to do in developing and testing measures of assets and asset poverty that can enrich our understanding.</p>
+<p>[ Go to <a href="#TOC">Contents</a> ]</p>
+<h2><a id="Introduction">I. Introduction</a></h2>
+<p>The term assets has many possible meanings. This report seeks to identify the competing definitions of assets, and the assumptions and implications of the definitions of assets and asset poverty. To do so, the report specifically considers:</p>
+<ul><li>Three major perspectives on assets  the consumption model, social stratification theory, and an assets for development perspective; how each of these perspectives defines and measures assets; and considerations of these competing viewpoints for research and policy development</li>
+<li>Definitions and measures of asset poverty in existing studies</li>
+<li>Suggestions for developing better measures of assets and asset poverty for future research and policy development</li>
+</ul><p>As a general concept, assets are rights or claims related to property, both tangible and intangible. Such rights or claims are enforced by cultural expectations and/or formal laws and regulations. Assets can be put to use, that is, can be invested or otherwise made active to generate returns. Broadly conceived, assets can refer to anything that has a potential for positive returns. It may be useful to categorize assets as tangible or intangible. To simplify, the tangible category includes financial wealth and physical property, and the intangible category includes human talents, behaviors, connections, and influence. Sherraden (1991) listed <em>tangible assets</em> as including: (1) money savings; (2) stocks, bonds, and other financial securities; (3) real property; (4) hard assets other than real estate, such as automobiles, jewelry, art, and collectibles; (5) machines, equipment, tools, and other tangible components of production; (6) durable household goods; (7) natural resources; and (8) copyrights, patents, and other intellectual property. <em>Intangible assets</em> include: (1) access to credit; (2) human capital; (3) cultural capital; (4) informal social capital; (5) formal social capital, or organizational capital; and (6) political capital (Sherraden 1991). This list is not definitive, but illustrates that the term <em>assets</em> (along with a related term, <em>capital</em>) has been broadly applied.</p>
+<p>A broad definition may be useful for some purposes, but it runs the risk of blurring a great many meanings of assets, and may not serve very well in thinking about social issues related to income support, either in the form of cash or as goods and services. Cash (given directly to an individual or to a provider) makes up the largest portion of income supports. This is because cash transfers can be simple, transparent, efficient, and they meet immediate needs.</p>
+<p>Although it is an oversimplification, there are essentially two options from this perspective. These are to support income (flows) to meet immediate needs or to support assets (stocks) that can be used by individuals and families for the intended social purposes. Stocks of assets in the context of social policy are usually in the form of financial wealth (e.g., subsidies for retirement accounts or educational savings accounts) or tangible wealth (e.g., subsidies for home ownership).<a href="#_ftn1">[1]</a></p>
+<p>Assets likely have meaning and implications for well-being in and of themselves, but liabilities (claims against assets) and net worth (remaining value after liabilities are claimed against assets) may enhance understanding. In thinking about social policy, <em>asset building</em> often is the central concept, although liability reduction (e.g., credit repair) is also relevant. It may be that assets, independent of liabilities, lead to positive effects, or it may be that net worth is a more predictive concept.</p>
+<p>There are many options for measuring both assets and net worth. At this point, little is known about which measures of assets and/or net worth might be best for which purposes. In taking up this question, it seems most fruitful to ask first how assets are conceived from different theoretical perspectives, and then to consider implications for measurement. This is a large and previously uncharted task, but it is worth pursuing because it has the potential to lead to measures of assets that are suited to the purposes of particular policies.</p>
+<p>[ Go to <a href="#TOC">Contents</a> ]</p>
+<h2><a>II. Concepts and Theoretical Perspectives</a></h2>
+<h3><a>A. Assets as a Storehouse for Future Consumption</a></h3>
+<h4><a>Concepts and Definitions of Assets in a Consumption Framework</a></h4>
+<p>With a few exceptions (e.g., Shapiro 2001; Sherraden 1991), existing theory and research on asset accumulation in the United States define assets as a storehouse for future consumption. In the two major economic theories of asset accumulation  life-cycle theory (Ando and Modigliani 1963; Banterle 2002; Modigliani 1986; Shefrin and Thaler 1988) and buffer-stock theory (Carroll 1997; Hubbard et al. 1994; Leland 1968)  saving is defined as a way of balancing the fluctuation of household financial resources for consumption throughout a lifetime.</p>
+<p>Both of these theories of asset accumulation  life-cycle and buffer-stock  are based on the same two assumptions. The first assumption is that people want to maintain the highest living standard possible. Since level of consumption determines living standard, people consume as much as their financial resources permit. The second assumption is that people want to maintain a relatively constant standard of living across time. To achieve these two goals, people make financial decisions so as to maintain a smooth consumption pattern at a maximum level throughout their lifetime. Accordingly, current consumption level is not determined by current income but rather by permanent income (Friedman 1957). That is to say, forward-looking individuals save when they estimate their current income to be higher than their expected permanent income, and they spend when they estimate it to be lower (Fisher 1987; Friedman 1957; Leland 1968).</p>
+<p>Although the life-cycle theory and the buffer-stock theory share the assumptions described above, they differ in explaining particular motives to save. In life-cycle theory, variations in (usually earned) income across the life course provide a major motivation to save. From this perspective, saving is caused by the desire to ensure a steady flow of financial resources for stable consumption after retirement. Life-cycle theory predicts the distribution of financial assets over the life course as follows: When people are young, their income is low and debt is typically high because they borrow money with an expectation of higher income at a later life stage. In middle age, income reaches its highest point and people save. When people get older and retire their income (especially earned income) declines dramatically and people use savings to supplement the loss of income. As such, life-cycle theory predicts the typical saving pattern to be hump shaped in accordance with income levels at each life-cycle stage (Ando and Modigliani 1963; Banterle 2002; Modigliani 1986).</p>
+<p>While an expected sharp income decline in retirement is a major motive for asset accumulation in life-cycle theory, unexpected income loss or expense is the major motivation for saving in the buffer-stock model. According to this theory, people save in order to prepare for economic emergencies, such as unemployment or sudden medical costs. Emphasizing the precautionary saving motive, this model predicts a higher level of saving when future income is uncertain (Carroll 1997; Hubbard et al. 1994; Leland 1968).</p>
+<p>In summary, people save as a response to income fluctuations over time in both life-cycle and buffer-stock theories. That is to say, people save to prepare for periods of no or low (earned) income (especially during retirement) or periods of high unexpected expense (e.g., medical emergencies). As such, saving is a choice between present and future consumption, and assets are a storehouse for future consumption. As Wolff (2002) summarizes, the primary interest here is in wealth as a store of value and therefore a source of potential consumption. This is the concept that best reflects the level of well-being associated with a familys wealth holding (76).</p>
+<p>Consumption models, therefore, focus on the amount of assets available for future consumption (most often measured as net worth), and the amount of liquidity in asset holdings. Net worth and liquid assets often determine how much and how quickly financial resources can become available to a household when needed for consumption. Key measurement issues in this framework are how to measure net worth and how to categorize assets by the level of liquidity.</p>
+<p>Another measurement issue in consumption models is how to convert assets into income in order to create a joint measure of well-being and poverty. Although consumption models do not differentiate assets from income in terms of their roles in household well-being, the models do recognize that income and assets are different forms of resources. Assets are a stock of financial resources, while income is a flow of resources (Varian 1993). In the following, methods of converting assets into income are discussed based on two joint well-being measures: the annuitization approach and the fill the gap approach.</p>
+<h4><a>Measures of Assets in the Consumption Framework</a></h4>
+<p>Since consumption models define assets as a storehouse of future consumption, they are concerned with how much financial value a household can obtain from assets and how easily and quickly assets can be converted into cash for consumption. The most commonly-used measure of the total amount of assets is net worth. Net worth is defined as the sum of values of all assets net of all liabilities (Aizcorbe, Kennickell, and Moore 2003; Gustman and Steinmeier 2001/2002; McNeil and Lamas 1989; Spilerman 2000). Straightforward as it may sound, net worth is not identically measured across studies. Existing studies create different types of net worth variables because of the study topic or data availability. Most measures of net worth include the following six asset items: (1) net financial assets (values in checking and saving accounts, money market funds, certificate of deposits, bonds, stocks, investment trusts, and net of unsecured debt); (2) home equity; (3) other real estate equity; (4) net business equity; (5) value of individual retirement assets (e.g., IRA, Keogh, and 401(k) balance); and (6) vehicle equity (Aizcorbe, Kennickell, and Moore 2003; Burkhauser and Weathers 2001; Gustman and Steinmeier 2001/2002; McNeil and Lamas 1989; Oliver and Shapiro 1990; Spilerman 2000; Venti and Wise 1990). Net worth measures include Social Security wealth and the value of employment-based pension in some studies (Burkhauser and Weathers 2001; Gustman and Steinmeier 2001/2002; Venti and Wise 1990), especially in studies related to retirement or the elderly population. Social Security wealth is usually defined as the present discounted value of the stream of Social Security benefits owed to individuals, while employer-provided pension wealth is calculated as the present discounted value of future pension benefits (Burkhauser and Weathers 2001; Wolff 2001). Proponents of this measure argue that the inclusion of pension and Social Security wealth provides a better indicator of potential future consumption. Since people are likely to include income from pension plans and Social Security when estimating their consumption level after retirement, their behaviors, especially financial resource allocation related to retirement, are probably influenced by the amount of retirement wealth (Feldstein 1976; Wolff 2002).</p>
+<p>The value of consumer durables, except automobiles, is rarely included in calculating net worth on the grounds that these items cannot be easily sold in the market and their resale values, even if sold, are typically much less than their consumption services to households (Spilerman 2000; Wolff 2002). One exception is Wolffs (1990) study that includes the value of consumer durables in a net worth measure using the Survey of Consumer Finances (SCF).</p>
+<p>The exclusion of consumer durables may result in measurement inconsistencies when studying financial assets and properties among poor populations. Fewer low-income households possess items considered as financial wealth and properties (e.g., a house, savings in bank accounts, and stocks), and therefore durable household goods may compose the bulk of asset holdings among poor households (Spilerman 2000). A small number of qualitative studies suggest that low-income people often consider consumer durables significant assets. Interviews with low-income individuals find that cars, washers and dryers, and furniture are often listed as significant assets among low-income populations (Sherraden et al. 2005). Household appliances such as televisions and air conditioners are sometimes used as a source of cash at the time of economic emergency (Caskey 1994). Edins (2001) study based on in-depth interviews shows that consumer durables play important roles in low-income households. To low-income single mothers, consumer durables (e.g., a car, a washer and a dryer) are valuable because they increase efficiency (e.g., reducing commuting times) and therefore improve quality of life. The value of vehicles and small tools is even higher among low-income people with entrepreneurial skills because these assets are often used as income-generating tools. For example, in Edins (2001) study, a low-income father started a junk business after buying a truck and another low-income father worked as an informal messenger thanks to his bicycle. In a study of a no-interest loan program for low-income households in Australia, 91 percent of loans were used for purchase of durable goods, including washing machines (16 percent) and refrigerators (30 percent) (Ayres-Wearne and Palafox 2005). Durable goods can have financial, social, and emotional value to many low-income households. In the Australian study, respondents reported negative effects due to inadequate durable goods. Some threw away food because of a malfunctioning refrigerator and shopped for food everyday. Some paid high costs for washing clothes at a Laundromat. Some respondents and their children were socially isolated because they did not have proper furniture and were therefore too embarrassed to invite friends to their house. Some children were penalized because they could not wear a properly washed school uniform (Ayres-Wearne and Palafox 2005). In these examples, the economic, social, and psychological value of the asset could be far greater than its purchase price.</p>
+<p>Researchers using consumption models have developed subcategories of assets based on liquidity. Interest in liquidity is not surprising because assets are converted into cash in order to be consumed. Most studies use financial assets, liquid assets, or fungible wealth to measure assets that can be easily converted into cash. Several studies define financial assets as net worth (excluding pension and Social Security wealth) minus home equity, vehicle value, and business wealth (Oliver and Shapiro 1990; Wolff 2002). Many of these studies use both net worth and financial asset measures.</p>
+<p>Gruber (2001) creates three measures of assets: gross financial assets, net financial assets, and total net worth. His approach is of interest because he attempts to take into account accessibility to the debt market by separating gross financial assets and net financial assets. He defines gross financial assets as the sum of interest-earning assets in banks and other financial institutes, household equity in stocks and mutual funds, and other assets such as bonds and checking accounts. Gross financial assets are considered to be the total amount of financial resources accumulated as precautionary savings. Net financial assets are calculated by subtracting unsecured debt (e.g., credit card debt) from gross financial assets. Secured debt, such as a home mortgage, is not taken into account in calculating net financial assets. This measure is considered a good indicator of a households capacity for smoothing consumption through loans. On one hand, the level of debt may reflect a households access to the credit market and ability for short-term smoothing by means of a consumption loan. On the other hand, it may indicate financial constraints since a household with sizeable unsecured debt is likely to have difficulties in borrowing more at the time of economic emergency. These two measures, gross and net financial assets, measure liquid assets exclusively. Total net worth is the sum of all assets regardless of its level of liquidity and, therefore, includes illiquid assets such as homes and vehicles, as well as liquid assets. Net worth is considered a summary indicator of total available financial resources to the household, combining liquid and illiquid assets.</p>
+<p>Wolff (2002) categorizes assets into three groups: marketable wealth, financial wealth, and augmented wealth. Marketable wealth is defined as the value of total assets less total liabilities or debt. Assets in marketable wealth consist of ten items: (1) gross value of owner-occupied housing; (2) other real estate owned by the household; (3) cash and demand deposits; (4) time and savings deposits, certificates of deposit, and money market accounts; (5) government bonds, corporate bonds, foreign bonds, and other financial securities; (6) cash surrender value of life insurance plans; (7) cash surrender value of pension plans; (8) corporate stock and mutual funds; (9) net equity in unincorporated businesses, and (10) equity in trust funds. Liabilities include mortgage debt, consumer debt, and other debt. Marketable wealth does not include the value of consumer durables because these items are supposedly not marketable. Wolff argues that marketable wealth is the best indicator of well-being related to a households assets since this measure includes only items that can be readily converted into cash. Financial wealth, the second category of assets is identified as marketable wealth less net equity in the primary residence. Financial wealth is viewed as more liquid than marketable wealth because a house typically cannot be sold in the short term. Wolff suggests that financial wealth is the best measure of short-term well-being because it may be immediately available for consumption and investment. Augmented wealth is defined by Wolff as the sum of marketable wealth, pension, and Social Security wealth. Since augmented wealth includes pension and Social Security wealth that are not available at present, this measure is less liquid than marketable wealth. Augmented wealth is regarded as a measure of potential future consumption.</p>
+<h4><a>Asset Measures in Public Policies Based on a Consumption Perspective</a></h4>
+<p>Asset measures in many public assistance programs reflect a consumption perspective in defining assets. Asset tests in Temporary Assistance for Needy Families (TANF), Supplemental Security Income (SSI), Supplemental Nutrition Assistance Program (formerly the Food Stamp Program), and other public assistance programs use countable assets and vehicle values in determining the eligibility of program participants and applicants. Countable assets include cash on hand, values in saving and checking accounts, bonds, stocks, and vehicle values that exceed the vehicle asset limit (Corporation for Enterprise Development 2002). Illiquid assets, such as home values, are not included as countable assets. The definition of assets in these asset tests suggests that public assistance programs are intended to guarantee a minimum level of consumption among program participants and that assets are considered exclusively for consumption.</p>
+<h4><a>Assets in Alternative Measures of Economic Well-Being and Poverty Based on the Consumption Framework</a></h4>
+<p>As described earlier, the main difference between assets and income from a consumption perspective is their form: assets are a stock of financial resources while income is a flow. Accordingly, a focus of scholarly discussion is how to calculate wealth as a stream of income and create a joint measure of economic well-being. Recognizing that income is not perfectly correlated with wealth (Shapiro 2004; Weisbrod and Hansen 1968; Wolff 1990) and that an income measure alone is therefore not a perfect measure of economic well-being, these studies seek to develop better indicators by taking assets into account. The two major approaches are the annuitization approach and the fill the gap approach. In defining poverty, both methods focus on how to include assets in measuring available financial resources to a household, and both use existing measures of financial needs (poverty threshold definitions).</p>
+<p><strong><em>Annuitization approach.</em></strong> Weisbrod and Hansen (1968) developed an early joint index of income and wealth using annuitization. Their joint income-wealth measure of economic positions is the sum of current annual income and annual lifetime annuity value of current net worth.<a href="#_ftn2">[2]</a> The value of the annual lifetime annuity is the total expected lifetime value of current net worth (current net worth plus its expected lifetime interest) divided by the number of years of remaining life (life expectancy). For example, the annual lifetime annuity for an individual who owns $10,000 is estimated as $1,628.90 if the annual interest rate is 5 percent and the individual is expected to live 10 years (total expected lifetime value of current net worth [10,000 X (1.05)<sup>10 </sup>= 16,289] divided by 10 years of remaining life). The joint measure of income-wealth of this individual would be $31,628.90 if his or her annual income is $30,000. Accordingly, the greater ones current net worth, the shorter ones life expectancy, and the higher the interest rate, the greater ones annuity value. This measure assumes that wealth would be equal to zero at the end of ones lifetime, thereby ignoring bequest motives. Weisbrod and Hansen (1968) suggest an alternative measure of poverty. They propose to replace income with their joint income-wealth index, while keeping the official poverty threshold intact.</p>
+<p>Wolffs (1990) approach is slightly different. He does not assume that individuals use up their wealth by the time of death. Instead, he focuses on financial resources readily available to individuals. First, he uses fungible net worth instead of total net worth in calculating a joint measure of economic well-being, based on the assumption that the former is a better measure of disposable wealth than the latter. Wolffs fungible wealth includes home equity, liquid assets (e.g., savings deposits), business equity, and investment real estates, but it excludes consumer durables and household inventories. Second, he converts household fungible net worth into an annuity differently from Weisbrod and Hansen (1968). The annuity converted from the fungible net worth is paid out like a bond coupon at a given interest rate. The amount of annuity would be equal to the product of the capital value of fungible net worth and the interest rate. In this way, fungible wealth remains unchanged. Third, he estimates the net imputed rent of owner-occupied housing. Net imputed rent is the imputed rent value of owner-occupied housing minus the costs of owning a house, such as actual mortgage interest payment, homeowner insurance, and property taxes. Wolff calculates a households available financial resources as the sum of family income, the annuity related to fungible wealth, and net imputed rent value of owner-occupied housing. With this financial resources measure, Wolff develops an alternative measure of poverty. A family is considered poor if its financial resources are less than the official poverty threshold defined by the Census Bureau. Using data from the 1983 Survey of Consumer Finances (SCF), Wolff calculates that his joint income-wealth measure of poverty reduces the poverty rate. The poverty rate calculated with Wolffs alternative measure is about 10 percent lower than the official poverty rate.</p>
+<p>A joint income-wealth measure developed by Short and Ruggles (2004) also takes the annuitization approach. Short and Ruggles measure is different because it assigns low interest rates to gross financial assets (2 percent) and high rates to debts (10 percent for unsecured debt such as credit card debt, and 6 percent for secured debt such as a mortgage). They slightly modify the standard lifetime annuity method for nonfinancial assets, a method developed by Weisbrod and Hansen (1968), by adjusting annuity over the lifetime based on age of the head of household. A household is defined as poor if the sum of annuitized net worth and family income is below the poverty threshold. The different treatment of financial assets and debt produces contrasting outcomes to Wolff (1990). Short and Ruggles (2004) estimations, based on the Survey of Income and Program Participation (SIPP), find a higher poverty rate with annuitized wealth and income measure than the poverty rate based on the traditional measure that exclusively includes income. When the official poverty threshold is used, the poverty rate in 2001 is 14.0 percent with the income-wealth joint measure while it is estimated as 11.9 percent with an income-only measure of financial resources.</p>
+<p><strong><em>Fill the gap approach.</em></strong> The fill the gap approach does not attempt to convert assets into an annuity. Instead, this approach treats the current value of financial assets the same as income. This approach assumes that a household will use financial assets when current income is not enough to meet consumption needs. The fill the gap approach takes only financial assets into account since illiquid assets are not easily converted to cash and, therefore, are difficult to use for short-term consumption needs. This method does not include debt in calculating poverty rates because a household at the time of financial constraint is assumed not to pay off the principal on its debt. For example, if a familys total income falls $500 short of the poverty line for each of two months, family assets of $1,000 or more would fill the poverty gap entirely.<a href="#_ftn3">[3]</a> If the family only has $500 in assets, the spell of family poverty would be one month. If the family has financial assets more than $1,000, this family is not considered poor in the given time period. The poverty rate for the year of 2001 is calculated as 9.5 percent for the fill the gap approach, compared to 11.9 percent with the income only measure (Ruggles and Williams 1989; Short and Ruggles 2004).</p>
+<p><strong><em>Alternative poverty measures.</em></strong> The National Research Council (NRC) does not suggest the inclusion of asset values as family resources in the official poverty measure for which the accounting period is one year (Citro and Michael 1995). Since average asset holdings among low-income households are very low, financial assets will prevent most income-poor households from falling into poverty only for short periods. In addition, poverty measures may be able to estimate a households ability to obtain material well-being above the threshold through their income and related resources (resource approach) or by assessing their consumption level (consumption approach). According to the NRC, neither the annuitization approach nor the fill the gap approach fits these conceptual criteria. The NRC advised including income from assets (e.g., interest or rents) when counting financial resources available to a household (Citro and Michael 1995).</p>
+<p>However, the NRC recognized the importance of developing companion measures of poverty that take assets into account as short-term measures. For example, according to the NRC, alternative poverty measures could include financial assets when assessing the effectiveness of public assistance programs (e.g., TANF) as anti-poverty strategies. Since these assistance programs set asset limits among program applicants and beneficiaries and they use a short-term accounting period (e.g., a monthly accounting system), alternative poverty measures that take financial assets into account would be consistent with program rules (Citro and Michael 1995). As such, future research on asset measures and data may need to assess the relationship to concepts of well-being and poverty measurement.</p>
+<h3><a>B. Assets in Social Stratification Theory</a></h3>
+<h4><a>Concepts and Definitions of Assets in Social Stratification</a></h4>
+<p>In social stratification theory and research, assets are viewed as a major vehicle for transmitting class status from one generation to the next. Assets, therefore, serve as a critical mechanism maintaining the current socioeconomic structure and inequalities. In this regard, assets are conceptually distinct from income. The roles of assets go far beyond the satisfaction of consumption needs (Caner and Wolff 2004; Conley 1999; Keister 2000; Oliver and Shapiro 1990; Shapiro 2004; Spilerman 2000).</p>
+<p>Criticizing the traditional focus on income, Oliver and Shapiro (1990) emphasize the importance of assets in understanding inequality in the United States. They write:</p>
+<blockquote><p>Income is a transitory measure; past income does not necessarily indicate what resources are available currently, as it may have been spent as fast as it was received and the goods purchased quickly consumed. Wealth, on the other hand, is a more stable indicator of status or position in society and represents stored-up purchasing power. Furthermore, wealth, unlike income, is accumulated over a lifetime and seldom changes quickly, except through inheritance or severe economic crises (131).</p>
+</blockquote>
+<p>From this perspective, assets are a better indicator than income for long-term well-being.</p>
+<p>In addition, financial assets and physical properties can be passed from one generation to the next. Material assets are viewed as having historical origins and reflect inequality accumulated across generations, as well as socioeconomic disparity generated in contemporary contexts. This characteristic places assets in a unique position in studying racial inequality. The white-black gap in asset accumulation reflects the historical legacy of low wages, personal and organizational discrimination, and institutionalized racism (Oliver and Shapiro 1995, p. 5). To illustrate, the low level of wealth accumulation among blacks results in part from the historical legacy of slavery, Jim Crow laws, segregation, and discrimination in housing and labor markets (Conley 1999; Oliver and Shapiro 1995). While most of these conditions no longer exist, their impact is present in patterns of long-term wealth accumulation.</p>
+<p>Furthermore, assets provide owners a wide range of opportunities that go beyond the economic value created by income. Assets offer the opportunity to achieve and maintain a good life by providing command over financial resources. That is to say, assets enable owners to make purchases that may help them move up to and maintain middle- (or upper) class status, such as an education, a business property, or a home. Income is often an insufficient source of financial support for these critical life goals because the costs of higher education, initial payment for home purchase (down payment and closing costs), and the financial risks associated with a start-up business are not modest (Conley 1999; Keister 2000; Oliver and Shapiro 1990; Shapiro 2004). Assets, especially those from parents, provide critical resources at crucial life-cycle events. As shown in in-depth interviews by Shapiro (2004), intergenerational transfers of assets, both bequests and <em>inter vivos</em> transfers, make meaningful differences in the lives of many young adults and even middle-aged adults. The financial future of a young adult is much brighter if his or her college expenses are fully paid with parents savings than if he or she graduates with large debts due to educational loans. It is much easier for a young couple to achieve and maintain middle- or upper-class status if parents help them with the down payment on their first home. In this way, financial assets, especially those from parents, lift an individual beyond his or her own achievement. This is in part why Shapiro (2004) argues that assets are transformative. Inherited financial assets can lift socioeconomic status to a level that is seldom reached with income alone (Keister 2000; Oliver and Shapiro 1995; Shapiro 2004; Spilerman 2000).</p>
+<p>If assets serve as a critical mechanism in transferring socioeconomic status from one generation to the next and maintaining current socioeconomic structure as social stratification theory suggests, then interventions could be aimed at reducing the effects of asset holdings on socioeconomic inequality. A recent United Kingdom initiative of universal and progressive childrens saving accounts, known as the Child Trust Fund, may be an example of intervention for this purpose. This idea is also being tested in the Saving for Education, Entrepreneurship, and Downpayment (SEED) demonstration in the United States.<a href="#_ftn4">[4]</a> It is too early, however, to draw the conclusion that childrens savings account interventions will achieve the goal of leveling the asset-holding playing field.</p>
+<h4><a>Measures of Assets in Social Stratification Research</a></h4>
+<p>Social stratification research often uses asset measures similar to the consumption model, such as net worth and financial assets (Conley 1999; Oliver and Shapiro 1995; Shapiro 2004). Social stratification studies have analyzed indicators of wealth inequality created with net worth and financial assets across racial and income groups. For example, Wolff (2001) creates distribution ratios based on net worth and financial assets in order to estimate overall inequality in wealth, and Shapiro (2004) compares mean and median values of net worth and financial assets between blacks and whites in order to estimate racial gaps in wealth holding.</p>
+<p>As in the consumption model, social stratification theory distinguishes net worth from financial assets, but for a slightly different reason. Net worth is a comprehensive measure that includes all assets and debt, while financial assets are an indicator of command over financial resources for ones self and family. The emphasis on control over economic resources is closely connected with critical life events and opportunities. Social stratification theory pays attention to the timing of possession (or transfer) of financial assets and properties because there are critical life-time events at which financial assets and properties make huge differences in ones long-term economic well-being. Qualitative interviews described in Oliver and Shapiro (1995) and Shapiro (2004) show that parents financial investments at milestone life events (e.g., going to college and first-time home purchase) leverage their childrens life chances by maintaining or lifting socioeconomic status. For this reason, financial assets are considered a more effective tool in transmitting class status than is net worth because the former are immediately available for investments at each critical life stage or event (Oliver and Shapiro 1995).</p>
+<p>Considering the focus on intergenerational transfer of socioeconomic status, it is not surprising that the social stratification perspective pays special attention to intergenerational transfer of assets. There are two key methodological issues in measuring an intergenerational transfer. The first is to ask what can be categorized as measures of <em>inter vivos</em> transfers (i.e. transfers that occur during the providers lifetime). For example, some researchers include parents payment of college expenditures, while others exclude it. The former argue that childrens education is consumption from the parents perspective since children in school are still dependent. The latter maintain that what is important is the amount of resources transferred, not the form of the resources, since it does not make sense to exclude parents financial assistance for a childs education at age 21 while cash transfers at the same age are included (Gale and Scholz 1994; Spilerman 2000; Wilhelm 2001). The second issue is whether financial gains from inheritance could be included as part of transferred money. Although a bequest of $10,000 is undoubtedly a transfer, it is ambiguous whether an additional $10,000 of accrued interest or capital gains from the original inherited money is an intergenerational transfer or a new accumulation (Spilerman 2000; Wilhelm 2001). Most researchers take the latter approach by calculating a present value of a past transfer with an assumed rate of return (Wilhelm 2001).</p>
+<p>In addition, home ownership receives special treatment in social stratification theory in comparison with other types of assets. This is due to the wide range of opportunities provided by living in a neighborhood with high quality public education and city services (Shapiro 2004). In addition, home ownership is of special interest to those interested in white-black wealth gaps, because of the legacy of racial discrimination in housing and mortgage markets that often blocks minority households from the full benefits of home ownership (Conley 1999; Keister 2000; Oliver and Shapiro 1990; Shapiro 2004).</p>
+<h3><a>C. Assets for Development Framework</a></h3>
+<h4><a>Concepts and Definitions of Assets from an Assets for Development Perspective</a></h4>
+<p>Another view is that assets may facilitate economic and social development. From this perspective, assets are an instrument in promoting the general capacity<a href="#_ftn5">[5]</a> of individuals to advance economically, socially, psychologically, and politically, and achieve goals beyond the satisfaction of consumption needs (Sen 1999; Sherraden 1991). This is both a structural and an agent-oriented view. The assets for development framework suggests that individuals, including those at the bottom of the socioeconomic ladder, are capable of shaping their own destiny effectively only if they have adequate social and economic opportunities (Sen 1999). Asset building can be an effective tool in reducing poverty and inequality because it increases capacities at individual and household levels (Attanasio and Székely 2001; Paxton 2001; Sen 1999; Shapiro and Wolff 2001; Sherraden 1991) and also at community level (Weber and Smith 2003).</p>
+<p>The assets for development perspective does not ignore the roles of assets at a time of economic hardship, such as sudden income loss. On the contrary, assets may play even more important roles in times of economic hardship. Financial assets and physical properties may protect households, especially low-income households, by preventing them from sacrificing their long-term economic interests for short-term economic survival (Sherraden 1991). Income provides only short-term economic security because a household may lose all or part of its income if a wage earner loses a job, becomes ill, dies, or leaves the household though divorce or separation. Compared to income, assets secure resources in a more stable form and, therefore, are able to help owners avoid costly financial decisions based solely on short-term economic needs. That is to say, financial assets and tangible properties may enable households to respond successfully to economic shocks by providing more options. For example, an unemployed head of household does not have to take the first job offer when a better job offer is likely to come shortly if he or she has savings in the bank. A child does not have to give up education during a period of parents unemployment if the family has sufficient financial assets to draw upon. As a result, asset ownership, even at a modest level, may help households avoid making financial decisions that would cause long-term harm (Sherraden 1991; Siegel and Alwang 1999).</p>
+<p>A key question is how assets build capacities as the development perspective suggests. According to Sherraden (1991), financial assets may facilitate socioeconomic development through asset effects, which are capacities, attitudes, and behaviors that assets may generate but income does not. From a neoclassic economics perspective, the two different forms of financial resources  income and assets  do not have different utilities because they are used only for consumption. But from a development perspective, assets generate social, psychological, and economic effects on their owners that income does not. In other words, the utilities of financial resources in the form of assets go beyond deferred consumption. For example, financial assets and physical properties may improve household stability, not only in economic terms but also in social and psychological terms; assets may encourage future orientation by connecting people with a viable and hopeful future; financial assets and physical properties may promote development of other types of assets including human capital; assets may allow people to take prudent risks and not make costly financial decisions based on short-term economic pressures; and assets may increase social influence and civic participation (Paxton 2001; Sherraden 1991). All of this may seem reasonable and consistent with mainstream values and social philosophy in America dating back to Thomas Jefferson. But theoretical specifications are still primitive, and careful empirical research is needed in order to investigate whether assets indeed generate positive asset effects, some of which are not easy to observe and record in research.<a href="#_ftn6">[6]</a></p>
+<h4><a>Measures of Assets in the Development Framework</a></h4>
+<p>Empirically, the assets for development framework often relies on measures similar to the consumption model. Net worth and financial assets are frequently used in estimating asset effects. Home ownership also receives special attention because of its psychological meaning and symbolic power. Home ownership represents an American Dream that is associated with a variety of opportunities and provides a feeling of stability and stake-holding (Lombe 2004; McBride 2003; Sherraden 1991). For example, Yadama and Sherraden (1996) use household savings and home value in studying asset effects on attitudes and behaviors. Zhan and Sherraden (2003) use the total value of savings and home ownership in studying mothers expectations and childrens educational performance.</p>
+<p>In addition, the development approach has focused on asset-building interventions and measured assets accumulated through these interventions. Examples include measures of participation and the amount of savings in Individual Development Account (IDA) programs. However, asset definitions and measures from the development perspective do not fully capture the complexity of the asset accumulation process and asset effects. More work may be necessary to understand and empirically test this approach if this body of work is to inform an inclusive social policy based on asset accumulation.</p>
+<h4><a>Asset Building Interventions from the Assets for Development Perspective</a></h4>
+<p>Several emerging social policies define assets as a development tool. Examples include matched saving programs for low-income populations (e.g., IDAs for home ownership, education, or small business capitalization), special treatment of savings with special goals in welfare means-tests (e.g., special treatment of IDA accounts when federally funded by Assets for Independence [AFI] grants or TANF assistance, so that IDA assets do not count against means-tests in any federal program); the special savings for education in the form of Education IRAs and State College Savings (529) Plans (Clancy, Cramer, and Parrish 2005; Corporation for Enterprise Development 2002; Savner and Greenberg 1995; Sherraden 2001; Urban Institute 2005). Increasingly, public policies to assist the poor are easing restrictions and/or facilitating asset accumulation. Public policies that build assets for the nonpoor are only beginning to reach out to include the poor. For example, there are examples of inclusive features offered by some states in 529 plans (Clancy et al. 2005).</p>
+<h3><a>D. Definitions and Measures of Asset Poverty</a></h3>
+<p>In contrast to extensive discussions on income poverty measures in both research and policy development (Citro and Michael 1995; Iceland 2005; Short 2001), less attention has been paid to development of asset poverty measures. Discussion of poverty measures has focused almost exclusively on income. Even when assets are mentioned, they are treated as a supplement to income. Discussions of financial assets and physical properties typically focus on how to estimate their values in order to improve income poverty measures (Citro and Michael 1995; Ruggles and Williams 1989; Short and Ruggles 2004; Weisbrod and Hansen 1968; Wolff 1990). Assets are rarely an independent topic in developing poverty measures. Lack of attention to asset poverty measures is not surprising because the major goal of public assistance programs has been income maintenance during a time of economic need (Caner and Wolff 2004). Less attention to assets, however, may discourage development of pro-asset public policies for low-income households.</p>
+<h4><a>Asset Poverty Measures within the Consumption Framework</a></h4>
+<p>The first asset poverty measure was perhaps offered by Oliver and Shapiro (1990). They define a household as asset poor if its financial asset value is zero or negative. Their estimation, based on the 1984 Survey of Income and Program Participation (SIPP), is that at least one-third of households are asset poor.</p>
+<p>Haveman and Wolff (2005) provide a more detailed attempt to develop asset poverty measures independent from income poverty measures. They define a household as being asset poor if the access that family members have to wealth-type resources is insufficient to enable them to meet its basic needs for some limited period of time (Haveman and Wolff 2005, p. 64). As such, an asset poverty measure was developed based on the buffer stock model of saving (Carroll 1997; Hubbard et al. 1994; Leland 1968) and the fill the gap approach. Based on this definition, Haveman and Wolff define asset poverty as the lack of wealth to maintain a household above the poverty threshold proposed by a National Research Council panel for three months without income. The choice of three months is based on the assumption that a major event associated with economic hardship is job loss. The expected duration of unemployment is estimated as 2.2 to 4.2 months. The asset poverty threshold is calculated as $2,589 in 1984, $3,693 in 1994, and $4,151 in 1999, for a family composed of two adults and two children (Caner and Wolff 2004; Haveman and Wolff 2005).</p>
+<p>Haveman and Wolff (2005) and Caner and Wolff (2004) estimate asset poverty rates with three different measures of wealth: (1) net worth; (2) net worth minus home equity; and (3) liquid wealth. Their estimates, based on the data from the Panel Study of Income Dynamics (PSID), show a huge gap between the first and second measures and a small difference between the second and third measures. The asset poverty rate in 1999 was 25.9 percent when measured with net worth, 40.1 percent with net worth excluding home equity, and 41.7 percent with liquid wealth. These results reflect the pattern of wealth distribution in the United States. A home is the most commonly held asset in the United States, while illiquid assets other than primary residence (e.g., business assets and rental properties) are owned by only a small percentage of households. Taking a different approach, Shapiro (2004) argues for the creation of an asset poverty measure based on net financial (liquid) assets, not net worth. He suggests the use of net financial assets because a household rarely sells its own house or takes out a home equity loan unless it falls into an extremely difficult financial situation. Accordingly, a household forced to do so would be considered asset poor. More discussion and empirical studies will follow before it becomes possible to identify which measures of asset poverty are good indicators, and for what purposes.</p>
+<p>Comparisons with income poverty illuminate the importance of efforts to develop separate measures of asset poverty. Caner and Wolff (2004) demonstrate that asset poverty rates did not decline during the economic expansion in the late 1990s when income poverty rates decreased. The asset poverty rate was 26.1 percent in 1994 and almost the same at 25.9 percent in 1999 when measured as net worth. However, the poverty rate was 37.8 percent in 1994 and 41.7 percent in 1999 when measured as liquid assets. Furthermore, asset poverty is thought to be much more persistent than income poverty. More than 60 percent of households that were asset poor in 1984 remained so in 1994, while only 42 percent of income-poor households remained poor over the same period (Caner and Wolff 2004).</p>
+<h4><a>Asset Poverty Measures outside a Consumption Framework</a></h4>
+<p>Neither social stratification research nor the assets for development approach has attempted to create a direct measure of asset poverty. Although leading social stratification scholars have estimated the black-white gap in asset poverty rates (Oliver and Shapiro 1995; Shapiro 2004), they use Haveman and Wolffs (2005) definition of asset poverty: an amount of assets a family needs to meet its basic needs over a specified period. In considering future research, the development of asset poverty measures based on social stratification theory and an assets for development framework may be useful because these two perspectives have assumptions and definitions of assets distinct from the consumption model.</p>
+<p>Shapiros (2004) concept of head-start assets<a href="#_ftn7">[7]</a> may be helpful in exploring asset poverty measures for future research outside a consumption framework, although it is not a measure of asset poverty. Shapiro (2004) defines head-start assets as the amount of assets large enough to help a household achieve or maintain middle-class status.<a href="#_ftn8">[8]</a> Since home ownership in a middle-class neighborhood often helps children obtain a middle-class education and other social and cultural resources needed to maintain middle-class lifestyle, Shapiro uses financial ability to purchase a home in defining head-start assets. Head-start assets are defined as the amount of financial assets required to buy a typical (median-priced) home in the United States. Accordingly, head-start assets include down payment and closing costs for a median-priced home. Shapiro estimates that a household required between $9,600 and $17,600 in 1999 to buy a median-priced house ($160,100), to cover the down payment (5 to 10 percent of house value), and to meet the closing costs (typically 1 percent). To be sure, this definition and measurement specification are a step forward, but empirical future testing can help ascertain whether head-start assets as operationalized by Shapiro (2004) represent the best measure of this concept, and have the impacts he suggests.</p>
+<p>[ Go to <a href="#TOC">Contents</a> ]</p>
+<h2><a>III. Definitions of Assets and Asset Poverty</a></h2>
+<h3><a>A. Conceptual Framework for Alternative Definitions and Measures of Assets</a></h3>
+<h4><a>Developing Asset Measures, Especially among Low-Income Populations</a></h4>
+<p>As indicated above, assets are viewed differently from the three major perspectives. The consumption model defines assets as a storehouse of future consumption (Ando and Modigliani 1963; Carroll 1997; Leland 1968; Modigliani 1986; Shefrin and Thaler 1988). Social stratification focuses on the role of assets in perpetuating social and economic inequality by transferring economic resources from one generation to another (Conley 1999; Oliver and Shapiro 1995; Shapiro 2004). The assets for development perspective perceives assets as a tool for socioeconomic development by building capacity (Sen 1999; Sherraden 1991; Siegel and Alwang 1999). Despite these distinct roles and concepts associated with assets in the three frameworks, definitions and measures of assets are not different enough to reflect these theoretical and conceptual differences. The social stratification and assets for development perspectives rely on asset measures based on the consumption model by often using net worth and financial assets in empirical studies. As such, extent (e.g., total amount of financial assets and physical properties, such as net worth) and liquidity (e.g., total value of liquid assets) are major criteria that have been used in measuring assets in all three theoretical frameworks. Therefore, the link between theories and measures is tenuous, especially from the social stratification and assets for development perspectives.</p>
+<p>Assets are more complex and multifaceted than the consumption model suggests. Individuals accumulate assets for more than one reason. They save to move up economically (e.g., saving for an education or a small business); they save in order to improve social standing; they save in order to smooth consumption in preparation for retirement; and they accumulate assets to improve life chances of offspring (Oliver and Shapiro 1995; Shapiro 2004; Sherraden 1991). That is to say, diverse aspects of assets exist at different time points. The current level of asset possession is important, but the purposes and plans of saving and the process of asset accumulation may also be critical.</p>
+<p>Accordingly, current measures that focus on the possession of financial assets (measured as the amount of total possessed assets and the level of liquidity of possessed financial assets) may not be sufficient in studying the dynamics of asset accumulation  that is, identifying factors that promote and prevent asset accumulation and how assets affect individuals economic, social, psychological, and political well-being. As Paxton (2001) suggests, indicators that measure various aspects of assets have not yet been developed. Using his framework, there could be three categories of asset measures: asset accumulation process measures, asset possession measures, and expected assets.<a href="#_ftn9">[9]</a> At the end of Section III, this report offers suggestions on how to conceptualize and operationalize these three categories of measures.</p>
+<p>In addition to developing measures that capture diverse aspects of assets, attention to perspectives of the low-income population may be useful.<a href="#_ftn10">[10]</a> Existing studies do not take into account different social and economic conditions in measuring financial assets and physical properties by assuming that individuals share the same concepts and definitions of assets regardless of their age, experience, and economic conditions. Although the use of identical asset measures may facilitate comparisons among different income groups, it may impede in-depth understanding of assets among the low-income population.</p>
+<p>Qualitative research suggests that different people at distinct positions define the same property differently. Oliver and Shapiro (1995) write about home equity as follows:</p>
+<blockquote><p>Peoples age and experience, their feelings about what the future holds, and their stage in the life cycle all contribute to how they feel about their homes and any equity that may have built up over time. Old people may have a great deal of equity in their houses but have no immediate plans to cash it out In any case, the pertinent point is that one cannot presume that home equity is viewed as a financial resource (p. 60).</p>
+</blockquote>
+<p>Shapiro (2004) also describes class differences in the way people view assets:</p>
+<blockquote><p>Working-class and poor families use wealth for life support, to cushion bad times, and to meet emergencies. Middle-class families, in contrast, use their assets to provide better opportunities that advantage them. In our conversations about the power of assets, working-class and asset poor families dream that assets will give them freedom from a situation, ease a difficulty, relieve a fear, or overcome a hardship. Middle-class and asset-wealthy families see assets as power and freedom to leverage opportunities (p. 35).</p>
+</blockquote>
+<p>If low-income people view assets differently from middle-class people, as suggested by Shapiro (2004), it is reasonable to think that the former might define assets differently from the latter. For example, a bicycle can be a valuable income-generating asset (entrepreneurial equipment) for a low-income father who works as an informal messenger in downtown Philadelphia. A ladder and a rope can be assets for a roofing job (Edin 2001). Many low-income participants in the American Dream Demonstration (ADD) report furniture, stereos, and cars as the most important assets in their lives (Sherraden et al. 2005). It seems likely that key durable goods, especially household appliances, though taken for granted by middle- and upper-income people, may be fundamental assets for the low-income.</p>
+<p>However, little is known about low-income peoples perceptions and definitions of assets. Few surveys have asked low-income individuals or families in the United States what they count as assets and how much value they assign each of these items. In addition, asset definitions are likely to vary by race and ethnicity, by immigration status, by marital status, and by life stage and age. If asset and wealth measures are to be improved, this could be an area for future inquiry.</p>
+<p>It is clear that various asset measures may be useful to test different theories on assets and understand the relationship between assets and poverty, because the existing measures have been developed without strong theoretical foundations. In this report, several alternative measures are suggested for future research. However, these are preliminary conceptualizations, and readers are advised to be cautious since measures have not been specified or empirically tested.</p>
+<h3><a>B. Suggestions for Future Research on Asset Measures</a></h3>
+<h4><a>Asset Accumulation Process Measures</a></h4>
+<p>Existing measures of assets focus on current level of asset possession and do not reflect the process through which assets have been accumulated. When viewed as a tool for development, the process and stage at which one accumulates financial assets, however, may be as important as the total amount of accumulated assets. From this perspective, what matters is the way asset accumulation may empower and inspire individuals (Paxton 2001; Sherraden 1991).</p>
+<p>First, asset accumulation stage measures could be created that differentiate one stage of asset accumulation from another. Beverly, McBride, and Schreiner (2003) categorize asset accumulation in three stages: reallocation, conversion, and maintenance. At the reallocation stage, people reallocate their resources to make their current resource inflow exceed current consumption. There are two ways of reallocating resources to increase saving: one is to reduce consumption (e.g., by eating out less and shopping more carefully); the other way is to increase income (e.g., by working more hours, reallocating time resources from leisure to work). At the conversion stage, people convert financial resources into a more difficult-to-spend form (e.g., depositing pocket cash into a saving account). At the maintenance stage, people resist pressure for more consumption in order to change saving into asset accumulation. That is to say, people are able to avoid withdrawals from their accounts until they reach their saving goals. The mindset and behavior of people at the reallocation stage may be different from the mindset and behavior of those at the maintenance stage. People at the reallocation stage may try to earmark a certain type of earnings (e.g., earnings from a second job) for saving and/or seek encouragement to save from friends. People at the conversion stage may deposit a certain percentage of income into a saving account as soon as they receive a paycheck and before making other purchases or payments. At the maintenance stage, people may try to think of savings as something unavailable or choose financial services that make withdrawals costly (Beverly et al. 2003; Sherraden et al. 2005). It may or may not be a continuous and easy process to move from one stage to the next stage. Furthermore, it is not clear whether there are clear boundaries between stages. More evidence is needed to differentiate one stage from another and to identify indicators of each stage.</p>
+<p>Second, measures of saving patterns could also be developed. A person who accumulates financial assets through frequent and steady saving actions may have very different personal characteristics and motivations from a person who does so through one-time saving, even though the amounts of financial assets in their possession are the same. The effects of accumulated financial assets on their owners may differ across types of savers. Schreiners (2004) measures of saving are a good starting point. After defining saving as the movement of resources through time, Schreiner suggests development of saving measures for distinct stages of saving: putting in (depositing), keeping in (maintaining a balance), and taking out (withdrawing). He suggests measures of consistency of saving pattern, such as deposit frequency (e.g., the ratio of the number of months with a deposit divided by the number of observed months). Schreiners measures allow researchers to distinguish a slow and steady saver from a one-time big saver even when the amounts of savings are the same. Based on Schreiner (2004), Sherraden et al. (2005) develop a measure of saving pattern. They categorize a saving pattern into three categories: consistent and regular saving (saving with a certain pattern, e.g., saving every month), irregular saving (saving without a clear pattern, e.g., saving money when available), and no saving.</p>
+<h4><a>Asset Possession Measures</a></h4>
+<p>Existing research usually uses net worth and financial (liquid) assets in measuring the level of asset possession at a certain point of time. As useful as they are, net worth and financial assets are insufficient to understand asset accumulation and assets effects among a low-income population. Additional measures of assets are needed.</p>
+<p><strong><em>Actively and passively accumulated assets.</em></strong> Accumulated assets can be categorized into active and passive forms. Actively accumulated assets are those accumulated through ones own efforts and planning, such as saving and deliberate portfolio building through various types of investments. Passively asset accumulated assets are those that did not depend on self effort, such as inheritance and financial gifts from relatives and friends (Paxton 2001).</p>
+<p>Existing empirical studies have produced conflicting results on whether these different types of assets affect individuals. Bynner (2001), using a British data set, finds that inherited financial assets at age 23 do not have any significant effects later in life, as measured with labor market experience, marital breakdown, and political interests while actively accumulated assets are associated with significant differences on these outcomes. In contrast, Shapiros (2004) in-depth interviews of families with school-aged children show strong effects of intergenerational asset transfers on socioeconomic status. His study contrasts life trajectories and various aspects of lives (e.g., residences and career choices) among families with similar characteristics (e.g., income and education) except one factor, financial gifts and inheritance from parents or relatives. Different results between these two studies may reflect distinct research methods (quantitative vs. qualitative research) and different samples (random sample of young adults from the United Kingdom vs. nonrandom sample of middle-class adults with school-aged children in the United States). More research is necessary to identify reasons for these differences.</p>
+<p>Matched savings in asset-building interventions, such as employment-based saving incentives (e.g., 401(k)s) and poverty-reduction programs (e.g., IDAs) are perhaps in the middle. They can be categorized as actively accumulated assets because they require account holders deliberate efforts, such as saving and preserving money in the accounts. They can be viewed as passively accumulated assets since they are given to account holders by outside sources. Further empirical investigation will help classify these assets into either category. Institutional theories of saving and asset accumulation may better specify active and passive into multiple constructs such as access, information, facilitation, and restrictions, and connect these constructs with emerging theory and evidence in behavioral economics.<a href="#_ftn11">[11]</a></p>
+<p><strong><em>Long-term and short-term asset measures.</em></strong> It may be useful to distinguish assets accumulated for long-term goals from those accumulated for short-term goals. The amount in checking accounts can be categorized as intended for short-term use; saving accounts and CDs as mid-term assets; and IDAs, retirement accounts, Education IRA, and 30-year bonds as long-term assets.<a href="#_ftn12">[12]</a> It is challenging to draw a definite boundary between assets accumulated for short-term goals and those for long-term goals, especially when people occasionally change their saving goal and when they sometimes use assets saved for long-term goals to support current consumption in a time of economic hardship. It may be useful to differentiate assets based on restrictions and costs associated with early withdrawals because choices of different types of accounts may reflect saving goals and the level of commitment to the goals. Going forward, the allocation of financial resources into distinct types of accounts may be of interest to researchers and policymakers.</p>
+<p><strong><em>Asset measures by purpose.</em></strong> The creation of a typology of assets by their purposes may be informative. As mentioned above, people often accumulate assets for particular reasons, ranging from a precautionary motive to childrens achievement. Accordingly, assets may be categorized into precautionary savings (e.g., to prepare for sudden job loss or illness), assets for retirement, and assets for long-term development (e.g., saving for childrens education or a small business). It would be ideal, though challenging, to have strategies to distinguish one type of asset from another in this regard. People rarely set up a separate account for every single purpose (e.g., saving money in one account for both emergencies and childrens education). People also use money in an account for reasons other than the original saving goals (e.g., using money saved for a house for childrens education).</p>
+<h4><a>Expected Assets</a></h4>
+<p>It could be that some aspects of social and economic development are affected not by what people own today, but by what they anticipate owning across their life course. This concept might be called expected assets. People accumulate assets with certain goals in mind. Therefore, the expected form and/or amounts of accumulated assets may be as or more important than the actual amount of assets at present. As Mark Schreiner has noted on this topic:</p>
+<blockquote><p>What we want to look at is something that captures the fact that it is not only assets right now that matter (affect opportunities, outlooks, etc.) but rather expected assets (resources) over the remainder of the lifetime. For example, a child who knows she will come into ownership of an inheritance at age 18 is likely to act differently at ages before 18, compared with someone without that expectation.<a href="#_ftn13">[13]</a></p>
+</blockquote>
+<p>How might expected assets be measured? Schreiner goes on to offer one possibility:</p>
+<blockquote><p>I think this idea could be measured in principle as the expected number of dollar-years of resources that the person expects to control from now until expected death. So if I expect to die in two years and expect to have $100 of assets in year 1 and $200 in assets in year 2, I would have expected lifetime assets (resources) of 300 dollar-years.</p>
+</blockquote>
+<p>Taking another and perhaps simpler tack, expected assets could be measured by expected types of asset holding (e.g., the expectation of home ownership or IRA ownership), or expected key investments of assets (e.g., the expectation of college education or international travel).</p>
+<p>At this stage, expected assets is little more than a concept, not yet well developed in theory or measurement, but it may turn out to be an important concept. For example, there is evidence from in-depth interviews with IDA participants that the IDA program creates the expectation of future asset ownership (especially in the case of home ownership), and these expectations appear to affect IDA saving behavior and future outlook (Sherraden et al. 2005).</p>
+<h4><a>Asset Measures from the Perspective of Low-Income People.</a></h4>
+<p>As described earlier, it is likely that low-income peoples definitions and concepts of assets differ from those of middle-class people, which are frequently used in existing studies.</p>
+<p>One drawback in current asset measures is the omission of consumer durables. Interviews of low-income individuals report that low-income people often consider consumer durables significant assets (Edin 2001; Sherraden et al. 2005). Household appliances such as televisions and air conditioners are frequently used in smoothing consumption because low-income households often cash these items through pawnshops at the time of economic emergency (Caskey 1994).</p>
+<p>Most existing studies do not include consumer durables as asset measures. Some researchers intentionally exclude consumer durables when creating wealth measures. For example, Wolffs (2002) marketable wealth, equivalent to net worth in his study, excludes consumer durables such as automobiles and household appliances because they cannot be sold easily and therefore cannot be readily converted into cash. Other researchers are not able to include consumer durables simply because of the lack of information. Most existing surveys do not collect full information on consumer durables, except vehicle assets.</p>
+<p>A promising direction in developing better measures of assets among low-income people could be the inclusion of this population in the conceptualization and selection of relevant assets and operationalization of the measures. Some researchers have noted the importance of this in the study of poverty (Lister 2004; Lister and Beresford 2000).</p>
+<h3><a>C. Toward Alternative Measures of Asset Poverty</a></h3>
+<p>To the best of our knowledge, there exists no operational definitions and measures of asset poverty either from an assets for development perspective or from a social stratification perspective. Most existing asset poverty measures are based on the consumption model as described in the previous section. This section begins to explore measures of asset poverty in frameworks other than the consumption model. The following are examples that may have conceptual and empirical potential:  (1) asset thresholds in household development; (2) assets that change cognition and behavior; (3) assets that make the next generation better off; and (4) assets that assess inequality. These are not the only possible approaches to measures of asset poverty based on the assets for development or social stratification framework, but these may serve as a starting point for this discussion and stimulate further thinking and empirical work in the future.</p>
+<h4><a>Asset Thresholds in Household Development</a></h4>
+<p>From an assets for development perspective, asset poverty can be considered as the lack of assets that prohibits a family from taking off<a href="#_ftn14">[14]</a> from poverty (or the lack of assets that traps a family in current economic conditions). An asset poverty threshold might be defined as the minimum level of financial assets at which a virtuous circle of asset accumulation and positive effects begins, which can eventually lead a family to a higher level of economic functioning and status.</p>
+<p>Identifying asset thresholds may be complex. Previous studies suggest that there are asset thresholds; effects of assets on various outcomes may be lumpy or notched instead of linear (Sherraden 1991). One empirical study based on British data (National Child Development Study) points to key asset thresholds (Bynner 2001). In this study, the asset level at age 23 is estimated to be positively associated with various measures of economic and psychological well-being at age 32, including employment and mental health outcomes. An increase in asset amount above a certain point, however, does not make any difference in outcomes. For most outcomes, possession of assets above £200 (comparable to about $350 at the time of publication) is not associated with improved outcomes.</p>
+<p>It may not be easy to specify an asset threshold where households are able to take off from poverty. Threshold values may vary by life stage and by situation (Paxton 2001). A key threshold might be an amount of financial assets large enough to manage a checking account efficiently (i.e., the level at which the owner can use bank services and accumulate credit without paying excessive bank service charges and without worrying about bounced checks). In another situation, the key threshold might be the amount of financial assets needed to finish college for a young adult. In yet another situation, it might be the amount needed to start a small business for an underemployed single mother with entrepreneurial skills and ambition.</p>
+<p>It is uncertain whether there can be an overall threshold measure for the whole population. One option for such a measure is home ownership. Based on previous empirical work, it is likely that home ownership has multiple positive effects for household development and is therefore a good candidate for a head start or threshold approach to asset building for development (Shapiro 2004). From this perspective, asset poverty could be measured as the minimum amount of financial assets necessary to achieve this goal. For this measure, Shapiros head start asset measure might be modified into the bottom quartile house price instead of the median house price. The choice of bottom quartile house price is at this stage arbitrary, aiming at the idea of a starter home. Empirical evidence would be important to establish a more objective threshold level for this measure, and this would vary across housing markets in different parts of the country.</p>
+<h4><a>Assets that May Change Cognition and Behavior</a></h4>
+<p>Depending on particular circumstances, it is possible that poverty and development are influenced not only by current economic circumstances, but also by attitudes and behaviors. Sherraden (1991) suggests that asset holding may change cognitive schema, leading to more positive outlook and behavior. In qualitative research on IDAs (Sherraden et al. 2005), one of the strongest findings is that having an IDA changes the way people think, especially in terms of sense of control and goal formation (IDAs are goal-oriented, so it may be this feature rather than the assets themselves that create the goal effect). IDA participants are quite articulate about IDAs being different from traditional welfare programs because IDAs are about development, not merely survival. Goal orientation, in turn, appears to be associated with behaviors that can lead to goal attainment. If this in fact occurs, it is relevant to ask what type and/or level of assets might have this effect. In IDA research, it appears that just being in the IDA program leads to changes in outlook. This suggests that process measures of asset building (see above) may be as or more important than amounts of accumulation or having accounts with a long-term goal (nonzero values) in changing cognition and behavior. These are, however, preliminary findings and more empirical work would be illuminating. It is possible that asset thresholds would result in a virtuous circle of asset accumulation and positive attitudinal and behavioral effects. One study, using simultaneous equation modeling, finds this pattern using PSID data (Yadama and Sherraden 1996).</p>
+<h4><a>Assets and Development of the Next Generation</a></h4>
+<p>Development occurs across generations. In thinking about assets and development, a key guidepost would be to ask whether or not the next generation is better off (Oliver and Shapiro 1995). One suggestion is to ask how much and what kind of assets a low-income child needs in order to develop and reach his or her potential. There is evidence from studies of home ownership that, controlling for other factors, home ownership is associated with positive effects on children. There is evidence using PSID data that asset holding, controlling for many other factors, may improve childrens cognitive and emotional outcomes (Williams 2003). One study using the National Survey of Families and Households (NSFH) data finds that asset holding is associated with improved educational attainment of children among single mothers (Zhan and Sherraden 2003). This study also finds a mediator effect via cognition (measured as parental expectations for childrens educational attainment). In other words, some of the statistical effect appears to run through changes in parental cognition (see above discussion of cognition). In this case, the asset measures were home ownership and savings account balances. Overall, research results are suggestive. There is much more to learn about what types and how much assets can lead to improved childrens outcomes, especially for children in low-income households. As indicated above, some promising lines of inquiry may be assets for pre-school, assets for residence in a neighborhood with good public schools, and assets for key developmental experiences.</p>
+<h4><a>Asset Measures that Can Assess Inequalities</a></h4>
+<p>It may also be helpful to create asset measures that can assess inequalities by subpopulations so that we can understand these better and have a firm foundation for discussing and addressing differences. Existing measures, such as Gini coefficients based on net worth and financial assets, reflect key dimensions that are important. Another measure could be individual or group net worth compared to median net worth as a measure of position in the overall distribution (a similar measure is common in income-based studies of economic inequality). Alternatively, the presence of key assets across income levels could be useful; these might include durables such as a washer and a dryer, automobile ownership, and home ownership. Another potentially fruitful approach would be to measure assets that create opportunities for development of children, including pre-school, extra-curricular activities, camping, trips, and internship experiences.</p>
+<p>For example, given large differences in median net worth by race, it is reasonable to take the view that wealth or asset holding could be underlying racial tensions and issues (Oliver and Shapiro 1995). Therefore, addressing asset holding could be a positive strategy for both economic and social development  payoffs in future economic vibrancy and social harmony could be high.</p>
+<p>If so, what measures should be considered? Ordinarily, asset holding by race is conceived and discussed in the aggregate, comparing medians or means across racial groups. However, it would also be possible to construct measures at the household level. Such measures would be oriented toward development of families. For example, a key measure could be individual or household net worth compared to median net worth of the whole society or other groups. Taking another tack, the focus could be on the presence or absence of key assets. In this case, it might not be dollar value of assets that matters, but rather the presence and/or characteristics of key assets. For example, characteristics of home ownership might be a house in a good school district, a house near resources such as libraries and museums, and/or a house in a neighborhood with good transportation and other city services. Recent efforts to develop measures of ecological setting based on neighborhood surveys and/or participant observation suggest promising directions (e.g., Raudenbush and Sampson 1999). The primary purpose of these measures would be not to demark inequalities across race, but to build a knowledge base for promoting development of households.</p>
+<p>[ Go to <a href="#TOC">Contents</a> ]</p>
+<h2><a>IV. Summary and Conclusion</a></h2>
+<p>This report has assessed the state of theory, definitions, and measurement of assets and asset poverty in the context of income support social policy. In spite of the emergence of asset building in policy and academic discussions and the identification of a need for measures of asset poverty as early as 1991, little has been accomplished to date regarding unifying asset poverty concepts, definitions, and measures.</p>
+<p>In particular, there is a large gap in thinking about asset meanings and measures for low-income households and different types of low-income households in different circumstances. Although discussions in this area tend to lump the poor together, they are a very diverse group. In thinking about key assets, a poor rural family may need a reliable car to drive to employment, whereas a poor urban single parent may need a washer and dryer and pre-school for his or her children.</p>
+<p>The consumption model has dominated concepts of welfare or well-being in social policy. Consumption is the guiding idea behind income support policies  which, in a fiscal sense, make up a very large fraction of government spending in advanced economies. To date, when assets are considered at all in measures of well-being, they are usually translated into a flow of resources and incorporated into a measure of income. Thus, most measures of assets are in the tradition of the consumption model.</p>
+<p>However, several academic and policy discussions of assets have pushed the idea of well-being much further. This report takes up two examples: social stratification and assets for development. In social stratification theory, assets play a key role in inequality, and inequality by itself  apart from level of consumption  has social meaning and consequences. In an assets for development framework, attention is paid not to consumption alone, but to building capacities. Asset-based policy can be viewed as one expression of a capacity-building orientation. Because social stratification and assets for development theories <em>conceptualize assets as more than their consumption potential</em>, alternative definitions and measures of assets and asset poverty will be necessary if these theories are eventually to guide knowledge building that can inform social policy.</p>
+<p>In stratification theory, intergenerational transfers and threshold or head start assets that can enable a family to achieve and maintain a certain status, such as home ownership or college education may useful in empirical models. In the assets for development framework, attention could be devoted to forms and amounts of assets that might lead to virtuous cycles of asset building and positive economic, social, and civic participation outcomes. From a more psychological perspective, the assets for development framework could focus on forms and amounts of assets that change cognitive structures and behaviors related to future options.</p>
+<p>In considering alternative measures of assets that can build knowledge in the social stratification and assets for development perspectives, it may be necessary to focus not only amount of assets, but also to pay particular attention to (1) asset accumulation process measures; (2) asset possession measures; (3) expected assets; (4) assets measures from the perspective of low-income people; and (5) asset poverty measures based on an assets for development framework. In addition, as part of this effort, the identification of a range of types of asset poverty may be useful.</p>
+<p>Going forward, there is substantial work to do in specifying and testing measures of assets and asset poverty that can enrich understanding and also serve as tools in shaping and assessing social policy. Thoughtful and detailed empirical work that can inform social scientists and policy analysts will be invaluable. Better definitions and measures of asset holding will increase knowledge on more effective policies of asset building across the entire population.</p>
+<p>[ Go to <a href="#TOC">Contents</a> ]</p>
+<h2><a>References</a></h2>
+<p>Aizcorbe, Ana M., Arthur B. Kennickell, and Kevin B. Moore. 2003. Recent Changes in U.S. Family Finances: Results from the 1998 and 2001 Survey of Consumer Finances. <em>Federal Reserve Bulletin</em> 89(1): 132.</p>
+<p>Ando, Albert, and Franco Modigliani. 1963. The Life Cycle Hypothesis of Saving: Aggregate Implications and Tests. <em>American Economic Review</em> 53: 5584.</p>
+<p>Attanasio, Orazio, and Miguel Székely. 2001. Going Beyond Income: Redefining Poverty in Latin America. In <em>A Portrait of the Poor: An Asset Based Approach</em>, edited by Orazio Attanasio and Miguel Székely (144). Baltimore: Johns Hopkins University Press.</p>
+<p>Ayres-Wearne, Valerie, and Janet Palafox. 2005. <em>NILS: Small Loans, Big Changes</em>. Collingwoood, Australia: Good Shepherd Youth and Family Service, Inc.</p>
+<p>Banterle, Clara Busana. 2002. Incentive to Contributing to Supplementary Pension Funds: Going beyond Tax Incentives. <em>The Geneva Papers on Risk and Insurance </em>27(4): 555570.</p>
+<p>Beverly, Sondra G., Amanda Moore McBride, and Mark Schreiner. 2003. A Framework of Asset-Accumulation Stages and Strategies. <em>Journal of Family and Economic Issues</em> 24(2): 143156.</p>
+<p>Burkhauser, Richard V., and Robert R. Weathers II. 2001. Access to Wealth among Older Workers in the 1990s and How It Is Distributed: Data from the Health and Retirement Study. In <em>Assets for the Poor: The Benefits of Spreading Asset Ownership</em>, edited by Thomas M. Shapiro and Edward N. Wolff (74131). New York, NY: Russell Sage Foundation.</p>
+<p>Bynner, John. 2001. The Effect of Assets on Life Changes. In <em>The Asset-Effect</em>, edited by John Bynner and Will Paxton (1737). London: The Institute for Public Policy Research.</p>
+<p>Caner, Asena, and Edward. N. Wolff. 2004. Asset Poverty in the United States, 198499: Evidence from the Panel Study of Income Dynamics. <em>Review of Income and Wealth</em> 50: 493518.</p>
+<p>Carroll, Christopher D. 1997. Buffer-Stock Saving and the Life Cycle/Permanent Income Hypothesis. <em>Quarterly Journal of Economics</em> 12(1): 155.</p>
+<p>Caskey, John P. 1994. <em>Fringe Banking: Check-Cashing Outlets, Pawnshops, and the Poor.</em> New York, NY: Russell Sage Foundation.</p>
+<p>Citro, Constance F., and Robert T. Michael, eds. 1995. <em>Measuring Poverty: A New Approach</em>. Washington, D.C.: National Academy Press.</p>
+<p>Clancy, Margaret, Reid Cramer, and Leslie Parrish. 2005. <em>Section 529 Savings plans, Access to Post-Secondary Education, and Universal Asset Building.</em> Washington D.C.: New American Foundation.</p>
+<p>Conley, Dalton. 1999. <em>Being Black, Living in the Red: Race, Wealth and Social Policy in America.</em> Berkeley, CA: University of California Press.</p>
+<p>Corporation for Enterprise Development. 2002. <em>The 2002 Federal IDA Briefing Book: How IDAs Affect Eligibility for Federal Programs.</em> Washington, D.C.: Corporation for Enterprise Development.</p>
+<p>Edin, Kathryn J. 2001. More than Money: The Role of Assets in the Survival Strategies and Material Well-Being of the Poor. In <em>Assets for the Poor: The Benefits of Spreading Asset Ownership</em>, edited by Thomas M. Shapiro and Edward N. Wolff (206231). New York, NY: Russell Sage Foundation.</p>
+<p>Feldstein, Martin S. 1976. Social Security and the Distribution of Wealth. <em>Journal of the American Statistical Association</em> 71(356): 800807.</p>
+<p>Fisher, Malcolm R. 1987. Life-Cycle Hypothesis. In <em>The New Palgrave: A Dictionary of Economics</em>, edited by John Eatwell, Murray Millgate, and Peter Newman (177179). London and Basingstoke: Macmillan.</p>
+<p>Friedman, Milton. 1957. <em>A Theory of the Consumption Function</em>. Princeton, NJ: Princeton University Press.</p>
+<p>Gale, William G., and John Karl Scholz. 1994. Intergenerational Transfers and the Accumulation of Welfare. <em>Journal of Economic Perspectives</em> 8: 145160.</p>
+<p>Gruber, Jonathan. 2001. The Wealth of the Unemployed. <em>Industrial and Labor Relations Review</em> 55: 7994.</p>
+<p>Gustman, Alan L., and Thomas L. Steinmeier. 2001/2002. Retirement and Wealth. <em>Social Security Bulletin</em> 64(2): 6691.</p>
+<p>Haveman, Robert, and Edward N. Wolff. 2005. Who Are the Asset Poor? Levels, Trends, and Composition, 19831998. In <em>Inclusion in the American Dream: Assets, Poverty and Public policy</em>, edited by Michael Sherraden (6186). New York, NY: Oxford University Press.</p>
+<p>Hubbard, R. Glenn, Jonathan Skinner, and Stephen P. Zeldes. 1994. Expanding the Life-Cycle Model: Precautionary Saving and Public Policy. <em>American Economic Review</em> 84(2): 174179.</p>
+<p>Iceland, John. 2005. <em>Experimental </em><em>P</em><em>overty </em><em>M</em><em>easures: Summary of a </em><em>W</em><em>orkshop</em>. Washington, D.C.: National Academies Press.</p>
+<p>Keister, Lisa A. 2000. <em>Wealth in America: Trends in Wealth Inequality.</em> New York, NY: Cambridge University Press.</p>
+<p>Leland, Hayne E. 1968. Saving and Uncertainty: The Precautionary Demand for Saving. <em>Quarterly Journal of Economics</em> 82: 465473.</p>
+<p>Lister, Ruth. 2004. <em>Poverty</em>. Cambridge, United Kingdom: Polity Press.</p>
+<p>Lister, Ruth, and Peter Beresford. 2000. Where are 'the Poor' in the Future of Poverty Research? In <em>Researching Poverty</em>, edited by Jonathan Bradshaw and Joy Sainsbury (284304). Alderstot, United Kingdom: Ashgate.</p>
+<p>Lombe, Margaret. 2004. Impacts of Asset Ownership on Social Inclusion. Ph.D. diss., Washington University: St. Louis.</p>
+<p>McBride, Amanda Moore. 2003. Asset-Ownership among Low-Income and Low-Wealth Individuals: Opportunity, Stakeholding, and Civic Engagement. Ph.D. diss., Washington University: St. Louis.</p>
+<p>McNeil, John M., and Enrique J. Lamas. 1989. Year-Apart Estimates of Household Net Worth from the Survey of Income and Program Participation. In <em>The Measurement of Saving, Investment, and Wealth</em>, edited by Robert E. Lipsey and Helen Stone Tice (431471). Chicago: University of Chicago Press.</p>
+<p>Modigliani, Franco. 1986. Life Cycle, Individual Thrift, and the Wealth of Nations. <em>American Economic Review</em> 76(3): 297313.</p>
+<p>Oliver, Melvin L., and Thomas M. Shapiro. 1990. Wealth of a Nation: A Reassessment of Asset Inequality in America Shows at Least One-Third of Households Are Asset Poor. <em>American Journal of Economics and Sociology</em> 49: 129151.</p>
+<p>. 1995. <em>Black Wealth/White Wealth: A New Perspective on Racial Inequality</em>. New York, NY: Routledge.</p>
+<p>Paxton, Will. 2001. The Asset-Effect: An Overview. In <em>The Asset-Effect</em>, edited by John Bynner and Will Paxton (117). London: The Institute for Public Policy Research.</p>
+<p>Raudenbush, Stephen W., and Robert J. Sampson. 1999. Econometrics: Toward a Science of Assessing Ecological Settings, with Application to the Systematic Social Observation of Neighborhoods. <em>Sociological Methodology</em> 29: 141.</p>
+<p>Rostow, Walter W. 1971. The Take Off into Self-Sustained Growth. In <em>Political Development and Social Change</em>, edited by Jason Leonard Finkle and Richard W. Gable (260265). New York, NY: John Wiley &amp; Sons.</p>
+<p>Ruggles, Patricia, and Roberton Williams. 1989. Longitudinal Measures of Poverty: Accounting for Income and Assets over Time. <em>Review of Income and Wealth</em> 35: 225243.</p>
+<p>Savner, Steve, and Mark Greenberg. 1995. <em>The CLASP Guide to Welfare Waivers: 19921995.</em> Washington, D.C.: Center for Law and Social Policy.</p>
+<p>Schreiner, Mark. 2004. Measuring Saving. Center for Social Development Working Paper 04-08. St. Louis, MO: Washington University.</p>
+<p>Sen, Amartya. 1999. <em>Development as Freedom</em>. New York, NY: Knopf.</p>
+<p>Shapiro, Thomas M. 2001. The Importance of Assets. In <em>Assets for the Poor: The Benefits of Spreading Asset Ownership</em>, edited by Thomas M. Shapiro and Edward N. Wolff (1133). New York, NY: Russell Sage Foundation.</p>
+<p>. 2004. <em>The Hidden Cost of Being African American: How Wealth Perpetuates Inequality</em>. New York, NY: Oxford University Press.</p>
+<p>Shapiro, Thomas M. and Edward N. Wolff, eds. 2001. <em>Assets for the Poor: The Benefits of Spreading Asset Ownership.</em> New York, NY: Russell Sage Foundation.</p>
+<p>Shefrin, Hersh M., and Richard H. Thaler. 1988. The Behavioral Life-Cycle Hypothesis. <em>Economic Inquiry</em> 26: 609643.</p>
+<p>Sherraden, Michael. 1991. <em>Assets and the Poor: A New American Welfare Policy</em>. Armonk, NY: M.E. Sharpe.</p>
+<p>. 2001. Asset-Building Policy and Programs for the Poor, In <em>Assets for the Poor: The Benefits of Spreading Asset Ownership,</em> edited by Thomas M. Shapiro and Edward N. Wolff (302323). New York, NY: Russell Sage Foundation.</p>
+<p>Sherraden, Margaret, Amanda Moore McBride, Elizabeth Johnson, Stacie Hanson, Fred M. Ssewamala, and Trina R. Shanks. 2005. <em>Saving in Low-Income Households: Evidence from Interviews with Participants in the American Dream Demonstration</em>. St. Louis, MO: Washington University in St. Louis, Center for Social Development.</p>
+<p>Short, Kathleen. 2001. <em>Experimental Poverty Measures: 1999. U.S. Census Bureau Current Population Report 60-216.</em> Washington, D.C.: U.S. Government Printing Office.</p>
+<p>Short, Kathleen, and Patricia Ruggles. 2004. Experimental Measures of Poverty and Net Worth: 1996. Paper presented at Eastern Economic Association meeting, Washington, D.C.</p>
+<p>Siegel, Paul B., and Jeffery Alwang. 1999. <em>An Asset-Based Approach to Social Risk Management: A Conceptual Framework</em>. Washington, D.C.: The World Bank. <em>The World Bank Social Protection Discussion Paper Series</em> Discussion Paper 9926.</p>
+<p>Spilerman, Seymour. 2000. Wealth and Stratification Processes. <em>Annual Review of Sociology </em>26(1): 497524.</p>
+<p>Urban Institute. 2005. Welfare Rules Database. <a href="http://anfdata.urban.org/wrd">http://anfdata.urban.org/wrd</a>. (Accessed May 20, 2008).</p>
+<p>Varian, Hal R. 1993. <em>Intermediate Microeconomics: A Modern Approach.</em> New York, NY: W. W. Norton and Company.</p>
+<p>Venti, Steven F., and David A. Wise. 1990. Have IRAs Increased U.S. Saving?: Evidence from Consumer Expenditure Surveys. <em>The Quarterly Journal of Economics </em>105(3): 661698.</p>
+<p>Weber, Rachel N., and Janet L. Smith. 2003. Assets and Neighborhoods: The Role of Individual Assets in Neighborhood Revitalization. <em>Housing Policy Debate</em> 14(1&amp;2): 169202.</p>
+<p>Weisbrod, Burton A., and W. Lee Hansen. 1968. An Income-Net Worth Approach to Measuring Economic Welfare. <em>American Economic Review </em>58(5): 13151329.</p>
+<p>Wilhelm, Mark O. 2001. The Role of Intergenerational Transfers in Spreading Asset Ownership. In <em>Assets for the Poor: The Benefits of Spreading Asset Ownership</em>, edited by Thomas M. Shapiro and Edward N. Wolff (132161). New York, NY: Russell Sage Foundation.</p>
+<p>Williams, Trina Rachelle. 2003. The Impact of Household Wealth and Poverty on Child Development Outcomes: Examining Asset Effects. Ph.D. diss., Washington University: St. Louis.</p>
+<p>Wolff, Edward N. 1990. Wealth Holdings and Poverty Status in the United States. <em>Review of Income and Wealth</em> 36(2): 143165.</p>
+<p>. 2001. Recent Trends in Wealth Ownership, from 1983 to 1998. In <em>Assets for the Poor: The Benefits of Spreading Asset Ownership</em>, edited by Thomas M. Shapiro and Edward N. Wolff (3473). New York, NY: Russell Sage Foundation.</p>
+<p>. 2002. <em>Top Heavy: A Study of Increasing Inequality of Wealth in America.</em> New York, NY: the New Press.</p>
+<p>Yadama, Gautam, and Michael Sherraden. 1996. Effects of Assets on Attitudes and Behaviors: Advance Test of a Social Policy Proposal. <em>Social Work Research</em> 20: 311.</p>
+<p>Zhan, Min, and Michael Sherraden. 2003. Assets, Expectations, and Educational Achievement. <em>Social Service Review </em>77(2): 191211.</p>
+<p>[ Go to <a href="#TOC">Contents</a> ]</p>
+<hr /><h2><a id="Endnotes">Endnotes</a></h2>
+<p><a href="#_ftnref1">[1]</a>  The distinction between income-based policy and asset-based policy is not always clear-cut. For example, some analysts would count entitlement income as an asset because it provides a promised flow, as in Social Security retirement benefits. On the other hand, entitlement income is not owned in the sense of property rights and the policy  including extent of entitlement  is subject to change.</p>
+<p><a href="#_ftnref2">[2]</a>  Weisbrod and Hansen (1968) do not define net worth in their theory section. They calculate net worth for their empirical section based on the Survey of Financial Characteristics of Consumers (SFCC). Net worth is defined as all assets minus all debts included in the SFCC, except life insurance investments and equities in annuities and in retirement plans. Therefore, their measure of net worth is the sum of values for home, automobile, business, liquid assets, investment assets, and other assets, subtracting mortgages for own home and investment properties, personal debt, and debt on life insurance policies.</p>
+<p><a href="#_ftnref3">[3]</a>  Poverty measures do not take into account different economic decisions made by individual families (Citro and Michael 1995) so they do not consider whether a family uses up its savings to maintain its consumption level above the poverty threshold. Major approaches in measuring poverty consider either a familys ability to acquire material resources to meet consumption needs (resource-based measures) or familys actual consumption level (consumption approach). The fill the gap method is developed based on the economic resource approach. Accordingly, it does not take into account the possibility that some families may not use assets to make up for an income shortfall when their income falls below their consumption needs, that they may take out a loan, or that they may get financial help from relatives or friends.</p>
+<p><a href="#_ftnref4">[4]</a>  SEED is a multifaceted test of childrens savings accounts in the United States. It is a collaboration among CFED, the New America Foundation, the University of Kansas School of Social Welfare, the Research Triangle Institute, the Institute for Financial Security of the Aspen Institute, and CSD. Funding for SEED comes from the Ford, Charles Stewart Mott, MetLife, and other Foundations.</p>
+<p><a href="#_ftnref5">[5]</a>  The focus on building capacities or capabilities is at this writing a common and overarching conceptualization, especially in discussions of economic development in developing countries, and increasingly in discussions of well-being in more economically advanced nations. Indeed, this discourse has for the first time linked scholarship on economic development in poor nations with scholarship on welfare or well-being vis-à-vis the social policies of richer nations. This in itself is a promising development. But it is only a preliminary discussion. On the positive side, the term capacities or capabilities is a useful guiding and organizing device, pointing to much more than consumption as a definition of well-being. Sen (1999) defines capabilities as an individuals ability to achieve or obtain what he or she has reason to value. Another way to define this would be conditions that permit the achievement of potential. On the negative side, these are quite grand ideas with only vague specifications at this stage. Sen, rooted in neoclassical economics, goes to some length to say that desired capabilities cannot be listed for everyone, but rather are to be defined by each individual. Another view, perhaps more comfortable for social science planners and analysts, would be that certain capabilities or capacities are fundamental (e.g., basic security, nutrition, intellectual development, and civic participation). All of this has a long way to go in both theoretical specification and testing.</p>
+<p><a href="#_ftnref6">[6]</a>  Another report in the <em>Poor Finances </em>series, <a href="/hsp/07/PoorFinances/Effects/index.shtml">The Effects of Holding Assets on Social and Economic Outcomes of Families: A Review of Theory and Evidence</a>, explores this issue more thoroughly.</p>
+<p><a href="#_ftnref7">[7]</a>  Shapiro (2004) defines head-start assets based on transformative assets. He defines transformative assets as inherited wealth lifting a family beyond their own achievement (p. 10). Although clearly important as a general concept, it is difficult to quantify transformative assets because this concept is likely to be relative and depend on a familys starting point. For example, the amount of financial resources needed to move a family from low- to middle-class status may differ from that needed for upward mobility from middle- to upper middle-class.</p>
+<p><a href="#_ftnref8">[8]</a>  Shapiro (2004) defines middle-class status using three criteria: income, education, and occupation. A household is considered a middle-class household if it meets the following three conditions. First, a households income lies in the middle 60 percent distribution. Second, at least one adult in the household holds a bachelors degree. Third, adults in the household have middle-class jobs, such as professionals, technical workers, administrators, managers, supervisors, and clerical and sales workers. However, it is not clear why he chooses a median-priced house as an indicator of living in a middle-class neighborhood. Also, the definitions of middle-class lifestyle and middle-class education are not specified. More empirical studies will help identify the accurate measures of head-start assets, including indicators and measures of middle-class lifestyles and education.</p>
+<p><a href="#_ftnref9">[9]</a>  Paxton (2001) develops three categories of financial asset measures in order to study asset effects. He suggests measures of asset experience that consist of asset accumulation, asset possession, and asset spending. Since one of the goals of this report is to develop asset measures that can be used in studying the determinants of financial asset accumulation and the effects of financial assets, the authors of this report have modified Paxtons categorization. Sherraden (1991) suggests that the concept of permanent assets might be useful in the same sense as permanent income, i.e., assets holdings anticipated across the life course. This report, upon the suggestion of Mark Schreiner at CSD, uses the term <em>expected assets</em>.</p>
+<p><a href="#_ftnref10">[10]</a>  The use of asset measures developed based on low-income peoples perspectives may have its own disadvantages.  First, these asset measures may not reflect middle- and upper-income peoples perspectives accurately. Some items considered as valuable assets by low-income people (e.g., a bicycle) may be trivial for middle- and upper-income people. The latter might forget to report these items when answering survey questions, which could produce non-random measurement errors by income group. Second, it may be costly to include a wide range of asset items in survey questionnaires in terms of time and money. However, it is imperative to understand low-income peoples own definitions of assets. Future research may be able to develop asset measures that reflect different perspectives by economic level.</p>
+<p><a href="#_ftnref11">[11]</a>  For a detailed discussion, see Determinants of Asset Building, another report in the <em>Poor Finances </em>series.  It is available at <a href="http://aspe.hhs.gov/hsp/07/PoorFinances/determinants/index.shtml">http://aspe.hhs.gov/hsp/07/PoorFinances/determinants/index.shtml</a>.</p>
+<p><a href="#_ftnref12">[12]</a>  Researchers could also obtain information on short-term vs. long-term asset accounts by asking questions directly to respondents in surveys.</p>
+<p><a href="#_ftnref13">[13]</a>  Mark Schreiner, CSD internal email memo on expected assets, July 6, 2005.</p>
+<p><a href="#_ftnref14">[14]</a>  The concept of take-off is adapted from Rostow (1971). For an economic development model in developing countries, Rostow defines the take-off as the interval during which the rate of investment increases in such a way that real output per capita rises and this initial increase carries with it radical changes in production techniques and the disposition of income flows which perpetuate the new scale of investment and thereby the rising trend in per-capita output (141). As such, take-off is defined as a point from which a virtuous cycle of economic development starts.</p>
+<p>[ Go to <a href="#TOC">Contents</a> ]</p>
+<hr /><h2><a id="Acknowledgments">Acknowledgments</a></h2>
+<p>This report has benefited from comments of the project teams at the Urban Institute, the New American Foundation, and the Center for Social Development, as well as helpful comments and suggestions from project officers John Tambornino, Jeremías Alvarez, and Linda Mellgren at the Office of the Assistant Secretary for Planning and Evaluation (ASPE) at the U.S. Department of Health and Human Services (HHS). We also thank Gordon Fisher, Gretchen Lehman, and Joan Turek at HHS. Jung Hee Han at the Center for Social Development provided invaluable research assistance.</p>
+<p>The authors of this report are affiliated with the Center for Social Development (CSD) at Washington University in St. Louis. The work is informed by a large body of previous work at CSD and elsewhere on savings-related research projects. Reports and publications are cited accordingly, but the authors cannot adequately thank everyone who has contributed to the thinking and empirical work that underlie this report.</p>
+<p>CSDs research on savings among low-income populations has been funded by many organizations. HHS funded this report. For supporting CSDs applied research contributing to this report, the authors are grateful to the Ford Foundation, the Charles Stewart Mott Foundation, the Annie E. Casey Foundation, the F.B. Heron Foundation, the Ewing Marion Kauffman Foundation, and the MetLife Foundation.</p>
+<p>This report is part of a series entitled <em><a href="/hsp/07/PoorFinances/index.shtml">Poor Finances: Assets and Low-Income Households</a></em>, produced in a partnership among the Urban Institute, the New America Foundation, and CSD. The partnership has been very cordial and productive, and the authors thank the team members at the Urban Institute and the New America Foundation.</p>
+<p>[ Go to <a href="#TOC">Contents</a> ]</p>
+<hr /><h2>Questions about the Project or any of the Papers?</h2>
+<p><strong>Please contact:</strong> Gretchen Lehman Social Science Analyst Office of Human Services Policy Office of the Assistant Secretary for Planning and Evaluation U.S. Dept. of Health and Human Services 200 Independence Ave SW, Room 426F.6 Washington, DC 20201 202-401-6614 (phone) 202-690-6562 (fax)<a href="mailto:Gretchen.Lehman@hhs.gov">Gretchen.Lehman@hhs.gov</a></p>
+
+  <div class="download_report">
+    
+                        <div class="pdf-prev">
+                <img src="https://aspe.hhs.gov/system/files/pdfpreview/ef14cd8289b3f656a28e155fbede3464.png" alt="Preview" title="Preview" />            </div>
+                <a class="btn btn-sm btn-default download-file"
+           href="https://aspe.hhs.gov/system/files/pdf/75711/report.pdf">Download</a>
+
+        <p class="download_title">&quot;report.pdf&quot;
+            (pdf,
+            202.51Kb)</p>
+        <p>Note: Documents in PDF format require the <a href="http://www.adobe.com/products/acrobat/readstep2.html">Adobe
+                Acrobat Reader&reg;</a>. If you experience problems with PDF documents, please <a
+                href="http://www.adobe.com/products/acrobat/readstep2.html">download the latest version of the
+                Reader&reg;</a>
+        </p>
+    </div>
+<div class="group-tags"><div class="field-label">Tags:&nbsp;</div><a href="/terms/economic-support-and-employment">Economic Support and Employment</a><a href="/terms/asset-buildingfinancial-literacy-0">Asset Building/Financial Literacy</a><a href="/terms/poverty-and-measurement">Poverty and Measurement</a><a href="/terms/poverty-measures">Poverty Measures</a><a href="/terms/poverty-income-and-assets">Poverty, Income, and Assets</a><a href="/terms/assets-and-resources">Assets and Resources</a><a href="/terms/vulnerable-populations">Vulnerable Populations</a><a href="/terms/low-income-populations">Low-Income Populations</a><a href="/terms/welfare-work-and-self-sufficiency">Welfare, Work, and Self-Sufficiency</a></div>  </div>
+
+      <footer>
+          </footer>
+  
+    <div id="block-webform-client-block-158521" class="widget block block-webform" >
+  
+      
+  <div id="webform-ajax-wrapper-158521"><form class="webform-client-form webform-client-form-158521" action="/basic-report/assets-poverty-and-public-policy-challenges-definition-and-measurement" method="post" id="webform-client-form-158521" accept-charset="UTF-8"><div><div class="webform-progressbar">
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-radios webform-component--was-this-page-helpful">
+  <label for="edit-submitted-was-this-page-helpful">Was this page helpful? <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-was-this-page-helpful" class="form-radios"><div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-1" name="submitted[was_this_page_helpful]" value="1" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-1">Yes </label>
+
+</div>
+<div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-2" name="submitted[was_this_page_helpful]" value="0" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-2">No </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="4" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-BuyMZnxhlPZgK_R2wfL3yIqlAuWSD2ae__RMverfbM0" />
+<input type="hidden" name="form_id" value="webform_client_form_158521" />
+<input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-158521" />
+<div class="form-actions"><input class="webform-next button-primary btn btn-default form-submit" type="submit" id="edit-webform-ajax-next-158521" name="op" value="Next &gt;" /></div>
+<div class="is-useful-disclaimer"> <a href="/%23" class="" title="Survey Disclaimer" data-toggle="modal" data-target="#disclamerModal">Form Approved OMB# 0990-0379 Exp. Date 8/31/2017</a></div>
+<div class="modal fade" id="disclamerModal" tabindex="-1" role="dialog" aria-labelledby="disclamerModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="disclamerModalLabel">Survey Disclaimer</h2>
+      </div>
+      <div class="modal-body">
+         According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this information collection is 0990-0379. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, gather the data needed, and complete and review the information collection. If you have comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: U.S. Department of Health & Human Services, OS/OCIO/PRA, 200 Independence Ave., S.W., Suite 336-E, Washington D.C. 20201, Attention: PRA Reports Clearance Officer.      </div>
+    </div>
+  </div>
+</div></div></form></div>
+  </div> <!-- /.block -->
+<meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/assets-poverty-and-public-policy-challenges-definition-and-measurement" itemref="md1" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/assets-poverty-and-public-policy-challenges-definition-and-measurement" itemref="md2 md3 md5 md7 md9 md11 md13 md15 md17 md19 md21" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/economic-support-and-employment" id="md5" itemref="md4" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/asset-buildingfinancial-literacy-0" id="md7" itemref="md6" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/poverty-and-measurement" id="md9" itemref="md8" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/poverty-measures" id="md11" itemref="md10" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/poverty-income-and-assets" id="md13" itemref="md12" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/assets-and-resources" id="md15" itemref="md14" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/vulnerable-populations" id="md17" itemref="md16" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/low-income-populations" id="md19" itemref="md18" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/welfare-work-and-self-sufficiency" id="md21" itemref="md20" />              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <footer  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Footer">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  id="footer_sitemap-footer_sitemap" class="col-sm-6 col-md-6 col-lg-4 ">
+                          
+                              <div id="block-footer-sitemap-footer-sitemap" class="widget block block-footer-sitemap" >
+  
+      
+  <div id="footer-sitemap" class="clearfix">
+  <div class="fs-block-content"><div class="menu-footer-utility"><ul class="footer_links_menu-footer-utility total-items-2 parent-items-0 single-items-0"><li class="menu-5021 depth-1 total-children-8 parent-children-0 single-children-8  first"><a href="/" title="look at ASPE Home" class="fs-root-link">ASPE Home</a><ul class="footer_links_menu-footer-utility total-items-8 parent-items-0 single-items-0"><li class="menu-5026 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/" title="look at HHS Home">HHS Home</a></li>
+<li class="menu-66281 depth-1 fs-no-children"><a href="http://www.usa.gov/" title="look at USA.gov">USA.gov</a></li>
+<li class="menu-66316 depth-1 fs-no-children"><a href="https://oig.hhs.gov/" title="look at Office of the Inspector General">Office of the Inspector General</a></li>
+<li class="menu-66321 depth-1 fs-no-children"><a href="http://www.whitehouse.gov" title="look at The White House">The White House</a></li>
+<li class="menu-5046 depth-1 fs-no-children"><a href="http://www.hhs.gov/Accessibility.html" title="look at Accessibility">Accessibility</a></li>
+<li class="menu-66326 depth-1 fs-no-children"><a href="http://www.hhs.gov/about/budget/index.html" title="look at Budget/Performance">Budget/Performance</a></li>
+<li class="menu-2551 depth-1 fs-no-children"><a href="http://www.hhs.gov/Privacy.html" title="look at Privacy Policy">Privacy Policy</a></li>
+<li class="menu-197776 depth-1 fs-no-children  last"><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" title="Nondiscrimination Notice">Nondiscrimination Notice</a></li>
+</ul></li>
+<li class="menu-5051 depth-1 total-children-4 parent-children-0 single-children-4  last"><a href="http://www.hhs.gov/foia/" title="look at FOIA" class="fs-root-link">FOIA</a><ul class="footer_links_menu-footer-utility total-items-4 parent-items-0 single-items-0"><li class="menu-5056 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/open/recordsandreports/plainwritingact/index.html" title="look at Plain Writing Act">Plain Writing Act</a></li>
+<li class="menu-5061 depth-1 fs-no-children"><a href="http://www.hhs.gov/asa/eeo/no_fear_bullet_3.html" title="look at No Fear Act">No Fear Act</a></li>
+<li class="menu-5066 depth-1 fs-no-children"><a href="http://www.hhs.gov/Disclaimer.html" title="look at Disclaimers">Disclaimers</a></li>
+<li class="menu-2546 depth-1 fs-no-children  last"><a href="http://www.hhs.gov/plugins.html" title="look at Viewers &amp; Players">Viewers &amp; Players</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-5 " id="stability_cms-contact_us">
+                          
+                              <div id="block-stability-cms-contact-us" class="widget block block-stability-cms" >
+  
+      
+  <div class="contacts-widget widget widget__footer">
+	<div class="widget-content">
+		<ul class="contacts-info-list">
+      			<li>
+<!--				<i class="fa fa-map-marker">Address</i>-->
+                <div class="info-icons">
+                    <img  alt="map" class= 'map-icons' src="/sites/all/themes/stability/stability_aspe/images/map.png"/>
+                </div>
+                <div class="info-item">
+					Assistant Secretary for Planning and Evaluation, Room 415F<br />
+U.S. Department of Health and Human Services<br />
+200 Independence Avenue, SW<br />
+Washington, D.C. 20201				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-phone">phone</i>-->
+                <div class="info-icons">
+                    <img alt="phone" src="/sites/all/themes/stability/stability_aspe/images/phone.png"/>
+                </div>
+				<div class="info-item">
+					+1 202.690.7858				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-envelope">email</i>-->
+                <div class="info-icons">
+                    <img alt="mail" src="/sites/all/themes/stability/stability_aspe/images/mail-white.png"/>
+                </div>
+				<span class="info-item">
+					<a href="mailto:osaspeinfo@hhs.gov">osaspeinfo@hhs.gov</a>
+				</span>
+			</li>
+      			                					</ul>
+	</div>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-3 " id="footer">
+                          
+                              <div id="block-block-36" class="widget block block-block" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sign-up</span> for Email Updates</h3>
+		</div>
+    
+  <div class="email_updates">
+<button class="btn btn-default" name="subscribe-button" type="submit" value="subscribe">subscribe</button>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-12 " id="menu-menu-footer-language-menu">
+                          
+                              <div id="block-menu-menu-footer-language-menu" class="widget block block-menu" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Language</span> Assistance Available</h3>
+		</div>
+    
+  <ul class="menu"><li class="first expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#spanish" title="Español">Español</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#chinese" title="繁體中文">繁體中文</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#vietnamese" title="Tiếng Việt">Tiếng Việt</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#korean" title="한국어">한국어</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#tagalog" title="Tagalog">Tagalog</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#russian" title="Русский">Русский</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#arabic" title="العربية">العربية</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#creole" title="Kreyòl Ayisyen">Kreyòl Ayisyen</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#french" title="Français">Français</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#polish" title="Polski">Polski</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#portuguese" title="Português">Português</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#italian" title="Italiano">Italiano</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#german" title="Deutsch">Deutsch</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#japanese" title="日本語">日本語</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#farsi" title="فارسی">فارسی</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#english" title="English">English</a></li>
+</ul></li>
+</ul>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+      </div>
+
+          </div>
+    
+    
+      </footer>
+    
+
+    <!--/PAGEWATCH-->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+                        </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="social-links-wrapper">
+              <span class="social-links-txt">Connect with us</span>
+              <ul class="social-links social-links__dark">
+                                                  <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw-grey.png"/></a></li>
+                                <!--                --><!--                  <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin-grey.png"/></a></li>-->
+<!--                -->
+                                                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>  <script type="text/javascript" src="/sites/default/files/advagg_js/js__VWRymaMz6HfrhnrcJNGcDiSvLVrvhaXvBa7nrBYy8gc__jntPwP3D6myJZH1jW19fXrk5cYMHGRL8NQION22VSEA__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5486d15a696bff0c"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__g6mKbcakHxQkz4ZHYaxdO_xqONINvRMgsHh1zAK-fr0__ATHtEmHaeZ0jidpGU22EkhmPDBSgjD8z0bVDQMI-BIY__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__KUp4PrfOt9BSXUVl8Ctb3dhCMBe4MNVMeb4Gyorx8yY__7g4BeXscCIZAfuu1vxsCj2RIemg-eEK0QpChP9LDmFQ__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__PNjAgubM_3xXRLp4uLsYnv8wQAdT89-RYkSPxT6T45c__rFQwFK4pA5ZaWZSF7FPTfKbbpus0h-5IS8ayrNZGrb4__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__vQiLul2UcfC4nBAR09mhYVBYzRmiNDm2dj3GgSubV38__w84oZe-ZODKe7XnnlbrjV4IWHISOy4PioFEMVgx9hZo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__QJw3g0kOdwsv4twSZLP931zBzsHy50VEHpEN_znIitQ__A6QOuWXElDipBM2iChbWhjAAt3KlUwZ-jODoxdpbwiw__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stability_aspe","theme_token":"k-THXsmA39GBHjvby8H_BZ105iHg_kuaWBSqxUjygKs","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/footable.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/aspe_nodes.admin.css":1,"sites\/all\/modules\/custom\/aspe_views\/theme\/css\/aspe_views.admin.css":1,"sites\/all\/modules\/forked\/book\/book.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/openpublic\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.css":1,"profiles\/openpublic\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openpublic\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/openpublic\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/themes\/stability\/css\/bootstrap.min.css":1,"sites\/all\/themes\/stability\/css\/fonts\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.theme.css":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/stability\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/stability\/css\/theme.css":1,"sites\/all\/themes\/stability\/css\/theme-elements.css":1,"sites\/all\/themes\/stability\/css\/animate.min.css":1,"sites\/all\/themes\/stability\/css\/skins\/red.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/slideshow.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/font-main.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/styleless.less":1,"sites\/all\/themes\/stability\/css\/skins\/blue.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/aspe\/theme\/js\/aspe.login-confirm.js":1,"sites\/all\/modules\/custom\/aspe_report\/modules\/aspe_databooks\/js\/aspe_databooks.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.highcharts.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/datatables\/dataTables.min.js":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.min.js":1,"sites\/all\/libraries\/highcharts\/highcharts.js":1,"sites\/all\/libraries\/highcharts\/highcharts.exporting.js":1,"sites\/all\/libraries\/highcharts\/highcharts.map.js":1,"sites\/all\/libraries\/highcharts\/highcharts.us-all.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.footable.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5486d15a696bff0c":1,"misc\/progress.js":1,"profiles\/openpublic\/modules\/contrib\/webform\/js\/webform.js":1,"profiles\/openpublic\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/stability\/vendor\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/stability\/vendor\/bootstrap.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flexnav.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flickrfeed.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.sloppy-masonry.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.fitvids.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.stellar.min.js":1,"sites\/all\/themes\/stability\/vendor\/snap.svg-min.js":1,"sites\/all\/themes\/stability\/js\/custom.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/aspe.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/html5shiv.min.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/main-menu.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/keyboard-control.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tabBehavior.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tileStringTrimmer.js":1}},"webform":{"conditionals":{"webform-client-form-158521":{"ruleGroups":[],"sourceMap":[],"values":[]}}},"ajax":{"edit-webform-ajax-next-158521":{"callback":"webform_ajax_callback","wrapper":"webform-ajax-wrapper-158521","progress":{"message":"","type":"throbber"},"event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Next \u003E"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/basic-report\/assets-poverty-and-public-policy-challenges-definition-and-measurement":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"([a-z0-9]\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This website contains links to other federal and state agencies and private organizations. The Department of Health and Human Services (HHS) cannot attest to the accuracy of information provided by these nonfederal website links. Linking to nonfederal sites does not constitute an endorsement by HHS or any of its employees of the sponsors or the information and products presented on the sites. You will be subject to the destination site\u0027s privacy policy when you leave the ASPE website.\r\n\r\nThank you for visiting aspe.hhs.gov!","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"stability":{"flickr_id":"52617155@N08","logo_sticky":"28"},"field_group":{"div":"full","hidden":"full"}});
+//--><!]]>
+</script>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config={pubid:"ra-5486d15a696bff0c",ui_click:false}
+//--><!]]>
+</script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4837db659","applicationID":"10708002","transactionName":"MwNaZBRSXEtXB0BdWQpJeVMSWl1WGQpbUFM7FllXA2xEUVMT","queueTime":0,"applicationTime":1911,"atts":"H0RZElxIT0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

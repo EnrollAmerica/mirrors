@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">  <!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://aspe.hhs.gov/sites/default/files/Favicon2.png" type="image/png" />
+<meta name="description" content="U.S. Department of Health and Human Services" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://aspe.hhs.gov/execsum/case-studies-electronic-health-records-post-acute-and-long-term-care" />
+<link rel="shortlink" href="https://aspe.hhs.gov/node/99221" />
+<meta property="og:site_name" content="ASPE" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aspe.hhs.gov/execsum/case-studies-electronic-health-records-post-acute-and-long-term-care" />
+<meta property="og:title" content="Case Studies of Electronic Health Records in Post-Acute and Long-Term Care" />
+<meta property="og:description" content="U.S. Department of Health and Human Services" />
+<meta property="og:updated_time" content="2015-12-12T03:48:42-05:00" />
+<meta property="article:published_time" content="2015-12-09T05:06:59-05:00" />
+<meta property="article:modified_time" content="2015-12-12T03:48:42-05:00" />
+
+  <title>Case Studies of Electronic Health Records in Post-Acute and Long-Term Care | ASPE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+  <link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__5ln8neBOcJfyUveiD4y9fhI6kHBLOQ_YL0mMC-LS9a0__TPJIZT9UBnf_685NlFTJ5KnZVsjwFk6ACQ-nwwygmwU__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ng49uRH5y4Hl9VF9hHW_vXOj-mcOc2u2ShJqJ1YKIGU__FoMCD14GBvZaRiqSQ_JpP1w3rDB21n7H2Ar4pRZaIh8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__Hskudx14OJ5Hz8vqU7CUgN6SDV5rINZuEq9VuGsSeyc__EwNIl3xeFrniW2TmonovTzhSs3X5MdFps210puE7jog__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__9rZoaX9BdzjjNucvYxduxeNAVO2zgW_Rvjhb5rq5whc__lSr_y16grDSgHf4booPChnF7QXz3TQY3hafH49twE0k__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZgfI_ZPib5yVY0o5aKo_6TFn946Tuu_nFDa0ySTmkSc__2FTFrNw2eNh0mpHIOA34r6YRwBZMm2PjJ_JubnwLigg__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__dxabpJ5rQgDSixKgLJZjWc1beC6mpROKwVrmWxI5eno__rqhz_hGsE_i59O7-W991o71_Jxw1QOtGMxn4nsOLHY8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZbRCq2NqWgK-HXAQI3So0N1n0nr4HonsJS3eQuuxukw__7Olkk8Locn8Dj0eR0Ww3rbV9lks9sxipcboMXB18RRs__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+
+	<!-- Head Libs -->
+	<script src="/sites/all/themes/stability/stability_aspe/vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/sites/all/themes/stability/vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" href="/sites/all/themes/stability/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/stability/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/stability/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/stability/images/apple-touch-icon-144x144.png">
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-99221 node-type-report-exec-sum">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-JLFR"
+                  height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JLFR');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-nav" class="accessibility_menu">
+    <strong>Shortcut Navigation:</strong>
+    <ul>
+      <li><a href="#content" accesskey="c" title="Skip to page content (ctrl/alt + c)">Page Content</a></li>
+      <li><a href="#nav" accesskey="m" title="Skip to main navigation menu (ctrl/alt + m)">Site Navigation</a></li>
+
+      <li><a href="#Footer" accesskey="f" title="Skip to footer (ctrl/alt + f)">Footer</a></li>
+    </ul>
+  </div>
+
+    
+<div class="site-wrapper">
+  
+  <header class="header header-menu-fullw header-top-clean">
+    <div id="brand-bar">
+        <div class="container">
+                    <img alt='bird' src="/sites/all/themes/stability/stability_aspe/images/bird.png"> <a target="blank" tabindex="4" href="http://www.hhs.gov/">U.S. Department of Health & Human Services</a>
+        </div>
+
+    </div>
+    <div class="header-main">
+        <div class="container clearfix">
+            <div class="social-links-wrapper">
+                <ul class="social-links social-links__light">
+                                                          <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw.png"/></a></li>
+                                    <!--                  --><!--                    <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin.png"/></a></li>-->
+<!--                  -->
+                                                                      </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                                <div class="site_name_wrapper">
+                                     <span class="h1">
+                                      <a href="/">ASPE</a>
+                                       </span>
+                                  <p class="tagline"><p>Office of The Assistant Secretary</p><p> for Planning and Evaluation</p></p>
+                    </div>
+            </div>
+            <!-- Logo / End -->
+            <div class="header_right_wrapper">
+                <div class="search-form">
+                    <form action="/execsum/case-studies-electronic-health-records-post-acute-and-long-term-care" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class = "input-group"><div class="form-type-textfield form-item-search-block-form form-item form-group">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search Site..." class="form-control form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input class="btn btn-primary btn-icon form-submit" type="image" id="edit-submit" name="submit" value="Search" src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/search-white2.png" alt="Search" title="Search" /></div></div><input type="hidden" name="form_build_id" value="form-g6VNAbTxBijhd78cGElSkkEBbW1WkrSu4HjS-RSV58w" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </div>
+                <button type="button" class="navbar-toggle" value="Menu">
+                    <i class="fa fa-bars"></i>Menu
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-main">
+        <div class="container">
+          <ul data-breakpoint="767" class="flexnav">
+                <li class="first expanded"><a href="/basic-search/about" title="">About</a><ul><li class="first leaf"><a href="/mission" title="">Mission</a></li>
+<li class="leaf"><a href="/key-staff" title="">Leadership</a></li>
+<li class="leaf"><a href="https://www.usajobs.gov/" title="">Careers</a></li>
+<li class="expanded"><a href="/coordination" title="linkTo">Coordination</a><ul><li class="first leaf"><a href="/evaluation-evidence" title="">Evaluation &amp; Evidence</a></li>
+<li class="leaf"><a href="/national-alzheimers-project-act">National Alzheimer&#039;s Project Act</a></li>
+<li class="leaf"><a href="/health-and-human-services-hhs-data-council">HHS Data Council</a></li>
+<li class="last leaf"><a href="/national-committee-vital-and-health-statistics" title="National Council on Vital and Health Statistics">National Council on Vital and Health Statistics</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/divisions" title="">Offices</a><ul><li class="first leaf"><a href="/office-disability-aging-and-long-term-care-policy-daltcp">Disability, Aging, and Long-Term Care Policy</a></li>
+<li class="leaf"><a href="/office-health-policy-hp">Health Policy</a></li>
+<li class="leaf"><a href="/office-human-services-policy">Human Services Policy</a></li>
+<li class="last leaf"><a href="/office-science-and-data-policy">Science and Data Policy</a></li>
+</ul></li>
+<li class="leaf"><a href="/strategic-planning" title="Strategic Planning">Strategic Planning</a></li>
+<li class="last leaf"><a href="/contact-aspe" title="">Contact ASPE</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/topics" title="">Topics</a><ul><li class="first leaf"><a href="/affordable-care-act-research">Affordable Care Act Research</a></li>
+<li class="leaf"><a href="/alzheimers-dementia">Alzheimer&#039;s / Dementia</a></li>
+<li class="leaf"><a href="/early-childhood">Early Childhood</a></li>
+<li class="leaf"><a href="/incarceration-reentry">Incarceration &amp; Reentry</a></li>
+<li class="leaf"><a href="/opioid-abuse-us-and-hhs-actions-address-opioid-drug-related-overdoses-and-deaths" title="Opioids">Opioids</a></li>
+<li class="leaf"><a href="/patient-centered-outcomes-research-trust-fund">Patient-Centered Outcomes Research Trust Fund (PCORTF)</a></li>
+<li class="expanded"><a href="/basic-search/poverty" title="">Poverty</a><ul><li class="first leaf"><a href="/poverty-guidelines">Poverty Guidelines</a></li>
+<li class="last leaf"><a href="/poverty-estimates-trends-and-analysis">Poverty Analysis</a></li>
+</ul></li>
+<li class="leaf"><a href="/teen-pregnancy-prevention">Teen Pregnancy Prevention</a></li>
+<li class="leaf"><a href="/homelessness">Homelessness</a></li>
+<li class="last leaf"><a href="/medicare-access-and-chip-reauthorization-act-2015">MACRA</a></li>
+</ul></li>
+<li class="leaf"><a href="/reports" title="">Publications</a></li>
+<li class="last expanded"><a href="/basic-search/datasets" title="">Data and Tools</a><ul><li class="first last leaf"><a href="/evaluations" title="">Evaluation Database</a></li>
+</ul></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation / End -->
+</header>  <div class="main" role="main">
+    <!--PAGEWATCH CODE="USHHS_458"-->
+    <section class="page-heading">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+                <h1>
+                    
+          Case Studies of Electronic Health Records in Post-Acute and Long-Term Care        </h1>
+                                 <p class="author">
+                                                 <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2004-08-01T00:00:00-04:00">08/01/2004</span>               
+                           </p>
+
+
+                  </div>
+
+
+        <div class="col-md-6">
+           <ul class="breadcrumb"><li class="first"><a href="/" title="Home">Home</a></li>
+<li class="last">Case Studies of Electronic Hea...</li>
+</ul>        </div>
+
+
+    </div>
+  </div>
+</section>
+    
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Content">     
+
+        
+                  
+        
+                                    <div  class="col-md-12 " id="content">
+                          
+                              <div id="block-aspe-aspe-addthis" class="widget block block-aspe" >
+  
+      
+  <div class="clearfix">
+  <ul class="addthis_sharing_toolbox node-share__links" data-url="https://aspe.hhs.gov/execsum/case-studies-electronic-health-records-post-acute-and-long-term-care" data-title="Case Studies of Electronic Health Records in Post-Acute and Long-Term Care">
+    <li><a class="addthis_button_print"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/print-white.png" alt="print" /></a></li>
+    <li><a class="addthis_button_email"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/mail-white.png" alt="email" /></a></li>
+    <li><a class="addthis_button_twitter"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/tw.png" alt="twitter" /></a></li>
+<!--    <li><a class="addthis_button_facebook">--><!--</a></li>-->
+    <li><a class="addthis_button_compact"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/plus-white.png" alt="compact" /></a></li>
+  </ul>
+</div>
+
+  </div> <!-- /.block -->
+
+                
+    
+  
+  <div class="content clearfix node-report-exec-sum">
+    
+<p>
+</p><p align="CENTER"><font color="#000099"><b><font face="Calisto MT" size="+2">U.S. Department of Health and Human Services</font></b></font></p>
+<h1 align="CENTER">Case Studies of Electronic Health Records in Post-Acute  		and Long-Term Care</h1>
+<h1 align="CENTER">Executive Summary</h1>
+<h3>Andrew Kramer, MD, Rachael Bennett, MA, Ronald Fish, MBA, C.T. Lin, MD,  		Natasha Floersch, BA, Karin Conway, RN, MBA, Eric Coleman, MD,  		MPH<br />University of Colorado Health Sciences Center</h3>
+<h3>Jennie Harvell, MEd<br />U.S. Department of Health and Human  		Services</h3>
+<h3>Mark Tuttle, FACMI<br />Apelon</h3>
+<h3>August 18, 2004</h3>
+<hr /><blockquote>
+<p><i>This report was prepared under contracts #HHS-233-02-0070 and  		  #HHS-100-03-0028 between the U.S. Department of Health and Human Services,  		  Office of the Assistant Secretary for Planning and Evaluation, Office of  		  Disability, Aging and Long-Term Care Policy and the University of Colorado  		  Health Sciences Center. For additional information about this subject, you can  		  visit the DALTCP home page at http://aspe.hhs.gov/_/office_specific/daltcp.cfm  		  or contact the ASPE Project Officer, Jennie Harvell, at HHS/ASPE/DALTCP, Room  		  424E, H.H. Humphrey Building, 200 Independence Avenue, S.W., Washington, D.C.  		  20201. Her e-mail address is: Jennie.Harvell@hhs.gov.</i></p>
+</blockquote>
+<hr /><p></p>
+<h2>Project Objectives </h2>
+<p>The following study, entitled "Electronic Health Records in Post-Acute  		and Long-Term Care," was sponsored by the Office of the Assistant Secretary for  		Planning and Evaluation (ASPE), United States Department of Health and Human  		Services (USDHHS). The objective of the project was to evaluate the status of  		interoperable electronic health records (EHRs) that extend into post-acute care  		(PAC) and long-term care (LTC) settings, and are capable of health information  		exchange with other care settings such as acute care hospitals, physician  		offices, pharmacies, or other PAC/LTC providers. This report summarizes case  		studies of four leading-edge sites, and reviews the findings and  		recommendations of a technical expert panel. </p>
+<p></p>
+<h2>Context </h2>
+<p>Since 2001, the Department of Health and Human Services (HHS) has been  		actively promoting the development and use of electronic health records. In  		2001, the National Committee for Vital and Health Statistics recommended a  		strategy to encourage efficient and secure exchange of health information  		through a common electronic health record (EHR) and through a National Health  		Information Infrastructure (NHII).<sup><font size="-1"><a href="#note2">2</a></font></sup> Recognizing that the NHII will require  		standards for (at least) messaging, terminology, and documents, other public  		and private initiatives also have contributed to this effort, including: (1)  		the Federal Government's acquisition of a license to freely distribute to  		healthcare entities in the United States the Systematized Nomenclature of  		Medicine Clinical Terms (SNOMED CT); (2) the Consolidated Health Informatics  		(CHI) initiative to review and endorse vocabulary and messaging standards for  		use in the federal healthcare enterprise; and (3) the Health Level 7 (HL7)  		effort to specify standards and a functional model for EHRs. More recently,  		establishment of a national health information system has become a major  		national priority backed by an Executive Order to create a national health  		information technology coordinator within HHS.<sup><font size="-1"><a href="#note1">1</a></font></sup> Thus, substantial momentum exists for rapid  		development and deployment of standardized EHRs that facilitate the exchange of  		health information when and where needed, across all healthcare settings.</p>
+<p>One strategy for the exchange of information across the healthcare  		spectrum includes the use of Local Health Information Infrastructures (LHIIs)  		for the electronic exchange of patient-level health information among multiple  		providers in a community. Through the use of LHIIs, data could be shared and  		re-used without replication. However, development of most EHRs and the few  		LHIIs that exist in the U.S. today primarily has focused on acute hospitals and  		ambulatory care settings, with almost no attention to or implementation in  		nursing homes, home health agencies, and inpatient rehabilitation facilities  		(i.e., PAC and LTC). In total, these PAC/LTC settings include more than 26,000  		Medicare-certified providers that treat more than one-half of Americans during  		the course of their lifetimes.<sup><font size="-1"><a href="#note3">3</a>,  		<a href="#note4">4</a>, <a href="#note5">5</a>, <a href="#note6">6</a>,  		<a href="#note7">7</a></font></sup> Further, literature and surveys show that  		interoperable EHRs are not well developed in these settings. </p>
+<p>From a patient care perspective, PAC and LTC have unique issues and  		requirements. First, transitions to and from these settings are a major source  		of medical errors in relation to medication administration, advanced care  		directives, allergies, and delivery of essential services. Second, the typical  		geographic separation of PAC/LTC providers from hospitals, diagnostic services,  		and physician offices creates communication barriers that contribute to medical  		errors. Third, persons treated in PAC/LTC settings suffer from impairments in  		physical, cognitive, and social functioning, as well as multiple chronic  		diseases, rendering them vulnerable to various threats to patient safety and  		quality. Fourth, PAC/LTC is provided by interdisciplinary teams with  		substantial family/informal caregiver involvement. Finally, government-mandated  		standardized assessments (i.e., MDS, OASIS, and IRF-PAI) exist in PAC/LTC  		settings and require information that is not comparable across settings and may  		not be clinically relevant, codeable with standardized, interoperable  		vocabularies, or readily able to interface with each patient's EHR. The use of  		standardized EHRs has potential to reduce many preventable errors, enhance the  		communication of needed information among providers, and provide needed tools  		to enhance and support more effective management of service delivery.  		Implementing standardized vocabularies adopted through the CHI initiative in  		future revisions to federally-required patient assessment forms would  		facilitate the exchange of information across settings. </p>
+<p></p>
+<h2>Benefits of Leading-Edge PAC/LTC Systems </h2>
+<p>Four leading-edge sites were chosen for their implementation of  		interoperable EHRs in PAC/LTC and other parts of the healthcare continuum. Each  		of these sites was visited for two to three days using a structured site visit  		protocol. The four sites included a VA Medical Center (Bay Pines), North  		Mississippi Health Services, PeaceHealth, and Deaconess Billings Clinic. Each  		site had been established for at least 35 years, and each was a pioneer in the  		development of EHRs through strong local leadership and an organizational and  		cultural commitment to enhancing quality of care and increasing efficiencies.  		All four of the health systems visited were composed of an urban referral  		medical center in a medium-sized city and the surrounding environment, with  		outreach into rural areas and sometimes smaller communities and hospitals. The  		visited sites "owned" most of the providers and employed most of the physicians  		in their systems, but were branching into relationships with previously  		unaffiliated providers. Because the selected health systems are pioneers in the  		field and are "early adopters" of EHR systems used to exchange information  		across the continuum of care, the systems were deployed before widespread  		agreement existed regarding the use of standards for terminology and messaging.  		Nevertheless, these four sites represent the most advanced EHRs that have and  		use the capability for interoperable information exchange across the healthcare  		delivery spectrum, including PAC and LTC.</p>
+<p>At each of the selected sites, clinicians reported that the most highly  		valued function of the EHR in PAC/LTC settings was the provision of care  		transition information from the previous provider, (predominantly an acute care  		hospital) and from pharmacists and physicians. All four of the visited sites  		exchanged health information among their owned providers, with reported  		benefits in terms of patient safety, quality of care, and efficiency. The  		information was available in real time and followed the same medical record  		architecture as provided in the hospital, without abstraction of core content  		most relevant to PAC/LTC. Nevertheless, the information was useful in  		evaluating patients for admission from geographically removed settings, which  		frequently is required by PAC/LTC providers, and to initiate care, enhancing  		continuity.</p>
+<p>Medication management is a major function in PAC/LTC settings because of  		the large number of medications received by these patients and the high  		proportion of medical errors that are related to medication prescribing and  		administration. Medication list management upon admission to PAC/LTC --  		ensuring that the appropriate medications are prescribed -- is complex. It  		requires the reconciliation of lists from before a hospital stay and during an  		acute care stay with any new discharge medications. Although only the VA had a  		single medication list (and only for prescriptions filled at VA pharmacies),  		all sites were moving toward a single medication list and a system for  		reconciliation. Sites also had systems for tracking medication administration  		in PAC/LTC settings. More expensive technologies reportedly were difficult to  		support under current Medicare PAC and Medicaid payment rates, but were used in  		the VA (e.g., bar coding). However, lower cost solutions, including unit dosing  		or multiple day packaging and an automated medication administration record,  		were in place at all sites. Drug alert systems also were used to review  		dosages, drug interactions, and sometimes necessary laboratory data.</p>
+<p>At some sites, systems for electronic physician/geriatric nurse  		practitioner orders and progress notes from all PAC/LTC providers were  		structured partially and were part of the EHR. Where orders were entered  		electronically in IRF units or nursing homes, staff reported a reduction in  		ordering time and error rates, and these systematized processes were received  		favorably. Where nursing progress notes were fully electronic, considerable  		reduction in documentation time was noted and clarity of documentation for  		shift changes was enhanced. Despite limited structure for progress notes  		(except for vital signs) in the sites where an EHR was used, both RNs and CNAs  		endorsed the potential of EHRs for care management and documentation of nursing  		care activities in PAC/LTC settings. At some sites, physical and occupational  		therapists also utilized the system for progress notes, leading to better  		communication among different disciplines treating the same patient. Thus, even  		relatively rudimentary systems in terms of structure and standardization  		demonstrated some of the potential benefits of interoperable EHRs for  		PAC/LTC.</p>
+<p></p>
+<h2>Limitations of Leading-Edge Systems </h2>
+<p>The same characteristics that enabled these sites to become leaders in  		interoperable EHR systems -- local control and strong leadership -- also are  		limitations to further development. Through the local clinical, organizational,  		and information technology culture, each system has flourished, but in a unique  		manner that is not replicable. With the exception of the VA, no economies of  		scale exist because each system had to develop its own applications. The VA is  		part of a larger national network, but individual sites customize components  		and lack interoperability with other VA Medical Centers (VAMCs) and non-VA  		health systems. Thus, the ability to "go it alone," and the success of this  		method, now places these state-of-the-art health systems in the difficult  		position of needing to retool and adapt to enable wider connectivity.</p>
+<p>In no area is this more apparent than in the lack of standards for  		messaging, vocabularies, and documents. As reflected in the President's  		Executive Order, and in various public and private initiatives, the use of  		healthcare information technology standards is an essential part of an  		infrastructure that ensures the availability of real-time clinical information  		to support clinical decision making, reduce errors, and promote efficiencies.  		For the most part, each of the four sites will face challenges as it conforms  		its "homegrown" clinical content with CHI-endorsed standards and works to  		ensure its information technology infrastructure interoperates with the  		national health information technology infrastructure. As an example, these  		health systems will be challenged when there is agreement on core clinical  		content that should be transmitted at times of patient transfers from hospitals  		to PAC/LTC settings, the standardization of that clinical content, and the use  		of a standardized clinical document architecture for the efficient  		communication of this information across settings. Standards development is  		only in the early stages, and the PAC/LTC systems that were visited did not use  		standardized terminologies, messaging standards, or documents for the  		electronic recording and exchange of any information. In fact, standardization  		was not high on the agenda at most sites because each was functioning  		adequately within the confines of the EHR system.</p>
+<p>Lack of standards contributes to another limitation: difficulty in  		extending electronic health information systems into provider settings that are  		not owned and operated by the site or its employees. Although all sites were  		experimenting with business affiliations that addressed technological, legal,  		privacy, and communication issues, no sites had been able to overcome the  		barriers to being interoperable with unaffiliated PAC/LTC providers using staff  		who were not employees of the larger system. Although these barriers existed  		with extension into all unaffiliated providers, linkages with PAC/LTC  		facilities generally lagged behind physician offices and other hospitals for  		several possible reasons. Health enterprises that include PAC/LTC facilities  		still are focused on improving EHR functions in the acute care operations,  		where greater value and return on investment are anticipated. As PAC/LTC  		settings utilize EHR technology to a greater extent, interoperability will  		become more essential so that external parties can use and contribute to the  		record.</p>
+<p>A final limitation to interoperability that also could be improved by  		standards development is the integration between the EHR maintained in the  		various PAC/LTC sites and the government-mandated data sets: MDS, OASIS, and  		IRF-PAI. In every case, the information systems for the mandated data set were  		completely distinct from the EHR. None of the sites was able to import  		information from the comprehensive clinical assessments contained in the EHR  		and populate mandated data sets. In most cases, the process for completing the  		mandated data sets was separate from the process used to maintain the EHR.  		Thus, the lack of integration between mandated assessments and the clinical  		information recorded in the EHR was a major impediment to integrated care  		delivery. Further, the EHR was dominated by orders and assessments written by  		the physician and/or nurse practitioner, and by nursing and therapy reports of  		medical care issues such as medications, vital signs, and treatments. However,  		linkage of mandated data sets and the EHR requires standardized content and  		messaging not only for the EHR, but also for the federally mandated data sets.  		Furthermore, enhancing the clinical utility of content in the mandated data  		sets will be necessary to avoid the documentation burden of two distinct sets  		of information for PAC/LTC patients.</p>
+<p></p>
+<h2>Recommended Next Steps </h2>
+<p>Following completion of the draft report, a technical expert panel (TEP)  		was convened on April 14, 2004, to recommend next steps in research relating to  		EHR in PAC and LTC settings (see <a href="ehrpaltc.htm#appendE">Appendix E</a>  		for panel membership). Several major themes emerged from this discussion that,  		when taken together, suggest a strategy for further research.</p>
+<p>A major barrier to widespread implementation of EHRs in PAC/LTC seemed  		to be the inability of these health settings to recognize the potential for  		interoperable EHRs to benefit patient care, efficiency, and clinicians. Thus,  		demonstration, dissemination, and education regarding these benefits relative  		to the associated costs were considered imperative if providers and vendors  		were going to invest more heavily in EHRs for PAC and LTC. Consideration is  		needed of options to promote the value of and return on investment for using  		interoperable EHRs in PAC/LTC, particularly for those PAC/LTC providers that  		are unaffiliated (i.e., not owned or managed by) larger health systems. Absent  		implementation of complete and interoperable EHRs across the health continuum,  		including PAC/LTC providers, quality, safety, and continuity of care will be  		comprised. Panel members recognized that the visited sites had the most  		advanced IT infrastructure in PAC/LTC, but argued that further investment at  		the federal level should be in the development and implementation of EHR  		functions that could be translated to sites beyond these legacy systems. These  		leading sites in PAC/LTC could serve as laboratories for further development to  		rapidly deploy and test EHR functions.</p>
+<p>The panel fully supported and endorsed the use of health information  		technology standards in any future federal research and policy activities  		directed toward specifying clinical content and the use of EHRs in PAC and LTC  		settings. The most efficient and cost-effective way to extend systems to sites  		that are not owned and providers that are not employees of a health system is  		through the use of standardized vocabularies, messaging formats, and document  		architecture. In addition, work is needed to enhance the clinical content in  		federally mandated data sets to avoid the documentation burden of two distinct  		sets of information for PAC/LTC patients -- documentation needed in the course  		of providing care and documentation to meet federal reporting requirements. In  		addition, the expert panel concluded that, given the limited state of EHR  		implementation in PAC and LTC, the development of a single needed application  		(rather than a comprehensive EHR system) would be the most effective strategy  		for increasing the awareness of and demand for EHRs by PAC and LTC providers.  		The expert panel recommended the Federal Government follow a "design-build"  		strategy and invest in the development of a needed cutting-edge technology that  		could be demonstrated rapidly in at least a couple of PAC/LTC sites. The  		technical experts recommended developing a standards-based, electronic transfer  		document that would meet the business and clinical needs of PAC and LTC  		providers to receive timely information when a patient is to be admitted into  		these settings. The approach should allow rapid deployment of an application  		that could be supported in environments that use standardized EHRs, as well as  		those that do not have this technology. </p>
+<p>Such an approach would take advantage of available content, messaging,  		and document architecture standards; identify gaps in these standards; and  		allow for future refinements to the application as additional standards become  		available. The approach would support the design of the best possible initial  		electronic transfer document based on what is presently known, and allow the  		electronic document to be engineered, implemented, and refined in practice.  		Through a series of iterations, the content and application would be refined,  		and the impact on continuity and quality of care and costs would be evaluated.  		An advantage of this approach is that a prototype would be available in a short  		timeframe (preferably within a year) for widespread implementation. The expert  		panel recommended engineering, implementing, and refining the application at a  		VA Medical Center and in a private-sector health provider.</p>
+<p>In summary, as a result of the expert panel discussion and information  		learned as a result of the literature review and site visits activities  		conducted as part of this study, the following activities are recommended: </p>
+<ol><li>
+<p>Ensure the content of federally-required patient assessments  			 instruments data sets is information that would otherwise be routinely  			 collected in the course of providing care and integrate health information  			 technology standards into the development and modification of federally  			 mandated data sets. This would facilitate the linkage of required data sets  			 with standardized EHRs and reduce the administrative burden for PAC/LTC  			 providers by supporting and maximizing the re-use of information collected and  			 entered into a standardized EHR for the completion of administrative data  			 requirements.</p>
+</li>
+<li>
+<p>Work to fill the gaps in the disability content in existing  			 standardized, codeable terminologies. Previous research has found gaps in the  			 physical and cognitive disability content of standardized vocabularies and  			 terminologies. Terms and concepts regarding the disability status of  			 individuals' residing in nursing homes are critically important in this  			 setting.</p>
+</li>
+<li>
+<p>Engineer, implement, refine, and disseminate to the public, the  			 specifications for an electronic care transfer document that would embed, using  			 health information technology standards, the clinical content needed at times  			 of transfers from acute care hospitals to nursing homes and develop a method  			 for the timely exchange of this information in environments with or without  			 interoperable EHRs. Development of an electronic, standardized transfer  			 document would permit the timely exchange of information from acute care  			 systems with EHRs to nursing homes with or without EHRs. In addition, such a  			 transfer document could serve as a template for EHRs for nursing homes.  			 </p>
+</li>
+<li>
+<p>Examine the costs and benefits to nursing home patients, providers,  			 the health system, and payers of implementing interoperable electronic  			 medication management and administration systems in nursing homes and develop  			 options for promoting the use of these systems. Given the high proportion of  			 medical errors that are related to medications, the large number of medications  			 taken by persons in PAC/LTC, and the relatively advanced state of terminology  			 standards for medications, electronic medication management and administration  			 systems are a high and immediately viable priority for development in the  			 PAC/LTC EHR. </p>
+</li>
+</ol><p></p>
+<h2><a name="ref" id="ref">REFERENCES</a></h2>
+<ol><li>
+<p><a name="note1" id="note1">Executive</a> Order 13335. (2004) Incentives for the  			 Use of Health Information Technology and Establishing the Position of the  			 National Health Information Technology Coordinator. <em>Federal Register</em>,  			 Part VII, 69(84):24059-24061.</p>
+</li>
+<li>
+<p><a name="note2" id="note2">National</a> Committee on Vital and Health  			 Statistics. (2001) A Strategy for Building the National Health Information  			 Infrastructure. 1-51.</p>
+</li>
+<li>
+<p><a name="note3" id="note3">Reuben</a> D, Schnelle JF, Buchanan JL, Kington RS,  			 Zellman GL, Farley DO, et al. (1999) Primary Care of Long-Stay Nursing Home  			 Residents: Approaches of Three Health Maintenance Organizations. <em>J Am  			 Geriatr Soc</em>; 47:131-138.</p>
+</li>
+<li>
+<p><a name="note4" id="note4">Kemper</a> P, Murtaugh C. (1991) Lifetime Use of  			 Nursing Home Care. <em>N Engl J Med, </em>324:595-600.</p>
+</li>
+<li>
+<p><a name="note5" id="note5">Centers</a> for Medicare &amp; Medicaid Services  			 (CMS). (2003) CMS Health Care Industry Market Update: Home Health. 7. Centers  			 for Medicare &amp; Medicaid Services.</p>
+</li>
+<li>
+<p><a name="note6" id="note6">CMS/OIS/HCIS</a>. (2003) Medicare Home Health  			 Utilization by State, Calendar Year 2000. 8. Centers for Medicare &amp;  			 Medicaid Services.</p>
+</li>
+<li>
+<p><a name="note7" id="note7">American</a> Rehabilitation Providers Association.  			 (2003) Off the Record: Legislative and Regulatory Updates for AMRPA Members.  			 11. Washington, DC: American Rehabilitation Providers Association.</p>
+</li>
+</ol><table frame="BORDER" align="center" cellspacing="0" border="5"><tr align="LEFT" valign="TOP" bgcolor="#C0C0C0"><td>The Full Report is also available from the DALTCP website (<a href="http://aspe.hhs.gov/_/office_specific/daltcp.cfm">http://aspe.hhs.gov/_/office_specific/daltcp.cfm</a>)  			 or directly at <a href="http://aspe.hhs.gov/daltcp/reports/ehrpaltc.htm">http://aspe.hhs.gov/daltcp/reports/ehrpaltc.htm</a>.</td>
+</tr></table><div class="group-tags"><div class="field-label">Tags:&nbsp;</div><a href="/terms/health-information-and-technology">Health Information and Technology</a><a href="/terms/information-technology">Information Technology</a><a href="/terms/electronic-health-records-ehr">Electronic Health Records (EHR)</a><a href="/terms/information-quality">Information Quality</a><a href="/terms/publications-2">Publications</a><a href="/terms/disability-aging-and-long-term-care-research">Disability, Aging and Long-Term Care Research</a><a href="/terms/highlighted-issues">Highlighted Issues</a><a href="/terms/data-and-information-policy">Data and Information Policy</a><a href="/terms/health-information-infrastructure">Health Information Infrastructure</a><a href="/terms/long-term-care">Long-Term Care</a><a href="/terms/quality-services-and-information">Quality of Services and Information</a></div>  </div>
+
+      <footer>
+          </footer>
+  
+    <div id="block-webform-client-block-158521" class="widget block block-webform" >
+  
+      
+  <div id="webform-ajax-wrapper-158521"><form class="webform-client-form webform-client-form-158521" action="/execsum/case-studies-electronic-health-records-post-acute-and-long-term-care" method="post" id="webform-client-form-158521" accept-charset="UTF-8"><div><div class="webform-progressbar">
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-radios webform-component--was-this-page-helpful">
+  <label for="edit-submitted-was-this-page-helpful">Was this page helpful? <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-was-this-page-helpful" class="form-radios"><div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-1" name="submitted[was_this_page_helpful]" value="1" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-1">Yes </label>
+
+</div>
+<div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-2" name="submitted[was_this_page_helpful]" value="0" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-2">No </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="4" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-VSQCwxAV4C80qc9mZL8JcsVOPp-SJ1yn4UtWbzoD8vI" />
+<input type="hidden" name="form_id" value="webform_client_form_158521" />
+<input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-158521" />
+<div class="form-actions"><input class="webform-next button-primary btn btn-default form-submit" type="submit" id="edit-webform-ajax-next-158521" name="op" value="Next &gt;" /></div>
+<div class="is-useful-disclaimer"> <a href="/%23" class="" title="Survey Disclaimer" data-toggle="modal" data-target="#disclamerModal">Form Approved OMB# 0990-0379 Exp. Date 8/31/2017</a></div>
+<div class="modal fade" id="disclamerModal" tabindex="-1" role="dialog" aria-labelledby="disclamerModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="disclamerModalLabel">Survey Disclaimer</h2>
+      </div>
+      <div class="modal-body">
+         According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this information collection is 0990-0379. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, gather the data needed, and complete and review the information collection. If you have comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: U.S. Department of Health & Human Services, OS/OCIO/PRA, 200 Independence Ave., S.W., Suite 336-E, Washington D.C. 20201, Attention: PRA Reports Clearance Officer.      </div>
+    </div>
+  </div>
+</div></div></form></div>
+  </div> <!-- /.block -->
+<meta  itemscope="" itemid="https://aspe.hhs.gov/execsum/case-studies-electronic-health-records-post-acute-and-long-term-care" itemref="md1 md3 md5 md7 md9 md11 md13 md15 md17 md19 md21 md23" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/health-information-and-technology" id="md3" itemref="md2" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/information-technology" id="md5" itemref="md4" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/electronic-health-records-ehr" id="md7" itemref="md6" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/information-quality" id="md9" itemref="md8" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/publications-2" id="md11" itemref="md10" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/disability-aging-and-long-term-care-research" id="md13" itemref="md12" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/highlighted-issues" id="md15" itemref="md14" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/data-and-information-policy" id="md17" itemref="md16" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/health-information-infrastructure" id="md19" itemref="md18" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/long-term-care" id="md21" itemref="md20" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/quality-services-and-information" id="md23" itemref="md22" />              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <footer  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Footer">     
+
+        
+                  
+        
+                  
+        
+                                    <div  id="footer_sitemap-footer_sitemap" class="col-sm-6 col-md-6 col-lg-4 ">
+                          
+                              <div id="block-footer-sitemap-footer-sitemap" class="widget block block-footer-sitemap" >
+  
+      
+  <div id="footer-sitemap" class="clearfix">
+  <div class="fs-block-content"><div class="menu-footer-utility"><ul class="footer_links_menu-footer-utility total-items-2 parent-items-0 single-items-0"><li class="menu-5021 depth-1 total-children-8 parent-children-0 single-children-8  first"><a href="/" title="look at ASPE Home" class="fs-root-link">ASPE Home</a><ul class="footer_links_menu-footer-utility total-items-8 parent-items-0 single-items-0"><li class="menu-5026 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/" title="look at HHS Home">HHS Home</a></li>
+<li class="menu-66281 depth-1 fs-no-children"><a href="http://www.usa.gov/" title="look at USA.gov">USA.gov</a></li>
+<li class="menu-66316 depth-1 fs-no-children"><a href="https://oig.hhs.gov/" title="look at Office of the Inspector General">Office of the Inspector General</a></li>
+<li class="menu-66321 depth-1 fs-no-children"><a href="http://www.whitehouse.gov" title="look at The White House">The White House</a></li>
+<li class="menu-5046 depth-1 fs-no-children"><a href="http://www.hhs.gov/Accessibility.html" title="look at Accessibility">Accessibility</a></li>
+<li class="menu-66326 depth-1 fs-no-children"><a href="http://www.hhs.gov/about/budget/index.html" title="look at Budget/Performance">Budget/Performance</a></li>
+<li class="menu-2551 depth-1 fs-no-children"><a href="http://www.hhs.gov/Privacy.html" title="look at Privacy Policy">Privacy Policy</a></li>
+<li class="menu-197776 depth-1 fs-no-children  last"><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" title="Nondiscrimination Notice">Nondiscrimination Notice</a></li>
+</ul></li>
+<li class="menu-5051 depth-1 total-children-4 parent-children-0 single-children-4  last"><a href="http://www.hhs.gov/foia/" title="look at FOIA" class="fs-root-link">FOIA</a><ul class="footer_links_menu-footer-utility total-items-4 parent-items-0 single-items-0"><li class="menu-5056 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/open/recordsandreports/plainwritingact/index.html" title="look at Plain Writing Act">Plain Writing Act</a></li>
+<li class="menu-5061 depth-1 fs-no-children"><a href="http://www.hhs.gov/asa/eeo/no_fear_bullet_3.html" title="look at No Fear Act">No Fear Act</a></li>
+<li class="menu-5066 depth-1 fs-no-children"><a href="http://www.hhs.gov/Disclaimer.html" title="look at Disclaimers">Disclaimers</a></li>
+<li class="menu-2546 depth-1 fs-no-children  last"><a href="http://www.hhs.gov/plugins.html" title="look at Viewers &amp; Players">Viewers &amp; Players</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-5 " id="stability_cms-contact_us">
+                          
+                              <div id="block-stability-cms-contact-us" class="widget block block-stability-cms" >
+  
+      
+  <div class="contacts-widget widget widget__footer">
+	<div class="widget-content">
+		<ul class="contacts-info-list">
+      			<li>
+<!--				<i class="fa fa-map-marker">Address</i>-->
+                <div class="info-icons">
+                    <img  alt="map" class= 'map-icons' src="/sites/all/themes/stability/stability_aspe/images/map.png"/>
+                </div>
+                <div class="info-item">
+					Assistant Secretary for Planning and Evaluation, Room 415F<br />
+U.S. Department of Health and Human Services<br />
+200 Independence Avenue, SW<br />
+Washington, D.C. 20201				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-phone">phone</i>-->
+                <div class="info-icons">
+                    <img alt="phone" src="/sites/all/themes/stability/stability_aspe/images/phone.png"/>
+                </div>
+				<div class="info-item">
+					+1 202.690.7858				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-envelope">email</i>-->
+                <div class="info-icons">
+                    <img alt="mail" src="/sites/all/themes/stability/stability_aspe/images/mail-white.png"/>
+                </div>
+				<span class="info-item">
+					<a href="mailto:osaspeinfo@hhs.gov">osaspeinfo@hhs.gov</a>
+				</span>
+			</li>
+      			                					</ul>
+	</div>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-3 " id="footer">
+                          
+                              <div id="block-block-36" class="widget block block-block" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sign-up</span> for Email Updates</h3>
+		</div>
+    
+  <div class="email_updates">
+<button class="btn btn-default" name="subscribe-button" type="submit" value="subscribe">subscribe</button>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-12 " id="menu-menu-footer-language-menu">
+                          
+                              <div id="block-menu-menu-footer-language-menu" class="widget block block-menu" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Language</span> Assistance Available</h3>
+		</div>
+    
+  <ul class="menu"><li class="first expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#spanish" title="Español">Español</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#chinese" title="繁體中文">繁體中文</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#vietnamese" title="Tiếng Việt">Tiếng Việt</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#korean" title="한국어">한국어</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#tagalog" title="Tagalog">Tagalog</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#russian" title="Русский">Русский</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#arabic" title="العربية">العربية</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#creole" title="Kreyòl Ayisyen">Kreyòl Ayisyen</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#french" title="Français">Français</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#polish" title="Polski">Polski</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#portuguese" title="Português">Português</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#italian" title="Italiano">Italiano</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#german" title="Deutsch">Deutsch</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#japanese" title="日本語">日本語</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#farsi" title="فارسی">فارسی</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#english" title="English">English</a></li>
+</ul></li>
+</ul>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+      </div>
+
+          </div>
+    
+    
+      </footer>
+    
+
+    <!--/PAGEWATCH-->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+                        </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="social-links-wrapper">
+              <span class="social-links-txt">Connect with us</span>
+              <ul class="social-links social-links__dark">
+                                                  <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw-grey.png"/></a></li>
+                                <!--                --><!--                  <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin-grey.png"/></a></li>-->
+<!--                -->
+                                                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>  <script type="text/javascript" src="/sites/default/files/advagg_js/js__VWRymaMz6HfrhnrcJNGcDiSvLVrvhaXvBa7nrBYy8gc__jntPwP3D6myJZH1jW19fXrk5cYMHGRL8NQION22VSEA__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5486d15a696bff0c"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__g6mKbcakHxQkz4ZHYaxdO_xqONINvRMgsHh1zAK-fr0__ATHtEmHaeZ0jidpGU22EkhmPDBSgjD8z0bVDQMI-BIY__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__KUp4PrfOt9BSXUVl8Ctb3dhCMBe4MNVMeb4Gyorx8yY__7g4BeXscCIZAfuu1vxsCj2RIemg-eEK0QpChP9LDmFQ__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__PNjAgubM_3xXRLp4uLsYnv8wQAdT89-RYkSPxT6T45c__rFQwFK4pA5ZaWZSF7FPTfKbbpus0h-5IS8ayrNZGrb4__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__vQiLul2UcfC4nBAR09mhYVBYzRmiNDm2dj3GgSubV38__w84oZe-ZODKe7XnnlbrjV4IWHISOy4PioFEMVgx9hZo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__QJw3g0kOdwsv4twSZLP931zBzsHy50VEHpEN_znIitQ__A6QOuWXElDipBM2iChbWhjAAt3KlUwZ-jODoxdpbwiw__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stability_aspe","theme_token":"8VENispvsXKTJ0QgtHFCuWJUWYN69YlcbXJAqjEX-cw","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/footable.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/aspe_nodes.admin.css":1,"sites\/all\/modules\/custom\/aspe_views\/theme\/css\/aspe_views.admin.css":1,"sites\/all\/modules\/forked\/book\/book.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/openpublic\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.css":1,"profiles\/openpublic\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openpublic\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/openpublic\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/themes\/stability\/css\/bootstrap.min.css":1,"sites\/all\/themes\/stability\/css\/fonts\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.theme.css":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/stability\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/stability\/css\/theme.css":1,"sites\/all\/themes\/stability\/css\/theme-elements.css":1,"sites\/all\/themes\/stability\/css\/animate.min.css":1,"sites\/all\/themes\/stability\/css\/skins\/red.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/slideshow.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/font-main.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/styleless.less":1,"sites\/all\/themes\/stability\/css\/skins\/blue.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/aspe\/theme\/js\/aspe.login-confirm.js":1,"sites\/all\/modules\/custom\/aspe_report\/modules\/aspe_databooks\/js\/aspe_databooks.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.highcharts.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/datatables\/dataTables.min.js":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.min.js":1,"sites\/all\/libraries\/highcharts\/highcharts.js":1,"sites\/all\/libraries\/highcharts\/highcharts.exporting.js":1,"sites\/all\/libraries\/highcharts\/highcharts.map.js":1,"sites\/all\/libraries\/highcharts\/highcharts.us-all.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.footable.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5486d15a696bff0c":1,"misc\/progress.js":1,"profiles\/openpublic\/modules\/contrib\/webform\/js\/webform.js":1,"profiles\/openpublic\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/stability\/vendor\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/stability\/vendor\/bootstrap.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flexnav.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flickrfeed.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.sloppy-masonry.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.fitvids.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.stellar.min.js":1,"sites\/all\/themes\/stability\/vendor\/snap.svg-min.js":1,"sites\/all\/themes\/stability\/js\/custom.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/aspe.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/html5shiv.min.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/main-menu.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/keyboard-control.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tabBehavior.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tileStringTrimmer.js":1}},"webform":{"conditionals":{"webform-client-form-158521":{"ruleGroups":[],"sourceMap":[],"values":[]}}},"ajax":{"edit-webform-ajax-next-158521":{"callback":"webform_ajax_callback","wrapper":"webform-ajax-wrapper-158521","progress":{"message":"","type":"throbber"},"event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Next \u003E"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/execsum\/case-studies-electronic-health-records-post-acute-and-long-term-care":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"([a-z0-9]\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This website contains links to other federal and state agencies and private organizations. The Department of Health and Human Services (HHS) cannot attest to the accuracy of information provided by these nonfederal website links. Linking to nonfederal sites does not constitute an endorsement by HHS or any of its employees of the sponsors or the information and products presented on the sites. You will be subject to the destination site\u0027s privacy policy when you leave the ASPE website.\r\n\r\nThank you for visiting aspe.hhs.gov!","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"stability":{"flickr_id":"52617155@N08","logo_sticky":"28"},"field_group":{"div":"full"}});
+//--><!]]>
+</script>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config={pubid:"ra-5486d15a696bff0c",ui_click:false}
+//--><!]]>
+</script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4837db659","applicationID":"10708002","transactionName":"MwNaZBRSXEtXB0BdWQpJeVMSWl1WGQpbUFM7FllXA2xEUVMT","queueTime":0,"applicationTime":818,"atts":"H0RZElxIT0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

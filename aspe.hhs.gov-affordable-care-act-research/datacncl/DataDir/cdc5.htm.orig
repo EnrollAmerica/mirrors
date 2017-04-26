@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">  <!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://aspe.hhs.gov/sites/default/files/Favicon2.png" type="image/png" />
+<meta name="description" content="TITLE: CDC Firearm Injury Surveillance Study ACRONYM: N/A AGENCY/PROGRAM: National Center for Injury Prevention and Control, Centers for Disease Control and Prevention" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://aspe.hhs.gov/centers-disease-control-and-prevention-part-5" />
+<link rel="shortlink" href="https://aspe.hhs.gov/node/168916" />
+<meta property="og:site_name" content="ASPE" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aspe.hhs.gov/centers-disease-control-and-prevention-part-5" />
+<meta property="og:title" content="Centers for Disease Control and Prevention, Part 5" />
+<meta property="og:description" content="TITLE: CDC Firearm Injury Surveillance Study ACRONYM: N/A AGENCY/PROGRAM: National Center for Injury Prevention and Control, Centers for Disease Control and Prevention" />
+<meta property="og:updated_time" content="2016-01-11T07:15:51-05:00" />
+<meta property="article:published_time" content="2016-01-11T04:17:13-05:00" />
+<meta property="article:modified_time" content="2016-01-11T07:15:51-05:00" />
+
+  <title>Centers for Disease Control and Prevention, Part 5 | ASPE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+  <link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__5ln8neBOcJfyUveiD4y9fhI6kHBLOQ_YL0mMC-LS9a0__TPJIZT9UBnf_685NlFTJ5KnZVsjwFk6ACQ-nwwygmwU__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ng49uRH5y4Hl9VF9hHW_vXOj-mcOc2u2ShJqJ1YKIGU__FoMCD14GBvZaRiqSQ_JpP1w3rDB21n7H2Ar4pRZaIh8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__Hskudx14OJ5Hz8vqU7CUgN6SDV5rINZuEq9VuGsSeyc__EwNIl3xeFrniW2TmonovTzhSs3X5MdFps210puE7jog__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__9rZoaX9BdzjjNucvYxduxeNAVO2zgW_Rvjhb5rq5whc__lSr_y16grDSgHf4booPChnF7QXz3TQY3hafH49twE0k__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZgfI_ZPib5yVY0o5aKo_6TFn946Tuu_nFDa0ySTmkSc__2FTFrNw2eNh0mpHIOA34r6YRwBZMm2PjJ_JubnwLigg__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__dxabpJ5rQgDSixKgLJZjWc1beC6mpROKwVrmWxI5eno__rqhz_hGsE_i59O7-W991o71_Jxw1QOtGMxn4nsOLHY8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZbRCq2NqWgK-HXAQI3So0N1n0nr4HonsJS3eQuuxukw__7Olkk8Locn8Dj0eR0Ww3rbV9lks9sxipcboMXB18RRs__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+
+	<!-- Head Libs -->
+	<script src="/sites/all/themes/stability/stability_aspe/vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/sites/all/themes/stability/vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" href="/sites/all/themes/stability/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/stability/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/stability/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/stability/images/apple-touch-icon-144x144.png">
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-168916 node-type-site-page">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-JLFR"
+                  height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JLFR');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-nav" class="accessibility_menu">
+    <strong>Shortcut Navigation:</strong>
+    <ul>
+      <li><a href="#content" accesskey="c" title="Skip to page content (ctrl/alt + c)">Page Content</a></li>
+      <li><a href="#nav" accesskey="m" title="Skip to main navigation menu (ctrl/alt + m)">Site Navigation</a></li>
+
+      <li><a href="#Footer" accesskey="f" title="Skip to footer (ctrl/alt + f)">Footer</a></li>
+    </ul>
+  </div>
+
+    
+<div class="site-wrapper">
+  
+  <header class="header header-menu-fullw header-top-clean">
+    <div id="brand-bar">
+        <div class="container">
+                    <img alt='bird' src="/sites/all/themes/stability/stability_aspe/images/bird.png"> <a target="blank" tabindex="4" href="http://www.hhs.gov/">U.S. Department of Health & Human Services</a>
+        </div>
+
+    </div>
+    <div class="header-main">
+        <div class="container clearfix">
+            <div class="social-links-wrapper">
+                <ul class="social-links social-links__light">
+                                                          <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw.png"/></a></li>
+                                    <!--                  --><!--                    <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin.png"/></a></li>-->
+<!--                  -->
+                                                                      </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                                <div class="site_name_wrapper">
+                                     <span class="h1">
+                                      <a href="/">ASPE</a>
+                                       </span>
+                                  <p class="tagline"><p>Office of The Assistant Secretary</p><p> for Planning and Evaluation</p></p>
+                    </div>
+            </div>
+            <!-- Logo / End -->
+            <div class="header_right_wrapper">
+                <div class="search-form">
+                    <form action="/centers-disease-control-and-prevention-part-5" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class = "input-group"><div class="form-type-textfield form-item-search-block-form form-item form-group">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search Site..." class="form-control form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input class="btn btn-primary btn-icon form-submit" type="image" id="edit-submit" name="submit" value="Search" src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/search-white2.png" alt="Search" title="Search" /></div></div><input type="hidden" name="form_build_id" value="form-hnGEpuJE3w_FnkSjZJLsAvX4ANNsL4h242rrGd06qeg" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </div>
+                <button type="button" class="navbar-toggle" value="Menu">
+                    <i class="fa fa-bars"></i>Menu
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-main">
+        <div class="container">
+          <ul data-breakpoint="767" class="flexnav">
+                <li class="first expanded"><a href="/basic-search/about" title="">About</a><ul><li class="first leaf"><a href="/mission" title="">Mission</a></li>
+<li class="leaf"><a href="/key-staff" title="">Leadership</a></li>
+<li class="leaf"><a href="https://www.usajobs.gov/" title="">Careers</a></li>
+<li class="expanded"><a href="/coordination" title="linkTo">Coordination</a><ul><li class="first leaf"><a href="/evaluation-evidence" title="">Evaluation &amp; Evidence</a></li>
+<li class="leaf"><a href="/national-alzheimers-project-act">National Alzheimer&#039;s Project Act</a></li>
+<li class="leaf"><a href="/health-and-human-services-hhs-data-council">HHS Data Council</a></li>
+<li class="last leaf"><a href="/national-committee-vital-and-health-statistics" title="National Council on Vital and Health Statistics">National Council on Vital and Health Statistics</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/divisions" title="">Offices</a><ul><li class="first leaf"><a href="/office-disability-aging-and-long-term-care-policy-daltcp">Disability, Aging, and Long-Term Care Policy</a></li>
+<li class="leaf"><a href="/office-health-policy-hp">Health Policy</a></li>
+<li class="leaf"><a href="/office-human-services-policy">Human Services Policy</a></li>
+<li class="last leaf"><a href="/office-science-and-data-policy">Science and Data Policy</a></li>
+</ul></li>
+<li class="leaf"><a href="/strategic-planning" title="Strategic Planning">Strategic Planning</a></li>
+<li class="last leaf"><a href="/contact-aspe" title="">Contact ASPE</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/topics" title="">Topics</a><ul><li class="first leaf"><a href="/affordable-care-act-research">Affordable Care Act Research</a></li>
+<li class="leaf"><a href="/alzheimers-dementia">Alzheimer&#039;s / Dementia</a></li>
+<li class="leaf"><a href="/early-childhood">Early Childhood</a></li>
+<li class="leaf"><a href="/incarceration-reentry">Incarceration &amp; Reentry</a></li>
+<li class="leaf"><a href="/opioid-abuse-us-and-hhs-actions-address-opioid-drug-related-overdoses-and-deaths" title="Opioids">Opioids</a></li>
+<li class="leaf"><a href="/patient-centered-outcomes-research-trust-fund">Patient-Centered Outcomes Research Trust Fund (PCORTF)</a></li>
+<li class="expanded"><a href="/basic-search/poverty" title="">Poverty</a><ul><li class="first leaf"><a href="/poverty-guidelines">Poverty Guidelines</a></li>
+<li class="last leaf"><a href="/poverty-estimates-trends-and-analysis">Poverty Analysis</a></li>
+</ul></li>
+<li class="leaf"><a href="/teen-pregnancy-prevention">Teen Pregnancy Prevention</a></li>
+<li class="leaf"><a href="/homelessness">Homelessness</a></li>
+<li class="last leaf"><a href="/medicare-access-and-chip-reauthorization-act-2015">MACRA</a></li>
+</ul></li>
+<li class="leaf"><a href="/reports" title="">Publications</a></li>
+<li class="last expanded"><a href="/basic-search/datasets" title="">Data and Tools</a><ul><li class="first last leaf"><a href="/evaluations" title="">Evaluation Database</a></li>
+</ul></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation / End -->
+</header>  <div class="main" role="main">
+    <!--PAGEWATCH CODE="USHHS_458"-->
+    <section class="page-heading">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+                <h1>
+                    
+          Centers for Disease Control and Prevention, Part 5        </h1>
+                                 <p class="author">
+                                                 <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="1969-12-31T00:00:00-05:00">12/31/1969</span>               
+                           </p>
+
+
+                  </div>
+
+
+        <div class="col-md-6">
+           <ul class="breadcrumb"><li class="first"><a href="/" title="Home">Home</a></li>
+<li class="last">Centers for Disease Control an...</li>
+</ul>        </div>
+
+
+    </div>
+  </div>
+</section>
+    
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Content">     
+
+        
+                  
+        
+                                    <div  class="col-md-12 " id="content">
+                          
+                              <div id="block-aspe-aspe-addthis" class="widget block block-aspe" >
+  
+      
+  <div class="clearfix">
+  <ul class="addthis_sharing_toolbox node-share__links" data-url="https://aspe.hhs.gov/centers-disease-control-and-prevention-part-5" data-title="Centers for Disease Control and Prevention, Part 5">
+    <li><a class="addthis_button_print"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/print-white.png" alt="print" /></a></li>
+    <li><a class="addthis_button_email"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/mail-white.png" alt="email" /></a></li>
+    <li><a class="addthis_button_twitter"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/tw.png" alt="twitter" /></a></li>
+<!--    <li><a class="addthis_button_facebook">--><!--</a></li>-->
+    <li><a class="addthis_button_compact"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/plus-white.png" alt="compact" /></a></li>
+  </ul>
+</div>
+
+  </div> <!-- /.block -->
+
+                
+    
+  
+  <div class="content clearfix node-site-page">
+    <p><strong>TITLE:</strong> CDC Firearm Injury Surveillance Study</p>
+<p><strong>ACRONYM:</strong> N/A</p>
+<p><strong>AGENCY/PROGRAM:</strong> National Center for Injury Prevention and Control, Centers for Disease Control and Prevention</p>
+<p><strong>DESCRIPTION:</strong> The National Center for Injury Prevention and Control (NCIPC), Centers for Disease Control and Prevention (CDC) has launched an effort to understand the magnitude and characteristics of nonfatal firearm-related injuries (FA) in the United States. These injuries have a tremendous impact on our society in terms of morbidity, cost of medical care, and long-term disability, especially associated with head and spinal cord injuries.</p>
+<p>Data are being obtained through the National Electronic Injury Surveillance System (NEISS) and these data have been very usefulf or monitoring national estimates of the incidence of nonfatal FA injuries treated in hospital emergency departments (EDs). The NEISS consists of a stratified probability sample of all hospitals with EDs in the United States. The U.S. Consumer Product Safety Commission (CPSC) operates NEISS and uses the system to identify hazards and track product-related injuries. Currently, 98 NEISS hospitals participate. This study is being conducted through an interagency agreement and in collaboration with the CPSC. We have demonstrated that NEISS can provide valid national estimates of nonfatal FA injuries treated in hospital EDs.</p>
+<p>Ongoing national surveillance of nonfatal FA injuries using NEISS was initiated in June 1992. We are currently collecting information on method of transport to the ED, demographic characteristics of the injured person, type of injury, primary body part affected, hospitalization, intent of injury, victim-offender relationship, type of firearm used, and other circumstances about the injury incident.</p>
+<p>These files contain data on: Functional/Health Status; Age/Gender; Other Demographic/Sociocultural; and Other (circumstances/ nature/intent of injury).</p>
+<p><strong>RACE/ETHNICITY:</strong> Race categories are: American Indian/Alaskan Native; Asian or Pacific Islander; Black; White; and Other. Ethnicity categories are: Hispanic; and Not of Hispanic Origin.</p>
+<p><strong>DATA LIMITATIONS:</strong> Data on race/ethnicity are obtained as specified on hospital emergency department records. If a person is reported as Hispanic, race is usually recorded as "other." NEISS provides national estamates, but does not provide state and local estimates.</p>
+<p><strong>STATUS:</strong> Started in June 1992, this continuous data collection is active.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> Data are available in scientific journals and written reports. Public use files are also available for NEISS FA data obtained from 1993 through 1999. Data can be accessed through the University of Michigan's Inter-University Consortium for Political and Social Research (ICPSR), National Archive of Criminal Justice Data <a href="http://www.icpsr.umich.edu/NACJD/archive.html">http://www.icpsr.umich.edu/NACJD/archive.html</a>, study number 3018.</p>
+<p><strong>CONTACT PERSON:</strong> J. Lee Annest, Ph.D.<br />
+	Director, Office of Statistics &amp; Programming<br />
+	National Center for Injury and Prevention and Control<br />
+	Centers for Disease Control and Prevention<br />
+	Mailstop K-59, 4770 Buford Hwy.<br />
+	Atlanta, GA 30341-3724<br />
+	(770) 488-4804 / fax (770) 488-1665<br /><a href="mailto:lannest@cdc.gov">lannest@cdc.gov</a></p>
+<hr /><p><strong><a name="neissaip" id="neissaip"></a>TITLE:</strong> National Electronic Injury Surveillance System (NEISS) All Injury Program (AIP)</p>
+<p><strong>ACRONYM:</strong> NEISS AIP</p>
+<p><strong>AGENCY/PROGRAM:</strong> National Center for Injury Prevention and Control (NCIPC), Centers for Disease Control and Prevention</p>
+<p> </p>
+<p><strong>DESCRIPTION:</strong> The National Center for Injury Prevention and Control (NCIPC), Centers for Disease Control and Prevention (CDC) is collaborating with the U.S. Consumer Product Safety Commission (CPSC) to expand the National Electronic Injury Surveillance System (NEISS) to collect data on all types and causes of injuries treated in a representative sample of U.S. hospitals with emergency departments (ED). National estimates of nonfatal injuries are available for 2000 and will soon be available for 2001.</p>
+<p>The NEISS All Injury Program is designed to provide national incidence estimates of all types and external causes of nonfatal injuries and poisonings treated in U.S. hospital EDs. Its scope will go beyond routine reporting of injuries associated with consumer-related products in CPSC's jurisdiction to include all injuries and poisonings. The data can be used to (1) measure the magnitude and distribution of nonfatal injuries in the United States; (2) monitor unintentional and violence-related nonfatal injuries over time, (3) identify emerging injury problems; (4) identify specific cases for follow-up investigations of particular injury-related problems; and (5) set national priorities. A fundamental principle of this expansion effort is that preliminary surveillance data will be made available in a timely manner to a number of federal agencies with unique and overlapping public health responsibilities. Annually, the final edited data will be released on a public use data tape for use by other public health professionals and researchers.</p>
+<p>NEISS provides data on age, race/ethnicity, sex of the patient, diagnosis, primary body part affected, consumer products involved, disposition at ED discharge (i.e., hospitalized, transferred, treated and released, died), the locale where the injury occurred, work-relatedness, and a narrative description of the injury circumstances. Also, major categories of external cause of injury (e.g., motor vehicle, falls, cut/pierce, poisoning, fire/burn) and of intent of injury (e.g., unintentional, assault, intentional self-harm, legal intervention) are being coded for each case in a manner consistent with the <em>International Classification of Diseases, Tenth Revision, Clinical Modification</em> (ICD-10-CM) coding rules and guidelines. In this way, if additional resources become available in the future, these data could be coded using ICD-10-CM external-cause-of-injury codes.</p>
+<p>NCIPC's Web-based Injury Statistics Query and Reporting System (WISQARS), which can be accessed at the NCIPC home page <a href="http://www.cdc.gov">www.cdc.gov/ncipc</a>, provides a quick and easy interactive method of obtaining injury statistics in tailored report formats. In addition to the fatality data module, the NEISS AIP nonfatal data are available in two formats: Nonfatal Injury Reports and Leading Causes of Nonfatal Injury.</p>
+<p><strong>RACE/ETHNICITY:</strong> The four categories are: white, non-Hispanic black (including hispanic and non-hispanic), Hispanic (for all races other than black), and unknown/unspecified.</p>
+<p><strong>DATA LIMITATIONS:</strong> The nonfatal data does not offer the option to request leading causes of injury by race/ethnicity because of the relatively high percentage (appx. 17 %) with unknown race/ethnicity. For nonfatal injury reports users can request the number of injuries from a specific cause and intent of injury by race/ethnicity by selecting "race" as a sort option. Annualized national estimates presented for each race/ethnicity category will be low because they do not count cases recorded as "unknown" race/ethnicity. Another limitation is that state and local estimates are not available.</p>
+<p><strong>STATUS:</strong> The NEISS AIP began in July 2000 and is ongoing.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> The Web-based Injury Statistics Query and Reporting System (WISQARS) is an internet-based injury statistics system designed to provide the user with the NEISS AIP data in two report formats: Nonfatal Injury Reports and Leading Causes of Nonfatal Injury. In addition, the user can create tailored reports to meet their individual needs. WISQARS can be located through the NCIPC home page at <a href="http://www.cdc.gov">www.cdc.gov/ncipc.</a></p>
+<p><strong>CONTACT PERSON:</strong> J. Lee Annest, Ph.D.<br />
+	Director, Office of Statistics &amp; Programming<br />
+	National Center for Injury and Prevention and Control<br />
+	Centers for Disease Control and Prevention<br />
+	Mailstop K-59, 4770 Buford Hwy.<br />
+	Atlanta, GA 30341-3724<br />
+	(770) 488-4804 / fax (770) 488-1665<br /><a href="mailto:lannest@cdc.gov">lannest@cdc.gov</a></p>
+<hr /><p><a name="tbiss" id="tbiss"></a><strong>TITLE:</strong> CDC Traumatic Brain Injury Surveillance System</p>
+<p><strong>ACRONYM:</strong> TBISS</p>
+<p><strong>AGENCY/PROGRAM:</strong> National Center for Injury Prevention and Control, Centers for Disease Control and Prevention</p>
+<p><strong>DESCRIPTION:</strong> The National Center for Injury Prevention and Control (NCIPC), Centers for Disease Control and Prevention (CDC) had developed and maintains a surveillance system to understand the magnitude and characteristics of hospitalized and fatal traumatic brain injuries in the United States. These injuries have a tremendous impact on our society in terms of morbidity, cost of medical care, and long-term disability.</p>
+<p>CDC began promoting the development of a multistate traumatic brain injury surveillance system in 1989, after the Federal Interagency Head Injury Task Force Report identified the need for better information on the public health impact of brain injuries. The surveillance system's purpose is to collect program wide information that can be used to help design targeted prevention programs addressing specific causes of TBI and populations at higher risk, to improve injured persons' access to health care, and to improve other services they need after injury.</p>
+<p>In 1995, CDC published Guidelines for Surveillance of Central Nervous System Injury2 to help ensure that the multistate TBI surveillance system would generate valid and timely information representative of the U.S. population. These guidelines provided standard case definitions and clearly defined the data elements necessary to describe the occurrence, severity, and outcome of these injuries, their external causes, and associated risk factors. The core of these data elements are obtained from hospital discharge reports that are available to most state health departments.</p>
+<p>In 1997, CDC published initial findings from this multistate TBI surveillance system, including data from four jurisdictions: Colorado, Missouri, Oklahoma, and Utah.</p>
+<p>As a result of the Traumatic Brain Injury Act of 1996 (P.L. 104-166), CDC was able to add 11 states to the system in September 1997, bringing the total number of participants to 15. Participating states now include Alaska, Arizona, Arkansas, California, Colorado, Louisiana, Maryland, Minnesota, Missouri, Nebraska, New York, Oklahoma, Rhode Island, South Carolina, and Utah. Together, these states represent much of the diversity of populations found throughout the United States.</p>
+<p><strong>RACE/ETHNICITY:</strong> Categories of race are: American Indian/Alaskan Native; Asian or Pacific Islander; Black; White; and Other. Categories of ethnicity are: Hispanic; Not of Hispanic Origin.</p>
+<p><strong>DATA LIMITATIONS:</strong> Since information on nonfatal cases is obtained from hospital discharge data systems, data on race/ethnicity are not available from states.</p>
+<p><strong>STATUS:</strong> Ongoing</p>
+<p><strong>HOW TO ACCESS DATA:</strong> Data are available in scientific journals and written reports. Public use files are not available yet. Data are available in statistical reports for 1990-1994.</p>
+<p><strong>CONTACT PERSON:</strong> David J. Thurman, M.D., M.P.H.<br />
+	Medical Epidemiologist<br />
+	Disability and Rehabilitation Team<br />
+	Division of Acute Care<br />
+	Rehabilitation Research and Disability Prevention<br />
+	NCIPC, MS F-41<br />
+	(770) 488-4031 / Fax (770) 488-4338<br /><a href="mailto:DXT9@cdc.gov">DXT9@cdc.gov</a></p>
+<hr /><p><a name="emergency" id="emergency"></a><strong>TITLE:</strong> State-Based Emergency Department Injury Surveillance</p>
+<p><strong>ACRONYM:</strong> N/A</p>
+<p><strong>AGENCY/PROGRAM:</strong> National Center for Injury Prevention and Control, Centers for Disease Control and Prevention</p>
+<p><strong>DESCRIPTION:</strong> This pilot system is designed to capture the state-wide incidence of emergency department related injuries. MA, MN, and SC are the states currently participating in this system, each using slightly different methods to achieve the same set of standardized data elements. Each of the three participating state health departments may choose to analyze subset areas within their states; and they may even want to provide a participating emergency department with summaries or analyses of the data it has submitted. Data will be available for all or part of 1998 and collection will probably continue in the future. At this time, it is expected that data will be collected quarterly and that each state will produce data-based reports at least annually.</p>
+<p>Methods of data collection for this system include:</p>
+<ul><li>medical record abstraction</li>
+</ul><p>Data are originally collected by:</p>
+<ul><li>hospitals</li>
+</ul><p><strong>RACE/ETHNICITY:</strong> Race and/or Ethnicity data are not currently collected.</p>
+<p><strong>STATUS:</strong> This system collects data actively and passively.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> Public use data files available. Interpreted results can be accessed through:</p>
+<ul><li>Internet</li>
+</ul><p><strong>CONTACT PERSON:</strong> John Horan<br />
+	(770) 488-1653<br /><a href="mailto:joh3@cdc.gov">joh3@cdc.gov</a></p>
+<hr /><p><a name="dat" id="dat"></a><strong>TITLE:</strong> Diphtheria Antitoxin</p>
+<p><strong>ACRONYM:</strong> DAT</p>
+<p><strong>AGENCY/PROGRAM:</strong> National Immunization Program, Centers for Disease Control and Prevention</p>
+<p><strong>DESCRIPTION:</strong> Diphtheria antitoxin is only available through CDC (on an individual basis as an 'orphan' drug). As such, it must be released on a case-by-case basis. We collect information on suspected diphtheria cases in the process of drug release and in follow-up via telephone discussions with treating physicians. The purpose is to characterize cases of diphtheria and thereby identify areas at risk for outbreaks and risk factors for disease.</p>
+<p>Smallest area of analysis: We collect information from all over the country.</p>
+<p>Years for which data are available: CDC has been collecting data on individual cases of diphtheria since the 1950s. Currently available files cover the period 1980 -1997.</p>
+<p>Methods of data collection for this system include:</p>
+<ul><li>notification of case(s)/events</li>
+<li>antitoxin request</li>
+</ul><p>Data are originally collected by:</p>
+<ul><li>private/doctors or nurses</li>
+<li>hospitals</li>
+<li>state/local health departments</li>
+</ul><p>Data are sent as needed.</p>
+<p><strong>RACE/ETHNICITY:</strong> Categorized by self identification by patient. Race and/or Ethnicity data available. The OMB Statistical Directive 15 two variable standard for reporting is used. Race categories are: White; Black; Asian or Pacific Islander; American Indian/Alaskan Native; and Other. Ethnicity categories are: Hispanic/Latino origin; and Not of Hispanic/Latino origin.</p>
+<p><strong>STATUS:</strong> This system collects data actively.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> No data release policy specified. Preliminary analysis of data are done annually, more complete analysis of data are done every several years. Interpreted results can be accessed through:</p>
+<ul><li>MMWR Surveillance Summaries</li>
+<li>peer reviewed journals</li>
+</ul><p><strong>CONTACT PERSON:</strong> Charles Vitek<br />
+	(404) 639-3755<br /><a href="mailto:cxv3@cdc.gov">cxv3@cdc.gov</a></p>
+<hr /><p><a name="ncrsr" id="ncrsr"></a><strong>TITLE:</strong> National Congenital Rubella Syndrome Registry</p>
+<p><strong>ACRONYM:</strong> NCRSR</p>
+<p><strong>AGENCY/PROGRAM:</strong> National Immunization Program, Centers for Disease Control and Prevention</p>
+<p><strong>DESCRIPTION:</strong> The system compiles information on all U.S. congenital rubella syndrome cases. The registry includes cases reported to CDC since 1969. Information collected includes demographic data, laboratory results, and disease symptoms. These data are used to calculate incidence rates and other national estimates on CRS. Data can be analyzed at the state level.</p>
+<p>Methods of data collection for this system include:</p>
+<ul><li>mailed survey</li>
+<li>notification of case(s)/events</li>
+</ul><p>Data are originally collected by:</p>
+<ul><li>state/local health departments</li>
+</ul><p>Data are collected weekly.</p>
+<p><strong>RACE/ETHNICITY:</strong> Race and/or Ethnicity data available. The OMB Statistical Directive 15 two variable standard for reporting is used. Race categories are: White; Black; Asian or Pacific Islander; American Indian or Alaskan Native; and Other. Ethnicity categories are: Hispanic/Latino origin; and Not of Hispanic/Latino origin. NCRSR has just started to collect country of origin.</p>
+<p><strong>STATUS:</strong> This system collects data actively and passively.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> No data release policy specified. Interpreted results can be accessed through:</p>
+<ul><li>internal reports</li>
+<li>MMWR Weekly Reports</li>
+<li>Peer-reviewed journals.</li>
+</ul><p><strong>CONTACT PERSON:</strong> Susan Reef, MD<br />
+	(404) 639-8750<br /><a href="mailto:ser2@cdc.gov">ser2@cdc.gov</a></p>
+<hr /><p><a name="niprcs" id="niprcs"></a><strong>TITLE:</strong> National Immunization Provider Record Check Study</p>
+<p><strong>ACRONYM:</strong> NIPRCS</p>
+<p><strong>AGENCY/PROGRAM:</strong> Centers for Disease Control and Prevention/National Immunization Provider/DMD/AB</p>
+<p><strong>DESCRIPTION:</strong> The NIPRCS is a component of the National Health Interview Survey (NHIS). The NHIS is a cross-sectional face-to-face household interview of the civilian, non-institutionalized population of the U.S. The NHIS collects a broad array of health information to monitor the health of the nation. Included in the NHIS is an immunization section which collects the immunization histories of children under 18 years of age.</p>
+<p>The purpose of the NIPRCS is to validate the immunization histories of the children 12-35 months of age included in the NHIS. The immunization provider of the child is contacted by mail and/or telephone to complete a self administered questionnaire which includes a section to report all immunizations the child has received. Data from the NIPRCS are used to produce immunization coverage estimates for the nation. Data are collected on an ongoing basis; data are available for 1994 and 1995.</p>
+<p>Files contain data on Other socio-demographic variables collected in this system that may explain racial and/or ethnic disparities include:</p>
+<ul><li>income</li>
+<li>family size</li>
+</ul><p><strong>RACE/ETHNICITY:</strong> Race and/or Ethnicity data available. The information is self-reported during the NHIS interview. The OMB Statistical Directive 15 two variable standard for reporting is used. Race categories are: White; Black; American Indian; Eskimo; Aleut; Chinese; Filipino; Hawaiian; Korean; Vietnamese; Japanese; Asian Indian; Samoan; Guamanian; and Other Asian/Pacific Islander. Ethnicity categories are: Hispanic/Latino origin; and Not of Hispanic/Latino origin.</p>
+<p><strong>STATUS:</strong> Ongoing</p>
+<p><strong>HOW TO ACCESS DATA:</strong> Internal data tapes. Interpreted results can be accessed through MMWR, peer reviewed journals.</p>
+<p><strong>CONTACT PERSON:</strong> Assessment Branch<br />
+	National Immunization Program<br />
+	1600 Clifton Rd, MS E-62<br />
+	Atlanta, GA 30333<br />
+	(404) 639-8731</p>
+<hr /><p><a name="nis" id="nis"></a><strong>TITLE:</strong> National Immunization Survey</p>
+<p><strong>ACRONYM:</strong> NIS</p>
+<p><strong>AGENCY/PROGRAM:</strong> National Immunization Program, Centers for Disease Control and Prevention</p>
+<p><strong>DESCRIPTION:</strong> The National Immunization Program works throughout the 50 states, the District of Columbia, and the U.S. territories and commonwealths to maintain and enhance early childhood vaccination coverage levels. To monitor vaccination coverage for all recommended vaccines for children 19 through 35 months of age, the National Immunization survey (NIS) is being conducted in 78 areas, consisting of the 50 States, the District of Columbia, and 27 metropolitan areas. Beginning with the second quarter of 1994 the NIS data collection effort will conduct independent quarterly surveys in each of the 78 IAP areas. This will make it possible to combine four consecutive quarters of survey data with a degree of precision sufficient for analytic purposes to provide annualized estimates of the coverage rates for the five antigens (DTP, Polio, MMR, Hib, and Hep B) within each of the 78 IAP areas recommended in 1994. The survey has been flexible to allow monitoring of newly recommended vaccines.</p>
+<p>The data collection methodology and sample design use list-assisted random digit dialing methods to sample households and conduct computer -assisted telephone interviews. Screening for households with children 19 through 35 months of age is conducted through brief interviews. When an eligible household is identified, data on vaccination history, including dates and/or numbers of immunization events and socio-demographic information are obtained for each child and household interviewed. These files contain data on: Functional/Health Status; Socioeconomic; and Age/Gender.</p>
+<p><strong>RACE/ETHNICITY:</strong> Race categories are: White; Black; American Indian; Asian; Other; Don't Know; and Refused Specification. Ethnicity categories are: Not Spanish/Hispanic; Mexican; Mexican-American; Chicano; Puerto Rican; Cuban; Other Spanish; Don't Know; and Refused Specification.</p>
+<p><strong>STATUS:</strong> Started in April 1994, this continuous data collection is active.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> Findings from the NIS are currently available in MMWR publications. In addition, there are plans to include results from the NIS in an annual CDC/NIP surveillance report and in manuscripts published in peer-reviewed journals.</p>
+<p><strong>CONTACT PERSON:</strong> Assessment Branch<br />
+	Data Management Division<br />
+	National Immunization Program<br />
+	Centers for Disease Control and Prevention<br />
+	Mailstop E62, 1600 Clifton Rd.<br />
+	Atlanta, GA 30333<br />
+	(404) 639-8731 / fax (404) 639-8613</p>
+<hr /><p><a name="phbpdms" id="phbpdms"></a><strong>TITLE:</strong> Perinatal Hepatitis B Prevention Data Management System</p>
+<p><strong>ACRONYM:</strong> PHBPDMS</p>
+<p><strong>AGENCY/PROGRAM:</strong> National Immunization Program, Centers for Disease Control and Prevention</p>
+<p><strong>DESCRIPTION:</strong> This system collects, stores, manages and analyzes data. In addition, it tracks and manages vaccines and other services administered. It also generates notification letters through a reminder/recall system and produces various reports and tables.</p>
+<p>Methods of data collection for this system include:</p>
+<ul><li>direct interview</li>
+<li>notification of case(s)/events</li>
+<li>Letters</li>
+</ul><p>Data are originally collected by:</p>
+<ul><li>individuals by self-report</li>
+<li>private/doctors or nurses</li>
+<li>hospitals</li>
+<li>public health clinics</li>
+<li>public health laboratories</li>
+<li>state/local health departments</li>
+<li>managed care organizations</li>
+</ul><p>Data are collected yearly.</p>
+<p>File contains data on: Other socio-demographic variables collected in this system that may explain racial and/or ethnic disparities include:</p>
+<ul><li>primary language</li>
+</ul><p><strong>RACE/ETHNICITY:</strong> Race and/or Ethnicity data available. The OMB Statistical Directive 15 two variable standard for reporting is used. Categories include: Race categories are:- White, Black, Asian/Pacific Islander, American Indian/Alaskan Native; and Other. Ethnicity categories are: Hispanic/Latino origin; and Not of Hispanic/Latino origin.</p>
+<p><strong>STATUS:</strong> This system collects data actively and passively.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> Public use data files available. Interpreted results can be accessed through:</p>
+<ul><li>internal reports</li>
+<li>external reports</li>
+</ul><p><strong>CONTACT PERSON:</strong> Edith Gary<br />
+	(404)639-8744<br /><a href="mailto:exg1@cdc.gov">exg1@cdc.gov</a></p>
+<hr /><p><a name="pertussis" id="pertussis"></a><strong>TITLE:</strong> Pertussis</p>
+<p><strong>ACRONYM:</strong> N/A</p>
+<p><strong>AGENCY/PROGRAM:</strong> National Immunization Program, Centers for Disease Control and Prevention</p>
+<p><strong>DESCRIPTION:</strong> System provides the most data from SPSS and NETSS with details on each pertussis case reported by each state.</p>
+<p>Methods of data collection for this system include:</p>
+<ul><li>direct interview</li>
+<li>notification of case(s)/events</li>
+</ul><p>Data are originally collected by:</p>
+<ul><li>private/doctors or nurses</li>
+<li>hospitals</li>
+<li>public health clinics</li>
+<li>state/local health departments</li>
+<li>managed care organizations</li>
+</ul><p>Data are collected weekly. CDC reports pertusis cases in the MMWR, in the weekly tables, and in the tables in the Annual Summary.</p>
+<p><strong>RACE/ETHNICITY:</strong> Race and/or Ethnicity data available. The OMB Statistical Directive 15 two variable standard for reporting is used. Race categories are: White; Black, Asian/Pacific Islander; American Indian/Alaskan Native; and Other. Ethnicity categories are: Hispanic/Latino origin; and Not of Hispanic/Latino origin.</p>
+<p><strong>STATUS:</strong> This system collects data actively.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> No data release policy specified. No data access method specified.</p>
+<p><strong>CONTACT PERSON:</strong> Barbara Bardenheier<br />
+	(404) 639-8789<br /><a href="mailto:bfb7@cdc.gov">bfb7@cdc.gov</a></p>
+<hr /><p><a name="tetanus" id="tetanus"></a><strong>TITLE:</strong> Tetanus</p>
+<p><strong>ACRONYM: </strong>N/A</p>
+<p><strong>AGENCY/PROGRAM:</strong> National Immunization Program, Centers for Disease Control and Prevention</p>
+<p><strong>DESCRIPTION: </strong>The system provides data describing each tetanus case in regards to the wound, type of wound, and where it occurred. If infection did not occur from a wound, then data on the associated condition, all medical care provided and when the infection was acquired are collected.</p>
+<p>Methods of data collection for this system include:</p>
+<ul><li>direct interview</li>
+<li>notification of case(s)/events</li>
+</ul><p>Data are originally collected by:</p>
+<ul><li>private/doctors or nurses</li>
+<li>hospitals</li>
+<li>public health clinics</li>
+<li>state/local health departments</li>
+<li>managed care organizations</li>
+</ul><p>Data are collected weekly.</p>
+<p>Files contain data on other socio-demographic variables collected in this system that may explain racial and/or ethnic disparities include:</p>
+<ul><li>occupation</li>
+</ul><p><strong>RACE/ETHNICITY: </strong>Race and/or Ethnicity data available. The OMB Statistical Directive 15 two variable standard for reporting is used.  Race categories are: White; Black; Asian/Pacific Islander; American Indian/Alaskan Native; and Other.  Ethnicity categories are: Hispanic/Latino origin; and Not of Hispanic/Latino origin.</p>
+<p><strong>STATUS: </strong>This system collects data actively.</p>
+<p><strong>HOW TO ACCESS DATA: </strong>CDC internal use files only. Interpreted results can be accessed through:</p>
+<ul><li>MMWR Weekly Reports</li>
+<li>MMWR Surveillance Summaries</li>
+<li>peer reviewed journals</li>
+</ul><p><strong>CONTACT PERSON: </strong>Barbara Bardenheir<br />
+	(404) 639-8686<br /><a href="mailto:bfb1@cdc.gov">bfb1@cdc.gov</a> </p>
+<hr /><p><a name="vaers" id="vaers"></a><strong>TITLE:</strong> Vaccine Adverse Event Reporting System</p>
+<p><strong>ACRONYM:</strong> VAERS</p>
+<p><strong>AGENCY/PROGRAM:</strong> National Immunization Program, Centers for Disease Control and Prevention</p>
+<p><strong>DESCRIPTION:</strong> System compiles information on reports of adverse events following any U.S. licensed vaccine in all age groups. Events are reported by vaccine manufacturers, private health care providers, state immunization programs, parents of vaccinees, and vaccinees. National estimates of adverse events by vaccine antigen and vaccine lot are monitored.</p>
+<p>Methods of data collection for this system include:</p>
+<ul><li>notification of case(s)/events</li>
+</ul><p>Data are originally collected by:</p>
+<ul><li>individuals by self-report</li>
+<li>private/doctors or nurses</li>
+<li>hospitals</li>
+<li>public health clinics</li>
+<li>state/local health departments</li>
+<li>managed care organizations</li>
+<li>vaccine manufacturers</li>
+</ul><p>Data are collected in an ongoing manner; NIP receives the data weekly.</p>
+<p><strong>RACE/ETHNICITY:</strong> Race and/or Ethnicity data not collected.</p>
+<p><strong>STATUS:</strong> This is an ongoing passive surveillance system.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> Public use data files available. Interpreted results can be accessed through:</p>
+<ul><li>internal reports</li>
+<li>peer reviewed journals</li>
+</ul><p><strong>CONTACT PERSON:</strong> Gina Terraciano Mootrey<br />
+	(404) 639-8782<br /><a href="mailto:gxt5@cdc.gov">gxt5@cdc.gov</a></p>
+<hr /><p><a name="vsd" id="vsd"></a><strong>TITLE:</strong> Vaccine Safety Datalink Project</p>
+<p><strong>ACRONYM:</strong> VSD</p>
+<p><strong>AGENCY/PROGRAM:</strong> National Immunization Program, Centers for Disease Control and Prevention</p>
+<p><strong>DESCRIPTION:</strong> NIP, with several HMO's, has linked automated immunizations and medical records annually. This project can determine possible causation by vaccines of rare adverse events temporarily associated with vaccines and is an excellent example of public health managed care partnerships.</p>
+<p>Methods of data collection for this system include:</p>
+<ul><li>notification of case(s)/events</li>
+<li>HMO automated reporting</li>
+</ul><p>Data are originally collected by:</p>
+<ul><li>state/local health departments</li>
+<li>managed care organizations</li>
+</ul><p>Data are collected yearly. Data are also sent as needed.</p>
+<p><strong>RACE/ETHNICITY:</strong> Race and/or Ethnicity data not collected.</p>
+<p><strong>STATUS:</strong> Status unknown regarding whether or not this is an active or passive reporting system.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> CDC internal use files only. Interpreted results can be accessed through:</p>
+<ul><li>internal reports</li>
+<li>external reports</li>
+<li>MMWR Weekly Reports</li>
+<li>peer reviewed journals</li>
+</ul><p><strong>CONTACT PERSON:</strong> Bob Chen<br />
+	(404) 639-8256<br /><a href="mailto:rte1@cdc.gov">rte1@cdc.gov</a></p>
+<hr /><p><a name="ables" id="ables"></a><strong>TITLE:</strong> Adult Blood-Lead Epidemiology and Surveillance Program</p>
+<p><strong>ACRONYM:</strong> ABLES</p>
+<p><strong>AGENCY/PROGRAM:</strong> National Institute for Occupational Safety and Health, Centers for Disease Control and Prevention</p>
+<p><strong>DESCRIPTION:</strong> ABLES is an ongoing, state-based surveillance program of laboratory-reported adult blood levels in 35 states. The objective of the ABLES program is to reduce the number of adults with blood lead levels of 25 mcg/dl or greater (<em>Healthy People 2010, </em>Objective 20.7). ABLES tries to reach its objective by building capacity at the state level to initiate or improve surveillance programs which can accurately measure trends in adult blood lead levels and which can effectively intervene to prevent lead over-exposures.</p>
+<p>Methods of data collection for this system include:</p>
+<ul><li>laboratory blood lead level reports</li>
+<li>notification of case(s)/events</li>
+</ul><p>Data are originally collected by:</p>
+<ul><li>public or private laboratories</li>
+<li>state/local health departments or other designated departments</li>
+</ul><p>Data are collected quarterly.</p>
+<p><strong>RACE/ETHNICITY:</strong> Race and/or Ethnicity data not collected.</p>
+<p><strong>STATUS:</strong> This system collects data passively.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> Public use data files are not yet available but planned. Interpreted results can be accessed through:</p>
+<ul><li>internal reports</li>
+<li>MMWR Weekly Reports</li>
+<li>peer reviewed journals</li>
+</ul><p><strong>CONTACT PERSON:</strong> Robert Roscoe<br />
+	(513) 841-4424<br /><a href="mailto:rjr1@cdc.gov">rjr1@cdc.gov</a></p>
+<hr /><p><a name="aoiss" id="aoiss"></a><strong>TITLE:</strong> Alaska Occupational Injury Surveillance System</p>
+<p><strong>ACRONYM:</strong> AOISS</p>
+<p><strong>AGENCY/PROGRAM:</strong> National Institute for Occupational Safety and Health, Centers for Disease Control and Prevention</p>
+<p><strong>DESCRIPTION:</strong> The Alaska Occupational Injury Surveillance System (AOISS) collects data on all fatal work-related traumatic injuries that occur in Alaska. Cases are identified through cooperation with federal, state , or local agencies in Alaska. Additional information is gathered from police, autopsy, FACE, and OSHA reports and print media. Data are currently available for the period 1990 through present. Data in AOISS are used to focus on prevention of fatal work-related injuries in Alaska. These data allow us to focus on industries, workers, causes, and risk factors for injuries for priority setting and further prevention research. These files contain data on: Functional/Health Status; Age/Gender; Other demographic/sociocultural; and Other (Industry; Occupation; weather; narrative data on circumstances of injury).</p>
+<p><strong>RACE/ETHNICITY:</strong> Race:White; Black; Asian, Pacific Islander; Alaska Native; Other non-white; Unknown. Ethnicity: Not identified.</p>
+<p>DATA LIMITATIONS: Currently limited to mortality only</p>
+<p><strong>STATUS:</strong> Started in January 1990, this data collection activity is active.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> Tabulations provided. No information identifying an individual patient is released.</p>
+<p><strong>CONTACT PERSON:</strong> CAPT Jan C.Manwaring, MPH<br />
+	National Institute for Occupational Safety and Health<br />
+	4230 University Drive, Grace Hall, Suite #310<br />
+	Anchorage, Alaska 99508<br />
+	(907) 271-2382 / fax (907) 271-2390<br /><a href="mailto:jcm3@cdc.gov">jcm3@cdc.gov</a></p>
+<hr /><p><a name="atr" id="atr"></a><strong>TITLE:</strong> Alaska Trauma Registry, Work-Related Injury Surveillance</p>
+<p><strong>ACRONYM:</strong></p>
+<p><strong>AGENCY/PROGRAM:</strong> National Institute for Occupational Safety and Health, Centers for Disease Control and Prevention</p>
+<p><strong>DESCRIPTION:</strong> The Alaska Trauma Registry (ATR) collects data from all hospitalized traumatic injuries that are admitted to any of the 24 hospitals in Alaska. The Alaska State Department of Health and Social Services, Division of Public Health, Section of Community Health and Emergency Medical Services administer the ATR with assistance from NIOSH focusing on work-related injury surveillance. Each hospital identifies cases and abstracts information from the patient's medical record. ATR cases are identified by a discharge diagnosis ICD-9-CM "N code" ranging from 800 through 995.99 and they have to be either admitted to a hospital in Alaska, transferred to another hospital and admitted, or have expired in the hospital emergency department. The abstracted information is then sent to the Alaska Department of Health and Social Services to be entered into the Alaska Trauma Registry computer database. Data are currently available for the period 1991 through 1999. Data in the ATR surveillance system are used to focus on nonfatal work-related injuries in Alaska. These data allow us to focus on industries, workers, and causes of injuries for priority setting and further injury prevention research.</p>
+<p>These files contain data on: Functional/Health Status; Age/Gender; Other demographic/sociocultural; and Other (industry; narrative data on occupation and circumstances of injury).</p>
+<p><strong>RACE/ETHNICITY:</strong> Race categories are: White; Black; American Indian, non-Alaskan; Alaska Native; Asian, Pacific Islander; and Unknown.</p>
+<p>Ethnicity categories are: White non-Hispanic; White Hispanic; Black non-Hispanic; and Black Hispanic.</p>
+<p>DATA LIMITATIONS: Race is not stated in approximately 4% of the records</p>
+<p><strong>STATUS:</strong> Started in January 1991, this data collection activity is active</p>
+<p><strong>HOW TO ACCESS DATA:</strong> Tabulations provided. No information identifying an individual patient is released</p>
+<p><strong>CONTACT PERSON:</strong> Brad Husberg<br />
+	National Institute for Occupational Safety and Health<br />
+	4230 University Drive, Grace Hall, Suite #310<br />
+	Anchorage, Alaska 99508<br />
+	(907) 271-2382 / fax (907) 271-2390<br /><a href="mailto:jcm3@cdc.gov">bjh9@cdc.gov</a></p>
+<hr /><p><a name="cwxsp" id="cwxsp"></a><strong>TITLE:</strong> Coal Workers' X-Ray Surveillance Program</p>
+<p><strong>ACRONYM:</strong> CWXSP</p>
+<p><strong>AGENCY/PROGRAM:</strong> National Institute for Occupational Safety and Health, Centers for Disease Control and Prevention</p>
+<p><strong>DESCRIPTION:</strong> The Coal Workers' X-Ray Surveillance Program provides respiratory health screening and surveillance to monitor trends in coal workers' pneumoconiosis in U.S. miners. This program contributes surveillance data for prevention activities to reduce the burden of coal workers' pneumoconiosis and related lung diseases. Methods of data collection for this system include:</p>
+<ul><li>mailed survey</li>
+<li>medical record abstraction</li>
+</ul><p>Data are originally collected by:</p>
+<ul><li>private/doctors or nurses</li>
+<li>hospitals</li>
+<li>public health clinics</li>
+<li>universities</li>
+<li>a CDC/ATSDR Employee</li>
+</ul><p>Data are sent as needed.</p>
+<p>These files contain data on: Other socio-demographic variables collected in this system that may explain racial and/or ethnic disparities include:</p>
+<ul><li>occupation</li>
+</ul><p><strong>RACE/ETHNICITY:</strong> Race and/or Ethnicity data available. These categories include: American Indian or Alaskan Native; Asian or Pacific Islander; Black, Not Hispanic Origin; Hispanic; White; and Not Hispanic Origin.</p>
+<p><strong>STATUS:</strong> This system collects data actively and passively.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> Public use data files available. Interpreted results can be accessed through:</p>
+<ul><li>internal reports</li>
+<li>peer reviewed journals</li>
+</ul><p><strong>CONTACT PERSON:</strong> E. Lee Petsonk, M.D.<br />
+	304-285-5842<br /><a href="mailto:LPetsonk@cdc.gov">LPetsonk@cdc.gov</a></p>
+<p> </p>
+<hr /><p><a name="face" id="face"></a><strong>TITLE:</strong> Fatality Assessment and Control Evaluation</p>
+<p><strong>ACRONYM:</strong> FACE</p>
+<p><strong>AGENCY/PROGRAM:</strong> National Institute for Occupational Safety and Health, Centers for Disease Control and Prevention</p>
+<p><strong>DESCRIPTION:</strong> The Fatality Assessment and Control Evaluation (FACE) surveillance system contains first reports of traumatic occupational fatalities in 15 states obtained through multiple sources of notification including death certificates, coroner and medical examiner reports, OSHA, law enforcement, the media, and other injury surveillance systems. Data are collected by 15 state programs funded through five-year cooperative agreements with NIOSH. FACE programs are housed within state departments of health, departments of labor, and universities. Data are currently available for the period 1990 through 1997. Because of varying funding cycles, not all states have yet contributed five years of data, nor are the data limited to the 15 states now being funded. The data in the FACE surveillance system allow description of the nature and magnitude of traumatic occupational fatalities and are used to set research and prevention priorities within the 15 program states. Because the FACE data are submitted monthly and include detailed narratives describing injury circumstances, they are used by NIOSH researchers to identify emerging injury hazards in the workplace.</p>
+<p>The FACE program also maintains supplemental data files that contain information on fatalities for which a site investigation was conducted. Active emphasis areas include machinery-related fatalities, fatal falls from elevations, and logging-related incidents. Supplemental files cover employer characteristics, safety programs, worker training, use of personal protective equipment, environmental and site conditions, machinery maintenance, and other factors.</p>
+<p>Files contain data on: Functional/Health Status; Age/ Gender; Other Demographic/Sociocultural; Other (narrative data on occupation; industry; cause of death; circumstances of injury).</p>
+<p><strong>RACE/ETHNICITY:</strong> Race categories are: White; Black; Native American; Asian or Pacific Islander; and Other. Ethnicity: Hispanic; Non-Hispanic; and Unknown.</p>
+<p>DATA LIMITATIONS: Currently, FACE first reports are limited to 15 states. Participating states change from year to year because states enter and leave the program based on competition for funding.</p>
+<p><strong>STATUS:</strong> Started in January 1990, data collection is active, with data submitted electronically each month by participating states.</p>
+<p>START DATE: January 1990</p>
+<p><strong>HOW TO ACCESS DATA:</strong> Tabulations provided. Data are not published or released in any format that would allow identification of an individual.</p>
+<p><strong>CONTACT PERSON:</strong> Stephanie G. Pratt<br />
+	National Institute for Occupational Safety and Health<br />
+	1095 Willowdale Rd., Mailstop P-180<br />
+	Morgantown, WV 26505-2888<br />
+	(304) 285-5992 / fax (304) 285-6047<br /><a href="mailto:sgp2@cdc.gov">sgp2@cdc.gov</a></p>
+<hr /><p><a name="hcadba" id="hcadba"></a><strong>TITLE:</strong> Hearing Conservation and Audiometric Database Analysis System</p>
+<p><strong>ACRONYM:</strong> HC&amp;ADBA</p>
+<p><strong>AGENCY/PROGRAM:</strong> National Institute for Occupational Safety and Health, Centers for Disease Control and Prevention</p>
+<p><strong>DESCRIPTION:</strong> The HC&amp;ADBA system consists of databases containing audiograms and collateral information gathered from government agencies and from corporations. The databases, collected as the result of collaborations between NIOSH and the other organizations, have been used to assess the effectiveness of hearing conservation programs for the design of a template to be applied for the collection of new data. This is a pilot surveillance system. Methods of data collection for this system include batch file transfer of data. Data are originally collected by HC&amp;ADBA research partners. No frequency of data collection activities specified.</p>
+<p><strong>RACE/ETHNICITY:</strong> HC&amp;ADBA does not collect race and/or ethnicity data directly. Most data sets in the HC&amp;ADBA come from corporations which do not collect race and/or ethnicity data. If a contributed data set contains race and ethnicity data, the information will be maintained in the database.</p>
+<p><strong>STATUS:</strong> This system collects data passively.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> CDC internal use files only. Interpreted results can be accessed through peer reviewed journals only.</p>
+<p><strong>CONTACT PERSON:</strong> John R. Franks, Ph.D.<br />
+	(513) 533-8151<br /><a href="mailto:jrf3@cdc.gov">jrf3@cdc.gov</a></p>
+<hr /><p><a name="naws" id="naws"></a><strong>TITLE:</strong> National Agricultural Workers Survey (NAWS) Youth Injury and Farm Worker Health Supplement</p>
+<p><strong>ACRONYM:</strong> NAWS</p>
+<p><strong>AGENCY/PROGRAM:</strong> National Institute for Occupational Safety and Health, Centers for Disease Control and Prevention</p>
+<p><strong>DESCRIPTION:</strong> The National Agricultural Workers Survey (NAWS) Youth Injury and Farm Worker Health Supplement is a special survey conducted jointly by the U.S. Department of Labor (USDOL) and the National Institute for Occupational Safety and Health (NIOSH) using the existing USDOL NAWS survey. The survey collects information on: farm-related injuries occurring to the youth (&lt;20 years of age) of farm workers in the United States; farm-related injuries to farm workers less than 20 years of age; farm-related injuries to farm workers 20 years of age and older; and the occupational health for all farm workers in the sample. Survey data are collected on a sample of approximately 4,000 farm workers across the United States using personal interviews. Data from the NAWS Youth Injury and Farm Worker Health Supplement allow for the description of the nature and magnitude of farm-related injuries occurring to the youth of farm workers, as well as provide descriptive information on the occupational health status of farm workers in the United States. Data will be used to generate hypotheses for further research in the area of youth injury prevention and occupational health promotion in this special population.</p>
+<p>These files contain data on: Functional/Health Status; Socioeconomic; Age/Gender; Other Demographic/Sociocultural; and Other (narrative data on circumstances of injury).</p>
+<p><strong>RACE/ETHNICITY:</strong> Race categories are: White; Black; Asian; Pacific Islander; and Other. Ethnicity categories are: Mexican; Puerto Rican; Central/South American; Other Hispanic; Non-Hispanic; and Unknown.</p>
+<p>DATA LIMITATIONS: Data are based on a probability sample and may have small cell counts for certain variables collected by the survey.</p>
+<p><strong>STATUS:</strong> Started in October 1998, data collection will continue through September of 2004. Occupational health information will be available for all 6-years of data collection. Injury information will be available from October 1998 through September 1999, and October 2001 through September 2004</p>
+<p><strong>HOW TO ACCESS DATA:</strong> Access to the first year of data should be directed to: Daniel Carroll, Division of Program, Office of the Assistant Secretary for Policy, US Department of Labor, 200 Constitution Avenue NW, Washington, DC 20210; Telephone (202) 693-5077.</p>
+<p>In obtaining data through the DOL, the National Institute for Occupational Safety and Health has agreed to follow all policies established by DOL for the release of data. Data will not be published/released in any format that would allow identification of an individual.</p>
+<p><strong>CONTACT PERSONS:</strong> John Myers<br />
+	National Institute for Occupational Safety and Health<br />
+	1095 Willowdale Road<br />
+	Morgantown, WV 26505-2888<br />
+	(304) 285-6005 / fax (304) 285-5774<br /><a href="mailto:JRMyers@cdc.gov">JRMyers@cdc.gov</a></p>
+<p>Toni Alterman or Andrea Steege<br />
+	National Institute for Occupational Safety and Health<br />
+	4676 Columbia Parkway<br />
+	Cincinnati, OH 45226<br />
+	(513) 841-4303 / fax (513) 841-4489<br /><a href="mailto:TAlterman@cdc.gov">TAlterman@cdc.gov</a> / <a href="mailto:ASteege@cdc.gov">ASteege@cdc.gov</a></p>
+<hr /><p><a name="ncwas" id="ncwas"></a><strong>TITLE:</strong> National Coal Workers' Autopsy Study</p>
+<p><strong>ACRONYM:</strong> NCWAS</p>
+<p><strong>AGENCY/PROGRAM:</strong> National Institute for Occupational Safety and Health, Centers for Disease Control and Prevention</p>
+<p><strong>DESCRIPTION:</strong> The National Coal Workers' Autopsy Study assists in the conduct of research for both the pathogenesis and epidemiology of coal workers' pneumoconiosis and silicosis. The NCWAS also provides forensic assistance in the investigation of coal mine fatalities, and medical evidence for deceased miners' families. In addition, this program also contributes to monitoring of trends in coal workers' pneumoconiosis and related diseases.</p>
+<p>Methods of data collection for this system include:</p>
+<ul><li>notification of case(s)/events</li>
+<li>autopsy</li>
+</ul><p>Data are originally collected by:</p>
+<ul><li>private/doctors or nurses</li>
+<li>hospitals</li>
+<li>universities</li>
+</ul><p>Data are sent as needed.</p>
+<p>Files contain data on: Other socio-demographic variables collected in this system that may explain racial and/or ethnic disparities include:</p>
+<ul><li>occupation</li>
+</ul><p><strong>RACE/ETHNICITY:</strong> Race and/or Ethnicity data available. These categories include: American Indian or Alaskan Native; Asian or Pacific Islander; Black, not Hispanic origin; Hispanic; White, and Not Hispanic Origin.</p>
+<p><strong>STATUS:</strong> This system collects data actively.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> Public use data files available. Interpreted results can be accessed through:</p>
+<ul><li>internal reports</li>
+<li>peer reviewed journals</li>
+</ul><p><strong>CONTACT PERSON:</strong> E. Lee Petsonk<br />
+	(304) 285-5842<br /><a href="mailto:LPetsonk@cdc.gov">LPetsonk@cdc.gov</a></p>
+<hr /><p><a name="noms" id="noms"></a><strong>TITLE: </strong>National Occupational Mortality Surveillance System (NOMS)</p>
+<p><strong>ACRONYM: </strong>NOMS</p>
+<p><strong>AGENCY/PROGRAM: </strong>National Institute for Occupational Safety and Health, Centers for Disease Control and Prevention</p>
+<p><strong>DESCRIPTION:</strong> The purpose of the data system is to provide a resource for surveillance and research in occupational health. The data apply to all decedents in the States providing data to the system. The States are not consistent from year to year. Data collection was instituted in 1979. Presently the system contains data from 1979 through 1999, with yearly additions of data through this period. The database is a nonrandom sample of the United States. Through 1999, the database contains about 24% of the U.S. deaths, with a total sample size of about 10,600,000 deaths. Substantially fewer states are providing data for years after 1999. Cause of death, occupational, and demographic information is collected for all ages, including State, county and city identifiers. For most States, the death certificate information is collected and coded by state health departments and provided to the National Center for Health Statistics (NCHS). NCHS edits the data and provides it to the National Institute for Occupational Safety and Health (NIOSH) and the National Cancer Institute. A few States have provided the data directly to NIOSH. The record unit is the decedent. Information is available about 2 years after data collection.</p>
+<p>Files contain data on: Functional/Health Status; Socio-economic; Age/Gender; Other Demographic/ Sociocultural.</p>
+<p>Additional information collected for the decedent which may help explain racial or ethnic disparities includes: date and place of death, cause of death, sex, age, marital status, state of birth, place of residence, occupation, industry, and education.</p>
+<p><strong>RACE/ETHNICITY: </strong>The race/ethnicity coding scheme varies across the project years. For all years, the following race/ethnicity categories exist: White; Black; American Indian (includes American, Alaskan, Canadian, Eskimao, and Aleut); Chinese; Japanese; Hawaiian; Filipino; Other Asian or Pacific Islander; and Other.</p>
+<p>For 1979-1988 the category "All Other Races" was used. Additional codes added after 1988 are: Asian Indian; Korean; Samoan; Vietnamese; Guamanian.</p>
+<p>In addition, there is a Hispanic Origin and an Hispanic Origin/Race recode in the database after 1988.</p>
+<p>Hispanic Origin coding after 1988: Non-Hispanic; Mexican; Puerto Rican; Cuban; Central or South American; Other and Unknown Hispanic; Hispanic Origin Unknown.</p>
+<p>Hispanic Origin/Race recode after 1988: Mexican; Puerto Rican; Cuban; Central or South American; Other and Unknown Hispanic; Non-Hispanic White; Non-Hispanic Black; Non-Hispanic Other Races; Hispanic Origin Unknown.</p>
+<p>Race or ethnicity is identified from the death certificate. Through 1998 the number of deaths by major race or ethnicity group is as follows:</p>
+<ul><li>White 8,785,347</li>
+<li>Black 1,136,545</li>
+<li>American Indian 40,628</li>
+<li>Chinese 10,296</li>
+<li>Japanese 12,837</li>
+<li>Hawaiian 5,205</li>
+<li>Filipino 7,232</li>
+<li>Other Asian/P.I. 14,223</li>
+<li>All Other 639</li>
+</ul><p><strong>DATA LIMITATIONS:</strong> The Hispanic data (1989 on) are not satisfactory for all States.</p>
+<p><strong>STATUS: </strong>Starting in January 1979 to December 1979. Ongoing</p>
+<p><strong>HOW TO ACCESS DATA: </strong>Public use files, usable without restrictions. There is no case identification information available.</p>
+<p><strong>CONTACT PERSON: </strong>James T. Walker, Ph.D.<br />
+	National Institute for Occupational Safety and Health Mailstop R-18, 4676 Columbia Pkwy.<br />
+	Cincinnati, OH 45226<br />
+	(513) 841-4219<br /><a href="mailto:jtw1@cdc.gov">jtw1@cdc.gov</a></p>
+<hr /><p><a name="neiss" id="neiss"></a><strong>TITLE:</strong> National Surveillance of Nonfatal Occupational Injury</p>
+<p><strong>ACRONYM:</strong> NEISS</p>
+<p><strong>AGENCY/PROGRAM:</strong> National Institute for Occupational Safety and Health, Centers for Disease Control and Prevention</p>
+<p><strong>DESCRIPTION:</strong> The U.S. Consumer Product Safety Commission (CPSC) developed and maintains the National Electronic Injury Surveillance System (NEISS) which collects information on consumer product-related injuries in a nationally representative probability sample of 101 hospital 24-hr emergency departments (ED). In collaboration with the National Institute for Occupational Safety and Health (NIOSH), CPSC collects injury information on civilian work-related injuries treated in 67 hospital emergency departments (a sub-sample of the 101 NEISS hospitals) regardless of consumer product involvement. The NEISS work-related injury information is used to obtain a national overview of nonfatal occupational injuries, to study specific types of injuries, to study specific worker populations, and to meet a variety of other occupational injury research needs.</p>
+<p>These files contain data onFunctional/Health Status, Age/Gender, Other (injury characteristics, location, and narrative data on industry and circumstances of injury)</p>
+<p><strong>RACE/ETHNICITY:</strong> Race categories are: White; Black; Other (additional information may be included in a free-text field); and Not stated. Ethnicity categories are: May be included in a free-text field for Race = Other.</p>
+<p>DATA LIMITATIONS: Not all participating hospitals collect race information on admissions/ED forms (approximately 20% of cases Race = not stated). Data are based on a probability sample and may have small cell counts for certain variables collected by the survey.</p>
+<p><strong>STATUS:</strong> Data collection began in October 1995 and is ongoing for all work-related non-fatal injuries regardless of consumer product involvement or age. Limited data are available on special populations (e.g., adolescents and older workers) for portions of 1992 through 1995.</p>
+<p>START DATE: October 1995</p>
+<p><strong>HOW TO ACCESS DATA:</strong> Tabulations provided NIOSH follows all conditions of the Privacy Act and the Consumer Product Safety Act to protect individual identity/medical information and product information as established by the policies and procedures of CPSC for the release of data. Data will not be published/released in any format that would allow identification of an individual.</p>
+<p><strong>CONTACT PERSON:</strong> Larry L. Jackson<br />
+	National Institute for Occupational Safety and Health<br />
+	1095 Willowdale Road, Mail Stop P-180<br />
+	Morgantown, WV 26505-2888<br />
+	(304) 285-5980 / fax (304) 285-6047<br /><a href="mailto:lcj7@cdc.gov">lcj7@cdc.gov</a></p>
+<hr /><p><a name="nsspm" id="nsspm"></a><strong>TITLE: </strong>National Surveillance System for Pneumoconiosis Mortality</p>
+<p><strong>ACRONYM:</strong> NSSPM</p>
+<p><strong>AGENCY/PROGRAM: </strong>National Institute for Occupational Safety and Health, Centers for Disease Control and Prevention</p>
+<p><strong>DESCRIPTION: </strong>The purpose of this surveillance system is to provide a resource for surveillance and research in pneumoconiosis. The data are based on pneumoconiosis mortality data obtained annually from the National Center for Health Statistics since 1968. This system consists of several types of pneumoconiosis listed as underlying or contributing cause on the death certificates: coal workers' pneumoconiosis, asbestosis, silicosis, byssinosis, pneumoconiosis due to inhalation of other dust, and pneumoconiosis unspecified. Presently a total of 121,982 decedents with pneumoconiosis are coded for the NSSPM from 1968 through 1999.</p>
+<p>These files contain data on: Causes of Death; Age/Gender; Other Demographic; Usual Occupation and Industry since 1985 (from approximately 26 states). No information on occupation and industry is available prior to 1985.</p>
+<p><strong>RACE/ETHNICITY:</strong> Race: White; Black; Asian-Pacific; Other Ethnicity: Mexican; Puerto Rican; Cuban; Central/South American; Non-Hispanic; and Other or Unknown.</p>
+<p><strong>STATUS: </strong>Started in 1995; continuous (annual) data collection; active.</p>
+<p><strong>HOW TO ACCESS DATA: </strong>Public use SAS data sets for NIOSH users on the SUN 6000 system in Morgantown.  Data subsets provided by special request.</p>
+<p>There is no case identification information available.</p>
+<p><strong>CONTACT PERSON:</strong> John M. Wood<br />
+	National Institute for Occupational Safety and Health<br />
+	1095 Willowdale Road<br />
+	Morgantown, WV 26508<br />
+	(304) 285-6115 / fax (304) 285-6111<br /><a href="mailto:rba1@cdc.gov">jwood@cdc.gov</a> </p>
+<hr /><p><a name="ntof" id="ntof"></a><strong>TITLE:</strong> National Traumatic Occupational Fatalities Surveillance System</p>
+<p><strong>ACRONYM:</strong> NTOF</p>
+<p><strong>AGENCY/PROGRAM:</strong> National Institute for Occupational Safety and Health, Centers for Disease Control and Prevention</p>
+<p><strong>DESCRIPTION:</strong> The National Traumatic Occupational Fatalities (NTOF) surveillance system is a death certificate-based census of occupational injury deaths. Death certificates are obtained from the 50 States, New York City, and the District of Columbia for decedents ages 16 years or older with an external cause of death (ICD-9, E800-E999) and for whom the certifier noted a positive response to the "Injury at Work?" item. Data are currently available for the period 1980 through 1998. Data for 1998 exclude New York State.</p>
+<p>Data for 1999 will be added by the end of calendar year 2002. The data in the NTOF surveillance system allow description of the nature and magnitude of traumatic occupational fatalities and are used to set research and prevention priorities. These data also generate hypotheses for further research and support the analysis of narrative data.</p>
+<p>These files contain data on: Functional/Health Status; Socioeconomic; Age/Gender; Other Demographic/ Sociocultural; and Other (narrative data on occupation; industry cause of death; circumstances of injury).</p>
+<p><strong>RACE/ETHNICITY:</strong> Race categories are: White; Black/Negro; Native American; Asian, Pacific Islander; and Other.</p>
+<p>Ethnicity categories are: Mexican; Puerto Rican; Central/South American; Other Hispanic; Non-Hispanic; and Unknown.</p>
+<p>DATA LIMITATIONS: The race/ethnicity coding scheme applies only to NTOF data for the year 1990 and forward.</p>
+<p><strong>STATUS:</strong> Started in January 1980, this periodic (annual) data collection is active.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> Tabulations provided. In obtaining data from state vital records offices, the National Institute for Occupational Safety and Health has agreed to refer any requests for case-specific information back to the States. Data are not published/released in any format that would allow identification of an individual.</p>
+<p><strong>CONTACT PERSON:</strong> Suzanne M. Marsh<br />
+	National Institute for Occupational Safety and Health<br />
+	1095 Willowdale Rd., Mailstop 1808<br />
+	Morgantown, WV 26505-2888<br />
+	(304) 285-6009 / fax (304) 285-5774<br /><a href="mailto:smm2@cdc.gov">smm2@cdc.gov</a></p>
+<hr /><p><a name="sensor" id="sensor"></a><strong>TITLE:</strong> Sentinel Event Notification Systems for Occupational Risks - Silicosis</p>
+<p><strong>ACRONYM:</strong> SENSOR Silicosis</p>
+<p><strong>AGENCY/PROGRAM:</strong> National Institute for Occupational Safety and Health, Centers for Disease Control and Prevention</p>
+<p><strong>DESCRIPTION:</strong> This system compiles information about cases of silicosis identified by two currently participating states--New Jersey and Ohio. Silicosis is an occupationally-related dust-induced lung disease. Case ascertainment methods vary by state but generally include the following sources: hospital discharge diagnoses, physician reports, Workers' Compensation, and death certificates. The SENSOR program links case findings to prevention/intervention activities. NIOSH has recently begun to electronically aggregate SENSOR silicosis data across the participating states. Data are currently available from NIOSH for SENSOR silicosis cases identified from 1993-1995. States submit data to NIOSH a variable number of years following initial case ascertainment to enable states to complete their case and workplace follow-up activities.</p>
+<p>Methods of data collection for this system include:</p>
+<ul><li>direct interview</li>
+<li>notification of case(s)/events</li>
+<li>Computerized information</li>
+<li>Data are originally collected by:</li>
+<li>state/local health departments</li>
+</ul><p>Data are collected yearly.</p>
+<p>Files contain data on other socio-demographic variables collected in this system that may explain racial and/or ethnic disparities include:</p>
+<ul><li>occupation</li>
+</ul><p><strong>RACE/ETHNICITY:</strong> Race categories are: American Indian/Alaskan Native, Asian/Pacific Islander, Black, White, Other, Don't know. Hispanic Ethnicity: Yes, No, Don't know</p>
+<p><strong>STATUS:</strong> This system collects data actively and passively.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> CDC internal use files only. Interpreted results can be accessed through:</p>
+<ul><li>internal reports</li>
+<li>external reports</li>
+<li>MMWR Weekly Reports</li>
+<li>MMWR Surveillance Summaries</li>
+</ul><p><strong>CONTACT PERSON:</strong> Margaret Filios<br />
+	(304) 285-66307<br /><a href="mailto:MSF0@cdc.gov">MSF0@cdc.gov</a></p>
+<hr /><p><a name="sensorwra" id="sensorwra"></a><strong>TITLE:</strong> Sentinel Event Notification Systems for Occupational Risks - Work-Related Asthma</p>
+<p><strong>ACRONYM:</strong> SENSOR WRA</p>
+<p><strong>AGENCY/PROGRAM:</strong> National Institute for Occupational Safety and Health, Centers for Disease Control and Prevention</p>
+<p><strong>DESCRIPTION:</strong> This system compiles information about cases of work-related asthma identified in four states--California, Massachusetts, Michigan, and New Jersey. Case ascertainment methods vary by state but generally include the following sources: physician reports and hospital discharge diagnoses. The SENSOR program links case findings to prevention/intervention activities. NIOSH has recently begun to electronically aggregate SENSOR WRA data across the participating states. Data are currently available from NIOSH for SENSOR work-related asthma cases identified from 1993-1995. States submit data to NIOSH a variable number of years following initial case ascertainment to enable states to complete their case and workplace follow-up activities.</p>
+<p>Methods of data collection for this system include:</p>
+<ul><li>direct interview</li>
+<li>notification of case(s)/events</li>
+<li>computerized information</li>
+<li>Data are originally collected by:</li>
+<li>state/local health departments</li>
+</ul><p>Data are collected yearly.</p>
+<p>Other socio-demographic variables collected in this system that may explain racial and/or ethnic disparities include:</p>
+<ul><li>occupation</li>
+</ul><p><strong>RACE/ETHNICITY:</strong> Race categories are: American Indian/Alaskan Native, Asian/Pacific Islander, Black, White, Other, Don't know. Hispanic Ethnicity: Yes, No, Don't know</p>
+<p>Race and ethnicity information are self-defined by the case-individual through the patient interview process.</p>
+<p><strong>STATUS:</strong> This system collects data actively and passively.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> CDC internal use files only. Interpreted results can be accessed through:</p>
+<ul><li>internal reports</li>
+<li>external reports</li>
+<li>MMWR Weekly Reports</li>
+<li>MMWR Surveillance Summaries</li>
+</ul><p><strong>CONTACT PERSON:</strong> Margaret Filios<br />
+	(304) 285-66307<br /><a href="mailto:MSF0@cdc.gov">MSF0@cdc.gov</a></p>
+  </div>
+
+      <footer>
+          </footer>
+  
+    <div id="block-webform-client-block-158521" class="widget block block-webform" >
+  
+      
+  <div id="webform-ajax-wrapper-158521"><form class="webform-client-form webform-client-form-158521" action="/centers-disease-control-and-prevention-part-5" method="post" id="webform-client-form-158521" accept-charset="UTF-8"><div><div class="webform-progressbar">
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-radios webform-component--was-this-page-helpful">
+  <label for="edit-submitted-was-this-page-helpful">Was this page helpful? <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-was-this-page-helpful" class="form-radios"><div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-1" name="submitted[was_this_page_helpful]" value="1" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-1">Yes </label>
+
+</div>
+<div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-2" name="submitted[was_this_page_helpful]" value="0" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-2">No </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="4" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-Z8ZPTw07qp5I8ZS-ZP8vDUsov_UIPytAbCsACfDsyBA" />
+<input type="hidden" name="form_id" value="webform_client_form_158521" />
+<input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-158521" />
+<div class="form-actions"><input class="webform-next button-primary btn btn-default form-submit" type="submit" id="edit-webform-ajax-next-158521" name="op" value="Next &gt;" /></div>
+<div class="is-useful-disclaimer"> <a href="/%23" class="" title="Survey Disclaimer" data-toggle="modal" data-target="#disclamerModal">Form Approved OMB# 0990-0379 Exp. Date 8/31/2017</a></div>
+<div class="modal fade" id="disclamerModal" tabindex="-1" role="dialog" aria-labelledby="disclamerModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="disclamerModalLabel">Survey Disclaimer</h2>
+      </div>
+      <div class="modal-body">
+         According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this information collection is 0990-0379. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, gather the data needed, and complete and review the information collection. If you have comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: U.S. Department of Health & Human Services, OS/OCIO/PRA, 200 Independence Ave., S.W., Suite 336-E, Washington D.C. 20201, Attention: PRA Reports Clearance Officer.      </div>
+    </div>
+  </div>
+</div></div></form></div>
+  </div> <!-- /.block -->
+<meta  itemscope="" itemid="https://aspe.hhs.gov/centers-disease-control-and-prevention-part-5" itemref="md1" />              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <footer  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Footer">     
+
+        
+                  
+        
+                  
+        
+                                    <div  id="footer_sitemap-footer_sitemap" class="col-sm-6 col-md-6 col-lg-4 ">
+                          
+                              <div id="block-footer-sitemap-footer-sitemap" class="widget block block-footer-sitemap" >
+  
+      
+  <div id="footer-sitemap" class="clearfix">
+  <div class="fs-block-content"><div class="menu-footer-utility"><ul class="footer_links_menu-footer-utility total-items-2 parent-items-0 single-items-0"><li class="menu-5021 depth-1 total-children-8 parent-children-0 single-children-8  first"><a href="/" title="look at ASPE Home" class="fs-root-link">ASPE Home</a><ul class="footer_links_menu-footer-utility total-items-8 parent-items-0 single-items-0"><li class="menu-5026 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/" title="look at HHS Home">HHS Home</a></li>
+<li class="menu-66281 depth-1 fs-no-children"><a href="http://www.usa.gov/" title="look at USA.gov">USA.gov</a></li>
+<li class="menu-66316 depth-1 fs-no-children"><a href="https://oig.hhs.gov/" title="look at Office of the Inspector General">Office of the Inspector General</a></li>
+<li class="menu-66321 depth-1 fs-no-children"><a href="http://www.whitehouse.gov" title="look at The White House">The White House</a></li>
+<li class="menu-5046 depth-1 fs-no-children"><a href="http://www.hhs.gov/Accessibility.html" title="look at Accessibility">Accessibility</a></li>
+<li class="menu-66326 depth-1 fs-no-children"><a href="http://www.hhs.gov/about/budget/index.html" title="look at Budget/Performance">Budget/Performance</a></li>
+<li class="menu-2551 depth-1 fs-no-children"><a href="http://www.hhs.gov/Privacy.html" title="look at Privacy Policy">Privacy Policy</a></li>
+<li class="menu-197776 depth-1 fs-no-children  last"><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" title="Nondiscrimination Notice">Nondiscrimination Notice</a></li>
+</ul></li>
+<li class="menu-5051 depth-1 total-children-4 parent-children-0 single-children-4  last"><a href="http://www.hhs.gov/foia/" title="look at FOIA" class="fs-root-link">FOIA</a><ul class="footer_links_menu-footer-utility total-items-4 parent-items-0 single-items-0"><li class="menu-5056 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/open/recordsandreports/plainwritingact/index.html" title="look at Plain Writing Act">Plain Writing Act</a></li>
+<li class="menu-5061 depth-1 fs-no-children"><a href="http://www.hhs.gov/asa/eeo/no_fear_bullet_3.html" title="look at No Fear Act">No Fear Act</a></li>
+<li class="menu-5066 depth-1 fs-no-children"><a href="http://www.hhs.gov/Disclaimer.html" title="look at Disclaimers">Disclaimers</a></li>
+<li class="menu-2546 depth-1 fs-no-children  last"><a href="http://www.hhs.gov/plugins.html" title="look at Viewers &amp; Players">Viewers &amp; Players</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-5 " id="stability_cms-contact_us">
+                          
+                              <div id="block-stability-cms-contact-us" class="widget block block-stability-cms" >
+  
+      
+  <div class="contacts-widget widget widget__footer">
+	<div class="widget-content">
+		<ul class="contacts-info-list">
+      			<li>
+<!--				<i class="fa fa-map-marker">Address</i>-->
+                <div class="info-icons">
+                    <img  alt="map" class= 'map-icons' src="/sites/all/themes/stability/stability_aspe/images/map.png"/>
+                </div>
+                <div class="info-item">
+					Assistant Secretary for Planning and Evaluation, Room 415F<br />
+U.S. Department of Health and Human Services<br />
+200 Independence Avenue, SW<br />
+Washington, D.C. 20201				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-phone">phone</i>-->
+                <div class="info-icons">
+                    <img alt="phone" src="/sites/all/themes/stability/stability_aspe/images/phone.png"/>
+                </div>
+				<div class="info-item">
+					+1 202.690.7858				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-envelope">email</i>-->
+                <div class="info-icons">
+                    <img alt="mail" src="/sites/all/themes/stability/stability_aspe/images/mail-white.png"/>
+                </div>
+				<span class="info-item">
+					<a href="mailto:osaspeinfo@hhs.gov">osaspeinfo@hhs.gov</a>
+				</span>
+			</li>
+      			                					</ul>
+	</div>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-3 " id="footer">
+                          
+                              <div id="block-block-36" class="widget block block-block" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sign-up</span> for Email Updates</h3>
+		</div>
+    
+  <div class="email_updates">
+<button class="btn btn-default" name="subscribe-button" type="submit" value="subscribe">subscribe</button>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-12 " id="menu-menu-footer-language-menu">
+                          
+                              <div id="block-menu-menu-footer-language-menu" class="widget block block-menu" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Language</span> Assistance Available</h3>
+		</div>
+    
+  <ul class="menu"><li class="first expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#spanish" title="Español">Español</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#chinese" title="繁體中文">繁體中文</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#vietnamese" title="Tiếng Việt">Tiếng Việt</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#korean" title="한국어">한국어</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#tagalog" title="Tagalog">Tagalog</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#russian" title="Русский">Русский</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#arabic" title="العربية">العربية</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#creole" title="Kreyòl Ayisyen">Kreyòl Ayisyen</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#french" title="Français">Français</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#polish" title="Polski">Polski</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#portuguese" title="Português">Português</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#italian" title="Italiano">Italiano</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#german" title="Deutsch">Deutsch</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#japanese" title="日本語">日本語</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#farsi" title="فارسی">فارسی</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#english" title="English">English</a></li>
+</ul></li>
+</ul>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+      </div>
+
+          </div>
+    
+    
+      </footer>
+    
+
+    <!--/PAGEWATCH-->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+                        </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="social-links-wrapper">
+              <span class="social-links-txt">Connect with us</span>
+              <ul class="social-links social-links__dark">
+                                                  <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw-grey.png"/></a></li>
+                                <!--                --><!--                  <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin-grey.png"/></a></li>-->
+<!--                -->
+                                                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>  <script type="text/javascript" src="/sites/default/files/advagg_js/js__VWRymaMz6HfrhnrcJNGcDiSvLVrvhaXvBa7nrBYy8gc__jntPwP3D6myJZH1jW19fXrk5cYMHGRL8NQION22VSEA__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5486d15a696bff0c"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__g6mKbcakHxQkz4ZHYaxdO_xqONINvRMgsHh1zAK-fr0__ATHtEmHaeZ0jidpGU22EkhmPDBSgjD8z0bVDQMI-BIY__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__KUp4PrfOt9BSXUVl8Ctb3dhCMBe4MNVMeb4Gyorx8yY__7g4BeXscCIZAfuu1vxsCj2RIemg-eEK0QpChP9LDmFQ__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__PNjAgubM_3xXRLp4uLsYnv8wQAdT89-RYkSPxT6T45c__rFQwFK4pA5ZaWZSF7FPTfKbbpus0h-5IS8ayrNZGrb4__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__vQiLul2UcfC4nBAR09mhYVBYzRmiNDm2dj3GgSubV38__w84oZe-ZODKe7XnnlbrjV4IWHISOy4PioFEMVgx9hZo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__QJw3g0kOdwsv4twSZLP931zBzsHy50VEHpEN_znIitQ__A6QOuWXElDipBM2iChbWhjAAt3KlUwZ-jODoxdpbwiw__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stability_aspe","theme_token":"OsYEt1F5NI6bp0cLTCYWOBurDuraqcJpiciDxUadYkw","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/footable.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/aspe_nodes.admin.css":1,"sites\/all\/modules\/custom\/aspe_views\/theme\/css\/aspe_views.admin.css":1,"sites\/all\/modules\/forked\/book\/book.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/openpublic\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.css":1,"profiles\/openpublic\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openpublic\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/openpublic\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/themes\/stability\/css\/bootstrap.min.css":1,"sites\/all\/themes\/stability\/css\/fonts\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.theme.css":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/stability\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/stability\/css\/theme.css":1,"sites\/all\/themes\/stability\/css\/theme-elements.css":1,"sites\/all\/themes\/stability\/css\/animate.min.css":1,"sites\/all\/themes\/stability\/css\/skins\/red.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/slideshow.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/font-main.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/styleless.less":1,"sites\/all\/themes\/stability\/css\/skins\/blue.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/aspe\/theme\/js\/aspe.login-confirm.js":1,"sites\/all\/modules\/custom\/aspe_report\/modules\/aspe_databooks\/js\/aspe_databooks.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.highcharts.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/datatables\/dataTables.min.js":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.min.js":1,"sites\/all\/libraries\/highcharts\/highcharts.js":1,"sites\/all\/libraries\/highcharts\/highcharts.exporting.js":1,"sites\/all\/libraries\/highcharts\/highcharts.map.js":1,"sites\/all\/libraries\/highcharts\/highcharts.us-all.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.footable.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5486d15a696bff0c":1,"misc\/progress.js":1,"profiles\/openpublic\/modules\/contrib\/webform\/js\/webform.js":1,"profiles\/openpublic\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/stability\/vendor\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/stability\/vendor\/bootstrap.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flexnav.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flickrfeed.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.sloppy-masonry.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.fitvids.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.stellar.min.js":1,"sites\/all\/themes\/stability\/vendor\/snap.svg-min.js":1,"sites\/all\/themes\/stability\/js\/custom.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/aspe.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/html5shiv.min.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/main-menu.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/keyboard-control.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tabBehavior.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tileStringTrimmer.js":1}},"webform":{"conditionals":{"webform-client-form-158521":{"ruleGroups":[],"sourceMap":[],"values":[]}}},"ajax":{"edit-webform-ajax-next-158521":{"callback":"webform_ajax_callback","wrapper":"webform-ajax-wrapper-158521","progress":{"message":"","type":"throbber"},"event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Next \u003E"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/centers-disease-control-and-prevention-part-5":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"([a-z0-9]\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This website contains links to other federal and state agencies and private organizations. The Department of Health and Human Services (HHS) cannot attest to the accuracy of information provided by these nonfederal website links. Linking to nonfederal sites does not constitute an endorsement by HHS or any of its employees of the sponsors or the information and products presented on the sites. You will be subject to the destination site\u0027s privacy policy when you leave the ASPE website.\r\n\r\nThank you for visiting aspe.hhs.gov!","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"stability":{"flickr_id":"52617155@N08","logo_sticky":"28"},"field_group":{"div":"full"}});
+//--><!]]>
+</script>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config={pubid:"ra-5486d15a696bff0c",ui_click:false}
+//--><!]]>
+</script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4837db659","applicationID":"10708002","transactionName":"MwNaZBRSXEtXB0BdWQpJbUIPHFtWUgFMGkYMFg==","queueTime":0,"applicationTime":22,"atts":"H0RZElxIT0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

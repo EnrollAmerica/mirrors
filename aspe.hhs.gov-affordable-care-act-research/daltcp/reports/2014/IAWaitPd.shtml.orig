@@ -1,0 +1,1903 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">  <!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://aspe.hhs.gov/sites/default/files/Favicon2.png" type="image/png" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://aspe.hhs.gov/basic-report/impacts-waiting-periods-home-and-community-based-services-consumers-and-medicaid-long-term-care-costs-iowa" />
+<link rel="shortlink" href="https://aspe.hhs.gov/node/66186" />
+<meta property="og:site_name" content="ASPE" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aspe.hhs.gov/basic-report/impacts-waiting-periods-home-and-community-based-services-consumers-and-medicaid-long-term-care-costs-iowa" />
+<meta property="og:title" content="Impacts of Waiting Periods for Home and Community-Based Services on Consumers and Medicaid Long-Term Care Costs in Iowa" />
+<meta property="og:updated_time" content="2017-02-21T11:29:01-05:00" />
+<meta property="article:published_time" content="2015-06-13T03:58:52-04:00" />
+<meta property="article:modified_time" content="2017-02-21T11:29:01-05:00" />
+
+  <title>Impacts of Waiting Periods for Home and Community-Based Services on Consumers and Medicaid
+Long-Term Care Costs in Iowa | ASPE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+  <link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__5ln8neBOcJfyUveiD4y9fhI6kHBLOQ_YL0mMC-LS9a0__TPJIZT9UBnf_685NlFTJ5KnZVsjwFk6ACQ-nwwygmwU__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ng49uRH5y4Hl9VF9hHW_vXOj-mcOc2u2ShJqJ1YKIGU__FoMCD14GBvZaRiqSQ_JpP1w3rDB21n7H2Ar4pRZaIh8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__Hskudx14OJ5Hz8vqU7CUgN6SDV5rINZuEq9VuGsSeyc__EwNIl3xeFrniW2TmonovTzhSs3X5MdFps210puE7jog__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__9rZoaX9BdzjjNucvYxduxeNAVO2zgW_Rvjhb5rq5whc__lSr_y16grDSgHf4booPChnF7QXz3TQY3hafH49twE0k__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZgfI_ZPib5yVY0o5aKo_6TFn946Tuu_nFDa0ySTmkSc__2FTFrNw2eNh0mpHIOA34r6YRwBZMm2PjJ_JubnwLigg__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__dxabpJ5rQgDSixKgLJZjWc1beC6mpROKwVrmWxI5eno__rqhz_hGsE_i59O7-W991o71_Jxw1QOtGMxn4nsOLHY8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZbRCq2NqWgK-HXAQI3So0N1n0nr4HonsJS3eQuuxukw__7Olkk8Locn8Dj0eR0Ww3rbV9lks9sxipcboMXB18RRs__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+
+	<!-- Head Libs -->
+	<script src="/sites/all/themes/stability/stability_aspe/vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/sites/all/themes/stability/vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" href="/sites/all/themes/stability/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/stability/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/stability/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/stability/images/apple-touch-icon-144x144.png">
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-66186 node-type-basic-report">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-JLFR"
+                  height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JLFR');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-nav" class="accessibility_menu">
+    <strong>Shortcut Navigation:</strong>
+    <ul>
+      <li><a href="#content" accesskey="c" title="Skip to page content (ctrl/alt + c)">Page Content</a></li>
+      <li><a href="#nav" accesskey="m" title="Skip to main navigation menu (ctrl/alt + m)">Site Navigation</a></li>
+
+      <li><a href="#Footer" accesskey="f" title="Skip to footer (ctrl/alt + f)">Footer</a></li>
+    </ul>
+  </div>
+
+    
+<div class="site-wrapper">
+  
+  <header class="header header-menu-fullw header-top-clean">
+    <div id="brand-bar">
+        <div class="container">
+                    <img alt='bird' src="/sites/all/themes/stability/stability_aspe/images/bird.png"> <a target="blank" tabindex="4" href="http://www.hhs.gov/">U.S. Department of Health & Human Services</a>
+        </div>
+
+    </div>
+    <div class="header-main">
+        <div class="container clearfix">
+            <div class="social-links-wrapper">
+                <ul class="social-links social-links__light">
+                                                          <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw.png"/></a></li>
+                                    <!--                  --><!--                    <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin.png"/></a></li>-->
+<!--                  -->
+                                                                      </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                                <div class="site_name_wrapper">
+                                     <span class="h1">
+                                      <a href="/">ASPE</a>
+                                       </span>
+                                  <p class="tagline"><p>Office of The Assistant Secretary</p><p> for Planning and Evaluation</p></p>
+                    </div>
+            </div>
+            <!-- Logo / End -->
+            <div class="header_right_wrapper">
+                <div class="search-form">
+                    <form action="/basic-report/impacts-waiting-periods-home-and-community-based-services-consumers-and-medicaid-long-term-care-costs-iowa" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class = "input-group"><div class="form-type-textfield form-item-search-block-form form-item form-group">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search Site..." class="form-control form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input class="btn btn-primary btn-icon form-submit" type="image" id="edit-submit" name="submit" value="Search" src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/search-white2.png" alt="Search" title="Search" /></div></div><input type="hidden" name="form_build_id" value="form-MeUGXsTuhMS0pQ1DUwyJloUhdEnsoRbitCoGsAont4Q" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </div>
+                <button type="button" class="navbar-toggle" value="Menu">
+                    <i class="fa fa-bars"></i>Menu
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-main">
+        <div class="container">
+          <ul data-breakpoint="767" class="flexnav">
+                <li class="first expanded"><a href="/basic-search/about" title="">About</a><ul><li class="first leaf"><a href="/mission" title="">Mission</a></li>
+<li class="leaf"><a href="/key-staff" title="">Leadership</a></li>
+<li class="leaf"><a href="https://www.usajobs.gov/" title="">Careers</a></li>
+<li class="expanded"><a href="/coordination" title="linkTo">Coordination</a><ul><li class="first leaf"><a href="/evaluation-evidence" title="">Evaluation &amp; Evidence</a></li>
+<li class="leaf"><a href="/national-alzheimers-project-act">National Alzheimer&#039;s Project Act</a></li>
+<li class="leaf"><a href="/health-and-human-services-hhs-data-council">HHS Data Council</a></li>
+<li class="last leaf"><a href="/national-committee-vital-and-health-statistics" title="National Council on Vital and Health Statistics">National Council on Vital and Health Statistics</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/divisions" title="">Offices</a><ul><li class="first leaf"><a href="/office-disability-aging-and-long-term-care-policy-daltcp">Disability, Aging, and Long-Term Care Policy</a></li>
+<li class="leaf"><a href="/office-health-policy-hp">Health Policy</a></li>
+<li class="leaf"><a href="/office-human-services-policy">Human Services Policy</a></li>
+<li class="last leaf"><a href="/office-science-and-data-policy">Science and Data Policy</a></li>
+</ul></li>
+<li class="leaf"><a href="/strategic-planning" title="Strategic Planning">Strategic Planning</a></li>
+<li class="last leaf"><a href="/contact-aspe" title="">Contact ASPE</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/topics" title="">Topics</a><ul><li class="first leaf"><a href="/affordable-care-act-research">Affordable Care Act Research</a></li>
+<li class="leaf"><a href="/alzheimers-dementia">Alzheimer&#039;s / Dementia</a></li>
+<li class="leaf"><a href="/early-childhood">Early Childhood</a></li>
+<li class="leaf"><a href="/incarceration-reentry">Incarceration &amp; Reentry</a></li>
+<li class="leaf"><a href="/opioid-abuse-us-and-hhs-actions-address-opioid-drug-related-overdoses-and-deaths" title="Opioids">Opioids</a></li>
+<li class="leaf"><a href="/patient-centered-outcomes-research-trust-fund">Patient-Centered Outcomes Research Trust Fund (PCORTF)</a></li>
+<li class="expanded"><a href="/basic-search/poverty" title="">Poverty</a><ul><li class="first leaf"><a href="/poverty-guidelines">Poverty Guidelines</a></li>
+<li class="last leaf"><a href="/poverty-estimates-trends-and-analysis">Poverty Analysis</a></li>
+</ul></li>
+<li class="leaf"><a href="/teen-pregnancy-prevention">Teen Pregnancy Prevention</a></li>
+<li class="leaf"><a href="/homelessness">Homelessness</a></li>
+<li class="last leaf"><a href="/medicare-access-and-chip-reauthorization-act-2015">MACRA</a></li>
+</ul></li>
+<li class="leaf"><a href="/reports" title="">Publications</a></li>
+<li class="last expanded"><a href="/basic-search/datasets" title="">Data and Tools</a><ul><li class="first last leaf"><a href="/evaluations" title="">Evaluation Database</a></li>
+</ul></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation / End -->
+</header>  <div class="main" role="main">
+    <!--PAGEWATCH CODE="USHHS_458"-->
+    <section class="page-heading">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+                <h1>
+                    
+          Impacts of Waiting Periods for Home and Community-Based Services on Consumers and Medicaid
+Long-Term Care Costs in Iowa        </h1>
+                                 <p class="author">
+                                                 <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2014-01-01T00:00:00-05:00">01/01/2014</span>               
+                           </p>
+
+
+                  </div>
+
+
+        <div class="col-md-6">
+           <ul class="breadcrumb"><li class="first"><a href="/" title="Home">Home</a></li>
+<li class="last">Impacts of Waiting Periods for...</li>
+</ul>        </div>
+
+
+    </div>
+  </div>
+</section>
+    
+      <div  class="nd-region nd-region-filter">
+  
+       
+
+    
+      <div  id="Filter" class="row">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region nd-region-similar-content">
+  
+       
+
+    
+      <div  id="Similar-Content" class="row">     
+
+        
+                  
+        
+                                    <div  id="top" class="">
+                          
+                              <div id="block-views-2100ccfdd214bdbcf634d7e4832c265b" class="widget block block-views solr-similar-content" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Similar</span> content</h3>
+		</div>
+    
+  <div class="view view-similar-content-solr view-id-similar_content_solr view-display-id-block_solr_similar_content view-dom-id-0afa6f9c40313c03296833b5158844fd">
+        
+  
+  
+      
+    
+    <span class="field-content"><a href="/pdf-report/impacts-waiting-periods-home-and-community-based-services-consumers-and-medicaid-long-term-care-costs-iowa">Impacts of Waiting Periods for Home and Community-Based Services on Consumers and Medicaid
+Long-Term Care Costs in Iowa</a></span>    
+    <span class="field-content"><a href="/basic-report/transition-rates-community-nursing-home-care-among-older-adult-medicaid-enrollees-2006-2009">Transition Rates from the Community to Nursing Home Care among Older Adult Medicaid Enrollees, 2006-2009</a></span>    
+    <span class="field-content"><a href="/basic-report/past-present-and-future-managed-long-term-care">The Past, Present, and Future of Managed Long-Term Care</a></span>    
+    <span class="field-content"><a href="/pdf-report/effect-nursing-home-use-medicaid-eligibility">The Effect of Nursing Home Use on Medicaid Eligibility</a></span>    
+    <span class="field-content"><a href="/basic-report/state-long-term-care-recent-developments-and-policy-directions">State Long-Term Care: Recent Developments and Policy Directions</a></span>  
+  
+  
+  
+  
+  
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Content">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  class="col-md-12 " id="content">
+                          
+                              <div id="block-aspe-aspe-addthis" class="widget block block-aspe" >
+  
+      
+  <div class="clearfix">
+  <ul class="addthis_sharing_toolbox node-share__links" data-url="https://aspe.hhs.gov/basic-report/impacts-waiting-periods-home-and-community-based-services-consumers-and-medicaid-long-term-care-costs-iowa" data-title="Impacts of Waiting Periods for Home and Community-Based Services on Consumers and Medicaid
+Long-Term Care Costs in Iowa">
+    <li><a class="addthis_button_print"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/print-white.png" alt="print" /></a></li>
+    <li><a class="addthis_button_email"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/mail-white.png" alt="email" /></a></li>
+    <li><a class="addthis_button_twitter"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/tw.png" alt="twitter" /></a></li>
+<!--    <li><a class="addthis_button_facebook">--><!--</a></li>-->
+    <li><a class="addthis_button_compact"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/plus-white.png" alt="compact" /></a></li>
+  </ul>
+</div>
+
+  </div> <!-- /.block -->
+
+                
+    
+  
+  <div class="content clearfix node-basic-report">
+    <!-- ASPE Report banner. --><!-- ASPE Banner for Reports --><p><a id="top" name="top"></a></p>
+<!-- --><!-- End ASPE Banner for Reports --><!-- End ASPE/HHS banner --><h1>Impacts of Waiting Periods for Home and Community-Based Services on Consumers and Medicaid Long-Term Care Costs in Iowa</h1>
+<h3>Greg Peterson, Randy Brown, Allison Barrett, Beny Wu and Christal Stone Valenzano</h3>
+<h3>Mathematica Policy Research</h3>
+<h3>January 2014</h3>
+<hr /><blockquote>
+<p><i>This report was prepared under contract #HHSP23320095642WC between the U.S. Department of Health and Human Services (HHS), Office of Disability, Aging and Long-Term Care Policy (DALTCP) and Mathematica Policy Research. For additional information about this subject, you can visit the DALTCP home page at <a href="http://aspe.hhs.gov/office_specific/daltcp.cfm">http://aspe.hhs.gov/office_specific/daltcp.cfm</a> or contact the ASPE Project Officers, Hakan Aykan and Pamela Doty, at HHS/ASPE/DALTCP, Room 424E, H.H. Humphrey Building, 200 Independence Avenue, S.W., Washington, D.C. 20201.  Their e-mail addresses are: <a href="mailto:Hakan.Aykan@hhs.gov">Hakan.Aykan@hhs.gov</a> and <a href="mailto:Pamela.Doty@hhs.gov">Pamela.Doty@hhs.gov</a>.</i></p>
+<p><i>The opinions and views expressed in this report are those of the authors. They do not necessarily reflect the views of the Department of Health and Human Services, the contractor or any other funding organization.</i></p>
+</blockquote>
+<hr /><h2>TABLE OF CONTENTS</h2>
+<dl><dt><a href="#acknow">ACKNOWLEDGMENTS</a></dt>
+</dl><dl><dt><a href="#abstract">ABSTRACT</a></dt>
+</dl><dl><dt><a href="#acronym">ACRONYMS</a></dt>
+</dl><dl><dt>I. <a href="#intro">INTRODUCTION</a></dt>
+</dl><dl><dt>II. <a href="#background">BACKGROUND AND HYPOTHESES</a></dt>
+</dl><dl><dt>III. <a href="#method">METHODS</a></dt>
+<dd>A. Study Population</dd>
+<dd>B. Design for Estimating Effects of Wait Times</dd>
+<dd>C. Study Outcomes</dd>
+<dd>D. Consumer Characteristics</dd>
+<dd>E. Definition of High Risk</dd>
+<dd>F. Statistical Analyses</dd>
+</dl><dl><dt>IV. <a href="#result">RESULTS</a></dt>
+<dd>A. Wait Times</dd>
+<dd>B. Applicant Characteristics</dd>
+<dd>C. Receipt of Waiver Services</dd>
+<dd>D. Impacts on Institutionalization Risk</dd>
+<dd>E. Impacts on Hospitalization Risk</dd>
+<dd>F. Impacts on Medicaid Long-Term Care Costs</dd>
+</dl><dl><dt>V. <a href="#discuss">DISCUSSION</a></dt>
+<dd>A. Summary of Findings</dd>
+<dd>B. Limitations</dd>
+<dd>C. Policy Implications</dd>
+</dl><dl><dt><a href="#ref">REFERENCES</a></dt>
+</dl><dl><dt><a href="#notes">NOTES</a></dt>
+</dl><dl><dt>APPENDICES</dt>
+<dd><a href="#appendA">APPENDIX A</a>: SUPPLEMENTARY TABLES</dd>
+</dl><dl><dt>LIST OF FIGURES</dt>
+<dd><a href="#figureIV.1">FIGURE IV.1</a>: Median Wait Time for Each Waiver Application Cohort, by Application Date</dd>
+</dl><dl><dt>LIST OF TABLES</dt>
+<dd><a href="#tableIV.1">TABLE IV.1</a>: Applicant Characteristics At or Near the Time of Waiver Application, by Wait Period Group and Waiver</dd>
+<dd><a href="#tableIV.2">TABLE IV.2</a>: Regression-Adjusted Risk of Ever Having a Long-Term Nursing Home Stay Within Three Years of Waiver Application Among Applicants Facing Short Versus Long Wait Times at Application</dd>
+<dd><a href="#tableIV.3">TABLE IV.3</a>: Regression-Adjusted Annualized Hospitalization Rates over the Three Years After Waiver Application Among Applicants Facing Short Versus Long Wait Times at Application</dd>
+<dd><a href="#tableIV.4">TABLE IV.4</a>: Regression-Adjusted Medicaid Long-Term Care Costs in the Three Years After Waiver Application Among Applicants Facing Short Versus Long Wait Times at Application</dd>
+<dd><a href="#tableA1">TABLE A.1</a>: Regression-Adjusted Odds Ratio for Risk of Ever Having a Long-Term Nursing Home Stay Within 36 Months After Application, by Wait Group, Among All High-Risk Applicants from 2002 through 2007</dd>
+<dd><a href="#tableA2">TABLE A.2</a>: Number of Applicants in Research Sample Who Applied to One or Multiple Waivers from January 1, 2002, through September 30, 2007</dd>
+<dd><a href="#tableA3">TABLE A.3</a>: Regression-Adjusted Odds Ratio for Risk of Ever Having a Long-Term Nursing Home Stay Within 36 Months After Application, by Wait Cohorts, Among High-Risk Applications for Any of the Three Waivers</dd>
+<dd><a href="#tableA4">TABLE A.4</a>: Regression-Adjusted Odds Ratio for Risk of Ever Having a Long-Term Nursing Home Stay Within 12-36 Months After Application, by Wait Group, Among High-Risk Applications for Any of the Three Waivers</dd>
+<dd><a href="#tableA5">TABLE A.5</a>: Regression-Adjusted Odds Ratio for Risk of Ever Having a Long-Term Nursing Home Stay Within 36 Months After Application, by Wait Group, Among High-Risk Applications in 2002 and 2003</dd>
+<dd><a href="#tableA6">TABLE A.6</a>: Receipt of Waiver Services, by Wait Period Group and Risk Level</dd>
+<dd><a href="#tableA7">TABLE A.7</a>: Frequently Used Waiver Services Among Waiver Enrollees</dd>
+</dl><h2><a id="acknow" name="acknow">ACKNOWLEDGMENTS</a></h2>
+<p>The authors would like to thank the many people who contributed to this report. We thank the staff at Iowa Medicaid Enterprise, including Brian Wines, Deborah Johnson, Mark McMahon, and Jennifer Vermeer, who took time from their busy schedules to provide us with data and to describe Iowa's Home and Community-Based Services waiver programs. We also wish to thank the ASPE staff who reviewed this report and/or the design report: Pam Doty, Hakan Aykan, Peter Kemper, and Allison Cuellar. Among Mathematica staff, we thank Joe Mastrianni, Bart Baker, Mark Flick, and Shinu Verghese who collected and analyzed claims data; Sharon Clark who carefully produced the report; and Betty Teller, who edited the report.</p>
+<h2><a id="abstract" name="abstract">ABSTRACT</a></h2>
+<p><b>Context</b>: People with disabilities who apply for home and community-based services (HCBS) offered under capped Medicaid 1915(c) waivers on a first-come, first-served basis often must wait a long time for services to become available. Little is known about how such delays affect consumers and Medicaid costs.</p>
+<p><b>Objective</b>: To assess the effects of waiting periods for waiver services in Iowa on risk of long-term nursing home stays and hospitalization, and on Medicaid long-term care costs.</p>
+<p><b>Study Design</b>: A quasi-experimental design that takes advantage of the variation in wait times that occurred for waiver programs in Iowa from 2002 to 2007. The study sample includes non-elderly, community-dwelling adult applicants (n = 5,254) to one of three waiver programs from 2002 to 2007: Health and Disability (H&amp;D), Physical Disability (PD) and Brain Injury (BI). All applicants were assigned a wait time based on the median wait among consumers who applied in the same month and eventually enrolled. Outcomes up to three years after application were compared among those facing short (less than six months) versus long (over six months) wait times, adjusting for applicants' characteristics at the time of application.</p>
+<p><b>Key Outcomes</b>: Long-term (90 days or more) nursing home stays, hospitalizations (all cause and potentially preventable), and Medicaid expenditures on long-term care services (community-based and institutional).</p>
+<p><b>Data</b>: Records from Iowa Medicaid on applicants for the waivers, including when they applied and how long they had to wait to receive the services, linked to Medicare and Medicaid claims from 2001 to 2010. All outcomes and applicant characteristics were constructed from the claims.</p>
+<p><b>Results</b>: Across the three waivers, consumers who applied when wait times were less than six months were 25 percent less likely to have ever had a long-term nursing home stay within three years of application than those who applied when wait times were longer (p = 0.07). This difference was larger among older applicants (those over age 40 for the BI waiver, and over age 55 for the other two waivers), who accounted for 42 percent of applicants and were at higher-risk of entering an institution than younger applicants. Among these older applicants, those with short wait times (versus long) had a 48 percent lower risk of having a long-term nursing home stay in the three years after application and had lower average Medicaid spending on long-term stays of $111 per person per month. These lower expenditures on nursing home care more than offset the higher expenditures on HCBS incurred by those in the short wait time group, which were a consequence of quicker access to (and therefore longer receipt of) waiver services. Among the younger waiver applicants, shorter wait time was not associated with the probability of having a long-term nursing home stay after application for two of the three waiver groups (H&amp;D and PD waivers). However, among applicants to the BI waiver, those with short wait times were less likely to have a long-term nursing stay than those with longer waits for both younger and older applicants. Rates of hospitalizations (all cause and potentially preventable) were high among the study population, but did not differ between those with short and long waits.</p>
+<p><b>Conclusions/Implications</b>: Short wait times appear to substantially reduce the risk of long-term nursing home use among waiver applicants, with effects concentrated among older applicants to the PD and H&amp;D waivers and among all BI waiver applicants. These findings support the value, both to consumers and Iowa Medicaid, of prioritizing waiting lists based on a patient's risk of institutionalization at the time of application, rather than solely on a first-come, first-served basis. The findings of lower long-term nursing home use for the short-wait group for both the younger (lower-risk) and older (higher-risk) subgroups among beneficiaries applying for the BI waiver, who received substantially greater amounts of HCBS than the other two waiver groups, suggest that the favorable effects of having a short wait time for services also depends on the <i>amount</i> of services that an individual needs. Thus, the amount of care needed should also be a factor in prioritizing waiting lists for services, if that can be determined at the time of application.</p>
+<h2><a id="acronym" name="acronym">ACRONYMS</a></h2>
+<p>The following acronyms are mentioned in this report and/or appendices.</p>
+<table border="0" class="footable table-align-left table" title="List of report acronyms"><thead><tr><td colspan="2" scope="col">Acronyms</td>
+</tr></thead><tbody><tr><td scope="row"><strong>ADL</strong></td>
+<td>Activity of Daily Living</td>
+</tr><tr><td colspan="2"> </td>
+</tr><tr><td scope="row"><strong>BI waiver</strong></td>
+<td>Brain Injury Waiver</td>
+</tr><tr><td colspan="2"> </td>
+</tr><tr><td scope="row"><strong>CDAC</strong></td>
+<td>Consumer-Directed Attendant Care</td>
+</tr><tr><td scope="row"><strong>CDPS</strong></td>
+<td>Chronic Illness and Disability Payment System  </td>
+</tr><tr><td colspan="2"> </td>
+</tr><tr><td scope="row"><strong>FPL</strong></td>
+<td>Federal Poverty Level</td>
+</tr><tr><td colspan="2"> </td>
+</tr><tr><td scope="row"><strong>H&amp;D waiver  </strong></td>
+<td>Health and Disability Waiver</td>
+</tr><tr><td scope="row"><strong>HCBS</strong></td>
+<td>Home and Community-Based Services</td>
+</tr><tr><td scope="row"><strong>HHA</strong></td>
+<td>Home Health Aide</td>
+</tr><tr><td colspan="2"> </td>
+</tr><tr><td scope="row"><strong>IADL</strong></td>
+<td>Instrumental Activity of Daily Living</td>
+</tr><tr><td scope="row"><strong>ID waiver</strong></td>
+<td>Intellectual Disability Waiver</td>
+</tr><tr><td colspan="2"> </td>
+</tr><tr><td scope="row"><strong>MAX</strong></td>
+<td>Medicaid Analytic eXtract</td>
+</tr><tr><td colspan="2"> </td>
+</tr><tr><td scope="row"><strong>PACE</strong></td>
+<td>Program of All-Inclusive Care for the Elderly</td>
+</tr><tr><td scope="row"><strong>PBPM</strong></td>
+<td>Per Beneficiary Per Month</td>
+</tr><tr><td scope="row"><strong>PD waiver</strong></td>
+<td>Physical Disability waiver</td>
+</tr><tr><td colspan="2"> </td>
+</tr><tr><td scope="row"><strong>QI</strong></td>
+<td>Quality Indicator</td>
+</tr><tr><td colspan="2"> </td>
+</tr><tr><td scope="row"><strong>SAF</strong></td>
+<td>Standard Analytic File</td>
+</tr><tr><td scope="row"><strong>SSI</strong></td>
+<td>Supplemental Security Income</td>
+</tr></tbody></table><h2><a id="intro" name="intro">I. INTRODUCTION</a></h2>
+<p>Most states provide home and community-based services (HCBS) to targeted groups of Medicaid consumers with disabilities through 1915(c) waivers. The purpose of these waivers is to enable consumers whose disabilities strongly limit their daily functioning to live independently in the community rather than needing to enter a nursing home or other institution. Unlike traditional Medicaid benefits, which must be made available equally to all Medicaid enrollees, states can use 1915(c) waivers to target HCBS to specific populations and can cap the total number of people receiving these services. Over the past 15 years, the number of people served under waivers has grown by about 6 percent each year, with 3.3 million served in 2009 (Ng et al. 2012). However, in most states, demand has outpaced the supply of waiver slots. In 2011, 38 states had waiting lists for one or more of their waivers. The number of people on waiting lists grew by 17 percent in 2010 and 19 percent in 2011, with a little over half a million people on waiting lists in 2011. Nationally, the average wait time for receiving waiver services is currently about two years (Ng et al. 2012).</p>
+<p>Despite the prevalence and growth of waiting lists, little is known about their effects on consumers and on Medicaid expenditures. Long wait times could increase an applicant's risk of entering a nursing home or of being hospitalized; this would harm consumers and could potentially increase total Medicaid spending, if increased institutional or hospital costs more than offset increased HCBS spending. Policymakers would benefit from evidence on the effects of waiting periods so that they can make informed decisions about the benefits and costs of reducing them and/or prioritizing waiting lists based on consumer need or risk of institutionalization. This study aims to help fill this gap by addressing the following two research questions: (1) Do long wait times increase the risk of long-term nursing home stays and hospitalizations as well as total Medicaid long-term care expenditures? and (2) Are effects larger for applicants who are at higher-risk of entering a nursing home soon after they apply for waiver services?</p>
+<p>We investigate these research questions among non-elderly adult applicants to three waivers in Iowa: Health and Disability (H&amp;D), Physical Disability (PD), and Brain Injury (BI). As of August 2012, 4,655 consumers were enrolled in these three waivers and an additional 3,152 were on waiting lists.<sup><a href="#note1">1</a></sup> We selected Iowa and these waivers because: (1) data were available from the state Medicaid office on who applied to the waivers and when; and (2) waiting periods for the services ranged from 3 to 25 months over the past decade, allowing us to examine the effects of variation in wait times on outcomes.</p>
+<p>All three waivers in this study serve consumers enrolled in Iowa Medicaid<sup><a href="#note2">2</a></sup> who are less than 65 years old<sup><a href="#note3">3</a></sup> and have a disability that limits their daily functioning enough to qualify them to live in a nursing facility or other institution. The PD waiver is further restricted to those who are over 18, have a physical disability as their impairment, are able to direct their service provider, and are not eligible for the Intellectual Disability (ID) waiver. H&amp;D waiver enrollees must have an income that does not exceed 300 percent of the Supplemental Security Income (SSI) threshold in Iowa but (for applicants over age 25) is above 100 percent of SSI. BI applicants must have a qualifying brain injury.</p>
+<p>When a consumer enrolls in one of these waivers, an Iowa case manager--working with the consumer (and caregivers, as applicable)--decides which specific waiver services and the amounts of those services to authorize for the individual. The waivers vary in the services they cover and the maximum monthly spending permitted. All three waivers provide personal care services for assistance with activities of daily living (ADLs, for example, bathing) and instrumental activities of daily living (IADLS, for example, meal preparation), emergency responses services, and home and vehicle modifications. The H&amp;D waiver also provides meals, homemaker services, and respite (among other services), whereas the BI waiver also provides supported community living and supported employment services. The maximum monthly dollar value of HCBS that a consumer can currently receive under each waiver is $2,868 for the BI waiver; between $922 and $3,267 for the H&amp;D waiver, depending on the level of care for which the consumer qualifies;<sup><a href="#note4">4</a></sup> and $672 for the PD waiver.</p>
+<p>The waiting lists in Iowa are first-come, first-served, meaning that individuals are put on the list based on the order in which they apply. Unlike some other states, Iowa Medicaid does not screen individuals for eligibility when they first apply for a waiver. Rather, the state performs a full eligibility assessment at the time a waiver slot becomes available to an applicant.<sup><a href="#note5">5</a></sup> Some HCBS may be available to consumers while they are on the waiting list. The Iowa Department of Human Services reimburses consumers partially or completely (depending on income) for personal care that they purchase privately, up to a maximum of $480 per month. Consumers who are enrolled in Medicaid while on the waiting list may access: (1) home health aide (HHA) services provided on an intermittent basis through the Medicaid state plan;<sup><a href="#note6">6</a></sup> and/or (2) other HCBS waivers that have shorter or no waiting periods. However, unlike some states, Iowa Medicaid does not provide personal care as a standard state plan benefit.</p>
+<h2><a id="background" name="background">II. BACKGROUND AND HYPOTHESES</a></h2>
+<p>Although we know of no other studies that have specifically examined the effects of waiting periods for Medicaid HCBS, there is a broader literature on the effects of HCBS on costs and service use. Several large evaluations of programs in the 1970s and 1980s found that increased access to HCBS lowered rates of institutionalization for some participants and that the most well-targeted programs produced the largest decrease in nursing home admissions (Weissert et al. 1988). Those same studies found no consistent effect on inpatient hospital use among HCBS program participants, despite high overall rates of hospital admission among this group. More recent studies have found a correlation between states with broader access to Medicaid HCBS and lower rates of potentially avoidable hospitalizations (Konetzka et al. 2012; Walsh et al. 2010), but the evidence is unclear as to whether access to HCBS is the cause of lower admission rates in these states.</p>
+<p>Because the per-capita costs for long-term services and supports are lower when provided in the community than in an institution, HCBS programs were initially expected to lower overall spending on long-term care. However, several studies have shown that because of poor targeting, expanding access to HCBS tends to increase overall spending, with most program participants unlikely to have incurred significant institutional long-term care costs in the absence of these services (Doty 2000; Grabowski 2006; Weissert et al. 1988). A small number of studies found that increased spending on Medicaid HCBS waiver programs reduced total long-term care spending compared to projected statewide long-term care costs (Grabowski 2006; Kaye 2012). However, the methods used in these studies limit their ability to draw causal conclusions about the effects of HCBS waiver programs on costs.</p>
+<p>Our hypotheses for this study draw from the literature cited above:</p>
+<ul><li>
+<p><b>Nursing home entry</b>. We hypothesize that a shorter wait time for HCBS waiver services will decrease the risk of nursing home entry. Faster access to supportive services should help waiver applicants at high-risk of institutionalization have their functional needs met without entering a nursing home.</p>
+</li>
+<li>
+<p><b>Acute care hospital stays</b>. We hypothesize that a shorter wait time may either increase or decrease the rate of hospitalization. Access to HCBS could decrease hospitalizations, for example, by providing assistance with ADLs and IADLs that reduces the risk of falls, pressure ulcers, dehydration, and inadequate nutrition, or by home care workers helping consumers follow medical regimens (for example, taking medications) and attend medical appointments that could reduce the risk of hospitalizations for ambulatory care-sensitive conditions. However, individuals in nursing homes may have faster access to medical care and more intensive monitoring of chronic medical conditions, which could catch problems early and prevent hospital admissions that would have occurred had the beneficiary been living in the community. If long wait times for HCBS waivers cause more people to enter nursing homes, the wait times could therefore reduce hospitalization rates.</p>
+</li>
+<li>
+<p><b>Long-term care costs</b>. We hypothesize that shorter wait times may cause long-term care costs to either rise or fall. Although the reduced likelihood of nursing home entry should decrease long-term care costs for some applicants, shorter wait times will also increase the total time that all applicants receive HCBS and, hence, increase total spending on waiver services.</p>
+</li>
+<li>
+<p><b>Variation in impacts</b>. We hypothesize that these effects may vary by type of waiver, as each targetsa different population facing different risks, provides a different set of services, and has a different monthly cap on spending. Additionally, we hypothesize that within each waiver, faster access to HCBS will have a larger impact on beneficiaries at higher-risk of long-term nursing home use.</p>
+</li>
+</ul><h2><a id="method" name="method">III. METHODS</a></h2>
+<h3><a id="sectionIII.A" name="sectionIII.A">A. Study Population</a></h3>
+<p>The study includes community-dwelling adults age 18 or older who applied to the BI, H&amp;D, or PD waivers between January 2002 and September 2007. We started by identifying the 9,066 unique applications for each of these three waivers during that time period. We then limited those applications to the 7,219 where the applicants were enrolled in Medicaid at the time of or within three months of application.<sup><a href="#note7">7</a></sup> Additionally, we excluded 471 applications where the applicant had no months of observable acute care claims data in the 36 months following waiver application<sup><a href="#note8">8</a></sup> and 322 applications where the applicant was in the middle of a long-term care stay (defined as a stay of 90 days or longer in a nursing facility) at the time of application.<sup><a href="#note9">9</a></sup> This yielded a total of 6,426 applications across the three waivers, submitted by 5,254 unique applicants (21 percent of applicants submitted more than one application<sup><a href="#note10">10</a></sup>). Among those who submitted more than one application, 90 percent submitted multiple applications on the same day (for example, they applied to both the PD and H&amp;D waiver on the same day). For these applicants, we selected for our analysis just the application with the shortest wait at the time of application, since the effective wait time for an individual is the shortest amount of time he or she needs to wait to get into any waiver applied for. For the 10 percent of cases in which a person submitted multiple applications on different days, we selected the earliest application for analysis. The final study population includes 5,254 unique applicants (with one application each), 785 of whom applied for the BI waiver, 2,287 for the PD waiver, and 2,182 for the H&amp;D waiver.</p>
+<h3>B. Design for Estimating Effects of Wait Times</h3>
+<p>Our analysis is quasi-experimental, exploiting the variation in wait time for a waiver slot opening over the six-year period. We used administrative waiting list data received from the Iowa Medicaid agency to: (1) identify individuals who applied for one of the three waivers between January 1, 2002, and September 30, 2007; and (2) for those who enrolled in a waiver, the time they waited from the date of application to the date they were first authorized to begin receiving waiver services.<sup><a href="#note11">11</a></sup> Over this period, wait times gradually increased as demand for slots outpaced supply, but with periodic dips due to state decisions to allocate funds to decrease waiting lists. All applicants were assigned the median wait time for applicants from the same month who ultimately enrolled in the waiver. Applicants who did not enroll in the waiver were retained in the analysis, as longer wait times were correlated with a lower likelihood of waiver enrollment that might be driven by important outcomes such as entry into a long-term care facility, or mortality.<sup><a href="#note12">12</a></sup> We compared outcomes for up to 36 months after application for groups of applicants who faced different median wait times when they applied. Since wait times were largely determined by state policies, they should be exogenous to a consumer's individual characteristics (see <a href="#result">Section IV</a> for confirmation that applicants in different wait groups have similar observed pre-application characteristics). This suggests that the groups may be similar on unmeasured characteristics as well, and that comparisons of outcomes between individuals who face different wait times should reasonably approximate the effects of wait times, not differences between the applicants.</p>
+<p>In examining outcomes, we initially grouped applicants into those with a median wait time of less than 6 months, 6-12 months, 12-18 months, 18-24 months, and longer than 24 months. We chose to treat wait times as categorical rather than continuous because we expected the relationship between wait times and the outcomes we were measuring might not be linear. In fact, we found no difference in the impacts on institutionalization risk (our primary outcome) between any of the groups with a median wait time longer than six months (see Appendix <a href="#tableA.3">Table A.3</a>). Our final analysis grouped all applicants into those facing less than a six-month median wait and those facing longer than a six-month median wait.</p>
+<h3>C. Study Outcomes</h3>
+<p>For each applicant, we measured three major outcomes in the first 36 months after waiver application: (1) the annualized rate of acute care hospitalizations; (2) whether the applicant ever had a long-term nursing home stay (defined as a stay of 90 days or more); and (3) the average monthly Medicaid long-term care costs, including both HCBS and all costs associated with long-term nursing home stays.<sup><a href="#note13">13</a></sup> Each outcome was created using Medicaid and Medicare enrollment and claims data drawn from the 2002-2010 Medicaid Analytic eXtract (MAX) files and Medicare Standard Analytic Files (SAF). Complete claims data were available through September 30, 2010; as a result, everyone in the sample (applicants through September 30, 2007) potentially could be followed up for at least 36 months. We selected a 36-month follow-up period to allow time for substantial risk of institutional care to develop among applicants, but the effects of wait times on institutionalization risk were similar during the 12 and 24 months following application (see Appendix <a href="#tableA.4">Table A.4</a>).</p>
+<p>For Medicaid enrollees who were not dually eligible for Medicare, we used the MAX inpatient file to count the total number of acute care inpatient stays and the number of potentially preventable stays in each month. For dually eligible Medicaid enrollees, we used the inpatient SAF to measure inpatient stays.<sup><a href="#note14">14</a></sup> We flagged as potentially preventable all stays that met the criteria for the HCBS Quality Indicators (QIs) (Schultz et al. 2012), as well as stays for constipation, seizures, and weight loss developed by Walsh et al. (2010) in their study of preventable hospitalizations among the institutionalized and HCBS waiver populations. Following the HCBS QI methodology, we considered all same-day readmissions to the same or another hospital to be transfers and counted them as an extension of the original stay rather than as a new stay. Hospitalization rates were only measured in months during which acute care claims were observable: non-dually eligible applicants must have been eligible for full Medicaid benefits and not enrolled in a Medicaid HMO or Program of All-Inclusive Care for the Elderly (PACE) plan, and dually eligible applicants must have been enrolled in Medicare Part A and Part B and not enrolled in a Medicare Advantage plan.</p>
+<p>Consistent with the current Money Follows the Person definition, we defined long-term nursing home stays as stays of longer than 90 days in a long-term care facility, measured using the MAX long-term care file for both dually and non-dually eligible enrollees.<sup><a href="#note15">15</a></sup> Costs associated with long-term institutional stays were measured by summing the Medicaid payment amount on all long-term care claims associated with a long-term care stay, including those costs incurred in the first 90 days of the stay. HCBS were measured using the MAX other services file, which includes all non-institutional claims. HHA services covered under the state plan were identified through the revenue code 571, and all HCBS covered under one of the three waivers were identified using a list of procedure codes provided by the Iowa Medicaid agency.<sup><a href="#note16">16</a></sup> Costs associated with HCBS were measured by summing the Medicaid payments on all HHA and waiver services claims. Long-term nursing home stays and monthly long-term care costs were only measured in months during which long-term care claims were observable; applicants (regardless of dual status) must have been enrolled in Medicaid and not in a Medicaid HMO or PACE plan.</p>
+<h3>D. Consumer Characteristics</h3>
+<p>We analyzed the MAX and Medicare enrollment and claims files to develop a list of consumer characteristics at or near the time of application that were used to: (1) describe the populations; (2) divide consumers into higher- and lower-risk categories based on age at application; and (3) control for measurable differences in the impact estimates between consumers facing short versus long median wait times at application. Beneficiary demographic characteristics and dually eligible status were drawn from the MAX person summary file. Residence in an urban or rural county was measured by merging on the Rural/Urban Continuum Code (in 2003) from the Area Resource File to the Federal Information Processing Standard County Code for the consumer's county of residence at the time of application. Each applicant's relative health status was measured by running the Chronic Illness and Disability Payment System (CDPS) grouper on all available Medicaid and Medicare claims in the 12-month window prior to waiver application (Kronick et al. 2000). For applicants who were not enrolled in Medicaid for the full year before application, the CDPS grouper was run on claims covering the applicant's first 12 months on Medicaid.<sup><a href="#note17">17</a></sup> Flags were created for each medium-cost or higher disease category in the CDPS for which the applicant met the criteria, and an overall illness-severity score was created by applying the concurrent CDPS weights for the disabled adult population.</p>
+<h3>E. Definition of High-Risk</h3>
+<p>Within each waiver, a person's age at application was highly correlated with his or her risk of having a long-term nursing home stay within 36 months after application. We therefore defined a high-risk group based on age for each waiver: older than age 55 for the H&amp;D and PD waivers, which serve individuals up to age 65, and older than age 40 for the BI waiver, which tends to enroll younger consumers.<sup><a href="#note18">18</a></sup> These risk groups accounted for 43 percent of the H&amp;D waiver applicants, 36 percent of the PD waiver applicants, and 54 percent of the BI waiver applicants. Across all three waivers, those in the high-risk group were 92 percent more likely (13.8 versus 7.2 percent) to enter an institution within 36 months than those in the lower-risk group (the complement to the high-risk group).</p>
+<h3>F. Statistical Analyses</h3>
+<p>To estimate the effects of wait times, we regressedthe study outcomes on a binary variable for whether the applicant had a short expected wait time (less than six months), the covariates listed above, and the year of application.<sup><a href="#note19">19</a></sup> The estimated coefficient for the binary wait variable is the estimate of the effect of wait times on outcomes, controlling for the covariates and application year.</p>
+<p>We ran four separate sets of regressions, once for each of the three waivers and one that pooled the applications for all three waivers. Each set of regressions was also run separately for all applicants and for the higher-risk and lower-risk applicants. The specific form of the regression and the weights assigned to each observation depended on the outcome. For the binary outcome of whether the applicant ever had a long-term nursing home stay within 36 months of application, we used a logistic regression. To account for censoring from not being able to observe outcomes for all applicants in all months, sample members for whom a nursing home stay was not observed were given a weight proportional to the fraction of the follow-up period that their outcomes were observable, and cases for which a stay was observed were given a weight of one (because the outcome was not censored). For all other outcomes (hospitalizations and Medicaid costs), we used a multivariate ordinary least squares regression. Observations were weighted by the number of months that an applicant's outcomes were observable over the 36 months after application.</p>
+<p>To focus on the effects of wait times, results are presented as predicted means as if all of the applicants in the sample had faced short wait times and long wait times. These means were calculated by: (1) using the regression model results to predict the outcome for each applicant as if he or she had a short wait time, and again as if the applicant had a long wait time; and (2) averaging those individual estimates across all applicants to get predicted mean outcomes as if all applicants had a short or long wait time.</p>
+<h2><a id="result" name="result">IV. RESULTS</a></h2>
+<h3>A. Wait Times</h3>
+<p>Applicants to the BI, H&amp;D, and PD waivers faced varying wait times to enroll in the waivers, depending on when they applied (<a href="#figureIV.1">Figure IV.1</a>). The median time spent on a waiting list generally lengthened between 2002 and 2004 (from less than 3 months to over 18 months) as demand increased faster than the supply of waiver slots, but an infusion of state funding in 2004 caused a notable drop in wait time. The wait time for the BI waiver was particularly volatile over time, in part because it had fewer applicants and slots than the H&amp;D and PD waivers.</p>
+<div>
+<p><b><font><a id="figureIV.1" name="figureIV.1">FIGURE IV.1</a>. Median Wait Time for Each Waiver Application Cohort, by Application Date</font></b></p>
+<p><img alt="FIGURE IV.1: This figure shows the variation in median wait time to enter the three waivers for individuals applying in each month between January 2002 and December 2007. The median wait time for the Physical Disability and Health and Disability Waivers followed a similar pattern. For both waivers, the median wait time ranged from 6 to 12 months in early 2002; dropped below 6 months in late 2002 and early 2003; rose steeply to around 18 months in early 2004; decreased gradually to about 10 months in the middle of 2005; rose gradually to about 18 months by the middle of 2007; then dropped to about 16 months by December 2007. The median wait time for the Brain Injury waiver followed a different pattern. It ranged from 2 to 6 months in 2002; rose steeply to about 22 months by January 2004; and declined steadily to about 5 months by December 2007." src="/system/files/images-reports-basic/66186/IAWaitPd-figIV1.JPG" /></p>
+</div>
+<h3>B. Applicant Characteristics</h3>
+<p>The applicants across all three waivers had multiple and severe chronic conditions, with an average CDPS score ranging from 1.92 to 3.24 (depending on the waiver), indicating that their expected acute care Medicaid costs were 2-3 times the average of beneficiaries with disabilities in Medicaid generally (who have an average score of 1.00) (<a href="#tableIV.1">Table IV.1</a>). Between 50 percent and 70 percent of applicants were also enrolled in Medicare due to disability at the time they applied for the waiver.<sup><a href="#note20">20</a></sup> The applicants to the H&amp;D waivers and the PD waivers were similar on many measured characteristics (including age, gender, and medical conditions), whereas the BI waiver applicants were generally younger, more likely to be male, and had fewer medical conditions. Reflecting the demographics of Iowa, more than 92 percent of applicants were non-Hispanic White.</p>
+<table border="1" class="footable table-align-left table" title="TABLE IV.1. Applicant Characteristics At or Near the Time of Waiver Application, by Wait Period Group and Waiver"><caption><font><b><a id="tableIV.1" name="tableIV.1">TABLE IV.1</a>. Applicant Characteristics At or Near the Time of Waiver Application, by Wait Period Group and Waiver(percentages)</b></font></caption>
+<thead><tr><td rowspan="2" scope="col"><font><b> </b></font></td>
+<td colspan="2" scope="col"><font><b>Brain Injury Waiver</b></font></td>
+<td colspan="2" scope="col"><font><b>Physical Disability Waiver</b></font></td>
+<td colspan="2" scope="col"><font><b>Health and Disability Waiver</b></font></td>
+</tr><tr><td scope="col"><font><b>  Short-Wait  Group</b></font></td>
+<td scope="col"><font><b>  Long-Wait  Group</b></font></td>
+<td scope="col"><font><b>  Short-Wait  Group</b></font></td>
+<td scope="col"><font><b>  Long-Wait  Group</b></font></td>
+<td scope="col"><font><b>  Short-Wait  Group</b></font></td>
+<td scope="col"><font><b>  Long-Wait  Group</b></font></td>
+</tr></thead><tfoot><tr><td colspan="7" scope="row"><b>NOTES</b>: The short-wait group includes applicants in cohorts with a wait time of six months or less. The long-wait group includes applicants in cohorts with a wait time of over six months. Applicants who were not enrolled in Medicaid at or within three months of waiver application are excluded from this table. Recent treatment for each condition was measured using the CDPS classifications, and includes those with medium-cost or higher conditions.<br /><ol type="a"><li>Different from short-wait group at p &lt; 0.05.</li>
+<li>Different from short-wait group at p &lt; 0.01.</li>
+</ol></td>
+</tr></tfoot><tbody><tr><td colspan="7" scope="row"><strong>Percentage of applicants</strong></td>
+</tr><tr><td scope="row"><strong>   Under age 45</strong></td>
+<td>57</td>
+<td>54</td>
+<td>31</td>
+<td>29</td>
+<td>24</td>
+<td>22</td>
+</tr><tr><td scope="row"><strong>   Ages 45 to 54</strong></td>
+<td>28</td>
+<td>29</td>
+<td>33</td>
+<td>31</td>
+<td>30</td>
+<td>31</td>
+</tr><tr><td scope="row"><strong>   Ages 55 to 59</strong></td>
+<td>10</td>
+<td>11</td>
+<td>18</td>
+<td>22</td>
+<td>18</td>
+<td>20</td>
+</tr><tr><td scope="row"><strong>   Age 60 or older</strong></td>
+<td>6</td>
+<td>5</td>
+<td>19</td>
+<td>19</td>
+<td>28</td>
+<td>27</td>
+</tr><tr><td scope="row"><strong>Non-Hispanic White</strong></td>
+<td>94</td>
+<td>96</td>
+<td>95</td>
+<td>92</td>
+<td>96</td>
+<td>95</td>
+</tr><tr><td scope="row"><strong>Non-Hispanic Black</strong></td>
+<td>5</td>
+<td>4</td>
+<td>5</td>
+<td>7</td>
+<td>4</td>
+<td>4</td>
+</tr><tr><td scope="row"><strong>Hispanic</strong></td>
+<td>1</td>
+<td>&lt;1</td>
+<td>&lt;1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr><tr><td scope="row"><strong>Male</strong></td>
+<td>58</td>
+<td>62</td>
+<td>31</td>
+<td>37</td>
+<td>44</td>
+<td>47</td>
+</tr><tr><td scope="row"><strong>Female</strong></td>
+<td>42</td>
+<td>38</td>
+<td>69</td>
+<td>63</td>
+<td>56</td>
+<td>53</td>
+</tr><tr><td scope="row"><strong>Dually eligible for Medicare</strong></td>
+<td>45</td>
+<td>55<sup>a</sup></td>
+<td>50</td>
+<td>47</td>
+<td>63</td>
+<td>70<sup>a</sup></td>
+</tr><tr><td colspan="7" scope="row"><strong>Recently treated for:</strong></td>
+</tr><tr><td scope="row"><strong>   Pulmonary condition</strong></td>
+<td>14</td>
+<td>15</td>
+<td>25</td>
+<td>23</td>
+<td>26</td>
+<td>26</td>
+</tr><tr><td scope="row"><strong>   Psychiatric condition</strong></td>
+<td>14</td>
+<td>16</td>
+<td>10</td>
+<td>16<sup>a</sup></td>
+<td>16</td>
+<td>15</td>
+</tr><tr><td scope="row"><strong>   Nervous system condition</strong></td>
+<td>17</td>
+<td>14</td>
+<td>30</td>
+<td>18<sup>b</sup></td>
+<td>18</td>
+<td>15</td>
+</tr><tr><td scope="row"><strong>   Skeletal condition</strong></td>
+<td>12</td>
+<td>11</td>
+<td>19</td>
+<td>18</td>
+<td>19</td>
+<td>18</td>
+</tr><tr><td scope="row"><strong>   Infectious disease</strong></td>
+<td>13</td>
+<td>11</td>
+<td>21</td>
+<td>20</td>
+<td>22</td>
+<td>23</td>
+</tr><tr><td scope="row"><strong>   Diabetes</strong></td>
+<td>7</td>
+<td>7</td>
+<td>22</td>
+<td>24</td>
+<td>25</td>
+<td>25</td>
+</tr><tr><td scope="row"><strong>   Gastrointestinal condition</strong></td>
+<td>6</td>
+<td>8</td>
+<td>14</td>
+<td>11</td>
+<td>17</td>
+<td>14</td>
+</tr><tr><td scope="row"><strong>   Cardiac condition</strong></td>
+<td>6</td>
+<td>7</td>
+<td>26</td>
+<td>24</td>
+<td>28</td>
+<td>29</td>
+</tr><tr><td scope="row"><strong>   Cancer</strong></td>
+<td>5</td>
+<td>6</td>
+<td>10</td>
+<td>8</td>
+<td>11</td>
+<td>12</td>
+</tr><tr><td scope="row"><strong>   Skin condition</strong></td>
+<td>1</td>
+<td>4</td>
+<td>12</td>
+<td>7<sup>b</sup></td>
+<td>7</td>
+<td>7</td>
+</tr><tr><td scope="row"><strong>   Renal condition</strong></td>
+<td>2</td>
+<td>3</td>
+<td>12</td>
+<td>13</td>
+<td>12</td>
+<td>15</td>
+</tr><tr><td scope="row"><strong>   Developmental disability  </strong></td>
+<td>1</td>
+<td>1</td>
+<td>&lt;1</td>
+<td>&lt;1</td>
+<td>&lt;1</td>
+<td>&lt;1</td>
+</tr><tr><td scope="row"><strong>Average CDPS score of applicant</strong></td>
+<td>1.92</td>
+<td>2.04</td>
+<td>3.11</td>
+<td>2.98</td>
+<td>3.16</td>
+<td>3.24</td>
+</tr></tbody></table><p>In each of the three waivers, the characteristics of applicants were similar for those in application cohorts facinga short (less than six months) or a long (more than six months) waiting period at application. There were five statistically significant differences between the long-wait and short-wait groups across the three waivers, which is close to the 3-4 that would be expected by chance alone among the 69 comparisons made if all characteristics were independent of each other (at the p &lt; 0.05 threshold). The five differences that were statistically significant were not particularly large and did not systematically favor one group over the other in terms of the risk of institutionalization or hospitalization.<sup><a href="#note21">21</a></sup> These results suggest that the a priori risk of hospitalization or institutionalization was similar for the short-wait and long-wait groups.</p>
+<h3>C. Receipt of Waiver Services</h3>
+<p>As expected, applicants who faced short wait times were much more likely to enroll in the waiver and to receive waivers services for more months during the 36 months after application than were those facing long wait times. Overall, about two-thirds of applicants in the short-wait group enrolled in the waiver within 36 months of application, compared with just 42 percent of applicants in the long-wait group (Appendix <a href="#tableA.6">Table A.6</a>). Driven at least in part by their higher enrollment rates, as well as by the longer period of time they were eligible for services once enrolled, applicants in the short-wait group received HCBS waiver services for an average of 13.1 out of the 36 months immediately following application, compared with only 6.0 months among the long-wait group. Once enrolled, participants in each waiver received a different mix of services, reflecting the different populations served by each waiver. Enrollees in the BI waiver received an average of $1,650 in HCBS each month, with most spending going toward supported community living ($815), consumer-directed attendant care (CDAC; $367), and case management ($227) (Appendix <a href="#tableA.7">Table A.7</a>). In contrast, enrollees in the H&amp;D and PD waivers averaged $561 and $428 in HCBS per month, with the majority of spending for those groups going towards CDAC.<sup><a href="#note22">22</a></sup></p>
+<h3>D. Impacts on Institutionalization Risk</h3>
+<p>Across all three waivers, applicants who faced a short wait time had a smaller regression-adjusted risk of ever having a long-term nursing home stay within 36 months of application (7.6 percent) than those who faced a long wait time (10.1 percent), and this difference was statistically significant (p = 0.07; <a href="#tableIV.2">Table IV.2</a>). These effects were concentrated among the 42 percent of applicants who were at higher-risk of nursing home use because of their age at the time of application. Among these applicants, those facing a short wait time had a 7.2 percent risk of having a long-term nursing home stay within 36 months versus 13.9 percent for those facing a long wait time (a 6.7 percentage point, or 48 percent, reduction in risk; p = 0.01). Estimated effects for the low-risk applicants were essentially zero and statistically insignificant.</p>
+<table border="1" class="footable table-align-left table" title="TABLE IV.2. Regression-Adjusted Risk of Ever Having a Long-Term Nursing Home Stay Within Three Years of Waiver Application Among Applicants Facing Short Versus Long Wait Times at Application"><caption><font><b><a id="tableIV.2" name="tableIV.2">TABLE IV.2</a>. Regression-Adjusted Risk of Ever Having a Long-Term Nursing Home Stay Within Three Years of Waiver Application Among Applicants Facing Short Versus Long Wait Times at Application</b></font></caption>
+<thead><tr><td rowspan="3" scope="col"><font><b>Applicant Risk Level</b></font></td>
+<td colspan="16" scope="col"><font><b>Mean (Predicted<sup>a</sup>) Percentage of Applicants Ever Having a Long-Term Nursing Home Stay Within Three Years of Application, Among Applicants for the Following Waivers (sample size)</b></font></td>
+</tr><tr><td colspan="4" scope="col"><font><b>Brain Injury</b></font></td>
+<td colspan="4" scope="col"><font><b>Physical Disability</b></font></td>
+<td colspan="4" scope="col"><font><b>Health and Disability</b></font></td>
+<td colspan="4" scope="col"><font><b>Any of the Three Waivers</b></font></td>
+</tr><tr><td scope="col"><font><b>  Long-Wait  </b></font></td>
+<td scope="col"><font><b>  Short-Wait  </b></font></td>
+<td scope="col"><font><b>  Diff.  </b></font></td>
+<td scope="col"><font><b>  p-Value  </b></font></td>
+<td scope="col"><font><b>  Long-Wait  </b></font></td>
+<td scope="col"><font><b>  Short-Wait  </b></font></td>
+<td scope="col"><font><b>  Diff.  </b></font></td>
+<td scope="col"><font><b>  p-Value  </b></font></td>
+<td scope="col"><font><b>  Long-Wait  </b></font></td>
+<td scope="col"><font><b>  Short-Wait  </b></font></td>
+<td scope="col"><font><b>  Diff.  </b></font></td>
+<td scope="col"><font><b>  p-Value  </b></font></td>
+<td scope="col"><font><b>  Long-Wait  </b></font></td>
+<td scope="col"><font><b>  Short-Wait  </b></font></td>
+<td scope="col"><font><b>  Diff.  </b></font></td>
+<td scope="col"><font><b>  p-Value  </b></font></td>
+</tr></thead><tfoot><tr><td colspan="17" scope="row"><b>NOTE</b>: The sample includes applications between January 1, 2002, and September 30, 2007, with outcomes measured through September 30, 2010. An applicant's wait is short if the median time that all applicants who applied in the same month (and enrolled) waited from their date of application to the date they started receiving waiver services was six months or less. A long wait time is more than six months.<br /><ol type="a"><li>For each application, the probability that the applicant will ever have a long-term nursing home stay within three years of application is predicted based on the applicant's measured baseline characteristics and the regression-estimated effect of each of those characteristics on the outcome. The mean predicted percentage ever having a long-term stay equals the mean predicted outcome if all applicants had faced a short (or long) wait time (see <a href="#method">Section III</a> for details). In the regressions, sample members for whom a long-term nursing home stay was not observed were given a weight proportional to the fraction of the follow-up period that their outcomes were observable, and cases for which a stay was observed were given a weight of one.</li>
+<li>Higher-risk applicants include applicants to the H&amp;D or PD waiver who were older than age 55 at the time of application and applicants to the BI waiver who were older than age 40 at application. Lower-risk applicants are those ages 55 and under (for the H&amp;D and PD waivers) and ages 40 and under for the BI waiver.</li>
+</ol></td>
+</tr></tfoot><tbody><tr><td scope="row"><strong>All applicants  </strong></td>
+<td>10.4%(564)</td>
+<td>5.5%(221)</td>
+<td>-4.9%</td>
+<td>0.04</td>
+<td>8.6%(2,053)</td>
+<td>6.2%(234)</td>
+<td>-2.4%</td>
+<td>0.27</td>
+<td>11.5%(1,896)</td>
+<td>10.6%(286)</td>
+<td>-0.9%</td>
+<td>0.74</td>
+<td>10.1%(4,513)</td>
+<td>7.6%(741)</td>
+<td>-2.5%</td>
+<td>0.07</td>
+</tr><tr><td scope="row"><strong>Higher-risk<sup>b</sup></strong></td>
+<td>12.4%(306)</td>
+<td>6.7%(114)</td>
+<td>-5.7%</td>
+<td>0.12</td>
+<td>11.5%(743)</td>
+<td>2.3%(74)</td>
+<td>-9.2%</td>
+<td>0.02</td>
+<td>16.6%(827)</td>
+<td>12.2%(120)</td>
+<td>-4.4%</td>
+<td>0.34</td>
+<td>13.9%(1,876)</td>
+<td>7.2%(308)</td>
+<td>-6.7%</td>
+<td>0.01</td>
+</tr><tr><td scope="row"><strong>Lower-risk<sup>b</sup></strong></td>
+<td>9.2%(258)</td>
+<td>3.3%(107)</td>
+<td>-5.9%</td>
+<td>0.07</td>
+<td>6.9%(1,310)</td>
+<td>9.5%(160)</td>
+<td>2.6%</td>
+<td>0.37</td>
+<td>7.5%(1,069)</td>
+<td>9.4%(166)</td>
+<td>1.9%</td>
+<td>0.50</td>
+<td>7.4%(2,637)</td>
+<td>7.6%(433)</td>
+<td>0.2%</td>
+<td>0.90</td>
+</tr></tbody></table><p>The results for the individual waivers indicate that short wait times decreased the 36-month risk of long-term nursing home use among all BI waiver applicants, not just those who were at higher-risk. Short wait times reduced the 36-month risk for all applicants from 10.4 percent to 5.5 percent, a 4.9 percentage point (or 47 percent) reduction in risk (p = 0.04). The percentage point reductions were similar for the high-risk and low-risk applicants (5.7 percent and 5.9 percent, respectively), although only the difference for the lower-risk group was statistically significant (p = 0.07). The lack of significant effects for the higher-risk group is likely due to the lower statistical power to detect effects with the smaller sample sizes that result when the BI waiver sample is split into the two subgroups.</p>
+<p>In contrast to the BI waiver, the effects for the PD waiver applicants were clearly concentrated among higher-risk applicants. For these applicants, short wait times reduced the 36-month risk of having a long-term nursing home stay from 11.5 percent to 2.3 percent, a 9.2 percentage point (or 80 percent) reduction in risk (p = 0.02). Shorter wait times had no measureable effect for the lower-risk applicants (a point estimate of 2.6 percentage point increase in risk for the short wait time group, p = 0.37). The point estimates for the impacts for the H&amp;D waiver also suggest that impacts may be stronger for higher-risk applicants, but none of these differences were statistically significant (p &gt; 0.34).</p>
+<h3>E. Impacts on Hospitalization Rates</h3>
+<p>Overall, waiver applicants had an average of 0.9 acute care hospital stays per year, about one-third of which were potentially avoidable (<a href="#tableIV.3">Table IV.3</a>). This hospitalization rate is much higher than both the nationwide average of 0.1 stays per year among all United States residents and 0.3 stays among Medicare beneficiaries (Weir et al. 2011; Centers for Disease Control and Prevention 2013). Applicants to the H&amp;D and PD waivers had more than twice as many stays on average than BI waiver applicants; within each waiver, hospital stays were more frequent among the high-risk group compared with the low-risk group. However, wait time had no significant effect on hospitalizations overall or in any subgroup.</p>
+<table border="1" class="footable table-align-left table" title="TABLE IV.3. Regression-Adjusted Annualized Hospitalization Rates over the Three Years After Waiver Application Among Applicants Facing Short Versus Long Wait Times at Application"><caption><font><b><a id="tableIV.3" name="tableIV.3">TABLE IV.3</a>. Regression-Adjusted Annualized Hospitalization Rates over the Three Years After Waiver Application Among Applicants Facing Short Versus Long Wait Times at Application</b></font></caption>
+<thead><tr><td rowspan="3" scope="col"><font><b>Type of Hospitalization</b></font></td>
+<td colspan="16" scope="col"><font><b>Mean (Predicted<sup>a</sup>) Annualized Hospitalization Rates (#/person/year) Among Applicants for the Following Waivers</b></font></td>
+</tr><tr><td colspan="4" scope="col"><font><b>Brain Injury</b></font></td>
+<td colspan="4" scope="col"><font><b>Physical Disability</b></font></td>
+<td colspan="4" scope="col"><font><b>Health and Disability</b></font></td>
+<td colspan="4" scope="col"><font><b>Any of the Three Waivers</b></font></td>
+</tr><tr><td scope="col"><font><b>  Long-Wait  </b></font></td>
+<td scope="col"><font><b>  Short-Wait  </b></font></td>
+<td scope="col"><font><b>  Diff.  </b></font></td>
+<td scope="col"><font><b>  p-Value  </b></font></td>
+<td scope="col"><font><b>  Long-Wait  </b></font></td>
+<td scope="col"><font><b>  Short-Wait  </b></font></td>
+<td scope="col"><font><b>  Diff.  </b></font></td>
+<td scope="col"><font><b>  p-Value  </b></font></td>
+<td scope="col"><font><b>  Long-Wait  </b></font></td>
+<td scope="col"><font><b>  Short-Wait  </b></font></td>
+<td scope="col"><font><b>  Diff.   </b></font></td>
+<td scope="col"><font><b>  p-Value   </b></font></td>
+<td scope="col"><font><b>  Long-Wait   </b></font></td>
+<td scope="col"><font><b>  Short-Wait  </b></font></td>
+<td scope="col"><font><b>  Diff.   </b></font></td>
+<td scope="col"><font><b>  p-Value   </b></font></td>
+</tr></thead><tfoot><tr><td colspan="17" scope="row"><b>NOTE</b>: The sample includes applications between January 1, 2002, and September 30, 2007, with outcomes measured through September 30, 2010. An applicant's wait is short if the median time that all applicants who applied in the same month (and enrolled) waited from their date of application to the date they started receiving waiver services was six months or less. A long wait time is more than six months.<br /><ol type="a"><li>For each application, the annualized number of hospitalizations during the three years after application is predicted based on the applicant's measured baseline characteristics and the regression-estimated effect of each of those characteristics on the outcome. The mean predicted annualized hospitalization rate equals the mean predicted outcome if all applicants had faced a short (or long) wait time (see <a href="#method">Section III</a> for details). The regression models weights the observations by the number of months that an applicant's outcomes were observable over the three years after application.</li>
+<li>Includes the stays that met the criteria for the HCBS QIs (Schultz et al. 2012) and stays for constipation, seizures, and weight loss developed by Walsh et al. (2010).</li>
+<li>Higher-risk applicants include applicants to the H&amp;D or PD waiver who were older than age 55 at the time of application and applicants to the BI waiver who were older than age 40 at application. Lower-risk applicants are those ages 55 and under (for the H&amp;D waivers) and ages 40 and under for the BI waiver.</li>
+</ol></td>
+</tr></tfoot><tbody><tr><td class="active" colspan="17" scope="row"><strong>All Applicants</strong></td>
+</tr><tr><td scope="row"><strong>Any</strong></td>
+<td>0.38</td>
+<td>0.47</td>
+<td>0.09</td>
+<td>0.14</td>
+<td>0.99</td>
+<td>0.88</td>
+<td>-0.11</td>
+<td>0.31</td>
+<td>1.05</td>
+<td>1.05</td>
+<td>0.00</td>
+<td>0.99</td>
+<td>0.93</td>
+<td>0.91</td>
+<td>-0.02</td>
+<td>0.74</td>
+</tr><tr><td scope="row"><strong>Potentially preventable<sup>b</sup>  </strong></td>
+<td>0.11</td>
+<td>0.11</td>
+<td>0.00</td>
+<td>0.87</td>
+<td>0.30</td>
+<td>0.27</td>
+<td>-0.03</td>
+<td>0.52</td>
+<td>0.32</td>
+<td>0.25</td>
+<td>-0.06</td>
+<td>0.20</td>
+<td>0.28</td>
+<td>0.25</td>
+<td>-0.04</td>
+<td>0.22</td>
+</tr><tr><td class="active" colspan="17" scope="row"><strong>Higher-Risk Applicants<sup>c</sup></strong></td>
+</tr><tr><td scope="row"><strong>Any</strong></td>
+<td>0.49</td>
+<td>0.65</td>
+<td>0.16</td>
+<td>0.10</td>
+<td>1.03</td>
+<td>1.01</td>
+<td>-0.02</td>
+<td>0.90</td>
+<td>1.12</td>
+<td>1.14</td>
+<td>0.01</td>
+<td>0.92</td>
+<td>0.97</td>
+<td>1.02</td>
+<td>0.05</td>
+<td>0.57</td>
+</tr><tr><td scope="row"><strong>Potentially preventable</strong></td>
+<td>0.13</td>
+<td>0.15</td>
+<td>0.03</td>
+<td>0.45</td>
+<td>0.32</td>
+<td>0.28</td>
+<td>-0.04</td>
+<td>0.65</td>
+<td>0.35</td>
+<td>0.31</td>
+<td>-0.04</td>
+<td>0.58</td>
+<td>0.30</td>
+<td>0.27</td>
+<td>-0.02</td>
+<td>0.58</td>
+</tr><tr><td class="active" colspan="17" scope="row"><strong>Lower-Risk Applicants<sup>c</sup></strong></td>
+</tr><tr><td scope="row"><strong>Any</strong></td>
+<td>0.26</td>
+<td>0.27</td>
+<td>0.01</td>
+<td>0.89</td>
+<td>0.97</td>
+<td>0.82</td>
+<td>-0.15</td>
+<td>0.25</td>
+<td>1.00</td>
+<td>0.97</td>
+<td>-0.03</td>
+<td>0.84</td>
+<td>0.90</td>
+<td>0.82</td>
+<td>-0.07</td>
+<td>0.33</td>
+</tr><tr><td scope="row"><strong>Potentially preventable</strong></td>
+<td>0.08</td>
+<td>0.08</td>
+<td>0.01</td>
+<td>0.88</td>
+<td>0.30</td>
+<td>0.27</td>
+<td>-0.03</td>
+<td>0.69</td>
+<td>0.30</td>
+<td>0.22</td>
+<td>-0.08</td>
+<td>0.23</td>
+<td>0.27</td>
+<td>0.22</td>
+<td>-0.05</td>
+<td>0.23</td>
+</tr></tbody></table><h3>F. Impacts on Medicaid Long-Term Care Costs</h3>
+<p><a href="#tableIV.4">Table IV.4</a> shows estimated impacts of wait times on Medicaid long-term care costs. Among all applicants to any of the three waivers, short wait times:</p>
+<ul><li>
+<p>Increased the average monthly Medicaid costs for waiver services within the 36 months after application (by an estimated $122 per beneficiary per month (PBPM), p &lt; 0.01). This is expected; it reflects the increased costs arising from quicker access to HCBS and, therefore, more months during which HCBS were received.</p>
+</li>
+<li>
+<p>Decreased spending in other waivers<sup><a href="#note23">23</a></sup> by an estimated $52 (p = 0.02), an effect that was driven by $134 PBPM lower spending on other waivers among the BI waiver applicants (p = 0.03). These data indicate that, when faced with long wait times for the BI waiver, some consumers with brain injuries enrolled in a different waiver for which they were also qualified. For example, BI waiver applicants may have a physical disability or long-term health condition that qualifies them for the PD or H&amp;D waivers.</p>
+</li>
+<li>
+<p>Decreased Medicaid costs for long-term nursing home stays. The point estimates show that the short-wait group had $56 PBPM less in spending in institutional care ($104 versus $160); this difference was statistically significant (p = 0.09).</p>
+</li>
+</ul><p>As with the impact on risk of long-term nursing home stays, impacts of waiting time on the costs of long-term nursing home stays were concentrated among higher-risk applicants. For these applicants, short wait times decreased long-term nursing home costs by an estimated $111 PBPM (p = 0.01) which, when combined with savings on other waiver services ($58, p = 0.01), fully offset the increased costs in HCBS provided through the waiver ($146 PBPM, p &lt; 0.01). As a result, the short wait times for the high-risk applicants decreased the risk of long-term nursing home stays without increasing total Medicaid spending on long-term care services (p = 0.67).</p>
+<table border="1" class="footable table-align-left table" title="TABLE IV.4. Regression-Adjusted Medicaid Long-Term Care Costs in the Three Years After Waiver Application Among Applicants Facing Short Versus Long Wait Times at Application"><caption><font><b><a id="tableIV.4" name="tableIV.4">TABLE IV.4</a>. Regression-Adjusted Medicaid Long-Term Care Costs in the Three Years After Waiver Application Among Applicants Facing Short Versus Long Wait Times at Application</b></font></caption>
+<thead><tr><td rowspan="3" scope="col"><font><b>Medicaid Long-Term Care Category</b></font></td>
+<td colspan="16" scope="col"><font><b>Mean (Predicted<sup>a</sup>) Monthly Medicaid Long-Term Care Costs (#/person/month) Among Applicants for the Following Waivers</b></font></td>
+</tr><tr><td colspan="4" scope="col"><font><b>Brain Injury</b></font></td>
+<td colspan="4" scope="col"><font><b>Physical Disability</b></font></td>
+<td colspan="4" scope="col"><font><b>Health and Disability</b></font></td>
+<td colspan="4" scope="col"><font><b>Any of the Three Waivers</b></font></td>
+</tr><tr><td scope="col"><font><b>  Long-Wait   </b></font></td>
+<td scope="col"><font><b>  Short-Wait  </b></font></td>
+<td scope="col"><font><b>  Diff.  </b></font></td>
+<td scope="col"><font><b>  p-Value  </b></font></td>
+<td scope="col"><font><b>  Long-Wait  </b></font></td>
+<td scope="col"><font><b>  Short-Wait  </b></font></td>
+<td scope="col"><font><b>  Diff.  </b></font></td>
+<td scope="col"><font><b>  p-Value  </b></font></td>
+<td scope="col"><font><b>  Long-Wait  </b></font></td>
+<td scope="col"><font><b>  Short-Wait  </b></font></td>
+<td scope="col"><font><b>  Diff.  </b></font></td>
+<td scope="col"><font><b>  p-Value  </b></font></td>
+<td scope="col"><font><b>  Long-Wait  </b></font></td>
+<td scope="col"><font><b>  Short-Wait  </b></font></td>
+<td scope="col"><font><b>  Diff.  </b></font></td>
+<td scope="col"><font><b>  p-Value  </b></font></td>
+</tr></thead><tfoot><tr><td colspan="17" scope="row"><b>NOTE</b>: The sample includes applications between January 1, 2002, and September 30, 2007, with outcomes measured through September 30, 2010. An applicant's wait is short if the median time that all applicants who applied in the same month (and enrolled) waited from their date of application to the date they started receiving waiver services was six months or less. A long wait time is more than six months.<br /><ol type="a"><li>For each application, the average monthly Medicaid long-term care costs during the three years after application is predicted based on the applicant's measured baseline characteristics and the regression-estimated effect of each of those characteristics on the outcome. The mean predicted Medicaid costs equals the mean predicted outcome if all applicants had faced a short (or long) wait time (see <a href="#method">Section III</a> for details). The regression models weight the observations by the number of months that an applicant's outcomes were observable over the three years after application.</li>
+<li>HCBS provided through the waiver that the application was for.</li>
+<li>HCBS provided through Iowa Medicaid waivers other than the one that the application was for.</li>
+<li>Higher-risk applicants include applicants to the H&amp;D or PD waiver who were older than age 55 at the time of application and applicants to the BI waiver who were older than age 40 at application. Lower-risk applicants are those ages 55 and under (for the H&amp;D waivers) and ages 40 and under for the BI waiver.</li>
+<li>For long-term nursing home stay costs for high-risk applicants to the PD waiver, we used the actual mean costs (rather than the predicted costs) for the short-wait group, and set the costs for the long-wait group equal to the short-wait group's costs plus the regression-adjusted differences in means between the two groups. We did this because the predicted mean cost for those with short wait times was less than zero, which may be due to statistical imprecision in the estimates of the effects of covariates (used to generated predicted means) on long-term care costs. The estimated average effect is correctly calculated and is assumed under the linear model to be constant across individuals; the mean values displayed for the two groups are arbitrary reference points.</li>
+</ol></td>
+</tr></tfoot><tbody><tr><td class="active" colspan="17" scope="row"><strong>All Applicants</strong></td>
+</tr><tr><td colspan="17" scope="row"><strong>HCBS costs</strong></td>
+</tr><tr><td scope="row"><strong>   Application waiver<sup>b</sup></strong></td>
+<td>475</td>
+<td>721</td>
+<td>247</td>
+<td>&lt;0.01</td>
+<td>102</td>
+<td>144</td>
+<td>42</td>
+<td>&lt;0.01</td>
+<td>137</td>
+<td>242</td>
+<td>105</td>
+<td>&lt;0.01</td>
+<td>174</td>
+<td>297</td>
+<td>122</td>
+<td>&lt;0.01</td>
+</tr><tr><td scope="row"><strong>   Other waiver(s)<sup>c</sup></strong></td>
+<td>289</td>
+<td>155</td>
+<td>-134</td>
+<td>0.03</td>
+<td>118</td>
+<td>89</td>
+<td>-28</td>
+<td>0.39</td>
+<td>108</td>
+<td>104</td>
+<td>-4</td>
+<td>0.91</td>
+<td>139</td>
+<td>87</td>
+<td>-52</td>
+<td>0.02</td>
+</tr><tr><td scope="row"><strong>   State plan HHA</strong></td>
+<td>33</td>
+<td>32</td>
+<td>-1</td>
+<td>0.92</td>
+<td>46</td>
+<td>63</td>
+<td>16</td>
+<td>0.29</td>
+<td>35</td>
+<td>18</td>
+<td>-17</td>
+<td>0.08</td>
+<td>40</td>
+<td>40</td>
+<td>0</td>
+<td>0.98</td>
+</tr><tr><td scope="row"><strong>Long-term nursing home stay costs  </strong></td>
+<td>236</td>
+<td>104</td>
+<td>-132</td>
+<td>0.09</td>
+<td>152</td>
+<td>128</td>
+<td>-24</td>
+<td>0.70</td>
+<td>143</td>
+<td>109</td>
+<td>-34</td>
+<td>0.38</td>
+<td>160</td>
+<td>104</td>
+<td>-56</td>
+<td>0.09</td>
+</tr><tr><td scope="row"><strong>Total</strong></td>
+<td>1,032</td>
+<td>1,012</td>
+<td>-20</td>
+<td>0.84</td>
+<td>418</td>
+<td>425</td>
+<td>6</td>
+<td>0.93</td>
+<td>424</td>
+<td>473</td>
+<td>50</td>
+<td>0.33</td>
+<td>514</td>
+<td>527</td>
+<td>14</td>
+<td>0.73</td>
+</tr><tr><td class="active" colspan="17" scope="row"><strong>Higher-Risk Applicants<sup>d</sup></strong></td>
+</tr><tr><td colspan="17" scope="row"><strong>HCBS costs</strong></td>
+</tr><tr><td scope="row"><strong>   Application waiver</strong></td>
+<td>467</td>
+<td>756</td>
+<td>289</td>
+<td>&lt;0.01</td>
+<td>86</td>
+<td>144</td>
+<td>58</td>
+<td>&lt;0.01</td>
+<td>113</td>
+<td>157</td>
+<td>44</td>
+<td>0.02</td>
+<td>171</td>
+<td>318</td>
+<td>146</td>
+<td>&lt;0.01</td>
+</tr><tr><td scope="row"><strong>   Other waiver(s)</strong></td>
+<td>236</td>
+<td>121</td>
+<td>-115</td>
+<td>0.08</td>
+<td>110</td>
+<td>103</td>
+<td>-7</td>
+<td>0.85</td>
+<td>68</td>
+<td>74</td>
+<td>6</td>
+<td>0.78</td>
+<td>118</td>
+<td>60</td>
+<td>-58</td>
+<td>0.01</td>
+</tr><tr><td scope="row"><strong>   State plan HHA</strong></td>
+<td>38</td>
+<td>32</td>
+<td>-6</td>
+<td>0.73</td>
+<td>35</td>
+<td>37</td>
+<td>2</td>
+<td>0.94</td>
+<td>27</td>
+<td>29</td>
+<td>2</td>
+<td>0.85</td>
+<td>32</td>
+<td>35</td>
+<td>2</td>
+<td>0.80</td>
+</tr><tr><td scope="row"><strong>Long-term nursing home stay costs</strong></td>
+<td>215</td>
+<td>139</td>
+<td>-76</td>
+<td>0.33</td>
+<td>197</td>
+<td>45<sup>e</sup></td>
+<td>-152</td>
+<td>0.03</td>
+<td>199</td>
+<td>105</td>
+<td>-94</td>
+<td>0.15</td>
+<td>180</td>
+<td>69</td>
+<td>-111</td>
+<td>0.01</td>
+</tr><tr><td scope="row"><strong>Total</strong></td>
+<td>955</td>
+<td>1,048</td>
+<td>93</td>
+<td>0.44</td>
+<td>428</td>
+<td>329</td>
+<td>-99</td>
+<td>0.19</td>
+<td>407</td>
+<td>365</td>
+<td>-42</td>
+<td>0.53</td>
+<td>502</td>
+<td>481</td>
+<td>-20</td>
+<td>0.67</td>
+</tr><tr><td class="active" colspan="17" scope="row"><strong>Lower-Risk Applicants<sup>d</sup></strong></td>
+</tr><tr><td colspan="17" scope="row"><strong>HCBS costs</strong></td>
+</tr><tr><td scope="row"><strong>   Application waiver</strong></td>
+<td>510</td>
+<td>642</td>
+<td>132</td>
+<td>0.14</td>
+<td>111</td>
+<td>145</td>
+<td>34</td>
+<td>0.02</td>
+<td>156</td>
+<td>297</td>
+<td>141</td>
+<td>&lt;0.01</td>
+<td>177</td>
+<td>279</td>
+<td>101</td>
+<td>&lt;0.01</td>
+</tr><tr><td scope="row"><strong>   Other waiver(s)</strong></td>
+<td>356</td>
+<td>186</td>
+<td>-170</td>
+<td>0.13</td>
+<td>121</td>
+<td>82</td>
+<td>-39</td>
+<td>0.40</td>
+<td>137</td>
+<td>134</td>
+<td>-3</td>
+<td>0.96</td>
+<td>153</td>
+<td>113</td>
+<td>-39</td>
+<td>0.25</td>
+</tr><tr><td scope="row"><strong>   State plan HHA</strong></td>
+<td>28</td>
+<td>30</td>
+<td>2</td>
+<td>0.90</td>
+<td>53</td>
+<td>74</td>
+<td>21</td>
+<td>0.31</td>
+<td>41</td>
+<td>10</td>
+<td>-31</td>
+<td>0.04</td>
+<td>45</td>
+<td>44</td>
+<td>-1</td>
+<td>0.90</td>
+</tr><tr><td scope="row"><strong>Long-term nursing home stay costs</strong></td>
+<td>258</td>
+<td>55</td>
+<td>-203</td>
+<td>0.15</td>
+<td>161</td>
+<td>197</td>
+<td>37</td>
+<td>0.68</td>
+<td>100</td>
+<td>114</td>
+<td>14</td>
+<td>0.77</td>
+<td>147</td>
+<td>118</td>
+<td>-29</td>
+<td>0.56</td>
+</tr><tr><td scope="row"><strong>Total</strong></td>
+<td>1,151</td>
+<td>913</td>
+<td>-238</td>
+<td>0.19</td>
+<td>446</td>
+<td>498</td>
+<td>52</td>
+<td>0.60</td>
+<td>435</td>
+<td>555</td>
+<td>120</td>
+<td>0.10</td>
+<td>522</td>
+<td>554</td>
+<td>32</td>
+<td>0.59</td>
+</tr></tbody></table><p>Turning to the results for the individual waivers, short wait times increased HCBS costs the most for the BI waiver (by $247 PBPM, p &lt; 0.01) versus $42 for the PD waiver and $105 for the H&amp;D waivers. These results are consistent with the fact that the breadth of services and the maximum cap on expenditures are much higher for the BI waiver than for the other two waivers. However, consistent with the results for long-term nursing home stays, the BI waiver was the only one for which short wait times decreased institutional costs for <i>all</i> applicants (by $132 PBPM, p = 0.09). The decrease in costs of long-term nursing home stays for the short-wait group, combined with decreased spending on other waivers (of $134 PBPM, p = 0.03), fully offset the increased HCBS spending through the BI waiver. For the PD waiver, short wait times decreased costs for long-term nursing home stays by $152 PBPM for the <i>higher-risk</i> applicants (p = 0.03) but not for all applicants (p = 0.70). The nursing home costs among the short-wait group were not significantly lower than the long-wait group among H&amp;D waiver applicants, either for all enrollees or for the high-risk enrollees (although the point estimate for the high-risk enrollees is large, at $94 PBPM in savings, p = 0.15).</p>
+<p>Across the three waivers, Medicaid spending on HHA services provided through the state plan was generally low (around $30-$40 PBPM) compared to HCBS spending through the waivers. The short-wait group did not show any consistent pattern of lower (or higher) spending on HHA services compared to the long-wait group for each waiver individually or combined across the three waivers.</p>
+<h2><a id="discuss" name="discuss">V. DISCUSSION</a></h2>
+<h3>A. Summary of Findings</h3>
+<p>We found that non-elderly adults who applied to the BI, H&amp;D, and PD waivers when wait times for services were shorter than six months were 25 percent less likely to have ever had a long-term nursing home stay in the three years after applications than those who applied when waiting lists were longer. This difference was larger among older applicants (over age 55 for the PD and H&amp;D waivers, and age 40 for the BI waiver), who accounted for 42 percent of all applicants and had substantially higher-risk of nursing home use. Among these older applicants, those with short wait times (less than six months) versus longer wait times were 48 percent less likely to ever have a long-term nursing home stay within three years of application, and had lower average Medicaid expenditures on long-term nursing home stays ($111 lower per person per month). This decrease in expenditures on long-term nursing home care was larger than the increase in expenditures on HCBS ($88 per person per month). As a result, among the older, higher-risk applicants, average total Medicaid long-term care spending was not higher for those with short wait times than for those with longer wait times, despite their quicker access to HCBS.</p>
+<p>The analysis of individual waivers shows an important difference between applicants to the BI waiver and applicants to the PD or H&amp;D waivers. For all three of these waivers, younger applicants (those age 55 and under for PD and H&amp;D waivers, and those age 40 and under for the BI waiver) were substantially less likely to have a long-term nursing home stay within three years of application than older applicants. Younger adults who applied to the PD or H&amp;D waivers when wait times were less than six months were just as likely to have a long-term nursing home stay within three years of application as those with longer wait times. In contrast, the younger applicants for the BI waiver were 64 percent less likely to have a long-term nursing home stay over that same period if they had a short versus a long wait time. We believe this difference is due to the much greater amount of services needed by BI waiver applicants of all ages than applicants to the other waivers, as indicated by the differences in amounts that waiver enrollees actually received.</p>
+<h3>B. Limitations</h3>
+<p>This study has several limitations. First, we are limited to outcomes than can be observed in claims, which means we did not assess the effects of waiting period on several important outcomes, including consumer satisfaction and caregiver burden. However, it seems logical that quicker access to HCBS would almost certainly improve both of these outcomes. Second, because this study focuses on non-elderly adults with mainly physical disabilities in Iowa, the findings may not be generalizable to other states (with different demographics and Medicaid benefits) or to other populations (for example, elderly, children, or those with intellectual or developmental disabilities). Third, although various specifications were tested and the populations appear similar on measured characteristics, it is possible that applicants in the short-wait and long-wait groups were different in unobserved ways and that these differences could be responsible for some or all of the estimated differences in long-term nursing home use.</p>
+<p>Fourth, although this study captures Medicaid spending on the largest components of cost and the ones most likely to be affected by earlier access to HCBS--long-term care services and use of hospital services--we did not measure Medicaid or Medicare spending (for those dually enrolled in Medicaid and Medicare) in other cost categories that might have been affected. For example, we cannot say whether Medicare expenditures on skilled nursing home facilities, emergency department visits, or hospital stays are different for those with short versus longer wait times. Finally, the effects of wait times may be different if examined over a longer time period than the 36 months available in this study. For example, short wait times may decrease lifetime institutional costs even more than measured in this study if differences in institutionalization rates persist beyond 36 months.</p>
+<h3>C. Policy Implications</h3>
+<p>Faced with budget constraints, many Medicaid agencies throughout the country have not increased the number of waiver slots as quickly as demand for these services has increased, raising questions about how to allocate limited slots. Currently, about two-thirds of waiver programs nationally use some method for prioritizing who receives a waiver slot, although this can range from narrow approaches that set aside a small number of slots for those currently in a nursing home to much broader approaches that assign all applicants different levels of priority based on their assessed need at application (Ng et al. 2012). The remaining third of waiver programs serve patients on a first-come, first-served basis, as Iowa has done for the three waivers in this study.</p>
+<p>The results from this study highlight the potential value of prioritizing waiting lists based on both the amount of HCBS needed and the risk of entering an institution soon after application. In this study, diagnoses (brain injury) and age at application (over age 55) were useful and readily available indicators (in claims) for identifying populations who appear to benefit most from quicker access to HCBS. However, diagnoses and age are likely only rough proxies for other variables, like extent of functional limitations and whether a person has a caregiver at home, that more directly influence an applicant's need for HCBS and the risk of entering a nursing home if he or she does not receive these services. Policymakers may find that it is more appropriate to prioritize waiting lists based on a more refined assessment of patient need and risk than was possible in this study.</p>
+<p>In 2011, prompted by a Centers for Medicare and Medicaid Services requirement to ensure that applicants from all counties have equal access to slots for the ID waiver, Iowa Medicaid redesigned its ID waiver program, including switching from a first-come, first-served waiting list to one based on the assessed need and risk of consumers at the time of application (Iowa Department of Human Services 2011). This assessment considers factors like whether the applicant's caregiver recently died or if the applicant recently lost his or her home, in determining who has greatest need for waiver services, and prioritizes slots based on this need. The results from this study suggest that, in the absence of sufficient funds to eliminate waiting lists altogether, employing a similar needs-based and risk-based strategy for Iowa's other waivers could be an effective use of limited resources. This study provides some insight into the likely effects on several important outcomes of prioritizing high-risk patients on waiting lists. When setting policies on how to allocate limited waiver slots, however, policymakers will need to factor into their decisions many considerations, including stronger measures of the amount of services applicants initially need and their risk of entering a nursing home, as well as changes in those factors after application.</p>
+<h2><a id="ref" name="ref">REFERENCES</a></h2>
+<p>Centers for Disease Control and Prevention, National Center for Health Statistics. "Hospital inpatient Medicare admissions (per 1,000 beneficiaries)." Health Indicators Warehouse. Available at <a href="http://www.healthindicators.gov/Indicators/Hospital-inpatient-Medicare-admissions-per-1000-beneficiaries_2001/Profile/Data">http://www.healthindicators.gov/Indicators/Hospital-inpatient-Medicare-admissions-per-1000-beneficiaries_2001/Profile/Data</a>.</p>
+<p>Doty, Pamela. "Cost-Effectiveness of Home and Community-Based Long-Term Care Services." June 2000. U.S. Department of Health and Human Services, Office of the Assistant Secretary of Planning and Evaluation, Office of Disability, Aging and Long-Term Care Policy. Available at <a href="http://aspe.hhs.gov/daltcp/reports/2000/costeff.htm">http://aspe.hhs.gov/daltcp/reports/2000/costeff.htm</a>.</p>
+<p>Grabowski, David. "The Cost-Effectiveness of Noninstitutional Long-Term Care Services: Review and Synthesis of the Most Recent Evidence." <i>Medical Care Research and Review</i>, vol. 63, no. 3, February 2006, pp. 3-28.</p>
+<p>Iowa Department of Human Services. "Informational Letter No.1072."2011. Available at <a href="http://www.ime.state.ia.us/docs/1072_HCBSWaiverSlotsWaitingListsforIndividualswithIntellectualDisabilities.pdf">http://www.ime.state.ia.us/docs/1072_HCBSWaiverSlotsWaitingListsforIndividualswithIntellectualDisabilities.pdf</a>. Accessed May 6, 2013.</p>
+<p>Kaye, H. Stephen. "Gradual Rebalancing of Medicaid Long-Term Services and Supports Saves Money and Serves More People, Statistical Model Shows." <i>Health Affairs</i> vol. 31, no. 6, 2012, pp. 1195-1203.</p>
+<p>Konetzka, R. Tamara, Sarita L. Karon, and D.E.B. Potter. "Users of Medicaid Home and Community-Based Services Are Especially Vulnerable to Costly Avoidable Hospital Admissions." <i>Health Affairs</i>, vol. 31, no. 6, 2012, pp. 1167-1175.</p>
+<p>Kronick, R., Todd Gilmer, Tony Dreyfus, and Lora Lee. "Improving Health-Based Payments for Medicaid Beneficiaries: CDPS." <i>Health Care Financing Review</i>, vol. 21, no. 3, spring 2000, pp. 29-64.</p>
+<p>Ng, T., C. Harrington, M. Musumeci, and E. Reaves. "Medicaid Home and Community-Based Service Programs: 2009 Data Update." Washington, DC: Kaiser Commission on Medicaid and the Uninsured, December 2012.</p>
+<p>Schultz, Ellen, Sheryl M. Davies, and Kathryn M. McDonald."Development of Quality Indicators for Home and Community-Based Services Population: Technical Report." June 2012. Available at <a href="http://www.qualityindicators.ahrq.gov/Downloads/Resources/Publications/2012/HCBS%20QI%20Technical%20Report.pdf">http://www.qualityindicators.ahrq.gov/Downloads/Resources/Publications/2...</a>.</p>
+<p>Walsh, Edith G., Marc Freiman, Susan Haber, Arnold Bragg, Joseph Ouslander, and Joshua M. Wiener. "Cost Drivers for Dually Eligible Beneficiaries: Potentially Avoidable Hospitalizations from Nursing Facility, Skilled Nursing Facility, and Home and Community-Based Services Waiver Programs." August 2010. RTI International.</p>
+<p>Weir, L.M., A. Pfuntner, J. Maeda, E. Stranges, K. Ryan, P. Jagadish, B. Collins Sharp, and A. Elixhauser. <i>HCUP Facts and Figures: Statistics on Hospital-Based Care in the United States, 2009</i>. Rockville, MD: Agency for Healthcare Research and Quality, 2011.</p>
+<p>Weissert, William G., Cynthia Matthews Cready, and James E. Pawelak. "The Past and Future of Home- and Community-Based Long-Term Care." <i>The Milbank Quarterly</i>, vol. 66, no. 2, 1988, pp. 309-88.</p>
+<p>Wysocki, Andrea, Mary Butler, Robert L. Kane, Rosalie Kane, Tetyana Shippee, and Francois Sainfort. "Long-Term Care for Older Adults: A Review of Home and Community-Based Services Versus Institutional Care." Comparative Effectiveness Review No. 81. AHRQ Publication No. 12(13)-EHC134-EF. Rockville, MD: Agency for Healthcare Research and Quality, 2012.</p>
+<h2><a id="appendA" name="appendA">APPENDIX A. SUPPLEMENTARY TABLES</a></h2>
+<table border="1" class="footable table-align-left table" title="TABLE A.1. Regression-Adjusted Odds Ratio for Risk of Ever Having a Long-Term Nursing Home Stay Within 36 Months After Application, by Wait Group, Among All High-Risk Applicants from 2002 through 2007"><caption><font><b><a id="tableA.1" name="tableA.1">TABLE A.1</a>. Regression-Adjusted Odds Ratio for Risk of Ever Having a Long-Term Nursing Home Stay Within 36 Months After Application, by Wait Group, Among All High-Risk Applicants (regardless of Medicaid enrollment) from 2002 through 2007</b></font></caption>
+<thead><tr><td colspan="2" scope="col"><font><b>Sample Size</b></font></td>
+<td rowspan="2" scope="col"><font><b>Odds Ratio for Ever Having a  Long-Term Nursing Home Stay  (short vs. long-wait)<sup>b</sup></b></font></td>
+<td rowspan="2" scope="col"><font><b>  p-Value for Odds Ratio<sup>c</sup>  </b></font></td>
+</tr><tr><td scope="col"><font><b>  Short-Wait<sup>a</sup>  </b></font></td>
+<td scope="col"><font><b>  Long-Wait<sup>a</sup>  </b></font></td>
+</tr></thead><tfoot><tr><td colspan="4" scope="row"><b>NOTES</b>: Outcomes are measured through September 30, 2010, among high-risk applications from January 1, 2002, through September 30, 2007, for any of the three waivers (N = 3,092): BI, H&amp;D, and PD. High-risk means that the applicant was older than age 40 at the time of application for the BI waiver, or over age 55 for the other two waivers. Although the main analyses limit the sample to those enrolled in Medicaid within three months of waiver application (since most outcomes are only observable in our data set if a person has Medicaid claims), this regression includes all applicants, regardless of if and when they enrolled in Medicaid. The outcome, which can be defined for all applicants, is whether Iowa Medicaid ever paid for a long-term institutional stay within three years of waiver application (for those who never enrolled in Iowa Medicaid, the variable is set to zero, not missing). For the sample members who did enroll in Medicaid within three months, weights are applied as specified in <a href="#tableA.4">Table A.4</a>. For those who did not enroll in Medicaid within three months, an application was given a weight of one divided by the number of applications (one, two, or three) the applicant submitted to the three waivers from January 1, 2002, through September 30, 2007.<br /><ol type="a"><li>An applicant's wait is short if the median time that all applicants who applied in the same month (and enrolled) waited from their date of application to the date they started receiving waiver services was six months or less. A long wait time is more than six months.</li>
+<li>Estimated odds of entering an institution within 36 months of application among applications in this wait group divided by the estimated odds for those with a short wait.</li>
+<li>P-value for the test that odds ratio equals one.</li>
+</ol></td>
+</tr></tfoot><tbody><tr><td scope="row"><strong>387</strong></td>
+<td>2,705</td>
+<td>0.601</td>
+<td>0.04</td>
+</tr></tbody></table><table border="1" class="footable table-align-left table" title="TABLE A.2. Number of Applicants in Research Sample Who Applied to One or Multiple Waivers from January 1, 2002, through September 30, 2007"><caption><font><b><a id="tableA.2" name="tableA.2">TABLE A.2</a>. Number of Applicants in Research Sample Who Applied to One or Multiple Waivers from January 1, 2002, through September 30, 2007</b></font></caption>
+<thead><tr><td scope="col"><font><b>  Waiver for Which Applicant Applied  </b></font></td>
+<td scope="col"><font><b>  Number of Applicants  </b></font></td>
+<td scope="col"><font><b>  Number of Applications  </b></font></td>
+</tr></thead><tfoot><tr><td scope="row"><strong>Total</strong></td>
+<td>5,254</td>
+<td>6,426</td>
+</tr></tfoot><tbody><tr><td scope="row"><strong>H&amp;D only</strong></td>
+<td>1,651</td>
+<td>1,651</td>
+</tr><tr><td scope="row"><strong>PD only</strong></td>
+<td>1,847</td>
+<td>1,847</td>
+</tr><tr><td scope="row"><strong>BI only</strong></td>
+<td>653</td>
+<td>653</td>
+</tr><tr><td scope="row"><strong>H&amp;D and PD</strong></td>
+<td>850</td>
+<td>1,700</td>
+</tr><tr><td scope="row"><strong>H&amp;D and BI</strong></td>
+<td>91</td>
+<td>182</td>
+</tr><tr><td scope="row"><strong>PD and BI</strong></td>
+<td>93</td>
+<td>186</td>
+</tr><tr><td scope="row"><strong>All three waivers</strong></td>
+<td>69</td>
+<td>207</td>
+</tr></tbody></table><table border="1" class="footable table-align-left table" title="TABLE A.3. Regression-Adjusted Odds Ratio for Risk of Ever Having a Long-Term Nursing Home Stay Within 36 Months After Application, by Wait Cohorts, Among High-Risk Applications for Any of the three Waivers"><caption><font><b><a id="tableA.3" name="tableA.3">TABLE A.3</a>. Regression-Adjusted Odds Ratio for Risk of Ever Having a Long-Term Nursing Home Stay Within 36 Months After Application, by Wait Cohorts (0-6, 6-12, 12-18, or 18-24 months), Among High-Risk Applications for Any of the three Waivers</b></font></caption>
+<thead><tr><td scope="col"><font><b>  Wait Cohort  (months)<sup>a</sup></b></font></td>
+<td scope="col"><font><b>  Number of Applicants  in this Wait Cohort</b></font></td>
+<td scope="col"><font><b>  Odds Ratio for Ever Having a  Long-Term Nursing Home Stay(relative to 0-6 month wait cohort)<sup>b</sup></b></font></td>
+<td scope="col"><font><b>  p-Value for Odds Ratio<sup>c</sup>  </b></font></td>
+<td scope="col"><font><b>p-Value for Test That Odds Ratios  Are Different Across Wait Groups<sup>d</sup>  </b></font></td>
+</tr></thead><tfoot><tr><td colspan="5" scope="row"><b>NOTE</b>: Outcomes are measured through September 30, 2010, among high-risk applications from January 1, 2002, through September 30, 2007, for any of the three waivers (N = 2,699): BI, H&amp;D, and PD. High-risk means that the applicant was older than age 40 at the time of application for the BI waiver, or over age 55 for the other two waivers. The odds ratios are estimated for each wait cohort by including a dummy variable for each wait cohort in the logistic regression. Because the 0-6 month wait period is the omitted category, the coefficient on each of the wait cohorts gives the odds ratio for the risk of ever having a long-term nursing home stay in that wait group compared to the 0-6 month wait group. Sample members for whom a nursing home stay was not observed were given a weight proportional to the fraction of the follow-up period that their outcomes were observable, and cases for which a stay was observed were given a weight of one. Weights were then adjusted to account for the same person applying to more than one waiver during the identification period (January 1, 2002, and September 30, 2007): an observation's weight was divided in two if the applicant applied to two of the three waivers, and divided by three if he or she applied to all three.<br /><ol type="a"><li>An application is assigned to a wait cohort based on the median wait time among all applicants to the same waiver who ended up getting into the waiver waited from date of application to date of first receipt of waiver services.</li>
+<li>Estimated odds of ever having a long-term nursing home stay within 36 months of application among applications in this wait group divided by the estimated odds for those with a short (0-6) month wait.</li>
+<li>The p-value for the test that odds ratio for each individual wait group is different from one.</li>
+<li>The p-value is for the test that the coefficients on the odds ratios for the 6-12, 12-18, and 18-24 wait groups (where odds ratios are relative to the 0-6 month wait group) are equal.</li>
+</ol></td>
+</tr></tfoot><tbody><tr><td scope="row"><strong>6-12</strong></td>
+<td>692</td>
+<td>2.079</td>
+<td>0.01</td>
+<td>0.35</td>
+</tr><tr><td scope="row"><strong>12-18</strong></td>
+<td>1,478</td>
+<td>1.620</td>
+<td>0.11</td>
+<td> </td>
+</tr><tr><td scope="row"><strong>18-24</strong></td>
+<td>183</td>
+<td>1.469</td>
+<td>0.36</td>
+<td> </td>
+</tr></tbody></table><table border="1" class="footable table-align-left table" title="TABLE A.4. Regression-Adjusted Odds Ratio for Risk of Ever Having a Long-Term Nursing Home Stay Within 12-36 Months After Application, by Wait Group, Among High-Risk Applications for Any of the Three Waivers"><caption><font><b><a id="tableA.4" name="tableA.4">TABLE A.4</a>. Regression-Adjusted Odds Ratio for Risk of Ever Having a Long-Term Nursing Home Stay Within 12-36 Months After Application, by Wait Group, Among High-Risk Applications for Any of the Three Waivers</b></font></caption>
+<thead><tr><td rowspan="2" scope="col"><font><b>  Months Since Application  </b></font></td>
+<td colspan="2" scope="col"><font><b>Sample Size</b></font></td>
+<td rowspan="2" scope="col"><font><b>  Odds Ratio for Ever Having a  Long-Term Nursing Home Stay(short vs. long-wait)<sup>b</sup></b></font></td>
+<td rowspan="2" scope="col"><font><b>  p-Value for Odds Ratio<sup>c</sup>  </b></font></td>
+</tr><tr><td scope="col"><font><b>  Short-Wait<sup>a</sup>  </b></font></td>
+<td scope="col"><font><b>  Long-Wait<sup>a</sup>  </b></font></td>
+</tr></thead><tfoot><tr><td colspan="5" scope="row"><b>NOTE</b>: Outcomes are measured through September 30, 2010. The sample includes high-risk applications that were submitted to any of the three waivers (BI, H&amp;D, and PD) between January 1, 2002, and September 30, 2009 (for the 12-month follow-up), September 30, 2008 (for the 24-month follow-up), and September 30, 2007 (for the 36-month follow-up). High-risk means that the applicant was older than age 40 at the time of application for the BI waiver, or over age 55 for the other two waivers. Sample members for whom a nursing home stay was not observed were given a weight proportional to the fraction of the follow-up period that their outcomes were observable, and cases for which a stay was observed were given a weight of one. Weights were then adjusted to account for the same person applying to more than one waiver during the identification period (January 1, 2002, and September 30, 2009 (or 2008 or 2007)): an observation's weight was divided in two if the applicant applied to two of the three waivers, and divided by three if they applied to all three.<br /><ol type="a"><li>An applicant's wait is short if the median time that all applicants who applied in the same month (and enrolled) waited from their date of application to the date they started receiving waiver services was six months or less. A long wait time is more than six months.</li>
+<li>The estimated odds of ever having a long-term nursing home stay within 12-36 months of waiver application if the wait time a person faced was short (less than six months) divided by the estimated odds of having a long-term nursing home stay during the same period if a person faced a long (greater than six months) wait. An odds ratio less than one means that the short-wait group had a lower risk of entering an institution than the long-wait group.</li>
+<li>P-value is for the test that the odds ratio equals one (two-tailed).</li>
+</ol></td>
+</tr></tfoot><tbody><tr><td scope="row"><strong>12</strong></td>
+<td>340</td>
+<td>3,780</td>
+<td>0.497</td>
+<td>0.04</td>
+</tr><tr><td scope="row"><strong>24</strong></td>
+<td>342</td>
+<td>3,014</td>
+<td>0.501</td>
+<td>0.02</td>
+</tr><tr><td scope="row"><strong>36</strong></td>
+<td>346</td>
+<td>2,353</td>
+<td>0.538</td>
+<td>0.02</td>
+</tr></tbody></table><table border="1" class="footable table-align-left table" title="TABLE A.5. Regression-Adjusted Odds Ratio for Risk of Ever Having a Long-Term Nursing Home Stay Within 36 Months After Application, by Wait Group, Among All High-Risk Applications in 2002 and 2003"><caption><font><b><a id="tableA.5" name="tableA.5">TABLE A.5</a>. Regression-Adjusted Odds Ratio for Risk of Ever Having a Long-Term Nursing Home Stay Within 36 Months After Application, by Wait Group, Among All High-Risk Applications in 2002 and 2003</b></font></caption>
+<thead><tr><td colspan="2" scope="col"><font><b>Sample Size</b></font></td>
+<td rowspan="2" scope="col"><font><b>  Odds Ratio for Ever Having a  Long-Term Nursing Home Stay(short vs. long-wait)<sup>b</sup></b></font></td>
+<td rowspan="2" scope="col"><font><b>  p-Value for Odds Ratio<sup>c</sup>  </b></font></td>
+</tr><tr><td scope="col"><font><b>  Short-Wait<sup>a</sup>   </b></font></td>
+<td scope="col"><font><b>  Long-Wait<sup>a</sup>  </b></font></td>
+</tr></thead><tfoot><tr><td colspan="4" scope="row"><b>NOTES</b>: Outcomes are measured through December 30, 2006, among high-risk applications from January 1, 2002, through December 31, 2003, for any of the three waivers: BI, H&amp;D, and PD. High-risk means that the applicant was older than age 40 at the time of application for the BI waiver, or over age 55 for the other two waivers. Sample members for whom a nursing home stay was not observed were given a weight proportional to the fraction of the follow-up period that their outcomes were observable, and cases for which a stay was observed were given a weight of one. Weights were then adjusted to account for the same person applying to more than one waiver during the identification period (January 1, 2002, and September 30, 2007): an observation's weight was divided in two if the applicant applied to two of the three waivers, and divided by three if he or she applied to all three.<br /><ol type="a"><li>An applicant's wait is short if the median time that all applicants who applied in the same month (and enrolled) waited from their date of application to the date they started receiving waiver services was six months or less. A long wait time is more than six months.</li>
+<li>Estimated odds of having a long-term nursing home stay within 36 months of application among applications in this wait group divided by the estimated odds for those with a short wait.</li>
+<li>P-value for the test that odds ratio equals 1.</li>
+</ol></td>
+</tr></tfoot><tbody><tr><td scope="row"><strong>284</strong></td>
+<td>457</td>
+<td>0.382</td>
+<td>0.01</td>
+</tr></tbody></table><table border="1" class="footable table-align-left table" title="TABLE A.6. Receipt of Waiver Services, by Wait Period Group and Risk Level"><caption><font><b><a id="tableA.6" name="tableA.6">TABLE A.6</a>. Receipt of Waiver Services, by Wait Period Group and Risk Level</b></font></caption>
+<thead><tr><td rowspan="2" scope="col"><font><b> </b></font></td>
+<td colspan="2" scope="col"><font><b>All Applicants</b></font></td>
+<td colspan="2" scope="col"><font><b>Higher-Risk Applicants</b></font></td>
+</tr><tr><td scope="col"><font><b>  Short-Wait  Group</b></font></td>
+<td scope="col"><font><b>  Long-Wait  Group</b></font></td>
+<td scope="col"><font><b>  Short-Wait  Group</b></font></td>
+<td scope="col"><font><b>  Long-Wait  Group</b></font></td>
+</tr></thead><tfoot><tr><td colspan="5" scope="row"><b>NOTE</b>: The short-wait group includes applicants in cohorts with a wait time of six months or less. The long-wait group includes applicants in cohorts with a wait time of over six months. Higher-risk applicants include applicants to the H&amp;D or PD waiver who were older than age 55 at the time of application and applicants to the BI waiver who were older than 40 at application.<br /><ol type="a"><li>Calculated among all waiver applicants, including those who never enrolled in the waiver.</li>
+</ol></td>
+</tr></tfoot><tbody><tr><td class="active" colspan="5" scope="row"><strong>All Waivers</strong></td>
+</tr><tr><td scope="row"><strong>Percentage who enroll in waiver within three years of waiver application</strong></td>
+<td>65%</td>
+<td>42%</td>
+<td>67%</td>
+<td>41%</td>
+</tr><tr><td scope="row"><strong>Mean number of months that waiver services were received over three years after waiver application<sup>a</sup></strong></td>
+<td>13.1</td>
+<td>6.0</td>
+<td>12.6</td>
+<td>5.6</td>
+</tr><tr><td class="active" colspan="5" scope="row"><strong>BI Waiver</strong></td>
+</tr><tr><td scope="row"><strong>Percentage who enroll in waiver within three years of waiver application</strong></td>
+<td>69%</td>
+<td>50%</td>
+<td>72%</td>
+<td>48%</td>
+</tr><tr><td scope="row"><strong>Mean number of months that waiver services were received over three years after waiver application</strong></td>
+<td>15.4</td>
+<td>7.8</td>
+<td>16.0</td>
+<td>7.7</td>
+</tr><tr><td class="active" colspan="5" scope="row"><strong>H&amp;D Waiver</strong></td>
+</tr><tr><td scope="row"><strong>Percentage who enroll in waiver within three years of waiver application</strong></td>
+<td>65%</td>
+<td>42%</td>
+<td>68%</td>
+<td>41%</td>
+</tr><tr><td scope="row"><strong>Mean number of months that waiver services were received over three years after waiver application</strong></td>
+<td>12.0</td>
+<td>5.9</td>
+<td>11.0</td>
+<td>5.4</td>
+</tr><tr><td class="active" colspan="5" scope="row"><strong>PD Waiver</strong></td>
+</tr><tr><td scope="row"><strong>Percentage who enroll in waiver within three years of waiver application</strong></td>
+<td>53%</td>
+<td>36%</td>
+<td>49%</td>
+<td>32%</td>
+</tr><tr><td scope="row"><strong>Mean number of months that waiver services were received over three years after waiver application</strong></td>
+<td>10.0</td>
+<td>4.9</td>
+<td>7.6</td>
+<td>4.2</td>
+</tr></tbody></table><table border="1" class="footable table-align-left table" title="TABLE A.7. Frequently Used Waiver Services Among Waiver Enrollees"><caption><font><b><a id="tableA.7" name="tableA.7">TABLE A.7</a>. Frequently Used Waiver Services Among Waiver Enrollees(%)</b></font></caption>
+<thead><tr><td rowspan="2" scope="col"><font><b> </b></font></td>
+<td colspan="2" scope="col"><font><b>Brain Injury Waiver</b></font></td>
+<td colspan="2" scope="col"><font><b>Health and Disability Waiver</b></font></td>
+<td colspan="2" scope="col"><font><b>Physical Disability Waiver</b></font></td>
+</tr><tr><td scope="col"><font><b>Percent Ever  Using Service  </b></font></td>
+<td scope="col"><font><b>  Average Spending  per Month<sup>a</sup></b></font></td>
+<td scope="col"><font><b>Percent Ever  Using Service  </b></font></td>
+<td scope="col"><font><b>  Average Spending  per Month</b></font></td>
+<td scope="col"><font><b>Percent Ever  Using Service  </b></font></td>
+<td scope="col"><font><b>  Average Spending  per Month</b></font></td>
+</tr></thead><tfoot><tr><td colspan="7" scope="row"><b>NOTES</b>: A dash ("--") indicates a service not included as a benefit under the waiver program.<br /><ol type="a"><li>Average spending measured among all waiver enrollees during months spent in the waiver.</li>
+</ol></td>
+</tr></tfoot><tbody><tr><td scope="row"><strong>Any Waiver Service</strong></td>
+<td>100</td>
+<td>$1,650</td>
+<td>98</td>
+<td>$561</td>
+<td>96</td>
+<td>$428</td>
+</tr><tr><td colspan="7" scope="row"><strong>Specific Waiver Services</strong></td>
+</tr><tr><td scope="row"><strong>   Supported community living</strong></td>
+<td>69</td>
+<td>$815</td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+</tr><tr><td scope="row"><strong>   CDAC</strong></td>
+<td>43</td>
+<td>$367</td>
+<td>56</td>
+<td>$341</td>
+<td>79</td>
+<td>$349</td>
+</tr><tr><td scope="row"><strong>   Case    management</strong></td>
+<td>97</td>
+<td>$227</td>
+<td>6</td>
+<td>$2</td>
+<td>7</td>
+<td>$6</td>
+</tr><tr><td scope="row"><strong>   Adult day care</strong></td>
+<td>14</td>
+<td>$56</td>
+<td>4</td>
+<td>$2</td>
+<td>--</td>
+<td>--</td>
+</tr><tr><td scope="row"><strong>   Prevocational and supported employment  </strong></td>
+<td>23</td>
+<td>$42</td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+</tr><tr><td scope="row"><strong>   Consumer choices option</strong></td>
+<td>10</td>
+<td>$40</td>
+<td>3</td>
+<td>$15</td>
+<td>3</td>
+<td>$8</td>
+</tr><tr><td scope="row"><strong>   Respite</strong></td>
+<td>16</td>
+<td>$32</td>
+<td>3</td>
+<td>$6</td>
+<td>--</td>
+<td>--</td>
+</tr><tr><td scope="row"><strong>   Transportation</strong></td>
+<td>27</td>
+<td>$29</td>
+<td>--</td>
+<td>--</td>
+<td>11</td>
+<td>$6</td>
+</tr><tr><td scope="row"><strong>   Home and vehicle modification</strong></td>
+<td>19</td>
+<td>$17</td>
+<td>31</td>
+<td>$25</td>
+<td>27</td>
+<td>$30</td>
+</tr><tr><td scope="row"><strong>   Personal emergency response</strong></td>
+<td>23</td>
+<td>$6</td>
+<td>54</td>
+<td>$13</td>
+<td>50</td>
+<td>$12</td>
+</tr><tr><td scope="row"><strong>   Specialized medical equipment</strong></td>
+<td>17</td>
+<td>$6</td>
+<td>--</td>
+<td>--</td>
+<td>16</td>
+<td>$3</td>
+</tr><tr><td scope="row"><strong>   Meals and nutrition counseling</strong></td>
+<td>--</td>
+<td>--</td>
+<td>58</td>
+<td>$81</td>
+<td>--</td>
+<td>--</td>
+</tr><tr><td scope="row"><strong>   Chore and homemaker services</strong></td>
+<td>--</td>
+<td>--</td>
+<td>40</td>
+<td>$64</td>
+<td>--</td>
+<td>--</td>
+</tr></tbody></table><h2><a id="notes" name="notes">NOTES</a></h2>
+<ol><li>
+<p><a id="note1" name="note1">As</a> of August 2012, 1,254 consumers were enrolled in the BI waiver, with 418 on the waiting list; 2,512 were enrolled in the H&amp;D waiver, with 1,153 on the waiting list; and 889 were enrolled in the PD waiver, with 1,581 on the waiting list. <a href="http://www.ime.state.ia.us/docs/MonthlySlotAndWaitingList.pdf">http://www.ime.state.ia.us/docs/MonthlySlotAndWaitingList.pdf</a>, accessed April 2, 2013.</p>
+</li>
+<li>
+<p><a id="note2" name="note2">The</a> income and asset eligibility ceilings are higher for consumers who qualify for full Medicaid benefits due to their enrollment in an HCBS waiver than for those who qualify through other means. Specifically, persons in Iowa who are aged, blind, or disabled (as determined by the Social Security Administration) are eligible to enroll in Iowa Medicaid if their income is 75 percent of the federal poverty level (FPL) for an individual and 83 percent for a couple, and their assets are less than $2,000 and $3,000 (for individuals and couples, respectively). Income and asset requirements for the same person to enroll in Medicaid if he or she enters a nursing home or enrolls in an HCBS waiver are much less restrictive: the applicant's income can be up to 300 percent of FPL and he or she can have home equity up to $500,000.</p>
+</li>
+<li>
+<p><a id="note3" name="note3">Iowa</a> has a separate waiver for elderly consumers (over age 65), which we excluded from the analysis because there was no waiting list for this waiver during our study period. Further, to facilitate Institutional Review Board approval for the study, we excluded children and applicants for the ID waiver (which did have substantial waiting periods during our study period).</p>
+</li>
+<li>
+<p><a id="note4" name="note4">The</a> monthly cap is $922 if consumers need a nursing home level of care, $2,684 if they need a skilled nursing level of care, and $3,267 if they need a level of care that would be typical of an intermediate care facility for the intellectually disabled. See <a href="http://www.dhs.state.ia.us/uploads/Home%20and%20Community%20Based%20Waiver%20Program%20Comparison%20Chart%201-2013.doc%20(2).pdf">http://www.dhs.state.ia.us/uploads/Home%20and%20Community%20Based%20Waiver%20Program%20Comparison%20Chart%201-2013.doc%20(2).pdf</a>, accessed April 2, 2013.</p>
+</li>
+<li>
+<p><a id="note5" name="note5">As</a> a result, some applicants on waiting lists do not meet the functional or other eligibility criteria for the waiver.</p>
+</li>
+<li>
+<p><a id="note6" name="note6">HHA</a> services must be part of a written care plan ordered by a physician. Generally, "intermittent service" means services for a consumer who has a medically predictable recurring need that does not exceed 2-3 visits per week for 2-3 hours at a time. However, HHA services provided 4-7 days per week, not to exceed 28 hours per week, are allowed when ordered by a physician. See <a href="http://www.dhs.state.ia.us/policyanalysis/PolicyManualPages/Manual_Documents/Provman/hhserv.pdf">http://www.dhs.state.ia.us/policyanalysis/PolicyManualPages/Manual_Documents/Provman/hhserv.pdf</a>, accessed April 11, 2013.</p>
+</li>
+<li>
+<p><a id="note7" name="note7">One</a> concern is that this sample definition could bias the results if it means that applicants whose income or assets are too high to be eligible for Medicaid through regular channels, but low enough to meet the criteria for the HCBS waivers, enter Medicaid (and therefore our sample) through waivers soon after application when the waiting periods are short, but not when they are long. As a sensitivity test, we also assessed impacts of wait times on ever having a long-term nursing home stay funded by Iowa Medicaid within 36 months of application among <i>all applicants</i>, regardless of if or when they enrolled in Medicaid (assigning an outcome of zero, rather than missing, to those who never enrolled in Medicaid). The results are similar to those presented in the main text (see Appendix <a href="#tableA.1">Table A.1</a>).</p>
+</li>
+<li>
+<p><a id="note8" name="note8">Diagnostic</a> information on physician and hospital claims at or near the time of application used to create baseline control variables, as well as data on the number of hospitalizations over the 36-month outcome period, were not available for Medicaid enrollees who were dually eligible for Medicare and were continuously enrolled in a Medicare Advantage plan, or for non-dually eligible Medicaid enrollees who were continuously enrolled in a comprehensive Medicaid managed care plan. Thus, these individuals were excluded from the analysis.</p>
+</li>
+<li>
+<p><a id="note9" name="note9">We</a> excluded these applicants because one of the main outcome measures for this study is whether applicants ever entered an institution for a long-term stay after application, which could not be measured among this group. Re-specifying the outcome to examine whether short wait times increased the probability of transitioning from an institution back into the community was outside the scope of this study and would have had low statistical power due to the relatively small number of people in an institution at the time of application.</p>
+</li>
+<li>
+<p><a id="note10" name="note10">Twenty-one</a> percent, or 1,103 applicants, applied for two of the waivers between 2002 and 2007. The vast majority of these individuals applied for both the PD and H&amp;D waivers, which generally target the same population at different income levels. One percent, or 69 applicants, applied for all three waivers between 2002 and 2007. See Appendix <a href="#tableA.2">Table A.2</a>.</p>
+</li>
+<li>
+<p><a id="note11" name="note11">This</a> wait time is comprised of two parts: (1) the wait from the date of application to the date a waiver slot became available (which varied over time); and (2) the wait from when a slot became available to when Iowa Medicaid first authorized an individual to begin receiving waiver services (which was typically 1-2 months).</p>
+</li>
+<li>
+<p><a id="note12" name="note12">Since</a> Iowa provided access to waiver slots on a first-come, first-served basis, the median wait time of waiver enrollees who applied in the same month is a reasonable proxy for the length of time that applicants who did not enroll had to wait before a slot became available. Within each cohort of monthly applicants, wait times for those who entered the waiver were tightly clustered. We tested an alternative specification that used the minimum wait time among entrants in each monthly application cohort; this did not substantially change the wait time for the vast majority of monthly cohorts, but in a very small number of cohorts resulted in an unreasonably short wait time that is likely due to data errors in the administrative waiting list data.</p>
+</li>
+<li>
+<p><a id="note13" name="note13">Although</a> measuring effects of wait times on total Medicaid and Medicare spending was outside the scope of this project, our analysis should capture most important effects on Medicaid costs because long-term services account for the majority of Medicaid expenditures among adult Medicaid beneficiaries with disabilities (for example, long-term services and supports accounted for 73 percent of all Medicaid and Medicare expenditures among dually eligible enrollees in 2008, see <a href="http://www.kff.org/medicaid/upload/7846-03.pdf">http://www.kff.org/medicaid/upload/7846-03.pdf</a>). Furthermore, since wait times had no effect on hospitalization rates, wait times are unlikely to significantly affect total Medicare costs, since hospitalizations and related post-acute care account for the largest share of Medicare expenditures.</p>
+</li>
+<li>
+<p><a id="note14" name="note14">Medicare</a> is the primary payer for acute care services for dually eligible Medicaid enrollees, and the MAX data generally include "crossover claims," which represent Medicaid's coverage of beneficiary cost-sharing for these services. In order to not double-count inpatient hospital stays among dually eligible applicants, we ignored crossover claims and relied solely on the Medicare data to measure hospitalization rates among the dually eligible.</p>
+</li>
+<li>
+<p><a id="note15" name="note15">Over</a> 99 percent of the long-term institutional stays observed among waiver applicants were in nursing facilities, and fewer than 1 percent occurred in psychiatric hospitals or intermediate care facilities. In this report, we refer to long-term institutional stays as "long-term nursing home stays" and the costs associated with long-term institutional stays as costs for long-term nursing home stays, although all types of institutional stays were included in measuring whether an applicant had a long-term stay in the 36 months after application and in measuring the associated long-term stay costs.</p>
+</li>
+<li>
+<p><a id="note16" name="note16">Our</a> data set has one record per person based on a specific application to one of the three waivers. In cases where a person applied to more than one waiver, it is possible that he or she eventually enrolled in a waiver that is different from the one we selected for the applicant's record (using the decision rule described in <a href="#sectionIII.A">Section III.A</a>). In such cases, we separated out the waiver costs provided through the waiver we selected for that applicant.</p>
+</li>
+<li>
+<p><a id="note17" name="note17">The</a> CDPS is a diagnosis-based risk-adjustment system developed to adjust capitation rates for Medicaid enrollees in managed care plans (Kronick et al. 2000). Using diagnosis codes on medical claims, it assigns Medicaid beneficiaries to different cost levels (none, very low, low, medium, high, very high, and extra high) within each of 19 different illness or disability categories. Payment weights can be applied to the results to find a risk-adjusted payment score that can be used to adjust capitation payments.</p>
+</li>
+<li>
+<p><a id="note18" name="note18">Because</a> consumers older than 65 are not eligible for these three waivers, consumers in the high-risk group are not older than 65 at the time of application.</p>
+</li>
+<li>
+<p><a id="note19" name="note19">Year</a> of application was coded as a continuous variable equal to the number of years since 2000. Since most of the variation in short versus long wait times occurred in 2002 and 2003, we also ran a sensitivity test that was limited to applications in those years. This avoids the need for comparing institutionalization risks from applications separated by several years. The results are very similar to the main results presented in the text (see Appendix <a href="#tableA.5">Table A.5</a>).</p>
+</li>
+<li>
+<p><a id="note20" name="note20">Since</a> all applicants were under 65 years old at the time of waiver application, they would not qualify for Medicare due to age.</p>
+</li>
+<li>
+<p><a id="note21" name="note21">The</a> only notable difference between the wait groups is that applicants to the H&amp;D and BI waivers with short wait times were moderately less likely to be dually eligible for Medicare than those with long wait times.</p>
+</li>
+<li>
+<p><a id="note22" name="note22">The</a> fact that average spending is similar in the H&amp;D and PD waivers suggest that these two waivers deliver more comparable levels of service than the monthly spending caps imply (the cap for the PD waiver is $687, whereas the cap for the H&amp;D waiver is between $922 and $3,267, depending on the level of care for which a consumer qualifies).</p>
+</li>
+<li>
+<p><a id="note23" name="note23">"Other</a> waivers" means waivers other than the one that the consumer applied for in the record we selected for this applicant. See <a href="#sectionIII.A">Section III.A</a> for our decision rule for selecting a single application for observation in cases where a person applied to more than one waiver.</p>
+</li>
+</ol><hr /><h3><i>CENTER OF EXCELLENCE IN RESEARCH ON DISABILITY SERVICES AND CARE COORDINATION AND INTEGRATION (CERDS)</i></h3>
+<h3><b>REPORTS AVAILABLE</b></h3>
+<dl><dt><b>Abstracted List of Tasks and Reports</b></dt>
+<dd>HTML   <a href="http://aspe.hhs.gov/daltcp/reports/2014/CERDS.shtml">http://aspe.hhs.gov/daltcp/reports/2014/CERDS.shtml</a></dd>
+<dd>PDF   <a href="http://aspe.hhs.gov/daltcp/reports/2014/CERDS.pdf">http://aspe.hhs.gov/daltcp/reports/2014/CERDS.pdf</a></dd>
+</dl><p>--- --- --- --- ---</p>
+<dl><dt><b>Association between NCQA Patient-Centered Medical Home Recognition for Primary Care Practices and Quality of Care for Children with Disabilities and Special Health Care Needs</b></dt>
+<dd>HTML   <a href="http://aspe.hhs.gov/daltcp/reports/2014/ChildDisV3.shtml">http://aspe.hhs.gov/daltcp/reports/2014/ChildDisV3.shtml</a></dd>
+<dd>PDF   <a href="http://aspe.hhs.gov/daltcp/reports/2014/ChildDisV3.pdf">http://aspe.hhs.gov/daltcp/reports/2014/ChildDisV3.pdf</a></dd>
+</dl><dl><dt><b>Children with Disabilities and Special Health Care Needs in NCQA-Recognized Patient-Centered Medical Homes: Health Care Utilization, Provider Perspectives and Parental Expectations Executive Summary</b></dt>
+<dd>HTML   <a href="http://aspe.hhs.gov/daltcp/reports/2014/ChildDisES.shtml">http://aspe.hhs.gov/daltcp/reports/2014/ChildDisES.shtml</a></dd>
+<dd>PDF   <a href="http://aspe.hhs.gov/daltcp/reports/2014/ChildDisES.pdf">http://aspe.hhs.gov/daltcp/reports/2014/ChildDisES.pdf</a></dd>
+</dl><dl><dt><b>Descriptive Study of Three Disability Competent Managed Care Plans for Medicaid Enrollees</b></dt>
+<dd>Executive Summary   <a href="http://aspe.hhs.gov/daltcp/reports/2014/3MCPlanses.shtml">http://aspe.hhs.gov/daltcp/reports/2014/3MCPlanses.shtml</a></dd>
+<dd>HTML   <a href="http://aspe.hhs.gov/daltcp/reports/2014/3MCPlans.shtml">http://aspe.hhs.gov/daltcp/reports/2014/3MCPlans.shtml</a></dd>
+<dd>PDF   <a href="http://aspe.hhs.gov/daltcp/reports/2014/3MCPlans.pdf">http://aspe.hhs.gov/daltcp/reports/2014/3MCPlans.pdf</a></dd>
+</dl><dl><dt><b>Effect of PACE on Costs, Nursing Home Admissions, and Mortality: 2006-2011</b></dt>
+<dd>Executive Summary   <a href="http://aspe.hhs.gov/daltcp/reports/2014/PACEeffectes.shtml">http://aspe.hhs.gov/daltcp/reports/2014/PACEeffectes.shtml</a></dd>
+<dd>HTML   <a href="http://aspe.hhs.gov/daltcp/reports/2014/PACEeffect.shtml">http://aspe.hhs.gov/daltcp/reports/2014/PACEeffect.shtml</a></dd>
+<dd>PDF   <a href="http://aspe.hhs.gov/daltcp/reports/2014/PACEeffect.pdf">http://aspe.hhs.gov/daltcp/reports/2014/PACEeffect.pdf</a></dd>
+</dl><dl><dt><b>Effectiveness of Alternative Ways of Implementing Care Management Components in Medicare D-SNPs: The Brand New Day Study</b></dt>
+<dd>Executive Summary   <a href="http://aspe.hhs.gov/daltcp/reports/2014/OrthoV2s.shtml">http://aspe.hhs.gov/daltcp/reports/2014/OrthoV2s.shtml</a></dd>
+<dd>HTML   <a href="http://aspe.hhs.gov/daltcp/reports/2014/OrthoV2.shtml">http://aspe.hhs.gov/daltcp/reports/2014/OrthoV2.shtml</a></dd>
+<dd>PDF   <a href="http://aspe.hhs.gov/daltcp/reports/2014/OrthoV2.pdf">http://aspe.hhs.gov/daltcp/reports/2014/OrthoV2.pdf</a></dd>
+</dl><dl><dt><b>Effectiveness of Alternative Ways of Implementing Care Management Components in Medicare D-SNPs: The Care Wisconsin and Gateway Study</b></dt>
+<dd>Executive Summary   <a href="http://aspe.hhs.gov/daltcp/reports/2014/OrthoV1es.shtml">http://aspe.hhs.gov/daltcp/reports/2014/OrthoV1es.shtml</a></dd>
+<dd>HTML   <a href="http://aspe.hhs.gov/daltcp/reports/2014/OrthoV1.shtml">http://aspe.hhs.gov/daltcp/reports/2014/OrthoV1.shtml</a></dd>
+<dd>PDF   <a href="http://aspe.hhs.gov/daltcp/reports/2014/OrthoV1.pdf">http://aspe.hhs.gov/daltcp/reports/2014/OrthoV1.pdf</a></dd>
+</dl><dl><dt><b>Evaluating PACE: A Review of the Literature</b></dt>
+<dd>Executive Summary   <a href="http://aspe.hhs.gov/daltcp/reports/2014/PACELitReves.shtml">http://aspe.hhs.gov/daltcp/reports/2014/PACELitReves.shtml</a></dd>
+<dd>HTML   <a href="http://aspe.hhs.gov/daltcp/reports/2014/PACELitRev.shtml">http://aspe.hhs.gov/daltcp/reports/2014/PACELitRev.shtml</a></dd>
+<dd>PDF   <a href="http://aspe.hhs.gov/daltcp/reports/2014/PACELitRev.pdf">http://aspe.hhs.gov/daltcp/reports/2014/PACELitRev.pdf</a></dd>
+</dl><dl><dt><b>Factors Predicting Transitions from Medicare-Only to Medicare-Medicaid Enrollee Status</b></dt>
+<dd>HTML   <a href="http://aspe.hhs.gov/daltcp/reports/2014/MMTransV2.shtml">http://aspe.hhs.gov/daltcp/reports/2014/MMTransV2.shtml</a></dd>
+<dd>PDF   <a href="http://aspe.hhs.gov/daltcp/reports/2014/MMTransV2.shtml">http://aspe.hhs.gov/daltcp/reports/2014/MMTransV2.shtml</a></dd>
+</dl><dl><dt><b>Identifying Medicare Beneficiaries with Disabilities: Improving on Claims-Based Algorithms</b></dt>
+<dd>Executive Summary   <a href="http://aspe.hhs.gov/daltcp/reports/2014/algorithmes.shtml">http://aspe.hhs.gov/daltcp/reports/2014/algorithmes.shtml</a></dd>
+<dd>HTML   <a href="http://aspe.hhs.gov/daltcp/reports/2014/algorithm.shtml">http://aspe.hhs.gov/daltcp/reports/2014/algorithm.shtml</a></dd>
+<dd>PDF   <a href="http://aspe.hhs.gov/daltcp/reports/2014/algorithm.pdf">http://aspe.hhs.gov/daltcp/reports/2014/algorithm.pdf</a></dd>
+</dl><dl><dt><b>Impacts of Waiting Periods for Home and Community-Based Services on Consumers and Medicaid Long-Term Care Costs in Iowa</b></dt>
+<dd>HTML   <a href="http://aspe.hhs.gov/daltcp/reports/2014/IAWaitPd.shtml">http://aspe.hhs.gov/daltcp/reports/2014/IAWaitPd.shtml</a></dd>
+<dd>PDF   <a href="/system/files/pdf/73211/IAWaitPd.pdf">http://aspe.hhs.gov/daltcp/reports/2014/IAWaitPd.pdf</a></dd>
+</dl><dl><dt><b>Integrating Physical Health Care in Behavioral Health Agencies in Rural Pennsylvania</b></dt>
+<dd>Executive Summary   <a href="http://aspe.hhs.gov/daltcp/reports/2014/ruralPAes.shtml">http://aspe.hhs.gov/daltcp/reports/2014/ruralPAes.shtml</a></dd>
+<dd>HTML   <a href="http://aspe.hhs.gov/daltcp/reports/2014/ruralPA.shtml">http://aspe.hhs.gov/daltcp/reports/2014/ruralPA.shtml</a></dd>
+<dd>PDF   <a href="http://aspe.hhs.gov/daltcp/reports/2014/ruralPA.pdf">http://aspe.hhs.gov/daltcp/reports/2014/ruralPA.pdf</a></dd>
+</dl><dl><dt><b>Non-Elderly Disabled Category 2 Housing Choice Voucher Program: An Implementation and Impact Analysis</b></dt>
+<dd>Executive Summary   <a href="http://aspe.hhs.gov/daltcp/reports/2014/Cat2Housinges.shtml">http://aspe.hhs.gov/daltcp/reports/2014/Cat2Housinges.shtml</a></dd>
+<dd>HTML   <a href="http://aspe.hhs.gov/daltcp/reports/2014/Cat2Housing.shtml">http://aspe.hhs.gov/daltcp/reports/2014/Cat2Housing.shtml</a></dd>
+<dd>PDF   <a href="http://aspe.hhs.gov/daltcp/reports/2014/Cat2Housing.pdf">http://aspe.hhs.gov/daltcp/reports/2014/Cat2Housing.pdf</a></dd>
+</dl><dl><dt><b>Parent Perspectives on Care Received at Patient-Centered Medical Homes for Their Children with Special Health Care Needs</b></dt>
+<dd>Executive Summary   <a href="http://aspe.hhs.gov/daltcp/reports/2014/ChildDisV2es.shtml">http://aspe.hhs.gov/daltcp/reports/2014/ChildDisV2es.shtml</a></dd>
+<dd>HTML   <a href="http://aspe.hhs.gov/daltcp/reports/2014/ChildDisV2.shtml">http://aspe.hhs.gov/daltcp/reports/2014/ChildDisV2.shtml</a></dd>
+<dd>PDF   <a href="http://aspe.hhs.gov/daltcp/reports/2014/ChildDisV2.pdf">http://aspe.hhs.gov/daltcp/reports/2014/ChildDisV2.pdf</a></dd>
+</dl><dl><dt><b>Physician Perspectives on the Influence of Medical Home Recognition on Practice Transformation and Care Quality for Children with Special Health Care Needs</b></dt>
+<dd>HTML   <a href="http://aspe.hhs.gov/daltcp/reports/2014/ChildDisV1.shtml">http://aspe.hhs.gov/daltcp/reports/2014/ChildDisV1.shtml</a></dd>
+<dd>PDF   <a href="http://aspe.hhs.gov/daltcp/reports/2014/ChildDisV1.pdf">http://aspe.hhs.gov/daltcp/reports/2014/ChildDisV1.pdf</a></dd>
+</dl><dl><dt><b>Strategies for Integrating and Coordinating Care for Behavioral Health Populations: Case Studies of Four States</b></dt>
+<dd>Executive Summary   <a href="http://aspe.hhs.gov/daltcp/reports/2014/4CaseStudes.shtml">http://aspe.hhs.gov/daltcp/reports/2014/4CaseStudes.shtml</a></dd>
+<dd>HTML   <a href="http://aspe.hhs.gov/daltcp/reports/2014/4CaseStud.shtml">http://aspe.hhs.gov/daltcp/reports/2014/4CaseStud.shtml</a></dd>
+<dd>PDF   <a href="http://aspe.hhs.gov/daltcp/reports/2014/4CaseStud.pdf">http://aspe.hhs.gov/daltcp/reports/2014/4CaseStud.pdf</a></dd>
+</dl><dl><dt><b>Transitions from Medicare-Only to Medicare-Medicaid Enrollment</b></dt>
+<dd>HTML   <a href="http://aspe.hhs.gov/daltcp/reports/2014/MMTransV1.shtml">http://aspe.hhs.gov/daltcp/reports/2014/MMTransV1.shtml</a></dd>
+<dd>PDF   <a href="http://aspe.hhs.gov/daltcp/reports/2014/MMTransV1.pdf">http://aspe.hhs.gov/daltcp/reports/2014/MMTransV1.pdf</a></dd>
+</dl><hr /><p>To obtain a printed copy of this report, send the full report title and your mailing information to:</p>
+<blockquote><p>U.S. Department of Health and Human ServicesOffice of Disability, Aging and Long-Term Care PolicyRoom 424E, H.H. Humphrey Building200 Independence Avenue, S.W.Washington, D.C. 20201FAX:  202-401-7733Email:  <a href="mailto: webmaster.DALTCP@hhs.gov">webmaster.DALTCP@hhs.gov</a></p>
+</blockquote>
+<hr /><p class="lastupdated"><b>RETURN TO:</b></p>
+<p class="lastupdated">Office of Disability, Aging and Long-Term Care Policy (DALTCP) Home [<a href="http://aspe.hhs.gov/office_specific/daltcp.cfm">http://aspe.hhs.gov/office_specific/daltcp.cfm</a>]Assistant Secretary for Planning and Evaluation (ASPE) Home [<a href="http://aspe.hhs.gov">http://aspe.hhs.gov</a>]U.S. Department of Health and Human Services (HHS) Home [<a href="http://www.hhs.gov">http://www.hhs.gov</a>]</p>
+<p><small>Last Updated: 05/05/2014</small></p>
+
+  <div class="download_report">
+    
+                        <div class="pdf-prev">
+                <img src="https://aspe.hhs.gov/system/files/pdfpreview/a637547b1566b82208930da8a0d220cd.png" alt="Preview" title="Preview" />            </div>
+                <a class="btn btn-sm btn-default download-file"
+           href="https://aspe.hhs.gov/system/files/pdf/73211/IAWaitPd.pdf">Download</a>
+
+        <p class="download_title">&quot;IAWaitPd.pdf&quot;
+            (pdf,
+            347.96Kb)</p>
+        <p>Note: Documents in PDF format require the <a href="http://www.adobe.com/products/acrobat/readstep2.html">Adobe
+                Acrobat Reader&reg;</a>. If you experience problems with PDF documents, please <a
+                href="http://www.adobe.com/products/acrobat/readstep2.html">download the latest version of the
+                Reader&reg;</a>
+        </p>
+    </div>
+<div class="group-tags"><div class="field-label">Tags:&nbsp;</div><a href="/terms/home-and-community-based-services-0">Home and Community-Based Services</a><a href="/terms/home-and-community-based-services-2">Home and Community-Based Services</a><a href="/terms/publications-2">Publications</a><a href="/terms/nursing-home-financing-and-quality">Nursing Home Financing and Quality</a><a href="/terms/nursing-home-0">Nursing Home</a><a href="/terms/disability-aging-and-long-term-care-research">Disability, Aging and Long-Term Care Research</a><a href="/terms/highlighted-issues">Highlighted Issues</a><a href="/terms/healthcarelong-term-care-financing">Healthcare/Long-Term Care Financing</a><a href="/terms/health-services-formal">Health Services, Formal</a><a href="/terms/long-term-care">Long-Term Care</a></div>  </div>
+
+      <footer>
+          </footer>
+  
+    <div id="block-webform-client-block-158521" class="widget block block-webform" >
+  
+      
+  <div id="webform-ajax-wrapper-158521"><form class="webform-client-form webform-client-form-158521" action="/basic-report/impacts-waiting-periods-home-and-community-based-services-consumers-and-medicaid-long-term-care-costs-iowa" method="post" id="webform-client-form-158521" accept-charset="UTF-8"><div><div class="webform-progressbar">
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-radios webform-component--was-this-page-helpful">
+  <label for="edit-submitted-was-this-page-helpful">Was this page helpful? <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-was-this-page-helpful" class="form-radios"><div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-1" name="submitted[was_this_page_helpful]" value="1" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-1">Yes </label>
+
+</div>
+<div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-2" name="submitted[was_this_page_helpful]" value="0" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-2">No </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="4" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-1dTDQW_3rBULbl-fEz10BOhKGePBA1s12NPe5aDq7l4" />
+<input type="hidden" name="form_id" value="webform_client_form_158521" />
+<input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-158521" />
+<div class="form-actions"><input class="webform-next button-primary btn btn-default form-submit" type="submit" id="edit-webform-ajax-next-158521" name="op" value="Next &gt;" /></div>
+<div class="is-useful-disclaimer"> <a href="/%23" class="" title="Survey Disclaimer" data-toggle="modal" data-target="#disclamerModal">Form Approved OMB# 0990-0379 Exp. Date 8/31/2017</a></div>
+<div class="modal fade" id="disclamerModal" tabindex="-1" role="dialog" aria-labelledby="disclamerModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="disclamerModalLabel">Survey Disclaimer</h2>
+      </div>
+      <div class="modal-body">
+         According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this information collection is 0990-0379. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, gather the data needed, and complete and review the information collection. If you have comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: U.S. Department of Health & Human Services, OS/OCIO/PRA, 200 Independence Ave., S.W., Suite 336-E, Washington D.C. 20201, Attention: PRA Reports Clearance Officer.      </div>
+    </div>
+  </div>
+</div></div></form></div>
+  </div> <!-- /.block -->
+<meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/impacts-waiting-periods-home-and-community-based-services-consumers-and-medicaid-long-term-care-costs-iowa" itemref="md1" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/impacts-waiting-periods-home-and-community-based-services-consumers-and-medicaid-long-term-care-costs-iowa" itemref="md2 md3 md5 md7 md9 md11 md13 md15 md17 md19 md21 md23" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/home-and-community-based-services-0" id="md5" itemref="md4" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/home-and-community-based-services-2" id="md7" itemref="md6" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/publications-2" id="md9" itemref="md8" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/nursing-home-financing-and-quality" id="md11" itemref="md10" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/nursing-home-0" id="md13" itemref="md12" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/disability-aging-and-long-term-care-research" id="md15" itemref="md14" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/highlighted-issues" id="md17" itemref="md16" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/healthcarelong-term-care-financing" id="md19" itemref="md18" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/health-services-formal" id="md21" itemref="md20" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/long-term-care" id="md23" itemref="md22" />              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <footer  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Footer">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  id="footer_sitemap-footer_sitemap" class="col-sm-6 col-md-6 col-lg-4 ">
+                          
+                              <div id="block-footer-sitemap-footer-sitemap" class="widget block block-footer-sitemap" >
+  
+      
+  <div id="footer-sitemap" class="clearfix">
+  <div class="fs-block-content"><div class="menu-footer-utility"><ul class="footer_links_menu-footer-utility total-items-2 parent-items-0 single-items-0"><li class="menu-5021 depth-1 total-children-8 parent-children-0 single-children-8  first"><a href="/" title="look at ASPE Home" class="fs-root-link">ASPE Home</a><ul class="footer_links_menu-footer-utility total-items-8 parent-items-0 single-items-0"><li class="menu-5026 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/" title="look at HHS Home">HHS Home</a></li>
+<li class="menu-66281 depth-1 fs-no-children"><a href="http://www.usa.gov/" title="look at USA.gov">USA.gov</a></li>
+<li class="menu-66316 depth-1 fs-no-children"><a href="https://oig.hhs.gov/" title="look at Office of the Inspector General">Office of the Inspector General</a></li>
+<li class="menu-66321 depth-1 fs-no-children"><a href="http://www.whitehouse.gov" title="look at The White House">The White House</a></li>
+<li class="menu-5046 depth-1 fs-no-children"><a href="http://www.hhs.gov/Accessibility.html" title="look at Accessibility">Accessibility</a></li>
+<li class="menu-66326 depth-1 fs-no-children"><a href="http://www.hhs.gov/about/budget/index.html" title="look at Budget/Performance">Budget/Performance</a></li>
+<li class="menu-2551 depth-1 fs-no-children"><a href="http://www.hhs.gov/Privacy.html" title="look at Privacy Policy">Privacy Policy</a></li>
+<li class="menu-197776 depth-1 fs-no-children  last"><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" title="Nondiscrimination Notice">Nondiscrimination Notice</a></li>
+</ul></li>
+<li class="menu-5051 depth-1 total-children-4 parent-children-0 single-children-4  last"><a href="http://www.hhs.gov/foia/" title="look at FOIA" class="fs-root-link">FOIA</a><ul class="footer_links_menu-footer-utility total-items-4 parent-items-0 single-items-0"><li class="menu-5056 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/open/recordsandreports/plainwritingact/index.html" title="look at Plain Writing Act">Plain Writing Act</a></li>
+<li class="menu-5061 depth-1 fs-no-children"><a href="http://www.hhs.gov/asa/eeo/no_fear_bullet_3.html" title="look at No Fear Act">No Fear Act</a></li>
+<li class="menu-5066 depth-1 fs-no-children"><a href="http://www.hhs.gov/Disclaimer.html" title="look at Disclaimers">Disclaimers</a></li>
+<li class="menu-2546 depth-1 fs-no-children  last"><a href="http://www.hhs.gov/plugins.html" title="look at Viewers &amp; Players">Viewers &amp; Players</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-5 " id="stability_cms-contact_us">
+                          
+                              <div id="block-stability-cms-contact-us" class="widget block block-stability-cms" >
+  
+      
+  <div class="contacts-widget widget widget__footer">
+	<div class="widget-content">
+		<ul class="contacts-info-list">
+      			<li>
+<!--				<i class="fa fa-map-marker">Address</i>-->
+                <div class="info-icons">
+                    <img  alt="map" class= 'map-icons' src="/sites/all/themes/stability/stability_aspe/images/map.png"/>
+                </div>
+                <div class="info-item">
+					Assistant Secretary for Planning and Evaluation, Room 415F<br />
+U.S. Department of Health and Human Services<br />
+200 Independence Avenue, SW<br />
+Washington, D.C. 20201				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-phone">phone</i>-->
+                <div class="info-icons">
+                    <img alt="phone" src="/sites/all/themes/stability/stability_aspe/images/phone.png"/>
+                </div>
+				<div class="info-item">
+					+1 202.690.7858				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-envelope">email</i>-->
+                <div class="info-icons">
+                    <img alt="mail" src="/sites/all/themes/stability/stability_aspe/images/mail-white.png"/>
+                </div>
+				<span class="info-item">
+					<a href="mailto:osaspeinfo@hhs.gov">osaspeinfo@hhs.gov</a>
+				</span>
+			</li>
+      			                					</ul>
+	</div>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-3 " id="footer">
+                          
+                              <div id="block-block-36" class="widget block block-block" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sign-up</span> for Email Updates</h3>
+		</div>
+    
+  <div class="email_updates">
+<button class="btn btn-default" name="subscribe-button" type="submit" value="subscribe">subscribe</button>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-12 " id="menu-menu-footer-language-menu">
+                          
+                              <div id="block-menu-menu-footer-language-menu" class="widget block block-menu" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Language</span> Assistance Available</h3>
+		</div>
+    
+  <ul class="menu"><li class="first expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#spanish" title="Español">Español</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#chinese" title="繁體中文">繁體中文</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#vietnamese" title="Tiếng Việt">Tiếng Việt</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#korean" title="한국어">한국어</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#tagalog" title="Tagalog">Tagalog</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#russian" title="Русский">Русский</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#arabic" title="العربية">العربية</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#creole" title="Kreyòl Ayisyen">Kreyòl Ayisyen</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#french" title="Français">Français</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#polish" title="Polski">Polski</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#portuguese" title="Português">Português</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#italian" title="Italiano">Italiano</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#german" title="Deutsch">Deutsch</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#japanese" title="日本語">日本語</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#farsi" title="فارسی">فارسی</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#english" title="English">English</a></li>
+</ul></li>
+</ul>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+      </div>
+
+          </div>
+    
+    
+      </footer>
+    
+
+    <!--/PAGEWATCH-->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+                        </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="social-links-wrapper">
+              <span class="social-links-txt">Connect with us</span>
+              <ul class="social-links social-links__dark">
+                                                  <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw-grey.png"/></a></li>
+                                <!--                --><!--                  <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin-grey.png"/></a></li>-->
+<!--                -->
+                                                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>  <script type="text/javascript" src="/sites/default/files/advagg_js/js__VWRymaMz6HfrhnrcJNGcDiSvLVrvhaXvBa7nrBYy8gc__jntPwP3D6myJZH1jW19fXrk5cYMHGRL8NQION22VSEA__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5486d15a696bff0c"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__g6mKbcakHxQkz4ZHYaxdO_xqONINvRMgsHh1zAK-fr0__ATHtEmHaeZ0jidpGU22EkhmPDBSgjD8z0bVDQMI-BIY__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__KUp4PrfOt9BSXUVl8Ctb3dhCMBe4MNVMeb4Gyorx8yY__7g4BeXscCIZAfuu1vxsCj2RIemg-eEK0QpChP9LDmFQ__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__PNjAgubM_3xXRLp4uLsYnv8wQAdT89-RYkSPxT6T45c__rFQwFK4pA5ZaWZSF7FPTfKbbpus0h-5IS8ayrNZGrb4__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__vQiLul2UcfC4nBAR09mhYVBYzRmiNDm2dj3GgSubV38__w84oZe-ZODKe7XnnlbrjV4IWHISOy4PioFEMVgx9hZo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__QJw3g0kOdwsv4twSZLP931zBzsHy50VEHpEN_znIitQ__A6QOuWXElDipBM2iChbWhjAAt3KlUwZ-jODoxdpbwiw__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stability_aspe","theme_token":"ijiSDBD9XHjVB8x3-RdkkhHzu8QybpOuG2AA04qHsTs","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/footable.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/aspe_nodes.admin.css":1,"sites\/all\/modules\/custom\/aspe_views\/theme\/css\/aspe_views.admin.css":1,"sites\/all\/modules\/forked\/book\/book.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/openpublic\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.css":1,"profiles\/openpublic\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openpublic\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/openpublic\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/themes\/stability\/css\/bootstrap.min.css":1,"sites\/all\/themes\/stability\/css\/fonts\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.theme.css":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/stability\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/stability\/css\/theme.css":1,"sites\/all\/themes\/stability\/css\/theme-elements.css":1,"sites\/all\/themes\/stability\/css\/animate.min.css":1,"sites\/all\/themes\/stability\/css\/skins\/red.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/slideshow.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/font-main.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/styleless.less":1,"sites\/all\/themes\/stability\/css\/skins\/blue.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/aspe\/theme\/js\/aspe.login-confirm.js":1,"sites\/all\/modules\/custom\/aspe_report\/modules\/aspe_databooks\/js\/aspe_databooks.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.highcharts.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/datatables\/dataTables.min.js":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.min.js":1,"sites\/all\/libraries\/highcharts\/highcharts.js":1,"sites\/all\/libraries\/highcharts\/highcharts.exporting.js":1,"sites\/all\/libraries\/highcharts\/highcharts.map.js":1,"sites\/all\/libraries\/highcharts\/highcharts.us-all.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.footable.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5486d15a696bff0c":1,"misc\/progress.js":1,"profiles\/openpublic\/modules\/contrib\/webform\/js\/webform.js":1,"profiles\/openpublic\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/stability\/vendor\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/stability\/vendor\/bootstrap.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flexnav.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flickrfeed.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.sloppy-masonry.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.fitvids.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.stellar.min.js":1,"sites\/all\/themes\/stability\/vendor\/snap.svg-min.js":1,"sites\/all\/themes\/stability\/js\/custom.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/aspe.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/html5shiv.min.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/main-menu.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/keyboard-control.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tabBehavior.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tileStringTrimmer.js":1}},"webform":{"conditionals":{"webform-client-form-158521":{"ruleGroups":[],"sourceMap":[],"values":[]}}},"ajax":{"edit-webform-ajax-next-158521":{"callback":"webform_ajax_callback","wrapper":"webform-ajax-wrapper-158521","progress":{"message":"","type":"throbber"},"event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Next \u003E"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/basic-report\/impacts-waiting-periods-home-and-community-based-services-consumers-and-medicaid-long-term-care-costs-iowa":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"([a-z0-9]\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This website contains links to other federal and state agencies and private organizations. The Department of Health and Human Services (HHS) cannot attest to the accuracy of information provided by these nonfederal website links. Linking to nonfederal sites does not constitute an endorsement by HHS or any of its employees of the sponsors or the information and products presented on the sites. You will be subject to the destination site\u0027s privacy policy when you leave the ASPE website.\r\n\r\nThank you for visiting aspe.hhs.gov!","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"stability":{"flickr_id":"52617155@N08","logo_sticky":"28"},"field_group":{"div":"full","hidden":"full"}});
+//--><!]]>
+</script>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config={pubid:"ra-5486d15a696bff0c",ui_click:false}
+//--><!]]>
+</script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4837db659","applicationID":"10708002","transactionName":"MwNaZBRSXEtXB0BdWQpJeVMSWl1WGQpbUFM7FllXA2xEUVMT","queueTime":0,"applicationTime":1690,"atts":"H0RZElxIT0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

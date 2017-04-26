@@ -1,0 +1,1920 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">  <!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://aspe.hhs.gov/sites/default/files/Favicon2.png" type="image/png" />
+<meta name="description" content="U.S. Department of Health and Human Services The Effects of Sample Attrition on Estimates of Channelings Impacts for an Early Sample Peter A. Mossel and Randall S. Brown Mathematica Policy Research, Inc. July 1984 PDF Version" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://aspe.hhs.gov/basic-report/effects-sample-attrition-estimates-channelings-impacts-early-sample" />
+<link rel="shortlink" href="https://aspe.hhs.gov/node/67646" />
+<meta property="og:site_name" content="ASPE" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aspe.hhs.gov/basic-report/effects-sample-attrition-estimates-channelings-impacts-early-sample" />
+<meta property="og:title" content="The Effects of Sample Attrition on Estimates of Channeling&#039;s Impacts for an Early Sample" />
+<meta property="og:description" content="U.S. Department of Health and Human Services The Effects of Sample Attrition on Estimates of Channelings Impacts for an Early Sample Peter A. Mossel and Randall S. Brown Mathematica Policy Research, Inc. July 1984 PDF Version" />
+<meta property="og:updated_time" content="2017-02-21T11:33:23-05:00" />
+<meta property="article:published_time" content="2015-06-13T04:03:11-04:00" />
+<meta property="article:modified_time" content="2017-02-21T11:33:23-05:00" />
+
+  <title>The Effects of Sample Attrition on Estimates of Channeling&#039;s Impacts for an Early Sample | ASPE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+  <link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__5ln8neBOcJfyUveiD4y9fhI6kHBLOQ_YL0mMC-LS9a0__TPJIZT9UBnf_685NlFTJ5KnZVsjwFk6ACQ-nwwygmwU__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ng49uRH5y4Hl9VF9hHW_vXOj-mcOc2u2ShJqJ1YKIGU__FoMCD14GBvZaRiqSQ_JpP1w3rDB21n7H2Ar4pRZaIh8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__Hskudx14OJ5Hz8vqU7CUgN6SDV5rINZuEq9VuGsSeyc__EwNIl3xeFrniW2TmonovTzhSs3X5MdFps210puE7jog__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__9rZoaX9BdzjjNucvYxduxeNAVO2zgW_Rvjhb5rq5whc__lSr_y16grDSgHf4booPChnF7QXz3TQY3hafH49twE0k__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZgfI_ZPib5yVY0o5aKo_6TFn946Tuu_nFDa0ySTmkSc__2FTFrNw2eNh0mpHIOA34r6YRwBZMm2PjJ_JubnwLigg__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__dxabpJ5rQgDSixKgLJZjWc1beC6mpROKwVrmWxI5eno__rqhz_hGsE_i59O7-W991o71_Jxw1QOtGMxn4nsOLHY8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZbRCq2NqWgK-HXAQI3So0N1n0nr4HonsJS3eQuuxukw__7Olkk8Locn8Dj0eR0Ww3rbV9lks9sxipcboMXB18RRs__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+
+	<!-- Head Libs -->
+	<script src="/sites/all/themes/stability/stability_aspe/vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/sites/all/themes/stability/vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" href="/sites/all/themes/stability/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/stability/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/stability/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/stability/images/apple-touch-icon-144x144.png">
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-67646 node-type-basic-report">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-JLFR"
+                  height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JLFR');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-nav" class="accessibility_menu">
+    <strong>Shortcut Navigation:</strong>
+    <ul>
+      <li><a href="#content" accesskey="c" title="Skip to page content (ctrl/alt + c)">Page Content</a></li>
+      <li><a href="#nav" accesskey="m" title="Skip to main navigation menu (ctrl/alt + m)">Site Navigation</a></li>
+
+      <li><a href="#Footer" accesskey="f" title="Skip to footer (ctrl/alt + f)">Footer</a></li>
+    </ul>
+  </div>
+
+    
+<div class="site-wrapper">
+  
+  <header class="header header-menu-fullw header-top-clean">
+    <div id="brand-bar">
+        <div class="container">
+                    <img alt='bird' src="/sites/all/themes/stability/stability_aspe/images/bird.png"> <a target="blank" tabindex="4" href="http://www.hhs.gov/">U.S. Department of Health & Human Services</a>
+        </div>
+
+    </div>
+    <div class="header-main">
+        <div class="container clearfix">
+            <div class="social-links-wrapper">
+                <ul class="social-links social-links__light">
+                                                          <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw.png"/></a></li>
+                                    <!--                  --><!--                    <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin.png"/></a></li>-->
+<!--                  -->
+                                                                      </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                                <div class="site_name_wrapper">
+                                     <span class="h1">
+                                      <a href="/">ASPE</a>
+                                       </span>
+                                  <p class="tagline"><p>Office of The Assistant Secretary</p><p> for Planning and Evaluation</p></p>
+                    </div>
+            </div>
+            <!-- Logo / End -->
+            <div class="header_right_wrapper">
+                <div class="search-form">
+                    <form action="/basic-report/effects-sample-attrition-estimates-channelings-impacts-early-sample" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class = "input-group"><div class="form-type-textfield form-item-search-block-form form-item form-group">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search Site..." class="form-control form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input class="btn btn-primary btn-icon form-submit" type="image" id="edit-submit" name="submit" value="Search" src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/search-white2.png" alt="Search" title="Search" /></div></div><input type="hidden" name="form_build_id" value="form-nANz0JqAtCDJVyhNSa-XNgWgNIHqHlZkeHovld7vWqw" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </div>
+                <button type="button" class="navbar-toggle" value="Menu">
+                    <i class="fa fa-bars"></i>Menu
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-main">
+        <div class="container">
+          <ul data-breakpoint="767" class="flexnav">
+                <li class="first expanded"><a href="/basic-search/about" title="">About</a><ul><li class="first leaf"><a href="/mission" title="">Mission</a></li>
+<li class="leaf"><a href="/key-staff" title="">Leadership</a></li>
+<li class="leaf"><a href="https://www.usajobs.gov/" title="">Careers</a></li>
+<li class="expanded"><a href="/coordination" title="linkTo">Coordination</a><ul><li class="first leaf"><a href="/evaluation-evidence" title="">Evaluation &amp; Evidence</a></li>
+<li class="leaf"><a href="/national-alzheimers-project-act">National Alzheimer&#039;s Project Act</a></li>
+<li class="leaf"><a href="/health-and-human-services-hhs-data-council">HHS Data Council</a></li>
+<li class="last leaf"><a href="/national-committee-vital-and-health-statistics" title="National Council on Vital and Health Statistics">National Council on Vital and Health Statistics</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/divisions" title="">Offices</a><ul><li class="first leaf"><a href="/office-disability-aging-and-long-term-care-policy-daltcp">Disability, Aging, and Long-Term Care Policy</a></li>
+<li class="leaf"><a href="/office-health-policy-hp">Health Policy</a></li>
+<li class="leaf"><a href="/office-human-services-policy">Human Services Policy</a></li>
+<li class="last leaf"><a href="/office-science-and-data-policy">Science and Data Policy</a></li>
+</ul></li>
+<li class="leaf"><a href="/strategic-planning" title="Strategic Planning">Strategic Planning</a></li>
+<li class="last leaf"><a href="/contact-aspe" title="">Contact ASPE</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/topics" title="">Topics</a><ul><li class="first leaf"><a href="/affordable-care-act-research">Affordable Care Act Research</a></li>
+<li class="leaf"><a href="/alzheimers-dementia">Alzheimer&#039;s / Dementia</a></li>
+<li class="leaf"><a href="/early-childhood">Early Childhood</a></li>
+<li class="leaf"><a href="/incarceration-reentry">Incarceration &amp; Reentry</a></li>
+<li class="leaf"><a href="/opioid-abuse-us-and-hhs-actions-address-opioid-drug-related-overdoses-and-deaths" title="Opioids">Opioids</a></li>
+<li class="leaf"><a href="/patient-centered-outcomes-research-trust-fund">Patient-Centered Outcomes Research Trust Fund (PCORTF)</a></li>
+<li class="expanded"><a href="/basic-search/poverty" title="">Poverty</a><ul><li class="first leaf"><a href="/poverty-guidelines">Poverty Guidelines</a></li>
+<li class="last leaf"><a href="/poverty-estimates-trends-and-analysis">Poverty Analysis</a></li>
+</ul></li>
+<li class="leaf"><a href="/teen-pregnancy-prevention">Teen Pregnancy Prevention</a></li>
+<li class="leaf"><a href="/homelessness">Homelessness</a></li>
+<li class="last leaf"><a href="/medicare-access-and-chip-reauthorization-act-2015">MACRA</a></li>
+</ul></li>
+<li class="leaf"><a href="/reports" title="">Publications</a></li>
+<li class="last expanded"><a href="/basic-search/datasets" title="">Data and Tools</a><ul><li class="first last leaf"><a href="/evaluations" title="">Evaluation Database</a></li>
+</ul></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation / End -->
+</header>  <div class="main" role="main">
+    <!--PAGEWATCH CODE="USHHS_458"-->
+    <section class="page-heading">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+                <h1>
+                    
+          The Effects of Sample Attrition on Estimates of Channeling&#039;s Impacts for an Early Sample        </h1>
+                                 <p class="author">
+                                                 <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="1984-07-01T00:00:00-04:00">07/01/1984</span>               
+                           </p>
+
+
+                  </div>
+
+
+        <div class="col-md-6">
+           <ul class="breadcrumb"><li class="first"><a href="/" title="Home">Home</a></li>
+<li class="last">The Effects of Sample Attritio...</li>
+</ul>        </div>
+
+
+    </div>
+  </div>
+</section>
+    
+      <div  class="nd-region nd-region-filter">
+  
+       
+
+    
+      <div  id="Filter" class="row">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region nd-region-similar-content">
+  
+       
+
+    
+      <div  id="Similar-Content" class="row">     
+
+        
+                  
+        
+                                    <div  id="top" class="">
+                          
+                              <div id="block-views-2100ccfdd214bdbcf634d7e4832c265b" class="widget block block-views solr-similar-content" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Similar</span> content</h3>
+		</div>
+    
+  <div class="view view-similar-content-solr view-id-similar_content_solr view-display-id-block_solr_similar_content view-dom-id-f2af7c909d3e6006036d94752d264908">
+        
+  
+  
+      
+    
+    <span class="field-content"><a href="/execsum/final-report-effects-sample-attrition-estimates-channelings-impacts">Final Report on the Effects of Sample Attrition on Estimates of Channeling&#039;s Impacts</a></span>    
+    <span class="field-content"><a href="/execsum/examination-equivalence-treatment-and-control-groups-and-comparability-baseline-data">Examination of the Equivalence of Treatment and Control Groups and the Comparability of Baseline Data</a></span>    
+    <span class="field-content"><a href="/pdf-report/final-report-effects-sample-attrition-estimates-channelings-impacts">Final Report on the Effects of Sample Attrition on Estimates of Channeling&#039;s Impacts</a></span>    
+    <span class="field-content"><a href="/pdf-report/effects-sample-attrition-estimates-channelings-impacts-early-sample">The Effects of Sample Attrition on Estimates of Channeling&#039;s Impacts for an Early Sample</a></span>    
+    <span class="field-content"><a href="/basic-report/initial-research-design-national-long-term-care-demonstration">Initial Research Design of the National Long Term Care Demonstration</a></span>  
+  
+  
+  
+  
+  
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Content">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  class="col-md-12 " id="content">
+                          
+                              <div id="block-aspe-aspe-addthis" class="widget block block-aspe" >
+  
+      
+  <div class="clearfix">
+  <ul class="addthis_sharing_toolbox node-share__links" data-url="https://aspe.hhs.gov/basic-report/effects-sample-attrition-estimates-channelings-impacts-early-sample" data-title="The Effects of Sample Attrition on Estimates of Channeling&#039;s Impacts for an Early Sample">
+    <li><a class="addthis_button_print"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/print-white.png" alt="print" /></a></li>
+    <li><a class="addthis_button_email"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/mail-white.png" alt="email" /></a></li>
+    <li><a class="addthis_button_twitter"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/tw.png" alt="twitter" /></a></li>
+<!--    <li><a class="addthis_button_facebook">--><!--</a></li>-->
+    <li><a class="addthis_button_compact"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/plus-white.png" alt="compact" /></a></li>
+  </ul>
+</div>
+
+  </div> <!-- /.block -->
+
+                
+    
+  
+  <div class="content clearfix node-basic-report">
+    <p><font><b><font face="Calisto MT">U.S. Department of Health and Human Services</font></b></font></p>
+<h1>The Effects of Sample Attrition on Estimates of  		Channelings Impacts for an Early Sample</h1>
+<h3>Peter A. Mossel and Randall S. Brown</h3>
+<h3>Mathematica Policy Research, Inc.</h3>
+<h3>July 1984</h3>
+<p><a href="/system/files/pdf/74001/earlyes.pdf">PDF Version</a></p>
+<hr /><blockquote>
+<p><i>The paper was written as part of contract #HHS-100-80-0157 between  		  ASPE and Mathematica Policy Research, Inc., and contract #HHS-100-80-0133  		  between ASPE and Temple University. Additional funding was provided by the  		  Administration on Aging and Health Care Financing Administration (now CMS). For  		  additional information about this subject, you can visit the DALTCP home page  		  at <a href="http://aspe.hhs.gov/_/office_specific/daltcp.cfm">http://aspe.hhs.gov/_/office_specific/daltcp.cfm</a> or contact the office at  		  HHS/ASPE/DALTCP, Room 424E, H.H. Humphrey Building, 200 Independence Avenue,  		  S.W., Washington, D.C. 20201. The e-mail address is: <a href="mailto:webmaster.DALTCP@hhs.gov">webmaster.DALTCP@hhs.gov</a>.  		  The Project Officer was Robert Clark.</i></p>
+<p><i>This report was prepared for the Department of Health and Human  		  Services under contract no. HHS-100-80-0157. The DHHS project officer is Ms.  		  Mary Harahan, Office of the Secretary, Department of Health and Human Services,  		  Room 4477F, Hubert H. Humphrey Building, Washington, DC. 20201.</i></p>
+</blockquote>
+<hr /><h2>TABLE OF CONTENTS</h2>
+<dl><dt><a href="#acknow">ACKNOWLEDGMENTS</a></dt>
+</dl><dl><dt><a href="#preface">PREFACE</a></dt>
+</dl><dl><dt>I. <a href="#chapI">INTRODUCTION</a></dt>
+</dl><dl><dt>II. <a href="#chapII">THE NATURE AND EXTENT OF ATTRITION IN THE  		  PRELIMINARY ANALYSIS SAMPLE</a></dt>
+</dl><dl><dt>III. <a href="#chapIII">SIZE, GROWTH AND DEMOGRAPHIC CHARACTERISTICS  		  OF THE ELDERLY POPULATION</a></dt>
+</dl><dl><dt>IV. <a href="#chapIV">A JOINT MODEL FOR PROGRAM IMPACTS AND  		  ATTRITION</a></dt>
+</dl><dl><dt>V. <a href="#chapV">EMPIRICAL RESULTS</a></dt>
+</dl><dl><dt>VI. <a href="#chapVI">CONCLUSION</a></dt>
+</dl><dl><dt><a href="#notes">NOTES</a></dt>
+</dl><dl><dt><a href="#appendA">APPENDIX A</a>: A MULTINOMIAL LOGIT MODEL OF  		  RESPONSE, DEATH, AND NONRESPONSE</dt>
+</dl><dl><dt><a href="#appendB">APPENDIX B</a>: COMPARISON OF RESULTS TO THOSE  		  PRESENTED IN CHANNELING EFFECTS FOR AN EARLY SAMPLE AT 6-MONTH  		  FOLLOWUP</dt>
+</dl><dl><dt><a href="#reports">CHANNELING EVALUATION REPORTS</a></dt>
+</dl><dl><dt><a href="#references">REFERENCES</a></dt>
+</dl><dl><dt>LIST OF TABLES</dt>
+<dd><a href="#table1">TABLE 1</a>: Attrition Rates for the Preliminary  		  Impact Analysis Samples and Reasons for Attrition</dd>
+<dd><a href="#table2">TABLE 2</a>: Probit Coefficients for Being in the  		  Known Status Sample or the Followup Sample</dd>
+<dd><a href="#table3">TABLE 3</a>: Estimates of Impacts of Channeling  		  With and Without Adjustment for Attrition</dd>
+<dd><a href="#tableA1">TABLE A-1</a>: Multinomial Logit Coefficients  		  for Response Status at Six-Month Followup</dd>
+<dd><a href="#tableB1">TABLE B-1</a>: Comparison of Impact Estimates  		  in Preliminary Analysis Report to Unadjusted Impact Estimates Used in Attrition  		  Analysis</dd>
+</dl><h2><a name="acknow" id="acknow">ACKNOWLEDGMENTS</a></h2>
+<p>Several individuals besides the authors contributed to the production of  		this report. Peter Kemper, George Carcagno, and Judith Wooldridge provided  		valuable advice and comments on an early draft of this report. Daniel Buckley  		and Shari Miller Dunstan provided able computational assistance. Felicity  		Skidmore provided valuable editorial guidance. Daniel Steinberg provided us  		with prerelease versions of probit and multinomial logit programs. Annette  		Kasprack performed the necessary word processing for this report.</p>
+<h2><a name="preface" id="preface">PREFACE</a></h2>
+<p>This report serves as a supplement to the report "<a href="http://aspe.hhs.gov/daltcp/reports/6monthes.htm">Channeling Effects for  		an Early Sample at 6-Month Followup</a>" (Kemper et al., 1984). That report  		examined overall channeling impacts on a variety of outcome measures from  		6-month followup interviews with channeling treatment and control group members  		(or proxy respondents). This report is based on data from the same source for  		the same sample of early participants in the National Long Term Care  		Demonstration. In this report we assume that the reader is familiar with the  		channeling demonstration, research methodology, and impact estimates described  		in the main report. We limit our discussion in this report to how impact  		estimates for a subset of the outcome variables examined there are affected by  		sample attrition.</p>
+<h2><a name="chapI" id="chapI">I. INTRODUCTION</a></h2>
+<p>In the channeling evaluation, as in other longitudinal studies, we are  		faced with the fact that some of the members of the research sample are lost to  		the analysis due to attrition.<sup><font><a href="#note1">1</a></font></sup> In an earlier report (Brown and Harrigan,  		1983) we showed that the treatment and control groups at the time of  		randomization comprised similar types of individuals; hence, post-randomization  		differences between those two groups can be attributed to the effects of  		channeling. However, sample attrition may distort the treatment/control  		comparison, depending on the type of attrition that takes place. Attrition that  		is completely random with respect to all factors relevant to the outcome being  		measured leads to less precise estimates of program impacts (due to the  		reduction of the sample size), but does not lead to biased estimates. However,  		if the pattern of attrition is different for the treatment and control groups,  		the sample of treatment and control group members available for analysis will  		no longer be similar. In this case, differences in outcomes between the groups  		cannot be attributed to channeling alone, and impact estimates that do not  		adjust for the initial differences induced by different attrition patterns will  		be biased.</p>
+<p>The purpose of this report is to investigate whether there is evidence  		of bias due to attrition in the preliminary estimates of channeling's impacts,  		which are based on observations six months after randomization, and which are  		presented in Kemper et al. (1984). <a href="#chapII">Section II</a> describes  		the pattern of attrition. <a href="#chapIII">Section III</a> discusses how bias  		due to attrition might arise in the impact estimates. <a href="#chapIV">Section  		IV</a> outlines the statistical procedures used to correct for bias, and  		<a href="#chapV">Section V</a> contains the results obtained when this  		procedure is used to estimate the impacts of channeling for key outcome  		measures drawn from the preliminary findings. Finally, we draw some conclusions  		about the extent of attrition bias in the preliminary impact estimates and  		discuss the implications of these results for dealing with the problem of  		potential attrition bias in the final report.</p>
+<h2><a name="chapII" id="chapII">II. THE NATURE AND EXTENT OF ATTRITION IN THE  		PRELIMINARY ANALYSIS SAMPLE</a></h2>
+<p>In the preliminary report, the impact of channeling is estimated on a  		sample consisting of the early enrollees only--those who applied to channeling  		and were randomly assigned to the treatment or control group on or prior to  		January 31, 1983. Two different subsets of this early cohort were used in the  		analysis.</p>
+<p>The <b>known status</b> sample consists of those sample members who  		completed the baseline and for whom status (whether the sample member was dead,  		in a nursing. home, in a hospital, or living in the community) at the point six  		months after randomization is known. Attrition from this sample is defined as  		either nonresponse to the baseline interview or missing data on status at six  		months. The known status sample was used to estimate channeling's impact on all  		outcome measures that could be determined from knowledge that the sample member  		was dead or in a nursing home or hospital six months after the day on which  		he/she was randomly assigned to the treatment or control group, even if no  		followup were completed. These outcomes included mortality, type of residence,  		receipt of formal community-based services, and receipt of informal care.</p>
+<p>The <b>followup</b> sample consists of the known status sample members  		for whom a 6-month followup interview was available. Attrition from this sample  		is defined as nonresponse to the followup interview.<sup><font><a href="#note2">2</a></font></sup> The followup sample is used to estimate  		channeling's impact on hospital and nursing home use during the six months  		preceding the followup interview, receipt of case management during this  		period, and sample members' well-being at followup.</p>
+<p>A sample member can also be omitted from the analysis of impacts on a  		given outcome measure due to item nonresponse on the outcome variable. In  		general, there is little item nonresponse for the outcome variables examined in  		Kemper et al. (1984), and it is not considered to be likely to cause attrition  		bias. Thus, the possible effect of item nonresponse on impact estimates is  		ignored in this analysis.</p>
+<p><a href="#table1">Table 1</a> gives a frequency distribution of sample  		members in the followup sample and the known status sample, by model and  		treatment status. For the known status sample we find an attrition rate of 19  		percent in the basic case management sites, of which 11 percent occurred at the  		baseline. The financial control sites have an almost identical rate of  		attrition. For the followup sample we find that in the basic case management  		sites 36 percent of the sample members are lost due to attrition, 11 percent of  		which occurred at the baseline as before, since baseline response is a  		necessary condition for inclusion in both samples. The corresponding rate of  		attrition for the financial control sites is 35 percent, about the same as for  		the basic sites.</p>
+<table><tr><td colspan="7"><font><b> <a name="table1" id="table1">TABLE 1</a>. Attrition Rates for the  			 Preliminary Impact Analysis Samples and Reasons for Attrition(percent of  			 total early cohort) </b></font></td>
+</tr><tr><td rowspan="2" scope="col"><font> </font></td>
+<td colspan="3" scope="col"><font><b> Basic Case Management Model  			 </b></font></td>
+<td colspan="3" scope="col"><font><b> Financial Control Model  			 </b></font></td>
+</tr><tr><td scope="col"><font><b> Treatment </b></font></td>
+<td scope="col"><font><b> Control </b></font></td>
+<td scope="col"><font><b> Total </b></font></td>
+<td scope="col"><font><b> Treatment </b></font></td>
+<td scope="col"><font><b> Control </b></font></td>
+<td scope="col"><font><b> Total </b></font></td>
+</tr><tr><td colspan="7"><font> KNOWN STATUS SAMPLE </font></td>
+</tr><tr><td scope="row"><font> In Known  			 Status Sample </font></td>
+<td><font> 83.0 </font></td>
+<td><font> 77.6 </font></td>
+<td><font> 80.7 </font></td>
+<td><font> 87.3 </font></td>
+<td><font> 70.3 </font></td>
+<td><font> 80.5 </font></td>
+</tr><tr><td colspan="7"><font> Not in Known  			 Status Sample by Reason for Attrition: </font></td>
+</tr><tr><td scope="row"><font> Baseline  			 Nonresponse</font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+</tr><tr><td scope="row"><font>  Deceased</font></td>
+<td><font>2.3</font></td>
+<td><font>3.1</font></td>
+<td><font>2.7</font></td>
+<td><font>1.5</font></td>
+<td><font>2.2</font></td>
+<td><font>1.8</font></td>
+</tr><tr><td scope="row"><font>  Refused interview</font></td>
+<td><font>2.5</font></td>
+<td><font>9.6</font></td>
+<td><font>5.6</font></td>
+<td><font>1.2</font></td>
+<td><font>11.7</font></td>
+<td><font>5.5</font></td>
+</tr><tr><td scope="row"><font>  Moved or unable to locate</font></td>
+<td><font>0.5</font></td>
+<td><font>0.4</font></td>
+<td><font>0.5</font></td>
+<td><font>0.1</font></td>
+<td><font>0.7</font></td>
+<td><font>0.3</font></td>
+</tr><tr><td scope="row"><font>  Other<sup>a</sup></font></td>
+<td><font>3.2</font></td>
+<td><font>2.0</font></td>
+<td><font>2.7</font></td>
+<td><font>2.7</font></td>
+<td><font>3.8</font></td>
+<td><font>3.1</font></td>
+</tr><tr><td scope="row"><font>  Total</font></td>
+<td><font>8.7</font></td>
+<td><font>15.0</font></td>
+<td><font>11.4</font></td>
+<td><font>5.5</font></td>
+<td><font>18.5</font></td>
+<td><font>10.7</font></td>
+</tr><tr><td scope="row"><font> Baseline  			 Complete, but No Status Information</font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+</tr><tr><td scope="row"><font>  Refused interview</font></td>
+<td><font>3.5</font></td>
+<td><font>2.4</font></td>
+<td><font>3.0</font></td>
+<td><font>1.6</font></td>
+<td><font>4.0</font></td>
+<td><font>2.5</font></td>
+</tr><tr><td scope="row"><font>  Moved or unable to locate</font></td>
+<td><font>1.2</font></td>
+<td><font>0.7</font></td>
+<td><font>1.0</font></td>
+<td><font>1.1</font></td>
+<td><font>2.9</font></td>
+<td><font>1.9</font></td>
+</tr><tr><td scope="row"><font>  Other<sup>a</sup></font></td>
+<td><font>3.6</font></td>
+<td><font>4.3</font></td>
+<td><font>3.9</font></td>
+<td><font>4.5</font></td>
+<td><font>4.4</font></td>
+<td><font>4.4</font></td>
+</tr><tr><td scope="row"><font>  Total</font></td>
+<td><font>8.3</font></td>
+<td><font>7.3</font></td>
+<td><font>7.9</font></td>
+<td><font>7.3</font></td>
+<td><font>11.2</font></td>
+<td><font>8.8</font></td>
+</tr><tr><td scope="row"><font> Total  			 Attrition </font></td>
+<td><font> 17.0 </font></td>
+<td><font> 22.4 </font></td>
+<td><font> 19.3 </font></td>
+<td><font> 12.7 </font></td>
+<td><font> 29.7 </font></td>
+<td><font> 19.5 </font></td>
+</tr><tr><td scope="row"><font> Total Early  			 Cohort </font></td>
+<td><font> 100.0 </font></td>
+<td><font> 100.0 </font></td>
+<td><font> 100.0 </font></td>
+<td><font> 100.0 </font></td>
+<td><font> 100.0 </font></td>
+<td><font> 100.0 </font></td>
+</tr><tr><td colspan="7"><font> FOLLOWUP SAMPLE </font></td>
+</tr><tr><td scope="row"><font> In Followup  			 Sample </font></td>
+<td><font> 65.0 </font></td>
+<td><font> 62.5 </font></td>
+<td><font> 63.9 </font></td>
+<td><font> 70.7 </font></td>
+<td><font> 56.5 </font></td>
+<td><font> 65.0 </font></td>
+</tr><tr><td colspan="7"><font> Not in  			 Followup Sample by Reason for Attrition: </font></td>
+</tr><tr><td scope="row"><font> Baseline  			 Nonresponse</font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+</tr><tr><td scope="row"><font>  Deceased</font></td>
+<td><font>2.3</font></td>
+<td><font>3.1</font></td>
+<td><font>2.7</font></td>
+<td><font>1.5</font></td>
+<td><font>2.2</font></td>
+<td><font>1.8</font></td>
+</tr><tr><td scope="row"><font>  Refused interview</font></td>
+<td><font>2.5</font></td>
+<td><font>9.6</font></td>
+<td><font>5.6</font></td>
+<td><font>1.2</font></td>
+<td><font>11.7</font></td>
+<td><font>5.5</font></td>
+</tr><tr><td scope="row"><font>  Moved or unable to locate</font></td>
+<td><font>0.5</font></td>
+<td><font>0.4</font></td>
+<td><font>0.5</font></td>
+<td><font>0.1</font></td>
+<td><font>0.7</font></td>
+<td><font>0.3</font></td>
+</tr><tr><td scope="row"><font>  Other<sup>a</sup></font></td>
+<td><font>3.2</font></td>
+<td><font>2.0</font></td>
+<td><font>2.7</font></td>
+<td><font>2.7</font></td>
+<td><font>3.8</font></td>
+<td><font>3.1</font></td>
+</tr><tr><td scope="row"><font>  Total</font></td>
+<td><font>8.7</font></td>
+<td><font>15.0</font></td>
+<td><font>11.4</font></td>
+<td><font>5.5</font></td>
+<td><font>18.5</font></td>
+<td><font>10.7</font></td>
+</tr><tr><td scope="row"><font> Baseline  			 Complete, but No Completed Followup</font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+</tr><tr><td scope="row"><font>  Deceased</font></td>
+<td><font>4.3</font></td>
+<td><font>12.1</font></td>
+<td><font>13.4</font></td>
+<td><font>14.4</font></td>
+<td><font>11.2</font></td>
+<td><font>13.1</font></td>
+</tr><tr><td scope="row"><font>  Refused interview</font></td>
+<td><font>5.3</font></td>
+<td><font>4.0</font></td>
+<td><font>4.8</font></td>
+<td><font>2.3</font></td>
+<td><font>5.9</font></td>
+<td><font>3.8</font></td>
+</tr><tr><td scope="row"><font>  Moved or unable to locate</font></td>
+<td><font>2.0</font></td>
+<td><font>1.5</font></td>
+<td><font>1.8</font></td>
+<td><font>1.6</font></td>
+<td><font>3.2</font></td>
+<td><font>2.2</font></td>
+</tr><tr><td scope="row"><font>  Other<sup>a</sup></font></td>
+<td><font>4.7</font></td>
+<td><font>4.9</font></td>
+<td><font>4.8</font></td>
+<td><font>5.5</font></td>
+<td><font>4.7</font></td>
+<td><font>5.2</font></td>
+</tr><tr><td scope="row"><font>  Total</font></td>
+<td><font>26.3</font></td>
+<td><font>22.5</font></td>
+<td><font>24.7</font></td>
+<td><font>23.8</font></td>
+<td><font>25.1</font></td>
+<td><font>24.3</font></td>
+</tr><tr><td scope="row"><font> Total  			 Attrition </font></td>
+<td><font> 35.0 </font></td>
+<td><font> 37.5 </font></td>
+<td><font> 36.1 </font></td>
+<td><font> 29.3 </font></td>
+<td><font> 43.5 </font></td>
+<td><font> 35.0 </font></td>
+</tr><tr><td scope="row"><font> Total Early  			 Cohort </font></td>
+<td><font> 100.0 </font></td>
+<td><font> 100.0 </font></td>
+<td><font> 100.0 </font></td>
+<td><font> 100.0 </font></td>
+<td><font> 100.0 </font></td>
+<td><font> 100.0 </font></td>
+</tr><tr><td scope="row"><font> Number of  			 sample members in early cohort </font></td>
+<td><font><b> 1,109  			 </b></font></td>
+<td><font><b> 845  			 </b></font></td>
+<td><font><b> 1,945  			 </b></font></td>
+<td><font><b> 1,131  			 </b></font></td>
+<td><font><b> 758  			 </b></font></td>
+<td><font><b> 1,889  			 </b></font></td>
+</tr><tr><td scope="row"><font> Number of  			 sample members in known status analysis sample </font></td>
+<td><font><b> 921  			 </b></font></td>
+<td><font><b> 656  			 </b></font></td>
+<td><font><b> 1,577  			 </b></font></td>
+<td><font><b> 987  			 </b></font></td>
+<td><font><b> 533  			 </b></font></td>
+<td><font><b> 1,520  			 </b></font></td>
+</tr><tr><td scope="row"><font> Number of  			 sample members in followup analysis sample </font></td>
+<td><font><b> 721  			 </b></font></td>
+<td><font><b> 528  			 </b></font></td>
+<td><font><b> 1,249  			 </b></font></td>
+<td><font><b> 800  			 </b></font></td>
+<td><font><b> 428  			 </b></font></td>
+<td><font><b> 1,228  			 </b></font></td>
+</tr><tr><td colspan="7">
+<ol type="a"><li><font>The other category includes refusal  				  of institutions to permit bedside access.</font></li>
+</ol></td>
+</tr></table><p>Of more concern than the percentage of the early cohort lost due to  		attrition is the fact that treatment and control group members differ  		considerably in overall response rate and in reason for nonresponse. In basic  		sites, 22.4 percent of controls but only 17 percent of the treatment group are  		unavailable for the known status analysis sample. The difference between  		treatment and control groups in attrition rates in the financial control sites  		is even greater (29.7 percent for controls, 12.7 percent for treatments). The  		bulk of these treatment/control differences in response rates are due to the  		difference in refusal rates at baseline. In the basic case management model,  		9.6 percent of the control group refused to be interviewed at the baseline, but  		only 2.5 percent of the treatment group refused. The corresponding figures for  		the financial control model show an even greater difference, with refusal rates  		of 11.7 and 1.2 percent for treatment and control groups,  		respectively.<sup><font><a href="#note3">3</a></font></sup> Most of  		the refusals in the control group were proxies or sample members who said they  		didn't want to be bothered or were too busy or too ill. A smaller fraction of  		those who refused indicated that they were upset at being assigned to the  		control group.</p>
+<p>Between the baseline and followup interviews the differences between  		treatment and control group members in rates of attrition persist, although  		these differences are not as pronounced as at baseline. Thus, it appears that  		most of the overall treatment/control differences in response rates are caused  		by differences in baseline nonresponse between these groups. The differential  		response rates of treatment and control group members raise a concern about  		potential attrition bias in the impact estimates.</p>
+<h2><a name="chapIII" id="chapIII">III. HOW ATTRITION MIGHT AFFECT ESTIMATES OF  		CHANNELING IMPACTS</a></h2>
+<p>As noted above, it has been established that as a result of  		randomization, the full treatment and control groups were composed of similar  		types of individuals. However, the loss of sample members through attrition can  		lead to the following situations:</p>
+<ul><li> Different rates of attrition between treatment and control groups,  		  although despite this differential attrition both groups are, on the average,  		  still composed of the same types of individuals as is the full sample, and are  		  therefore similar to each other.</li>
+<li> Different rates of attrition between treatment and control groups,  		  although both groups are still similar to each other. However, due to  		  attrition, the analysis sample is dissimilar to the full sample.</li>
+<li> The treatment and control groups, which were equivalent for the full  		  sample, consist after attrition of different types of individuals.</li>
+</ul><p>In the first situation there will be no danger of attrition bias in the  		impact estimates. However, due to the smaller sample sizes the impact estimates  		will have a greater variance as compared to those obtained for the full sample.  		In the second situation, there will be no attrition bias but the results of the  		demonstration apply only to the analysis sample, rather than to the population  		that applied and was found eligible for channeling. In the third situation an  		estimated treatment/control group difference may be caused by the fact that  		these groups are made up of very different individuals, rather than by the  		impact of channeling. An example will illustrate this point.</p>
+<p>Suppose that we estimate the impact of channeling on the number of  		hospital days by comparing treatment and control group means, and find that  		these means are identical at the 6-month followup. Suppose further that the  		control group available for analysis were to consist of relatively unimpaired  		individuals, because the more impaired sample members refused further  		cooperation after learning that they would not receive channeling services. As  		a consequence, the control group would have had a <b>higher</b> average number  		of hospital days, had these people remained in the study, and the difference  		between treatment and control group means would then have been negative. The  		problem faced here is that an <b>unmeasured</b> variable (impairment) is both  		of substantial importance in determining the outcome (hospital use) and a cause  		of sample attrition.</p>
+<p>If a good measure of "impairment" were available, it would be possible  		to correct for the different composition of treatment and control groups by  		using a regression model to control for the effects of this difference in  		impairment in estimating the impacts of channeling. Such a regression procedure  		was used to estimate the preliminary impact findings. However, regression alone  		may fail to account adequately for the effects of differential attrition for  		treatments and controls, for two reasons. First, the characteristics of the  		sample members who were lost due to attrition may be different in unknown ways  		from those who remain. Second, even if it were known how those who were lost  		due to attrition are different from those who remain, we seldom have the  		appropriate measures or know the appropriate functional form to control fully  		for the effect that these differences have on our outcome measures. In  		practice, the best we can do is to rely on some unverifiable statistical  		assumptions that enable us to use econometric procedures to control for the  		effects of attrition. The purpose of these statistical techniques is to purge  		an apparent treatment effect of any preexisting differences between those who  		are included in the sample and those who are lost due to attrition. The models  		and procedures are outlined below.</p>
+<h2><a name="chapIV" id="chapIV">IV. A JOINT MODEL FOR PROGRAM IMPACTS AND  		ATTRITION</a></h2>
+<p>The regression model used in the preliminary analysis report (Kemper et  		al., 1984) to estimate channeling's impacts can be described as follows. Let  		Y<sub>1</sub> be the outcome of interest, such as number of hospital days or  		number of nursing home days. Random assignment to treatment and control groups  		took place so that in theory these groups are equivalent on observed and  		unobserved characteristics.<sup><font><a href="#note4">4</a></font></sup> Define T<sub>B</sub> = 1 if the sample member  		belongs to the treatment group in the basic case management model, and  		T<sub>B</sub> = 0 if he or she does not. Similarly, define T<sub>F</sub> = 1 if  		the sample member belongs to the treatment group in the financial control  		model, and T<sub>F</sub> = 0 otherwise. Finally, define a set of auxiliary  		control variables (X<sub>1</sub>) such as site, sex, race, income, and  		impairment in functioning. As explained in Kemper et al. (1984), these  		variables are included in the outcome equation to control for preexisting  		differences between sample members on characteristics that determine jointly  		with channeling the value of the outcome. The model is then<sup><font><a href="#note5">5</a></font></sup></p>
+<table><tr><td> (1) </td>
+<td> Y<sub>1</sub> </td>
+<td> = </td>
+<td> a<sub>B</sub>T<sub>B</sub> + a<sub>F</sub>T<sub>F</sub> +  			 X<sub>1</sub>b<sub>1</sub> + u<sub>1</sub></td>
+</tr><tr><td> </td>
+<td> </td>
+<td> = </td>
+<td> Zb + u<sub>1</sub>,</td>
+</tr></table><p>where a<sub>B</sub> and a<sub>F</sub> are the estimates of the impact of  		channeling on the outcome, Y<sub>1</sub>, for the basic and financial control  		models, respectively; b<sub>1</sub> is a vector of coefficients on the  		auxiliary variables; and u<sub>1</sub> is the disturbance term. To facilitate  		the exposition below this equation is collapsed and expressed in terms of Z and  		b, where Z is a vector that contains variables T<sub>B</sub>, T<sub>F</sub>,  		and X<sub>1</sub>, and b is the true, unobserved value of the regression  		parameters (a<sub>B</sub>, a<sub>F</sub>, and b<sub>1</sub>) in equation (1).  		In the absence of sample attrition, if the random assignment to treatment or  		control groups was performed correctly and the usual assumptions of  		least-squares regression are satisfied, then regression estimates of  		a<sub>B</sub> and a<sub>F</sub> are unbiased estimates of the impacts of  		channeling on outcome Y<sub>1</sub> for the basic case management and the  		financial control models, respectively.</p>
+<p>As noted above, however, we could not estimate this model on the full  		sample of early enrollees because attrition did occur. To the extent that the  		included auxiliary control variables account fully for the effect of any  		differences between responders and nonresponders on the outcome variable  		(Y<sub>1</sub>), the estimated coefficients in equation (1), including  		a<sub>B</sub> and a<sub>F</sub>, remain unbiased. However, if there are  		unmeasured characteristics that affect both the probability of attrition and  		the outcome of interest, the estimated coefficients in equation (1) will in  		general be biased.</p>
+<p>The following exposition describes the mechanism by which this bias  		occurs. Suppose that the attrition process can be described by the  		equations:</p>
+<table><tr><td> (2) </td>
+<td> <img src="/system/files/images-reports-basic/67646/earlyesF2.jpg" /> </td>
+<td> = </td>
+<td> X<sub>2</sub>b<sub>2</sub> + u<sub>2</sub>, and</td>
+</tr></table><table><tr><td> (3) </td>
+<td> Y<sub>2</sub> </td>
+<td> = </td>
+<td> 1 if  			 <img src="/system/files/images-reports-basic/67646/earlyesF2.jpg" /> &gt; 0 (in the  			 analysis sample)</td>
+</tr><tr><td> </td>
+<td> Y<sub>2</sub> </td>
+<td> = </td>
+<td> 0 if  			 <img src="/system/files/images-reports-basic/67646/earlyesF2.jpg" /><u>&lt;</u> 0 (lost  			 from sample due to attrition).</td>
+</tr></table><p>The dependent variable in equation (2) is an unobserved continuous  		variable, <img src="/system/files/images-reports-basic/67646/earlyesF2.jpg" />,  		representing the propensity to be available for and respond to the 6-month  		followup interview. The variable is not observed directly, but individuals with  		values exceeding a constant--without loss of generality assumed to be zero--are  		observed to respond (Y<sub>2</sub> = 1), while those with values less than or  		equal to zero are nonresponders (Y<sub>2</sub> = 0). Propensity to respond is  		assumed to be a function of observable characteristics, X<sub>2</sub> (which  		includes treatment status and may include other variables also included in  		X<sub>1</sub>), as well as unobservable characteristics and circumstances,  		represented by the disturbance term u<sub>2</sub>, assumed to follow a standard  		normal distribution.</p>
+<p>Bias arises in the estimates of a<sub>B</sub> and a<sub>F</sub> if the  		unobserved factors affecting attrition (u<sub>2</sub>) are correlated with the  		unobserved factors (u<sub>1</sub>) that affect the outcome measure  		(Y<sub>1</sub>). This can be seen by examining the genera]. expression for the  		vector of regression coefficients for equation (1), which we will refer to as  		<img src="/system/files/images-reports-basic/67646/earlyesF1.jpg" /> : </p>
+<table><tr><td> (4) </td>
+<td> <img src="/system/files/images-reports-basic/67646/earlyesF1.jpg" /> </td>
+<td> = </td>
+<td> (Z'Z)<sup>-1</sup>Z'Y<sub>1</sub>,</td>
+</tr><tr><td> </td>
+<td> </td>
+<td> = </td>
+<td> b + (Z'Z)<sup>-1</sup>Z'u<sub>1</sub>.</td>
+</tr></table><p>Without sample attrition, the expected value of the estimated regression  		coefficients is the true value of the parameters (b), because the last term in  		the expression above has an expected value of zero. With attrition,  		however,</p>
+<table><tr><td> (5) </td>
+<td colspan="2"> E(<img src="/system/files/images-reports-basic/67646/earlyesF1.jpg" />, given data available for analysis)</td>
+</tr><tr><td> </td>
+<td> = </td>
+<td> b + E[(Z'Z)Z'u<sub>1</sub>, given Y<sub>2</sub>=1].</td>
+</tr><tr><td> </td>
+<td> = </td>
+<td> b + E[(Z'Z)<sup>-1</sup>Z'u<sub>1</sub>, given  			 <img src="/system/files/images-reports-basic/67646/earlyesF2.jpg" /> &gt; 0]</td>
+</tr><tr><td> </td>
+<td> = </td>
+<td> b + E[(Z'Z)<sup>-1</sup>Z'u<sub>1</sub>, given u<sub>2</sub>  			 &gt; -X<sub>2</sub>b<sub>2</sub>]</td>
+</tr><tr><td> </td>
+<td> = </td>
+<td> b + (Z'Z)<sup>-1</sup>Z' E[u<sub>1</sub>, given u<sub>2</sub>  			 &gt; -X<sub>2</sub>b<sub>2</sub>].</td>
+</tr></table><p>If u<sub>1</sub> and u<sub>2</sub> are correlated (i.e., if there are  		unobserved factors that affect both Y<sub>1</sub> and the probability of  		attrition), the final expected value of the expression in square brackets will  		not be zero, and therefore the expected value of the regression estimates of  		the parameters of equation (1), including the expected value of the estimates  		of a<sub>B</sub> and a<sub>F</sub>, will not be equal to the true values of  		these parameters. Thus, the estimates are biased by sample attrition, and the  		size and direction of the bias are unknown.<sup><font><a href="#note6">6</a></font></sup></p>
+<p>The nature of this bias and a procedure for correcting it were  		explicated by Heckman (1976, 1979). Heckman showed that the bias due to sample  		attrition is analogous to the bias due to omitting an important explanatory  		variable. That is, we have</p>
+<table><tr><td> (6) </td>
+<td> E(Y<sub>1</sub>, given  			 <img src="/system/files/images-reports-basic/67646/earlyesF2.jpg" /> &gt; 0) </td>
+<td> = </td>
+<td> 1 if  			 <img src="/system/files/images-reports-basic/67646/earlyesF2.jpg" /> &gt; 0 (in the  			 analysis sample)</td>
+</tr><tr><td> </td>
+<td> </td>
+<td> = </td>
+<td> Zb + E(u<sub>1</sub>, given u<sub>2</sub> &gt;  			 -X<sub>2</sub>b<sub>2</sub>).</td>
+</tr></table><p>As noted above, without sample attrition, the expected value of  		u<sub>1</sub> is typically assumed to be zero, so estimates of b will be  		unbiased. However, when sample attrition exists, the regression can be  		estimated only on those sample members with complete data, so unbiasedness of  		the resulting estimates requires that the expected value of u<sub>1</sub>,  		conditional upon the observations available for analysis, be equal to zero. If  		u<sub>1</sub> and u<sub>2</sub> are correlated, however, this conditional  		expectation of u<sub>1</sub> is <b>not</b> zero but is a function of  		u<sub>2</sub> and X<sub>2</sub>. Inn this case, if Y<sub>1</sub> is regressed  		on Z, and there is correlation between the variables in Z and those in  		X<sub>2</sub>, regression estimates of b will be biased because an "omitted"  		term (the nonzero conditional expected value of u<sub>1</sub>) is correlated  		with the regressors Z. The estimated coefficients on the variables in Z,  		including those on treatment status, will reflect not only the effect of Z on  		Y<sub>1</sub>, but also the relationship between Z and the conditional  		expectation of u<sub>1</sub>.</p>
+<p>In this evaluation there is reason to believe that attrition can lead to  		bias in estimates of channeling impacts because those conditions that lead to  		bias may well be present. For example, suppose that the sample members who are  		the most impaired are least likely to respond and also likely to have  		systematically higher (or lower) values of Y<sub>1</sub> (e.g., hospital days).  		Since the baseline control variables do not fully reflect impairment levels at  		the time of followup, u<sub>1</sub> and u<sub>2</sub> will be correlated.  		Furthermore, the variables Z and X<sub>2</sub> that affect the outcome and the  		likelihood of attrition, respectively, are likely to be highly correlated  		(e.g., both the outcome and attrition probability may be affected by  		treatment/control status). Thus, there is a strong possibility that the two  		conditions that together produce biased estimates of regression parameters may  		be present and,' therefore, that estimates of channeling impacts will be biased  		by attrition.</p>
+<p>Fortunately, with an additional assumption, a statistical correction for  		attrition bias is possible. Heckman showed that although the second term in the  		right-hand side of equation (6) is unobserved, the term has a relatively simple  		form if u<sub>1</sub> and u<sub>2</sub> are assumed to have a bivariate normal  		distribution, and this term can be estimated. Heckman shows that</p>
+<table><tr><td rowspan="3"> (7) </td>
+<td rowspan="3"> E(u<sub>1</sub>, given u<sub>2</sub> &gt;  			 -X<sub>2</sub>b<sub>2</sub>)  </td>
+<td rowspan="3"> = </td>
+<td> <img src="/system/files/images-reports-basic/67646/earlyesF7.jpg" /><sub>12</sub> </td>
+<td> <img src="/system/files/images-reports-basic/67646/earlyesF8.jpg" />(X<sub>2</sub>b<sub>2</sub>/<img src="/system/files/images-reports-basic/67646/earlyesF7.jpg" /><sub>2</sub>)</td>
+</tr><tr><td>
+<hr /></td>
+<td>
+<hr /></td>
+</tr><tr><td> <img src="/system/files/images-reports-basic/67646/earlyesF7.jpg" /><sub>2</sub> </td>
+<td> <img src="/system/files/images-reports-basic/67646/earlyesF8.jpg" />(X<sub>2</sub>b<sub>2</sub>/<img src="/system/files/images-reports-basic/67646/earlyesF7.jpg" /><sub>2</sub>)</td>
+</tr><tr><td> </td>
+<td> </td>
+<td> = </td>
+<td colspan="2"> <img src="/system/files/images-reports-basic/67646/earlyesF7.jpg" /><sub>12</sub>/<img src="/system/files/images-reports-basic/67646/earlyesF7.jpg" /><sub>2</sub>)M</td>
+</tr></table><p>where <img src="/system/files/images-reports-basic/67646/earlyesF7.jpg" /><sub>12</sub> is the covariance of u<sub>1</sub> and u<sub>2</sub>,  		<img src="/system/files/images-reports-basic/67646/earlyesF7.jpg" /><sub>2</sub> is the  		standard deviation of u<sub>2</sub>, b<sub>2</sub> is the vector of the  		estimated coefficients from the attrition equation,  		<img src="/system/files/images-reports-basic/67646/earlyesF8.jpg" />(X<sub>2</sub>b<sub>2</sub>/<img src="/system/files/images-reports-basic/67646/earlyesF7.jpg" /><sub>2</sub>) is the standard normal density function  		evaluated at X<sub>2</sub>b<sub>2</sub>/<img src="/system/files/images-reports-basic/67646/earlyesF7.jpg" /><sub>2</sub>, and  		<img src="/system/files/images-reports-basic/67646/earlyesF8.jpg" />(X<sub>2</sub>b<sub>2</sub>/<img src="/system/files/images-reports-basic/67646/earlyesF7.jpg" /><sub>2</sub>) is the standard normal distribution  		function evaluated at the same point. If the parameters b<sub>2</sub> of the  		attrition equation were known, the term M could be constructed for each sample  		member and used as an additional variable in the regression model. Inclusion of  		this variable in this regression eliminates it from the error term and  		therefore eliminates the correlation between Z and the error term in equation  		(6), thereby eliminating the (asymptotic) attrition bias in estimates of b. The  		regression coefficient obtained on this M term is an estimate of  		<img src="/system/files/images-reports-basic/67646/earlyesF7.jpg" /><sub>12</sub>/<img src="/system/files/images-reports-basic/67646/earlyesF7.jpg" /><sub>2</sub>), the  		(normalized) covariance between u<sub>1</sub> and u<sub>2</sub>.</p>
+<p>The parameters b<sub>2</sub> are not known, but can be readily  		estimated. Thus, the procedure developed 'by Heckman and used in this report to  		eliminate attrition bias can be described as follows:</p>
+<ol><li>Using all observations, estimate the parameters of the attrition  		  model given in equations (2) and (3) using maximum likelihood probit.<sup><font><a href="#note7">7</a></font></sup></li>
+<li>From the estimated probit coefficients (b<sub>2</sub>) and the data  		  on X<sub>2</sub>, form the correction term (M) for the observations which have  		  valid data for the outcome regression--this excludes those lost due to  		  attrition--and estimate equation (8) by least squares:<sup><font><a href="#note8">8</a></font></sup></li>
+</ol><table><tr><td> (8) </td>
+<td> Y<sub>1</sub> </td>
+<td> = </td>
+<td> a<sub>B</sub>T<sub>B</sub> + a<sub>F</sub>T<sub>F</sub> +  			 X<sub>1</sub>b<sub>1</sub> + cM +  			 <img src="/system/files/images-reports-basic/67646/earlyesF3.jpg" /></td>
+</tr></table><p>where this equation is simply equation (6) with the expression in  		equation (7) substituted for the nonzero conditional expectation of the  		disturbance term (u<sub>1</sub>), and  		<img src="/system/files/images-reports-basic/67646/earlyesF3.jpg" /> is the new  		disturbance term. The statistical significance of c, the coefficient on M, is  		an indication of whether there are unobserved factors affecting both attrition  		and Y<sub>1</sub>, a necessary condition for the estimates of a<sub>B</sub> and  		a<sub>F</sub> to be biased.</p>
+<p>In the discussion of results in the next section, we assess the extent  		of attrition bias in estimates of channeling impacts by comparing the  		regression estimates of a<sub>B</sub> and a<sub>F</sub> obtained when potential  		attrition bias is not controlled for (i.e., from estimating equation (1)) to  		the impact estimates obtained when this potential bias is controlled for (by  		estimating equation (8)). In interpreting these results, it is useful to bear  		in mind the determinants of the bias in a particular coefficient. Inserting the  		expression in equation (7) into equation (4), the bias in the uncorrected  		estimates of a<sub>B</sub> , a<sub>F</sub>, and b<sub>1</sub> is shown to  		be</p>
+<table><tr><td> (9) </td>
+<td> bias  			 <img src="/system/files/images-reports-basic/67646/earlyesF9.jpg" /> E(  			 <img src="/system/files/images-reports-basic/67646/earlyesF1.jpg" /> )-b </td>
+<td> = </td>
+<td> (<img src="/system/files/images-reports-basic/67646/earlyesF7.jpg" /><sub>12</sub>/<img src="/system/files/images-reports-basic/67646/earlyesF7.jpg" /><sub>2</sub>) (Z'Z)<sup>-1</sup>Z'M</td>
+</tr><tr><td> </td>
+<td> </td>
+<td> = </td>
+<td> (<img src="/system/files/images-reports-basic/67646/earlyesF7.jpg" /><sub>12</sub>/<img src="/system/files/images-reports-basic/67646/earlyesF7.jpg" /><sub>2</sub>) P<sub>Z,M</sub>,</td>
+</tr></table><p>where the term P<sub>Z,M</sub> is a vector of auxiliary regression  		coefficients obtained from regressing the constructed M term on the other  		variables (Z's) in equation (8).<sup><font><a href="#note9">9</a></font></sup> Thus, the bias in any particular regression  		coefficient (e.g., a<sub>B</sub> from the outcome equation) is equal to the  		covariance between u<sub>1</sub> and u<sub>2</sub> (normalized by  		<img src="/system/files/images-reports-basic/67646/earlyesF7.jpg" /><sub>2</sub>),  		multiplied by the coefficient on this same variable (e.g., T<sub>B</sub>) from  		a second, auxiliary regression of the constructed M variable on all of the Z  		variables.</p>
+<p>The usefulness of this expression is best demonstrated by elaborating on  		our previous example. Suppose that we are interested in estimating the impacts  		of channeling on the number of hospital days (using the followup sample). Also,  		suppose that those who are most impaired at the time of the followup are less  		likely to be available for analysis than are less impaired sample members and  		that the effects of this impairment on hospital days is imperfectly controlled  		for with the baseline control variables. Since the most impaired individuals  		are <b>most</b> likely to be in a hospital and <b>least</b> likely to be in the  		analysis sample, the covariance between u<sub>1</sub> and u<sub>2</sub> (<img src="/system/files/images-reports-basic/67646/earlyesF7.jpg" /><sub>12</sub>) will be  		negative. Furthermore, since treatment group members are more likely to be  		available for analysis than control group members, it can be shown that the  		auxiliary regression coefficient of treatment status contained in  		P<sub>Z,M</sub> is expected to be negative.<sup><font><a href="#note10">10</a></font></sup> Thus, we would expect the attrition bias in  		the estimate of a<sub>B</sub> to be positive. That is, the estimated impact  		will be a larger number than it should be. Thus, we could find an estimated  		impact of zero when in fact the impact was negative, implying a reduction in  		hospital days due to channeling. This analytic assessment of the direction of  		bias is consistent with the heuristic argument that the sample members most  		likely to be lost to analysis are control group members with relatively large  		numbers of hospital days, and if these cases were appropriately represented in  		the analysis sample, the treatment/control difference would have been a larger  		negative number. Based on this reasoning, the following reference table can be  		used to draw inferences about the expected direction of the bias (if any) due  		to attrition in estimates of channeling impacts: </p>
+<table><tr><td scope="col"><font><b> Expected Relationship Between Y<sub>1</sub> and  			 the Likelihood That Sample Member is Available For Analysis (<img src="/system/files/images-reports-basic/67646/earlyesF7.jpg" /><sub>12</sub>)  			 </b></font></td>
+<td scope="col"><font><b> Expected Bias<sup>1</sup> in Estimated Impacts  			 </b></font></td>
+<td scope="col"><font><b> Interpretation </b></font></td>
+</tr><tr><td scope="row"><font> 0  			 </font></td>
+<td><font> 0 </font></td>
+<td><font> Impact estimates  			 unbiased </font></td>
+</tr><tr><td scope="row"><font> +  			 </font></td>
+<td><font> - </font></td>
+<td><font> Impacts understated if  			 channeling is predicted to increase Y (a<sub>B</sub> , a<sub>F</sub> positive);  			 impacts overstated if channeling is predicted to decrease Y<sub>1</sub>  			 (a<sub>B</sub> , a<sub>F</sub> negative)<sup>2</sup></font></td>
+</tr><tr><td scope="row"><font> -  			 </font></td>
+<td><font> + </font></td>
+<td><font> Impacts overstated if  			 channeling is predicted to increase Y<sub>1</sub> (a<sub>B</sub> ,  			 a<sub>F</sub> positive); impacts understated if channeling is predicted to  			 decrease Y<sub>1</sub> (a<sub>B</sub> , a<sub>F</sub> negative)<sup>2</sup></font></td>
+</tr><tr><td colspan="3">
+<ol><li><font>Knowledge of the sign of  				  <img src="/system/files/images-reports-basic/67646/earlyesF7.jpg" /><sub>12</sub> is  				  sufficient to determine the expected direction of the bias since  				  P<sub>TF,M</sub>, the auxiliary coefficients on T<sub>B</sub> and  				  T<sub>F</sub>, respectively, are known to be positive.</font></li>
+<li><font>This interpretation may be confusing for  				  impacts that are expected to be negative in sign, such as impacts on hospital  				  or nursing home use. For example, if the bias is expected to be positive, this  				  means the estimate is too large, i.e., it should be a larger negative number  				  (e.g., -6) rather than a smaller negative number (e.g., -2). Thus, the  				  reduction due to channeling is <b>understated</b>. On the other hand, if the  				  estimated impact is expected to be positive in sign, such as impacts on case  				  management, and the bias is positive, the impact of channeling is,  				  <b>overstated</b> because of attrition bias. Thus, the expected direction of  				  channeling impacts as well as the expected direction of the bias are required  				  in order to draw the desired inferences about the effects on channeling  				  impacts.</font></li>
+</ol><p><font> </font></p>
+</td>
+</tr></table><p>Using this table for our example, we expect  		<img src="/system/files/images-reports-basic/67646/earlyesF7.jpg" /><sub>12</sub> to be  		negative because those who are most impaired are likely to have more hospital  		days, but are less likely to respond. Thus, the expected bias in the impact  		estimate is positive, and since channeling is predicted to <b>reduce</b>  		hospital days, the estimated reduction in hospital days will be understated if  		attrition bias is not corrected for.</p>
+<h2><a name="chapV" id="chapV">V. EMPIRICAL RESULTS</a></h2>
+<p>As noted above, two separate attrition analyses are required: one for  		outcomes relying on the known status sample and one for outcomes using the  		followup sample. These samples differ in that, for those who were known to be  		deceased or in a nursing home at the point six months after randomization, the  		values of some of the outcome measures were known by definition. Outcome  		measures based on the known status sample and used in this analysis include  		where the sample member was living six months after randomization (in the  		community, in a nursing home, or in a hospital); whether they were deceased;  		and whether they received formal in-home care, the total hours of such care  		received, whether they received informal in-home care from nonhousehold  		members, and how many hours of such care they received during the week six  		months after randomization. The outcome measures based on the followup sample  		that were used to examine attrition bias in this report include whether the  		sample member received comprehensive case management during the preceding  		6-month period, the number of hospital days and number of nursing home days  		during this period, the number of unmet needs the sample member reported, and  		the number of activities of daily living on which the sample members were  		impaired.</p>
+<p>We investigate (separately for the two samples) the determinants of  		attrition by estimating probit models of whether the sample member was included  		in the analysis sample as a function of the following characteristics, obtained  		from the screening interview available for all sample members:</p>
+<ul><li> Treatment/Control status</li>
+<li> Site</li>
+<li> ADL impairments</li>
+<li> Incontinence</li>
+<li> Monthly Income</li>
+<li> Living Arrangement</li>
+<li> Insurance Coverage</li>
+<li> Sex</li>
+<li> Age</li>
+<li> Ethnicity</li>
+<li> Number of unmet needs</li>
+<li> Whether a proxy was used to complete the screen</li>
+<li> Whether a sample member was in a hospital or nursing home at the  		  screen</li>
+</ul><p>The results are reported in <a href="#table2">Table 2</a>. The model  		appeared, based on the large and statistically significant chi-square goodness  		of fit statistic, to predict the probability of remaining in the sample  		reasonably well, for both of the samples considered. For the <b>known status  		sample</b>, we conclude, on the basis of the statistical significance (at the  		95 percent confidence level) of the coefficients, that </p>
+<ul><li> treatment group members are substantially more likely to be  		  available for the analysis than controls</li>
+<li> sample members in some sites, especially Miami and Middlesex County,  		  are less likely than those in other sites to be available for analysis</li>
+<li> those living with spouse or with children are significantly more  		  likely to be available for analysis than those who live with other relatives,  		  friends, or unrelated persons</li>
+<li> females are more likely to be available for analysis than males</li>
+<li> whites are less likely to be available for analysis than blacks or  		  Hispanics</li>
+<li> those in hospitals or nursing homes at the time of the screen are  		  less likely to be available for analysis than those who were not.</li>
+</ul><p>For the <b>followup sample</b> the results are similar, with the  		following exceptions:</p>
+<ul><li> those impaired on eating are more likely to be lost from the  		  sample</li>
+<li> those living with spouse or spouse and children are more likely to  		  remain in the sample than are those with any other living arrangement</li>
+<li> both blacks and whites are significantly (and equally) less likely  		  than Hispanics to remain in the sample</li>
+<li> sample members for whom proxy reports were used at the screen are  		  less likely to remain in the sample than are those for whom self-reports were  		  used</li>
+</ul><table><tr><td colspan="7"><font><b><a name="table2" id="table2"> TABLE 2</a>. Probit Coefficients for Being  			 in the Known Status Sample or the Followup Sample </b></font></td>
+</tr><tr><td rowspan="2" scope="col"><font><b> Screen Variable  			 </b></font></td>
+<td colspan="3" scope="col"><font><b> Known Status </b></font></td>
+<td colspan="3" scope="col"><font><b> Followup </b></font></td>
+</tr><tr><td scope="col"><font><b> Coefficient </b></font></td>
+<td scope="col"><font><b> t-statistic </b></font></td>
+<td scope="col"><font><b> Impact on Probability<sup>a</sup></b></font></td>
+<td scope="col"><font><b> Coefficient </b></font></td>
+<td scope="col"><font><b> t-statistic </b></font></td>
+<td scope="col"><font><b> Impact on Probability<sup>a</sup></b></font></td>
+</tr><tr><td scope="row"><font> Intercept  			 </font></td>
+<td><font> 1.152 </font></td>
+<td><font> (3.52) </font></td>
+<td><font> -- </font></td>
+<td><font> 1.208 </font></td>
+<td><font> (4.10) </font></td>
+<td><font> -- </font></td>
+</tr><tr><td scope="row"><font> Research  			 Status (1=treatment, 0=control) </font></td>
+<td><font> .417** </font></td>
+<td><font> (8.60) </font></td>
+<td><font> 0.115 </font></td>
+<td><font> .238** </font></td>
+<td><font> (5.50) </font></td>
+<td><font> 0.089 </font></td>
+</tr><tr><td colspan="7"><font> Site  			 </font></td>
+</tr><tr><td scope="row"><font>  			   Basic Case Management</font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+</tr><tr><td scope="row"><font>    Baltimore</font></td>
+<td><font>-.221</font></td>
+<td><font>(-1.71)</font></td>
+<td><font>-0.061</font></td>
+<td><font>-.120</font></td>
+<td><font>(-1.04)</font></td>
+<td><font>-0.045</font></td>
+</tr><tr><td scope="row"><font>    Eastern Kentucky</font></td>
+<td><font>.157</font></td>
+<td><font>(1.09)</font></td>
+<td><font>0.043</font></td>
+<td><font>.125</font></td>
+<td><font>(0.99)</font></td>
+<td><font>0.047</font></td>
+</tr><tr><td scope="row"><font>    Houston</font></td>
+<td><font>.017</font></td>
+<td><font>(0.13)</font></td>
+<td><font>0.005</font></td>
+<td><font>.030</font></td>
+<td><font>(0.26)</font></td>
+<td><font>0.011</font></td>
+</tr><tr><td scope="row"><font>    Middlesex County</font></td>
+<td><font>-.287*</font></td>
+<td><font>(-2.32)</font></td>
+<td><font>-0.079</font></td>
+<td><font>-.279*</font></td>
+<td><font>(-251)</font></td>
+<td><font>-0.104</font></td>
+</tr><tr><td scope="row"><font>    Southern Maine</font></td>
+<td><font>-.036</font></td>
+<td><font>(0.27)</font></td>
+<td><font>-0.010</font></td>
+<td><font>-.039</font></td>
+<td><font>(-0.34)</font></td>
+<td><font>-0.015</font></td>
+</tr><tr><td scope="row"><font>  			  Financial Control</font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+</tr><tr><td scope="row"><font>    Cleveland</font></td>
+<td><font>.026</font></td>
+<td><font>(0.18)</font></td>
+<td><font>0.007</font></td>
+<td><font>-.101</font></td>
+<td><font>(-0.82)</font></td>
+<td><font>-0.038</font></td>
+</tr><tr><td scope="row"><font>    Greater Lynn</font></td>
+<td><font>-.049</font></td>
+<td><font>(-0.39)</font></td>
+<td><font>-0.013</font></td>
+<td><font>.035</font></td>
+<td><font>(0.30)</font></td>
+<td><font>0.013</font></td>
+</tr><tr><td scope="row"><font>    Miami</font></td>
+<td><font>-.399**</font></td>
+<td><font>(-3.18)</font></td>
+<td><font>-0.110</font></td>
+<td><font>-.242*</font></td>
+<td><font>(-2.13)</font></td>
+<td><font>-0.090</font></td>
+</tr><tr><td scope="row"><font>    Philadelphia</font></td>
+<td><font>-.015</font></td>
+<td><font>(-0.12)</font></td>
+<td><font>-0.004</font></td>
+<td><font>.054</font></td>
+<td><font>(0.48)</font></td>
+<td><font>0.020</font></td>
+</tr><tr><td scope="row"><font>    (Rensselaer County)</font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+</tr><tr><td scope="row" colspan="7"><font>  			 Impairment of Ability to Perform Activities of Daily Living (ADL)<sup>b</sup>  			 (1=impaired, 0=not impaired)</font></td>
+</tr><tr><td scope="row"><font>  Eating</font></td>
+<td><font>-.084</font></td>
+<td><font>(-1.32)</font></td>
+<td><font>-0.023</font></td>
+<td><font>-.146**</font></td>
+<td><font>(-2.59)</font></td>
+<td><font>-0.054</font></td>
+</tr><tr><td scope="row"><font>  Transfer</font></td>
+<td><font>.112</font></td>
+<td><font>(1.63)</font></td>
+<td><font>0.031</font></td>
+<td><font>-.025</font></td>
+<td><font>(-0.41)</font></td>
+<td><font>-0.009</font></td>
+</tr><tr><td scope="row"><font>  Toileting</font></td>
+<td><font>-.076</font></td>
+<td><font>(-1.13)</font></td>
+<td><font>-0.021</font></td>
+<td><font>-.084</font></td>
+<td><font>(-1.39)</font></td>
+<td><font>-0.031</font></td>
+</tr><tr><td scope="row"><font>  Dressing</font></td>
+<td><font>-.002</font></td>
+<td><font>(-0.03)</font></td>
+<td><font>-0.001</font></td>
+<td><font>.059</font></td>
+<td><font>(1.03)</font></td>
+<td><font>0.022</font></td>
+</tr><tr><td scope="row"><font>  Bathing</font></td>
+<td><font>-.042</font></td>
+<td><font>(-0.47)</font></td>
+<td><font>-0.012</font></td>
+<td><font>-.113</font></td>
+<td><font>(-1.43)</font></td>
+<td><font>-0.042</font></td>
+</tr><tr><td scope="row"><font>  			 Incontinence<sup>b</sup></font></td>
+<td><font> .051 </font></td>
+<td><font> (0.99) </font></td>
+<td><font> 0.014 </font></td>
+<td><font> -0.71 </font></td>
+<td><font> (-1.55) </font></td>
+<td><font> -0.026 </font></td>
+</tr><tr><td scope="row" colspan="7"><font>  			 Monthly Income (dollars)</font></td>
+</tr><tr><td scope="row"><font>  Less than 500</font></td>
+<td><font>.154</font></td>
+<td><font>(1.42)</font></td>
+<td><font>0.043</font></td>
+<td><font>.062</font></td>
+<td><font>(0.62)</font></td>
+<td><font>0.023</font></td>
+</tr><tr><td scope="row"><font>  500-1000</font></td>
+<td><font>.059</font></td>
+<td><font>(0.58)</font></td>
+<td><font>0.016</font></td>
+<td><font>-.007</font></td>
+<td><font>(-0.07)</font></td>
+<td><font>-0.003</font></td>
+</tr><tr><td scope="row"><font>  (Greater than 1000)</font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+</tr><tr><td scope="row" colspan="7"><font>  			 Usual Living Arrangement</font></td>
+</tr><tr><td scope="row"><font>  Alone</font></td>
+<td><font>.114</font></td>
+<td><font>(1.40)</font></td>
+<td><font>0.032</font></td>
+<td><font>.049</font></td>
+<td><font>(0.66)</font></td>
+<td><font>0.018</font></td>
+</tr><tr><td scope="row"><font>  With spouse or spouse and children</font></td>
+<td><font>.181*</font></td>
+<td><font>(2.04)</font></td>
+<td><font>0.050</font></td>
+<td><font>.161*</font></td>
+<td><font>(2.01)</font></td>
+<td><font>0.060</font></td>
+</tr><tr><td scope="row"><font>  With child (no spouse)</font></td>
+<td><font>.199*</font></td>
+<td><font>(2.18)</font></td>
+<td><font>0.055</font></td>
+<td><font>.024</font></td>
+<td><font>(0.30)</font></td>
+<td><font>0.009</font></td>
+</tr><tr><td scope="row"><font>  (With other relatives or friends)</font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+</tr><tr><td scope="row" colspan="7"><font>  			 Insurance<sup>b</sup></font></td>
+</tr><tr><td scope="row"><font>  Medicare, no Medicaid</font></td>
+<td><font>.011</font></td>
+<td><font>(0.05)</font></td>
+<td><font>0.003</font></td>
+<td><font>.031</font></td>
+<td><font>(0.16)</font></td>
+<td><font>0.012</font></td>
+</tr><tr><td scope="row"><font>  Medicaid</font></td>
+<td><font>.032</font></td>
+<td><font>(0.14)</font></td>
+<td><font>0.009</font></td>
+<td><font>.042</font></td>
+<td><font>(0.21)</font></td>
+<td><font>0.016</font></td>
+</tr><tr><td scope="row"><font> Sex (1=male,  			 0=female) </font></td>
+<td><font> -.113* </font></td>
+<td><font> (-1.99) </font></td>
+<td><font> -0.031 </font></td>
+<td><font> -.290** </font></td>
+<td><font> (-5.71) </font></td>
+<td><font> -0.108 </font></td>
+</tr><tr><td scope="row" colspan="7"><font>  			 Age</font></td>
+</tr><tr><td scope="row"><font>  Less than 75 years</font></td>
+<td><font>-.031</font></td>
+<td><font>(-0.45)</font></td>
+<td><font>-0.009</font></td>
+<td><font>.053</font></td>
+<td><font>(0.88)</font></td>
+<td><font>0.020</font></td>
+</tr><tr><td scope="row"><font>  75-79</font></td>
+<td><font>.010</font></td>
+<td><font>(0.14)</font></td>
+<td><font>0.003</font></td>
+<td><font>.046</font></td>
+<td><font>(0.73)</font></td>
+<td><font>0.017</font></td>
+</tr><tr><td scope="row"><font>  80-84</font></td>
+<td><font>-.095</font></td>
+<td><font>(-1.42)</font></td>
+<td><font>-0.026</font></td>
+<td><font>-.083</font></td>
+<td><font>(-1.40)</font></td>
+<td><font>-0.031</font></td>
+</tr><tr><td scope="row"><font>  (Greater than 84)</font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+</tr><tr><td scope="row" colspan="7"><font>  			 Ethnic Background</font></td>
+</tr><tr><td scope="row"><font>  Black</font></td>
+<td><font>-.239</font></td>
+<td><font>(-1.57)</font></td>
+<td><font>-0.066</font></td>
+<td><font>-.492**</font></td>
+<td><font>(-3.69)</font></td>
+<td><font>-0.183</font></td>
+</tr><tr><td scope="row"><font>  White</font></td>
+<td><font>-.466**</font></td>
+<td><font>(-3.23)</font></td>
+<td><font>-0.128</font></td>
+<td><font>-.553**</font></td>
+<td><font>(-4.33)</font></td>
+<td><font>-0.206</font></td>
+</tr><tr><td scope="row"><font>  (Hispanic)</font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+</tr><tr><td scope="row"><font> Number of  			 Unmet Needs<sup>b</sup> (ranging from 0 to 5) </font></td>
+<td><font> -.036 </font></td>
+<td><font> (-1.52) </font></td>
+<td><font> -0.010 </font></td>
+<td><font> -.037 </font></td>
+<td><font> (-1.75) </font></td>
+<td><font> -0.014 </font></td>
+</tr><tr><td scope="row"><font>  </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+</tr><tr><td scope="row"><font> Proxy Use  			 (1=all or partial proxy at screen, 0=self-report) </font></td>
+<td><font> -.065 </font></td>
+<td><font> (-1.09) </font></td>
+<td><font> -0.018 </font></td>
+<td><font> -.117* </font></td>
+<td><font> (-2.19) </font></td>
+<td><font> -0.044 </font></td>
+</tr><tr><td scope="row"><font>  			 Institutionalized at screen (1=yes, 0=no) </font></td>
+<td><font> -.168** </font></td>
+<td><font> (-2.82) </font></td>
+<td><font> -0.046 </font></td>
+<td><font> -.222** </font></td>
+<td><font> (-4.15) </font></td>
+<td><font> -0.083 </font></td>
+</tr><tr><td scope="row"><font> Number of  			 cases in the cohort used for analysis<sup>c</sup></font></td>
+<td><font> 3,799 </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> 3,799 </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+</tr><tr><td scope="row"><font> Number of  			 cases in the analysis </font></td>
+<td><font> 3,062 (80.6%)  			 </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> 2,477 (64.4%)  			 </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+</tr><tr><td scope="row"><font>  			 Chi-square<sup>d</sup></font></td>
+<td><font> 179.25 </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> 201.32 </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+</tr><tr><td scope="row"><font> Degrees of  			 Freedom </font></td>
+<td><font> 37 </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> 37 </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+</tr><tr><td colspan="7"><font> <b>NOTE</b>:  			 For categorical variables, omitted reference categories are designated in  			 parentheses.</font><br /><ol type="a"><li><font>The effect of a specific variable on the  				  probability that a given observation is available foe analysis is estimated by  				  taking the derivative of the expression for the probability with respect to the  				  variable. The expression for the probability is  				  <img src="/system/files/images-reports-basic/67646/earlyesF8.jpg" />(X<sub>2</sub>b<sub>2</sub>), and the derivative of  				  <img src="/system/files/images-reports-basic/67646/earlyesF8.jpg" />(x<sub>2</sub>b<sub>2</sub>) with respect to the i<sup>th</sup>  				  element of X<sub>2</sub> is  				  <img src="/system/files/images-reports-basic/67646/earlyesF8.jpg" />(X<sub>2</sub>b<sub>2</sub>)b<sub>21</sub>, where  				  <img src="/system/files/images-reports-basic/67646/earlyesF8.jpg" />(X<sub>2</sub>b<sub>2</sub>) is the standard normal distribution  				  function, <img src="/system/files/images-reports-basic/67646/earlyesF8.jpg" />(X<sub>2</sub>b<sub>2</sub>) is the standard normal density  				  function (both evaluated at the point (X<sub>2</sub>b<sub>2</sub>), and  				  b<sub>21</sub> is the Coefficient on the i<sup>th</sup> variable in the vector  				  X<sub>2</sub>. Thus, the effect of X<sub>21</sub> on the probability that a  				  given observation Is Included In the analysis sample depends on the values of  				  all of the variables in X<sub>2</sub>. In order to provide an Indication of the  				  absolute magnitude of the effect of a given variable on this probability we  				  evaluate the density <img src="/system/files/images-reports-basic/67646/earlyesF8.jpg" />(X<sub>2</sub>b<sub>2</sub>) at the point  				  X<sub>2</sub>b<sub>2</sub> for which  				  <img src="/system/files/images-reports-basic/67646/earlyesF8.jpg" />(X<sub>2</sub>b<sub>2</sub>) equals the proportion of the sample  				  with Y<sub>2</sub> = 1. Thus, since the proportion of the cohort included In  				  the known status sample is .806, and  				  <img src="/system/files/images-reports-basic/67646/earlyesF8.jpg" />(.863) = .806 we  				  have <img src="/system/files/images-reports-basic/67646/earlyesF8.jpg" />(.863) = .2748,  				  and the effect of a given variable on the probability that a given observation  				  Is included in the analysis sample is estimated as .2748 multiplied by the  				  probit coefficient on that variable. For categorical variables (i.e., all but  				  one of the variables in our model), the Interpretation of this effect is the  				  difference between the category being examined and the excluded category foe  				  that variable in the probability that usable data are available. Hence, for  				  example, treatment group members have probability of being in the known status  				  sample that is 11.5 percentage points higher than do controls, on average,  				  other things being equal, and sample members in Miami have a probability of  				  inclusion that is 11.0 percentage points lower than that for sample members in  				  Rensselaer County.</font></li>
+<li><font>Missing values were imputed and a missing-value  				  Indicator variable was included in the attrition equation for this  				  variable.</font></li>
+<li><font>Forty-four observations from the cohort  				  randomized by January 31, 1983 are excluded because interviews were lost in the  				  mail (14 cases), or because values for necessary screen variables were  				  missing.</font></li>
+<li><font>This is the likelihood ratio test statistic for  				  the null hypothesis that all coefficients with the exception of the constant  				  term are zero. Since this hypothesis is rejected at the 95 percent confidence  				  level if the chi-square statistic exceeds 52.2, we can safely reject the  				  hypothesis that none of the variables affect the likelihood of remaining in the  				  analysis sample.</font></li>
+</ol><p><font> *Statistically significant at the 95 percent  			 confidence level for a two-tailed test. **Statistically significant at the  			 99 percent confidence level for a two-tailed test. </font></p>
+</td>
+</tr></table><p>Impairment on eating is the most severe impairment of activities of  		daily living and its large effect on attrition from the followup sample (but  		not from the known status sample) may be partially due to the higher likelihood  		of death for those who were extremely impaired at the screen. Similarly, it  		could be suggested that proxy use at screen is an indicator of frailty--the  		sample member is too sick to respond--which could explain its important role in  		predicting attrition from the followup sample. The other differences between  		the results for the two samples are harder to interpret, which may be because  		the factors leading to death are different from those leading to interview  		nonresponse. The probit coefficients reflect the combined influences of both  		factors.<sup><font><a href="#note11">11</a></font></sup></p>
+<p>The estimates in <a href="#table2">Table 2</a> were used to form the  		correction term (M) to estimate the impact model given in equation (8) that  		corrects for attrition. The set of auxiliary control variables (X<sub>1</sub>)  		used here is a subset of those used in the preliminary impact  		analysis<sup><font><a href="#note12">12</a></font></sup></p>
+<ul><li> site</li>
+<li> ADL impairments (extremely severe through mild)</li>
+<li> income categories</li>
+<li> living arrangement</li>
+<li> insurance</li>
+<li> sex</li>
+<li> age categories</li>
+<li> ethnic group (black, white, Hispanic)</li>
+<li> proxy use</li>
+<li> number of unmet needs at baseline </li>
+<li> global life satisfaction index</li>
+<li> number of nursing home days and number of hospital days during two  		  months prior to randomization</li>
+<li> hours of formal and informal care during baseline reference  		  week</li>
+</ul><p>The unadjusted and adjusted impact estimates (the difference between  		treatments and controls) for the basic case management model and the financial  		control model are presented in <a href="#table3">Table 3</a>. The last column  		in <a href="#table3">Table 3</a> gives the number of observations used in  		estimating the impacts on the outcomes. At the most, 5 percent of the  		observations were omitted due to missing values on the dependent variable. The  		coefficients on the correction term (M) are also given, in the fifth column.  		None of the coefficients in this column is significant, indicating that net of  		the included auxiliary variables and treatment status the added term does not  		have a significant effect on the outcomes considered. Since this coefficient is  		an estimate of the (normalized) covariance of the two disturbance terms, and a  		nonzero covariance is a necessary condition for attrition bias, this suggests  		that there is no bias in the impact estimates.</p>
+<p>An alternative and perhaps more reliable indicator of the extent of bias  		in the estimated impacts is the difference between the impact estimates  		obtained with and without the selection bias correction term (M). When  		adjusting for attrition bias we find very minor changes in the impact estimates  		for most of the outcome measures. However, for three outcomes we find a  		considerable change of the magnitude of the impact estimate after correction.  		In the followup sample, after adjustment for attrition bias, the estimated  		impact of channeling on the number of nursing home days falls by a little more  		than a day for both models, and the estimated reduction in number of unmet  		needs rises by 0.1. Both of these changes represent large proportionate changes  		in the impact estimates. For the significance levels reported here, there is no  		change in the statistical significance of the estimates, but in both instances  		that would not be so for one of the models if a 90 percent confidence level  		were used. For the known status sample, after the effects of attrition are  		controlled for, we observe considerably larger reductions in the amount of  		informal in-home care provided by caregivers who live outside the home. This is  		especially noteworthy for the basic sites, where the estimate doubles in  		magnitude and goes from being statistically insignificant to being  		statistically significant. There are two other instances (percent receiving  		formal in-home care and percent hospitalized) for which the estimate changes  		very little, but due to the increase in standard errors, the statistical  		significance of the estimate drops. Since the impact estimates do not change,  		we conclude that the estimated impacts of channeling on percent receiving  		formal in-home care and percent hospitalized are not affected by attrition, and  		that the original impact estimates are not biased by effects of attrition.</p>
+<p>Explaining the results is difficult. For example, if control group  		members who are most impaired and in need of care were less likely to respond  		than comparable treatment group members, then the treatment/control differences  		in factors related to impairment would tend to be overestimated. This could  		explain the larger negative impact estimates after controlling for the effects  		of attrition on unmet needs and hours of informal care. However, the impact on  		the number of nursing home days changed in the opposite direction. Thus, we  		have no readily apparent explanation that is consistent with all of the  		results.</p>
+<table><tr><td colspan="8"><font><b><a name="table3" id="table3"> TABLE 3</a>. Estimates of Impacts of  			 Channeling With and Without Adjustment for Attrition </b></font></td>
+</tr><tr><td rowspan="2" scope="col"><font><b> Outcome </b></font></td>
+<td colspan="2" scope="col"><font><b> Case Management Model  			 </b></font></td>
+<td colspan="2" scope="col"><font><b> Financial Control Model  			 </b></font></td>
+<td rowspan="2" scope="col"><font><b> M-term<sup>a</sup></b></font></td>
+<td rowspan="2" scope="col"><font><b>  			 <img src="/system/files/images-reports-basic/67646/earlyesf4.jpg" /><sup>b</sup></b></font></td>
+<td rowspan="2" scope="col"><font><b> Sample Size </b></font></td>
+</tr><tr><td scope="col"><font><b> Unadjusted </b></font></td>
+<td scope="col"><font><b> Adjusted </b></font></td>
+<td scope="col"><font><b> Unadjusted </b></font></td>
+<td scope="col"><font><b> Adjusted </b></font></td>
+</tr><tr><td colspan="8"><font> FOLLOWUP SAMPLE </font></td>
+</tr><tr><td scope="row"><font> Percent  			 Receiving Comprehensive Case Management During First 6-Month Period  			 </font></td>
+<td><font> 48.59** (19.54)  			 </font></td>
+<td><font> 48.10** (16.80)  			 </font></td>
+<td><font> 50.45** (18.45)  			 </font></td>
+<td><font> 50.0** (16.94)  			 </font></td>
+<td><font> -0.04 (-0.34)  			 </font></td>
+<td><font> -0.089 </font></td>
+<td><font> 2,346 </font></td>
+</tr><tr><td scope="row"><font> Number of  			 Hospital Days in Last Six Months </font></td>
+<td><font> -2.28 (-1.50)  			 </font></td>
+<td><font> -2.48 (-1.42)  			 </font></td>
+<td><font> 1.24 (0.77)  			 </font></td>
+<td><font> 1.06 (0.59)  			 </font></td>
+<td><font> -1.49 (-0.22)  			 </font></td>
+<td><font> -0.059 </font></td>
+<td><font> 2,365 </font></td>
+</tr><tr><td scope="row"><font> Number of  			 Nursing Home Days in Last Six Months </font></td>
+<td><font> -1.81 (-0.88)  			 </font></td>
+<td><font> -0.54 (-0.23)  			 </font></td>
+<td><font> -3.90 (-1.78)  			 </font></td>
+<td><font> -2.79 (-1.15)  			 </font></td>
+<td><font> 9.41 (1.04)  			 </font></td>
+<td><font> 0.271 </font></td>
+<td><font> 2,365 </font></td>
+</tr><tr><td scope="row"><font> Number of  			 Unmet Needs Six Months After Randomization </font></td>
+<td><font> -0.15 (-1.32)  			 </font></td>
+<td><font> -0.25 (-1.86)  			 </font></td>
+<td><font> -0.38** (-3.16)  			 </font></td>
+<td><font> -0.47** (-3.47)  			 </font></td>
+<td><font> -0.71 (-1.41)  			 </font></td>
+<td><font> -0.370 </font></td>
+<td><font> 2,293 </font></td>
+</tr><tr><td scope="row"><font> ADL  			 Score<sup>c</sup></font></td>
+<td><font> -0.01 (-0.12)  			 </font></td>
+<td><font> 0.02 (0.25)  			 </font></td>
+<td><font> 0.05 (0.59)  			 </font></td>
+<td><font> 0.08 (0.84)  			 </font></td>
+<td><font> 0.24 (0.69)  			 </font></td>
+<td><font> 0.182 </font></td>
+<td><font> 2,318 </font></td>
+</tr><tr><td colspan="8"><font> KNOWN STATUS SAMPLE </font></td>
+</tr><tr><td colspan="8"><font> Percent  			 Living Six Months After Randomization in: </font></td>
+</tr><tr><td scope="row"><font>  			   Community </font></td>
+<td><font> 0.27 (0.12)  			 </font></td>
+<td><font> 0.07 (0.02)  			 </font></td>
+<td><font> 0.81 (0.32)  			 </font></td>
+<td><font> 0.61 (0.17)  			 </font></td>
+<td><font> -0.01 (-0.07)  			 </font></td>
+<td><font> -0.027 </font></td>
+<td><font> 3,062 </font></td>
+</tr><tr><td scope="row"><font>  			   Hospital </font></td>
+<td><font> -2.77* (-2.16)  			 </font></td>
+<td><font> -2.42 (-1.24)  			 </font></td>
+<td><font> -0.98 (-0.72)  			 </font></td>
+<td><font> -0.64 (-0.33)  			 </font></td>
+<td><font> 0.02 (0.24)  			 </font></td>
+<td><font> 0.087 </font></td>
+<td><font> 3,062 </font></td>
+</tr><tr><td scope="row"><font>  			   Nursing home </font></td>
+<td><font> 0.84 (0.58)  			 </font></td>
+<td><font> 0.81 (0.37)  			 </font></td>
+<td><font> -0.11 (-0.07)  			 </font></td>
+<td><font> -0.14 (-0.06)  			 </font></td>
+<td><font> -0.00 (-0.02)  			 </font></td>
+<td><font> -0.007 </font></td>
+<td><font> 3,062 </font></td>
+</tr><tr><td scope="row"><font> Percent  			 Deceased Six Months After Randomization </font></td>
+<td><font> 1.66 (0.89)  			 </font></td>
+<td><font> 1.54 (0.54)  			 </font></td>
+<td><font> 0.29 (0.14)  			 </font></td>
+<td><font> 0.17 (0.06)  			 </font></td>
+<td><font> -0.01 (-0.05)  			 </font></td>
+<td><font> -0.020 </font></td>
+<td><font> 3,062 </font></td>
+</tr><tr><td scope="row"><font> Percent  			 Receiving Formal In-Home Care<sup>d</sup></font></td>
+<td><font> 6.68** (2.58)  			 </font></td>
+<td><font> 6.51 (1.65)  			 </font></td>
+<td><font> 12.93** (4.68)  			 </font></td>
+<td><font> 12.77** (3.20)  			 </font></td>
+<td><font> -0.01 (-0.06)  			 </font></td>
+<td><font> -0.021 </font></td>
+<td><font> 2,940 </font></td>
+</tr><tr><td scope="row"><font> Percent  			 Receiving Informal In-Home Care<sup>d</sup></font></td>
+<td><font> -3.82 (-1.48)  			 </font></td>
+<td><font> -2.72 (-0.69)  			 </font></td>
+<td><font> -1.73 (-0.63)  			 </font></td>
+<td><font> -0.66 (-0.17)  			 </font></td>
+<td><font> 0.07 (0.37)  			 </font></td>
+<td><font> 0.138 </font></td>
+<td><font> 2,925 </font></td>
+</tr><tr><td scope="row"><font> Total Hours  			 of Formal In-Home Care<sup>d</sup></font></td>
+<td><font> 0.03 (0.04)  			 </font></td>
+<td><font> 0.11 (0.09)  			 </font></td>
+<td><font> 4.15** (4.80)  			 </font></td>
+<td><font> 4.22** (3.39)  			 </font></td>
+<td><font> 0.46 (0.08)  			 </font></td>
+<td><font> 0.031 </font></td>
+<td><font> 2,940 </font></td>
+</tr><tr><td scope="row"><font> Hours of  			 Informal In-Home Care From Caregivers who Live Outside the Home<sup>d</sup></font></td>
+<td><font> -1.58 (-1.59)  			 </font></td>
+<td><font> -3.34* (-2.16)  			 </font></td>
+<td><font> -0.80 (-0.75  			 </font></td>
+<td><font> -2.50 (-1.59)  			 </font></td>
+<td><font> -10.49 (-1.50)  			 </font></td>
+<td><font> -0.536 </font></td>
+<td><font> 2,925 </font></td>
+</tr><tr><td colspan="8"><font> <b>NOTE</b>:  			 T-statistics are in parentheses.</font><br /><ol type="a"><li><font>The M-term is the attrition bias correction  				  term constructed from the probit estimates given in <a href="#table2">Table  				  2</a>. See test for explanation. The coefficient on M is an estimate of  				  <img src="/system/files/images-reports-basic/67646/earlyesF7.jpg" /><sub>12</sub>/<img src="/system/files/images-reports-basic/67646/earlyesF7.jpg" /><sub>2</sub>, the  				  normalized covariance between u<sub>1</sub> and u<sub>2</sub>.</font></li>
+<li><font><img src="/system/files/images-reports-basic/67646/earlyesf4.jpg" /> is the correlation coefficient of residuals of the outcome  				  equation and the selection equation, and is estimated by dividing the  				  regression coefficient on M by the estimated standard error of  				  u<sub>1</sub>.</font></li>
+<li><font>ADL score is the total number of impairments on  				  activities of daily living, ranging from 0 to 5.</font></li>
+<li><font>These variables are measured during the week  				  six months after randomization.</font></li>
+</ol><p><font> *Statistically Significant at the 95 percent  			 confidence level for a two-tailed test. **Statistically Significant at the  			 99 percent confidence level for a two-tailed test. </font></p>
+</td>
+</tr></table><h2><a name="chapVI" id="chapVI">VI. CONCLUSION</a></h2>
+<p>In conclusion, we note that no global patterns of attrition bias emerge;  		the evidence for the existence of bias and the estimated magnitude and  		direction of the bias depend clearly on the outcome considered. For both the  		basic case managment model and the financial control model, we found that  		controlling for the effects of attrition led to very small changes in estimates  		of channeling's impacts on most of the outcome measures examined, but to fairly  		large changes in estimated impacts on number of nursing home days, number of  		unmet needs, and hours of informal in-home care provided by caregivers who live  		outside the home. However, even for these variables the estimate of the  		normalized covariance between the disturbance terms is not statistically  		different from zero, a condition which is necessary for bias to exist. Thus,  		although attrition bias does not appear to have led to fundamental errors in  		inferences about the existence and direction of effects of channeling in the  		preliminary impact analysis (at least for the set of key outcomes examined  		here), the results indicate that attrition is clearly a factor to take into  		consideration in future impact analyses. As the 12- and 18-month followup  		interviews are administered, attrition will increase, exacerbating the  		potential importance of attrition bias.</p>
+<p>It is important to note some limitations of the results presented here,  		some of which may be eliminated in future analyses of the effects of attrition  		on impacts. First, in the attrition model, attrition due to death is not  		distinguished from attrition due to interview nonresponse which makes the  		probit coefficients used in the correction term difficult to interpret. Further  		investigation is necessary to determine whether, and if so, how, the  		specification of the attrition model (a single equation versus separate  		equations for death and nonresponse) affects the estimates of bias in our  		impact estimates. Second, it is important to allow the parameters for the  		attrition equation to differ by model. Thus, identical sample members in the  		two models may have very different correction terms if the data indicate that  		this is warranted. Separate models will be estimated in subsequent analyses of  		attrition. Third, we have relied on the assumption of a bivariate normal  		distribution of the disturbance terms of the impact equation and the attrition  		equation, which is not technically correct for categorical outcome variables.  		Although it has been shown in the current statistical literature that the  		bivariate normality assumption may not be innocuous, no tractable methods have  		been proposed yet that require less objectional assumptions. Fourth, the impact  		model considered here is a limited version of the impact models used in the  		preliminary findings report; many more auxiliary variables are included in the  		latter. For the final report we will use identical models. Fifth, possible  		attrition bias in the impacts for subgroups are not considered in the present  		attrition analysis. If we have important subgroup findings in the final  		analysis, we will consider the need to examine the effects of attrition on the  		subgroup results. Finally, other researchers have suggested that the two-step  		correction procedure used here tends to overcorrect the impact estimates  		(Griliches, Hall, and Hausman, 1978), as compared to a maximum likelihood  		procedure. Unfortunately, maximumum likelihood estimation is considerably more  		expensive and complicated to implement.</p>
+<p>For the final report we will attempt to improve the specification of the  		attrition model. We will also have additional data on outcome variables from  		other sources (death records, Medicare, and Medicaid records) that will allow  		us to limit the extent of loss of observations from the analysis due to  		attrition, and to evaluate how well the procedures employed to correct for  		attrition bias actually perform.</p>
+<h2><a name="notes" id="notes">NOTES</a></h2>
+<ol><li>
+<p><a name="note1" id="note1">"Attrition"</a> in this report is defined as the  			 loss of sample members for analysis purposes, i.e., as the lack of followup  			 data on required outcome measures. The term attrition does <b>not</b> refer to  			 treatment group members who do not participate in channeling (i.e., those who  			 decline, those determined at baseline to be ineligible, and those terminated  			 from the demonstration).</p>
+</li>
+<li>
+<p><a name="note2" id="note2">Followup</a> interviews were only attempted for  			 sample members who complete baselines; thus, nonresponse to the baseline  			 implies nonresponse at the followup as well.</p>
+</li>
+<li>
+<p><a name="note3" id="note3">Baseline</a> assessment interviews were administered  			 by channeling project staff to members of the treatment group and by research  			 interviewers for the control group. In addition, research interviewers  			 attempted to complete a baseline interview with those treatment group members  			 who failed to complete the channeling-administered baseline interview. For the  			 full research sample, this additional attempt improved the treatment group  			 response rate by 4.1 percentage points in the basic sites, and by 2.0  			 percentage points in the financial control sites. The response rates reported  			 include all completed baselines, whether administered by channeling staff or  			 research interviewers.</p>
+</li>
+<li>
+<p><a name="note4" id="note4">See</a> Brown and Harrigan (1983) for evidence that  			 the full treatment and control groups are very similar on a wide variety of  			 screen characteristics.</p>
+</li>
+<li>
+<p><a name="note5" id="note5">Minor</a> changes in notation from that used in the  			 preliminary findings report (Kemper et al., 1984) are made to clarify the  			 presentation.</p>
+</li>
+<li>
+<p><a name="note6" id="note6">Throughout</a> this discussion, X<sub>1</sub> is  			 treated as being fixed. The same results can be obtained for random  			 X<sub>1</sub> variables by making all expectations conditional upon  			 X<sub>1</sub>.</p>
+</li>
+<li>
+<p><a name="note7" id="note7">The</a> probit model (Finney, 1964) is used to  			 predict a binary response (Y<sub>2</sub> = 1 or 0) as a function of explanatory  			 variables X<sub>2</sub>:</p>
+<table><tr><td>Prob(Y<sub>2</sub> = 1) </td>
+<td> = </td>
+<td> <img src="/system/files/images-reports-basic/67646/earlyesF8.jpg" />(X<sub>2</sub>b<sub>2</sub>),</td>
+</tr></table><p>where <img src="/system/files/images-reports-basic/67646/earlyesF8.jpg" /> is  			 the cumulative distribution function of the normal standard  			 distribution.</p>
+</li>
+<li>
+<p><a name="note8" id="note8">The</a> standard errors from the least squares  			 regression with the correction term are not correct due to heteroskedasticity  			 introduced by the M-term. We have corrected the standard errors using methods  			 based on Heckman (1979) and Greene (1981).</p>
+</li>
+<li>
+<p><a name="note9" id="note9">It</a> can easily be shown that evaluating the  			 expression in equation (9) yields estimates of the bias that are identical to  			 those obtained by computing the difference between the coefficients obtained  			 from the adjusted and unadjusted regressions.</p>
+</li>
+<li>
+<p><a name="note10" id="note10">The</a> auxiliary regression coefficient on a  			 variable in Z obtained from the regression of M on Z will tend to have a sign  			 which is opposite to the expected sign of the correlation between that variable  			 and the likelihood that the sample member is available for analysis. Since  			 treatment group members are more likely to respond, the latter correlation will  			 be positive, and the auxiliary regression coefficient will be  			 negative.</p>
+</li>
+<li>
+<p><a name="note11" id="note11">As</a> pointed out in <a href="#chapIII">Chapter  			 III</a>, there are several ways in which sample members can be lost to the  			 analysis, including interview refusal, death of the sample member, moving, or  			 just failure to locate the sample member. For the two most prevalent reasons  			 for missing data--sample member death or refusal--a single equation may not  			 model both processes adequately. In theory, it is possible to use separate  			 equations for death and nonresponse, to form two different M-terms and include  			 these in the outcome equation. We have not chosen this procedure since the  			 analysis would be complicated considerably (especially the computation of  			 standard errors of the estimates). We relied instead on a reduced form equation  			 to represent attrition due both to death and to nonresponse. In  			 <a href="#appendA">Appendix A</a>, we estimate a multinomial logit model in  			 which the followup sample members could fall into one of three possible  			 response categories: death, nonresponse, and completed 6-month followup  			 interview. However, it is important to note that the method of correction for  			 attrition bias that uses a single attrition equation is still correct, since  			 all that is required to account for the bias due to attrition is the inclusion  			 of a measure of the <b>total</b> effects of observed variables on the  			 probability of attrition.</p>
+</li>
+<li>
+<p><a name="note12" id="note12">This</a> change was made to keep computational  			 costs down and should have no effect on the basic conclusions concerning the  			 presence or absence of selection bias. See <a href="#appendB">Appendix B</a>  			 for a comparison of the results presented in the preliminary findings report  			 (Kemper et al., 1984) to the results obtained from the regressions used here.  			 Complete descriptions of the control variables are also given in Kemper et. al  			 (1984).</p>
+</li>
+</ol><h2><a name="appendA" id="appendA">APPENDIX A. A MULTINOMIAL LOGIT MODEL OF RESPONSE,  		DEATH, AND NONRESPONSE</a></h2>
+<p>The probit coefficients for the probability of being included in the  		followup sample, as presented in <a href="#table2">Table 2</a>, reflect the  		combined influences of factors leading to death-and nonresponse. It is  		emphasized again that the method used to correct for attrition bias does not  		require separate equations for attrition due to death and nonresponse. However,  		since the relationship between sample member characteristics and death  		attrition may differ considerably from the relationship between these  		characteristics and interview refusal, the coefficients of the probit model are  		not very informative about the determinants of attrition. Such information may  		be gained from a model in which the followup sample members could fall into one  		of three possible response categories: death, and for those who survive,  		interview nonresponse and completed 6-month followup interview. Unfortunately,  		a trinomial probit is computationally difficult to implement, so we have used a  		close alternative to the probit model, namely a multinomial logit model. Under  		this model the probabilities of death, interview nonresponse, and followup  		completion are, respectively:</p>
+<blockquote><p>Prob(death) =  		  <img src="/system/files/images-reports-basic/67646/earlyesF5.jpg" /> / (<img src="/system/files/images-reports-basic/67646/earlyesF5.jpg" /> +  		  <img src="/system/files/images-reports-basic/67646/earlyesF6.jpg" /> + 1)</p>
+<p>Prob(interview nonresponse) =  		  <img src="/system/files/images-reports-basic/67646/earlyesF6.jpg" /> / (<img src="/system/files/images-reports-basic/67646/earlyesF5.jpg" /> +  		  <img src="/system/files/images-reports-basic/67646/earlyesF6.jpg" /> + 1)</p>
+<p>Prob(completed 6-month followup interview) = 1 / (<img src="/system/files/images-reports-basic/67646/earlyesF5.jpg" /> +  		  <img src="/system/files/images-reports-basic/67646/earlyesF6.jpg" /> +  		  1).</p>
+</blockquote>
+<p>In this model, we obtain two sets of coefficients, b<sub>d</sub> and  		b<sub>n</sub>, from which the predicted probabilities of death, interview  		nonresponse, and completed 6-month followup interview can be derived. The  		results are presented in <a href="#tableA1">Table A-1</a>. We find that the  		following factors are statistically significant predictors of attrition from  		the analysis sample due to death: being impaired on eating and transfer,  		incontinence, being male, being black or white (as opposed to Hispanic), and  		being institutionalized at the screen. Except for the sex and ethnic group  		variables, these factors can be interpreted as indicators of severe frailty due  		to medical conditions that precede death.</p>
+<p>A high probability of interview nonresponse in the followup sample is  		associated with being in the control group; being from the Middlesex County or  		the Miami sites; living with children or alone, rather than living with a  		spouse; being black or white, rather than Hispanic; having a high number of  		unmet needs; and the use of a proxy at the screen. An explanation of why  		control group members are more likely to refuse to be interviewed is that they  		were disappointed about the fact that they would not receive channeling  		benefits. It is difficult at this point to give a. good interpretation of the  		effects of race and unmet needs. Proxy use at the screen seems to be an  		indication of proxy respondents not wanting to be bothered by an interview.</p>
+<p>Likelihood ratio tests confirm what is apparent from these two sets of  		estimates, that is, that the relationship between sample member characteristics  		and attrition depends on the type of attrition. Future analyses of attrition  		bias will investigate whether there are efficiency gains to be achieved by  		incorporating separate correction terms for nonresponse and death in the  		regression models used to estimate channeling's impacts.</p>
+<table><tr><td colspan="5"><font><b><a name="tableA1" id="tableA1"> TABLE A-1</a>. Multinomial Logit  			 Coefficients for Response Status at Six-Month Followup(t-statistics in  			 parentheses) </b></font></td>
+</tr><tr><td scope="col"><font><b> Screen Variable </b></font></td>
+<td colspan="2" scope="col"><font><b> Death vs. Complete  			 </b></font></td>
+<td colspan="2" scope="col"><font><b> Nonresponse vs. Complete  			 </b></font></td>
+</tr><tr><td scope="row"><font> Intercept  			 </font></td>
+<td><font> -3.98 </font></td>
+<td><font> (-5.78) </font></td>
+<td><font> -1.90 </font></td>
+<td><font> (-3.25) </font></td>
+</tr><tr><td scope="row"><font> Research  			 Status (1=treatment, 0=control) </font></td>
+<td><font> 0.03 </font></td>
+<td><font> (0.26) </font></td>
+<td><font> -0.68** </font></td>
+<td><font> (-7.93) </font></td>
+</tr><tr><td colspan="5"><font> Site (within  			 model) </font></td>
+</tr><tr><td scope="row"><font>  Basic Case Management</font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+</tr><tr><td scope="row"><font>    Baltimore</font></td>
+<td><font>-0.10</font></td>
+<td><font>(-0.39)</font></td>
+<td><font>0.41</font></td>
+<td><font>(1.76)</font></td>
+</tr><tr><td scope="row"><font>    Eastern Kentucky</font></td>
+<td><font>0.01</font></td>
+<td><font>(0.04)</font></td>
+<td><font>-0.36</font></td>
+<td><font>(-1.36)</font></td>
+</tr><tr><td scope="row"><font>    Houston</font></td>
+<td><font>-0.44</font></td>
+<td><font>(-1.66)</font></td>
+<td><font>0.22</font></td>
+<td><font>(0.94)</font></td>
+</tr><tr><td scope="row"><font>    Middlesex County</font></td>
+<td><font>0.29</font></td>
+<td><font>(1.19)</font></td>
+<td><font>0.61**</font></td>
+<td><font>(2.73)</font></td>
+</tr><tr><td scope="row"><font>    Southern Maine</font></td>
+<td><font>0.17</font></td>
+<td><font>(0.67)</font></td>
+<td><font>-0.01</font></td>
+<td><font>(-0.02)</font></td>
+</tr><tr><td scope="row"><font>  Financial Control</font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+</tr><tr><td scope="row"><font>    Cleveland</font></td>
+<td><font>-0.04</font></td>
+<td><font>(-0.15)</font></td>
+<td><font>0.33</font></td>
+<td><font>(1.34)</font></td>
+</tr><tr><td scope="row"><font>    Greater Lynn</font></td>
+<td><font>-0.07</font></td>
+<td><font>(-0.27)</font></td>
+<td><font>-0.01</font></td>
+<td><font>(-0.04)</font></td>
+</tr><tr><td scope="row"><font>    Miami</font></td>
+<td><font>-0.16</font></td>
+<td><font>(-0.62)</font></td>
+<td><font>072**</font></td>
+<td><font>(3.21)</font></td>
+</tr><tr><td scope="row"><font>    Philadelphia</font></td>
+<td><font>-0.32</font></td>
+<td><font>(-1.31)</font></td>
+<td><font>0.07</font></td>
+<td><font>(0.30)</font></td>
+</tr><tr><td scope="row" colspan="5"><font>Impairment of Ability to Perform Activities of Daily Living  			 (ADL)<sup>a</sup></font></td>
+</tr><tr><td scope="row"><font>  Eating</font></td>
+<td><font>0.38**</font></td>
+<td><font>(3.27)</font></td>
+<td><font>0.08</font></td>
+<td><font>(0.73)</font></td>
+</tr><tr><td scope="row"><font>  Transfer</font></td>
+<td><font>0.36*</font></td>
+<td><font>(2.51)</font></td>
+<td><font>-0.16</font></td>
+<td><font>(-1.30)</font></td>
+</tr><tr><td scope="row"><font>  Toileting</font></td>
+<td><font>0.24</font></td>
+<td><font>(1.66)</font></td>
+<td><font>0.08</font></td>
+<td><font>(0.68)</font></td>
+</tr><tr><td scope="row"><font>  Dressing</font></td>
+<td><font>-0.14</font></td>
+<td><font>(-0.99)</font></td>
+<td><font>-0.07</font></td>
+<td><font>(-0.65)</font></td>
+</tr><tr><td scope="row"><font>  Bathing</font></td>
+<td><font>0.41</font></td>
+<td><font>(1.94)</font></td>
+<td><font>0.07</font></td>
+<td><font>(0.48)</font></td>
+</tr><tr><td scope="row"><font>  			 Incontinence<sup>a</sup></font></td>
+<td><font> 0.33** </font></td>
+<td><font> (3.06) </font></td>
+<td><font> -0.03 </font></td>
+<td><font> (-0.36) </font></td>
+</tr><tr><td scope="row" colspan="5"><font>Monthly Income<sup>a</sup></font></td>
+</tr><tr><td scope="row"><font>  &lt;500</font></td>
+<td><font>0.28</font></td>
+<td><font>(1.22)</font></td>
+<td><font>-0.34</font></td>
+<td><font>(-1.77)</font></td>
+</tr><tr><td scope="row"><font>  500-1000</font></td>
+<td><font>0.30</font></td>
+<td><font>(1.37)</font></td>
+<td><font>-0.18</font></td>
+<td><font>(-1.02)</font></td>
+</tr><tr><td scope="row" colspan="5"><font>Living Arrangement</font></td>
+</tr><tr><td scope="row"><font>  With spouse</font></td>
+<td><font>-0.20</font></td>
+<td><font>(-1.10)</font></td>
+<td><font>-0.33*</font></td>
+<td><font>(-2.11)</font></td>
+</tr><tr><td scope="row"><font>  With children</font></td>
+<td><font>0.16</font></td>
+<td><font>(0.93)</font></td>
+<td><font>-0.22</font></td>
+<td><font>(-1.39)</font></td>
+</tr><tr><td scope="row"><font>  Alone</font></td>
+<td><font>0.04</font></td>
+<td><font>(0.26)</font></td>
+<td><font>-0.19</font></td>
+<td><font>(-1.28)</font></td>
+</tr><tr><td scope="row" colspan="5"><font>Insurance<sup>a</sup></font></td>
+</tr><tr><td scope="row"><font>  Medicare</font></td>
+<td><font>-0.11</font></td>
+<td><font>(-0.24)</font></td>
+<td><font>0.02</font></td>
+<td><font>(0.04)</font></td>
+</tr><tr><td scope="row"><font>  Medicaid</font></td>
+<td><font>-0.12</font></td>
+<td><font>(-0.28)</font></td>
+<td><font>-0.01</font></td>
+<td><font>(-0.03)</font></td>
+</tr><tr><td scope="row"><font> Sex (1=male,  			 0=female) </font></td>
+<td><font> 0.82** </font></td>
+<td><font> (7.36) </font></td>
+<td><font> 0.21* </font></td>
+<td><font> (2.05) </font></td>
+</tr><tr><td scope="row" colspan="5"><font>Age</font></td>
+</tr><tr><td scope="row"><font>  &lt;75</font></td>
+<td><font>-0.05</font></td>
+<td><font>(-0.38)</font></td>
+<td><font>-0.12</font></td>
+<td><font>(-0.98)</font></td>
+</tr><tr><td scope="row"><font>  75-79</font></td>
+<td><font>-0.12</font></td>
+<td><font>(-0.86)</font></td>
+<td><font>-0.03</font></td>
+<td><font>(-0.27)</font></td>
+</tr><tr><td scope="row"><font>  80-84</font></td>
+<td><font>0.19</font></td>
+<td><font>(1.47)</font></td>
+<td><font>0.11</font></td>
+<td><font>(0.90)</font></td>
+</tr><tr><td scope="row" colspan="5"><font>Ethnic Background</font></td>
+</tr><tr><td scope="row"><font>  Black</font></td>
+<td><font>1.08**</font></td>
+<td><font>(3.18)</font></td>
+<td><font>0.59*</font></td>
+<td><font>(2.16)</font></td>
+</tr><tr><td scope="row"><font>  White</font></td>
+<td><font>0.85**</font></td>
+<td><font>(2.59)</font></td>
+<td><font>0.94**</font></td>
+<td><font>(3.62)</font></td>
+</tr><tr><td scope="row"><font> Number of  			 Unmet Needs<sup>a</sup> (0-5) </font></td>
+<td><font> 0.02 </font></td>
+<td><font> (0.37) </font></td>
+<td><font> 0.10** </font></td>
+<td><font> (2.25) </font></td>
+</tr><tr><td scope="row"><font> Proxy  			 Use<sup>a</sup> (1=all or partial proxy, 0=self report) </font></td>
+<td><font> 0.19 </font></td>
+<td><font> (1.46) </font></td>
+<td><font> 0.19* </font></td>
+<td><font> (1.80) </font></td>
+</tr><tr><td scope="row"><font>  			 Institutionalized at screen (1=yes, 0=no) </font></td>
+<td><font> 0.55** </font></td>
+<td><font> (4.92) </font></td>
+<td><font> 0.19 </font></td>
+<td><font> (1.77) </font></td>
+</tr><tr><td scope="row"><font> Sample  			 size<sup>b</sup></font></td>
+<td colspan="4"><font> 3799  			 </font></td>
+</tr><tr><td scope="row"><font> Chi-square  			 statistic<sup>c</sup></font></td>
+<td colspan="4"><font> 359.81**  			 </font></td>
+</tr><tr><td scope="row"><font> Degrees of  			 Freedom </font></td>
+<td colspan="4"><font> 74  			 </font></td>
+</tr><tr><td colspan="5"><font> <b>NOTE</b>:  			 The logit model was estimated to distinguish sample members who completed the  			 6-month followup interview from those who had died and from those who were  			 nonrespondents. Logit coefficients are interpretable as estimates of the impact  			 of the corresponding variables on the log odds ratios (i.e., on the percent  			 change in the relative odds) of death versus response (column 1) and  			 nonresponse versus response (column 2). Coefficients were estimated by maximum  			 likelihood. T-statistics are in parentheses.</font><br /><ol type="a"><li><font>For this variable, missing values were imputed  				  and a binary missing value indicator variable was included in the logit  				  model.</font></li>
+<li><font>Observations on 44 sample members randomized  				  prior to February 1, 1983 are excluded because screen interviews were lost in  				  the mail (14 cases) or because there were missing values on the screen  				  variables. Of the 3799 observations, 590 (16 percent) were deceased, 762 (20  				  percent) were nonresponders, and 2447 (64 percent) were responders.</font></li>
+<li><font>The Chi-square (likelihood ratio) test  				  statistic is for the null hypothesis that all coefficients with the exception  				  of the two constant terms are zero. This test, with 74 degrees of freedom, is  				  emphatically rejected. We have also tested the null hypothesis that all  				  coefficients for death versus complete are equal to the coefficients for  				  nonresponse versus complete. This hypothesis also is soundly rejected (the  				  Chi-square test statistic of 158.07, with 38 degrees of freedom, is  				  significantly greater than the critical value of 53.3).</font></li>
+</ol><p><font> *Statistically significant at the 95 percent  			 confidence level for a two-tailed test. **Statistically significant at the  			 99 percent confidence level for a two-tailed test. </font></p>
+</td>
+</tr></table><h2><a name="appendB" id="appendB">APPENDIX B. COMPARISON OF RESULTS TO THOSE PRESENTED  		IN CHANNELING EFFECTS FOR AN EARLY SAMPLE AT 6-MONTH  		FOLLOWUP</a></h2>
+<p>For two reasons the unadjusted impact estimates presented in this report  		differ from those in the preliminary impact analysis, which are presented in  		Kemper et al. (1984). First, to lessen the costs of the computation-intensive  		bias correction method, we have used a shorter list of explanatory variables in  		the unadjusted and adjusted impact regressions. As a consequence, the  		unadjusted impact estimates will differ from chose in Kemper et al. (1984).  		Second, we excluded from analyses those observations for whom no M-term could  		be constructed because of missing values on the screen variables used to  		construct the M-term. This exclusion causes our sample size to be slightly  		(about 1 percent) smaller than the sample size of the preliminary analysis.</p>
+<p>The assessment of whether there is attrition bias in estimates of  		channeling impact should be unaffected by this difference in regressors, since  		variables that tended to be significant in the full outcome regressions in  		Kemper et al. (1984) were the ones that were retained. Furthermore, because of  		random assignment, these variables will tend to be relatively uncorrelated with  		treatment status; hence, omitting them is unlikely to yield different estimates  		of channeling impacts. Nonetheless, in order to verify that the results on  		attrition bias obtained from the model with the reduced set of regressors used  		in this report (<a href="#table3">Table 3</a>) are comparable to results that  		would be obtained from the full regression model used throughout the  		preliminary analysis, we compare (<a href="#tableB1">Table B.1</a>) the  		unadjusted results from <a href="#table3">Table 3</a> to the impact estimates  		that are presented in Kemper et al. (1984) for the same set of outcomes.</p>
+<p>We observe that for none of the outcomes is there a difference in the  		statistical significance of the impact estimates. Moreover, the statistically  		significant impacts change relatively little in magnitude; only the small and  		statistically insignificant impacts exhibit changes of any magnitude. Since  		coefficients with small t-values are generally more sensitive to alternative  		model specifications than coefficients with a large t-value, these changes are  		not deemed important. We conclude from this comparison that the results  		obtained on attrition bias in this report are comparable to those that would be  		obtained for the fuller regression model, and that therefore the conclusions  		drawn here concerning attrition bias are applicable to the impact estimates  		presented in the preliminary analysis.</p>
+<table><tr><td colspan="7"><font><b><a name="tableB1" id="tableB1"> TABLE B-1</a>. Comparison of Impact  			 Estimates in Preliminary Analysis Report to Unadjusted Impact Estimates Used in  			 Attrition Analysis(t-statistics in parentheses) </b></font></td>
+</tr><tr><td rowspan="2" scope="col"><font> </font></td>
+<td colspan="2" scope="col"><font><b> Basic Model </b></font></td>
+<td colspan="2" scope="col"><font><b> Financial Control Model  			 </b></font></td>
+<td colspan="2" scope="col"><font><b> Sample Sizes<sup>a</sup></b></font></td>
+</tr><tr><td scope="col"><font><b> Attrition Analysis </b></font></td>
+<td scope="col"><font><b> Preliminary Analysis Report </b></font></td>
+<td scope="col"><font><b> Attrition Analysis </b></font></td>
+<td scope="col"><font><b> Preliminary Analysis Report </b></font></td>
+<td scope="col"><font><b> Attrition Analysis </b></font></td>
+<td scope="col"><font><b> Preliminary Analysis Report </b></font></td>
+</tr><tr><td colspan="7"><font> FOLLOWUP SAMPLE </font></td>
+</tr><tr><td scope="row"><font> Percent  			 Receiving Comprehensive Case Management During First 6-Month Period  			 </font></td>
+<td><font> 48.59** (19.54)  			 </font></td>
+<td><font> 49.11** (19.56)  			 </font></td>
+<td><font> 50.45** (18.45)  			 </font></td>
+<td><font> 51.4** (18.86)  			 </font></td>
+<td><font> 2,346 </font></td>
+<td><font> 2,395 </font></td>
+</tr><tr><td scope="row"><font> Number of  			 Hospital Days in Last Six Months </font></td>
+<td><font> -2.28 (-1.50)  			 </font></td>
+<td><font> -2.43 (-1.59)  			 </font></td>
+<td><font> 1.24 (0.77)  			 </font></td>
+<td><font> 1.30 (0.79)  			 </font></td>
+<td><font> 2,365 </font></td>
+<td><font> 2,391 </font></td>
+</tr><tr><td scope="row"><font> Number of  			 Nursing Home Days in Last Six Months </font></td>
+<td><font> -1.81 (-0.88)  			 </font></td>
+<td><font> -2.45 (-1.20)  			 </font></td>
+<td><font> -3.90 (-1.78)  			 </font></td>
+<td><font> -2.87 (-1.31)  			 </font></td>
+<td><font> 2,365 </font></td>
+<td><font> 2,391 </font></td>
+</tr><tr><td scope="row"><font> Number of  			 Unmet Needs Six Months After Randomization </font></td>
+<td><font> -0.15 (-1.32)  			 </font></td>
+<td><font> -0.13 (-1.14)  			 </font></td>
+<td><font> -0.38** (-3.16)  			 </font></td>
+<td><font> -0.38** (-3.05)  			 </font></td>
+<td><font> 2,293 </font></td>
+<td><font> 2,319 </font></td>
+</tr><tr><td scope="row"><font> ADL  			 Score<sup>b</sup></font></td>
+<td><font> -0.01 (-0.12)  			 </font></td>
+<td><font> 0.00 (0.03)  			 </font></td>
+<td><font> 0.05 (0.59)  			 </font></td>
+<td><font> 0.08 (0.91)  			 </font></td>
+<td><font> 2,318 </font></td>
+<td><font> 2,347 </font></td>
+</tr><tr><td colspan="7"><font> KNOWN STATUS SAMPLE </font></td>
+</tr><tr><td colspan="7"><font> Percent  			 Living Six Months After Randomization in: </font></td>
+</tr><tr><td scope="row"><font> Community  			 </font></td>
+<td><font> 0.27 (0.12)  			 </font></td>
+<td><font> 0.99 (0.43)  			 </font></td>
+<td><font> 0.81 (0.32)  			 </font></td>
+<td><font> 1.62 (0.65)  			 </font></td>
+<td><font> 3,062 </font></td>
+<td><font> 3,097 </font></td>
+</tr><tr><td scope="row"><font> Hospital  			 </font></td>
+<td><font> -2.77* (-2.16)  			 </font></td>
+<td><font> -2.84* (-2.19)  			 </font></td>
+<td><font> -0.98 (-0.72)  			 </font></td>
+<td><font> -0.84 (-0.60)  			 </font></td>
+<td><font> 3,062 </font></td>
+<td><font> 3,097 </font></td>
+</tr><tr><td scope="row"><font> Nursing home  			 </font></td>
+<td><font> 0.84 (0.58)  			 </font></td>
+<td><font> -0.15 (-0.10)  			 </font></td>
+<td><font> -0.11 (-0.07)  			 </font></td>
+<td><font> 0.35 (0.22)  			 </font></td>
+<td><font> 3,062 </font></td>
+<td><font> 3,097 </font></td>
+</tr><tr><td scope="row"><font> Percent  			 Deceased Six Months After Randomization </font></td>
+<td><font> 1.66 (0.89)  			 </font></td>
+<td><font> 2.00 (1.07)  			 </font></td>
+<td><font> 0.29 (0.14)  			 </font></td>
+<td><font> -1.13 (-0.56)  			 </font></td>
+<td><font> 3,062 </font></td>
+<td><font> 3,097 </font></td>
+</tr><tr><td scope="row"><font> Percent  			 Receiving Formal In-Home Care </font></td>
+<td><font> 6.68** (2.58)  			 </font></td>
+<td><font> 7.20** (2.78)  			 </font></td>
+<td><font> 12.93** (4.68)  			 </font></td>
+<td><font> 13.60** (4.88)  			 </font></td>
+<td><font> 2,940 </font></td>
+<td><font> 2,972 </font></td>
+</tr><tr><td scope="row"><font> Percent  			 Receiving Informal In-Home Care </font></td>
+<td><font> -3.82 (-1.48)  			 </font></td>
+<td><font> -2.60 (-1.01)  			 </font></td>
+<td><font> -1.73 (-0.63)  			 </font></td>
+<td><font> -0.20 (-0.08)  			 </font></td>
+<td><font> 2,925 </font></td>
+<td><font> 2,958 </font></td>
+</tr><tr><td scope="row"><font> Total Hours  			 of Formal In-Home Care From Visiting Providers </font></td>
+<td><font> 0.03 (0.04)  			 </font></td>
+<td><font> 0.07 (0.08)  			 </font></td>
+<td><font> 4.15** (4.80)  			 </font></td>
+<td><font> 4.26** (4.86)  			 </font></td>
+<td><font> 2,940 </font></td>
+<td><font> 2,972 </font></td>
+</tr><tr><td scope="row"><font> Hours of  			 Informal In-Home Care From Caregivers Who Live Outside the Home </font></td>
+<td><font> -1.58 (-1.59)  			 </font></td>
+<td><font> -1.55 (-1.54)  			 </font></td>
+<td><font> -0.80 (-0.75)  			 </font></td>
+<td><font> -0.42 (-0.38)  			 </font></td>
+<td><font> 2,925 </font></td>
+<td><font> 2,958 </font></td>
+</tr><tr><td colspan="7">
+<ol type="a"><li><font>Sample sizes for the attrition analysis are  				  slightly smaller than those used in the preliminary analysis report due to the  				  deletion of cases with missing explanatory variables.</font></li>
+<li><font>ADL score is the total number of impairments of  				  activities of daily living, ranging from 0 to 5.</font></li>
+</ol><p><font>*Significant at the 95 percent level for a  			 two-tailed test. **Significant at the 99 percent level for a two-tailed  			 test. </font></p>
+</td>
+</tr></table><h2><a name="reports" id="reports">CHANNELING EVALUATION REPORTS</a></h2>
+<h3>Preliminary Reports</h3>
+<ol><li>
+<p>The Planning and Implementation of Channeling: Early Experiences of  			 the National Long Term Care Demonstration. Raymond J. Baxter et al. April 15,  			 1983. [<a href="http://aspe.hhs.gov/daltcp/reports/implees.htm">http://aspe.hhs.gov/daltcp/reports/implees.htm</a>]</p>
+</li>
+<li>
+<p>Channeling Effects for an Early Sample at 6-Month Followup. Peter  			 Kemper et al. June 1984. [<a href="http://aspe.hhs.gov/daltcp/reports/6monthes.htm">http://aspe.hhs.gov/daltcp/reports/6monthes.htm</a>]</p>
+</li>
+</ol><h3>Technical Reports</h3>
+<ol><li>
+<p>Research Design of the National Long Term Care Demonstration. Peter  			 Kemper et al. November 1982. [<a href="http://aspe.hhs.gov/daltcp/reports/designes.htm">http://aspe.hhs.gov/daltcp/reports/designes.htm</a>]</p>
+</li>
+<li>
+<p>Informal Care to the Impaired Elderly: Report of the National Long  			 Term Care Demonstration Survey of Informal Caregivers. Jon B. Christianson and  			 Susan A. Stephens. June 6, 1984. [<a href="http://aspe.hhs.gov/daltcp/reports/impaires.htm">http://aspe.hhs.gov/daltcp/reports/impaires.htm</a>]</p>
+</li>
+</ol><h3>Supplementary Reports</h3>
+<ol><li>
+<p>Differential Impacts Among Subgroups of Early Channeling Enrollees  			 Six Months After Randomization. Thomas W. Grannemann, Randall S. Brown, and  			 Shari Miller Dunstan. July, 1984. [<a href="http://aspe.hhs.gov/daltcp/reports/difimpes.htm">http://aspe.hhs.gov/daltcp/reports/difimpes.htm</a>]</p>
+</li>
+<li>
+<p>The Effects of Sample Attrition on Estimates of Channeling Impacts  			 for an Early Sample. Peter Mossel and Randall S. Brown. July 1984. [<a href="http://aspe.hhs.gov/daltcp/reports/earlyes.htm">http://aspe.hhs.gov/daltcp/reports/earlyes.htm</a>]</p>
+</li>
+</ol><p>Reports are Available From: Mathematica Policy  		Research, Inc. P.O. Box 2393 Princeton, New Jersey 08540</p>
+<h2><a name="ref" id="ref">REFERENCES</a></h2>
+<p>Brown, R. and M. Harrigan. "The Comparability of Treatment and Control  		Groups at Randomization." Mathematica Policy Resarch, Princeton, N.J., October  		1983. [<a href="http://aspe.hhs.gov/daltcp/reports/compares.htm">http://aspe.hhs.gov/daltcp/reports/compares.htm</a>]</p>
+<p>Catsiapis, G. and C. Robinson. "Sample Selection Bias with Multiple  		Selection Rules." <b>Journal of Econometrics</b>, Vol. 18, 1982, pp.  		351-68.</p>
+<p>Finney, D.J. <b>Statistical Methods in Biological Assay</b>. Second  		Edition, 1964. London: Griffin.</p>
+<p>Greene, W.H. "Sample Selection Bias as a Specification Error: Comment."  		<b>Econometrica</b>, Vol. 49, 1981, pp. 795-98.</p>
+<p>Griliches, Z., B.H. Hall, and J.A. Hausman. "Missing Data and  		Self-Selection in Large Panels." <b>Annales de l'INSEE</b> 30-31, 1978, pp.  		137-76.</p>
+<p>Heckman, J. "The Common Structure of Statistical Models of Truncation,  		Sample Selection, and Limited Dependent Variables, and a Simple Estimator for  		Such Models." <b>Annals of Economic and Social Measurement</b>, Volume 5, Fall  		1976, pp. 475-492.</p>
+<p>Heckman, J. "Sample Selection Bias as a Specification Error."  		<b>Econometrica</b>, Vol. 47, 1979, pp. 153-61.</p>
+<p>Kemper, P. et al. "Channeling Effects for an Early Sample at 6-Month  		Followup." Channeling Evaluation Preliminary Report #2, June 1984. [<a href="http://aspe.hhs.gov/daltcp/reports/6monthes.htm">http://aspe.hhs.gov/daltcp/reports/6monthes.htm</a>]</p>
+
+  <div class="download_report">
+    
+                        <div class="pdf-prev">
+                <img src="https://aspe.hhs.gov/system/files/pdfpreview/c49e06963ee0f694841fe01fdd2c5b09.png" alt="Preview" title="Preview" />            </div>
+                <a class="btn btn-sm btn-default download-file"
+           href="https://aspe.hhs.gov/system/files/pdf/74001/earlyes.pdf">Download</a>
+
+        <p class="download_title">&quot;earlyes.pdf&quot;
+            (pdf,
+            927.83Kb)</p>
+        <p>Note: Documents in PDF format require the <a href="http://www.adobe.com/products/acrobat/readstep2.html">Adobe
+                Acrobat Reader&reg;</a>. If you experience problems with PDF documents, please <a
+                href="http://www.adobe.com/products/acrobat/readstep2.html">download the latest version of the
+                Reader&reg;</a>
+        </p>
+    </div>
+<div class="group-tags"><div class="field-label">Tags:&nbsp;</div><a href="/terms/case-management">Case Management</a><a href="/terms/publications-2">Publications</a><a href="/terms/disability-aging-and-long-term-care-research">Disability, Aging and Long-Term Care Research</a><a href="/terms/healthcarelong-term-care-financing">Healthcare/Long-Term Care Financing</a><a href="/terms/health-services-formal">Health Services, Formal</a><a href="/terms/home-and-community-based-services">Home and Community-Based Services</a><a href="/terms/long-term-care">Long-Term Care</a></div>  </div>
+
+      <footer>
+          </footer>
+  
+    <div id="block-webform-client-block-158521" class="widget block block-webform" >
+  
+      
+  <div id="webform-ajax-wrapper-158521"><form class="webform-client-form webform-client-form-158521" action="/basic-report/effects-sample-attrition-estimates-channelings-impacts-early-sample" method="post" id="webform-client-form-158521" accept-charset="UTF-8"><div><div class="webform-progressbar">
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-radios webform-component--was-this-page-helpful">
+  <label for="edit-submitted-was-this-page-helpful">Was this page helpful? <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-was-this-page-helpful" class="form-radios"><div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-1" name="submitted[was_this_page_helpful]" value="1" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-1">Yes </label>
+
+</div>
+<div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-2" name="submitted[was_this_page_helpful]" value="0" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-2">No </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="4" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-BkkUDeedl0nIR5TmTaU_9Z8mKczaOocHH43LS6JZJ2o" />
+<input type="hidden" name="form_id" value="webform_client_form_158521" />
+<input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-158521" />
+<div class="form-actions"><input class="webform-next button-primary btn btn-default form-submit" type="submit" id="edit-webform-ajax-next-158521" name="op" value="Next &gt;" /></div>
+<div class="is-useful-disclaimer"> <a href="/%23" class="" title="Survey Disclaimer" data-toggle="modal" data-target="#disclamerModal">Form Approved OMB# 0990-0379 Exp. Date 8/31/2017</a></div>
+<div class="modal fade" id="disclamerModal" tabindex="-1" role="dialog" aria-labelledby="disclamerModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="disclamerModalLabel">Survey Disclaimer</h2>
+      </div>
+      <div class="modal-body">
+         According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this information collection is 0990-0379. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, gather the data needed, and complete and review the information collection. If you have comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: U.S. Department of Health & Human Services, OS/OCIO/PRA, 200 Independence Ave., S.W., Suite 336-E, Washington D.C. 20201, Attention: PRA Reports Clearance Officer.      </div>
+    </div>
+  </div>
+</div></div></form></div>
+  </div> <!-- /.block -->
+<meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/effects-sample-attrition-estimates-channelings-impacts-early-sample" itemref="md1" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/effects-sample-attrition-estimates-channelings-impacts-early-sample" itemref="md2 md3 md5 md7 md9 md11 md13 md15 md17" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/case-management" id="md5" itemref="md4" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/publications-2" id="md7" itemref="md6" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/disability-aging-and-long-term-care-research" id="md9" itemref="md8" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/healthcarelong-term-care-financing" id="md11" itemref="md10" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/health-services-formal" id="md13" itemref="md12" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/home-and-community-based-services" id="md15" itemref="md14" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/long-term-care" id="md17" itemref="md16" />              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <footer  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Footer">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  id="footer_sitemap-footer_sitemap" class="col-sm-6 col-md-6 col-lg-4 ">
+                          
+                              <div id="block-footer-sitemap-footer-sitemap" class="widget block block-footer-sitemap" >
+  
+      
+  <div id="footer-sitemap" class="clearfix">
+  <div class="fs-block-content"><div class="menu-footer-utility"><ul class="footer_links_menu-footer-utility total-items-2 parent-items-0 single-items-0"><li class="menu-5021 depth-1 total-children-8 parent-children-0 single-children-8  first"><a href="/" title="look at ASPE Home" class="fs-root-link">ASPE Home</a><ul class="footer_links_menu-footer-utility total-items-8 parent-items-0 single-items-0"><li class="menu-5026 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/" title="look at HHS Home">HHS Home</a></li>
+<li class="menu-66281 depth-1 fs-no-children"><a href="http://www.usa.gov/" title="look at USA.gov">USA.gov</a></li>
+<li class="menu-66316 depth-1 fs-no-children"><a href="https://oig.hhs.gov/" title="look at Office of the Inspector General">Office of the Inspector General</a></li>
+<li class="menu-66321 depth-1 fs-no-children"><a href="http://www.whitehouse.gov" title="look at The White House">The White House</a></li>
+<li class="menu-5046 depth-1 fs-no-children"><a href="http://www.hhs.gov/Accessibility.html" title="look at Accessibility">Accessibility</a></li>
+<li class="menu-66326 depth-1 fs-no-children"><a href="http://www.hhs.gov/about/budget/index.html" title="look at Budget/Performance">Budget/Performance</a></li>
+<li class="menu-2551 depth-1 fs-no-children"><a href="http://www.hhs.gov/Privacy.html" title="look at Privacy Policy">Privacy Policy</a></li>
+<li class="menu-197776 depth-1 fs-no-children  last"><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" title="Nondiscrimination Notice">Nondiscrimination Notice</a></li>
+</ul></li>
+<li class="menu-5051 depth-1 total-children-4 parent-children-0 single-children-4  last"><a href="http://www.hhs.gov/foia/" title="look at FOIA" class="fs-root-link">FOIA</a><ul class="footer_links_menu-footer-utility total-items-4 parent-items-0 single-items-0"><li class="menu-5056 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/open/recordsandreports/plainwritingact/index.html" title="look at Plain Writing Act">Plain Writing Act</a></li>
+<li class="menu-5061 depth-1 fs-no-children"><a href="http://www.hhs.gov/asa/eeo/no_fear_bullet_3.html" title="look at No Fear Act">No Fear Act</a></li>
+<li class="menu-5066 depth-1 fs-no-children"><a href="http://www.hhs.gov/Disclaimer.html" title="look at Disclaimers">Disclaimers</a></li>
+<li class="menu-2546 depth-1 fs-no-children  last"><a href="http://www.hhs.gov/plugins.html" title="look at Viewers &amp; Players">Viewers &amp; Players</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-5 " id="stability_cms-contact_us">
+                          
+                              <div id="block-stability-cms-contact-us" class="widget block block-stability-cms" >
+  
+      
+  <div class="contacts-widget widget widget__footer">
+	<div class="widget-content">
+		<ul class="contacts-info-list">
+      			<li>
+<!--				<i class="fa fa-map-marker">Address</i>-->
+                <div class="info-icons">
+                    <img  alt="map" class= 'map-icons' src="/sites/all/themes/stability/stability_aspe/images/map.png"/>
+                </div>
+                <div class="info-item">
+					Assistant Secretary for Planning and Evaluation, Room 415F<br />
+U.S. Department of Health and Human Services<br />
+200 Independence Avenue, SW<br />
+Washington, D.C. 20201				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-phone">phone</i>-->
+                <div class="info-icons">
+                    <img alt="phone" src="/sites/all/themes/stability/stability_aspe/images/phone.png"/>
+                </div>
+				<div class="info-item">
+					+1 202.690.7858				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-envelope">email</i>-->
+                <div class="info-icons">
+                    <img alt="mail" src="/sites/all/themes/stability/stability_aspe/images/mail-white.png"/>
+                </div>
+				<span class="info-item">
+					<a href="mailto:osaspeinfo@hhs.gov">osaspeinfo@hhs.gov</a>
+				</span>
+			</li>
+      			                					</ul>
+	</div>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-3 " id="footer">
+                          
+                              <div id="block-block-36" class="widget block block-block" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sign-up</span> for Email Updates</h3>
+		</div>
+    
+  <div class="email_updates">
+<button class="btn btn-default" name="subscribe-button" type="submit" value="subscribe">subscribe</button>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-12 " id="menu-menu-footer-language-menu">
+                          
+                              <div id="block-menu-menu-footer-language-menu" class="widget block block-menu" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Language</span> Assistance Available</h3>
+		</div>
+    
+  <ul class="menu"><li class="first expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#spanish" title="Español">Español</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#chinese" title="繁體中文">繁體中文</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#vietnamese" title="Tiếng Việt">Tiếng Việt</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#korean" title="한국어">한국어</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#tagalog" title="Tagalog">Tagalog</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#russian" title="Русский">Русский</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#arabic" title="العربية">العربية</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#creole" title="Kreyòl Ayisyen">Kreyòl Ayisyen</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#french" title="Français">Français</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#polish" title="Polski">Polski</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#portuguese" title="Português">Português</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#italian" title="Italiano">Italiano</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#german" title="Deutsch">Deutsch</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#japanese" title="日本語">日本語</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#farsi" title="فارسی">فارسی</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#english" title="English">English</a></li>
+</ul></li>
+</ul>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+      </div>
+
+          </div>
+    
+    
+      </footer>
+    
+
+    <!--/PAGEWATCH-->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+                        </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="social-links-wrapper">
+              <span class="social-links-txt">Connect with us</span>
+              <ul class="social-links social-links__dark">
+                                                  <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw-grey.png"/></a></li>
+                                <!--                --><!--                  <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin-grey.png"/></a></li>-->
+<!--                -->
+                                                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>  <script type="text/javascript" src="/sites/default/files/advagg_js/js__VWRymaMz6HfrhnrcJNGcDiSvLVrvhaXvBa7nrBYy8gc__jntPwP3D6myJZH1jW19fXrk5cYMHGRL8NQION22VSEA__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5486d15a696bff0c"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__g6mKbcakHxQkz4ZHYaxdO_xqONINvRMgsHh1zAK-fr0__ATHtEmHaeZ0jidpGU22EkhmPDBSgjD8z0bVDQMI-BIY__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__KUp4PrfOt9BSXUVl8Ctb3dhCMBe4MNVMeb4Gyorx8yY__7g4BeXscCIZAfuu1vxsCj2RIemg-eEK0QpChP9LDmFQ__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__PNjAgubM_3xXRLp4uLsYnv8wQAdT89-RYkSPxT6T45c__rFQwFK4pA5ZaWZSF7FPTfKbbpus0h-5IS8ayrNZGrb4__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__vQiLul2UcfC4nBAR09mhYVBYzRmiNDm2dj3GgSubV38__w84oZe-ZODKe7XnnlbrjV4IWHISOy4PioFEMVgx9hZo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__QJw3g0kOdwsv4twSZLP931zBzsHy50VEHpEN_znIitQ__A6QOuWXElDipBM2iChbWhjAAt3KlUwZ-jODoxdpbwiw__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stability_aspe","theme_token":"xV5pt8_B0KksDnKdmKYJzaTMaw_Em_QXf49Mu7buMME","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/footable.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/aspe_nodes.admin.css":1,"sites\/all\/modules\/custom\/aspe_views\/theme\/css\/aspe_views.admin.css":1,"sites\/all\/modules\/forked\/book\/book.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/openpublic\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.css":1,"profiles\/openpublic\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openpublic\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/openpublic\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/themes\/stability\/css\/bootstrap.min.css":1,"sites\/all\/themes\/stability\/css\/fonts\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.theme.css":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/stability\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/stability\/css\/theme.css":1,"sites\/all\/themes\/stability\/css\/theme-elements.css":1,"sites\/all\/themes\/stability\/css\/animate.min.css":1,"sites\/all\/themes\/stability\/css\/skins\/red.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/slideshow.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/font-main.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/styleless.less":1,"sites\/all\/themes\/stability\/css\/skins\/blue.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/aspe\/theme\/js\/aspe.login-confirm.js":1,"sites\/all\/modules\/custom\/aspe_report\/modules\/aspe_databooks\/js\/aspe_databooks.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.highcharts.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/datatables\/dataTables.min.js":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.min.js":1,"sites\/all\/libraries\/highcharts\/highcharts.js":1,"sites\/all\/libraries\/highcharts\/highcharts.exporting.js":1,"sites\/all\/libraries\/highcharts\/highcharts.map.js":1,"sites\/all\/libraries\/highcharts\/highcharts.us-all.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.footable.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5486d15a696bff0c":1,"misc\/progress.js":1,"profiles\/openpublic\/modules\/contrib\/webform\/js\/webform.js":1,"profiles\/openpublic\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/stability\/vendor\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/stability\/vendor\/bootstrap.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flexnav.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flickrfeed.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.sloppy-masonry.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.fitvids.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.stellar.min.js":1,"sites\/all\/themes\/stability\/vendor\/snap.svg-min.js":1,"sites\/all\/themes\/stability\/js\/custom.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/aspe.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/html5shiv.min.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/main-menu.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/keyboard-control.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tabBehavior.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tileStringTrimmer.js":1}},"webform":{"conditionals":{"webform-client-form-158521":{"ruleGroups":[],"sourceMap":[],"values":[]}}},"ajax":{"edit-webform-ajax-next-158521":{"callback":"webform_ajax_callback","wrapper":"webform-ajax-wrapper-158521","progress":{"message":"","type":"throbber"},"event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Next \u003E"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/basic-report\/effects-sample-attrition-estimates-channelings-impacts-early-sample":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"([a-z0-9]\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This website contains links to other federal and state agencies and private organizations. The Department of Health and Human Services (HHS) cannot attest to the accuracy of information provided by these nonfederal website links. Linking to nonfederal sites does not constitute an endorsement by HHS or any of its employees of the sponsors or the information and products presented on the sites. You will be subject to the destination site\u0027s privacy policy when you leave the ASPE website.\r\n\r\nThank you for visiting aspe.hhs.gov!","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"stability":{"flickr_id":"52617155@N08","logo_sticky":"28"},"field_group":{"div":"full","hidden":"full"}});
+//--><!]]>
+</script>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config={pubid:"ra-5486d15a696bff0c",ui_click:false}
+//--><!]]>
+</script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4837db659","applicationID":"10708002","transactionName":"MwNaZBRSXEtXB0BdWQpJeVMSWl1WGQpbUFM7FllXA2xEUVMT","queueTime":0,"applicationTime":4072,"atts":"H0RZElxIT0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

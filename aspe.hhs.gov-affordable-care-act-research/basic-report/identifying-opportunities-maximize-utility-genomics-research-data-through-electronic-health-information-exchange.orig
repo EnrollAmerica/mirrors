@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">  <!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://aspe.hhs.gov/sites/default/files/Favicon2.png" type="image/png" />
+<meta name="description" content="Identifying Opportunities To Maximize the Utility of Genomics Research Data Through Electronic Health Information ExchangeMeeting SummaryAndrew Dorfmann and Jessica Nadler10/15/2009The views expressed in this report are solely those of the authors and do not necessarily reflect the views of the Office of the Assistant Secretary for Planning and Evaluation or the U.S. Department of Health and Human Services." />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://aspe.hhs.gov/basic-report/identifying-opportunities-maximize-utility-genomics-research-data-through-electronic-health-information-exchange" />
+<link rel="shortlink" href="https://aspe.hhs.gov/node/70071" />
+<meta property="og:site_name" content="ASPE" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aspe.hhs.gov/basic-report/identifying-opportunities-maximize-utility-genomics-research-data-through-electronic-health-information-exchange" />
+<meta property="og:title" content="Identifying Opportunities to Maximize the Utility of Genomics Research Data Through Electronic Health Information Exchange" />
+<meta property="og:description" content="Identifying Opportunities To Maximize the Utility of Genomics Research Data Through Electronic Health Information ExchangeMeeting SummaryAndrew Dorfmann and Jessica Nadler10/15/2009The views expressed in this report are solely those of the authors and do not necessarily reflect the views of the Office of the Assistant Secretary for Planning and Evaluation or the U.S. Department of Health and Human Services." />
+<meta property="og:updated_time" content="2017-02-21T11:30:29-05:00" />
+<meta property="article:published_time" content="2015-11-23T03:06:51-05:00" />
+<meta property="article:modified_time" content="2017-02-21T11:30:29-05:00" />
+
+  <title>Identifying Opportunities to Maximize the Utility of Genomics Research Data Through Electronic Health Information Exchange | ASPE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+  <link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__5ln8neBOcJfyUveiD4y9fhI6kHBLOQ_YL0mMC-LS9a0__TPJIZT9UBnf_685NlFTJ5KnZVsjwFk6ACQ-nwwygmwU__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ng49uRH5y4Hl9VF9hHW_vXOj-mcOc2u2ShJqJ1YKIGU__FoMCD14GBvZaRiqSQ_JpP1w3rDB21n7H2Ar4pRZaIh8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__Hskudx14OJ5Hz8vqU7CUgN6SDV5rINZuEq9VuGsSeyc__EwNIl3xeFrniW2TmonovTzhSs3X5MdFps210puE7jog__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__9rZoaX9BdzjjNucvYxduxeNAVO2zgW_Rvjhb5rq5whc__lSr_y16grDSgHf4booPChnF7QXz3TQY3hafH49twE0k__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZgfI_ZPib5yVY0o5aKo_6TFn946Tuu_nFDa0ySTmkSc__2FTFrNw2eNh0mpHIOA34r6YRwBZMm2PjJ_JubnwLigg__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__dxabpJ5rQgDSixKgLJZjWc1beC6mpROKwVrmWxI5eno__rqhz_hGsE_i59O7-W991o71_Jxw1QOtGMxn4nsOLHY8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZbRCq2NqWgK-HXAQI3So0N1n0nr4HonsJS3eQuuxukw__7Olkk8Locn8Dj0eR0Ww3rbV9lks9sxipcboMXB18RRs__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+
+	<!-- Head Libs -->
+	<script src="/sites/all/themes/stability/stability_aspe/vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/sites/all/themes/stability/vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" href="/sites/all/themes/stability/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/stability/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/stability/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/stability/images/apple-touch-icon-144x144.png">
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-70071 node-type-basic-report">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-JLFR"
+                  height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JLFR');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-nav" class="accessibility_menu">
+    <strong>Shortcut Navigation:</strong>
+    <ul>
+      <li><a href="#content" accesskey="c" title="Skip to page content (ctrl/alt + c)">Page Content</a></li>
+      <li><a href="#nav" accesskey="m" title="Skip to main navigation menu (ctrl/alt + m)">Site Navigation</a></li>
+
+      <li><a href="#Footer" accesskey="f" title="Skip to footer (ctrl/alt + f)">Footer</a></li>
+    </ul>
+  </div>
+
+    
+<div class="site-wrapper">
+  
+  <header class="header header-menu-fullw header-top-clean">
+    <div id="brand-bar">
+        <div class="container">
+                    <img alt='bird' src="/sites/all/themes/stability/stability_aspe/images/bird.png"> <a target="blank" tabindex="4" href="http://www.hhs.gov/">U.S. Department of Health & Human Services</a>
+        </div>
+
+    </div>
+    <div class="header-main">
+        <div class="container clearfix">
+            <div class="social-links-wrapper">
+                <ul class="social-links social-links__light">
+                                                          <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw.png"/></a></li>
+                                    <!--                  --><!--                    <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin.png"/></a></li>-->
+<!--                  -->
+                                                                      </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                                <div class="site_name_wrapper">
+                                     <span class="h1">
+                                      <a href="/">ASPE</a>
+                                       </span>
+                                  <p class="tagline"><p>Office of The Assistant Secretary</p><p> for Planning and Evaluation</p></p>
+                    </div>
+            </div>
+            <!-- Logo / End -->
+            <div class="header_right_wrapper">
+                <div class="search-form">
+                    <form action="/basic-report/identifying-opportunities-maximize-utility-genomics-research-data-through-electronic-health-information-exchange" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class = "input-group"><div class="form-type-textfield form-item-search-block-form form-item form-group">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search Site..." class="form-control form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input class="btn btn-primary btn-icon form-submit" type="image" id="edit-submit" name="submit" value="Search" src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/search-white2.png" alt="Search" title="Search" /></div></div><input type="hidden" name="form_build_id" value="form-mkcsr8PbWVoLUx33pSxnUHApYAdcFwB0QCDA-gyDRvY" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </div>
+                <button type="button" class="navbar-toggle" value="Menu">
+                    <i class="fa fa-bars"></i>Menu
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-main">
+        <div class="container">
+          <ul data-breakpoint="767" class="flexnav">
+                <li class="first expanded"><a href="/basic-search/about" title="">About</a><ul><li class="first leaf"><a href="/mission" title="">Mission</a></li>
+<li class="leaf"><a href="/key-staff" title="">Leadership</a></li>
+<li class="leaf"><a href="https://www.usajobs.gov/" title="">Careers</a></li>
+<li class="expanded"><a href="/coordination" title="linkTo">Coordination</a><ul><li class="first leaf"><a href="/evaluation-evidence" title="">Evaluation &amp; Evidence</a></li>
+<li class="leaf"><a href="/national-alzheimers-project-act">National Alzheimer&#039;s Project Act</a></li>
+<li class="leaf"><a href="/health-and-human-services-hhs-data-council">HHS Data Council</a></li>
+<li class="last leaf"><a href="/national-committee-vital-and-health-statistics" title="National Council on Vital and Health Statistics">National Council on Vital and Health Statistics</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/divisions" title="">Offices</a><ul><li class="first leaf"><a href="/office-disability-aging-and-long-term-care-policy-daltcp">Disability, Aging, and Long-Term Care Policy</a></li>
+<li class="leaf"><a href="/office-health-policy-hp">Health Policy</a></li>
+<li class="leaf"><a href="/office-human-services-policy">Human Services Policy</a></li>
+<li class="last leaf"><a href="/office-science-and-data-policy">Science and Data Policy</a></li>
+</ul></li>
+<li class="leaf"><a href="/strategic-planning" title="Strategic Planning">Strategic Planning</a></li>
+<li class="last leaf"><a href="/contact-aspe" title="">Contact ASPE</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/topics" title="">Topics</a><ul><li class="first leaf"><a href="/affordable-care-act-research">Affordable Care Act Research</a></li>
+<li class="leaf"><a href="/alzheimers-dementia">Alzheimer&#039;s / Dementia</a></li>
+<li class="leaf"><a href="/early-childhood">Early Childhood</a></li>
+<li class="leaf"><a href="/incarceration-reentry">Incarceration &amp; Reentry</a></li>
+<li class="leaf"><a href="/opioid-abuse-us-and-hhs-actions-address-opioid-drug-related-overdoses-and-deaths" title="Opioids">Opioids</a></li>
+<li class="leaf"><a href="/patient-centered-outcomes-research-trust-fund">Patient-Centered Outcomes Research Trust Fund (PCORTF)</a></li>
+<li class="expanded"><a href="/basic-search/poverty" title="">Poverty</a><ul><li class="first leaf"><a href="/poverty-guidelines">Poverty Guidelines</a></li>
+<li class="last leaf"><a href="/poverty-estimates-trends-and-analysis">Poverty Analysis</a></li>
+</ul></li>
+<li class="leaf"><a href="/teen-pregnancy-prevention">Teen Pregnancy Prevention</a></li>
+<li class="leaf"><a href="/homelessness">Homelessness</a></li>
+<li class="last leaf"><a href="/medicare-access-and-chip-reauthorization-act-2015">MACRA</a></li>
+</ul></li>
+<li class="leaf"><a href="/reports" title="">Publications</a></li>
+<li class="last expanded"><a href="/basic-search/datasets" title="">Data and Tools</a><ul><li class="first last leaf"><a href="/evaluations" title="">Evaluation Database</a></li>
+</ul></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation / End -->
+</header>  <div class="main" role="main">
+    <!--PAGEWATCH CODE="USHHS_458"-->
+    <section class="page-heading">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+                <h1>
+                    
+          Identifying Opportunities to Maximize the Utility of Genomics Research Data Through Electronic Health Information Exchange        </h1>
+                                 <p class="author">
+                                                 <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2009-10-01T00:00:00-04:00">10/01/2009</span>               
+                           </p>
+
+
+                  </div>
+
+
+        <div class="col-md-6">
+           <ul class="breadcrumb"><li class="first"><a href="/" title="Home">Home</a></li>
+<li class="last">Identifying Opportunities to M...</li>
+</ul>        </div>
+
+
+    </div>
+  </div>
+</section>
+    
+      <div  class="nd-region nd-region-filter">
+  
+       
+
+    
+      <div  id="Filter" class="row">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region nd-region-similar-content">
+  
+       
+
+    
+      <div  id="Similar-Content" class="row">     
+
+        
+                  
+        
+                                    <div  id="top" class="">
+                          
+                              <div id="block-views-2100ccfdd214bdbcf634d7e4832c265b" class="widget block block-views solr-similar-content" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Similar</span> content</h3>
+		</div>
+    
+  <div class="view view-similar-content-solr view-id-similar_content_solr view-display-id-block_solr_similar_content view-dom-id-18579eda055cef82a76e997f16efa07a">
+        
+  
+  
+      
+    
+    <span class="field-content"><a href="/execsum/personalized-health-care-initiative-workshop-understanding-needs-consumers-use-genome-based-health-information-services-executive-summary">Personalized Health Care Initiative Workshop: &quot;Understanding the Needs of Consumers in the Use of Genome-based Health Information Services&quot; -  Executive Summary</a></span>    
+    <span class="field-content"><a href="/joyce-mitchell-presentation-ncvhs-joint-hearing-national-healthinformation-infrastructure">Joyce Mitchell presentation for NCVHS Joint Hearing on National HealthInformation Infrastructure</a></span>    
+    <span class="field-content"><a href="/agency-websites">Agency Websites</a></span>    
+    <span class="field-content"><a href="/basic-report/developing-framework-guide-genomic-data-sharing-and-reciprocal-benefits-developing-countries-and-indigenous-peoples-colloquium">Developing a Framework to Guide Genomic Data Sharing and Reciprocal Benefits to Developing Countries and Indigenous Peoples:  A Colloquium</a></span>    
+    <span class="field-content"><a href="/adrd-summit-2016-report-national-advisory-neurological-disorders-and-stroke-council">ADRD Summit 2016 Report to the National Advisory Neurological Disorders and Stroke Council</a></span>  
+  
+  
+  
+  
+  
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Content">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  class="col-md-12 " id="content">
+                          
+                              <div id="block-aspe-aspe-addthis" class="widget block block-aspe" >
+  
+      
+  <div class="clearfix">
+  <ul class="addthis_sharing_toolbox node-share__links" data-url="https://aspe.hhs.gov/basic-report/identifying-opportunities-maximize-utility-genomics-research-data-through-electronic-health-information-exchange" data-title="Identifying Opportunities to Maximize the Utility of Genomics Research Data Through Electronic Health Information Exchange">
+    <li><a class="addthis_button_print"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/print-white.png" alt="print" /></a></li>
+    <li><a class="addthis_button_email"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/mail-white.png" alt="email" /></a></li>
+    <li><a class="addthis_button_twitter"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/tw.png" alt="twitter" /></a></li>
+<!--    <li><a class="addthis_button_facebook">--><!--</a></li>-->
+    <li><a class="addthis_button_compact"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/plus-white.png" alt="compact" /></a></li>
+  </ul>
+</div>
+
+  </div> <!-- /.block -->
+
+                
+    
+  
+  <div class="content clearfix node-basic-report">
+    <!-- ASPE Report banner. --><!-- ASPE Banner for Reports --><p><a id="top" name="top"></a></p>
+<p></p><center>
+<div>
+<h1>Identifying Opportunities To Maximize the Utility of Genomics Research Data Through Electronic Health Information Exchange</h1>
+<p>Meeting Summary</p>
+<p><strong>Andrew Dorfmann and Jessica Nadler</strong></p>
+<p><strong>10/15/2009</strong></p>
+</div>
+<p>The views expressed in this report are solely those of the authors and do not necessarily reflect the views of the Office of the Assistant Secretary for Planning and Evaluation or the U.S. Department of Health and Human Services.</p>
+<p>This report presents a summary of the presentations and discussions at the workshop held by the Office of the Assistant Secretary for Planning and Evaluation, the National Cancer Institute, the Food and Drug Administration and the Office of the National Coordination for Health Information Technology on October 15, 2009. The report presents the views and opinions of the workshop participants and does not necessarily represent the views, positions, and policies of the Department of Health and Human Services or its agencies.</p>
+<p><em>This report is available on the Internet at:</em><a href="http://aspe.hhs.gov/sp/reports/2009/clingenworkshop/index.shtml">http://aspe.hhs.gov/sp/reports/2009/clingenworkshop/index.shtml</a></p>
+<p><a href="/system/files/pdf/75941/report.pdf">Printer friendly version in PDF format</a> (21 pages) [<a href="http://get.adobe.com/reader/">Free PDF reader</a> <a href="/_/includes/exit.shtml"><img alt="exit disclaimer" src="/_/includes/exit_disclaimer.jpg" title="exit disclaimer" /></a>]</p>
+<p></p></center><br /><hr /><p> </p>
+<h2>ABSTRACT</h2>
+<p>This report presents a summary of the presentations and discussions at the workshop held by the Office of the Assistan Secretary for Planning and Evaluation, the National Cancer Institute, the Food and Drug Administration and the Office of the National Coordination for Health Information Technology on October 15, 2009. Topics include Clinical Genomics and Standards Development, Information Technology Infrastructure to Support Genomics Research, Genomic Experiment Platforms and Mutation Test Registry, Statistical/Biological Analyses and Clinical Trials, Biospecimens, and Applications in Clinical Genomics Databases. The report includes a summary of common themes and a suggestion of next steps.</p>
+<p>Material contained in this publication is in the public domain and may be reproduced, fully or partially, without permission of the Federal Government. The courtesy of attribution is requested. The recommended citation follows:</p>
+<p>Office of Science and Data Policy, ASPE(2009) <a href="http://aspe.hhs.gov/sp/reports/2009/clingenworkshop/">Identifying Opportunities To Maximize the Utility of Genomics Research Data Through Electronic Health Information Exchange</a> Washington, DC: U.S. Department of Health and Human Services, Office of the Assistant Secretary for Planning and Evaluation.</p>
+<ul></ul><hr /><p><a id="skipnav" name="skipnav"></a><a href="#_Toc247362764"><sub>Skip contents</sub></a></p>
+<h2><a id="_Toc247362763" name="_Toc247362763">Table of Contents</a></h2>
+<p><a href="#_Toc247362764">Executive Summary.</a></p>
+<p><a href="#_Toc247362765">Background.</a></p>
+<p><a href="#_Toc247362766">Summaries of Keynotes, Panel Presentations and Discussion.</a></p>
+<p><a href="#_Toc247362767">Keynotes:  Jesse Goodman, Daniel Masys, John Halamka, Elizabeth Trachtenberg.</a></p>
+<p><a href="#_Toc247362768">Panel 1:  Clinical Genomics and Standards Development.</a></p>
+<p><a href="#_Toc247362769">Panel 2:  Information Technology Infrastructure to Support Genomics Research.</a></p>
+<p><a href="#_Toc247362770">Panel 3:  Genomic Experiment Platforms and Mutation Test Registry.</a></p>
+<p><a href="#_Toc247362771">Panel 4:  Statistical/Biological Analyses and Clinical Trials.</a></p>
+<p><a href="#_Toc247362772">Panel 5:  Biospecimens.</a></p>
+<p><a href="#_Toc247362773">Panel 6:  Applications in Clinical Genomics Databases Today and Tomorrow.</a></p>
+<p><a href="#_Toc247362774">Summarizing the Workshop.</a></p>
+<h2><a id="_Toc247362764" name="_Toc247362764">Executive Summary</a></h2>
+<p>Health care has become a knowledge industry and, importantly, a growing sector of a knowledge economy.  The basis of the healthcare knowledge industry is the increasing use of molecular, genetic and genomic information to tailor preventive strategies and better characterize and treat disease.  It is therefore critical to maximize the ability to develop and deliver this knowledge for utilization in health care. </p>
+<p>The discovery, interpretation and development of new information through clinical research, and delivery of improved information and knowledge through clinical decision support are interdependent, and must be connected to facilitate a rapid learning health care system linking new knowledge with knowledge delivery to the system.  In a learning health care system, clinical information would be used to assess current standards of care and to generate hypotheses for basic and clinical research.  In turn, new knowledge from clinical research would be delivered to health care providers through electronic systems, such as the electronic health record, to facilitate clinical decisions based on cutting edge information with the aid of electronic tools.  Currently, data for clinical research and clinical care records are relatively separate due to historical and cultural aspects of these endeavors which resulted in independent and disconnected systems.  The inability to use information for both purposes is a significant barrier to the development of new knowledge and its implementation in health care delivery.  Incorporation of common data standards, architecture, platforms and networks for both clinical research and clinical care, with appropriate methods for maintaining information integrity, security and quality control can overcome this barrier. While the integration of information from both clinical care and clinical research is critical to advance the knowledge base for health care, it is not without potential risks.  Clinical information from individual patients must be kept secure to maintain information integrity, ensure the privacy of the individual and respect their wishes about access and use of their data.  These aspects of privacy and security can and must be built in to the standards, architecture, platforms, networks and governance associated with the use of personal health information.  Furthermore, the results of clinical research should not be integrated into health care delivery before data is adequately replicated, reviewed and clinical relevance and utility understood.   Experimental protocols cannot be carried out in the health care system without the express and informed consent of the patient.  As with clinical care information, the standards and architecture of clinical research systems can and do support the appropriate consenting of research participants.  Moreover, when the knowledge generated by clinical research is ready for implementation in clinical care, common information systems and networks can rapidly provide that information to clinicians in useful ways through clinical decision support tools.</p>
+<p>Clinical genomics is a paradigm for an information intensive area that leverages the ability to integrate a rapidly evolving knowledge base into clinical care as well as the ability to provide investigators with clinical and outcomes information for research.  As a relatively new discipline, it is an ideal area for harmonizing information standards supporting clinical care and underlying clinical research.  As new as clinical genomics may seem to some, the application of genetic, genomic and molecular information in clinical care is occurring now, making this the ideal time to address these issues.  Furthermore, sophisticated algorithms (informatics) may be the only practical way to integrate data intensive clinical genomic information in order for it to be interpretable and clinically relevant.  The development and usefulness of these informatics tools will require standardized data and information flow.  In many cases there are existing standards and architectures that can support clinical genomics that will need to be implemented by the community.  In some key areas, such as biospecimens, standards development needs to occur.</p>
+<p>Ultimately, the goal of maximizing the utility of genomics research data through electronic information exchange is not the data itself, but the potential value of accelerating improvements in health care.  In clinical medicine and clinical research important questions become apparent from well-organized, queriable, transparent data, accessible to knowledgeable scientists, clinicians, experts.  In addition, emerging clinical guidelines can be readily communicated, in an actionable format, during clinical workflow, thus providing the opportunity to narrow the current time lag for clinical adoption of new guidelines.  A system facilitating visibility, translation and transportability will more rapidly give rise to clinically relevant research based on real life data as well as better-informed application and implementation of new discoveries and emerging clinical guidelines. </p>
+<h2><a id="_Toc247362765" name="_Toc247362765">Background</a></h2>
+<p>Genomics research is one of the most promising, fastest moving and extensive areas in biomedicine today. Substantial resources have been dedicated to genomics throughout the health agencies of the U.S. Department of Health and Human Services (HHS), in other departments of the Federal Government, through federally supported efforts in academia, and in privately supported research, including the pharmaceutical and biotechnology sectors. These investments reflect both the opportunity surrounding a new realm of biological knowledge and the expectation of high potential returns for improved effectiveness in health care and health outcomes.  This expenditure has resulted in the production of a vast amount of data, previously unseen in most areas of clinical research, contributing to the evolving and dynamic health care knowledge industry. </p>
+<p>Genomics includes broad domains of research; genome-wide association studies, population genomics, whole genome expression, protein and metabolism studies, companion diagnostic and   pharmacogenomic applications. Genomic information is already being applied across a spectrum of public health and health care delivery activities. With such variety, it is not surprising that different research approaches and different data-reporting methodologies have arisen. What is less apparent are the opportunities that may be missed when data developed under different protocols or for different purposes are not captured in ways that could make the information useful for broad application across the health care enterprise—in research, in medical product development, evaluation and review, and ultimately in clinical care delivery.</p>
+<p>The timing and potential for integrating genomic data exchange with the adoption of electronic data technologies is especially significant. In part, this is because both areas have simultaneously been enabled as a result of the decrease in the cost of computing power and data storage in the past decade.  The importance of data exchange for genomic research also stems from the large amount of information needed to discover and validate genomic findings and applications. In the longer term, information technology will be crucial in the delivery of genomic-supported medical care.</p>
+<p>A key prerequisite for all these purposes is data standards harmonization adequate to support electronic exchange and analysis of genomics information.  Although standards must allow for growth and change in the field, harmonization of terminologies and standards for minimal data input are essential for optimizing and leveraging this information rich resource. With these purposes in mind, HHS sponsored the stakeholder workshop “Identifying Opportunities To Maximize the Utility of Genomics Research Data Through Electronic Health Information Exchange.”  The workshop brought together leaders in government, academic, biotechnology, pharmaceutical, health information technology, and clinician communities to consider near-term opportunities for strengthening the foundation of clinical genomics and to identify areas for standards harmonization. Participants reviewed current processes of genomics research and standards in use, assessed the readiness and completeness of existing standards, identified gaps and barriers, and worked toward a consensus pathway for harmonization of existing standards, as well as a plan for coherent development of future standards.</p>
+<p>In particular, the workshop examined activities and needs in the clinical research area, especially the need for data standards adequate to capture important elements in the workflows of genomic research. In identifying opportunities, the workshop focused not on uniformity in research approaches or analytical methods, but rather the ability to adequately capture, transmit and translate information about processes in a standardized manner. The workshop participants discussed consensus regarding a pathway for implementation of existing standards and technologies along with harmonization efforts that could be achieved within approximately a 3-year timeframe.</p>
+<p>Clinical genomics is believed to have high potential for improving precision, effectiveness and outcomes in health care, as part of a movement toward more individualized, evidence-based or “personalized” health care tools and therapies. The role of data exchange is especially significant for clinical genomics, both as an important element of research and its potential for more rapidly integrating genomic knowledge and clinical information for better informed treatment decision making. This HHS stakeholder workshop was a step toward recognizing and consolidating early efforts, working together toward harmonization of data recording and exchange in the clinical research setting, and building toward the longer term goals of improved patient care through the use of genomic information.</p>
+<h2><a id="_Toc247362766" name="_Toc247362766">Summaries of Keynotes, Panel Presentations and Discussion</a></h2>
+<h3><a id="_Toc247362767" name="_Toc247362767">Keynotes:</a>  Jesse Goodman, Daniel Masys, John Halamka, Elizabeth Trachtenberg</h3>
+<h3>Jesse Goodman, MD, MPH, Chief Scientist and Acting Deputy Commissioner for Scientific and Medical Programs at the<br /><place w:st="on"><country-region w:st="on">U.S.</country-region> Food and Drug Administration (FDA)</place></h3>
+<p><strong>Dr. Goodman</strong> opened the meeting by emphasizing the unique opportunity the scientific and medical community currently has to revolutionize the way health care is delivered by applying basic science discovery to clinical care intervention.  The key to this paradigm shift is integration of genetics in medical practice through connections between biological and clinical information with genomic data. <strong>Goodman </strong>stated that we have the opportunity to “transform how we develop products and how we use medicines…  genomic and more broadly systems biology information will help us do that.”  He went on to highlight two domains of clinical genomics information that are critical to the FDA mission:  safety and product development. </p>
+<p>In the safety domain, <strong>Goodman</strong> discussed the presence of polymorphisms in the population that can indicate the response to specific clinical interventions and the subsequent ‘personalization’ of using these interventions for appropriate patients.  Enabling this level of understanding in the safety domain requires the development of an evidence base from clinical and genomic information currently available. </p>
+<p>In product development, <strong>Goodman</strong> commented on the flood of genomic data generated in clinical trials and the need to be able to analyze it efficiently.  Advances in genomic technology have provided vast amounts of data that cannot reasonably be managed without computational tools.  For FDA reviewers to incorporate this data effectively into their work, they need to have access to both the tools and data in a format that can be analyzed.  This necessitates the need for data standards for clinical genomic information. </p>
+<p><strong>Goodman</strong> noted that standards development organizations need to consider the end user of the information in order to produce useful standards.  Over-proliferation of data standards can defeat the purpose of being able to exchange and analyze data effectively.  Finally, particularly for the rapidly developing area of clinical genomics, data standards need to be adaptable over time.  He ended with an appeal to the standards development community to aid those analyzing clinical genomics data in tapping the vast amount of information available to apply it to the complex chronic diseases that currently burden our health care system.</p>
+<h3>Daniel Masys, MD, Professor and Chair of the Department of Biomedical Informatics and Professor of Medicine at the Vanderbilt University School of Medicine</h3>
+<p><strong>Dr. Masys</strong> described the Electronic Medical Records and Genomics (eMERGE) Network which ties phenotypic data extracted from electronic health records (EHR) with genotype information across five different clinical areas from five medical centers.  The integration of data across these centers had both scientific and technological challenges.  Scientifically, it was necessary to determine if patient populations at different centers were sufficiently similar to draw significant biological conclusions.  Technically, data exchange standards were necessary for the sharing of genotypic and phenotypic data.  <strong>Masys </strong>emphasized that this project is an <em>immediate</em> consumer of standards for this type of information. </p>
+<p>eMERGE highlighted several issues in data management, including the ability to represent change in clinical features over time, the handling of uncertainty in clinical data, integration of other types of data, such as billing data, and the potential for re-identification of individuals from this information.  The network has been active in working on these issues, and while they are not yet resolved, the process has been instructive about standards development.</p>
+<p>A major challenge for eMERGE is the consistent and specific definition of disease phenotype.  Structured data, in its current state, is not sufficient to define a phenotype for use with genomic data.  For example, billing codes are often not clinically specific and can be applied variably to increase reimbursement, leading to false negatives and false positives in the data.  Natural language processing (NLP) has been critical for the identification of specific clinical phenotypes in EHR records.  The implementation of NLP is a difficult process, but the computer selection logic (pseudocode) can be implemented at various sites with unique systems.</p>
+<p><strong>Masys</strong> also discussed the introduction of genomic and proteomic data as an exemplar for complexity in medicine.  He emphasized that the human cognitive capacity is exceeded by the thousands of parameters introduced into clinical decision making by genomic information.  He argued that computer aided clinical decision support will become necessary to use this information practically in a clinical setting.  He further pointed out that the current way this information is reported by laboratories performing genetic and genomic assays is functional for a single clinical decision at one point in time, but potentially important information for the future may be lost.  To resolve this issue for the eMERGE network standards have been implemented.</p>
+<p>The most utilized standards are information exchange standards, such as TCP/IP internet protocol suite and Health Level 7.  Knowledge representation standards are less widely used and adopted.  International Statistical Classification of Diseases and Related Health Problems (ICD9) and Systematized Nomenclature of Medicine (SNOMED) are two of the most well known representation standards.  These are typically designed by the government to standardize some aspect of health care delivery.  In <strong>Masys’ </strong>experience, the common and usable standards always persist over the theoretically accurate, but difficult to implement. A current case is HL7 V2.x versus V3.  V3 is more powerful, but too complicated to understand and use.  As with systems, <strong>Masys </strong>paraphrased Dr. Donald Lindberg, Director of the National Library of Medicine, saying that “standards that get used, get better”.  They do not need to be perfect at their inception, they need to be sufficient to perform, published and used.</p>
+<h3>John Halamka, MD, MS, Chief Information Officer of<br /><placename w:st="on"> Beth<br /><placename w:st="on"> Israel<br /><placename w:st="on"> Deaconess<br /><placename w:st="on"> Medical<br /><placetype w:st="on"> Center, Chief Information Officer of<br /><place w:st="on"><placename w:st="on"> Harvard<br /><placename w:st="on"> Medical<br /><placetype w:st="on"> School</placetype></placename></placename></place></placetype></placename></placename></placename></placename></h3>
+<p><strong>Dr. Halamka</strong> described impact of the American Recovery and Reinvestment Act on health information technology (HIT) and its standards.  He noted that 400 of its 1000 pages were devoted to the Health Information Technology for Economic and Clinical Health Act (HITECH).  These priorities are as follows:</p>
+<ol><li>Privacy is foundational  Patients and consumers need trust the systems implemented to handle their health and genomic information or they will not be willing to share their data.  In order to maximize the utility of data collected during the course of clinical care, data must be contributed by patients and consumers.  In <strong>Halamka’s</strong> experience, the vast majority of people, if they have confidence in the information systems, will consent to the use of their data.</li>
+<li>Health information must enabled for both use and exchange Physicians will capture phenotypic and genotypic information using EHR systems and be able to exchange it for the purposes of clinical care and research.  This exchange is enabled by standards and data architecture for health information.  The National Health Information Network (NHIN), which will be a system of standards, policies and architecture, combined with great governance, will provide a secure environment for the exchange of this data between providers, payors and patients.  <strong>Halamka </strong>emphasized that the National Coordination for HIT, David Blumenthal, has indicated the NHIN will be consumer-centric and present an avenue for the setting of preferences for data sharing by the patient.</li>
+<li>Certified EHR for each person Every clinician, by 2014, will have a system that can capture information for each patient.</li>
+<li>Accounting of disclosures HITECH requires the ability to provide full disclosure of who has viewed a health record to the patient.  This will facilitate the privacy and security of health information by recording if the information has been viewed by unauthorized entities.</li>
+<li>Improve the quality of the data Data will be captured in a structured format to enable use and exchange beyond what would be possible if records are merely an electronic version of their paper incarnations, such as a PDF file.</li>
+<li>Encryption of the data for exchange Rendering the data unusable or indecipherable when moving it from place to place to ensure that data can only be viewed by authorized users.</li>
+<li>Comprehensive collection of patient demographic data EHR systems will need to capture race, ethnicity, primary language and level of education.</li>
+<li>Address the needs of the vulnerable HITECH emphasizes the use of HIT to reduce health disparities and to protect the needs of vulnerable populations, such as children and the elderly.</li>
+</ol><p><strong>Halamka</strong> outlined the work by the Health Information Technology Policy Committee requires EHR systems to be capable of electronic reporting of full lab results, including genomic testing results, by 2011.  In addition, e-prescribing, medication lists, reporting of quality measures, immunization records and administrative transactions will also be required.  The HIT Standards Committee informs the Policy Committee about what standards are implementable for these data exchanges.  There is a mechanism by which the Standards Committee can learn from the HIT community which standards have been implemented successfully.  Standards are available or under development for these functions and can be found at the Health Information Technology Standards Panel (HITSP) website.  Work is ongoing by groups, such as CDISC and HL7, to fill gaps in the existing standards to connect phenotypic and genotypic information.</p>
+<p><strong>Halamka </strong>also talked about his experience as a participant in the Personal Genome Project, which makes public his phenotypic and genotypic information on Google.  The analysis of his genome uncovered an increased risk for glaucoma, for which he had never exhibited symptoms.  As a result, he had his inter-ocular pressure measured, discovered it was high and sought treatment to lower it.  On further discussion with his family, <strong>Halamka</strong> learned that both his father and grandfather experienced vision issues at early ages.  He related that the knowledge of his genotype and family history has allowed him to have a better understanding of his health.  This is an example of the promise of clinical genomics to support disease prevention in addition to treatment.</p>
+<h3>Elizabeth Trachtenberg, PhD, MS, Director of the Center for Applied Genomics, Children’s Hospital &amp; Research Center Oakland</h3>
+<p><strong>Dr. Trachtenberg</strong> described her work with human leukocyte antigens (HLA) and the transplant research and care community that uses this information.   HLA are highly polymorphic loci that are difficult to genotype unambiguously due to their high level of sequence similarity; to date over 4000 variants have been identified.  HLA genotype is critical for matching transplant donors and recipients for successful transplant outcomes.  This community, therefore, had to come together to develop and implement standards to allow the international exchange of information for both research and donor matching.  <strong>Trachtenberg </strong>described the groups and consortia working with HLA informatics, which has over 40 years of cooperative data.  This rich database includes multiple types of information, including cellular, genetic and reagent information, outcomes analysis, population analyses, meeting proceedings and research results.  Other resources include the American Society of Histocompatbility and Immunogenetics which provide good models for developing data standards and accreditation bodies, proficiency testing and nomenclatures.</p>
+<p><strong>Trachtenberg </strong>discussed the scientific challenges of her work and the opportunities presented by new sequencing technologies.  These new technologies, however, will create more issues with nomenclature for these loci.  She concluded by emphasizing the need for better data consistency, consistent application of analytical methods and better data portability, all of which require consistent and agreed upon standards.</p>
+<h3>Keynote Discussion</h3>
+<p>Questions about both data curation and public availability of data were addressed to Dr. Trachtenberg.  There was a general discussion of the need for patient involvement in the exchange of information.  Finally, it was pointed out that “data is not medicine.” Therefore, it is important that the evidence base is developed with regard to genetic and genomic information in the context of health care delivery.  When discussing this type of information with patients, there is a danger of overemphasizing the clinical value of the information when the medical and biological significance is not yet clear.</p>
+<h3><a id="_Toc247362768" name="_Toc247362768">Panel 1:  Clinical Genomics and Standards Development</a></h3>
+<p><strong>Rebecca Kush</strong> (CDISC) addressed the questions of ‘what are standards, what do they mean and who needs them?’  She gave the example of the universal serial bus (USB) drive as a common standard that does not restrict the data they contain or inhibit creativity in their contents, rather they make moving the data/information far more efficient. <br /><place w:st="on"><strong>Kush</strong><strong> </strong>described standards in use today that pertain to clinical genomics information, such as the lab data standards, the FDA data eSubmission standards, the CDISC Clinical Data Acquisition Standards Harmonization (CDASH) standard for data collection in research studies, and the Biomedical Research Integrated Domain Group (BRIDG) model.  <br /><place w:st="on"><strong>Kush</strong><strong> </strong>emphasized the need to align clinical research with the rest of clinical care.  This can be accomplished through the development of common platforms and standards that can be used by both communities as evidenced through the joint CDISC-HL7 (Health Level 7) effort to develop such standards within the HL7 Clinical Genomics Workgroup. She also discussed the HITSP Clinical Research Interoperability Specification, which defines standards for the exchange of a core dataset from EHR systems into clinical research systems.  This serves as a foundation for the exchange of more information types between these two systems, such as genomic data.</place></place></p>
+<p>
+<place w:st="on"><strong>Kush</strong><strong> </strong>called for standards development organizations (SDOs) to work together on standards development and emphasized the need to align and harmonize standards among groups using common terminologies for content.  She stated that there are genomic standards being developed and they need to be harmonized and implemented by the community.</place></p>
+<p><strong>Philip Pochon </strong>(Covance) reiterated that data structure is foundational, but argued that the efficiencies are gained through the implementation of the semantic structures for communicating common information.  He also spoke about HL7 V3 standards, which are more elegant then necessary, while HL7 V2 is in wide use.</p>
+<p><strong>Pochon </strong>then<strong> </strong>focused on genomic information, which can be stratified into levels of interpretation or analysis into raw data, significant findings and clinical interpretation of variation.  There are standards for the encapsulation and exchange of raw data.  The strength of this data is the ability to use a wide variety of analytical tools.   Significant findings include genetic and genomic variations, including mutations, polymorphisms and gene expression changes.  Finally, clinical interpretation of variation includes the biological consequences associated with a detected genetic or genomic variation.  Standards for these levels of interpretation include HL7 Clinical Genomics models, genetic variation common message element type (CMET), gene expression CMET and the CDISC Study Data Tabulation Model (SDTM) pharmacogenomics domains.  <strong>Pochon </strong>concluded that success is dependent not only on the availability of standards, but that Implementation guides are critical to their utilization.</p>
+<p><strong>Mollie</strong> <strong>Ullman-Cullere</strong> (Partners HealthCare Center for Personalized Genetic Medicine) began by outlining the requirements for the use of genomic data in a clinical setting.  She argued that the genetic/genomic data must be:</p>
+<ol type="a"><li>Structured in the EHR</li>
+<li>Available to clinical decision support (CDS)</li>
+<li>Integrated into data warehouses</li>
+<li>Supported by an intelligent interface engine</li>
+<li>Annotated with current clinical interpretations</li>
+</ol><p>HL7 and LOINC have collaborated to produce a standard for reporting fully qualified clinical genetic test results and their associated interpretation.  HITSP has recognized this standard as supporting the American Health Information Community (AHIC) Personalized Healthcare Use Case.  Partners HealthCare has integrated clinical genomics from their Laboratory for Molecular Medicine into its EHR, including associated CDS.  In addition, these data were also appropriately integrated into their institutional review board approved research patient data registry. This first implementation highlighted the need to better codify the data and to use more robust and consistent structure.  These lessons learned were incorporated into the current HITSP approved HL7/LOINC standards for clinical genomics.  <strong>Ullman-Cullere </strong>described the ability to exchange clinical genomic information, using HL7 V2 messaging, with the Intermountain Healthcare System in<br /><place w:st="on"><state w:st="on"> Utah.  This enables data sharing and care delivery as an integrated provider system with repositories, lab information systems and the Partners molecular genetics laboratory.</state></place></p>
+<p><strong>Ullman-Cullere </strong>described the clinical information workflow incorporating clinical genomic information, beginning with the ordering, performance and reporting of a genetic test.  Upon results reporting, identified variants and associated clinical interpretations are displayed to the clinician.  CDS and a genomic knowledgebase alert the clinician to additional or new information not in the report (e.g. association with an additional drug/disease or reclassification of the variant).  For example, over time we learn more about the clinical implications of variants of unknown significance.  This new information can be useful for patient care if it is integrated into the care delivery process.  This integration is only feasible with appropriate IT support. <strong>Ullman-Cullere </strong>emphasized that personalized medicine will require significant IT support due to the volume and complexity of information and the extent of data of unknown or changing clinical significance.  Standards for genomic data will be required for data exchange and clinical decision support since data will be coming from multiple sources.  There are data model extensions underway to cover the following aspects of this information integration, including the representation of large sets of DNA markers with no clinical interpretation, toxicogenomic results and interpretation, and support for complex genetic disease.</p>
+<p><strong>John Quackenbush</strong> (<br /><placename w:st="on"> Harvard<br /><placetype w:st="on"> University) opened the panel by describing the<br /><place w:st="on"><placetype w:st="on"> Tower of<br /><placename w:st="on"> Babel problem associated with data standards, referencing the adage that “the great thing about standards is that there are so many to choose from”.  He went on to describe his work with the Microarray Gene Expression Data Society (MGED), which began in response to the Genome project.  They found that expression data was not useful without metadata.  MGED developed a “standard” for genomic data, but did not develop an implementation, which merely made the data larger and more cumbersome. So they revisited their work and made the standard useful with more common tools.</placename></placetype></place></placetype></placename></p>
+<p><strong>Quackenbush</strong><br />summarized the lessons learned from MGED.  First, to develop a good standard, you need to demonstrate its utility.<strong>  </strong>Second, he echoed the sentiment that standards will be imperfect at the outset and need to be designed to enable evolution.   Third, he reiterated the need to be able to mine unstructured data.  He concluded with the forecast that direct to consumer genomics is on the horizon and will generate vast amounts of data. Standards and architecture need to be able to handle it.</p>
+<p><strong>Martin Will</strong> (Microsoft) discussed the need to shorten the lifecycle of knowledge from discovery to clinical practice.  He described the BioIT Alliance as a community committed to facilitating this through the use of information technology.</p>
+<p><strong>Frances Schrotter</strong> (ANSI) described the HITSP process to develop interoperability specifications that select standards for specific functions of an information exchange.  She also reiterated that HITSP work products feed directly into the HIT Standards Committee in its role under HITECH.</p>
+<p><strong>Betsy Humphreys</strong> (NLM/IHTSDO) emphasized the necessity that standards for healthcare and research data converge.  She argued that the end-data consumer need not be aware of standards embedded in tools that they use regularly to do their work; standards can be implemented into programs “under the hood.”   <strong>Humphreys </strong>strongly advised against more standards, since there are many extant standards that can be improved through use and refinement.  She further advocated for data standardization upon collection of raw data.  Data itself must be structured for maximal utility, not just interpretation of the data’s meaning.  <strong>Humphreys </strong>discussed several key terminology standards for clinical genomics, including SNOMED, Logical Observation Identifiers Names and Codes (LOINC), RxNorm, the newborn screening coding and terminology guide, the National Center for Biotechnology Information Reference Sequence Gene, the ClinicalTrials.gov and PhenX (phenotypes and exposures) and DBGaP (genotypes and phenotypes) databases.</p>
+<p><strong>Mike Glickman</strong> (International Standards Organization) described ISO, an organization founded ten years ago, involving 40 countries.  The experience with ISO indicated the need to harmonize work early in standards development, rather than after standards have been published and implemented.  <strong>Glickman </strong>advocated for open, usable, consensus based standards.  He also mentioned that the BRIDG model is currently going through the process of becoming a harmonized standard through the Joint Initiative Council (HL7, CEN, ISO, CDISC, IHTSDO), which is devoted to global harmonization of standards.</p>
+<h3>Panel 1 Discussion</h3>
+<p><strong>Susan Shurin</strong> asked the panel about the information and standards needs of long-term projects like the National Children’s Study.  This project will be collecting data for a quarter of a century, and will need to be able to reanalyze data in the future for questions that may not have been foreseen at the outset. <strong>Shurin</strong> wondered how to align this type of study design with the future of standards activities.  The panelists agreed that information integration is a major problem in large scale projects.  Unfortunately, funding mechanisms are heavily skewed towards data generation and often do not include sufficient resources for standards development and data architecture. Currently, standards and tools are an intellectual exercise undertaken as a public service.   Another suggestion was the use of open and available standards and software to have a better chance at having longevity in the standards.  It was reiterated that groups should refrain from generating new standards, instead working to extend those being implemented.</p>
+<p>The panel also discussed the need for genetic data to be available throughout the lifespan of the individual and may be reinterpreted multiple times throughout that lifespan.  Indeed, one challenge is that research is about ten years ahead of standards development.</p>
+<p>A question was asked about some of the standards that have grown out of the MGED work, specifically Minimum Information for Biological and Biomedical Investigations (MIBBI) and Minimum information about a microarray experiment (MIAME).  <strong>Quackenbush </strong>described these as an effort to collect all the standards together and gather up the core data for various kinds of genetic analysis (fluorescence <em>in situ</em> hybridization (FISH), metabolomics, rtPCR, etc). The effort is focused on the metadata for these experiments and is still under development.</p>
+<h3><a id="_Toc247362769" name="_Toc247362769">Panel 2:  Information Technology Infrastructure to Support Genomics Research</a></h3>
+<p><strong>Jeffrey Elton</strong> (KEW Group LLC) began the panel by discussing how genetics is utilized in both clinical care and clinical research.  He predicted that molecular diagnosis will be the new basis for diagnosis and treatment of many diseases and that the distinction between data for clinical decisions and data for clinical research will continue to blur.  With that future in mind, it is imperative that standards are sufficiently flexible to accommodate new technology and methodology.   Increasingly, clinical decisions are being driven on the basis of genetic information; lung cancer is a primary example.  A genetic test for the epidermal growth factor receptor (EGFR) can predict who will respond to specific chemotherapeutics (Iressa or Tarceva).  Over time these patient stratifications will become more refined as we gain knowledge about the molecular nature of disease.</p>
+<p><strong>Elton</strong> also forecast that with the decreasing cost of genome sequencing for patients, the bottleneck in clinical research will become storing, mining, analysis and interpretation of these data.   Discovery will become an information management problem, not a DNA sequencing problem.  This is particularly true for the delivery of clinical care and presentation of clinically actionable information to care providers</p>
+<p><strong>Robert Plenge</strong> (Harvard/BWH) outlined the need to efficiently collect enough DNA and detailed clinical data that can be used for clinical studies.  To do these studies using data collected during the course of clinical care requires the ability to glean data from electronic medical records.  He described a project using the Partners HealthCare EHR system to identify rheumatoid arthritis (RA) patients from a 4 million patient population, 31,000 of which received an ICD-9 code for RA.  The definition of RA as a phenotype needed to be specific enough to enable genome-wide association studies. </p>
+<p>At Partners, the EHR and clinical research systems were separate, so the group initiated Informatics for Integration Biology and the Bedside (I2B2) with National Institutes of Health funding, to develop and distribute open source software that would integrate these two data sources.  The RA study collected discarded blood samples from RA identified patients to extract DNA and connect to clinical information about the phenotype of these patients.</p>
+<p><strong>Martin Will</strong> (Microsoft)discussed how to bring genomics and the IT worlds together in a meaningful way.  He asserted that data should be independent of the physical manner in which it is stored.  Furthermore, data itself has no purpose, it is only useful as information.  So the use of the data should drive how it is handled and stored from the outset.</p>
+<p><strong>Ken Buetow</strong> (National Cancer Institute) stated that genomics is a component of a complex information ecosystem that encompasses many types of data, including data for clinical research, clinical pathology and imaging.  Data is produced in multiple sites and requires integration for its utilization.  <strong>Buetow </strong>said that many different communities generate data about disease (phenotypic information) and the challenge is connect all these domains of data.  This requires semantic and syntactic interoperability.  Semantic interoperability allows systems to understand the data exchanged via shared data models depending on standard vocabularies and common data elements.  Syntactic interoperability allows systems to exchange data through shared interfaces.   </p>
+<p><strong>Buetow </strong>echoed the sentiment of previous speakers when he exhorted users not to proliferate more standards.  He suggested they work with standards currently being implemented and extend them; he commented that they use HL7 and CDISC standards and contribute to these development processes.  He also described the Cancer Bioinformatics Grid (caBIG) platform which has developed standards-based open source tools to enable clinical research methodologies, such as adaptive clinical trials</p>
+<h3>Panel 2 Discussion</h3>
+<p><strong>Robert Plenge</strong> was asked what the key was to getting that data out of the clinical system.  He replied that natural language processing (NLP) was critical for their success. The core problem was how clinical pathology reports are dictated and the variation between clinicians.  Pathologists themselves will interpret these reports differently.  The question was asked whether NLP pseudocode can be shared across EHR systems and across organizations.  <strong>Buetow </strong>answered that this capability is under investigation.  A follow up question was whether genetic data is less problematic because it is clean, whereas pathology data is variable and unstructured.   The response was that many situations may never be structured, so NLP will be necessary to glean useful information from the database.  <strong>Richard Cotton </strong>added that there is a system in <country-region w:st="on">Australia</country-region> called “biogrid” which can interrogate clinical systems, but there is no similar system in the<br /><place w:st="on"><country-region w:st="on">United States</country-region> . That could be a useful method to pursue, however, privacy policies in the two countries differ.</place></p>
+<p><strong>Ken Kawamoto </strong>asked if it was possible to insist on some standards like SNOMED as an incentive through the Federal Government.  <strong>Plenge</strong> replied that adoption of standards is most likely to come from improvements to clinical workflow.</p>
+<h3><a id="_Toc247362770" name="_Toc247362770">Panel 3:  Genomic Experiment Platforms and Mutation Test Registry</a></h3>
+<p><strong>Michael Christman </strong>(Coriell Institute) moderated the panel and opened with a description of the Coriell Personalized Medicine Collaborative, a project to collect genome information on participants to determine best practices for using it in clinical care. There are already about 45,000 participants in this prospective study.  It contains three population arms, one of the general population, one specific for cardiovascular disease and on specific for cancer.  The project directly involves clinical partners and the information can be used for discovery and returned to the patient.  A subset of the data generated will be clinically useful; this subset is the only information that will be returned to the patient.  A chief goal of the study to find out what information is indeed clinically actionable.  Decisions regarding the information returned to the patients are made by the Informed Consent Oversight Group, which functions like a study section.  The clinical and genomic information will help develop quantitative risk reports in combination with lifestyle data. This is the basis of a personalized manner of reporting clinical risks.  This is a long-term longitudinal study, which is extremely important for the generation of an evidence base for genomic medicine.</p>
+<p><strong>David Carey</strong> (Geisinger Health System) described Geisinger as a large health network in central<br /><place w:st="on"><state w:st="on"> Pennsylvania, which is both non-academic and non-profit. <br /><place w:st="on"><placename w:st="on"> Geisinger<br /><placename w:st="on"> Medical<br /><placetype w:st="on"> Center is the central hub (five inpatient; 40 outpatient clinics) of a hub and spoke model for the network.   <strong>Carey </strong>asserted that Geisinger was a good place to test out new technologies because it cares for a population of 3 million patients that is largely non-transient, older and poorer than most urban centers.  The network has also made a specific commitment to HIT for both clinical research and the improvement of care.</placetype></placename></placename></place></state></place></p>
+<p>Geisinger initiated the “My Code” biobanking project, which consists of two patient cohorts, one representing the general population and one disease-specific.  Consent for participation is an opt-in model, so their patients are actively interested in participating in the study.   The disease-specific cohort is recruited from specialty clinics where patients have already received a diagnosis.  This cohort has enrolled 11,000 patients.  The population cohort is recruited from outpatient clinics and has broad inclusion criteria.  This cohort will have longitudinal accrual of patients and phenotypes, and has enrolled 12,000 individuals.</p>
+<p>Recruitment has been done using EHR data.  De-identified records are retrieved from the EHR system through a data repository.  Upon identification of specific candidates, researchers can gather full records from the EHR. With systems in place, this will produce a great deal of genomic-phenotypic information over time.</p>
+<p><strong>Clay Marsh</strong> (<br /><place w:st="on"><placename w:st="on"> Ohio<br /><placetype w:st="on"> State<br /><placetype w:st="on"> University<br /><placetype w:st="on"> Hospital) focused on the support of wellness rather than care of disease.  He argued that health solutions should be portable and scalable across a variety of delivery systems and forecast a future where more health care is performed at home than in a provider’s office.  This state will be enabled by programs to make health care easy to use.  This highlights the need for in a format that supports clinical decision-making.</placetype></placetype></placetype></placename></place></p>
+<p><strong>Richard Cotton</strong> (Genomic Disorders Institute<br /><place w:st="on"><city w:st="on"> Melbourne) discussed the Human Variome Project, which strives to codify all the mutations present in the human population.  This information is intended to meet specific needs of the clinical genomics community by defining variations and their clinical interpretations.  For inherited diseases, mutations that can be used for prognosis are defined.  For common diseases, polymorphism associations can be connected with risk assessment.  Coordination and information flow are key to determining a sufficient level of evidence to make clinical decisions based on the identification of genetic variation.  The Human Variome Project is part of a network of information sources and governing bodies that have the purpose of relating phenotypes to genotypes.</city></place></p>
+<p><strong>Sharon Terry</strong> (Genetic<br /><place w:st="on"><city w:st="on"> Alliance) spoke of the organization of the Genetic Alliance Bio Bank.  This project  was the direct result of activity by patient advocacy groups of parents of children with rare Mendelian disorders.  The biobank developed a sophisticated privacy protocol for their data, to ensure patients and their families of the security of their information.  Genetic<br /><place w:st="on"><city w:st="on"> Alliance formed a public-private partnership with Private Access, to develop a privacy layer for the Bio Bank.  This privacy layer is similar to the Consumer Preference model from Google.   Patients using it can define access permissions to their data in accordance with their comfort level and desire for its usage.  <strong>Terry </strong>argued that people should have access to their own data, despite objections from physicians and other professionals.  She stated that policies are moving towards greater personal control of health information.  She concluded by emphasizing that the opt-in model for consent in clinical research demands that patients are comfortable with their level of control over their own data.</city></place></city></place></p>
+<h3>Panel 3 Discussion</h3>
+<p><strong>Michael Christman</strong> commented that genetic information will likely be compromised in a manner similar to identify theft, so laws must be created to protect the individual from the damage that can ensue. </p>
+<p>A two-part question was directed to the panel, the core of Personalized health care will depend upon the use of this information, so 1) what is being done now at various institutions, and 2) what should be the model for data availability, a national resource like the NLM or a more federated model?  <strong>Christman </strong>responded that at Coriell, access begins with data that is de-identified and then made available to researchers.</p>
+<p>The panel commented on the need to validate data to progress towards evidence based medicine, while balancing the need to provide data to primary care physicians in a useful way.   Primary care providers are not geneticists, and have only limited time with patients.  The need of the care provider can be met through CDS comprised of more than alerts.  This CDS would instead have dashboards and more integrated information for clinicians. Currently, only about 6% of hospitals have the infrastructure for even rudimentary CDS.  The introduction of clinical genomics will further exacerbate this problem, highlighting a need to change the culture of the health care delivery system.  </p>
+<p>Upon being asked how Geisinger got such high opt-in rates for its study, <strong>David Carey </strong>responded simply, “trust.”</p>
+<h3><a id="_Toc247362771" name="_Toc247362771">Panel 4:  Statistical/Biological Analyses and Clinical Trials</a></h3>
+<p><strong>Joyce Hernandez</strong> (Merck) presented two Merck bioinformatics oncology studies, both using the CDISC standards in order to standardize data for analysis.  Rather than focusing on a single gene, the studies expanded to the entire gene signature.  This required various sources of information, including public databases, experimental cell line panels and patient profiling.  This data all had to be integrated to reach a biological conclusion.  <strong>Hernandez</strong> cited standards development done through the HL7-CDISC Clinical Genomics Workgroup.  There is an SDTM domain in progress for clinical genomics data.</p>
+<p><strong> Weida Tong</strong> (FDA) related lessons from the FDA’s voluntary genetics data submission program (VGDS).  This program was initiated to start receiving and analyzing genomic data independent of FDA review in advance of large amounts of this data being submitting during the review process.  Data submitted to the VGDS has changed over time, early data was mostly from expression arrays; later submissions were primarily from genotyping data.  The FDA developed an informatics tool to handle all the incoming data, called ArrayTrack, which has been expanded to handle proteomic, metabolomic and other data types.  The project has worked toward addressing quality control issues, such as consistency of microarray data.  The VDGS has also attempted to reach consensus on analysis methods for submitted data.  Finally, the FDA receives data from a wide variety of sponsors, and thus a wide variety of technical platforms, leading to difficulty using common analytical tools and an inability to aggregate data across studies.  The experience at the FDA led to a guidance document regarding pharmacogomic data submissions.  <strong>Tong </strong>asserted that standards will help the aggregation and analysis of data and the FDA seems to be promoting CDISC as a data standard for submissions.</p>
+<h3>Panel 4 Discussion</h3>
+<p>The panel was asked what the actual level of combinability was across technical platforms.  <strong>Tong </strong>replied that it depends on the level of aggregation to be achieved.  It is unlikely that there will be a perfect method for combining data across studies, however an imperfect method that is implementable is a possibility. A start is to maintain data in a format that is standards compliant.  Data for ArrayTrack is less problematic to combine across platforms, but other data types, such as metabolomic and proteomic lag.</p>
+<p>The FDA is now receiving over 90 submissions a year containing various kinds of genetic data, not only microarray data. FDA is working on a database to compile all the data, since it will be relevant to multiple clinical phenotypes.  This compilation is not being done at present, but it is a significant need for the FDA.</p>
+<p>Another question asked was how to model knowledge, instead of just data? How is information made accessible.  <strong>Elizabeth Tracthenberg </strong>replied that City of<br /><place w:st="on"><city w:st="on"> Hope has a model system related to toxicology.  This is suggestive of a service oriented architecture for the clinical knowledge base.</city></place></p>
+<h3><a id="_Toc247362772" name="_Toc247362772">Panel 5:  Biospecimens</a></h3>
+<p><strong>Helen Moore</strong> (NCI)presented take home messages from her work at the Office of  Biorepositories and Biospecimens Research.  Biospecimens are obtained with varying specimen collection methods, varying specimen data, varying clinical information and varying restrictions on the use of the specimen.  All of these pose problems for the use of the biospecimens for clinical genomics research and cause variation and/or inaccuracies in the data generated. <br /><place w:st="on"><city w:st="on"><strong>Moore</strong> argued for more standardization of specimen handling and information gathering.  <strong>Steve Gutman</strong> (<br /><place w:st="on"><placetype w:st="on"> University of<br /><placename w:st="on"> Central Florida) also presented examples of variability in data generated as a result of biospecimen handling and metadata.</placename></placetype></place></city></place></p>
+<p><strong>Lynn Bry</strong> (Partners HealthCare) described three challenges to Genomic Research, high throughput phenotyping, high throughput genotyping, and high throughput sample collection.  To address the last challenge, Partners developed a sample collection protocol called Crimson.  Crimson identifies specimens, such as discarded blood samples, generated during the course of clinical care and matches them to various research projects in the Partners network.  Samples are identified for studies from clinical information in the Partners EHR system, using both structured data and natural language processing.</p>
+<p>The process can work through either a de-identified protocol, or the sample can be archived for a short period to allow patient consent to be obtained.  The use of Crimson has produced significant cost savings and efficiencies contributing to the quality of the studies and the ability to do studies that would otherwise have been cost-prohibitive.</p>
+<h3>Panel 5 Discussion</h3>
+<p>A question was posed regarding how Crimson introduced efficiencies to reduce costs to such an extent.  <strong>Bry</strong> responded that some of the efficiencies are gained from gleaning the specifics of the research study needs up front. Once the needs are understood, some economies of scale are achieved.  Furthermore, investigators often receive higher quality specimens for their particular study.</p>
+<h3><a id="_Toc247362773" name="_Toc247362773">Panel 6:  Applications in Clinical Genomics Databases Today and Tomorrow</a></h3>
+<p><strong>Leslie Glenn Biesecker</strong> (NHGRI) presented the ClinSeq study, a high throughput genome sequencing project.  This project generates huge quantities of both sequence data and clinical data, more than 16 TB per subject, and it is necessary to develop a robust infrastructure to perform analyses to answer biological questions.  The first biological question revolves around atherosclerosis.  One thousand subjects are to be enrolled and their genomes sequenced.  Large numbers of variants will be identified in the population of 1000.  Some of these will be involved in the development of atherosclerosis, or other clinical conditions, and can be validated.</p>
+<p>ClinSeq is an example of hypothesis generating research.  This type of research is important for clinical genomics, since the data may provide answers to questions that have not yet arisen.  This is the antithesis of the classical approach to research, which is to identify phenotype, then try to find the genotype to match the phenotype.  <strong>Biesecker</strong> emphasized that this is a paradigm shift in medicine and medical research.  This approach generates genomic scale data, stratifies patients on the basis of genotypic not phenotype data, then associates the genotype with the phenotype.</p>
+<p>The project is already generated interesting data.  <strong>Biesecker </strong>has found that rare variants, found in a single individual, are common, lots of individuals have different variants.  He also warns that this approach will not be well received by physicians or patients, because much of the genomic information will not be clinically actionable.</p>
+<p><strong>Mark Allard</strong> (FDA) described a project generating high-coverage sequencing of <em>Salmonella</em> strains for the rapid identification of food borne pathogens.  The project is developing the knowledge to be able to detect species, identify serotype and track sub-type to perform molecular epidemiology on outbreaks of food borne illness.   In-depth sequencing data is necessary to identify marker polymorphisms in bacterial genotypes to positively identify pathogens from the food back to the farm.  This project generated a large amount of sequence data and required a bioinformatics team to analyze it because standardized tools were not available for this type of research.</p>
+<p>The Molecular Methods and Subtyping Branch of the Center for Food Safety and Applied Nutrition is also interested in using the sequencing capacity developed in the <em>Salmonella</em> project to develop methods for sequencing a “meta-genome”.  This is defined at the suite of organisms present in a particular food or soil sample that may, as a whole, contribute to an outbreak of food borne illness or to clinical variation among outbreaks.</p>
+<p><strong>Martin Maier</strong> (National Bone Marrow Donor Program) presented the process of matching of HLA alleles between unrelated bone marrow donors and recipients.  Only 30% of patients needing bone marrow transplant have a donor match, typically within their family.  The National Bone Marrow Donor Program helps match the remaining 70% of patients in need of a bone marrow transplant with donors.  HLA matching begins by querying archived donors at a low resolution and gets more fine tuned at higher resolution on a selected group.  Genetic variant alleles of the HLA loci are being discovered at an extremely rapid rate.  Matching at HLA and the major histocompatibility complex (MHC) are both difficult and the loci are so complex that it is difficult for clinicians and patients to understand the clinical implications of the molecular information.   Thus, the necessity for an informatics approach.</p>
+<p>Data exchange standards are under development to support the informatics approach, but HLA genotyping is an inherently ambiguous system and therefore very difficult to standardize.  It presents a good model for other highly polymorphic loci.  Two groups have been formed to address the standards and informatics problem, Immunogenetics Data Analysis Workgroup (IDAWG) and A Growable Network Information System (AGNIS).</p>
+<h3>Panel 6 Discussion</h3>
+<p>The panel was asked if there are generalizable lessons to be applied to other genomic systems.  They responded that it is important to present complex data in a consumable form for physicians and patients without losing the information.  Also, nomenclature is crucial to this kind of data, which means the standards for nomenclature are important as well.</p>
+<p>Direct to consumer testing was discussed by the group.  Whole genome data released to consumers has the potential to be problematic.  Currently, this presents too much data without clinically actionable information.  Clinicians will be more comfortable with this type of data when there is evidence supporting clinical care choices based on the genomic information.</p>
+<h2><a id="_Toc247362774" name="_Toc247362774">Summarizing the Workshop</a></h2>
+<p>The workshop planning committee co-chairs, <strong>Rebecca Kush</strong> and <strong>Mollie Ullman-Cullere</strong> summarized the discussions of the workshop and suggested potential next steps for the clinical genomics community.</p>
+<p>Common themes highlighted from the workshop:</p>
+<ul><li>Augment existing standards, rather than contribute to the proliferation of new ones.</li>
+<li>Complete and implement submission standards for FDA to support reviews that can utilize common tools and aggregate data across studies.</li>
+<li>Standards must be able to evolve and support long-term longitudinal studies, such as the NICHD National Children’s Study.</li>
+<li>Standards are required for polymorphisms and mutations and that can be used in CDS.</li>
+<li>Standards must be developed and implemented for biospecimen collection and handling.</li>
+</ul><p><strong>Kushand Ullman-Cullere</strong> summarized opportunities discussed during the workshop:</p>
+<ul><li>An SDO could undertake the development of a lab order message for EHR systems.</li>
+<li>Systems could implement the new HITSP interoperability specification for clinical research and augment the core dataset with genomics information, as well as interoperability specifications supporting the AHIC Personalized Health Care Use Case.</li>
+<li>Groups can participate in the development of the SHARE database of controlled terminologies.</li>
+</ul><p>It was also concluded that standards development work and investment in data architecture are required to support and advance improvements in clinical care and an effective and efficient clinical research endeavor and should be resourced appropriately.</p>
+
+  <div class="download_report">
+    
+                        <div class="pdf-prev">
+                <img src="https://aspe.hhs.gov/system/files/pdfpreview/91e970ec1e25fe5d18fa2486163f7519.png" alt="Preview" title="Preview" />            </div>
+                <a class="btn btn-sm btn-default download-file"
+           href="https://aspe.hhs.gov/system/files/pdf/75941/report.pdf">Download</a>
+
+        <p class="download_title">&quot;report.pdf&quot;
+            (pdf,
+            322.63Kb)</p>
+        <p>Note: Documents in PDF format require the <a href="http://www.adobe.com/products/acrobat/readstep2.html">Adobe
+                Acrobat Reader&reg;</a>. If you experience problems with PDF documents, please <a
+                href="http://www.adobe.com/products/acrobat/readstep2.html">download the latest version of the
+                Reader&reg;</a>
+        </p>
+    </div>
+<div class="group-tags"><div class="field-label">Tags:&nbsp;</div><a href="/terms/data-standards">Data Standards</a><a href="/terms/health-informatics">Health Informatics</a><a href="/terms/biomedical-research">Biomedical Research</a><a href="/terms/genetic-testing">Genetic Testing</a><a href="/terms/data-and-information-policy">Data and Information Policy</a><a href="/terms/prevention-health-promotion-and-wellness">Prevention, Health Promotion, and Wellness</a><a href="/terms/science-and-technology">Science and Technology</a></div>  </div>
+
+      <footer>
+          </footer>
+  
+    <div id="block-webform-client-block-158521" class="widget block block-webform" >
+  
+      
+  <div id="webform-ajax-wrapper-158521"><form class="webform-client-form webform-client-form-158521" action="/basic-report/identifying-opportunities-maximize-utility-genomics-research-data-through-electronic-health-information-exchange" method="post" id="webform-client-form-158521" accept-charset="UTF-8"><div><div class="webform-progressbar">
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-radios webform-component--was-this-page-helpful">
+  <label for="edit-submitted-was-this-page-helpful">Was this page helpful? <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-was-this-page-helpful" class="form-radios"><div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-1" name="submitted[was_this_page_helpful]" value="1" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-1">Yes </label>
+
+</div>
+<div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-2" name="submitted[was_this_page_helpful]" value="0" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-2">No </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="4" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-Xu4DldDh5RRpfHop2XiSzLECTmRigtPGas52rbCM7zA" />
+<input type="hidden" name="form_id" value="webform_client_form_158521" />
+<input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-158521" />
+<div class="form-actions"><input class="webform-next button-primary btn btn-default form-submit" type="submit" id="edit-webform-ajax-next-158521" name="op" value="Next &gt;" /></div>
+<div class="is-useful-disclaimer"> <a href="/%23" class="" title="Survey Disclaimer" data-toggle="modal" data-target="#disclamerModal">Form Approved OMB# 0990-0379 Exp. Date 8/31/2017</a></div>
+<div class="modal fade" id="disclamerModal" tabindex="-1" role="dialog" aria-labelledby="disclamerModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="disclamerModalLabel">Survey Disclaimer</h2>
+      </div>
+      <div class="modal-body">
+         According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this information collection is 0990-0379. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, gather the data needed, and complete and review the information collection. If you have comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: U.S. Department of Health & Human Services, OS/OCIO/PRA, 200 Independence Ave., S.W., Suite 336-E, Washington D.C. 20201, Attention: PRA Reports Clearance Officer.      </div>
+    </div>
+  </div>
+</div></div></form></div>
+  </div> <!-- /.block -->
+<meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/identifying-opportunities-maximize-utility-genomics-research-data-through-electronic-health-information-exchange" itemref="md1" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/identifying-opportunities-maximize-utility-genomics-research-data-through-electronic-health-information-exchange" itemref="md2 md3 md5 md7 md9 md11 md13 md15 md17" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/data-standards" id="md5" itemref="md4" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/health-informatics" id="md7" itemref="md6" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/biomedical-research" id="md9" itemref="md8" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/genetic-testing" id="md11" itemref="md10" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/data-and-information-policy" id="md13" itemref="md12" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/prevention-health-promotion-and-wellness" id="md15" itemref="md14" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/science-and-technology" id="md17" itemref="md16" />              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <footer  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Footer">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  id="footer_sitemap-footer_sitemap" class="col-sm-6 col-md-6 col-lg-4 ">
+                          
+                              <div id="block-footer-sitemap-footer-sitemap" class="widget block block-footer-sitemap" >
+  
+      
+  <div id="footer-sitemap" class="clearfix">
+  <div class="fs-block-content"><div class="menu-footer-utility"><ul class="footer_links_menu-footer-utility total-items-2 parent-items-0 single-items-0"><li class="menu-5021 depth-1 total-children-8 parent-children-0 single-children-8  first"><a href="/" title="look at ASPE Home" class="fs-root-link">ASPE Home</a><ul class="footer_links_menu-footer-utility total-items-8 parent-items-0 single-items-0"><li class="menu-5026 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/" title="look at HHS Home">HHS Home</a></li>
+<li class="menu-66281 depth-1 fs-no-children"><a href="http://www.usa.gov/" title="look at USA.gov">USA.gov</a></li>
+<li class="menu-66316 depth-1 fs-no-children"><a href="https://oig.hhs.gov/" title="look at Office of the Inspector General">Office of the Inspector General</a></li>
+<li class="menu-66321 depth-1 fs-no-children"><a href="http://www.whitehouse.gov" title="look at The White House">The White House</a></li>
+<li class="menu-5046 depth-1 fs-no-children"><a href="http://www.hhs.gov/Accessibility.html" title="look at Accessibility">Accessibility</a></li>
+<li class="menu-66326 depth-1 fs-no-children"><a href="http://www.hhs.gov/about/budget/index.html" title="look at Budget/Performance">Budget/Performance</a></li>
+<li class="menu-2551 depth-1 fs-no-children"><a href="http://www.hhs.gov/Privacy.html" title="look at Privacy Policy">Privacy Policy</a></li>
+<li class="menu-197776 depth-1 fs-no-children  last"><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" title="Nondiscrimination Notice">Nondiscrimination Notice</a></li>
+</ul></li>
+<li class="menu-5051 depth-1 total-children-4 parent-children-0 single-children-4  last"><a href="http://www.hhs.gov/foia/" title="look at FOIA" class="fs-root-link">FOIA</a><ul class="footer_links_menu-footer-utility total-items-4 parent-items-0 single-items-0"><li class="menu-5056 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/open/recordsandreports/plainwritingact/index.html" title="look at Plain Writing Act">Plain Writing Act</a></li>
+<li class="menu-5061 depth-1 fs-no-children"><a href="http://www.hhs.gov/asa/eeo/no_fear_bullet_3.html" title="look at No Fear Act">No Fear Act</a></li>
+<li class="menu-5066 depth-1 fs-no-children"><a href="http://www.hhs.gov/Disclaimer.html" title="look at Disclaimers">Disclaimers</a></li>
+<li class="menu-2546 depth-1 fs-no-children  last"><a href="http://www.hhs.gov/plugins.html" title="look at Viewers &amp; Players">Viewers &amp; Players</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-5 " id="stability_cms-contact_us">
+                          
+                              <div id="block-stability-cms-contact-us" class="widget block block-stability-cms" >
+  
+      
+  <div class="contacts-widget widget widget__footer">
+	<div class="widget-content">
+		<ul class="contacts-info-list">
+      			<li>
+<!--				<i class="fa fa-map-marker">Address</i>-->
+                <div class="info-icons">
+                    <img  alt="map" class= 'map-icons' src="/sites/all/themes/stability/stability_aspe/images/map.png"/>
+                </div>
+                <div class="info-item">
+					Assistant Secretary for Planning and Evaluation, Room 415F<br />
+U.S. Department of Health and Human Services<br />
+200 Independence Avenue, SW<br />
+Washington, D.C. 20201				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-phone">phone</i>-->
+                <div class="info-icons">
+                    <img alt="phone" src="/sites/all/themes/stability/stability_aspe/images/phone.png"/>
+                </div>
+				<div class="info-item">
+					+1 202.690.7858				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-envelope">email</i>-->
+                <div class="info-icons">
+                    <img alt="mail" src="/sites/all/themes/stability/stability_aspe/images/mail-white.png"/>
+                </div>
+				<span class="info-item">
+					<a href="mailto:osaspeinfo@hhs.gov">osaspeinfo@hhs.gov</a>
+				</span>
+			</li>
+      			                					</ul>
+	</div>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-3 " id="footer">
+                          
+                              <div id="block-block-36" class="widget block block-block" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sign-up</span> for Email Updates</h3>
+		</div>
+    
+  <div class="email_updates">
+<button class="btn btn-default" name="subscribe-button" type="submit" value="subscribe">subscribe</button>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-12 " id="menu-menu-footer-language-menu">
+                          
+                              <div id="block-menu-menu-footer-language-menu" class="widget block block-menu" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Language</span> Assistance Available</h3>
+		</div>
+    
+  <ul class="menu"><li class="first expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#spanish" title="Español">Español</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#chinese" title="繁體中文">繁體中文</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#vietnamese" title="Tiếng Việt">Tiếng Việt</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#korean" title="한국어">한국어</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#tagalog" title="Tagalog">Tagalog</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#russian" title="Русский">Русский</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#arabic" title="العربية">العربية</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#creole" title="Kreyòl Ayisyen">Kreyòl Ayisyen</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#french" title="Français">Français</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#polish" title="Polski">Polski</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#portuguese" title="Português">Português</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#italian" title="Italiano">Italiano</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#german" title="Deutsch">Deutsch</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#japanese" title="日本語">日本語</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#farsi" title="فارسی">فارسی</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#english" title="English">English</a></li>
+</ul></li>
+</ul>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+      </div>
+
+          </div>
+    
+    
+      </footer>
+    
+
+    <!--/PAGEWATCH-->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+                        </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="social-links-wrapper">
+              <span class="social-links-txt">Connect with us</span>
+              <ul class="social-links social-links__dark">
+                                                  <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw-grey.png"/></a></li>
+                                <!--                --><!--                  <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin-grey.png"/></a></li>-->
+<!--                -->
+                                                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>  <script type="text/javascript" src="/sites/default/files/advagg_js/js__VWRymaMz6HfrhnrcJNGcDiSvLVrvhaXvBa7nrBYy8gc__jntPwP3D6myJZH1jW19fXrk5cYMHGRL8NQION22VSEA__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5486d15a696bff0c"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__g6mKbcakHxQkz4ZHYaxdO_xqONINvRMgsHh1zAK-fr0__ATHtEmHaeZ0jidpGU22EkhmPDBSgjD8z0bVDQMI-BIY__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__KUp4PrfOt9BSXUVl8Ctb3dhCMBe4MNVMeb4Gyorx8yY__7g4BeXscCIZAfuu1vxsCj2RIemg-eEK0QpChP9LDmFQ__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__PNjAgubM_3xXRLp4uLsYnv8wQAdT89-RYkSPxT6T45c__rFQwFK4pA5ZaWZSF7FPTfKbbpus0h-5IS8ayrNZGrb4__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__vQiLul2UcfC4nBAR09mhYVBYzRmiNDm2dj3GgSubV38__w84oZe-ZODKe7XnnlbrjV4IWHISOy4PioFEMVgx9hZo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__QJw3g0kOdwsv4twSZLP931zBzsHy50VEHpEN_znIitQ__A6QOuWXElDipBM2iChbWhjAAt3KlUwZ-jODoxdpbwiw__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stability_aspe","theme_token":"GTa6fBg3o_pKUko8SqvcZCr046vW7axYoE6_heoCBrs","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/footable.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/aspe_nodes.admin.css":1,"sites\/all\/modules\/custom\/aspe_views\/theme\/css\/aspe_views.admin.css":1,"sites\/all\/modules\/forked\/book\/book.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/openpublic\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.css":1,"profiles\/openpublic\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openpublic\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/openpublic\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/themes\/stability\/css\/bootstrap.min.css":1,"sites\/all\/themes\/stability\/css\/fonts\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.theme.css":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/stability\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/stability\/css\/theme.css":1,"sites\/all\/themes\/stability\/css\/theme-elements.css":1,"sites\/all\/themes\/stability\/css\/animate.min.css":1,"sites\/all\/themes\/stability\/css\/skins\/red.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/slideshow.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/font-main.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/styleless.less":1,"sites\/all\/themes\/stability\/css\/skins\/blue.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/aspe\/theme\/js\/aspe.login-confirm.js":1,"sites\/all\/modules\/custom\/aspe_report\/modules\/aspe_databooks\/js\/aspe_databooks.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.highcharts.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/datatables\/dataTables.min.js":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.min.js":1,"sites\/all\/libraries\/highcharts\/highcharts.js":1,"sites\/all\/libraries\/highcharts\/highcharts.exporting.js":1,"sites\/all\/libraries\/highcharts\/highcharts.map.js":1,"sites\/all\/libraries\/highcharts\/highcharts.us-all.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.footable.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5486d15a696bff0c":1,"misc\/progress.js":1,"profiles\/openpublic\/modules\/contrib\/webform\/js\/webform.js":1,"profiles\/openpublic\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/stability\/vendor\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/stability\/vendor\/bootstrap.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flexnav.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flickrfeed.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.sloppy-masonry.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.fitvids.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.stellar.min.js":1,"sites\/all\/themes\/stability\/vendor\/snap.svg-min.js":1,"sites\/all\/themes\/stability\/js\/custom.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/aspe.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/html5shiv.min.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/main-menu.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/keyboard-control.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tabBehavior.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tileStringTrimmer.js":1}},"webform":{"conditionals":{"webform-client-form-158521":{"ruleGroups":[],"sourceMap":[],"values":[]}}},"ajax":{"edit-webform-ajax-next-158521":{"callback":"webform_ajax_callback","wrapper":"webform-ajax-wrapper-158521","progress":{"message":"","type":"throbber"},"event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Next \u003E"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/basic-report\/identifying-opportunities-maximize-utility-genomics-research-data-through-electronic-health-information-exchange":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"([a-z0-9]\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This website contains links to other federal and state agencies and private organizations. The Department of Health and Human Services (HHS) cannot attest to the accuracy of information provided by these nonfederal website links. Linking to nonfederal sites does not constitute an endorsement by HHS or any of its employees of the sponsors or the information and products presented on the sites. You will be subject to the destination site\u0027s privacy policy when you leave the ASPE website.\r\n\r\nThank you for visiting aspe.hhs.gov!","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"stability":{"flickr_id":"52617155@N08","logo_sticky":"28"},"field_group":{"div":"full","hidden":"full"}});
+//--><!]]>
+</script>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config={pubid:"ra-5486d15a696bff0c",ui_click:false}
+//--><!]]>
+</script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4837db659","applicationID":"10708002","transactionName":"MwNaZBRSXEtXB0BdWQpJeVMSWl1WGQpbUFM7FllXA2xEUVMT","queueTime":0,"applicationTime":1327,"atts":"H0RZElxIT0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

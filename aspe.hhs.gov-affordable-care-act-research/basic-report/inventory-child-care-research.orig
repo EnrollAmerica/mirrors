@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">  <!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://aspe.hhs.gov/sites/default/files/Favicon2.png" type="image/png" />
+<meta name="description" content="  INVENTORY OF HHS CHILD CARE RESEARCH" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://aspe.hhs.gov/basic-report/inventory-child-care-research" />
+<link rel="shortlink" href="https://aspe.hhs.gov/node/66771" />
+<meta property="og:site_name" content="ASPE" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aspe.hhs.gov/basic-report/inventory-child-care-research" />
+<meta property="og:title" content="Inventory of Child Care Research" />
+<meta property="og:description" content="  INVENTORY OF HHS CHILD CARE RESEARCH" />
+<meta property="og:updated_time" content="2015-12-09T05:52:38-05:00" />
+<meta property="article:published_time" content="2015-06-13T04:00:41-04:00" />
+<meta property="article:modified_time" content="2015-12-09T05:52:38-05:00" />
+
+  <title>Inventory of Child Care Research | ASPE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+  <link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__5ln8neBOcJfyUveiD4y9fhI6kHBLOQ_YL0mMC-LS9a0__TPJIZT9UBnf_685NlFTJ5KnZVsjwFk6ACQ-nwwygmwU__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ng49uRH5y4Hl9VF9hHW_vXOj-mcOc2u2ShJqJ1YKIGU__FoMCD14GBvZaRiqSQ_JpP1w3rDB21n7H2Ar4pRZaIh8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__Hskudx14OJ5Hz8vqU7CUgN6SDV5rINZuEq9VuGsSeyc__EwNIl3xeFrniW2TmonovTzhSs3X5MdFps210puE7jog__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__9rZoaX9BdzjjNucvYxduxeNAVO2zgW_Rvjhb5rq5whc__lSr_y16grDSgHf4booPChnF7QXz3TQY3hafH49twE0k__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZgfI_ZPib5yVY0o5aKo_6TFn946Tuu_nFDa0ySTmkSc__2FTFrNw2eNh0mpHIOA34r6YRwBZMm2PjJ_JubnwLigg__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__dxabpJ5rQgDSixKgLJZjWc1beC6mpROKwVrmWxI5eno__rqhz_hGsE_i59O7-W991o71_Jxw1QOtGMxn4nsOLHY8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZbRCq2NqWgK-HXAQI3So0N1n0nr4HonsJS3eQuuxukw__7Olkk8Locn8Dj0eR0Ww3rbV9lks9sxipcboMXB18RRs__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+
+	<!-- Head Libs -->
+	<script src="/sites/all/themes/stability/stability_aspe/vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/sites/all/themes/stability/vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" href="/sites/all/themes/stability/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/stability/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/stability/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/stability/images/apple-touch-icon-144x144.png">
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-66771 node-type-basic-report">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-JLFR"
+                  height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JLFR');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-nav" class="accessibility_menu">
+    <strong>Shortcut Navigation:</strong>
+    <ul>
+      <li><a href="#content" accesskey="c" title="Skip to page content (ctrl/alt + c)">Page Content</a></li>
+      <li><a href="#nav" accesskey="m" title="Skip to main navigation menu (ctrl/alt + m)">Site Navigation</a></li>
+
+      <li><a href="#Footer" accesskey="f" title="Skip to footer (ctrl/alt + f)">Footer</a></li>
+    </ul>
+  </div>
+
+    
+<div class="site-wrapper">
+  
+  <header class="header header-menu-fullw header-top-clean">
+    <div id="brand-bar">
+        <div class="container">
+                    <img alt='bird' src="/sites/all/themes/stability/stability_aspe/images/bird.png"> <a target="blank" tabindex="4" href="http://www.hhs.gov/">U.S. Department of Health & Human Services</a>
+        </div>
+
+    </div>
+    <div class="header-main">
+        <div class="container clearfix">
+            <div class="social-links-wrapper">
+                <ul class="social-links social-links__light">
+                                                          <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw.png"/></a></li>
+                                    <!--                  --><!--                    <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin.png"/></a></li>-->
+<!--                  -->
+                                                                      </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                                <div class="site_name_wrapper">
+                                     <span class="h1">
+                                      <a href="/">ASPE</a>
+                                       </span>
+                                  <p class="tagline"><p>Office of The Assistant Secretary</p><p> for Planning and Evaluation</p></p>
+                    </div>
+            </div>
+            <!-- Logo / End -->
+            <div class="header_right_wrapper">
+                <div class="search-form">
+                    <form action="/basic-report/inventory-child-care-research" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class = "input-group"><div class="form-type-textfield form-item-search-block-form form-item form-group">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search Site..." class="form-control form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input class="btn btn-primary btn-icon form-submit" type="image" id="edit-submit" name="submit" value="Search" src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/search-white2.png" alt="Search" title="Search" /></div></div><input type="hidden" name="form_build_id" value="form-OEIzrVRExv6x0_WfoJEu1Zw-blk_erqQ5dkKx2agdbk" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </div>
+                <button type="button" class="navbar-toggle" value="Menu">
+                    <i class="fa fa-bars"></i>Menu
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-main">
+        <div class="container">
+          <ul data-breakpoint="767" class="flexnav">
+                <li class="first expanded"><a href="/basic-search/about" title="">About</a><ul><li class="first leaf"><a href="/mission" title="">Mission</a></li>
+<li class="leaf"><a href="/key-staff" title="">Leadership</a></li>
+<li class="leaf"><a href="https://www.usajobs.gov/" title="">Careers</a></li>
+<li class="expanded"><a href="/coordination" title="linkTo">Coordination</a><ul><li class="first leaf"><a href="/evaluation-evidence" title="">Evaluation &amp; Evidence</a></li>
+<li class="leaf"><a href="/national-alzheimers-project-act">National Alzheimer&#039;s Project Act</a></li>
+<li class="leaf"><a href="/health-and-human-services-hhs-data-council">HHS Data Council</a></li>
+<li class="last leaf"><a href="/national-committee-vital-and-health-statistics" title="National Council on Vital and Health Statistics">National Council on Vital and Health Statistics</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/divisions" title="">Offices</a><ul><li class="first leaf"><a href="/office-disability-aging-and-long-term-care-policy-daltcp">Disability, Aging, and Long-Term Care Policy</a></li>
+<li class="leaf"><a href="/office-health-policy-hp">Health Policy</a></li>
+<li class="leaf"><a href="/office-human-services-policy">Human Services Policy</a></li>
+<li class="last leaf"><a href="/office-science-and-data-policy">Science and Data Policy</a></li>
+</ul></li>
+<li class="leaf"><a href="/strategic-planning" title="Strategic Planning">Strategic Planning</a></li>
+<li class="last leaf"><a href="/contact-aspe" title="">Contact ASPE</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/topics" title="">Topics</a><ul><li class="first leaf"><a href="/affordable-care-act-research">Affordable Care Act Research</a></li>
+<li class="leaf"><a href="/alzheimers-dementia">Alzheimer&#039;s / Dementia</a></li>
+<li class="leaf"><a href="/early-childhood">Early Childhood</a></li>
+<li class="leaf"><a href="/incarceration-reentry">Incarceration &amp; Reentry</a></li>
+<li class="leaf"><a href="/opioid-abuse-us-and-hhs-actions-address-opioid-drug-related-overdoses-and-deaths" title="Opioids">Opioids</a></li>
+<li class="leaf"><a href="/patient-centered-outcomes-research-trust-fund">Patient-Centered Outcomes Research Trust Fund (PCORTF)</a></li>
+<li class="expanded"><a href="/basic-search/poverty" title="">Poverty</a><ul><li class="first leaf"><a href="/poverty-guidelines">Poverty Guidelines</a></li>
+<li class="last leaf"><a href="/poverty-estimates-trends-and-analysis">Poverty Analysis</a></li>
+</ul></li>
+<li class="leaf"><a href="/teen-pregnancy-prevention">Teen Pregnancy Prevention</a></li>
+<li class="leaf"><a href="/homelessness">Homelessness</a></li>
+<li class="last leaf"><a href="/medicare-access-and-chip-reauthorization-act-2015">MACRA</a></li>
+</ul></li>
+<li class="leaf"><a href="/reports" title="">Publications</a></li>
+<li class="last expanded"><a href="/basic-search/datasets" title="">Data and Tools</a><ul><li class="first last leaf"><a href="/evaluations" title="">Evaluation Database</a></li>
+</ul></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation / End -->
+</header>  <div class="main" role="main">
+    <!--PAGEWATCH CODE="USHHS_458"-->
+    <section class="page-heading">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+                <h1>
+                    
+          Inventory of Child Care Research        </h1>
+                                 <p class="author">
+                                                 <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="1999-11-01T00:00:00-05:00">11/01/1999</span>               
+                           </p>
+
+
+                  </div>
+
+
+        <div class="col-md-6">
+           <ul class="breadcrumb"><li class="first"><a href="/" title="Home">Home</a></li>
+<li class="last">Inventory of Child Care Resear...</li>
+</ul>        </div>
+
+
+    </div>
+  </div>
+</section>
+    
+      <div  class="nd-region nd-region-filter">
+  
+       
+
+    
+      <div  id="Filter" class="row">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region nd-region-similar-content">
+  
+       
+
+    
+      <div  id="Similar-Content" class="row">     
+
+        
+                  
+        
+                                    <div  id="top" class="">
+                          
+                              <div id="block-views-2100ccfdd214bdbcf634d7e4832c265b" class="widget block block-views solr-similar-content" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Similar</span> content</h3>
+		</div>
+    
+  <div class="view view-similar-content-solr view-id-similar_content_solr view-display-id-block_solr_similar_content view-dom-id-99e6fbb9779545149e5c1bca3460654e">
+        
+  
+  
+      
+    
+    <span class="field-content"><a href="/survey-integration-work-group-membership">Survey Integration Work Group: Membership</a></span>    
+    <span class="field-content"><a href="/hhs-data-council-privacy-committee-membership">HHS Data Council Privacy Committee - Membership</a></span>    
+    <span class="field-content"><a href="/conference-pharmaceutical-pricing-practices-utilization-and-cost-list-participants">Conference on Pharmaceutical Pricing Practices, Utilization and Cost - List of Participants </a></span>    
+    <span class="field-content"><a href="/national-institutes-health">National Institutes of Health</a></span>    
+    <span class="field-content"><a href="/basic-report/national-conference-home-care-quality-issues-and-accountability-volume-i-proceedings">National Conference on Home Care Quality: Issues and Accountability--Volume I Proceedings</a></span>  
+  
+  
+  
+  
+  
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Content">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  class="col-md-12 " id="content">
+                          
+                              <div id="block-aspe-aspe-addthis" class="widget block block-aspe" >
+  
+      
+  <div class="clearfix">
+  <ul class="addthis_sharing_toolbox node-share__links" data-url="https://aspe.hhs.gov/basic-report/inventory-child-care-research" data-title="Inventory of Child Care Research">
+    <li><a class="addthis_button_print"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/print-white.png" alt="print" /></a></li>
+    <li><a class="addthis_button_email"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/mail-white.png" alt="email" /></a></li>
+    <li><a class="addthis_button_twitter"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/tw.png" alt="twitter" /></a></li>
+<!--    <li><a class="addthis_button_facebook">--><!--</a></li>-->
+    <li><a class="addthis_button_compact"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/plus-white.png" alt="compact" /></a></li>
+  </ul>
+</div>
+
+  </div> <!-- /.block -->
+
+                
+    
+  
+  <div class="content clearfix node-basic-report">
+    <p> </p>
+<p>INVENTORY OF HHS CHILD CARE RESEARCH</p>
+<h2>U.S. Department of Health &amp; Human Services</h2>
+<h3>D R A F T</h3>
+<p>Child care research is being undertaken across the <a href="http://www.hhs.gov">Department of Health and Human Services</a> (HHS).  The table below reflects an inventory of currently or recently funded research efforts in the Office of the <a href="http://aspe.hhs.gov">Assistant Secretary for Planning and Evaluation</a> (ASPE), the <a href="http://www.acf.dhhs.gov">Administration for Children and Families</a> (ACF), the <a href="http://www.nichd.nih.gov/">National Institute for Child Health and Human Development</a> (NICHD), and the <a href="http://www.oig.hhs.gov">Office of the Inspector General</a> (OIG).  This is a work in progress and may not be inclusive of all HHS research.  Efforts will be made to identify other child care research both within HHS and being conducted and supported by other private and public funds.  To include child care research in future inventories, please email or fax a description of the research with relevant contact information to Martha Moorehouse (martha.moorehouse @ hhs.gov; fax: 202-690-5514).</p>
+<div>
+<table><tbody><tr><td>Name of Study</td>
+<td>Summary</td>
+<td>Funder and Period of Funding</td>
+<td>Researcher / Evaluator &amp; Principal Investigator</td>
+<td>HHS Contact</td>
+</tr><tr><td>Study of Infant Child Care Under Welfare Reform</td>
+<td>The purpose of this project is to learn about the challenges for parents and the states in meeting the child care needs of infants in welfare families.  The study will consider the factors affecting parents moving from welfare to work as well as those attending school or training programs;  will examine how states are meeting these challenges with the assistance of businesses, schools, and community organizations;  and will explore the supply of and demand for such care, and the infant care arrangements parents choose.</td>
+<td>ACF 9/30/98 to 9/24/00</td>
+<td>Mathematica Policy Research, Inc. (MPR)
+<p>Christine Ross MPR 600 Maryland Ave., SW, Suite 550, Washington, DC 20024-2512 (202) 484-4235 fax: (202) 863-1763 cross @ mathematica-mpr.com</p>
+</td>
+<td>Richard Jakopic ACF/OPRE 370 L'Enfant Promenade, SW, 7<sup>th</sup> floor, Washington, DC 20447 (202) 205-5930 fax: (202) 205-3598 rjakopic @ acf.dhhs.gov</td>
+</tr><tr><td>National Study of Child Care for Low­Income Families</td>
+<td>This project will study the emerging state and local policies and practices on child care, parental child care choices, and the relationship between low­income employment and child care in 25 communities within 17 states.  There will be a sub­study to examine the family child care market in 5 neighborhoods within the same communities.</td>
+<td>ACF 9/30/97 to 9/29/02</td>
+<td>Abt Associates / Columbia University
+<p>Fred Glantz Abt Associates, Inc. 55 Wheeler Street Cambridge MA 02138-1168 (617) 349-2810 fax: (617) 349-2665</p>
+</td>
+<td>Richard Jakopic ACF/OPRE 370 L'Enfant Promenade, SW, 7<sup>th</sup> floor Washington, DC 20447 (202) 205-5930 fax: (202) 205-3598 rjakopic @ acf.dhhs.gov</td>
+</tr><tr><td>Child Care Needs &amp; Outcomes for Low­Income Families Under Welfare Reform
+<p><em>A project of the Child Care Bureau's Policy Research Consortium</em></p>
+</td>
+<td>This project takes a dual focus on family self­sufficiency and quality of care received by low­income families.  Using a multi­variate approach, the research examines a wide range of variables from existing federal, state, and local databases to estimate the effect of subsidies and other policies on child care quality, availability, price, and parent employment.</td>
+<td>ACF 9/30/97 to 9/30/01</td>
+<td>Wellesley College
+<p>Ann Dryden Witte Professor of Economics Wellesley College 106 Central Street Wellesley, MA 02181 (305) 365-0834 fax (305) 365-0896 wittea @ fiu.edu</p>
+</td>
+<td>Patricia L. Divine ACF/ACYF/CCB 330 C Street SW, Rm 2319 Washington, DC 20447 (202) 690-6705 fax (202)690-5600 pdivine @ acf.dhhs.gov</td>
+</tr><tr><td>How is Welfare Reform Influencing Child Care Supply &amp; Parental Choices?
+<p><em>A project of the Child Care Bureau's Policy Research Consortium</em></p>
+</td>
+<td>This project involves two substudies to track the unfolding of welfare reform and related changes in child care markets as well as how these changes may be affecting children's early development.  First, how is the availability and quality of preschool and child care facilities changing?  Second, how are welfare families in Connecticut selecting different types of care, how are these decisions related to children's early learning and development, and how do the contextual dynamics of community child care supply affect family decisions?</td>
+<td>ACF 9/30/97 to 9/30/01</td>
+<td>California Child Care Resource &amp; Referral Network
+<p>Patricia Siegel Executive Director California Child Care Resource &amp; Referral Network 111 New Montgomery St, 7th Floor San Francisco, CA 94105 (415) 882-0234 fax: (415) 882-6233 patti @ rrnetwork.org</p>
+</td>
+<td>Patricia L. Divine ACF/ACYF/CCB 330 C Street SW, Rm 2319 Washington, DC 20447 (202) 690-6705 fax (202)690-5600 pdivine @ acf.dhhs.gov</td>
+</tr><tr><td>Neighborhoods, Parent Involvement &amp; Child Outcomes for Low­Income Families:  A Comparison of Head Start with Other Programs
+<p><em>A project of the Child Care Bureau's Policy Research Consortium</em></p>
+</td>
+<td>This partnership brings together three distinctive data bases on low­income families and children.  These data bases are being merged to study factors related to the supply of different types of early child care services including Head Start, preschool, and different forms of center or family­based care and their use by low­income families.  A particular interest is how parental involvement in the child's out­of­home care or early education program relates to sustainability of positive developmental outcomes as children enter kindergarten and elementary school.</td>
+<td>ACF 9/30/97 to 9/30/01</td>
+<td>Harvard School of Public Health
+<p>Mary (Maya) Carlson Project on Human Development in Chicago Development Task Force on Children &amp; Democracy Harvard University 1430 Massachusetts Av Cambridge, MA 02138 (617) 495-5380 fax: (617) 495-5633 mary_carlson @ hms.harvard.edu</p>
+</td>
+<td>Patricia L. Divine ACF/ACYF/CCB 330 C Street SW, Rm 2319 Washington, DC 20447 (202) 690-6705 fax (202)690-5600 pdivine @ acf.dhhs.gov</td>
+</tr><tr><td>Oregon Child Care Policy Research Project
+<p><em>A project of the Child Care Bureau's Policy Research Consortium</em></p>
+</td>
+<td>Through Residency Roundtables, research and policy experts are being be brought together to address critical issues such as quality from a parent perspective, data standardization, and benchmarking.  This project focuses on three areas:  consumer behavior, community and state needs assessment, and welfare reform.</td>
+<td>ACF 9/30/97 to 9/29/01</td>
+<td>Linn-Benton Community College, Albany, Oregon
+<p>Bobbie Weber, Chair Family Resources Linn Benton Community College 6500 Pacific Blvd Albany, OR 97321 (541) 917-4903 fax: (541) 917-4445 weberb @ gw.lbcc.or.us</p>
+</td>
+<td>Patricia L. Divine ACF/ACYF/CCB 330 C Street SW, Rm 2319 Washington, DC 20447 (202) 690-6705 fax (202)690-5600 pdivine @ acf.dhhs.gov</td>
+</tr><tr><td>NCCP Child Care Research Partnership
+<p><em>A project of the Child Care Bureau's Policy Research Consortium</em></p>
+</td>
+<td>NCCP is the leader of a child care research partnership consisting of 11 partners, including the Manpower Demonstration Research Corporation (MDRC), Rutgers University, state­level partners in Illinois, Maryland and New Jersey, and city­level partners from New York City.  The partnership is examining issues in four general areas:  (1) The nature of low­income child care markets;  (2) The effects of welfare and child care policies on child care and children's development;  (3) The dynamics and qualities of license­exempt child care;  and (4) The child care issues for special populations.</td>
+<td>ACF 9/30/97 to 9/29/01</td>
+<td>The National Center for Children in Poverty, Columbia University School of Public Health (NCCP)
+<p>J. Lawrence Aber NCCP, Columbia University School of Public Health 154 Haven Av, 3<sup>rd</sup> floor New York, NY 10032 (212) 304-7101 fax: (212) 544-4200 jla12 @ columbia.edu</p>
+</td>
+<td>Patricia L. Divine ACF/ACYF/CCB 330 C Street SW, Rm 2319 Washington, DC 20447 (202) 690-6705 fax: (202)690-5600 pdivine @ acf.dhhs.gov</td>
+</tr><tr><td>A Study of Child Care Subsidy Duration</td>
+<td>This project is a five­state study of relationships between state subsidy policies, the duration of individual subsidy use, patterns of child care, and duration of individual child care arrangements.  Participating states include Florida, Illinois, Maryland, Massachusetts, and Oregon.  Child care policies related to the Child Care and Development Fund, Temporary Assistance to Needy Families and state­funded subsidy programs will be examined.</td>
+<td>ACF 9/30/98 to 1/31/00</td>
+<td>Oregon State University
+<p>Marcia K. Meyers Columbia University School of Social Work 622 W. 113<sup>th</sup> Street New York, NY 10025 (212) 854-3358</p>
+</td>
+<td>Patricia L. Divine ACF/ACYF/CCB 330 C Street SW, Rm 2319 Washington, DC 20447 (202) 690-6705 fax (202) 690-5600 pdivine @ acf.dhhs.gov</td>
+</tr><tr><td>Child Care Performance Measurement</td>
+<td>This project will convene two workshops to provide a critical assessment of current and emerging efforts to establish performance measures for early childhood programs, to learn lessons from performance measurement initiatives in other policy areas such as public health, and, based on this background information, to discuss criteria for developing performance measures in child care, the range of context areas that such measures might encompass, and the current status of data sources necessary to the development of child care performance measures.</td>
+<td> ACF</td>
+<td>National Research Council / National Academy of Sciences Commission on Behavioral &amp; Social Sciences &amp; Education Division on Social &amp; Economic Studies
+<p>Michelle Kipke NAS/NRC 2101 Constitution Av, NW Washington, DC 20418 (202) 334-3883 mkipke @ nas.edu</p>
+</td>
+<td>Michael Dubinsky ACF/OPRE 370 L'Enfant Promenade, SW Washington, DC 20447 (202) 401-3442 mdubinsky @ acf.dhhs.gov</td>
+</tr><tr><td>Head Start Family &amp; Child Experiences Survey (FACES)</td>
+<td>FACES is a national representative longitudinal study of 3200 children and families in 40 Head Start programs, including parent and staff interviews, direct child assessments, observations of classroom quality.  Includes child care history and current use.  Data collection at program entry, exit, and kindergarten follow up.</td>
+<td>ACF Contracts awarded 7/96; data collection through Spring 2001.</td>
+<td>Team of researchers, including:  Nicholas Zill and Gary Resnick, Westat, Inc.; David Connell, Abt Associates; Ruth Hubbell McKey, Ellsworth Associates; Robert O'Brien, The CDM Group
+<p>Team of researchers.</p>
+</td>
+<td>Louisa B. Tarullo ACF/ACYF Switzer Bldg, Rm. 2130 330 C Street SW Washington, DC 20201 (202) 205-8324 fax: (202) 205-9721 lbtarullo @ acf.dhhs.gov</td>
+</tr><tr><td>National Longitudinal Study of Children &amp; Families in the Child Welfare System</td>
+<td>This study will assess service needs and service provision for families who come into contact with the child welfare system, including the need for and access to child care, and the association between service provision and child and family outcomes.</td>
+<td>ACF 9/97  9/03.</td>
+<td>Research Triangle Institute; subcontracts with UC, Berkeley, the University of North Carolina at Chapel Hill, and Caliber Associates
+<p>Katy Dowd, Director Survey Research Division Research Triangle Institute P.O. Box 12194 Research Triangle Park, NC 27709 (919) 541-6026 fax: (919) 541-1261 mfw @ rti.org</p>
+</td>
+<td>Mary Bruce Webb ACF/ACYF Switzer Bldg Rm 2132 330 C St, SW Washington, DC 20047 (202) 205-8628 fax: (202) 205-9552 mbwebb @ acf.dhhs.gov</td>
+</tr><tr><td>Early Head Start (EHS) Research &amp; Evaluation Project</td>
+<td>Cross­site study of 17 EHS programs in diverse communities throughout the country.  If is a longitudinal study of 3,000 infants and toddlers and their families randomly selected into EHS program and comparison groups and includes parent and staff interviews, direct child assessments, observations of parent child relationships and child care settings.  Data collection in conducted when children are 14, 24, and 36 months of age and 6, 15, and 26 months after random assignment.  The study includes program implementation and impacts, and embedded studies of child care, welfare reform, fathers, and others.</td>
+<td>ACF Contract awarded 9/95; data collection through Spring, 2001.</td>
+<td>Mathematica Policy Research, Inc.;  subcontracts with Columbia University Center for Youth Children &amp; Families, and 15 local research universities
+<p>John Love MPR PO Box 2393 Princeton, NJ 08543-2393 (609) 275-2245 fax: (609) 799-0005 jlove @ mathematica-mpr.com</p>
+</td>
+<td>Louisa B. Tarullo ACF/ACYF Switzer Bldg, Rm. 2130 330 C St SW Washington, DC 20201 (202) 205-8324 fax: (202) 205-9721 lbtarullo @ acf.dhhs.gov</td>
+</tr><tr><td>Assessing Low­Income Families' Use of Child Care &amp; Child Care Subsidies</td>
+<td>This project will provide state­level estimates of child care need and subsidy eligibility using the TRIM3 microsimulation model applied to three years of CPS data.  It will also compile from subsidy and resource and referral agencies in nine states administrative data and information relating to waiting lists for subsidies, supply and price of child care in these states and selected localities.</td>
+<td>ACF &amp; ASPE 5/99 to 12/99</td>
+<td>ACF &amp; ASPE
+<p>Gina Adams The Urban Institute 200 M Street, NW Washington, DC 20337 (202) 261-5674 fax: (202) 452-1840 gadams @ ui.urban.org</p>
+</td>
+<td>Martha Moorehouse ASPE/HSP, Rm 450G 200 Independence Av, SW Washington, DC 20201 (202) 690-6939 fax: (202) 690-5514 martha.moorehouse @hhs.gov</td>
+</tr><tr><td>NICHD Study of Early Child Care:  Head Start Substudy</td>
+<td>The Head Start Substudy focuses on special analyses of child, family, and child care variables for low income children, both those eligible for Head Start and those slightly above poverty, including a study of child care use simultaneous to Head Start.</td>
+<td>ACF and NICHD Interagency agreement signed 9/95; ongoing analyses in SECC Phase II</td>
+<td>NICHD Early Childhood Network with Research Triangle Institute
+<p>NICHD Early Childhood Network with Research Triangle Institute</p>
+</td>
+<td>Louisa B. Tarullo ACF/ACYF Switzer Bldg, Rm. 2130 330 C Street SW Washington, DC 20201 (202) 205-8324 fax: (202) 205-9721 lbtarullo @ acf.dhhs.gov
+<p>Sarah Friedman NICHD 6100 Executive Blvd. 4BO5C Rockville, MD 20852 (301) 496-6591 fax (301) 402-2085 sf39e @ nih.gov</p>
+</td>
+</tr><tr><td>Child Health &amp; Development Programs in the Context of Welfare Reform</td>
+<td>This project will identify and present profiles of promising federal, state, and community­based programs, including child care programs, believed to be enhancing the health and development of children in the context of welfare reform.</td>
+<td>ASPE 7/1/97 to 1/31/99</td>
+<td>Mathematica Policy Research, Inc. (MPR) / National Center for Children &amp; Policy (NCCP)
+<p>Ellen Kisker MPR P.O. Box 2393 Princeton, NJ 08543-2393 (609) 799-3535 fax (609) 799-0005 ekisker @ mathematica-mpr.com</p>
+</td>
+<td>Martha Moorehouse ASPE/HSP, Rm 450G 200 Independence Ave. SW Washington, DC 20201 202-401-6939 fax 202-690-5514 martha.moorehouse @hhs.gov</td>
+</tr><tr><td>Grants to States:  Welfare Leavers</td>
+<td>As part of larger studies monitoring outcomes for families that leave the TANF program, several states and counties will use administrative records or survey questions to study child care among TANF leavers.</td>
+<td>ASPE 9/98; project periods vary from 12  24 months.</td>
+<td>Thirteen TANF agencies in the following states or communities:  Arizona; Cuyahoga County, OH; District of Columbia; Florida; Georgia; Illinois; Los Angeles County, CA; Massachusetts; Missouri; New York; San Mateo County, CA; Wisconsin; Washington
+<p>Various:  contact HHS Contact for information on specific grantee</p>
+</td>
+<td>Julie Isaacs ASPE/HSP, Rm 404E 200 Independence Ave, SW Washington, DC 20201 202-690-6805 fax 202-690-6562 julia.isaacs @ hhs.gov</td>
+</tr><tr><td>Project on the Health &amp; Safety of Children in Child Care</td>
+<td>This project will synthesize the literature around the child care health and safety standards found in Stepping Stones to Using Caring for Our Children and produce two research briefs, including one focused on the cost of implementing the standards in out­of­home child care settings, and a tool that parents can use to assess health and safety practices in child care facilities.</td>
+<td>ASPE &amp; MCHB 9/1/99 - 2/28/01</td>
+<td>National Resource Center for Health &amp; Safety in Child Care, University of Colorado School of Nursing
+<p>Ruth Neil National Resource Center for Health &amp; Safety in Child Care University of Colorado Health Sciences Center at Fitzsimmons Campus Mail Stop F541 PO Box 6508 Aurora, CO 80045-0508 (303) 724-0665 fax: (303) 724-0960 Ruth.Neil @ uchsc.edu</p>
+</td>
+<td>Martha Moorehouse ASPE/HSP, Rm 450G 200 Independence Av, SW Washington, DC 20201 (202) 690-6939 fax: (202) 690-5514 martha.moorehouse @hhs.gov</td>
+</tr><tr><td>Child Care Task Under the Trim Micro­analytic Modeling Contract</td>
+<td>The Urban Institute will add a new child care "module" to the TRIM3 micro­simulation model, to simulate child use and expenditures, as well as eligibility for, and utilization of, subsidies.</td>
+<td>ASPE Start date 10/98; end date 10/99.</td>
+<td>The Urban Institute
+<p>Linda Giannarelli Urban Institute 2100 M St., NW Washington, DC 20037 (202) 261-5553 fax: (202) 833-4388 lgiannar @ ui.urban.org</p>
+</td>
+<td>Julie Isaacs ASPE/HSP, Rm 404E 200 Independence Av, SW Washington, DC 20201 (202) 690-7882 fax: (202) 690-6562 julia.isaacs @ hhs.gov</td>
+</tr><tr><td>The NICHD Study of Early Child Care</td>
+<td>The goal of Phase II of the NICHD Study of Early Child Care is to extend a collaborative (10-site) prospective longitudinal study of a cohort of 1247 children and their families, first enrolled at one month of age and studied intensively through age 3 (Phase I).  The investigators propose to follow these subjects through first grade in order to investigate: (a) the effects of early alternate care (defined in terms of quality, quantity, type, onset age, and stability) on children's development during the preschool years and the transition to school; (b) the ways in which the effects of early alternate care are moderated by child characteristics and by experiences in the family and in school; and (c) the mediating processes linking early alternate care experiences with later outcomes.</td>
+<td>NICHD 1991 to present</td>
+<td>Early Child Care Network
+<p>Early Child Care Network; various investigators.  Contact the Public Information &amp; Communication Branch at NICHD [Building 31, 2A32, 31 Center Drive, MSC 2425, Bethesda, MD 20892-2425] for information on individuals involved.</p>
+</td>
+<td>Sarah Friedman NIH/NICHD 6100 Executive Blvd 4BO5C Rockville, MD 20852 (301) 496-6591 fax (301) 402-2085 sf39e @ nih.gov</td>
+</tr><tr><td>Demographic Aspects of Child Care &amp; Long Term Effects</td>
+<td>This project will examine the measurement, parental choices, and developmental consequences of child care arrangements.  The research uses a variety of large, extant, national data sources to assess the comparability of alternative child care measurement strategies, and to explore the characteristics of families and children who use different types of child care arrangements.</td>
+<td>NICHD 1996 to 1999</td>
+<td>Kathleen M. Harris University of North Carolina at Chapel Hill 440 W. Franklin St. CB 1350 Chapel Hill, NC 27599-1350</td>
+<td>Jeff Evans NIH/NICHD Demographic &amp; Behavioral Sciences Branch 6100 Executive Blvd, Rm 8B13 Bethesda, MD 20892 (301) 496-1176 fax: (303)496-0962 cb112e @ nih.gov</td>
+</tr><tr><td>Family Structure, Work Conditions, &amp; Sick Child Care</td>
+<td>The goal of this project is to use a social ecological theoretical framework to examine how family structure and parental work affect the care of sick children.</td>
+<td>NICHD 1998 to present</td>
+<td>Sally J. Heymann Harvard University 1550 Massachusetts Av Cambridge, MA 02139</td>
+<td>Chris Bachrach NIH/NICHD, Demographic &amp; Behavioral Sciences Branch 6100 Executive Blvd, Rm 8B13, Bethesda, MD 20892 (301) 496-1174 fax: (303)496-0962 cb112e @ nih.gov</td>
+</tr><tr><td>Impacts of Child Care Regulations</td>
+<td>This goal of this project is to determine whether child care regulations provide the improvement in child outcomes that is the foundation of the justification for regulations.  First, it will estimate preschool care mode choice simultaneously with care price, hours of care and mother's labor force participation.  Second, it will estimate child outcome production functions controlling for the selectivity of families choosing particular care modes using results from the first stage with data from the National Longitudinal Survey of Youth Child Data (NLSY-C).</td>
+<td>NICHD 1998 to present</td>
+<td>M. R. Kilburn RAND Corporation</td>
+<td>Jeff Evans NIH/NICHD Demographic &amp; Behavioral Sciences Branch 6100 Executive Blvd, Rm 8B13 Bethesda, MD 20892 (301) 496-1176 fax: (303)496-0962 cb112e @ nih.gov</td>
+</tr><tr><td>Effects of Home &amp; Out­of­home Care in Child Development</td>
+<td>This project involves two longitudinal studies, one being conducted in Sweden and the other in Berlin.  The Sweden study was designed to elucidate the effects of center day care, family day care, and home care on the development of children at an average of 16 months of age.  In the Berlin study, researchers are assessing the psychophysiological and behavioral tendencies of infants at home in order to assess the effects of prior individual differences in emotional reactivity and infant­mother attachment on the adaptation to out­of­home center care.</td>
+<td>NICHD 1982 to present</td>
+<td>M E. Lamb Chief NICHD 9190 Rockville Pike Bethesda, MD 20814 (301) 496-0420</td>
+<td>M.E. Lamb</td>
+</tr><tr><td>Fragile Families &amp; Child Well­Being</td>
+<td>This birth-cohort study addresses nonmarital childbearing, fathering, and welfare reform.  The study considers economic and social conditions of fathers and mothers, relationships between parents, children and extended kin, well-being of parents and children, and the role of labor markets, government policies including child support enforcement, and environmental conditions including availability of childcare.</td>
+<td>NICHD 1998 to 2003</td>
+<td>Sara S. Mc Lanahan Princeton University Office of Population Research 21 Prospect Ave Princeton, NJ 08544-2091</td>
+<td>Jeff Evans NIH/NICHD Demographic &amp; Behavioral Sciences Branch 6100 Executive Blvd, Rm 8B13 Bethesda, MD 20892 (301) 496-1174 fax: (310) 496-0962 cb112e @ nih.gov</td>
+</tr><tr><td>The Los Angeles Study of Families &amp; Communities</td>
+<td>This study examines associations between neighborhood characteristics, family life, family choices about geographic mobility, and children's well-being. Factors considered include family social and economic status and background, labor force participation, family dynamics and parenting, social ties, geographic mobility, neighborhood attitudes and involvement and family use of publicly and privately funded child-related services.</td>
+<td>NICHD 1998 to 2003</td>
+<td>Anne R. Pebley RAND 1700 Main St. PO Box 2138 Santa Monica, CA 90407-2138</td>
+<td>Jeff Evans NIH/NICHD Demographic &amp; Behavioral Sciences Branch 6100 Executive Blvd, Rm 8B13 Bethesda, MD 20892 (301) 496-1174 fax: (310) 496-0962 cb112e @ nih.gov</td>
+</tr><tr><td>Predictors &amp; Adjustment Outcomes of After­school Care</td>
+<td>This study will investigate the developmental histories and behavioral consequences of after school care of 570, 9 to 11 year old European­American and African­American children since kindergarten. The data analysis will focus on the concurrent and cumulative effects of after school care on children's behavioral and psychological adjustment and the degree to which these effects are moderated by geographic location, community risk, parent child relationships, child characteristics, and family demographic characteristics.</td>
+<td>NICHD 1993 to present</td>
+<td>Gregory S. Pettit Auburn University Dept. of Family &amp; Child Development 203 Spidle Hall Auburn, AL 36849-5604</td>
+<td>Reid Lyon NIH/NICHD 6100 Executive Blvd, Rm 4 Rockville, MD 20852 (301) 496-5097</td>
+</tr><tr><td>Head Start, Child Care, &amp; TANF Needs Assessments</td>
+<td>This inspection will describe the needs assessments, referral processes, and subsequent provision of support services in Head Start, TANF, and CCDF child care programs in six local communities.</td>
+<td>OIG Start date:  9/98;  final report expected 1999.</td>
+<td>Office of Inspector General, Office of Evaluation &amp; Inspections, Region V
+<p>Emily Melnick &amp; Joe Penkrot Office of Inspector General Office of Evaluation &amp; Inspections 105 W. Adams, 23<sup>rd</sup> Floor Chicago, IL 60640 Emily Melnick (312) 353-9868 Joe Penkrot (312) 353-0597 fax: (312) 353-1421</p>
+</td>
+<td>Emily Melnick &amp; Joe Penkrot Office of Inspector General</td>
+</tr><tr><td>Role of Child Care in Low­Income Families' Labor Market Participation</td>
+<td>This project developed optional research designs to identify and address child care services needed by parents to succeed at work, keeping in mind the role quality care plays in childrens' and parents' lives.  The major work under this contract also consists of a series of stand­alone working papers on quality, cost, and flexibility that critically evaluate relevant research related to child care and labor force attachment, and that develops the rationale for the factors included in the research designs.</td>
+<td>ACF 9/15/97 to 12/18/98</td>
+<td>Mathematica Policy Research, Inc. (MPR) &amp; Urban Institute
+<p>Christine Ross MPR 600 Maryland Ave, SW, Suite 550 Washington, DC 20024-2512 (202) 484-4235 fax: (202) 863-1763 cross @ mathematica-mpr.com</p>
+</td>
+<td>Richard Jakopic ACF/OPRE 370 L'Enfant Promenade, SW, 7<sup>th</sup> floor Washington, DC 20447 202/205-5930 fax 202/205-3598 rjakopic @ acf.dhhs.gov</td>
+</tr><tr><td>Improving States' Capability to Evaluate Child Care Policy Options in Welfare­to­Work Programs</td>
+<td>This project contributed to the development of an expanded simulation model  MATH STEWARD  that enables states as they design Temporary Assistance for Needy Families (TANF) and child care subsidy programs to promote employment among welfare recipients.</td>
+<td>ACF 7/1/97 to 7/31/98</td>
+<td>Mathematica Policy Research, Inc. (MPR) &amp; Urban Institute
+<p>Christine Ross MPR 600 Maryland Ave., SW, Suite 550 Washington, DC 20024-2512 (202) 484-4235 fax: (202) 863-1763 cross @ mathematica-mpr.com</p>
+</td>
+<td>Richard Jakopic ACF/OPRE 370 L'Enfant Promenade, SW, 7th floor Washington, DC 20447 (202) 205-5930 fax: (202) 205-3598 rjakopic @ acf.dhhs.gov</td>
+</tr><tr><td>Improving States' Capability to Evaluate Child Care Policy Options in Welfare­to­Work Programs</td>
+<td>This project will contribute to the development of an expanded simulation model  MATH STEWARD  that will enable states as they design Temporary Assistance for Needy Families (TANF) and child care subsidy programs to promote employment among welfare recipients.</td>
+<td>ACF 7/1/97 to 7/31/98</td>
+<td>Mathematica Policy Research, Inc. (MPR)
+<p>Christine Ross MPR 600 Maryland Ave., SW, Suite 550 Washington, DC 20024-2512 (202) 484-4235 fax: (202) 863-1763 cross @ mathematica-mpr.com</p>
+</td>
+<td>Richard Jakopic ACF/OPRE 370 L'Enfant Promenade, SW, 7<sup>th</sup> floor Washington, DC 20447 (202) 205-5930 fax: (202) 205-3598 rjakopic @ acf.dhhs.gov</td>
+</tr><tr><td>An Economic Rationale for Government Intervention in the Child Care Market</td>
+<td>The purpose of this project is to describe the child care market for low­income families, examine the failures of that market, and to discuss the effectiveness of different types of government interventions in the child care market.  It will also examine the long­term economic costs to society of failing to provide child care that meets basic health and safety of children.</td>
+<td>ASPE 9/30/98 to 12/31/98</td>
+<td>The Urban Institute
+<p>Stefanie Schmidt The Urban Institute 2100 M St, NW Washington, DC 20037 (202) 261-5795 fax (202) 728-0231 sschmidt @ ui.urban.org</p>
+</td>
+<td>Martha Moorehouse ASPE/HSP, Rm 450G 200 Independence Av SW Washington, DC 20201 (202) 401-6939 fax (202) 690-5514 martha.moorehouse @hhs.gov</td>
+</tr><tr><td>Children's After­school Arrangements</td>
+<td>This project will examine the after school arrangements parents choose for their school age children, the effects of different care arrangements on children's development, and the aspects of after school care which are important for children's development.</td>
+<td>NICHD 1993 to 1998</td>
+<td>Edward F. Zigler Yale University Department of Psychology 11A Yale Station New Haven, CT 06520</td>
+<td>Reid Lyon NIH/NICHD 6100 Executive Blvd, Rm 4 Rockville, MD 20852 (301) 496-5097 rl60a @ nih.gov</td>
+</tr><tr><td>After­School Care &amp; Child Development</td>
+<td>This is a longitudinal, five year study of 150 children from first through the fifth grades enrolled in formal after­school programs.  Child outcomes to be studied in relation to these after­school experiences include academic and conduct grades, achievement test scores, work habits, self esteem, depression, behavior problems, peer relationships, and loneliness.</td>
+<td>NICHD 1993 to 1998</td>
+<td>Deborah L. Vandell Wisconsin University Educational Research 1025 W. Johnson St. Madison, WI 53706</td>
+<td>Reid Lyon NIH/NICHD 6100 Executive Blvd, Rm 4 Rockville, MD 20852 (301) 496-5097 rl60a @ nih.gov</td>
+</tr><tr><td>Child Support, Child Care, &amp; Child Well­Being</td>
+<td>The first part of this study explores the relationships between child support awards, the non­custodial parent's (NCP) willingness to pay child support, state enforcement efforts, and compliance with the awards.  The second part investigates the effect of the Child Care Tax Credit (CCTC) in the U.S. income tax system on the labor supply decisions of mothers with young children and on the choice of child care.</td>
+<td>NICHD 1993 to 1998</td>
+<td>H. E. Peters Cornell University Consumer Economics &amp; Housing 133 MUR Hall Ithaca, NY 14853</td>
+<td>Jeff Evans NIH/NICHD Demographic &amp; Behavioral Sciences Branch 6100 Executive Blvd, Rm 8B13 Bethesda, MD 20892 (301) 496-1176 fax: (303)496-0962 cb112e @nih.gov</td>
+</tr><tr><td>Social Ecology of After­school Care</td>
+<td>This study investigates:  (1) the after­school arrangements of White, African­American, and Puerto­Rican 6-12 year old boys and girls, who vary in socioeconomic status (SES); and (2) the impact of these arrangements on the development of these children, through a prospective longitudinal study of a stratified random sample of 240 children.</td>
+<td>NICHD 1993 to 1998</td>
+<td>Nancy L. Marshall Wellesley College Center for Research on Women 106 Central St. Wellesley, MA 02181-8259</td>
+<td>Reid Lyon NIH/NICHD 6100 Executive Blvd, Rm 4 Rockville, MD 20852 (301) 496-5097 rl60a @ nih.gov</td>
+</tr><tr><td>Welfare Reform &amp; the Well­Being of Children</td>
+<td>This project will study the effects of welfare reform on children in three important Northeastern and Midwestern cities, Baltimore, Boston, and Chicago, over a five­year period.  The conceptual framework is the economic household production model, supplemented with perspectives on child development drawn from the developmental psychology literature and informed by insights from ethnographic research.</td>
+<td>NICHD 1997 to 1998</td>
+<td>Andrew J. Cherlin John Hopkins University 105 Ames Hall 3400 N. Charles St. Baltimore, MD 21218-2686</td>
+<td>Chris Bachrach NIH/NICHD Demographic &amp; Behavioral Sciences Branch 6100 Executive Blvd, Rm 8B13 Bethesda, MD 20892 (301) 496-1174 fax: (303)496-0962 cb112e @ nih.gov</td>
+</tr><tr><td>Family &amp; Child Well­Being Research Network</td>
+<td>The aim of this proposal is to elucidate the familial and extra­familial factors that influence the well­being of children (and their parents) during two developmental periods ­ the early childhood years and the early elementary school years.  Of particular interest is understanding how familial and extra­familial factors interact with poverty and household structure (single parent, father present, other adult present), and maternal employment to produce child and parent outcomes.</td>
+<td>NICHD 1993 to 1998</td>
+<td>Jeanne Brooks-Gunn Teachers College Columbia University 525 W. 120<sup>th</sup> St. New York, NY 10027</td>
+<td>Jeff Evans NIH/NICHD Demographic &amp; Behavioral Sciences Branch 6100 Executive Blvd, Rm 8B13 Bethesda, MD 20892 (301) 496-1176 fax: (303)496-0962 cb112e @ nih.gov</td>
+</tr><tr><td>Demand for &amp; Supply of Quality in Care</td>
+<td>The goals of this project are to study the effects of family and child characteristics and the attributes of child care arrangements on the well­being of children and those that affect convenience, reliability, and other features not directly associated with child well­being.  These estimates will provide the information needed to assess the demand for quality in child care, and how the demand for quality in child care would be affected by changes in government child care policies.</td>
+<td>NICHD 1993 to present</td>
+<td>David M. Blau University of North Carolina at Chapel Hill Dept. of Economics 206 Gardner Hall Chapel Hill, NC 27599-3305 (919) 966-3962 fax: (919) 966-4986 david_blau @ unc.edu</td>
+<td>Jeff Evans NIH/NICHD Demographic &amp; Behavioral Sciences Branch 6100 Executive Blvd, Rm 8B13 Bethesda, MD 20892 (301) 496-1176 fax: (303)496-0962 cb112e @ nih.gov</td>
+</tr><tr><td>OIG Draft Report:  Tribal Child Care</td>
+<td>The CCDF Tribal Mandatory Fund doubles tribal child care funds to $60 million a year.  This study reviewed the administration of these funds, tribal use of the funds, dual state/tribal eligibility issues, coordination with states, and other challenges to tribes.</td>
+<td>OIG Final report 12/98</td>
+<td>John Traczyk, Team Leader; Nora Leibowitz, Project Leader; Emily Melnick, Program Analyst; Ann O'Connor, Program Specialist; and Linda Hall, Program Specialist
+<p>Nora Leibowitz Office of the Inspector General Office of Evaluations &amp; Inspections 105 W. Adams St., 23<sup>rd</sup> floor Chicago, IL 60640 (312) 353-2597 fax: (312) 353-1421</p>
+</td>
+<td>Nora Leiborwitz Office of the Inspector General</td>
+</tr></tbody></table></div>
+
+  <div class="download_report">
+    
+                        <div class="pdf-prev">
+                <img src="https://aspe.hhs.gov/system/files/pdfpreview/2d9f73d603e77bd60d9e633050924a51.png" alt="Preview" title="Preview" />            </div>
+                <a class="btn btn-sm btn-default download-file"
+           href="https://aspe.hhs.gov/system/files/pdf/73561/ccresinv.pdf">Download</a>
+
+        <p class="download_title">&quot;ccresinv.pdf&quot;
+            (pdf,
+            345.76Kb)</p>
+        <p>Note: Documents in PDF format require the <a href="http://www.adobe.com/products/acrobat/readstep2.html">Adobe
+                Acrobat Reader&reg;</a>. If you experience problems with PDF documents, please <a
+                href="http://www.adobe.com/products/acrobat/readstep2.html">download the latest version of the
+                Reader&reg;</a>
+        </p>
+    </div>
+<div class="group-tags"><div class="field-label">Tags:&nbsp;</div><a href="/terms/early-childhood-and-school-readiness">Early Childhood and School Readiness</a><a href="/terms/child-care">Child Care</a></div>  </div>
+
+      <footer>
+          </footer>
+  
+    <div id="block-webform-client-block-158521" class="widget block block-webform" >
+  
+      
+  <div id="webform-ajax-wrapper-158521"><form class="webform-client-form webform-client-form-158521" action="/basic-report/inventory-child-care-research" method="post" id="webform-client-form-158521" accept-charset="UTF-8"><div><div class="webform-progressbar">
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-radios webform-component--was-this-page-helpful">
+  <label for="edit-submitted-was-this-page-helpful">Was this page helpful? <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-was-this-page-helpful" class="form-radios"><div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-1" name="submitted[was_this_page_helpful]" value="1" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-1">Yes </label>
+
+</div>
+<div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-2" name="submitted[was_this_page_helpful]" value="0" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-2">No </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="4" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-xPkh4MEorYgyXzn1JnI6-uP8DC2VUnezoZYT0qCle4I" />
+<input type="hidden" name="form_id" value="webform_client_form_158521" />
+<input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-158521" />
+<div class="form-actions"><input class="webform-next button-primary btn btn-default form-submit" type="submit" id="edit-webform-ajax-next-158521" name="op" value="Next &gt;" /></div>
+<div class="is-useful-disclaimer"> <a href="/%23" class="" title="Survey Disclaimer" data-toggle="modal" data-target="#disclamerModal">Form Approved OMB# 0990-0379 Exp. Date 8/31/2017</a></div>
+<div class="modal fade" id="disclamerModal" tabindex="-1" role="dialog" aria-labelledby="disclamerModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="disclamerModalLabel">Survey Disclaimer</h2>
+      </div>
+      <div class="modal-body">
+         According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this information collection is 0990-0379. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, gather the data needed, and complete and review the information collection. If you have comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: U.S. Department of Health & Human Services, OS/OCIO/PRA, 200 Independence Ave., S.W., Suite 336-E, Washington D.C. 20201, Attention: PRA Reports Clearance Officer.      </div>
+    </div>
+  </div>
+</div></div></form></div>
+  </div> <!-- /.block -->
+<meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/inventory-child-care-research" itemref="md1" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/inventory-child-care-research" itemref="md2 md3 md5 md7" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/early-childhood-and-school-readiness" id="md5" itemref="md4" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/child-care" id="md7" itemref="md6" />              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <footer  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Footer">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  id="footer_sitemap-footer_sitemap" class="col-sm-6 col-md-6 col-lg-4 ">
+                          
+                              <div id="block-footer-sitemap-footer-sitemap" class="widget block block-footer-sitemap" >
+  
+      
+  <div id="footer-sitemap" class="clearfix">
+  <div class="fs-block-content"><div class="menu-footer-utility"><ul class="footer_links_menu-footer-utility total-items-2 parent-items-0 single-items-0"><li class="menu-5021 depth-1 total-children-8 parent-children-0 single-children-8  first"><a href="/" title="look at ASPE Home" class="fs-root-link">ASPE Home</a><ul class="footer_links_menu-footer-utility total-items-8 parent-items-0 single-items-0"><li class="menu-5026 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/" title="look at HHS Home">HHS Home</a></li>
+<li class="menu-66281 depth-1 fs-no-children"><a href="http://www.usa.gov/" title="look at USA.gov">USA.gov</a></li>
+<li class="menu-66316 depth-1 fs-no-children"><a href="https://oig.hhs.gov/" title="look at Office of the Inspector General">Office of the Inspector General</a></li>
+<li class="menu-66321 depth-1 fs-no-children"><a href="http://www.whitehouse.gov" title="look at The White House">The White House</a></li>
+<li class="menu-5046 depth-1 fs-no-children"><a href="http://www.hhs.gov/Accessibility.html" title="look at Accessibility">Accessibility</a></li>
+<li class="menu-66326 depth-1 fs-no-children"><a href="http://www.hhs.gov/about/budget/index.html" title="look at Budget/Performance">Budget/Performance</a></li>
+<li class="menu-2551 depth-1 fs-no-children"><a href="http://www.hhs.gov/Privacy.html" title="look at Privacy Policy">Privacy Policy</a></li>
+<li class="menu-197776 depth-1 fs-no-children  last"><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" title="Nondiscrimination Notice">Nondiscrimination Notice</a></li>
+</ul></li>
+<li class="menu-5051 depth-1 total-children-4 parent-children-0 single-children-4  last"><a href="http://www.hhs.gov/foia/" title="look at FOIA" class="fs-root-link">FOIA</a><ul class="footer_links_menu-footer-utility total-items-4 parent-items-0 single-items-0"><li class="menu-5056 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/open/recordsandreports/plainwritingact/index.html" title="look at Plain Writing Act">Plain Writing Act</a></li>
+<li class="menu-5061 depth-1 fs-no-children"><a href="http://www.hhs.gov/asa/eeo/no_fear_bullet_3.html" title="look at No Fear Act">No Fear Act</a></li>
+<li class="menu-5066 depth-1 fs-no-children"><a href="http://www.hhs.gov/Disclaimer.html" title="look at Disclaimers">Disclaimers</a></li>
+<li class="menu-2546 depth-1 fs-no-children  last"><a href="http://www.hhs.gov/plugins.html" title="look at Viewers &amp; Players">Viewers &amp; Players</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-5 " id="stability_cms-contact_us">
+                          
+                              <div id="block-stability-cms-contact-us" class="widget block block-stability-cms" >
+  
+      
+  <div class="contacts-widget widget widget__footer">
+	<div class="widget-content">
+		<ul class="contacts-info-list">
+      			<li>
+<!--				<i class="fa fa-map-marker">Address</i>-->
+                <div class="info-icons">
+                    <img  alt="map" class= 'map-icons' src="/sites/all/themes/stability/stability_aspe/images/map.png"/>
+                </div>
+                <div class="info-item">
+					Assistant Secretary for Planning and Evaluation, Room 415F<br />
+U.S. Department of Health and Human Services<br />
+200 Independence Avenue, SW<br />
+Washington, D.C. 20201				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-phone">phone</i>-->
+                <div class="info-icons">
+                    <img alt="phone" src="/sites/all/themes/stability/stability_aspe/images/phone.png"/>
+                </div>
+				<div class="info-item">
+					+1 202.690.7858				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-envelope">email</i>-->
+                <div class="info-icons">
+                    <img alt="mail" src="/sites/all/themes/stability/stability_aspe/images/mail-white.png"/>
+                </div>
+				<span class="info-item">
+					<a href="mailto:osaspeinfo@hhs.gov">osaspeinfo@hhs.gov</a>
+				</span>
+			</li>
+      			                					</ul>
+	</div>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-3 " id="footer">
+                          
+                              <div id="block-block-36" class="widget block block-block" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sign-up</span> for Email Updates</h3>
+		</div>
+    
+  <div class="email_updates">
+<button class="btn btn-default" name="subscribe-button" type="submit" value="subscribe">subscribe</button>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-12 " id="menu-menu-footer-language-menu">
+                          
+                              <div id="block-menu-menu-footer-language-menu" class="widget block block-menu" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Language</span> Assistance Available</h3>
+		</div>
+    
+  <ul class="menu"><li class="first expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#spanish" title="Español">Español</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#chinese" title="繁體中文">繁體中文</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#vietnamese" title="Tiếng Việt">Tiếng Việt</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#korean" title="한국어">한국어</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#tagalog" title="Tagalog">Tagalog</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#russian" title="Русский">Русский</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#arabic" title="العربية">العربية</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#creole" title="Kreyòl Ayisyen">Kreyòl Ayisyen</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#french" title="Français">Français</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#polish" title="Polski">Polski</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#portuguese" title="Português">Português</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#italian" title="Italiano">Italiano</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#german" title="Deutsch">Deutsch</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#japanese" title="日本語">日本語</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#farsi" title="فارسی">فارسی</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#english" title="English">English</a></li>
+</ul></li>
+</ul>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+      </div>
+
+          </div>
+    
+    
+      </footer>
+    
+
+    <!--/PAGEWATCH-->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+                        </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="social-links-wrapper">
+              <span class="social-links-txt">Connect with us</span>
+              <ul class="social-links social-links__dark">
+                                                  <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw-grey.png"/></a></li>
+                                <!--                --><!--                  <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin-grey.png"/></a></li>-->
+<!--                -->
+                                                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>  <script type="text/javascript" src="/sites/default/files/advagg_js/js__VWRymaMz6HfrhnrcJNGcDiSvLVrvhaXvBa7nrBYy8gc__jntPwP3D6myJZH1jW19fXrk5cYMHGRL8NQION22VSEA__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5486d15a696bff0c"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__g6mKbcakHxQkz4ZHYaxdO_xqONINvRMgsHh1zAK-fr0__ATHtEmHaeZ0jidpGU22EkhmPDBSgjD8z0bVDQMI-BIY__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__KUp4PrfOt9BSXUVl8Ctb3dhCMBe4MNVMeb4Gyorx8yY__7g4BeXscCIZAfuu1vxsCj2RIemg-eEK0QpChP9LDmFQ__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__PNjAgubM_3xXRLp4uLsYnv8wQAdT89-RYkSPxT6T45c__rFQwFK4pA5ZaWZSF7FPTfKbbpus0h-5IS8ayrNZGrb4__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__vQiLul2UcfC4nBAR09mhYVBYzRmiNDm2dj3GgSubV38__w84oZe-ZODKe7XnnlbrjV4IWHISOy4PioFEMVgx9hZo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__QJw3g0kOdwsv4twSZLP931zBzsHy50VEHpEN_znIitQ__A6QOuWXElDipBM2iChbWhjAAt3KlUwZ-jODoxdpbwiw__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stability_aspe","theme_token":"PZroJxASuLotRB6O-jgpVDUkWRUW1Q_28fBSHmjd0Lc","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/footable.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/aspe_nodes.admin.css":1,"sites\/all\/modules\/custom\/aspe_views\/theme\/css\/aspe_views.admin.css":1,"sites\/all\/modules\/forked\/book\/book.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/openpublic\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.css":1,"profiles\/openpublic\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openpublic\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/openpublic\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/themes\/stability\/css\/bootstrap.min.css":1,"sites\/all\/themes\/stability\/css\/fonts\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.theme.css":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/stability\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/stability\/css\/theme.css":1,"sites\/all\/themes\/stability\/css\/theme-elements.css":1,"sites\/all\/themes\/stability\/css\/animate.min.css":1,"sites\/all\/themes\/stability\/css\/skins\/red.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/slideshow.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/font-main.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/styleless.less":1,"sites\/all\/themes\/stability\/css\/skins\/blue.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/aspe\/theme\/js\/aspe.login-confirm.js":1,"sites\/all\/modules\/custom\/aspe_report\/modules\/aspe_databooks\/js\/aspe_databooks.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.highcharts.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/datatables\/dataTables.min.js":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.min.js":1,"sites\/all\/libraries\/highcharts\/highcharts.js":1,"sites\/all\/libraries\/highcharts\/highcharts.exporting.js":1,"sites\/all\/libraries\/highcharts\/highcharts.map.js":1,"sites\/all\/libraries\/highcharts\/highcharts.us-all.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.footable.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5486d15a696bff0c":1,"misc\/progress.js":1,"profiles\/openpublic\/modules\/contrib\/webform\/js\/webform.js":1,"profiles\/openpublic\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/stability\/vendor\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/stability\/vendor\/bootstrap.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flexnav.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flickrfeed.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.sloppy-masonry.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.fitvids.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.stellar.min.js":1,"sites\/all\/themes\/stability\/vendor\/snap.svg-min.js":1,"sites\/all\/themes\/stability\/js\/custom.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/aspe.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/html5shiv.min.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/main-menu.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/keyboard-control.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tabBehavior.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tileStringTrimmer.js":1}},"webform":{"conditionals":{"webform-client-form-158521":{"ruleGroups":[],"sourceMap":[],"values":[]}}},"ajax":{"edit-webform-ajax-next-158521":{"callback":"webform_ajax_callback","wrapper":"webform-ajax-wrapper-158521","progress":{"message":"","type":"throbber"},"event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Next \u003E"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/basic-report\/inventory-child-care-research":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"([a-z0-9]\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This website contains links to other federal and state agencies and private organizations. The Department of Health and Human Services (HHS) cannot attest to the accuracy of information provided by these nonfederal website links. Linking to nonfederal sites does not constitute an endorsement by HHS or any of its employees of the sponsors or the information and products presented on the sites. You will be subject to the destination site\u0027s privacy policy when you leave the ASPE website.\r\n\r\nThank you for visiting aspe.hhs.gov!","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"stability":{"flickr_id":"52617155@N08","logo_sticky":"28"},"field_group":{"div":"full","hidden":"full"}});
+//--><!]]>
+</script>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config={pubid:"ra-5486d15a696bff0c",ui_click:false}
+//--><!]]>
+</script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4837db659","applicationID":"10708002","transactionName":"MwNaZBRSXEtXB0BdWQpJbUIPHFtWUgFMGkYMFg==","queueTime":0,"applicationTime":20,"atts":"H0RZElxIT0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

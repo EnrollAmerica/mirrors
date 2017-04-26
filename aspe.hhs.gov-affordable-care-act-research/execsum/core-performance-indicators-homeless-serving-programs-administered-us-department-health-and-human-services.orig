@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">  <!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://aspe.hhs.gov/sites/default/files/Favicon2.png" type="image/png" />
+<meta name="description" content="Contents Characteristics of the Four Homeless-Serving Programs Analysis of Measures Derived from Homeless Administrative Data Systems (HADS) Potential Core Performance Measures For Homeless-Specific Service Programs Application of Suggested Core Performance Measures To DHHS Mainstream Programs Serving Homeless Individuals" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://aspe.hhs.gov/execsum/core-performance-indicators-homeless-serving-programs-administered-us-department-health-and-human-services" />
+<link rel="shortlink" href="https://aspe.hhs.gov/node/98841" />
+<meta property="og:site_name" content="ASPE" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aspe.hhs.gov/execsum/core-performance-indicators-homeless-serving-programs-administered-us-department-health-and-human-services" />
+<meta property="og:title" content="Core Performance Indicators for Homeless-Serving Programs Administered by the U.S. Department of Health and Human Services" />
+<meta property="og:description" content="Contents Characteristics of the Four Homeless-Serving Programs Analysis of Measures Derived from Homeless Administrative Data Systems (HADS) Potential Core Performance Measures For Homeless-Specific Service Programs Application of Suggested Core Performance Measures To DHHS Mainstream Programs Serving Homeless Individuals" />
+<meta property="og:updated_time" content="2017-03-17T12:26:16-04:00" />
+<meta property="article:published_time" content="2015-11-23T03:57:02-05:00" />
+<meta property="article:modified_time" content="2017-03-17T12:26:16-04:00" />
+
+  <title>Core Performance Indicators for Homeless-Serving Programs Administered by the U.S. Department of Health and Human Services | ASPE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+  <link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__5ln8neBOcJfyUveiD4y9fhI6kHBLOQ_YL0mMC-LS9a0__TPJIZT9UBnf_685NlFTJ5KnZVsjwFk6ACQ-nwwygmwU__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ng49uRH5y4Hl9VF9hHW_vXOj-mcOc2u2ShJqJ1YKIGU__FoMCD14GBvZaRiqSQ_JpP1w3rDB21n7H2Ar4pRZaIh8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__Hskudx14OJ5Hz8vqU7CUgN6SDV5rINZuEq9VuGsSeyc__EwNIl3xeFrniW2TmonovTzhSs3X5MdFps210puE7jog__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__9rZoaX9BdzjjNucvYxduxeNAVO2zgW_Rvjhb5rq5whc__lSr_y16grDSgHf4booPChnF7QXz3TQY3hafH49twE0k__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZgfI_ZPib5yVY0o5aKo_6TFn946Tuu_nFDa0ySTmkSc__2FTFrNw2eNh0mpHIOA34r6YRwBZMm2PjJ_JubnwLigg__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__dxabpJ5rQgDSixKgLJZjWc1beC6mpROKwVrmWxI5eno__rqhz_hGsE_i59O7-W991o71_Jxw1QOtGMxn4nsOLHY8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZbRCq2NqWgK-HXAQI3So0N1n0nr4HonsJS3eQuuxukw__7Olkk8Locn8Dj0eR0Ww3rbV9lks9sxipcboMXB18RRs__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+
+	<!-- Head Libs -->
+	<script src="/sites/all/themes/stability/stability_aspe/vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/sites/all/themes/stability/vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" href="/sites/all/themes/stability/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/stability/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/stability/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/stability/images/apple-touch-icon-144x144.png">
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-98841 node-type-report-exec-sum">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-JLFR"
+                  height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JLFR');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-nav" class="accessibility_menu">
+    <strong>Shortcut Navigation:</strong>
+    <ul>
+      <li><a href="#content" accesskey="c" title="Skip to page content (ctrl/alt + c)">Page Content</a></li>
+      <li><a href="#nav" accesskey="m" title="Skip to main navigation menu (ctrl/alt + m)">Site Navigation</a></li>
+
+      <li><a href="#Footer" accesskey="f" title="Skip to footer (ctrl/alt + f)">Footer</a></li>
+    </ul>
+  </div>
+
+    
+<div class="site-wrapper">
+  
+  <header class="header header-menu-fullw header-top-clean">
+    <div id="brand-bar">
+        <div class="container">
+                    <img alt='bird' src="/sites/all/themes/stability/stability_aspe/images/bird.png"> <a target="blank" tabindex="4" href="http://www.hhs.gov/">U.S. Department of Health & Human Services</a>
+        </div>
+
+    </div>
+    <div class="header-main">
+        <div class="container clearfix">
+            <div class="social-links-wrapper">
+                <ul class="social-links social-links__light">
+                                                          <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw.png"/></a></li>
+                                    <!--                  --><!--                    <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin.png"/></a></li>-->
+<!--                  -->
+                                                                      </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                                <div class="site_name_wrapper">
+                                     <span class="h1">
+                                      <a href="/">ASPE</a>
+                                       </span>
+                                  <p class="tagline"><p>Office of The Assistant Secretary</p><p> for Planning and Evaluation</p></p>
+                    </div>
+            </div>
+            <!-- Logo / End -->
+            <div class="header_right_wrapper">
+                <div class="search-form">
+                    <form action="/execsum/core-performance-indicators-homeless-serving-programs-administered-us-department-health-and-human-services" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class = "input-group"><div class="form-type-textfield form-item-search-block-form form-item form-group">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search Site..." class="form-control form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input class="btn btn-primary btn-icon form-submit" type="image" id="edit-submit" name="submit" value="Search" src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/search-white2.png" alt="Search" title="Search" /></div></div><input type="hidden" name="form_build_id" value="form-fDXiQNo8WhDd0TItEwmb43eccvsGjXU7e1YBeeMraAQ" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </div>
+                <button type="button" class="navbar-toggle" value="Menu">
+                    <i class="fa fa-bars"></i>Menu
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-main">
+        <div class="container">
+          <ul data-breakpoint="767" class="flexnav">
+                <li class="first expanded"><a href="/basic-search/about" title="">About</a><ul><li class="first leaf"><a href="/mission" title="">Mission</a></li>
+<li class="leaf"><a href="/key-staff" title="">Leadership</a></li>
+<li class="leaf"><a href="https://www.usajobs.gov/" title="">Careers</a></li>
+<li class="expanded"><a href="/coordination" title="linkTo">Coordination</a><ul><li class="first leaf"><a href="/evaluation-evidence" title="">Evaluation &amp; Evidence</a></li>
+<li class="leaf"><a href="/national-alzheimers-project-act">National Alzheimer&#039;s Project Act</a></li>
+<li class="leaf"><a href="/health-and-human-services-hhs-data-council">HHS Data Council</a></li>
+<li class="last leaf"><a href="/national-committee-vital-and-health-statistics" title="National Council on Vital and Health Statistics">National Council on Vital and Health Statistics</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/divisions" title="">Offices</a><ul><li class="first leaf"><a href="/office-disability-aging-and-long-term-care-policy-daltcp">Disability, Aging, and Long-Term Care Policy</a></li>
+<li class="leaf"><a href="/office-health-policy-hp">Health Policy</a></li>
+<li class="leaf"><a href="/office-human-services-policy">Human Services Policy</a></li>
+<li class="last leaf"><a href="/office-science-and-data-policy">Science and Data Policy</a></li>
+</ul></li>
+<li class="leaf"><a href="/strategic-planning" title="Strategic Planning">Strategic Planning</a></li>
+<li class="last leaf"><a href="/contact-aspe" title="">Contact ASPE</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/topics" title="">Topics</a><ul><li class="first leaf"><a href="/affordable-care-act-research">Affordable Care Act Research</a></li>
+<li class="leaf"><a href="/alzheimers-dementia">Alzheimer&#039;s / Dementia</a></li>
+<li class="leaf"><a href="/early-childhood">Early Childhood</a></li>
+<li class="leaf"><a href="/incarceration-reentry">Incarceration &amp; Reentry</a></li>
+<li class="leaf"><a href="/opioid-abuse-us-and-hhs-actions-address-opioid-drug-related-overdoses-and-deaths" title="Opioids">Opioids</a></li>
+<li class="leaf"><a href="/patient-centered-outcomes-research-trust-fund">Patient-Centered Outcomes Research Trust Fund (PCORTF)</a></li>
+<li class="expanded"><a href="/basic-search/poverty" title="">Poverty</a><ul><li class="first leaf"><a href="/poverty-guidelines">Poverty Guidelines</a></li>
+<li class="last leaf"><a href="/poverty-estimates-trends-and-analysis">Poverty Analysis</a></li>
+</ul></li>
+<li class="leaf"><a href="/teen-pregnancy-prevention">Teen Pregnancy Prevention</a></li>
+<li class="leaf"><a href="/homelessness">Homelessness</a></li>
+<li class="last leaf"><a href="/medicare-access-and-chip-reauthorization-act-2015">MACRA</a></li>
+</ul></li>
+<li class="leaf"><a href="/reports" title="">Publications</a></li>
+<li class="last expanded"><a href="/basic-search/datasets" title="">Data and Tools</a><ul><li class="first last leaf"><a href="/evaluations" title="">Evaluation Database</a></li>
+</ul></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation / End -->
+</header>  <div class="main" role="main">
+    <!--PAGEWATCH CODE="USHHS_458"-->
+    <section class="page-heading">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+                <h1>
+                    
+          Core Performance Indicators for Homeless-Serving Programs Administered by the U.S. Department of Health and Human Services        </h1>
+                                 <p class="author">
+                                                 <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2003-09-01T00:00:00-04:00">09/01/2003</span>               
+                           </p>
+
+
+                  </div>
+
+
+        <div class="col-md-6">
+           <ul class="breadcrumb"><li class="first"><a href="/" title="Home">Home</a></li>
+<li class="last">Core Performance Indicators fo...</li>
+</ul>        </div>
+
+
+    </div>
+  </div>
+</section>
+    
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Content">     
+
+        
+                  
+        
+                                    <div  class="col-md-12 " id="content">
+                          
+                              <div id="block-aspe-aspe-addthis" class="widget block block-aspe" >
+  
+      
+  <div class="clearfix">
+  <ul class="addthis_sharing_toolbox node-share__links" data-url="https://aspe.hhs.gov/execsum/core-performance-indicators-homeless-serving-programs-administered-us-department-health-and-human-services" data-title="Core Performance Indicators for Homeless-Serving Programs Administered by the U.S. Department of Health and Human Services">
+    <li><a class="addthis_button_print"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/print-white.png" alt="print" /></a></li>
+    <li><a class="addthis_button_email"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/mail-white.png" alt="email" /></a></li>
+    <li><a class="addthis_button_twitter"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/tw.png" alt="twitter" /></a></li>
+<!--    <li><a class="addthis_button_facebook">--><!--</a></li>-->
+    <li><a class="addthis_button_compact"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/plus-white.png" alt="compact" /></a></li>
+  </ul>
+</div>
+
+  </div> <!-- /.block -->
+
+                
+    
+  
+  <div class="content clearfix node-report-exec-sum">
+    <h2><a id="TOC">Contents</a></h2>
+<ul><li><a href="#Characteristics">Characteristics of the Four Homeless-Serving Programs</a></li>
+<li><a href="#Analysis">Analysis of Measures Derived from Homeless Administrative Data Systems (HADS)</a></li>
+<li><a href="#Potential">Potential Core Performance Measures For Homeless-Specific Service Programs</a></li>
+<li><a href="#Application">Application of Suggested Core Performance Measures To DHHS Mainstream Programs Serving Homeless Individuals</a></li>
+</ul><p>Recent studies suggest that homelessness is a problem that afflicts many adults and children in the nation and can have a broad range of short- and long-term negative consequences. It is estimated that up to 600,000 people in the United States are homeless each night.<sup><a href="#1">(1)</a></sup> In developing programs to address the needs of the homeless, it is important to specify clearly the program goals and objectives to guide implementation of program activities, as well as a set of performance measures to facilitate documentation and analysis of the effectiveness of program interventions. This study explores the feasibility of developing a core set of performance measures for DHHS programs that focus on homelessness. It has two main objectives: (1) determine the feasibility of producing a core set of performance measures that describe accomplishments (as reflected in process and outcome measures) of the homeless-specific service programs of DHHS; and (2) determine if a core set of performance measures for homeless-specific programs in DHHS could be generated by other mainstream service programs supported by DHHS to assist low income or disabled persons.</p>
+<p>A key focus of the study is on enhancing performance measurement across four homeless-serving programs administered by DHHS:</p>
+<ol><li>Programs for Runaway and Homeless Youth (RHY),</li>
+<li>The Health Care for the Homeless (HCH) Program,</li>
+<li>Projects for Assistance in Transition from Homelessness (PATH), and</li>
+<li>The Treatment for Homeless Persons Program (formerly called the Addiction Treatment for Homeless Persons Program).</li>
+</ol><p>In addition, this project deals with an important government management requirement that has affected agencies and programs for the past several years: the Government Performance and Results Act of 1993 (GPRA), which requires government agencies to develop measures of performance, set standards for the measures, and track their accomplishments in meeting the standards.</p>
+<p>This study mainly involved interviews with program officials knowledgeable about the four homeless-serving programs that were the main focus of this study, along with review of existing documentation. Interviews were conducted both by telephone and in-person. In addition, the research team conducted telephone interviews with program officials at four mainstream programs. Project staff also reviewed documents and interviewed program officials that operated homeless administrative data systems (HADS) or homeless registry systems in several localities across the country.</p>
+<h2 style="text-align:center"><a id="Characteristics">Characteristics of the Four Homeless-Serving Programs</a></h2>
+<p>Although the four homeless-serving programs shared the goal of providing services to the homeless, they also had significant differences. Some major findings from our interviews with program officials and review of documents are:</p>
+<ul><li><strong>Program funding, allocation, role of the federal/state governments, and number and types of agencies providing services vary substantially across programs. </strong>FY 2002 funding runs from $9 million (Treatment for Homeless Persons) to in excess of $100 million ($116 million for HCH). Three of the four programs allocate funds competitively; one of the programs allocates funds to states by formula (PATH). The federal government plays a significant role in all four of the programs  distributing funds to states (PATH) or competing grants and selecting grantees (in the case of the other three programs); providing oversight and collecting performance information; and providing technical assistance. In terms of state involvement, only under the PATH program among the four programs does the state play a significant role. The number of grantees ranges from 50 grantees selected under the Treatment for Homeless Persons Program to about 640 under the three RHY programs.</li>
+<li><strong>While there is a similar focus on homeless individuals across the four programs, there are differences in terms of the number and types of individuals served, definitions of enrollment, and duration of involvement in services. </strong>The RHY programs target youth (both runaway and homeless), while the other three programs target services primarily on adult populations (though other family members are often also served). The HCH program funds initiatives that serve a broad range of homeless individuals (especially those unable to secure medical care by other means). The PATH and Treatment for Homeless Persons Programs serve a somewhat narrower subgroup of the homeless population than the other programs: the PATH program focuses on homeless individuals with serious mental illness; and the Treatment for Homeless Persons program targets homeless persons who have a substance abuse disorder, or both a diagnosable substance abuse disorder and co-occurring mental illness or emotional impairment. Enrollment practices also vary. In PATH  which is considered to be a funding stream at the local (operational) level  it is often difficult to identify a point at which someone is enrolled or terminates from PATH. In HCH, a homeless individual becomes a participant when he/she receives clinical services at an HCH site. Length of participation in HCH is highly variable  it could range from a single visit to years of involvement. For RHY  which is composed of three program components  there is considerable variation in what constitutes enrollment and duration of involvement. In RHYs Street Outreach Program (SOP), involvement is very brief (often a single contact) and presents little opportunity for collecting information about the individual. In contrast, RHYs Transitional Living Program (TLP) provides residential care for up to 18 months under the program and a broad range of other services to move homeless youth toward self-sufficiency and independent living. RHYs third program component  Basic Center Program (BCP)  offers up to 15 days of emergency residential care, help with family reunification, and other services. Of the four programs, enrollment in the Treatment for Homeless Persons Program appears to be most clearly defined. Homeless individuals are considered participants when the intake form (part of the Core Client Outcomes form) is completed on the individual. Involvement in the program is extended over a year or longer. Numbers served range from 7,700 over three years for the Treatment for Homeless Persons Program to about 500,000 annually for HCH.</li>
+<li><strong>There is a wide range of program services offered through the four programs. </strong>All four programs try to improve prospects for long-term self-sufficiency, promote housing stability, and reduce the chances that participants will become chronically homeless. Each program has more specific goals that relate to the populations served and the original program intent  for example, RHYs BCP component has as one of its goals family reunification (when appropriate); HCH aims to improve health care status of homeless individuals; PATH aims to engage participants in mental health care services and improve mental health status; and the Treatment for Homeless Persons Program aims at engaging participants in substance abuse treatment and reducing/eliminating substance abuse dependency.</li>
+<li><strong>The four homeless programs feature substantially different approaches to performance measurement, collection of data, and evaluation.</strong> With respect to GPRA measures, three of the four programs have explicit measures; there are no GPRA measures specific to HCH. GPRA measures apply to the BPHCs Health Centers Cluster of programs as a whole, of which HCH program is part.<sup><a href="#2">(2)</a></sup> The measures used for the three other programs include both process and outcome measures. The Treatment for Homeless Persons Program has outcome-oriented GPRA measures, as well as a data collection methodology designed to provide participant-level data necessary to produce the outcome data needed to meet reporting requirements. For example, the GPRA measures for adults served by the Treatment for Homeless Persons Programs are the percent of service recipients who  (1) have no past month substance abuse; (2) have no or reduced alcohol or illegal drug consequences; (3) are permanently housed in the community; (4) are employed; (5) have no or reduced involvement with the criminal justice system; and (6) have good or improved health and mental health status. In contrast, the measures employed by PATH are process measures: (1) percentage of agencies funded providing outreach services; (2) number of persons contacted, (3) of those contacted, percent enrolled in PATH. Of the three main GPRA measures used in the RHY program, just the first one is outcome-oriented: (1) maintain the proportion of youth living in safe and appropriate settings after exiting ACF-funded services; (2) increase the proportion of BCP and TLP youth receiving peer counseling through program services; and (3) increase the proportion of ACF-supported youth programs that are using community networking and outreach activities to strengthen services. Methods of collecting performance data and the quality of the data collected also vary across the four programs. Three of the four programs have states (PATH) or grantees (HCH and RHY) submit aggregate data tables either annually or semi-annually. All four of the programs use (or are in the process of developing and implementing) some type of automated database for transmission of performance data to their federal administering agencies.</li>
+</ul><p>Differences among the four programs means that it will be a difficult and delicate task to develop a common set of performance measures for the four programs, and even more difficult for those measures to also be applicable to other DHHS programs serving homeless individuals. In addition, while federal agency officials are very willing to discuss their programs and share their knowledge of how they approach data collection and reporting, their willingness and ability to undertake change is uncertain. From our discussions, it appears that changes in how programs collect data and report on performance will require substantial efforts on the part of agency officials and programs. For example, with regard to RHY  which is currently involved in an effort to implement a streamlined data system  it would not only require change at the federal administering agency, but how over 600 grantee organizations collect and manage data.</p>
+<h2 style="text-align:center"><a id="Analysis">Analysis of Measures Derived from Homeless Administrative Data Systems (HADS)</a></h2>
+<p>With input from DHHS, we selected five HADS (in New York City, Madison, Columbus, Kansas City, and Honolulu) for study. In the Summer 2002, we interviewed (by telephone) system administrators about the operations of each of the five HADS. We also conducted a site visit to New York Citys Department of Homeless Services to interview staff in greater depth and obtain additional background information on the operation of HADS. Major findings from the interviews are:</p>
+<ul><li>The HADS system in New York has been operational since 1986, while the other four have been designed and implemented during the past decade; all five systems are either in the process of being upgraded to use the most recent technology or were recently developed using state-of-the-art technology.</li>
+<li>HADS tend to be system-wide  some cutting across a large number of partners  which avoids focusing narrowly on programs (e.g., silos).</li>
+<li>Some HADS have accumulated substantial numbers of records on homeless and other types of disadvantaged/low-income households.<sup><a href="#3">(3)</a></sup></li>
+<li>HADS systems are not used principally for measuring program performance or outcomes  though have the capability to provide analyses of length of stay.</li>
+<li>A range of implementation challenges were reported  particularly with regard to training system users to make full use of system features.</li>
+</ul><p>While the HADS reviewed for this report provide some useful measures of program inputs and process, they do not provide a set of measures of program outcomes or performance (with the possible exception of length of stay) that are readily adaptable to the DHHS homeless-serving programs that are the focus of our overall study. There are, however, some interesting implications that can be drawn from HADS for developing performance measures for DHHS homeless-serving programs and the systems capable of maintaining data that might be collected as part of such systems. Several of the systems we reviewed do collect data on duration of episodes of receipt of homeless services (i.e., length of stay in emergency shelters and transitional facilities). Such a measure is particularly helpful in understanding frequency and total duration of homeless individuals receipt of assistance (e.g., duration of each spell of use of emergency shelters). Such data would be particularly helpful in understanding the extent of chronic homelessness and types of individuals most likely to have frequent and lengthy stays in emergency or transitional facilities. This points to the need to collect client-level data on service utilization, which includes dates that services begin and end so that it is possible to examine duration and intensity of services received, as well as multiple patterns of service use (i.e., multiple episodes of shelter use). The HADS also show that it is possible to collect detailed background characteristics on homeless individuals served, and especially in the case of Hawaiis HADS, to collect data at the time of entry and exit from homeless-serving programs to support pre/post analysis of participant outcomes.</p>
+<h2 style="text-align:center"><a id="Potential">Potential Core Performance Measures For Homeless-Specific Service Programs</a></h2>
+<p>In developing these measures, we took into consideration the following important factors:</p>
+<ul><li><strong>Extent currently collected. </strong>Items that are already collected by more programs have the advantages of already being highly regarded and contributing the least resistance for inclusion in a uniform system.<strong> </strong></li>
+<li><strong>Ease of collection.</strong> For items not universally collected, the ease at which an item can be collected is of interest. We are concerned with initial costs to establish the collection system as well as ongoing costs.<strong> </strong></li>
+<li><strong>Relationship to outcome and process measures of interest. </strong>In some instances, proxy measures for the measures of interest must be used because the proxies are preferable on criteria such as ease of collection and extent currently used.<strong> </strong></li>
+</ul><p>Our earlier analysis of the four homeless-serving programs indicated that there are substantial cross-program differences that complicate efforts to develop similar performance measures and systems for collecting data. For example:</p>
+<ul><li><strong>Programs target different subpopulations of homeless individuals</strong><em>. </em> For example, the RHY programs target youth (both runaway and homeless), while the other three programs target services primarily on adult populations (though other family members are often also served). While the HCH program funds initiatives that serve a broad range of homeless individuals (especially those unable to secure medical care by other means), the PATH program focuses on homeless individuals with serious mental illness; and the Treatment for Homeless Persons program targets homeless persons who have a substance abuse disorder, or both a diagnosable substance abuse disorder and co-occurring mental illness or emotional impairment.</li>
+<li><strong>The definition of enrollment and termination in the programs and duration of involvement in services all vary considerably by program</strong>. For example, in PATH, it is often difficult to identify a point at which someone is enrolled or terminates from PATH. In HCH, a homeless individual becomes a participant when he/she receives clinical services at a HCH site. Enrollment in the Treatment and Homeless Persons Program appears to be most clearly defined  homeless individuals are considered participants when the intake form is completed on the individual.</li>
+<li><strong>Numbers of homeless individuals served are quite different across the four programs</strong>. While actual numbers of individuals served or participating are difficult to compare because of varying definitions across programs, the sizes of programs appear quite different. For example, HCH reports that about 500,000 persons were seen in CY 2000. This compares with the RHY program estimates that it helps 80,000 runaway and homeless youth each year and estimates that PATH served (in FY 2000) about 64,000 homeless individuals with serious mental illness.</li>
+<li><strong>Types of program services vary considerably across programs.</strong> Common themes across the programs include emphases on flexibility, providing community-based services, creating linkages across various types of homeless-serving agencies, tailoring services to individuals needs, and providing a continuum of care to help break the cycle of homelessness. However, the specific services provided are quite different. For example, the Treatment for Homeless Persons Program emphasizes linkages between substance abuse treatment, mental health, primary health, and housing assistance; HCH emphasizes a multidisciplinary approach to delivering care to homeless persons, combining aggressive street outreach, with integrated systems of primary care, mental health and substance abuse services, case management, and client advocacy. Of the four programs, the RHY program (in part, because it targets youth) provides perhaps the most unique mix of program services  and even within RHY, each program component provides a very distinctive blend of services (e.g., street outreach [the Street Outreach Program] versus emergency residential care [Basic Center Program] versus up to 18 months of residential living [Transitional Living Program]).</li>
+</ul><p>Our review of the performance measurement systems in existence across the four programs also indicates potential for both enhancement and movement toward more outcome-oriented measures. For example, the general approach to performance measurement used within the Treatment for Homeless Persons Program provides a potential approach that could be applicable to the other three programs. Of critical importance to our efforts to suggest core measures, all four of the programs are aimed at (1) improving prospects for long-term self-sufficiency, (2) promoting housing stability, and (3) reducing the chances that individuals will become chronically homeless. In addition, the four programs (some more than others) also stress addressing mental and physical health concerns, as well as potential substance abuse issues.</p>
+<p>Based on the common objectives of these four programs, we suggest a core set of process and outcome measure that could potentially be adapted for use by the four homeless-service programs (see <a href="#ees1">Exhibit ES-1</a>). We suggest selection of the four process measures, which track numbers of homeless individuals (1) contacted/outreached, (2) enrolled, (3) comprehensively assessed, and (4) receiving one or more core services. We then suggest selection of several outcome measures from among those grouped into the following areas: (1) housing status, (2) employment and earnings status, and (3) health status. In addition, we have suggested a several additional outcome measures that could be applied to homeless youth.</p>
+<div style="text-align:center;">
+<table cellpadding="2" cellspacing="0" style="margin-left:auto; margin-right:auto"><caption><strong><a id="ees1">Exhibit ES-1:<br />
+			Potential Core Performance Measures for DHHS Homeless-Serving Programs</a></strong></caption>
+<tbody><tr><th scope="col">Type of Measure</th>
+<th scope="col">Core Performance Measure</th>
+<th scope="col">When Data Item Could Be Collected</th>
+<th scope="col">Comment</th>
+</tr><tr><th colspan="4" scope="col">**PROCESS MEASURES**</th>
+</tr><tr><td>Process</td>
+<td># of Homeless Individuals Contacted/Outreached</td>
+<td>At first contact with target population</td>
+<td> </td>
+</tr><tr><td>Process</td>
+<td># of Homeless Individuals Enrolled</td>
+<td>At time of intake/ enrollment or first receipt of program service</td>
+<td> </td>
+</tr><tr><td>Process</td>
+<td>Number/Percent of Homeless Individuals Enrolled That Receive Comprehensive Assessment</td>
+<td>At time of initial assessment</td>
+<td>May include assessments of life skills, self-sufficiency, education/training needs, substance abuse problems, mental health status, housing needs, and physical health</td>
+</tr><tr><td>Process</td>
+<td>Number/Percent of Homeless Individuals Enrolled That Receive One or More Core Services</td>
+<td>At time of development of treatment plan, first receipt of program service(s), or referral to another service provider</td>
+<td>Core services include:
+<ul><li>Housing Assistance</li>
+<li>Behavioral Health Assistance (Substance Abuse/Mental Health Treatment)</li>
+<li>Primary Health Assistance/Medical Treatment</li>
+</ul></td>
+</tr><tr><th colspan="4" scope="col">**OUTCOME MEASURES  HOUSING STATUS**</th>
+</tr><tr><td>Outcome  Housing</td>
+<td>Number/Percent of Homeless Individuals Enrolled Whose Housing Condition is Upgraded During the Past Month [or Quarter]</td>
+<td>
+<ul><li>At intake/enrollment</li>
+<li>3, 6, and/or 12 months after point of enrollment</li>
+<li>At termination/exit</li>
+</ul></td>
+<td>Possible upgrade categories:
+<ul><li>Street</li>
+<li>Emergency Shelter</li>
+<li>Transitional Housing</li>
+<li>Permanent Housing</li>
+</ul></td>
+</tr><tr><td>Outcome  Housing</td>
+<td>Number/Percent of Homeless Individuals Enrolled Who Are Permanently Housed During the Past Month [or Quarter]</td>
+<td>
+<ul><li>At intake/enrollment</li>
+<li>3, 6, and/or 12 months after point of enrollment</li>
+<li>At termination/exit</li>
+</ul></td>
+<td> </td>
+</tr><tr><td>Outcome  Housing</td>
+<td>Number/Percent of Homeless Individuals Enrolled Whose Days of Homelessness (on Street or in Emergency Shelter) During the Past Month [or Quarter] Are Reduced</td>
+<td>
+<ul><li>At intake/enrollment</li>
+<li>3, 6, and/or 12 months after point of enrollment</li>
+<li>At termination/exit</li>
+</ul></td>
+<td>
+<ul><li>HADS systems may provide useful data on shelter use (but not street homelessness)</li>
+</ul></td>
+</tr><tr><th colspan="4" scope="col">**OUTCOME-MEASURES  EARNING/EMPLOYMENT STATUS**</th>
+</tr><tr><td>Outcome  Earnings</td>
+<td>Number/Percent of Homeless Individuals Enrolled with Earnings During the Past Month [or Quarter]</td>
+<td>
+<ul><li>At intake/enrollment</li>
+<li>3, 6, and/or 12 months after point of enrollment</li>
+<li>At termination/exit</li>
+</ul></td>
+<td>
+<ul><li>UI quarterly earnings data (matched using SSN) could be useful  though data lags, potential costs, and confidentiality issues</li>
+</ul></td>
+</tr><tr><td>Outcome  Earnings</td>
+<td>Number/Percent of Homeless Individuals Enrolled with Improved Earnings During Past Month [or Quarter]</td>
+<td>
+<ul><li>At intake/enrollment</li>
+<li>3, 6, and/or 12 months after point of enrollment</li>
+<li>At termination/exit</li>
+</ul></td>
+<td>
+<ul><li>UI quarterly earnings data (matched using SSN) could be useful  though data lags, potential costs, and confidentiality issues</li>
+</ul></td>
+</tr><tr><td>Outcome  Employment</td>
+<td>Number/Percent of Homeless Individuals Enrolled Employed 30 or More Hours per Week</td>
+<td>
+<ul><li>At intake/enrollment</li>
+<li>3, 6, and/or 12 months after point of enrollment</li>
+<li>At termination/exit</li>
+</ul></td>
+<td>
+<ul><li>Hours threshold could be changed (20+ hours; 35+ hours); hours worked could be for week prior to survey or avg. for prior month or quarter</li>
+<li>UI quarterly wage data not helpful (hours data not available); so follow-up survey probably needed</li>
+</ul></td>
+</tr><tr><td>Outcome  Employment</td>
+<td>Number/Percent of Homeless Individuals Enrolled with Increased Hours Worked During the Past Month [Quarter]</td>
+<td>
+<ul><li>At intake/enrollment</li>
+<li>3, 6, and/or 12 months after point of enrollment</li>
+<li>At termination/exit</li>
+</ul></td>
+<td>
+<ul><li>UI quarterly wage data not helpful (hours data not available); so follow-up survey probably needed</li>
+</ul></td>
+</tr><tr><th colspan="4" scope="col">**OUTCOME MEASURES  HEALTH STATUS**</th>
+</tr><tr><td>Outcome  Substance Abuse</td>
+<td>Number/Percent of Homeless Individuals Enrolled and Assessed with Substance Abuse Problem That Have No Drug Use the Past Month [or Quarter]</td>
+<td>
+<ul><li>At intake/enrollment</li>
+<li>3, 6, and/or 12 months after point of enrollment</li>
+<li>At termination/exit</li>
+</ul></td>
+<td>
+<ul><li>Drug screening could be used</li>
+</ul></td>
+</tr><tr><td>Outcome  Physical Health Status</td>
+<td>Number/Percent of Homeless Individuals Enrolled Assessed with Physical Health Problem That Have Good or Improved Physical Health Status During Past Month [or Quarter]</td>
+<td>
+<ul><li>At intake/enrollment</li>
+<li>3, 6, and/or 12 months after point of enrollment</li>
+<li>At termination/exit</li>
+</ul></td>
+<td>
+<ul><li>May be difficult to objectively measure good or improved</li>
+</ul></td>
+</tr><tr><td>Outcome  Mental Health Status</td>
+<td>Number/Percent of Homeless Individuals Enrolled Assessed with Mental Health Problem That Have Good or Improved Mental Health Status During Past Month [or Quarter]</td>
+<td>
+<ul><li>At intake/enrollment</li>
+<li>3, 6, and/or 12 months after point of enrollment</li>
+<li>At termination/exit</li>
+</ul></td>
+<td>
+<ul><li>May be difficult to objectively measure good or improved</li>
+</ul></td>
+</tr><tr><th colspan="4" scope="col">**OUTCOME MEASURE  YOUTH-ONLY**</th>
+</tr><tr><td>Outcome  Family Reunification</td>
+<td>Number/Percent of Homeless &amp; Runaway Youth Enrolled That Are Reunited with Family During Past Month [or Quarter]</td>
+<td>
+<ul><li>At intake/enrollment</li>
+<li>3, 6, and/or 12 months after point of enrollment</li>
+<li>At termination/exit</li>
+</ul></td>
+<td>
+<ul><li>Reunification may not always be an appropriate outcome  and it is often hard to know when it is</li>
+</ul></td>
+</tr><tr><td>Outcome  Attending School</td>
+<td>Number/Percent of Homeless Youth Enrolled That Attended School During Past Month [or Quarter]</td>
+<td>
+<ul><li>At intake/enrollment</li>
+<li>3, 6, and/or 12 months after point of enrollment</li>
+<li>At termination/exit</li>
+</ul></td>
+<td> </td>
+</tr><tr><td>Outcome  Completing High School/GED</td>
+<td>Number/Percent of Homeless Youth Enrolled That Complete High School/GED During Past Quarter</td>
+<td>
+<ul><li>At intake/enrollment</li>
+<li>3, 6, and/or 12 months after point of enrollment</li>
+<li>At termination/exit</li>
+</ul></td>
+<td> </td>
+</tr></tbody></table></div>
+<p>With regard to housing outcomes, we have identified three potential outcome measures intended to track (1) changes in an individuals housing situation along a continuum (from living on the street and in emergency shelters to securing permanent housing), (2) whether the homeless individual secures permanent housing, and (3) days of homelessness during the preceding quarter (or month). Two earnings measures are identified  one that captures actual dollar amount of earnings during the past quarter (or month) and a second measure that captures whether an individuals earnings have improved. Two employment measures are also identified  one relating to whether the individual is engaged in work 30 or more hours per week and another that measures whether hours of work have increased. Three health-related measures are offered, focusing on use of drugs, improvement in physical health status, and improvement in mental health status. Finally, three measures are offered that are targeted exclusively on youth (though the other outcome measures would for the most part also be applicable to youth): (1) whether the youth is reunited with his/her family, (2) whether the homeless youth is attending school, and (3) whether the homeless youth graduates from high school or completes a GED.</p>
+<p>A pre/post data collection approach is suggested with respect to obtaining needed performance data  for example, collecting data on housing, health, and substance abuse status of program participants at the time of intake/enrollment into a program and then periodically tracking status at different points during and after program services are provided (i.e., at termination/exit from the program and/or at 3, 6, or 12 months after enrollment). Collection of data on homeless individuals at the point of termination can be problematic because homeless individuals may abruptly stop coming for services. The transient nature of the homeless population can also present significant challenges to collecting data through follow-up surveys/interviews after homeless individuals have stopped participating in program services..</p>
+<p>Given difficulties of tracking homeless individuals over extended periods, the extent to which existing administrative data can be utilized could increase the proportion of individuals for which it is possible to gather outcome data (at a relatively low cost). Probably the most useful source in this regard is quarterly unemployment insurance (UI) wage record data, which can be matched by Social Security number (though releases are required and it may also be necessary to pay for the data). A second potential source of administrative data that may have some potential utility for tracking housing outcomes are HADS system maintained by many states and/or localities. HADS systems are not used principally for measuring program performance or outcomes, but they have the capability to provide analyses of length of stay.</p>
+<p>Finally, in terms of tracking self-sufficiency outcomes, data sharing agreements with state and local welfare agencies may provide possibilities for tracking dependence on TANF, food stamps, general assistance, emergency assistance, and other human services programs.</p>
+<h2 style="text-align:center"><a id="Application">Application of Suggested Core Performance Measures To DHHS Mainstream Programs Serving Homeless Individuals</a></h2>
+<p>With input from the DHHS Project Officer, we selected four DHHS mainstream programs for analysis: (1) the Health Centers Cluster (administered by Health Resources and Services Administration [HRSA]), (2) the Substance Abuse Prevention and Treatment (SAPT) Block Grant (administered by Substance Abuse and Mental Health Services Administration [SAMHSA]), (3) Head Start (administered by Administration for Children and Families [ACF]), and (4) Medicaid (administered by the Centers for Medicaid and Medicare Services [CMS]). While these programs are not targeted specifically on homeless individuals, some homeless individuals are eligible for services provided under each program by virtue of low income, a disability, or other characteristics. In comparison to the four homeless-serving programs, the mainstream programs:</p>
+<ul><li>Have much greater funding. The largest of the four homeless-serving programs in terms of budget is the Health Care for the Homeless (HCH) program, with an annual budget of slightly more than $100 million. The funding levels of HCH and the other homeless-serving programs pale in comparison to those of the four mainstream programs: Medicaid, with FY 2002 federal assistance to states of $147.3 billion; Head Start, with a FY 2002 budget of $6.5 billion; SAPT, with a FY 2002 budget of $1.7 billion, and the BPHCs Health Centers Cluster, with FY 2002 budget of $1.3 billion (which includes funding for HCH).</li>
+<li>Serve many more individuals. As might be expected given their greater funding levels and mandates to serve a broader range of disadvantaged individuals, the mainstream programs enroll and serve many more individuals  in 2002, Medicaid had nearly 40 million enrolled beneficiaries, far eclipsing the other mainstream and homeless-serving programs. In 2001, the Health Centers Cluster served an estimated 10.3 million individuals, while SAPT served an estimated 1.6 million individuals (in FY 2000) and Head Start enrolled nearly a million (912,345 in FY 2002) children.</li>
+<li>Serve a generally more broadly defined target population. While similarly targeted on low-income and needy individuals, the mainstream programs extend program services well beyond homeless individuals. Of the four mainstream programs, the two broadest programs are the Medicaid and Health Cluster Centers programs, both focusing on delivery of health care services to low-income and disadvantaged individuals. The Head Start program targets needy and low-income pre-schoolers ages 3 to 5; SAPT is primarily targeted on individuals who abuse alcohol and other drugs, but also extends preventive educational and counseling activities to a wider population of at-risk individuals (i.e., not less that 20 percent of block grant funds are to be spent to educate and counsel individuals who do not require treatment and provide activities to reduce risk of abuse).</li>
+</ul><p>Despite some differences, there are commonalities in terms of program goals and services offered by mainstream and homeless-serving programs. Three of the four mainstream programs (Medicaid, SAPT, the Health Centers Cluster) focus program services primarily on improving health care status of low-income individuals. Two of the programs  Medicaid and the Health Centers Cluster are aimed directly at delivery of health care services to improve health care status of low-income and needy individuals. Though more narrowly targeted on homeless individuals, HCH and PATH are similarly aimed at improving health care status of the disadvantaged individuals. The third mainstream program  SAPT  aims at improving substance abuse treatment and prevention services. Under SAPT, block grants funds are distributed to states, territories, and tribes aimed at the development and implementation of prevention, treatment, and rehabilitation activities directed to diseases of alcohol and drug abuse. In terms of program goals and services, Head Start is quite different from the three other mainstream programs and the four homeless-serving programs. The Head Start program is aimed principally at increasing school readiness and social competence of young children in low-income families. Our main findings from the review of mainstream programs are:</p>
+<ul><li>Estimates of the number of homeless served are available for one of the four mainstream programs  Head Start.</li>
+<li>Three of the four mainstream programs, all except Medicaid, provide guidance on the definition of homeless.</li>
+<li>With the possible exception of counts of homeless individuals served, the mainstream programs do not collect sufficient information to address the suggested core performance measures.</li>
+<li>Mainstream program GPRA measures are combination of process- and outcome-oriented measures and are not closely aligned with suggested core performance measures for homeless-serving programs..</li>
+<li>Mainstream programs face substantial constraints to making changes to existing data systems to increase tracking of homeless individuals.</li>
+</ul><p>Recognizing the difficulties faced by the mainstream programs in making changes to their well-established data sets, it would be very useful to work with mainstream DHHS programs to: (1) add a single data element to data systems that would capture living arrangement or homeless status at the time of program enrollment in a consistent manner across programs; (2) provide the mainstream programs with a common definition of what constitutes homelessness and, if possible, the specific question(s) and close-ended response categories that programs should use in tracking homelessness; and (3) if mainstream programs conduct a follow-up interview or survey with participants, request that they include a follow-up question relating to homelessness or living arrangement.</p>
+<p>For all four of the mainstream programs and the four homeless-serving programs, a step beyond collecting homeless status or living arrangement at the time of enrollment would be to collect such data at the time of exit from the program or at some follow-up point following enrollment or termination from the program. However, determining a convenient follow-up point to interact with the participant may be difficult or impossible in these programs. With regard to collecting homeless or living arrangement status at a follow-up point, it may be best to focus (at least initially) on implementing such follow-up measures in the homeless-serving programs, where long-term housing stability is a critical program objective.</p>
+<p>Finally, where collection of information about homeless status either at the time of enrollment or some follow-up point prove either impossible to obtain or too costly, DHHS should consider potential opportunities for collecting data on homelessness as part of special studies or surveys. Several of the mainstream programs (as well as the homeless-serving programs) are periodically the subject of either special studies or survey efforts. For example, the Head Start program has implemented the FACES survey, which is conducted in 3-year waves on a sample of over 3,000 children and families served by 40 Head Start centers. Working with a sample, rather than in the universe in large programs such as Head Start (nearly 1 million children) and Medicaid (about 40 million beneficiaries) has great appeal from the standpoint of reducing burden and data collection costs.</p>
+<h2><a id="Endnotes">Endnotes</a></h2>
+<p><a>(1)</a> An estimate provided by the U.S. Department of Health and Human Services website (see <a href="/homelessness">http://aspe.hhs.gov/homeless/</a>).</p>
+<p><a>(2)</a> HCH is clustered with several other programs, including Community Health Centers [CHCs], Migrant Health Centers, Health Services for Residents of Public Housing, and other community-based health programs.</p>
+<p><a>(3)</a> For example, New York City had over 800,000 records in its system, and Kansas City had 450,000 records.</p>
+<div class="group-tags"><div class="field-label">Tags:&nbsp;</div><a href="/terms/homelessness">Homelessness</a><a href="/terms/chronic-individuals">Chronic Individuals</a><a href="/terms/families-children">Families with Children</a><a href="/terms/social-services-delivery-and-implementation">Social Services Delivery and Implementation</a><a href="/terms/other-4">Other</a><a href="/terms/vulnerable-populations">Vulnerable Populations</a><a href="/terms/homelessnesshousing">Homelessness/Housing</a><a href="/terms/low-income-populations">Low-Income Populations</a></div>  </div>
+
+      <footer>
+          </footer>
+  
+    <div id="block-webform-client-block-158521" class="widget block block-webform" >
+  
+      
+  <div id="webform-ajax-wrapper-158521"><form class="webform-client-form webform-client-form-158521" action="/execsum/core-performance-indicators-homeless-serving-programs-administered-us-department-health-and-human-services" method="post" id="webform-client-form-158521" accept-charset="UTF-8"><div><div class="webform-progressbar">
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-radios webform-component--was-this-page-helpful">
+  <label for="edit-submitted-was-this-page-helpful">Was this page helpful? <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-was-this-page-helpful" class="form-radios"><div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-1" name="submitted[was_this_page_helpful]" value="1" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-1">Yes </label>
+
+</div>
+<div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-2" name="submitted[was_this_page_helpful]" value="0" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-2">No </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="4" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-ykR7X3WxVIppribJNOpLheIw6JTwrTtKYvzrLYk3QWE" />
+<input type="hidden" name="form_id" value="webform_client_form_158521" />
+<input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-158521" />
+<div class="form-actions"><input class="webform-next button-primary btn btn-default form-submit" type="submit" id="edit-webform-ajax-next-158521" name="op" value="Next &gt;" /></div>
+<div class="is-useful-disclaimer"> <a href="/%23" class="" title="Survey Disclaimer" data-toggle="modal" data-target="#disclamerModal">Form Approved OMB# 0990-0379 Exp. Date 8/31/2017</a></div>
+<div class="modal fade" id="disclamerModal" tabindex="-1" role="dialog" aria-labelledby="disclamerModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="disclamerModalLabel">Survey Disclaimer</h2>
+      </div>
+      <div class="modal-body">
+         According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this information collection is 0990-0379. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, gather the data needed, and complete and review the information collection. If you have comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: U.S. Department of Health & Human Services, OS/OCIO/PRA, 200 Independence Ave., S.W., Suite 336-E, Washington D.C. 20201, Attention: PRA Reports Clearance Officer.      </div>
+    </div>
+  </div>
+</div></div></form></div>
+  </div> <!-- /.block -->
+<meta  itemscope="" itemid="https://aspe.hhs.gov/execsum/core-performance-indicators-homeless-serving-programs-administered-us-department-health-and-human-services" itemref="md1 md3 md5 md7 md9 md11 md13 md15 md17" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/homelessness" id="md3" itemref="md2" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/chronic-individuals" id="md5" itemref="md4" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/families-children" id="md7" itemref="md6" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/social-services-delivery-and-implementation" id="md9" itemref="md8" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/other-4" id="md11" itemref="md10" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/vulnerable-populations" id="md13" itemref="md12" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/homelessnesshousing" id="md15" itemref="md14" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/low-income-populations" id="md17" itemref="md16" />              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <footer  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Footer">     
+
+        
+                  
+        
+                  
+        
+                                    <div  id="footer_sitemap-footer_sitemap" class="col-sm-6 col-md-6 col-lg-4 ">
+                          
+                              <div id="block-footer-sitemap-footer-sitemap" class="widget block block-footer-sitemap" >
+  
+      
+  <div id="footer-sitemap" class="clearfix">
+  <div class="fs-block-content"><div class="menu-footer-utility"><ul class="footer_links_menu-footer-utility total-items-2 parent-items-0 single-items-0"><li class="menu-5021 depth-1 total-children-8 parent-children-0 single-children-8  first"><a href="/" title="look at ASPE Home" class="fs-root-link">ASPE Home</a><ul class="footer_links_menu-footer-utility total-items-8 parent-items-0 single-items-0"><li class="menu-5026 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/" title="look at HHS Home">HHS Home</a></li>
+<li class="menu-66281 depth-1 fs-no-children"><a href="http://www.usa.gov/" title="look at USA.gov">USA.gov</a></li>
+<li class="menu-66316 depth-1 fs-no-children"><a href="https://oig.hhs.gov/" title="look at Office of the Inspector General">Office of the Inspector General</a></li>
+<li class="menu-66321 depth-1 fs-no-children"><a href="http://www.whitehouse.gov" title="look at The White House">The White House</a></li>
+<li class="menu-5046 depth-1 fs-no-children"><a href="http://www.hhs.gov/Accessibility.html" title="look at Accessibility">Accessibility</a></li>
+<li class="menu-66326 depth-1 fs-no-children"><a href="http://www.hhs.gov/about/budget/index.html" title="look at Budget/Performance">Budget/Performance</a></li>
+<li class="menu-2551 depth-1 fs-no-children"><a href="http://www.hhs.gov/Privacy.html" title="look at Privacy Policy">Privacy Policy</a></li>
+<li class="menu-197776 depth-1 fs-no-children  last"><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" title="Nondiscrimination Notice">Nondiscrimination Notice</a></li>
+</ul></li>
+<li class="menu-5051 depth-1 total-children-4 parent-children-0 single-children-4  last"><a href="http://www.hhs.gov/foia/" title="look at FOIA" class="fs-root-link">FOIA</a><ul class="footer_links_menu-footer-utility total-items-4 parent-items-0 single-items-0"><li class="menu-5056 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/open/recordsandreports/plainwritingact/index.html" title="look at Plain Writing Act">Plain Writing Act</a></li>
+<li class="menu-5061 depth-1 fs-no-children"><a href="http://www.hhs.gov/asa/eeo/no_fear_bullet_3.html" title="look at No Fear Act">No Fear Act</a></li>
+<li class="menu-5066 depth-1 fs-no-children"><a href="http://www.hhs.gov/Disclaimer.html" title="look at Disclaimers">Disclaimers</a></li>
+<li class="menu-2546 depth-1 fs-no-children  last"><a href="http://www.hhs.gov/plugins.html" title="look at Viewers &amp; Players">Viewers &amp; Players</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-5 " id="stability_cms-contact_us">
+                          
+                              <div id="block-stability-cms-contact-us" class="widget block block-stability-cms" >
+  
+      
+  <div class="contacts-widget widget widget__footer">
+	<div class="widget-content">
+		<ul class="contacts-info-list">
+      			<li>
+<!--				<i class="fa fa-map-marker">Address</i>-->
+                <div class="info-icons">
+                    <img  alt="map" class= 'map-icons' src="/sites/all/themes/stability/stability_aspe/images/map.png"/>
+                </div>
+                <div class="info-item">
+					Assistant Secretary for Planning and Evaluation, Room 415F<br />
+U.S. Department of Health and Human Services<br />
+200 Independence Avenue, SW<br />
+Washington, D.C. 20201				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-phone">phone</i>-->
+                <div class="info-icons">
+                    <img alt="phone" src="/sites/all/themes/stability/stability_aspe/images/phone.png"/>
+                </div>
+				<div class="info-item">
+					+1 202.690.7858				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-envelope">email</i>-->
+                <div class="info-icons">
+                    <img alt="mail" src="/sites/all/themes/stability/stability_aspe/images/mail-white.png"/>
+                </div>
+				<span class="info-item">
+					<a href="mailto:osaspeinfo@hhs.gov">osaspeinfo@hhs.gov</a>
+				</span>
+			</li>
+      			                					</ul>
+	</div>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-3 " id="footer">
+                          
+                              <div id="block-block-36" class="widget block block-block" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sign-up</span> for Email Updates</h3>
+		</div>
+    
+  <div class="email_updates">
+<button class="btn btn-default" name="subscribe-button" type="submit" value="subscribe">subscribe</button>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-12 " id="menu-menu-footer-language-menu">
+                          
+                              <div id="block-menu-menu-footer-language-menu" class="widget block block-menu" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Language</span> Assistance Available</h3>
+		</div>
+    
+  <ul class="menu"><li class="first expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#spanish" title="Español">Español</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#chinese" title="繁體中文">繁體中文</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#vietnamese" title="Tiếng Việt">Tiếng Việt</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#korean" title="한국어">한국어</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#tagalog" title="Tagalog">Tagalog</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#russian" title="Русский">Русский</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#arabic" title="العربية">العربية</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#creole" title="Kreyòl Ayisyen">Kreyòl Ayisyen</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#french" title="Français">Français</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#polish" title="Polski">Polski</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#portuguese" title="Português">Português</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#italian" title="Italiano">Italiano</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#german" title="Deutsch">Deutsch</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#japanese" title="日本語">日本語</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#farsi" title="فارسی">فارسی</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#english" title="English">English</a></li>
+</ul></li>
+</ul>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+      </div>
+
+          </div>
+    
+    
+      </footer>
+    
+
+    <!--/PAGEWATCH-->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+                        </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="social-links-wrapper">
+              <span class="social-links-txt">Connect with us</span>
+              <ul class="social-links social-links__dark">
+                                                  <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw-grey.png"/></a></li>
+                                <!--                --><!--                  <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin-grey.png"/></a></li>-->
+<!--                -->
+                                                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>  <script type="text/javascript" src="/sites/default/files/advagg_js/js__VWRymaMz6HfrhnrcJNGcDiSvLVrvhaXvBa7nrBYy8gc__jntPwP3D6myJZH1jW19fXrk5cYMHGRL8NQION22VSEA__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5486d15a696bff0c"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__g6mKbcakHxQkz4ZHYaxdO_xqONINvRMgsHh1zAK-fr0__ATHtEmHaeZ0jidpGU22EkhmPDBSgjD8z0bVDQMI-BIY__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__KUp4PrfOt9BSXUVl8Ctb3dhCMBe4MNVMeb4Gyorx8yY__7g4BeXscCIZAfuu1vxsCj2RIemg-eEK0QpChP9LDmFQ__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__PNjAgubM_3xXRLp4uLsYnv8wQAdT89-RYkSPxT6T45c__rFQwFK4pA5ZaWZSF7FPTfKbbpus0h-5IS8ayrNZGrb4__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__vQiLul2UcfC4nBAR09mhYVBYzRmiNDm2dj3GgSubV38__w84oZe-ZODKe7XnnlbrjV4IWHISOy4PioFEMVgx9hZo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__QJw3g0kOdwsv4twSZLP931zBzsHy50VEHpEN_znIitQ__A6QOuWXElDipBM2iChbWhjAAt3KlUwZ-jODoxdpbwiw__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stability_aspe","theme_token":"dpPP7ztuisYgjffOkFF4zsiZNDRHPOsSLD1bUwoZD4c","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/footable.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/aspe_nodes.admin.css":1,"sites\/all\/modules\/custom\/aspe_views\/theme\/css\/aspe_views.admin.css":1,"sites\/all\/modules\/forked\/book\/book.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/openpublic\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.css":1,"profiles\/openpublic\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openpublic\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/openpublic\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/themes\/stability\/css\/bootstrap.min.css":1,"sites\/all\/themes\/stability\/css\/fonts\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.theme.css":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/stability\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/stability\/css\/theme.css":1,"sites\/all\/themes\/stability\/css\/theme-elements.css":1,"sites\/all\/themes\/stability\/css\/animate.min.css":1,"sites\/all\/themes\/stability\/css\/skins\/red.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/slideshow.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/font-main.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/styleless.less":1,"sites\/all\/themes\/stability\/css\/skins\/blue.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/aspe\/theme\/js\/aspe.login-confirm.js":1,"sites\/all\/modules\/custom\/aspe_report\/modules\/aspe_databooks\/js\/aspe_databooks.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.highcharts.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/datatables\/dataTables.min.js":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.min.js":1,"sites\/all\/libraries\/highcharts\/highcharts.js":1,"sites\/all\/libraries\/highcharts\/highcharts.exporting.js":1,"sites\/all\/libraries\/highcharts\/highcharts.map.js":1,"sites\/all\/libraries\/highcharts\/highcharts.us-all.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.footable.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5486d15a696bff0c":1,"misc\/progress.js":1,"profiles\/openpublic\/modules\/contrib\/webform\/js\/webform.js":1,"profiles\/openpublic\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/stability\/vendor\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/stability\/vendor\/bootstrap.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flexnav.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flickrfeed.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.sloppy-masonry.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.fitvids.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.stellar.min.js":1,"sites\/all\/themes\/stability\/vendor\/snap.svg-min.js":1,"sites\/all\/themes\/stability\/js\/custom.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/aspe.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/html5shiv.min.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/main-menu.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/keyboard-control.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tabBehavior.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tileStringTrimmer.js":1}},"webform":{"conditionals":{"webform-client-form-158521":{"ruleGroups":[],"sourceMap":[],"values":[]}}},"ajax":{"edit-webform-ajax-next-158521":{"callback":"webform_ajax_callback","wrapper":"webform-ajax-wrapper-158521","progress":{"message":"","type":"throbber"},"event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Next \u003E"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/execsum\/core-performance-indicators-homeless-serving-programs-administered-us-department-health-and-human-services":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"([a-z0-9]\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This website contains links to other federal and state agencies and private organizations. The Department of Health and Human Services (HHS) cannot attest to the accuracy of information provided by these nonfederal website links. Linking to nonfederal sites does not constitute an endorsement by HHS or any of its employees of the sponsors or the information and products presented on the sites. You will be subject to the destination site\u0027s privacy policy when you leave the ASPE website.\r\n\r\nThank you for visiting aspe.hhs.gov!","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"stability":{"flickr_id":"52617155@N08","logo_sticky":"28"},"field_group":{"div":"full"}});
+//--><!]]>
+</script>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config={pubid:"ra-5486d15a696bff0c",ui_click:false}
+//--><!]]>
+</script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4837db659","applicationID":"10708002","transactionName":"MwNaZBRSXEtXB0BdWQpJeVMSWl1WGQpbUFM7FllXA2xEUVMT","queueTime":0,"applicationTime":867,"atts":"H0RZElxIT0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

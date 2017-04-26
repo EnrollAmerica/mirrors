@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">  <!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://aspe.hhs.gov/sites/default/files/Favicon2.png" type="image/png" />
+<meta name="description" content="U.S. Department of Health and Human Services" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://aspe.hhs.gov/basic-report/examining-competencies-long-term-care-workforce-status-report-and-next-steps" />
+<link rel="shortlink" href="https://aspe.hhs.gov/node/70146" />
+<meta property="og:site_name" content="ASPE" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aspe.hhs.gov/basic-report/examining-competencies-long-term-care-workforce-status-report-and-next-steps" />
+<meta property="og:title" content="Examining Competencies for the Long-Term Care Workforce: A Status Report and Next Steps" />
+<meta property="og:description" content="U.S. Department of Health and Human Services" />
+<meta property="og:updated_time" content="2017-02-21T11:37:40-05:00" />
+<meta property="article:published_time" content="2015-12-09T05:31:58-05:00" />
+<meta property="article:modified_time" content="2017-02-21T11:37:40-05:00" />
+
+  <title>Examining Competencies for the Long-Term Care Workforce: A Status Report and Next Steps | ASPE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+  <link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__5ln8neBOcJfyUveiD4y9fhI6kHBLOQ_YL0mMC-LS9a0__TPJIZT9UBnf_685NlFTJ5KnZVsjwFk6ACQ-nwwygmwU__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ng49uRH5y4Hl9VF9hHW_vXOj-mcOc2u2ShJqJ1YKIGU__FoMCD14GBvZaRiqSQ_JpP1w3rDB21n7H2Ar4pRZaIh8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__Hskudx14OJ5Hz8vqU7CUgN6SDV5rINZuEq9VuGsSeyc__EwNIl3xeFrniW2TmonovTzhSs3X5MdFps210puE7jog__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__9rZoaX9BdzjjNucvYxduxeNAVO2zgW_Rvjhb5rq5whc__lSr_y16grDSgHf4booPChnF7QXz3TQY3hafH49twE0k__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZgfI_ZPib5yVY0o5aKo_6TFn946Tuu_nFDa0ySTmkSc__2FTFrNw2eNh0mpHIOA34r6YRwBZMm2PjJ_JubnwLigg__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__dxabpJ5rQgDSixKgLJZjWc1beC6mpROKwVrmWxI5eno__rqhz_hGsE_i59O7-W991o71_Jxw1QOtGMxn4nsOLHY8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZbRCq2NqWgK-HXAQI3So0N1n0nr4HonsJS3eQuuxukw__7Olkk8Locn8Dj0eR0Ww3rbV9lks9sxipcboMXB18RRs__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+
+	<!-- Head Libs -->
+	<script src="/sites/all/themes/stability/stability_aspe/vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/sites/all/themes/stability/vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" href="/sites/all/themes/stability/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/stability/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/stability/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/stability/images/apple-touch-icon-144x144.png">
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-70146 node-type-basic-report">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-JLFR"
+                  height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JLFR');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-nav" class="accessibility_menu">
+    <strong>Shortcut Navigation:</strong>
+    <ul>
+      <li><a href="#content" accesskey="c" title="Skip to page content (ctrl/alt + c)">Page Content</a></li>
+      <li><a href="#nav" accesskey="m" title="Skip to main navigation menu (ctrl/alt + m)">Site Navigation</a></li>
+
+      <li><a href="#Footer" accesskey="f" title="Skip to footer (ctrl/alt + f)">Footer</a></li>
+    </ul>
+  </div>
+
+    
+<div class="site-wrapper">
+  
+  <header class="header header-menu-fullw header-top-clean">
+    <div id="brand-bar">
+        <div class="container">
+                    <img alt='bird' src="/sites/all/themes/stability/stability_aspe/images/bird.png"> <a target="blank" tabindex="4" href="http://www.hhs.gov/">U.S. Department of Health & Human Services</a>
+        </div>
+
+    </div>
+    <div class="header-main">
+        <div class="container clearfix">
+            <div class="social-links-wrapper">
+                <ul class="social-links social-links__light">
+                                                          <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw.png"/></a></li>
+                                    <!--                  --><!--                    <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin.png"/></a></li>-->
+<!--                  -->
+                                                                      </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                                <div class="site_name_wrapper">
+                                     <span class="h1">
+                                      <a href="/">ASPE</a>
+                                       </span>
+                                  <p class="tagline"><p>Office of The Assistant Secretary</p><p> for Planning and Evaluation</p></p>
+                    </div>
+            </div>
+            <!-- Logo / End -->
+            <div class="header_right_wrapper">
+                <div class="search-form">
+                    <form action="/basic-report/examining-competencies-long-term-care-workforce-status-report-and-next-steps" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class = "input-group"><div class="form-type-textfield form-item-search-block-form form-item form-group">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search Site..." class="form-control form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input class="btn btn-primary btn-icon form-submit" type="image" id="edit-submit" name="submit" value="Search" src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/search-white2.png" alt="Search" title="Search" /></div></div><input type="hidden" name="form_build_id" value="form-SwFbP8QOtzbyFueHLN0qOEwVhjPUhNaU5GQofJXeGrI" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </div>
+                <button type="button" class="navbar-toggle" value="Menu">
+                    <i class="fa fa-bars"></i>Menu
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-main">
+        <div class="container">
+          <ul data-breakpoint="767" class="flexnav">
+                <li class="first expanded"><a href="/basic-search/about" title="">About</a><ul><li class="first leaf"><a href="/mission" title="">Mission</a></li>
+<li class="leaf"><a href="/key-staff" title="">Leadership</a></li>
+<li class="leaf"><a href="https://www.usajobs.gov/" title="">Careers</a></li>
+<li class="expanded"><a href="/coordination" title="linkTo">Coordination</a><ul><li class="first leaf"><a href="/evaluation-evidence" title="">Evaluation &amp; Evidence</a></li>
+<li class="leaf"><a href="/national-alzheimers-project-act">National Alzheimer&#039;s Project Act</a></li>
+<li class="leaf"><a href="/health-and-human-services-hhs-data-council">HHS Data Council</a></li>
+<li class="last leaf"><a href="/national-committee-vital-and-health-statistics" title="National Council on Vital and Health Statistics">National Council on Vital and Health Statistics</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/divisions" title="">Offices</a><ul><li class="first leaf"><a href="/office-disability-aging-and-long-term-care-policy-daltcp">Disability, Aging, and Long-Term Care Policy</a></li>
+<li class="leaf"><a href="/office-health-policy-hp">Health Policy</a></li>
+<li class="leaf"><a href="/office-human-services-policy">Human Services Policy</a></li>
+<li class="last leaf"><a href="/office-science-and-data-policy">Science and Data Policy</a></li>
+</ul></li>
+<li class="leaf"><a href="/strategic-planning" title="Strategic Planning">Strategic Planning</a></li>
+<li class="last leaf"><a href="/contact-aspe" title="">Contact ASPE</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/topics" title="">Topics</a><ul><li class="first leaf"><a href="/affordable-care-act-research">Affordable Care Act Research</a></li>
+<li class="leaf"><a href="/alzheimers-dementia">Alzheimer&#039;s / Dementia</a></li>
+<li class="leaf"><a href="/early-childhood">Early Childhood</a></li>
+<li class="leaf"><a href="/incarceration-reentry">Incarceration &amp; Reentry</a></li>
+<li class="leaf"><a href="/opioid-abuse-us-and-hhs-actions-address-opioid-drug-related-overdoses-and-deaths" title="Opioids">Opioids</a></li>
+<li class="leaf"><a href="/patient-centered-outcomes-research-trust-fund">Patient-Centered Outcomes Research Trust Fund (PCORTF)</a></li>
+<li class="expanded"><a href="/basic-search/poverty" title="">Poverty</a><ul><li class="first leaf"><a href="/poverty-guidelines">Poverty Guidelines</a></li>
+<li class="last leaf"><a href="/poverty-estimates-trends-and-analysis">Poverty Analysis</a></li>
+</ul></li>
+<li class="leaf"><a href="/teen-pregnancy-prevention">Teen Pregnancy Prevention</a></li>
+<li class="leaf"><a href="/homelessness">Homelessness</a></li>
+<li class="last leaf"><a href="/medicare-access-and-chip-reauthorization-act-2015">MACRA</a></li>
+</ul></li>
+<li class="leaf"><a href="/reports" title="">Publications</a></li>
+<li class="last expanded"><a href="/basic-search/datasets" title="">Data and Tools</a><ul><li class="first last leaf"><a href="/evaluations" title="">Evaluation Database</a></li>
+</ul></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation / End -->
+</header>  <div class="main" role="main">
+    <!--PAGEWATCH CODE="USHHS_458"-->
+    <section class="page-heading">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+                <h1>
+                    
+          Examining Competencies for the Long-Term Care Workforce: A Status Report and Next Steps        </h1>
+                                 <p class="author">
+                                                 <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2009-06-15T00:00:00-04:00">06/15/2009</span>               
+                           </p>
+
+
+                  </div>
+
+
+        <div class="col-md-6">
+           <ul class="breadcrumb"><li class="first"><a href="/" title="Home">Home</a></li>
+<li class="last">Examining Competencies for the...</li>
+</ul>        </div>
+
+
+    </div>
+  </div>
+</section>
+    
+      <div  class="nd-region nd-region-filter">
+  
+       
+
+    
+      <div  id="Filter" class="row">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region nd-region-similar-content">
+  
+       
+
+    
+      <div  id="Similar-Content" class="row">     
+
+        
+                  
+        
+                                    <div  id="top" class="">
+                          
+                              <div id="block-views-2100ccfdd214bdbcf634d7e4832c265b" class="widget block block-views solr-similar-content" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Similar</span> content</h3>
+		</div>
+    
+  <div class="view view-similar-content-solr view-id-similar_content_solr view-display-id-block_solr_similar_content view-dom-id-0a8b672128cfef026c4599749e5df298">
+        
+  
+  
+      
+    
+    <span class="field-content"><a href="/pdf-report/examining-competencies-long-term-care-workforce-status-report-and-next-steps">Examining Competencies for the Long-Term Care Workforce: A Status Report and Next Steps</a></span>    
+    <span class="field-content"><a href="/basic-report/supply-and-demand-professional-social-workers-providing-long-term-care-services-report-congress">The Supply and Demand of Professional Social Workers Providing Long-Term Care Services: Report to Congress</a></span>    
+    <span class="field-content"><a href="/basic-report/future-supply-long-term-care-workers-relation-aging-baby-boom-generation">The Future Supply of Long-Term Care Workers in Relation to the Aging Baby Boom Generation</a></span>    
+    <span class="field-content"><a href="/national-alzheimers-project-act-public-comments-advisory-council-meeting-october-2012">National Alzheimer&#039;s Project Act: Public Comments on Advisory Council Meeting, October 2012</a></span>    
+    <span class="field-content"><a href="/basic-report/who-will-care-us-addressing-long-term-care-workforce-crisis">Who Will Care for Us? Addressing the Long-Term Care Workforce Crisis</a></span>  
+  
+  
+  
+  
+  
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Content">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  class="col-md-12 " id="content">
+                          
+                              <div id="block-aspe-aspe-addthis" class="widget block block-aspe" >
+  
+      
+  <div class="clearfix">
+  <ul class="addthis_sharing_toolbox node-share__links" data-url="https://aspe.hhs.gov/basic-report/examining-competencies-long-term-care-workforce-status-report-and-next-steps" data-title="Examining Competencies for the Long-Term Care Workforce: A Status Report and Next Steps">
+    <li><a class="addthis_button_print"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/print-white.png" alt="print" /></a></li>
+    <li><a class="addthis_button_email"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/mail-white.png" alt="email" /></a></li>
+    <li><a class="addthis_button_twitter"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/tw.png" alt="twitter" /></a></li>
+<!--    <li><a class="addthis_button_facebook">--><!--</a></li>-->
+    <li><a class="addthis_button_compact"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/plus-white.png" alt="compact" /></a></li>
+  </ul>
+</div>
+
+  </div> <!-- /.block -->
+
+                
+    
+  
+  <div class="content clearfix node-basic-report">
+    <p><font><b><font face="Calisto MT">U.S. Department of Health and Human Services</font></b></font></p>
+<h1>Examining Competencies for the Long-Term Care Workforce:  		A Status Report and Next Steps</h1>
+<h3>Mary Harahan and Robyn I. StoneInstitute for the Future of Aging  		Services, American Association of Homes and Services for the Aging</h3>
+<h3>Priti ShahOffice of the Assistant Secretary for Planning and  		Evaluation, U.S. Department of Health and Human Services</h3>
+<h3>June 15, 2009</h3>
+<p>PDF Version:  		<a href="/system/files/pdf/76011/examcomp.pdf">http://aspe.hhs.gov/daltcp/reports/2009/examcomp.pdf</a>  		(41 PDF pages)</p>
+<hr /><blockquote>
+<p><i>This paper was prepared by the Office of Disability, Aging and  		  Long-Term Care Policy within the U.S. Department of Health and Human Services.  		  For additional information about this subject, you can visit the DALTCP home  		  page at <a href="http://aspe.hhs.gov/_/office_specific/daltcp.cfm">http://aspe.hhs.gov/_/office_specific/daltcp.cfm</a> or contact the ASPE  		  Project Officer, Emily Rosenoff, at HHS/ASPE/DALTCP, Room 424E, H.H. Humphrey  		  Building, 200 Independence Avenue, S.W., Washington, D.C. 20201. Her e-mail  		  address is: <a href="mailto:Emily.Rosenoff@hhs.gov">Emily.Rosenoff@hhs.gov</a>.</i></p>
+<p><i>The opinions and views expressed in this report are those of the  		  authors. They do not necessarily reflect the views of the Department of Health  		  and Human Services, the contractor or any other funding  		  organization.</i></p>
+</blockquote>
+<hr /><h2>TABLE OF CONTENTS</h2>
+<dl><dt>I. <a href="#intro">INTRODUCTION AND PURPOSE</a></dt>
+</dl><dl><dt>II. <a href="#method">METHODS AND ORGANIZATION OF THE PAPER</a></dt>
+</dl><dl><dt>III. <a href="#role">ROLES AND RESPONSIBILITIES OF THE LONG-TERM CARE  		  WORKFORCE</a></dt>
+<dd>A. Facility and Home Health Administrators</dd>
+<dd>B. Physicians</dd>
+<dd>C. Nurses</dd>
+<dd>D. Mental Health Professionals</dd>
+<dd>E. Pharmacists</dd>
+<dd>F. Therapists</dd>
+<dd>G. Direct Care Workers</dd>
+</dl><dl><dt>IV. <a href="#educate">EDUCATIONAL INFRASTRUCTURE CHALLENGES TO  		  ASSURING LONG-TERM CARE AND GERIATRIC COMPENTENCY</a></dt>
+<dd>A. Physicians</dd>
+<dd>B. Nurses</dd>
+<dd>C. Social Workers, Physical Therapists, Pharmacists</dd>
+</dl><dl><dt>V. <a href="#need">ARE THE COMPETENCIES NEEDED FOR LONG-TERM CARE  		  PROFESSIONALS DIFFERENT FROM THOSE REQUIRED IN ACUTE AND AMBULATORY CARE  		  SETTINGS?</a></dt>
+</dl><dl><dt>VI. <a href="#snapshot">SNAPSHOT OF THE LITERATURE ON LONG-TERM CARE  		  COMPETENCIES</a></dt>
+<dd>A. Interdisciplinary</dd>
+<dd>B. Long-Term Care Administrators</dd>
+<dd>C. Physicians</dd>
+<dd>D. Nurses</dd>
+<dd>E. Social Workers and Mental Health Professionals</dd>
+<dd>F.Pharmacists</dd>
+<dd>G. Direct Care Workers</dd>
+</dl><dl><dt>VII. <a href="#potential">POTENTIAL STRATEGIES TO ENHANCE GERIATRIC  		  COMPETENCIES IN LONG-TERM CARE</a></dt>
+</dl><dl><dt>VIII. <a href="#conclude">CONCLUSIONS</a></dt>
+</dl><dl><dt><a href="#ref">REFERENCES</a></dt>
+</dl><dl><dt><a href="#notes">NOTES</a></dt>
+</dl><h2><a name="intro" id="intro">I. INTRODUCTION AND PURPOSE</a></h2>
+<p>According to the U.S. Department of Health and Human Services (HHS), the  		aging population is likely to impact the necessary size and composition of the  		health care workforce (Center for Health Workforce Studies, 2006). There are  		now 35 million people over the age of 65 in the United States. They use 48  		percent of hospital days and 83 percent of nursing home days. About 1.6 million  		older adults live in nursing homes. Almost half are over age 85. According to  		the National Association of Homecare, 69 percent of home care users are 65 and  		older and 16 percent are 85 and older (Kovner et al., 2007). Ensuring that  		there are enough qualified health professionals to meet the demands of this  		population will be a key issue in the coming years.</p>
+<p>In April 2008, the Institute of Medicine (IOM) released Retooling  		for an Aging America: Building the Health Care Workforce (IOM, 2008).  		According to the report, there are too few geriatric specialists and most  		physicians lack the broad based knowledge of aging necessary to effectively  		treat many of the unique needs of older adults. It recommends that:</p>
+<ul><li>health care workers be required to demonstrate competence in basic  		  geriatric care to receive and maintain their licenses and certifications;</li>
+<li>all health professional schools and health care training programs  		  expand coursework and training in the treatment of older adults; and</li>
+<li>more work be done to determine the appropriate content of training  		  necessary to teach needed competencies based on staff responsibilities and the  		  settings in which they work. </li>
+</ul><p>Competencies generally refer to demonstration of knowledge, skills, or  		abilities required to successfully perform critical job functions or tasks.  		While the IOM report addressed competency issues across all care settings, this  		paper focuses specifically on the competencies required for work in long-term  		care. Long-term care covers a range of medical and/or support services that are  		designed to help people who have disabilities or chronic care needs. Services  		may be needed for a short period of time, or extend over months or years.  		Long-term care may be provided in a number of settings including within a  		person's home, in a residential care or assisted living facility, or in a  		nursing home.</p>
+<p>Geriatric competencies may overlap with long-term care competencies, but  		there is a distinction between the two. A geriatric curriculum may include  		instruction rooted in knowledge of aging processes, but not include specific  		long-term care issues. On the other hand, long-term care proficiency may be  		based upon medical management for a patient of any age who is admitted to a  		nursing home, not just an older patient. Staffing, delegation of tasks, and  		patient needs will vary from acute and ambulatory settings Patients with  		chronic conditions who require person-centered approaches to long-term services  		and supports are likely to receive better attention to health needs when they  		are attended by formal providers and informal caregivers who are trained to  		recognize complicated conditions and make differential diagnoses that may not  		be immediately recognized in an acute care setting. </p>
+<p>This paper provides a snapshot of workforce competencies that have been  		identified for professionals who work in long-term care settings. This is  		provided through examination of basic roles and responsibilities of  		professionals and options presently available for specialization, through an  		analysis of the long-term care workforce literature, and through identification  		of initiatives launched by professional associations and providers to determine  		progress in defining the competencies needed by this vital workforce.  		Additionally, the paper examines whether there might be differences in the  		competencies required to care for the geriatric population in long-term care  		settings compared to acute and ambulatory care settings. Although individuals  		of all ages have disabilities that require long-term care services, this paper  		focuses primarily on providers who serve long-term care needs of the older  		population, and excludes competencies required in caring for younger  		individuals with physical or intellectual disabilities. A majority of available  		literature is confined to the nursing home workforce, but where the literature  		is available the paper discusses other long-term care settings as well. </p>
+<h2><a name="method" id="method">II. METHODS AND ORGANIZATION OF THE PAPER</a></h2>
+<p>To prepare the concept paper/literature review, the authors: </p>
+<ul><li>
+<p>Examined the gerontological and long-term care workforce literature  			 between 2000 and 2008 (searching Medline, CINAHL, and Google Scholar).</p>
+</li>
+<li>
+<p>Reviewed web sites of key professional associations, long-term care  			 providers, worker/advocacy organizations and academic institutions, which  			 influence the education, training and licensing/certification of the  			 professional long-term care workforce.</p>
+</li>
+<li>
+<p>Informally interviewed stakeholders from the major professional  			 organizations and university-based centers involved in developing/diffusing  			 geriatric competencies in the curricula of nursing, medical and social work  			 schools.</p>
+</li>
+</ul><p>The remainder of the paper includes: </p>
+<ul><li>
+<p>A brief summary of the roles played by various professionals  			 employed in long-term care.</p>
+</li>
+<li>
+<p>A literature review of the educational infrastructure of the  			 professional workforce and the current thinking on core-competencies for  			 long-term care professionals. </p>
+</li>
+<li>
+<p>A description of some of the new strategies proposed for improving  			 the core-competencies of long-term care professionals.</p>
+</li>
+</ul><h2><a name="role" id="role">III. ROLES AND RESPONSIBILITIES OF THE LONG-TERM CARE  		WORKFORCE</a></h2>
+<p>The following section provides background information on the workforce  		that cares for individuals in various long-term care settings. Rules and  		requirements regarding staffing (i.e., ratios, licensure requirements,  		continuing education) are sometimes federal requirements and sometimes state  		requirements depending on the care setting. Similarly, long-term care settings  		themselves are regulated differently depending on the type of setting. Hence,  		the following description of roles and responsibilities of the workforce are  		intended as an overview only.</p>
+<h3>A. Facility and Home Health Administrators</h3>
+<p>Facility and home health administrators are responsible for all aspects  		of their respective organizations including the supervision and management of  		staff and compliance with federal and state regulations. Nursing home  		administrators are licensed by individual states, and licensing requirements  		vary significantly across states. Some states require a high school diploma and  		passing an exam, whereas other states require a bachelors or higher level  		degree with coursework in long-term care/health care, gerontology and personnel  		management. The extent to which administrators in assisted living facilities,  		home health agencies and other home and community-based services agencies are  		credentialed is left to states.</p>
+<h3>B. Physicians</h3>
+<p>Physicians in long-term care are usually formally involved as nursing  		home and home health agency medical directors, and as such, they are the  		individuals required to sign off on nursing home and home health care plans.  		Nursing homes reimbursed by Medicare or Medicaid are required to have a  		physician medical director who is responsible for overseeing the medical care  		of residents and for participating in the development of residents care  		plans. Assisted living facilities and home health agencies are not required to  		have a medical director, although many do. </p>
+<p>Physicians can be certified as geriatricians to practice specifically  		with older adults. Geriatricians typically originate in family practice or  		internal medicine and subsequently specialize. According to the 2008 IOM  		report, there are approximately 7,000 practicing geriatricians; this accounts  		for less than one percent of all physicians. Projections show that 36,000 will  		be needed to provide services to the aging baby boom population by 2030 (IOM,  		2008). </p>
+<h3>C. Nurses</h3>
+<p>The nursing profession has several levels of licensure related to the  		educational degree attained. Nurses can be licensed as Registered Nurses (RNs),  		Nurse Practitioners (NPs), or Licensed Practical Nurses/Licensed Vocational  		Nurses (LPN/LVNs). </p>
+<p><b>Registered Nurses (RNs)</b> are responsible for assuring the quality  		of clinical care in long-term care settings, assessing health conditions,  		developing treatment plans, and supervising LPN/LVNs and paraprofessional  		staff. RNs are trained at an associates degree level or higher.<sup><font><a href="#note1">1</a></font></sup> Most nursing home RNs hold  		administrative and supervisory positions. By law, the Director of Nursing in a  		skilled nursing facility must be an RN. Home health RNs assess a patients  		home environment, care for and instruct patients and their families in  		self-care and supervise home health aides (HHAs). Of the estimated 2.9 million  		RNs employed in the United States, about 260,000 are employed in long-term care  		settings, usually in nursing homes and home health agencies (Bureau of Health  		Professions, 2006). Substantial research evidence supports the critical role of  		nurses--particularly in nursing home settings--in improving the quality of care  		(Harrington et al., 2000; Rantz, 2003; Reinhard and Reinhard, 2006; Bostick et  		al., 2006). </p>
+<p><b>Nurse Practitioners (NPs)</b> are also employed in some nursing homes  		to augment medical care provided to residents by physicians. These nurses are  		RNs with advanced education and training who operate in an expanded nursing  		role, conducting physical exams, making urgent care visits, prescribing  		medications and providing preventative care to residents. A minimum of a  		masters degree in nursing is required for certification as a NP. As of  		2007, there were over 125,000 NPs practicing in the United States, and 6,000  		new NPs graduate each year. Thirteen percent of NPs work in long-term care  		(American Academy of Nurse Practitioners, 2009). Studies have shown that NPs  		can improve the quality of care, improve communication, and can be cost  		effective for a nursing home residents care (Intrator, 2005). A survey of  		physicians who are members of the American Medical Directors Association (AMDA)  		found that large majorities of respondents perceived NPs to be very effective  		in maintaining physician, resident and family satisfaction in nursing homes  		(Rosenfeld et al., 2004). </p>
+<p><b>Licensed Practical/Licensed Vocational Nurses (LPNs/LVNs)</b> provide  		direct patient care including taking vital signs and administering medications.  		LPNs obtain licensure following 12-18 months of post-secondary education. Their  		scope of practice varies from state to state, but is always more limited than  		that of RNs; however, they play an integral role in long-term care settings.  		According to surveys conducted by the National Council of State Boards of  		Nursing, more than 60 percent of LPNs practice in nursing homes and other  		long-term care settings, and the majority of respondents also specifically  		reported caring for older persons in these settings. Almost 50 percent of  		respondents also reported holding administrative responsibilities in nursing  		homes, and 72 percent reported similar responsibilities in other long-term care  		environments (National Council of State Boards of Nursing, 2007).</p>
+<h3>D. Mental Health Professionals</h3>
+<p>Mental health professionals in long-term care settings include  		professionals trained in psychology, psychiatry, and social work. Numerous  		studies show there is a severe shortage of practitioners in the mental health  		workforce who can provide services to older adults regardless of setting  		(Presidents New Freedom Commission on Mental Health, 2003; Halpain, 1999;  		Bartels, 2002).</p>
+<p>The current estimated need for psychologists who specialize in geriatric  		care (geropsychologists) is 5,000-7,500 practitioners, yet there are only 700  		currently practicing (IOM, 2008). A study of mental health services in nursing  		homes found that psychiatric services--if they are available at all--are most  		commonly provided by psychiatric consultants who also have their own practice,  		come only when called to see a specific patient, and provide no follow-up  		unless called back (Bartels, 2002). Yet, a majority of older adults in  		residential care are reported to have a significant mental disorder and are in  		need of mental health services. A review of medical records by the Office of  		the Inspector General in a sample of skilled nursing facilities showed that 95  		percent of Medicare beneficiaries who received a psychosocial assessment had at  		least one psychosocial service need and 39 percent did not have a care plan  		(OIG, 2003).</p>
+<p>The burden of providing mental health services in nursing homes falls  		most heavily on social workers. Yet a survey by Bern-Klug et al. (2009) of  		nursing home social service directors found that 20 percent lacked a four-year  		college degree. Another 25 percent had a bachelors degree in a non-social  		work field. The authors of the survey speculate that social workers who have  		been educated appropriately and supervised in the field would be more effective  		in providing for the psychosocial needs of residents, although there is no  		evidence in the literature to indicate a relationship between educational  		training and patient care.</p>
+<p>Social workers carryout a broad and sometimes diffuse set of functions  		in nursing homes, assisted living, and home care settings. Twenty-nine percent  		of master of social work programs offer an aging certificate, specialization,  		or concentration (IOM, 2008). The National Association of Social Workers (NASW)  		has defined areas of focus for social workers in nursing homes as  		follows:</p>
+<ul><li>the social and emotional impact of physical or mental illness or  		  disability;</li>
+<li>the preservation and enhancement of physical and social  		  functioning;</li>
+<li>the promotion of the conditions essential to ensure maximum benefits  		  from long-term health care services;</li>
+<li>the prevention of physical and mental illness and increased  		  disability;</li>
+<li>the promotion and maintenance of physical and mental health and an  		  optimal quality of life (NASW, 2003).</li>
+</ul><p>Federal regulations require nursing homes over 120 beds to have a  		qualified social worker (i.e., an individual with a bachelors degree in  		social work or in a human services field with one year of supervised social  		work experience in a health care setting). Estimates of the number of  		professional social workers in long-term care settings range from 36,071 to  		44,156 (Center for Health Workforce Studies and NASW Center for Workforce  		Studies, 2006). According to a recent survey over half of the social services  		respondents reported they were the single staff member providing social  		services (Bern-Klug, 2009). Since social workers in nursing home settings  		usually practice alone, they may find it more difficult to have access to  		colleagues or supervisors, or participate in organized in-service training to  		upgrade their skills (Parker-Oliver, 2003). </p>
+<p>Social workers may also provide medical social services to frail and  		disabled elders under Medicares home health benefit, including  		counseling, assessment, care planning and case management, if provided in  		conjunction with treating social and/or emotional problems that impact a  		patients medical condition. </p>
+<h3>E. Pharmacists</h3>
+<p><b>Consultant Pharmacist and Senior Care Pharmacists</b> are pharmacists  		who fill a special niche in pharmacy practice. They take responsibility for  		patient medication-related needs in nursing homes and other long-term care  		settings. Their responsibilities also include ensuring that medications are  		appropriate, effective and safe and are used correctly, and identify and  		resolve medication-related problems. Consulting pharmacists counsel patients in  		long-term care facilities, provide information and recommendations to  		prescribers, review patient drug regimens and oversee medication distribution  		services (American Society of Consultant Pharmacists [ASCP], 2008). </p>
+<p>Pharmacists have the option of completing a geriatric residency called a  		Certification in Geriatric Pharmacy after earning a doctor of pharmacy degree.  		Of approximately 200,000 practicing pharmacists, 720 have a geriatrics  		certification (Kovner et al., 2007). Senior Care and Consultant Pharmacists  		typically have experience and/or interest in geriatric practice, but are not  		required to acquire a certification in geriatric practice.</p>
+<h3>F. Therapists</h3>
+<p>Physical Therapists (PTs), Occupational Therapists (OTs), Speech  		Language Pathologists (SLPs) and Audiologists help restore function and  		independence that result from disease, injury, or the aging process. They  		provide their services in virtually all long-term care settings. Geriatrics is  		required in the curricula for all therapy professionals (Center for Health  		Workforce Studies, 2005). In long-term care settings such as nursing homes,  		therapies are usually provided as a part of rehabilitation or post-acute care  		of eligible patients rather than for long-term care generally. </p>
+<p><b>Physical Therapists (PTs)</b> most commonly graduate from accredited  		programs with a doctor of physical therapy degree, although 20 percent of  		accredited programs still graduate PTs at a masters level (Bureau of  		Labor Statistics, 2008-09). PTs practice in various long-term care settings and  		help patients to improve mobility, relieve pain, and try to prevent permanent  		disability resulting from injuries. PTs who graduate from an accredited program  		must pass a licensure examination to practice and can subsequently practice in  		any setting. Some states require continuing education to maintain licensure but  		this varies state to state. Fifteen percent of practicing PTs work in home  		health or long-term care facilities (Center for Health Workforce Studies,  		2006). </p>
+<p>PTs have a specialized residency in geriatrics, but only a small number  		of PTs complete this program and become credentialed. As of 2006, 488 PTs were  		Board Certified Geriatric Clinical Specialists, and projections showed 50 new  		specialists graduating annually (Center for Health Workforce Studies, 2006).  		</p>
+<p><b>Occupational Therapists (OTs)</b> typically enter the workforce as  		entry-level clinicians with a masters degree, although in 2007, five  		schools around the country offered doctoral degrees (Bureau of Labor  		Statistics, 2008-09). OTs are required to fulfill supervised field work and  		must pass a licensure examination. In some states, continuing education is  		required for license renewal. OTs help people regain, develop, and build skills  		that are necessary to function in daily living. Specific to the older  		population, OTs can help their patients to remain in their homes and care for  		themselves. Eleven percent of OTs work in nursing homes or home health care  		settings (Center for Health Workforce Studies, 2006). They help people overcome  		disabilities associated with aging, and help patients perform self-care, work,  		and leisure activities (Center for Health Workforce Studies, 2006). Board  		certification in Gerontology is available to OTs to advance their level of  		clinical expertise but is not required to practice. </p>
+<p><b>Speech Language Pathologists (SLPs)</b> jobs generally require a  		masters-level degree, in addition to passing a licensure exam and fulfilling  		supervised field work hours. Most, but not all, states require continuing  		education hours for license renewal. In 2007, all but three states regulated  		licensure or credentialing of SLPs (Bureau of Labor Statistics, 2008-09). SLPs  		treat older adults for conditions from diseases ranging from traumatic onset  		such as a stroke, to degenerative onset such as dementia. They provide many  		services depending upon the need of the individual, but their qualifications  		include the ability to evaluate, diagnose, and treat speech, language,  		cognitive-communication and swallowing disorders. Although most SLPs work in  		educational settings, about 6 percent of SLPs work in either nursing homes or  		home health care, where most of their patients are older adults (Center for  		Health Workforce Studies, 2006). No certifications exist for geriatric  		populations.</p>
+<p><b>Audiologists</b> can also train with a combined SLP/audiology degree.  		Audiologists practice with a masters degree, but a doctor in audiology  		degree (AuD) is becoming more common. In 2007, eight states required a doctoral  		degree in order to practice, and another 50 programs were newly accredited in  		the AuD degree (Bureau of Labor Statistics, 2008-09). All states require  		licensure for an audiologist to practice, and some require continuing education  		for license renewal. Audiologists work with older adults who have balance,  		hearing, and other inner-ear related disorders. The profession does not  		currently have a geriatric competency. </p>
+<h3>G. Direct Care Workers</h3>
+<p>Direct care worker (DCW) is an umbrella term for professionals who  		provide the bulk of hands-on care to residents in long-term care settings. DCWs  		often assist with activities of daily living such as bathing, eating and  		dressing, may provide basic health monitoring (such as taking temperature or  		blood pressure) and typically provide care under the supervision of nursing or  		medical staff. Training requirements vary depending on the care setting and the  		position. Below are some common examples of DCWs who work in long-term care  		settings. </p>
+<p><b>Certified Nursing Assistants (CNAs)</b> usually work in Medicare  		certified nursing homes and are (federally) required to have 75 hours of  		training and pass an examination in order to be certified. States may have  		additional training requirements. Because a large proportion of CNAs work in  		nursing homes, they are generally trained for work in long-term care settings.  		The training is typically delivered through a combination of classroom and  		hands-on clinical training.</p>
+<p><b>Home Health Aides (HHAs)</b> working for Medicare certified home  		health agencies are required to have 75 hours of training and pass an  		examination similar to CNAs. States may have additional requirements. HHAs are  		specifically trained to work in a home care setting. The training is typically  		delivered through a combination of classroom and hands-on clinical training  		(Bureau of Labor Statistics, 2008-09).</p>
+<p><b>Personal and Home Care Aides</b> may provide housekeeping, routine  		personal care services, and record clients conditions and progress. They  		usually receive a short period of on-the-job training. Personal and home care  		aides typically work in an individuals home or residential care setting  		(such as an assisted living facility) (Bureau of Labor Statistics,  		2008-09).</p>
+<h2><a name="educate" id="educate">IV. EDUCATIONAL INFRASTRUCTURE CHALLENGES TO ASSURING  		LONG-TERM CARE AND GERIATRIC COMPETENCY</a></h2>
+<p>Once they have completed their classroom training, health care  		professionals are typically required to participate in subsequent clinical  		experiences, rotations, internships, residencies, or other specialized  		programs. Training opportunities for competencies in caring for older patients,  		particularly in long-term care, vary by profession. In general, literature  		suggests that the educational infrastructure to prepare professionals to care  		for a growing population of older adults, with chronic illnesses, complex  		medical conditions and/or functional and cognitive limitations may be  		inadequate. Multiple studies of the readiness of the health care workforce to  		care for an aging population in various settings, including long-term care,  		have concluded that the current system is in need of reforms such as more  		experience in geriatric care and more educators with expertise in geriatric  		care. (Knickman and Snell, 2002; Alliance for Aging Research, 2005; Center for  		Health Workforce Studies, 2005; National Commission on Nursing Workforce for  		Long-Term Care, 2005; National Commission on Quality Long-Term Care, 2007;  		Kovner, Mezey and Harrington, 2007). </p>
+<h3>A. Physicians</h3>
+<p>Training for physicians in geriatrics and long-term care is inconsistent  		across schools of medicine, and the majority appear to provide limited  		education or experience in care of the older patient. Less than 10 percent of  		medical schools require a geriatrics course. Although 86 medical schools offer  		an elective in geriatrics, only 3 percent of medical students take it. Finally,  		almost no programs require a rotation in a geriatric or long-term care setting.  		In contrast to this, every medical school requires students to complete a  		clinical rotation in a pediatrics setting (Kovner, 2007). There are several  		challenges to recruiting and retaining physicians to specialize in geriatrics.  		First, there has been a recent decline in medical students pursuing family  		practice and internal medicine, so there are less potential candidates who can  		further specialize into geriatric care. A second obstacle to recruitment of  		geriatricians into the workforce is a lower average salary for geriatricians  		compared to other areas of medicine (Institute for the Study of Health, 2009).  		Finally, trends indicate geriatricians are not pursuing recertification through  		continuing education and re-examination when their certifications expire. The  		reasons include retirement, the burden of the process, and lack of perceived  		benefit (IOM, 2008).</p>
+<p>Despite these statistics, 70 percent of graduating medical students in  		2007 reported being exposed to expert geriatric care by the attending faculty  		of his or her medical program; this was an increase from 61 percent in 2003  		(Bragg and Warshaw, 2008). Self-perceived preparation to care for older adults  		in long-term health care settings is also improving (from 55 percent in 2003 to  		62 percent in 2007). However, it continues to lag behind acute and ambulatory  		care by 14 and 19 percentage points respectively (Bragg and Warshaw, 2008). It  		remains unclear whether a new physicians self-assessment reflects actual  		expertise. </p>
+<h3>B. Nurses</h3>
+<p>The educational infrastructure for nurses has similar challenges as  		those facing physicians. Only one-third of nursing students in baccalaureate  		nursing programs have a required course in geriatrics (Kovner, 2007).  		Fifty-eight percent of nursing programs have no full-time faculty certified in  		geriatric nursing. Students in baccalaureate-level nursing programs are rarely  		exposed to the complexities of the geriatric care needed by long-term care  		clients. A typical experience is an introductory clinical experience in a  		long-term care setting to learn about the provision of personal care and basic  		assessment skills (Williams, 2006). A comparison of average wages for nurses  		working in nursing homes verses acute care hospitals demonstrates the financial  		incentive to work in acute care. In 2004 the average annual wage for RNs  		working full-time in a hospital was $59,963; this was the highest of any  		employment setting. In contrast, the average income for RNs working in nursing  		homes was $53,796 (Bureau of Health Professions, 2006). </p>
+<h3>C. Social Workers, Physical Therapists, Pharmacists</h3>
+<p>In spite of efforts to improve care for older adults, providers such as  		social workers, PTs, and pharmacists also have challenges in providing adequate  		training in caring for older patients. As of 2002, about 3.6 percent of  		masters-level social work students specialized in aging, and only about 5  		percent of social workers at the baccalaureate-level identified aging as their  		primary area of practice (Center for Health Workforce Studies, 2006). It is  		estimated that 80 percent of bachelor of social work students graduate without  		any specific course in aging (HHS, 2006). PTs have identified geriatric content  		as important for general curricula. However, relatively few graduating students  		have specialized in geriatrics because the typical physical therapy student has  		a low intention of working in geriatrics (Center for Health Workforce Studies,  		2006). A survey of physical therapy curriculum content found that although 92  		percent of schools incorporated aging content into various other courses, only  		10 percent of programs offered a formal course in geriatrics. Finally, in a  		survey of pharmacy schools, the majority of the respondents relied on part-time  		faculty members to teach geriatrics, and less than half of the respondents  		offered a stand-alone geriatrics course (Odegard, 2007). </p>
+<p>In summary, health professions schools and programs may not be  		sufficiently equipped with faculty, coursework and/or clinical experiences to  		prepare the future health workforce for the impending demand of the aging  		population.</p>
+<h2><a name="need" id="need">V. ARE THE COMPETENCIES NEEDED FOR LONG-TERM CARE  		PROFESSIONALS DIFFERENT FROM THOSE REQUIRED IN ACUTE AND AMBULATORY CARE  		SETTINGS?</a></h2>
+<p>While intuitively we assume that geriatric training would be important  		in a long-term care setting, it is reasonable to ask whether there are skills  		and knowledge specific to long-term care that are not being addressed within  		current geriatric curricula. The research literature provides little insight  		into the similarity between the basic geriatric competencies needed by health  		and social work professionals and those needed to effectively perform in  		long-term care settings. </p>
+<p>The Hartford Institute for Geriatric Nursing at New York University  		completed a project in 2006, funded by the Commonwealth Fund, to compare  		geriatric competencies expected of students trained in nursing, medicine,  		social work, pharmacy, and nursing home administration, and to learn how  		nursing homes were used to meet these competencies. The project team compared  		competencies across these professions in the domains of assessment, diagnosis,  		plan of care and implementation, evaluation, professional role, teaching and  		coaching, cultural competence, and managing and negotiating health care  		systems. </p>
+<p>The project found a high degree of overlap between the geriatric  		competencies expected of students from each discipline. Some examples of  		similarities across professions include physical assessment, functional  		assessment, age-related changes, and diagnosis of acute health problems.  		Despite the high degree of similarity, some differences between disciplines  		were found. Social work geriatric competencies differed most from the other  		disciplines, although social work included competency in areas that were not  		found in the other disciplines (Mezey et al., 2008). The competency comparisons  		may be a useful starting point for examining the relevance of geriatric  		competencies to those needed by professionals who practice in long-term care  		settings. </p>
+<p>An earlier study (Utley-Smith, 2004) sheds some light on whether  		different settings required different competencies. The investigator compared  		the perceptions of hospital administrators, nursing home administrators and  		home health administrators in three states regarding the importance of selected  		competencies of recent baccalaureate-level nursing graduates. Competencies were  		categorized as health promotion, supervision, interpersonal communication,  		direct care, and computer use and case management. The administrators from the  		three work settings gave similar mean importance ratings to interpersonal  		communication competence and direct care competence. Home health agency  		respondents gave the highest rating to health promotion competence. Nursing  		home administrators differed strongly from home health and hospital  		administrators in the importance they attached to supervision competence--a  		finding that reinforces the need to address deficiencies in the preparation of  		nurses to supervise other staff and or delegate or monitor the work of  		others.</p>
+<p>Many unique aspects of long-term care make these settings different from  		acute or ambulatory health care settings. Here are several examples: </p>
+<ul><li>the reliance on unlicensed staff and the need to delegate nursing  		  tasks;</li>
+<li>the need to integrate informal care and formal services in home  		  health and home care environments;</li>
+<li>the one-on-one nature of the relationship between health professions  		  and a client in home health;</li>
+<li>nurses in some long-term care settings may have a significantly  		  increased management role compared to other care settings; </li>
+<li>the use of negotiated or managed risk in assisted living and  		  residential care; and</li>
+<li>a regulatory environment with its emphasis on survey and  		  certification, the required use of the minimum data set.</li>
+</ul><p>These aspects of the long-term care environment make it somewhat  		different than traditional health care settings. For example, a long-term care  		client is typically a long-stayer--an individual who has a good chance of dying  		in a nursing home; an individual who may be far more interested in preserving  		his or her dignity and living life with as much autonomy and functional  		capacity as possible compared to those in traditional health care settings. For  		these older adults, the quality of the relationship between resident or client  		and staff, and the ability of the staff to deliver proper care, may be the most  		important factor determining care quality.</p>
+<h2><a name="snapshot" id="snapshot">VI. SNAPSHOT OF THE LITERATURE ON LONG-TERM CARE  		COMPETENCIES</a></h2>
+<p>A first step in enhancing the preparation, credentialing and on-going  		training of long-term care professionals is to define the competencies needed  		by licensed staff to effectively care for older adults in long-term care  		settings. A review of the long-term care workforce literature indicates that  		definitions are at an early stage. Professional and provider associations have  		so far taken the lead in defining competencies, generally with the goal of  		improving the quality of nursing home care. Initiatives tend to focus on  		bringing more standardization and specification to the roles and functions of  		licensed nursing home staff rather than identifying the tasks, skills and  		abilities that are necessary to perform identified roles. </p>
+<p>Once the skills and knowledge for competency have been identified, the  		question of how to administer such a competency training remains. Two emerging  		options for enhancing or improving training for professionals who care for  		older adults in long-term care are: (1) modifications to the educational  		curricula and clinical training; or (2) creation of continuing education  		programs to supplement a professionals qualifications. Below are examples  		of current initiatives that have recently been completed or are currently  		underway to define and infuse geriatric training in medical, nursing and social  		work schools/programs, and into the workplace for established health care  		professionals. Although some are pertinent to geriatrics in general, and  		therefore not all specific to long-term care, they are initiatives that  		demonstrate a point from which long-term care could be considered in the  		future.</p>
+<p>John A. Hartford and Donald Reynolds Foundations have made significant  		investments to develop, support and disseminate geriatric and gerontological  		competencies for health care professionals--including medical and nursing  		students, practicing physicians and nurses and social workers. In addition,  		there is some public infrastructure to support education and training in  		geriatrics and gerontology for health professionals (e.g., the Veterans  		Administrations Geriatric Research, Education and Clinical Centers; the  		Geriatric Education Centers funded by the Bureau of Health Professions; and the  		Hartford Centers of Geriatric Nursing Excellence [NCGNE]). </p>
+<h3>A. Interdisciplinary</h3>
+<p>The <b>University of California Academic Geriatric Resource Program</b>  		partnered with the <b>American Geriatrics Society</b> to develop a curricular  		framework that includes core-competencies necessary for caring for diverse  		elderly populations. The curriculum addresses the attitudes, knowledge and  		skills needed by health care professionals to promote good provider-patient  		relationships (Xakellis, 2004). However, one limitation is that it does not  		address the ethnic, racial and cultural differences among caregivers that  		influence how they relate to patients or deliver care, a particularly important  		issue among nursing home staff (Sanders, 2008).</p>
+<p>The <b>American Association of Homes and Services for the Aging</b> has  		established a Workforce and Talent Cabinet made up of health educators,  		providers, and other workforce experts to develop a blue print for improving  		the long-term care workforce. The first action to be taken by the cabinet is to  		develop recommendations to strengthen the geriatric competencies of DCWs and  		professional staff across all long-term care settings (Institute for the Future  		of Aging Services, 2009).</p>
+<p>The <b>Health Resources and Services Administration (HRSA)</b> in HHS  		started a grants program in 1998 to encourage junior faculty such as  		instructors, clinical instructors, or assistant professors to pursue academic  		careers in geriatrics, with the goal of reducing faculty shortages for health  		care professionals. Junior faculty in accredited schools of medicine who are  		board certified in internal medicine, family practice, or psychiatry are  		eligible to apply. A component of the career development plan specifically  		requires the intent to train others in clinical geriatrics, and training of  		interdisciplinary teams in particular (HRSA, 2007).</p>
+<p>The <b>Partnership for Health in Aging (PHA)</b>, sponsored by the  		<b>American Geriatrics Society</b>, is coordinating a PHA Geriatrics  		Competencies Work Group in an effort to develop entry-level geriatric  		competencies. These competencies would be applicable across disciplines and  		taught in an interdisciplinary approach. The competencies will be common among  		many disciplines including medicine, nursing, occupational therapy, physical  		therapy, pharmacy, psychology and social work. The project is scheduled for  		completion by the end of 2009.<sup><font><a href="#note2">2</a></font></sup></p>
+<h3>B. Long-Term Care Administrators</h3>
+<p>The <b>American College of Health Care Administrators (ACHCA)</b>  		published Principles of Excellence for Leaders in Long-Term Care  		Administration, a broad guide to help administrators assess their own  		leadership roles. The document is intended to set a framework for educational  		preparation, licensure, on-going educational curriculum, job descriptions and  		self-assessment. However, it is not an endorsement of the competencies that  		long-term care administrators need to effectively operate. <b>ACHCA</b> also  		published a position paper in 2007 on effective leadership in long-term care.  		The paper concludes that ACHCA should endorse a leadership model for preparing  		nursing home administrators that focuses on gaining knowledge, utilizing  		processes and practicing effective behaviors during content-focused and  		application stages of learning. </p>
+<p>The <b>National Association of Boards of Examiners</b> recently updated  		a job analyses describing the knowledge, tasks and skills of an  		entry-level nursing home administrator and residential care/assisted living  		administrator. The job analysis discusses domains of knowledge such  		as how to provide resident-centered care and quality of life, and specifically  		recognizes the need for an administrator to understand physiological and  		psychosocial age-related processes. </p>
+<p>In 2007, the <b>Long-Term Care Professional Leadership Council</b> (a  		collaboration between ACHCA, AMDA, ASCP and the National Association of  		Directors of Nursing Administration) developed a core document describing  		essential functions of and knowledge needed by nursing home administrators,  		directors of nursing, consultant pharmacists and medical directors. This is a  		start toward creating a nationally accepted scope of practice for these  		positions. For example, the document states that a nursing home administrator  		must have knowledge and expertise in management of frail geriatric and other  		long-term care patient/residents. However, it does not specify what the  		administrator needs to be able to do to care for a geriatric population. </p>
+<h3>C. Physicians</h3>
+<p>The <b>American Geriatrics Societys Board of Directors</b>  		approved a strategic plan to help ensure that the nations growing  		population of older adults gets high quality care. The plan outlines several  		key projects, including: (1) defining core-competencies for health  		professionals caring for older adults; (2) establishing requirements to ensure  		competence in the care of older adults in a greater number of health  		professions training programs; (3) creating comprehensive leadership education  		programs for geriatrics health care professionals (Spivack, 2005). </p>
+<p>In July 2007, a national conference convened by the <b>American  		Association of Medical Colleges (AAMC)</b> and the <b>Hartford Foundation</b>  		reached consensus on a minimum set of geriatric competencies that all medical  		students should acquire. This collaboration between multiple medical schools  		and the AAMC resulted in the development of geriatric specific competency-based  		performance standards needed by medical students to adequately care for older  		adults. A draft was developed by geriatricians to identify measurable  		performance tasks associated with accepted standards of evidence-based  		geriatric care, patient safety and do no harm within the physicians  		expected scope of practice. Leaders in medical education identified 26 key  		competencies in geriatrics in eight general categories: medication management;  		cognitive and behavior disorders; self-care capacity; falls, balance and gait  		disorders; health care planning and promotion; atypical presentation of  		disease; and palliative care and hospice care for the elderly (AAMC, 2009).  		</p>
+<p>In 2006, <b>AMDA</b> published a position statement on the roles and  		responsibilities of the nursing home medical director. It describes the  		responsibilities of the medical director in the areas of physician leadership,  		patient care-clinical leadership and quality of care and education. However, it  		does not specify what competencies are needed to oversee the care of older  		adults in nursing homes. The <b>Pioneer Network</b> and <b>AMDA</b> are working  		on an initiative called Advancing Culture Change Together (ACCT) with  		sponsorship from the <b>Commonwealth Fund</b>. A component of the ACCT Project  		is helping physicians incorporate principles of resident-centered care into  		nursing homes by leading the development of explicit core-competencies for  		resident-centered care. These competencies are under review and have not been  		publicly released yet, but will be available on AMDAs web site in the  		future.</p>
+<h3>D. Nurses</h3>
+<p>Of all the long-term care professionals, our review finds the most  		geriatric/long-term care competency activity is related to nursing. The gold  		standard for defining geriatric and gerontological competencies for  		baccalaureate schools of nursing is the American Association of Colleges of  		Nursing (AACN) Older Adults: Recommended Baccalaureate Competencies and  		Curricular Guidelines for Geriatric Nursing Care developed by the  		<b>Hartford Foundation Institute for Geriatric Nursing</b> in collaboration  		with <b>AACN</b>. The document was released in 2000 to help nurse educators  		incorporate specific geriatric nursing content into baccalaureate nursing  		curriculum. It is not explicitly targeted on nursing in long-term care  		settings. Competencies are based on: (1) a review of the literature at that  		time, including the work of the Association for Gerontology in Higher  		Education, the National League of Nursing and the Bureau of Health Profession;  		and (2) the proceedings of a conference of geriatric nurse educators. The AACN  		competencies cover the areas of functional, physical, cognitive, psychological,  		social and spiritual changes common in old age (AACN, 2009).</p>
+<p>A survey of baccalaureate schools of nursing looked at trends in nursing  		education since the advent of the AACN competencies. Of the 36 percent of  		schools responding to the survey, half reported integrating geriatrics and  		gerontology into the nursing curriculum and half reported stand-alone courses  		(Gilje, 2007). A study of barriers to incorporating geriatric competencies into  		baccalaureate nursing curricula found the key to success is the development of  		qualified and committed faculty. This study purports that faculty members  		should foster positive attitudes toward aging, expand their geriatric nursing  		knowledge base and integrate geriatric content into the curricula (Latimer and  		Thornlow, 2006).</p>
+<p>The <b>University of Minnesota School of Nursing</b> requires all  		nursing students to take a required course which introduces them to the roles,  		necessary skills, and contributions of nurses in a range of long-term care  		settings including nursing homes and community-based care. The course  		integrates curriculum modules with on-site assignment to a nursing home. As  		part of the course, students must complete a clinical practicum in a long-term  		care facility and are assigned to specific residents. After completing the  		course, students are asked to fill out a survey indicating whether course  		participation makes it more likely they will select a career in long-term care.  		According to the architect of the course, participation does not affect student  		responses (Buckwalter, 2008). Although nursing homes are commonly used as  		clinical sites to expose student nurses to geriatrics, the authors were not  		able to identify any other schools of nursing which require their students to  		learn about the unique nature of nursing in long-term care settings.</p>
+<p>The <b>Oregon Health Sciences University (OHSU) School of Nursing</b>  		and the <b>Hartford Center of Geriatric Excellence</b> created the Older Adult  		Focus Project (published in 2006), a set of learning activities to assist  		nursing students in developing competencies in the care of older adults. The  		curriculum is built into the online studies program of the OHSU School of  		Nursing. Competencies are identified in nine areas: communication, assessment,  		adapting care plan, maximizing function, optimal aging, complex systems,  		organizational systems and advocacy (Felver, 2007). </p>
+<p><b>AACN</b> and the <b>Hartford Foundation</b> sponsored an initiative  		to educate all advanced practice nurses with basic education and grounding in  		gerontological nursing care (Thornlow, 2006). They developed national,  		consensus-based competencies for new graduates of master and post-master  		programs preparing NPs and clinical nurse specialists (CNSs) in specialties  		that provide care to older adults but are not specialists in gerontology. An  		expert panel comprised of NP and CNS educators and practitioners developed a  		draft set of these competencies that address both NPs and CNSs providing care  		to older adults. Their work was reviewed by an independent validation panel  		involving 21 nursing-related organizations.</p>
+<p>The competencies were inserted into the Domains of Nurse Practitioner  		Practice--the conceptual framework for nurse practice and the foundation for  		specialty competencies. These domains include: assessment of health status,  		diagnosis of health status, plan of care and implementation of treatment, the  		NP-patient relationship, the teaching coaching function, the professional role,  		managing and negotiating health care delivery systems, monitoring and ensuring  		the quality of health care practice, and cultural and spiritual competence.</p>
+<p>The <b>Atlantic Philanthropies</b> funded the Nurse Competence in  		Aging initiative, collaboration between the American Nurses Association,  		the American Nurses Credentialing Center and the New York University Steinhardt  		School of Nursing. The purpose of the initiative is to maximize the  		sustainability of geriatric competence-enhancing activities within national  		specialty nursing associations and to assure that association members deliver  		improved care to older adults (Mezey, 2007). </p>
+<p>Although many studies have concluded that nursing home RNs are poorly  		prepared in gerontological nursing content (Tellis-Nayak, 2005; Reinhard and  		Reinhard, 2006; Sanders, 2008), a review of the nurse education literature  		found few efforts to define the competencies nurses need to work in long-term  		care settings (Harvath et al. 2008). One early attempt to instill geriatric  		competencies into the nursing curriculum, which explicitly encompassed  		long-term care, was developed in 2002 by the <b>Texas Tech School of  		Nursing</b>. Nursing school staff conducted an extensive study of the nursing  		curriculum and concluded there was minimal or no geriatric content in courses  		taken by undergraduates. Working from the hypothesis that nursing students must  		be trained to provide a continuum of care as older adults progress from  		independent to assistive to dependent living status, the nursing curriculum was  		redesigned. <b>AANC</b> and the <b>John A. Hartford Foundation Institute for  		Geriatric Nursing</b> competency guidelines (see above) were the framework for  		the course, which was supplemented by a 30-hour practicum in long-term care  		required of all nursing students. The practicum introduced students to some of  		the complexity and uniqueness of long-term care nursing--developing plans of  		care for assigned nursing home patients and responding to changes in orders and  		treatment plans. Case studies of pain, pressure ulcers, diabetes complications,  		respiratory distress palliative care and Alzheimers disease were also  		part of the course (Scott-Tilly et al., 2005). </p>
+<p>In addition to the AACN guidelines, a number of other initiatives are  		aimed at increasing the supply of geriatric nurses and improving their  		competency. The <b>Hartford Institute for Geriatric Nursing at the New York  		University College of Nursing</b> developed a tool (published in 2006) for  		evaluating the competency of nurses caring for older adults in hospitals. The  		instrument Geriatric Competencies for RNs in Hospitals includes  		competencies in eight categories: communication; physiological and  		psychological changes in older adult; pain, particularly among dementia  		patients; skin integrity; functional status; urinary incontinence; nutrition  		and hydration; elder abuse and discharge planning (Mezey, 2006).</p>
+<p>There is some evidence that long-term care provider organizations are  		becoming more active in helping to define needed competencies for long-term  		care positions. The <b>American Association of Long-Term Care Nursing  		(AALTCN)</b> established a small practice committee made up of its members, and  		has developed standards and core-competencies that all nursing personnel, such  		as a director of nursing, LPN, RN, unit manager, and staff development director  		should possess. The goal is to help employers understand the competencies they  		need to seek in job applicants; help prospective nursing employees understand  		the realities of the positions they are entering; and demonstrate the  		complexities and unique characteristics of various long-term care nursing roles  		(AALTCN, 2009). </p>
+<p>The <b>American Health Care Association (AHCA)</b>, as part of its  		<b><i>Radiating Excellence</i></b> initiative, developed the Nurse Leader  		in Long-Term Care Program, which defines leadership and management  		competencies needed by senior nurses in nursing homes. The competencies were  		validated using a mailed survey to a stratified random sample of 600 long-term  		care facilities. The extent to which these competencies are being used by AHCA  		members has not been evaluated. <b>AHCA</b> was also funded by the Commonwealth  		Fund to develop competencies around person-centered care for nursing home  		administrators (personal communication with author, 2008).</p>
+<p>There are also many initiatives aimed at improving staff competencies  		for caring for older adults with dementia, which include nurses. For example,  		the State of Florida requires all nursing home staff to receive dementia  		training and has developed a guide to competency-based curriculum on dementia  		care. Washington State has also developed consensus documents identifying  		core-competencies for dementia training for LPNs in long-term care. However,  		there is no information that shows whether and how these competency initiatives  		are used in practice or whether they impact nurse behavior.</p>
+<p>Selected schools of nursing are also now beginning to tackle gaps in the  		preparation of and on-going training of nursing home nurses as a result of  		funding from the <b>Hartford Foundation</b> and the <b>Atlantic  		Philanthropies</b>. These foundations have funded the Nursing Home  		Collaborative, a promising partnership between the <b>HCGNE</b> at the  		Universities of Arkansas, Iowa, Pennsylvania, California at San Francisco and  		the Oregon Health and Science University and nursing home providers,  		regulatory, advocacy and payer groups. Established in 2007, the goal is to  		increase the quality of care and quality of life in nursing homes by increasing  		the expertise, authority and accountability of RNs. A key aspect of this work  		is to promote the acquisition of geriatric nursing competencies in RNs now  		practicing in nursing homes (Bourbonniere and Strumpf, 2008). The core of the  		project is the development of a nurse practice model, which empowers RNs with  		the authority and accountability for their practice (Beck, 2008). </p>
+<p>The primary role of nursing home RNs is the supervision and leadership  		of LPNs/LVNs and DCWs. Several studies have focused on the poor academic  		preparation of nursing home RNs to take on these responsibilities (Reinhard and  		Reinhard, 2006; Sanders et al., 2008; Harvath, 2008). A number of nurse  		leadership training programs have emerged to address this gap such as the  		<b>Leadership, Empower, Achieve and Produce Program (LEAP)</b>, <b>University  		of Pennsylvania School of Nursing</b>, and <b>Pacific Northwest Nursing  		Leadership Institute</b>. With the exception of LEAP, these programs are local  		in scope, lack an evidence base and usually develop from a relatively narrow  		consensus process that excludes many key stakeholders (Harahan, 2008). There  		are also a growing number of programs to improve the competencies of LVNs and  		LPNs to supervise direct care staff including <b>Institute for the Future of  		Aging Services Project Leadership Enrichment and Development, Good  		Samaritan</b>, and <b>Florida Association of Homes and Services for the  		Aging</b>. They too tend to be provider initiated and/or local in nature  		(Harahan, 2008). </p>
+<p>A recent review of the literature on long-term care nurse leadership  		programs identified the following elements as essential: interpersonal skills  		such as communication, motivation and conflict resolution; clinical skills;  		organizational skills such as planning and change theory; and management skills  		such as regulatory compliance, financial and budgetary planning, supervision  		and mentoring (Harvath, 2008). The literature review did not find any training  		programs that included all these dimensions. The authors of the review  		recommend that leadership training be part of all nursing school curricula and  		that it persist throughout a nurses career. They also conclude that  		leadership training programs should differentiate the competencies needed by  		nurses who occupy different positions and who are employed in different  		settings. </p>
+<p>Studies of end-of-life care in nursing homes indicate that most nurses  		are not prepared to deliver care to older adults who are dying, even though  		increasingly numbers of Americans die in nursing homes (Ersek and Ferrell,  		2005). A significant initiative to improve the preparation of nurses to deliver  		such care in all settings was launched by the <b>Robert Wood Johnson Foundation  		(RWJF)</b> in 2002. The RWJF funded the development of a comprehensive  		end-of-life curriculum (ELNEC) for nurses, items from which were integrated  		into AACN--recommended competencies and curricular guidelines for end-of-life  		nursing care. The guidelines covered cultural issues, communication skills,  		grief and bereavement, and pain and pain management (AACN, 2009). </p>
+<p>The <b>Hospice and Palliative Nurses Association (HPNA)</b> has also  		been involved in the development of a variety of curriculum guidelines and  		standards of practice for end-of-life care including the National Consensus  		Project Clinical Practice Guidelines for Quality Palliative Care, the HPNA  		Scope and Standards of Hospice and Palliative Nursing Practice, the  		Professional Competencies for Generalist Hospice and Palliative Nurses and the  		Competencies for Advanced Practice Hospice and Palliative Care for licensed  		nurses. These initiatives tend to address what a palliative care program should  		look like rather than what an individual nurse or social worker or physician  		needs to be able to do. They are not specifically targeted to nursing in  		long-term care settings or to working with a geriatric population (HPNA, 2006).  		A second edition was released in June 2009 in which the project provides  		examples of how to operationalize optimal end-of-life care (National Consensus  		Project, 2009).</p>
+<p>The <b>American Assisted Living Nurses Association (AALN)</b> has  		promulgated a Scope and Standards of Assisted Living Nursing Practice to: (1)  		describe the ethical obligations and duties of the assisted living nurse; (2)  		guide the practice and conduct of the assisted living nurse; and (3) articulate  		the assisted living nurses understanding of the professions commitment to  		health care, nursing and society. Written in 2007, the scope and standards for  		assisted living practice reflect a relatively new nursing practice specialty  		that did not exist 15 years ago. The AALN also offers an Assisted Living Nurse  		Specialty Certification, which requires passing an online exam. The exam is  		based on the identification of competencies necessary to provide high quality  		care to older adults in assisted living. It has been modestly adapted from the  		AACN Recommended Baccalaureate Competencies and Curricular Guidelines for  		Geriatric Nursing Care (AALN, 2006).</p>
+<h3>E. Social Workers and Mental Health Professionals</h3>
+<p>The <b>Council on Social Work Education</b> and the <b>John A. Hartford  		Foundation</b> have been creating a model for academic programs to embed  		gerontology education into curricula. From 1998-2004 they developed the  		Strengthening Aging and Gerontology Education for Social Work (SAGE-SW) a guide  		for curriculum development for undergraduates and masters degree social work  		programs based on competencies for gerontological social work. Sixty-five  		gerontological social work competencies in the domains of values and ethics,  		assessment, intervention and aging services, programs and policies were  		identified through a literature search and input from national experts (Rosen,  		2000). In 2001, they sponsored the Geriatric Enrichment in Social Work  		Education Program which funded 67 bachelor and master of social work programs  		to incorporate and infuse gerontology into their programs (Council on Social  		Work Education, 2009; Rosen, 2002).</p>
+<p>The <b>Geriatric Social Work Education Consortium</b> is working on  		development of competencies for social workers working with older adults. They  		are identifying field-based skills necessary for entry-level social workers.  		They have used the SAGE-SW domains to delineate key competencies needed during  		field experience. These competencies have been shown to be effective in  		evaluating students (Damron-Rodriguez, 2006). </p>
+<p>The Hartford Partnership Program for Aging Education, housed at the  		<b>New York Academy of Medicines Social Work Leadership Institute</b> and  		funded by the <b>John A. Hartford Foundation</b>, is a program aimed to  		establish aging curricula in social work programs across the country. It is  		intended for second-year students pursuing a masters in Social Work who  		are interested in aging and provides competency-based education (Social Work  		Leadership Institute, 2009). A list of pilot competencies is available on the  		Social Work Leadership Institutes web site (Social Work Leadership  		Institute, 2009).</p>
+<p>The <b>California Social Work Education Center (CalSWEC)</b>, with the  		assistance of multiple grants from the <b>Hartford</b> and the <b>Archstone  		Foundation</b>, specified aging social work competencies with the goal of  		preparing social workers to provide effective interventions to California  		elders within the aging network encompassing health, mental health and social  		services. The CalSWEC Aging competencies are the result of a consensus-building  		approach that included a literature review and the collaboration of multiple  		schools of social work in California and feedback from over 100 subject matter  		experts. The competencies were also distributed to over 200 community  		stakeholders for their inputs and comments including Country Welfare Directors,  		Deans and Directors of Schools of Social Work (CalSWEC Aging Initiative, 2006).  		Competencies were developed around the following domains:</p>
+<p>Foundation competencies:</p>
+<ul><li>age, diversity and disadvantage;</li>
+<li>core foundation practice with older adults;</li>
+<li>aging, human behavior and the social environment; and</li>
+<li>aging social welfare policy and administration.</li>
+</ul><p>Advanced competencies:</p>
+<ul><li>culturally competent social work practice in aging;</li>
+<li>advanced practice with older adults;</li>
+<li>perspectives on aging, human behavior and the social environment;  		  and</li>
+<li>advanced aging social welfare policy and administration.</li>
+</ul><p>The <b>Institute for the Advancement of Social Work Research</b> in  		collaboration with the <b>University of Maryland, School of Social Work</b> and  		the <b>Institute for Geriatric Social Work at Boston University</b> convened a  		working conference in 2005 to examine the provision of social work services in  		nursing homes (Institute for Geriatric Social Work, 2005). A major goal was to  		clarify and specify the role, function and interventions that should be  		expected of licensed nursing home social workers and to examine measurement  		approaches to increase accountability. The conference summary identified six  		broad functional areas that form the core of social work practice in nursing  		homes settings:</p>
+<ul><li>conduct psychosocial assessments through information gathering;</li>
+<li>provide psychosocial interventions that enhance coping skills for  		  residents and their families;</li>
+<li>assist with long-term care transitions though case management;</li>
+<li>participate in care planning;</li>
+<li>collaborate with the nursing home team; and</li>
+<li>attend to individualized decision making.</li>
+</ul><p>Attendees recommended that the actual tasks, strategies and  		procedures used in implementing these six functions be specified to  		map accountability for a consistent set of services across  		facilities. Although attempts have been made to define competencies for  		each of the functions (Robert Green, University of Texas School of Social  		Work), they do not appear to have been incorporated into a national recognized  		competency model for long-term care social workers.</p>
+<p><b>NASW</b> also publishes standards for social workers in long-term  		care facilities (NASW, 2003). According to these standards, social workers in  		long-term care settings should focus on several key areas: </p>
+<ul><li>social and emotional impact of physical or mental illness or  		  disability;</li>
+<li>preservation and enhancement of physical and social functioning;</li>
+<li>promotion of the conditions essential to ensure maximum benefits from  		  long-term health care services;</li>
+<li>prevention of physical and mental illness and increased disability;  		  and</li>
+<li>promotion and maintenance of physical and mental health. </li>
+</ul><p>While the standards clarify the functions of these workers, they do not  		define needed competencies. Standards of practice have also been developed for  		professional geriatric case managers, many of whom are social workers. The  		literature review did not uncover any comparable standards that define  		standards of practice for medical social workers or other social workers caring  		for older adults in home care settings. </p>
+<h3>F. Pharmacists</h3>
+<p><b>ASCP</b> publishes the <b>Geriatric Pharmacy Curriculum Guide</b>, a  		tool for pharmacists and student pharmacists who are seeking guidance to direct  		their professional development in senior care pharmacy regardless of practice  		setting. The curriculum guide can be used by pharmacy educators to evaluate  		their curricula and in planning further development of educational programs to  		enhance their students knowledge and skills in senior care pharmacy. It  		includes the identification of a broad range of competencies that may be needed  		in a particular practice or setting. The guide can then be used as a checklist  		to document the attainment of needed competencies  		(<a href="http://www.ascp.com/education/curriculumguide">http://www.ascp.com/education/curriculumguide</a>). </p>
+<h3>G. Direct Care Workers</h3>
+<p>In 2003, the <b>U.S. Department of Labor</b> developed and launched the  		Long-Term Care Registered Apprenticeship Program (LTC/RAP). Approximately 40  		long-term care employers currently offer LTC/RAP employment and training to  		about 2,000 apprentices in 20 states. A number of additional employers,  		agencies, and associations have expressed interest in the LTC/RAP model.  		Apprenticeship programs include:</p>
+<ul><li>
+<p><b>Certified Nursing Assistant</b> -- For nursing assistants working  			 in nursing homes; apprentices gain skills and advance in several specialty  			 areas: restorative, dementia, geriatric, mentor, hospice and palliative care,  			 disabilities, and medication aide.</p>
+</li>
+<li>
+<p><b>Health Support Specialist</b> -- The apprenticeship is directed  			 toward universal workers who work in residential long-term care facilities;  			 allows a specialist to start in housekeeping or dietary and move to a  			 multi-skilled nursing assistant position.</p>
+</li>
+<li>
+<p><b>Home Health Aide</b> -- For aides who work with consumers in  			 their own homes; apprentices gain skills and advance in several specialty  			 areas: hospice and palliative care, geriatrics, disabilities, mental illness,  			 dementia, and peer mentor.</p>
+</li>
+</ul><p>LTC/RAP apprentices undertake a minimum of 2,000 hours of on-the-job  		training with 144 hours of related instruction. This is substantially more than  		the federal training requirements for long-term care workers mandated by the  		Centers for Medicare and Medicaid Services.</p>
+<p><b>Paraprofessional Healthcare Institute (PHI)</b> has developed a  		77-hour training of core-competencies for personal care aides in a range of  		long-term care settings. The training was designed for adult-learners, and can  		be used as a stand-alone training or to prepare individuals who intend to go on  		to become CNAs or HHAs (PHI, 2008). </p>
+<p>The WIN A STEP UP (<b>W</b>orkforce <b>I</b>mprovement for  		<b>N</b>ursing <b>A</b>ssistants: <b>S</b>upporting <b>T</b>raining,  		<b>E</b>ducation, and <b>P</b>ayment for <b>U</b>pgrading <b>P</b>erformance)  		is a program based at the <b>Institute on Aging at the University of North  		Carolina (UNC) at Chapel Hill</b>, aimed at reducing turnover of nursing  		assistants through improved training and compensation. The 36-hour training  		program provides enhanced training for CNAs working in nursing homes. CNAs who  		complete the program receive increased compensation from their participating  		employer (UNC Institute on Aging, 2009).</p>
+<h2><a name="potential" id="potential">VII. POTENTIAL STRATEGIES TO ENHANCE GERIATRIC  		COMPETENCIES IN LONG-TERM CARE</a></h2>
+<p>The literature review did not find many proposals for physicians,  		pharmacists or mental health professionals, however, it did uncover a variety  		of proposals to improve the geriatric competencies of long-term care nurses,  		primarily nursing home nurses. In a recent article in <i>The Gerontologist,  		</i>Mathy and colleagues (2008) make a number of recommendations, including  		revisiting an old concept--the teaching nursing home. </p>
+<p>Teaching nursing homes emerged in the 1980s, funded by RWJF, to improve  		the geriatric competence of health care professionals by forging links between  		nursing homes and academic medicine and nursing. A summit of health educators  		was convened to examine the potential role of teaching nursing homes in  		geriatric education. Participants agreed that teaching nursing homes were an  		important vehicle for undergraduate and graduate students to receive  		interdisciplinary training in geriatrics and for faculty development. Of  		particular importance, teaching nursing homes were viewed as a way to alter the  		often negative perceptions of nursing homes in the academic community by  		offering up an exemplary training environment that promotes interdisciplinary  		education and practice and person-centered care.</p>
+<p>The authors also made a number of other recommendations to strengthen  		geriatric competence among long-term care nurses, including: (1) making the  		renewal of nursing licenses contingent on expertise in geriatrics; and (2)  		tying the survey process for home health and nursing facilities to evidence  		that staff has received geriatric training.</p>
+<p>Writing about the nursing home in long-term care education, White (2008)  		observes that nursing homes have served as traditional sites to teach geriatric  		medicine to medical students and primary care residents. She suggests that  		these clinical placements in these settings also need to emphasize specific  		opportunities to learn about long-term care, including how to maximize  		functioning of frail elders, quality improvement, interdisciplinary team  		participation, and transitioning patients between health and long-term care  		settings.</p>
+<p>Maas and colleagues (2008) suggest that university-based schools of  		nursing should develop nurse training programs leading to certification as a  		geriatric nursing long-term care specialist. Certification would be aimed at  		baccalaureate-level RNs and would cover both content in gerontological nursing  		and management and leadership. The authors also propose a new model  		Geriatric Nursing Long-Term Care Specialist Program aimed at RNs  		with less than a baccalaureate-level of training--the dominant nursing presence  		in long-term care settings. This program would prepare RNs with an associate  		degree or nursing diploma to manage the care of older adults in nursing homes  		and to lead and manage staffs who provide direct care. The Geriatric  		Nursing Long-Term Care Specialist Program would be trained in the  		processes of normal aging; illnesses and disabilities associated with aging;  		health, functioning and safety assessment of older adults; prevalent nursing  		diagnoses of older adults; evidenced-based gerontological nursing interventions  		and mentoring and team building strategies.</p>
+<h2><a name="conclude" id="conclude">VIII. CONCLUSIONS</a></h2>
+<p>The IOM report Retooling for an Aging America (2008)  		identified critical gaps in the way the health care workforce in the United  		States is educated and trained to care for older adults. More specialized  		education in all areas, including long-term care, is needed to ensure the  		highest quality care possible. Virtually all medical professions currently  		provide opportunities to specialize in geriatric care, but several factors  		emerged that exemplify why implementing more rigorous competencies is such a  		challenge:</p>
+<ul><li>Licensure requirements for most health care professionals are  		  variable and therefore do not include mandatory competencies;</li>
+<li>Professional competencies that pertain to older populations in  		  long-term care settings are difficult to define; and</li>
+<li>The alternatives for additional or supplemental training come in the  		  form of modifying curricula, and/or adding continuing education; both are  		  viable avenues but would require consensus within individual fields to  		  determine the most optimal path.</li>
+</ul><p>There is considerable momentum to define the geriatric competencies  		needed by health care professionals to care for older adults, although there  		could be more specific attention placed on long-term care settings. We have  		outlined a sample of many related initiatives that are underway. By and large,  		they are framed by the knowledge and experience of experts familiar with  		patient needs in acute and ambulatory care settings. These efforts are  		generally national in scope and include a process that promotes collaboration  		and information sharing across the various professions and stakeholders. As  		life expectancy increases and the baby boom generation ages, these initiatives  		provide a foundation and a framework to improve quality of care for our aging  		population.</p>
+<h2><a name="ref" id="ref">REFERENCES</a></h2>
+<p>Alliance for Aging Research (2005). <i>Never-Never Land Ten Reasons Why  		America is not ready for the coming age boom</i>. Washington, DC. Accessed on  		January 14, 2009, from  		<a href="http://www.agingresearch.org/content/article/detail/698">http://www.agingresearch.org/content/article/detail/698</a>.  		</p>
+<p>American Academy of Nurse Practitioners, <i>Nurse Practitioner  		Facts</i>. Accessed February 5, 2009, from  		<a href="http://www.aanp.org/NR/rdonlyres/51C6BC0F-F1C0-4718-B42F-3DEDC6F5F635/0/AANPNPFacts.pdf">http://www.aanp.org/NR/rdonlyres/51C6BC0F-F1C0-4718-B42F-3DEDC6F5F635/0/AANPNPFacts.pdf</a>.  		</p>
+<p>American Assisted Living Nurses Association (2006). <i>Scope and  		standards of assisted living nursing practice for registered nurses</i>.  		Accessed June 16, 2009, from  		<a href="http://www.alnursing.org/alnursecert/SCOPE_AND_STANDARDS_FINAL2_09-19-06.pdf">http://www.alnursing.org/alnursecert/SCOPE_AND_STANDARDS_FINAL2_09-19-06.pdf</a>.  		</p>
+<p>American Association of Colleges of Nursing (2009). <i>End of life  		nursing education consortium fact sheet</i>. Accessed June 16, 2009 from  		<a href="http://www.aacn.nche.edu/elnec/pdf/FactSheet.pdf">http://www.aacn.nche.edu/elnec/pdf/FactSheet.pdf</a>.  		</p>
+<p>American Association of Colleges of Nursing (July 2000). <i>Older  		adults: Recommended baccalaureate competencies and curricular guidelines for  		geriatric nursing care</i>. Accessed June 16, 2009 from  		<a href="http://www.aacn.nche.edu/Education/gercomp.htm">http://www.aacn.nche.edu/Education/gercomp.htm</a>.  		</p>
+<p>American Association of Long-Term Care Nursing (2009). Cincinnati, OH.  		Accessed from <a href="http://www.ltcnursing.org/membership/corecompetencies.html">http://www.ltcnursing.org/membership/corecompetencies.html</a>. </p>
+<p>American Association of Medical Colleges (2009). <i>Geriatrics in  		medical education press kit</i>. Accessed June 16, 2009 from  		<a href="http://www.aamc.org/newsroom/presskits/geriatrics.htm">http://www.aamc.org/newsroom/presskits/geriatrics.htm</a>. </p>
+<p>American College of Health Care Administrators (2004). <i>Principles of  		excellence for leaders in long-term care administration</i>. Accessed June 17,  		2009 from <a href="http://citra.org/Assets/documents/POEbrochure-June2004.pdf">http://citra.org/Assets/documents/POEbrochure-June2004.pdf</a>.  		</p>
+<p>American Geriatrics Society (2008). National consensus conference  		on geriatric education recommends 26 geriatrics competencies for medical  		students. <i>American Geriatrics Society Newsletter</i>, First Quarter,  		39(1).</p>
+<p>American Geriatrics Society Task Force on the Future of Geriatric  		Medicine (2005). Caring for older Americans: The future of geriatric  		medicine. <i>Journal of the American Geriatrics Society</i>, 53(6):  		245-256.</p>
+<p>American Health Care Association (2001). <i>Competencies for senior  		nurse leaders in long-term care: A vision statement</i>. Accessed August 14,  		2009 at <a href="http://www.ahca.org">http://www.ahca.org</a>. </p>
+<p>American Medical Directors Association (2006). <i>Roles and  		responsibilities of the medical director in the nursing home: Resolution  		A06</i>. Accessed February 25, 2009 from  		<a href="http://www.amda.com/governance/resolutions/a06.cfm">http://www.amda.com/governance/resolutions/a06.cfm</a>.  		</p>
+<p>American Society of Consultant Pharmacists (2008). <i>Fact sheet  		2008</i>. Accessed on August 14, 2008 from  		<a href="http://www.ascp.com/about/ascpfactsheet.cfm">http://www.ascp.com/about/ascpfactsheet.cfm</a>. </p>
+<p>Assisted Living Nurses Association (2006). <i>Scope and standards of  		assisted living nursing practice for registered nurses</i>. Accessed on August  		20, 2008 from  		<a href="http://www.alnursing.org/alnursecert/SCOPE_AND_STANDARDS_FINAL2_09-19-06.pdf">http://www.alnursing.org/alnursecert/SCOPE_AND_STANDARDS_FINAL2_09-19-06.pdf</a>.  		</p>
+<p>Bartels, SJ, Moak, GS, &amp; Dum, RA (2002). Mental health  		services in nursing homes. Models of mental health services in nursing homes: A  		review of the literature. <i>Psychiatric Services</i>, 53(1):  		1390-1396.</p>
+<p>Beck, C (2008). Geriatric nursing in nursing homes: Initial  		results from the nursing home collaborative. <i>Research in  		Gerontological Nursing</i>, 1(3): 155-156.</p>
+<p>Bern-Klug, M, Kramer, KWO, Chan, G, Kane, R, Dorfman, LT, &amp;  		Saunders, JB (2009). Characteristics of nursing home social services  		directors: How common is a degree in social work? <i>Journal of the  		American Medical Directors Association</i>, 10(1): 36-44.</p>
+<p>Blegen, MA, Vaughn, TE, &amp; Goode, CJ (2001). Nurse experience  		and education: Effect on quality of care. <i>Journal of Nursing  		Administration</i>, 31(1): 33-39.</p>
+<p>Bostick, JE, Rantz, MJ, Flessner, MK, &amp; Riggs, CJ (2006).  		Systematic review of studies of staffing and quality in nursing  		homes. <i>Journal of the American Medical Directors Association</i>, July  		7(6): 366-376. </p>
+<p>Bourbonniere, M, &amp; Strumpf, NE (2008). Enhancing geriatric  		competencies for RNs in nursing homes. <i>Research in Gerontological  		Nursing</i>, 1(3): 171-175. </p>
+<p>Bragg, E, &amp; Warshaw, GA (2008). <i>Geriatric medicine in the United  		States: 2008 update, the ADGAP Status of Geriatric Workforce Study</i>.  		Accessed on September 1, 2008 from  		<a href="http://www.adgapstudy.uc.edu/Files/Geriatric%20Medicine%20in%20the%20United%20States%20-%202008%20Update.ppt">http://www.adgapstudy.uc.edu/Files/Geriatric%20Medicine%20in%20the%20Uni...</a>.  		</p>
+<p>Bureau of Health Professions (2006). <i>The registered nurse population:  		Findings from the March 2004 National Sample of Registered Nurses, chart 7</i>.  		Washington, DC: Health Resources and Services Administration, U.S. Department  		of Health and Human Services.</p>
+<p>Bureau of Labor Statistics, U.S. Department of Labor. <i>Occupational  		outlook handbook, 2008-09 edition: Audiologists</i>. Accessed February 12, 2009  		from <a href="http://www.bls.gov/oco/ocos085.htm">http://www.bls.gov/oco/ocos085.htm</a>.  		</p>
+<p>Bureau of Labor Statistics, U.S. Department of Labor. <i>Occupational  		outlook handbook, 2008-09 edition: Nursing, psychiatric, and home health  		aides</i>. Accessed June 15, 2009 from <a href="http://www.bls.gov/oco/ocos165.htm">http://www.bls.gov/oco/ocos165.htm</a>. </p>
+<p>Bureau of Labor Statistics, U.S. Department of Labor. <i>Occupational  		outlook handbook, 2008-09 edition: Occupational therapists</i>. Accessed  		February 11, 2009 from <a href="http://www.bls.gov/oco/ocos078.htm">http://www.bls.gov/oco/ocos078.htm</a>.  		</p>
+<p>Bureau of Labor Statistics, U.S. Department of Labor. <i>Occupational  		outlook handbook, 2008-09 edition: Personal and home care aides</i>. Accessed  		June 15, 2009 from <a href="http://www.bls.gov/oco/ocos173.htm">http://www.bls.gov/oco/ocos173.htm</a>. </p>
+<p>Bureau of Labor Statistics, U.S. Department of Labor. <i>Occupational  		outlook handbook, 2008-09 edition: Physical therapists</i>. Accessed February  		11, 2009 from <a href="http://www.bls.gov/oco/ocos080.htm">http://www.bls.gov/oco/ocos080.htm</a>.  		</p>
+<p>Bureau of Labor Statistics, U.S. Department of Labor. <i>Occupational  		outlook handbook, 2008-09 edition: Speech-language pathologists</i>. Accessed  		February 11, 2009 from <a href="http://www.bls.gov/oco/ocos099.htm">http://www.bls.gov/oco/ocos099.htm</a>.  		</p>
+<p>California Social Work Education Center Aging Initiative (2006).  		<i>Aging competencies</i>. Accessed June 16, 2009 from  		<a href="http://calswec.berkeley.edu/CalSWEC/AIComps_Development.pdf">http://calswec.berkeley.edu/CalSWEC/AIComps_Development.pdf</a>.  		</p>
+<p>Center for Health Workforce Studies (2006). <i>The impact of the aging  		population on the health workforce in the United States</i>. Washington, DC:  		National Center for Health Workforce Analysis, Bureau of Health Professions,  		Health Resources and Services Administration, U.S. Department of Health and  		Human Services.</p>
+<p>Center for Health Workforce Studies and the NASW Center for Workforce  		Studies (2006). <i>Licensed social workers in the United States</i>. Accessed  		August 13, 2008 from <a href="http://www.workforce.socialworkers.org">http://www.workforce.socialworkers.org</a>. </p>
+<p>Commission for Certification in Geriatric Pharmacy (2007). <i>The  		credential: Mark of excellence in geriatric care</i>. July Mid-year report,  		9(1). Accessed February 9, 2009 from  		<a href="http://www.ccgp.org/downloads/TheCredentialJuly2007.pdf">http://www.ccgp.org/downloads/TheCredentialJuly2007.pdf</a>.  		</p>
+<p>Council on Social Work Education (2009). <i>Curricular transformation: A  		model from the CSWE Gero-Ed Center</i>. Accessed June 17, 2009 from  		<a href="http://www.cswe.org/NR/rdonlyres/ADAD3DFE-A6E8-4617-A60A-C1C2BEBE3991/0/ASHLEYPresentation.pdf">http://www.cswe.org/NR/rdonlyres/ADAD3DFE-A6E8-4617-A60A-C1C2BEBE3991/0/...</a>.  		</p>
+<p>Damron-Rodriguez, J, Lawrance, FP, Barnett, D, &amp; Simmons, J (2006).  		Developing geriatric social work competencies for field education.  		<i>Journal of Gerontological Social Work</i>, 48(1): 139-160.</p>
+<p>Ersek, M, &amp; Ferrell, BR (2005). Palliative care nursing  		education: Opportunities for gerontological nurses. <i>Journal of  		Gerontological Nursing</i>, 31(7): 45.</p>
+<p>Felver, L, &amp; Van Son, C (2007). Focus on older adults: From  		online to cd-rom. In MH Oermann &amp; KT Heinrich (Ed.), <i>Annual review  		of nursing education</i>, Volume 5, Chapter 11.</p>
+<p>Gilje, FL, &amp; Moore, L (2007). Laying the groundwork with  		faculty development. <i>Journal of Professional Nursing</i>, 22(2):  		79-83. </p>
+<p>Granick, R, Simson, S, &amp; Wilson, LB (1987). Survey of  		curriculum content related to geriatrics in physical therapy education  		programs. <i>Physical Therapy</i>, 67(2): 234-237.</p>
+<p>Halpain, MC, Harris, MJ, McClure, FS, &amp; Jeste, DV (1999).  		Training in geriatric mental health: Needs and strategies.  		<i>Psychiatric Services</i>, 50: 1205-1208.</p>
+<p>Harahan, M (2008). Unpublished paper for American Association of Homes  		and Services for the Aging.</p>
+<p>Harahan, M, &amp; Stone, R (2009). <i>Defining core competencies for the  		professional long-term care workforce: A status report and next steps</i>.  		Washington, DC: Institute for the Future of Aging Services. Accessed on March  		16, 2009 from  		<a href="http://www.aahsa.org/uploadedFiles/IFAS/Publications_amp;_Products/CoreCompentencies%20Professional%20Report.3.2.09.pdf">http://www.aahsa.org/uploadedFiles/IFAS/Publications_amp;_Products/CoreC...</a>.  		</p>
+<p>Harrington, C, Kovner, C, Mezey, M, Kayser-Jones, J, Burger, S, Mohler,  		M, Burke, R, &amp; Zimmerman, D (2000). Experts recommend minimum nurse  		staffing standards for nursing facilities in the United States. <i>The  		Gerontologist</i>, 40; 5-16.</p>
+<p>Harvath, TA, Swafford, K, Smith, K, Milter, LL, Volin, M, Sexson, K,  		White, D, &amp; Young, H (2008). Enhancing nursing leadership in  		long-term care: A review of the literature. <i>Research in Gerontological  		Nursing</i>, 1(3): 187-193.</p>
+<p>Health Resources and Services Administration Program Guidance (2007).  		<i>Geriatric academic career award for fiscal year 2007</i>. Rockville, MD.  		Accessed June 16, 2009 from  		<a href="ftp://ftp.hrsa.gov/hrsaforms/gacaguidance&amp;form.pdf">ftp://ftp.hrsa.gov/hrsaforms/gacaguidance&amp;form.pdf</a>.  		</p>
+<p>Hospice and Palliative Nurses Association (2006). <i>Standards for  		clinical practicum in palliative nursing for practicing professional  		nurses</i>. Accessed June 19, 2009 from  		<a href="http://www.hpna.org/pdf/StandardsForClinicalPracticum.pdf">http://www.hpna.org/pdf/StandardsForClinicalPracticum.pdf</a>.  		</p>
+<p>Institute for the Study of Health, University of Cincinnati (2009).  		<i>Association of directors of geriatric academic programs: Status of  		geriatrics workforce study</i>. Accessed June 15, 2009 from  		<a href="http://www.adgapstudy.uc.edu/FAQ.cfm">http://www.adgapstudy.uc.edu/FAQ.cfm</a>.  		</p>
+<p>Institute of Medicine (2008). <i>Retooling for an aging America:  		Building the health care workforce</i>. Board of Health Care Services, the  		National Academies Press, 1-226.</p>
+<p>Intrator, O, Feng, Z, Mor, V, Gifford, D, Bourbonniere, M, &amp; Zinn, J  		(2005). The employment of nurse practitioners and physician assistants in  		U.S. nursing homes. <i>The Gerontologist</i>, 45(4): 486-495.</p>
+<p>Knickman, JR, &amp; Snell, EK (2002). The 2030 problem: Caring for  		aging baby boomers. <i>Health Services Research</i>, 37(4): 849-884.</p>
+<p>Kovner, CT, Mezey, M, &amp; Harrington, C (2002). Who cares for  		older adults? Workforce implications of an aging society. <i>Health  		Affairs</i>, 21(5): 78-89. Accessed on August 13, 2008 from  		<a href="http://www.content.healthaffairs.org/cgi/content.full/21/5/78">http://www.content.healthaffairs.org/cgi/content.full/21/5/78</a>. </p>
+<p>Latimer, D, &amp; Thornlow, D (2006). Incorporating geriatrics  		into baccalaureate nursing curricula: Laying the groundwork with faculty  		development. <i>Journal of Professional Nursing</i>, 22(2): 79-83.</p>
+<p>Long-Term Care Professional Leadership Council (2007). <i>Essential core  		functions: Responsibilities, knowledge and skills a guide for the consultant  		pharmacist, director of nursing, medical director and nursing home  		administrator in long-term care organizations</i>.</p>
+<p>Maas, ML, Specht, JP, Buckwalter, KC, Gittler, JG, &amp; Bechen, K  		(2008). Literature review: Nursing home staffing and training  		recommendations for promoting older adults quality of care and life. Part  		2: Increasing nursing staffing and training. <i>Research in  		Gerontological Nursing</i>, 1(2): 123-133.</p>
+<p>Mathy, D, Mezey, E, Mitty, L, &amp; Burger, SG (2008). Rethinking  		teaching nursing homes potential for improving long-term care. <i>The  		Gerontologist</i>, 48: 8-14.</p>
+<p>Mezey, M, Mitty, E, Burger, S, &amp; McCallion, P (2008).  		Healthcare professional training: A comparison of geriatric  		competencies. <i>Journal of the American Geriatrics Society</i>, 56(9):  		1724-1729. </p>
+<p>National Association of Boards of Examiners (2007). <i>Summary report of  		the job analysis of nursing home administrators</i>. Washington, DC:  		Professional Examination Service.</p>
+<p>National Association of Social Workers (2003). <i>Standards for social  		work services in long-term care facilities</i>. Washington, DC. Accessed August  		2008 from <a href="http://www.socialworkers.org/practice/standards">http://www.socialworkers.org/practice/standards</a>. </p>
+<p>National Commission on Nursing Workforce for Long Term Care (2005).  		Accessed August 12, 2008 from  		<a href="http://www.ahca.org/research/workforce-rpt-050519">http://www.ahca.org/research/workforce-rpt-050519</a>. </p>
+<p>National Commission on Quality Long-Term Care (2007). <i>The long-term  		care workforce: Can this crisis be fixed</i>? Washington, DC: Institute for the  		Future of Aging Services.</p>
+<p>National Consensus Project for Quality Palliative Care (2009).  		<i>Clinical practice guidelines for quality palliative care, Second  		Edition</i>. Accessed June 16, 2009 from  		<a href="http://www.nationalconcensusproject.org">http://www.nationalconcensusproject.org</a>. </p>
+<p>National Council of State Boards of Nursing (2007). <i>2006 LPN/VN  		practice analysis: Comparability of survey administration methods</i>. NCSBN  		Research Brief, May(33).</p>
+<p>New Freedom Commission on Mental Health. <i>Achieving the promise:  		Transforming mental health care in America</i>. Rockville, MD: Final Report  		DHHS Pub. No. SMA-03-3832.</p>
+<p>Odegard, PS, Breslow, RM, Koronkowski, MJ, Williams, BR, &amp; Hudgins,  		GA (2007). Geriatric pharmacy education: A strategic plan for the  		future. <i>Am J Pharm Educ</i>, 71(3): 47.</p>
+<p>Office of the Inspector General (2003). <i>Nursing home medical  		directors survey</i>. Washington, DC: DHHS, OEI-06-99-00300.</p>
+<p>Office of the Inspector General (2003). <i>Psychosocial services in  		skilled nursing facilities</i>. Washington, DC: DHHS, OEI-02-01-00610.</p>
+<p>Paraprofessional Healthcare Institute (2008). Personal care services  		curriculum. Accessed on June 16, 2009 from  		<a href="http://phinational.org/what-we-do/curricula-and-training-material/personal-care-services-curriculum">http://phinational.org/what-we-do/curricula-and-training-material/person...</a>.  		</p>
+<p>Parker-Oliver, D, &amp; Kurzejeski, LS (2003). Nursing home social  		services: Policy and practice. <i>Journal of Gerontological Social  		Work</i>, 42(2): 37-49.</p>
+<p>Personal communication with Kathleen Buckwalter, Director of John  		Hartford Center of Geriatric Nursing Excellence, University of Iowa College of  		Nursing.</p>
+<p>Personal communication with Carol Goodwin, Partnership for Health in  		Aging (2009).</p>
+<p>Pioneer Network. <i>The ACCT Project: Advancing culture change  		together</i>. Accessed February 25, 2009 from  		<a href="http://www.pioneernetwork.net/Data/Documents/ACCTProject101007.pdf">http://www.pioneernetwork.net/Data/Documents/ACCTProject101007.pdf</a>.  		</p>
+<p>Rantz, MJ (2003). Does good quality care in nursing homes cost  		more or less than poor quality care? <i>Nursing Outlook</i>, 51(2):  		93-94.</p>
+<p>Reinhard, S, &amp; Reinhard, T (2006). <i>Scanning the field: Nursing  		leadership in long-term care</i>. Washington, DC: Institute for the Future of  		Aging Services.</p>
+<p>Ridley, RT (2006). The relationship between nurse education and  		patient safety: An integrative review. <i>Journal of Nursing  		Education</i>, 47(4): 149-156.</p>
+<p>Rosen, AL, Zlotnik, JL, Curi, AL, &amp; Green, RG (2000). <i>CSWE  		SAGE-SW national competencies survey and report</i>. Alexandria, VA: Council on  		Social Work Education, National Center for Gerontological Social Work  		Education.</p>
+<p>Rosen, AL, Zlotnik, JL, &amp; Singer, T (2002). Basic  		gerontological competence for all social workers: The need to  		gerontologize social work education. <i>Journal of  		Gerontological Social Work</i>, 39(1/2): 25-36. </p>
+<p>Rosenfeld, P, Kobayashi, M, Barber, P, &amp; Mezey, M (2004).  		Utilization of nurse practitioners in long-term care: Findings and  		implications of a national survey. <i>Journal of the American Medial  		Directors Association</i>, January/February 5(1): 9-15.</p>
+<p>Sanders, A, Stone, R, &amp; Bowers, B (2008). <i>Evaluation of project  		LEAD</i>. Washington, DC: Institute for the Future of Aging Services.</p>
+<p>Scott-Tilly, D, Marshall-Gray, P, Valadez, A, &amp; Green, A (2005).  		Integrating long-term care concepts into baccalaureate nursing education:  		The road to quality geriatric health care. <i>Journal of Nursing  		Education</i>, 44(6): 286-289.</p>
+<p>Social Work Leadership Institute (2009). <i>Hartford Partnership Program  		for Aging Education frequently asked questions</i>. Accessed June 16, 2009 from  		<a href="http://www.socialworkleadership.org/nsw/ppp/faq.php">http://www.socialworkleadership.org/nsw/ppp/faq.php</a>.  		</p>
+<p>Social Work Leadership Institute (2009). <i>Leadership competency  		development</i>. Accessed June 16, 2009 from  		<a href="http://www.socialworkleadership.org/nsw/ppp/competency.php">http://www.socialworkleadership.org/nsw/ppp/competency.php</a><a name="_Hlt233173349" id="_Hlt233173349"></a>. </p>
+<p>Spivack, BS (2005). AGS new strategic plan provides  		opportunities for clinicians. <i>Clinical Geriatrics</i>, 13(11): 8-9.  		Accessed February 20, 2009 from  		<a href="http://www.clinicalgeriatrics.com/article/4923">http://www.clinicalgeriatrics.com/article/4923</a>.  		</p>
+<p>Tellis-Nayak, V (2005). Who will care for the caregivers?  		<i>Health Progress</i>, 86(6): 37-43.</p>
+<p>Thornlow, DK, Auerhahn, C, &amp; Stanley, J (2006). A necessity  		not a luxury: Preparing advanced practice nurses to care for older  		adults. <i>Journal of Professional Nursing</i>, 22(2): 116-122.</p>
+<p>U. S. Department of Health and Human Services, Office of the Assistant  		Secretary of Planning and Evaluation (2006). <i>The supply and demand of  		professional social workers providing long-term care services: Report to  		congress</i>. Accessed August 14, 2008 from  		<a href="http://aspe.hhs.gov/daltcp/reports/2006/SWsupply.htm">http://aspe.hhs.gov/daltcp/reports/2006/SWsupply.htm</a>.  		</p>
+<p>University of North Carolina Institute on Aging (2009). <i>Win A Step  		Up: Solutions for Better Care</i>. Accessed June 16, 2009 from  		<a href="http://www.winastepup.org">http://www.winastepup.org</a>. </p>
+<p>Utley-Smith, Q (2004). Five competencies needed by new  		baccalaureate graduates. <i>Nursing Education Perspective</i>,  		July-August 25(4): 166-170.</p>
+<p>White, HK (2008). The nursing home in long-term care  		education. <i>Journal of the American Medical Directors Association</i>,  		February 9(2): 75-81. </p>
+<p>Williams, KN, Nowar, J, &amp; Scobee, R (2006). Fostering student  		interest in geriatric nursing: Impact of senior long-term care  		experience. <i>Nursing Education Perspective</i>, 27(4): 190-194.</p>
+<p>Xakellis, G, Brangman, SA, Hinton, W L, Jones, VY, Masterman, D, Pan,  		CX, Rivero, J, Walhagen, M, &amp; Yeo, G (2004). Curricular framework:  		Core competencies in multicultural geriatric care. <i>Journal of the  		American Geriatrics Society</i>, 52: 137-142.</p>
+<h2><a name="notes" id="notes">NOTES</a></h2>
+<ol><li>
+<p><a name="note1" id="note1">In</a> 2004, 1,227,000 RNs graduated with an  			 associates degree, whereas 903,000 RNs graduated with a bachelors  			 degree or higher (Bureau of Health Professions, 2006). Nurses who have obtained  			 an RN licensure through any of the available avenues have been found to provide  			 similar care with respect to patient safety (Ridley, 2006). However, research  			 has show that the quality of care that is given by an RN is improved among more  			 experienced nurses without regard to whether their training was through an  			 associate or bachelors level program (Blegen, 2001).</p>
+</li>
+<li>
+<p><a name="note2" id="note2">Information</a> is not available on their web site  			 but more can be obtained by contacting the American Geriatrics Society  			 (personal communication with PHA representative, April 22, 2009).</p>
+</li>
+</ol><hr /><p>To obtain a printed copy of this report, send the full report title and  		your mailing information to:</p>
+<blockquote><p>U.S. Department of Health and Human ServicesOffice of Disability,  		  Aging and Long-Term Care PolicyRoom 424E, H.H. Humphrey Building200  		  Independence Avenue, S.W.Washington, D.C.  		  20201FAX:  202-401-7733Email:  <a href="mailto: webmaster.DALTCP@hhs.gov">webmaster.DALTCP@hhs.gov</a></p>
+</blockquote>
+<hr /><p class="lastupdated"><b>RETURN TO:</b> </p>
+<p class="lastupdated">Office of Disability, Aging and  		Long-Term Care Policy (DALTCP) Home [<a href="http://aspe.hhs.gov/_/office_specific/daltcp.cfm">http://aspe.hhs.gov/_/office_specific/daltcp.cfm</a>]Assistant  		Secretary for Planning and Evaluation (ASPE) Home [<a href="http://aspe.hhs.gov">http://aspe.hhs.gov</a>]U.S. Department of  		Health and Human Services Home [<a href="http://www.hhs.gov">http://www.hhs.gov</a>]</p>
+
+  <div class="download_report">
+    
+                        <div class="pdf-prev">
+                <img src="https://aspe.hhs.gov/system/files/pdfpreview/05a224071fabb4c8255941c2a83389d3.png" alt="Preview" title="Preview" />            </div>
+                <a class="btn btn-sm btn-default download-file"
+           href="https://aspe.hhs.gov/system/files/pdf/76011/examcomp.pdf">Download</a>
+
+        <p class="download_title">&quot;examcomp.pdf&quot;
+            (pdf,
+            1.44Mb)</p>
+        <p>Note: Documents in PDF format require the <a href="http://www.adobe.com/products/acrobat/readstep2.html">Adobe
+                Acrobat Reader&reg;</a>. If you experience problems with PDF documents, please <a
+                href="http://www.adobe.com/products/acrobat/readstep2.html">download the latest version of the
+                Reader&reg;</a>
+        </p>
+    </div>
+<div class="group-tags"><div class="field-label">Tags:&nbsp;</div><a href="/terms/long-term-care-workforce">Long-Term Care Workforce</a><a href="/terms/long-term-care-workforce-0">Long-Term Care Workforce</a><a href="/terms/long-term-care-workforce-1">Long-Term Care Workforce</a><a href="/terms/publications-2">Publications</a><a href="/terms/whats-new">What&#039;s New</a><a href="/terms/paraprofessional-long-term-care-workforce">Paraprofessional Long-Term Care Workforce</a><a href="/terms/disability-aging-and-long-term-care-research">Disability, Aging and Long-Term Care Research</a><a href="/terms/highlighted-issues">Highlighted Issues</a><a href="/terms/employment">Employment</a><a href="/terms/health-services-formal">Health Services, Formal</a><a href="/terms/long-term-care">Long-Term Care</a></div>  </div>
+
+      <footer>
+          </footer>
+  
+    <div id="block-webform-client-block-158521" class="widget block block-webform" >
+  
+      
+  <div id="webform-ajax-wrapper-158521"><form class="webform-client-form webform-client-form-158521" action="/basic-report/examining-competencies-long-term-care-workforce-status-report-and-next-steps" method="post" id="webform-client-form-158521" accept-charset="UTF-8"><div><div class="webform-progressbar">
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-radios webform-component--was-this-page-helpful">
+  <label for="edit-submitted-was-this-page-helpful">Was this page helpful? <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-was-this-page-helpful" class="form-radios"><div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-1" name="submitted[was_this_page_helpful]" value="1" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-1">Yes </label>
+
+</div>
+<div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-2" name="submitted[was_this_page_helpful]" value="0" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-2">No </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="4" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-2IbVvpIeGzanI0fCkeCHX2naavW9BZaHuaGvH57PVoc" />
+<input type="hidden" name="form_id" value="webform_client_form_158521" />
+<input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-158521" />
+<div class="form-actions"><input class="webform-next button-primary btn btn-default form-submit" type="submit" id="edit-webform-ajax-next-158521" name="op" value="Next &gt;" /></div>
+<div class="is-useful-disclaimer"> <a href="/%23" class="" title="Survey Disclaimer" data-toggle="modal" data-target="#disclamerModal">Form Approved OMB# 0990-0379 Exp. Date 8/31/2017</a></div>
+<div class="modal fade" id="disclamerModal" tabindex="-1" role="dialog" aria-labelledby="disclamerModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="disclamerModalLabel">Survey Disclaimer</h2>
+      </div>
+      <div class="modal-body">
+         According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this information collection is 0990-0379. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, gather the data needed, and complete and review the information collection. If you have comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: U.S. Department of Health & Human Services, OS/OCIO/PRA, 200 Independence Ave., S.W., Suite 336-E, Washington D.C. 20201, Attention: PRA Reports Clearance Officer.      </div>
+    </div>
+  </div>
+</div></div></form></div>
+  </div> <!-- /.block -->
+<meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/examining-competencies-long-term-care-workforce-status-report-and-next-steps" itemref="md1" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/examining-competencies-long-term-care-workforce-status-report-and-next-steps" itemref="md2 md3 md5 md7 md9 md11 md13 md15 md17 md19 md21 md23 md25" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/long-term-care-workforce" id="md5" itemref="md4" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/long-term-care-workforce-0" id="md7" itemref="md6" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/long-term-care-workforce-1" id="md9" itemref="md8" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/publications-2" id="md11" itemref="md10" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/whats-new" id="md13" itemref="md12" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/paraprofessional-long-term-care-workforce" id="md15" itemref="md14" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/disability-aging-and-long-term-care-research" id="md17" itemref="md16" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/highlighted-issues" id="md19" itemref="md18" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/employment" id="md21" itemref="md20" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/health-services-formal" id="md23" itemref="md22" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/long-term-care" id="md25" itemref="md24" />              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <footer  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Footer">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  id="footer_sitemap-footer_sitemap" class="col-sm-6 col-md-6 col-lg-4 ">
+                          
+                              <div id="block-footer-sitemap-footer-sitemap" class="widget block block-footer-sitemap" >
+  
+      
+  <div id="footer-sitemap" class="clearfix">
+  <div class="fs-block-content"><div class="menu-footer-utility"><ul class="footer_links_menu-footer-utility total-items-2 parent-items-0 single-items-0"><li class="menu-5021 depth-1 total-children-8 parent-children-0 single-children-8  first"><a href="/" title="look at ASPE Home" class="fs-root-link">ASPE Home</a><ul class="footer_links_menu-footer-utility total-items-8 parent-items-0 single-items-0"><li class="menu-5026 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/" title="look at HHS Home">HHS Home</a></li>
+<li class="menu-66281 depth-1 fs-no-children"><a href="http://www.usa.gov/" title="look at USA.gov">USA.gov</a></li>
+<li class="menu-66316 depth-1 fs-no-children"><a href="https://oig.hhs.gov/" title="look at Office of the Inspector General">Office of the Inspector General</a></li>
+<li class="menu-66321 depth-1 fs-no-children"><a href="http://www.whitehouse.gov" title="look at The White House">The White House</a></li>
+<li class="menu-5046 depth-1 fs-no-children"><a href="http://www.hhs.gov/Accessibility.html" title="look at Accessibility">Accessibility</a></li>
+<li class="menu-66326 depth-1 fs-no-children"><a href="http://www.hhs.gov/about/budget/index.html" title="look at Budget/Performance">Budget/Performance</a></li>
+<li class="menu-2551 depth-1 fs-no-children"><a href="http://www.hhs.gov/Privacy.html" title="look at Privacy Policy">Privacy Policy</a></li>
+<li class="menu-197776 depth-1 fs-no-children  last"><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" title="Nondiscrimination Notice">Nondiscrimination Notice</a></li>
+</ul></li>
+<li class="menu-5051 depth-1 total-children-4 parent-children-0 single-children-4  last"><a href="http://www.hhs.gov/foia/" title="look at FOIA" class="fs-root-link">FOIA</a><ul class="footer_links_menu-footer-utility total-items-4 parent-items-0 single-items-0"><li class="menu-5056 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/open/recordsandreports/plainwritingact/index.html" title="look at Plain Writing Act">Plain Writing Act</a></li>
+<li class="menu-5061 depth-1 fs-no-children"><a href="http://www.hhs.gov/asa/eeo/no_fear_bullet_3.html" title="look at No Fear Act">No Fear Act</a></li>
+<li class="menu-5066 depth-1 fs-no-children"><a href="http://www.hhs.gov/Disclaimer.html" title="look at Disclaimers">Disclaimers</a></li>
+<li class="menu-2546 depth-1 fs-no-children  last"><a href="http://www.hhs.gov/plugins.html" title="look at Viewers &amp; Players">Viewers &amp; Players</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-5 " id="stability_cms-contact_us">
+                          
+                              <div id="block-stability-cms-contact-us" class="widget block block-stability-cms" >
+  
+      
+  <div class="contacts-widget widget widget__footer">
+	<div class="widget-content">
+		<ul class="contacts-info-list">
+      			<li>
+<!--				<i class="fa fa-map-marker">Address</i>-->
+                <div class="info-icons">
+                    <img  alt="map" class= 'map-icons' src="/sites/all/themes/stability/stability_aspe/images/map.png"/>
+                </div>
+                <div class="info-item">
+					Assistant Secretary for Planning and Evaluation, Room 415F<br />
+U.S. Department of Health and Human Services<br />
+200 Independence Avenue, SW<br />
+Washington, D.C. 20201				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-phone">phone</i>-->
+                <div class="info-icons">
+                    <img alt="phone" src="/sites/all/themes/stability/stability_aspe/images/phone.png"/>
+                </div>
+				<div class="info-item">
+					+1 202.690.7858				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-envelope">email</i>-->
+                <div class="info-icons">
+                    <img alt="mail" src="/sites/all/themes/stability/stability_aspe/images/mail-white.png"/>
+                </div>
+				<span class="info-item">
+					<a href="mailto:osaspeinfo@hhs.gov">osaspeinfo@hhs.gov</a>
+				</span>
+			</li>
+      			                					</ul>
+	</div>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-3 " id="footer">
+                          
+                              <div id="block-block-36" class="widget block block-block" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sign-up</span> for Email Updates</h3>
+		</div>
+    
+  <div class="email_updates">
+<button class="btn btn-default" name="subscribe-button" type="submit" value="subscribe">subscribe</button>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-12 " id="menu-menu-footer-language-menu">
+                          
+                              <div id="block-menu-menu-footer-language-menu" class="widget block block-menu" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Language</span> Assistance Available</h3>
+		</div>
+    
+  <ul class="menu"><li class="first expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#spanish" title="Español">Español</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#chinese" title="繁體中文">繁體中文</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#vietnamese" title="Tiếng Việt">Tiếng Việt</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#korean" title="한국어">한국어</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#tagalog" title="Tagalog">Tagalog</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#russian" title="Русский">Русский</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#arabic" title="العربية">العربية</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#creole" title="Kreyòl Ayisyen">Kreyòl Ayisyen</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#french" title="Français">Français</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#polish" title="Polski">Polski</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#portuguese" title="Português">Português</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#italian" title="Italiano">Italiano</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#german" title="Deutsch">Deutsch</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#japanese" title="日本語">日本語</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#farsi" title="فارسی">فارسی</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#english" title="English">English</a></li>
+</ul></li>
+</ul>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+      </div>
+
+          </div>
+    
+    
+      </footer>
+    
+
+    <!--/PAGEWATCH-->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+                        </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="social-links-wrapper">
+              <span class="social-links-txt">Connect with us</span>
+              <ul class="social-links social-links__dark">
+                                                  <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw-grey.png"/></a></li>
+                                <!--                --><!--                  <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin-grey.png"/></a></li>-->
+<!--                -->
+                                                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>  <script type="text/javascript" src="/sites/default/files/advagg_js/js__VWRymaMz6HfrhnrcJNGcDiSvLVrvhaXvBa7nrBYy8gc__jntPwP3D6myJZH1jW19fXrk5cYMHGRL8NQION22VSEA__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5486d15a696bff0c"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__g6mKbcakHxQkz4ZHYaxdO_xqONINvRMgsHh1zAK-fr0__ATHtEmHaeZ0jidpGU22EkhmPDBSgjD8z0bVDQMI-BIY__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__KUp4PrfOt9BSXUVl8Ctb3dhCMBe4MNVMeb4Gyorx8yY__7g4BeXscCIZAfuu1vxsCj2RIemg-eEK0QpChP9LDmFQ__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__PNjAgubM_3xXRLp4uLsYnv8wQAdT89-RYkSPxT6T45c__rFQwFK4pA5ZaWZSF7FPTfKbbpus0h-5IS8ayrNZGrb4__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__vQiLul2UcfC4nBAR09mhYVBYzRmiNDm2dj3GgSubV38__w84oZe-ZODKe7XnnlbrjV4IWHISOy4PioFEMVgx9hZo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__QJw3g0kOdwsv4twSZLP931zBzsHy50VEHpEN_znIitQ__A6QOuWXElDipBM2iChbWhjAAt3KlUwZ-jODoxdpbwiw__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stability_aspe","theme_token":"S_D5DFjksVGxpdVlv391b7eRFzOa7ESIm8-VkXsRt3M","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/footable.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/aspe_nodes.admin.css":1,"sites\/all\/modules\/custom\/aspe_views\/theme\/css\/aspe_views.admin.css":1,"sites\/all\/modules\/forked\/book\/book.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/openpublic\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.css":1,"profiles\/openpublic\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openpublic\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/openpublic\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/themes\/stability\/css\/bootstrap.min.css":1,"sites\/all\/themes\/stability\/css\/fonts\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.theme.css":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/stability\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/stability\/css\/theme.css":1,"sites\/all\/themes\/stability\/css\/theme-elements.css":1,"sites\/all\/themes\/stability\/css\/animate.min.css":1,"sites\/all\/themes\/stability\/css\/skins\/red.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/slideshow.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/font-main.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/styleless.less":1,"sites\/all\/themes\/stability\/css\/skins\/blue.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/aspe\/theme\/js\/aspe.login-confirm.js":1,"sites\/all\/modules\/custom\/aspe_report\/modules\/aspe_databooks\/js\/aspe_databooks.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.highcharts.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/datatables\/dataTables.min.js":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.min.js":1,"sites\/all\/libraries\/highcharts\/highcharts.js":1,"sites\/all\/libraries\/highcharts\/highcharts.exporting.js":1,"sites\/all\/libraries\/highcharts\/highcharts.map.js":1,"sites\/all\/libraries\/highcharts\/highcharts.us-all.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.footable.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5486d15a696bff0c":1,"misc\/progress.js":1,"profiles\/openpublic\/modules\/contrib\/webform\/js\/webform.js":1,"profiles\/openpublic\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/stability\/vendor\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/stability\/vendor\/bootstrap.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flexnav.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flickrfeed.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.sloppy-masonry.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.fitvids.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.stellar.min.js":1,"sites\/all\/themes\/stability\/vendor\/snap.svg-min.js":1,"sites\/all\/themes\/stability\/js\/custom.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/aspe.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/html5shiv.min.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/main-menu.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/keyboard-control.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tabBehavior.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tileStringTrimmer.js":1}},"webform":{"conditionals":{"webform-client-form-158521":{"ruleGroups":[],"sourceMap":[],"values":[]}}},"ajax":{"edit-webform-ajax-next-158521":{"callback":"webform_ajax_callback","wrapper":"webform-ajax-wrapper-158521","progress":{"message":"","type":"throbber"},"event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Next \u003E"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/basic-report\/examining-competencies-long-term-care-workforce-status-report-and-next-steps":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"([a-z0-9]\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This website contains links to other federal and state agencies and private organizations. The Department of Health and Human Services (HHS) cannot attest to the accuracy of information provided by these nonfederal website links. Linking to nonfederal sites does not constitute an endorsement by HHS or any of its employees of the sponsors or the information and products presented on the sites. You will be subject to the destination site\u0027s privacy policy when you leave the ASPE website.\r\n\r\nThank you for visiting aspe.hhs.gov!","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"stability":{"flickr_id":"52617155@N08","logo_sticky":"28"},"field_group":{"div":"full","hidden":"full"}});
+//--><!]]>
+</script>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config={pubid:"ra-5486d15a696bff0c",ui_click:false}
+//--><!]]>
+</script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4837db659","applicationID":"10708002","transactionName":"MwNaZBRSXEtXB0BdWQpJbUIPHFtWUgFMGkYMFg==","queueTime":0,"applicationTime":28,"atts":"H0RZElxIT0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

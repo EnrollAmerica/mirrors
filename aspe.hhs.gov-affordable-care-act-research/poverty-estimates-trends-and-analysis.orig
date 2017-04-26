@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">  <!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://aspe.hhs.gov/sites/default/files/Favicon2.png" type="image/png" />
+<meta name="description" content="[html] People and families are considered poor when they lack the economic resources necessary to experience a minimally-sufficient standard of living. Official U.S. Census Bureau statistics estimate that 43 million persons, 13.5 percent of the total population, were poor in the United States in 2015. The topic of poverty is widely considered a cause for national action because poor families often encounter material hardships and reduced well-being and because children who grow up in poor households are less likely to thrive as adults." />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://aspe.hhs.gov/poverty-estimates-trends-and-analysis" />
+<link rel="shortlink" href="https://aspe.hhs.gov/node/107171" />
+<meta property="og:site_name" content="ASPE" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aspe.hhs.gov/poverty-estimates-trends-and-analysis" />
+<meta property="og:title" content="Poverty Estimates, Trends, and Analysis" />
+<meta property="og:description" content="[html] People and families are considered poor when they lack the economic resources necessary to experience a minimally-sufficient standard of living. Official U.S. Census Bureau statistics estimate that 43 million persons, 13.5 percent of the total population, were poor in the United States in 2015. The topic of poverty is widely considered a cause for national action because poor families often encounter material hardships and reduced well-being and because children who grow up in poor households are less likely to thrive as adults." />
+<meta property="og:updated_time" content="2017-02-02T09:31:46-05:00" />
+<meta property="article:published_time" content="2015-11-23T04:12:33-05:00" />
+<meta property="article:modified_time" content="2017-02-02T09:31:46-05:00" />
+
+  <title>Poverty Estimates, Trends, and Analysis | ASPE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+  <link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__5ln8neBOcJfyUveiD4y9fhI6kHBLOQ_YL0mMC-LS9a0__TPJIZT9UBnf_685NlFTJ5KnZVsjwFk6ACQ-nwwygmwU__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ng49uRH5y4Hl9VF9hHW_vXOj-mcOc2u2ShJqJ1YKIGU__FoMCD14GBvZaRiqSQ_JpP1w3rDB21n7H2Ar4pRZaIh8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__Hskudx14OJ5Hz8vqU7CUgN6SDV5rINZuEq9VuGsSeyc__EwNIl3xeFrniW2TmonovTzhSs3X5MdFps210puE7jog__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__9rZoaX9BdzjjNucvYxduxeNAVO2zgW_Rvjhb5rq5whc__lSr_y16grDSgHf4booPChnF7QXz3TQY3hafH49twE0k__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZgfI_ZPib5yVY0o5aKo_6TFn946Tuu_nFDa0ySTmkSc__2FTFrNw2eNh0mpHIOA34r6YRwBZMm2PjJ_JubnwLigg__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__dxabpJ5rQgDSixKgLJZjWc1beC6mpROKwVrmWxI5eno__rqhz_hGsE_i59O7-W991o71_Jxw1QOtGMxn4nsOLHY8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZbRCq2NqWgK-HXAQI3So0N1n0nr4HonsJS3eQuuxukw__7Olkk8Locn8Dj0eR0Ww3rbV9lks9sxipcboMXB18RRs__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+
+	<!-- Head Libs -->
+	<script src="/sites/all/themes/stability/stability_aspe/vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/sites/all/themes/stability/vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" href="/sites/all/themes/stability/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/stability/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/stability/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/stability/images/apple-touch-icon-144x144.png">
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-107171 node-type-site-page">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-JLFR"
+                  height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JLFR');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-nav" class="accessibility_menu">
+    <strong>Shortcut Navigation:</strong>
+    <ul>
+      <li><a href="#content" accesskey="c" title="Skip to page content (ctrl/alt + c)">Page Content</a></li>
+      <li><a href="#nav" accesskey="m" title="Skip to main navigation menu (ctrl/alt + m)">Site Navigation</a></li>
+
+      <li><a href="#Footer" accesskey="f" title="Skip to footer (ctrl/alt + f)">Footer</a></li>
+    </ul>
+  </div>
+
+    
+<div class="site-wrapper">
+  
+  <header class="header header-menu-fullw header-top-clean">
+    <div id="brand-bar">
+        <div class="container">
+                    <img alt='bird' src="/sites/all/themes/stability/stability_aspe/images/bird.png"> <a target="blank" tabindex="4" href="http://www.hhs.gov/">U.S. Department of Health & Human Services</a>
+        </div>
+
+    </div>
+    <div class="header-main">
+        <div class="container clearfix">
+            <div class="social-links-wrapper">
+                <ul class="social-links social-links__light">
+                                                          <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw.png"/></a></li>
+                                    <!--                  --><!--                    <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin.png"/></a></li>-->
+<!--                  -->
+                                                                      </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                                <div class="site_name_wrapper">
+                                     <span class="h1">
+                                      <a href="/">ASPE</a>
+                                       </span>
+                                  <p class="tagline"><p>Office of The Assistant Secretary</p><p> for Planning and Evaluation</p></p>
+                    </div>
+            </div>
+            <!-- Logo / End -->
+            <div class="header_right_wrapper">
+                <div class="search-form">
+                    <form action="/poverty-estimates-trends-and-analysis" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class = "input-group"><div class="form-type-textfield form-item-search-block-form form-item form-group">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search Site..." class="form-control form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input class="btn btn-primary btn-icon form-submit" type="image" id="edit-submit" name="submit" value="Search" src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/search-white2.png" alt="Search" title="Search" /></div></div><input type="hidden" name="form_build_id" value="form-vOjLKmlcBBpRcHsLiN8bHYHwAboeA6PrsupLV7sxtpg" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </div>
+                <button type="button" class="navbar-toggle" value="Menu">
+                    <i class="fa fa-bars"></i>Menu
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-main">
+        <div class="container">
+          <ul data-breakpoint="767" class="flexnav">
+                <li class="first expanded"><a href="/basic-search/about" title="">About</a><ul><li class="first leaf"><a href="/mission" title="">Mission</a></li>
+<li class="leaf"><a href="/key-staff" title="">Leadership</a></li>
+<li class="leaf"><a href="https://www.usajobs.gov/" title="">Careers</a></li>
+<li class="expanded"><a href="/coordination" title="linkTo">Coordination</a><ul><li class="first leaf"><a href="/evaluation-evidence" title="">Evaluation &amp; Evidence</a></li>
+<li class="leaf"><a href="/national-alzheimers-project-act">National Alzheimer&#039;s Project Act</a></li>
+<li class="leaf"><a href="/health-and-human-services-hhs-data-council">HHS Data Council</a></li>
+<li class="last leaf"><a href="/national-committee-vital-and-health-statistics" title="National Council on Vital and Health Statistics">National Council on Vital and Health Statistics</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/divisions" title="">Offices</a><ul><li class="first leaf"><a href="/office-disability-aging-and-long-term-care-policy-daltcp">Disability, Aging, and Long-Term Care Policy</a></li>
+<li class="leaf"><a href="/office-health-policy-hp">Health Policy</a></li>
+<li class="leaf"><a href="/office-human-services-policy">Human Services Policy</a></li>
+<li class="last leaf"><a href="/office-science-and-data-policy">Science and Data Policy</a></li>
+</ul></li>
+<li class="leaf"><a href="/strategic-planning" title="Strategic Planning">Strategic Planning</a></li>
+<li class="last leaf"><a href="/contact-aspe" title="">Contact ASPE</a></li>
+</ul></li>
+<li class="expanded active-trail"><a href="/basic-search/topics" title="" class="active-trail">Topics</a><ul><li class="first leaf"><a href="/affordable-care-act-research">Affordable Care Act Research</a></li>
+<li class="leaf"><a href="/alzheimers-dementia">Alzheimer&#039;s / Dementia</a></li>
+<li class="leaf"><a href="/early-childhood">Early Childhood</a></li>
+<li class="leaf"><a href="/incarceration-reentry">Incarceration &amp; Reentry</a></li>
+<li class="leaf"><a href="/opioid-abuse-us-and-hhs-actions-address-opioid-drug-related-overdoses-and-deaths" title="Opioids">Opioids</a></li>
+<li class="leaf"><a href="/patient-centered-outcomes-research-trust-fund">Patient-Centered Outcomes Research Trust Fund (PCORTF)</a></li>
+<li class="expanded active-trail"><a href="/basic-search/poverty" title="" class="active-trail">Poverty</a><ul><li class="first leaf"><a href="/poverty-guidelines">Poverty Guidelines</a></li>
+<li class="last leaf active-trail active"><a href="/poverty-estimates-trends-and-analysis" class="active-trail active">Poverty Analysis</a></li>
+</ul></li>
+<li class="leaf"><a href="/teen-pregnancy-prevention">Teen Pregnancy Prevention</a></li>
+<li class="leaf"><a href="/homelessness">Homelessness</a></li>
+<li class="last leaf"><a href="/medicare-access-and-chip-reauthorization-act-2015">MACRA</a></li>
+</ul></li>
+<li class="leaf"><a href="/reports" title="">Publications</a></li>
+<li class="last expanded"><a href="/basic-search/datasets" title="">Data and Tools</a><ul><li class="first last leaf"><a href="/evaluations" title="">Evaluation Database</a></li>
+</ul></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation / End -->
+</header>  <div class="main" role="main">
+    <!--PAGEWATCH CODE="USHHS_458"-->
+    <section class="page-heading">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+                <h1>
+                    
+          Poverty Estimates, Trends, and Analysis        </h1>
+                          </div>
+
+
+        <div class="col-md-6">
+           <ul class="breadcrumb"><li class="first"><a href="/" title="Home">Home</a></li>
+<li><a href="/basic-search/topics"  title="Topics">Topics</a></li>
+<li><a href="/basic-search/poverty"  title="Poverty">Poverty</a></li>
+<li class="last">Poverty Analysis</li>
+</ul>        </div>
+
+
+    </div>
+  </div>
+</section>
+    
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Content">     
+
+        
+                  
+        
+                                    <div  class="col-md-12 " id="content">
+                          
+                              <div id="block-aspe-aspe-addthis" class="widget block block-aspe" >
+  
+      
+  <div class="clearfix">
+  <ul class="addthis_sharing_toolbox node-share__links" data-url="https://aspe.hhs.gov/poverty-estimates-trends-and-analysis" data-title="Poverty Estimates, Trends, and Analysis">
+    <li><a class="addthis_button_print"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/print-white.png" alt="print" /></a></li>
+    <li><a class="addthis_button_email"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/mail-white.png" alt="email" /></a></li>
+    <li><a class="addthis_button_twitter"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/tw.png" alt="twitter" /></a></li>
+<!--    <li><a class="addthis_button_facebook">--><!--</a></li>-->
+    <li><a class="addthis_button_compact"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/plus-white.png" alt="compact" /></a></li>
+  </ul>
+</div>
+
+  </div> <!-- /.block -->
+
+                
+    
+  
+  <div class="content clearfix node-site-page">
+    <p></p>
+
+<p>People and families are considered poor when they lack the economic resources necessary to experience a minimally-sufficient standard of living. Official U.S. Census Bureau statistics estimate that 43 million persons, 13.5 percent of the total population, were poor in the United States in 2015. The topic of poverty is widely considered a cause for national action because poor families often encounter material hardships and reduced well-being and because children who grow up in poor households are less likely to thrive as adults.</p>
+
+<p>ASPE contributes to the federal government&rsquo;s efforts to reduce poverty in the United States in several ways. One way is to conduct research on the social and economic conditions that lead to poverty and to identify ways in which poor families can improve their circumstances and exit poverty. Some research is conducted by ASPE and some is performed by ASPE-funded poverty research centers located at the University of Wisconsin-Madison, the University of California, Davis and Stanford University.</p>
+
+<div class="row">
+	<div class="col-sm-4"><br />
+		<br />
+		&nbsp;
+		<h6>Resources</h6>
+
+		<ul style="margin-left:1.2em;padding-left:0">
+			<li><a href="http://www.urban.org/research/data-methods/data-analysis/quantitative-data-analysis/microsimulation/transfer-income-model-trim">TRIM3</a></li>
+			<li><a href="http://aspe.hhs.gov/poverty-guidelines">HHS Poverty Guidelines</a></li>
+			<li><a href="http://www.census.gov/hhes/www/poverty/">Official Poverty Measure (U.S. Census Bureau)</a></li>
+			<li><a href="http://www.census.gov/hhes/povmeas/">Supplemental Poverty Measure&nbsp;(U.S. Census Bureau)</a></li>
+		</ul>
+		</div>
+
+	<div class="col-sm-5" style="font-size:160%">
+		<h2 style="padding-left:3em;padding-bottom:0;margin-bottom:0.3em">Analyses by Topic</h2>
+
+		<ul class = "list">
+			<li style="padding-bottom:10px"><a href="basic-search/Poverty%20Trends">Poverty Estimates and Trends</a></li>
+			<li style="padding-bottom:10px"><a href="basic-search/Income%20Dynamics">Income Dynamics</a></li>
+			<li style="padding-bottom:10px"><a href="basic-search/Poverty%20Measures">Poverty Measurement</a></li>
+			<li style="padding-bottom:10px"><a href="basic-search/Report%20on%20Welfare%20Indicators%20and%20Risk%20Factors%20Indicators%20of%20Welfare%20Dependence">Welfare Indicators and Risk Factors</a></li>
+		</ul>
+	</div>
+
+	<div class="col-sm-3"><br />
+		<br />
+		&nbsp;
+		<h6>Poverty Research Centers</h6>
+
+		<ul style="margin-left:1.2em;padding-left:0">
+			<li><a href="http://www.irp.wisc.edu/index.htm" target="_blank">Institute for Research on Poverty at the University of Wisconsin-Madison</a></li>
+			<li><a href="http://poverty.ucdavis.edu/" target="_blank">Center for Poverty Research at the University of California-Davis</a></li>
+			<li><a href="http://web.stanford.edu/group/scspi/" target="_blank">Center on Poverty and Inequality at Stanford University</a></li>
+		</ul>
+	</div>
+</div>
+
+<div class="view view-reports-by-terms view-id-reports_by_terms view-display-id-block view-dom-id-">
+        
+  
+  
+      
+<div class="view-search zero_top">
+  <ul class="nav nav-tabs nav-noline view-change-tabs">
+    <li class="tab-title">VIEW:</li>
+    <li class="active s508">
+      <a href="#list" title="List view" class="btn btn-default" data-toggle="tab">
+          <img alt="list-view" src="/sites/all/themes/stability/stability_aspe/images/list-grey.png"/>
+          <span class="visuallyhidden">List</span>
+      </a></li>
+    <li class="s508">
+      <a href="#tile" title="Blocks view" class="btn btn-default" data-toggle="tab">
+          <img alt="block-view" src="/sites/all/themes/stability/stability_aspe/images/th-grey.png"/>
+          <span class="visuallyhidden">Tile</span>
+      </a></li>
+    <li class="table-tab s508">
+      <a href="#table" title="Table view" class="btn btn-default" data-toggle="tab">
+          <img alt="table-view" src="/sites/all/themes/stability/stability_aspe/images/table-grey.png"/>
+          <span class="visuallyhidden">Table</span>
+      </a></li>
+  </ul>
+
+    <!--tile view
+    ================-->
+    <div class="tab-pane tile row" id="tile">
+                    <div class="col-md-3 col-sm-6 col-xs-12 tile-item">
+          <div class="grey-bg">
+                                                        <a href="basic-report/financial-condition-and-health-care-burdens-people-deep-poverty" title="Financial Condition and Health Care Burdens of People in Deep Poverty">
+                  <div class="row">
+                    <div class="thumbnail thumbnail-fw">
+                                            <img src="https://aspe.hhs.gov/system/files/styles/table_tile/private/images-reports-basic/106921/Figure1.png?itok=pZvV4sDp" width="268" height="161" alt="Financial Condition and Health Care Burdens of" title="Image of Financial Condition and Health Care Burdens of People in Deep Poverty" />                    </div>
+                  </div>
+                                                                        <h4>Financial Condition and Health Care Burdens of People in Deep Poverty</h4>
+                </a>
+                                                                                                                                                            </div>
+        </div>
+              <div class="col-md-3 col-sm-6 col-xs-12 tile-item">
+          <div class="grey-bg">
+                                                        <a href="report/information-supplemental-poverty-measure-summary-2013-current-population-survey-data-october-2014" title="Information on the Supplemental Poverty Measure - A Summary of 2013 Current Population Survey Data (October 2014)">
+                  <div class="row">
+                    <div class="thumbnail thumbnail-fw">
+                                            <img src="https://aspe.hhs.gov/system/files/styles/table_tile/private/images-reports/information-supplemental-poverty-measure-summary-2013-current-population-survey-data-october-2014/Figure%201.PNG?itok=w1I2s_ME" width="268" height="161" alt="INFORMATION ON THE SUPPLEMENTAL POVERTY MEASURE A" title="Image of Information on the Supplemental Poverty Measure - A Summary of 2013 Current Population Survey Data (October 2014)" />                    </div>
+                  </div>
+                                                                        <h4>Information on the Supplemental Poverty Measure - A Summary of 2013 Cu...</h4>
+                </a>
+                                                                                                                                                            </div>
+        </div>
+              <div class="col-md-3 col-sm-6 col-xs-12 tile-item">
+          <div class="grey-bg">
+                                                        <a href="report/information-poverty-and-income-statistics-summary-2014-current-population-survey-data" title="Information On Poverty And Income Statistics: A Summary of 2014 Current Population Survey Data">
+                  <div class="row">
+                    <div class="thumbnail thumbnail-fw">
+                                            <img src="https://aspe.hhs.gov/system/files/styles/table_tile/private/images-reports/information-poverty-and-income-statistics-summary-2012-current-population-survey-data/Poverty%20Rate%20of%20All%20Persons%20200-2013.PNG?itok=8ZcEqxDE" width="268" height="161" alt="Information On Poverty And Income Statistics: A" title="Image of Information On Poverty And Income Statistics: A Summary of 2012 Current Population Survey Data" />                    </div>
+                  </div>
+                                                                        <h4>Information On Poverty And Income Statistics: A Summary of 2014 Curren...</h4>
+                </a>
+                                                                                                                                                            </div>
+        </div>
+              <div class="col-md-3 col-sm-6 col-xs-12 tile-item">
+          <div class="grey-bg">
+                                                        <a href="basic-report/indicators-welfare-dependence-annual-report-congress" title="Indicators of Welfare Dependence: Annual Report to Congress">
+                  <div class="row">
+                    <div class="thumbnail thumbnail-fw">
+                                            <img src="https://aspe.hhs.gov/system/files/styles/table_tile/private/default_images_reports/default_report_image02.jpg?itok=3Ui5AMcm" width="268" height="161" alt="Indicators of Welfare Dependence, Annual Report" title="Image of Indicators of Welfare Dependence, Annual Report to Congress" />                    </div>
+                  </div>
+                                                                        <h4>Indicators of Welfare Dependence: Annual Report to Congress</h4>
+                </a>
+                                                                                                                                                            </div>
+        </div>
+              <div class="col-md-3 col-sm-6 col-xs-12 tile-item">
+          <div class="grey-bg">
+                                                        <a href="report/overview-community-characteristics-areas-concentrated-poverty" title="Overview of Community Characteristics in Areas With Concentrated Poverty">
+                  <div class="row">
+                    <div class="thumbnail thumbnail-fw">
+                                            <img src="https://aspe.hhs.gov/system/files/styles/table_tile/private/images-reports/overview-community-characteristics-areas-concentrated-poverty/Overview%20of%20Community%20Characteristicsy.png?itok=Ud9LjRtt" width="268" height="161" alt="Overview of Community Characteristics in Areas" title="Image of Overview of Community Characteristics in Areas With Concentrated Poverty" />                    </div>
+                  </div>
+                                                                        <h4>Overview of Community Characteristics in Areas With Concentrated Pover...</h4>
+                </a>
+                                                                                                                                                            </div>
+        </div>
+              <div class="col-md-3 col-sm-6 col-xs-12 tile-item">
+          <div class="grey-bg">
+                                                        <a href="report/welfare-indicators-and-risk-factors-thirteenth-report-congress" title="Welfare Indicators and Risk Factors: Thirteenth Report to Congress">
+                  <div class="row">
+                    <div class="thumbnail thumbnail-fw">
+                                            <img src="https://aspe.hhs.gov/system/files/styles/table_tile/private/images-reports/welfare-indicators-and-risk-factors/%20Recipiency%20and%20Dependency%20Rates.png?itok=9SWEeJn6" width="268" height="161" alt="Welfare Indicators and Risk Factors" title="Image of Welfare Indicators and Risk Factors" />                    </div>
+                  </div>
+                                                                        <h4>Welfare Indicators and Risk Factors: Thirteenth Report to Congress</h4>
+                </a>
+                                                                                                                                                            </div>
+        </div>
+              <div class="col-md-3 col-sm-6 col-xs-12 tile-item">
+          <div class="grey-bg">
+                                                        <a href="report/americas-children-poverty-new-look-whos-poor-under-supplemental-poverty-measure" title="America's Children in Poverty: A New Look at Who's Poor Under the Supplemental Poverty Measure">
+                  <div class="row">
+                    <div class="thumbnail thumbnail-fw">
+                                            <img src="https://aspe.hhs.gov/system/files/styles/table_tile/private/images-reports/americas-children-poverty-new-look-whos-poor-under-supplemental-poverty-measure/Children%20in%20Poverty%20by%20Poverty%20Measure%2C%202010%20%28Millions%29_0.png?itok=_84pTeHb" width="268" height="161" alt="America&#039;s Children in Poverty: A New Look at" title="Image of America&amp;#039;s Children in Poverty: A New Look at Who&amp;#039;s Poor Under the Supplemental Poverty Measure" />                    </div>
+                  </div>
+                                                                        <h4>America's Children in Poverty: A New Look at Who's Poor Under the Supp...</h4>
+                </a>
+                                                                                                                                                            </div>
+        </div>
+              <div class="col-md-3 col-sm-6 col-xs-12 tile-item">
+          <div class="grey-bg">
+                                                        <a href="pdf-report/change-poverty-select-demographic-groups-2007–2012" title="Change in Poverty by Select Demographic Groups: 2007–2012">
+                  <div class="row">
+                    <div class="thumbnail thumbnail-fw">
+                                            <img src="https://aspe.hhs.gov/system/files/styles/table_tile/private/default_images_reports/default_report_image04.jpg?itok=i56siG5l" width="268" height="161" alt="Change in Poverty by Select Demographic Groups:" title="Image of Change in Poverty by Select Demographic Groups: 2007–2012" />                    </div>
+                  </div>
+                                                                        <h4>Change in Poverty by Select Demographic Groups: 2007–2012</h4>
+                </a>
+                                                                                                                                                            </div>
+        </div>
+              <div class="col-md-3 col-sm-6 col-xs-12 tile-item">
+          <div class="grey-bg">
+                                                        <a href="basic-report/information-poverty-and-income-statistics-summary-2013-current-population-survey-data" title="Information on Poverty and Income Statistics: A Summary of 2013 Current Population Survey Data">
+                  <div class="row">
+                    <div class="thumbnail thumbnail-fw">
+                                            <img src="https://aspe.hhs.gov/system/files/styles/table_tile/private/images-reports-basic/71451/Poverty%20Rate%20of%20all%20persons.PNG?itok=pxSCrTbn" width="268" height="161" alt="Information on Poverty and Income Statistics: A" title="Image of Information on Poverty and Income Statistics: A Summary of 2013 Current Population Survey Data" />                    </div>
+                  </div>
+                                                                        <h4>Information on Poverty and Income Statistics: A Summary of 2013 Curren...</h4>
+                </a>
+                                                                                                                                                            </div>
+        </div>
+              <div class="col-md-3 col-sm-6 col-xs-12 tile-item">
+          <div class="grey-bg">
+                                                        <a href="pdf-report/geographic-variation-cost-living-implications-poverty-guidelines-and-program-eligibility" title="Geographic Variation in the Cost of Living: Implications for the Poverty Guidelines and Program Eligibility">
+                  <div class="row">
+                    <div class="thumbnail thumbnail-fw">
+                                            <img src="https://aspe.hhs.gov/system/files/styles/table_tile/private/default_images_reports/default_report_image09.jpg?itok=ldV6j6I0" width="268" height="161" alt="Geographic Variation in the Cost of Living:" title="Image of Geographic Variation in the Cost of Living: Implications for the Poverty Guidelines and Program Eligibility" />                    </div>
+                  </div>
+                                                                        <h4>Geographic Variation in the Cost of Living: Implications for the Pover...</h4>
+                </a>
+                                                                                                                                                            </div>
+        </div>
+              <div class="col-md-3 col-sm-6 col-xs-12 tile-item">
+          <div class="grey-bg">
+                                                        <a href="report/indicators-welfare-dependence-annual-report-congress-2009-2013" title="Indicators of Welfare Dependence: Annual Report to Congress, 2009-2013">
+                  <div class="row">
+                    <div class="thumbnail thumbnail-fw">
+                                            <img src="https://aspe.hhs.gov/system/files/styles/table_tile/private/images-reports/indicators-welfare-dependence.twelfth-report-congress/Figure%20SUM%201.PNG?itok=rmz3T8vD" width="268" height="161" alt="Indicators of Welfare Dependence. Twelfth Report" title="Image of Indicators of Welfare Dependence. Twelfth Report to Congress" />                    </div>
+                  </div>
+                                                                        <h4>Indicators of Welfare Dependence: Annual Report to Congress, 2009-2013</h4>
+                </a>
+                                                                                                                                                            </div>
+        </div>
+              <div class="col-md-3 col-sm-6 col-xs-12 tile-item">
+          <div class="grey-bg">
+                                                        <a href="basic-report/information-research-supplemental-poverty-measure-summary-2012-current-population-survey-data" title="Information on Research Supplemental Poverty Measure. A Summary of 2012 Current Population Survey Data">
+                  <div class="row">
+                    <div class="thumbnail thumbnail-fw">
+                                            <img src="https://aspe.hhs.gov/system/files/styles/table_tile/private/default_images_reports/default_report_image10.jpg?itok=Ee555Bo_" width="268" height="161" alt="Information on Research Supplemental Poverty" title="Image of Information on Research Supplemental Poverty Measure. A Summary of 2012 Current Population Survey Data" />                    </div>
+                  </div>
+                                                                        <h4>Information on Research Supplemental Poverty Measure. A Summary of 201...</h4>
+                </a>
+                                                                                                                                                            </div>
+        </div>
+          </div>
+
+    <!--list view
+    ================-->
+    <div class="tab-pane active" id="list">
+                    <div class="col-md-12 row">
+
+            <div class="entry clearfix">
+                                              <!-- Image -->
+                                  <div class="col-xs-3 thumbnail">
+                                        <a href="basic-report/financial-condition-and-health-care-burdens-people-deep-poverty"><img src="https://aspe.hhs.gov/system/files/styles/table_tile/private/images-reports-basic/106921/Figure1.png?itok=pZvV4sDp" width="268" height="161" alt="Financial Condition and Health Care Burdens of" title="Image of Financial Condition and Health Care Burdens of People in Deep Poverty" /></a>
+                  </div>
+                <div class="col-xs-9">
+                                                              <!-- Image -->
+                                  <h3><a href="/basic-report/financial-condition-and-health-care-burdens-people-deep-poverty">Financial Condition and Health Care Burdens of People in Deep Poverty</a></h3>
+                                                              <!-- Image -->
+                                  <p>Americans living at the bottom of the income distribution often struggle to meet their basic needs on very limited incomes, even with the added assistance of government programs. The following analyses describe the characteristics of the poor population; available income for those at the deepest levels of poverty; and average medical care needs among those living in poor and deep poor families (meaning those with incomes below 50 percent of the poverty threshold)2. The brief concludes with implications for medical cost sharing among those with few resources available.</p>
+                                                              <!-- Image -->
+                                                              <!-- Image -->
+                                            </div>
+            </div>
+        </div>
+                <div class="col-md-12 row">
+
+            <div class="entry clearfix">
+                                              <!-- Image -->
+                                  <div class="col-xs-3 thumbnail">
+                                        <a href="report/information-supplemental-poverty-measure-summary-2013-current-population-survey-data-october-2014"><img src="https://aspe.hhs.gov/system/files/styles/table_tile/private/images-reports/information-supplemental-poverty-measure-summary-2013-current-population-survey-data-october-2014/Figure%201.PNG?itok=w1I2s_ME" width="268" height="161" alt="INFORMATION ON THE SUPPLEMENTAL POVERTY MEASURE A" title="Image of Information on the Supplemental Poverty Measure - A Summary of 2013 Current Population Survey Data (October 2014)" /></a>
+                  </div>
+                <div class="col-xs-9">
+                                                              <!-- Image -->
+                                  <h3><a href="/report/information-supplemental-poverty-measure-summary-2013-current-population-survey-data-october-2014">Information on the Supplemental Poverty Measure - A Summary of 2013 Current Population Survey Data (October 2014)</a></h3>
+                                                              <!-- Image -->
+                                  <p>The brief summarizes findings from the Census Bureau’s Supplemental Poverty Measure report for 2013. The brief highlights SPM levels for the most recent year, changes from the previous year and historical trends.  SPM estimates are compared to estimates of the official poverty measure. The brief also presents the anti-poverty effects of select social safety net programs and includes technical details on the calculation of the SPM.
+</p>
+                                                              <!-- Image -->
+                                                              <!-- Image -->
+                                            </div>
+            </div>
+        </div>
+                <div class="col-md-12 row">
+
+            <div class="entry clearfix">
+                                              <!-- Image -->
+                                  <div class="col-xs-3 thumbnail">
+                                        <a href="report/information-poverty-and-income-statistics-summary-2014-current-population-survey-data"><img src="https://aspe.hhs.gov/system/files/styles/table_tile/private/images-reports/information-poverty-and-income-statistics-summary-2012-current-population-survey-data/Poverty%20Rate%20of%20All%20Persons%20200-2013.PNG?itok=8ZcEqxDE" width="268" height="161" alt="Information On Poverty And Income Statistics: A" title="Image of Information On Poverty And Income Statistics: A Summary of 2012 Current Population Survey Data" /></a>
+                  </div>
+                <div class="col-xs-9">
+                                                              <!-- Image -->
+                                  <h3><a href="/report/information-poverty-and-income-statistics-summary-2014-current-population-survey-data">Information On Poverty And Income Statistics: A Summary of 2014 Current Population Survey Data</a></h3>
+                                                              <!-- Image -->
+                                  <p>This brief analyzes and summarizes the poverty rates for various populations in the United States.  Cited statistics include changes in the poverty rate and number of children in poverty by age, race and ethnicity, and family type.  The data are based on information collected in the 2014 and earlier Current Population Survey Annual Social and Economic Supplements (CPS ASEC) conducted by the Census Bureau.
+</p>
+                                                              <!-- Image -->
+                                                              <!-- Image -->
+                                            </div>
+            </div>
+        </div>
+                <div class="col-md-12 row">
+
+            <div class="entry clearfix">
+                                              <!-- Image -->
+                                  <div class="col-xs-3 thumbnail">
+                                        <a href="basic-report/indicators-welfare-dependence-annual-report-congress"><img src="https://aspe.hhs.gov/system/files/styles/table_tile/private/default_images_reports/default_report_image02.jpg?itok=3Ui5AMcm" width="268" height="161" alt="Indicators of Welfare Dependence, Annual Report" title="Image of Indicators of Welfare Dependence, Annual Report to Congress" /></a>
+                  </div>
+                <div class="col-xs-9">
+                                                              <!-- Image -->
+                                  <h3><a href="/basic-report/indicators-welfare-dependence-annual-report-congress">Indicators of Welfare Dependence: Annual Report to Congress</a></h3>
+                                                              <!-- Image -->
+                                  <p>Indicators of Welfare Dependence, Annual Report to Congress
+The Welfare Indicators Act of 1994 directed the Secretary of Health and Human Services to study the most useful statistics for tracking and predicting dependence on three means-tested cash and nutritional assistance programs:  Temporary Assistance for Needy Families (TANF), Food Stamps, and Supplemental Security Income (SSI).  Since then, ASPE has been producing these reports:</p>
+                                                              <!-- Image -->
+                                                              <!-- Image -->
+                                            </div>
+            </div>
+        </div>
+                <div class="col-md-12 row">
+
+            <div class="entry clearfix">
+                                              <!-- Image -->
+                                  <div class="col-xs-3 thumbnail">
+                                        <a href="report/overview-community-characteristics-areas-concentrated-poverty"><img src="https://aspe.hhs.gov/system/files/styles/table_tile/private/images-reports/overview-community-characteristics-areas-concentrated-poverty/Overview%20of%20Community%20Characteristicsy.png?itok=Ud9LjRtt" width="268" height="161" alt="Overview of Community Characteristics in Areas" title="Image of Overview of Community Characteristics in Areas With Concentrated Poverty" /></a>
+                  </div>
+                <div class="col-xs-9">
+                                                              <!-- Image -->
+                                  <h3><a href="/report/overview-community-characteristics-areas-concentrated-poverty">Overview of Community Characteristics in Areas With Concentrated Poverty</a></h3>
+                                                              <!-- Image -->
+                                  <p>The brief describes the characteristics of pockets of concentrated poverty within metropolitan areas and the individuals that live in these communities. Topics covered include race and ethnicity, family type, birth rates, and educational attainment. The figures presented are based on ASPE's analysis of the U.S. Census Bureau's 2007-2011 American Community Survey (ACS) 5-year data file.
+</p>
+                                                              <!-- Image -->
+                                                              <!-- Image -->
+                                            </div>
+            </div>
+        </div>
+                <div class="col-md-12 row">
+
+            <div class="entry clearfix">
+                                              <!-- Image -->
+                                  <div class="col-xs-3 thumbnail">
+                                        <a href="report/welfare-indicators-and-risk-factors-thirteenth-report-congress"><img src="https://aspe.hhs.gov/system/files/styles/table_tile/private/images-reports/welfare-indicators-and-risk-factors/%20Recipiency%20and%20Dependency%20Rates.png?itok=9SWEeJn6" width="268" height="161" alt="Welfare Indicators and Risk Factors" title="Image of Welfare Indicators and Risk Factors" /></a>
+                  </div>
+                <div class="col-xs-9">
+                                                              <!-- Image -->
+                                  <h3><a href="/report/welfare-indicators-and-risk-factors-thirteenth-report-congress">Welfare Indicators and Risk Factors: Thirteenth Report to Congress</a></h3>
+                                                              <!-- Image -->
+                                  <p>The Welfare Indicators Act of 1994 requires the Secretary of Health and Human Services to prepare an annual report to Congress on indicators of welfare dependence.  The Indicators of Welfare Dependence report is prepared by ASPE’s Office of Human Services Policy.  As mandated under the Congressional act, the report addresses the rate of welfare dependence, the degree and duration of welfare recipiency and dependence, and predictors of welfare dependence.  Analyses of meant-tested assistance in the report include benefits under the Temporary Assistance for Needy Families (TANF) program; the Supplemental Nutrition Assistance Program (SNAP, formerly the Food Stamp Program), and the Supplemental Security Income (SSI) program.  The report also includes risk factors related to economic security, employment, and nonmarital births, as well as an appendix with data related to the above programs. Data for most indicators are updated through 2011.
+</p>
+                                                              <!-- Image -->
+                                                              <!-- Image -->
+                                            </div>
+            </div>
+        </div>
+                <div class="col-md-12 row">
+
+            <div class="entry clearfix">
+                                              <!-- Image -->
+                                  <div class="col-xs-3 thumbnail">
+                                        <a href="report/americas-children-poverty-new-look-whos-poor-under-supplemental-poverty-measure"><img src="https://aspe.hhs.gov/system/files/styles/table_tile/private/images-reports/americas-children-poverty-new-look-whos-poor-under-supplemental-poverty-measure/Children%20in%20Poverty%20by%20Poverty%20Measure%2C%202010%20%28Millions%29_0.png?itok=_84pTeHb" width="268" height="161" alt="America&#039;s Children in Poverty: A New Look at" title="Image of America&amp;#039;s Children in Poverty: A New Look at Who&amp;#039;s Poor Under the Supplemental Poverty Measure" /></a>
+                  </div>
+                <div class="col-xs-9">
+                                                              <!-- Image -->
+                                  <h3><a href="/report/americas-children-poverty-new-look-whos-poor-under-supplemental-poverty-measure">America&#039;s Children in Poverty: A New Look at Who&#039;s Poor Under the Supplemental Poverty Measure</a></h3>
+                                                              <!-- Image -->
+                                  <p>This research brief examines child poverty in 2010 using both the official poverty measure that the Census Bureau has been using since the 1960’s and the more recent Research Supplemental Poverty Measure (SPM). It examines three groups of children – the “core” poor who live in families who are poor regardless of which measure is used, the “lifted out” children who are classified as poor under the official measure but are no longer poor under the supplemental poverty measure, and children who are not poor under the official measure but who are “thrown in” to poverty under the new SPM measure. The brief identifies the core characteristics of each group of poor children and demonstrates what each measure independently contributes to our understanding of child poverty.
+</p>
+                                                              <!-- Image -->
+                                                              <!-- Image -->
+                                            </div>
+            </div>
+        </div>
+                <div class="col-md-12 row">
+
+            <div class="entry clearfix">
+                                              <!-- Image -->
+                                  <div class="col-xs-3 thumbnail">
+                                        <a href="pdf-report/change-poverty-select-demographic-groups-2007–2012"><img src="https://aspe.hhs.gov/system/files/styles/table_tile/private/default_images_reports/default_report_image04.jpg?itok=i56siG5l" width="268" height="161" alt="Change in Poverty by Select Demographic Groups:" title="Image of Change in Poverty by Select Demographic Groups: 2007–2012" /></a>
+                  </div>
+                <div class="col-xs-9">
+                                                              <!-- Image -->
+                                  <h3><a href="/pdf-report/change-poverty-select-demographic-groups-2007%E2%80%932012">Change in Poverty by Select Demographic Groups: 2007–2012</a></h3>
+                                                              <!-- Image -->
+                                  <p>
+                                                              <!-- Image -->
+                                                              <!-- Image -->
+                                            </div>
+            </div>
+        </div>
+                <div class="col-md-12 row">
+
+            <div class="entry clearfix">
+                                              <!-- Image -->
+                                  <div class="col-xs-3 thumbnail">
+                                        <a href="basic-report/information-poverty-and-income-statistics-summary-2013-current-population-survey-data"><img src="https://aspe.hhs.gov/system/files/styles/table_tile/private/images-reports-basic/71451/Poverty%20Rate%20of%20all%20persons.PNG?itok=pxSCrTbn" width="268" height="161" alt="Information on Poverty and Income Statistics: A" title="Image of Information on Poverty and Income Statistics: A Summary of 2013 Current Population Survey Data" /></a>
+                  </div>
+                <div class="col-xs-9">
+                                                              <!-- Image -->
+                                  <h3><a href="/basic-report/information-poverty-and-income-statistics-summary-2013-current-population-survey-data">Information on Poverty and Income Statistics: A Summary of 2013 Current Population Survey Data</a></h3>
+                                                              <!-- Image -->
+                                  <p>ASPE ISSUE BRIEF
+By: ASPE Human Services Policy Staff
+Abstract</p>
+                                                              <!-- Image -->
+                                                              <!-- Image -->
+                                            </div>
+            </div>
+        </div>
+                <div class="col-md-12 row">
+
+            <div class="entry clearfix">
+                                              <!-- Image -->
+                                  <div class="col-xs-3 thumbnail">
+                                        <a href="pdf-report/geographic-variation-cost-living-implications-poverty-guidelines-and-program-eligibility"><img src="https://aspe.hhs.gov/system/files/styles/table_tile/private/default_images_reports/default_report_image09.jpg?itok=ldV6j6I0" width="268" height="161" alt="Geographic Variation in the Cost of Living:" title="Image of Geographic Variation in the Cost of Living: Implications for the Poverty Guidelines and Program Eligibility" /></a>
+                  </div>
+                <div class="col-xs-9">
+                                                              <!-- Image -->
+                                  <h3><a href="/pdf-report/geographic-variation-cost-living-implications-poverty-guidelines-and-program-eligibility">Geographic Variation in the Cost of Living: Implications for the Poverty Guidelines and Program Eligibility</a></h3>
+                                                              <!-- Image -->
+                                  <p>This report, prepared by the Urban Institute, provides a thorough review of the literature on the extent of price variation across geographic areas, an assessment of the available indices to use to adjust the poverty guidelines for geographic price variation, and trial estimates of how geographically adjusted poverty guidelines would affect program eligibility and federal and state costs.</p>
+                                                              <!-- Image -->
+                                                              <!-- Image -->
+                                            </div>
+            </div>
+        </div>
+                <div class="col-md-12 row">
+
+            <div class="entry clearfix">
+                                              <!-- Image -->
+                                  <div class="col-xs-3 thumbnail">
+                                        <a href="report/indicators-welfare-dependence-annual-report-congress-2009-2013"><img src="https://aspe.hhs.gov/system/files/styles/table_tile/private/images-reports/indicators-welfare-dependence.twelfth-report-congress/Figure%20SUM%201.PNG?itok=rmz3T8vD" width="268" height="161" alt="Indicators of Welfare Dependence. Twelfth Report" title="Image of Indicators of Welfare Dependence. Twelfth Report to Congress" /></a>
+                  </div>
+                <div class="col-xs-9">
+                                                              <!-- Image -->
+                                  <h3><a href="/report/indicators-welfare-dependence-annual-report-congress-2009-2013">Indicators of Welfare Dependence: Annual Report to Congress, 2009-2013</a></h3>
+                                                              <!-- Image -->
+                                  <p>This report was written and compiled by Gilbert Crouse and Annette Waters of the Office of Human Services Policy, Office of the Assistant Secretary for Planning and Evaluation.</p>
+                                                              <!-- Image -->
+                                                              <!-- Image -->
+                                            </div>
+            </div>
+        </div>
+                <div class="col-md-12 row">
+
+            <div class="entry clearfix">
+                                              <!-- Image -->
+                                  <div class="col-xs-3 thumbnail">
+                                        <a href="basic-report/information-research-supplemental-poverty-measure-summary-2012-current-population-survey-data"><img src="https://aspe.hhs.gov/system/files/styles/table_tile/private/default_images_reports/default_report_image10.jpg?itok=Ee555Bo_" width="268" height="161" alt="Information on Research Supplemental Poverty" title="Image of Information on Research Supplemental Poverty Measure. A Summary of 2012 Current Population Survey Data" /></a>
+                  </div>
+                <div class="col-xs-9">
+                                                              <!-- Image -->
+                                  <h3><a href="/basic-report/information-research-supplemental-poverty-measure-summary-2012-current-population-survey-data">Information on Research Supplemental Poverty Measure. A Summary of 2012 Current Population Survey Data</a></h3>
+                                                              <!-- Image -->
+                                  <p>
+                                                              <!-- Image -->
+                                                              <!-- Image -->
+                                            </div>
+            </div>
+        </div>
+            </div>
+
+    <div class="tab-pane" id="table">
+      <!--Table view
+      ================-->
+      <table class="footable hide-keywords sort-date views-table cols-5 " >
+                          <thead>
+          <tr>
+                                        <th class="views-field views-field-field-report-image col-md-1 datatable-nosort "  data-hide = "narrow,phone">
+                Image              </th>
+                                                      <th class="views-field views-field-title "  data-class="expand">
+                Title              </th>
+                                                                                <th class="views-field views-field-field-keywords "  data-hide = "narrow,phone">
+                Keywords              </th>
+                                                      <th class="views-field views-field-field-release-date "  data-hide = "narrow,phone">
+                Date              </th>
+                                    </tr>
+          </thead>
+                <tbody>
+                  <tr class="odd views-row-first">
+                                        <td class="views-field views-field-field-report-image thumbnail "> <a href="/basic-report/financial-condition-and-health-care-burdens-people-deep-poverty"><img src="https://aspe.hhs.gov/system/files/styles/table_thumbnail/private/images-reports-basic/106921/Figure1.png?itok=bjIFwc6t" width="248" height="161" alt="Financial Condition and Health Care Burdens of" title="Image of Financial Condition and Health Care Burdens of People in Deep Poverty" /></a>
+
+</td>
+                                                      <td class="views-field views-field-title"><a href="/basic-report/financial-condition-and-health-care-burdens-people-deep-poverty">Financial Condition and Health Care Burdens of People in Deep Poverty</a></td>
+                                                                                <td class="views-field views-field-field-keywords"><a href="/document-terms/access">Access</a>, <a href="/document-terms/child-care">Child Care</a>, <a href="/document-terms/disabled-persons">Disabled Persons</a>, <a href="/document-terms/education">Education</a>, <a href="/document-terms/employment">Employment</a>, <a href="/document-terms/family">Family</a>, <a href="/document-terms/food">Food</a>, <a href="/document-terms/health">Health</a>, <a href="/document-terms/health-care-costs">Health Care Costs</a>, <a href="/document-terms/income">Income</a>, <a href="/document-terms/income-inequality">Income Inequality</a>, <a href="/document-terms/insurance">Insurance</a>, <a href="/document-terms/insurance-health">Insurance, Health</a>, <a href="/document-terms/low-income">Low Income</a>, <a href="/document-terms/medicaid">Medicaid</a>, <a href="/document-terms/medicare">Medicare</a>, <a href="/document-terms/nutritional-sciences">Nutritional Sciences</a>, <a href="/document-terms/parents">Parents</a>, <a href="/document-terms/patients">Patients</a>, <a href="/document-terms/policy">Policy</a>, <a href="/document-terms/population">Population</a>, <a href="/document-terms/poverty">Poverty</a>, <a href="/document-terms/prescription-drugs">Prescription Drugs</a>, <a href="/document-terms/program-participation">Program Participation</a>, <a href="/document-terms/research">Research</a>, <a href="/document-terms/retirement">Retirement</a>, <a href="/document-terms/single-parent">Single Parent</a>, <a href="/document-terms/social-security">Social Security</a>, <a href="/document-terms/tanf">TANF</a>, <a href="/document-terms/vulnerable-populations">Vulnerable Populations</a>, <a href="/document-terms/wic">WIC</a></td>
+                                                      <td class="views-field views-field-field-release-date">07/16/2015</td>
+                                    </tr>
+                  <tr class="even">
+                                        <td class="views-field views-field-field-report-image thumbnail "> <a href="/report/information-supplemental-poverty-measure-summary-2013-current-population-survey-data-october-2014"><img src="https://aspe.hhs.gov/system/files/styles/table_thumbnail/private/images-reports/information-supplemental-poverty-measure-summary-2013-current-population-survey-data-october-2014/Figure%201.PNG?itok=k6frgy9F" width="248" height="161" alt="INFORMATION ON THE SUPPLEMENTAL POVERTY MEASURE A" title="Image of Information on the Supplemental Poverty Measure - A Summary of 2013 Current Population Survey Data (October 2014)" /></a>
+
+</td>
+                                                      <td class="views-field views-field-title"><a href="/report/information-supplemental-poverty-measure-summary-2013-current-population-survey-data-october-2014">Information on the Supplemental Poverty Measure - A Summary of 2013 Current Population Survey Data (October 2014)</a></td>
+                                                                                <td class="views-field views-field-field-keywords"><a href="/document-terms/child-care">Child Care</a>, <a href="/document-terms/food">Food</a>, <a href="/document-terms/homeless-families">Homeless Families</a>, <a href="/document-terms/income">Income</a>, <a href="/document-terms/income-inequality">Income Inequality</a>, <a href="/document-terms/inflation-economic">Inflation, Economic</a>, <a href="/document-terms/nutritional-sciences">Nutritional Sciences</a>, <a href="/document-terms/policy">Policy</a>, <a href="/document-terms/population">Population</a>, <a href="/document-terms/poverty">Poverty</a>, <a href="/document-terms/research">Research</a>, <a href="/document-terms/social-security">Social Security</a>, <a href="/document-terms/wic">WIC</a></td>
+                                                      <td class="views-field views-field-field-release-date">10/01/2014</td>
+                                    </tr>
+                  <tr class="odd">
+                                        <td class="views-field views-field-field-report-image thumbnail "> <a href="/report/information-poverty-and-income-statistics-summary-2014-current-population-survey-data"><img src="https://aspe.hhs.gov/system/files/styles/table_thumbnail/private/images-reports/information-poverty-and-income-statistics-summary-2012-current-population-survey-data/Poverty%20Rate%20of%20All%20Persons%20200-2013.PNG?itok=eutLpXbD" width="248" height="161" alt="Information On Poverty And Income Statistics: A" title="Image of Information On Poverty And Income Statistics: A Summary of 2012 Current Population Survey Data" /></a>
+
+</td>
+                                                      <td class="views-field views-field-title"><a href="/report/information-poverty-and-income-statistics-summary-2014-current-population-survey-data">Information On Poverty And Income Statistics: A Summary of 2014 Current Population Survey Data</a></td>
+                                                                                <td class="views-field views-field-field-keywords"><a href="/document-terms/family">Family</a>, <a href="/document-terms/income">Income</a>, <a href="/document-terms/population">Population</a>, <a href="/document-terms/poverty">Poverty</a>, <a href="/document-terms/publication-formats">Publication Formats</a></td>
+                                                      <td class="views-field views-field-field-release-date">09/16/2014</td>
+                                    </tr>
+                  <tr class="even">
+                                        <td class="views-field views-field-field-report-image thumbnail "> <a href="/basic-report/indicators-welfare-dependence-annual-report-congress"><img src="https://aspe.hhs.gov/system/files/styles/table_thumbnail/private/default_images_reports/default_report_image02.jpg?itok=PXdyyKrj" width="248" height="161" alt="Indicators of Welfare Dependence, Annual Report" title="Image of Indicators of Welfare Dependence, Annual Report to Congress" /></a>
+
+</td>
+                                                      <td class="views-field views-field-title"><a href="/basic-report/indicators-welfare-dependence-annual-report-congress">Indicators of Welfare Dependence: Annual Report to Congress</a></td>
+                                                                                <td class="views-field views-field-field-keywords"><a href="/document-terms/risk-factors">Risk Factors</a>, <a href="/document-terms/social-security">Social Security</a>, <a href="/document-terms/supplemental-nutrition-assistance-program-snap">Supplemental Nutrition Assistance Program (SNAP)</a></td>
+                                                      <td class="views-field views-field-field-release-date">07/17/2014</td>
+                                    </tr>
+                  <tr class="odd">
+                                        <td class="views-field views-field-field-report-image thumbnail "> <a href="/report/overview-community-characteristics-areas-concentrated-poverty"><img src="https://aspe.hhs.gov/system/files/styles/table_thumbnail/private/images-reports/overview-community-characteristics-areas-concentrated-poverty/Overview%20of%20Community%20Characteristicsy.png?itok=XDSq5iQU" width="248" height="161" alt="Overview of Community Characteristics in Areas" title="Image of Overview of Community Characteristics in Areas With Concentrated Poverty" /></a>
+
+</td>
+                                                      <td class="views-field views-field-title"><a href="/report/overview-community-characteristics-areas-concentrated-poverty">Overview of Community Characteristics in Areas With Concentrated Poverty</a></td>
+                                                                                <td class="views-field views-field-field-keywords"><a href="/document-terms/access">Access</a>, <a href="/document-terms/birth">Birth</a>, <a href="/document-terms/crime">Crime</a>, <a href="/document-terms/early-childhood">Early Childhood</a>, <a href="/document-terms/early-medical-intervention">Early Medical Intervention</a>, <a href="/document-terms/education">Education</a>, <a href="/document-terms/employment">Employment</a>, <a href="/document-terms/evaluation-studies">Evaluation Studies</a>, <a href="/document-terms/family">Family</a>, <a href="/document-terms/health">Health</a>, <a href="/document-terms/income">Income</a>, <a href="/document-terms/parents">Parents</a>, <a href="/document-terms/population">Population</a>, <a href="/document-terms/poverty">Poverty</a>, <a href="/document-terms/poverty-areas">Poverty Areas</a>, <a href="/document-terms/publication-formats">Publication Formats</a>, <a href="/document-terms/research">Research</a>, <a href="/document-terms/transients-and-migrants">Transients and Migrants</a>, <a href="/document-terms/unemployment">Unemployment</a>, <a href="/document-terms/wic">WIC</a></td>
+                                                      <td class="views-field views-field-field-release-date">05/01/2014</td>
+                                    </tr>
+                  <tr class="even">
+                                        <td class="views-field views-field-field-report-image thumbnail "> <a href="/report/welfare-indicators-and-risk-factors-thirteenth-report-congress"><img src="https://aspe.hhs.gov/system/files/styles/table_thumbnail/private/images-reports/welfare-indicators-and-risk-factors/%20Recipiency%20and%20Dependency%20Rates.png?itok=SsoPu4Lm" width="248" height="161" alt="Welfare Indicators and Risk Factors" title="Image of Welfare Indicators and Risk Factors" /></a>
+
+</td>
+                                                      <td class="views-field views-field-title"><a href="/report/welfare-indicators-and-risk-factors-thirteenth-report-congress">Welfare Indicators and Risk Factors: Thirteenth Report to Congress</a></td>
+                                                                                <td class="views-field views-field-field-keywords"><a href="/document-terms/access">Access</a>, <a href="/document-terms/adoption">Adoption</a>, <a href="/document-terms/afdc">AFDC</a>, <a href="/document-terms/aging">Aging</a>, <a href="/document-terms/aid-families-dependent-children">Aid to Families with Dependent Children</a>, <a href="/document-terms/barriers">Barriers</a>, <a href="/document-terms/birth">Birth</a>, <a href="/document-terms/case-management">Case Management</a>, <a href="/document-terms/caseloads">Caseloads</a>, <a href="/document-terms/child-care">Child Care</a>, <a href="/document-terms/child-support-assistanceenforcement">Child Support Assistance/Enforcement</a>, <a href="/document-terms/child-support-orders">Child Support Orders</a>, <a href="/document-terms/community-health-services">Community Health Services</a>, <a href="/document-terms/cost-living">Cost of Living</a>, <a href="/document-terms/data-collection">Data Collection</a>, <a href="/document-terms/disabled-persons">Disabled Persons</a>, <a href="/document-terms/domestic-violence">Domestic Violence</a>, <a href="/document-terms/drug-users">Drug Users</a>, <a href="/document-terms/early-medical-intervention">Early Medical Intervention</a>, <a href="/document-terms/education">Education</a>, <a href="/document-terms/employment">Employment</a>, <a href="/document-terms/ethnic-groups">Ethnic Groups</a>, <a href="/document-terms/evaluation-studies">Evaluation Studies</a>, <a href="/document-terms/family">Family</a>, <a href="/document-terms/fathers">Fathers</a>, <a href="/document-terms/food">Food</a>, <a href="/document-terms/food-assistance">Food Assistance</a>, <a href="/document-terms/foster-home-care">Foster Home Care</a>, <a href="/document-terms/goals">Goals</a>, <a href="/document-terms/government-regulation">Government Regulation</a>, <a href="/document-terms/hawaii">Hawaii</a>, <a href="/document-terms/health">Health</a>, <a href="/document-terms/health-communication">Health Communication</a>, <a href="/document-terms/hiv-infections">HIV Infections</a>, <a href="/document-terms/homeless-families">Homeless Families</a>, <a href="/document-terms/income">Income</a>, <a href="/document-terms/inflation-economic">Inflation, Economic</a>, <a href="/document-terms/insurance">Insurance</a>, <a href="/document-terms/insurance-disability">Insurance, Disability</a>, <a href="/document-terms/insurance-health">Insurance, Health</a>, <a href="/document-terms/long-term-care">Long-Term Care</a>, <a href="/document-terms/malnutrition">Malnutrition</a>, <a href="/document-terms/marriage">Marriage</a>, <a href="/document-terms/medicaid">Medicaid</a>, <a href="/document-terms/medicare">Medicare</a>, <a href="/document-terms/models-statistical">Models, Statistical</a>, <a href="/document-terms/nuclear-family">Nuclear Family</a>, <a href="/document-terms/nutrition-policy">Nutrition Policy</a>, <a href="/document-terms/nutritional-sciences">Nutritional Sciences</a>, <a href="/document-terms/out-wedlock-birth">Out-of-wedlock Birth</a>, <a href="/document-terms/parents">Parents</a>, <a href="/document-terms/personal-care">Personal Care</a>, <a href="/document-terms/policy">Policy</a>, <a href="/document-terms/population">Population</a>, <a href="/document-terms/poverty">Poverty</a>, <a href="/document-terms/poverty-guidelines">Poverty Guidelines</a>, <a href="/document-terms/program-participation">Program Participation</a>, <a href="/document-terms/public-health">Public Health</a>, <a href="/document-terms/publication-formats">Publication Formats</a>, <a href="/document-terms/publications">Publications</a>, <a href="/document-terms/questionnaires">Questionnaires</a>, <a href="/document-terms/research">Research</a>, <a href="/document-terms/retirement">Retirement</a>, <a href="/document-terms/risk-factors">Risk Factors</a>, <a href="/document-terms/science">Science</a>, <a href="/document-terms/secondaryhigh-schools">Secondary/High Schools</a>, <a href="/document-terms/single-parent">Single Parent</a>, <a href="/document-terms/social-security">Social Security</a>, <a href="/document-terms/starvation">Starvation</a>, <a href="/document-terms/state-medicaid-waiver-programs">State Medicaid Waiver Programs</a>, <a href="/document-terms/students">Students</a>, <a href="/document-terms/supplemental-nutrition-assistance-program-snap">Supplemental Nutrition Assistance Program (SNAP)</a>, <a href="/document-terms/tanf">TANF</a>, <a href="/document-terms/training-support">Training Support</a>, <a href="/document-terms/transients-and-migrants">Transients and Migrants</a>, <a href="/document-terms/unemployment">Unemployment</a>, <a href="/document-terms/violence">Violence</a>, <a href="/document-terms/vulnerable-populations">Vulnerable Populations</a>, <a href="/document-terms/welfare">Welfare</a>, <a href="/document-terms/welfare-reform">Welfare Reform</a>, <a href="/document-terms/wic">WIC</a>, <a href="/document-terms/administrative-data">Administrative Data</a>, <a href="/document-terms/state-data">State Data</a></td>
+                                                      <td class="views-field views-field-field-release-date">03/01/2014</td>
+                                    </tr>
+                  <tr class="odd">
+                                        <td class="views-field views-field-field-report-image thumbnail "> <a href="/report/americas-children-poverty-new-look-whos-poor-under-supplemental-poverty-measure"><img src="https://aspe.hhs.gov/system/files/styles/table_thumbnail/private/images-reports/americas-children-poverty-new-look-whos-poor-under-supplemental-poverty-measure/Children%20in%20Poverty%20by%20Poverty%20Measure%2C%202010%20%28Millions%29_0.png?itok=jmzj7rmT" width="248" height="161" alt="America&#039;s Children in Poverty: A New Look at" title="Image of America&amp;#039;s Children in Poverty: A New Look at Who&amp;#039;s Poor Under the Supplemental Poverty Measure" /></a>
+
+</td>
+                                                      <td class="views-field views-field-title"><a href="/report/americas-children-poverty-new-look-whos-poor-under-supplemental-poverty-measure">America&#039;s Children in Poverty: A New Look at Who&#039;s Poor Under the Supplemental Poverty Measure</a></td>
+                                                                                <td class="views-field views-field-field-keywords"><a href="/document-terms/access">Access</a>, <a href="/document-terms/aid-families-dependent-children">Aid to Families with Dependent Children</a>, <a href="/document-terms/child-care">Child Care</a>, <a href="/document-terms/child-support-assistanceenforcement">Child Support Assistance/Enforcement</a>, <a href="/document-terms/child-support-orders">Child Support Orders</a>, <a href="/document-terms/database">Database</a>, <a href="/document-terms/disabled-persons">Disabled Persons</a>, <a href="/document-terms/employment">Employment</a>, <a href="/document-terms/family">Family</a>, <a href="/document-terms/food">Food</a>, <a href="/document-terms/health">Health</a>, <a href="/document-terms/health-status">Health Status</a>, <a href="/document-terms/income">Income</a>, <a href="/document-terms/insurance">Insurance</a>, <a href="/document-terms/insurance-health">Insurance, Health</a>, <a href="/document-terms/low-income">Low Income</a>, <a href="/document-terms/medicaid">Medicaid</a>, <a href="/document-terms/nutritional-sciences">Nutritional Sciences</a>, <a href="/document-terms/parents">Parents</a>, <a href="/document-terms/policy">Policy</a>, <a href="/document-terms/population">Population</a>, <a href="/document-terms/poverty">Poverty</a>, <a href="/document-terms/program-participation">Program Participation</a>, <a href="/document-terms/public-health">Public Health</a>, <a href="/document-terms/publication-formats">Publication Formats</a>, <a href="/document-terms/research">Research</a>, <a href="/document-terms/single-parent">Single Parent</a>, <a href="/document-terms/social-security">Social Security</a>, <a href="/document-terms/unemployment">Unemployment</a>, <a href="/document-terms/welfare">Welfare</a>, <a href="/document-terms/wic">WIC</a></td>
+                                                      <td class="views-field views-field-field-release-date">12/01/2013</td>
+                                    </tr>
+                  <tr class="even">
+                                        <td class="views-field views-field-field-report-image thumbnail ">  <a href="pdf-report/change-poverty-select-demographic-groups-2007–2012" title="Change in Poverty by Select Demographic Groups: 2007–2012">
+                <img src="https://aspe.hhs.gov/system/files/styles/table_tile/private/default_images_reports/default_report_image04.jpg?itok=i56siG5l" width="268" height="161" alt="Change in Poverty by Select Demographic Groups:" title="Image of Change in Poverty by Select Demographic Groups: 2007–2012" />  </a>
+
+
+</td>
+                                                      <td class="views-field views-field-title"><a href="/pdf-report/change-poverty-select-demographic-groups-2007%E2%80%932012">Change in Poverty by Select Demographic Groups: 2007–2012</a></td>
+                                                                                <td class="views-field views-field-field-keywords"><a href="/document-terms/poverty">Poverty</a></td>
+                                                      <td class="views-field views-field-field-release-date">09/27/2013</td>
+                                    </tr>
+                  <tr class="odd">
+                                        <td class="views-field views-field-field-report-image thumbnail "> <a href="/basic-report/information-poverty-and-income-statistics-summary-2013-current-population-survey-data"><img src="https://aspe.hhs.gov/system/files/styles/table_thumbnail/private/images-reports-basic/71451/Poverty%20Rate%20of%20all%20persons.PNG?itok=SXVN0RG6" width="248" height="161" alt="Information on Poverty and Income Statistics: A" title="Image of Information on Poverty and Income Statistics: A Summary of 2013 Current Population Survey Data" /></a>
+
+</td>
+                                                      <td class="views-field views-field-title"><a href="/basic-report/information-poverty-and-income-statistics-summary-2013-current-population-survey-data">Information on Poverty and Income Statistics: A Summary of 2013 Current Population Survey Data</a></td>
+                                                                                <td class="views-field views-field-field-keywords"><a href="/document-terms/family">Family</a>, <a href="/document-terms/income">Income</a>, <a href="/document-terms/policy">Policy</a>, <a href="/document-terms/population">Population</a>, <a href="/document-terms/poverty">Poverty</a></td>
+                                                      <td class="views-field views-field-field-release-date">09/18/2013</td>
+                                    </tr>
+                  <tr class="even">
+                                        <td class="views-field views-field-field-report-image thumbnail ">  <a href="pdf-report/geographic-variation-cost-living-implications-poverty-guidelines-and-program-eligibility" title="Geographic Variation in the Cost of Living: Implications for the Poverty Guidelines and Program Eligibility">
+                <img src="https://aspe.hhs.gov/system/files/styles/table_tile/private/default_images_reports/default_report_image09.jpg?itok=ldV6j6I0" width="268" height="161" alt="Geographic Variation in the Cost of Living:" title="Image of Geographic Variation in the Cost of Living: Implications for the Poverty Guidelines and Program Eligibility" />  </a>
+
+
+</td>
+                                                      <td class="views-field views-field-title"><a href="/pdf-report/geographic-variation-cost-living-implications-poverty-guidelines-and-program-eligibility">Geographic Variation in the Cost of Living: Implications for the Poverty Guidelines and Program Eligibility</a></td>
+                                                                                <td class="views-field views-field-field-keywords"></td>
+                                                      <td class="views-field views-field-field-release-date">06/01/2013</td>
+                                    </tr>
+                  <tr class="odd">
+                                        <td class="views-field views-field-field-report-image thumbnail "> <a href="/report/indicators-welfare-dependence-annual-report-congress-2009-2013"><img src="https://aspe.hhs.gov/system/files/styles/table_thumbnail/private/images-reports/indicators-welfare-dependence.twelfth-report-congress/Figure%20SUM%201.PNG?itok=-0h0TwLU" width="248" height="161" alt="Indicators of Welfare Dependence. Twelfth Report" title="Image of Indicators of Welfare Dependence. Twelfth Report to Congress" /></a>
+
+</td>
+                                                      <td class="views-field views-field-title"><a href="/report/indicators-welfare-dependence-annual-report-congress-2009-2013">Indicators of Welfare Dependence: Annual Report to Congress, 2009-2013</a></td>
+                                                                                <td class="views-field views-field-field-keywords"><a href="/document-terms/access">Access</a>, <a href="/document-terms/adoption">Adoption</a>, <a href="/document-terms/afdc">AFDC</a>, <a href="/document-terms/aging">Aging</a>, <a href="/document-terms/aid-families-dependent-children">Aid to Families with Dependent Children</a>, <a href="/document-terms/barriers">Barriers</a>, <a href="/document-terms/birth">Birth</a>, <a href="/document-terms/case-management">Case Management</a>, <a href="/document-terms/caseloads">Caseloads</a>, <a href="/document-terms/child-care">Child Care</a>, <a href="/document-terms/child-support-assistanceenforcement">Child Support Assistance/Enforcement</a>, <a href="/document-terms/child-support-orders">Child Support Orders</a>, <a href="/document-terms/community-health-services">Community Health Services</a>, <a href="/document-terms/data-collection">Data Collection</a>, <a href="/document-terms/disabled-persons">Disabled Persons</a>, <a href="/document-terms/domestic-violence">Domestic Violence</a>, <a href="/document-terms/drug-users">Drug Users</a>, <a href="/document-terms/early-medical-intervention">Early Medical Intervention</a>, <a href="/document-terms/education">Education</a>, <a href="/document-terms/employment">Employment</a>, <a href="/document-terms/ethnic-groups">Ethnic Groups</a>, <a href="/document-terms/evaluation-studies">Evaluation Studies</a>, <a href="/document-terms/family">Family</a>, <a href="/document-terms/father-child-relations">Father-Child Relations</a>, <a href="/document-terms/fathers">Fathers</a>, <a href="/document-terms/food">Food</a>, <a href="/document-terms/food-assistance">Food Assistance</a>, <a href="/document-terms/foster-home-care">Foster Home Care</a>, <a href="/document-terms/goals">Goals</a>, <a href="/document-terms/government-regulation">Government Regulation</a>, <a href="/document-terms/hawaii">Hawaii</a>, <a href="/document-terms/health">Health</a>, <a href="/document-terms/health-communication">Health Communication</a>, <a href="/document-terms/homeless-families">Homeless Families</a>, <a href="/document-terms/income">Income</a>, <a href="/document-terms/inflation-economic">Inflation, Economic</a>, <a href="/document-terms/insurance">Insurance</a>, <a href="/document-terms/insurance-disability">Insurance, Disability</a>, <a href="/document-terms/insurance-health">Insurance, Health</a>, <a href="/document-terms/long-term-care">Long-Term Care</a>, <a href="/document-terms/malnutrition">Malnutrition</a>, <a href="/document-terms/marriage">Marriage</a>, <a href="/document-terms/medicaid">Medicaid</a>, <a href="/document-terms/medicare">Medicare</a>, <a href="/document-terms/models-statistical">Models, Statistical</a>, <a href="/document-terms/nuclear-family">Nuclear Family</a>, <a href="/document-terms/nutrition-policy">Nutrition Policy</a>, <a href="/document-terms/nutritional-sciences">Nutritional Sciences</a>, <a href="/document-terms/out-wedlock-birth">Out-of-wedlock Birth</a>, <a href="/document-terms/parents">Parents</a>, <a href="/document-terms/personal-care">Personal Care</a>, <a href="/document-terms/personal-satisfaction">Personal Satisfaction</a>, <a href="/document-terms/policy">Policy</a>, <a href="/document-terms/population">Population</a>, <a href="/document-terms/poverty">Poverty</a>, <a href="/document-terms/poverty-guidelines">Poverty Guidelines</a>, <a href="/document-terms/program-participation">Program Participation</a>, <a href="/document-terms/publication-formats">Publication Formats</a>, <a href="/document-terms/publications">Publications</a>, <a href="/document-terms/quality-control">Quality Control</a>, <a href="/document-terms/questionnaires">Questionnaires</a>, <a href="/document-terms/research">Research</a>, <a href="/document-terms/retirement">Retirement</a>, <a href="/document-terms/risk-factors">Risk Factors</a>, <a href="/document-terms/science">Science</a>, <a href="/document-terms/secondaryhigh-schools">Secondary/High Schools</a>, <a href="/document-terms/single-parent">Single Parent</a>, <a href="/document-terms/social-security">Social Security</a>, <a href="/document-terms/starvation">Starvation</a>, <a href="/document-terms/state-government">State Government</a>, <a href="/document-terms/state-medicaid-waiver-programs">State Medicaid Waiver Programs</a>, <a href="/document-terms/students">Students</a>, <a href="/document-terms/substance-related-disorders">Substance-Related Disorders</a>, <a href="/document-terms/supplemental-nutrition-assistance-program-snap">Supplemental Nutrition Assistance Program (SNAP)</a>, <a href="/document-terms/tanf">TANF</a>, <a href="/document-terms/training-support">Training Support</a>, <a href="/document-terms/transients-and-migrants">Transients and Migrants</a>, <a href="/document-terms/unemployment">Unemployment</a>, <a href="/document-terms/violence">Violence</a>, <a href="/document-terms/welfare">Welfare</a>, <a href="/document-terms/welfare-reform">Welfare Reform</a>, <a href="/document-terms/wic">WIC</a>, <a href="/document-terms/administrative-data">Administrative Data</a>, <a href="/document-terms/state-data">State Data</a></td>
+                                                      <td class="views-field views-field-field-release-date">04/01/2013</td>
+                                    </tr>
+                  <tr class="even views-row-last">
+                                        <td class="views-field views-field-field-report-image thumbnail "> <a href="/basic-report/information-research-supplemental-poverty-measure-summary-2012-current-population-survey-data"><img src="https://aspe.hhs.gov/system/files/styles/table_thumbnail/private/default_images_reports/default_report_image10.jpg?itok=-k0ZTJQn" width="248" height="161" alt="Information on Research Supplemental Poverty" title="Image of Information on Research Supplemental Poverty Measure. A Summary of 2012 Current Population Survey Data" /></a>
+
+</td>
+                                                      <td class="views-field views-field-title"><a href="/basic-report/information-research-supplemental-poverty-measure-summary-2012-current-population-survey-data">Information on Research Supplemental Poverty Measure. A Summary of 2012 Current Population Survey Data</a></td>
+                                                                                <td class="views-field views-field-field-keywords"><a href="/document-terms/disabled-persons">Disabled Persons</a>, <a href="/document-terms/employment">Employment</a>, <a href="/document-terms/evaluation-studies">Evaluation Studies</a>, <a href="/document-terms/health-policy">Health Policy</a>, <a href="/document-terms/nutritional-sciences">Nutritional Sciences</a></td>
+                                                      <td class="views-field views-field-field-release-date">11/01/2012</td>
+                                    </tr>
+                </tbody>
+      </table>
+  </div>
+
+</div>  
+  
+  
+  
+  
+  
+</div>
+  </div>
+
+      <footer>
+          </footer>
+  
+    <div id="block-webform-client-block-158521" class="widget block block-webform" >
+  
+      
+  <div id="webform-ajax-wrapper-158521"><form class="webform-client-form webform-client-form-158521" action="/poverty-estimates-trends-and-analysis" method="post" id="webform-client-form-158521" accept-charset="UTF-8"><div><div class="webform-progressbar">
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-radios webform-component--was-this-page-helpful">
+  <label for="edit-submitted-was-this-page-helpful">Was this page helpful? <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-was-this-page-helpful" class="form-radios"><div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-1" name="submitted[was_this_page_helpful]" value="1" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-1">Yes </label>
+
+</div>
+<div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-2" name="submitted[was_this_page_helpful]" value="0" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-2">No </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="4" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-ywPE7gmaWoMODehzQQKfzoom0m_xILxMcG6z4OJrYKQ" />
+<input type="hidden" name="form_id" value="webform_client_form_158521" />
+<input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-158521" />
+<div class="form-actions"><input class="webform-next button-primary btn btn-default form-submit" type="submit" id="edit-webform-ajax-next-158521" name="op" value="Next &gt;" /></div>
+<div class="is-useful-disclaimer"> <a href="/%23" class="" title="Survey Disclaimer" data-toggle="modal" data-target="#disclamerModal">Form Approved OMB# 0990-0379 Exp. Date 8/31/2017</a></div>
+<div class="modal fade" id="disclamerModal" tabindex="-1" role="dialog" aria-labelledby="disclamerModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="disclamerModalLabel">Survey Disclaimer</h2>
+      </div>
+      <div class="modal-body">
+         According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this information collection is 0990-0379. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, gather the data needed, and complete and review the information collection. If you have comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: U.S. Department of Health & Human Services, OS/OCIO/PRA, 200 Independence Ave., S.W., Suite 336-E, Washington D.C. 20201, Attention: PRA Reports Clearance Officer.      </div>
+    </div>
+  </div>
+</div></div></form></div>
+  </div> <!-- /.block -->
+<meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/financial-condition-and-health-care-burdens-people-deep-poverty" itemref="md1 md13 md26 md28 md30 md32 md34 md36 md38 md40 md42 md44 md46 md48 md50 md52 md54 md56 md58 md60 md62 md64 md66 md68 md70 md72 md74 md76 md78 md80 md82 md84 md86 md587" /><meta  itemscope="" itemid="https://aspe.hhs.gov/report/information-supplemental-poverty-measure-summary-2013-current-population-survey-data-october-2014" itemref="md2 md14 md88 md90 md92 md94 md96 md98 md100 md102 md104 md106 md108 md110 md112 md588" /><meta  itemscope="" itemid="https://aspe.hhs.gov/report/information-poverty-and-income-statistics-summary-2014-current-population-survey-data" itemref="md3 md15 md114 md116 md118 md120 md122 md589" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/indicators-welfare-dependence-annual-report-congress" itemref="md4 md16 md124 md126 md128 md590" /><meta  itemscope="" itemid="https://aspe.hhs.gov/report/overview-community-characteristics-areas-concentrated-poverty" itemref="md5 md17 md130 md132 md134 md136 md138 md140 md142 md144 md146 md148 md150 md152 md154 md156 md158 md160 md162 md164 md166 md168 md591" /><meta  itemscope="" itemid="https://aspe.hhs.gov/report/welfare-indicators-and-risk-factors-thirteenth-report-congress" itemref="md6 md18 md170 md172 md174 md176 md178 md180 md182 md184 md186 md188 md190 md192 md194 md196 md198 md200 md202 md204 md206 md208 md210 md212 md214 md216 md218 md220 md222 md224 md226 md228 md230 md232 md234 md236 md238 md240 md242 md244 md246 md248 md250 md252 md254 md256 md258 md260 md262 md264 md266 md268 md270 md272 md274 md276 md278 md280 md282 md284 md286 md288 md290 md292 md294 md296 md298 md300 md302 md304 md306 md308 md310 md312 md314 md316 md318 md320 md322 md324 md326 md328 md330 md332 md334 md592" /><meta  itemscope="" itemid="https://aspe.hhs.gov/report/americas-children-poverty-new-look-whos-poor-under-supplemental-poverty-measure" itemref="md7 md19 md336 md338 md340 md342 md344 md346 md348 md350 md352 md354 md356 md358 md360 md362 md364 md366 md368 md370 md372 md374 md376 md378 md380 md382 md384 md386 md388 md390 md392 md394 md396 md593" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/information-poverty-and-income-statistics-summary-2013-current-population-survey-data" itemref="md8 md21 md400 md402 md404 md406 md408 md595" /><meta  itemscope="" itemid="https://aspe.hhs.gov/report/indicators-welfare-dependence-annual-report-congress-2009-2013" itemref="md9 md23 md410 md412 md414 md416 md418 md420 md422 md424 md426 md428 md430 md432 md434 md436 md438 md440 md442 md444 md446 md448 md450 md452 md454 md456 md458 md460 md462 md464 md466 md468 md470 md472 md474 md476 md478 md480 md482 md484 md486 md488 md490 md492 md494 md496 md498 md500 md502 md504 md506 md508 md510 md512 md514 md516 md518 md520 md522 md524 md526 md528 md530 md532 md534 md536 md538 md540 md542 md544 md546 md548 md550 md552 md554 md556 md558 md560 md562 md564 md566 md568 md570 md572 md574 md576 md597" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/information-research-supplemental-poverty-measure-summary-2012-current-population-survey-data" itemref="md10 md24 md578 md580 md582 md584 md586 md598" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/change-poverty-select-demographic-groups-2007%E2%80%932012" itemref="md11 md20 md398 md594" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/geographic-variation-cost-living-implications-poverty-guidelines-and-program-eligibility" itemref="md12 md22 md596" /><meta  itemscope="" itemid="https://aspe.hhs.gov/poverty-estimates-trends-and-analysis" itemref="md599" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/access" id="md26 md130 md170 md336 md410" itemref="md25 md129 md169 md335 md409" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/child-care" id="md28 md88 md188 md340 md428" itemref="md27 md87 md187 md339 md427" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/disabled-persons" id="md30 md200 md348 md438 md578" itemref="md29 md199 md347 md437 md577" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/education" id="md32 md140 md208 md446" itemref="md31 md139 md207 md445" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/employment" id="md34 md142 md210 md350 md448 md580" itemref="md33 md141 md209 md349 md447 md579" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/family" id="md36 md114 md146 md216 md352 md400 md454" itemref="md35 md113 md145 md215 md351 md399 md453" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/food" id="md38 md90 md220 md354 md460" itemref="md37 md89 md219 md353 md459" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/health" id="md40 md148 md232 md356 md472" itemref="md39 md147 md231 md355 md471" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/health-care-costs" id="md42" itemref="md41" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/income" id="md44 md94 md116 md150 md240 md360 md402 md478" itemref="md43 md93 md115 md149 md239 md359 md401 md477" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/income-inequality" id="md46 md96" itemref="md45 md95" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/insurance" id="md48 md244 md362 md482" itemref="md47 md243 md361 md481" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/insurance-health" id="md50 md248 md364 md486" itemref="md49 md247 md363 md485" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/low-income" id="md52 md366" itemref="md51 md365" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/medicaid" id="md54 md256 md368 md494" itemref="md53 md255 md367 md493" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/medicare" id="md56 md258 md496" itemref="md55 md257 md495" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/nutritional-sciences" id="md58 md100 md266 md370 md504 md586" itemref="md57 md99 md265 md369 md503 md585" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/parents" id="md60 md152 md270 md372 md508" itemref="md59 md151 md269 md371 md507" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/patients" id="md62" itemref="md61" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/policy" id="md64 md102 md274 md374 md404 md514" itemref="md63 md101 md273 md373 md403 md513" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/population" id="md66 md104 md118 md154 md276 md376 md406 md516" itemref="md65 md103 md117 md153 md275 md375 md405 md515" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/poverty" id="md68 md106 md120 md156 md278 md378 md398 md408 md518" itemref="md67 md105 md119 md155 md277 md377 md397 md407 md517" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/prescription-drugs" id="md70" itemref="md69" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/program-participation" id="md72 md282 md380 md522" itemref="md71 md281 md379 md521" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/research" id="md74 md108 md162 md292 md386 md532" itemref="md73 md107 md161 md291 md385 md531" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/retirement" id="md76 md294 md534" itemref="md75 md293 md533" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/single-parent" id="md78 md302 md388 md542" itemref="md77 md301 md387 md541" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/social-security" id="md80 md110 md126 md304 md390 md544" itemref="md79 md109 md125 md303 md389 md543" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/tanf" id="md82 md314 md558" itemref="md81 md313 md557" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/vulnerable-populations" id="md84 md324" itemref="md83 md323" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/wic" id="md86 md112 md168 md330 md396 md572" itemref="md85 md111 md167 md329 md395 md571" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/homeless-families" id="md92 md238 md476" itemref="md91 md237 md475" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/inflation-economic" id="md98 md242 md480" itemref="md97 md241 md479" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/publication-formats" id="md122 md160 md286 md384 md524" itemref="md121 md159 md285 md383 md523" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/risk-factors" id="md124 md296 md536" itemref="md123 md295 md535" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/supplemental-nutrition-assistance-program-snap" id="md128 md312 md556" itemref="md127 md311 md555" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/birth" id="md132 md182 md422" itemref="md131 md181 md421" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/crime" id="md134" itemref="md133" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/early-childhood" id="md136" itemref="md135" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/early-medical-intervention" id="md138 md206 md444" itemref="md137 md205 md443" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/evaluation-studies" id="md144 md214 md452 md582" itemref="md143 md213 md451 md581" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/poverty-areas" id="md158" itemref="md157" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/transients-and-migrants" id="md164 md318 md562" itemref="md163 md317 md561" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/unemployment" id="md166 md320 md392 md564" itemref="md165 md319 md391 md563" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/adoption" id="md172 md412" itemref="md171 md411" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/afdc" id="md174 md414" itemref="md173 md413" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/aging" id="md176 md416" itemref="md175 md415" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/aid-families-dependent-children" id="md178 md338 md418" itemref="md177 md337 md417" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/barriers" id="md180 md420" itemref="md179 md419" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/case-management" id="md184 md424" itemref="md183 md423" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/caseloads" id="md186 md426" itemref="md185 md425" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/child-support-assistanceenforcement" id="md190 md342 md430" itemref="md189 md341 md429" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/child-support-orders" id="md192 md344 md432" itemref="md191 md343 md431" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/community-health-services" id="md194 md434" itemref="md193 md433" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/cost-living" id="md196" itemref="md195" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/data-collection" id="md198 md436" itemref="md197 md435" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/domestic-violence" id="md202 md440" itemref="md201 md439" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/drug-users" id="md204 md442" itemref="md203 md441" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/ethnic-groups" id="md212 md450" itemref="md211 md449" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/fathers" id="md218 md458" itemref="md217 md457" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/food-assistance" id="md222 md462" itemref="md221 md461" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/foster-home-care" id="md224 md464" itemref="md223 md463" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/goals" id="md226 md466" itemref="md225 md465" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/government-regulation" id="md228 md468" itemref="md227 md467" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/hawaii" id="md230 md470" itemref="md229 md469" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/health-communication" id="md234 md474" itemref="md233 md473" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/hiv-infections" id="md236" itemref="md235" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/insurance-disability" id="md246 md484" itemref="md245 md483" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/long-term-care" id="md250 md488" itemref="md249 md487" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/malnutrition" id="md252 md490" itemref="md251 md489" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/marriage" id="md254 md492" itemref="md253 md491" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/models-statistical" id="md260 md498" itemref="md259 md497" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/nuclear-family" id="md262 md500" itemref="md261 md499" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/nutrition-policy" id="md264 md502" itemref="md263 md501" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/out-wedlock-birth" id="md268 md506" itemref="md267 md505" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/personal-care" id="md272 md510" itemref="md271 md509" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/poverty-guidelines" id="md280 md520" itemref="md279 md519" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/public-health" id="md284 md382" itemref="md283 md381" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/publications" id="md288 md526" itemref="md287 md525" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/questionnaires" id="md290 md530" itemref="md289 md529" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/science" id="md298 md538" itemref="md297 md537" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/secondaryhigh-schools" id="md300 md540" itemref="md299 md539" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/starvation" id="md306 md546" itemref="md305 md545" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/state-medicaid-waiver-programs" id="md308 md550" itemref="md307 md549" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/students" id="md310 md552" itemref="md309 md551" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/training-support" id="md316 md560" itemref="md315 md559" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/violence" id="md322 md566" itemref="md321 md565" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/welfare" id="md326 md394 md568" itemref="md325 md393 md567" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/welfare-reform" id="md328 md570" itemref="md327 md569" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/administrative-data" id="md332 md574" itemref="md331 md573" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/state-data" id="md334 md576" itemref="md333 md575" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/database" id="md346" itemref="md345" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/health-status" id="md358" itemref="md357" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/father-child-relations" id="md456" itemref="md455" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/personal-satisfaction" id="md512" itemref="md511" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/quality-control" id="md528" itemref="md527" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/state-government" id="md548" itemref="md547" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/substance-related-disorders" id="md554" itemref="md553" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/health-policy" id="md584" itemref="md583" />              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <footer  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Footer">     
+
+        
+                  
+        
+                  
+        
+                                    <div  id="footer_sitemap-footer_sitemap" class="col-sm-6 col-md-6 col-lg-4 ">
+                          
+                              <div id="block-footer-sitemap-footer-sitemap" class="widget block block-footer-sitemap" >
+  
+      
+  <div id="footer-sitemap" class="clearfix">
+  <div class="fs-block-content"><div class="menu-footer-utility"><ul class="footer_links_menu-footer-utility total-items-2 parent-items-0 single-items-0"><li class="menu-5021 depth-1 total-children-8 parent-children-0 single-children-8  first"><a href="/" title="look at ASPE Home" class="fs-root-link">ASPE Home</a><ul class="footer_links_menu-footer-utility total-items-8 parent-items-0 single-items-0"><li class="menu-5026 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/" title="look at HHS Home">HHS Home</a></li>
+<li class="menu-66281 depth-1 fs-no-children"><a href="http://www.usa.gov/" title="look at USA.gov">USA.gov</a></li>
+<li class="menu-66316 depth-1 fs-no-children"><a href="https://oig.hhs.gov/" title="look at Office of the Inspector General">Office of the Inspector General</a></li>
+<li class="menu-66321 depth-1 fs-no-children"><a href="http://www.whitehouse.gov" title="look at The White House">The White House</a></li>
+<li class="menu-5046 depth-1 fs-no-children"><a href="http://www.hhs.gov/Accessibility.html" title="look at Accessibility">Accessibility</a></li>
+<li class="menu-66326 depth-1 fs-no-children"><a href="http://www.hhs.gov/about/budget/index.html" title="look at Budget/Performance">Budget/Performance</a></li>
+<li class="menu-2551 depth-1 fs-no-children"><a href="http://www.hhs.gov/Privacy.html" title="look at Privacy Policy">Privacy Policy</a></li>
+<li class="menu-197776 depth-1 fs-no-children  last"><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" title="Nondiscrimination Notice">Nondiscrimination Notice</a></li>
+</ul></li>
+<li class="menu-5051 depth-1 total-children-4 parent-children-0 single-children-4  last"><a href="http://www.hhs.gov/foia/" title="look at FOIA" class="fs-root-link">FOIA</a><ul class="footer_links_menu-footer-utility total-items-4 parent-items-0 single-items-0"><li class="menu-5056 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/open/recordsandreports/plainwritingact/index.html" title="look at Plain Writing Act">Plain Writing Act</a></li>
+<li class="menu-5061 depth-1 fs-no-children"><a href="http://www.hhs.gov/asa/eeo/no_fear_bullet_3.html" title="look at No Fear Act">No Fear Act</a></li>
+<li class="menu-5066 depth-1 fs-no-children"><a href="http://www.hhs.gov/Disclaimer.html" title="look at Disclaimers">Disclaimers</a></li>
+<li class="menu-2546 depth-1 fs-no-children  last"><a href="http://www.hhs.gov/plugins.html" title="look at Viewers &amp; Players">Viewers &amp; Players</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-5 " id="stability_cms-contact_us">
+                          
+                              <div id="block-stability-cms-contact-us" class="widget block block-stability-cms" >
+  
+      
+  <div class="contacts-widget widget widget__footer">
+	<div class="widget-content">
+		<ul class="contacts-info-list">
+      			<li>
+<!--				<i class="fa fa-map-marker">Address</i>-->
+                <div class="info-icons">
+                    <img  alt="map" class= 'map-icons' src="/sites/all/themes/stability/stability_aspe/images/map.png"/>
+                </div>
+                <div class="info-item">
+					Assistant Secretary for Planning and Evaluation, Room 415F<br />
+U.S. Department of Health and Human Services<br />
+200 Independence Avenue, SW<br />
+Washington, D.C. 20201				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-phone">phone</i>-->
+                <div class="info-icons">
+                    <img alt="phone" src="/sites/all/themes/stability/stability_aspe/images/phone.png"/>
+                </div>
+				<div class="info-item">
+					+1 202.690.7858				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-envelope">email</i>-->
+                <div class="info-icons">
+                    <img alt="mail" src="/sites/all/themes/stability/stability_aspe/images/mail-white.png"/>
+                </div>
+				<span class="info-item">
+					<a href="mailto:osaspeinfo@hhs.gov">osaspeinfo@hhs.gov</a>
+				</span>
+			</li>
+      			                					</ul>
+	</div>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-3 " id="footer">
+                          
+                              <div id="block-block-36" class="widget block block-block" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sign-up</span> for Email Updates</h3>
+		</div>
+    
+  <div class="email_updates">
+<button class="btn btn-default" name="subscribe-button" type="submit" value="subscribe">subscribe</button>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-12 " id="menu-menu-footer-language-menu">
+                          
+                              <div id="block-menu-menu-footer-language-menu" class="widget block block-menu" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Language</span> Assistance Available</h3>
+		</div>
+    
+  <ul class="menu"><li class="first expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#spanish" title="Español">Español</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#chinese" title="繁體中文">繁體中文</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#vietnamese" title="Tiếng Việt">Tiếng Việt</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#korean" title="한국어">한국어</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#tagalog" title="Tagalog">Tagalog</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#russian" title="Русский">Русский</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#arabic" title="العربية">العربية</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#creole" title="Kreyòl Ayisyen">Kreyòl Ayisyen</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#french" title="Français">Français</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#polish" title="Polski">Polski</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#portuguese" title="Português">Português</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#italian" title="Italiano">Italiano</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#german" title="Deutsch">Deutsch</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#japanese" title="日本語">日本語</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#farsi" title="فارسی">فارسی</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#english" title="English">English</a></li>
+</ul></li>
+</ul>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+      </div>
+
+          </div>
+    
+    
+      </footer>
+    
+
+    <!--/PAGEWATCH-->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+                        </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="social-links-wrapper">
+              <span class="social-links-txt">Connect with us</span>
+              <ul class="social-links social-links__dark">
+                                                  <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw-grey.png"/></a></li>
+                                <!--                --><!--                  <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin-grey.png"/></a></li>-->
+<!--                -->
+                                                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>  <script type="text/javascript" src="/sites/default/files/advagg_js/js__VWRymaMz6HfrhnrcJNGcDiSvLVrvhaXvBa7nrBYy8gc__jntPwP3D6myJZH1jW19fXrk5cYMHGRL8NQION22VSEA__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5486d15a696bff0c"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__g6mKbcakHxQkz4ZHYaxdO_xqONINvRMgsHh1zAK-fr0__ATHtEmHaeZ0jidpGU22EkhmPDBSgjD8z0bVDQMI-BIY__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__KUp4PrfOt9BSXUVl8Ctb3dhCMBe4MNVMeb4Gyorx8yY__7g4BeXscCIZAfuu1vxsCj2RIemg-eEK0QpChP9LDmFQ__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__PNjAgubM_3xXRLp4uLsYnv8wQAdT89-RYkSPxT6T45c__rFQwFK4pA5ZaWZSF7FPTfKbbpus0h-5IS8ayrNZGrb4__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__vQiLul2UcfC4nBAR09mhYVBYzRmiNDm2dj3GgSubV38__w84oZe-ZODKe7XnnlbrjV4IWHISOy4PioFEMVgx9hZo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__QJw3g0kOdwsv4twSZLP931zBzsHy50VEHpEN_znIitQ__A6QOuWXElDipBM2iChbWhjAAt3KlUwZ-jODoxdpbwiw__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stability_aspe","theme_token":"luUmd7gInJlaLFx1-djj-EDgNMJKP2wlALj3YfRKGBg","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/footable.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/aspe_nodes.admin.css":1,"sites\/all\/modules\/custom\/aspe_views\/theme\/css\/aspe_views.admin.css":1,"sites\/all\/modules\/forked\/book\/book.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/openpublic\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.css":1,"profiles\/openpublic\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openpublic\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/openpublic\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/themes\/stability\/css\/bootstrap.min.css":1,"sites\/all\/themes\/stability\/css\/fonts\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.theme.css":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/stability\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/stability\/css\/theme.css":1,"sites\/all\/themes\/stability\/css\/theme-elements.css":1,"sites\/all\/themes\/stability\/css\/animate.min.css":1,"sites\/all\/themes\/stability\/css\/skins\/red.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/slideshow.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/font-main.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/styleless.less":1,"sites\/all\/themes\/stability\/css\/skins\/blue.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/aspe\/theme\/js\/aspe.login-confirm.js":1,"sites\/all\/modules\/custom\/aspe_report\/modules\/aspe_databooks\/js\/aspe_databooks.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.highcharts.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/datatables\/dataTables.min.js":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.min.js":1,"sites\/all\/libraries\/highcharts\/highcharts.js":1,"sites\/all\/libraries\/highcharts\/highcharts.exporting.js":1,"sites\/all\/libraries\/highcharts\/highcharts.map.js":1,"sites\/all\/libraries\/highcharts\/highcharts.us-all.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.footable.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5486d15a696bff0c":1,"misc\/progress.js":1,"profiles\/openpublic\/modules\/contrib\/webform\/js\/webform.js":1,"profiles\/openpublic\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/stability\/vendor\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/stability\/vendor\/bootstrap.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flexnav.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flickrfeed.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.sloppy-masonry.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.fitvids.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.stellar.min.js":1,"sites\/all\/themes\/stability\/vendor\/snap.svg-min.js":1,"sites\/all\/themes\/stability\/js\/custom.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/aspe.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/html5shiv.min.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/main-menu.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/keyboard-control.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tabBehavior.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tileStringTrimmer.js":1}},"webform":{"conditionals":{"webform-client-form-158521":{"ruleGroups":[],"sourceMap":[],"values":[]}}},"ajax":{"edit-webform-ajax-next-158521":{"callback":"webform_ajax_callback","wrapper":"webform-ajax-wrapper-158521","progress":{"message":"","type":"throbber"},"event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Next \u003E"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/poverty-estimates-trends-and-analysis":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"([a-z0-9]\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This website contains links to other federal and state agencies and private organizations. The Department of Health and Human Services (HHS) cannot attest to the accuracy of information provided by these nonfederal website links. Linking to nonfederal sites does not constitute an endorsement by HHS or any of its employees of the sponsors or the information and products presented on the sites. You will be subject to the destination site\u0027s privacy policy when you leave the ASPE website.\r\n\r\nThank you for visiting aspe.hhs.gov!","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"stability":{"flickr_id":"52617155@N08","logo_sticky":"28"},"field_group":{"div":"full"}});
+//--><!]]>
+</script>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config={pubid:"ra-5486d15a696bff0c",ui_click:false}
+//--><!]]>
+</script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4837db659","applicationID":"10708002","transactionName":"MwNaZBRSXEtXB0BdWQpJeVMSWl1WGQpbUFM7FllXA2xEUVMT","queueTime":0,"applicationTime":773,"atts":"H0RZElxIT0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">  <!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://aspe.hhs.gov/sites/default/files/Favicon2.png" type="image/png" />
+<meta name="description" content="Background The Affordable Care Act was signed into law in March of 2010.  Millions of Americans have already benefitted from many of the law’s provisions including coverage for preventive health services, ban on lifetime limits, and insurance coverage for young adults.  The expansion of Medicaid coverage and launch of Affordable Insurance Exchanges will help millions more in 2014.  ASPE created this series of research and issue briefs to analyze the impact of the Affordable Care Act." />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://aspe.hhs.gov/affordable-care-act-research" />
+<link rel="shortlink" href="https://aspe.hhs.gov/node/83116" />
+<meta property="og:site_name" content="ASPE" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aspe.hhs.gov/affordable-care-act-research" />
+<meta property="og:title" content="Affordable Care Act Research" />
+<meta property="og:description" content="Background The Affordable Care Act was signed into law in March of 2010.  Millions of Americans have already benefitted from many of the law’s provisions including coverage for preventive health services, ban on lifetime limits, and insurance coverage for young adults.  The expansion of Medicaid coverage and launch of Affordable Insurance Exchanges will help millions more in 2014.  ASPE created this series of research and issue briefs to analyze the impact of the Affordable Care Act." />
+<meta property="og:updated_time" content="2017-04-17T11:22:50-04:00" />
+<meta property="article:published_time" content="2015-11-23T03:50:14-05:00" />
+<meta property="article:modified_time" content="2017-04-17T11:22:50-04:00" />
+
+  <title>Affordable Care Act Research | ASPE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+  <link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__5ln8neBOcJfyUveiD4y9fhI6kHBLOQ_YL0mMC-LS9a0__TPJIZT9UBnf_685NlFTJ5KnZVsjwFk6ACQ-nwwygmwU__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ng49uRH5y4Hl9VF9hHW_vXOj-mcOc2u2ShJqJ1YKIGU__FoMCD14GBvZaRiqSQ_JpP1w3rDB21n7H2Ar4pRZaIh8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__Hskudx14OJ5Hz8vqU7CUgN6SDV5rINZuEq9VuGsSeyc__EwNIl3xeFrniW2TmonovTzhSs3X5MdFps210puE7jog__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__9rZoaX9BdzjjNucvYxduxeNAVO2zgW_Rvjhb5rq5whc__lSr_y16grDSgHf4booPChnF7QXz3TQY3hafH49twE0k__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZgfI_ZPib5yVY0o5aKo_6TFn946Tuu_nFDa0ySTmkSc__2FTFrNw2eNh0mpHIOA34r6YRwBZMm2PjJ_JubnwLigg__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__dxabpJ5rQgDSixKgLJZjWc1beC6mpROKwVrmWxI5eno__rqhz_hGsE_i59O7-W991o71_Jxw1QOtGMxn4nsOLHY8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZbRCq2NqWgK-HXAQI3So0N1n0nr4HonsJS3eQuuxukw__7Olkk8Locn8Dj0eR0Ww3rbV9lks9sxipcboMXB18RRs__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+
+	<!-- Head Libs -->
+	<script src="/sites/all/themes/stability/stability_aspe/vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/sites/all/themes/stability/vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" href="/sites/all/themes/stability/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/stability/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/stability/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/stability/images/apple-touch-icon-144x144.png">
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-83116 node-type-site-page">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-JLFR"
+                  height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JLFR');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-nav" class="accessibility_menu">
+    <strong>Shortcut Navigation:</strong>
+    <ul>
+      <li><a href="#content" accesskey="c" title="Skip to page content (ctrl/alt + c)">Page Content</a></li>
+      <li><a href="#nav" accesskey="m" title="Skip to main navigation menu (ctrl/alt + m)">Site Navigation</a></li>
+
+      <li><a href="#Footer" accesskey="f" title="Skip to footer (ctrl/alt + f)">Footer</a></li>
+    </ul>
+  </div>
+
+    
+<div class="site-wrapper">
+  
+  <header class="header header-menu-fullw header-top-clean">
+    <div id="brand-bar">
+        <div class="container">
+                    <img alt='bird' src="/sites/all/themes/stability/stability_aspe/images/bird.png"> <a target="blank" tabindex="4" href="http://www.hhs.gov/">U.S. Department of Health & Human Services</a>
+        </div>
+
+    </div>
+    <div class="header-main">
+        <div class="container clearfix">
+            <div class="social-links-wrapper">
+                <ul class="social-links social-links__light">
+                                                          <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw.png"/></a></li>
+                                    <!--                  --><!--                    <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin.png"/></a></li>-->
+<!--                  -->
+                                                                      </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                                <div class="site_name_wrapper">
+                                     <span class="h1">
+                                      <a href="/">ASPE</a>
+                                       </span>
+                                  <p class="tagline"><p>Office of The Assistant Secretary</p><p> for Planning and Evaluation</p></p>
+                    </div>
+            </div>
+            <!-- Logo / End -->
+            <div class="header_right_wrapper">
+                <div class="search-form">
+                    <form action="/affordable-care-act-research" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class = "input-group"><div class="form-type-textfield form-item-search-block-form form-item form-group">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search Site..." class="form-control form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input class="btn btn-primary btn-icon form-submit" type="image" id="edit-submit" name="submit" value="Search" src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/search-white2.png" alt="Search" title="Search" /></div></div><input type="hidden" name="form_build_id" value="form-CC8u10acNg7py6hGlwWWnuvk6spmcm7cJ0dR8Y9aRns" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </div>
+                <button type="button" class="navbar-toggle" value="Menu">
+                    <i class="fa fa-bars"></i>Menu
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-main">
+        <div class="container">
+          <ul data-breakpoint="767" class="flexnav">
+                <li class="first expanded"><a href="/basic-search/about" title="">About</a><ul><li class="first leaf"><a href="/mission" title="">Mission</a></li>
+<li class="leaf"><a href="/key-staff" title="">Leadership</a></li>
+<li class="leaf"><a href="https://www.usajobs.gov/" title="">Careers</a></li>
+<li class="expanded"><a href="/coordination" title="linkTo">Coordination</a><ul><li class="first leaf"><a href="/evaluation-evidence" title="">Evaluation &amp; Evidence</a></li>
+<li class="leaf"><a href="/national-alzheimers-project-act">National Alzheimer&#039;s Project Act</a></li>
+<li class="leaf"><a href="/health-and-human-services-hhs-data-council">HHS Data Council</a></li>
+<li class="last leaf"><a href="/national-committee-vital-and-health-statistics" title="National Council on Vital and Health Statistics">National Council on Vital and Health Statistics</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/divisions" title="">Offices</a><ul><li class="first leaf"><a href="/office-disability-aging-and-long-term-care-policy-daltcp">Disability, Aging, and Long-Term Care Policy</a></li>
+<li class="leaf"><a href="/office-health-policy-hp">Health Policy</a></li>
+<li class="leaf"><a href="/office-human-services-policy">Human Services Policy</a></li>
+<li class="last leaf"><a href="/office-science-and-data-policy">Science and Data Policy</a></li>
+</ul></li>
+<li class="leaf"><a href="/strategic-planning" title="Strategic Planning">Strategic Planning</a></li>
+<li class="last leaf"><a href="/contact-aspe" title="">Contact ASPE</a></li>
+</ul></li>
+<li class="expanded active-trail"><a href="/basic-search/topics" title="" class="active-trail">Topics</a><ul><li class="first leaf active-trail active"><a href="/affordable-care-act-research" class="active-trail active">Affordable Care Act Research</a></li>
+<li class="leaf"><a href="/alzheimers-dementia">Alzheimer&#039;s / Dementia</a></li>
+<li class="leaf"><a href="/early-childhood">Early Childhood</a></li>
+<li class="leaf"><a href="/incarceration-reentry">Incarceration &amp; Reentry</a></li>
+<li class="leaf"><a href="/opioid-abuse-us-and-hhs-actions-address-opioid-drug-related-overdoses-and-deaths" title="Opioids">Opioids</a></li>
+<li class="leaf"><a href="/patient-centered-outcomes-research-trust-fund">Patient-Centered Outcomes Research Trust Fund (PCORTF)</a></li>
+<li class="expanded"><a href="/basic-search/poverty" title="">Poverty</a><ul><li class="first leaf"><a href="/poverty-guidelines">Poverty Guidelines</a></li>
+<li class="last leaf"><a href="/poverty-estimates-trends-and-analysis">Poverty Analysis</a></li>
+</ul></li>
+<li class="leaf"><a href="/teen-pregnancy-prevention">Teen Pregnancy Prevention</a></li>
+<li class="leaf"><a href="/homelessness">Homelessness</a></li>
+<li class="last leaf"><a href="/medicare-access-and-chip-reauthorization-act-2015">MACRA</a></li>
+</ul></li>
+<li class="leaf"><a href="/reports" title="">Publications</a></li>
+<li class="last expanded"><a href="/basic-search/datasets" title="">Data and Tools</a><ul><li class="first last leaf"><a href="/evaluations" title="">Evaluation Database</a></li>
+</ul></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation / End -->
+</header>  <div class="main" role="main">
+    <!--PAGEWATCH CODE="USHHS_458"-->
+    <section class="page-heading">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+                <h1>
+                    
+          Affordable Care Act Research        </h1>
+                          </div>
+
+
+        <div class="col-md-6">
+           <ul class="breadcrumb"><li class="first"><a href="/" title="Home">Home</a></li>
+<li><a href="/basic-search/topics"  title="Topics">Topics</a></li>
+<li class="last">Affordable Care Act Research</li>
+</ul>        </div>
+
+
+    </div>
+  </div>
+</section>
+    
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Content">     
+
+        
+                  
+        
+                                    <div  class="col-md-12 " id="content">
+                          
+                              <div id="block-aspe-aspe-addthis" class="widget block block-aspe" >
+  
+      
+  <div class="clearfix">
+  <ul class="addthis_sharing_toolbox node-share__links" data-url="https://aspe.hhs.gov/affordable-care-act-research" data-title="Affordable Care Act Research">
+    <li><a class="addthis_button_print"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/print-white.png" alt="print" /></a></li>
+    <li><a class="addthis_button_email"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/mail-white.png" alt="email" /></a></li>
+    <li><a class="addthis_button_twitter"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/tw.png" alt="twitter" /></a></li>
+<!--    <li><a class="addthis_button_facebook">--><!--</a></li>-->
+    <li><a class="addthis_button_compact"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/plus-white.png" alt="compact" /></a></li>
+  </ul>
+</div>
+
+  </div> <!-- /.block -->
+
+                
+    
+  
+  <div class="content clearfix node-site-page">
+    <p><strong>Background</strong></p>
+<p>The Affordable Care Act was signed into law in March of 2010.  Millions of Americans have already benefitted from many of the law’s provisions including coverage for preventive health services, ban on lifetime limits, and insurance coverage for young adults.  The expansion of Medicaid coverage and launch of Affordable Insurance Exchanges will help millions more in 2014.  ASPE created this series of research and issue briefs to analyze the impact of the Affordable Care Act.</p>
+<p style="text-align:center"><strong>Publications</strong></p>
+<p><strong>2017</strong></p>
+<ul><li>
+<p><strong><a href="https://aspe.hhs.gov/pdf-report/did-consumers-respond-changes-gross-premiums-or-changes-premiums-net-tax-credits-when-making-health-plan-choices-2016-aca-marketplaces">Did Consumers Respond to Changes in Gross Premiums or to Changes in Premiums Net of Tax Credits When Making Health Plan Choices in the 2016 ACA Marketplaces</a></strong><br />
+			This research brief explains analyses conducted to explore whether consumers responded to changes in net or gross premiums when making health plan choices in the 2016 ACA Marketplaces.</p>
+</li>
+<li>
+<p><strong><a href="https://aspe.hhs.gov/pdf-report/medicaid-expansion-impacts-insurance-coverage-and-access-care">Medicaid Expansion Impacts on Insurance Coverage and Access to Care</a></strong><br />
+			This issue brief, which provides a literature review of the effects of Medicaid expansion, was first released in June 2016 and has been updated to include additional information and data from 2016. Specifically, the brief focuses on the effects of expansion on health coverage and access, affordability, financial security, and quality of care.</p>
+</li>
+<li>
+<p><strong><a href="https://aspe.hhs.gov/pdf-report/effects-affordable-care-act-safety-net-hospitals">Effects of the Affordable Care Act on Safety Net Hospitals</a></strong><br />
+			This study examines the early effects of the ACA on 10 safety net hospitals, both in states that expanded income eligibility for Medicaid under the ACA and those that did not. This primarily qualitative research study, was conducted between September 2013 and March 2016.</p>
+</li>
+<li>
+<p><strong><a href="https://aspe.hhs.gov/pdf-report/national-health-service-corps-extended-analysis">National Health Service Corps: An Extended Analysis</a></strong><br />
+			This study continues the analysis of the National Health Service Corps (NHSC) begun in “Provider Retention in High Need Areas.  Its objectives are  to examine  recent retention trends of NHSC program alumni in HPSAs (more frequent moves from “same HPSA” to any HPSA” than previous study);  analyze the retention patterns of those NHSC participants who serve in Indian Health Service  sites and compare them with that of all NHSC participants (retention in “same HPSA” and “any HPSA” similar to overall NHSC, and third examine the recruiting and retention effects of the program  Estimates of recruiting and retention effects indicate substantial increases in the number of FTE-years generated by NHSC in HPSAs. </p>
+</li>
+<li>
+<p><strong><a href="/pdf-report/evidence-indicates-range-challenges-puerto-rico-health-care-system">Evidence Indicates a Range of Challenges for Puerto Rico  Health Care System</a></strong><br />
+			The 3.5 million Americans living in the Commonwealth of Puerto Rico do not have access to a health care system considered standard in the rest of the nation. News reports in recent years describe hospitals laying off employees and closing wings, medical centers suspending or limiting health care services such as operating room hours, and air ambulance suppliers suspending services.  Concerns about the public health infrastructure in Puerto Rico were heightened this year after outbreaks of Zika virus in the area. To better understand the state of health care in Puerto Rico, the Office of the Assistant Secretary for Planning and Evaluation (ASPE) supported an environmental scan  and site visit,  conducted an analysis of available data, and synthesized information and observations across U.S. Department of Health and Human Services (HHS) operating and staff divisions that work most closely with the Commonwealth. Despite limited data availability, we found trends that raise concerns about the Puerto Rico health care system infrastructure and workforce, prevalence of certain chronic diseases, and metrics of access to services and quality of care. The system shows some indications of stability, but evidence regarding a declining physician workforce, overcrowded hospitals with emergency department patients waiting nearly 13 hours from arrival to admission, and higher rates of self-reported fair or poor health suggest a need for attention.</p>
+</li>
+<li>
+<p><strong><a href="/pdf-report/nearly-900000-puerto-ricans-may-lose-health-coverage-when-medicaid-funds-run-out">Nearly 900,000 Puerto Ricans May Lose Health Coverage When Medicaid Funds Run Out</a></strong><br />
+			Puerto Rico’s Medicaid program is projected to exhaust the last of the $6.4 billion additional funds allocated it for Federal Fiscal Years (FY) 2011-2019 as early as the first quarter of FY 2018. As many as 900,000 American citizens covered by Medicaid in Puerto Rico could lose coverage as a result of the depletion of these funds.</p>
+</li>
+</ul><ul><li>
+<p><strong><a href="https://aspe.hhs.gov/pdf-report/continuing-progress-opioid-epidemic-role-affordable-care-act">Continuing Progress on the Opioid Epidemic: The Role of the Affordable Care Act</a> </strong><br />
+			The United States is experiencing an unprecedented epidemic of opioid use disorder and overdose.  Our nation’s best shot at reversing the opioid epidemic and providing needed care for opioid use disorders, others substance use disorders, and mental illness depends on the continued success of the Affordable Care Act (ACA).</p>
+</li>
+<li>
+<p><strong><a href="https://aspe.hhs.gov/pdf-report/health-insurance-coverage-americans-pre-existing-conditions-impact-affordable-care-act">Health Insurance Coverage for Americans with Pre Existing Conditions The Impact of the Affordable Care Act</a></strong><br />
+			This analysis updates a 2011 analysis of the impact of the ACA’s pre-existing conditions protections.  It finds that a large fraction of non-elderly Americans have pre-existing health conditions, tens of millions of Americans with pre-existing conditions experience spells of uninsurance, but the share of Americans with pre-existing conditions who went without health insurance all year fell by 22 percent (3.6 million people) between 2010 and 2014.</p>
+</li>
+</ul><p><strong>2016</strong></p>
+<ul><li>
+<p><a href="/health-insurance-marketplace-cost-sharing-reduction-subsidies-zip-code-and-county-2016"><strong>Health Insurance Marketplace Cost Sharing Reduction Subsidies by Zip Code and County 2016</strong></a><br />
+			The dataset provides the total number of Qualified Health Plan selections for individuals receiving cost-sharing reductions, by state, ZIP Code and county for the 38 states that use the HealthCare.gov platform.</p>
+</li>
+<li>
+<p><a href="https://aspe.hhs.gov/compilation-state-data-affordable-care-act"><strong>Compilation of State Data on the Affordable Care Act</strong></a><br />
+			This excel table contains the most up to date state-level data available related to certain provisions of the Affordable Care Act. This table includes data on the uninsured, private market reforms, employer coverage, Medicaid, the individual market (including the Health Insurance Marketplace), and Medicare. These data are drawn from previously published sources and new analyses.</p>
+</li>
+<li>
+<p><a href="/health-plan-choice-and-premiums-2017-health-insurance-marketplace"><strong>Health Plan Choice and Premiums in the 2017 Health Insurance Marketplace</strong></a><br />
+			This issue brief presents analysis of Qualified Health Plan (QHP) data in the individual market Marketplace for states that use the HealthCare.gov Marketplace platform and State-Based Marketplaces where data is available.  It examines plan affordability in 2017 after taking into account premium tax credits and also examines the plan choices that new and returning consumers will have for 2017.  This brief shows that the Affordable Care Act is continuing to promote affordability and choice in the Marketplace for plan year 2017.  </p>
+</li>
+<li>
+<p><a href="/pdf-report/marketplace-enrollment-projections-2017"><strong>Health Insurance Marketplace Enrollment Projections for 2017</strong></a><br />
+			This brief looks ahead to estimate how many individuals nationwide might select a Marketplace plan during the upcoming Open Enrollment period and how many – on average throughout 2017 – might have Marketplace coverage. By the end of open enrollment for 2017, we expect 13.8 million people to have selected a plan and we estimate that 11.4 million individuals will effectuate their enrollment on an average monthly basis over the course of 2017.  </p>
+</li>
+<li>
+<p><a href="/pdf-report/rural-hospital-participation-and-performance-value-based-purchasing-and-other-delivery-system-reform-initiatives"><strong>Rural Hospital Participation and Performance in Value-Based Purchasing and Other Delivery System Reform Initiatives</strong></a><br />
+			There are distinct challenges and opportunities for delivery system reform initiatives in rural hospitals. This report examines what is currently known about rural health and health care, in particular the hospital sector; examines the participation and performance of rural hospitals in delivery system reform efforts; and provides a discussion of potential enabling factors for and barriers to rural hospitals’ successful participation and performance in delivery system reform.  </p>
+</li>
+<li>
+<p><a href="/pdf-report/people-who-currently-buy-individual-market-coverage-could-be-eligible-aca-subsidies"><strong>People Who Currently Buy Individual Market Coverage Could Be Eligible for ACA Subsidies</strong></a><br />
+			This Data Point provides ASPE’s national and state-by-state estimates of the share of consumers with off-Marketplace coverage who may qualify for Marketplace subsidies. We estimate that about 2.5 million people enrolled in off-Marketplace individual market coverage have incomes that may qualify them for tax credits. In six states (California, Texas, Florida, North Carolina, Illinois, and Pennsylvania) more than 100,000 individuals enrolled in off-Marketplace individual market coverage have incomes that may qualify them for Marketplace subsidies.  </p>
+</li>
+<li>
+<p><a href="/affordable-care-act-has-led-historic-widespread-increase-health-insurance-coverage"><strong>Affordable Care Act Has Led to Historic, Widespread Increase in Health Insurance Coverage</strong></a><br />
+			Historic gains in health insurance coverage have been achieved since the implementation of the Affordable Care Act (ACA). In this brief, we use new and previously published estimates from the National Health Interview Survey to examine gains in health insurance coverage for non-elderly adults from 2010 to 2015. We provide estimates of the uninsured rate over time by income, race, state Medicaid expansion status, age, and urban and rural residence. </p>
+</li>
+<li>
+<p><a href="/pdf-report/effect-medicaid-expansion-marketplace-premiums"><strong>The Effect of Medicaid Expansion on Marketplace Premiums</strong></a><br />
+			This issue brief examines and measures the effect Medicaid expansion has on premiums for Marketplace enrollees. Controlling for differences across states in demographic characteristics, pre-ACA uninsured rates, health care costs, and state policy decisions other than Medicaid expansion (e.g., allowing transitional policies, rating area design), and limiting the analysis to neighboring counties, which might be expected to have similar populations, we estimate that Marketplace premiums are about 7 percent lower in expansion states.</p>
+</li>
+<li>
+<p><strong><a href="/pdf-report/effect-shopping-and-premium-tax-credits-affordability-marketplace-coverage">The Effect of Shopping and Premium Tax Credits on the Affordability of Marketplace Coverage</a></strong><br />
+			In this brief, we examine how the combination of tax credits and the opportunity to shop around for coverage through the Marketplace would protect consumers in a hypothetical scenario with much higher premium increases in the Marketplace than occurred last year. Our analyses (and impacts of hypothetical rate increases) are restricted to consumers who purchase insurance through the Marketplaces, with a particular focus on the majority of these consumers who receive APTC. Focusing on a hypothetical scenario of a 25 percent increase in premiums for all Marketplace qualified health plans (QHPs) in HealthCare.gov states from 2016 to 2017, we show that the overwhelming majority of Marketplace consumers would be able to purchase coverage for less than $75 per month, just as they could in 2016.</p>
+</li>
+<li>
+<p><a href="https://aspe.hhs.gov/pdf-report/impacts-affordable-care-acts-medicaid-expansion-insurance-coverage-and-access-care"><strong>Impacts Of The Affordable Care Act's Medicaid Expansion On Insurance Coverage And Access To Care</strong></a><br />
+			This issue brief provides a literature review of the effects of Medicaid expansion, with a focus on the impacts of the ACA’s Medicaid expansion in 2014 and 2015. Specifically, the brief focuses on the effects of expansion on health coverage and access, affordability and quality of care.</p>
+</li>
+<li>
+<p><strong><a href="https://aspe.hhs.gov/pdf-report/affordable-care-act-promoting-better-health-women">The Affordable Care Act: Promoting Better Health for Women​</a></strong><br />
+			The Affordable Care Act promotes better health for women through the law’s core tenets of access, affordability, and quality. The law’s provisions have expanded coverage through the Marketplace and Medicaid expansions; made coverage more affordable through premium tax credits and by eliminating gender differences in premiums in the individual and small-group insurance markets; and improved quality of coverage by eliminating lifetime and annual dollar limits on Essential Health Benefits and requiring coverage of recommended preventive services and maternity care.  </p>
+</li>
+<li>
+<p><a href="https://aspe.hhs.gov/pdf-report/impact-affordable-care-act-coverage-expansion-rural-and-urban-populations"><strong>Impact of the Affordable Care Act Coverage Expansion on Rural and Urban Populations</strong></a><br />
+			This brief examines health insurance coverage gains, Marketplace coverage and premium tax credits, and access to health care with a special focus on individuals living in rural areas. Rural individuals, like those living in urban and suburban areas, have seen large coverage gains under the ACA – about an 8 percentage point increase from before the first open enrollment period through early 2015. Among the 88 percent of rural HealthCare.gov consumers with premium tax credits, the average net monthly premium increased by $5, or 4 percent, between 2015 and 2016. Individuals in rural areas have seen improvements in access to care; the share who report being unable to afford needed care declined by nearly 6 percentage points from before the first open enrollment period through early 2015.</p>
+</li>
+<li>
+<p><a href="https://aspe.hhs.gov/pdf-report/impact-aca-small-businesses-testimony-us-senate-committee-small-business-and-entrepreneurship"><strong>Impact of the ACA on Small Businesses - Testimony before the US Senate Committee on Small Business and Entrepreneurship</strong></a><br />
+			This testimony before the U.S. Senate Small Business and Entrepreneurship Committee highlights how the ACA has helped small businesses and their employees, by expanding coverage, improving quality and addressing health care cost growth. These high level milestones, along with the small employer tax credit and the creation of the Small Business Health Options Program (SHOP) have helped address the health care needs of both small employers and their employees.</p>
+</li>
+<li>
+<p><a href="https://aspe.hhs.gov/pdf-report/marketplace-premiums-after-shopping-switching-and-premium-tax-credits-2015-2016"><strong>Marketplace Premiums after Shopping, Switching, and Premium Tax Credits, 2015-2016</strong></a><br />
+			Health insurance rate information becomes available each spring as issuers file proposed rates with federal and state regulators. Rates then undergo review before being finalized in the fall, prior to the annual Health Insurance Marketplace Open Enrollment Period. Neither the proposed nor final rates offered by any individual issuer provide a reliable basis for predicting what typical Marketplace consumers will pay in the following year. Consumers’ actual health insurance premiums will be lower because public rate review can bring down proposed increases, shopping gives all consumers a chance to find the best deal, and tax credits reduce the cost of coverage for the vast majority of Marketplace consumers. Among the roughly 85 percent of HealthCare.gov consumers with premium tax credits, the average monthly net premium increased just $4, or 4%, from 2015 to 2016.</p>
+</li>
+<li>
+<p><a href="https://aspe.hhs.gov/health-insurance-marketplaces-2016-open-enrollment-period-final-enrollment-report"><strong>Health Insurance Marketplaces 2016 Open Enrollment Period: Final Enrollment Report, ASPE Issue Brief, March 2016</strong></a><br />
+			This issue brief highlights available national and state-level enrollment-related information for the Health Insurance Marketplace 2016 open enrollment period (11-1-15 to 2-1-16) for all 50 states and the District of Columbia.</p>
+</li>
+<li>
+<p><a href="https://aspe.hhs.gov/basic-report/plan-selections-zip-code-and-county-health-insurance-marketplace-march-2016"><strong>Plan Selections by ZIP Code and County in the Health Insurance Marketplace: March 2016</strong></a><br />
+			The dataset provides the total number of Qualified Health Plan selections by ZIP Code and county for the 38 states that use the HealthCare.gov platform, including the Federally-facilitated Marketplaces, State Partnership Marketplaces, and supported State-based Marketplaces, during the Marketplace’s third Open Enrollment Period (based on data for the period November 1, 2015 – February 1, 2016).</p>
+</li>
+<li>
+<p><a href="https://aspe.hhs.gov/pdf-report/health-insurance-coverage-and-affordable-care-act-2010-2016"><strong>Health Insurance Coverage and the Affordable Care Act, 2010-2016</strong></a><br />
+			This issue brief reviews the most recent survey and administrative information available about gains in health insurance coverage since the enactment of the Affordable Care Act (ACA) in 2010. We estimate that the provisions of the ACA have resulted in gains in health insurance coverage for 20.0 million adults through early 2016 (through February 22, 2016), a 2.4 million increase since our previous estimate in September 2015.  These estimated health insurance coverage gains are shared broadly across population groups. Our estimate of a net reduction of 20.0 million uninsured adults is based on data from the National Health Interview Survey and from the Gallup-Healthways Well-Being Index. Other federal and non-governmental surveys of health insurance status show similar trends over this time period.</p>
+</li>
+<li>
+<p><a href="/pdf-report/health-insurance-marketplaces-2016-average-premiums-after-advance-premium-tax-credits-38-states-using-healthcaregov-eligibility-and-enrollment-platform"><strong>Health Insurance Marketplace 2016: Average Premium After Advance Premium Tax Credits In The 38 States Using The Healthcare.Gov Eligibility And Enrollment Platform</strong></a><br />
+			This research brief focuses on the 2016 health plan choices made by returning Marketplace consumers from November 1, 2015 to December 26, 2015 and the premiums they paid</p>
+</li>
+<li>
+<p><strong><a href="http://aspe.hhs.gov/health-insurance-marketplaces-2016-open-enrollment-period-january-enrollment-report">Health Insurance Marketplaces 2016 Open Enrollment Period: January Enrollment Report, ASPE Issue Brief, January 2016 </a></strong><br />
+			This issue brief highlights available national and state-level enrollment-related information for the first two months of the Health Insurance Marketplace 2016 open enrollment period (11-1-15 to 12-26-15) for all 50 states and the District of Columbia.</p>
+</li>
+<li>
+<p><a href="https://aspe.hhs.gov/basic-report/plan-selections-zip-code-health-insurance-marketplace-january-2016"><strong>Plan Selections by ZIP Code in the Health Insurance Marketplace January 2016</strong></a><br />
+			The dataset provides the total number of Qualified Health Plan selections by ZIP Code for the 38 states that use the HealthCare.gov platform, including the Federally-facilitated Marketplace, State Partnership Marketplaces and supported State-based Marketplaces, during the Marketplace open enrollment period to date (November 1, 2015 – January 9, 2016).</p>
+</li>
+</ul><p><strong>2015</strong></p>
+<ul><li>
+<p><a href="/pdf-report/community-action-agency-activities-affordable-care-act-outreach-and-enrollment-insights-case-studies"><strong>Community Action Agency Activities in Affordable Care Act Outreach and Enrollment: Insights from Case Studies</strong></a>, ASPE Research Brief, November 2015<br />
+			This intramural research brief presents qualitative information on selected community action agencies’ (CAA) Affordable Care Act-related outreach and enrollment activities and identifies themes that emerged across the sites. The goals of the brief are to (1) provide examples of a range of activity levels and promising practices that can serve as examples to other CAAs interested in doing more to help their communities increase rates of health insurance, and (2) provide information to federal program officials who may be interested in encouraging CAAs’ ACA-related work and addressing the barriers that may be limiting such efforts.</p>
+</li>
+<li>
+<p><a href="/basic-report/estimates-qhp-eligible-uninsured-designated-market-area-third-open-enrollment-period"><strong>Estimates of the QHP Eligible Uninsured by Designated Market Area for the Third Open Enrollment Period</strong></a>, ASPE Issue Brief, November 2015<br />
+			ASPE has developed estimates of the number of uninsured who are likely to qualify for coverage for 2016 through Qualified Health Plans (QHPs) in the Health Insurance Marketplace (“QHP-eligible uninsured”) for select designated market areas (DMA) in the United States. A DMA is a geographic area that represents a specific television market defined by the Nielsen Company. Some DMAs span multiple states. The first list consists of the top 60 DMAs based on the largest number of QHP-eligible uninsured, and the second list consists of the top 20 DMAs by the number of QHP-eligible uninsured as a percent of the DMA’s total nonelderly population.</p>
+</li>
+<li>
+<p><strong><a href="/pdf-report/health-plan-choice-and-premiums-2016-health-insurance-marketplace">Health Plan Choice and Premiums in the 2016 Health Insurance Marketplace</a></strong>, ASPE Issue Brief, October 2015<br />
+			The Affordable Care Act continues to promote access to affordable Marketplace health insurance plans in 2016 by creating a transparent Marketplace where consumers can chose among the health insurance products to find one that best meet their needs and budget.  More than 8 in 10 returning Marketplace consumers could save an average of $610 annually in premiums for a plan in the same level of coverage by returning to shop.  More than 7 in 10 (72 percent) current Marketplace enrollees can get coverage for $75 in premiums or less, after any applicable tax credits in 2016.  Nearly 6 in 10 (57 percent) can get coverage for $75 in premiums or less within their metal level.  Like in 2015, 9 out of 10 consumers returning to the Marketplace will be able to choose from 3 or more issuers for 2016 coverage.</p>
+</li>
+<li>
+<p><strong><a href="/pdf-report/consumer-decisions-regarding-health-plan-choices-2014-and-2015-marketplaces">Consumer Decisions Regarding Health Plan Choices, in the 2014 and 2015 Marketplaces</a></strong>, ASPE Issue Brief, October 2015<br />
+			This report examines consumer plan choices during the second year of open enrollment (the 2015 plan year) for those consumers who had selected a Marketplace plan at any time in 2014 in states using the HealthCare.gov platform. This issue brief specifically focuses on when consumers selected a 2015 plan, how they responded to premium differences among health plans in their area, net of any premium tax credits they might have received.</p>
+</li>
+<li>
+<p><strong><a href="/pdf-report/how-many-individuals-might-have-marketplace-coverage-at-the-end-of-2016">How Many Individuals Might Have Marketplace Coverage at the End of 2016?</a></strong>, ASPE Issue Brief, October 2015<br />
+			In preparation for OE3, the Department of Health and Human Services Office of the Assistant Secretary for Planning and Evaluation (ASPE) developed a projection for potential 2016 enrollment through the Marketplaces, taking into account both short-run and long-run factors that affect the level of enrollment.  ASPE’s projection uses a “bottom up” approach that builds a national estimate up from state-level information on previous enrollment periods and analysis of the broader insurance market. This method yielded an estimated range of 9.4 to 11.4 million effectuated enrollees in the Marketplace at the end of 2016. The range is based on assumptions about the effectuated enrollment at the end of 2015, the starting point for OE3, rates of re-enrollment, take-up by new enrollees, and attrition of those who initially select a plan but do not maintain coverage for the entire year.</p>
+</li>
+<li>
+<p><strong><a href="/pdf-report/health-insurance-marketplace-uninsured-populations-eligible-enroll-2016">Health Insurance Marketplace: Uninsured Populations Eligible to Enroll for 2016</a></strong>, ASPE Issue Brief, October 2015<br />
+			Data from the first quarter of 2015 from the NHIS and findings from private surveys provide insight into the demographic characteristics, financial circumstances, and attitudes towards health insurance among those who do not have coverage. We estimate that nearly half of the uninsured population that is QHP-eligible has family incomes between 100% and 250% FPL, making them likely eligible for APTC and CSR. Almost half of the uninsured who qualify for Marketplace plans are between the ages of 18 and 34. More than 30 percent are people of color: 19 percent are Hispanic, 14 percent are African- American, and about 2 percent are Asian American. Private surveys suggest that the uninsured value insurance but have financial circumstances, perceptions of affordability, and knowledge gaps that are barriers to enrolling in coverage.</p>
+</li>
+<li>
+<p><a href="/health-insurance-coverage-and-affordable-care-act-aspe-issue-brief-september-2015"><strong>Health Insurance Coverage and the Affordable Care Act</strong></a>, ASPE Issue Brief, September 2015<br />
+			Five years after the enactment of the Affordable Care Act, millions of Americans have gained health insurance coverage. This factsheet highlights the changes in health insurance coverage after the ACA's enactment in March 2010, for young adults who were able to gain coverage through their parents' health insurance plan, as well as adults who gained coverage after the start of open enrollment for the Health Insurance Marketplaces in October 2013 through September, 2015. Details on people who gained health insurance coverage include race and ethnicity, state Medicaid expansion status, gender, and young adults.</p>
+</li>
+<li>
+<p><strong><a href="/health/reports/2015/MarketplaceCompetition/rpt_MarketplaceCompetition.pdf">Competition and Choice in the Health Insurance Marketplaces, 2014-2015: Impact on Premiums (PDF-11 Pages)</a></strong>, <em>ASPE Issue Brief, July 2015</em><br />
+			This brief examines how the supply of Marketplace issuers changed from 2014 to 2015 in states that used the federal HealthCare.gov platform and how changes in the number of issuers affected premium growth between these two years. We find that a majority of counties in these states gained issuers from 2014 to 2015, and only a small percent of counties experienced a net loss of issuers. Premium growth for counties that that experienced a net gain in issuers was significantly lower than for other counties.</p>
+</li>
+<li>
+<p><strong><a href="/health/reports/2015/MarketPlaceEnrollment/EnrollmentByCounty/rpt_EnrollmentByCounty_July2015.cfm">Plan Selections by County in the Health Insurance Marketplace (UPDATED)</a></strong>, July 2015<br />
+			The dataset provides the total number of Qualified Health Plan selections by county for the 37 states using the HealthCare.gov enrollment platform for the Marketplace open enrollment period from November 15, 2014 through February 15, 2015, including additional special enrollment period activity reported through February 22, 2015</p>
+</li>
+<li>
+<p><strong><a href="/health/reports/2015/workforce/ib_healthcare_workforce.pdf">Building the Nation's Health Care Workforce (PDF-9 Pages)</a></strong>, <em>ASPE Issue Brief</em>, July 2015<br />
+			To better meet the Nation's demand, the Department of Health and Human Services has proposed a package of budget initiatives that make strategic investments in the health care workforce. This brief describes these proposals and highlights recent research, in many cases sponsored by the Office of the Assistant Secretary for Planning and Evaluation, in their support.</p>
+</li>
+<li>
+<p><strong><a href="basic-report/outreach-and-enrollment-lgbt-individuals-promising-practices-field">Outreach and Enrollment for LGBT Individuals: Promising Practices from the Field</a></strong>, <em>ASPE Research Brief</em>, June 2015<br />
+			This ASPE research sought to understand the tailored outreach and enrollment activities in support of LGBT individuals and families within the Marketplaces. Through guided discussions with Marketplace consumer coordinators, outreach managers, and enrollment staff, a set of promising practices were identified to help enroll LGBT individuals. These promising practices encompassed five major themes: outreach, partnerships, engagement, staffing, and a focus on the transgender community. Two cross-cutting challenges also emerged, centering on data collection and materials and messaging.</p>
+</li>
+<li>
+<p><strong><a href="/pdf-document/affordable-care-act-improving-access-preventive-services-millions-americans">The Affordable Care Act is Improving Access to Preventive Services for Millions of Americans (PDF-3 Pages)</a></strong>, ASPE Data Point, May 2015<br />
+			This ASPE Data Point estimates the number of Americans who have private insurance coverage of preventive services with no cost sharing under the Affordable Care Act. The Affordable Care Act ensures that most insurance plans ('non-grandfathered' plans) provide coverage for certain preventive health services without cost sharing. Estimates of the number of people benefitting from the preventive services provision are available by gender, age, race and ethnicity, and at the state-level.</p>
+</li>
+<li>
+<p><strong><a href="/pdf-document/medicare-spending-growth-2009">Medicare Spending Growth Since 2009 (PDF-2 Pages)</a>,</strong> ASPE Issue Brief, April 2015<br />
+			The Medicare program has experienced little to no spending growth on a per beneficiary basis in recent years. This factsheet discusses the substantial slowdown in spending growth, the reduction in benefit expenditures that has accrued over time as a result of slowed growth, and various policies that have contributed to these trends.</p>
+</li>
+<li>
+<p><a href="plan-selections-zip-code-health-insurance-marketplace-april-2015"><strong>Plan Selections by ZIP Code in the Health Insurance Marketplace</strong></a>, April 2015<br />
+			The dataset here provides the total number of Qualified Health Plan selections by ZIP Code for the Marketplace for the second Marketplace open enrollment period (November 15, 2014 – February 15, 2015, including additional special enrollment period activity reported through February 22, 2015).</p>
+</li>
+<li>
+<p><a href="economic-impacts-medicaid-expansion-uncompensated-care-costs-and-affordable-care-act-aspe-issue-brief-march-2015"><strong>The Economic Impacts of Medicaid Expansion, Uncompensated Care Costs and the Affordable Care Act</strong></a>, ASPE Issue Brief, March 2015<br />
+			Expanding Medicaid has positive economic effects. These two factsheets highlight information on the economic impact of Medicaid expansion on individuals' financial circumstances, uncompensated care costs and state Gross Domestic Product (GDP). Research confirms that expanding Medicaid will benefit states both directly and indirectly by generating additional federal revenue, increasing jobs and earnings, increasing Gross State Product (GSP), increasing state and local revenues (via provider taxes and fees and increased prescription drug rebates), and reducing uncompensated care and hospital costs.</p>
+</li>
+<li>
+<p><strong><a href="/pdf-document/medicaid-enrollment-and-affordable-care-act">Medicaid Enrollment and the Affordable Care Act (PDF-1 Page)</a></strong>, ASPE Issue Brief, March 2015<br />
+			This factsheet highlights Medicaid enrollment since enactment of the Affordable Care Act. Since 2010, there has been an increase in Medicaid enrollment and larger enrollment increases are seen in states that have expanded Medicaid coverage as compared to those that have not. The uninsured rate is higher and enrollment growth is slower in states that have not yet adopted the Medicaid coverage expansion.</p>
+</li>
+<li>
+<p><a href="health-insurance-coverage-and-affordable-care-act-aspe-issue-brief-march-2015"><strong>Health Insurance Coverage and the Affordable Care Act</strong></a>, ASPE Issue Brief, March 2015<br />
+			Five years after the enactment of the Affordable Care Act, millions of Americans have gained health insurance coverage. This factsheet highlights the changes in health insurance coverage after the ACA's enactment in March 2010, for young adults who were able to gain coverage through their parents' health insurance plan, as well as adults who gained coverage after the start of open enrollment for the Health Insurance Marketplaces in October 2013 through March 4, 2015. Details on people who gained health insurance coverage include race and ethnicity, household income and state Medicaid expansion status, and young adults.</p>
+</li>
+<li>
+<p><strong><a href="/pdf-document/health-insurance-marketplace-2015-open-enrollment-period-march-enrollment-report">Health Insurance Marketplace 2015 Open Enrollment Period: March Enrollment Report (PDF-73 pages)</a></strong>, ASPE Issue Brief, March 2015<br />
+			This issue brief highlights available national and state-level enrollment-related information for the Health Insurance Marketplace 2015 open enrollment period (11-15-14 to 2-15-15, including Special Enrollment Period (SEP) activity through 2-22-15) for all 50 states and the District of Columbia.</p>
+</li>
+<li>
+<p><strong><a href="/pdf-document/integrating-health-and-human-services-programs-and-reaching-eligible-individuals-under-affordable-care-act-final-report">Integrating Health and Human Services Programs and Reaching Eligible Individuals under the Affordable Care Act: Final Report (PDF-37 Pages)</a></strong>, February 2015<br />
+			This report provides an overview of findings from the various elements of the project and summarizes the challenges and prospects for integration in the future.</p>
+</li>
+<li>
+<p><strong><a href="/pdf-report/health-insurance-marketplace-2015-average-premiums-after-advance-premium-tax-credits-through-january-30-37-states-using-healthcaregov-platform">Health Insurance Marketplace 2015: Average Premiums After Advance Premium Tax Credits Through January 30 in 37 States Using the Healthcare.Gov Platform (PDF-7 Pages)</a></strong>, ASPE Issue Brief, February 2015<br />
+			The Affordable Care Act helps families afford health insurance coverage by providing financial assistance in the form of advanced premium tax credits and cost-sharing reductions in the Health Insurance Marketplaces. Based on plan selections from November 15, 2014 through January 30, 2015, this brief reports 1) the proportion of individuals with plan selections paying a reduced monthly premium as a result of the advance premium tax credit; 2) the effect of advance premium tax credits on net premium costs; and 3) the proportion of individuals who could receive a plan with a net premium cost of less than $100.</p>
+</li>
+<li>
+<p><strong><a href="/pdf-report/health-insurance-marketplace-2015-open-enrollment-period-january-enrollment-report">Health Insurance Marketplace 2015 Open Enrollment Period: January Enrollment Report (PDF-44 Pages)</a></strong>, ASPE Issue Brief, January 2015<br />
+			This issue brief highlights available national and state-level enrollment-related information for the first two months of the Health Insurance Marketplace 2015 open enrollment period (11-15-14 to 1-16-15) for all 50 states and the District of Columbia.</p>
+</li>
+<li>
+<p><a href="2015-plan-selections-zip-code-health-insurance-marketplace-january-2015"><strong>2015 Plan Selections by ZIP Code in the Health Insurance Marketplace</strong></a>, January 2015<br />
+			This dataset provides the total number of Qualified Health Plan selections by ZIP Code for 37 states through Jan. 16, 2015 for the 2015 Health Insurance Marketplace open enrollment period.</p>
+</li>
+<li>
+<p><strong><a href="/pdf-report/affordable-care-act-advancing-health-women-and-children">The Affordable Care Act: Advancing the Health of Women and Children (PDF-7 Pages),</a></strong> ASPE Issue Brief, January 2015<br />
+			This brief describes many ways the Affordable Care Act provisions support women's and children's health. The Affordable Care Act provides new coverage options through health insurance marketplaces and Medicaid, and also ensures that most insurance plans (so-called 'non-grandfathered' plans) provide coverage for certain preventive health services without cost sharing. Other benefits of the law include ending gender discrimination in coverage and prohibiting pre-existing conditions exclusions. The Affordable Care Act also enhances Medicare coverage for preventive care and prescription drug coverage. In addition, the Affordable Care Act improves access to maternity coverage, maternity-related preventive services, and pediatric benefits; created the Maternal, Infant, and Early Childhood Home Visiting Program; requires employers to allow break time for nursing mothers; and funds Childhood Obesity Demonstration Project grants and School-Based Health Centers.</p>
+</li>
+</ul><p><strong>2014</strong></p>
+<ul><li>
+<p><strong><a href="/pdf-report/health-insurance-marketplace-2015-open-enrollment-period-december-enrollment-report">Health Insurance Marketplace 2015 Open Enrollment Period: December Enrollment Report (PDF-33 Pages)</a></strong>, ASPE Issue Brief, December 2014<br />
+			This issue brief highlights available national and state-level enrollment-related information for the first month of the Health Insurance Marketplace 2015 open enrollment period (11-15-14 to 12-15-14) for all 50 states and the District of Columbia.</p>
+</li>
+<li>
+<p><strong><a href="/pdf-report/health-plan-choice-and-premiums-2015-health-insurance-marketplace">Health Plan Choice and Premiums in the 2015 Health Insurance Marketplace (PDF-24 Pages)</a></strong>, ASPE Issue Brief, December 2014 <br />
+			The Affordable Care Act is working to improve competition and choice among affordable Marketplace health insurance plans in 2015. Based on analysis of 35 states, there are over 25 percent more issuers participating in the Marketplace in 2015. Premiums for the benchmark (second-lowest cost) silver plan will increase modestly, by 2 percent on average this year before tax credits, while premiums for the lowest-cost silver plan will increase on average by 5 percent. More than 7 in 10 current Marketplace enrollees can find a lower premium plan in the same metal level before tax credits by returning to shop.</p>
+</li>
+<li>
+<p><strong><a href="/pdf-report/how-many-individuals-might-have-marketplace-coverage-after-2015-open-enrollment-period">How Many Individuals Might Have Marketplace Coverage After the 2015 Open Enrollment Period? (PDF 5 Pages)</a></strong>, ASPE Issue Brief, November 2014<br />
+			The Affordable Care Act is achieving its central aim: millions of Americans who were uninsured before now have access to affordable, high-quality health care. By the end of the first open enrollment period, over 8 million people selected policies and, of those, as of September 2014, 7.1 million people enrolled and were paying for insurance coverage (“effectuated” enrollees) through the Marketplace. As the second annual Open Enrollment Period (from November 15, 2014 through February 15, 2015) approaches, many analysts are projecting the number of people expected to enroll. Projections vary depending on the underlying assumptions and the analytical methods used. Analysts in the Department of Health and Human Services project a range for 2015 of 9.0 – 9.9 million total enrollees, which is consistent with the growth rate of 25 – 30% seen in other new insurance products.</p>
+</li>
+<li>
+<p><strong><a href="/pdf-report/survey-data-health-insurance-coverage-2013-and-2014">Survey Data on Health Insurance Coverage for 2013 and 2014 (PDF-15 Pages)</a></strong>, ASPE Issue Brief, October 2014<br />
+			As of June 2014, 10.3 million nonelderly adults (ages 18-64) gained health insurance coverage since the start of the Affordable Care Act initial open enrollment period in October 2013. Government and private surveys offer a consistent picture of expansions in insurance coverage.</p>
+</li>
+<li>
+<p><strong><a href="/pdf-report/impact-insurance-expansion-hospital-uncompensated-care-costs-2014">Impact of Insurance Expansion on Hospital Uncompensated Care Costs (PDF-26 Pages)</a></strong>, ASPE Issue Brief, September 2014<br />
+			United States hospitals provide roughly $50 billion in uncompensated care to uninsured and underinsured patients annually. Under the Affordable Care Act, a major insurance coverage expansion is taking place; this expansion is anticipated to reduce uncompensated care as more and more Americans gain insurance coverage. First, this brief examines earnings reports from major for-profit U.S. hospital chains and finds that volumes of uninsured admissions have fallen by 50-70% in states that have expanded Medicaid, and by 2-14% in states that have not expanded Medicaid. Next, the brief uses cost report data to estimate the change in hospital uncompensated care costs as a result of insurance expansion, and finds that U.S. hospitals are projected to save $5.7 billion in uncompensated care costs in 2014. About three-quarters of these savings ($4.2 billion) will accrue to states that have elected to expand Medicaid, and about a quarter ($1.5 billion) to states that have chosen not to expand Medicaid.</p>
+</li>
+<li>
+<p><strong><a href="/pdf-report/issuer-participation-and-new-entrants-health-insurance-marketplace">Health Insurance Issuer Participation and New Entrants in the Health Insurance Marketplace in 2015 (PDF-8 Pages)</a></strong>, ASPE Issue Brief, September 2014<br />
+			A central feature of the Affordable Care Act is the establishment of the Health Insurance Marketplace, which offers consumers a transparent and competitive platform to shop for health insurance coverage. Based on preliminary data available for 44 states, there will be 77 new issuers offering Qualified Health Plans through the Marketplace in 2015, and 36 of the 44 states will have at least one new Marketplace entrant. In the 44 states, there will be 63 more issuers in 2015 than there were in 2014, representing a 25 percent increase in the total number of issuers.</p>
+</li>
+<li>
+<p><strong><a href="/pdf-report/rate-review-annual-report-calendar-year-2013">Rate Review Annual Report for Calendar Year 2013 (PDF-9 Pages)</a></strong>, September 2014<br />
+			This is the third Rate Review Annual Report issued by HHS. The report uses an analysis of 2013 data from 40 states in the individual market and 37 states in the small group market to estimate the impact of the Rate Review Program and the Rate Review Grant Program on premiums. Rate review reduced total U.S. premiums by an estimated $1 billion in 2013 ($290 million in the individual market and $703 million in the small group market). Rate Review Grants totaling $250 million are improving state rate review programs.</p>
+</li>
+<li>
+<p><a href="plan-selections-zip-code-health-insurance-marketplace-september-2014"><strong>Plan Selections by ZIP Code in the Health Insurance Marketplace</strong></a>, September 2014<br />
+			The dataset here provides the total number of Qualified Health Plan selections by ZIP Code for the Marketplace for the initial Marketplace open enrollment period (Oct. 1, 2013 – Mar. 31, 2014, including additional special enrollment period activity reported through Apr. 19, 2014).</p>
+</li>
+<li>
+<p><strong><a href="/pdf-report/increased-coverage-preventive-services-zero-cost-sharing-under-affordable-care-act">Increased Coverage of Preventive Services with Zero Cost Sharing under the Affordable Care Act (PDF-8 Pages)</a></strong>, ASPE Issue Brief, June 2014<br />
+			This brief estimates the number of people newly eligible for preventive services coverage with no cost sharing, including contraception, because of the Affordable Care Act. The Affordable Care Act ensures that most insurance plans (so-called ‘non-grandfathered’ plans) provide coverage for certain preventive health services without cost sharing. Based in part on recommendations from the U.S. Preventive Services Task Force, this includes colonoscopy screening for colon cancer, Pap smears and mammograms for women, contraception, well-child visits, flu shots for all children and adults, and many more services. Estimates of people affected by these provisions are available by age, gender, race and ethnicity, and at the state-level. In addition, the brief reports findings from the IMS Institute for Healthcare Informatics of the change in the number of prescriptions for oral contraceptives with no co-pay between 2012 and 2013 and the reduction in out-of-pocket costs to women associated with this change.</p>
+</li>
+<li>
+<p><strong><a href="/pdf-report/premium-affordability-competition-and-choice-health-insurance-marketplace-2014">Premium Affordability, Competition, and Choice in the Health Insurance Marketplace, 2014 (PDF-26 Pages)</a></strong>, ASPE Research Brief, June 2014<br />
+			This brief provides an overview of health insurance plan premiums available in the 2014 Marketplace and the important role of the advanced premium tax credit (“tax credit”) in helping families afford coverage. It contains information on the change in the premium cost associated with the tax credit for individuals who made Marketplace plan selections through the Federally-facilitated Marketplace (FFM) during the initial open enrollment period. Also, it analyzes over 19,000 Marketplace plans for 2014, within four metal levels (bronze, silver, gold, and platinum) for each of the 501 rating areas across 50 states and the District of Columbia. Tax credits reduced premiums by approximately 76 percent, on average, for individuals who selected plans in the FFM with tax credits. Competition, as measured by the number of issuers in a rating area, was associated with more affordable benchmark plans (the second-lowest cost silver plan).</p>
+</li>
+<li>
+<p><strong><a href="/pdf-report/effects-implementing-state-insurance-market-reform-2011-2012">Effects of Implementing State Insurance Market Reform, 2011-2012 (PDF-71 Pages)</a></strong>, June 2013<br />
+			This study builds upon the research and methods of the “Trends in Premiums in the Small Group and Individual Insurance Markets, 2008-2011” study. It completes data collection for the 2011 insurance rate filing year and adds some data for 2012. It finds that premium increases have slowed since 2011, the same year ACA rate review regulations went into effect. In the individual market, the average premium increase declined from 11.7 percent in 2010 to 7.0 percent in 2011 and 7.1 percent in 2012. In the small group market, premium increases declined significantly from 8.8 percent in 2010 to 6.1 percent in 2011 to 4.8 percent in 2012. In addition, regulators reduced rate requests of insurers more extensively after ACA rate review provisions went into effect.</p>
+</li>
+<li>
+<p><strong><a href="/pdf-report/trends-premiums-small-group-and-individual-insurance-markets-2008-2011">Trends in Premiums in the Small Group and Individual Insurance Markets, 2008-2011 (PDF-84 Pages)</a></strong>, November 2012<br />
+			Data on premium increases were collected from 2008-2011 hard copy rate filings submitted by insurance carriers and from rate filings or rate summaries available on state insurance websites for the small group and individual insurance markets. In the individual market, the average premium increase (weighted by member months) was 9.9 percent in 2008, 10.8 percent in 2009, and 11.7 percent in 2010, and then declined to 8.6 percent in 2011. In the small group market, average premium increases declined throughout the study period, from 11.2 percent in 2008 and 2009 to 8.8 percent in 2010 and 6.7 percent in 2011. There was substantial variability across states in the average rate of increase. In addition to having their rate requests accepted or rejected, carriers could reach some compromise with the state for a modified rate. The percentage of requests modified by states increased between 2008 and 2011 in both markets. The Affordable Care Act provides states with rate review grants to help states implement or improve their review rate process. These improvements also resulted in increased transparency with 23 states initiating public websites in 2010 and 2011 displaying rate filing information.</p>
+</li>
+<li>
+<p><strong><a href="/pdf-report/health-insurance-marketplace-summary-enrollment-report-initial-annual-open-enrollment-period-0">Health Insurance Marketplace: Summary Enrollment Report (PDF-45 Pages)</a>,</strong> ASPE Issue Brief, May 2014<br />
+			This issue brief highlights national and state-level enrollment-related information for the Health Insurance Marketplace initial open enrollment period (10-1-13 to 3-1-14), including Special Enrollment Period (SEP) activity through 4-19-14.</p>
+</li>
+<li>
+<p><a href="/pdf-report/addendum-health-insurance-marketplace-march-enrollment-report"><strong>Addendum to the Health Insurance Marketplace: March Enrollment Report</strong></a>, May 2014<br />
+			This Addendum contains detailed state-level tables highlighting enrollment-related information for the Health Insurance Marketplace initial open enrollment period (10-1-13 to 3-1-14), including Special Enrollment Period (SEP) activity through 4-19-14.</p>
+</li>
+<li>
+<p><a href="/pdf-document/second-addendum-health-insurance-marketplace-summary-enrollment-report"><strong>Second Addendum to the Health Insurance Marketplace Summary Enrollment Report</strong></a>, May 2014<br />
+			This Addendum contains detailed State-level data on the net change in the cumulative number of individuals who have selected a plan through the Health Insurance Marketplace (also known as Marketplace plan selections) since March 1, 2014.</p>
+</li>
+<li>
+<p><a href="health-insurance-marketplace-summary-enrollment-report-infographic"><strong>Health Insurance Marketplace: Summary Enrollment Report Infographic</strong></a>, May 2014<br />
+			This infographic summarizes key enrollment-related information for the Health Insurance Marketplace initial open enrollment period (including SEP activity through April 19, 2014), as cited in “Health Insurance Marketplace: Summary Enrollment Report for The Initial Annual Open Enrollment Period,” ASPE Issue Brief, Department of Health and Human Services, Office of the Assistant Secretary for Planning and Evaluation (ASPE), May 1, 2014, which can be accessed at <a href="/pdf-report/health-insurance-marketplace-summary-enrollment-report-initial-annual-open-enrollment-period">Health Insurance Marketplace: Summary Enrollment Report for the Initial Annual Open Enrollment Period</a></p>
+</li>
+<li>
+<p><a href="health-insurance-marketplace-summary-enrollment-report-state-profile"><strong>Health Insurance Marketplace: Summary Enrollment Report: State Profile</strong></a>, May 2014<br />
+			This document contains state-level profiles that summarize key data relating to Affordable Care Act coverage expansion enrollment from the ASPE Health Insurance Marketplace Summary Enrollment Report For The Initial Annual Open Enrollment Period; For the period: October 1, 2013 - March 31, 2014 (Including Additional Special Enrollment Period Activity through 4-19-14), and the CMS Medicaid &amp; CHIP: March 2014 Monthly Applications, Eligibility Determinations, and Enrollment Report. Data are provided on the number and characteristics of individuals who have selected a Marketplace plan (including those who have paid a premium and those who have not yet paid a premium, regardless of when their coverage began); and the change in Medicaid / CHIP enrollment, representing the difference between March 2014 enrollment and Pre-ACA Monthly Average Medicaid and CHIP Enrollment (July-Sept 2013). For more information, please see the Marketplace Summary Enrollment Report, which can be accessed at <a href="/pdf-report/health-insurance-marketplace-summary-enrollment-report-initial-annual-open-enrollment-period">Health Insurance Marketplace: Summary Enrollment Report for the Initial Annual Open Enrollment Period</a>, and the March Medicaid/CHIP Enrollment Report, which can be accessed at <a href="/pdf-report/health-insurance-marketplace-march-enrollment-report-period-october-1-2013-march-1-2014">Health Insurance Marketplace: March Enrollment Report; For the period: October 1, 2013 - March 1, 2014</a>.</p>
+</li>
+<li>
+<p><a href="/pdf-report/medicare-advantage-program-2014"><strong>The Medicare Advantage Program in 2014 (PDF-15 Pages)</strong>,</a> ASPE Issue Brief, April, 2014<br />
+			This issue brief provides an overview of pre-Affordable Care Act and post-Affordable Care Act trends in Medicare spending, plan premiums, beneficiary choice of plans, and quality in the Medicare Advantage program.</p>
+</li>
+<li>
+<p><strong><a href="/pdf-report/eligible-uninsured-texas-6-10-could-receive-health-insurance-marketplace-tax-credits-medicaid-or-chip">The Eligible Uninsured in Texas: 6 in 10 Could Receive Health Insurance Marketplace Tax Credits, Medicaid or CHIP</a></strong>, ASPE Research Brief,  March, 2014 (<a href="/pdf-report/eligible-uninsured-texas-6-10-could-receive-health-insurance-marketplace-tax-credits-medicaid-or-chip">PDF Version</a>, 6 pages)<br />
+			Under the Affordable Care Act, six in 10, or 2.8 million, eligible uninsured Texans may qualify either for tax credits to purchase coverage in the Health Insurance Marketplace (2.2 million) or for Medicaid and the Children's Health Insurance Program (CHIP) (627,000). If Texas were to implement Medicaid expansion, a total of 92 percent of all eligible uninsured Texans-or 4.5 million people- might qualify for premium tax credits, Medicaid, or CHIP. According to data from the U.S. Census Bureau's 2011 American Community Survey, there are 4.9 million uninsured nonelderly U.S. citizens and other lawfully present in Texas.</p>
+</li>
+<li>
+<p><strong><a href="/pdf-document/aspeomh-research-brief-eligible-uninsured-asian-americans-native-hawaiians-and-pacific-islanders-8-10-could-receive-health-insurance-marketplace-tax-creditsmedicaid-or-chip">ASPE/OMH Research Brief - Eligible Uninsured Asian Americans, Native Hawaiians, and Pacific Islanders: 8 in 10 Could Receive Health Insurance Marketplace Tax Credits,Medicaid or CHIP</a>, </strong>ASPE/OMH Research Brief, March, 2014 (<a href="/pdf-document/aspeomh-research-brief-eligible-uninsured-asian-americans-native-hawaiians-and-pacific-islanders-8-10-could-receive-health-insurance-marketplace-tax-creditsmedicaid-or-chip">PDF Version</a>, 12 pages)<br />
+			Under the Affordable Care Act, over 1.9 million eligible uninsured Asian Americans, Native Hawaiians, and Pacific Islanders (AANHPIs) gained access to new options for health care coverage starting January 1, 2014. Eight in ten, or 1.6 million, of these eligible uninsured AANHPIs may qualify either for tax credits to purchase coverage in the Health Insurance Marketplace (755,000) or for Medicaid or the Children’s Health Insurance Program (CHIP) (798,000). If all states were to expand Medicaid, 89 percent, or nine in ten, of all eligible uninsured AANHPIs would be eligible for Marketplace tax credits, Medicaid, or CHIP.</p>
+</li>
+<li>
+<p><strong><a href="/report/common-sports-injuries-incidence-and-average-charges">Common Sports Injuries: Incidence and Average Charges</a>, </strong>ASPE Issue Brief, March, 2014 (<a href="/pdf-report/common-sports-injuries-incidence-and-average-charges">PDF Version</a>, 5 pages)<br />
+			While health benefits are derived from sports and recreational activities, there are also risks, including sports-related injuries. These injuries range from minor sprains and strains to more serious injuries such as broken bones and concussions. The direct medical bills resulting from sports injuries are substantial. The costs could be a heavy burden for individuals without health insurance coverage, who would not only lack protection against out-of-pocket costs but could also be forced to pay providers’ full stated charges, rather than the discounted prices generally offered to those with insurance. This issue brief describes the prevalence and cost of selected sports injuries.</p>
+</li>
+<li>
+<p><strong><a href="/pdf-report/health-insurance-marketplace-march-enrollment-report-period-october-1-2013-march-1-2014">Health Insurance Marketplace: March Enrollment Report; For the period: October 1, 2013 - March 1, 2014 (PDF-26 Pages),</a></strong> ASPE Issue Brief, March, 2014<br />
+			This issue brief highlights national and state-level enrollment-related information for the first five months of the Health Insurance Marketplace initial open enrollment period (10-1-13 to 3-1-14).</p>
+</li>
+<li>
+<p><strong><a href="/pdf-report/addendum-health-insurance-marketplace-march-enrollment-report">Addendum to the Health Insurance Marketplace: March Enrollment Report (PDF-28 Pages),</a></strong> ASPE Issue Brief, March, 2014<br />
+			This Addendum contains detailed state-level tables highlighting enrollment-related information for the first five months of the Health Insurance Marketplace initial open enrollment period (10-1-13 to 3-1-14).</p>
+</li>
+<li>
+<p><a href="/marketplace-open-enrollment-process-numbers-fifth-reporting-period-october-1-2013-through-march-1-2014"><strong>Marketplace Open Enrollment Process by the Numbers Fifth Reporting Period: October 1, 2013 through March 1, 2014</strong></a>, ASPE Issue Brief, March, 2014<br />
+			ASPE Issue Brief, February, 2014This infographic summarizes key enrollment-related information for the first five months of the Health Insurance Marketplace initial open enrollment period, as cited in “Health Insurance Marketplace: February Enrollment Report,” ASPE Issue Brief, Department of Health and Human Services, Office of the Assistant Secretary for Planning and Evaluation (ASPE), March 11, 2014, which can be accessed at <a href="https://aspe.hhs.gov/pdf-report/health-insurance-marketplace-summary-enrollment-report-initial-annual-open-enrollment-period">Health Insurance Marketplace: Summary Enrollment Report For the Initial Annual Open Enrollment Period</a></p>
+</li>
+<li>
+<p><strong><a href="/pdf-document/health-insurance-marketplace-february-2014-enrollment-report">Health Insurance Marketplace: February 2014 Enrollment Report (PDF-53 Pages),</a></strong> ASPE Issue Brief, February, 2014<br />
+			This issue brief highlights national and state-level enrollment-related information for the first four months of the Health Insurance Marketplace initial open enrollment period (10-1-13 to 2-1-14).</p>
+</li>
+<li>
+<p><a href="/marketplace-open-enrollment-process-numbers-fourth-reporting-period-october-1-2013-through-february-1-2014"><strong>Marketplace Open Enrollment Process by the Numbers Fourth Reporting Period: October 1, 2013 through February 1, 2014, </strong></a>ASPE Issue Brief, February, 2014<br />
+			This infographic summarizes key enrollment-related information for the first four months of the Health Insurance Marketplace initial open enrollment period, as cited in “Health Insurance Marketplace: February Enrollment Report,” ASPE Issue Brief, Department of Health and Human Services, Office of the Assistant Secretary for Planning and Evaluation (ASPE), February 12, 2014, which can be accessed at <a href="/marketplace-open-enrollment-process-numbers-fourth-reporting-period-october-1-2013-through-february-1-2014">Marketplace Open Enrollment Process by the Numbers Fourth Reporting Period: October 1, 2013 through February 1, 2014</a></p>
+</li>
+<li>
+<p><strong><a href="/pdf-report/eligible-uninsured-latinos-8-10-could-receive-health-insurance-marketplace-tax-credits-medicaid-or-chip">Eligible Uninsured Latinos: 8 in 10 Could Receive Health Insurance Marketplace Tax Credits, Medicaid or CHIP (PDF-11 Pages)</a></strong>, ASPE Research Brief, February, 2014 <br />
+			Approximately 8 in 10 eligible uninsured Latinos in the United States could obtain Health Insurance Marketplace tax credits, Medicaid, or the Children’s Health Insurance Program (CHIP). This ASPE Issue Brief discusses the demographics of the eligible uninsured Latino population and new health insurance coverage options available to them under the Affordable Care Act. There are 10.2 million eligible uninsured Latinos nationwide, according to data from the 2011 American Community Survey Public Use Microdata Sample, and nearly one-quarter of all eligible uninsured in the United States are Latino. Under the Affordable Care Act, 3.9 million uninsured Latinos may be eligible for Marketplace tax credits and 4.2 million for Medicaid or CHIP coverage.</p>
+</li>
+<li>
+<p><strong><a href="/report/children’s-health-coverage-5th-anniversary-chipra">Children’s Health Coverage on the 5th Anniversary of CHIPRA (PDF-5 Pages)</a></strong>, ASPE Issue Brief, February, 2014  The fifth anniversary of the Children's Health Insurance Program Reauthorization Act (CHIPRA), which President Obama signed into law on February 4, 2009, provides an opportunity to take stock of the impact of the Children’s Health Insurance Program (CHIP) and Medicaid during this period. CHIPRA’s successes include increased health insurance coverage, improved access to health care, and reduced financial burdens and stress for parents.</p>
+</li>
+<li>
+<p><a href="/pdf-document/health-insurance-marketplace-january-2014-enrollment-report"><strong>Health Insurance Marketplace: January 2014 Enrollment Report (PDF-29 Pages)</strong>,</a> ASPE Issue Brief, January, 2014<br />
+			This issue brief highlights national and state-level enrollment-related information for the first three months of the Health Insurance Marketplace initial open enrollment period (10-1-13 to 12-28-13).</p>
+</li>
+<li>
+<p><a href="marketplace-open-enrollment-process-numbers-third-reporting-period-october-1st-through-december-28th"><strong>Marketplace Open Enrollment Process by the Numbers Third Reporting Period: October 1st through December 28th</strong>,</a> ASPE Issue Brief, January, 2014<br />
+			This infographic summarizes key enrollment-related information for the first three months of the Health Insurance Marketplace initial open enrollment period, as cited in “Health Insurance Marketplace: January Enrollment Report,” ASPE Issue Brief, Department of Health and Human Services, Office of the Assistant Secretary for Planning and Evaluation (ASPE), January 13, 2014, which can be accessed at <a href="marketplace-open-enrollment-process-numbers-third-reporting-period-october-1st-through-december-28th">Marketplace Open Enrollment Process by the Numbers Third Reporting Period: October 1st through December 28th</a>.</p>
+</li>
+</ul><p><strong>2013</strong></p>
+<ul><li>
+<p><strong><a href="/pdf-report/environmental-scan-identify-major-research-questions-and-metrics-monitoring-effects-affordable-care-act-safety-net-hospitals">Environmental Scan to Identify the Major Research Questions and Metrics for Monitoring the Effects of the Affordable Care Act on Safety Net Hospitals (PDF-34 Pages)</a></strong>, ASPE Report, December, 2013<br />
+			The purposes of this environmental scan are to develop a conceptual framework, review and discuss the major research questions and hypotheses, and identify the “ideal” set of metrics for understanding the effects of the Affordable Care Act (ACA) on safety net hospitals. This report is part of a larger effort by the Office of the Assistant Secretary for Planning and Evaluation (ASPE) to develop a strategy for monitoring safety net hospitals during and after implementation of the ACA. ASPE has requested The Center for Studying Health System Change to conduct this environmental scan (the focus of this report) and to prepare separate reports that assess the availability of data sources and metrics for a safety net monitoring effort, as well as a plan for conducting case studies of safety net hospitals.</p>
+</li>
+<li>
+<p><strong><a href="/pdf-report/health-insurance-marketplace-december-enrollment-report">Health Insurance Marketplace: December Enrollment Report (PDF-15 Pages),</a></strong> ASPE Issue Brief, December, 2013<br />
+			This issue brief highlights national and state-level enrollment-related information for the first two months of the Health Insurance Marketplace initial open enrollment period (10-1-13 to 11-30-13).</p>
+</li>
+<li>
+<p><a href="/marketplace-open-enrollment-process-numbers-second-reporting-period-october-1st-through-november-30th"><strong>Marketplace Open Enrollment Process by the Numbers Second Reporting Period: October 1st through November 30th</strong>, </a>ASPE Issue Brief, December, 2013<br />
+			This infographic summarizes key enrollment-related information for the first two months of the Health Insurance Marketplace initial open enrollment period, as cited in “Health Insurance Marketplace: December Enrollment Report,” ASPE Issue Brief, Department of Health and Human Services, Office of the Assistant Secretary for Planning and Evaluation (ASPE), December 11, 2013, which can be accessed at <a href="marketplace-open-enrollment-process-numbers-second-reporting-period-october-1st-through-november-30th">Marketplace Open Enrollment Process by the Numbers Second Reporting Period: October 1st through November 30th</a>.</p>
+</li>
+<li>
+<p><a href="/pdf-report/eligible-uninsured-african-americans-6-10-could-receive-health-insurance-marketplace-tax-credits-medicaid-or-chip"><strong>Eligible Uninsured African Americans: 6 in 10 Could Receive Health Insurance Marketplace Tax Credits, Medicaid or CHIP (</strong><strong>PDF</strong><strong>-11 Pages)</strong></a>, ASPE Issue Brief, December, 2013  <br />
+			Approximately 6 in 10 eligible uninsured African Americans in the United States could obtain Health Insurance Marketplace tax credits, Medicaid, or the Children’s Health Insurance Program (CHIP). This ASPE Issue Brief discusses the demographics of the eligible uninsured African American population and new health insurance coverage options available to them under the Affordable Care Act. There are 6.8 million eligible uninsured African Americans nationwide, according to data from the 2011 American Community Survey Public Use Microdata Sample, and one-sixth of all eligible uninsured in the United States are African American. Under the Affordable Care Act, 2.2 million uninsured African Americans may be eligible for Marketplace tax credits and 2 million for Medicaid or CHIP coverage.</p>
+</li>
+<li>
+<p><strong><a href="/pdf-document/health-insurance-marketplace-november-enrollment-report">Health Insurance Marketplace: November Enrollment Report (PDF-28 Pages)</a>,</strong> ASPE Issue Brief, November, 2013<br />
+			This issue brief highlights national and state-level enrollment-related information for the first month of the Health Insurance Marketplace initial open enrollment period that began October 1, 2013.</p>
+</li>
+<li>
+<p><strong><a href="marketplace-open-enrollment-process-numbers-first-reporting-period-october-1st-through-november-2nd">Marketplace Open Enrollment Process by the Numbers First Reporting Period: October 1st through November 2nd, </a></strong>ASPE Issue Brief, November, 2013<br />
+			This infographic summarizes key enrollment-related information for the first month of the Health Insurance Marketplace initial open enrollment period, as cited in “Health Insurance Marketplace: November Enrollment Report,” ASPE Issue Brief, Department of Health and Human Services, Office of the Assistant Secretary for Planning and Evaluation (ASPE), November 13, 2013, which can be accessed at <a href="/pdf-report/health-insurance-marketplace-november-enrollment-report">Health Insurance Marketplace: November Enrollment Report</a>.</p>
+</li>
+<li>
+<p><a href="/pdf-document/nearly-5-10-uninsured-single-young-adults-eligible-health-insurance-marketplace-could-pay-50-or-less-month-coverage-2014"><strong>Nearly 5 in 10 Uninsured Single Young Adults Eligible for the Health Insurance Marketplace Could Pay $50 or Less Per month for Coverage in 2014 (</strong><strong>PDF</strong><strong>-8 Pages)</strong></a>,ASPE Research Brief, October, 2013  <br />
+			Young adults are the age group most likely to be without health insurance coverage and, therefore, are a key target for outreach and enrollment activities. Nearly 5 in 10 (46 percent, or 1.3 million) uninsured young adults in single-person households who are eligible for the Health Insurance Marketplace may be able to purchase a bronze plan for $50 per month or less after tax credits, based on analysis of data in 34 states. In these states, a total 1.9 million young adults, representing nearly 7 in 10 (66 percent) of the Marketplace-eligible uninsured ages 18 to 34, may be able to pay $100 or less for coverage in 2014.</p>
+</li>
+<li>
+<p><a href="/pdf-document/health-insurance-marketplace-premiums-2014"><strong>Health Insurance Marketplace Premiums for 2014 (PDF-15 Pages)</strong></a>, ASPE Issue Brief, September, 2013  <br />
+			This report summarizes the health plan choices and premiums that will be available in the Health Insurance Marketplace. It contains new information, current as of September 18, 2013, on qualified health plans in the 36 states in which the Department of Health and Human Services (HHS) will support or fully run the Health Insurance Marketplace in 2014. Plan data is in final stages but is still under review as of September 18 and may be revised in HHS systems before being displayed for consumers, so this information is subject to change. This analysis also includes similar information that is publicly available from 11 states and the District of Columbia that are implementing their own Marketplace. This report focuses on the plans with the lowest premiums in each state, as consumers are expected to shop for low-cost plans. Nearly all consumers (about 95%) will have a choice of 2 or more health insurance issuers (often many more) and nearly all consumers (about 95%) live in states with average premiums below earlier estimates.</p>
+</li>
+<li>
+<p><a href="/pdf-document/new-census-estimates-show-3-million-more-americans-had-health-insurance-coverage-2012"><strong>New Census Estimates Show 3 Million more Americans had Health Insurance Coverage in 2012 (</strong><strong>PDF</strong><strong>-7 Pages)</strong></a>, ASPE Issue Brief, September, 2013  <br />
+			Estimates from Current Population Survey Annual Social and Economic Supplement (CPS-ASEC) data for calendar year 2012, released on September 17, show that 3 million more Americans had health insurance coverage than in 2011. This ASPE Issue Brief includes estimates of the uninsured by age, race and ethnicity, employment status, and household income. It also traces trends in sources of health insurance coverage from 1999 to 2012 and discusses the implications of the findings in the context of the expansion of affordable coverage options under the Affordable Care Act.</p>
+</li>
+<li>
+<p><a href="/pdf-document/fifty-six-percent-uninsured-could-pay-100-or-less-month-coverage-2014"><strong>Fifty-Six Percent of The Uninsured Could Pay $100 or Less per Month for Coverage in 2014 (</strong><strong>PDF</strong><strong>-6 Pages)</strong></a>, ASPE Issue Brief, September, 2013  <br />
+			Under the Affordable Care Act, advanced premium tax credits will be available to help individuals and families afford insurance coverage through the Health Insurance Marketplace, and states will be able to expand Medicaid eligibility for low-income adults. Of the estimated 18.6 million uninsured Americans eligible for Marketplace tax credits, 10.8 million Americans, nearly half (49 percent) of the uninsured eligible for the Marketplace, may be able to pay $100 or less per person for coverage in 2014. In addition, 12.4 million uninsured Americans will be eligible for Medicaid or CHIP and pay no premium or only a nominal premium in 2014 to date. Nationwide, 23.2 million or 56% of the 41.3 million eligible uninsured may qualify for Medicaid, CHIP, or tax credits to purchase coverage for $100 or less.</p>
+</li>
+<li>
+<p><a href="/pdf-document/us-department-health-and-human-services-rate-review-annual-report-september-2013"><strong>U.S. Department of Health and Human Services: Rate Review Annual Report September 2013 (</strong><strong>PDF-16 Pages)</strong></a>, ASPE Report, September, 2013  <br />
+			The Affordable Care Act continues to bring transparency and scrutiny to health insurance rate increases by holding insurance companies accountable for rate increases of 10 percent or more and providing states with rate review grants to enhance state efforts to review proposed increases in health insurance rates. This report finds that these programs saved consumers approximately $1.2 billion in 2012 on their premiums when compared to the amount initially requested by insurers.</p>
+</li>
+<li>
+<p><a href="/pdf-document/affordable-care-act-and-adolescents"><strong>The Affordable Care Act and Adolescents (PDF-8 Pages)</strong></a>, Issue Brief, August 26, 2013  <br />
+			This ASPE Issue Brief describes provisions in the Affordable Care Act that impact adolescents such as the prohibition on pre-existing conditions denials and expansion of Medicaid coverage. The brief also includes data on the eligible uninsured adolescent population ages 10-19. The brief was developed collaboratively between ASPE and the Office of Adolescent Health.</p>
+</li>
+<li>
+<p><strong><a href="/basic-report/market-competition-works-proposed-silver-premiums-2014-individual-market-are-substantially-lower-expected">Market Competition Works: Proposed Silver Premiums in the 2014 Individual Market Are Substantially Lower than Expected</a> </strong>Issue Brief, Updated: August 9, 2013  (<a href="/pdf-report/market-competition-works-proposed-silver-premiums-2014-individual-market-are-substantially-lower-expected">PDF Version</a>, 6 pages)  <br />
+			A goal of the Affordable Care Act is to increase competition and transparency in the markets for individual and small group insurance, leading to higher quality, more affordable products. As of August 2013, sixteen states have released information on proposed or final premiums for the Marketplaces in 2014. This research brief analyzes those proposed and final rates and compares them to those estimated by the Congressional Budget Office (CBO). Overall, silver premiums in the 2014 individual market are substantially lower than expected.</p>
+</li>
+<li>
+<p><strong><a href="/basic-report/market-competition-works-proposed-silver-premiums-2014-individual-and-small-group-markets-are-nearly-20-lower-expected-premiums">Market Competition Works: Proposed Silver Premiums in the 2014 Individual and Small Group Markets Are Nearly 20% Lower than Expected</a></strong>, Research Brief, July, 2013  (<a href="/pdf-report/market-competition-works-proposed-silver-premiums-2014-individual-and-small-group-markets-are-nearly-20-lower-expected-premiums">PDF Version</a>, 12 pages)  <br />
+			A goal of the Affordable Care Act is to increase competition and transparency in the markets for individual and small group insurance, leading to higher quality, more affordable products. Information on proposed premiums in the individual and small group markets has recently been made available by selected states, and it is now possible to move from theoretical arguments to data-driven analysis.</p>
+</li>
+<li>
+<p><strong><a href="/basic-report/seventy-one-million-additional-americans-are-receiving-preventive-services-coverage-without-cost-sharing-under-affordable-care-act">Seventy-one million additional Americans are receiving preventive services coverage without cost-sharing under the Affordable Care Act</a></strong>, Issue Brief, March, 2013  (<a href="/pdf-report/seventy-one-million-additional-americans-are-receiving-preventive-services-coverage-without-cost-sharing-under-affordable-care-act">PDF Version</a>, 4 pages) <br />
+			The Affordable Care Act ensures that most insurance plans (so-called ‘non-grandfathered’ plans) provide coverage for and eliminate cost-sharing on certain recommended preventive health services, beginning on or after September 23, 2010. This includes services such as colonoscopy screening for colon cancer, Pap smears and mammograms for women, well-child visits, flu shots for all children and adults, and many more.</p>
+</li>
+<li>
+<p><a href="/pdf-document/modified-adjusted-gross-income-magi-income-conversion-methodologies"><strong>Modified Adjusted Gross Income (MAGI) Income Conversion Methodologies (</strong><strong>PDF</strong><strong>-49 Pages)</strong></a>, Issue Brief, March, 2013  <br />
+			Section 2002 of the Affordable Care Act makes the tax concept of Modified Adjusted Gross Income (MAGI) the basis for determining Medicaid and CHIP eligibility for nondisabled, nonelderly individuals, effective January 1, 2014.</p>
+</li>
+<li>
+<p><strong><a href="/health-insurance-premium-increases-individual-market-passage-affordable-care-act">Health Insurance Premium Increases in the Individual Market Since the Passage of the Affordable Care Act</a></strong>, Issue Brief, February, 2013  (<a href="/pdf-document/health-insurance-premium-increases-individual-market-passage-affordable-care-act">PDF Version</a>, 8 pages) <br />
+			The Affordable Care Act brings an unprecedented level of scrutiny and transparency to health insurance rate increases. Evidence suggests that the Affordable Care Act contributed to a reduction in the rate of increase in premiums in the individual market since 2010. The proportion of rate filings in which the requested increase was 10 percent or more declined from 75 percent in 2010 to 34 percent in 2012, consistent with the increased scrutiny that such requests now receive.</p>
+</li>
+<li>
+<p><a href="/report/affordable-care-act-expands-mental-health-and-substance-use-disorder-benefits-and-federal-parity-protections-62-million-americans"><strong>Affordable Care Act Expands Mental Health and Substance Use Disorder Benefits and Federal Parity Protections for 62 Million Americans</strong></a>, Issue Brief, February, 2013  (<a href="/pdf-report/affordable-care-act-expands-mental-health-and-substance-use-disorder-benefits-and-federal-parity-protections-over-62-million-americans">PDF Version</a>, 4 pages)  <br />
+			The Affordable Care Act builds on the Mental Health Parity and Addiction Equity Act of 2008 to extend federal parity protections to 62 million Americans. The parity law aims to ensure that when coverage for mental health and substance use conditions is provided, it is generally comparable to coverage for medical and surgical care.</p>
+</li>
+<li>
+<p><strong><a href="basic-report/growth-medicare-spending-beneficiary-continues-hit-historic-lows">Growth in Medicare Spending per Beneficiary Continues to Hit Historic Lows</a></strong>, Issue Brief, February, 2013  (<a href="/pdf-document/growth-medicare-spending-beneficiary-continues-hit-historic-lows">PDF Version</a>, 6 pages)<br />
+			Medicare spending per beneficiary grew just 0.4% per capita in fiscal year 2012, continuing a pattern of very low growth in 2010 and 2011. Together with historically low projections of per capita growth from both the Congressional Budget Office and the Centers for Medicare and Medicaid Services (CMS) Office of the Actuary, these statistics show that the Affordable Care Act has helped to set Medicare on a more sustainable path to keep its commitment to seniors and persons with disabilities today and well into the future.</p>
+</li>
+</ul><p><strong>2012</strong></p>
+<ul><li>
+<p><a href="/report/estimated-savings-5000-each-medicare-beneficiary-enactment-through-2022-under-affordable-care-act"><strong>Estimated Savings of $5,000 to Each Medicare Beneficiary from Enactment Through 2022 Under the Affordable Care Act </strong></a>, Issue Brief, September, 2012  (<a href="/pdf-report/estimated-savings-5000-each-medicare-beneficiary-enactment-through-2022-under-affordable-care-act">PDF Version</a>, 5 pages)<br />
+			This report provides estimates of Medicare Parts A, B, and D savings from the Affordable Care Act to seniors and people living with disabilities enrolled in traditional Medicare. The Affordable Care Act will favorably affect beneficiary expenditures in four ways: lowering part B premiums growth, lowering beneficiary copayments and coinsurance growth under Part A and B, closing the Medicare prescription drug coverage gap, and providing many preventive services to seniors at no additional cost.</p>
+</li>
+<li>
+<p><a href="/pdf-report/overview-uninsured-united-states-summary-2012-current-population-survey-report"><strong>Overview of the Uninsured in the United States: A Summary of the 2012 Current Population Survey Report (</strong><strong>PDF-6 Pages)</strong></a>, Issue Brief, September 2012  <br />
+			The Census Bureau released data on health insurance coverage and the uninsured for 2011 on September 12, 2012. Although there are four major government surveys that produce estimates of health insurance coverage, the Current Population Survey (CPS) is the most widely cited and receives national media attention.</p>
+</li>
+<li>
+<p><a href="/pdf-report/47-million-women-will-have-guaranteed-access-womens-preventive-services-zero-cost-sharing-under-affordable-care-act"><strong>47 Million Women Will Have Guaranteed Access To Women's Preventive Services With Zero Cost-Sharing Under The Affordable Care Act (</strong><strong>PDF</strong><strong>-5 Pages)</strong></a>, Issue Brief, July 2012  <br />
+			The Affordable Care Act requires many insurance plans to provide coverage for and eliminate cost-sharing on certain recommended preventive health services. In August 2011, the Department of Health and Human Services published guidelines on women's preventive services that require non-grandfathered health insurance plans to cover certain recommended preventive services specifically for women without charging a co-pay, co-insurance or a deductible beginning in plan years starting on or after August 1, 2012.</p>
+</li>
+<li>
+<p><a href="basic-report/number-young-adults-gaining-insurance-due-affordable-care-act-now-tops-3-million"><strong>Number of Young Adults Gaining Insurance Due to the Affordable Care Act Now Tops 3 Million</strong></a>, Issue Brief, June 2012.  (<a href="/pdf-report/number-young-adults-gaining-insurance-due-affordable-care-act-now-tops-3-million">PDF version</a>, 2 pages)<br />
+			New survey findings released today by the National Center for Health Statistics show that the extension of dependent health coverage up to age 26 continues to lead to greater rates of insurance coverage among young adults. This policy is one part of the Affordable Care Act, and it took effect for insurance plan renewals beginning on September 23, 2010.</p>
+</li>
+<li>
+<p><a href="basic-report/affordable-care-act-and-asian-americans-and-pacific-islanders"><strong>The Affordable Care Act and Asian Americans and Pacific Islanders</strong></a>, Research Brief, May 2012.  (<a href="/pdf-report/affordable-care-act-and-asian-americans-and-pacific-islanders">PDF version</a>, 8 pages)<br />
+			New estimates from RAND suggest that 2.0 million out of the 2.5 million Asian Americans who would otherwise be uninsured will gain or be eligible for coverage in 2016 through the Affordable Care Act. Asian Americans and Pacific Islanders are already benefitting from the expansion of preventive services with no cost-sharing in both private health insurance and Medicare.</p>
+</li>
+<li>
+<p><a href="basic-report/affordable-care-act-and-african-americans"><strong>The Affordable Care Act and African Americans</strong></a>, Research Brief, April 2012.  (<a href="/pdf-report/affordable-care-act-and-african-americans">PDF version</a>, 6 pages)  <br />
+			New estimates from RAND suggest that 3.8 million African Americans who would otherwise be uninsured will gain coverage by 2016 through the Affordable Care Act.  African Americans will gain improved access to preventive health services and community health centers and improved maintenance of chronic diseases.</p>
+</li>
+<li>
+<p><strong><a href="basic-report/affordable-care-act-and-latinos">The Affordable Care Act and Latinos</a>,</strong> Research Brief, April 2012.  (<a href="/pdf-report/affordable-care-act-and-latinos">PDF version</a>, 7 pages).<br /><a href="/pdf-report/affordable-care-act-and-latinos-en-español">En español (PDF-7 Páginas)</a><br />
+			An estimated 30.7% of Latinos are uninsured, compared with 16.3% of all Americans.  The Affordable Care Act includes several provisions to significantly improve the health outcomes of Latinos.</p>
+</li>
+<li>
+<p><a href="/pdf-document/uninsured-young-adults-and-affordable-care-act"><strong>Uninsured Young Adults and the Affordable Care Act (</strong><strong>PDF</strong><strong>-2 Pages)</strong>,</a> Research Brief, March 2012.  <br />
+			The Affordable Care Act is beneficial for young adults aged 19-25 who previously were more than twice as likely as other adults to lose private health insurance coverage.  The law helps to provide stable health insurance.</p>
+</li>
+<li>
+<p><a href="/report/affordable-care-act-and-women"><strong>The Affordable Care Act and Women</strong></a>, Research Brief, March 2012.  (<a href="/pdf-report/affordable-care-act-and-women">PDF version</a>, 2 pages)  <br />
+			The Affordable Care Act ensures that women will not pay more for the same insurance coverage as men and will provide insurance to an estimated 13 million more women by 2016.  Women also gain improved access to maternity coverage, preventative health services, and Medicaid coverage.</p>
+</li>
+<li>
+<p><a href="/pdf-document/affordable-care-act-and-participation-rates-medicaid"><strong>The Affordable Care Act and Participation Rates in Medicaid (PDF-7 Pages)</strong></a> , Issue Brief, March 2012.  <br />
+			The Affordable Care Act extends Medicaid eligibility to all US citizens and other qualified residents with family incomes at or below 133% of the federal poverty level.  This brief provides estimates of projected Medicaid enrollment rates under the ACA.</p>
+</li>
+<li>
+<p><a href="/pdf-document/expanded-insurance-coverage-young-adults-all-races-and-ethnicities"><strong>Expanded Insurance Coverage For Young Adults of All Races and Ethnicities (</strong><strong>PDF</strong><strong>-2 Pages)</strong></a>, Issue Brief, March 2012.  <br />
+			The Affordable Care Act allows young adults to remain on their parents’ insurance plans until the age of 26.  A JAMA research study finds that an additional 2.9% of all young adults gained access to health care, with larger increases for minority groups.</p>
+</li>
+<li>
+<p><a href="/basic-report/under-affordable-care-act-105-million-americans-no-longer-face-lifetime-limits-health-benefits"><strong>105 Million Americans No Longer Face Lifetime Limits on Health Benefits</strong></a>, Issue Brief, March 2012.  (<a href="/pdf-report/under-affordable-care-act-105-million-americans-no-longer-face-lifetime-limits-health-benefits">PDF version</a>, 6 pages)<br />
+			The Affordable Care Act prohibits health plans from imposing a lifetime dollar limit on most benefits received by Americans in any health plan renewing on or after September 23, 2010.  Lifetime limits had previously affected 105 million Americans.</p>
+</li>
+<li>
+<p><a href="/pdf-document/aca-and-preventive-services-coverage-without-cost-sharing"><strong>ACA and Preventive Services Coverage Without Cost-Sharing (</strong><strong>PDF</strong><strong>-4 Pages)</strong></a>, Issue Brief, February 2012. <br />
+			The Affordable Care Act requires insurance companies to provide coverage and eliminate cost-sharing for preventive services such as colonoscopies, Pap smears, and flu shots.  More than 54 million American men, women, and children of all ages may now receive such services without cost sharing.</p>
+</li>
+<li>
+<p><strong><a href="cost-covering-contraceptives-through-health-insurance">The Cost of Covering Contraceptives through Health Insurance</a>,</strong> Issue Brief, February 2012.<br />
+			This brief reviews existing research on providing contraceptives through public and private health insurance.  It finds that providing contraception through public programs is actually cost-saving.</p>
+</li>
+<li>
+<p><a href="basic-report/medicare-beneficiary-savings-and-affordable-care-act"><strong>Medicare Beneficiary Savings and the Affordable Care Act</strong></a>, Issue Brief, February 2012.  (<a href="/pdf-report/medicare-beneficiary-savings-and-affordable-care-act">PDF Version</a>, 4 pages)  <br />
+			The Affordable Care Act strengthens Medicare coverage for seniors while containing Medicare spending growth.  This brief details how Medicare beneficiaries will save.</p>
+</li>
+</ul><p><strong>2011</strong></p>
+<ul><li>
+<p><a href="basic-report/risk-pre-existing-conditions-could-affect-1-2-americans"><strong>At Risk:  Pre-Existing Conditions Could Affect 1 in 2 Americans</strong></a>, 129 Million People Could Be Denied Affordable Coverage Without Health Reform, November 2011.  (<a href="/pdf-report/risk-pre-existing-conditions-could-affect-1-2-americans">PDF version</a>, 10 pages)<br />
+			A new analysis from the Department of Health and Human Services predicts that 50-129 million non-elderly Americans have a pre-existing condition.  The Affordable Care Act would prohibit insurance companies from dropping coverage for Americans with pre-existing conditions.</p>
+</li>
+<li>
+<p><a href="/pdf-document/affordable-care-act-and-children"><strong>The Affordable Care Act and Children (PDF-7 Pages)</strong></a>, Issue Brief, December 2011.  <br />
+			Recent results from the National Center for Health Statistics show that 1.2 million additional children have access to health insurance after the reauthorization of the Children’s Health Insurance Program (CHIP).  The percentage of insured children has increased for three years since CHIP’s reauthorization in February 2009.</p>
+</li>
+<li>
+<p><a href="/pdf-document/comparing-health-benefits-across-markets"><strong>Comparing Health Benefits Across Markets (</strong><strong>PDF</strong><strong>-7 Pages)</strong></a>, Research Brief, December 2011.  <br />
+			This brief examines benefit coverage in employer-sponsored insurance for the small group market and State and Federal employee plans.  Overall, it appears that small group options and State and Federal employee plans cover similar services.</p>
+</li>
+<li>
+<p><a href="basic-report/essential-health-benefits-individual-market-coverage"><strong>Essential Health Benefits:  Individual Market Coverage</strong></a>, Issue Brief, December 2011.  (<a href="/pdf-report/essential-health-benefits-individual-market-coverage">PDF version</a>, 2 pages)<br />
+			The Affordable Care Act identifies ten categories of services and items as essential health benefits (EHBs) that will include services not frequently covered in the individual market now.  For example, more than 8.7 million Americans will gain maternity coverage when EHBs are effective in 2014.</p>
+</li>
+<li>
+<p><a href="basic-report/variation-and-trends-medigap-premiums"><strong>Variation and Trends in Medigap Premiums</strong></a>, December 2011.  (<a href="/pdf-report/variation-and-trends-medigap-premiums">PDF version</a>, 38 pages)  <br />
+			This brief shows that Medigap premiums have increased on average 3.8% a year, compared to a 5.4% average annual increase for total Medicare spending per beneficiary (excluding Part D spending) over the 2001 to 2010 period.  Medigap premiums vary by plan type and vary significantly among states.</p>
+</li>
+<li>
+<p><a href="basic-report/25-million-young-adults-gain-health-insurance-due-affordable-care-act"><strong>2.5 Million Young Adults Gain Health Insurance Due to the Affordable Care Act</strong></a>, Issue Brief, December 2011.  (<a href="/pdf-report/25-million-young-adults-gain-health-insurance-due-affordable-care-act">PDF version</a>, 2 pages)<br />
+			The extension of health insurance dependent coverage until the age of 26 has increased the number of insured young adults by a larger than anticipated 2.5 million Americans.  Allowing young adults between the ages of 19-25 the option to remain on their parents’ insurance was enacted as part of the Affordable Care Act.</p>
+</li>
+<li>
+<p><a href="basic-report/actuarial-value-and-employer-sponsored-insurance"><strong>Actuarial Value and Employer-Sponsored Insurance</strong></a>, Research Brief, November 2011.  (<a href="/pdf-report/actuarial-value-and-employer-sponsored-insurance">PDF version</a>, 12 pages), Research Brief, November 2011.  <br />
+			This brief explores the distribution of plan actuarial values for individuals enrolled in employer-sponsored insurance.  It finds that an overwhelming percentage of employer-sponsored insurance plans have an actuarial value above 60%.</p>
+</li>
+<li>
+<p><a href="basic-report/one-million-young-adults-gain-health-insurance-2011-because-affordable-care-act"><strong>One Million Young Adults Gain Health Insurance in 2011 Because of the Affordable Care Act</strong></a>, Issue Brief, September 2011.  (<a href="/pdf-report/one-million-young-adults-gain-health-insurance-2011-because-affordable-care-act">PDF version</a>, 3 pages)<br />
+			The National Center for Health Statistics finds that 1 million young adults gained insurance coverage through the Affordable Care Act’s policy of allowing young adults to remain on their parents’ insurance.  These estimates are consistent with other data sources such as the Current Population Survey.</p>
+</li>
+<li>
+<p><a href="basic-report/overview-uninsured-united-states-0"><strong>Overview of the Uninsured in the United States</strong></a>, Issue Brief, September 2011.  (<a href="/pdf-report/overview-uninsured-united-states-0">PDF version</a>, 5 pages) <br />
+			The Current Population Survey finds that 49.9 million Americans were without health insurance coverage in 2010.  This brief provides overview statistics on insurance for children, young adults, and minorities.</p>
+</li>
+<li>
+<p><a href="/pdf-document/value-health-insurance-few-uninsured-have-adequate-resources-pay-potential-hospital-bills"><strong>The Value of Health Insurance:  Few of the Uninsured Have Adequate Resources to Pay Potential Hospital Bills (PDF-10 Pages)</strong></a>, Research Brief, May 2011.  <br />
+			When the uninsured cannot afford the care they receive, the cost must be absorbed by other payers. This brief estimates that uninsured families can only afford to pay in full 12% of hospitalizations they might experience.</p>
+</li>
+</ul>  </div>
+
+      <footer>
+          </footer>
+  
+    <div id="block-webform-client-block-158521" class="widget block block-webform" >
+  
+      
+  <div id="webform-ajax-wrapper-158521"><form class="webform-client-form webform-client-form-158521" action="/affordable-care-act-research" method="post" id="webform-client-form-158521" accept-charset="UTF-8"><div><div class="webform-progressbar">
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-radios webform-component--was-this-page-helpful">
+  <label for="edit-submitted-was-this-page-helpful">Was this page helpful? <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-was-this-page-helpful" class="form-radios"><div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-1" name="submitted[was_this_page_helpful]" value="1" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-1">Yes </label>
+
+</div>
+<div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-2" name="submitted[was_this_page_helpful]" value="0" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-2">No </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="4" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-T22qTgJ2KY4I1qGmar2tQCpZUPjfNuOxTIGjJTUO6cc" />
+<input type="hidden" name="form_id" value="webform_client_form_158521" />
+<input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-158521" />
+<div class="form-actions"><input class="webform-next button-primary btn btn-default form-submit" type="submit" id="edit-webform-ajax-next-158521" name="op" value="Next &gt;" /></div>
+<div class="is-useful-disclaimer"> <a href="/%23" class="" title="Survey Disclaimer" data-toggle="modal" data-target="#disclamerModal">Form Approved OMB# 0990-0379 Exp. Date 8/31/2017</a></div>
+<div class="modal fade" id="disclamerModal" tabindex="-1" role="dialog" aria-labelledby="disclamerModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="disclamerModalLabel">Survey Disclaimer</h2>
+      </div>
+      <div class="modal-body">
+         According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this information collection is 0990-0379. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, gather the data needed, and complete and review the information collection. If you have comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: U.S. Department of Health & Human Services, OS/OCIO/PRA, 200 Independence Ave., S.W., Suite 336-E, Washington D.C. 20201, Attention: PRA Reports Clearance Officer.      </div>
+    </div>
+  </div>
+</div></div></form></div>
+  </div> <!-- /.block -->
+<meta  itemscope="" itemid="https://aspe.hhs.gov/affordable-care-act-research" itemref="md1" />              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <footer  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Footer">     
+
+        
+                  
+        
+                  
+        
+                                    <div  id="footer_sitemap-footer_sitemap" class="col-sm-6 col-md-6 col-lg-4 ">
+                          
+                              <div id="block-footer-sitemap-footer-sitemap" class="widget block block-footer-sitemap" >
+  
+      
+  <div id="footer-sitemap" class="clearfix">
+  <div class="fs-block-content"><div class="menu-footer-utility"><ul class="footer_links_menu-footer-utility total-items-2 parent-items-0 single-items-0"><li class="menu-5021 depth-1 total-children-8 parent-children-0 single-children-8  first"><a href="/" title="look at ASPE Home" class="fs-root-link">ASPE Home</a><ul class="footer_links_menu-footer-utility total-items-8 parent-items-0 single-items-0"><li class="menu-5026 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/" title="look at HHS Home">HHS Home</a></li>
+<li class="menu-66281 depth-1 fs-no-children"><a href="http://www.usa.gov/" title="look at USA.gov">USA.gov</a></li>
+<li class="menu-66316 depth-1 fs-no-children"><a href="https://oig.hhs.gov/" title="look at Office of the Inspector General">Office of the Inspector General</a></li>
+<li class="menu-66321 depth-1 fs-no-children"><a href="http://www.whitehouse.gov" title="look at The White House">The White House</a></li>
+<li class="menu-5046 depth-1 fs-no-children"><a href="http://www.hhs.gov/Accessibility.html" title="look at Accessibility">Accessibility</a></li>
+<li class="menu-66326 depth-1 fs-no-children"><a href="http://www.hhs.gov/about/budget/index.html" title="look at Budget/Performance">Budget/Performance</a></li>
+<li class="menu-2551 depth-1 fs-no-children"><a href="http://www.hhs.gov/Privacy.html" title="look at Privacy Policy">Privacy Policy</a></li>
+<li class="menu-197776 depth-1 fs-no-children  last"><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" title="Nondiscrimination Notice">Nondiscrimination Notice</a></li>
+</ul></li>
+<li class="menu-5051 depth-1 total-children-4 parent-children-0 single-children-4  last"><a href="http://www.hhs.gov/foia/" title="look at FOIA" class="fs-root-link">FOIA</a><ul class="footer_links_menu-footer-utility total-items-4 parent-items-0 single-items-0"><li class="menu-5056 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/open/recordsandreports/plainwritingact/index.html" title="look at Plain Writing Act">Plain Writing Act</a></li>
+<li class="menu-5061 depth-1 fs-no-children"><a href="http://www.hhs.gov/asa/eeo/no_fear_bullet_3.html" title="look at No Fear Act">No Fear Act</a></li>
+<li class="menu-5066 depth-1 fs-no-children"><a href="http://www.hhs.gov/Disclaimer.html" title="look at Disclaimers">Disclaimers</a></li>
+<li class="menu-2546 depth-1 fs-no-children  last"><a href="http://www.hhs.gov/plugins.html" title="look at Viewers &amp; Players">Viewers &amp; Players</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-5 " id="stability_cms-contact_us">
+                          
+                              <div id="block-stability-cms-contact-us" class="widget block block-stability-cms" >
+  
+      
+  <div class="contacts-widget widget widget__footer">
+	<div class="widget-content">
+		<ul class="contacts-info-list">
+      			<li>
+<!--				<i class="fa fa-map-marker">Address</i>-->
+                <div class="info-icons">
+                    <img  alt="map" class= 'map-icons' src="/sites/all/themes/stability/stability_aspe/images/map.png"/>
+                </div>
+                <div class="info-item">
+					Assistant Secretary for Planning and Evaluation, Room 415F<br />
+U.S. Department of Health and Human Services<br />
+200 Independence Avenue, SW<br />
+Washington, D.C. 20201				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-phone">phone</i>-->
+                <div class="info-icons">
+                    <img alt="phone" src="/sites/all/themes/stability/stability_aspe/images/phone.png"/>
+                </div>
+				<div class="info-item">
+					+1 202.690.7858				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-envelope">email</i>-->
+                <div class="info-icons">
+                    <img alt="mail" src="/sites/all/themes/stability/stability_aspe/images/mail-white.png"/>
+                </div>
+				<span class="info-item">
+					<a href="mailto:osaspeinfo@hhs.gov">osaspeinfo@hhs.gov</a>
+				</span>
+			</li>
+      			                					</ul>
+	</div>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-3 " id="footer">
+                          
+                              <div id="block-block-36" class="widget block block-block" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sign-up</span> for Email Updates</h3>
+		</div>
+    
+  <div class="email_updates">
+<button class="btn btn-default" name="subscribe-button" type="submit" value="subscribe">subscribe</button>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-12 " id="menu-menu-footer-language-menu">
+                          
+                              <div id="block-menu-menu-footer-language-menu" class="widget block block-menu" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Language</span> Assistance Available</h3>
+		</div>
+    
+  <ul class="menu"><li class="first expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#spanish" title="Español">Español</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#chinese" title="繁體中文">繁體中文</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#vietnamese" title="Tiếng Việt">Tiếng Việt</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#korean" title="한국어">한국어</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#tagalog" title="Tagalog">Tagalog</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#russian" title="Русский">Русский</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#arabic" title="العربية">العربية</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#creole" title="Kreyòl Ayisyen">Kreyòl Ayisyen</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#french" title="Français">Français</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#polish" title="Polski">Polski</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#portuguese" title="Português">Português</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#italian" title="Italiano">Italiano</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#german" title="Deutsch">Deutsch</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#japanese" title="日本語">日本語</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#farsi" title="فارسی">فارسی</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#english" title="English">English</a></li>
+</ul></li>
+</ul>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+      </div>
+
+          </div>
+    
+    
+      </footer>
+    
+
+    <!--/PAGEWATCH-->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+                        </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="social-links-wrapper">
+              <span class="social-links-txt">Connect with us</span>
+              <ul class="social-links social-links__dark">
+                                                  <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw-grey.png"/></a></li>
+                                <!--                --><!--                  <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin-grey.png"/></a></li>-->
+<!--                -->
+                                                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>  <script type="text/javascript" src="/sites/default/files/advagg_js/js__VWRymaMz6HfrhnrcJNGcDiSvLVrvhaXvBa7nrBYy8gc__jntPwP3D6myJZH1jW19fXrk5cYMHGRL8NQION22VSEA__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5486d15a696bff0c"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__g6mKbcakHxQkz4ZHYaxdO_xqONINvRMgsHh1zAK-fr0__ATHtEmHaeZ0jidpGU22EkhmPDBSgjD8z0bVDQMI-BIY__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__KUp4PrfOt9BSXUVl8Ctb3dhCMBe4MNVMeb4Gyorx8yY__7g4BeXscCIZAfuu1vxsCj2RIemg-eEK0QpChP9LDmFQ__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__PNjAgubM_3xXRLp4uLsYnv8wQAdT89-RYkSPxT6T45c__rFQwFK4pA5ZaWZSF7FPTfKbbpus0h-5IS8ayrNZGrb4__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__vQiLul2UcfC4nBAR09mhYVBYzRmiNDm2dj3GgSubV38__w84oZe-ZODKe7XnnlbrjV4IWHISOy4PioFEMVgx9hZo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__QJw3g0kOdwsv4twSZLP931zBzsHy50VEHpEN_znIitQ__A6QOuWXElDipBM2iChbWhjAAt3KlUwZ-jODoxdpbwiw__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stability_aspe","theme_token":"4IqTfWh8-yYl5LMUQnj9I8DTUKPLYDSgGQ3JofKBPLI","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/footable.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/aspe_nodes.admin.css":1,"sites\/all\/modules\/custom\/aspe_views\/theme\/css\/aspe_views.admin.css":1,"sites\/all\/modules\/forked\/book\/book.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/openpublic\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.css":1,"profiles\/openpublic\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openpublic\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/openpublic\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/themes\/stability\/css\/bootstrap.min.css":1,"sites\/all\/themes\/stability\/css\/fonts\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.theme.css":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/stability\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/stability\/css\/theme.css":1,"sites\/all\/themes\/stability\/css\/theme-elements.css":1,"sites\/all\/themes\/stability\/css\/animate.min.css":1,"sites\/all\/themes\/stability\/css\/skins\/red.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/slideshow.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/font-main.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/styleless.less":1,"sites\/all\/themes\/stability\/css\/skins\/blue.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/aspe\/theme\/js\/aspe.login-confirm.js":1,"sites\/all\/modules\/custom\/aspe_report\/modules\/aspe_databooks\/js\/aspe_databooks.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.highcharts.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/datatables\/dataTables.min.js":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.min.js":1,"sites\/all\/libraries\/highcharts\/highcharts.js":1,"sites\/all\/libraries\/highcharts\/highcharts.exporting.js":1,"sites\/all\/libraries\/highcharts\/highcharts.map.js":1,"sites\/all\/libraries\/highcharts\/highcharts.us-all.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.footable.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5486d15a696bff0c":1,"misc\/progress.js":1,"profiles\/openpublic\/modules\/contrib\/webform\/js\/webform.js":1,"profiles\/openpublic\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/stability\/vendor\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/stability\/vendor\/bootstrap.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flexnav.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flickrfeed.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.sloppy-masonry.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.fitvids.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.stellar.min.js":1,"sites\/all\/themes\/stability\/vendor\/snap.svg-min.js":1,"sites\/all\/themes\/stability\/js\/custom.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/aspe.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/html5shiv.min.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/main-menu.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/keyboard-control.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tabBehavior.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tileStringTrimmer.js":1}},"webform":{"conditionals":{"webform-client-form-158521":{"ruleGroups":[],"sourceMap":[],"values":[]}}},"ajax":{"edit-webform-ajax-next-158521":{"callback":"webform_ajax_callback","wrapper":"webform-ajax-wrapper-158521","progress":{"message":"","type":"throbber"},"event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Next \u003E"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/affordable-care-act-research":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"([a-z0-9]\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This website contains links to other federal and state agencies and private organizations. The Department of Health and Human Services (HHS) cannot attest to the accuracy of information provided by these nonfederal website links. Linking to nonfederal sites does not constitute an endorsement by HHS or any of its employees of the sponsors or the information and products presented on the sites. You will be subject to the destination site\u0027s privacy policy when you leave the ASPE website.\r\n\r\nThank you for visiting aspe.hhs.gov!","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"stability":{"flickr_id":"52617155@N08","logo_sticky":"28"},"field_group":{"div":"full"}});
+//--><!]]>
+</script>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config={pubid:"ra-5486d15a696bff0c",ui_click:false}
+//--><!]]>
+</script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4837db659","applicationID":"10708002","transactionName":"MwNaZBRSXEtXB0BdWQpJbUIPHFtWUgFMGkYMFg==","queueTime":0,"applicationTime":28,"atts":"H0RZElxIT0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

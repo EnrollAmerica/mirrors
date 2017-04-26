@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">  <!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://aspe.hhs.gov/sites/default/files/Favicon2.png" type="image/png" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://aspe.hhs.gov/dataset/empirical-studies-asset-building-over-life-course" />
+<link rel="shortlink" href="https://aspe.hhs.gov/node/97066" />
+<meta property="og:site_name" content="ASPE" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aspe.hhs.gov/dataset/empirical-studies-asset-building-over-life-course" />
+<meta property="og:title" content="Empirical Studies of Asset Building over the Life Course" />
+<meta property="og:updated_time" content="2016-02-17T02:05:34-05:00" />
+<meta property="article:published_time" content="2015-09-29T04:18:17-04:00" />
+<meta property="article:modified_time" content="2016-02-17T02:05:34-05:00" />
+
+  <title>Empirical Studies of Asset Building over the Life Course      | ASPE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+  <link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__5ln8neBOcJfyUveiD4y9fhI6kHBLOQ_YL0mMC-LS9a0__TPJIZT9UBnf_685NlFTJ5KnZVsjwFk6ACQ-nwwygmwU__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ng49uRH5y4Hl9VF9hHW_vXOj-mcOc2u2ShJqJ1YKIGU__FoMCD14GBvZaRiqSQ_JpP1w3rDB21n7H2Ar4pRZaIh8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__Hskudx14OJ5Hz8vqU7CUgN6SDV5rINZuEq9VuGsSeyc__EwNIl3xeFrniW2TmonovTzhSs3X5MdFps210puE7jog__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__9rZoaX9BdzjjNucvYxduxeNAVO2zgW_Rvjhb5rq5whc__lSr_y16grDSgHf4booPChnF7QXz3TQY3hafH49twE0k__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZgfI_ZPib5yVY0o5aKo_6TFn946Tuu_nFDa0ySTmkSc__2FTFrNw2eNh0mpHIOA34r6YRwBZMm2PjJ_JubnwLigg__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__dxabpJ5rQgDSixKgLJZjWc1beC6mpROKwVrmWxI5eno__rqhz_hGsE_i59O7-W991o71_Jxw1QOtGMxn4nsOLHY8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZbRCq2NqWgK-HXAQI3So0N1n0nr4HonsJS3eQuuxukw__7Olkk8Locn8Dj0eR0Ww3rbV9lks9sxipcboMXB18RRs__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+
+	<!-- Head Libs -->
+	<script src="/sites/all/themes/stability/stability_aspe/vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/sites/all/themes/stability/vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" href="/sites/all/themes/stability/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/stability/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/stability/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/stability/images/apple-touch-icon-144x144.png">
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-97066 node-type-dataset">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-JLFR"
+                  height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JLFR');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-nav" class="accessibility_menu">
+    <strong>Shortcut Navigation:</strong>
+    <ul>
+      <li><a href="#content" accesskey="c" title="Skip to page content (ctrl/alt + c)">Page Content</a></li>
+      <li><a href="#nav" accesskey="m" title="Skip to main navigation menu (ctrl/alt + m)">Site Navigation</a></li>
+
+      <li><a href="#Footer" accesskey="f" title="Skip to footer (ctrl/alt + f)">Footer</a></li>
+    </ul>
+  </div>
+
+    
+<div class="site-wrapper">
+  
+  <header class="header header-menu-fullw header-top-clean">
+    <div id="brand-bar">
+        <div class="container">
+                    <img alt='bird' src="/sites/all/themes/stability/stability_aspe/images/bird.png"> <a target="blank" tabindex="4" href="http://www.hhs.gov/">U.S. Department of Health & Human Services</a>
+        </div>
+
+    </div>
+    <div class="header-main">
+        <div class="container clearfix">
+            <div class="social-links-wrapper">
+                <ul class="social-links social-links__light">
+                                                          <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw.png"/></a></li>
+                                    <!--                  --><!--                    <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin.png"/></a></li>-->
+<!--                  -->
+                                                                      </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                                <div class="site_name_wrapper">
+                                     <span class="h1">
+                                      <a href="/">ASPE</a>
+                                       </span>
+                                  <p class="tagline"><p>Office of The Assistant Secretary</p><p> for Planning and Evaluation</p></p>
+                    </div>
+            </div>
+            <!-- Logo / End -->
+            <div class="header_right_wrapper">
+                <div class="search-form">
+                    <form action="/dataset/empirical-studies-asset-building-over-life-course" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class = "input-group"><div class="form-type-textfield form-item-search-block-form form-item form-group">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search Site..." class="form-control form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input class="btn btn-primary btn-icon form-submit" type="image" id="edit-submit" name="submit" value="Search" src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/search-white2.png" alt="Search" title="Search" /></div></div><input type="hidden" name="form_build_id" value="form-qG3lyoVTdM71UFARVHWXqZvJUbjB2RvXHfZjxJ5m5yg" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </div>
+                <button type="button" class="navbar-toggle" value="Menu">
+                    <i class="fa fa-bars"></i>Menu
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-main">
+        <div class="container">
+          <ul data-breakpoint="767" class="flexnav">
+                <li class="first expanded"><a href="/basic-search/about" title="">About</a><ul><li class="first leaf"><a href="/mission" title="">Mission</a></li>
+<li class="leaf"><a href="/key-staff" title="">Leadership</a></li>
+<li class="leaf"><a href="https://www.usajobs.gov/" title="">Careers</a></li>
+<li class="expanded"><a href="/coordination" title="linkTo">Coordination</a><ul><li class="first leaf"><a href="/evaluation-evidence" title="">Evaluation &amp; Evidence</a></li>
+<li class="leaf"><a href="/national-alzheimers-project-act">National Alzheimer&#039;s Project Act</a></li>
+<li class="leaf"><a href="/health-and-human-services-hhs-data-council">HHS Data Council</a></li>
+<li class="last leaf"><a href="/national-committee-vital-and-health-statistics" title="National Council on Vital and Health Statistics">National Council on Vital and Health Statistics</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/divisions" title="">Offices</a><ul><li class="first leaf"><a href="/office-disability-aging-and-long-term-care-policy-daltcp">Disability, Aging, and Long-Term Care Policy</a></li>
+<li class="leaf"><a href="/office-health-policy-hp">Health Policy</a></li>
+<li class="leaf"><a href="/office-human-services-policy">Human Services Policy</a></li>
+<li class="last leaf"><a href="/office-science-and-data-policy">Science and Data Policy</a></li>
+</ul></li>
+<li class="leaf"><a href="/strategic-planning" title="Strategic Planning">Strategic Planning</a></li>
+<li class="last leaf"><a href="/contact-aspe" title="">Contact ASPE</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/topics" title="">Topics</a><ul><li class="first leaf"><a href="/affordable-care-act-research">Affordable Care Act Research</a></li>
+<li class="leaf"><a href="/alzheimers-dementia">Alzheimer&#039;s / Dementia</a></li>
+<li class="leaf"><a href="/early-childhood">Early Childhood</a></li>
+<li class="leaf"><a href="/incarceration-reentry">Incarceration &amp; Reentry</a></li>
+<li class="leaf"><a href="/opioid-abuse-us-and-hhs-actions-address-opioid-drug-related-overdoses-and-deaths" title="Opioids">Opioids</a></li>
+<li class="leaf"><a href="/patient-centered-outcomes-research-trust-fund">Patient-Centered Outcomes Research Trust Fund (PCORTF)</a></li>
+<li class="expanded"><a href="/basic-search/poverty" title="">Poverty</a><ul><li class="first leaf"><a href="/poverty-guidelines">Poverty Guidelines</a></li>
+<li class="last leaf"><a href="/poverty-estimates-trends-and-analysis">Poverty Analysis</a></li>
+</ul></li>
+<li class="leaf"><a href="/teen-pregnancy-prevention">Teen Pregnancy Prevention</a></li>
+<li class="leaf"><a href="/homelessness">Homelessness</a></li>
+<li class="last leaf"><a href="/medicare-access-and-chip-reauthorization-act-2015">MACRA</a></li>
+</ul></li>
+<li class="leaf"><a href="/reports" title="">Publications</a></li>
+<li class="last expanded"><a href="/basic-search/datasets" title="">Data and Tools</a><ul><li class="first last leaf"><a href="/evaluations" title="">Evaluation Database</a></li>
+</ul></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation / End -->
+</header>  <div class="main" role="main">
+    <!--PAGEWATCH CODE="USHHS_458"-->
+    <section class="page-heading">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+                <h1>
+                                                          <a href="/basic-report/asset-building-over-life-course">Asset Building over the Life Course</a>.
+                      
+                 Empirical Studies of Asset Building over the Life Course             </h1>
+                                 <p class="author">
+                                                 <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2008-11-30T00:00:00-05:00">11/30/2008</span>               
+                           </p>
+
+
+                  </div>
+
+
+        <div class="col-md-6">
+           <ul class="breadcrumb"><li class="first"><a href="/" title="Home">Home</a></li>
+<li class="last">       Empirical Studies of As...</li>
+</ul>        </div>
+
+
+    </div>
+  </div>
+</section>
+    
+      <div  class="nd-region nd-region-similar-content">
+  
+       
+
+    
+      <div  class="row" id="Similar-Content">     
+
+        
+                                    <div  id="top" class="">
+                          
+                              <div id="block-views-2100ccfdd214bdbcf634d7e4832c265b" class="widget block block-views solr-similar-content" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Similar</span> content</h3>
+		</div>
+    
+  <div class="view view-similar-content-solr view-id-similar_content_solr view-display-id-block_solr_similar_content view-dom-id-b169e0d0f0c2e4c46c66cdf7dec29f2b">
+        
+  
+  
+      
+    
+    <span class="field-content"><a href="/pdf-report/asset-building-over-life-course">Asset Building over the Life Course</a></span>    
+    <span class="field-content"><a href="/basic-report/poor-finances-assets-and-low-income-households-introduction-series">Poor Finances: Assets and Low-Income Households: Introduction to the Series</a></span>    
+    <span class="field-content"><a href="/basic-report/asset-building-over-life-course">Asset Building over the Life Course</a></span>    
+    <span class="field-content"><a href="/basic-report/assets-poverty-and-public-policy-challenges-definition-and-measurement">Assets, Poverty, and Public Policy: Challenges in Definition and Measurement</a></span>    
+    <span class="field-content"><a href="/basic-report/effects-holding-assets-social-and-economic-outcomes-families-review-theory-and-evidence">Effects of Holding Assets on Social and Economic Outcomes of Families: A Review of Theory and Evidence</a></span>  
+  
+  
+  
+  
+  
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  id="Content" class="row">     
+
+        
+                  
+        
+                  
+        
+                                    <div  id="content" class="col-md-12 ">
+                          
+                              <div id="block-aspe-aspe-addthis" class="widget block block-aspe" >
+  
+      
+  <div class="clearfix">
+  <ul class="addthis_sharing_toolbox node-share__links" data-url="https://aspe.hhs.gov/dataset/empirical-studies-asset-building-over-life-course" data-title="       Empirical Studies of Asset Building over the Life Course     ">
+    <li><a class="addthis_button_print"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/print-white.png" alt="print" /></a></li>
+    <li><a class="addthis_button_email"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/mail-white.png" alt="email" /></a></li>
+    <li><a class="addthis_button_twitter"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/tw.png" alt="twitter" /></a></li>
+<!--    <li><a class="addthis_button_facebook">--><!--</a></li>-->
+    <li><a class="addthis_button_compact"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/plus-white.png" alt="compact" /></a></li>
+  </ul>
+</div>
+
+  </div> <!-- /.block -->
+
+                
+    
+  
+  <div class="content clearfix node-dataset">
+            <div class="see-related-content"><a href="#block-views-similarterms-block">See related content</a></div>
+
+     
+    <h3 class="text-center"><p class="table_title_main">       Empirical Studies of Asset Building over the Life Course     </p>
+      </h3>
+
+ 
+ <div id="tablefield-wrapper-0" class="tablefield-wrapper">
+    
+ <ul id="tablefield-export-link-node-97066-field_chart_data_table-0" class="tablefield-export-link list-inline">
+   <li><a href="/tablefield/export/node/97066/field_chart_data_table/und/0" class="export export-csv btn btn-sm btn-default download-file"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/fa-share-grey.png" alt="export-csv" />CSV</a></li>
+   <li><a href="/export/dataset/retrieve/empirical-studies-asset-building-over-life-course.json" class="export export-json btn btn-sm btn-default download-file"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/fa-share-grey.png" alt="export-json" />JSON</a></li>
+   <li><a href="/export/dataset/retrieve/empirical-studies-asset-building-over-life-course.xml" class="export export-xml btn btn-sm btn-default download-file"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/fa-share-grey.png" alt="export-xml" />XML</a></li>
+ </ul>
+   <table class="footable dt-responsive responsive display" width="100%">
+ <thead><tr><th data-class="expand">Author</th><th>Data Source</th><th>Sample/Study Population</th><th>Method</th><th>Outcomes Analyzed</th><th>Key Explanatory Variables</th><th>Findings</th><th>Authors Principal Conclusions</th> </tr></thead>
+<tbody>
+ <tr class="odd"><td>Bynner (2001)</td><td>The National Child Development Study (British Birth Cohort Studies).</td><td>11,400 individuals born in 1958 in Britain.</td><td>OLS.</td><td>Labor market experiences (years with full-time employment), marital 	breakdown, health (general health, depression, smoking), citizenship and 	values (voted in last election, interests in politics), and parenting (only 	for 10% sample surveyed at age 37).</td><td>Total value of financial assets at 23 and total value of saving and 	investment at 23.</td><td>After controlling for a wide range of possible alternative explanatory 	variables, both saving and investment have strong effects on positive labor 	market experience. Individuals with saving at 23 are less likely to have 	marital breakdown in later life, rate themselves as more healthy, and reveal 	greater commitment to work. The possession of investment at 23 is positively 	related to individuals political interest. The study finds a really 	low threshold value of assets (between 300-600 £) above which no obvious 	additional asset effects are observed.</td><td>This study shows that assets have strong effects on various outcome 	variables. The presence of the asset at a low level matters, rather than 	its monetary value. Research should further explore why assets have these 	effects.</td> </tr>
+ <tr class="even"><td>Caner and Wolff (2004)</td><td>1984, 1989, 1994, 1999 PSID.</td><td>Full sample, except for those with missing value on house and family 	weights, and except for those with extreame and large value on wealth data.</td><td>(1) Descriptive. (2) Probit.</td><td>Possiblity of becoming asset poor, possibility of escaping from asset 	poverty.</td><td>Demographic variables, life time events such as change of job status, 	retirement, ending or getting marriage, having children, starting or closing 	business, home ownership, becoming disabled, and inheritance.</td><td>(1) The overall rates of asset poverty during 1984-1999 varied between 	26 and 42 percent. (2) Marriage is positively associated with the probability 	of escaping poverty, while single parenthood is positively associated with 	the probability of becoming asset poor.</td><td>The lifetime events are correlated with transitions into and move out 	of asset poverty.</td> </tr>
+ <tr class="odd"><td>Carney and Gale (2001)</td><td>1984, 1985, 1986, 1990, 1991, 1992 panels SIPP.</td><td>Households with heads aged between 25-64.</td><td>(1) Descriptive. (2) Standard Heckman two-stage regressions.</td><td>Net worth, financial assets, housing equity, and having transaction accounts.</td><td>Age, race, public assistance participation, education, income, marital 	status, employment, and family type.</td><td>(1) 20 percent of all households have no basic transaction accounts(i.e., 	a savings or checking account) and that more than half of all households 	have less than $5,000 in financial assets. Those in the bottom 25 percent 	of the income distribution have virtually no financial assets whatsoever. 	(2) Income, age, education, and marital status are significantly associated 	with the level of net worth and financial assets. (3) The ownership of 	transanctions account is associated with large increases in the likelihood 	of owning other forms of wealth.</td><td>NA.</td> </tr>
+ <tr class="even"><td>Edin (2001)</td><td>Qualitative data collected by the author.</td><td>Low-income single mothers in Chicago, Charleston, and South Carolina 	(N=198), non-custorial low income fathers in Philadelphia (N=180).</td><td>(1) Qualitative. (2) In-depth interview.</td><td>Types of assets held by single parents and the effects of these assets.</td><td>NA.</td><td>The accumulation of assets over the life course is largely dependent 	upon having an income surpuls, along with the belief and faith that ones 	income will remain relatively stable from one month to next.</td><td>NA.</td> </tr>
+ <tr class="odd"><td>Gale and Scholz (1994)</td><td>1983, 1986 SCF.</td><td>Full sample (2,822 households including 359 in the high-income sample).</td><td>Descriptive.</td><td>Net worth.</td><td>Inter vivos transfers, inheritances.</td><td>Intended family transfers and bequests are estimated to account for 51% 	of current U.S. wealth. Of 51%, intended family transfers account for 20% 	and bequests account for 31%. Additional 12% was acquired through the payment 	of college expenses by parents. Consequently, approximately two-thirds of 	the net worth that individuals acquire comes through family transfers.</td><td>Intended transfers are an important source of wealth.</td> </tr>
+ <tr class="even"><td>Goktale and Kotlikoff (2002)</td><td>1995 SCF combined with wage trajectory estimated with CORSIM, a dynamic 	microsimulation model of the U.S. economy.</td><td>Household heads aged 60-69.</td><td>Simulation.</td><td>Net worth at age 66.</td><td>Net worth of parents.</td><td>The children of the very rich have roughly 40 times better odds of being 	very rich than do the children of the poor.</td><td>NA.</td> </tr>
+ <tr class="odd"><td>Gruber (2001)</td><td>1984-1992 panels SIPP.</td><td>All unemployment spells during the observation.</td><td>(1) Descriptive. (2) Selection-corrected regressions.</td><td>Change in log real wealth.</td><td>Employment status (unemployed, labor force leavers, and employed), gender, 	marital status, race, duration of spell, the generosity of unemployment 	insurance, and education.</td><td>(1) On Average, about 50%-60% of the sample have wealth lower than their 	expected income loss from unemployment. The typical worker has gross financial 	assets that can replace 73% of realized income loss. Almost one-third cannot 	even replace 10% of loss. (2) Among the unemployed, older men, whites, and 	those on temporary layoff have much more adequate saving. The adequacy of 	wealth holdings drops very rapidly with duration of unemployment. (3) Individuals 	draw their wealth down less rapidly as Unemployment Insurance benefits are 	more generous.</td><td>The financial assets holdings of the unemployed are really low and 	heterogenous.</td> </tr>
+ <tr class="even"><td>Haveman and Wolff (2000)</td><td>1983, 1989, 1992, 1995, 1998 SCF.</td><td>Full sample (both core and high-income supplement).</td><td>Descriptive.</td><td>Asset poverty measure with Marketable Wealth(MW), asset poverty measure 	with Marketable Wealth less Home Equity (MW-HE), asset poverty measure with 	Liquid Wealth (LIQ).</td><td>NA.</td><td>(1) Except the MW-HE measure, the 1998 level of asset poverty exceeded 	its 1983 level. (2) The asset poverty rates fall monotonically by age and 	education. (3) Whites and homeowners are much less likely to be in asset 	poverty. (4) Female-headed families with children have the highest asset 	poverty rate.</td><td>NA.</td> </tr>
+ <tr class="odd"><td>Keister (2000)</td><td>1983-1995 SCF.</td><td>Full sample.</td><td>(1) Descriptive. (2) Logistic regression. (3) Simulation.</td><td>The odds of having family net worth greater than its income, the odds 	of moving into upper decile in net worth distribution, family debt holdings, 	the odds of moving into top 10% of the wealth distribution, the odds of movement 	out of bottom 20%, and the odds of movement into bottom 20%.</td><td>Househeads demographic characteristics (age , race, marital status, 	income, and education).</td><td>(1) Median net worth distribution by age group shows that it is lowest 	among youngest group (younger than 35), highest among mid-age group (45-64 	years), and midean net worth among retirement age group (65 or older) smaller 	than middle-age group. (2) Being married, being white, having high income, 	and having high education are positive association with the odds of upward 	mobiltiy.</td><td>(1) Wealth accumulation increases throughout the working years and declines 	after retirement, but the dissaving is less extreme than the life cycle theory 	predicts. (2) Marital status, race, income, and education affect wealth mobility.</td> </tr>
+ <tr class="even"><td>Keister (2003)</td><td>1985-2000 NLSY79.</td><td>Full sample excluding those with missing values on wealth data.</td><td>(1) Estimated generalized least-squares (EGLS) regression. (2) Logistic 	regression.</td><td>The dollar value of net worth, the probability of receiving a trust, 	the probability of receiving an inheritance, the probability of owning a 	home, and the probability of owning stocks.</td><td>Total number of siblings, parents income and education in 1978, 	respondents education, age, race, marital status, income, and family 	religion and family structure during childhood.</td><td>Number of siblings has a significantly negative association with net 	worth, the probability of receiving trust account, the probability of receiving 	inheritance, the probability of owing a home, and the probability of owing 	stocks.</td><td>Number of siblings affect wealth, at least in part by reducing the resources 	available to each child. Siblings reduce direct financial transfers from 	parents to children. Sibship size affects investment behavior.</td> </tr>
+ <tr class="odd"><td>Kotlikoff and Summers (1981)</td><td>Aggregated data from various sources, such as National Income accounts, 	IRS Statistics of Income.</td><td>NA.</td><td>Descriptive.</td><td>Aggregated wealth (net worth).</td><td>NA.</td><td>The vast majority, more than 80%, of aggregate U.S. capital fomation 	is result of intergenerational transfers.</td><td>The view of U.S. capital formation as arising, in the main, from essentially 	homogeneous individuals or married spouses saving when young for their retirement 	is factually incorrect.</td> </tr>
+ <tr class="even"><td>Lupton and Smith (1999)</td><td>HRS, 1984, 1989, 1994 PSID.</td><td>Full sample excluding top and bottom 1% of net worth distribution.</td><td>(1) OLS. (2) Median regression. (3) Quantile regression.</td><td>Household wealth changes and household saving behavior between wave 	difference in net worth.</td><td>Marital status, marital status change between waves, marriage duration.</td><td>(1) Controlling for rae and age, on average married couples saved about 	$11,000 to $14,000 more over a five year observation period than non-married 	household saved. (2) Households whose head was married in 1984 and 1989 but 	then unmarried by 1994 decreased saving by almost $21,000 after controlling 	for demorgraphic characteristics. (3) Households whose head was not married 	in 1984 and 1989 but then married by 1994 increased saving by $16,537.</td><td>Married people apparently save significantly more than other households, 	but, comparing duration effects on saving of married households to all unmarried 	households, the gap in saving between these two marital states decreases 	with time.</td> </tr>
+ <tr class="odd"><td>Munnell, Browne, McEneaney, and Tootell (1996)</td><td>Federal Reserve Bank of Boston survey (Boston Fed Study).</td><td>Loan applications for conventional mortgages in the Boston area in 1990, 	including all applications made by blacks and Hispanics and a random sample 	made by whites.</td><td>(1) OLS. (2) Bionominal logit.</td><td>Probability of mortgage loan application denial.</td><td>Risk of default (housing expense/income, total debt payment/income, net 	worth, consumer credit history, mortgage credit history, public record history, 	unemployment region, self-employed, loan/appraised value), cost of default 	(denied private mortgage insurance), loan characteristics (two-to four-family 	home), personal characteristics (race).</td><td>(1) Black and Hispanic applicants in the Boston area, on average, have 	less wealth, weaker credit histories, and higher loan-to-value ratios than 	white applicants. (2) Taking account these information on applicant and property 	characteristics reduces the difference between minority and white in denial 	rate from originally reported a relative rejection ratio of 2.8 to 1 to roughly 	1.8 to 1. (3) White applicants with the same personal and property 	characteristics as black and Hispanic applicants would have experienced a 	rejection rate of 20 percent while black and Hispanics rate of 28 percent.</td><td>Black and Hispanic mortgage applicants in the Boston area were over 80 	percent more likely to be rejected than white applicants with similar personal 	and property characteristics.</td> </tr>
+ <tr class="even"><td>Powell, Steelman, and Carini (2006)</td><td>1988 National Education Longitudinal Study.</td><td>Nationally representative eighth graders whose biological or adoptive 	mothers were interviewed for the survey.</td><td>(1) OLS. (2) Logistic regression. (3) Tobit model.</td><td>Economic resources for childs education: saved for college, when 	started saving, amount saved, willing to incur debt, private school, educational 	objects, computer in home.</td><td>Maternal age.</td><td>(1) In the bivariate analysis, maternal age is significantly positively 	correlated with all 7 variables of economic resources, except the willingness 	to incur debt (a negative relatioionship with maternal age). (2) After controling 	for family income, race, education, childs gender, number of siblings, 	birth order of the child, and marital status of the mother, maternal age 	has a significant coefficient.</td><td>Maternal age has significantly positive effects on economic resources 	for childs education.</td> </tr>
+ <tr class="odd"><td>Reid (2004)</td><td>PSID.</td><td>5,300 renters who had not owned a home in past five years.</td><td>(1) Descriptive. (2) Multivariate.</td><td>Home ownership status, value of home, home equity.</td><td>Income, race.</td><td>(1) Among low-income renters, whites, married couples, professionals, 	and those with at least HS degree were more likely to buy homes. (2) Many 	homeowners, especially low-income and minority, return to renting. (3) Financial 	returns to home ownership were very small for low-income minorities, low-income 	whites, and middle-income minorities. Still, housing wealth is essentially 	the only asset for many low-income minority home owners and some do experience 	appreciation. (4) Experiencing a divorce is one of the most important factors 	in the transition from owing to renting, regardless of race or income.</td><td>(1) Homeownership disproportionately benefits white and middle- and 	upper-income households. (2) Increasing homeownership among blacks will not 	substantially reduce the racial wealth gap. (3) Homeownership is an incredibly 	fluid category, with many families moving in and out of homeownership several 	times over the course of their lives.</td> </tr>
+ <tr class="even"><td>Ross and Yinger (2002)</td><td>Public version of Boston Fed Studys data set.</td><td>About 3,000 loan applications for conventional mortgages in the Boston 	area in 1990, including all applications made by blacks and Hispanics and 	a random sample made by whites.</td><td>Probit.</td><td>Mortgage loan approval.</td><td>Expense-to-income, debt-to-income, net worth, predicted unemployment, 	self-employed, loan-to-value ratio, denied PMI, multifamily unit, fixed-rate 	mortgage, special loan, mortage term in year, receiving downpaymant as gift, 	cosigner, minority status, age, gender, marrital status, owner-occupied home, 	House in a poor Census tract, House in a minority Census tract, bankruptcy, 	mortgage credit, consumer credit, having unverified information in application, 	application met lender guideline or not.</td><td>(1) Even after controlling for explanatory variables not included in 	most previous studies (e.g. whether an application meet lender guideline), 	the estimated impacts of minority status on loan approval remains statistically 	significant. (2) Even after dropping all cases that appear to involve 	negotiations, the effect of minority status remains significant. (3) Minority 	households are less likely to be approved than white equally qualified in 	all different types of model specification.</td><td>The white-minority disparity in loan approval found by the Boston Fed 	Study cannot be explained by omitted variables, data errors, misclassification, 	endogeneity of loan terms, or underwriting standard variation. The Boston 	Fed Study provide strong evidence of racial discrimination in mortgage loan 	approval.</td> </tr>
+ <tr class="odd"><td>Ruggles and Williams (1989)</td><td>1984 panel SIPP.</td><td>Full sample.</td><td>Descriptive.</td><td>Simulated poverty entries and spell durations based on monthly data.</td><td>Financial assets.</td><td>Asset holdings are sufficient to eliminate nearly 40% of short-term poverty 	entries. Three-fifths of poverty entries (based on monthly data) have too 	few assets to eliminate their poverty gap over the duration of the poverty 	spell. Including financial assets in family resources to calculate poverty 	entry and spell has different effects on children and the elderly.</td><td>Even when asset holdings are taken into account in family resources, 	subannual spells of poverty are extremely common.</td> </tr>
+ <tr class="even"><td>Schreiner and Sherraden (2007)</td><td>Administrative data from ADD.</td><td>Over 2,000 participants in 14 IDA programs.</td><td>(1) Descriptive. (2) Multivariate.</td><td>IDA saving.</td><td>Match rate, match cap.</td><td>Participants who were eligible for higher match rates were more likely 	to be savers but had lower monthly net savings. When both of 	these effects are considered, higher match rates increased average saving. 	Higher match caps were associated with greater saving. Net IDA deposits increased 	substantially during tax season.</td><td>Higher match rates increase inclusion. Many IDA participants were saving 	for fixed goals.</td> </tr>
+ <tr class="odd"><td>Shapiro (2004)</td><td>Qualitative data from in-depth interviews, SIPP, PSID.</td><td>In-depth interview sample of 200 poor to middle-class families with 	school-age children in Boston, LA, and St. Louis.</td><td>Descriptive.</td><td>Receipt of transfer or financial assistance, effects of transfer/financial 	assistance.</td><td>Race.</td><td>(1) Sizable inheritances and inter vivos gifts can give young families 	a head start(ex: Allows home purchase in neighborhood with good 	schools). (2) Whites are more likely than blacks to receive sizable transfers. 	(3) Families with assets are able to acquire high-quality education for their 	children, and their education can transfer their economic advantages to their 	children.</td><td>Transfer of transformative assets perpetuates inequality.</td> </tr>
+ <tr class="even"><td>Warren and Britton (2003)</td><td>The 1995-96 Family Resources Survey (Britain).</td><td>A representative sample of 26,000 households in Britain.</td><td>(1) Descriptive. (2) Regression.</td><td>Net worth (pension, home equity, financial assets).</td><td>Ethnicity.</td><td>There are extreme differences of asset distributions in terms of ethnic 	diversity. The White, Chinese, and Indian working-age families have the highest 	levels of assets. Other ethnic groups (Bangladeshi, Black-Caribbean, 	Black-African, and Pakistani) are significantly associated with having lower 	levels of assets. 30% of Chinese and White families are in the 	income-rich/asset-rich group. However, for some other ethnic groups (Pakistani, 	Black-Other, Black-African, and Bangladeshi), more than 50% of families are 	in the income-poor/asset-poor group.</td><td>Taking into account wealth and assets is helpful to show a more comprehensive 	picture of ethnic economic diversity. The low levels of asset accumulation 	for some ethnic groups show life-course ecnomic disadvantages.</td> </tr>
+ <tr class="odd"><td>Zagorsky (2005)</td><td>1985-2000 NLSY79.</td><td>9000 young baby boomers who participated inmore than half (&amp;gt;6) of 	the NLSY79 surveys.</td><td>Regression.</td><td>Ln (Net worth).</td><td>Marital statusin 2000, number of years in each martial status during 	the observation period, age, gender, race, education, income, self-employed.</td><td>(1) Married respondents experienced a net worth increase of 77 percent 	over single respondents. (2) Net worth of divorced respodents started falling 	four years before divorce and their average net worth is lower by 77 percent 	than that of single respondents.</td><td>Marriage and divorce do have effect on wealth.</td> </tr>
+ <tr class="even"><td>Ziliak (2003)</td><td>1980-1991 PSID.</td><td>1,210 male and female household heads between the ages of 25 - 52 in 	1980 who did not change marital status over the sample period (14,520 	person-year).</td><td>(1) Generalized method-of-moments (GMM). (2) Decomposition.</td><td>Ln(liquid-wealth-to-premanent-income ratio), 	Ln(net-wealth-to-permanent-income ratio).</td><td>Permanent asset-tested transfer income (12 year average over observation 	period), permanent non-asset tested transfer income.</td><td>(1) Permanent asset-tested transfer income and permanent non-asset-tested 	transfor income have significantly negative associations with 	liquid-asset-to-income-ratio. The former has much larger effect on liquid 	asset accumulation. (2) Both asset-tested and non-asset tested transfer income 	have negative but not statistically significant effect on net-wealrth-to-income 	ratio. (3) Decomposition results indicate that virtually all rich-poor liquid 	asset gap is attributable to differences in average characteristics, not 	differences in coefficients.</td><td>NA.</td> </tr>
+</tbody>
+</table>
+ </div><div class="group-tags"><div class="field-label">Tags:&nbsp;</div><a href="/terms/assets-and-resources">Assets and Resources</a><a href="/terms/asset-buildingfinancial-literacy">Asset Building/Financial Literacy</a><a href="/terms/low-income-populations">Low-Income Populations</a><a href="/terms/asset-buildingfinancial-literacy-0">Asset Building/Financial Literacy</a><a href="/terms/poverty-income-and-assets">Poverty, Income, and Assets</a><a href="/terms/welfare-work-and-self-sufficiency">Welfare, Work, and Self-Sufficiency</a><a href="/terms/vulnerable-populations">Vulnerable Populations</a><a href="/terms/economic-support-and-employment">Economic Support and Employment</a><a href="/terms/poverty-and-measurement">Poverty and Measurement</a></div>  </div>
+
+      <footer>
+          </footer>
+  
+    <div id="block-webform-client-block-158521" class="widget block block-webform" >
+  
+      
+  <div id="webform-ajax-wrapper-158521"><form class="webform-client-form webform-client-form-158521" action="/dataset/empirical-studies-asset-building-over-life-course" method="post" id="webform-client-form-158521" accept-charset="UTF-8"><div><div class="webform-progressbar">
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-radios webform-component--was-this-page-helpful">
+  <label for="edit-submitted-was-this-page-helpful">Was this page helpful? <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-was-this-page-helpful" class="form-radios"><div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-1" name="submitted[was_this_page_helpful]" value="1" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-1">Yes </label>
+
+</div>
+<div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-2" name="submitted[was_this_page_helpful]" value="0" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-2">No </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="4" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-kZi4w20RoR6kvRxDLGad5oopHH7ZtLlM66RLPTzWXok" />
+<input type="hidden" name="form_id" value="webform_client_form_158521" />
+<input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-158521" />
+<div class="form-actions"><input class="webform-next button-primary btn btn-default form-submit" type="submit" id="edit-webform-ajax-next-158521" name="op" value="Next &gt;" /></div>
+<div class="is-useful-disclaimer"> <a href="/%23" class="" title="Survey Disclaimer" data-toggle="modal" data-target="#disclamerModal">Form Approved OMB# 0990-0379 Exp. Date 8/31/2017</a></div>
+<div class="modal fade" id="disclamerModal" tabindex="-1" role="dialog" aria-labelledby="disclamerModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="disclamerModalLabel">Survey Disclaimer</h2>
+      </div>
+      <div class="modal-body">
+         According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this information collection is 0990-0379. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, gather the data needed, and complete and review the information collection. If you have comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: U.S. Department of Health & Human Services, OS/OCIO/PRA, 200 Independence Ave., S.W., Suite 336-E, Washington D.C. 20201, Attention: PRA Reports Clearance Officer.      </div>
+    </div>
+  </div>
+</div></div></form></div>
+  </div> <!-- /.block -->
+<meta  itemscope="" itemid="https://aspe.hhs.gov/dataset/empirical-studies-asset-building-over-life-course" itemref="md1 md3 md5 md7 md9 md11 md13 md15 md17 md19" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/assets-and-resources" id="md3" itemref="md2" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/asset-buildingfinancial-literacy" id="md5" itemref="md4" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/low-income-populations" id="md7" itemref="md6" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/asset-buildingfinancial-literacy-0" id="md9" itemref="md8" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/poverty-income-and-assets" id="md11" itemref="md10" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/welfare-work-and-self-sufficiency" id="md13" itemref="md12" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/vulnerable-populations" id="md15" itemref="md14" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/economic-support-and-employment" id="md17" itemref="md16" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/poverty-and-measurement" id="md19" itemref="md18" />              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  id="Bottom-Sidebar" class="row">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  class="col-md-12 " id="sidebar">
+                          
+                              <div id="block-aspe-nodes-aspe-dataset-related-content" class="widget block block-aspe-nodes" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Featured</span> In</h3>
+		</div>
+    
+  <div class="dataset-original-report">Original report: <a href="/basic-report/asset-building-over-life-course">Asset Building over the Life Course</a></div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <footer  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  id="Footer" class="row">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-4 " id="footer_sitemap-footer_sitemap">
+                          
+                              <div id="block-footer-sitemap-footer-sitemap" class="widget block block-footer-sitemap" >
+  
+      
+  <div id="footer-sitemap" class="clearfix">
+  <div class="fs-block-content"><div class="menu-footer-utility"><ul class="footer_links_menu-footer-utility total-items-2 parent-items-0 single-items-0"><li class="menu-5021 depth-1 total-children-8 parent-children-0 single-children-8  first"><a href="/" title="look at ASPE Home" class="fs-root-link">ASPE Home</a><ul class="footer_links_menu-footer-utility total-items-8 parent-items-0 single-items-0"><li class="menu-5026 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/" title="look at HHS Home">HHS Home</a></li>
+<li class="menu-66281 depth-1 fs-no-children"><a href="http://www.usa.gov/" title="look at USA.gov">USA.gov</a></li>
+<li class="menu-66316 depth-1 fs-no-children"><a href="https://oig.hhs.gov/" title="look at Office of the Inspector General">Office of the Inspector General</a></li>
+<li class="menu-66321 depth-1 fs-no-children"><a href="http://www.whitehouse.gov" title="look at The White House">The White House</a></li>
+<li class="menu-5046 depth-1 fs-no-children"><a href="http://www.hhs.gov/Accessibility.html" title="look at Accessibility">Accessibility</a></li>
+<li class="menu-66326 depth-1 fs-no-children"><a href="http://www.hhs.gov/about/budget/index.html" title="look at Budget/Performance">Budget/Performance</a></li>
+<li class="menu-2551 depth-1 fs-no-children"><a href="http://www.hhs.gov/Privacy.html" title="look at Privacy Policy">Privacy Policy</a></li>
+<li class="menu-197776 depth-1 fs-no-children  last"><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" title="Nondiscrimination Notice">Nondiscrimination Notice</a></li>
+</ul></li>
+<li class="menu-5051 depth-1 total-children-4 parent-children-0 single-children-4  last"><a href="http://www.hhs.gov/foia/" title="look at FOIA" class="fs-root-link">FOIA</a><ul class="footer_links_menu-footer-utility total-items-4 parent-items-0 single-items-0"><li class="menu-5056 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/open/recordsandreports/plainwritingact/index.html" title="look at Plain Writing Act">Plain Writing Act</a></li>
+<li class="menu-5061 depth-1 fs-no-children"><a href="http://www.hhs.gov/asa/eeo/no_fear_bullet_3.html" title="look at No Fear Act">No Fear Act</a></li>
+<li class="menu-5066 depth-1 fs-no-children"><a href="http://www.hhs.gov/Disclaimer.html" title="look at Disclaimers">Disclaimers</a></li>
+<li class="menu-2546 depth-1 fs-no-children  last"><a href="http://www.hhs.gov/plugins.html" title="look at Viewers &amp; Players">Viewers &amp; Players</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  id="stability_cms-contact_us" class="col-sm-6 col-md-6 col-lg-5 ">
+                          
+                              <div id="block-stability-cms-contact-us" class="widget block block-stability-cms" >
+  
+      
+  <div class="contacts-widget widget widget__footer">
+	<div class="widget-content">
+		<ul class="contacts-info-list">
+      			<li>
+<!--				<i class="fa fa-map-marker">Address</i>-->
+                <div class="info-icons">
+                    <img  alt="map" class= 'map-icons' src="/sites/all/themes/stability/stability_aspe/images/map.png"/>
+                </div>
+                <div class="info-item">
+					Assistant Secretary for Planning and Evaluation, Room 415F<br />
+U.S. Department of Health and Human Services<br />
+200 Independence Avenue, SW<br />
+Washington, D.C. 20201				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-phone">phone</i>-->
+                <div class="info-icons">
+                    <img alt="phone" src="/sites/all/themes/stability/stability_aspe/images/phone.png"/>
+                </div>
+				<div class="info-item">
+					+1 202.690.7858				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-envelope">email</i>-->
+                <div class="info-icons">
+                    <img alt="mail" src="/sites/all/themes/stability/stability_aspe/images/mail-white.png"/>
+                </div>
+				<span class="info-item">
+					<a href="mailto:osaspeinfo@hhs.gov">osaspeinfo@hhs.gov</a>
+				</span>
+			</li>
+      			                					</ul>
+	</div>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  id="footer" class="col-sm-6 col-md-6 col-lg-3 ">
+                          
+                              <div id="block-block-36" class="widget block block-block" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sign-up</span> for Email Updates</h3>
+		</div>
+    
+  <div class="email_updates">
+<button class="btn btn-default" name="subscribe-button" type="submit" value="subscribe">subscribe</button>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-12 " id="menu-menu-footer-language-menu">
+                          
+                              <div id="block-menu-menu-footer-language-menu" class="widget block block-menu" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Language</span> Assistance Available</h3>
+		</div>
+    
+  <ul class="menu"><li class="first expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#spanish" title="Español">Español</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#chinese" title="繁體中文">繁體中文</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#vietnamese" title="Tiếng Việt">Tiếng Việt</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#korean" title="한국어">한국어</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#tagalog" title="Tagalog">Tagalog</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#russian" title="Русский">Русский</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#arabic" title="العربية">العربية</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#creole" title="Kreyòl Ayisyen">Kreyòl Ayisyen</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#french" title="Français">Français</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#polish" title="Polski">Polski</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#portuguese" title="Português">Português</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#italian" title="Italiano">Italiano</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#german" title="Deutsch">Deutsch</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#japanese" title="日本語">日本語</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#farsi" title="فارسی">فارسی</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#english" title="English">English</a></li>
+</ul></li>
+</ul>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+      </div>
+
+          </div>
+    
+    
+      </footer>
+    
+
+    <!--/PAGEWATCH-->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+                        </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="social-links-wrapper">
+              <span class="social-links-txt">Connect with us</span>
+              <ul class="social-links social-links__dark">
+                                                  <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw-grey.png"/></a></li>
+                                <!--                --><!--                  <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin-grey.png"/></a></li>-->
+<!--                -->
+                                                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>  <script type="text/javascript" src="/sites/default/files/advagg_js/js__VWRymaMz6HfrhnrcJNGcDiSvLVrvhaXvBa7nrBYy8gc__jntPwP3D6myJZH1jW19fXrk5cYMHGRL8NQION22VSEA__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5486d15a696bff0c"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__g6mKbcakHxQkz4ZHYaxdO_xqONINvRMgsHh1zAK-fr0__ATHtEmHaeZ0jidpGU22EkhmPDBSgjD8z0bVDQMI-BIY__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__KUp4PrfOt9BSXUVl8Ctb3dhCMBe4MNVMeb4Gyorx8yY__7g4BeXscCIZAfuu1vxsCj2RIemg-eEK0QpChP9LDmFQ__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__PNjAgubM_3xXRLp4uLsYnv8wQAdT89-RYkSPxT6T45c__rFQwFK4pA5ZaWZSF7FPTfKbbpus0h-5IS8ayrNZGrb4__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__vQiLul2UcfC4nBAR09mhYVBYzRmiNDm2dj3GgSubV38__w84oZe-ZODKe7XnnlbrjV4IWHISOy4PioFEMVgx9hZo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__QJw3g0kOdwsv4twSZLP931zBzsHy50VEHpEN_znIitQ__A6QOuWXElDipBM2iChbWhjAAt3KlUwZ-jODoxdpbwiw__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stability_aspe","theme_token":"AYOZnKlaFzeddMw-F-Kr8nGIJlS4zxa_IQOQYrgrdtU","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/footable.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/aspe_nodes.admin.css":1,"sites\/all\/modules\/custom\/aspe_views\/theme\/css\/aspe_views.admin.css":1,"sites\/all\/modules\/forked\/book\/book.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/openpublic\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.css":1,"profiles\/openpublic\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openpublic\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/openpublic\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/themes\/stability\/css\/bootstrap.min.css":1,"sites\/all\/themes\/stability\/css\/fonts\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.theme.css":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/stability\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/stability\/css\/theme.css":1,"sites\/all\/themes\/stability\/css\/theme-elements.css":1,"sites\/all\/themes\/stability\/css\/animate.min.css":1,"sites\/all\/themes\/stability\/css\/skins\/red.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/slideshow.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/font-main.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/styleless.less":1,"sites\/all\/themes\/stability\/css\/skins\/blue.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/aspe\/theme\/js\/aspe.login-confirm.js":1,"sites\/all\/modules\/custom\/aspe_report\/modules\/aspe_databooks\/js\/aspe_databooks.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.highcharts.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/datatables\/dataTables.min.js":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.min.js":1,"sites\/all\/libraries\/highcharts\/highcharts.js":1,"sites\/all\/libraries\/highcharts\/highcharts.exporting.js":1,"sites\/all\/libraries\/highcharts\/highcharts.map.js":1,"sites\/all\/libraries\/highcharts\/highcharts.us-all.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.footable.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5486d15a696bff0c":1,"misc\/progress.js":1,"profiles\/openpublic\/modules\/contrib\/webform\/js\/webform.js":1,"profiles\/openpublic\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/stability\/vendor\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/stability\/vendor\/bootstrap.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flexnav.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flickrfeed.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.sloppy-masonry.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.fitvids.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.stellar.min.js":1,"sites\/all\/themes\/stability\/vendor\/snap.svg-min.js":1,"sites\/all\/themes\/stability\/js\/custom.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/aspe.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/html5shiv.min.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/main-menu.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/keyboard-control.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tabBehavior.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tileStringTrimmer.js":1}},"webform":{"conditionals":{"webform-client-form-158521":{"ruleGroups":[],"sourceMap":[],"values":[]}}},"ajax":{"edit-webform-ajax-next-158521":{"callback":"webform_ajax_callback","wrapper":"webform-ajax-wrapper-158521","progress":{"message":"","type":"throbber"},"event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Next \u003E"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/dataset\/empirical-studies-asset-building-over-life-course":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"([a-z0-9]\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This website contains links to other federal and state agencies and private organizations. The Department of Health and Human Services (HHS) cannot attest to the accuracy of information provided by these nonfederal website links. Linking to nonfederal sites does not constitute an endorsement by HHS or any of its employees of the sponsors or the information and products presented on the sites. You will be subject to the destination site\u0027s privacy policy when you leave the ASPE website.\r\n\r\nThank you for visiting aspe.hhs.gov!","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"stability":{"flickr_id":"52617155@N08","logo_sticky":"28"},"field_group":{"div":"full"}});
+//--><!]]>
+</script>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config={pubid:"ra-5486d15a696bff0c",ui_click:false}
+//--><!]]>
+</script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4837db659","applicationID":"10708002","transactionName":"MwNaZBRSXEtXB0BdWQpJbUIPHFtWUgFMGkYMFg==","queueTime":0,"applicationTime":25,"atts":"H0RZElxIT0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

@@ -1,0 +1,1919 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">  <!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://aspe.hhs.gov/sites/default/files/Favicon2.png" type="image/png" />
+<meta name="description" content="Lewin-VHI, Inc." />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://aspe.hhs.gov/basic-report/subacute-care-review-literature" />
+<link rel="shortlink" href="https://aspe.hhs.gov/node/68141" />
+<meta property="og:site_name" content="ASPE" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aspe.hhs.gov/basic-report/subacute-care-review-literature" />
+<meta property="og:title" content="Subacute Care: Review of the Literature" />
+<meta property="og:description" content="Lewin-VHI, Inc." />
+<meta property="og:updated_time" content="2016-11-06T11:00:01-05:00" />
+<meta property="article:published_time" content="2015-11-23T03:00:39-05:00" />
+<meta property="article:modified_time" content="2016-11-06T11:00:01-05:00" />
+
+  <title>Subacute Care: Review of the Literature | ASPE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+  <link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__5ln8neBOcJfyUveiD4y9fhI6kHBLOQ_YL0mMC-LS9a0__TPJIZT9UBnf_685NlFTJ5KnZVsjwFk6ACQ-nwwygmwU__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ng49uRH5y4Hl9VF9hHW_vXOj-mcOc2u2ShJqJ1YKIGU__FoMCD14GBvZaRiqSQ_JpP1w3rDB21n7H2Ar4pRZaIh8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__Hskudx14OJ5Hz8vqU7CUgN6SDV5rINZuEq9VuGsSeyc__EwNIl3xeFrniW2TmonovTzhSs3X5MdFps210puE7jog__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__9rZoaX9BdzjjNucvYxduxeNAVO2zgW_Rvjhb5rq5whc__lSr_y16grDSgHf4booPChnF7QXz3TQY3hafH49twE0k__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZgfI_ZPib5yVY0o5aKo_6TFn946Tuu_nFDa0ySTmkSc__2FTFrNw2eNh0mpHIOA34r6YRwBZMm2PjJ_JubnwLigg__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__dxabpJ5rQgDSixKgLJZjWc1beC6mpROKwVrmWxI5eno__rqhz_hGsE_i59O7-W991o71_Jxw1QOtGMxn4nsOLHY8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZbRCq2NqWgK-HXAQI3So0N1n0nr4HonsJS3eQuuxukw__7Olkk8Locn8Dj0eR0Ww3rbV9lks9sxipcboMXB18RRs__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+
+	<!-- Head Libs -->
+	<script src="/sites/all/themes/stability/stability_aspe/vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/sites/all/themes/stability/vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" href="/sites/all/themes/stability/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/stability/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/stability/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/stability/images/apple-touch-icon-144x144.png">
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-68141 node-type-basic-report">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-JLFR"
+                  height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JLFR');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-nav" class="accessibility_menu">
+    <strong>Shortcut Navigation:</strong>
+    <ul>
+      <li><a href="#content" accesskey="c" title="Skip to page content (ctrl/alt + c)">Page Content</a></li>
+      <li><a href="#nav" accesskey="m" title="Skip to main navigation menu (ctrl/alt + m)">Site Navigation</a></li>
+
+      <li><a href="#Footer" accesskey="f" title="Skip to footer (ctrl/alt + f)">Footer</a></li>
+    </ul>
+  </div>
+
+    
+<div class="site-wrapper">
+  
+  <header class="header header-menu-fullw header-top-clean">
+    <div id="brand-bar">
+        <div class="container">
+                    <img alt='bird' src="/sites/all/themes/stability/stability_aspe/images/bird.png"> <a target="blank" tabindex="4" href="http://www.hhs.gov/">U.S. Department of Health & Human Services</a>
+        </div>
+
+    </div>
+    <div class="header-main">
+        <div class="container clearfix">
+            <div class="social-links-wrapper">
+                <ul class="social-links social-links__light">
+                                                          <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw.png"/></a></li>
+                                    <!--                  --><!--                    <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin.png"/></a></li>-->
+<!--                  -->
+                                                                      </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                                <div class="site_name_wrapper">
+                                     <span class="h1">
+                                      <a href="/">ASPE</a>
+                                       </span>
+                                  <p class="tagline"><p>Office of The Assistant Secretary</p><p> for Planning and Evaluation</p></p>
+                    </div>
+            </div>
+            <!-- Logo / End -->
+            <div class="header_right_wrapper">
+                <div class="search-form">
+                    <form action="/basic-report/subacute-care-review-literature" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class = "input-group"><div class="form-type-textfield form-item-search-block-form form-item form-group">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search Site..." class="form-control form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input class="btn btn-primary btn-icon form-submit" type="image" id="edit-submit" name="submit" value="Search" src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/search-white2.png" alt="Search" title="Search" /></div></div><input type="hidden" name="form_build_id" value="form-PUsbpU0zdKkczjNbzWj1xlfi2C0Ah56mCe-gd0P2224" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </div>
+                <button type="button" class="navbar-toggle" value="Menu">
+                    <i class="fa fa-bars"></i>Menu
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-main">
+        <div class="container">
+          <ul data-breakpoint="767" class="flexnav">
+                <li class="first expanded"><a href="/basic-search/about" title="">About</a><ul><li class="first leaf"><a href="/mission" title="">Mission</a></li>
+<li class="leaf"><a href="/key-staff" title="">Leadership</a></li>
+<li class="leaf"><a href="https://www.usajobs.gov/" title="">Careers</a></li>
+<li class="expanded"><a href="/coordination" title="linkTo">Coordination</a><ul><li class="first leaf"><a href="/evaluation-evidence" title="">Evaluation &amp; Evidence</a></li>
+<li class="leaf"><a href="/national-alzheimers-project-act">National Alzheimer&#039;s Project Act</a></li>
+<li class="leaf"><a href="/health-and-human-services-hhs-data-council">HHS Data Council</a></li>
+<li class="last leaf"><a href="/national-committee-vital-and-health-statistics" title="National Council on Vital and Health Statistics">National Council on Vital and Health Statistics</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/divisions" title="">Offices</a><ul><li class="first leaf"><a href="/office-disability-aging-and-long-term-care-policy-daltcp">Disability, Aging, and Long-Term Care Policy</a></li>
+<li class="leaf"><a href="/office-health-policy-hp">Health Policy</a></li>
+<li class="leaf"><a href="/office-human-services-policy">Human Services Policy</a></li>
+<li class="last leaf"><a href="/office-science-and-data-policy">Science and Data Policy</a></li>
+</ul></li>
+<li class="leaf"><a href="/strategic-planning" title="Strategic Planning">Strategic Planning</a></li>
+<li class="last leaf"><a href="/contact-aspe" title="">Contact ASPE</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/topics" title="">Topics</a><ul><li class="first leaf"><a href="/affordable-care-act-research">Affordable Care Act Research</a></li>
+<li class="leaf"><a href="/alzheimers-dementia">Alzheimer&#039;s / Dementia</a></li>
+<li class="leaf"><a href="/early-childhood">Early Childhood</a></li>
+<li class="leaf"><a href="/incarceration-reentry">Incarceration &amp; Reentry</a></li>
+<li class="leaf"><a href="/opioid-abuse-us-and-hhs-actions-address-opioid-drug-related-overdoses-and-deaths" title="Opioids">Opioids</a></li>
+<li class="leaf"><a href="/patient-centered-outcomes-research-trust-fund">Patient-Centered Outcomes Research Trust Fund (PCORTF)</a></li>
+<li class="expanded"><a href="/basic-search/poverty" title="">Poverty</a><ul><li class="first leaf"><a href="/poverty-guidelines">Poverty Guidelines</a></li>
+<li class="last leaf"><a href="/poverty-estimates-trends-and-analysis">Poverty Analysis</a></li>
+</ul></li>
+<li class="leaf"><a href="/teen-pregnancy-prevention">Teen Pregnancy Prevention</a></li>
+<li class="leaf"><a href="/homelessness">Homelessness</a></li>
+<li class="last leaf"><a href="/medicare-access-and-chip-reauthorization-act-2015">MACRA</a></li>
+</ul></li>
+<li class="leaf"><a href="/reports" title="">Publications</a></li>
+<li class="last expanded"><a href="/basic-search/datasets" title="">Data and Tools</a><ul><li class="first last leaf"><a href="/evaluations" title="">Evaluation Database</a></li>
+</ul></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation / End -->
+</header>  <div class="main" role="main">
+    <!--PAGEWATCH CODE="USHHS_458"-->
+    <section class="page-heading">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+                <h1>
+                    
+          Subacute Care: Review of the Literature        </h1>
+                                 <p class="author">
+                                                 <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="1994-12-01T00:00:00-05:00">12/01/1994</span>               
+                           </p>
+
+
+                  </div>
+
+
+        <div class="col-md-6">
+           <ul class="breadcrumb"><li class="first"><a href="/" title="Home">Home</a></li>
+<li class="last">Subacute Care: Review of the L...</li>
+</ul>        </div>
+
+
+    </div>
+  </div>
+</section>
+    
+      <div  class="nd-region nd-region-filter">
+  
+       
+
+    
+      <div  id="Filter" class="row">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region nd-region-similar-content">
+  
+       
+
+    
+      <div  id="Similar-Content" class="row">     
+
+        
+                  
+        
+                                    <div  id="top" class="">
+                          
+                              <div id="block-views-2100ccfdd214bdbcf634d7e4832c265b" class="widget block block-views solr-similar-content" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Similar</span> content</h3>
+		</div>
+    
+  <div class="view view-similar-content-solr view-id-similar_content_solr view-display-id-block_solr_similar_content view-dom-id-70d188a1a38cca47fc2bc4f0683d000c">
+        
+  
+  
+      
+    
+    <span class="field-content"><a href="/execsum/subacute-care-policy-synthesis-and-market-area-analysis">Subacute Care: Policy Synthesis and Market Area Analysis</a></span>    
+    <span class="field-content"><a href="/basic-report/trends-special-care-1995-national-nursing-census-sub-acute-units">Trends in Special Care: The 1995 National Nursing Census of Sub-Acute Units</a></span>    
+    <span class="field-content"><a href="/basic-report/medicares-post-acute-care-benefits-background-trends-and-issues-be-faced">Medicare&#039;s Post-Acute Care Benefits: Background, Trends, and Issues to Be Faced</a></span>    
+    <span class="field-content"><a href="/execsum/trends-special-care-1995-national-nursing-census-sub-acute-units">Trends in Special Care: The 1995 National Nursing Census of Sub-Acute Units</a></span>    
+    <span class="field-content"><a href="/basic-report/subacute-care-policy-synthesis-and-market-area-analysis">Subacute Care: Policy Synthesis and Market Area Analysis</a></span>  
+  
+  
+  
+  
+  
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Content">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  class="col-md-12 " id="content">
+                          
+                              <div id="block-aspe-aspe-addthis" class="widget block block-aspe" >
+  
+      
+  <div class="clearfix">
+  <ul class="addthis_sharing_toolbox node-share__links" data-url="https://aspe.hhs.gov/basic-report/subacute-care-review-literature" data-title="Subacute Care: Review of the Literature">
+    <li><a class="addthis_button_print"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/print-white.png" alt="print" /></a></li>
+    <li><a class="addthis_button_email"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/mail-white.png" alt="email" /></a></li>
+    <li><a class="addthis_button_twitter"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/tw.png" alt="twitter" /></a></li>
+<!--    <li><a class="addthis_button_facebook">--><!--</a></li>-->
+    <li><a class="addthis_button_compact"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/plus-white.png" alt="compact" /></a></li>
+  </ul>
+</div>
+
+  </div> <!-- /.block -->
+
+                
+    
+  
+  <div class="content clearfix node-basic-report">
+    <p><strong>Lewin-VHI, Inc.</strong></p>
+<hr /><p><em>This report was prepared under contract between the U.S. Department of Health and Human Services (HHS), Office of Disability, Aging and Long-Term Care Policy (DALTCP) and the Lewin Group. For additional information about this subject, you can visit the DALTCP home page at http://aspe.hhs.gov/_/office_specific/daltcp.cfm or contact the office at HHS/ASPE/DALTCP, Room 424E, H.H. Humphrey Building, 200 Independence Avenue, S.W., Washington, D.C. 20201. The e-mail address is: webmaster.DALTCP@hhs.gov. The Project Officer was Jennie Harvell.</em></p>
+<hr /><h2>TABLE OF CONTENTS</h2>
+<p>I. <a href="#intro">INTRODUCTION</a></p>
+<p>II. <a href="#people">WHAT DO PEOPLE MEAN WHEN THEY REFER TO SUBACUTE CARE?</a></p>
+<p style="margin-left:40px">A. How is Subacute Care Defined in the Literature?</p>
+<p style="margin-left:40px">B. Variations in the Use of the Term Subacute Care</p>
+<p style="margin-left:40px">C. Concepts Commonly Applied to the Term Subacute Care</p>
+<p>III. <a href="#service">SERVICES, SETTINGS, AND PROVIDERS</a></p>
+<p style="margin-left:40px">A. What Services are Identified with Subacute Care?</p>
+<p style="margin-left:40px">B. How are Subacute Care Services Categorized?</p>
+<p style="margin-left:40px">C. In What Settings Do These Subacute Care Services Take Place?</p>
+<p style="margin-left:40px">D. What Do We Know About the Providers of Subacute Care?</p>
+<p>IV. <a href="#patient">PATIENTS</a></p>
+<p style="margin-left:40px">A. What are the Characteristics of Patients Served in Places Identified as Subacute Care Settings?</p>
+<p style="margin-left:40px">B. What Do We Know About the Length of Stay in Subacute Care Units?</p>
+<p style="margin-left:40px">C. What is the Volume of Subacute Care Patients?</p>
+<p style="margin-left:40px">D. Where Do Subacute Patients Go From Subacute Units?</p>
+<p>V. <a href="#cost">THE COSTS AND FINANCING OF SUBACUTE CARE</a></p>
+<p style="margin-left:40px">A. Issues in Analyzing the Costs and Potential Savings of Subacute Care</p>
+<p style="margin-left:40px">B. Review of the Literature</p>
+<p>VI. <a href="#payer">PAYERS</a></p>
+<p>VII. <a href="#outcome">OUTCOMES AND QUALITY</a></p>
+<p style="margin-left:40px">A. Structure and Process Measures of Quality</p>
+<p style="margin-left:40px">B. Outcomes</p>
+<p style="margin-left:40px">C. Outcome Research in Progress</p>
+<p>VIII. <a href="#conclude">CONCLUSION</a></p>
+<p><a href="#bib">BIBLIOGRAPHY</a></p>
+<p>APPENDICES</p>
+<p style="margin-left:40px"><a href="#appendA">APPENDIX A</a>: ProPAC Summary of Differences in Medicare Payment Policies for Post-Acute Providers</p>
+<p style="margin-left:40px"><a href="#appendB">APPENDIX B</a>: Growth in Number of Post-Acute Providers</p>
+<p>LIST OF EXHIBITS</p>
+<p style="margin-left:40px"><a href="#exhibit1">EXHIBIT 1</a>: Selected Definitions for Subacute Care</p>
+<p style="margin-left:40px"><a href="#exhibit2">EXHIBIT 2</a>: Association Definitions of Subacute Care</p>
+<p style="margin-left:40px"><a href="#exhibit3">EXHIBIT 3</a>: The Diversity of Subacute Care Services</p>
+<p style="margin-left:40px"><a href="#exhibit4">EXHIBIT 4</a>: Percent of Providers Offering Selected Types of Subacute Services</p>
+<p style="margin-left:40px"><a href="#exhibit5">EXHIBIT 5</a>: Estimate of Length of Stay in Subacute Settings</p>
+<p style="margin-left:40px"><a href="#exhibit6">EXHIBIT 6</a>: Summary of Estimated Costs and Potential Cost Savings of Subacute Care</p>
+<p style="margin-left:40px"><a href="#exhibit7">EXHIBIT 7</a>: 1993 State Legislation Relevant to Subacute Care</p>
+<p> </p>
+<h2><a name="intro" id="intro">I. INTRODUCTION</a></h2>
+<p>This document is an interim report in a study titled "Subacute Care: Policy Synthesis and Research Agenda," being conducted for the Office of the Assistant Secretary for Planning and Evaluation (ASPE). The purpose of the project is to provide ASPE with a synthesis of subacute care research, practices, and trends; to provide an assessment of public policies that impact subacute care; to identify areas for which future research is needed; and to help formulate the studies that ASPE will need in order to evaluate alternative policies regarding subacute care.</p>
+<p>For this report, we defined “literature” very broadly to include published articles in both the academic and trade press, as well as relevant unpublished documents prepared by trade associations, investment analysts, providers and others. In brief, we identified a large body of work, primarily produced over the last few years, as can be seen from the accompanying bibliography; however, we found very little well-documented, reliable information about the basics of subacute care--who is providing it, what types of patients (and how many) are served, who is paying for it, how much it costs, whether it saves money and what types of outcomes are produced. Below we discuss what is known, and not known, about those issues, beginning with a discussion of definitions.</p>
+<p> </p>
+<h2><a name="people" id="people">II. WHAT DO PEOPLE MEAN WHEN THEY REFER TO SUBACUTE CARE?</a></h2>
+<p>The term "subacute care" has been applied to a broad range of medical and rehabilitative services and settings that provide care to post-acute patients. The earliest literature on the topic used the term "subacute care" to refer to patients who did not meet established criteria for medically necessary acute care, but who remained in hospital beds licensed for acute care, largely due to lack of suitable alternative placements. Prior to the full implementation of Medicare's prospective payment system (PPS) in the mid 1980s, there was considerable discussion in the literature about “hospital backup” and the resulting “administratively necessary days.”</p>
+<p>Immediately after the introduction of PPS, however, a different concern emerged. Under Medicare regulations at the time, patients who no longer met established criteria for medically necessary acute care could be charged for the cost of remaining in an acute care bed. In some areas of the country, some hospitals began developing "subacute" services in acute care beds (Manard, et al.., 1988). A controversy ensued between hospitals and nursing facilities over these newly identified subacute patients. Policymakers were also concerned about the potential impact of this development on quality of care and on total costs, particularly the cost to beneficiaries and to Medicaid programs paying for dually-eligible beneficiaries.</p>
+<p>As a result of that concern, the Prospective Payment Assessment Commission commissioned a major national study conducted by Lewin-VHI of “Subacute Care in Hospitals,” (Manard, et al., 1988). Among other things, this study found that “only a small portion of Medicare discharges from hospitals spent one or more days as an identified subacute patient [in an acute care bed]” (Manard, et al., 1988). The study did, however, report an apparent emerging trend at the time: the increasing development of distinct part, PPS-exempt units in hospitals to care for newly-identified “subacute patients,” and the related development of increasing capacity (or need) to care for more acutely ill, “post acute” patients in freestanding nursing facilities and other settings.</p>
+<p>Today's literature uses the term "subacute care" nearly exclusively to refer to patients treated in settings other than acute care hospital beds, paid under PPS. Beyond this general description, however, there is little agreement in the literature about what actually constitutes subacute care. There are some basic principles that are often associated with subacute care, such as continuity of care and transitional care, that may be important in determining the characteristics of subacute care.</p>
+<h3>A. How Is Subacute Care Defined in the Literature?</h3>
+<p>In order to determine what people mean by the term subacute care, we completed a thorough content analysis of all of the available publications, trade journals, and association literature related to subacute care. <strong><em><a href="#exhibit1">Exhibit 1</a></em></strong> provides a table of definitions, in chronological order, found in publications and trade journals. <strong><em><a href="#exhibit2">Exhibit 2</a></em></strong> contains the definitions by associations, including the American Healthcare Association (AHCA), the International Subacute Healthcare Association, Inc., the American Subacute Care Association, and the Joint Commission on Accreditation of Healthcare Organizations (JCAHO). As of October 10, 1994, AHCA and JCAHO each agreed to adopt JCAHO's current definition in order to eliminate minor differences between the organizations' previous definitions (Ukens, 1994). We also contacted several other associations, including the American Hospital Association, the National Alliance for Infusion Therapy, the National Association for Home Care, and the American Association of Homes for the Aging; however, none of these organizations had definitions for subacute care.</p>
+<p>In general, the association definitions tend to be longer and more general than the definitions used in the publications and trade journals, which demonstrates the difficulty of pinpointing specific criteria on how to define subacute care.</p>
+<h3>B. Variations in the Use of the Term Subacute Care</h3>
+<p>The difficulty in defining the term subacute care has been well documented. One recent study, prepared for the American Health Care Association, convened a panel of clinical experts to discuss the definition of subacute care. The study participants noted that “many of the clinical panel members took issue with the AHCA definition to the extent that it defines a subacute program as one that, among other things, 'does not require intensive diagnostic and/or invasive procedures' without identifying a specific set of services required by subacute patients” (Abt Associates, 1994).</p>
+<p>The literature also reflects the uncertainty of what people mean by subacute care. Subacute care is often used broadly to encompass any services, types of patients, or care settings that would be remotely related to subacute care. For instance, the American Subacute Care Association has a one-page description that covers patient, service, setting, and cost-related information. In most cases, however, the definition is based on one aspect of subacute care such as services, settings, costs or patients.</p>
+<h3>C. Concepts Commonly Applied to the Term Subacute Care</h3>
+<p>Although there are many disagreements as to how to define subacute care, it seems that people commonly mean some kind of care that falls between acute-hospital, medical care and long-term, rehabilitative care. Fifty percent of the articles we reviewed defined subacute care in terms of this continuum of care, where subacute care is “a hybrid between the hospital and the nursing facility” (Willging, 1993).</p>
+<p>Patients, services, and costs, are also specifically mentioned in many of the definitions. Twenty-eight percent of the definitions were patient-based, and most of these used phrases such as “subacute patients are sufficiently stabilized to no longer require acute care services but are too complex for treatment in a conventional nursing center” (Hyatt, 1993), to describe 'the status of individuals who require subacute care.</p>
+<p>Services and/or settings were described in twenty-five percent of the definitions. Many of these articles mentioned a wide-range of services that are provided in the subacute setting, such as “brain injury rehabilitation, high intensity stroke and orthopedic programs, ventilator programs, complex wound care, specialized infusion therapy, or post-surgical recovery programs” (Kelly, 1992). Duration of care is also an important determinant of subacute care. Most of the definitions in the literature stated that subacute care has a definite ending point, although the duration of care varies from short term (3-30 days), to intermediate (31-90 days), to long-term (91 days-2 years) (Burk, 1994).</p>
+<p>Cost-based descriptions were mentioned in twenty-five percent of the definitions. It is also important to note that while only one-fourth of the definitions specifically mentioned cost, many of them did refer to the cost savings or cost-effectiveness of subacute care somewhere in the discussion of subacute care.</p>
+<p>There seems to be a general consensus in the literature that subacute care represent a niche in the continuum of care between acute-hospital care and long-term, nursing home care. Subacute care is referred to as a less costly alternative to hospital care for those patients who require intense medical supervision and therapy, but are not critical enough to be in intensive care in an acute-hospital ward. These patients also would not be suited in a nursing home, that can not provide the specialized care and intense medical care that many post-acute patients require. One of the difficulties in specifically defining what we mean by subacute care is the fact that these units treat a diverse mix of patients; and therefore, it is difficult to assimilate the units into one patient-based category. This diversity requires a broad definition for the services, settings and patient types that can be defined as subacute care; however, the basis of subacute care as an “area of care that lies somewhere between inpatient hospitalization and long-term services” (Burns, 1994), seems to be an acceptable way to describe what people mean by the term subacute care.</p>
+<table border="1" class="footable sort-disable table"><thead><tr><th scope="col"><strong>Source</strong></th>
+<th scope="col"><strong>Definition</strong></th>
+</tr></thead><caption><a id="exhibit1" name="exhibit1">EXHIBIT 1</a>. Selected Definitions for Subacute Care (Ordered by Date) (From the Literature)</caption>
+<tbody><tr><td><strong>Manard, B., Gong, J., et al. (1985)</strong></td>
+<td>"The use of hospital beds to provide a level of service below what (has been) thought to be traditional acute care services"</td>
+</tr><tr><td><strong>Manard, B.; Gong, J., et al. (1988)</strong></td>
+<td>"Care provided to patients who do not meet established criteria for medically necessary acute care"</td>
+</tr><tr><td><strong>Koska, M.T. (February 1989)</strong></td>
+<td>"Transitional care unit", "Provides lower-cost inpatient care", "A private-sector approach to containing costs"</td>
+</tr><tr><td><strong>DeLorme, T. &amp; DeLorme, J. (August 1989)</strong></td>
+<td>"Long-term care settings that are cost effective, while offering a high quality of care"</td>
+</tr><tr><td><strong>Cincinnati Business Courier (1990)</strong></td>
+<td>"Temporary care for patients who no longer need to stay in expensive acute care beds, but cannot be placed in a nursing home because there aren't enough skilled nursing beds."</td>
+</tr><tr><td><strong>Grim, S.A. (1990)</strong></td>
+<td><strong>ProPAC definition</strong>: "Care provided to patients who do not meet established criteria for medically necessary acute care"<br /><strong>Ohio Department of Health</strong>: "A primary focus to prevent further physical deterioration, to restore or rehabilitate and/or to provide terminal care for patients who no longer require acute care but require 24 hour/7 days a week nursing care by a professional nurse, who needs the availability of emergency backup, and may require two or more procedures or therapies provided by a licensed nurse or therapist."</td>
+</tr><tr><td><strong>Komarek, A.G. (1990)</strong></td>
+<td>"The subacute care program addresses the special nursing needs of medically fragile patients who do not need acute care but are too ill to be cared for by most skilled nursing facilities."</td>
+</tr><tr><td><strong>Marren, J. (January- February 1990)</strong></td>
+<td>"Alternative care facility", "Lower-cost subacute facilities linked to skilled nursing and other long-term facilities"</td>
+</tr><tr><td><strong>McDowell, T.N. (October 1990)</strong></td>
+<td>"Subacute patients no longer satisfy the criteria for medically necessary acute care services but still require care during the subacute phase of recovery."</td>
+</tr><tr><td><strong>Hegland, A. (November 1990)</strong></td>
+<td>"A nursing home which has been turned into a more acute or subacute nursing facility where all of the rehab patients are integrated throughout the facility, rather than placed in a separate unit"</td>
+</tr><tr><td><strong>Lutz, S. (April 1992)</strong></td>
+<td>"Subacute care facilities provide care to patients who are chronically ill but medically stable at less expensive rates than acute-care hospitals."</td>
+</tr><tr><td><strong>Fowler, F.J. (October 1992)</strong></td>
+<td>"Subacute care provides a less costly setting for acute care patients who no longer need hospitalization but couldn't fully benefit from other levels of care such as: home care, skilled and long-term care and rehabilitation.", "Transitional care"</td>
+</tr><tr><td><strong>Kelly, M. (November 1992)</strong></td>
+<td>Subacute care units provide "brain injury rehabilitation, high intensity stroke and orthopedic programs, ventilator programs, complex wound care, specialized infusion therapy, or post surgical recovery programs...in specialized units of long-term care facilities."</td>
+</tr><tr><td><strong>Freaney, M. (May 1993)</strong></td>
+<td>"Subacute care patients still need a sophisticated level of care while recovering from surgery or while still hooked to a ventilator.", "Post-acute", "Step-down", "Transition", "Specialty nursing services"</td>
+</tr><tr><td><strong>Balsano, A.E. &amp; Fowler, F.J. (July 1993)</strong></td>
+<td>"Specialized level of care designed to address the post-acute discharge needs of special populations"</td>
+</tr><tr><td><strong>Taylor, K.S. (July 1993)</strong></td>
+<td>"Subacute care units and facilities treat patients who require longer stays than do traditional acute care patients."</td>
+</tr><tr><td><strong>National Health Policy Forum (July 1993)</strong></td>
+<td>"Subacute care strategy is directed at providing post-acute care at a less costly and more medically intensive way than skilled nursing facilities.", "Post-acute care", Near-acute care", "Transitional care", "Super-skilled care"</td>
+</tr><tr><td><strong>Hyatt, L. (July- August 1993)</strong></td>
+<td>"Subacute patients are sufficiently stabilized to no longer require acute care services but are too complex for treatment in a conventional nursing center."</td>
+</tr><tr><td><strong>Willging, P. (August 1993)</strong></td>
+<td>"Subacute is a hybrid between the hospital and the nursing facility.", "Traditional care"</td>
+</tr><tr><td><strong>Singleton, G.W. (September 1993)</strong></td>
+<td>"Provides medical and rehabilitation serivces", "Subacute care patients receive acute-hospital quality care and more quality of life."</td>
+</tr><tr><td><strong>Barnett, A.A. (October 1993)</strong></td>
+<td>"Subacute care units treat patients too sick to go home but not sick enough to be hospitalized"</td>
+</tr><tr><td><strong>Burns, J. (December 1993)</strong></td>
+<td>"Subacute care units house patients who no longer require inpatient acute-care services yet need a higher level of care than is available in traditional skilled-nursing facilities or at home."</td>
+</tr><tr><td><strong>Brooks, S. (1994)</strong></td>
+<td>"Subacute patients are sicker than the typical long-term care resident, but they stay for 90 days or less. They are usually recuperating from surgery but do not need intensive care.", "Subacute care units incorporate technology with the more comfortable atmosphere of nursing homes."</td>
+</tr><tr><td><strong>Tellis-Nayak, M. (1994)</strong></td>
+<td>"Subacute care is comprehensive inpatient care designed for someone with an acute illness, injury or exacerbation of a disease process."</td>
+</tr><tr><td><strong>Burk, S. (February 1994)</strong></td>
+<td>"Subacute care is medical and rehabilitative therapy that is either short-term (3-30 days), intermediate (31-90 days), or long-term (91 days-2 years)."</td>
+</tr><tr><td><strong>Hegland, A. (February 1994)</strong></td>
+<td>Subacute care inlcudes, "Nursing home ventilator programs that decrease length of stay and overall cost of care."</td>
+</tr><tr><td><strong>Levenson, S.A. (March 1994)</strong></td>
+<td>"Currently the term subacute may be used to describe almost anything from high intensity, short-term rehabilitation to traditional skilled nursing facilities.", "Care rendered immediately after, or instead of acute hospitalization...given in a discrete unit of a hospital or facility, or a freestanding facility, as part of a specifically designed program...at a level of service generally more intensive than a nursing facility but less intensive than an acute care facility."</td>
+</tr><tr><td><strong>Taylor, K.S. (March 1994)</strong></td>
+<td>"Subacute care is split between Medical (hospitals) and rehabilitative (long-term care) services."</td>
+</tr><tr><td><strong>Burns, J. (April 1994)</strong></td>
+<td>"Subacute care--the area of patient care that lies somewhere between inpatient hospitalization and long-term services."</td>
+</tr><tr><td><strong>Gonzales, C. (April 1994)</strong></td>
+<td>"Subacute care--a niche in the inpatient delivery of intersive rehabilitative medical care--offers services that fall somewhere between skilled nursing and acute hospital care."</td>
+</tr><tr><td><strong>Hegland, A. (April 1994)</strong></td>
+<td>Subacute care services include "IV therapy, tracheotomies, and total parenteral nutrition"</td>
+</tr><tr><td><strong>Anders, K.T. (June 1994)</strong></td>
+<td>"Sub-acute is a step-down unit from a hospital, not a step-up from long-term care.", "Subacute care falls into two broad categories: medical and rehabilitative."</td>
+</tr><tr><td><strong>Burns, J. (June 1994)</strong></td>
+<td>"Provides comprehensive services for smaller hospitals and nursing homes."</td>
+</tr></tbody></table><p> </p>
+<table border="1" class="footable sort-disable table"><thead><tr><th scope="col"><strong>Source</strong></th>
+<th scope="col"><strong>Definition</strong></th>
+</tr></thead><caption><a id="exhibit2" name="exhibit2">EXHIBIT 2</a>. Association Definitions of Subacute Care</caption>
+<tbody><tr><td><strong>American Health Care Association</strong></td>
+<td>Subacute care is defined as a comprehensive inpatient program designed for the individual who:
+<ul><li>Has an acute even as a result of an illness, injury, or exacerbation of a disease process;</li>
+<li>Has a determined course of treatment; and</li>
+<li>Does not require intensive diagnostic and/or invasive procedures.</li>
+</ul><p>				The severity of the individual's condition requires an outcome-focused, interdisciplinary approach using a professional team to deliver complex clinical interventions (medical and/or rehabilitation).<br />
+				These highly specialized programs promote quality care through efficient and effective utilization of health care resources.</p></td>
+</tr><tr><td><strong>International Subacute Healthcare Association, Inc.</strong></td>
+<td>Subacute care is a comprehensive, cost-effective and outcome oriented approach to care for patients requiring short-term, complex medical and/or rehabilitation interventions provided by a physician directed interdisciplinary, professional team. Subacute services should be administered through defined programs without regard to setting. Subacute programs typically are utilized as an inpatient alternative to an acute hospital admission or an alternative to continued hospitalization, and may be a component of a vertically integrated health care system.</td>
+</tr><tr><td><strong>American Subacute Care Association</strong></td>
+<td>Subacute care patients are sufficiently stabilized to no longer require acute care services but are too complex for treatment in a traditional nursing center. Subacute care centers and programs typically treat patients who present with rehabilitative and/or medically complex needs and require physiological monitoring.<br />
+				Subacute care patients may require:
+<ul><li>Treatment and/or assessment of the care plan by physician</li>
+<li>Nursing Intervention of more than 3 hours per day; and/or</li>
+<li>Therapy services (i.e., physical therapy, occupational therapy, speech therapy, respiratory therapy psychosocial); and</li>
+<li>The need for ancillary or technological services (i.e., laboratory, pharmacy, nutrition, diagnostic, DME)</li>
+<li>Utilization of case management/coordination services.</li>
+</ul><p>				Individuals at the subacute level of care are most effectively and appropriately served by an outcome-oriented interdisciplinary treatment process. Subacute care programs are focused on outcomes of functional restoration, clinical stabilization or avoidance of acute hospitalization and medical complications.<br />
+				A subacute level of care can be provided in a variety of settings, including skilled nursing facilities, acute hospitals and specialty hospitals.<br />
+				The objectives and goals of subacute care is the cost-effective and creative use of healthcare resources to achieve maximal outcomes.</p></td>
+</tr><tr><td><strong>Joint Commission on Accreditation of Healthcare Organizations</strong></td>
+<td>Subacute care is comprehensive inpatient care designed for someone who has had as acute illness, injury or exacerbation of a disease process. It is goal-oriented treatment rendered immediately after or instead of acute hospitalization to treat one or more specific, active, complex medical conditions or to administer one or more technically complex treatments, in the context of a person's underlying long-term conditions and overall situation. Generally, the individual's condition is such that the care does not depend heavily on high technology monitoring or complex diagnostic procedures. It requires the coordinated services of an interdisciplinary team including physicians, nurses, and other relevant professional disciplines, who are trained and knowledgeable to assess and manage these specific conditions and perform the necessary procedures. It is given as part of a specifically defined program, regardless of the site.<br />
+				Subacute care is generally more intensive than traditional nursing facility care and less than acute care. It requires frequent (daily to weekly) recurrent patient assessment and review of the clinical course and a treatment plan limited (several days to several months) time period, until a condition is stabilized or a predetermined treatment course is completed.</td>
+</tr></tbody></table><p> </p>
+<h2><a name="service" id="service">III. SERVICES, SETTINGS, AND PROVIDERS</a></h2>
+<p>Most of the literature on subacute care mentions specific services, settings, or providers. In this section, we examine these aspects of subacute care.</p>
+<h3>A. What Services are Identified with Subacute Care?</h3>
+<p>The literature includes a broad spectrum of services under the term "subacute care." The table found below (<strong><em><a href="#exhibit3">Exhibit 3</a></em></strong>) provides a listing of most of the types of subacute care discussed.</p>
+<table border="1" class="footable sort-disable table"><caption><a id="exhibit3" name="exhibit3">EXHIBIT 3</a>. The Diversity of Subacute Care Services</caption>
+<thead><tr><th rowspan="2" scope="col"><strong>Patient Type or Service</strong></th>
+<th colspan="22" scope="col"><strong>Source</strong></th>
+</tr><tr><th scope="col"><strong>Parker (1994)</strong></th>
+<th scope="col"><strong>Hegland (1993)</strong></th>
+<th scope="col"><strong>Delorne (1989)</strong></th>
+<th scope="col"><strong>Hanson (1994)</strong></th>
+<th scope="col"><strong>Burns (1993)</strong></th>
+<th scope="col"><strong>Cinc. Base Courier (1990)</strong></th>
+<th scope="col"><strong>Kelly (1994)</strong></th>
+<th scope="col"><strong>AHCA (1994)</strong></th>
+<th scope="col"><strong>Burk (1994)</strong></th>
+<th scope="col"><strong>Curative Tech. Arbor Health (1992)</strong></th>
+<th scope="col"><strong>Kenenson (1994)</strong></th>
+<th scope="col"><strong>Koska (1989)</strong></th>
+<th scope="col"><strong>Barnett (1993)</strong></th>
+<th scope="col"><strong>Sengleton (1993)</strong></th>
+<th scope="col"><strong>MacLean (1994)</strong></th>
+<th scope="col"><strong>Brooks (1994)</strong></th>
+<th scope="col"><strong>Hyatt (1993)</strong></th>
+<th scope="col"><strong>Johnson (1993)</strong></th>
+<th scope="col"><strong>Lutz (1994)</strong></th>
+<th scope="col"><strong>Freaney (1993)</strong></th>
+<th scope="col"><strong>Narro (1991)</strong></th>
+<th scope="col"><strong>Pentacost (1990)</strong></th>
+</tr></thead><tbody><tr><td scope="row"><strong>Ventilation</strong></td>
+<td>X</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td> </td>
+<td>X</td>
+<td> </td>
+<td>X</td>
+<td>X</td>
+<td> </td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td> </td>
+<td> </td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+</tr><tr><td scope="row"><strong>Hip or Med rehab</strong></td>
+<td> </td>
+<td>X</td>
+<td> </td>
+<td> </td>
+<td>X</td>
+<td> </td>
+<td> </td>
+<td>X</td>
+<td>X</td>
+<td> </td>
+<td>X</td>
+<td> </td>
+<td> </td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><td scope="row"><strong>Respirator Care</strong></td>
+<td> </td>
+<td>X</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>X</td>
+<td>X</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>X</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><td scope="row"><strong>Digestive Disease</strong></td>
+<td> </td>
+<td>X</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><td scope="row"><strong>Infusion Therapy</strong></td>
+<td> </td>
+<td>X</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>X</td>
+<td> </td>
+<td>X</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><td scope="row"><strong>Wound Care</strong></td>
+<td> </td>
+<td>X</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td> </td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td> </td>
+<td> </td>
+<td>X</td>
+<td> </td>
+<td>X</td>
+</tr><tr><td scope="row"><strong>AIDS</strong></td>
+<td> </td>
+<td> </td>
+<td>X</td>
+<td> </td>
+<td>X</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>X</td>
+<td>X</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>X</td>
+</tr><tr><td scope="row"><strong>Chronically Ill</strong></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>X</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><td scope="row"><strong>CVA</strong></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>X</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>X</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>X</td>
+</tr><tr><td scope="row"><strong>Cancer</strong></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>X</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>X</td>
+</tr><tr><td scope="row"><strong>Other High Tech</strong></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>X</td>
+<td> </td>
+<td> </td>
+<td>X</td>
+<td> </td>
+<td>X</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>X</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>X</td>
+<td> </td>
+</tr><tr><td scope="row"><strong>Head or Brain Injury</strong></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>X</td>
+<td> </td>
+<td>X</td>
+<td> </td>
+<td>X</td>
+<td>X</td>
+<td> </td>
+<td> </td>
+<td>X</td>
+<td> </td>
+<td>X</td>
+<td> </td>
+<td>X</td>
+<td> </td>
+<td>X</td>
+<td> </td>
+</tr><tr><td scope="row"><strong>Orthopedic</strong></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>X</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>X</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>X</td>
+<td>X</td>
+</tr><tr><td scope="row"><strong>Post Surgical</strong></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>X</td>
+<td>X</td>
+<td> </td>
+<td>X</td>
+<td> </td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>X</td>
+<td>X</td>
+<td> </td>
+<td>X</td>
+<td> </td>
+<td>X</td>
+</tr><tr><td scope="row"><strong>Hospice</strong></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>NA</td>
+<td> </td>
+<td>X</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><td scope="row"><strong>Alzheimers</strong></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>NA</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>X</td>
+</tr><tr><td scope="row"><strong>Cardiac Rehab</strong></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>X</td>
+<td> </td>
+<td>X</td>
+<td> </td>
+<td>X</td>
+<td> </td>
+<td> </td>
+<td>X</td>
+<td>X</td>
+<td> </td>
+<td>X</td>
+<td> </td>
+<td> </td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+</tr><tr><td scope="row"><strong>Pressure Ulcers</strong></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>X</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><td scope="row"><strong>Pre and Post Transplant</strong></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>X</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><td scope="row"><strong>Infectious Disease</strong></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>X</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr></tbody></table><p>The chart illustrates consensus that care to ventilator dependent patients, brain or head injury patients, or patients requiring orthopedic or cardiac rehabilitation are considered potential subacute care patients. Subacute care services are the services required by these types of patients. In addition, post-surgical care and wound care are frequently cited. There is less frequent mention of infusion or IV therapy, dialysis, or care to patients suffering from stroke, AIDS, cancer, or spinal cord injuries. Each of the following was mentioned only once: infectious disease or pre- and post-transplant care (Hyatt, 1993), pressure ulcers (Levenson, 1994), hospice (AHCA, 1994) or Alzheimer's patients (Pentacost, 1990). One person explicitly ruled out providing care to hospice or Alzheimer's patients in subacute settings (Kelly, 1992).</p>
+<h3>B. How Are Subacute Care Services Categorized?</h3>
+<p>A number of ways to categorize subacute care have emerged as the field has developed. After conducting a survey of providers, discussed in more detail below, the Moore Group (1994) categorized subacute care as either “medical” or “rehabilitative.” The Hillhaven Corporation has used a typology to categorize subacute care by length of stay (Bums, 1993):</p>
+<ul><li>
+<p>Short Stays of 3 to 30 days in which they estimate 75 percent of their subacute care business is and in which care is either medically complex or rehabilitative;</p>
+</li>
+<li>
+<p>Medium Stays of 31 to 90 days in which they estimate 22 percent of their subacute care business is and in which patients require both medical and rehabilitative services; and</p>
+</li>
+<li>
+<p>Long Stays of 91 days to less than two years in which they estimate three percent of their subacute care business is and in which care is either for catastrophic illness or illnesses with a very slow rate of recovery.</p>
+</li>
+</ul><p>Griffin has categorized subacute care by type of patient, length of stay, nursing care intensity, and physician visits, ultimately dividing subacute care into four sub-types: general, transitional, chronic, and long-term transitional hospital care (Anders, 1994).</p>
+<h3>C. In What Settings Do These Subacute Care Services Take Place?</h3>
+<p>Services for the types of patients described above are currently provided in many different settings:</p>
+<ul><li>Hospitals:
+<ul><li>PPS-reimbursed acute care hospitals</li>
+<li>Long-term care hospitals</li>
+<li>
+<p>Rehabilitation hospitals and distinct part units</p>
+</li>
+</ul></li>
+<li>Skilled Nursing Homes:
+<ul><li>Hospital-based nursing homes</li>
+<li>
+<p>Free-standing nursing homes</p>
+</li>
+</ul></li>
+<li>
+<p>Recovery Units attached to Surgery Centers</p>
+</li>
+<li>
+<p>At home, with or without home care</p>
+</li>
+</ul><p>Despite the diversity of settings in which the literature presents subacute care as being provided, most of the available literature focuses on care provided in skilled nursing homes, primarily free-standing facilities.</p>
+<h3>D. What Do We Know about the Providers of Subacute Care?</h3>
+<p>We identified four surveys regarding self-identified as subacute care providers. One survey was conducted in the late 1980s (Timmrock, 1989) while the other three surveys have been more recent (Hospital Association of New York State, 1993; Massachusetts Federation of Nursing Homes, 1994; The Moore Group, 1993). One survey gathered information from eight states while three surveys focused exclusively on providers in one state: California (Timmreck, 1989); Massachusetts (Massachusetts Federation of Nursing Homes, 1994); and New York (Hospital Association of New York State, 1993), respectively. These surveys and the information they provide on subacute care providers is found below.</p>
+<h4>1. California Survey</h4>
+<p>A survey of 12 convalescent hospitals in southern California was conducted in the late 1980s; the results were reported in an article entitled "Subacute Care in Long-Term Care Facilities." The 12 facilities had 1,307 total beds. Most of the facilities provided terminal illness care (10), care to massive stroke patients (10), hip fracture patients (10), patients with decubitus ulcers (9), patients requiring tube feeding (9), wound care (8), and tube feeding with pump (8). Four trends were identified by the researcher:</p>
+<ul><li>
+<p>An increase in patients with unhealed surgical wounds;</p>
+</li>
+<li>
+<p>An increase in terminally ill patients in advanced stages of disease;</p>
+</li>
+<li>
+<p>An increase in patients with decubitus ulcers; and</p>
+</li>
+<li>
+<p>An increase in movement to and from the hospital.</p>
+</li>
+</ul><h4>2. Massachusetts Federation of Nursing Homes</h4>
+<p>This survey, completed in 1994, reports results collected from 95 nursing facilities with almost 11,000 beds; virtually all facilities are free standing. The researchers do not provide a definition of subacute care, although they do distinguish between “rehabilitation” and “medical” subacute care within the body of the survey. Eighty percent of all facilities that responded to the survey reported providing rehabilitation subacute care; 65 percent of all facilities reported providing medical subacute care; 66 percent facilities reported having full-time rehabilitation teams dedicated to subacute care; 94 percent of subacute patients were reported to receive rehabilitation services five to six days per week. More than one-half (55.2%) of patients served by these facilities was reported to require fewer than three hours of skilled nursing care per day.</p>
+<p>The Massachusetts survey asked their members to describe the types of services they were able to provide rather than services they were providing. Some of the selected categories of care and the percent of facilities that indicated they had the capacity to provide that care are found below (<strong><em><a href="#exhibit4">Exhibit 4</a></em></strong>).</p>
+<table border="1" class="footable sort-disable table"><thead><tr><th scope="col"><strong>Selected Categories of Services</strong></th>
+<th scope="col"><strong>Percentage</strong></th>
+</tr></thead><caption><a id="exhibit4" name="exhibit4">EXHIBIT 4</a>. Percent of Providers Offering Selected Types of Subacute Services</caption>
+<tbody><tr><td scope="row"><strong>Wound Care</strong></td>
+<td>99%</td>
+</tr><tr><td scope="row"><strong>Care to stroke patients</strong></td>
+<td>96%</td>
+</tr><tr><td scope="row"><strong>Fractures</strong></td>
+<td>96%</td>
+</tr><tr><td scope="row"><strong>Pain Management</strong></td>
+<td>92%</td>
+</tr><tr><td scope="row"><strong>Diabetes</strong></td>
+<td>92%</td>
+</tr><tr><td scope="row"><strong>Nutritional Therapy</strong></td>
+<td>91%</td>
+</tr><tr><td scope="row"><strong>Hospice</strong></td>
+<td>88%</td>
+</tr><tr><td scope="row"><strong>Ventilator</strong></td>
+<td>8%</td>
+</tr><tr><td scope="row"><strong>Brain injury</strong></td>
+<td>40%</td>
+</tr><tr><td scope="row"><strong>Spinal Cord</strong></td>
+<td>36%</td>
+</tr><tr><td colspan="2"><strong>SOURCE</strong>: <strong><em>Massachusetts Federation of Nursing Homes Subacute Care Survey</em></strong>, 1994 (Unpublished)</td>
+</tr></tbody></table><h4>3. New York State Survey</h4>
+<p>The Hospital Association of New York State conducted a survey of all the nursing homes in New York State of subacute care in March 1993. The response rate on this mail survey was 43 percent. Public nursing homes were the most likely to return the survey, while proprietary facilities were the least likely.</p>
+<p>The New York State survey offered respondents various definitions of subacute care from which to choose; medical specialty units," “designated care for patients who no longer need acute care services but still require highly skilled technologically advanced therapies” or “both” (“don't know” and “other” also were options). The survey results indicate that the vast majority of respondents defined subacute care as either "designated care" or “designated care and medical specialty care.” Thirty-seven percent (101 facilities) of the nursing homes responding were providing some type of designated specialty care as described above; 12 are providing “subacute care.” It is not clear what this use of “subacute care” means, but the statistics provided are for these 12 units. Although respondents to the New York State survey indicated that they were providing care to a group of patients with higher acuity than “traditional,” none of the nursing homes had applied for “any special reimbursement arrangements or waivers for the complex care being provided” (p.7).</p>
+<h4>4. The Moore Group</h4>
+<p>This consulting group sampled hospital-based long-term care units and freestanding nursing facilities (N=94) that they characterized as providing subacute care. The method used to identify these facilities was not fully explained. The states where facilities were located were almost all Western or Southwestern states: Arizona, Arkansas, California, Colorado, Idaho, Kansas, Texas, and Utah. The definition of subacute used by the Moore Group was “services provided to patients who no longer require acute hospitalization but need more medical care than that provided at home or in traditional long term care settings.”</p>
+<p>More than 50 percent of the providers of subacute care surveyed were located in California; 60 percent were free-standing nursing homes. Approximately 70 percent were part of a chain of facilities, and facilities with rehabilitation services were more likely to be chains. Most facilities providing subacute services had on-staff therapists, and most subacute providers had managed care contracts.</p>
+<p> </p>
+<h2><a name="patient" id="patient">IV. PATIENTS</a></h2>
+<p>This section focuses on what the literature on subacute care has to say about the individuals using that type of care.</p>
+<h3>A. What Are the Characteristics of Patients Served in Places Identified as Subacute Care Settings?</h3>
+<p>As far as we have been able to determine, there have been no surveys or analyses of the patients actually receiving care in places that are identified as “subacute care” providers.</p>
+<p>There is, of course, a rather voluminous literature on the age, sex, and functional characteristics of patients served by nursing facilities and home care agencies reimbursed by Medicare. The Rand Corporation has examined post-hospital care for Medicare beneficiaries in the year ending June, 1988 (Steiner &amp; Neu, 1993). They found that post-acute use of formal care, in general, increases with age although utilization of home health care and rehabilitation peak for those aged 75 to 79, and then drop off somewhat. For SNF post-hospital users, there is no peak. There also appears to be a difference in type of post-hospital utilization by diagnosis; for instance, heart failure and shock is the second most important DRG for home health care use but ranks tenth in importance for SNF use and does not appear among DRGs important for rehabilitative use.</p>
+<h3>B. What Do We Know about the Length of Stay in Subacute Care Units?</h3>
+<p>Estimates of how long patients are in subacute care vary dramatically as can be seen from <strong><em><a href="#exhibit5">Exhibit 5</a></em></strong>. Lengths of stay range from three days to seven years.</p>
+<h3>C. What Is the Volume of Subacute Care Patients?</h3>
+<p>The available literature provides undocumented estimates that between 65 percent (Barnett, 1994) and 75 percent (Varro, 1991) of subacute patients are Medicare beneficiaries and that the remainder of patients are younger. Studies of the discharge destination of Medicare patients discharged from acute care facilities can be used to provide a rough estimate of the Medicare patients that could presumably use subacute care. The Rand Corporation has studied two nationally representative samples, each composed of a 20 percent random sample of all Medicare patients discharged from acute care hospitals during <u>the</u> 12 months that ended in June, 1985 (Neu, Harrison, &amp; Heibrunn, 1989) and the 12 months that ended in June, 1988 (Steiner &amp; Neu, 1993). According to the two studies, the following percentages of Medicare hospital discharges used post-acute care:</p>
+<table border="1" class="footable sort-disable table"><thead><tr><th scope="col"> </th>
+<th scope="col"><strong>1985</strong></th>
+<th scope="col"><strong>1988</strong></th>
+</tr></thead><tbody><tr><td><strong>discharged home with home health care</strong></td>
+<td>12.8 percent</td>
+<td>13.7 percent</td>
+</tr><tr><td><strong>discharged to a rehabilitative hospital</strong></td>
+<td>n/a</td>
+<td>1.1 percent</td>
+</tr><tr><td><strong>discharged to a SNF</strong></td>
+<td>3.1 percent</td>
+<td>2.8 percent</td>
+</tr><tr><td><strong>discharged home with no Medicare financed post-acute care</strong></td>
+<td>84.1 percent</td>
+<td>82.5 percent</td>
+</tr></tbody></table><p>As one can see from this chart, the largest proportion of each sample went home without any Medicare-financed post-acute care. This data can provide information on which to base a very rough estimate of the Medicare candidates for subacute care. If one assumes that all Medicare recipients discharged to rehabilitation hospitals and skilled nursing facilities in 1991 could have been termed “subacute care,” these statistics would translate to a potential Medicare subacute population of 417,000 (based on total Medicare hospital discharges of 10.7 million). Barnett (1994) maintains that 65 percent of patients in units identified as subacute are Medicare beneficiaries while Varro (1991) estimates that Medicare beneficiaries make up 75 percent of his patient population. If one uses a figure of 70 percent as representing the proportion of the subacute population represented by Medicare beneficiaries, then the total subacute patient population would approach 596,000 Individuals in 1991.</p>
+<table border="1" class="footable sort-disable table"><thead><tr><th scope="col"><strong>Source</strong></th>
+<th colspan="2" scope="col"><strong>0-30 Days</strong></th>
+<th colspan="2" scope="col"><strong>30-45 Days</strong></th>
+<th scope="col"><strong>45-60 Days</strong></th>
+<th scope="col"><strong>60-90 Days</strong></th>
+<th scope="col"><strong>90+ Days</strong></th>
+<th scope="col"><strong>Remarks</strong></th>
+</tr></thead><caption><a id="exhibit5" name="exhibit5">EXHIBIT 5</a>. Estimate of Length of Stay in Subacute Settings</caption>
+<tbody><tr><td scope="row"><strong>Cincinatti Business Courier (1990)</strong></td>
+<td colspan="2">30 Days Maximum</td>
+<td colspan="2"> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>Ohio Only</td>
+</tr><tr><td scope="row"><strong>Varro (1991)</strong></td>
+<td colspan="3">ALOS = 34.2 Days All Patients  </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><td scope="row"><strong>Barnett (1994)</strong></td>
+<td colspan="2"> </td>
+<td colspan="4">30-90 Days</td>
+<td> </td>
+<td> </td>
+</tr><tr><td scope="row"><strong>Burns (1993)</strong></td>
+<td colspan="2">3-30 Short</td>
+<td colspan="4">31-90 Days Medium</td>
+<td>91 Days -2 Yrs LTC</td>
+<td> </td>
+</tr><tr><td scope="row"><strong>Balsano &amp; Fowler (1993)</strong></td>
+<td>               </td>
+<td>15-30 Days</td>
+<td colspan="2"> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>Original Intent</td>
+</tr><tr><td scope="row"><strong>Burns (1994)</strong></td>
+<td colspan="7">10-100 Days</td>
+<td> </td>
+</tr><tr><td scope="row"><strong>Freaney (1993)</strong></td>
+<td colspan="7">Few Days to More than Month</td>
+<td> </td>
+</tr><tr><td scope="row"><strong>MacLean (1994)</strong></td>
+<td>               </td>
+<td>20-30 Days - Both Medical and Rehabilitation Subacute</td>
+<td colspan="2"> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><td scope="row"><strong>O'Donnell (1993)</strong></td>
+<td colspan="2"> </td>
+<td colspan="2"> </td>
+<td>45-60 Days</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><td scope="row"><strong>Anders Cites Madigan (1994)</strong></td>
+<td colspan="4">5-40 Days</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><td scope="row"><strong>Anders Cites Griffin (1994)</strong></td>
+<td colspan="6">3.5 to 90 Days</td>
+<td> </td>
+<td> </td>
+</tr><tr><td scope="row"><strong>Levenson (1994)</strong></td>
+<td colspan="7">Several Days to Several Months</td>
+<td> </td>
+</tr><tr><td colspan="9"><strong>SOURCE: Lewin-VHI Analysis of the Literature.</strong></td>
+</tr></tbody></table><p>Abt and Associates have studied the issue of subacute care and potential Medicare savings under the auspices of the American Health Care Association (1994). This study is discussed in more detail later in this paper. This study also can be used to estimate the subacute care population. Briefly, Abt and Associates estimated that SNFs could have provided subacute care to 2.9 million Medicare beneficiaries in 1991. Using the same estimate that Medicare beneficiaries represent 70 percent of the subacute population, the total potential subacute care population would number 4.1 million. The Abt Study did not consider patients who would have gone home after hospitalization, without further care.</p>
+<p>One difficulty with exclusively using discharges to rehabilitation hospitals or SNFs to estimate the potential subacute care population is that this method eliminates individuals that went home from the hospital with home health care. Recent technological advances that facilitate treatment in the home (Estes, Swan et al.., 1993) and the documented higher rate of instability among Medicare patients discharged home (Kahn et al.., 1990) may indicate that all those discharged home with home health care should not be eliminated from the estimate.</p>
+<p>Other estimates of the size of the subacute care population are even less substantiated than the estimates found above:</p>
+<ul><li>
+<p>Two authors maintain that 10 percent to 20 percent of all acute hospital patients could be moved to subacute care (Brooks, 1994; Johnson, 1993).</p>
+</li>
+<li>
+<p>Burk (1994) maintains that 40 percent of all acute patients could be treated in a subacute setting.</p>
+</li>
+<li>
+<p>Ting (1994) maintains that up to 20 percent of patients in tertiary hospitals could be classified as subacute.</p>
+</li>
+<li>
+<p>MacLean has developed a table that indicates percentages of 11 different types of patients. that could be considered to be subacute, by DRG. These percentages range from 2 percent of chemotherapy patients to 62.5 percent of patients with major joint and limb reattachment procedures of lower extremity. However, there is no indication of from where this information originated.</p>
+</li>
+<li>
+<p>Koska (1989) and others cite the 1988 ProPAC Study of subacute care in hospitals (Manard, et al.., 1988) of 4.0-4.2 million patient days as an estimate of subacute care volume. That study, however, found that most of these patient days were attributable to patients waiting for a long term care placement, few would probably quality under today's definition of “subacute care.”</p>
+</li>
+</ul><p>Ting (1994) maintains that methodology to estimate subacute care demand cannot be based on historical rates; that diagnosis-specific methods must be used because most subacute care facilities are disease-specific. In addition, he maintains that rates must be adjusted because all patients with a specific diagnosis will not need subacute care.</p>
+<h3>D. Where Do Subacute Patients Go from Subacute Units?</h3>
+<p>Once again, there is little information available on where patients identified as subacute care patients go after discharge from subacute care settings. Although Varro (1991) maintains that 95 percent of subacute care patients go home, it seems reasonable to assume that some percentage of patients in subacute care settings would die and that some would be discharged to long-term care facilities.</p>
+<p> </p>
+<h2><a name="cost" id="cost">V. THE COSTS AND FINANCING OF SUBACUTE CARE</a></h2>
+<p>The growing number of subacute care providers is largely a result of government and private payer coverage and payment policies, and the increasing efforts of both payers and providers to find more efficient, less costly alternatives to inpatient acute care. Medicare pays a large share of subacute care, in part because payment incentives encourage providers to discharge patients from the acute care setting to post-acute settings. There is also increasing pressure on state Medicaid programs to increase reimbursement rates for long-term care patients requiring specialty care, such as patients with Traumatic Brain Injury. Government payers, therefore, have a strong interest in determining whether subacute care is truly a cost-effective alternative.</p>
+<p>In this section, we examine first key policy and research issues in analyzing the costs and potential savings of subacute care. Following this discussion, we provide an analysis of the literature on the costs and potential savings of subacute care.</p>
+<h3>A. Issues in Analyzing the Costs and Potential Savings of Subacute Care</h3>
+<p>A review of previous studies of the costs and potential savings of subacute care must address a number of key issues. These issues include how different studies define costs (i.e., whose costs are measured), what unit of analysis is used (e.g., costs per day, total costs), what types of settings are evaluated, and a few additional issues.</p>
+<h4>1. Whose costs are measured?</h4>
+<p>One of the key issues to consider when reviewing previous studies of costs and potential cost savings of subacute care is whose costs are measured. There are a variety of payers for subacute care and studies often measure only the costs of a single payer, such as Medicare or a managed care organization, as determined by the study's sponsor or by limitations in data. That is, a managed care organization is primarily concerned with the costs that it must incur. It is less likely to be concerned with costs attributable to other payers, including Medicare and enrollee out-of-pocket costs. Policy makers, however, might find it more useful to consider total costs to society (i.e., regardless of payer source), since true savings occur only when total costs decrease, not simply when costs are shifted from one payer to another.</p>
+<p>It is also important to consider whose costs are measured since cost savings may differ among payers with different payment policies. For example, consider a patient who is transferred from an acute inpatient hospital bed to a less costly subacute setting with no increase in total length of stay. Total medical resource costs decrease for this patient. If this patient were enrolled in a managed care organization, provider payments would likely decrease as well. If this patient were a Medicare beneficiary, however, total payments would likely increase, since the hospital is paid a fixed amount per discharge regardless of LOS and payments to the subacute provider are made in addition to these hospital payments on a per diem basis. Medicare's three day prior hospitalization requirement for SNF care, restrictions on competitive bidding, and other policies may also contribute to differences in potential savings between Medicare and other payers.</p>
+<p>It may also be important to consider the patient's out-of-pocket costs. Consider, for example, a Medicare beneficiary receiving rehabilitation therapy whose coverage is shifted from Medicare Part A to Part B. For this patient, total costs are unchanged. An analysis of Medicare costs, however, would reflect a net savings to Medicare. Medicare costs decrease while total costs do not change because Medicare-covered therapies are fully paid for under Medicare Part A but require a 20 percent beneficiary copayment under Medicare Part B. That is, costs are shifted from Medicare to the beneficiary.</p>
+<h4>2. How are costs defined?</h4>
+<p>A second major issue to consider is how costs are defined. There are at least two alternative approaches to analyzing the potential differences in costs for subacute patients. An examination of Medicare costs, for example, could include:</p>
+<ul><li>
+<p>An analysis that examines Medicare reimbursement for a single day of care (i.e., cost per patient day), or</p>
+</li>
+<li>
+<p>An analysis that compares Medicare reimbursement for patients for the entire episode of care, including both the acute care stay and subacute care stay.</p>
+</li>
+</ul><p>The most common method for describing costs in the available literature addressing subacute care is in terms of "costs per patient day." Describing costs in terms of costs per patient day, however, may mask potential important differences in length of stay across settings, or the effect of transferring patients on total length of stay. An analysis of costs expressed as the sum of costs across the snore length of stay may be preferable, therefore, to an analysis of costs per day.</p>
+<h4>3. What type of subacute care setting (or patient) is examined?</h4>
+<p>A third key issue to consider when reviewing previous studies of the costs and potential cost savings of subacute care is the type of subacute unit examined. Most reports in the literature refer to the estimated costs of subacute care in one particular setting. While such research provides valuable information about this type of care or setting, it does not capture the potential variation in costs and savings across settings.</p>
+<p>Similarly, the costs and potential savings of subacute care vary among different types of patients. Patients in certain disease categories may exhibit cost savings, while patients with other diagnoses may not demonstrate reduced costs or may exhibit increased costs associated with the use of subacute care.</p>
+<h4>4. Other Issues</h4>
+<p>Finally, studies vary considerably in the degree to which they include in the analysis costs other than direct costs of care. Some of the other costs that might be included in an analysis of the cost of potential surveys of subacute care include the following--</p>
+<ul><li>
+<p>Transaction costs associated with transferring people from one setting to another: These costs may be incurred for a variety of reasons; for example, if a patient transfer requires ambulance service to transport the patient from one facility to another, or results in additional administrative costs.</p>
+</li>
+<li>
+<p>Capital investment costs for building new beds and converting old beds: A review of the literature indicates that constructing new subacute care units or converting existing facilities to subacute care units is expensive. Estimates of the cost of building a new bed range from $33,000 to $1 50,000 (Modern Healthcare, 1992; Johnson, 1993). The cost of converting beds is reported to be much less, ranging from $10,000-$15,000 per bed to convert a traditional skilled nursing unit to a subacute care unit to $20,000 per bed to convert a psychiatric care unit to a subacute care unit (Anders, 1994i Gonzales, 1994; Modern Healthcare, 1992). These costs should not be counted, however, since they are already Included as depreciation in the providers costs.</p>
+</li>
+<li>
+<p>The fixed costs of empty hospital beds: Does the study consider the costs associated with a reallocation of the fixed costs associated with empty beds to other patients? Some argue that these costs should be subtracted from any savings since they are a result of treating patients in subacute care units.</p>
+</li>
+</ul><h3>B. Review of the Literature</h3>
+<p>There is a modest amount of literature describing the costs and potential savings of subacute care. Sources of data are most often the trade press and equity research reports. In this section, we first review the literature on the costs of subacute care. A summary of this literature is provided in <strong><em><a href="#exhibit6">Exhibit 6</a></em></strong>. Following this, we provide an analysis of the literature on the potential savings of subacute care.</p>
+<h4>1. Costs</h4>
+<p>Estimates of the cost of subacute care in the available literature range from $200 per day to over $900 per day (Levenson, 1994; Robertson, Stephens and Co., 1994). As <strong><em><a href="#exhibit6">Exhibit 6</a></em></strong> illustrates, most of the estimates place average costs for subacute care within the range of $300 per day to $700 per day (Sherman and Walker, 1994; Salomon Brothers, 1993; Barnett, 1993; Brooks, 1994; Hyatt, 1993; Cowen and Co., 1993; Koska, 1989; Alex Brown and Sons, 1993; Paine Webber, 1993; and Varro, 1991).</p>
+<p>Importantly, the majority of sources define costs from the payer’s perspective; that is, these costs reflect the charges of or payments to subacute providers rather than the provider's costs. This is important since payments vary significantly by payer. In a recent equity research report, for example, Cowen and Company indicated that private pay revenues for subacute average $475 per day, while Medicare payments average $280-350 per day (Cowen and Co., 1993).</p>
+<p>Estimated costs of subacute care are also undifferentiated across settings or by type of care. Researchers often examine only a single type of subacute care setting. As <strong><em><a href="#exhibit6">Exhibit 6</a></em></strong> illustrates, costs of subacute care most often refer to care provided in subacute units in nursing homes. MacLean divides costs into those for medical subacute and those for subacute rehabilitation. Reported costs range from $300-600 per day for medical subacute care and $400-700 per day for subacute rehabilitation.</p>
+<h4>2. Potential Savings</h4>
+<p>While there are numerous assertions in the literature that subacute care is a less costly alternative to hospitalization, (Banta, 1993; Barnett, 1993; Brooks, 1994; Bums, 1994; Freaney, 1993; Hicks and Miner, 1993; Hyatt, 1993; Kania, 1993; Levenson, 1994; O'Donnell, 1993; Skolnick, 1994), there is no definitive study of the potential savings of subacute care. Most of the information on the potential savings of subacute care is provided without reference to the source of data and without a description of how costs were calculated. In addition, a major limitation of these data is that they often compare “apples to oranges.” That Is, there is often little or no effort to control for differences in the types of services provided or patient characteristics across settings.</p>
+<p>The best available research to date is a study conducted by Abt Associates for the American Health Care Association (Abt, 1994). In this study, researchers asked a panel of clinicians to estimate the share of current hospital patients for selected DRGs who could receive subacute care at a property staffed and equipped freestanding nursing home (“subacute nursing home”). Clinicians were provided with data on average length of stay by DRG and were asked to use their judgment to estimate the number of days patients would need to spend in a hospital before they could be transferred to a subacute nursing home.</p>
+<p>This study succeeds where others fall short in a number of regards. First, researchers acknowledged that potential savings differ by type of patient. For example, potential savings for subacute care patients diagnosed with skin grafts for injuries (DRG439) are not necessarily the same as savings for patients diagnosed with fractures of the hip and pelvis (DRG3236) due to differences in baseline costs, total length of stay, and the potential number of subacute days. Second, researchers accounted for the fact that costs are not spread evenly throughout the patient's acute care stay. Costs were allocated such that the first. few days of a patient's acute care episode were assumed to be more expensive than the last few days. Third, researchers estimated savings under a variety of scenarios, including those in which Medicare payment policy is changed in order to realize savings for patients discharged earlier from the acute care setting, and in which Medicare is required to reimburse providers for the fixed costs of empty hospital beds.</p>
+<p>Based on these analyses, the study concluded that Medicare might save $7-9 billion per year if patients were treated in SNF-based subacute facilities rather than acute care settings. Estimated savings increased above $7 billion depending on whether the three day prior hospitalization requirement was removed and on Medicare's reimbursement of hospitals for the cost of empty acute care beds. The Abt Study concluded that removal of the three day prior hospitalization requirement would result in additional savings of $0.5 billion, and that if Medicare were not required to reimburse hospitals for the costs of empty beds, savings would increase by $1.5 billion. The authors note, however, that the large majority of savings are contingent entirely upon the rebasing of the hospital DRG Medicare payments</p>
+<p>It is also important to note that the potential savings of $9 billion reflect a shift of 19.6 million days of care from the hospital setting to subacute units in freestanding SNFs. This large number of days represents over one-fifth of all Medicare hospital days and an increase of 65 percent in Medicare SNF days. The study's authors note that their estimates of the number of Medicare patients and patients days are the “maximum potential” who could be treated in SNFs, and that these estimates do not account for the fact that “not all hospital patients would have access to subacute SNFs, and others might have access to alternative programs (e.g., hospital-based subacute, hospital rehabilitation units, home health).” The practical feasibility of a shift of this magnitude must also be considered when examining these potential savings estimates.</p>
+<p>There are also a number of important methodological limitations of this study, many of which are prominently noted by the study's authors. Researchers noted that “panel members felt that an episode of care is more dependent on patient severity, clinical decision making, and treatment management than it is on diagnosis.” Panel members also expressed concern with the definition of subacute care used for the study, which defined a “subacute care program as one that, among other things, 'does not require intensive diagnostic and/or invasive procedures' without identifying a specific set of services required by subacute patients.”</p>
+<p>An additional concern regarding the Abt study is the assumption that the total length of stay for patients cared for solely in an inpatient acute care setting will not change as a result of being transferred to a subacute unit. That is, the total length of stay is simply divided among inpatient acute care and subacute care. Patients with a respiratory system diagnosis with ventilator support (DRG475), for example, currently have an average hospital length of stay of 14.53 days. The clinical panel estimated that prior to transfer to a subacute care setting, these patients would require, on average, 10 days of hospital care. The Abt study assumes that patients' length of stay in the subacute setting would average 4.53 days (14.53-10 days). That is, absent any research to the contrary, the study's authors assume that average total length of stay does not change as a result of transfer to a subacute setting. It is possible, however, that a transfer to a subacute unit may increase total length of stay, thereby reducing (and possibly eliminating) estimated cost savings. Alternatively, patients' average total length of stay may decrease with transfer to a subacute unit.</p>
+<p>Finally, one scenario considered by the researchers assumes elimination of Medicare's current requirement of a minimum three day hospital stay prior to SNF coverage for specified DRGs. The overall impact of this policy shift could be to increase Medicare costs in ways not considered by the study.</p>
+<table border="1" class="footable sort-disable table"><thead><tr><th scope="col"><strong>Source</strong></th>
+<th scope="col"><strong>Definition of Subacute/Setting</strong></th>
+<th scope="col"><strong>Source of Estimates</strong></th>
+<th scope="col"><strong>Subacute Costs</strong></th>
+<th scope="col"><strong>Costs Relative to Other Settings</strong></th>
+</tr></thead><caption><a id="exhibit6" name="exhibit6">EXHIBIT 6</a>. Summary of Estimated Costs and Potential Cost Savings of Subacute Care</caption>
+<tbody><tr><td><strong>Alex. Brown &amp; Sons Incorporated<br /><em>The nursing and long-term care facility industry.</em><br />
+				(1993, December): Lawson, D.J.</strong></td>
+<td>SNF lower-acuity subacute patient</td>
+<td>not specified</td>
+<td>$250-$500 per patient day</td>
+<td>not specified</td>
+</tr><tr><td><strong>Burns, J.<br />
+				Business side of subacute care. <em>Modern Healthcare</em><br />
+				(1993, December 13)</strong></td>
+<td>transitional facility, step-down facility</td>
+<td>not specified</td>
+<td>not specified</td>
+<td>subacute care costs about 30% less than traditional hospital care on a case-by-case basis</td>
+</tr><tr><td><strong>Burns, J.<br />
+				Sorting out subacute care. <em>Modern Healthcare</em><br />
+				(1994, April 25)</strong></td>
+<td>long term care hospitals</td>
+<td>Columbia/HCA Healthcare Corp., Community Psychiatric Centers and Beverly Enterprises</td>
+<td>not specified</td>
+<td>one-third of traditional hospital care</td>
+</tr><tr><td><strong>Cowen &amp; Co.<br /><em>The post-acute spectrum of care</em>.<br />
+				(1993, May 19): Hicks, W.G., &amp; Miner, K.M.</strong></td>
+<td>subacute care units in nursing homes</td>
+<td>not specified</td>
+<td>$280-$350 per day (Medicare payments);<br />
+				$475 per day (Private pay revenues)</td>
+<td>Subacute care costs are 40-60% below acute care costs.</td>
+</tr><tr><td><strong>Dean Witter.<br /><em>Facility-based long term care industry: The future of the nursing home field</em>.<br />
+				(1993, April 2): Banta, M.G.</strong></td>
+<td>subacute units in nursing homes</td>
+<td>not specified</td>
+<td>$300 per day @ Hillhaven;<br />
+				$550 per day @ Integrated Health Services</td>
+<td>$700-$1000: acute hospital;<br />
+				$850: acute rehabilitation hospital</td>
+</tr><tr><td><strong>Freaney, M.<br />
+				Health care firms rushing to offer subacute care. <em>Baltimore Business Journal</em>.<br />
+				(1993, May 28)</strong></td>
+<td>subacute, post-acute, step-down or transitional care</td>
+<td>Meridian Health Care report costs</td>
+<td>$500 per day</td>
+<td>$1000 in general hospital</td>
+</tr><tr><td><strong>Hyatt, L.<br />
+				Subacute care: an important new trend. <em>Nursing Homes</em><br />
+				(1993, July-August).</strong></td>
+<td>medical specialties services</td>
+<td>not specified</td>
+<td>not specified</td>
+<td>typically 20-50% less expensive than similar care in a hospital setting</td>
+</tr><tr><td><strong>Koska, M.T.<br />
+				Private sector courts low-cost subacute care. <em>Hospitals</em>.<br />
+				(1989, February 5).</strong></td>
+<td>transitional care unit</td>
+<td>American Transitional Care reported costs</td>
+<td>$270-$400 per day at American Transitional Care</td>
+<td>not specified</td>
+</tr><tr><td><strong>Levenson, S.A.<br />
+				Subacute care: Why nursing homes practitioners should take notice. <em>Nursing Home Medicine</em>.<br />
+				(1994, March)</strong></td>
+<td>subacute units in nursing homes</td>
+<td>not specified</td>
+<td>$200-$750 per day</td>
+<td>about one-third of acute-care rates</td>
+</tr><tr><td><strong>Paine Webber.<br /><em>Adding to the continuum: Emerging new market for subacute care--An investment perspective</em>.<br />
+				(1993, July 16): O'Donnell, H.</strong></td>
+<td>subacute units in nursing homes</td>
+<td>not specified</td>
+<td>High end: $700 per day or more;<br />
+				Low end: $250-$400 per day.</td>
+<td>acute care hospital: $1000;<br />
+				rehabilitation hospital: $700 or more</td>
+</tr><tr><td><strong>Robertson, Stephens &amp; Company.<br /><em>The subacute/long-term care industry: Meeting the needs of payers, patients and investors</em>.<br />
+				(1994, April 4): Skolnick, S.R.</strong></td>
+<td>subacute units in nursing homes</td>
+<td>not specified</td>
+<td>$350-$900 per day</td>
+<td>$1500 (in some cases as hight as $2500)</td>
+</tr><tr><td><strong>Sherman, D., and Walker, L. (Abt Associates, Inc.)<br /><em>Subacute Care in Freestanding Skilled Nursing Facilities: An Estimate of Savings to Medicare</em>.<br />
+				(1994, June)</strong></td>
+<td>properly equipped subacute unit in freestanding nursing home</td>
+<td>self-reported costs of SNF operators and Medicare claims payment data</td>
+<td>range from $200-$700 per day;<br />
+				most often between $300-$350 per day</td>
+<td>relative costs not estimated on per diem basis</td>
+</tr><tr><td><strong>Varro, B.<br />
+				LTC hospital--a successful species propagated in Dallas by Baylor. <em>AHA News</em>.<br />
+				(1991)</strong></td>
+<td>long term care hospital</td>
+<td>not specified</td>
+<td>$480 per day in 1990,<br />
+				$435 per day in 1991</td>
+<td>not specified</td>
+</tr><tr><td><strong>Willging, P.<br />
+				New directions in long term care. <em>Provider</em>.<br />
+				(1993, August)</strong></td>
+<td>subacute units in nursing homes</td>
+<td>not specified</td>
+<td>not specified</td>
+<td>savings of 50-60% for subacute care in nursing facilities compared to acute care hospitals</td>
+</tr></tbody></table><p> </p>
+<h2><a name="payer" id="payer">VI. PAYERS</a></h2>
+<p>It is generally agreed that most subacute care is paid for by Medicare (Shepherd, 1994). Between 65 percent (Barnett, 1994) and 75 percent (Varro, 1991) of patients in units identified as subacute are said to be Medicare beneficiaries. The remaining patients are financed by private sources.</p>
+<p>Managed care is said to be increasingly important as a payer for subacute care, judging by the recent increase in interest in managed care In the literature (Burk, 1994; Fowler, 1992; Gill, 1994; Gill &amp; Balsano, 1994; Hyatt, 1994; Mason, 1994; Nichols, 1994; Taylor, 1993, 1994; Waxman, 1994; Wise, 1993). A recent survey by the Massachusetts Federation of Nursing Homes (1994) of 95 facilities representing more than 11,000 beds indicates that 65 percent of the 95 facilities surveyed provide medical subacute services and 80 percent provide rehabilitation subacute care. Approximately two-thirds of the 95 facilities indicated that they had one or more managed care contracts although the percentage of care paid by managed care was less than five percent for those facilities with contracts.</p>
+<p>A 1993 survey of 420 long-term care providers in eight states identified 94 facilities providing subacute care (Moore Group, 1993). However, managed care information was provided only for California facilities where approximately 88 percent of the facilities providing subacute care had managed care contracts. One estimate is that 75 percent to 80 percent of inpatient rehabilitation patients will be covered by managed care by the middle of the decade (Fowler &amp; Gill, 1993).</p>
+<p>Medicaid is generally thought not to pay for a great deal of what is called subacute care, although across the country various special programs related to Medicaid-reimbursed subacute care are being considered. <strong><em><a href="#exhibit7">Exhibit 7</a></em></strong> lists state legislative activity in 1993 related to the types of patients often included under subacute care. Other state level activities include the following:</p>
+<h4>1. California</h4>
+<p>California has had a subacute care program since 1988 (Komarek, 1990). The California subacute program included tracheostomy care for 50 percent of the day; tracheostomy care with one of six treatments (total parenteral nutrition [TPN], two or more hours per day for five days per week of physical occupational and/or speech therapy, tube feeding, inhalation therapy treatment, IV therapy) or any three of these six treatment procedures.</p>
+<h4>2.Illinois</h4>
+<p>In 1992, the State of Illinois enacted a subacute care law that required the State Board of Health to "investigate alternative health care models" (Pick, 1994, p.1). As a result of the legislative mandate, in 1994 the State of Illinois was in the process of establishing a five year demonstration project of 13 subacute units (7 in hospitals and 6 in long-term care facilities) that was to determine the cost-effectiveness of subacute care and the need to license subacute units separately (Bums, 1994). As of September 21, 1994, only two units had been approved for participation in the demonstration (Vaczek, 1994).</p>
+<h4>3. Maryland</h4>
+<p>In July 1994, the State of Maryland applied to HCFA for a 1115 Research and Demonstration Waiver for the Medicaid High Cost User Initiative (HCUI) “to test whether now forms of case management and managed care can significantly lower the cost of care for clinically-focused groups of high-cost/high-risk patients, while maintaining or improving service quality” (Maryland Department of Health &amp; Mental Hygiene, 1994). The HCUI will attempt to cut costs by using managed care systems, as well as placing patients in the “least costly settings appropriate to each patient's needs” (Valentine, 1994). The HCUI will focus on the 10 percent of Maryland's Medicaid recipients who account for approximately 70 percent of expenditures.</p>
+<h4>4. New Jersey</h4>
+<p>New Jersey is developing Medicaid guidelines for "facility-specific payment rates for subacute services--including: ventilator-dependent AIDS, Huntington's disease, (and) special pediatrics” (AHCA, May, 1994, p.3).</p>
+<table border="1" class="footable sort-disable table"><thead><tr><th scope="col"><strong>State</strong></th>
+<th scope="col"><strong>Legislation</strong></th>
+</tr></thead><caption><a id="exhibit7" name="exhibit7">EXHIBIT 7</a>. 1993 State Legislation Relevant to Subacute Care</caption>
+<tbody><tr><td scope="row"><strong>Arkansas</strong></td>
+<td><strong>SB 712, Public Law 918, 1993 Laws</strong>
+<ul><li>Drug Therapy Services</li>
+</ul><p>				Defines home intravenous drug therapy services, delineates procedures for Medicaid payment for the services, and established sanctions for violation of the procedures. The law specifies requirements that home intravenous drug therapy providers must meet, including quality control and record-keeping procedures.</p></td>
+</tr><tr><td scope="row"><strong>California</strong></td>
+<td><strong>AB 36, Public Law 1030, 1993 Laws</strong>
+<ul><li>Technology Dependent Children</li>
+</ul><p>				Creates a pediatric service continuum program in Medi-Cal for medically fragile children. Additional services will be covered by Medicaid for children dependent on technology and other medically fragile children.</p></td>
+</tr><tr><td scope="row"><strong>Louisiana</strong></td>
+<td><strong>HB 1579, Public Law 654, 1993 Laws</strong>
+<ul><li>Head Injury Fund</li>
+</ul><p>				Creates the Louisiana Traumatic Head and Spinal Cord Injury Trust Fund which shall consist of moneys collected from additional fees imposed on all motor vehicle violations for driving under the influence, reckless operation and speeding. Allocates such moneys to fund rehabilitation programs. Creates an advisory board consisting of 12 members serving four-year terms without compensation.</p></td>
+</tr><tr><td scope="row"><strong>Montana</strong></td>
+<td><strong>SB 145, Public Law 591, 1993 Laws</strong>
+<ul><li>Traumatic Brain Injury</li>
+</ul><p>				Establishes a traumatic brain injury trust fund composed of donations or grants received from providing services for persons suffering from traumatic brain injury. Defines traumatic brain injury.</p></td>
+</tr><tr><td scope="row"><strong>Nebraska</strong></td>
+<td><strong>LR 214, 1993 Laws</strong>
+<ul><li>Rehabilitation Option</li>
+</ul><p>				Calls for analysis of the benefits of adding the rehabilitation option to the Medicaid plan. The objective of the resolution is to increase access and contain costs.</p></td>
+</tr><tr><td scope="row"><strong>New Jersey</strong></td>
+<td><strong>SCR 81, 1993 Laws</strong>
+<ul><li>Head Injury</li>
+</ul><p>				Establishes a Legislative Commission on Programs and Policies for Persons with Head Injuries. The Commission will develop recommendations regarding the most effective means of improving the quality and scope of rehabilitation services for head injured persons.</p></td>
+</tr><tr><td scope="row"><strong>North Dakota</strong></td>
+<td><strong>SB 2473, Public Law 475, 1993 Laws</strong>
+<ul><li>Traumatic Brain Injury</li>
+</ul><p>				Establishes a system to provide services to people who have suffered a traumatic brain injury.</p></td>
+</tr><tr><td scope="row"><strong>Tennessee</strong></td>
+<td><strong>SB 1419, Public Law 443, 1993 Laws</strong>
+<ul><li>Head and Spinal Cord Injury Information System Act</li>
+</ul><p>				Creates the Traumatic Brain Injury Advisory Council. Provides for the position of TBI coordinator to supervise and coordinate the implementation of a registry and services system for persons with traumatic brain injuries.</p>
+<p>				<strong>SB 1662, Public Law 470, 1993 Laws</strong></p>
+<ul><li>Traumatic Brain Injury</li>
+</ul><p>				Establishes an impaired drivers fund to provide financial assistance to residents of the states who require such assistance as a result of a traumatic brain injury. Defines traumatic brain injury.</p></td>
+</tr><tr><td scope="row"><strong>Virginia</strong></td>
+<td><strong>HJR 462, 1993 Laws</strong>
+<ul><li>Conferences on Brain Injuries and Cognitive Rehabilitation Services</li>
+</ul><p>				Directs the Secretary of Health and Human Resources to conduct two education conferences to increase knowledge regarding brain injuries and cognitive rehabilitation service and to train case managers in the skills of negotiation to enhance utilization of limited funding resources for cognitive rehabilitation services. The conference should be conducted by July 1, 1994.</p>
+<p>				<strong>HJR 573, 1993 Laws</strong></p>
+<ul><li>Cognitive Rehabilitation Services</li>
+</ul><p>				Asks the Secretary for Health and Human Resources to direct appropriate state agencies to conduct feasibility studies to expand current public dollars spent on cognitive rehabilitation services. A report is required by July 1, 1994.</p></td>
+</tr><tr><td colspan="2"><strong>SOURCE</strong>: <em>Long-Term Care--An Overview of 1993 State Legislative Activity</em>. (1993, January). The George Washington University: Intergovernmental Health Policy Project.</td>
+</tr></tbody></table><p> </p>
+<h2><a name="outcome" id="outcome">VII. OUTCOMES AND QUALITY</a></h2>
+<p>Subacute care providers recognize the importance of outcome measures and the collection of data to substantiate claims that subacute care can substitute for more traditional care (National Report on Subacute Care, 1994; Physical Rehab Update, 1994). An Indication of their concern with outcomes is demonstrated by the fact that all associations that have a formal definition of subacute care maintain that subacute care is outcome oriented (AHCA, 1994; ASCA, 1994; ISHA, 1994). Providers have been active in working with accreditation agencies to develop standards for subacute care, as well as sponsoring research. The Commission on Accreditation of Rehabilitation Facilities (CARF) has developed accrediting standards issued in July 1994. The Joint Commission on the accreditation of Health Care Organizations has also developed a subacute care protocol, to be implemented in January 1995.</p>
+<p>The current body of literature on the empirical study of quality and outcomes related to care that might be characterized as subacute care is very limited. Three sets of research have taken place and there is additional research in process.</p>
+<ul><li>
+<p><strong>The Marianjoy Group</strong></p>
+<p>Rehabilitation professionals at the Marianjoy Rehabilitation Hospital and Clinics in Wheaton, Illinois, have conducted several comparisons of small groups of patients treated in inpatient rehabilitative hospitals to patients in subacute settings with intensive rehabilitative settings. The researchers matched patients in the comparison groups by demographic and medical indicators and examined differences in outcomes, lengths of stay and discharge destination.</p>
+</li>
+<li>
+<p><strong>The Post-Acute Care Study</strong></p>
+<p>Robert Kane has conducted two studies using the same database. The original study, best known as the Post-Acute Care (PAC) Study, is an individual level study of Medicare beneficiaries conducted by the University of Minnesota as a companion study to determine utilization of post-acute care following the implementation of the Prospective Payment System (Kane, 1994). The PAC study followed 2,000 individuals with one of five diagnoses discharged from hospitals in three states for a year post-discharge and assessed discharge destination as well as outcomes at six weeks, six months, and 12 months post-discharge. The PAC study compared the actual discharge destination to an optimal destination (with a predicted best outcome). In a second study, using the same database, an expert panel differentiated between traditional rehabilitative care, rehabilitative nursing homes, and traditional nursing home care (Kane et al.., 1993). Outcomes for hip fracture and stroke patients discharged to one of the three types of facilities were compared to outcomes that would have taken place in an optimal discharge location.</p>
+</li>
+<li>
+<p><strong>The HCFA Ventilator Study</strong></p>
+<p>This study has two parts. A case study of four hospital-based units participating in this congressionally mandated study and a larger outcomes study. The case study of hospital ventilator patients has been completed. This study qualitatively examined the structure, staffing, and operation of four demonstration units for ventilator dependent patients in order to determine the cost-effectiveness of the units. The qualitative aspect of the research was structured using two key elements of unit operations: 1) a unit staffing profile, and 2) key processes in patient care. Document reviews and intense structured interviews with staff members provided information for the analysis (Lewin-VHI, 1994).</p>
+</li>
+</ul><p>Below we discuss the findings of these studies, organized by structure/process and outcomes. We conclude with some discussion of research in progress.</p>
+<h3>A. Structure and Process Measures of Quality</h3>
+<p>The literature generally indicates that subacute care requires more skilled staff than traditional care, though “appropriate staffing levels” for different types of patients have not generally been specified. Ideally, one would like to have information on the appropriateness of staffing levels and whether this makes any difference.</p>
+<p>Aspects of staffing have been studied in the HCFA Ventilation Study. The four demonstration ventilator units are identified as similar, nevertheless, researchers found substantial variation across the four units In identification of appropriate candidates for the unit, admission screening criteria, staffing, and patient care management. The approaches used by the ventilator unit varied in staffing, team philosophy, staff communication, staff turnover, and other distinctions that affect quality of care. Results from the qualitative study of the four VRUs indicate that admission screening, staffing issues, and team philosophy appear to make a difference, although a definitive answer awaits completion of the formal outcome study (Lewin-VHI, 1994).</p>
+<h3>B. Outcomes</h3>
+<ul><li>
+<p><strong>The Marianjoy Group</strong></p>
+<p>In two related studies, researchers compared functional outcomes for patients treated in a rehabilitation hospital to patients treated in a subacute rehabilitation facility and found that most functional outcomes were not significantly different when they controlled for age, sex, diagnostic category, primary payer, or admission status (Kilgore et al.., 1993; Oken, Kilgore, &amp; Peterson, 1994). Significant differences in one measure, called “Applied Self Care” and described as “a measure of independence in bowel, bladder, safety, and medication management” (Kilgore et al... 1993, p.658; Oken et al.., 1994, p.1037), were found with the inpatient group demonstrating greater function in this area in both Marianjoy studies. Researchers also found that there were no statistically significant differences in patient outcome when they varied the amount of physical and occupational therapy in a subacute setting (Oken et al.., 1993). In another study at Marianjoy, researchers found statistically significant higher rates of death and emergency transfers for subacute rehabilitation patients (in nursing home settings) after the first week of admission. When patients were compared by age, this higher rate was found only for elderly patients (65 years or older) (Rao et al.., 1994).</p>
+</li>
+<li>
+<p><strong>The Post-Acute Care Study</strong></p>
+<p>In the original Post-Acute Study, researchers compared the actual discharge destination to an optimal destination (with a predicted best outcome) and found a lower amount of agreement between the optimal and actual destination for patients discharged to nursing homes. They concluded that traditional nursing homes were ill prepared to care for post-acute patients (Kane, 1994).</p>
+<p>In a subsequent study using the same data, but focused on rehabilitation, researchers found differences in outcomes by diagnosis. They further found that stroke patients appeared to have better outcomes when discharged to a traditional rehabilitation facility rather than either a RNH or a traditional nursing home, but that 20 percent of the hip fracture patients discharged to a traditional nursing home would have had better outcomes in a RNH (Kane et al.., 1993).</p>
+</li>
+</ul><h3>C. Outcome Research in Progress</h3>
+<p>At present we have identified two major formal studies underway that are addressing quality and outcomes for some of the types of patients typically included under the term subacute care. In addition, various providers are undertaking other research activities related to this issue.</p>
+<h4>1. Formal Outcome Studies</h4>
+<ul><li>
+<p><strong>Ventilator Patient Outcomes</strong></p>
+<p>An outcome study of patients admitted to the HCFA ventilator demonstration units is in process. This is the quantitative companion study to the qualitative study of the HCFA study discussed earlier. In this study, patient outcome data will be linked to National Claims History Files and will be compared to a matched sample of ventilator dependent patients cared for in traditional facilities extracted from the Uniform Clinical Data Set.</p>
+</li>
+<li>
+<p><strong>Rehabilitation Outcomes</strong></p>
+<p>The University of Colorado is studying a comparison of rehabilitation in fee-for-service and capitated settings for elderly patients. This is a five year study of approximately 1,200 patients with stroke, hip fracture, and medical/surgical diagnoses currently in the process of collecting clinical and cost data. In a second study, researchers will compare the functional status of stroke and hip fracture patients treated in SNFs to patients treated in rehabilitation facilities. The study will follow approximately 3,000 patients longitudinally.</p>
+</li>
+</ul><h4>2. Other Related Activities</h4>
+<p>Providers undertaking related research activities include: 1) a group of providers working with a consulting group called Formations on an outcome measure, and 2) work by Integrated Health Services.</p>
+<ul><li>
+<p><strong>The Formations Group Study</strong></p>
+<p>A group of five large nursing facility providers has engaged the services of a consultant, “The Formations Group,” to assist in developing outcome measures that will facilitate the comparison of outcomes Across facilities. The outcome measures being considered include: length of stay, number of visits, activities of daily living capability, mobility and locomotion capability, communication capability, cognitive status, “gains in Rancho Los Amigos Coma Scale and return to home rate” (Physical Rehab Update, Spring, 1994, p.2).</p>
+</li>
+<li>
+<p><strong>Integrated Health Services</strong></p>
+<p>Integrated Health Services (IHS), one of the larger providers of subacute care, has developed a database that provides information on outcomes for the IHS system. This database provides information on: patient demographics, diagnoses, and 59 clinical indicators from nursing, social work, and from physical, occupational and speech therapies (from unpublished information from IHS Outcomes Management &amp; Research, 1994). These data can be reported at the following levels: local, regional, and national, by patient, facility, product, program, diagnosis, and cost center. IHS reports that they recently hired an individual at the doctorate level to provide direction on data analyses of the data collected.</p>
+</li>
+</ul><p> </p>
+<h2><a name="conclude" id="conclude">VIII. CONCLUSION</a></h2>
+<p>As noted in the introduction, and throughout this report, there is very little solid, research-based information currently available on subacute care. It is our current sense, however, that probably only a relatively small amount of care provided in various settings that are candidates for subacute care would meet the newer, more stringent definitions beginning to be advanced.</p>
+<p>In the next steps of this project, we will supplement the information presented in this report with extensive telephone interviews, site visits, and additional documentary review.</p>
+<p> </p>
+<h2><a name="bib" id="bib">BIBLIOGRAPHY</a></h2>
+<p>AGW. (1985, August). [Interview with Roger S. Garrick, President of Merrick, Young, &amp; Company]. <em>Health Care Strategic Management</em></p>
+<p>Alex, Brown &amp; Sons Incorporated. (1994, May). <em>The force changing the health care industry. A prescription of investors</em>. Baltimore, MD: Alex, Brown &amp; Sons Incorporated.</p>
+<p>American Association of Retired Persons. (1992). <em>Medicare beneficiaries' access to rehabilitation services: An analysis of service use, care patterns, and charges</em>. Washington, DC: Fama, T., Manard, B., McPartlin, D., Caprio, T., &amp; Flores, R.</p>
+<p>American Health Care Association. (1993, April). New directions in long term care. <em>Provider, 18</em>, 22-28.</p>
+<p>American Health Care Association. (1994). <em>Subacute Care--Medical and rehabilitation definition and guide to business development.</em></p>
+<p>American Health Care Association. (1994). <em>Subacute care in freestanding skilled nursing facilities: An estimate of savings of Medicare</em>. Bethesda, MD: Sherman, D. &amp; Walker, L., Abt Associates Inc.</p>
+<p>American Health Care Association. (1994, April). Subacute care--Medical and rehabilitation definition and guide to business development. <em>Provider, 20</em>, 1-16.</p>
+<p>American Health Care Association. (1994, June 22). <em>AHCA publishes managed care guide</em>. PR Newswire.</p>
+<p>American Health Care Association. (1994, May). May 1994 Update: Significant state developments in subacute care. Regulatory Update.</p>
+<p>American Rehabilitation Association. (1994, June). <em>Task force on comprehensive rehabilitation in subacute inpatient settings--“A description of a now entity: Comprehensive rehabilitation programs in subacute inpatient settings.”</em> Unpublished manuscript.</p>
+<p>American Subacute Care Association. (1994, October 14-16). The future of subacute care [Summary]. <em>American Subacute Care Association Annual Conference</em>.</p>
+<p>Anders, K.T. (1994, June). Is subacute care right for you? This proverbial pot of gold isn't for everyone. <em>Contemporary Long Term Care</em>, pp.32-42.</p>
+<p>Arakaki, A.H. (1994, January). Illinois, California, &amp; Maryland lead way in formulating new subacute regulations. <em>American Subacute Care Association Quarterly</em>, p.1.</p>
+<p>Balsano, A.E. &amp; Fowler, F.J. (1993, July). Subacute care as a new source of revenue. <em>Healthcare Financial Management</em>, pp.47, 56, 58, 60-62.</p>
+<p>Bamett, A.A. (1993, October 22). Subacute care: Passing fad or future of the nursing home industry? <em>Trends in Health Business</em>, pp.1-4.</p>
+<p>Brooks, S. (1994). 2001. Subacute Care. Follow the money: a subacute unit's revenue sheet reads like a nursing home's turned upside down. <em>Contemporary Long Term Care</em>, pp.50-52.</p>
+<p>Burk, S. (1994, February). Subacute care. Defining the challenge. <em>Provider, 20</em>(2), 37-38.</p>
+<p>Burns, J. (1993, December 13). Subacute care feeds need to diversity. <em>Modern Healthcare</em>, pp.34-36, 38.</p>
+<p>Burns, J. (1994, April 25). Sorting out subacute care. Subspecialty's surge has Feds, States seeking proof of the product's promises. <em>Modern Healthcare</em>, pp.28-30, 32.</p>
+<p>Burns, J. (1994, June 20). HCFA tries to restrict subacute-care units. <em>Modern Healthcare</em>, p. 18.</p>
+<p>Burns, J. (1994, June 27). Rehability approves deals, enters subacute-care field [news]. <em>Modern Healthcare</em>, p.6.</p>
+<p>California Association of Health Facilities. (1993). <em>Long term care FACTS</em>. Sacramento, CA: California Association of Health Facilities.</p>
+<p>Center for Health Services Research. (1994). <em>A policy study of the cost effectiveness of institutional subacute care alternatives and services--project summary</em>. Denver, CO: Center for Health Services Research.</p>
+<p>Coburn, A.F., Fortinsky, R.H., &amp; McGuire, C.A. (1989, January). The Impact of Medicaid Reimbursement Policy on Subacute Care in Hospitals. <em>Medical Care, 27</em>, 25-33.</p>
+<p>Cowen &amp; Co. (1993, May 19). <em>Industry strategies: The post-acute spectrum of care</em>. Boston, MA: Hicks, W.G., &amp; Miner, K.M.</p>
+<p>Deangelis, P.L. (1987, August). Hospital based SNFs: An alternative to empty beds. <em>Healthcare Financial Management</em>, pp.60-68.</p>
+<p>DeLorme, T. &amp; DeLorme, J. (1989, August). AIDS and subacute care strategies: Home health, hospices and LTC facilities dedicated to AIDS care will become increasingly important. <em>Contemporary Long Term Care</em>, pp.30, 31, 64, 78, 84.</p>
+<p>Densen, P.M. (1987). The elderly and the health care system. <em>Another Perspective</em>, pp.614-639.</p>
+<p>Falcone, D., Bolda, E., &amp; Leak, S.C. (1991, August). Waiting for placement: An exploratory analysis of determinants of delayed discharges of elderly hospital patients. <em>HSR: Health Sciences Research, 26</em>, 339-374.</p>
+<p>Folkemer, D. (1994, January). <em>Longterm care--An overview of 1993 state legislative activity</em>. Washington, DC: The George Washington University, Intergovernmental Health Policy Project.</p>
+<p>Formations in Health Care, Inc. (1994, July 28). <em>Introducing formations in Health Care, Inc</em>. Chicago, IL.</p>
+<p>Fowler, F.J. (1992, October 26). Subacute care offers flexibility, revenue. <em>Modern Healthcare</em>, p.50.</p>
+<p>Freaney, M. (1993, May 26). Health care firms rushing to offer subacute care. <em>Baltimore Business Journal, 10</em>, 3.</p>
+<p>Fries, S.E., Schneider, D.P., Foley, W.J., Gavazzi, M., Burke, R., &amp; Cornelius, E. (1994). Refining a case-mix measure for nursing homes: Resource utilization groups (RUG-III). <em>Medical Care</em>, 668-685.</p>
+<p>Garfinkle, S.W. (1994, May). Staffing: the subacute care facility. <em>Nursing Homes, 43</em>, 20.</p>
+<p>Gibbons, J.H. (1987, July). <em>Life-sustaining technologies and the elderly</em>. (PB Report No. 87 619835). Washington, DC: (U.S.) Office of Technology Assessment. (NTIS No. PB87-222527).</p>
+<p>Gonzales, C. (1994, April). Subacute care--Preparing for a new market. <em>Provider, 20</em>, 55-56.</p>
+<p><em>GRANCARE to open new subacute care unit at Sinai Samaritan Medical--Center Site in Wisconsin</em>. (1994, July 7). PR Newswire.</p>
+<p>Grim, S.A. (1990). Subacute care in urban hospitals: A case for urban swingbeds. <em>Henry Ford Hospital Medical Journal, 38</em>(2&amp;3). pp.133-136.</p>
+<p>Hartwell, R. (1994, March). Subacute care: the LTC link. <em>Provider, 20</em>, 21-22.</p>
+<p>Health Care Financing Administration. (1993). <em>Subacute care</em>. Unpublished manuscript.</p>
+<p>Health Care Financing Administration. (1994). [Long term care hospitals]. Unpublished raw data.</p>
+<p>Health Care Financing Administration. (1994, August 8). <em>Subacute care</em>. Symposium conducted at the meeting of the Health Care Financing Administration's Long Term Care Task Force Meetings.</p>
+<p>Health Data Associates, Inc. (1994). <em>Nursing Home Yearbook., Assessing demand for subacute nursing home services</em>. Tacoma, WA: Ting, H. M.</p>
+<p>Health Policy Research Consortium. (1993, February). <em>Focused analysis of post-acute care (PAC) use for selected DRGs</em>. Waltham, MA: Lee, A.J., Ellis, R.P., &amp; Merrill, A.</p>
+<p>Hegland, A. (1990, November). Move to specialize gains momentum: Planning is key to success. <em>Contemporary Long Term Care</em>, pp.36, 38, 83.</p>
+<p>Hegland, A. (1994, February). How will you merge managed care Into your company's operations? <em>Contemporary Long Term Care</em>, p.31.</p>
+<p>Hegland, A. (1994, April). DON of the year--June Anderson and Rita Hoey. <em>Contemporary Long Term Care</em>, pp.55, 57, 59.</p>
+<p>Hyatt, L (1993, September). ASCA unites subacute care professionals. <em>American Subacute Care Association Quarterly, 1</em>, 1.</p>
+<p>Hyatt, L (1994, Spring). President Clinton's national AIDS coordinator addresses subacute care. <em>Amencan Subacute Care Association Quarterly, 3</em>, 1.</p>
+<p>Hyatt, L. (1994, July-August). Ethical challenges for subacute providers. <em>Nursing Homes, 43</em>, 9.</p>
+<p>International Subacute Healthcare Association, Inc. (1994, June 25). <em>Definition of subacute care</em>.</p>
+<p>Irvin, K., Riley, T., Booth, M., &amp; Fuller, E. (1993, November). Managed care for the elderly: A profile of current initiatives. <em>National Academy for State Health Policy, Medicaid Managed Care Resource Center</em>. Unpublished manuscript.</p>
+<p>Johnson, D.E. (1993, August). Integrated subacute care: 20% of your patient days. <em>Health Care Strategic Management, 11</em>, 2-3.</p>
+<p>Kane, R.L. (1994, May). A study of post-acute care. Unpublished manuscript, University of Minnesota School of Public Health.</p>
+<p>Kane, R.L., Blewett, L.A., &amp; Chen, Q. (1993, August). <em>Rehabilitative Nursing Homes: Can we identify them? Should we?</em> Unpublished manuscript, University of Minnesota School of Public Health.</p>
+<p>Kelly, M. (1992, November). Higher intensity specialization. Reach new heights through subacute care. <em>Contemporary Long Term Care</em>, pp.38-40.</p>
+<p>Kilgore, K.M., Peterson, L.A., Oken, J., Fisher, W.P. &amp; Harvey, R. (1993, November). Intermediate Rehabilitation: cost-effectiveness and outcome. (<em>1993 Congress Annual Meeting Abstracts</em>)</p>
+<p>Komarek, A.G. (1990, September-October). Subacute care: An experiment in efficiency. <em>California Hospitals</em>, pp.32, 34, 36.</p>
+<p>Koska, M.T. (1989, February 5). Private sector courts low-cost subacute care. <em>Hospitals</em>, p.62.</p>
+<p>Leiter, P. (1994, March/April). Tips on monitoring quality and outcomes in rehabilitation Services. <em>AAPPO Joumal</em>.</p>
+<p>Leiter, P. (1994, Spring). Rehabilitation outcomes strategy in 1994. <em>Formations in Healthcare, Inc., 3</em>, 3-5.</p>
+<p>LeIlls, M. (1994, April 13). <em>The National Report on Subacute Care</em>.</p>
+<p>Levenson, S.A. (1994. March). Subacute care: Why nursing home practitioners should take notice. <em>Nursing Home Medicine, 2</em>, 23-34.</p>
+<p>Levenson, S. <em>Discussion of subacute care and related issues</em>. Unpublished manuscript.</p>
+<p>Lewin-VHI for Office of Research and Demonstrations, Health Care Financing Administration. (1994, March 11). <em>Ventilator Dependent Unit Demonstration Evaluation Case Studies</em>. Washington, DC: Lewin-VHI.</p>
+<p>Liu, K. (1993, March). <em>Therapy services provided to SNF patients under Medicare Part B</em>. Unpublished manuscript.</p>
+<p>Lutz, S. (1992, April 6). Psych/Rehab chain moves into subacute care. <em>Modern Healthcare</em>, p.10.</p>
+<p>Lutz, S. (1994, March 28). Long-term hospitals do well, but face challenges. <em>Modern Healthcare</em>, pp.43-44.</p>
+<p>Lutz, S. &amp; Bums, J. (1994, February 28). Long-term-care firms eye Columbia ties. <em>Modern Healthcare</em>, p.6.</p>
+<p>MacLean, D. (1994, August 30, September 27). <em>Subacute/transitional care</em>. Polyclinic Medical Center. Unpublished manuscript.</p>
+<p>Marren, J. (1990, January-February). Focus: managed care, minimizing risk in discharges to subacute care facilities. <em>Discharge Planning Update</em>, pp.16-17.</p>
+<p>McDowell, Jr., T.N. (1990, October). The subacute care patient: hospital responses to the challenge. <em>Journal of Health and Hospital Law, 23</em>, 289-294.</p>
+<p>The Minnesota Department of Health. (1985). <em>Subacute/transitional care in hospitals</em>. (Research Report: Lewin/ICF). Washington, DC: Manard, B.B., Gong, J.A., Blewett, L.A., Roenigk, L.A., Lewin, L.S., Derzon, R.A.</p>
+<p>Molis, D.B. (1993, August). New directions in long-term care. The Emergence of Subacute Care. <em>Provider, 18</em>, 22-24, 30-32.</p>
+<p>The Moore Group. (1993, September). <em>Characterizing the subacute industry</em>. Unpublished manuscript.</p>
+<p>Morrisey, M.A., Sloan, F.A., &amp; Valvona, J. (1988, July). Medicare prospective payment and posthospital transfers to subacute care. <em>Medical Care, 7</em>, 685-698.</p>
+<p>Morrow-Howell, N. &amp; Proctor, E. (1993, September). <em>Discharge distention of Medicare patients receiving discharge planning. Who goes where?</em> Unpublished manuscript, Washington University, St. Louis.</p>
+<p>Morrow-Howell, N. &amp; Proctor, E. (1994). Discharge destinations of Medicare patients receiving discharge planning: Who goes where? <em>Medical Care, 32</em>, 486-497.</p>
+<p><em>National subacute care month, raises awareness of quality &amp; cost-effective approach to healthcare</em>. (1994, July 3). PR Newswire.</p>
+<p>Neu, C.R., Harrison, S.C., Hellbrunn, J.Z. (1989, November). Medicare patients and postacute care--Who goes where? <em>The RAND Corporation</em>, 1-228.</p>
+<p>New association to serve subacute care programs. (1993, July). <em>Contemporary Long Term Care</em>, p.14.</p>
+<p>Newald, J. (1987, January 5). Will subacute care fall under PPS in 1987? <em>Hospitals</em>, p.64.</p>
+<p>O'Donnell, H. (1993, July 26). <em>Adding to the continuum: Emerging new markets for subacute care--An investment perspective</em>. PaineWebber. Unpublished manuscript.</p>
+<p>O'Donnell, H., Elkins, R., Elliot, N., Stratton Jr., A., Greenberg, I., &amp; Tellis-Nayak, M. (1993, July 26). <em>Issue Brief. Adding to the Continuum: Emerging New Markets for Subacute Care</em>. Washington, DC: The George Washington University.</p>
+<p>Oken, J.E., Kilgore, K.M., &amp; Peterson, L. Subacute vs. traditional rehabilitation: cost effectiveness and outcome [abstract]. (<em>1993 Congress Annual Meeting</em>).</p>
+<p>Oken, J.E., Kilgore, K.M., Peterson, L., &amp; Kelly, C.K. (1993, November). Intensity of therapy: Effect on outcome and length of stay in a subacute program [abstract]. (<em>1993 Congress Annual Meeting</em>).</p>
+<p>Pallarito, K. (1992, February 24). Chatting the rapid rise of subacute care. <em>Modern Healthcare</em>, pp.52-54, 56-57.</p>
+<p>Pallarito, K. (1993, May 24). Second subacute-care group forms. <em>Modern Healthcare</em>, p.17.</p>
+<p>Parker, D. (1994, February). Ventilator programs meets managed-care needs. <em>Contemporary Long Term Care</em>, p.90.</p>
+<p>Pentecost, R.A. (1990, December). A do-it-yourself guide to assembling skilled nursing facilities. <em>HealthTexas, 46</em>, 1 0-1 1.</p>
+<p>Private sector courts low-cost subacute care. (1989, February 5). <em>Hospitals</em>, p.62.</p>
+<p>Prospective Payment Assessment Commission. (1988, August). <em>Subacute care in hospitals: Synthesis of findings from the 1987 survey of hospitals and case studies in five states</em>. (Research Report Lewin/ICF). Washington, DC: Manard, B., Gong, J. et al..</p>
+<p>Prospective Payment Assessment Commission. (1993, June). <em>Medicare and the American Health Care System--Report to the Congress</em>. Washington, DC: Prospective Payment Assessment Commission.</p>
+<p>Prospective Payment Assessment Commission. (1994, March 1). <em>Interim analysis of payment reform for home health services--Congressional Report C-94-02</em>. Unpublished manuscript.</p>
+<p>RAND/UCLA/Harvard Center for Health Care Financing Policy Research. (1988). <em>Monitoring the changes in use of Medicare posthospital services</em>. Washington, DC: Steiner, A., &amp; Neu, C.R.</p>
+<p>Rao, N., Wright, R.E., Kilgore, K.M., &amp; Harvey, R.F. (1994, September) Incidence of death and emergency transfers in acute and subacute rehabilitation [abstract]. (<em>1993 Congress Annual Meeting</em>).</p>
+<p>Rehabilitation Institute of Chicago. (1989, September 1). <em>RIC-FAS II--Rehabilitation institute of Chicago functional assessment scale</em>. Unpublished manuscript.</p>
+<p>Riley, S.A. (1994, July-August). Clinical pathways: a basic tool for subacute care. <em>Nursing Homes, 43</em>, 35.</p>
+<p>Robertson Stephens &amp; Company. (1994, April 8). <em>The subacute/long-term care industry--Meeting the needs of payers, patients, and investors</em>. San Francisco, CA: Skolnick, S.</p>
+<p>Saloman Brothers. (1994, May 5). <em>Long-term care industry., Focus on new treatment venues</em>. New York, NY: Banta, M.</p>
+<p>Shaughnessy, P.W. (1991). <em>Shaping policy for long-term care--Learning from the effectiveness of hospital swing beds</em>. Michigan: Health Administration Press.</p>
+<p>Shepherd, G. (1994, August 12). Subacute care: providing a cost-saving alternative. <em>Tampa Bay Business Journal, 14</em>, 20.</p>
+<p>Silverstein, B.J., Peterson, L, &amp; Kilgore, K.M. (1992, October). Medical and financial independence difference between hospital based and free-standing intermediate rehabilitation programs [abstract]. (<em>1993 Congress Annual Meeting</em>), 73, 976.</p>
+<p>Singleton, G.W. (1993, September 15). Subacute care: an emergency industry. <em>Brown University Long-Term Care Quality Letter, 5</em>, 1</p>
+<p>Staff. (1994, Summer). Accrediting bodies set subacute standards. <em>American Subacute Care Association</em>, p.1.</p>
+<p>State gives approval to local hospitals for sub-acute care units. (1990, October 8). <em>Cincinnati Business Courier</em>, pp.7, 17.</p>
+<p>Subacute Care. Outthinking the competition. (1994). <em>Contemporary Long Term Care</em>.</p>
+<p>Survey identifies hospitals in LTC. (1991, July). <em>McKnight's Long-Term Care Nursing</em>.</p>
+<p>Taylor, K. (1994, March 20). Clamor over subacute care creates adversaries/new partners. <em>Hospitals &amp; Health Networks</em>, p.102.</p>
+<p>Taylor, K.S. (1994, April). Clamor over subacute care creates adversaries--and now partners. <em>Trustee, 47</em>, 20.</p>
+<p>Taylor, K.S. (1993, July 20). Poised for growth, subacute care gains a clearer identity. <em>Hospital &amp; Health Network</em>, p.58.</p>
+<p>Taylor, KS. (1994, March 20). Clamor over subacute care creates adversaries/new partners. <em>Hospital &amp; Health Network</em>, p.102.</p>
+<p>Tellis-Nayak, M. (1994). From the Director's Desk. <em>LTC Update, 2</em>, 2-3.</p>
+<p>Tellis-Nayak, V. &amp; Tellls-Nayak, M. (1986). An Alternative Level of Care, The prospective payment system and the challenge of extended care. <em>Social Science Medicine, 23</em>, 665-671.</p>
+<p>Ukens, C. (1994, October 10). Meeting of minds--Groups agree on definition of subacute care. <em>Drug Topics</em>, p.60.</p>
+<p>Varro, B. (1991). LTC hospital--a successful species propagated in Dallas by Bayor. <em>American Hospital Association News</em>.</p>
+<p>Waxman, J. M. (1994, February). Check out managed-care contracts before you sign--Part one of a two-part series. <em>Contemporary Long Term Care</em>, p.62.</p>
+<p>Wilhelm, M.E. &amp; Wilhelm, M.A. (1984, February). Hospital development in a subacute care setting. <em>Hospital Progress, 65</em>(2), 42-45, 74.</p>
+<p> </p>
+<h2><a name="appendA" id="appendA">APPENDIX A. PROPAC SUMMARY OF DIFFERENCES IN MEDICARE PAYMENT POLICIES FOR POST-ACUT PROVIDERS</a></h2>
+<table border="1" class="footable sort-disable table"><thead><tr><th scope="col"> </th>
+<th scope="col"><strong>Home Health Agencies</strong></th>
+<th scope="col"><strong>Skilled Nursing Facilities</strong></th>
+<th scope="col"><strong>Rehabilitation Hospitals and Distinct-Part Units</strong></th>
+<th scope="col"><strong>Long-Term Hospitals</strong></th>
+</tr></thead><tbody><tr><td scope="row"><strong>Payment Method</strong></td>
+<td>Reasonable costs, subject to 112% mean cost for all urban; rural agencies receive a higher limit; cost limits are determined separately by type of service, but are applied in the aggregate</td>
+<td>Reasonable costs, subject to cost limits. Cost limits for routine operating cost are established separately for urban and rural facilities and for freestanding (112% of mean) and hospital-based facilities (112% of freestanding mean plus 50% of difference between freestanding man and 112% of the hospital-based mean).</td>
+<td>Reasonable costs subject to limit as specified in TEFRA (limit equals facility-specific costs in base year trended forward)</td>
+<td>Reasonable costs subject to limit as specified in TEFRA (limit equals facility-specific costs in base year trended forward)</td>
+</tr><tr><td scope="row"><strong>Payment Unit</strong></td>
+<td>per visit</td>
+<td>per diem</td>
+<td>per discharge</td>
+<td>per discharge</td>
+</tr><tr><td scope="row"><strong>Treatment of Ancillaries and Supplies</strong></td>
+<td>supplies paid on a pass-through</td>
+<td>ancillaries and supplies paid on a pass-through</td>
+<td>included in payment</td>
+<td>included in payment</td>
+</tr><tr><td scope="row"><strong>Treatment of Capital</strong></td>
+<td>N/A</td>
+<td>capital paid on a pass-through</td>
+<td>capital paid on a pass-through</td>
+<td>capital paid on a pass-through</td>
+</tr><tr><td scope="row"><strong>Benefit Limits Restrictions</strong></td>
+<td>no limit to number of visits, length of coverage; beneficiary must be homebound and need intermittent care</td>
+<td>coverage for 100 days per illness episode, beneficiary must have had a minimum 3 day hospitalization in prior 30 days</td>
+<td>coverage for first 90 days per illness episode plus 60 lifetime reserve days</td>
+<td>coverage for first 90 days per illness episode plus 60 lifetime reserve days</td>
+</tr><tr><td scope="row"><strong>Beneficiary Cost-Sharing</strong></td>
+<td>none</td>
+<td>after first 20 days, daily copayment ($84.50 in 1993)</td>
+<td>deductible for first 60 days ($676 in 1993); coinsurance for days 61-90 ($169 in 1993); plus 60 day lifetime reserve with a coinsurance of $338 per day</td>
+<td>deductible for first 60 days ($676 in 1993); coinsurance for days 61-90 ($169 in 1993); plus 60 day lifetime reserve with a coinsurance of $338 per day</td>
+</tr><tr><td colspan="5"><strong>SOURCE</strong>: ProPAC unpublished document presented at August 24, 1994 meeting.</td>
+</tr></tbody></table><p> </p>
+<h2><a name="appendB" id="appendB">APPENDIX B. GROWTH IN NUMBER OF POST-ACUTE PROVIDERS</a></h2>
+<table border="1" class="footable sort-disable table"><thead><tr><th rowspan="2" scope="col"><strong>Facility Type</strong></th>
+<th colspan="3" scope="col"><strong>Number of Medicare-Certified Facilities</strong></th>
+</tr><tr><th scope="col"><strong>1986</strong></th>
+<th scope="col"><strong>1990</strong></th>
+<th scope="col"><strong>1994</strong></th>
+</tr></thead><tbody><tr><td colspan="4" scope="row"><strong>Rehabilitation</strong></td>
+</tr><tr><td scope="row"><strong>  Hospitals</strong></td>
+<td>75</td>
+<td>135</td>
+<td>187</td>
+</tr><tr><td scope="row"><strong>  Distinct-part units</strong></td>
+<td>470</td>
+<td>687</td>
+<td>804</td>
+</tr><tr><td scope="row"><strong>Long-Term Hospitals</strong></td>
+<td>94</td>
+<td>90</td>
+<td>120</td>
+</tr><tr><td colspan="4" scope="row"><strong>Skilled Nursing Facilities</strong></td>
+</tr><tr><td scope="row"><strong>  Hospital-based</strong></td>
+<td>652</td>
+<td>1,145</td>
+<td>1,953</td>
+</tr><tr><td scope="row"><strong>  Free-standing</strong></td>
+<td>8,414</td>
+<td>8,120</td>
+<td>10,463</td>
+</tr><tr><td scope="row"><strong>Home health agencies</strong></td>
+<td>5,907</td>
+<td>5,949</td>
+<td>7,363</td>
+</tr><tr><td colspan="4"><strong>SOURCE</strong>: ProPAC analysis of data from Health Care Financing Administration, Office of Survey and Certification.</td>
+</tr></tbody></table>
+  <div class="download_report">
+    
+                        <div class="pdf-prev">
+                <img src="https://aspe.hhs.gov/system/files/pdfpreview/be4490bbf50706191c5c95e00325fe37.png" alt="Preview" title="Preview" />            </div>
+                <a class="btn btn-sm btn-default download-file"
+           href="https://aspe.hhs.gov/system/files/pdf/138576/scltrves.pdf">Download</a>
+
+        <p class="download_title">&quot;scltrves.pdf&quot;
+            (pdf,
+            875.24Kb)</p>
+        <p>Note: Documents in PDF format require the <a href="http://www.adobe.com/products/acrobat/readstep2.html">Adobe
+                Acrobat Reader&reg;</a>. If you experience problems with PDF documents, please <a
+                href="http://www.adobe.com/products/acrobat/readstep2.html">download the latest version of the
+                Reader&reg;</a>
+        </p>
+    </div>
+<div class="group-tags"><div class="field-label">Tags:&nbsp;</div><a href="/terms/disability-aging-and-long-term-care-research">Disability, Aging and Long-Term Care Research</a><a href="/terms/publications-2">Publications</a><a href="/terms/health-services-formal">Health Services, Formal</a><a href="/terms/post-acute-care-and-services-0">Post-Acute Care and Services</a></div>  </div>
+
+      <footer>
+          </footer>
+  
+    <div id="block-webform-client-block-158521" class="widget block block-webform" >
+  
+      
+  <div id="webform-ajax-wrapper-158521"><form class="webform-client-form webform-client-form-158521" action="/basic-report/subacute-care-review-literature" method="post" id="webform-client-form-158521" accept-charset="UTF-8"><div><div class="webform-progressbar">
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-radios webform-component--was-this-page-helpful">
+  <label for="edit-submitted-was-this-page-helpful">Was this page helpful? <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-was-this-page-helpful" class="form-radios"><div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-1" name="submitted[was_this_page_helpful]" value="1" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-1">Yes </label>
+
+</div>
+<div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-2" name="submitted[was_this_page_helpful]" value="0" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-2">No </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="4" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-EBcIPFcqruLByo_shsBBZmnYUPgZ2mpemfHYIrFUoCA" />
+<input type="hidden" name="form_id" value="webform_client_form_158521" />
+<input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-158521" />
+<div class="form-actions"><input class="webform-next button-primary btn btn-default form-submit" type="submit" id="edit-webform-ajax-next-158521" name="op" value="Next &gt;" /></div>
+<div class="is-useful-disclaimer"> <a href="/%23" class="" title="Survey Disclaimer" data-toggle="modal" data-target="#disclamerModal">Form Approved OMB# 0990-0379 Exp. Date 8/31/2017</a></div>
+<div class="modal fade" id="disclamerModal" tabindex="-1" role="dialog" aria-labelledby="disclamerModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="disclamerModalLabel">Survey Disclaimer</h2>
+      </div>
+      <div class="modal-body">
+         According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this information collection is 0990-0379. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, gather the data needed, and complete and review the information collection. If you have comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: U.S. Department of Health & Human Services, OS/OCIO/PRA, 200 Independence Ave., S.W., Suite 336-E, Washington D.C. 20201, Attention: PRA Reports Clearance Officer.      </div>
+    </div>
+  </div>
+</div></div></form></div>
+  </div> <!-- /.block -->
+<meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/subacute-care-review-literature" itemref="md1" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/subacute-care-review-literature" itemref="md2 md3 md5 md7 md9 md11" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/disability-aging-and-long-term-care-research" id="md5" itemref="md4" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/publications-2" id="md7" itemref="md6" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/health-services-formal" id="md9" itemref="md8" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/post-acute-care-and-services-0" id="md11" itemref="md10" />              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <footer  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Footer">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  id="footer_sitemap-footer_sitemap" class="col-sm-6 col-md-6 col-lg-4 ">
+                          
+                              <div id="block-footer-sitemap-footer-sitemap" class="widget block block-footer-sitemap" >
+  
+      
+  <div id="footer-sitemap" class="clearfix">
+  <div class="fs-block-content"><div class="menu-footer-utility"><ul class="footer_links_menu-footer-utility total-items-2 parent-items-0 single-items-0"><li class="menu-5021 depth-1 total-children-8 parent-children-0 single-children-8  first"><a href="/" title="look at ASPE Home" class="fs-root-link">ASPE Home</a><ul class="footer_links_menu-footer-utility total-items-8 parent-items-0 single-items-0"><li class="menu-5026 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/" title="look at HHS Home">HHS Home</a></li>
+<li class="menu-66281 depth-1 fs-no-children"><a href="http://www.usa.gov/" title="look at USA.gov">USA.gov</a></li>
+<li class="menu-66316 depth-1 fs-no-children"><a href="https://oig.hhs.gov/" title="look at Office of the Inspector General">Office of the Inspector General</a></li>
+<li class="menu-66321 depth-1 fs-no-children"><a href="http://www.whitehouse.gov" title="look at The White House">The White House</a></li>
+<li class="menu-5046 depth-1 fs-no-children"><a href="http://www.hhs.gov/Accessibility.html" title="look at Accessibility">Accessibility</a></li>
+<li class="menu-66326 depth-1 fs-no-children"><a href="http://www.hhs.gov/about/budget/index.html" title="look at Budget/Performance">Budget/Performance</a></li>
+<li class="menu-2551 depth-1 fs-no-children"><a href="http://www.hhs.gov/Privacy.html" title="look at Privacy Policy">Privacy Policy</a></li>
+<li class="menu-197776 depth-1 fs-no-children  last"><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" title="Nondiscrimination Notice">Nondiscrimination Notice</a></li>
+</ul></li>
+<li class="menu-5051 depth-1 total-children-4 parent-children-0 single-children-4  last"><a href="http://www.hhs.gov/foia/" title="look at FOIA" class="fs-root-link">FOIA</a><ul class="footer_links_menu-footer-utility total-items-4 parent-items-0 single-items-0"><li class="menu-5056 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/open/recordsandreports/plainwritingact/index.html" title="look at Plain Writing Act">Plain Writing Act</a></li>
+<li class="menu-5061 depth-1 fs-no-children"><a href="http://www.hhs.gov/asa/eeo/no_fear_bullet_3.html" title="look at No Fear Act">No Fear Act</a></li>
+<li class="menu-5066 depth-1 fs-no-children"><a href="http://www.hhs.gov/Disclaimer.html" title="look at Disclaimers">Disclaimers</a></li>
+<li class="menu-2546 depth-1 fs-no-children  last"><a href="http://www.hhs.gov/plugins.html" title="look at Viewers &amp; Players">Viewers &amp; Players</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-5 " id="stability_cms-contact_us">
+                          
+                              <div id="block-stability-cms-contact-us" class="widget block block-stability-cms" >
+  
+      
+  <div class="contacts-widget widget widget__footer">
+	<div class="widget-content">
+		<ul class="contacts-info-list">
+      			<li>
+<!--				<i class="fa fa-map-marker">Address</i>-->
+                <div class="info-icons">
+                    <img  alt="map" class= 'map-icons' src="/sites/all/themes/stability/stability_aspe/images/map.png"/>
+                </div>
+                <div class="info-item">
+					Assistant Secretary for Planning and Evaluation, Room 415F<br />
+U.S. Department of Health and Human Services<br />
+200 Independence Avenue, SW<br />
+Washington, D.C. 20201				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-phone">phone</i>-->
+                <div class="info-icons">
+                    <img alt="phone" src="/sites/all/themes/stability/stability_aspe/images/phone.png"/>
+                </div>
+				<div class="info-item">
+					+1 202.690.7858				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-envelope">email</i>-->
+                <div class="info-icons">
+                    <img alt="mail" src="/sites/all/themes/stability/stability_aspe/images/mail-white.png"/>
+                </div>
+				<span class="info-item">
+					<a href="mailto:osaspeinfo@hhs.gov">osaspeinfo@hhs.gov</a>
+				</span>
+			</li>
+      			                					</ul>
+	</div>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-3 " id="footer">
+                          
+                              <div id="block-block-36" class="widget block block-block" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sign-up</span> for Email Updates</h3>
+		</div>
+    
+  <div class="email_updates">
+<button class="btn btn-default" name="subscribe-button" type="submit" value="subscribe">subscribe</button>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-12 " id="menu-menu-footer-language-menu">
+                          
+                              <div id="block-menu-menu-footer-language-menu" class="widget block block-menu" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Language</span> Assistance Available</h3>
+		</div>
+    
+  <ul class="menu"><li class="first expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#spanish" title="Español">Español</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#chinese" title="繁體中文">繁體中文</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#vietnamese" title="Tiếng Việt">Tiếng Việt</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#korean" title="한국어">한국어</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#tagalog" title="Tagalog">Tagalog</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#russian" title="Русский">Русский</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#arabic" title="العربية">العربية</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#creole" title="Kreyòl Ayisyen">Kreyòl Ayisyen</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#french" title="Français">Français</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#polish" title="Polski">Polski</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#portuguese" title="Português">Português</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#italian" title="Italiano">Italiano</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#german" title="Deutsch">Deutsch</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#japanese" title="日本語">日本語</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#farsi" title="فارسی">فارسی</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#english" title="English">English</a></li>
+</ul></li>
+</ul>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+      </div>
+
+          </div>
+    
+    
+      </footer>
+    
+
+    <!--/PAGEWATCH-->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+                        </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="social-links-wrapper">
+              <span class="social-links-txt">Connect with us</span>
+              <ul class="social-links social-links__dark">
+                                                  <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw-grey.png"/></a></li>
+                                <!--                --><!--                  <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin-grey.png"/></a></li>-->
+<!--                -->
+                                                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>  <script type="text/javascript" src="/sites/default/files/advagg_js/js__VWRymaMz6HfrhnrcJNGcDiSvLVrvhaXvBa7nrBYy8gc__jntPwP3D6myJZH1jW19fXrk5cYMHGRL8NQION22VSEA__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5486d15a696bff0c"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__g6mKbcakHxQkz4ZHYaxdO_xqONINvRMgsHh1zAK-fr0__ATHtEmHaeZ0jidpGU22EkhmPDBSgjD8z0bVDQMI-BIY__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__KUp4PrfOt9BSXUVl8Ctb3dhCMBe4MNVMeb4Gyorx8yY__7g4BeXscCIZAfuu1vxsCj2RIemg-eEK0QpChP9LDmFQ__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__PNjAgubM_3xXRLp4uLsYnv8wQAdT89-RYkSPxT6T45c__rFQwFK4pA5ZaWZSF7FPTfKbbpus0h-5IS8ayrNZGrb4__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__vQiLul2UcfC4nBAR09mhYVBYzRmiNDm2dj3GgSubV38__w84oZe-ZODKe7XnnlbrjV4IWHISOy4PioFEMVgx9hZo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__QJw3g0kOdwsv4twSZLP931zBzsHy50VEHpEN_znIitQ__A6QOuWXElDipBM2iChbWhjAAt3KlUwZ-jODoxdpbwiw__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stability_aspe","theme_token":"RFdfO34Je71OPr_KDAp-LYLQ2L3nBqxTk6Jvub8OELs","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/footable.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/aspe_nodes.admin.css":1,"sites\/all\/modules\/custom\/aspe_views\/theme\/css\/aspe_views.admin.css":1,"sites\/all\/modules\/forked\/book\/book.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/openpublic\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.css":1,"profiles\/openpublic\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openpublic\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/openpublic\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/themes\/stability\/css\/bootstrap.min.css":1,"sites\/all\/themes\/stability\/css\/fonts\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.theme.css":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/stability\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/stability\/css\/theme.css":1,"sites\/all\/themes\/stability\/css\/theme-elements.css":1,"sites\/all\/themes\/stability\/css\/animate.min.css":1,"sites\/all\/themes\/stability\/css\/skins\/red.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/slideshow.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/font-main.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/styleless.less":1,"sites\/all\/themes\/stability\/css\/skins\/blue.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/aspe\/theme\/js\/aspe.login-confirm.js":1,"sites\/all\/modules\/custom\/aspe_report\/modules\/aspe_databooks\/js\/aspe_databooks.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.highcharts.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/datatables\/dataTables.min.js":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.min.js":1,"sites\/all\/libraries\/highcharts\/highcharts.js":1,"sites\/all\/libraries\/highcharts\/highcharts.exporting.js":1,"sites\/all\/libraries\/highcharts\/highcharts.map.js":1,"sites\/all\/libraries\/highcharts\/highcharts.us-all.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.footable.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5486d15a696bff0c":1,"misc\/progress.js":1,"profiles\/openpublic\/modules\/contrib\/webform\/js\/webform.js":1,"profiles\/openpublic\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/stability\/vendor\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/stability\/vendor\/bootstrap.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flexnav.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flickrfeed.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.sloppy-masonry.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.fitvids.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.stellar.min.js":1,"sites\/all\/themes\/stability\/vendor\/snap.svg-min.js":1,"sites\/all\/themes\/stability\/js\/custom.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/aspe.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/html5shiv.min.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/main-menu.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/keyboard-control.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tabBehavior.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tileStringTrimmer.js":1}},"webform":{"conditionals":{"webform-client-form-158521":{"ruleGroups":[],"sourceMap":[],"values":[]}}},"ajax":{"edit-webform-ajax-next-158521":{"callback":"webform_ajax_callback","wrapper":"webform-ajax-wrapper-158521","progress":{"message":"","type":"throbber"},"event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Next \u003E"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/basic-report\/subacute-care-review-literature":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"([a-z0-9]\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This website contains links to other federal and state agencies and private organizations. The Department of Health and Human Services (HHS) cannot attest to the accuracy of information provided by these nonfederal website links. Linking to nonfederal sites does not constitute an endorsement by HHS or any of its employees of the sponsors or the information and products presented on the sites. You will be subject to the destination site\u0027s privacy policy when you leave the ASPE website.\r\n\r\nThank you for visiting aspe.hhs.gov!","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"stability":{"flickr_id":"52617155@N08","logo_sticky":"28"},"field_group":{"div":"full","hidden":"full"}});
+//--><!]]>
+</script>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config={pubid:"ra-5486d15a696bff0c",ui_click:false}
+//--><!]]>
+</script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4837db659","applicationID":"10708002","transactionName":"MwNaZBRSXEtXB0BdWQpJbUIPHFtWUgFMGkYMFg==","queueTime":0,"applicationTime":27,"atts":"H0RZElxIT0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">  <!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://aspe.hhs.gov/sites/default/files/Favicon2.png" type="image/png" />
+<meta name="description" content="U.S. Department of Health and Human Services Assistive Technology for the Frail Elderly: An Introduction and Overview Robert Elliot University of Pennsylvania August 15, 1991 Revised April 28, 1992 PDF Version (19 PDF pages)" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://aspe.hhs.gov/basic-report/assistive-technology-frail-elderly-introduction-and-overview" />
+<link rel="shortlink" href="https://aspe.hhs.gov/node/68096" />
+<meta property="og:site_name" content="ASPE" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aspe.hhs.gov/basic-report/assistive-technology-frail-elderly-introduction-and-overview" />
+<meta property="og:title" content="Assistive Technology for the Frail Elderly: An Introduction and Overview" />
+<meta property="og:description" content="U.S. Department of Health and Human Services Assistive Technology for the Frail Elderly: An Introduction and Overview Robert Elliot University of Pennsylvania August 15, 1991 Revised April 28, 1992 PDF Version (19 PDF pages)" />
+<meta property="og:updated_time" content="2017-02-21T11:36:30-05:00" />
+<meta property="article:published_time" content="2015-12-09T05:27:06-05:00" />
+<meta property="article:modified_time" content="2017-02-21T11:36:30-05:00" />
+
+  <title>Assistive Technology for the Frail Elderly: An Introduction and Overview | ASPE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+  <link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__5ln8neBOcJfyUveiD4y9fhI6kHBLOQ_YL0mMC-LS9a0__TPJIZT9UBnf_685NlFTJ5KnZVsjwFk6ACQ-nwwygmwU__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ng49uRH5y4Hl9VF9hHW_vXOj-mcOc2u2ShJqJ1YKIGU__FoMCD14GBvZaRiqSQ_JpP1w3rDB21n7H2Ar4pRZaIh8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__Hskudx14OJ5Hz8vqU7CUgN6SDV5rINZuEq9VuGsSeyc__EwNIl3xeFrniW2TmonovTzhSs3X5MdFps210puE7jog__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__9rZoaX9BdzjjNucvYxduxeNAVO2zgW_Rvjhb5rq5whc__lSr_y16grDSgHf4booPChnF7QXz3TQY3hafH49twE0k__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZgfI_ZPib5yVY0o5aKo_6TFn946Tuu_nFDa0ySTmkSc__2FTFrNw2eNh0mpHIOA34r6YRwBZMm2PjJ_JubnwLigg__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__dxabpJ5rQgDSixKgLJZjWc1beC6mpROKwVrmWxI5eno__rqhz_hGsE_i59O7-W991o71_Jxw1QOtGMxn4nsOLHY8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZbRCq2NqWgK-HXAQI3So0N1n0nr4HonsJS3eQuuxukw__7Olkk8Locn8Dj0eR0Ww3rbV9lks9sxipcboMXB18RRs__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+
+	<!-- Head Libs -->
+	<script src="/sites/all/themes/stability/stability_aspe/vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/sites/all/themes/stability/vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" href="/sites/all/themes/stability/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/stability/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/stability/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/stability/images/apple-touch-icon-144x144.png">
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-68096 node-type-basic-report">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-JLFR"
+                  height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JLFR');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-nav" class="accessibility_menu">
+    <strong>Shortcut Navigation:</strong>
+    <ul>
+      <li><a href="#content" accesskey="c" title="Skip to page content (ctrl/alt + c)">Page Content</a></li>
+      <li><a href="#nav" accesskey="m" title="Skip to main navigation menu (ctrl/alt + m)">Site Navigation</a></li>
+
+      <li><a href="#Footer" accesskey="f" title="Skip to footer (ctrl/alt + f)">Footer</a></li>
+    </ul>
+  </div>
+
+    
+<div class="site-wrapper">
+  
+  <header class="header header-menu-fullw header-top-clean">
+    <div id="brand-bar">
+        <div class="container">
+                    <img alt='bird' src="/sites/all/themes/stability/stability_aspe/images/bird.png"> <a target="blank" tabindex="4" href="http://www.hhs.gov/">U.S. Department of Health & Human Services</a>
+        </div>
+
+    </div>
+    <div class="header-main">
+        <div class="container clearfix">
+            <div class="social-links-wrapper">
+                <ul class="social-links social-links__light">
+                                                          <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw.png"/></a></li>
+                                    <!--                  --><!--                    <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin.png"/></a></li>-->
+<!--                  -->
+                                                                      </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                                <div class="site_name_wrapper">
+                                     <span class="h1">
+                                      <a href="/">ASPE</a>
+                                       </span>
+                                  <p class="tagline"><p>Office of The Assistant Secretary</p><p> for Planning and Evaluation</p></p>
+                    </div>
+            </div>
+            <!-- Logo / End -->
+            <div class="header_right_wrapper">
+                <div class="search-form">
+                    <form action="/basic-report/assistive-technology-frail-elderly-introduction-and-overview" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class = "input-group"><div class="form-type-textfield form-item-search-block-form form-item form-group">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search Site..." class="form-control form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input class="btn btn-primary btn-icon form-submit" type="image" id="edit-submit" name="submit" value="Search" src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/search-white2.png" alt="Search" title="Search" /></div></div><input type="hidden" name="form_build_id" value="form-B5hB-AiLAVkREW_Fq-cxlUmkg8MUPIiocHwW21ci9Ow" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </div>
+                <button type="button" class="navbar-toggle" value="Menu">
+                    <i class="fa fa-bars"></i>Menu
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-main">
+        <div class="container">
+          <ul data-breakpoint="767" class="flexnav">
+                <li class="first expanded"><a href="/basic-search/about" title="">About</a><ul><li class="first leaf"><a href="/mission" title="">Mission</a></li>
+<li class="leaf"><a href="/key-staff" title="">Leadership</a></li>
+<li class="leaf"><a href="https://www.usajobs.gov/" title="">Careers</a></li>
+<li class="expanded"><a href="/coordination" title="linkTo">Coordination</a><ul><li class="first leaf"><a href="/evaluation-evidence" title="">Evaluation &amp; Evidence</a></li>
+<li class="leaf"><a href="/national-alzheimers-project-act">National Alzheimer&#039;s Project Act</a></li>
+<li class="leaf"><a href="/health-and-human-services-hhs-data-council">HHS Data Council</a></li>
+<li class="last leaf"><a href="/national-committee-vital-and-health-statistics" title="National Council on Vital and Health Statistics">National Council on Vital and Health Statistics</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/divisions" title="">Offices</a><ul><li class="first leaf"><a href="/office-disability-aging-and-long-term-care-policy-daltcp">Disability, Aging, and Long-Term Care Policy</a></li>
+<li class="leaf"><a href="/office-health-policy-hp">Health Policy</a></li>
+<li class="leaf"><a href="/office-human-services-policy">Human Services Policy</a></li>
+<li class="last leaf"><a href="/office-science-and-data-policy">Science and Data Policy</a></li>
+</ul></li>
+<li class="leaf"><a href="/strategic-planning" title="Strategic Planning">Strategic Planning</a></li>
+<li class="last leaf"><a href="/contact-aspe" title="">Contact ASPE</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/topics" title="">Topics</a><ul><li class="first leaf"><a href="/affordable-care-act-research">Affordable Care Act Research</a></li>
+<li class="leaf"><a href="/alzheimers-dementia">Alzheimer&#039;s / Dementia</a></li>
+<li class="leaf"><a href="/early-childhood">Early Childhood</a></li>
+<li class="leaf"><a href="/incarceration-reentry">Incarceration &amp; Reentry</a></li>
+<li class="leaf"><a href="/opioid-abuse-us-and-hhs-actions-address-opioid-drug-related-overdoses-and-deaths" title="Opioids">Opioids</a></li>
+<li class="leaf"><a href="/patient-centered-outcomes-research-trust-fund">Patient-Centered Outcomes Research Trust Fund (PCORTF)</a></li>
+<li class="expanded"><a href="/basic-search/poverty" title="">Poverty</a><ul><li class="first leaf"><a href="/poverty-guidelines">Poverty Guidelines</a></li>
+<li class="last leaf"><a href="/poverty-estimates-trends-and-analysis">Poverty Analysis</a></li>
+</ul></li>
+<li class="leaf"><a href="/teen-pregnancy-prevention">Teen Pregnancy Prevention</a></li>
+<li class="leaf"><a href="/homelessness">Homelessness</a></li>
+<li class="last leaf"><a href="/medicare-access-and-chip-reauthorization-act-2015">MACRA</a></li>
+</ul></li>
+<li class="leaf"><a href="/reports" title="">Publications</a></li>
+<li class="last expanded"><a href="/basic-search/datasets" title="">Data and Tools</a><ul><li class="first last leaf"><a href="/evaluations" title="">Evaluation Database</a></li>
+</ul></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation / End -->
+</header>  <div class="main" role="main">
+    <!--PAGEWATCH CODE="USHHS_458"-->
+    <section class="page-heading">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+                <h1>
+                    
+          Assistive Technology for the Frail Elderly: An Introduction and Overview        </h1>
+                                 <p class="author">
+                                                 <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="1992-04-28T00:00:00-04:00">04/28/1992</span>               
+                           </p>
+
+
+                  </div>
+
+
+        <div class="col-md-6">
+           <ul class="breadcrumb"><li class="first"><a href="/" title="Home">Home</a></li>
+<li class="last">Assistive Technology for the F...</li>
+</ul>        </div>
+
+
+    </div>
+  </div>
+</section>
+    
+      <div  class="nd-region nd-region-filter">
+  
+       
+
+    
+      <div  id="Filter" class="row">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region nd-region-similar-content">
+  
+       
+
+    
+      <div  id="Similar-Content" class="row">     
+
+        
+                  
+        
+                                    <div  id="top" class="">
+                          
+                              <div id="block-views-2100ccfdd214bdbcf634d7e4832c265b" class="widget block block-views solr-similar-content" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Similar</span> content</h3>
+		</div>
+    
+  <div class="view view-similar-content-solr view-id-similar_content_solr view-display-id-block_solr_similar_content view-dom-id-b6ee7884f6bb148db484fbdcb6b7b919">
+        
+  
+  
+      
+    
+    <span class="field-content"><a href="/pdf-report/assistive-technology-frail-elderly-introduction-and-overview">Assistive Technology for the Frail Elderly: An Introduction and Overview</a></span>    
+    <span class="field-content"><a href="/execsum/assistive-device-use-among-elderly-trends-characteristics-users-and-implications-modeling">Assistive Device Use Among the Elderly: Trends, Characteristics of Users, and Implications for Modeling</a></span>    
+    <span class="field-content"><a href="/execsum/report-congress-aging-services-technology-study">Report to Congress: Aging Services Technology Study</a></span>    
+    <span class="field-content"><a href="/basic-report/assistive-device-use-among-elderly-trends-characteristics-users-and-implications-modeling">Assistive Device Use Among the Elderly: Trends, Characteristics of Users, and Implications for Modeling</a></span>    
+    <span class="field-content"><a href="/basic-report/report-congress-aging-services-technology-study">Report to Congress: Aging Services Technology Study</a></span>  
+  
+  
+  
+  
+  
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Content">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  class="col-md-12 " id="content">
+                          
+                              <div id="block-aspe-aspe-addthis" class="widget block block-aspe" >
+  
+      
+  <div class="clearfix">
+  <ul class="addthis_sharing_toolbox node-share__links" data-url="https://aspe.hhs.gov/basic-report/assistive-technology-frail-elderly-introduction-and-overview" data-title="Assistive Technology for the Frail Elderly: An Introduction and Overview">
+    <li><a class="addthis_button_print"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/print-white.png" alt="print" /></a></li>
+    <li><a class="addthis_button_email"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/mail-white.png" alt="email" /></a></li>
+    <li><a class="addthis_button_twitter"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/tw.png" alt="twitter" /></a></li>
+<!--    <li><a class="addthis_button_facebook">--><!--</a></li>-->
+    <li><a class="addthis_button_compact"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/plus-white.png" alt="compact" /></a></li>
+  </ul>
+</div>
+
+  </div> <!-- /.block -->
+
+                
+    
+  
+  <div class="content clearfix node-basic-report">
+    <p><font><b><font face="Calisto MT">U.S. Department of Health and Human Services</font></b></font></p>
+<h1>Assistive Technology for the Frail Elderly: An  		Introduction and Overview</h1>
+<h3>Robert Elliot</h3>
+<h3>University of Pennsylvania</h3>
+<h3>August 15, 1991 Revised April 28, 1992 </h3>
+<p><a href="/system/files/pdf/74366/asttech.pdf">PDF Version</a> (19 PDF  		pages)</p>
+<hr /><blockquote>
+<p><i>This report was prepared under contract between HHS's Office of  		  Family, Community and Long-Term Care Policy (now DALTCP) and the University of  		  Pennsylvania. For additional information about this subject, you can visit the  		  DALTCP home page at <a href="http://aspe.hhs.gov/_/office_specific/daltcp.cfm">http://aspe.hhs.gov/_/office_specific/daltcp.cfm</a> or contact  		  the office at HHS/ASPE/DALTCP, Room 424E, H.H. Humphrey Building, 200  		  Independence Avenue, S.W., Washington, D.C. 20201. The e-mail address is:  		  <a href="mailto:webmaster.DALTCP@hhs.gov">webmaster.DALTCP@hhs.gov</a>. The Project Officer was Robert  		  Clark.</i></p>
+</blockquote>
+<hr /><h2>I. INTRODUCTION</h2>
+<p>Long term care refers to a wide range of medical, social and personal  		care services needed by individuals who are functionally impaired. The elderly,  		persons aged 65 and over, are the primary users of long term care.</p>
+<p>In 1985, there were about 5.5 million functionally disabled elderly  		living in the community and an additional 1.3 million in nursing homes. By the  		year 2020, each of these figures is projected to almost double to 10.1 million  		and 2.5 million respectively (Manton, 1989). Long term care has emerged as a  		significant health and social policy issue.</p>
+<p>Long term care, particularly nursing home care, is expensive. In an era  		of large federal deficits, it consumes a large fraction of Medicare and  		Medicaid expenditures. The elderly, whether functionally impaired or not,  		prefer to live independently in their own homes for as long as possible. The  		problem is to find ways to control rising costs while enabling the frail  		elderly to live as independently as possible.</p>
+<p>One promising solution is assistive technology.</p>
+<h2>II. AN ALTERNATIVE TO HUMAN HELP</h2>
+<p>Long term care for the frail elderly has been provided predominantly by  		other people who help with daily activities such as preparing and eating meals,  		bathing, grooming and getting around. These aides often make the difference  		between an individual's ability to live at home in the community (with help)  		and the need to move to a more restrictive residential setting.</p>
+<p>Due to the shrinking pool of direct service workers and the enlarging  		pool of elderly individuals who want to stay independent in the community,  		researchers, caregivers, family members and elderly individuals themselves are  		looking for new solutions. They are exploring strategies that reach beyond  		human assistance; they are looking closely at assistive technology.</p>
+<p>"Assistive technology," according to the Technology Related Assistance  		Act of 1988 (P.L.100-407), is any item, piece of equipment, or set of products  		that helps a person with a disability to increase or improve his/her functional  		capabilities.</p>
+<div class="bordered-text">
+<p><b><font>Ida P. provides and example of how  				technological assistance can make the difference between dependence and  				functional independence. At age 85, Ida is energetic and sharp, but she is  				unable to walk more than a few steps due to increasingly severe arthritis. She  				is unable to go in nd out of her second floor apartment alone.</font></b></p>
+<p><b><font>With intensive, daily human assistance,  				she can continue to live independently; she would need someone to shop and run  				other errands, and possibly to move her up and down the stairs. Alternatively,  				she can move to a facility where someone will prepare meals for her and staff  				will move her around.</font></b></p>
+<p><b><font>A third option, assistive technology, in  				the form of a one time purchase of a wheelchair and a stair climbing seat, can  				make the difference between dependence and functional independence for Ida. To  				this vibrant member of the community, the choice is  				obvious.</font></b></p>
+</div>
+<p>Assistive technology can allow a person with disabilities to function  		more independently, thus gaining self respect and greater acceptance in  		mainstream society. In addition, policymakers are becoming aware that assistive  		technology makes good fiscal sense. It has the potential to reduce the need for  		expensive human help and intensive informal care.</p>
+<p>This paper offers an overview of assistive technology and P.L.100-407,  		and explores: (a) the potential of assistive technology to substitute for human  		assistance; (b) barriers to general acceptance of assistive technology; (c)  		advantages and disadvantages of assistive technology; (d) financing assistive  		technology; (e) research gaps; and (f) policy considerations concerning  		assistive technology.</p>
+<h2>III. THE "TECH ACT" OF 1988</h2>
+<p>The field of assistive technology was given a significant push in 1988,  		both in terms of funding and public policy recognition.</p>
+<p>Congress enacted the Technology Related Assistance Act of 1988  		(P.L.100-407) to expand the availability of assistive technology services and  		devices to people with disabilities. The law, which was authorized for five  		years, contains two sections.</p>
+<p>Title I authorizes the Secretary of Education to implement a program of  		grants to states to develop comprehensive statewide programs of technological  		assistance. Each state can receive between $500,000 and $1 million for the  		first two years. In the third year, the maximum amount rises to $1.5  		million.</p>
+<p>Title II authorizes Programs of National Significance, research intended  		to help states develop their own service delivery systems. Additionally, Title  		II includes training and public awareness projects that provide new training  		opportunities. Extra funds from this section can be used to educate individuals  		about the benefits of training people to use new devices.</p>
+<h2>IV. EXAMPLES OF ASSISTIVE TECHNOLOGY</h2>
+<p>In 1985, there were over 18,000 devices to aid the functionally impaired  		elderly (U.S. Office of Technology Assessment, 1985). There are considerably  		more today. These devices are not all sophisticated computerized systems. They  		range in price and complexity from a $3 modified eating utensil to a $25,000  		reading machine for a blind person to a multi-hundred thousand dollar  		communication voice simulator.</p>
+<p>Many are not designed as assistive devices for people with disabilities,  		but to make life easier for anyone--for instance, a sound sensitive light  		switch. With the plethora of assistive devices on the market, an entire house  		can be renovated to enable a functionally impaired person to carry out his or  		her daily life independently.</p>
+<p>In the kitchen, eating and cooking utensils can be fitted with oversized  		handles for easier gripping. This "assistive device" can enable an 85 year old  		with arthritic fingers and hands (lie Ida P.) to continue to prepare meals for  		herself.</p>
+<p>Another kitchen-related assistive device is an automatic feeder,  		controlled by a chin switch or and hand/foot switch, so that people who cannot  		hold eating utensils due to tremor or spasticity of the hands and arms can feed  		themselves.</p>
+<p>Assistive devices are frequently found in the bathroom. Grab bars around  		the tub are easily installed and help prevent falls. Shower benches, bathtub  		lifts and a door on the bathtub not only alleviate some need for human  		assistance, but make it easier to shower and reduce the risk of slipping.</p>
+<p>In the bedroom, ceiling poles around the bed can make it easier to get  		in and out of bed. Bedside controls for lights and other appliances increase  		the ability of mobility impaired people to control the lighting, temperature or  		other conditions of their home without getting out of bed.</p>
+<p>For the functionally impaired elderly living in multi-level housing,  		wheelchair lifts and stair-climbs allow for full access and mobility throughout  		the house. Individuals with hearing impairments can benefit from a simple  		blinking light instead of a doorbell. Large handled combs and brushes and  		velcro fasteners for clothing help people with limited manual fine motor  		abilities.</p>
+<p>These are but a few of the many devices available. New assistive devices  		that range considerably in price, technical sophistication, quality and  		suitability are constantly appearing on the market.</p>
+<h2>V. ROBOTS: A GLIMPSE AT THE 21ST CENTURY</h2>
+<p>Robotics is an emerging field that could benefit people with cognitive  		impairments as well as those with physical disabilities. For people in the  		former group, a robot could remind the person when to do certain daily  		activities, such as eat, bathe, or go to bed. It could also monitor the  		individual's safety and contact others when help is needed.</p>
+<p>For example, falls are the most common cause of severe injury or  		accidental death among the elderly. A robot that could recognize when a person  		has fallen could automatically "beep" a pager or telephone for help. Robots  		that perform simple tasks, such as reminding a person that the stove or iron is  		on, could reduce the incidence of serious accidents.</p>
+<p>Two of the most difficult tasks for elderly individuals with physical  		impairments are sitting down and standing up. A robot that could assist with  		these actions would be very valuable, and could possibly substitute for human  		assistance.</p>
+<h2>VI. CAN ASSISTIVE DEVICES SUBSTITUTE FOR HUMAN HELP?</h2>
+<p>Will assistive devices be able to replace human assistance? Due to  		technological advances, devices have been able to substitute for human  		assistance in some cases. However, for most people, assistive devices  		supplement human help. In the end, the answer to the question depends on which  		segment of the heterogeneous elderly population is being discussed.</p>
+<p>The functionally impaired elderly fall into three broad categories.</p>
+<p><b><i>THE MILDLY IMPAIRED</i></b></p>
+<p>The first group includes about 1.4 million people who have relatively  		mild impairments, such as mild arthritis, and can generally get by without help  		from other people.</p>
+<p>Within this group, assistive devices can be a great boon, even  		substituting for help that would otherwise have to be provided by another  		person. Examples include an elderly person with arthritis, who, with modified  		pot handles and knives, can cook for himself, and a person who can shower using  		a grab bar and shower seat.</p>
+<p><i><b>THE MODERATELY IMPAIRED</b></i></p>
+<p>The second category includes persons with moderate impairments, those  		who are functionally impaired in one or two activities of daily living. An  		example is an individual with arthritis plus the loss of leg movement. For  		people in this group, assistive devices tend to supplement informal or formal  		home care.</p>
+<p>For those in this second group, while the assistive devices do take some  		of the burden off of the home care provider, they may not be able to make the  		person completely independent. For example, a stair-climb may allow a disabled  		elderly person to move independently among floors; however, the person may not  		be able to toilet independently, and would still require human help.</p>
+<p><i><b>THE SEVERELY IMPAIRED</b></i></p>
+<p>The third category of the impaired elderly currently makes little use of  		assistive technology. This group includes approximately 2.5 million people with  		multiple health problems and severe functional limitations. Often these  		individuals cannot perform three or more activities of daily living. Such  		persons may have severe cognitive impairments, as well as several physical  		impairments such as loss of arm and hand movement.</p>
+<p>The remarkable adaptations of assistive technology to the needs of  		younger disabled persons (such as quadriplegics) plus anticipated advances in  		miniaturization of devices, computers and communications may open new  		possibilities for the use of assistive technology by the severely impaired  		elderly.</p>
+<h2>VII. BARRIERS TO ACCEPTANCE</h2>
+<p>Despite the availability of thousands of devices designed to enhance  		life for the functionally impaired elderly, assistive technology has not been  		fully successful in the geriatric marketplace (RESNA, 1990:100).</p>
+<p>Experts attribute this to four factors: (a) inadequate training and  		orientation for the elderly consumer; (b) inappropriate match of assistive  		device to the person's need; (c) unwieldy designs; and (d) failure to realize  		that assistive technology involves more than just giving a person a device.</p>
+<p><i><b>INADEQUATE TRAINING</b></i></p>
+<p>Caregivers report that older people appear to have a great deal of  		hesitancy to use new technology. Until recently, researchers attributed this  		apprehension to a decreased ability to learn in the elderly. However, recent  		studies show that the elderly do indeed retain their ability to learn, but may  		require unique training approaches (RESNA, 1990:100).</p>
+<p>The way the new technology is taught has a critical impact on the  		elderly individual's comprehension and on the success of the person's use of  		the device. (RESNA, 1990:100) Researchers and trainers have found the following  		teaching guidelines to be helpful.</p>
+<ol><li>
+<p><b><i>Caregivers and instructors must have a positive, realistic  			 attitude</i></b>. Negative attitudes and unrealistic goals can result in  			 frustration by the consumer and ultimate rejection of the device.</p>
+</li>
+<li>
+<p><b><i>The instructor should be well known, or at least familiar, to  			 the elderly person</i></b>. This familiarity will increase the person's level  			 of trust and willingness to experiment with the new device. The training should  			 occur in the individual's home, as people comprehend more under comfortable  			 circumstances than in an unfamiliar place. At home, an individual can be much  			 more at ease and is better able to focus on the training.</p>
+</li>
+<li>
+<p><b><i>The instructor must allow sufficient time to permit a series  			 of short, repetitive training sessions to reinforce the material</i></b>. Older  			 persons can learn new technologies, particularly if the instructional process  			 takes into account their age and frailty. Since frail older persons tire more  			 easily than the young, instructional sessions should be shorter. Frequent,  			 careful, properly spaced repetition of steps can reinforce the learning of  			 skills needed to operate assistive devices.</p>
+</li>
+<li>
+<p><b><i>The instructor must emphasize to the elderly individual how  			 valuable the assistive technology will be, and how much it will contribute to  			 the person's independence</i></b>. If the individual feels that the technology  			 is not critical to his or her independence, there will be less incentive to use  			 it.</p>
+</li>
+<li>
+<p><b><i>The technology must be explained to the family members and  			 caregivers in addition to the elderly person</i></b>. To overcome many of the  			 early concerns and problems, it is critical that everybody who participates  			 regularly in caring for the elderly individual understand (and not fear) the  			 device.</p>
+</li>
+</ol><p><i><b>INAPPROPRIATE MATCH</b></i></p>
+<p>While quality training is fundamental to help elderly people accept and  		use assistive devices, choosing equipment that matches the person's needs is  		another key to success. The misapplication of technology can be both costly and  		time consuming.</p>
+<p>People often overlook the importance of purchasing the equipment that  		best fits a person's needs. In addition, case managers are often not trained to  		understand assistive devices and help elderly people choose and use the right  		ones. The result can be that an elderly individual never learns the full  		capabilities of a device and misses out on some of its potential benefits.</p>
+<p>Certain devices may be purchased more frequently because they are the  		ones case managers, consumers or caregivers know about. One way to remedy this  		problem is to educate caregivers on how to assess a person's need for assistive  		technology and help a person choose the right devices.</p>
+<p>Matching an individual's needs and abilities with appropriate equipment  		requires a solid knowledge of physical needs assessment techniques and a strong  		background in the constantly changing field of available technology.</p>
+<p><i><b>UNWIELDY EQUIPMENT</b></i></p>
+<p>Many observers suspect that one reason elderly individuals are reluctant  		to use some assistive devices has to do with the design of the equipment. One  		stigma is that the device will detract from the person's appearance (RESNA,  		1990:101). Many devices appear bulky or cumbersome; consequently, elderly  		people reject them.</p>
+<p>A new approach to design, with ample consideration for aesthetics, can  		help address this problem. One way to make designs more appealing and suitable  		is to encourage input into the design of assistive devices from people with  		disabilities.</p>
+<p><i><b>MORE THAN A PIECE OF EQUIPMENT</b></i></p>
+<p>Individuals can often be given a new piece of equipment, a pair of  		glasses for example, and taught to use it relatively quickly. More frequently,  		however, the concept of "assistive devices" encompasses ongoing technological  		support services, like training and maintenance.</p>
+<p>This broader concept of assistive technology may not mesh well with the  		traditional service delivery system, which is geared toward cure, closure or  		some other fixed goal. Difficulties may crop up when it is time to provide and  		pay for maintenance or replacement of equipment. Policymakers need to be aware  		of the ongoing costs of many devices; equipment is not always a "one shot"  		solution.</p>
+<h2>VIII. ADVANTAGES OF ASSISTIVE TECHNOLOGY</h2>
+<p>Assistive technology offers a number of advantages to those who are in a  		position to use it. </p>
+<p><i><b>SAVING MONEY AND IMPROVING LIFE QUALITY</b></i></p>
+<p>Assistive devices have the potential to save money and improve the  		quality of life for many elderly disabled individuals. The U.S. Office of  		Technology Assessment (1985) noted that, for some individuals, assistive  		devices can delay or prevent institutionalization, resulting in enormous  		personal and financial savings.</p>
+<p><i><b>HELPING PEOPLE REMAIN FUNCTIONALLY  		INDEPENDENT</b></i></p>
+<p>The range of assistive devices available today can allow elderly  		individuals to remain functionally independent in their communities, with fewer  		in-home services. Reducing the need for formal home care services could put a  		dent in the $44 billion spent annually on long term care for the elderly (Under  		Secretary's Task Force Report on Long-Term Care; 1991:3-3--DRAFT).</p>
+<p>The benefits of assistive devices go beyond cash savings. Most  		important, with the help of assistive technology, many elderly disabled people  		can remain independent for a longer time. Assistive devices are instrumental  		for many people to perform activities of daily living.</p>
+<p>Without assistive technology, the estimates of elderly persons with  		disabilities rise substantially. Using assistive devices, approximately 725,000  		people can bathe independently, and close to 1.4 million can use the bathroom  		without human help. Under Secretary's Task Force Report on Long Term Care;  		1991:2-16,17--DRAFT). Even simple technology, like velcro closures on clothing,  		could enable people to dress themselves, alleviating the need for some help  		from others.</p>
+<p><i><b>INSTITUTIONS CAN SAVE MONEY</b></i></p>
+<p>Institutions that serve the elderly can also save money when they use  		assistive devices properly. With greater use of assistive devices, some  		observers speculate that nursing facilities and other residential settings can  		either reduce staff, or use existing staff more productively, and thereby cut  		operating costs and increase efficiency.</p>
+<p><i><b>BENEFITS TO CAREGIVERS</b></i></p>
+<p>Assistive devices benefit caregivers as well as elderly individuals.  		Over one-third of all informal caregivers are over age 65, and many are  		themselves disabled (U.S. Senate, 1990:21) While informal caregivers are  		generally unpaid, the care they provide is definitely not "free."</p>
+<p>They often provide care under stressful circumstances (e.g., they are  		sick themselves, the service they provide degrades their own health, they have  		to cut back on their own social lives, etc.). (Under Secretary's Task Force  		Report on Long Term Care; 1991; 2-25--DRAFT).</p>
+<p>More widespread use of assistive devices could alleviate some of the  		need (and demand) for informal care. Consequently, assistive devices could take  		some of the pressure off of informal caregivers. Preliminary analyses of the  		1989 National Long Term Care Survey indicate that the use of assistive  		technology is increasing while rates of informal caregiving are declining.</p>
+<h2>IX. DISADVANTAGES OF ASSISTIVE DEVICES</h2>
+<p>Although elderly individuals with functional impairments can realize  		tremendous benefits from assistive devices, technology brings with it problems  		and disadvantages too. Many of the problems result from mismatches between  		individual needs and assistive devices. What works beautifully for one person,  		may be a dismal failure for another, due to unique characteristics of the  		people involved.</p>
+<p><i><b>PERSONS WITH MULTIPLE IMPAIRMENTS</b></i></p>
+<p>Many assistive devices are designed on the premise that they can  		compensate for a person's impaired ability. However, when an elderly person has  		more than one impairment, the ability to use the device may be impaired as  		well.</p>
+<p>Consequently, certain assistive devices may not be as effective for  		people with multiple ADL impairments. Finding the appropriate device for an  		individual with a particular set of impairments can be time-consuming if one  		lacks broad knowledge of the market (Office of Technology Assessment,  		1985:215).</p>
+<div class="bordered-text">
+<p><font>Alice T. is 82 years old and has severe  				osteoporosis and a respiratory problem. She would like to use crutches to help  				her get around, but her respiratory problem impairs her stamina. While the  				device would be quite helpful to her if she had only one problem, her multiple  				disabilities make it difficult to use the crutches. A more complex (and costly)  				assistive device like a motorized wheelchair may be needed.</font></p>
+</div>
+<p><i><b>PROBLEMS FOR PERSONS WITH COGNITIVE  		IMPAIRMENTS</b></i></p>
+<p>For cognitively impaired people, assistive devices can be difficult to  		understand and use correctly. Cognitive impairments are estimated to affect  		about half of the nursing facility population and about one-fifth of community  		long term care recipients (U.S. Office of Technology Assessment, 1985:215).</p>
+<p>Potential users of assistive devices need to be evaluated for their  		cognitive abilities to use the devices. Confusion and reasoning difficulties  		can restrict a person's ability to get the most out of technology. In addition,  		memory-impaired persons may forget where they put an assistive device or forget  		its purpose and how to use it.</p>
+<p>Advances in microprocessor technology may overcome some of these  		limitations. Computerized systems of reminding or cuing the cognitively  		impaired on the location and use of assistive devices appear feasible. More  		research in this area is needed.</p>
+<p><i><b>NEGATIVE SOCIETAL ATTITUDES</b></i></p>
+<p>There exists a bias in American society against rehabilitation of the  		elderly. Many people accept "the stereotyped view that deterioration is  		inevitable" (Office of Technology Assessment, 1985:216). Rehabilitation of  		older people has not been a priority.</p>
+<p>Sociologists attribute this bias to the fact that many elderly persons  		are no longer in the workforce; as a result their contributions are not  		adequately valued and investments in improving their functional abilities may  		be judged as not worth the cost. Evaluating the rehabilitation potential of the  		elderly is difficult, since so few are offered the opportunity (Kane, Kane and  		Arnold, 1983).</p>
+<h2>X. WHO PAYS FOR ASSISTIVE DEVICES?</h2>
+<p>None of the four major sources of health care funding for the elderly  		(Medicare, Medicaid, private insurance and out-of-pocket payment) offer  		comprehensive coverage for assistive technology. However, the Department of  		Veterans' Affairs (DVA) and some new private financing arrangements may offer  		new options to pay for assistive devices. In this section, each of the public  		and private funding alternatives are briefly described.</p>
+<p><i><b>MEDICARE</b></i></p>
+<p>The Medicare Part B program will pay up to 80% of the cost of assistive  		technology as long as the devices meet the Medicare definition of "durable  		medical equipment" (DME). Medicare policies define durable medical equipment as  		items that are "primarily and customarily used to serve a medical purpose, and  		generally are not useful to a person in the absence of illness or injury" (U.S.  		House of Representatives, 1991; 154).</p>
+<p>Many assistive devices, such as electric garage door openers, microwave  		ovens, and golf carts, were designed for the fully mobile, independent adult.  		Medicare does not cover most of this type of items.</p>
+<p><i><b>MEDICAID</b></i></p>
+<p>Medicaid may pay for assistive devices if a person meets the eligibility  		requirements for the program. However, since Medicaid covers only 13.5% of the  		elderly population, it is not a viable financing option for most older  		citizens. (Under Secretary's Task Force Report on Long Term Care,  		1991:3-5--DRAFT). In addition, there is considerable variation among state  		Medicaid programs in their coverage of assistive devices. Consequently,  		individuals are forced to look elsewhere for financial assistance, most notably  		to the private sector.</p>
+<p><i><b>DEPARTMENT OF VETERANS' AFFAIRS</b></i></p>
+<p>The Department of Veterans' Affairs purchases more assistive devices for  		individuals with disabilities than most other agencies. In addition to buying  		millions of dollars worth of hearing and seeing aids and wheelchairs, the DVA  		also buys automobile/van adaptive aids, patient lifts, hospital beds and other  		medical equipment. It also offers a clothing allowance benefit to replace  		clothing that is ruined when using assistive devices.</p>
+<p>Although a person must be eligible to receive DVA benefits, DVA is  		considered by many to be a model payment system. It has a very systematized  		structure to pay for its large volume of equipment purchases. It uses enormous  		amounts of resources to educate and train clinical personnel in the use of  		assistive devices.</p>
+<p>Furthermore, it supports and extensive staff of equipment procurement  		specialists. DVA also invests in research and development, evaluation,  		promulgation of standards, and development of procurement guidelines for  		assistive devices. (Reeb, 1989:1)</p>
+<p>The DVA payment system is quite comprehensive, compared to other third  		party payment systems. The program covers traditional medical equipment such as  		artificial limbs and wheelchairs, as well as products that typically fall  		outside the medical bailiwick, such as automobile and home modifications.</p>
+<p><i><b>PRIVATE PAYMENT SYSTEMS</b></i></p>
+<p>Two common methods of private health care funding are payments made  		directly by consumers ("out of pocket payments") and private insurance. For  		less costly devices, such as modified eating utensils and simple object  		grabbers, out of pocket payment is reasonable. However, more complex equipment,  		such as electric wheelchairs, are often unaffordable to the average disabled  		elderly individual. For these major purchases, people often turn to private  		insurance.</p>
+<p>A key problem with private insurance policies is that they frequently  		won't pay for off the shelf products, even when the products are effective and  		less stigmatizing. According to RESNA, "if an in-home device looks desirable or  		useful to an able-bodied person, or if it looks like a luxury or convenience to  		a completely functional person, funding will be denied." (RESNA, 1990:458)</p>
+<p>Two alternative methods of paying for assistive devices are assistive  		financing and subsidy financing. Assistive financing, or loan guarantee,  		involves a partnership between a private financial institution and another  		organization interested in underwriting credit financing to targeted  		populations. This type of financing allows people to pool costs and risks.</p>
+<p>Historically, banks have been hesitant to make loans for assistive  		devices to elderly people because the applicants generally have limited  		financial resources and the equipment would have minimal resale value. With  		assistive financing, an interested third party assumes some of the repayment  		obligation, thus reducing the bank's risk.</p>
+<p>Assistive financing has two major benefits. First, since it requires  		consumers to contribute to the cost of the product, it encourages them to use  		it more effectively. Second, it taps funding from the extensive resources of  		the private credit industry.</p>
+<p>Although assistive financing systems are still evolving, many successful  		programs are already underway. In 1988, the Mitarai/Canon Optacon Financing  		Program began extending low interest loans to eligible applicants for the  		purchase of the Optacon II, a reading device for the blind (Reeb, 1989:7).</p>
+<p>Subsidy programs are a second alternative for financing assistive  		devices. These programs provide equipment at reduced cost or for free. The  		subsidy may be in the form of a grant, a rebate, or a discount. It may target  		specific products, or an entire product line.</p>
+<p>Subsidy programs promote broader distribution and encourage people to  		use devices they might not otherwise consider. Many private and nonprofit  		organizations, such as Associated Services for the Blind and United Cerebral  		Palsy Association of Western New York, have developed specific subsidy  		programs.</p>
+<h2>XI. MUCH TO LEARN: RESEARCH NEEDS</h2>
+<p>In the emerging, evolving field of assistive technology, there are  		several gaps in the research. First, studies need to be undertaken to determine  		the costs and benefits of assistive devices compared to human assistance. It is  		possible that despite the high cost of certain assistive devices, the ultimate  		costs may be lower than ongoing human assistance.</p>
+<p>The field needs empirical research to determine the effect of the use of  		assistive technology on other types of services. In addition, the benefits in  		terms of increased independence and quality of life need to be measured.</p>
+<p>The field also needs to undertake more research on better ways to get  		out information on assistive technology. Research should be undertaken to  		determine the most effective ways to inform professionals, families and  		consumers about new devices, the best ways to use them, and ways to pay for  		them.</p>
+<p>Physicians and case managers, especially, need to have ready access to  		information about assistive devices and how to use them. It is likely that with  		more and better information, disabled elderly individuals would be able to  		select more appropriate equipment and use it properly.</p>
+<p>Finally, the prices of assistive devices need to be explored. For  		instance, there are many inexpensive assistive devices that could be very  		useful to certain disabled elderly individuals. These devices need to be  		identified and cataloged. Furthermore, research should be undertaken to figure  		out how to make expensive devices more affordable to elderly individuals.</p>
+<h2>XII. POLICY CONSIDERATIONS</h2>
+<p>In this writer's opinion, the goal of public policy regarding assistive  		technology should be that functionally disabled elderly individuals receive the  		most appropriate mix of active help, standby help and assistive technology to  		overcome or compensate for their limitations and live as independently as  		possible.</p>
+<p>Policymakers should understand that a single form of technology is often  		not the only answer for a certain functional limitation, nor is it always  		economically or medically advisable to substitute devices for human help. Other  		approaches, such as personal assistance, learning new skills, and adapting to a  		new environment can be equally or more beneficial.</p>
+<p>To increase the development and application of assistive technology,  		policymakers must focus on four issues.</p>
+<ol><li>
+<p><i>Public policy needs to make assistive technology more affordable  			 and accessible</i>. If assistive technology is to reach its maximum potential,  			 disabled elderly people will have to be able to afford it. Policymakers could  			 make a significant contribution by focusing on helping middle class individuals  			 buy assistive devices--these individuals are too wealthy to qualify for many  			 public programs, yet too poor to afford the devices out-of-pocket. </p>
+<p>In addition, there is a vital need to develop a comprehensive  			 reimbursement plan that can avoid fragmentation and allow for service packages  			 that combine human assistance and assistive devices.</p>
+</li>
+<li>
+<p><i>Information on assistive devices must be more available</i>.  			 Often devices are not used, or the wrong devices are used because of poorly  			 trained clinicians who lack access to up to date information. Policymakers  			 should especially focus on getting information out to people who have direct  			 contact with disabled elderly individuals who are poor and living in isolated  			 areas.</p>
+</li>
+<li>
+<p><i>Policy should not be based solely on economic factors</i>.  			 Policymakers should avoid creating situations in which a person purchases a  			 specific device simply because it is subsidized, even though it may not be the  			 best fit for the circumstances. This policy concern relates to both information  			 dissemination and financing. </p>
+<p>Observers have noted that existing policy reimburses for a  			 relatively narrow range of available equipment. This can lead to inequitable  			 resource allocations and inhibit individuals' ability to select the best  			 combination of options for community living. An additional concern is that  			 advocates for specific types of assistive devices that are not reimbursed will  			 be quite active in trying to get their services recognized.</p>
+</li>
+<li>
+<p><i>Functionally impaired individuals should have the opportunity to  			 participate in deciding which type of device they will use and decisions should  			 never be considered final</i>. The decision should be made after a thorough  			 assessment, and should be reversible if the individual discovers that the  			 device is not the best match for their skills, impairment or motivation level.  			 In addition, the choice should take into account that the most beneficial  			 situation for a person may include a combination of assistive devices plus  			 human help; under current policies, people may be forced to choose one or the  			 other.</p>
+</li>
+</ol><h2>XIII. CONCLUSION: NEED FOR COORDINATION</h2>
+<p>In this writer's opinion, the major barrier to assistive technology is  		the severe fragmentation of the community service delivery system and its  		financing structures. Several agencies provide assistive devices, or counseling  		or training on how to use them, or financing for them, but there is not a  		smoothly coordinated system.</p>
+<p>Although some people can get some devices and receive support to use  		them properly, the delivery system appears to be rife with confusion in  		coverage policies, gaps in service, and an overall lack of continuity. While  		P.L.100-407 was welcomed in the field, it also contributed to the confusion and  		lack of coordination among public and private systems.</p>
+<p>The highly divided financial support system fails to encourage the  		development of coordinated services that could provide access to appropriate  		assistive devices. The U.S. is quite advanced technologically; unfortunately,  		due to the lack of coordination in the service system, disabled elderly  		individuals do not reap the maximum benefits from this level of  		sophistication.</p>
+<p>While the Technology Related Assistance for Individuals with  		Disabilities Act is a step in the right direction, its ultimate success will  		lie in its ability to serve as a foundation, upon which we build an entire,  		coordinated delivery system.</p>
+<h2>REFERENCES</h2>
+<p>Breuer, J. <b><i>A Handbook of Assistive Devices for the Handicapped  		Elderly: New Help for Independent Living</i></b>. The Hayworth Press, Inc., New  		York, NY, 1982.</p>
+<p>Fernie, G. "Robotics-A Commentary from the Perspective of Applications  		in Geriatrics." <i><b>Interactive Robotic Aids-One Option for Independent  		Living: An International Perspective</b></i>, New York, NY, 1986.</p>
+<p>Forbes, W. "The Evaluation of Assistive Devices." <i><b>Rehabilitation  		Digest</b></i>, Fall 1990.</p>
+<p>Kane, R.L., R.A. Kane, and S.B. Arnold. "Prevention in the Elderly: Risk  		Factors," paper prepared for the Conference on Health Promotion and Disease  		Prevention for Children and the Elderly. Foundation for Health Services  		Research, September 16, 1983.</p>
+<p>Levine, R. and L. Gitlin. "Home Adaptations for Persons with Chronic  		Disabilities: An Education Model." <i><b>The American Journal of Occupational  		Therapy</b></i>, April 1990.</p>
+<p>Manton, K.G. "Epidemiological, Demographic and Social Correlates of  		Disability Among the Elderly." <i><b>The Milbank Quarterly</b></i>, 67:2,  		13-58. [<a href="epdemes.htm">http://aspe.hhs.gov/daltcp/reports/epdemes.htm</a>]</p>
+<p>Office of Special Education and Rehabilitation Services. <i><b>Summary  		of Existing Legislation Affecting Persons with Disabilities</b></i>.  		Clearinghouse on the Handicapped, Publication No. E-88-22014, Washington, DC,  		August 1988.</p>
+<p>Office of the Assistant Secretary for Planning and Evaluation. "The  		Long-Term Care Population and Its Use of Services," draft, December 1990.</p>
+<p>Reeb, K., Jr. "Assistive Financing for Assistive Devices: Loan  		Guarantees for Purchase of Products by Persons with Disabilities." Electronic  		Industries Foundation Rehabilitation Engineering Center, Washington, DC,  		January 1989.</p>
+<p>RESNA. <i><b>Assistive Technology Sourcebook</b></i>. Resna Press  		Publishers, Washington, DC, 1990.</p>
+<p>Under Secretary's Task Force on Long-Term Care. <i><b>Long-Term Care of  		the Elderly: The Financing Challenge for the Nineties and the Twenty-First  		Century</b></i>, February 15, 1991.</p>
+<p>U.S. House of Representatives, Committee on Ways and Means. <i><b>1991  		Green Book: Overview of Entitlement Programs</b></i>. U.S. Government Printing  		Office, Washington, DC, 1991.</p>
+<p>U.S. Office of Technology Assessment. <b><i>Technology and Aging in  		America</i></b>, Washington, DC, June 1985.</p>
+<p>U.S. Office of Technology Assessment. <i><b>Technology and Handicapped  		People</b></i>, Washington, DC, May 1982.</p>
+<p>U.S. Senate, Special Committee on Aging. <b><i>Developments in Aging:  		1987</i></b>, Volume 3. U.S. Government Printing Office, Washington, DC,  		February 1988.</p>
+<p>Ward, C. "Subsidy Programs for Assistive Devices." Electronic Industries  		Foundation Rehabilitation Engineering Center, Washington, DC, September  		1989.</p>
+<h2>NOTE</h2>
+<p>Robert Elliott is an undergraduate student at the University of  		Pennsylvania. He prepared this paper as part of a summer internship in the  		Division of Long-Term Care and Aging Policy, Office of Family, Community, and  		Long-Term Care Policy, Office of the Assistant Secretary for Planning and  		Evaluation, U.S. Department of Health and Human Services.</p>
+<p>For further information, contact: Robert F. Clark, D.P.A.,  		DHHS.OS/ASPE/FCLCP, Room 424E, H.H. Humphrey Building, 200 Independence Avenue,  		S.W., Washington, D.C. 20201, Phone (202)245-6443 </p>
+
+  <div class="download_report">
+    
+                        <div class="pdf-prev">
+                <img src="https://aspe.hhs.gov/system/files/pdfpreview/155e19e90c8435b1488743b4a130ebe6.png" alt="Preview" title="Preview" />            </div>
+                <a class="btn btn-sm btn-default download-file"
+           href="https://aspe.hhs.gov/system/files/pdf/74366/asttech.pdf">Download</a>
+
+        <p class="download_title">&quot;asttech.pdf&quot;
+            (pdf,
+            151.13Kb)</p>
+        <p>Note: Documents in PDF format require the <a href="http://www.adobe.com/products/acrobat/readstep2.html">Adobe
+                Acrobat Reader&reg;</a>. If you experience problems with PDF documents, please <a
+                href="http://www.adobe.com/products/acrobat/readstep2.html">download the latest version of the
+                Reader&reg;</a>
+        </p>
+    </div>
+<div class="group-tags"><div class="field-label">Tags:&nbsp;</div><a href="/terms/assistive-and-medical-devicestechnology">Assistive and Medical Devices/Technology</a><a href="/terms/assistive-and-medical-devicestechnology-0">Assistive and Medical Devices/Technology</a><a href="/terms/publications-2">Publications</a><a href="/terms/disability-aging-and-long-term-care-research">Disability, Aging and Long-Term Care Research</a><a href="/terms/drugs-medical-devices-and-pharmacy-services">Drugs, Medical Devices, and Pharmacy Services</a><a href="/terms/health-services-formal">Health Services, Formal</a></div>  </div>
+
+      <footer>
+          </footer>
+  
+    <div id="block-webform-client-block-158521" class="widget block block-webform" >
+  
+      
+  <div id="webform-ajax-wrapper-158521"><form class="webform-client-form webform-client-form-158521" action="/basic-report/assistive-technology-frail-elderly-introduction-and-overview" method="post" id="webform-client-form-158521" accept-charset="UTF-8"><div><div class="webform-progressbar">
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-radios webform-component--was-this-page-helpful">
+  <label for="edit-submitted-was-this-page-helpful">Was this page helpful? <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-was-this-page-helpful" class="form-radios"><div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-1" name="submitted[was_this_page_helpful]" value="1" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-1">Yes </label>
+
+</div>
+<div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-2" name="submitted[was_this_page_helpful]" value="0" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-2">No </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="4" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-Zjhpz7p1drgjETGpqMnxHcQPSFmNnAe419yvZMwoxNA" />
+<input type="hidden" name="form_id" value="webform_client_form_158521" />
+<input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-158521" />
+<div class="form-actions"><input class="webform-next button-primary btn btn-default form-submit" type="submit" id="edit-webform-ajax-next-158521" name="op" value="Next &gt;" /></div>
+<div class="is-useful-disclaimer"> <a href="/%23" class="" title="Survey Disclaimer" data-toggle="modal" data-target="#disclamerModal">Form Approved OMB# 0990-0379 Exp. Date 8/31/2017</a></div>
+<div class="modal fade" id="disclamerModal" tabindex="-1" role="dialog" aria-labelledby="disclamerModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="disclamerModalLabel">Survey Disclaimer</h2>
+      </div>
+      <div class="modal-body">
+         According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this information collection is 0990-0379. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, gather the data needed, and complete and review the information collection. If you have comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: U.S. Department of Health & Human Services, OS/OCIO/PRA, 200 Independence Ave., S.W., Suite 336-E, Washington D.C. 20201, Attention: PRA Reports Clearance Officer.      </div>
+    </div>
+  </div>
+</div></div></form></div>
+  </div> <!-- /.block -->
+<meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/assistive-technology-frail-elderly-introduction-and-overview" itemref="md1" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/assistive-technology-frail-elderly-introduction-and-overview" itemref="md2 md3 md5 md7 md9 md11 md13 md15" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/assistive-and-medical-devicestechnology" id="md5" itemref="md4" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/assistive-and-medical-devicestechnology-0" id="md7" itemref="md6" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/publications-2" id="md9" itemref="md8" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/disability-aging-and-long-term-care-research" id="md11" itemref="md10" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/drugs-medical-devices-and-pharmacy-services" id="md13" itemref="md12" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/health-services-formal" id="md15" itemref="md14" />              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <footer  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Footer">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  id="footer_sitemap-footer_sitemap" class="col-sm-6 col-md-6 col-lg-4 ">
+                          
+                              <div id="block-footer-sitemap-footer-sitemap" class="widget block block-footer-sitemap" >
+  
+      
+  <div id="footer-sitemap" class="clearfix">
+  <div class="fs-block-content"><div class="menu-footer-utility"><ul class="footer_links_menu-footer-utility total-items-2 parent-items-0 single-items-0"><li class="menu-5021 depth-1 total-children-8 parent-children-0 single-children-8  first"><a href="/" title="look at ASPE Home" class="fs-root-link">ASPE Home</a><ul class="footer_links_menu-footer-utility total-items-8 parent-items-0 single-items-0"><li class="menu-5026 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/" title="look at HHS Home">HHS Home</a></li>
+<li class="menu-66281 depth-1 fs-no-children"><a href="http://www.usa.gov/" title="look at USA.gov">USA.gov</a></li>
+<li class="menu-66316 depth-1 fs-no-children"><a href="https://oig.hhs.gov/" title="look at Office of the Inspector General">Office of the Inspector General</a></li>
+<li class="menu-66321 depth-1 fs-no-children"><a href="http://www.whitehouse.gov" title="look at The White House">The White House</a></li>
+<li class="menu-5046 depth-1 fs-no-children"><a href="http://www.hhs.gov/Accessibility.html" title="look at Accessibility">Accessibility</a></li>
+<li class="menu-66326 depth-1 fs-no-children"><a href="http://www.hhs.gov/about/budget/index.html" title="look at Budget/Performance">Budget/Performance</a></li>
+<li class="menu-2551 depth-1 fs-no-children"><a href="http://www.hhs.gov/Privacy.html" title="look at Privacy Policy">Privacy Policy</a></li>
+<li class="menu-197776 depth-1 fs-no-children  last"><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" title="Nondiscrimination Notice">Nondiscrimination Notice</a></li>
+</ul></li>
+<li class="menu-5051 depth-1 total-children-4 parent-children-0 single-children-4  last"><a href="http://www.hhs.gov/foia/" title="look at FOIA" class="fs-root-link">FOIA</a><ul class="footer_links_menu-footer-utility total-items-4 parent-items-0 single-items-0"><li class="menu-5056 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/open/recordsandreports/plainwritingact/index.html" title="look at Plain Writing Act">Plain Writing Act</a></li>
+<li class="menu-5061 depth-1 fs-no-children"><a href="http://www.hhs.gov/asa/eeo/no_fear_bullet_3.html" title="look at No Fear Act">No Fear Act</a></li>
+<li class="menu-5066 depth-1 fs-no-children"><a href="http://www.hhs.gov/Disclaimer.html" title="look at Disclaimers">Disclaimers</a></li>
+<li class="menu-2546 depth-1 fs-no-children  last"><a href="http://www.hhs.gov/plugins.html" title="look at Viewers &amp; Players">Viewers &amp; Players</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-5 " id="stability_cms-contact_us">
+                          
+                              <div id="block-stability-cms-contact-us" class="widget block block-stability-cms" >
+  
+      
+  <div class="contacts-widget widget widget__footer">
+	<div class="widget-content">
+		<ul class="contacts-info-list">
+      			<li>
+<!--				<i class="fa fa-map-marker">Address</i>-->
+                <div class="info-icons">
+                    <img  alt="map" class= 'map-icons' src="/sites/all/themes/stability/stability_aspe/images/map.png"/>
+                </div>
+                <div class="info-item">
+					Assistant Secretary for Planning and Evaluation, Room 415F<br />
+U.S. Department of Health and Human Services<br />
+200 Independence Avenue, SW<br />
+Washington, D.C. 20201				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-phone">phone</i>-->
+                <div class="info-icons">
+                    <img alt="phone" src="/sites/all/themes/stability/stability_aspe/images/phone.png"/>
+                </div>
+				<div class="info-item">
+					+1 202.690.7858				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-envelope">email</i>-->
+                <div class="info-icons">
+                    <img alt="mail" src="/sites/all/themes/stability/stability_aspe/images/mail-white.png"/>
+                </div>
+				<span class="info-item">
+					<a href="mailto:osaspeinfo@hhs.gov">osaspeinfo@hhs.gov</a>
+				</span>
+			</li>
+      			                					</ul>
+	</div>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-3 " id="footer">
+                          
+                              <div id="block-block-36" class="widget block block-block" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sign-up</span> for Email Updates</h3>
+		</div>
+    
+  <div class="email_updates">
+<button class="btn btn-default" name="subscribe-button" type="submit" value="subscribe">subscribe</button>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-12 " id="menu-menu-footer-language-menu">
+                          
+                              <div id="block-menu-menu-footer-language-menu" class="widget block block-menu" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Language</span> Assistance Available</h3>
+		</div>
+    
+  <ul class="menu"><li class="first expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#spanish" title="Español">Español</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#chinese" title="繁體中文">繁體中文</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#vietnamese" title="Tiếng Việt">Tiếng Việt</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#korean" title="한국어">한국어</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#tagalog" title="Tagalog">Tagalog</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#russian" title="Русский">Русский</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#arabic" title="العربية">العربية</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#creole" title="Kreyòl Ayisyen">Kreyòl Ayisyen</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#french" title="Français">Français</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#polish" title="Polski">Polski</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#portuguese" title="Português">Português</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#italian" title="Italiano">Italiano</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#german" title="Deutsch">Deutsch</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#japanese" title="日本語">日本語</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#farsi" title="فارسی">فارسی</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#english" title="English">English</a></li>
+</ul></li>
+</ul>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+      </div>
+
+          </div>
+    
+    
+      </footer>
+    
+
+    <!--/PAGEWATCH-->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+                        </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="social-links-wrapper">
+              <span class="social-links-txt">Connect with us</span>
+              <ul class="social-links social-links__dark">
+                                                  <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw-grey.png"/></a></li>
+                                <!--                --><!--                  <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin-grey.png"/></a></li>-->
+<!--                -->
+                                                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>  <script type="text/javascript" src="/sites/default/files/advagg_js/js__VWRymaMz6HfrhnrcJNGcDiSvLVrvhaXvBa7nrBYy8gc__jntPwP3D6myJZH1jW19fXrk5cYMHGRL8NQION22VSEA__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5486d15a696bff0c"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__g6mKbcakHxQkz4ZHYaxdO_xqONINvRMgsHh1zAK-fr0__ATHtEmHaeZ0jidpGU22EkhmPDBSgjD8z0bVDQMI-BIY__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__KUp4PrfOt9BSXUVl8Ctb3dhCMBe4MNVMeb4Gyorx8yY__7g4BeXscCIZAfuu1vxsCj2RIemg-eEK0QpChP9LDmFQ__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__PNjAgubM_3xXRLp4uLsYnv8wQAdT89-RYkSPxT6T45c__rFQwFK4pA5ZaWZSF7FPTfKbbpus0h-5IS8ayrNZGrb4__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__vQiLul2UcfC4nBAR09mhYVBYzRmiNDm2dj3GgSubV38__w84oZe-ZODKe7XnnlbrjV4IWHISOy4PioFEMVgx9hZo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__QJw3g0kOdwsv4twSZLP931zBzsHy50VEHpEN_znIitQ__A6QOuWXElDipBM2iChbWhjAAt3KlUwZ-jODoxdpbwiw__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stability_aspe","theme_token":"0JpfDveC93ZBP_iztjqjRiIFfICNu-gPcl4ObuAXge0","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/footable.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/aspe_nodes.admin.css":1,"sites\/all\/modules\/custom\/aspe_views\/theme\/css\/aspe_views.admin.css":1,"sites\/all\/modules\/forked\/book\/book.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/openpublic\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.css":1,"profiles\/openpublic\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openpublic\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/openpublic\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/themes\/stability\/css\/bootstrap.min.css":1,"sites\/all\/themes\/stability\/css\/fonts\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.theme.css":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/stability\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/stability\/css\/theme.css":1,"sites\/all\/themes\/stability\/css\/theme-elements.css":1,"sites\/all\/themes\/stability\/css\/animate.min.css":1,"sites\/all\/themes\/stability\/css\/skins\/red.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/slideshow.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/font-main.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/styleless.less":1,"sites\/all\/themes\/stability\/css\/skins\/blue.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/aspe\/theme\/js\/aspe.login-confirm.js":1,"sites\/all\/modules\/custom\/aspe_report\/modules\/aspe_databooks\/js\/aspe_databooks.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.highcharts.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/datatables\/dataTables.min.js":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.min.js":1,"sites\/all\/libraries\/highcharts\/highcharts.js":1,"sites\/all\/libraries\/highcharts\/highcharts.exporting.js":1,"sites\/all\/libraries\/highcharts\/highcharts.map.js":1,"sites\/all\/libraries\/highcharts\/highcharts.us-all.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.footable.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5486d15a696bff0c":1,"misc\/progress.js":1,"profiles\/openpublic\/modules\/contrib\/webform\/js\/webform.js":1,"profiles\/openpublic\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/stability\/vendor\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/stability\/vendor\/bootstrap.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flexnav.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flickrfeed.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.sloppy-masonry.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.fitvids.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.stellar.min.js":1,"sites\/all\/themes\/stability\/vendor\/snap.svg-min.js":1,"sites\/all\/themes\/stability\/js\/custom.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/aspe.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/html5shiv.min.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/main-menu.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/keyboard-control.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tabBehavior.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tileStringTrimmer.js":1}},"webform":{"conditionals":{"webform-client-form-158521":{"ruleGroups":[],"sourceMap":[],"values":[]}}},"ajax":{"edit-webform-ajax-next-158521":{"callback":"webform_ajax_callback","wrapper":"webform-ajax-wrapper-158521","progress":{"message":"","type":"throbber"},"event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Next \u003E"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/basic-report\/assistive-technology-frail-elderly-introduction-and-overview":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"([a-z0-9]\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This website contains links to other federal and state agencies and private organizations. The Department of Health and Human Services (HHS) cannot attest to the accuracy of information provided by these nonfederal website links. Linking to nonfederal sites does not constitute an endorsement by HHS or any of its employees of the sponsors or the information and products presented on the sites. You will be subject to the destination site\u0027s privacy policy when you leave the ASPE website.\r\n\r\nThank you for visiting aspe.hhs.gov!","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"stability":{"flickr_id":"52617155@N08","logo_sticky":"28"},"field_group":{"div":"full","hidden":"full"}});
+//--><!]]>
+</script>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config={pubid:"ra-5486d15a696bff0c",ui_click:false}
+//--><!]]>
+</script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4837db659","applicationID":"10708002","transactionName":"MwNaZBRSXEtXB0BdWQpJeVMSWl1WGQpbUFM7FllXA2xEUVMT","queueTime":0,"applicationTime":1993,"atts":"H0RZElxIT0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

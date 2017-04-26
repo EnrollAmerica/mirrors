@@ -1,0 +1,1523 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">  <!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="next" href="/report/modified-adjusted-gross-income-magi-income-conversion-methodologies/section-iii-methods-account-disregards-combined-household-composition-and-income-counting-hcic-methods" />
+<link rel="up" href="/report/modified-adjusted-gross-income-magi-income-conversion-methodologies" />
+<link rel="prev" href="/report/modified-adjusted-gross-income-magi-income-conversion-methodologies/section-i-methods-considered-department-income-conversion" />
+<link rel="shortcut icon" href="https://aspe.hhs.gov/sites/default/files/Favicon2.png" type="image/png" />
+<meta name="description" content="This section of the paper summarizes the Department’s analysis of the potential methods to reflect varying state disregards, and the reasons for its selection of the Standardized MAGI Conversion Methodology.  The Disregard Methods convert a state’s current Medicaid net income standard to an equivalent standard that accounts for disregards.  The Department evaluated three types of Disregard Methods: the Same Number Net and Gross Method, the Average Disregard Method, and the Marginal Disregard Method." />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://aspe.hhs.gov/report/modified-adjusted-gross-income-magi-income-conversion-methodologies/section-ii-disregard-methods" />
+<link rel="shortlink" href="https://aspe.hhs.gov/node/108956" />
+<meta property="og:site_name" content="ASPE" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aspe.hhs.gov/report/modified-adjusted-gross-income-magi-income-conversion-methodologies/section-ii-disregard-methods" />
+<meta property="og:title" content="Section II: Disregard Methods" />
+<meta property="og:description" content="This section of the paper summarizes the Department’s analysis of the potential methods to reflect varying state disregards, and the reasons for its selection of the Standardized MAGI Conversion Methodology.  The Disregard Methods convert a state’s current Medicaid net income standard to an equivalent standard that accounts for disregards.  The Department evaluated three types of Disregard Methods: the Same Number Net and Gross Method, the Average Disregard Method, and the Marginal Disregard Method." />
+<meta property="og:updated_time" content="2015-12-03T02:40:20-05:00" />
+<meta property="article:published_time" content="2015-11-23T04:17:19-05:00" />
+<meta property="article:modified_time" content="2015-12-03T02:40:20-05:00" />
+
+  <title>Section II: Disregard Methods | ASPE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+  <link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__5ln8neBOcJfyUveiD4y9fhI6kHBLOQ_YL0mMC-LS9a0__TPJIZT9UBnf_685NlFTJ5KnZVsjwFk6ACQ-nwwygmwU__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ng49uRH5y4Hl9VF9hHW_vXOj-mcOc2u2ShJqJ1YKIGU__FoMCD14GBvZaRiqSQ_JpP1w3rDB21n7H2Ar4pRZaIh8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__Hskudx14OJ5Hz8vqU7CUgN6SDV5rINZuEq9VuGsSeyc__EwNIl3xeFrniW2TmonovTzhSs3X5MdFps210puE7jog__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__9rZoaX9BdzjjNucvYxduxeNAVO2zgW_Rvjhb5rq5whc__lSr_y16grDSgHf4booPChnF7QXz3TQY3hafH49twE0k__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZgfI_ZPib5yVY0o5aKo_6TFn946Tuu_nFDa0ySTmkSc__2FTFrNw2eNh0mpHIOA34r6YRwBZMm2PjJ_JubnwLigg__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__dxabpJ5rQgDSixKgLJZjWc1beC6mpROKwVrmWxI5eno__rqhz_hGsE_i59O7-W991o71_Jxw1QOtGMxn4nsOLHY8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZbRCq2NqWgK-HXAQI3So0N1n0nr4HonsJS3eQuuxukw__7Olkk8Locn8Dj0eR0Ww3rbV9lks9sxipcboMXB18RRs__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+
+	<!-- Head Libs -->
+	<script src="/sites/all/themes/stability/stability_aspe/vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/sites/all/themes/stability/vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" href="/sites/all/themes/stability/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/stability/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/stability/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/stability/images/apple-touch-icon-144x144.png">
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-108956 node-type-book">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-JLFR"
+                  height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JLFR');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-nav" class="accessibility_menu">
+    <strong>Shortcut Navigation:</strong>
+    <ul>
+      <li><a href="#content" accesskey="c" title="Skip to page content (ctrl/alt + c)">Page Content</a></li>
+      <li><a href="#nav" accesskey="m" title="Skip to main navigation menu (ctrl/alt + m)">Site Navigation</a></li>
+
+      <li><a href="#Footer" accesskey="f" title="Skip to footer (ctrl/alt + f)">Footer</a></li>
+    </ul>
+  </div>
+
+    
+<div class="site-wrapper">
+  
+  <header class="header header-menu-fullw header-top-clean">
+    <div id="brand-bar">
+        <div class="container">
+                    <img alt='bird' src="/sites/all/themes/stability/stability_aspe/images/bird.png"> <a target="blank" tabindex="4" href="http://www.hhs.gov/">U.S. Department of Health & Human Services</a>
+        </div>
+
+    </div>
+    <div class="header-main">
+        <div class="container clearfix">
+            <div class="social-links-wrapper">
+                <ul class="social-links social-links__light">
+                                                          <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw.png"/></a></li>
+                                    <!--                  --><!--                    <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin.png"/></a></li>-->
+<!--                  -->
+                                                                      </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                                <div class="site_name_wrapper">
+                                     <span class="h1">
+                                      <a href="/">ASPE</a>
+                                       </span>
+                                  <p class="tagline"><p>Office of The Assistant Secretary</p><p> for Planning and Evaluation</p></p>
+                    </div>
+            </div>
+            <!-- Logo / End -->
+            <div class="header_right_wrapper">
+                <div class="search-form">
+                    <form action="/report/modified-adjusted-gross-income-magi-income-conversion-methodologies/section-ii-disregard-methods" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class = "input-group"><div class="form-type-textfield form-item-search-block-form form-item form-group">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search Site..." class="form-control form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input class="btn btn-primary btn-icon form-submit" type="image" id="edit-submit" name="submit" value="Search" src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/search-white2.png" alt="Search" title="Search" /></div></div><input type="hidden" name="form_build_id" value="form-yvTdKhLcewiXAyBzUQSwc9UxKTDLXZCTM-5lWfWNrQw" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </div>
+                <button type="button" class="navbar-toggle" value="Menu">
+                    <i class="fa fa-bars"></i>Menu
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-main">
+        <div class="container">
+          <ul data-breakpoint="767" class="flexnav">
+                <li class="first expanded"><a href="/basic-search/about" title="">About</a><ul><li class="first leaf"><a href="/mission" title="">Mission</a></li>
+<li class="leaf"><a href="/key-staff" title="">Leadership</a></li>
+<li class="leaf"><a href="https://www.usajobs.gov/" title="">Careers</a></li>
+<li class="expanded"><a href="/coordination" title="linkTo">Coordination</a><ul><li class="first leaf"><a href="/evaluation-evidence" title="">Evaluation &amp; Evidence</a></li>
+<li class="leaf"><a href="/national-alzheimers-project-act">National Alzheimer&#039;s Project Act</a></li>
+<li class="leaf"><a href="/health-and-human-services-hhs-data-council">HHS Data Council</a></li>
+<li class="last leaf"><a href="/national-committee-vital-and-health-statistics" title="National Council on Vital and Health Statistics">National Council on Vital and Health Statistics</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/divisions" title="">Offices</a><ul><li class="first leaf"><a href="/office-disability-aging-and-long-term-care-policy-daltcp">Disability, Aging, and Long-Term Care Policy</a></li>
+<li class="leaf"><a href="/office-health-policy-hp">Health Policy</a></li>
+<li class="leaf"><a href="/office-human-services-policy">Human Services Policy</a></li>
+<li class="last leaf"><a href="/office-science-and-data-policy">Science and Data Policy</a></li>
+</ul></li>
+<li class="leaf"><a href="/strategic-planning" title="Strategic Planning">Strategic Planning</a></li>
+<li class="last leaf"><a href="/contact-aspe" title="">Contact ASPE</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/topics" title="">Topics</a><ul><li class="first leaf"><a href="/affordable-care-act-research">Affordable Care Act Research</a></li>
+<li class="leaf"><a href="/alzheimers-dementia">Alzheimer&#039;s / Dementia</a></li>
+<li class="leaf"><a href="/early-childhood">Early Childhood</a></li>
+<li class="leaf"><a href="/incarceration-reentry">Incarceration &amp; Reentry</a></li>
+<li class="leaf"><a href="/opioid-abuse-us-and-hhs-actions-address-opioid-drug-related-overdoses-and-deaths" title="Opioids">Opioids</a></li>
+<li class="leaf"><a href="/patient-centered-outcomes-research-trust-fund">Patient-Centered Outcomes Research Trust Fund (PCORTF)</a></li>
+<li class="expanded"><a href="/basic-search/poverty" title="">Poverty</a><ul><li class="first leaf"><a href="/poverty-guidelines">Poverty Guidelines</a></li>
+<li class="last leaf"><a href="/poverty-estimates-trends-and-analysis">Poverty Analysis</a></li>
+</ul></li>
+<li class="leaf"><a href="/teen-pregnancy-prevention">Teen Pregnancy Prevention</a></li>
+<li class="leaf"><a href="/homelessness">Homelessness</a></li>
+<li class="last leaf"><a href="/medicare-access-and-chip-reauthorization-act-2015">MACRA</a></li>
+</ul></li>
+<li class="leaf"><a href="/reports" title="">Publications</a></li>
+<li class="last expanded"><a href="/basic-search/datasets" title="">Data and Tools</a><ul><li class="first last leaf"><a href="/evaluations" title="">Evaluation Database</a></li>
+</ul></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation / End -->
+</header>  <div class="main" role="main">
+    <!--PAGEWATCH CODE="USHHS_458"-->
+    <section class="page-heading">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+                <h1>
+                                  Modified Adjusted Gross Income (MAGI) Income Conversion Methodologies.
+                    
+          Section II: Disregard Methods        </h1>
+                                 <p class="author">
+                                                 <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-03-01T00:00:00-05:00">03/01/2013</span>               
+                           </p>
+
+
+                  </div>
+
+
+        <div class="col-md-6">
+           <ul class="breadcrumb"><li class="first"><a href="/" title="Home">Home</a></li>
+<li><a href="/report/modified-adjusted-gross-income-magi-income-conversion-methodologies" title="Modified Adjusted Gross Income (MAGI) Income Conversion Methodologies">Modified Adjusted Gross Income...</a></li>
+<li class="last">Section II: Disregard Methods</li>
+</ul>        </div>
+
+
+    </div>
+  </div>
+</section>
+    
+      <div  class="nd-region nd-region-filter">
+  
+       
+
+    
+      <div  id="Filter" class="row">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region nd-region-similar-content">
+  
+       
+
+    
+      <div  id="Similar-Content" class="row">     
+
+        
+                  
+        
+                                    <div  id="top" class="">
+                          
+                              <div id="block-views-2100ccfdd214bdbcf634d7e4832c265b" class="widget block block-views solr-similar-content" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Similar</span> content</h3>
+		</div>
+    
+  <div class="view view-similar-content-solr view-id-similar_content_solr view-display-id-block_solr_similar_content view-dom-id-d93e3cd2ee5e044e71a4834a651b8e4e">
+        
+  
+  
+      
+    
+    <span class="field-content"><a href="/basic-report/data-sources-modified-adjusted-gross-income-magi-conversions">Data Sources for Modified Adjusted Gross Income (MAGI) Conversions</a></span>    
+    <span class="field-content"><a href="/basic-report/medicaid-buy-programs-lessons-learned-nine-early-implementer-states">The Medicaid Buy-In Programs: Lessons Learned From Nine &quot;Early Implementer&quot; States</a></span>    
+    <span class="field-content"><a href="/basic-report/medicaid-buy-programs-case-studies-early-implementer-states">Medicaid Buy-In Programs: Case Studies of Early Implementer States</a></span>    
+    <span class="field-content"><a href="/report/modified-adjusted-gross-income-magi-income-conversion-methodologies">Modified Adjusted Gross Income (MAGI) Income Conversion Methodologies</a></span>    
+    <span class="field-content"><a href="/basic-report/policy-frameworks-designing-medicaid-buy-programs-and-related-state-work-incentive-initiatives">Policy Frameworks for Designing Medicaid Buy-In Programs and Related State Work Incentive Initiatives</a></span>  
+  
+  
+  
+  
+  
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Content">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  class="col-md-12 " id="content">
+                          
+                              <div id="block-aspe-aspe-addthis" class="widget block block-aspe" >
+  
+      
+  <div class="clearfix">
+  <ul class="addthis_sharing_toolbox node-share__links" data-url="https://aspe.hhs.gov/report/modified-adjusted-gross-income-magi-income-conversion-methodologies/section-ii-disregard-methods" data-title="Section II: Disregard Methods">
+    <li><a class="addthis_button_print"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/print-white.png" alt="print" /></a></li>
+    <li><a class="addthis_button_email"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/mail-white.png" alt="email" /></a></li>
+    <li><a class="addthis_button_twitter"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/tw.png" alt="twitter" /></a></li>
+<!--    <li><a class="addthis_button_facebook">--><!--</a></li>-->
+    <li><a class="addthis_button_compact"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/plus-white.png" alt="compact" /></a></li>
+  </ul>
+</div>
+
+  </div> <!-- /.block -->
+
+                
+    
+  
+  <div class="content clearfix node-book ">
+    <p>This section of the paper summarizes the Department’s analysis of the potential methods to reflect varying state disregards, and the reasons for its selection of the Standardized MAGI Conversion Methodology.  The Disregard Methods convert a state’s current Medicaid net income standard to an equivalent standard that accounts for disregards.  The Department evaluated three types of Disregard Methods: the Same Number Net and Gross Method, the Average Disregard Method, and the Marginal Disregard Method.</p>
+<p><strong>Same Number Net and Gross</strong>: The Same Number Net and Gross (SNNG) Method uses the assumption that the new converted standard is based only on gross income, defined as net income plus disregards.  (However, in 2014, the rules for assessing eligibility will account for other adjustments besides disregards; therefore, this method does not actually achieve the goal of establishing a standard where the same number of people are eligible in 2014 as were eligible under the existing standard.)  Under the SNNG method, the converted income standard is set so that the same number of people are eligible under a gross income standard, as defined above, as would be eligible under the existing net income standard.  This method uses SIPP data to estimate the number of individuals eligible in a particular state and category according to the current income eligibility rules.  All individuals in that state and category are then ranked from lowest to highest gross income, which is defined as the sum of net income plus disregards, and the converted standard is set at the point at which the number of individuals eligible based on gross income is equal to the number eligible under the existing rules.  This method is illustrated in the text box on the following page.</p>
+<hr /><p align="center"><strong>SNNG Example (Tables A and B)</strong></p>
+<p>The example relates to a specific eligibility category within a state. Under March 23, 2010 eligibility rules, 3 individuals in a group of 6 individuals are eligible for Medicaid: Person 1, Person 2, and Person 3 (see Table 1). When the gross income is ranked from lowest to highest and the new converted standard is drawn, 3 individuals are still eligible. However, these are not the same 3 individuals who were eligible under the net income standard (see Table 2).</p>
+<table class="footable table-align-left table" width="98%"><caption>Table A: Example before conversion, SNNG</caption>
+<thead><tr><th colspan="3">
+<p><strong>Eligibility Using State-Eligibility Category Specific Net Income Standard on March 23, 2010</strong></p>
+</th>
+</tr><tr><th>
+<p><strong>Individual</strong></p>
+</th>
+<th>
+<p><strong>% FPL using Net Income</strong></p>
+</th>
+<th>
+<p><strong>Eligible under net income standard of 100% FPL?</strong></p>
+</th>
+</tr></thead><tbody><tr><td>
+<p>Person 1</p>
+</td>
+<td>
+<p>70%</p>
+</td>
+<td>
+<p>Yes</p>
+</td>
+</tr><tr><td>
+<p>Person 2</p>
+</td>
+<td>
+<p>85%</p>
+</td>
+<td>
+<p>Yes</p>
+</td>
+</tr><tr><td>
+<p>Person 3</p>
+</td>
+<td>
+<p>90%</p>
+</td>
+<td>
+<p>Yes</p>
+</td>
+</tr><tr><td>
+<p>Person 4</p>
+</td>
+<td>
+<p>110%</p>
+</td>
+<td>
+<p>No</p>
+</td>
+</tr><tr><td>
+<p>Person 5</p>
+</td>
+<td>
+<p>120%</p>
+</td>
+<td>
+<p>No</p>
+</td>
+</tr><tr><td>
+<p>Person 2</p>
+</td>
+<td>
+<p>130%</p>
+</td>
+<td>
+<p>No</p>
+</td>
+</tr></tbody></table><table class="footable table-align-left table"><caption>Table B: Example after conversion, SNNG</caption>
+<thead><tr><th colspan="4">
+<p><strong>Eligibility Using State-Eligibility Category Specific Converted Gross Standard</strong></p>
+</th>
+</tr><tr><th>
+<p><strong>Individual</strong></p>
+</th>
+<th>
+<p><strong>% FPL using Net Income</strong></p>
+</th>
+<th>
+<p><strong>%FPL using Gross Income</strong></p>
+</th>
+<th>
+<p><strong>Eligible under converted income standard of 110%</strong></p>
+</th>
+</tr></thead><tbody><tr><td>
+<p>Person 1</p>
+</td>
+<td>
+<p>70%</p>
+</td>
+<td>
+<p>90%</p>
+</td>
+<td>
+<p>Yes</p>
+</td>
+</tr><tr><td>
+<p>Person 2</p>
+</td>
+<td>
+<p>85%</p>
+</td>
+<td>
+<p>105%</p>
+</td>
+<td>
+<p>Yes</p>
+</td>
+</tr><tr><td>
+<p><strong>Person 4</strong></p>
+</td>
+<td>
+<p><strong>110%</strong></p>
+</td>
+<td>
+<p><strong>110%</strong></p>
+</td>
+<td>
+<p><strong>Yes</strong></p>
+</td>
+</tr><tr><td>
+<p><strong>Person 3</strong></p>
+</td>
+<td>
+<p><strong>90%</strong></p>
+</td>
+<td>
+<p><strong>120%</strong></p>
+</td>
+<td>
+<p><strong>No</strong></p>
+</td>
+</tr><tr><td>
+<p>Person 5</p>
+</td>
+<td>
+<p>120%</p>
+</td>
+<td>
+<p>130%</p>
+</td>
+<td>
+<p>No</p>
+</td>
+</tr><tr><td>
+<p>Person 6</p>
+</td>
+<td>
+<p>130%</p>
+</td>
+<td>
+<p>150%</p>
+</td>
+<td>
+<p>No</p>
+</td>
+</tr></tbody></table><p>In this example, the converted standard would be 110% FPL.  The bolded observations in Table 2 represent individuals who changed eligibility status. This method can only be implemented with SIPP data because state administrative data include information only about individuals who apply and/or are enrolled in Medicaid.</p>
+<hr /><p>The SNNG method does not ensure that the exact same individuals retain eligibility, but aims to ensure that the same number, in the aggregate, would be eligible if gross income were used to assess eligibility.  For example, Person 4 gains eligibility under the converted standard of 110% FPL based on gross income, but was not eligible under the net income standard of 100% FPL.  Because his income level does not change in this example, whether it is calculated as net income or gross income, Person 4 had no disregards.  However, Person 3 loses eligibility under the converted standard because his gross income exceeds 110%, whereas his net income of 90% made him eligible under the net income standard of 100%.  This implies that Person 3 has disregards that affect his eligibility.  Under the converted standard, Person 4 gains eligibility while Person 3 loses eligibility, but they balance each other in the aggregate.</p>
+<p>The SNNG Method has three important limitations:</p>
+<ol><li>The method can only be used with SIPP data.  It cannot be used with state administrative data because state data do not provide any information on individuals who are not enrolled in Medicaid or CHIP.  </li>
+<li>The accuracy of the SNNG Method is heavily dependent on the accuracy of the eligibility simulations on which it is based.   While this is true to some extent for all the methods the Department analyzed, it is truer for the SNNG Method.  The SNNG approach depends on accurately approximating more target numbers than the other methods.  In addition, there are not good benchmarks for setting many of these targets.  Appendix 3 describes in detail the difference between SNNG and the Department’s recommended Standardized MAGI Conversion Methodology.</li>
+<li>The SNNG only accounts for disregards and does not address the impact of adjustments for other MAGI rules, such as household composition and income counting.  Because eligibility in 2014 will be determined using these other MAGI rules, SNNG does not set the converted standard at the point where the same number who are eligible under current rules will be eligible under 2014 rules.</li>
+</ol><p><strong>Average Disregard Method:</strong> The Average Disregard Method (ADM) takes the value of disregards assigned to each individual, converts this disregard across all individuals to a percentage of the FPL (where the FPL is determined based on household size), sums up the individual’s disregards expressed as a percent of FPL, and then divides this number by the total number of eligibles or enrollees in that state and eligibility category.  This method can be implemented using either SIPP or state data.  If SIPP data are used, eligible individuals are evaluated.  If state data are used, enrolled individuals are evaluated.</p>
+<div style="border: 1px solid black; padding-left: 20px; padding-top: 20px">
+<p align="center"><strong>ADM Example</strong></p>
+<p>The current net income standard for a specific eligibility group is 100% FPL. Among a group of eligible (or enrolled) individuals, the average value of the disregards is 3% of the FPL.  The converted standard is 100% + 3% = 103% FPL.</p>
+</div>
+<p>The ADM has two strengths: First, it adjusts for disregards, which are a major component underlying the difference between current net income standards and MAGI-based standards.  Second, it can be implemented using either SIPP or state data, at the option of the state.  Moreover, for the eligibility categories examined, the ADM produced eligibility standards that were generally consistent with the results produced by other methods.  (See Table 5 below, summarizing the income standards resulting from each method for various eligibility categories.)</p>
+<p>However, the Department concluded that the ADM is likely to produce a systematically biased result in which, on average, more people lose eligibility than gain eligibility as a result of the conversion.  This bias exists because, as shown below, there is a systematic relationship between the average size of the disregard and net income.  People with higher levels of net income have, on average, higher disregards.  In contrast, the amount of the disregard is irrelevant for most people with low levels of net income.  They will be eligible regardless of the size of the disregard.  The people for whom the size of the disregard is most likely to affect eligibility are the people whose income is a bit above the net standard.  Because, as shown below, average disregards are greater for these people than for those with lower levels of net income, the average disregard method systematically estimates a lower average disregard than a method that captures disregards for those on the “margin,” and causes the converted threshold to be biased downwards from the level needed to be unbiased. </p>
+<p>The income disregard amounts for individuals whose income is within a relatively small margin of the eligibility standard may be higher than the income disregard amounts for individuals whose income is well below the eligibility standard, for at least two reasons: </p>
+<ul><li>Certain income disregards, such as child care expenses and work expenses, are only available for individuals with earned income.</li>
+<li>States do not always collect complete disregard information for all individuals. When states are assessing eligibility for individuals whose income is significantly below the net income standard, states have little or no reason to collect full disregard information.  The applicant’s income is low enough to meet the eligibility standard regardless of whether he or she has applicable disregards.  While not collecting complete information reduces both the state’s administrative burden and the burden on applicants, it results in a potentially biased converted standard if the average disregard method is used.   </li>
+</ul><p>For these reasons, the Department refined the Average Disregard Method by examining bands of income and taking the average disregard only for individuals for whom disregards affect eligibility.</p>
+<p><strong>Marginal Disregard Method (selected as the Department’s recommended method):  </strong>The Department tested the hypothesis that disregards are positively correlated with income and confirmed that a positive correlation exists.  As shown in Appendix 1, there is a correlation between level of income and level of disregards.  Higher income individuals tend to have higher disregards.  Therefore, the Department concluded that the conversion methodology should focus on those individuals for whom disregards are most likely to affect their Medicaid eligibility.  These are the individuals whose net income falls just at or below the current Medicaid eligibility standard.  It is this group for which the amount of their disregards is most important in determining whether they are eligible.</p>
+<p>This refinement of the Average Disregard Methodology is called the Marginal Disregard Method (MDM).  It is similar to the Average Disregard Method in that disregards are expressed as a percentage of FPL and are totaled and divided by the number of enrollees (if state data is used) or eligibles (if SIPP data is used).  The difference between the methods is that, for the Marginal Disregard Method, this calculation is performed only for a subset of enrollees or eligibles.  The Marginal Disregard Method, like the Average Disregard Method (and unlike the SNNG Method), can be used with either state or SIPP data.</p>
+<div style="border: 1px solid black; padding-left: 20px; padding-top: 20px">
+<p align="center"><strong>MDM/25 Example</strong></p>
+<p>Assume the current net income standard is 100% FPL. Using SIPP data and analyzing only those individuals with net incomes between 75% and 100% FPL, the average amount of disregarded income is 10% FPL. This results in a converted standard of 110% FPL.</p>
+</div>
+<p><strong>Selecting a Marginal Income Band: </strong>The Department used two criteria to select an appropriate income band:</p>
+<ul><li>The income band should reasonably capture individuals whose eligibility is affected by disregards.</li>
+<li>The population, or sample size included in the income band, should be large enough to precisely measure the average. In other words, the sample size used to compute the “marginal” average should be large enough that the converted standard is valid and reliable.</li>
+</ul><p>The Department analyzed the average size of disregards to understand how many individuals have disregards that could affect eligibility and to determine the marginal band size that would produce the most precise converted standard. </p>
+<p>Table 1 shows the percentile distribution of individuals’ disregards for a sample of 16 eligibility categories from the pilot states.  For each eligibility category, at least 5% of individuals have no disregards, and for all states and eligibility categories shown, except for Nebraska CHIP children, at least 25% have no disregards.  For 12 of the 16 categories, at least 50% of the individuals have no disregards. This shows that within most eligibility categories, disregards do not affect eligibility for at least 50% of individuals. </p>
+<p>For example, the first category shown in Table 1 is Arizona children less than age one.  Of the 490 observations in this category, more than 245 (the 50th percentile) have zero disregards.  The disregard for the 367<sup>th</sup> observation (the 75<sup>th</sup> percentile) is 5.9% of FPL.  The disregard for the 441<sup>st</sup>observation (the 90<sup>th</sup> percentile) is 7.4% of FPL.  In summary, Table 1 shows that very few individuals have disregards, and of those who do, the size of the disregard is less than 25% of FPL for almost all observations.</p>
+<table class="footable table-align-left table" width="83%"><caption>TABLE 1: Distribution of Total Disregards as a Percent of FPL, by Percentile</caption>
+<thead><tr><th>
+<p><strong>Category</strong></p>
+</th>
+<th>
+<p><strong>Number of Observations</strong></p>
+</th>
+<th>
+<p><strong>Min.</strong></p>
+</th>
+<th>
+<p><strong>1st pctl.</strong></p>
+</th>
+<th>
+<p><strong>5th pctl.</strong></p>
+</th>
+<th>
+<p><strong>10th pctl.</strong></p>
+</th>
+<th>
+<p><strong>25th pctl.</strong></p>
+</th>
+<th>
+<p><strong>Mean</strong></p>
+</th>
+<th>
+<p><strong>50th pctl.</strong></p>
+</th>
+<th>
+<p><strong>75th pctl.</strong></p>
+</th>
+<th>
+<p><strong>90th pctl.</strong></p>
+</th>
+<th>
+<p><strong>95th pctl.</strong></p>
+</th>
+<th>
+<p><strong>99th pctl.</strong></p>
+</th>
+<th>
+<p><strong>Max.</strong></p>
+</th>
+</tr></thead><tbody><tr><td>
+<p><strong>AZ:  Children &lt; 1</strong></p>
+</td>
+<td>
+<p>490</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>3.1</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>5.9</p>
+</td>
+<td>
+<p>7.4</p>
+</td>
+<td>
+<p>9.8</p>
+</td>
+<td>
+<p>19.0</p>
+</td>
+<td>
+<p>40.4</p>
+</td>
+</tr><tr><td>
+<p><strong>AZ:  Children 1-5</strong></p>
+</td>
+<td>
+<p>2879</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>3.2</p>
+</td>
+<td>
+<p>3.3</p>
+</td>
+<td>
+<p>4.9</p>
+</td>
+<td>
+<p>8.0</p>
+</td>
+<td>
+<p>9.8</p>
+</td>
+<td>
+<p>14.8</p>
+</td>
+<td>
+<p>40.4</p>
+</td>
+</tr><tr><td>
+<p><strong>AZ:  Children 6-18</strong></p>
+</td>
+<td>
+<p>5684</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>3.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>4.9</p>
+</td>
+<td>
+<p>8.4</p>
+</td>
+<td>
+<p>10.7</p>
+</td>
+<td>
+<p>15.1</p>
+</td>
+<td>
+<p>44.5</p>
+</td>
+</tr><tr><td>
+<p><strong>AZ:  Parents</strong></p>
+</td>
+<td>
+<p>4171</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>3.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>4.9</p>
+</td>
+<td>
+<p>8.4</p>
+</td>
+<td>
+<p>11.5</p>
+</td>
+<td>
+<p>17.4</p>
+</td>
+<td>
+<p>44.5</p>
+</td>
+</tr><tr><td>
+<p><strong>AZ:  CHIP</strong></p>
+</td>
+<td>
+<p>1881</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+</tr><tr><td>
+<p><strong>NE:  Children &lt; 1</strong></p>
+</td>
+<td>
+<p>500</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>3.7</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>6.6</p>
+</td>
+<td>
+<p>9.3</p>
+</td>
+<td>
+<p>10.9</p>
+</td>
+<td>
+<p>22.7</p>
+</td>
+<td>
+<p>41.2</p>
+</td>
+</tr><tr><td>
+<p><strong>NE:  Children 1-5</strong></p>
+</td>
+<td>
+<p>2831</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>3.7</p>
+</td>
+<td>
+<p>3.6</p>
+</td>
+<td>
+<p>6.6</p>
+</td>
+<td>
+<p>8.2</p>
+</td>
+<td>
+<p>10.9</p>
+</td>
+<td>
+<p>16.5</p>
+</td>
+<td>
+<p>80.3</p>
+</td>
+</tr><tr><td>
+<p><strong>NE:  Children 6-18</strong></p>
+</td>
+<td>
+<p>5248</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>3.2</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>5.4</p>
+</td>
+<td>
+<p>9.3</p>
+</td>
+<td>
+<p>11.1</p>
+</td>
+<td>
+<p>16.5</p>
+</td>
+<td>
+<p>80.3</p>
+</td>
+</tr><tr><td>
+<p><strong>NE:  Parents</strong></p>
+</td>
+<td>
+<p>2430</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>1.8</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>6.6</p>
+</td>
+<td>
+<p>9.3</p>
+</td>
+<td>
+<p>16.5</p>
+</td>
+<td>
+<p>49.4</p>
+</td>
+</tr><tr><td>
+<p><strong>NE:  CHIP</strong></p>
+</td>
+<td>
+<p>2085</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>2.9</p>
+</td>
+<td>
+<p>5.4</p>
+</td>
+<td>
+<p>7.4</p>
+</td>
+<td>
+<p>6.6</p>
+</td>
+<td>
+<p>9.3</p>
+</td>
+<td>
+<p>13.1</p>
+</td>
+<td>
+<p>14.0</p>
+</td>
+<td>
+<p>19.7</p>
+</td>
+<td>
+<p>70.0</p>
+</td>
+</tr><tr><td>
+<p><strong>NY:  Children &lt; 1</strong></p>
+</td>
+<td>
+<p>575</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>3.1</p>
+</td>
+<td>
+<p>3.3</p>
+</td>
+<td>
+<p>4.9</p>
+</td>
+<td>
+<p>7.4</p>
+</td>
+<td>
+<p>8.8</p>
+</td>
+<td>
+<p>15.7</p>
+</td>
+<td>
+<p>40.4</p>
+</td>
+</tr><tr><td>
+<p><strong>NY:  Children 1-5</strong></p>
+</td>
+<td>
+<p>2812</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>3.2</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>4.9</p>
+</td>
+<td>
+<p>7.4</p>
+</td>
+<td>
+<p>10.3</p>
+</td>
+<td>
+<p>17.4</p>
+</td>
+<td>
+<p>79.6</p>
+</td>
+</tr><tr><td>
+<p><strong>NY:  Children 6-18</strong></p>
+</td>
+<td>
+<p>6294</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>2.9</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>4.9</p>
+</td>
+<td>
+<p>7.4</p>
+</td>
+<td>
+<p>10.3</p>
+</td>
+<td>
+<p>15.7</p>
+</td>
+<td>
+<p>79.6</p>
+</td>
+</tr><tr><td>
+<p><strong>NY:  Parents</strong></p>
+</td>
+<td>
+<p>5633</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>1.5</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>5.9</p>
+</td>
+<td>
+<p>7.4</p>
+</td>
+<td>
+<p>15.7</p>
+</td>
+<td>
+<p>61.6</p>
+</td>
+</tr><tr><td>
+<p><strong>NY:  CHIP</strong></p>
+</td>
+<td>
+<p>2395</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+</tr><tr><td>
+<p><strong>WV:  Parents</strong></p>
+</td>
+<td>
+<p>1616</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.4</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>0.0</p>
+</td>
+<td>
+<p>3.9</p>
+</td>
+<td>
+<p>9.8</p>
+</td>
+<td>
+<p>39.3</p>
+</td>
+</tr><tr><td colspan="14">
+<p>Source:  Analysis of SIPP Data</p>
+</td>
+</tr></tbody></table><p>The Department chose the marginal band of 25 percentage points of FPL for two primary reasons:</p>
+<ul><li>For all eligibility categories examined, most individuals have disregards of less than 25 percentage points of FPL.</li>
+<li>A band of 25 percentage points creates a large enough sample of individuals for the converted standard to be stable. </li>
+</ul><p>Because at least 99% of individuals have disregards less than 25 percentage points of FPL, the marginal band should capture virtually everyone who could be made eligible by disregards.  In addition, because the SIPP is a sample of individuals, further reducing the number of individuals used for conversion could adversely affect the stability of the conversion pools.  </p>
+<p>The Department considered using a band smaller than 25 percentage points of FPL.  However, as shown in Tables 4A, 4B, 4C, 4D, 4E, and 4F in Appendix 4, within the 25% band, there is no systematic relationship between net income and the size of the disregard.  That is, people with income within 5 percentage points of the income standard do not have larger disregards than the average person within the 25% band.  Therefore, a band of 25 percentage points is broad enough to ensure that it captures virtually all of those for whom disregards matter, while a smaller band might have omitted some of them.  Also, as noted above, a broader band creates a large enough sample to ensure that the converted standard is stable.    </p>
+<p>The Department concluded that the Marginal Disregard Method with a band of 25 percentage points of FPL (MDM/25) results in a converted income standard that is not systematically biased and that focuses on those individuals for whom disregards matter.  For these reasons, the Department recommended this method as the “Standardized MAGI Conversion Method” in the December 28, 2012 CMS Guidance.  As noted in the CMS Guidance, the preferred method can be used with either SIPP data or state administrative Medicaid and CHIP data.  States can choose which data they prefer to use.  States may also suggest an alternative methodology, entitled “State Proposal Option.”</p>
+<div class="download_report">
+        <h4>
+        <a href="/report/modified-adjusted-gross-income-magi-income-conversion-methodologies">View full report</a>    </h4>
+    
+                        <div class="pdf-prev">
+                <img src="https://aspe.hhs.gov/system/files/pdfpreview/ab7c333260ce2cbe34ed748245807eb0.png" alt="Preview" title="Preview" />            </div>
+                <a class="btn btn-sm btn-default download-file"
+           href="https://aspe.hhs.gov/system/files/pdf/180251/rb.pdf">Download</a>
+
+        <p class="download_title">&quot;rb.pdf&quot;
+            (pdf,
+            747.87Kb)</p>
+        <p>Note: Documents in PDF format require the <a href="http://www.adobe.com/products/acrobat/readstep2.html">Adobe
+                Acrobat Reader&reg;</a>. If you experience problems with PDF documents, please <a
+                href="http://www.adobe.com/products/acrobat/readstep2.html">download the latest version of the
+                Reader&reg;</a>
+        </p>
+    </div>
+  </div>
+
+      <footer>
+          </footer>
+  
+    <div id="block-webform-client-block-158521" class="widget block block-webform" >
+  
+      
+  <div id="webform-ajax-wrapper-158521"><form class="webform-client-form webform-client-form-158521" action="/report/modified-adjusted-gross-income-magi-income-conversion-methodologies/section-ii-disregard-methods" method="post" id="webform-client-form-158521" accept-charset="UTF-8"><div><div class="webform-progressbar">
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-radios webform-component--was-this-page-helpful">
+  <label for="edit-submitted-was-this-page-helpful">Was this page helpful? <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-was-this-page-helpful" class="form-radios"><div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-1" name="submitted[was_this_page_helpful]" value="1" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-1">Yes </label>
+
+</div>
+<div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-2" name="submitted[was_this_page_helpful]" value="0" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-2">No </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="4" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-XMsrnGplhM41I4Rt3uWjz6neKSEgPhEr2pKYOEZpH_E" />
+<input type="hidden" name="form_id" value="webform_client_form_158521" />
+<input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-158521" />
+<div class="form-actions"><input class="webform-next button-primary btn btn-default form-submit" type="submit" id="edit-webform-ajax-next-158521" name="op" value="Next &gt;" /></div>
+<div class="is-useful-disclaimer"> <a href="/%23" class="" title="Survey Disclaimer" data-toggle="modal" data-target="#disclamerModal">Form Approved OMB# 0990-0379 Exp. Date 8/31/2017</a></div>
+<div class="modal fade" id="disclamerModal" tabindex="-1" role="dialog" aria-labelledby="disclamerModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="disclamerModalLabel">Survey Disclaimer</h2>
+      </div>
+      <div class="modal-body">
+         According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this information collection is 0990-0379. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, gather the data needed, and complete and review the information collection. If you have comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: U.S. Department of Health & Human Services, OS/OCIO/PRA, 200 Independence Ave., S.W., Suite 336-E, Washington D.C. 20201, Attention: PRA Reports Clearance Officer.      </div>
+    </div>
+  </div>
+</div></div></form></div>
+  </div> <!-- /.block -->
+<meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/modified-adjusted-gross-income-magi-income-conversion-methodologies" itemref="md1" /><meta  itemscope="" itemid="https://aspe.hhs.gov/report/modified-adjusted-gross-income-magi-income-conversion-methodologies/section-ii-disregard-methods" itemref="md2" />              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <footer  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Footer">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  id="footer_sitemap-footer_sitemap" class="col-sm-6 col-md-6 col-lg-4 ">
+                          
+                              <div id="block-footer-sitemap-footer-sitemap" class="widget block block-footer-sitemap" >
+  
+      
+  <div id="footer-sitemap" class="clearfix">
+  <div class="fs-block-content"><div class="menu-footer-utility"><ul class="footer_links_menu-footer-utility total-items-2 parent-items-0 single-items-0"><li class="menu-5021 depth-1 total-children-8 parent-children-0 single-children-8  first"><a href="/" title="look at ASPE Home" class="fs-root-link">ASPE Home</a><ul class="footer_links_menu-footer-utility total-items-8 parent-items-0 single-items-0"><li class="menu-5026 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/" title="look at HHS Home">HHS Home</a></li>
+<li class="menu-66281 depth-1 fs-no-children"><a href="http://www.usa.gov/" title="look at USA.gov">USA.gov</a></li>
+<li class="menu-66316 depth-1 fs-no-children"><a href="https://oig.hhs.gov/" title="look at Office of the Inspector General">Office of the Inspector General</a></li>
+<li class="menu-66321 depth-1 fs-no-children"><a href="http://www.whitehouse.gov" title="look at The White House">The White House</a></li>
+<li class="menu-5046 depth-1 fs-no-children"><a href="http://www.hhs.gov/Accessibility.html" title="look at Accessibility">Accessibility</a></li>
+<li class="menu-66326 depth-1 fs-no-children"><a href="http://www.hhs.gov/about/budget/index.html" title="look at Budget/Performance">Budget/Performance</a></li>
+<li class="menu-2551 depth-1 fs-no-children"><a href="http://www.hhs.gov/Privacy.html" title="look at Privacy Policy">Privacy Policy</a></li>
+<li class="menu-197776 depth-1 fs-no-children  last"><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" title="Nondiscrimination Notice">Nondiscrimination Notice</a></li>
+</ul></li>
+<li class="menu-5051 depth-1 total-children-4 parent-children-0 single-children-4  last"><a href="http://www.hhs.gov/foia/" title="look at FOIA" class="fs-root-link">FOIA</a><ul class="footer_links_menu-footer-utility total-items-4 parent-items-0 single-items-0"><li class="menu-5056 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/open/recordsandreports/plainwritingact/index.html" title="look at Plain Writing Act">Plain Writing Act</a></li>
+<li class="menu-5061 depth-1 fs-no-children"><a href="http://www.hhs.gov/asa/eeo/no_fear_bullet_3.html" title="look at No Fear Act">No Fear Act</a></li>
+<li class="menu-5066 depth-1 fs-no-children"><a href="http://www.hhs.gov/Disclaimer.html" title="look at Disclaimers">Disclaimers</a></li>
+<li class="menu-2546 depth-1 fs-no-children  last"><a href="http://www.hhs.gov/plugins.html" title="look at Viewers &amp; Players">Viewers &amp; Players</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-5 " id="stability_cms-contact_us">
+                          
+                              <div id="block-stability-cms-contact-us" class="widget block block-stability-cms" >
+  
+      
+  <div class="contacts-widget widget widget__footer">
+	<div class="widget-content">
+		<ul class="contacts-info-list">
+      			<li>
+<!--				<i class="fa fa-map-marker">Address</i>-->
+                <div class="info-icons">
+                    <img  alt="map" class= 'map-icons' src="/sites/all/themes/stability/stability_aspe/images/map.png"/>
+                </div>
+                <div class="info-item">
+					Assistant Secretary for Planning and Evaluation, Room 415F<br />
+U.S. Department of Health and Human Services<br />
+200 Independence Avenue, SW<br />
+Washington, D.C. 20201				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-phone">phone</i>-->
+                <div class="info-icons">
+                    <img alt="phone" src="/sites/all/themes/stability/stability_aspe/images/phone.png"/>
+                </div>
+				<div class="info-item">
+					+1 202.690.7858				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-envelope">email</i>-->
+                <div class="info-icons">
+                    <img alt="mail" src="/sites/all/themes/stability/stability_aspe/images/mail-white.png"/>
+                </div>
+				<span class="info-item">
+					<a href="mailto:osaspeinfo@hhs.gov">osaspeinfo@hhs.gov</a>
+				</span>
+			</li>
+      			                					</ul>
+	</div>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-3 " id="footer">
+                          
+                              <div id="block-block-36" class="widget block block-block" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sign-up</span> for Email Updates</h3>
+		</div>
+    
+  <div class="email_updates">
+<button class="btn btn-default" name="subscribe-button" type="submit" value="subscribe">subscribe</button>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-12 " id="menu-menu-footer-language-menu">
+                          
+                              <div id="block-menu-menu-footer-language-menu" class="widget block block-menu" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Language</span> Assistance Available</h3>
+		</div>
+    
+  <ul class="menu"><li class="first expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#spanish" title="Español">Español</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#chinese" title="繁體中文">繁體中文</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#vietnamese" title="Tiếng Việt">Tiếng Việt</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#korean" title="한국어">한국어</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#tagalog" title="Tagalog">Tagalog</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#russian" title="Русский">Русский</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#arabic" title="العربية">العربية</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#creole" title="Kreyòl Ayisyen">Kreyòl Ayisyen</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#french" title="Français">Français</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#polish" title="Polski">Polski</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#portuguese" title="Português">Português</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#italian" title="Italiano">Italiano</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#german" title="Deutsch">Deutsch</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#japanese" title="日本語">日本語</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#farsi" title="فارسی">فارسی</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#english" title="English">English</a></li>
+</ul></li>
+</ul>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+      </div>
+
+          </div>
+    
+    
+      </footer>
+    
+
+    <!--/PAGEWATCH-->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+                        </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="social-links-wrapper">
+              <span class="social-links-txt">Connect with us</span>
+              <ul class="social-links social-links__dark">
+                                                  <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw-grey.png"/></a></li>
+                                <!--                --><!--                  <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin-grey.png"/></a></li>-->
+<!--                -->
+                                                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>  <script type="text/javascript" src="/sites/default/files/advagg_js/js__VWRymaMz6HfrhnrcJNGcDiSvLVrvhaXvBa7nrBYy8gc__jntPwP3D6myJZH1jW19fXrk5cYMHGRL8NQION22VSEA__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5486d15a696bff0c"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__g6mKbcakHxQkz4ZHYaxdO_xqONINvRMgsHh1zAK-fr0__ATHtEmHaeZ0jidpGU22EkhmPDBSgjD8z0bVDQMI-BIY__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__KUp4PrfOt9BSXUVl8Ctb3dhCMBe4MNVMeb4Gyorx8yY__7g4BeXscCIZAfuu1vxsCj2RIemg-eEK0QpChP9LDmFQ__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__-lTibmScdz72f0-5WA9kxuPp-TZJEfyLCI6M2oC8I7o__WokrfyLOTIIjCC2mi9PpCwBq3hzxExmsz_JSnp4-OsM__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__vQiLul2UcfC4nBAR09mhYVBYzRmiNDm2dj3GgSubV38__w84oZe-ZODKe7XnnlbrjV4IWHISOy4PioFEMVgx9hZo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__QJw3g0kOdwsv4twSZLP931zBzsHy50VEHpEN_znIitQ__A6QOuWXElDipBM2iChbWhjAAt3KlUwZ-jODoxdpbwiw__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stability_aspe","theme_token":"YNcWkZkbyhgcMB31ywFds-tZzMQIJSg-ocsFJD0if70","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/footable.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/aspe_nodes.admin.css":1,"sites\/all\/modules\/custom\/aspe_views\/theme\/css\/aspe_views.admin.css":1,"sites\/all\/modules\/forked\/book\/book.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/openpublic\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.css":1,"profiles\/openpublic\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openpublic\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/openpublic\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/themes\/stability\/css\/bootstrap.min.css":1,"sites\/all\/themes\/stability\/css\/fonts\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.theme.css":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/stability\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/stability\/css\/theme.css":1,"sites\/all\/themes\/stability\/css\/theme-elements.css":1,"sites\/all\/themes\/stability\/css\/animate.min.css":1,"sites\/all\/themes\/stability\/css\/skins\/red.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/slideshow.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/font-main.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/styleless.less":1,"sites\/all\/themes\/stability\/css\/skins\/blue.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/aspe\/theme\/js\/aspe.login-confirm.js":1,"sites\/all\/modules\/custom\/aspe_report\/modules\/aspe_databooks\/js\/aspe_databooks.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.highcharts.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/datatables\/dataTables.min.js":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.min.js":1,"sites\/all\/libraries\/highcharts\/highcharts.js":1,"sites\/all\/libraries\/highcharts\/highcharts.exporting.js":1,"sites\/all\/libraries\/highcharts\/highcharts.map.js":1,"sites\/all\/libraries\/highcharts\/highcharts.us-all.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.footable.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5486d15a696bff0c":1,"misc\/progress.js":1,"profiles\/openpublic\/modules\/contrib\/webform\/js\/webform.js":1,"sites\/all\/modules\/custom\/aspe_book\/theme\/js\/async.js":1,"sites\/all\/modules\/custom\/aspe_book\/theme\/js\/aspe_book.jquery_ajax_load.js":1,"sites\/all\/modules\/custom\/aspe_book\/theme\/js\/aspe_book.filtering.js":1,"sites\/all\/modules\/custom\/aspe_book\/theme\/js\/aspe_book.collapsible.js":1,"profiles\/openpublic\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/stability\/vendor\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/stability\/vendor\/bootstrap.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flexnav.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flickrfeed.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.sloppy-masonry.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.fitvids.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.stellar.min.js":1,"sites\/all\/themes\/stability\/vendor\/snap.svg-min.js":1,"sites\/all\/themes\/stability\/js\/custom.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/aspe.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/html5shiv.min.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/main-menu.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/keyboard-control.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tabBehavior.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tileStringTrimmer.js":1}},"webform":{"conditionals":{"webform-client-form-158521":{"ruleGroups":[],"sourceMap":[],"values":[]}}},"ajax":{"edit-webform-ajax-next-158521":{"callback":"webform_ajax_callback","wrapper":"webform-ajax-wrapper-158521","progress":{"message":"","type":"throbber"},"event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Next \u003E"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/report\/modified-adjusted-gross-income-magi-income-conversion-methodologies\/section-ii-disregard-methods":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"([a-z0-9]\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This website contains links to other federal and state agencies and private organizations. The Department of Health and Human Services (HHS) cannot attest to the accuracy of information provided by these nonfederal website links. Linking to nonfederal sites does not constitute an endorsement by HHS or any of its employees of the sponsors or the information and products presented on the sites. You will be subject to the destination site\u0027s privacy policy when you leave the ASPE website.\r\n\r\nThank you for visiting aspe.hhs.gov!","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"stability":{"flickr_id":"52617155@N08","logo_sticky":"28"},"jquery_ajax_load":{"trigger":".jquery_ajax_load","target":"#jquery_ajax_load_target","toggle":true,"animation":true,"base_path":"\/","module_path":"sites\/all\/modules\/custom\/aspe_book","site_name":"ASPE"},"field_group":{"div":"full"}});
+//--><!]]>
+</script>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config={pubid:"ra-5486d15a696bff0c",ui_click:false}
+//--><!]]>
+</script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4837db659","applicationID":"10708002","transactionName":"MwNaZBRSXEtXB0BdWQpJbUIPHFtWUgFMGkYMFg==","queueTime":0,"applicationTime":33,"atts":"H0RZElxIT0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">  <!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://aspe.hhs.gov/sites/default/files/Favicon2.png" type="image/png" />
+<meta name="description" content="PTAC Charter Bylaws Members" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://aspe.hhs.gov/faqs-physician-focused-payment-model-technical-advisory-committee" />
+<link rel="shortlink" href="https://aspe.hhs.gov/node/183156" />
+<meta property="og:site_name" content="ASPE" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aspe.hhs.gov/faqs-physician-focused-payment-model-technical-advisory-committee" />
+<meta property="og:title" content="FAQs: Physician-Focused Payment Model Technical Advisory Committee" />
+<meta property="og:description" content="PTAC Charter Bylaws Members" />
+<meta property="og:updated_time" content="2017-03-21T16:14:53-04:00" />
+<meta property="article:published_time" content="2016-02-17T16:19:02-05:00" />
+<meta property="article:modified_time" content="2017-03-21T16:14:53-04:00" />
+
+  <title>FAQs: Physician-Focused Payment Model Technical Advisory Committee | ASPE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+  <link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__5ln8neBOcJfyUveiD4y9fhI6kHBLOQ_YL0mMC-LS9a0__TPJIZT9UBnf_685NlFTJ5KnZVsjwFk6ACQ-nwwygmwU__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ng49uRH5y4Hl9VF9hHW_vXOj-mcOc2u2ShJqJ1YKIGU__FoMCD14GBvZaRiqSQ_JpP1w3rDB21n7H2Ar4pRZaIh8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__Hskudx14OJ5Hz8vqU7CUgN6SDV5rINZuEq9VuGsSeyc__EwNIl3xeFrniW2TmonovTzhSs3X5MdFps210puE7jog__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__9rZoaX9BdzjjNucvYxduxeNAVO2zgW_Rvjhb5rq5whc__lSr_y16grDSgHf4booPChnF7QXz3TQY3hafH49twE0k__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZgfI_ZPib5yVY0o5aKo_6TFn946Tuu_nFDa0ySTmkSc__2FTFrNw2eNh0mpHIOA34r6YRwBZMm2PjJ_JubnwLigg__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__dxabpJ5rQgDSixKgLJZjWc1beC6mpROKwVrmWxI5eno__rqhz_hGsE_i59O7-W991o71_Jxw1QOtGMxn4nsOLHY8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZbRCq2NqWgK-HXAQI3So0N1n0nr4HonsJS3eQuuxukw__7Olkk8Locn8Dj0eR0Ww3rbV9lks9sxipcboMXB18RRs__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+
+	<!-- Head Libs -->
+	<script src="/sites/all/themes/stability/stability_aspe/vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/sites/all/themes/stability/vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" href="/sites/all/themes/stability/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/stability/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/stability/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/stability/images/apple-touch-icon-144x144.png">
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-183156 node-type-site-page">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-JLFR"
+                  height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JLFR');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-nav" class="accessibility_menu">
+    <strong>Shortcut Navigation:</strong>
+    <ul>
+      <li><a href="#content" accesskey="c" title="Skip to page content (ctrl/alt + c)">Page Content</a></li>
+      <li><a href="#nav" accesskey="m" title="Skip to main navigation menu (ctrl/alt + m)">Site Navigation</a></li>
+
+      <li><a href="#Footer" accesskey="f" title="Skip to footer (ctrl/alt + f)">Footer</a></li>
+    </ul>
+  </div>
+
+    
+<div class="site-wrapper">
+  
+  <header class="header header-menu-fullw header-top-clean">
+    <div id="brand-bar">
+        <div class="container">
+                    <img alt='bird' src="/sites/all/themes/stability/stability_aspe/images/bird.png"> <a target="blank" tabindex="4" href="http://www.hhs.gov/">U.S. Department of Health & Human Services</a>
+        </div>
+
+    </div>
+    <div class="header-main">
+        <div class="container clearfix">
+            <div class="social-links-wrapper">
+                <ul class="social-links social-links__light">
+                                                          <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw.png"/></a></li>
+                                    <!--                  --><!--                    <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin.png"/></a></li>-->
+<!--                  -->
+                                                                      </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                                <div class="site_name_wrapper">
+                                     <span class="h1">
+                                      <a href="/">ASPE</a>
+                                       </span>
+                                  <p class="tagline"><p>Office of The Assistant Secretary</p><p> for Planning and Evaluation</p></p>
+                    </div>
+            </div>
+            <!-- Logo / End -->
+            <div class="header_right_wrapper">
+                <div class="search-form">
+                    <form action="/faqs-physician-focused-payment-model-technical-advisory-committee" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class = "input-group"><div class="form-type-textfield form-item-search-block-form form-item form-group">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search Site..." class="form-control form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input class="btn btn-primary btn-icon form-submit" type="image" id="edit-submit" name="submit" value="Search" src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/search-white2.png" alt="Search" title="Search" /></div></div><input type="hidden" name="form_build_id" value="form-rei1jq7beIRmjym75KRJndTwu14hDb0LE4kSpuNdhLs" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </div>
+                <button type="button" class="navbar-toggle" value="Menu">
+                    <i class="fa fa-bars"></i>Menu
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-main">
+        <div class="container">
+          <ul data-breakpoint="767" class="flexnav">
+                <li class="first expanded"><a href="/basic-search/about" title="">About</a><ul><li class="first leaf"><a href="/mission" title="">Mission</a></li>
+<li class="leaf"><a href="/key-staff" title="">Leadership</a></li>
+<li class="leaf"><a href="https://www.usajobs.gov/" title="">Careers</a></li>
+<li class="expanded"><a href="/coordination" title="linkTo">Coordination</a><ul><li class="first leaf"><a href="/evaluation-evidence" title="">Evaluation &amp; Evidence</a></li>
+<li class="leaf"><a href="/national-alzheimers-project-act">National Alzheimer&#039;s Project Act</a></li>
+<li class="leaf"><a href="/health-and-human-services-hhs-data-council">HHS Data Council</a></li>
+<li class="last leaf"><a href="/national-committee-vital-and-health-statistics" title="National Council on Vital and Health Statistics">National Council on Vital and Health Statistics</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/divisions" title="">Offices</a><ul><li class="first leaf"><a href="/office-disability-aging-and-long-term-care-policy-daltcp">Disability, Aging, and Long-Term Care Policy</a></li>
+<li class="leaf"><a href="/office-health-policy-hp">Health Policy</a></li>
+<li class="leaf"><a href="/office-human-services-policy">Human Services Policy</a></li>
+<li class="last leaf"><a href="/office-science-and-data-policy">Science and Data Policy</a></li>
+</ul></li>
+<li class="leaf"><a href="/strategic-planning" title="Strategic Planning">Strategic Planning</a></li>
+<li class="last leaf"><a href="/contact-aspe" title="">Contact ASPE</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/topics" title="">Topics</a><ul><li class="first leaf"><a href="/affordable-care-act-research">Affordable Care Act Research</a></li>
+<li class="leaf"><a href="/alzheimers-dementia">Alzheimer&#039;s / Dementia</a></li>
+<li class="leaf"><a href="/early-childhood">Early Childhood</a></li>
+<li class="leaf"><a href="/incarceration-reentry">Incarceration &amp; Reentry</a></li>
+<li class="leaf"><a href="/opioid-abuse-us-and-hhs-actions-address-opioid-drug-related-overdoses-and-deaths" title="Opioids">Opioids</a></li>
+<li class="leaf"><a href="/patient-centered-outcomes-research-trust-fund">Patient-Centered Outcomes Research Trust Fund (PCORTF)</a></li>
+<li class="expanded"><a href="/basic-search/poverty" title="">Poverty</a><ul><li class="first leaf"><a href="/poverty-guidelines">Poverty Guidelines</a></li>
+<li class="last leaf"><a href="/poverty-estimates-trends-and-analysis">Poverty Analysis</a></li>
+</ul></li>
+<li class="leaf"><a href="/teen-pregnancy-prevention">Teen Pregnancy Prevention</a></li>
+<li class="leaf"><a href="/homelessness">Homelessness</a></li>
+<li class="last leaf"><a href="/medicare-access-and-chip-reauthorization-act-2015">MACRA</a></li>
+</ul></li>
+<li class="leaf"><a href="/reports" title="">Publications</a></li>
+<li class="last expanded"><a href="/basic-search/datasets" title="">Data and Tools</a><ul><li class="first last leaf"><a href="/evaluations" title="">Evaluation Database</a></li>
+</ul></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation / End -->
+</header>  <div class="main" role="main">
+    <!--PAGEWATCH CODE="USHHS_458"-->
+    <section class="page-heading">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+                <h1>
+                    
+          FAQs: Physician-Focused Payment Model Technical Advisory Committee        </h1>
+                          </div>
+
+
+        <div class="col-md-6">
+           <ul class="breadcrumb"><li class="first"><a href="/" title="Home">Home</a></li>
+<li class="last">FAQs: Physician-Focused Paymen...</li>
+</ul>        </div>
+
+
+    </div>
+  </div>
+</section>
+    
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Content">     
+
+        
+                  
+        
+                                    <div  class="col-md-12 " id="content">
+                          
+                              <div id="block-aspe-aspe-addthis" class="widget block block-aspe" >
+  
+      
+  <div class="clearfix">
+  <ul class="addthis_sharing_toolbox node-share__links" data-url="https://aspe.hhs.gov/faqs-physician-focused-payment-model-technical-advisory-committee" data-title="FAQs: Physician-Focused Payment Model Technical Advisory Committee">
+    <li><a class="addthis_button_print"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/print-white.png" alt="print" /></a></li>
+    <li><a class="addthis_button_email"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/mail-white.png" alt="email" /></a></li>
+    <li><a class="addthis_button_twitter"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/tw.png" alt="twitter" /></a></li>
+<!--    <li><a class="addthis_button_facebook">--><!--</a></li>-->
+    <li><a class="addthis_button_compact"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/plus-white.png" alt="compact" /></a></li>
+  </ul>
+</div>
+
+  </div> <!-- /.block -->
+
+                
+    
+  
+  <div class="content clearfix node-site-page">
+    <ul class="nav nav-tabs" style='margin-bottom:30px;font-weight: bold'>
+	<li><a href="https://aspe.hhs.gov/ptac-physician-focused-payment-model-technical-advisory-committee
+">PTAC</a></li>
+	<li><a href="https://aspe.hhs.gov/charter-physician-focused-payment-model-technical-advisory-committee
+">Charter</a></li>
+	<li><a href="/physician-focused-payment-model-technical-advisory-committee-bylaws">Bylaws</a></li>
+	<li><a href="https://aspe.hhs.gov/members-physician-focused-payment-model-technical-advisory-committee
+">Members</a></li>
+	<li><a href="https://aspe.hhs.gov/meetings-physician-focused-payment-model-technical-advisory-committee
+">Meetings</a></li>
+	<li class="active"><a href="https://aspe.hhs.gov/faqs-physician-focused-payment-model-technical-advisory-committee
+">FAQs</a></li>
+	<li><a href="/resources-public-comment-physician-focused-payment-model-technical-advisory-committee">Resources</a></li>
+	<li><a href="/documents-public-comment-physician-focused-payment-model-technical-advisory-committee">For Public Comment</a></li>
+	<li><a href="/proposal-submissions-physician-focused-payment-model-technical-advisory-committee">Proposal Submissions</a></li>
+	<li><a href="https://aspe.hhs.gov/contact-physician-focused-payment-model-technical-advisory-committee
+">Contact</a></li>
+</ul>
+
+<p><strong>ABOUT THE COMMITTEE</strong></p>
+
+<p><em>What is the purpose of the Physician-Focused Payment Model Technical Advisory Committee (PTAC)?</em></p>
+
+<p style="margin-left:13.5pt">The Medicare Access and CHIP Reauthorization Act of 2015 (MACRA) creates new ways for the federal Medicare program to pay physicians for the care they provide to Medicare beneficiaries. MACRA also creates incentives for physicians to participate in Alternative Payment Models (APMs), and it specifically encourages the development of physician-focused payment models (PFPMs).</p>
+
+<p style="margin-left:13.5pt">Section 101 (e)(1) of MACRA creates the Physician-Focused Payment Model Technical Advisory Committee (PTAC) to make comments and recommendations to the Secretary of the Department of Health and Human Services (the Secretary, HHS) on proposals for PFPMs submitted by individuals and stakeholder entities. The Secretary is required by MACRA to establish criteria for PFPMs and to respond to the recommendations of PTAC.</p>
+
+<p style="margin-left:13.5pt">Ten criteria were outlined in the MACRA <a href="https://www.federalregister.gov/documents/2016/11/04/2016-25240/medicare-program-merit-based-incentive-payment-system-and-alternative-payment-model-incentive-under">final rule</a>&nbsp;with comment period (at 42 CFR &sect;414.1465) published in the <em>Federal Register</em> on November 4, 2016.</p>
+
+<p style="margin-left:24.75pt">&bull; <em>Value over volume: </em>Provide incentives to practitioners to deliver high-quality health care.</p>
+
+<p style="margin-left:24.75pt">&bull; <em>Flexibility: </em>Provide the flexibility needed for practitioners to deliver high quality healthcare.</p>
+
+<p style="margin-left:24.75pt">&bull; <em>Quality and Cost: </em>PFPMs are anticipated to improve health care quality at no additional cost, maintain health care quality while decreasing cost, or both improve health care quality and decrease cost.</p>
+
+<p style="margin-left:24.75pt">&bull; <em>Payment methodology: </em>Pay APM Entities with a payment methodology designed to achieve the goals of the PFPM criteria. Addresses in detail through this methodology how Medicare and other payers, if applicable, pay APM Entities, how the payment methodology differs from current payment methodologies, and why the Physician-Focused Payment Model cannot be tested under current payment methodologies.</p>
+
+<p style="margin-left:24.75pt">&bull; <em>Scope: </em>Aim to either directly address an issue in payment policy that broadens and expands the CMS APM portfolio or include APM Entities whose opportunities to participate in APMs have been limited.</p>
+
+<p style="margin-left:24.75pt">&bull; <em>Ability to be evaluated: </em>Have evaluable goals for quality of care, cost, and any other goals of the PFPM.</p>
+
+<p style="margin-left:24.75pt">&bull; <em>Integration and Care Coordination: </em>Encourage greater integration and care coordination among practitioners and across settings where multiple practitioners or settings are relevant to delivering care to the population treated under the PFPM.</p>
+
+<p style="margin-left:24.75pt">&bull; <em>Patient Choice: </em>Encourage greater attention to the health of the population served while also supporting the unique needs and preferences of individual patients.</p>
+
+<p style="margin-left:24.75pt">&bull; <em>Patient Safety: </em>Aim to maintain or improve standards of patient safety.</p>
+
+<p style="margin-left:24.75pt">&bull; <em>Health Information Technology: </em>Encourage use of health information technology to inform care.</p>
+
+<p style="margin-left:13.5pt">PTAC will evaluate whether the proposed models meet the Secretary&rsquo;s criteria. The full Committee will discuss and deliberate their assessment of proposals in public meetings.</p>
+
+<p><em>Who are the members of PTAC?</em></p>
+
+<p style="margin-left:13.5pt">PTAC is comprised of 11 members appointed by the Comptroller General of the United States. They are nationally recognized experts on physician-focused payment models and the delivery of health care services.&nbsp; A list of current PTAC members and a description of their expertise can be found <a href="https://aspe.hhs.gov/members-physician-focused-payment-model-technical-advisory-committee">here</a>.</p>
+
+<p><strong>ABOUT THE COMMITTEE&rsquo;S WORK </strong></p>
+
+<p><em>Since PTAC&rsquo;s formation, what have been its primary activities?</em></p>
+
+<p style="margin-left:13.5pt">The Committee was appointed on October 9, 2015, and was chartered by the Secretary on January 11, 2016. To date, it has focused on creating an efficient and effective process to solicit, review, and make recommendations regarding proposals for physician-focused payment models. On November 10, 2016, the Committee finalized its <a href="https://aspe.hhs.gov/system/files/pdf/226776/RFP.pdf">Request for Proposals</a> (RFP) after 30 days of public comments ending on October 14, 2016. This document incorporates many of the comments received from members of the public and combines several documents that were also available for public comment including &ldquo;Characteristics of PFPMs Likely to be Recommended by the PTAC&rdquo;, &ldquo;Proposal Information Requirements&rdquo;, and &ldquo;Proposal Review Process&rdquo;. This RFP will serve as the official guidelines for the development and submission of proposals to PTAC.</p>
+
+<p style="margin-left:13.5pt">The Committee has also finalized its <a href="https://aspe.hhs.gov/system/files/pdf/226776/Processesreviewingevaluatingproposal.pdf">Processes for Reviewing and Evaluating Proposed Physician-Focused Payment Models and Making Recommendations to the Secretary of the Department of Health and Human Services</a> after 30 days of public comments. This document describes the processes to be used by PTAC to review and evaluate PFPMs submitted by individuals and stakeholder entities as provided for by MACRA. This document also describes how PTAC will develop its comments and recommendations to the Secretary of the US Department of Health and Human Services (the Secretary) with respect to each submitted PFPM. &nbsp;</p>
+
+<p style="margin-left:13.5pt">PTAC began soliciting payment model proposals on December 1, 2016 and continues to identify the challenges stakeholders face in developing and submitting proposals and explore what data, educational webinars, or other resources could be of assistance.</p>
+
+<p><em>How does PTAC&rsquo;s work relate to other physician payment reforms created by the Medicare Access and CHIP Reauthorization Act of 2015 (MACRA; Pub. L. 114-10)?</em></p>
+
+<p style="margin-left:13.5pt">A key element of MACRA was the repeal of the Sustainable Growth Rate mechanism for updating payment rates under the Medicare physician fee schedule and its replacement with a two-pronged system consisting of: 1) a Merit-based Incentive Payment System (MIPS) and 2) incentives for participation in Alternative Payment Models (APMs).&nbsp; MACRA specifically encourages the development of physician-focused APMs and created PTAC to review and make recommendations regarding proposals for physician-focused payment models (PFPMs).</p>
+
+<p><em>How does PTAC&rsquo;s work relate to the </em><a href="https://innovation.cms.gov/initiatives/Health-Care-Payment-Learning-and-Action-Network/"><em>Health Care Payment Learning and Action Network (LAN)</em></a><em>? </em></p>
+
+<ul>
+	<li>PTAC was created by statute to make recommendations to the Secretary of HHS regarding PFPMs. The LAN is a voluntary learning collaborative that was established by the Centers for Medicare and Medicaid Services (CMS).&nbsp;</li>
+	<li>PTAC consists of 11 members appointed by the Comptroller General. The LAN has a membership of thousands and is directed by a Guiding Committee and staff appointed by CMS.&nbsp; PTAC members cannot be federal employees, whereas the LAN&rsquo;s membership includes both federal employees and private sector representatives.</li>
+	<li>PTAC&rsquo;s role is to review PFPMs submitted by stakeholders, not to develop proposals itself.&nbsp; The LAN has developed payment models and is not restricted to PFPMs.&nbsp;</li>
+	<li>Consistent with the statute, the Secretary of HHS will respond to recommendations made by PTAC.</li>
+</ul>
+
+<p><strong>COMMITTEE MEETINGS</strong></p>
+
+<p><em>When does the Committee meet?</em></p>
+
+<p style="margin-left:13.5pt">Advance notice of all public meetings will be published in the <em>Federal Register</em>.&nbsp;Public meetings were held in February, May, September, and December of 2016, and the materials from those meetings can be <a href="https://aspe.hhs.gov/meetings-physician-focused-payment-model-technical-advisory-committee">found here</a>. PTAC intends to hold public meetings no less frequently than quarterly. The frequency of meetings may be modified to ensure proposals are considered in an efficient and timely manner. Additional announcements about public meetings will be made through the <a href="https://list.nih.gov/cgi-bin/wa.exe?SUBED1=PTAC&amp;A=1">PTAC listserv</a> and through the @PFPMTAC Twitter account.</p>
+
+<p><em>Where will these meetings be held, and may the public attend?</em></p>
+
+<p style="margin-left:13.5pt">Meetings are generally held in the Washington, D.C. metro area in or near the HHS Humphrey Building, 200 Independence Avenue S.W., Washington, D.C., 20201.</p>
+
+<p style="margin-left:13.5pt">Anyone may attend public Committee meetings as provided under the rules of the <a href="http://www.gsa.gov/portal/category/21244">Federal Advisory Committee Act</a> (FACA).&nbsp;</p>
+
+<p style="margin-left:13.5pt">Additionally, the Committee may meet non-publicly for administrative and planning purposes. These meetings are used to prepare for public meetings and to make decisions about the operations and processes of the Committee. These meetings are not and will not be used to make decisions regarding recommendations on proposals submitted to the Committee.</p>
+
+<p><em>How may the public receive information about upcoming PTAC meetings and activities? </em></p>
+
+<p style="margin-left:13.5pt">The public can receive communications and news about PTAC by signing up for the <a href="https://list.nih.gov/cgi-bin/wa.exe?A0=PTAC">PTAC listserv</a> or by following PTAC on Twitter, @PFPMTAC.</p>
+
+<p><em>How may the public register to attend meetings? </em></p>
+
+<p style="margin-left:13.5pt">The public can register online for PTAC meetings. Meeting registration information is available through the Federal Register notice and on the <a href="https://aspe.hhs.gov/meetings-physician-focused-payment-model-technical-advisory-committee">PTAC website</a>. Questions about PTAC meeting registration can be submitted by email to <a href="mailto:PTAC@hhs.gov">PTAC@hhs.gov</a>.</p>
+
+<p><em>&nbsp;Is there a process for members of the public to make comments during a public PTAC meeting?</em></p>
+
+<p style="margin-left:13.5pt">Members of the public may indicate during the meeting registration process if they would like to sign up to make a public comment. Public comments can be made in person, on the phone, or sent by email after the meeting to PTAC. Instructions will be provided before each meeting.&nbsp;</p>
+
+<p><em>Where can the public find information about past meeting materials and presentations?</em></p>
+
+<p style="margin-left:13.5pt">Meeting materials are distributed to all participants prior to the meeting and posted on the <a href="https://aspe.hhs.gov/meetings-physician-focused-payment-model-technical-advisory-committee">PTAC website</a>.</p>
+
+<p><strong>DEVELOPMENT OF PHYSICIAN-FOCUSED PAYMENT MODELS</strong></p>
+
+<p><em>What is the role of non-physician stakeholders in the PTAC process?</em></p>
+
+<p style="margin-left:24.75pt">PTAC welcomes multi-stakeholder input and invites public comment on all of its processes. Although it is likely that the majority of models submitted will come from provider and physician groups, employers, beneficiaries, and consumer advocates can contribute very useful commentary on submitted models. PTAC values the knowledge of all individuals invested in the health care system as it works to evaluate and recommend PFPMs.&nbsp;</p>
+
+<p><em>What is the role of non-physician providers in the PTAC landscape?</em></p>
+
+<p style="margin-left:24.75pt">The MACRA final rule defines a PFPM as an APM in which:</p>
+
+<ul>
+	<li>Medicare is a payer;</li>
+	<li>Eligible clinicians that are eligible professionals as defined in section 1848(k)(3)(B) of the Social Security Act are participants and play a core role in implementing the APM&rsquo;s payment methodology; and</li>
+	<li>Targets are the quality and costs of services that eligible professionals participating in the APM provide, order, or can significantly influence.</li>
+</ul>
+
+<p style="margin-left:24.75pt">The term eligible professional is defined as any of the following:</p>
+
+<ul>
+	<li>A physician</li>
+	<li>A physical or occupational therapist or a qualified speech-language pathologist</li>
+	<li>A qualified audiologist</li>
+	<li>A practitioner as described in section 1842(b)(18)(C) of the Social Security Act which includes a physician assistant, nurse practitioner, or clinical nurse specialist; a certified registered nurse anesthetist; a certified nurse-midwife; a clinical social worker; a clinical psychologist; a registered dietitian or nutrition professional.</li>
+</ul>
+
+<p style="margin-left:24.75pt">PTAC welcomes the input of non-physician providers on all processes and invites the submission of payment models from all eligible professionals as defined by MACRA.&nbsp;</p>
+
+<p><em>Where can the public find resources for the development of payment model proposals?</em></p>
+
+<p style="margin-left:24.75pt">PTAC welcomes the submission of PFPMs from a variety of stakeholder groups and recognizes the need for support in the development process. The <a href="https://aspe.hhs.gov/resources-public-comment-physician-focused-payment-model-technical-advisory-committee">Resources</a> tab of the PTAC website includes a number of documents intended to provide guidance to those submitting payment model proposals. Any individual or organization may submit a proposal, and there is no limit on the number of proposals stakeholders may submit.</p>
+
+<p><em>Are there a minimum number of participants or a minimum scope that is expected in payment models submitted to the Committee?</em></p>
+
+<p style="margin-left:24.75pt">PTAC seeks models with a broad range of impact across the United States. In the <a href="https://aspe.hhs.gov/system/files/pdf/226776/RFP.pdf">Request for Proposals</a>, PTAC is inviting information from proposal submitters regarding the scope of proposals to understand probable impact, not to place unnecessary limits.</p>
+
+<p><em>Will PTAC consider models in which physicians provide services that lower emergency room visits and hospital admissions but that are not supported by the fee schedule?</em></p>
+
+<p style="margin-left:24.75pt">One type of PFPM that will be considered by PTAC is a revision to the codes and fee levels for a broad range of services delivered by physicians and other eligible professionals that are designed to support delivery of a different mix of services in conjunction with accountability for measures of utilization, spending, or outcomes for a group of patients.</p>
+
+<p style="margin-left:24.75pt">In general, PTAC will be unlikely to recommend a proposed PFPM if the only change it makes is to give a physician or other eligible professional the ability to bill for a single type of service that is not currently eligible for payment under the Medicare Physician Fee Schedule or to alter the fee level for a service that is currently billable, particularly if there is no change in the measures or methods of accountability that would otherwise apply under the MIPS.</p>
+
+<p style="margin-left:24.75pt">If a proposed PFPM would create a new payment for a physician or other eligible professional that replaces or includes the payments for two or more services that are currently paid for separately under the Physician Fee Schedule, PTAC will be more likely to recommend the proposed PFPM if the new payment replaces all or most of the eligible professional&rsquo;s current payments for individual services that are related to (1) a specific health condition or risk factor, or combination of conditions and risk factors; (2) a specific treatment; or (3) all of the health care needs of a population of patients.</p>
+
+<p style="margin-left:24.75pt">The new payment could allow flexibility to deliver services that are not currently billable in addition to services that are billable, and the amount of the payment could be stratified or adjusted based on characteristics of the patients, rather than based on the number or types of services delivered.</p>
+
+<p style="margin-left:24.75pt">If the physician or other eligible professional would continue to be paid separately for any individual services related to a condition, risk factor, or treatment covered by the new payment, the PFPM proposal should explain why those services cannot or should not be included in the new payment.&nbsp; In these cases, PTAC will be more likely to recommend the PFPM if it also includes a mechanism for accountability for spending on the services that are not included in the new payment.&nbsp; For example, the PFPM might include a performance-based payment component using a measure of total spending on all services related to the condition, risk factor, or treatment (both the services that are included in the new payment and those that are still paid separately) or a measure of total spending on all aspects of the patient&rsquo;s care.</p>
+
+<p style="margin-left:24.75pt">PTAC will be more likely to recommend a PFPM if it defines a process for updating the definitions of what is included and excluded in a new payment and the amount of the new payment as changes in technology and evidence occur over time.</p>
+
+<p><em>Will applicants be able to submit an alternative payment model (APM) that would limit risk if it demonstrates value?</em></p>
+
+<p style="margin-left:24.75pt">PTAC will be more likely to recommend a PFPM in which the eligible professionals or the entity receiving the payment accept more than nominal financial risk for achieving the desired results on the measures of spending and quality/outcomes.&nbsp; PTAC will consider and may recommend PFPMs that do not meet the specific requirements for financial risk or other requirements for qualification as an &ldquo;Advanced Alternative Payment Model&rdquo; under the regulations issued by HHS.&nbsp; The fact that the financial risk components or other characteristics of a PFPM lead to a recommendation by PTAC does not necessarily mean that the PFPM will be approved as an Advanced Alternative Payment Model by HHS.</p>
+
+<p style="margin-left:24.75pt">PTAC will consider proposals for PFPMs that define financial risk in different ways, including, but not limited to:</p>
+
+<ul>
+	<li>The amount of payment that could be lost by the eligible professionals or the entity if the desired results are not achieved;</li>
+	<li>The increase in unreimbursed costs the eligible professionals or entity would incur if the desired results are not achieved; or</li>
+	<li>The amount that the eligible professionals or entity would be expected to pay to the Centers for Medicare &amp; Medicaid Services (CMS) if the desired results are not achieved.</li>
+</ul>
+
+<p style="margin-left:24.75pt">PTAC will be more likely to recommend a PFPM in which the amount of financial risk and the way in which the risk is structured are (1) likely to be financially feasible for physicians and eligible professionals to accept, including small practices, and (2) likely to adequately encourage changes in care delivery needed to achieve the desired results on the measures of spending and quality/outcomes.</p>
+
+<p><strong>SUBMISSION OF PROPOSED PHYSICIAN-FOCUSED PAYMENT MODELS</strong></p>
+
+<p><em>When can stakeholders begin submitting payment model proposals to the Committee?</em></p>
+
+<p style="margin-left:24.75pt">PTAC began accepting letters of intent (LOIs) on October 1, 2016 and full proposals on December 1, 2016 through the online <a href="https://mc04.manuscriptcentral.com/ptac">PTAC submission system</a>. LOIs are non-binding and must be received a minimum of 30 days prior to the submission of the full model proposal. LOIs may be requested for viewing by members of the public and full proposals will be posted on the PTAC website for public comment. No proposals were accepted before December 1.</p>
+
+<p><em>What information must be included in an LOI?</em></p>
+
+<p style="margin-left:24.75pt">Stakeholders can download the <a href="https://aspe.hhs.gov/system/files/pdf/207966/InstructionsLOI.pdf">instructions for submitting an LOI</a> and a <a href="https://aspe.hhs.gov/system/files/pdf/226771/LetterofIntentTemplate.pdf">template LOI</a> is also available.</p>
+
+<p><em>Is there a specific time window in which proposals will be accepted by PTAC, or are proposals accepted on a rolling basis?</em></p>
+
+<p style="margin-left:24.75pt">There is no deadline for submitting an LOI or a proposal. An LOI must be submitted 30 days prior to submission of a full proposal, and full proposals may be submitted beginning on December 1, 2016.</p>
+
+<p><em>When and where will instructions on how to submit proposals be available? </em></p>
+
+<p style="margin-left:13.5pt">For the official guidelines on the development and submission of proposals to PTAC, review the <a href="https://aspe.hhs.gov/system/files/pdf/226776/RFP.pdf">Request for Proposals</a> on the <a href="https://aspe.hhs.gov/proposal-submissions-physician-focused-payment-model-technical-advisory-committee">Proposal Submissions</a> page of the PTAC website. For instructions on uploading LOIs and proposals to the PTAC submission site, review the <a href="https://aspe.hhs.gov/system/files/pdf/244471/GuideLOIProposalsSubmissionSystem.pdf">Guide for Uploading LOIs and Proposals to PTAC&rsquo;s Submission System</a>. These documents are the official instructions for the development and submission of proposals.</p>
+
+<p><em>Will there be an opportunity to ask questions/clarification on the instructions prior to proposal submission</em>?</p>
+
+<p style="margin-left:6.75pt">Members of the public are welcome to submit any questions regarding the submission of proposals to PTAC@hhs.gov. The Committee will also be holding a series of webinars to provide clarifications and responses to questions.</p>
+
+<ul>
+	<li>The first webinar in the series, &ldquo;Overview of the Physician-Focused Payment Model Technical Advisory Committee (PTAC)&rdquo; took place on Wednesday, November 2, 2016, and was hosted by PTAC Chair Dr. Jeffrey Bailet, Vice Chair Elizabeth Mitchell, and Member Dr. Bob Berenson. This webinar provided important background information about the history and purpose of the PTAC and highlighted key upcoming dates in the submissions process. <a href="https://cc.callinfo.com/play?id=3iw9qj" target="_blank">Click here</a> to view an archived recording of this webinar.</li>
+	<li>The second webinar, &ldquo;How to Submit to the Physician- Focused Payment Model Technical Advisory Committee&rdquo; took place&nbsp;on Wednesday, November 16, 2016 and was&nbsp;hosted by PTAC Members Dr. Kavita Patel and Harold Miller. This webinar&nbsp;described how to submit a proposal to PTAC, the information requested in a proposal submission, and the estimated timeline of PTAC&rsquo;s review process. <a href="https://cc.callinfo.com/cc/playback/Playback.do?id=9lb3s7" target="_blank">Click here</a> to view an archived recording of this webinar.</li>
+<li>The third webinar, “How to Submit a Proposal to PTAC: Clarifications and Tips for Submitters” took place on February 27, 2017 and was hosted by PTAC Members Harold Miller and Robert Berenson, MD. This webinar reviewed the proposal submission process, addressed common questions that individuals have asked regarding proposals, and highlighted the characteristics of strong proposals. <a href="http://cc.callinfo.com/play?id=5840lm">Click here</a> to view an archived recording of this webinar.
+</ul>
+
+<p style="margin-left:13.5pt">Registration information for all webinars will be disseminated through the <a href="https://list.nih.gov/cgi-bin/wa.exe?SUBED1=PTAC&amp;A=1">PTAC listserv</a> and updated on the PTAC website. Registrants will receive a link to a recording of each webinar following completion of the event.</p>
+
+<p><em>As part of the submission process, will submitters need to provide data regarding the impacts of a proposal?</em></p>
+
+<p style="margin-left:13.5pt">The Committee believes it will be essential for it to make a quantitative assessment of the potential impact of a proposed PFPM on spending, but it recognizes the difficulty that physicians and other organizations have in obtaining the types of data needed to analyze spending and project the impacts of PFPMs.&nbsp; Consequently, the Committee will encourage submitters to provide as much data and analysis as they can and to describe specifically what additional data and analysis they would like to provide and the reasons they cannot do so.&nbsp; The Committee will then determine on a case-by-case basis whether additional analyses are needed before it can take action on a proposal, whether it is feasible to complete those analyses with available data, and whether there are ways that the Committee can help submitters obtain these data.&nbsp;</p>
+
+<p style="margin-left:13.5pt">The Committee also recognizes that in some cases, it may be impossible to provide a quantitative analysis of the impacts of a particular model because the changes in care delivery that would be supported by the model have not previously been attempted or there is inadequate data on those attempts.&nbsp; In these cases, if the proposal meets all other criteria, the committee may decide to recommend that the proposed payment model be implemented on a small scale in order to obtain data needed to determine whether broader implementation is warranted.</p>
+
+<p><em>What do stakeholders need to know about proprietary or confidential information when submitting a model to PTAC for a Physician-Focused Payment Model?</em></p>
+
+<p style="margin-left:24.75pt">Proprietary information is information that has been created by or is in the possession of an organization or entity and is kept internal to that organization/entity (i.e., not generally shared with external parties) because the organization/entity believes it must keep the information confidential to safeguard its competitive advantage in the marketplace. Proprietary data or information may be protected under copyright, patent, or trade secret laws.</p>
+
+<p style="margin-left:24.75pt">Confidential information is information that an organization or entity has agreed not to disclose to other parties except under specific circumstances.&nbsp; This can include protected health information or data that has been obtained under a data use agreement that limits the ways in which it can be used.</p>
+
+<p style="margin-left:24.75pt">Sometimes proprietary or confidential data is shared with another party under a legal agreement wherein the party who receives the proprietary or confidential data agrees to use it to the mutual benefit of both parties and to not further disclose it to a third party.&nbsp;</p>
+
+<p style="margin-left:24.75pt">PTAC believes that proposals for PFPMs that are submitted to PTAC should not (and do not need to) contain proprietary or confidential data that cannot be shared with the public.&nbsp; The reasons for this are:</p>
+
+<ol>
+	<li><p>The Federal Advisory Committee Act (FACA) requires FACA committees to practice &ldquo;openness.&rdquo;&nbsp; PTAC is a FACA committee and is thereby required by law to conduct its business in a manner that is transparent and fosters public access to materials PTAC receives, reviews, develops, or uses in its deliberations. The FACA statute requires that,</p></li>
+
+
+<p style="margin-left:49.95pt">&ldquo;Subject to section 522 of Title 5, United States Code [The Freedom of Information Act] the records, reports, transcripts, minutes, appendices, working papers, drafts, studies, agenda, or other documents which were made available to or prepared for or by each advisory committee shall be available for public inspection . . . until the advisory committee ceases to exist.&rdquo;</p>
+
+<p style="margin-left:49.95pt">PTAC adheres to these requirements and seeks to make its work as transparent and open as possible. PTAC does not want to make a recommendation regarding a PFPM based on information that the public is not permitted to see. Further, PTAC believes that the input of all types of stakeholders &mdash; consumers and their advocates, clinicians and practitioners, health care organizations, health plans and insurers, and purchasers and regulators &mdash; will ensure that the information used by PTAC in making its recommendations is as accurate and complete as possible. Because of this, PTAC intends to post on its website for public comment all PFPM proposals that it receives in order to foster openness and transparency, and effective, balanced reviews of submitted proposals.</p>
+
+
+	<li><p>Information requested by PTAC as part of a proposal submission for a PFPM does not require the inclusion of confidential information; information that is protected under copyright, patent, or trade secret laws; or information that would threaten the competitive position of a submitting organization.</p></li>
+
+
+<p style="margin-left:49.95pt">PTAC&rsquo;s <a href="https://aspe.hhs.gov/system/files/pdf/226776/RFP.pdf">Request for Proposals</a> identifies the types of information that PTAC requests in order to evaluate the merits of a proposed PFPM.&nbsp; In all circumstances the information requested is aggregate information; i.e., information about a patient or provider population. No practitioner or patient-level data is requested; this protects the confidentiality of both.</p>
+
+	<li><p>PTAC seeks to approve models for uptake by multiple parties as opposed to a model for use by only one submitting party.&nbsp; The goal of PTAC&rsquo;s recommendation of a model to the Secretary is that HHS would test and implement the model across other providers and patients.&nbsp; Indeed, a model<em>, </em>by definition, is a prototype or example for use by others.</p></li>
+</ol>
+
+<p style="margin-left:49.95pt">In order for HHS to test (and PTAC to recommend) a model, PTAC and HHS will need to know information that is salient to the workings of the model. Similarly, other health care providers who seek to participate in a test of the model will need to understand the features of the model that affect its workings and effectiveness. Withholding salient information from participants testing the model would undermine the effectiveness of the testing, if not make a test of the model impossible. Because of this, submitters need to be prepared to share with PTAC, HHS, and other health care providers the relevant information on how the model works and any essential data and information needed to understand the working and effects of the model.</p>
+
+<p>Questions about this PTAC policy can be directed to <a href="mailto:PTAC@hhs.gov">PTAC@hhs.gov</a>.</p>
+
+<p><strong>REVIEW OF MODELS</strong></p>
+
+<p><em>How will the Committee determine whether to recommend a payment model proposal?</em></p>
+
+<p style="margin-left:13.5pt">The Committee will use criteria established by the Secretary to determine which proposed models to recommend.&nbsp; These criteria were established on November 4, 2016, through the MACRA final rule and include the following:</p>
+
+<p style="margin-left:24.75pt">&bull; <em>Value over volume: </em>Provide incentives to practitioners to deliver high-quality health care.</p>
+
+<p style="margin-left:24.75pt">&bull; <em>Flexibility: </em>Provide the flexibility needed for practitioners to deliver high quality healthcare.</p>
+
+<p style="margin-left:24.75pt">&bull; <em>Quality and Cost: </em>PFPMs are anticipated to improve health care quality at no additional cost, maintain health care quality while decreasing cost, or both improve health care quality and decrease cost.</p>
+
+<p style="margin-left:24.75pt">&bull; <em>Payment methodology: </em>Pay APM Entities with a payment methodology designed to achieve the goals of the PFPM criteria. Addresses in detail through this methodology how Medicare and other payers, if applicable, pay APM Entities, how the payment methodology differs from current payment methodologies, and why the Physician-Focused Payment Model cannot be tested under current payment methodologies.</p>
+
+<p style="margin-left:24.75pt">&bull; <em>Scope: </em>Aim to either directly address an issue in payment policy that broadens and expands the CMS APM portfolio or include APM Entities whose opportunities to participate in APMs have been limited.</p>
+
+<p style="margin-left:24.75pt">&bull; <em>Ability to be evaluated: </em>Have evaluable goals for quality of care, cost, and any other goals of the PFPM.</p>
+
+<p style="margin-left:24.75pt">&bull; <em>Integration and Care Coordination: </em>Encourage greater integration and care coordination among practitioners and across settings where multiple practitioners or settings are relevant to delivering care to the population treated under the PFPM.</p>
+
+<p style="margin-left:24.75pt">&bull; <em>Patient Choice: </em>Encourage greater attention to the health of the population served while also supporting the unique needs and preferences of individual patients.</p>
+
+<p style="margin-left:24.75pt">&bull; <em>Patient Safety: </em>Aim to maintain or improve standards of patient safety.</p>
+
+<p style="margin-left:24.75pt">&bull; <em>Health Information Technology: </em>Encourage use of health information technology to inform care</p>
+
+<p style="margin-left:13.5pt">A request for information to assist in establishing these criteria <a href="https://www.federalregister.gov/articles/2015/10/01/2015-24906/request-for-information-regarding-implementation-of-the-merit-based-incentive-payment-system">was published</a> in the Federal Register on October 1, 2015 (80 FR 59102), and proposed criteria were issued for public comment in April 2016. PTAC intends to evaluate the extent to which proposed models meet the Secretary&rsquo;s criteria and to make recommendations regarding the proposed model including limited-scale testing, implementation, implementation with a high priority, or not recommend.</p>
+
+<p><em>How long will PTAC&rsquo;s review process take, and will there be opportunities for submitters to respond to reviewer questions/clarifications?</em></p>
+
+<p style="margin-left:13.5pt">In general, proposals will need to be submitted at least 16 weeks in advance of a PTAC public meeting in order for the Committee to complete all of the steps necessary to formally consider the proposal at that meeting.&nbsp; PTAC will seek to review and act on all proposals as quickly as possible, but the time necessary to evaluate a proposal will be affected by the volume of proposals received and the completeness of those proposals.</p>
+
+<p style="margin-left:13.5pt">Upon receipt, proposals will be reviewed for completeness and adherence to submission guidelines. Proposals that require revisions to address incomplete or non‐adherent elements will be returned to the submitter with an explanation of what is missing or non-adherent and advised of the opportunity to revise and resubmit.</p>
+
+<p style="margin-left:13.5pt">If a proposal is complete the individual or entity that submitted the proposal may be invited to respond to questions or provide additional information as requested by PTAC.&nbsp;</p>
+
+<p><em>If a proposal is not recommended or implemented, can the decision be appealed?</em></p>
+
+<p style="margin-left:13.5pt">PTAC will provide feedback to anyone whose proposal is not recommended by PTAC, and applicants are welcome to resubmit proposals with revisions to address PTAC&rsquo;s comments.&nbsp; If a proposal is recommended by PTAC but is not implemented by the Secretary, there is no appeals process provided in statute.</p>
+
+<p><em>Is there an opportunity for soliciting public comments during the proposal review process?</em></p>
+
+<p style="margin-left:13.5pt">Once a proposal has been received and is considered complete, it is <a href="https://aspe.hhs.gov/documents-public-comment-physician-focused-payment-model-technical-advisory-committee">posted on the PTAC website</a>.Members of the public may file written statements on proposals. All such written statements should be sent to the Designated Federal Officer for PTAC at PTAC@HHS.gov, and will be available for viewing by the public by contacting PTAC@HHS.gov. Members of the public may also publicly comment on proposals at all meetings of PTAC during which PTAC deliberates on proposals. All such meetings and procedures for registering to make any public comments will be announced in the Federal Register at least 15 days prior to such a meeting.</p>
+
+<p style="margin-left:13.5pt">In general, three weeks will be allowed for submission of public comments on a proposal. PTAC will not formally respond to individual public comments, but it will consider comments in making its decisions. Written comments that are received after the deadline will be sent to members of the Committee, however, the Committee members are not required to consider them.</p>
+
+<p><em>How will PTAC address reviewing proposals that require specialized expertise in the types of care described in a proposal? </em></p>
+
+<p style="margin-left:13.5pt">If PTAC finds that it needs additional expertise to assist in reviewing a proposal, it may invite one or more outside experts to provide comments on relevant aspects of the proposal.&nbsp; Individuals with conflicts of interest or relationships that could result in a lack of impartiality will not be used as outside experts.&nbsp; If any outside experts provide assistance, they will be publicly acknowledged.&nbsp; The Committee may also identify specific issues regarding a proposal and request input from any interested experts on those issues during the public comment period.</p>
+
+<p><em>From where does PTAC draw additional analyses or specialty-specific subject matter experts (SMEs)?</em></p>
+
+<p style="margin-left:13.5pt">The Committee understands that it will likely benefit from additional analyses and the expertise of SMEs as it reviews proposals. Through the Office of the Assistant Secretary for Planning and Evaluation, expertise is available through contractual arrangements with Social & Scientific Systems, Inc., the Perelman School of Medicine at the University of Pennsylvania Medical School, and the Urban Institute. However, PTAC is not limited to these arrangements and will reach out to expertise throughout the review process as necessary.</p>
+
+<p><strong>COMMITTEE RECOMMENDATIONS</strong></p>
+
+<p><em>Must the Secretary accept the Committee&rsquo;s recommendations?</em></p>
+
+<p style="margin-left:24.75pt">Section 1868(c)(2)(D) of the MACRA requires the Secretary to review PTAC&rsquo;s comments and recommendations on proposed PFPMs and to post a &ldquo;detailed response&rdquo; to those comments and recommendations on the CMS website. The Secretary is not required to accept the Committee&rsquo;s recommendations.</p>
+
+<p>&nbsp;</p>
+
+<p>For further information, please contact: <a href="mailto:PTAC@hhs.gov">PTAC@hhs.gov</a></p>
+
+<p>A PDF version of these FAQs can be downloaded by <a href="https://aspe.hhs.gov/system/files/pdf/207071/FAQ.pdf">clicking here</a>.</p>
+
+<p>Last updated March 7, 2017.</p>
+  </div>
+
+      <footer>
+          </footer>
+  
+    <div id="block-webform-client-block-158521" class="widget block block-webform" >
+  
+      
+  <div id="webform-ajax-wrapper-158521"><form class="webform-client-form webform-client-form-158521" action="/faqs-physician-focused-payment-model-technical-advisory-committee" method="post" id="webform-client-form-158521" accept-charset="UTF-8"><div><div class="webform-progressbar">
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-radios webform-component--was-this-page-helpful">
+  <label for="edit-submitted-was-this-page-helpful">Was this page helpful? <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-was-this-page-helpful" class="form-radios"><div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-1" name="submitted[was_this_page_helpful]" value="1" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-1">Yes </label>
+
+</div>
+<div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-2" name="submitted[was_this_page_helpful]" value="0" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-2">No </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="4" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-ummoE4rCD1lHrqO7Tpn_w9k0UcZflPHZjDm5wdSmyrM" />
+<input type="hidden" name="form_id" value="webform_client_form_158521" />
+<input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-158521" />
+<div class="form-actions"><input class="webform-next button-primary btn btn-default form-submit" type="submit" id="edit-webform-ajax-next-158521" name="op" value="Next &gt;" /></div>
+<div class="is-useful-disclaimer"> <a href="/%23" class="" title="Survey Disclaimer" data-toggle="modal" data-target="#disclamerModal">Form Approved OMB# 0990-0379 Exp. Date 8/31/2017</a></div>
+<div class="modal fade" id="disclamerModal" tabindex="-1" role="dialog" aria-labelledby="disclamerModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="disclamerModalLabel">Survey Disclaimer</h2>
+      </div>
+      <div class="modal-body">
+         According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this information collection is 0990-0379. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, gather the data needed, and complete and review the information collection. If you have comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: U.S. Department of Health & Human Services, OS/OCIO/PRA, 200 Independence Ave., S.W., Suite 336-E, Washington D.C. 20201, Attention: PRA Reports Clearance Officer.      </div>
+    </div>
+  </div>
+</div></div></form></div>
+  </div> <!-- /.block -->
+<meta  itemscope="" itemid="https://aspe.hhs.gov/faqs-physician-focused-payment-model-technical-advisory-committee" itemref="md1" />              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <footer  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Footer">     
+
+        
+                  
+        
+                  
+        
+                                    <div  id="footer_sitemap-footer_sitemap" class="col-sm-6 col-md-6 col-lg-4 ">
+                          
+                              <div id="block-footer-sitemap-footer-sitemap" class="widget block block-footer-sitemap" >
+  
+      
+  <div id="footer-sitemap" class="clearfix">
+  <div class="fs-block-content"><div class="menu-footer-utility"><ul class="footer_links_menu-footer-utility total-items-2 parent-items-0 single-items-0"><li class="menu-5021 depth-1 total-children-8 parent-children-0 single-children-8  first"><a href="/" title="look at ASPE Home" class="fs-root-link">ASPE Home</a><ul class="footer_links_menu-footer-utility total-items-8 parent-items-0 single-items-0"><li class="menu-5026 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/" title="look at HHS Home">HHS Home</a></li>
+<li class="menu-66281 depth-1 fs-no-children"><a href="http://www.usa.gov/" title="look at USA.gov">USA.gov</a></li>
+<li class="menu-66316 depth-1 fs-no-children"><a href="https://oig.hhs.gov/" title="look at Office of the Inspector General">Office of the Inspector General</a></li>
+<li class="menu-66321 depth-1 fs-no-children"><a href="http://www.whitehouse.gov" title="look at The White House">The White House</a></li>
+<li class="menu-5046 depth-1 fs-no-children"><a href="http://www.hhs.gov/Accessibility.html" title="look at Accessibility">Accessibility</a></li>
+<li class="menu-66326 depth-1 fs-no-children"><a href="http://www.hhs.gov/about/budget/index.html" title="look at Budget/Performance">Budget/Performance</a></li>
+<li class="menu-2551 depth-1 fs-no-children"><a href="http://www.hhs.gov/Privacy.html" title="look at Privacy Policy">Privacy Policy</a></li>
+<li class="menu-197776 depth-1 fs-no-children  last"><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" title="Nondiscrimination Notice">Nondiscrimination Notice</a></li>
+</ul></li>
+<li class="menu-5051 depth-1 total-children-4 parent-children-0 single-children-4  last"><a href="http://www.hhs.gov/foia/" title="look at FOIA" class="fs-root-link">FOIA</a><ul class="footer_links_menu-footer-utility total-items-4 parent-items-0 single-items-0"><li class="menu-5056 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/open/recordsandreports/plainwritingact/index.html" title="look at Plain Writing Act">Plain Writing Act</a></li>
+<li class="menu-5061 depth-1 fs-no-children"><a href="http://www.hhs.gov/asa/eeo/no_fear_bullet_3.html" title="look at No Fear Act">No Fear Act</a></li>
+<li class="menu-5066 depth-1 fs-no-children"><a href="http://www.hhs.gov/Disclaimer.html" title="look at Disclaimers">Disclaimers</a></li>
+<li class="menu-2546 depth-1 fs-no-children  last"><a href="http://www.hhs.gov/plugins.html" title="look at Viewers &amp; Players">Viewers &amp; Players</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-5 " id="stability_cms-contact_us">
+                          
+                              <div id="block-stability-cms-contact-us" class="widget block block-stability-cms" >
+  
+      
+  <div class="contacts-widget widget widget__footer">
+	<div class="widget-content">
+		<ul class="contacts-info-list">
+      			<li>
+<!--				<i class="fa fa-map-marker">Address</i>-->
+                <div class="info-icons">
+                    <img  alt="map" class= 'map-icons' src="/sites/all/themes/stability/stability_aspe/images/map.png"/>
+                </div>
+                <div class="info-item">
+					Assistant Secretary for Planning and Evaluation, Room 415F<br />
+U.S. Department of Health and Human Services<br />
+200 Independence Avenue, SW<br />
+Washington, D.C. 20201				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-phone">phone</i>-->
+                <div class="info-icons">
+                    <img alt="phone" src="/sites/all/themes/stability/stability_aspe/images/phone.png"/>
+                </div>
+				<div class="info-item">
+					+1 202.690.7858				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-envelope">email</i>-->
+                <div class="info-icons">
+                    <img alt="mail" src="/sites/all/themes/stability/stability_aspe/images/mail-white.png"/>
+                </div>
+				<span class="info-item">
+					<a href="mailto:osaspeinfo@hhs.gov">osaspeinfo@hhs.gov</a>
+				</span>
+			</li>
+      			                					</ul>
+	</div>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-3 " id="footer">
+                          
+                              <div id="block-block-36" class="widget block block-block" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sign-up</span> for Email Updates</h3>
+		</div>
+    
+  <div class="email_updates">
+<button class="btn btn-default" name="subscribe-button" type="submit" value="subscribe">subscribe</button>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-12 " id="menu-menu-footer-language-menu">
+                          
+                              <div id="block-menu-menu-footer-language-menu" class="widget block block-menu" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Language</span> Assistance Available</h3>
+		</div>
+    
+  <ul class="menu"><li class="first expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#spanish" title="Español">Español</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#chinese" title="繁體中文">繁體中文</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#vietnamese" title="Tiếng Việt">Tiếng Việt</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#korean" title="한국어">한국어</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#tagalog" title="Tagalog">Tagalog</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#russian" title="Русский">Русский</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#arabic" title="العربية">العربية</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#creole" title="Kreyòl Ayisyen">Kreyòl Ayisyen</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#french" title="Français">Français</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#polish" title="Polski">Polski</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#portuguese" title="Português">Português</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#italian" title="Italiano">Italiano</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#german" title="Deutsch">Deutsch</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#japanese" title="日本語">日本語</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#farsi" title="فارسی">فارسی</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#english" title="English">English</a></li>
+</ul></li>
+</ul>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+      </div>
+
+          </div>
+    
+    
+      </footer>
+    
+
+    <!--/PAGEWATCH-->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+                        </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="social-links-wrapper">
+              <span class="social-links-txt">Connect with us</span>
+              <ul class="social-links social-links__dark">
+                                                  <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw-grey.png"/></a></li>
+                                <!--                --><!--                  <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin-grey.png"/></a></li>-->
+<!--                -->
+                                                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>  <script type="text/javascript" src="/sites/default/files/advagg_js/js__VWRymaMz6HfrhnrcJNGcDiSvLVrvhaXvBa7nrBYy8gc__jntPwP3D6myJZH1jW19fXrk5cYMHGRL8NQION22VSEA__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5486d15a696bff0c"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__g6mKbcakHxQkz4ZHYaxdO_xqONINvRMgsHh1zAK-fr0__ATHtEmHaeZ0jidpGU22EkhmPDBSgjD8z0bVDQMI-BIY__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__KUp4PrfOt9BSXUVl8Ctb3dhCMBe4MNVMeb4Gyorx8yY__7g4BeXscCIZAfuu1vxsCj2RIemg-eEK0QpChP9LDmFQ__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__PNjAgubM_3xXRLp4uLsYnv8wQAdT89-RYkSPxT6T45c__rFQwFK4pA5ZaWZSF7FPTfKbbpus0h-5IS8ayrNZGrb4__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__vQiLul2UcfC4nBAR09mhYVBYzRmiNDm2dj3GgSubV38__w84oZe-ZODKe7XnnlbrjV4IWHISOy4PioFEMVgx9hZo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__QJw3g0kOdwsv4twSZLP931zBzsHy50VEHpEN_znIitQ__A6QOuWXElDipBM2iChbWhjAAt3KlUwZ-jODoxdpbwiw__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stability_aspe","theme_token":"YqpMhO_4Jmk3G_CUgwqJw6kiQBUGs5kLqxbjp_CfJcE","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/footable.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/aspe_nodes.admin.css":1,"sites\/all\/modules\/custom\/aspe_views\/theme\/css\/aspe_views.admin.css":1,"sites\/all\/modules\/forked\/book\/book.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/openpublic\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.css":1,"profiles\/openpublic\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openpublic\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/openpublic\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/themes\/stability\/css\/bootstrap.min.css":1,"sites\/all\/themes\/stability\/css\/fonts\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.theme.css":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/stability\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/stability\/css\/theme.css":1,"sites\/all\/themes\/stability\/css\/theme-elements.css":1,"sites\/all\/themes\/stability\/css\/animate.min.css":1,"sites\/all\/themes\/stability\/css\/skins\/red.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/slideshow.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/font-main.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/styleless.less":1,"sites\/all\/themes\/stability\/css\/skins\/blue.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/aspe\/theme\/js\/aspe.login-confirm.js":1,"sites\/all\/modules\/custom\/aspe_report\/modules\/aspe_databooks\/js\/aspe_databooks.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.highcharts.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/datatables\/dataTables.min.js":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.min.js":1,"sites\/all\/libraries\/highcharts\/highcharts.js":1,"sites\/all\/libraries\/highcharts\/highcharts.exporting.js":1,"sites\/all\/libraries\/highcharts\/highcharts.map.js":1,"sites\/all\/libraries\/highcharts\/highcharts.us-all.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.footable.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5486d15a696bff0c":1,"misc\/progress.js":1,"profiles\/openpublic\/modules\/contrib\/webform\/js\/webform.js":1,"profiles\/openpublic\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/stability\/vendor\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/stability\/vendor\/bootstrap.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flexnav.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flickrfeed.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.sloppy-masonry.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.fitvids.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.stellar.min.js":1,"sites\/all\/themes\/stability\/vendor\/snap.svg-min.js":1,"sites\/all\/themes\/stability\/js\/custom.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/aspe.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/html5shiv.min.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/main-menu.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/keyboard-control.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tabBehavior.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tileStringTrimmer.js":1}},"webform":{"conditionals":{"webform-client-form-158521":{"ruleGroups":[],"sourceMap":[],"values":[]}}},"ajax":{"edit-webform-ajax-next-158521":{"callback":"webform_ajax_callback","wrapper":"webform-ajax-wrapper-158521","progress":{"message":"","type":"throbber"},"event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Next \u003E"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/faqs-physician-focused-payment-model-technical-advisory-committee":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"([a-z0-9]\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This website contains links to other federal and state agencies and private organizations. The Department of Health and Human Services (HHS) cannot attest to the accuracy of information provided by these nonfederal website links. Linking to nonfederal sites does not constitute an endorsement by HHS or any of its employees of the sponsors or the information and products presented on the sites. You will be subject to the destination site\u0027s privacy policy when you leave the ASPE website.\r\n\r\nThank you for visiting aspe.hhs.gov!","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"stability":{"flickr_id":"52617155@N08","logo_sticky":"28"},"field_group":{"div":"full"}});
+//--><!]]>
+</script>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config={pubid:"ra-5486d15a696bff0c",ui_click:false}
+//--><!]]>
+</script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4837db659","applicationID":"10708002","transactionName":"MwNaZBRSXEtXB0BdWQpJbUIPHFtWUgFMGkYMFg==","queueTime":0,"applicationTime":28,"atts":"H0RZElxIT0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

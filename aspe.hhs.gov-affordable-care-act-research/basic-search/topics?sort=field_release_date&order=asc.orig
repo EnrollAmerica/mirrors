@@ -1,0 +1,1418 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">  <!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://aspe.hhs.gov/sites/default/files/Favicon2.png" type="image/png" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://aspe.hhs.gov/basic-search/topics" />
+<link rel="shortlink" href="https://aspe.hhs.gov/basic-search/topics" />
+<meta property="og:site_name" content="ASPE" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aspe.hhs.gov/basic-search/topics" />
+<meta property="og:title" content="Search" />
+
+  <title>Search | ASPE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+  <link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__PdHeYUEjHJe8PR77KixWDt0axYog5VhZu9Uk2FrRy2E__aW_cRqda3cLmZcLp8zCZlHDsWuuDt8uEeFoPL0hejJI__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ng49uRH5y4Hl9VF9hHW_vXOj-mcOc2u2ShJqJ1YKIGU__FoMCD14GBvZaRiqSQ_JpP1w3rDB21n7H2Ar4pRZaIh8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__Hskudx14OJ5Hz8vqU7CUgN6SDV5rINZuEq9VuGsSeyc__EwNIl3xeFrniW2TmonovTzhSs3X5MdFps210puE7jog__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__9rZoaX9BdzjjNucvYxduxeNAVO2zgW_Rvjhb5rq5whc__lSr_y16grDSgHf4booPChnF7QXz3TQY3hafH49twE0k__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZgfI_ZPib5yVY0o5aKo_6TFn946Tuu_nFDa0ySTmkSc__2FTFrNw2eNh0mpHIOA34r6YRwBZMm2PjJ_JubnwLigg__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__dxabpJ5rQgDSixKgLJZjWc1beC6mpROKwVrmWxI5eno__rqhz_hGsE_i59O7-W991o71_Jxw1QOtGMxn4nsOLHY8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZbRCq2NqWgK-HXAQI3So0N1n0nr4HonsJS3eQuuxukw__7Olkk8Locn8Dj0eR0Ww3rbV9lks9sxipcboMXB18RRs__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+
+	<!-- Head Libs -->
+	<script src="/sites/all/themes/stability/stability_aspe/vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/sites/all/themes/stability/vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" href="/sites/all/themes/stability/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/stability/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/stability/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/stability/images/apple-touch-icon-144x144.png">
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-basic-search page-basic-search-topics">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-JLFR"
+                  height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JLFR');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-nav" class="accessibility_menu">
+    <strong>Shortcut Navigation:</strong>
+    <ul>
+      <li><a href="#content" accesskey="c" title="Skip to page content (ctrl/alt + c)">Page Content</a></li>
+      <li><a href="#nav" accesskey="m" title="Skip to main navigation menu (ctrl/alt + m)">Site Navigation</a></li>
+
+      <li><a href="#Footer" accesskey="f" title="Skip to footer (ctrl/alt + f)">Footer</a></li>
+    </ul>
+  </div>
+
+    
+<div class="site-wrapper">
+  
+  <header class="header header-menu-fullw header-top-clean">
+    <div id="brand-bar">
+        <div class="container">
+                    <img alt='bird' src="/sites/all/themes/stability/stability_aspe/images/bird.png"> <a target="blank" tabindex="4" href="http://www.hhs.gov/">U.S. Department of Health & Human Services</a>
+        </div>
+
+    </div>
+    <div class="header-main">
+        <div class="container clearfix">
+            <div class="social-links-wrapper">
+                <ul class="social-links social-links__light">
+                                                          <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw.png"/></a></li>
+                                    <!--                  --><!--                    <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin.png"/></a></li>-->
+<!--                  -->
+                                                                      </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                                <div class="site_name_wrapper">
+                                     <span class="h1">
+                                      <a href="/">ASPE</a>
+                                       </span>
+                                  <p class="tagline"><p>Office of The Assistant Secretary</p><p> for Planning and Evaluation</p></p>
+                    </div>
+            </div>
+            <!-- Logo / End -->
+            <div class="header_right_wrapper">
+                <div class="search-form">
+                    <form action="/basic-search/topics?sort=field_release_date&amp;order=asc" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class = "input-group"><div class="form-type-textfield form-item-search-block-form form-item form-group">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search Site..." class="form-control form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input class="btn btn-primary btn-icon form-submit" type="image" id="edit-submit" name="submit" value="Search" src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/search-white2.png" alt="Search" title="Search" /></div></div><input type="hidden" name="form_build_id" value="form-BSN4sBoplsQNTeV8YKRTK7kL4XEBlTxIr-SU1UCOkRo" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </div>
+                <button type="button" class="navbar-toggle" value="Menu">
+                    <i class="fa fa-bars"></i>Menu
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-main">
+        <div class="container">
+          <ul data-breakpoint="767" class="flexnav">
+                <li class="first expanded"><a href="/basic-search/about" title="">About</a><ul><li class="first leaf"><a href="/mission" title="">Mission</a></li>
+<li class="leaf"><a href="/key-staff" title="">Leadership</a></li>
+<li class="leaf"><a href="https://www.usajobs.gov/" title="">Careers</a></li>
+<li class="expanded"><a href="/coordination" title="linkTo">Coordination</a><ul><li class="first leaf"><a href="/evaluation-evidence" title="">Evaluation &amp; Evidence</a></li>
+<li class="leaf"><a href="/national-alzheimers-project-act">National Alzheimer&#039;s Project Act</a></li>
+<li class="leaf"><a href="/health-and-human-services-hhs-data-council">HHS Data Council</a></li>
+<li class="last leaf"><a href="/national-committee-vital-and-health-statistics" title="National Council on Vital and Health Statistics">National Council on Vital and Health Statistics</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/divisions" title="">Offices</a><ul><li class="first leaf"><a href="/office-disability-aging-and-long-term-care-policy-daltcp">Disability, Aging, and Long-Term Care Policy</a></li>
+<li class="leaf"><a href="/office-health-policy-hp">Health Policy</a></li>
+<li class="leaf"><a href="/office-human-services-policy">Human Services Policy</a></li>
+<li class="last leaf"><a href="/office-science-and-data-policy">Science and Data Policy</a></li>
+</ul></li>
+<li class="leaf"><a href="/strategic-planning" title="Strategic Planning">Strategic Planning</a></li>
+<li class="last leaf"><a href="/contact-aspe" title="">Contact ASPE</a></li>
+</ul></li>
+<li class="expanded active"><a href="/basic-search/topics" title="" class="active">Topics</a><ul><li class="first leaf"><a href="/affordable-care-act-research">Affordable Care Act Research</a></li>
+<li class="leaf"><a href="/alzheimers-dementia">Alzheimer&#039;s / Dementia</a></li>
+<li class="leaf"><a href="/early-childhood">Early Childhood</a></li>
+<li class="leaf"><a href="/incarceration-reentry">Incarceration &amp; Reentry</a></li>
+<li class="leaf"><a href="/opioid-abuse-us-and-hhs-actions-address-opioid-drug-related-overdoses-and-deaths" title="Opioids">Opioids</a></li>
+<li class="leaf"><a href="/patient-centered-outcomes-research-trust-fund">Patient-Centered Outcomes Research Trust Fund (PCORTF)</a></li>
+<li class="expanded"><a href="/basic-search/poverty" title="">Poverty</a><ul><li class="first leaf"><a href="/poverty-guidelines">Poverty Guidelines</a></li>
+<li class="last leaf"><a href="/poverty-estimates-trends-and-analysis">Poverty Analysis</a></li>
+</ul></li>
+<li class="leaf"><a href="/teen-pregnancy-prevention">Teen Pregnancy Prevention</a></li>
+<li class="leaf"><a href="/homelessness">Homelessness</a></li>
+<li class="last leaf"><a href="/medicare-access-and-chip-reauthorization-act-2015">MACRA</a></li>
+</ul></li>
+<li class="leaf"><a href="/reports" title="">Publications</a></li>
+<li class="last expanded"><a href="/basic-search/datasets" title="">Data and Tools</a><ul><li class="first last leaf"><a href="/evaluations" title="">Evaluation Database</a></li>
+</ul></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation / End -->
+</header>  <div class="main" role="main">
+    <!--PAGEWATCH CODE="USHHS_458"-->
+    <section class="page-heading">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+                <h1>
+                    
+          Search        </h1>
+                          </div>
+
+
+        <div class="col-md-6">
+           <ul class="breadcrumb"><li class="first"><a href="/" title="Home">Home</a></li>
+<li class="last">Search</li>
+</ul>        </div>
+
+
+    </div>
+  </div>
+</section>
+    
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Content">     
+
+        
+                                    <div  class="col-sm-12 col-md-3 " id="sidebar">
+                          
+                              <div id="block-ext-search-page-1" class="widget block block-ext-search-page" >
+  
+      
+  <form class="ext-search-page-search-form search-mode-block" action="/basic-search/topics?sort=field_release_date&amp;order=asc" method="post" id="ext-search-page-search-form" accept-charset="UTF-8"><div><fieldset class="form-wrapper" id="edit-filters"><legend><span class="fieldset-legend">Advanced search</span></legend><div class="fieldset-wrapper"><div class="exposed-filters"><div class="form-type-checkboxes form-item-filters-field-product-type form-item form-group">
+  <label for="edit-filters-field-product-type">What are you looking for? </label>
+ <div id="edit-filters-field-product-type" class="form-checkboxes"><div class="form-type-checkbox form-item-filters-field-product-type-13976 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-product-type-13976" name="filters[field_product_type][13976]" value="13976" class="form-checkbox" />  <label for="edit-filters-field-product-type-13976">Author </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-product-type-1016 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-product-type-1016" name="filters[field_product_type][1016]" value="1016" checked="checked" class="form-checkbox" />  <label for="edit-filters-field-product-type-1016">Data Set </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-product-type-1066 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-product-type-1066" name="filters[field_product_type][1066]" value="1066" checked="checked" class="form-checkbox" />  <label for="edit-filters-field-product-type-1066">Evaluation </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-product-type-13991 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-product-type-13991" name="filters[field_product_type][13991]" value="13991" class="form-checkbox" />  <label for="edit-filters-field-product-type-13991">Evaluation Report Entry </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-product-type-13856 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-product-type-13856" name="filters[field_product_type][13856]" value="13856" checked="checked" class="form-checkbox" />  <label for="edit-filters-field-product-type-13856">Executive Summary </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-product-type-981 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-product-type-981" name="filters[field_product_type][981]" value="981" checked="checked" class="form-checkbox" />  <label for="edit-filters-field-product-type-981">HTML Report </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-product-type-13981 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-product-type-13981" name="filters[field_product_type][13981]" value="13981" checked="checked" class="form-checkbox" />  <label for="edit-filters-field-product-type-13981">Interactive </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-product-type-986 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-product-type-986" name="filters[field_product_type][986]" value="986" checked="checked" class="form-checkbox" />  <label for="edit-filters-field-product-type-986">Issue Brief </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-product-type-13986 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-product-type-13986" name="filters[field_product_type][13986]" value="13986" checked="checked" class="form-checkbox" />  <label for="edit-filters-field-product-type-13986">Landing Page </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-product-type-15966 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-product-type-15966" name="filters[field_product_type][15966]" value="15966" checked="checked" class="form-checkbox" />  <label for="edit-filters-field-product-type-15966">Legacy page </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-product-type-15761 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-product-type-15761" name="filters[field_product_type][15761]" value="15761" checked="checked" class="form-checkbox" />  <label for="edit-filters-field-product-type-15761">PDF document </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-product-type-13971 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-product-type-13971" name="filters[field_product_type][13971]" value="13971" checked="checked" class="form-checkbox" />  <label for="edit-filters-field-product-type-13971">PDF Report </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-product-type-991 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-product-type-991" name="filters[field_product_type][991]" value="991" checked="checked" class="form-checkbox" />  <label for="edit-filters-field-product-type-991">Policy Brief </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-product-type-13996 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-product-type-13996" name="filters[field_product_type][13996]" value="13996" class="form-checkbox" />  <label for="edit-filters-field-product-type-13996">Report entry </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-product-type-996 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-product-type-996" name="filters[field_product_type][996]" value="996" checked="checked" class="form-checkbox" />  <label for="edit-filters-field-product-type-996">Research Brief </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-product-type-15961 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-product-type-15961" name="filters[field_product_type][15961]" value="15961" checked="checked" class="form-checkbox" />  <label for="edit-filters-field-product-type-15961">Site Page </label>
+
+</div>
+</div>
+</div>
+<div class="form-type-checkboxes form-item-filters-field-program form-item form-group">
+  <label for="edit-filters-field-program">Program </label>
+ <div id="edit-filters-field-program" class="form-checkboxes"><div class="form-type-checkbox form-item-filters-field-program-36 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-36" name="filters[field_program][36]" value="36" class="form-checkbox" />  <label for="edit-filters-field-program-36">Adoption Assistance </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-41 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-41" name="filters[field_program][41]" value="41" class="form-checkbox" />  <label for="edit-filters-field-program-41">Aid to Families with Dependent Children (AFDC) </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-46 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-46" name="filters[field_program][46]" value="46" class="form-checkbox" />  <label for="edit-filters-field-program-46">Cash and Counseling Demonstration </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-51 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-51" name="filters[field_program][51]" value="51" class="form-checkbox" />  <label for="edit-filters-field-program-51">Child Abuse Prevention and Treatment Act Basic State Grant Program </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-11 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-11" name="filters[field_program][11]" value="11" class="form-checkbox" />  <label for="edit-filters-field-program-11">Child Care and Development Block Grant (CCDBG) </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-56 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-56" name="filters[field_program][56]" value="56" class="form-checkbox" />  <label for="edit-filters-field-program-56">Child Care Programs </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-61 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-61" name="filters[field_program][61]" value="61" class="form-checkbox" />  <label for="edit-filters-field-program-61">Child Care Programs, e.g. Child Care and Development Block Grant (CCDBG) </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-21 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-21" name="filters[field_program][21]" value="21" class="form-checkbox" />  <label for="edit-filters-field-program-21">Child Protective Services </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-66 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-66" name="filters[field_program][66]" value="66" class="form-checkbox" />  <label for="edit-filters-field-program-66">Child Support Enforcement (CSE) </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-71 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-71" name="filters[field_program][71]" value="71" class="form-checkbox" />  <label for="edit-filters-field-program-71">Child Welfare programs </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-76 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-76" name="filters[field_program][76]" value="76" class="form-checkbox" />  <label for="edit-filters-field-program-76">Child Welfare programs, including Child Protective Services </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-81 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-81" name="filters[field_program][81]" value="81" class="form-checkbox" />  <label for="edit-filters-field-program-81">Children's Health Insurance Program (CHIP) </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-86 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-86" name="filters[field_program][86]" value="86" class="form-checkbox" />  <label for="edit-filters-field-program-86">Community Health Centers </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-91 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-91" name="filters[field_program][91]" value="91" class="form-checkbox" />  <label for="edit-filters-field-program-91">Community Services Block Grant (CSBG) </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-96 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-96" name="filters[field_program][96]" value="96" class="form-checkbox" />  <label for="edit-filters-field-program-96">Comprehensive Community Mental Health Services for Children with Serious Emotional Disturbances (SED) </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-101 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-101" name="filters[field_program][101]" value="101" class="form-checkbox" />  <label for="edit-filters-field-program-101">Dependent Care Tax Credit </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-106 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-106" name="filters[field_program][106]" value="106" class="form-checkbox" />  <label for="edit-filters-field-program-106">Domestic violence service programs </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-466 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-466" name="filters[field_program][466]" value="466" class="form-checkbox" />  <label for="edit-filters-field-program-466">Earned Income Tax Credit (EITC) </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-16 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-16" name="filters[field_program][16]" value="16" class="form-checkbox" />  <label for="edit-filters-field-program-16">Formerly Food Stamp Program </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-471 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-471" name="filters[field_program][471]" value="471" class="form-checkbox" />  <label for="edit-filters-field-program-471">Foster Care </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-476 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-476" name="filters[field_program][476]" value="476" class="form-checkbox" />  <label for="edit-filters-field-program-476">General Assistance </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-481 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-481" name="filters[field_program][481]" value="481" class="form-checkbox" />  <label for="edit-filters-field-program-481">Head Start </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-486 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-486" name="filters[field_program][486]" value="486" class="form-checkbox" />  <label for="edit-filters-field-program-486">Health Care for the Homeless (HCH) </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-491 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-491" name="filters[field_program][491]" value="491" class="form-checkbox" />  <label for="edit-filters-field-program-491">Healthy People </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-496 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-496" name="filters[field_program][496]" value="496" class="form-checkbox" />  <label for="edit-filters-field-program-496">Homelessness programs </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-501 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-501" name="filters[field_program][501]" value="501" class="form-checkbox" />  <label for="edit-filters-field-program-501">Housing assistance programs </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-506 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-506" name="filters[field_program][506]" value="506" class="form-checkbox" />  <label for="edit-filters-field-program-506">Indian Health Service Programs </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-26 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-26" name="filters[field_program][26]" value="26" class="form-checkbox" />  <label for="edit-filters-field-program-26">Infants </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-511 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-511" name="filters[field_program][511]" value="511" class="form-checkbox" />  <label for="edit-filters-field-program-511">Low-Income Home Energy Assistance Program (LIHEAP) </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-516 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-516" name="filters[field_program][516]" value="516" class="form-checkbox" />  <label for="edit-filters-field-program-516">Maternal and Child Health Services (MCHS) </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-521 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-521" name="filters[field_program][521]" value="521" class="form-checkbox" />  <label for="edit-filters-field-program-521">Medicaid </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-526 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-526" name="filters[field_program][526]" value="526" class="form-checkbox" />  <label for="edit-filters-field-program-526">Medicare </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-531 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-531" name="filters[field_program][531]" value="531" class="form-checkbox" />  <label for="edit-filters-field-program-531">Nursing Home Transition Programs </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-536 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-536" name="filters[field_program][536]" value="536" class="form-checkbox" />  <label for="edit-filters-field-program-536">Program of All-Inclusive Care for the Elderly (PACE) </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-541 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-541" name="filters[field_program][541]" value="541" class="form-checkbox" />  <label for="edit-filters-field-program-541">Projects for Assistance in Transition from Homelessness (PATH) </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-546 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-546" name="filters[field_program][546]" value="546" class="form-checkbox" />  <label for="edit-filters-field-program-546">Refugee Resettlement Programs </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-551 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-551" name="filters[field_program][551]" value="551" class="form-checkbox" />  <label for="edit-filters-field-program-551">Runaway and Homeless Youth (RHY) </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-556 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-556" name="filters[field_program][556]" value="556" class="form-checkbox" />  <label for="edit-filters-field-program-556">School feeding programs (lunch, breakfast, etc.) </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-561 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-561" name="filters[field_program][561]" value="561" class="form-checkbox" />  <label for="edit-filters-field-program-561">Social Security Disability Insurance (SSDI) </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-566 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-566" name="filters[field_program][566]" value="566" class="form-checkbox" />  <label for="edit-filters-field-program-566">Social Security Retirement </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-571 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-571" name="filters[field_program][571]" value="571" class="form-checkbox" />  <label for="edit-filters-field-program-571">Social Services Block Grant (SSBG) </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-576 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-576" name="filters[field_program][576]" value="576" class="form-checkbox" />  <label for="edit-filters-field-program-576">Special Supplemental Nutrition Program for Women, Infants, and Children (WIC) </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-581 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-581" name="filters[field_program][581]" value="581" class="form-checkbox" />  <label for="edit-filters-field-program-581">Substance Abuse and Mental Health Services </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-586 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-586" name="filters[field_program][586]" value="586" class="form-checkbox" />  <label for="edit-filters-field-program-586">Substance Abuse Prevention and Treatment (SAPT) </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-591 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-591" name="filters[field_program][591]" value="591" class="form-checkbox" />  <label for="edit-filters-field-program-591">Supplemental Nutrition Assistance Program (SNAP) </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-596 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-596" name="filters[field_program][596]" value="596" class="form-checkbox" />  <label for="edit-filters-field-program-596">Supplemental Security Income (SSI) </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-31 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-31" name="filters[field_program][31]" value="31" class="form-checkbox" />  <label for="edit-filters-field-program-31">Teen Pregnancy Prevention </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-601 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-601" name="filters[field_program][601]" value="601" class="form-checkbox" />  <label for="edit-filters-field-program-601">Temporary Assistance for Needy Families (TANF) </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-606 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-606" name="filters[field_program][606]" value="606" class="form-checkbox" />  <label for="edit-filters-field-program-606">Transitional Living for Homeless Youth </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-611 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-611" name="filters[field_program][611]" value="611" class="form-checkbox" />  <label for="edit-filters-field-program-611">Treatment for Homeless Persons Program (formerly the Addiction Treatment for Homeless Persons Program) </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-616 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-616" name="filters[field_program][616]" value="616" class="form-checkbox" />  <label for="edit-filters-field-program-616">Unemployment Insurance (UI) </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-621 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-621" name="filters[field_program][621]" value="621" class="form-checkbox" />  <label for="edit-filters-field-program-621">Veteran's Programs </label>
+
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-6 form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-program-6" name="filters[field_program][6]" value="6" class="form-checkbox" />  <label for="edit-filters-field-program-6">Women, Infants, and Children (WIC) </label>
+
+</div>
+</div>
+</div>
+<div class="date-range"><div><label><em class="placeholder">Publication Date</em> Range</label></div><div class="form-type-checkbox form-item-filters-field-release-date-isdrb form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-release-date-isdrb" name="filters[field_release_date][isdrb]" value="1" class="form-checkbox" />  <label for="edit-filters-field-release-date-isdrb">From </label>
+
+</div>
+<div  class="container-inline-date"><div class="form-type-date-popup form-item-filters-field-release-date-drb form-item form-group">
+ <div id="edit-filters-field-release-date-drb"  class="date-padding"><div class="form-type-textfield form-item-filters-field-release-date-drb-date form-item form-group">
+  <label class="element-invisible" for="edit-filters-field-release-date-drb-datepicker-popup-0">Date </label>
+ <input class="form-control form-text" type="text" id="edit-filters-field-release-date-drb-datepicker-popup-0" name="filters[field_release_date][drb][date]" value="04/26/2017" size="20" maxlength="30" />
+<p class="help-block"> E.g., 04/26/2017</p>
+</div>
+</div>
+</div>
+</div><div class="form-type-checkbox form-item-filters-field-release-date-isdre form-item checkbox">
+ <input type="checkbox" id="edit-filters-field-release-date-isdre" name="filters[field_release_date][isdre]" value="1" class="form-checkbox" />  <label for="edit-filters-field-release-date-isdre">To </label>
+
+</div>
+<div  class="container-inline-date"><div class="form-type-date-popup form-item-filters-field-release-date-dre form-item form-group">
+ <div id="edit-filters-field-release-date-dre"  class="date-padding"><div class="form-type-textfield form-item-filters-field-release-date-dre-date form-item form-group">
+  <label class="element-invisible" for="edit-filters-field-release-date-dre-datepicker-popup-0">Date </label>
+ <input class="form-control form-text" type="text" id="edit-filters-field-release-date-dre-datepicker-popup-0" name="filters[field_release_date][dre][date]" value="04/26/2017" size="20" maxlength="30" />
+<p class="help-block"> E.g., 04/26/2017</p>
+</div>
+</div>
+</div>
+</div></div><div class="form-type-radios form-item-filters-per-page form-item form-group">
+  <label for="edit-filters-per-page">Results per page </label>
+ <div id="edit-filters-per-page" class="form-radios"><div class="form-type-radio form-item-filters-per-page form-item radio">
+ <input type="radio" id="edit-filters-per-page-10" name="filters[per_page]" value="10" class="form-radio" />  <label for="edit-filters-per-page-10">10 </label>
+
+</div>
+<div class="form-type-radio form-item-filters-per-page form-item radio">
+ <input type="radio" id="edit-filters-per-page-20" name="filters[per_page]" value="20" checked="checked" class="form-radio" />  <label for="edit-filters-per-page-20">20 </label>
+
+</div>
+<div class="form-type-radio form-item-filters-per-page form-item radio">
+ <input type="radio" id="edit-filters-per-page-50" name="filters[per_page]" value="50" class="form-radio" />  <label for="edit-filters-per-page-50">50 </label>
+
+</div>
+<div class="form-type-radio form-item-filters-per-page form-item radio">
+ <input type="radio" id="edit-filters-per-page-100" name="filters[per_page]" value="100" class="form-radio" />  <label for="edit-filters-per-page-100">100 </label>
+
+</div>
+</div>
+</div>
+<div class="reset-filters"><a href="/basic-search/topics" class="active">Reset Filters</a></div><div class="container-inline form-actions form-inline form-wrapper" id="edit-filters-actions"><input class="btn btn-default form-submit" type="submit" id="edit-filters-actions-submit" name="op" value="Filter" /></div></div></div></fieldset>
+<input type="hidden" name="form_build_id" value="form-LXIoFyZ90HNx9N4-MJPltMr4-CMQ4FhDsvdYhQ-uu1I" />
+<input type="hidden" name="form_id" value="ext_search_page_search_form" />
+<input type="hidden" name="keys" value="topics" />
+</div></form>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-12 col-md-9 " id="content">
+                          
+                              <div id="block-aspe-aspe-addthis" class="widget block block-aspe" >
+  
+      
+  <div class="clearfix">
+  <ul class="addthis_sharing_toolbox node-share__links" data-url="https://aspe.hhs.gov/basic-search/topics" data-title="Search">
+    <li><a class="addthis_button_print"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/print-white.png" alt="print" /></a></li>
+    <li><a class="addthis_button_email"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/mail-white.png" alt="email" /></a></li>
+    <li><a class="addthis_button_twitter"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/tw.png" alt="twitter" /></a></li>
+<!--    <li><a class="addthis_button_facebook">--><!--</a></li>-->
+    <li><a class="addthis_button_compact"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/plus-white.png" alt="compact" /></a></li>
+  </ul>
+</div>
+
+  </div> <!-- /.block -->
+  <div id="block-search-api-page-basic-search" class="widget block block-search-api-page" >
+  
+      
+  <form action="/basic-search/topics?sort=field_release_date&amp;order=asc" method="post" id="search-api-page-search-form-basic-search" accept-charset="UTF-8"><div><div class="form-type-textfield form-item-keys-1 form-autocomplete form-item form-group">
+  <label class="element-invisible" for="edit-keys-1">Enter your keywords </label>
+ <div class="input-group"><input placeholder="Enter your search terms" class="auto_submit form-control form-text" data-search-api-autocomplete-search="search_api_page_basic_search" data-min-autocomplete-length="3" type="text" id="edit-keys-1" name="keys_1" value="topics" size="15" maxlength="128" /><span class="input-group-addon"><i class = "fa fa-refresh"></i></span></div><input type="hidden" id="edit-keys-1-autocomplete" value="https://aspe.hhs.gov/search_api_autocomplete/search_api_page_basic_search/-" disabled="disabled" class="autocomplete" />
+</div>
+<input type="hidden" name="id" value="1" />
+<input class="btn btn-default form-submit" type="submit" id="edit-submit-1" name="op" value="Search" /><input type="hidden" name="form_build_id" value="form-gk88Axismc7ttn2Ft2U88ADNe7T9K4-rXw48X5mALog" />
+<input type="hidden" name="form_id" value="search_api_page_search_form_basic_search" />
+</div></form>
+  </div> <!-- /.block -->
+
+<div class="view-search">
+  <p class="search-api-spellcheck-suggestion"></p>
+        <div id="block-search-api-sorts-search-sorts" class="widget block block-search-api-sorts" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sort</span> by</h3>
+		</div>
+    
+  <div class="item-list"><ul class="search-api-sorts"><li class="first"><a href="/basic-search/topics?sort=search_api_relevance&amp;order=desc" class="sort-item active">Relevance</a></li>
+<li><span class="search-api-sort-active"><a href="/basic-search/topics?sort=field_release_date&amp;order=desc" class="sort-item active-sort sort-asc active">Publication Date<img src="https://aspe.hhs.gov/misc/arrow-desc.png" width="13" height="13" alt="sort descending" title="Image of sort descending" /></a></span></li>
+<li class="last"><a href="/basic-search/topics?sort=views&amp;order=desc" class="sort-item active">Popularity</a></li>
+</ul></div>
+  </div> <!-- /.block -->
+  <div class="view-header">
+    1 - 20 of 1962  </div>
+          <div class="entry">
+    <div class="row">
+              <div class="col-sm-2 col-xs-3">
+          <figure class="thumbnail ">
+                          <div class="content-type-badge">
+                <img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/badge-site_page.png" alt="Site Page" />              </div>
+                                                                                    <img src="https://aspe.hhs.gov/system/files/styles/list-page-thumbnail/private/default_images_reports/default_report_image02.jpg?itok=aOGLx9lu" width="120" height="120" alt="National Institutes of Health" title="Image of National Institutes of Health" />          </figure>
+        </div>
+            <div class="col-sm-10 col-xs-9">
+        <h4 class="title">
+          <a href="/national-institutes-health">
+
+            
+            National Institutes of Health
+          </a>
+        </h4>
+        <div class="search-body-snippet">
+
+                                                                          TITLE:  National Longitudinal Mortality Study-National Death Index Record Linkage 
+  ACRONYM:   NLMS 
+  AGENCY/PROGRAM:  National Cancer Institute, National Institutes of Health....
+                      
+                                        </div>
+
+        <!--          </div>-->
+        
+                
+              </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="row">
+              <div class="col-sm-2 col-xs-3">
+          <figure class="thumbnail ">
+                          <div class="content-type-badge">
+                <img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/badge-site_page.png" alt="Site Page" />              </div>
+                                                                                    <img src="https://aspe.hhs.gov/system/files/styles/list-page-thumbnail/private/default_images_reports/default_report_image09.jpg?itok=3V03V4mr" width="120" height="120" alt="Centers for Disease Control and Prevention, Part 3" title="Image of Centers for Disease Control and Prevention, Part 3" />          </figure>
+        </div>
+            <div class="col-sm-10 col-xs-9">
+        <h4 class="title">
+          <a href="/centers-disease-control-and-prevention-part-3">
+
+            
+            Centers for Disease Control and Prevention, Part 3
+          </a>
+        </h4>
+        <div class="search-body-snippet">
+
+                                                                          TITLE:  Hispanic Health and Nutrition Examination Survey, 1982-84 
+  ACRONYM:  HHANES 
+  AGENCY/PROGRAM:  National Center for Health Statistics, Centers for Disease Control and Prevention...
+                      
+                                        </div>
+
+        <!--          </div>-->
+        
+                
+              </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="row">
+              <div class="col-sm-2 col-xs-3">
+          <figure class="thumbnail ">
+                                                                                    <img src="https://aspe.hhs.gov/system/files/styles/list-page-thumbnail/private/default_images_reports/default_report_image01.jpg?itok=hiqMobe1" width="120" height="120" alt="Illinois Study of Former TANF Clients, Final" title="Image of Illinois Study of Former TANF Clients, Final Report - Executive Summary" />          </figure>
+        </div>
+            <div class="col-sm-10 col-xs-9">
+        <h4 class="title">
+          <a href="/pdf-document/illinois-study-former-tanf-clients-final-report-executive-summary">
+
+            
+            Illinois Study of Former TANF Clients, Final Report - Executive Summary
+          </a>
+        </h4>
+        <div class="search-body-snippet">
+
+          
+                                        </div>
+
+        <!--          </div>-->
+        
+                
+              </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="row">
+              <div class="col-sm-2 col-xs-3">
+          <figure class="thumbnail ">
+                          <div class="content-type-badge">
+                <img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/badge-site_page.png" alt="Site Page" />              </div>
+                                                                                    <img src="https://aspe.hhs.gov/system/files/styles/list-page-thumbnail/private/default_images_reports/default_report_image10.jpg?itok=vjyaURt9" width="120" height="120" alt="Office of Human Services Policy" title="Image of Office of Human Services Policy" />          </figure>
+        </div>
+            <div class="col-sm-10 col-xs-9">
+        <h4 class="title">
+          <a href="/office-human-services-policy">
+
+            
+            Office of Human Services Policy
+          </a>
+        </h4>
+        <div class="search-body-snippet">
+
+                                                                          The  Office of Human Services Policy (HSP)  conducts policy research, analysis, evaluation, and coordination on various issues across the Department, including but not limited to, poverty and measurement, vulnerable populations, early childhood education and child welfare, family strengthening, economic support for families, and youth developme...
+                      
+                                        </div>
+
+        <!--          </div>-->
+        
+                
+              </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="row">
+              <div class="col-sm-2 col-xs-3">
+          <figure class="thumbnail ">
+                          <div class="content-type-badge">
+                <img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/badge-site_page.png" alt="Site Page" />              </div>
+                                                                                    <img src="https://aspe.hhs.gov/system/files/styles/list-page-thumbnail/private/default_images_reports/default_report_image03.jpg?itok=eBnc5g3-" width="120" height="120" alt="Office of Health Policy (HP)" title="Image of Office of Health Policy (HP)" />          </figure>
+        </div>
+            <div class="col-sm-10 col-xs-9">
+        <h4 class="title">
+          <a href="/office-health-policy-hp">
+
+            
+            Office of Health Policy (HP)
+          </a>
+        </h4>
+        <div class="search-body-snippet">
+
+                                                                          HP provides a cross-cutting policy perspective that bridges Departmental programs, public and private sector activities, and the research community, in order to develop, analyze, coordinate and provide leadership on health policy issues for the Secretary....
+                      
+                                        </div>
+
+        <!--          </div>-->
+        
+                
+              </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="row">
+              <div class="col-sm-2 col-xs-3">
+          <figure class="thumbnail ">
+                          <div class="content-type-badge">
+                <img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/badge-site_page.png" alt="Site Page" />              </div>
+                                                                                    <img src="https://aspe.hhs.gov/system/files/styles/list-page-thumbnail/private/default_images_reports/default_report_image01.jpg?itok=hiqMobe1" width="120" height="120" alt="Office of Disability, Aging and Long-Term Care" title="Image of Office of Disability, Aging and Long-Term Care Policy (DALTCP)" />          </figure>
+        </div>
+            <div class="col-sm-10 col-xs-9">
+        <h4 class="title">
+          <a href="/office-disability-aging-and-long-term-care-policy-daltcp">
+
+            
+            Office of Disability, Aging and Long-Term Care Policy (DALTCP)
+          </a>
+        </h4>
+        <div class="search-body-snippet">
+
+                                                                          DALTCP provides leadership on HHS policies that support the independence, health and productivity of elderly
+    individuals and people with disabilities. DALTCP staff work on long-term care, post-acute care, personal assistance
+    services, family care giving, integrated care (including for dual eligibles), rehabilitative services, employmen...
+                      
+                                        </div>
+
+        <!--          </div>-->
+        
+                
+              </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="row">
+              <div class="col-sm-2 col-xs-3">
+          <figure class="thumbnail ">
+                          <div class="content-type-badge">
+                <img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/badge-site_page.png" alt="Site Page" />              </div>
+                                                                                    <img src="https://aspe.hhs.gov/system/files/styles/list-page-thumbnail/private/default_images_reports/default_report_image01.jpg?itok=hiqMobe1" width="120" height="120" alt="Office of Science and Data Policy" title="Image of Office of Science and Data Policy" />          </figure>
+        </div>
+            <div class="col-sm-10 col-xs-9">
+        <h4 class="title">
+          <a href="/office-science-and-data-policy">
+
+            
+            Office of Science and Data Policy
+          </a>
+        </h4>
+        <div class="search-body-snippet">
+
+                                                                          ...
+                      
+                                        </div>
+
+        <!--          </div>-->
+        
+                
+              </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="row">
+              <div class="col-sm-2 col-xs-3">
+          <figure class="thumbnail ">
+                          <div class="content-type-badge">
+                <img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/badge-site_page.png" alt="Site Page" />              </div>
+                                                                                    <img src="https://aspe.hhs.gov/system/files/styles/list-page-thumbnail/private/default_images_reports/default_report_image04.jpg?itok=IB88rN9I" width="120" height="120" alt="Coordination" title="Image of Coordination" />          </figure>
+        </div>
+            <div class="col-sm-10 col-xs-9">
+        <h4 class="title">
+          <a href="/coordination">
+
+            
+            Coordination
+          </a>
+        </h4>
+        <div class="search-body-snippet">
+
+                                                                          One of ASPE’s roles is to coordinate interdepartmental and intradepartmental activities on a range of health and human services topics. 
+ ASPE has a lead role in coordinating the following efforts: 
+  National Alzheimer’s Plan Act FACA 
+  Interagency Working Group on Youth Programs  
+  HHS Data Council   
+  National Committee on Vital and Heal...
+                      
+                                        </div>
+
+        <!--          </div>-->
+        
+                
+              </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="row">
+              <div class="col-sm-2 col-xs-3">
+          <figure class="thumbnail ">
+                          <div class="content-type-badge">
+                <img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/badge-site_page.png" alt="Site Page" />              </div>
+                                                                                    <img src="https://aspe.hhs.gov/system/files/styles/list-page-thumbnail/private/default_images_reports/default_report_image10.jpg?itok=vjyaURt9" width="120" height="120" alt="Strategic Planning" title="Image of Strategic Planning" />          </figure>
+        </div>
+            <div class="col-sm-10 col-xs-9">
+        <h4 class="title">
+          <a href="/strategic-planning">
+
+            
+            Strategic Planning
+          </a>
+        </h4>
+        <div class="search-body-snippet">
+
+                                                                          The  Strategic Planning Team  leads the development of the  HHS Strategic Plan , ensuring that it reflects the activities that HHS is undertaking over the next four years. The Team aligns the HHS Strategic Plan's goals and objectives with our Priority Goals, the Secretary’s priorities, and other, topic-specific strategic plans implemented by the...
+                      
+                                        </div>
+
+        <!--          </div>-->
+        
+                
+              </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="row">
+              <div class="col-sm-2 col-xs-3">
+          <figure class="thumbnail ">
+                          <div class="content-type-badge">
+                <img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/badge-site_page.png" alt="Site Page" />              </div>
+                                                                                    <img src="https://aspe.hhs.gov/system/files/styles/list-page-thumbnail/private/default_images_reports/default_report_image05.jpg?itok=x0wnfHaE" width="120" height="120" alt="Division of Health Care Financing Policy" title="Image of Division of Health Care Financing Policy" />          </figure>
+        </div>
+            <div class="col-sm-10 col-xs-9">
+        <h4 class="title">
+          <a href="/division-health-care-financing-policy">
+
+            
+            Division of Health Care Financing Policy
+          </a>
+        </h4>
+        <div class="search-body-snippet">
+
+                                                                          The Division of Health Care Financing Policy (HFP)  is responsible for research, policy analysis and evaluation of HHS’s health financing programs, primarily Medicare, and policies affecting health care financing, delivery system reform and health care costs. Relevant topic areas include:...
+                      
+                                        </div>
+
+        <!--          </div>-->
+        
+                
+              </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="row">
+              <div class="col-sm-2 col-xs-3">
+          <figure class="thumbnail ">
+                          <div class="content-type-badge">
+                <img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/badge-site_page.png" alt="Site Page" />              </div>
+                                                                                    <img src="https://aspe.hhs.gov/system/files/styles/list-page-thumbnail/private/default_images_reports/default_report_image05.jpg?itok=x0wnfHaE" width="120" height="120" alt="Division of Public Health Services" title="Image of Division of Public Health Services" />          </figure>
+        </div>
+            <div class="col-sm-10 col-xs-9">
+        <h4 class="title">
+          <a href="/division-public-health-services">
+
+            
+            Division of Public Health Services
+          </a>
+        </h4>
+        <div class="search-body-snippet">
+
+                                                                          The Division of Public Health Services (PHS)  is responsible for public health services programs and policies. PHS works with Departmental components, particularly those that fund the provision of direct care to vulnerable populations, including primary care, clinical preventive services, and related support services. These include the Health Res...
+                      
+                                        </div>
+
+        <!--          </div>-->
+        
+                
+              </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="row">
+              <div class="col-sm-2 col-xs-3">
+          <figure class="thumbnail ">
+                          <div class="content-type-badge">
+                <img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/badge-site_page.png" alt="Site Page" />              </div>
+                                                                                    <img src="https://aspe.hhs.gov/system/files/styles/list-page-thumbnail/private/default_images_reports/default_report_image05.jpg?itok=x0wnfHaE" width="120" height="120" alt="Division of Health Care Access and Coverage" title="Image of Division of Health Care Access and Coverage" />          </figure>
+        </div>
+            <div class="col-sm-10 col-xs-9">
+        <h4 class="title">
+          <a href="/division-health-care-access-and-coverage">
+
+            
+            Division of Health Care Access and Coverage
+          </a>
+        </h4>
+        <div class="search-body-snippet">
+
+                                                                          The Division of Health Care Access and Coverage (HAC)  is responsible for issues relevant to the new Health Insurance Marketplaces, the Medicaid and CHIP programs, and private health insurance reforms. A primary focus is access to care via public or private health insurance coverage for low-income and uninsured individuals and families. HAC provi...
+                      
+                                        </div>
+
+        <!--          </div>-->
+        
+                
+              </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="row">
+              <div class="col-sm-2 col-xs-3">
+          <figure class="thumbnail ">
+                          <div class="content-type-badge">
+                <img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/badge-site_page.png" alt="Site Page" />              </div>
+                                                                                    <img src="https://aspe.hhs.gov/system/files/styles/list-page-thumbnail/private/default_images_reports/default_report_image05.jpg?itok=x0wnfHaE" width="120" height="120" alt="Division of Health Care Quality and Outcomes" title="Image of Division of Health Care Quality and Outcomes" />          </figure>
+        </div>
+            <div class="col-sm-10 col-xs-9">
+        <h4 class="title">
+          <a href="/division-health-care-quality-and-outcomes">
+
+            
+            Division of Health Care Quality and Outcomes
+          </a>
+        </h4>
+        <div class="search-body-snippet">
+
+                                                                          The Division of Health Care Quality and Outcomes (HQO)  is responsible for analysis, coordination, research, and evaluation of policies related to health care quality and outcomes. HQO’s responsibilities include long-range planning, data development and analysis, program oversight, analysis of regulations and legislation, review and conduct of...
+                      
+                                        </div>
+
+        <!--          </div>-->
+        
+                
+              </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="row">
+              <div class="col-sm-2 col-xs-3">
+          <figure class="thumbnail ">
+                          <div class="content-type-badge">
+                <img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/badge-site_page.png" alt="Site Page" />              </div>
+                                                                                    <img src="https://aspe.hhs.gov/system/files/styles/list-page-thumbnail/private/default_images_reports/default_report_image05.jpg?itok=x0wnfHaE" width="120" height="120" alt="Early Childhood" title="Image of Early Childhood" />          </figure>
+        </div>
+            <div class="col-sm-10 col-xs-9">
+        <h4 class="title">
+          <a href="/early-childhood">
+
+            
+            Early Childhood
+          </a>
+        </h4>
+        <div class="search-body-snippet">
+
+                                                                          Providing children with high quality early learning and development opportunities in the first years of their lives can have lasting consequences for their health and well-being throughout childhood and into adolescence and adulthood. Research has shown that when children face adversity in their early years, policies and programs that provide chil...
+                      
+                                        </div>
+
+        <!--          </div>-->
+        
+                
+              </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="row">
+              <div class="col-sm-2 col-xs-3">
+          <figure class="thumbnail ">
+                          <div class="content-type-badge">
+                <img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/badge-site_page.png" alt="Site Page" />              </div>
+                                                                                    <img src="https://aspe.hhs.gov/system/files/styles/list-page-thumbnail/private/default_images_reports/default_report_image06.jpg?itok=xiF-9oVT" width="120" height="120" alt="A Chronological Bibliography of Mollie Orshansky’" title="Image of A Chronological Bibliography of Mollie Orshansky’s Publications" />          </figure>
+        </div>
+            <div class="col-sm-10 col-xs-9">
+        <h4 class="title">
+          <a href="/chronological-bibliography-mollie-orshansky’s-publications">
+
+            
+            A Chronological Bibliography of Mollie Orshansky’s Publications
+          </a>
+        </h4>
+        <div class="search-body-snippet">
+
+                                                                          A Chronological Bibliography of Mollie Orshansky’s Publications 
+ (Including Congressional Testimony) 
+ Compiled and annotated by Gordon M. Fisher...
+                      
+                                        </div>
+
+        <!--          </div>-->
+        
+                
+              </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="row">
+              <div class="col-sm-2 col-xs-3">
+          <figure class="thumbnail ">
+                          <div class="content-type-badge">
+                <img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/badge-site_page.png" alt="Site Page" />              </div>
+                                                                                    <img src="https://aspe.hhs.gov/system/files/styles/list-page-thumbnail/private/default_images_reports/default_report_image04.jpg?itok=IB88rN9I" width="120" height="120" alt="Poverty Estimates, Trends, and Analysis" title="Image of Poverty Estimates, Trends, and Analysis" />          </figure>
+        </div>
+            <div class="col-sm-10 col-xs-9">
+        <h4 class="title">
+          <a href="/poverty-estimates-trends-and-analysis">
+
+            
+            Poverty Estimates, Trends, and Analysis
+          </a>
+        </h4>
+        <div class="search-body-snippet">
+
+                                                                          People and families are considered poor when they lack the economic resources necessary to experience a minimally-sufficient standard of living. Official U.S. Census Bureau statistics estimate that 43 million persons, 13.5 percent of the total population, were poor in the United States in 2015. The topic of poverty is widely considered a cause...
+                      
+                                        </div>
+
+        <!--          </div>-->
+        
+                
+              </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="row">
+              <div class="col-sm-2 col-xs-3">
+          <figure class="thumbnail ">
+                          <div class="content-type-badge">
+                <img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/badge-site_page.png" alt="Site Page" />              </div>
+                                                                                    <img src="https://aspe.hhs.gov/system/files/styles/list-page-thumbnail/private/default_images_reports/default_report_image04.jpg?itok=IB88rN9I" width="120" height="120" alt="Study of HHS Programs Serving Human Trafficking" title="Image of Study of HHS Programs Serving Human Trafficking Victims" />          </figure>
+        </div>
+            <div class="col-sm-10 col-xs-9">
+        <h4 class="title">
+          <a href="/study-hhs-programs-serving-human-trafficking-victims">
+
+            
+            Study of HHS Programs Serving Human Trafficking Victims
+          </a>
+        </h4>
+        <div class="search-body-snippet">
+
+                                                                          Principal Investigator:  
+	Heather Clawson 
+	Caliber, an ICF International Company 
+  Prepared for:   Office of the Assistant Secretary for Planning and Evaluation (ASPE)   Office of Refugee Resettlement (ORR)   U.S. Department of Health &amp; Human Services...
+                      
+                                        </div>
+
+        <!--          </div>-->
+        
+                
+              </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="row">
+              <div class="col-sm-2 col-xs-3">
+          <figure class="thumbnail ">
+                          <div class="content-type-badge">
+                <img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/badge-site_page.png" alt="Site Page" />              </div>
+                                                                                    <img src="https://aspe.hhs.gov/system/files/styles/list-page-thumbnail/private/default_images_reports/default_report_image09.jpg?itok=3V03V4mr" width="120" height="120" alt="TANF &amp;amp;#147;Leavers&amp;amp;#148;, Applicants, and" title="Image of TANF &amp;amp;#147;Leavers&amp;amp;#148;, Applicants, and Caseload Studies: Study  Design" />          </figure>
+        </div>
+            <div class="col-sm-10 col-xs-9">
+        <h4 class="title">
+          <a href="/tanf-leavers-applicants-and-caseload-studies-study-design">
+
+            
+            TANF "Leavers" Applicants, and Caseload Studies: Study Design
+          </a>
+        </h4>
+        <div class="search-body-snippet">
+
+                                                                          Including: 
+   Strategies for Achieving High Response Rates on Surveys  
+  Designing Surveys  
+  Designing Surveys that Examine Current TANF Caseload  
+  Cross State Comparability  
+   ...
+                      
+                                        </div>
+
+        <!--          </div>-->
+        
+                
+              </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="row">
+              <div class="col-sm-2 col-xs-3">
+          <figure class="thumbnail ">
+                          <div class="content-type-badge">
+                <img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/badge-site_page.png" alt="Site Page" />              </div>
+                                                                                    <img src="https://aspe.hhs.gov/system/files/styles/list-page-thumbnail/private/default_images_reports/default_report_image03.jpg?itok=eBnc5g3-" width="120" height="120" alt="TANF &quot;Leavers&quot;, Applicants, and" title="Image of TANF &amp;quot;Leavers&amp;quot;, Applicants, and Caseload Studies: FY 1998 Welfare Outcomes Grants with an Emphasis on TANF Leavers" />          </figure>
+        </div>
+            <div class="col-sm-10 col-xs-9">
+        <h4 class="title">
+          <a href="/tanf-leavers-applicants-and-caseload-studies-fy-1998-welfare-outcomes-grants-emphasis-tanf-leavers">
+
+            
+            TANF "Leavers", Applicants, and Caseload Studies: FY 1998 Welfare Outcomes Grants with an Emphasis on TANF Leavers
+          </a>
+        </h4>
+        <div class="search-body-snippet">
+
+                                                                          ASPE awarded approximately $2.9 million in grants to states and counties in FY 1998 to study the outcomes of welfare reform on individuals and families who left the TANF program, who applied for cash welfare but were never enrolled because of non-financial eligibility requirements or diversion programs, and/or who appeared to be eligible but were...
+                      
+                                        </div>
+
+        <!--          </div>-->
+        
+                
+              </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="row">
+              <div class="col-sm-2 col-xs-3">
+          <figure class="thumbnail ">
+                          <div class="content-type-badge">
+                <img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/badge-site_page.png" alt="Site Page" />              </div>
+                                                                                    <img src="https://aspe.hhs.gov/system/files/styles/list-page-thumbnail/private/default_images_reports/default_report_image08.jpg?itok=vgcc9_Ns" width="120" height="120" alt="TANF &quot;Leavers&quot;, Applicants, and" title="Image of TANF &amp;quot;Leavers&amp;quot;, Applicants, and Caseload Studies: Data Files: Misssouri Public Use Data Files" />          </figure>
+        </div>
+            <div class="col-sm-10 col-xs-9">
+        <h4 class="title">
+          <a href="/tanf-leavers-applicants-and-caseload-studies-data-files-misssouri-public-use-data-files">
+
+            
+            TANF "Leavers", Applicants, and Caseload Studies: Data Files: Misssouri Public Use Data Files
+          </a>
+        </h4>
+        <div class="search-body-snippet">
+
+                                                                          File Name 
+ Size 
+ File Type 
+ File Contents 
+ Description 
+   Notes to Researchers.doc* 
+ 28KB 
+ Microsoft Word 
+ Notes for Researchers Using the Missouri Study of Former AFDC Recipients Public Use Data Sets...
+                      
+                                        </div>
+
+        <!--          </div>-->
+        
+                
+              </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+<h2 class="element-invisible">Pages</h2><div class="text-center"><div class="item-list"><ul class="pagination-custom list-unstyled list-inline"><li class="pager-current first"><a href = "#" class = "btn btn-sm btn-primary">1</a></li>
+<li class="pager-item"><a title="Go to page 2" class="btn btn-sm btn-default" href="/basic-search/topics?page=1&amp;sort=field_release_date&amp;order=asc">2</a></li>
+<li class="pager-item"><a title="Go to page 3" class="btn btn-sm btn-default" href="/basic-search/topics?page=2&amp;sort=field_release_date&amp;order=asc">3</a></li>
+<li class="pager-item"><a title="Go to page 4" class="btn btn-sm btn-default" href="/basic-search/topics?page=3&amp;sort=field_release_date&amp;order=asc">4</a></li>
+<li class="pager-item"><a title="Go to page 5" class="btn btn-sm btn-default" href="/basic-search/topics?page=4&amp;sort=field_release_date&amp;order=asc">5</a></li>
+<li class="pager-item"><a title="Go to page 6" class="btn btn-sm btn-default" href="/basic-search/topics?page=5&amp;sort=field_release_date&amp;order=asc">6</a></li>
+<li class="pager-item"><a title="Go to page 7" class="btn btn-sm btn-default" href="/basic-search/topics?page=6&amp;sort=field_release_date&amp;order=asc">7</a></li>
+<li class="pager-item"><a title="Go to page 8" class="btn btn-sm btn-default" href="/basic-search/topics?page=7&amp;sort=field_release_date&amp;order=asc">8</a></li>
+<li class="pager-item"><a title="Go to page 9" class="btn btn-sm btn-default" href="/basic-search/topics?page=8&amp;sort=field_release_date&amp;order=asc">9</a></li>
+<li class="pager-ellipsis">…</li>
+<li class="pager-next"><a title="Go to next page" class="btn btn-sm btn-default" href="/basic-search/topics?page=1&amp;sort=field_release_date&amp;order=asc">»</a></li>
+<li class="pager-last hidden-pager last"><a title="Go to last page" class="btn btn-sm btn-default" href="/basic-search/topics?page=98&amp;sort=field_release_date&amp;order=asc">last »</a></li>
+</ul></div></div>    
+  </div>
+<meta  itemscope="" itemid="https://aspe.hhs.gov/national-institutes-health" itemref="md1 md2" /><meta  itemscope="" itemid="https://aspe.hhs.gov/centers-disease-control-and-prevention-part-3" itemref="md3 md4" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-document/illinois-study-former-tanf-clients-final-report-executive-summary" itemref="md5" /><meta  itemscope="" itemid="https://aspe.hhs.gov/office-human-services-policy" itemref="md6 md87" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/impact-couples-based-family-strengthening-services-incarcerated-and-reentering-fathers-and-their-partners" itemref="md7 md31 md63" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/predictors-reentry-success" itemref="md8 md32 md64" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/well-being-young-children-experiencing-homelessness" itemref="md9 md33 md65 md1794 md1806 md2406" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/building-evidence-domestic-violence-services-interventions-framing-paper" itemref="md10 md34 md66" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/building-evidence-domestic-violence-services-interventions-challenges-areas-opportunity-and-research-priorities" itemref="md11 md35 md67" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/exploring-relationship-between-paid-family-leave-and-well-being-low-income-families-lessons-california" itemref="md12 md36 md68 md1795 md1807 md2407" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/factors-associated-reduced-expulsion-center-based-early-learning-settings-preliminary-findings-national-survey-early-care-and-education-nsece" itemref="md13 md37 md69 md1798 md1810 md2410" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/planning-and-implementation-rural-impact-demonstration" itemref="md14 md38 md70" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/report-congress-presenting-hhss-response-recommendations-commission-eliminate-child-abuse-and-neglect-fatalities" itemref="md15 md39 md71 md1801 md1813 md2413" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/welfare-indicators-and-risk-factors-fifteenth-report-congress" itemref="md16 md40 md72" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/parenting-and-partnership-when-fathers-return-prison-findings-qualitative-analysis" itemref="md17 md41 md73" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/family-interventions-youth-experiencing-or-risk-homelessness" itemref="md18 md42 md74" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/adolescent-well-being-after-experiencing-family-homelessness" itemref="md19 md43 md75" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/differential-response-and-safety-children-reported-child-protective-services-tale-six-states" itemref="md20 md44 md76 md1802 md1814 md2414" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/children-living-apart-their-parents-highlights-national-survey-children-nonparental-care" itemref="md21 md45 md77 md1803 md1815 md2415" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/importance-medicaid-coverage-criminal-justice-involved-individuals-reentering-their-communities" itemref="md22 md46 md78" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/health-coverage-and-care-reentering-men-what-difference-can-it-make" itemref="md23 md47 md79" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/health-coverage-homeless-and-risk-youth" itemref="md24 md48 md80" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/are-homeless-families-connected-social-safety-net" itemref="md25 md49 md81" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/child-ssi-program-and-changing-safety-net-pathways-ssi" itemref="md26 md50 md82" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/child-ssi-program-and-changing-safety-net-ssi-and-tanf-program-coordination" itemref="md27 md51 md83" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/why-health-matters-low-income-fathers" itemref="md28 md52 md56 md84" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/estimates-child-care-eligibility-and-receipt-fiscal-year-2012" itemref="md29 md53 md58 md85 md1805 md1817 md1831 md2417" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/experiences-families-during-father%E2%80%99s-incarceration-descriptive-findings-baseline-data-collection-multi-site-family-study-incarceration-parenting-and-partnering" itemref="md30 md54 md60 md62 md86" /><meta  itemscope="" itemid="https://aspe.hhs.gov/office-health-policy-hp" itemref="md88 md188" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/plan-selections-zip-code-and-county-health-insurance-marketplace-march-2016" itemref="md89 md124 md175" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/health-insurance-marketplace-uninsured-populations-eligible-enroll-2016" itemref="md90 md131 md182" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/how-many-individuals-might-have-marketplace-coverage-at-the-end-of-2016" itemref="md91 md132 md183" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/competition-and-choice-health-insurance-marketplaces-2014-2015-impact-premiums" itemref="md92 md133 md139 md141 md184" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/2015-plan-selections-county-health-insurance-marketplace" itemref="md93 md134 md145 md147 md186" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/outreach-and-enrollment-lgbt-individuals-promising-practices-field" itemref="md94 md135 md149 md151 md153 md155 md157 md159 md161 md163 md187" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/medicaid-expansion-impacts-insurance-coverage-and-access-care" itemref="md95 md113 md164" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/did-consumers-respond-changes-gross-premiums-or-changes-premiums-net-tax-credits-when-making-health-plan-choices-2016-aca-marketplaces" itemref="md96 md114 md165" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/effects-affordable-care-act-safety-net-hospitals" itemref="md97 md115 md166" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/national-health-service-corps-extended-analysis" itemref="md98 md116 md167" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/report-congress-social-risk-factors-and-performance-under-medicares-value-based-purchasing-programs" itemref="md99 md117 md168" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/health-plan-choice-and-premiums-2017-health-insurance-marketplace" itemref="md100 md118 md169" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/marketplace-enrollment-projections-2017" itemref="md101 md119 md170" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/rural-hospital-participation-and-performance-value-based-purchasing-and-other-delivery-system-reform-initiatives" itemref="md102 md120 md171" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/impacts-affordable-care-acts-medicaid-expansion-insurance-coverage-aand-access-care" itemref="md103 md121 md172" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/marketplace-premiums-after-shopping-switching-and-premium-tax-credits-2015-2016" itemref="md104 md122 md173" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/health-care-spending-growth-and-federal-policy" itemref="md105 md123 md174" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/health-insurance-marketplaces-2016-open-enrollment-period-final-enrollment-report" itemref="md106 md125 md176" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/medicare-part-b-drugs-pricing-and-incentives" itemref="md107 md126 md177" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/health-insurance-coverage-and-affordable-care-act-2010-2016" itemref="md108 md127 md178" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/community-health-workers-roles-and-opportunities-health-care-delivery-system-reform" itemref="md109 md128 md179" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/addendum-health-insurance-marketplaces-2016-open-enrollment-period-january-enrollment-report" itemref="md110 md129 md180" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/environmental-scan-programs-and-policies-addressing-health-disparities-among-rural-children-poverty" itemref="md111 md130 md137 md181" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/building-nations-health-care-workforce" itemref="md112 md143 md185" /><meta  itemscope="" itemid="https://aspe.hhs.gov/office-disability-aging-and-long-term-care-policy-daltcp" itemref="md189 md262" /><meta  itemscope="" itemid="https://aspe.hhs.gov/report/national-research-summit-care-services-and-supports-persons-dementia-and-their-caregivers-agenda-and-session-material" itemref="md190 md214 md238" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/advancing-integrated-care-lessons-minnesota" itemref="md191 md215 md239" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/use-1915i-medicaid-plan-option-individuals-mental-health-and-substance-use-disorders" itemref="md192 md217 md241" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/transition-rates-community-nursing-home-care-among-older-adult-medicaid-enrollees-2006-2009" itemref="md193 md219 md243" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/what-do-people-know-about-long-term-services-and-supports" itemref="md194 md220 md244" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/long-term-services-and-supports-what-are-concerns-and-what-are-people-willing-do" itemref="md195 md221 md245" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/which-way-long-term-services-and-supports-financing-reform" itemref="md196 md222 md246" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/choosing-long-term-care-insurance-policies-what-do-people-want" itemref="md197 md223 md247" /><meta  itemscope="" itemid="https://aspe.hhs.gov/report/national-plan-address-alzheimers-disease-2016-update" itemref="md198 md226 md250" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/picture-housing-and-health-part-2-medicare-and-medicaid-use-among-older-adults-hud-assisted-housing-controlling-confounding-factors" itemref="md199 md228 md252" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/older-adults-living-expenses-and-adequacy-income-allowances-medicaid-home-and-community-based-services" itemref="md200 md229 md253" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/later-life-household-wealth-and-after-disability-onset" itemref="md201 md230 md254" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/final-process-evaluation-balancing-incentive-program" itemref="md202 md231 md255" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/evaluation-medicaid-health-home-option-beneficiaries-chronic-conditions-progress-and-lessons-first-states-implementing-health-home-programs-annual-report-year-four" itemref="md203 md232 md256" /><meta  itemscope="" itemid="https://aspe.hhs.gov/report/minnesota-managed-care-longitudinal-data-analysis" itemref="md204 md233 md257" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/how-much-nursing-home-care-can-home-equity-finance" itemref="md205 md236 md260" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/county-experiences-medicaid-expansion-implementation-case-study-report" itemref="md206 md237 md261" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/use-1915i-medicaid-plan-option-individuals-mental-health-and-substance-use-disorders" itemref="md207 md216 md240" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/transition-rates-community-nursing-home-care-among-older-adult-medicaid-enrollees-2006-2009" itemref="md208 md218 md242" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/picture-housing-and-health-part-2-medicare-and-medicaid-use-among-older-adults-hud-assisted-housing-controlling-confounding-factors" itemref="md209 md224 md248" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/older-adults-living-expenses-and-adequacy-income-allowances-medicaid-home-and-community-based-services" itemref="md210 md225 md249" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/later-life-household-wealth-and-after-disability-onset" itemref="md211 md227 md251" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/benefits-medicaid-expansion-behavioral-health" itemref="md212 md234 md258" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/how-much-nursing-home-care-can-home-equity-finance" itemref="md213 md235 md259" /><meta  itemscope="" itemid="https://aspe.hhs.gov/office-science-and-data-policy" itemref="md263 md1768" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/hhs-action-plan-reduce-racial-and-ethnic-health-disparities-implementation-progress-report-2011-2014" itemref="md264 md294 md1750" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/valuing-utility-offsets-regulations-affecting-addictive-or-habitual-goods" itemref="md265 md295 md311 md313 md315 md317 md319 md321 md323 md325 md327 md329 md331 md333 md335 md337 md339 md341 md343 md345 md347 md349 md351 md353 md355 md357 md359 md361 md363 md365 md367 md369 md371 md1751" /><meta  itemscope="" itemid="https://aspe.hhs.gov/report/minimizing-disclosure-risk-hhs-open-data-initiatives" itemref="md266 md296 md379 md381 md383 md385 md387 md389 md391 md393 md395 md397 md399 md401 md403 md405 md407 md409 md411 md413 md415 md417 md419 md421 md423 md425 md427 md429 md431 md433 md435 md437 md439 md441 md443 md445 md447 md449 md451 md453 md455 md457 md459 md461 md463 md465 md467 md469 md471 md473 md475 md477 md479 md481 md483 md485 md487 md489 md491 md493 md495 md497 md499 md501 md503 md505 md507 md509 md511 md513 md515 md517 md519 md521 md523 md525 md527 md529 md531 md533 md1754" /><meta  itemscope="" itemid="https://aspe.hhs.gov/report/examination-clinical-trial-costs-and-barriers-drug-development" itemref="md267 md297 md535 md537 md539 md541 md543 md545 md547 md549 md551 md553 md555 md557 md559 md561 md563 md565 md567 md569 md571 md573 md575 md577 md579 md581 md583 md585 md587 md589 md591 md593 md595 md597 md599 md601 md603 md605 md607 md609 md611 md613 md615 md617 md619 md621 md623 md625 md627 md629 md631 md633 md635 md637 md639 md641 md643 md645 md647 md649 md651 md653 md655 md657 md659 md661 md663 md665 md667 md669 md671 md673 md675 md677 md679 md681 md1755" /><meta  itemscope="" itemid="https://aspe.hhs.gov/report/medicare-part-b-reimbursement-prescription-drugs" itemref="md268 md298 md683 md685 md687 md689 md691 md693 md695 md697 md699 md701 md703 md705 md707 md709 md711 md713 md715 md717 md719 md721 md1756" /><meta  itemscope="" itemid="https://aspe.hhs.gov/report/analytical-framework-examining-value-antibacterial-products" itemref="md269 md299 md723 md725 md727 md729 md731 md733 md735 md737 md739 md741 md743 md745 md747 md749 md751 md753 md755 md757 md759 md761 md763 md765 md767 md769 md771 md773 md775 md777 md779 md781 md783 md785 md787 md789 md791 md793 md795 md797 md799 md801 md803 md805 md807 md809 md811 md813 md815 md817 md819 md821 md823 md825 md827 md829 md831 md833 md835 md837 md839 md841 md843 md845 md847 md849 md851 md853 md855 md857 md859 md861 md863 md865 md867 md1757" /><meta  itemscope="" itemid="https://aspe.hhs.gov/report/rapid-evaluation-approaches-complex-initiatives" itemref="md270 md300 md869 md871 md873 md875 md877 md879 md881 md883 md885 md887 md889 md891 md893 md895 md897 md899 md901 md903 md905 md907 md909 md911 md913 md915 md917 md919 md921 md923 md925 md927 md929 md931 md933 md935 md937 md939 md941 md943 md945 md947 md949 md951 md953 md955 md957 md959 md961 md963 md965 md967 md969 md1758 md1787 md1823 md2027 md2029 md2031 md2033 md2035 md2037 md2039 md2041 md2043 md2045 md2047 md2049 md2051 md2053 md2055 md2057 md2059 md2061 md2063 md2065 md2067 md2069 md2071 md2073 md2075 md2077 md2079 md2081 md2083 md2085 md2087 md2089 md2091 md2093 md2095 md2097 md2099 md2101 md2103 md2105 md2107 md2109 md2111 md2113 md2115 md2117 md2119 md2121 md2123 md2125 md2127 md2423" /><meta  itemscope="" itemid="https://aspe.hhs.gov/report/understanding-disparities-persons-multiple-chronic-conditions-research-approaches-and-datasets" itemref="md271 md301 md971 md973 md975 md977 md979 md981 md983 md985 md987 md989 md991 md993 md995 md997 md999 md1001 md1003 md1005 md1007 md1009 md1011 md1013 md1015 md1017 md1019 md1021 md1023 md1025 md1027 md1029 md1031 md1033 md1035 md1037 md1039 md1041 md1043 md1045 md1047 md1049 md1051 md1053 md1055 md1057 md1059 md1061 md1063 md1065 md1067 md1069 md1071 md1073 md1075 md1077 md1079 md1081 md1083 md1085 md1087 md1089 md1091 md1093 md1095 md1097 md1099 md1101 md1103 md1105 md1107 md1109 md1111 md1113 md1115 md1117 md1119 md1121 md1123 md1125 md1127 md1129 md1131 md1133 md1135 md1137 md1139 md1141 md1143 md1145 md1147 md1759" /><meta  itemscope="" itemid="https://aspe.hhs.gov/report/understanding-high-prevalence-low-prevalence-chronic-disease-combinations-databases-and-methods-research" itemref="md272 md302 md1149 md1151 md1153 md1155 md1157 md1159 md1161 md1163 md1165 md1167 md1169 md1171 md1173 md1175 md1177 md1179 md1181 md1183 md1185 md1187 md1189 md1191 md1193 md1195 md1197 md1199 md1201 md1203 md1205 md1207 md1209 md1211 md1213 md1215 md1217 md1219 md1221 md1223 md1225 md1227 md1229 md1231 md1233 md1235 md1237 md1239 md1241 md1243 md1245 md1247 md1249 md1251 md1253 md1255 md1257 md1259 md1261 md1263 md1265 md1267 md1269 md1271 md1273 md1275 md1277 md1279 md1281 md1283 md1285 md1287 md1289 md1291 md1293 md1295 md1297 md1299 md1301 md1303 md1305 md1307 md1309 md1311 md1313 md1315 md1317 md1319 md1321 md1323 md1325 md1327 md1329 md1331 md1333 md1335 md1760" /><meta  itemscope="" itemid="https://aspe.hhs.gov/report/research-addressing-hhs-strategic-framework-multiple-chronic-conditions" itemref="md273 md303 md1337 md1339 md1341 md1343 md1345 md1347 md1349 md1351 md1353 md1355 md1357 md1359 md1361 md1363 md1365 md1367 md1761" /><meta  itemscope="" itemid="https://aspe.hhs.gov/report/feasibility-using-electronic-health-data-research-small-populations" itemref="md274 md304 md1369 md1371 md1373 md1375 md1377 md1379 md1381 md1383 md1385 md1387 md1389 md1391 md1393 md1395 md1397 md1399 md1401 md1403 md1405 md1407 md1409 md1411 md1413 md1415 md1417 md1419 md1421 md1423 md1425 md1427 md1429 md1431 md1433 md1435 md1437 md1439 md1441 md1443 md1445 md1447 md1449 md1451 md1453 md1455 md1457 md1459 md1461 md1463 md1465 md1467 md1469 md1471 md1473 md1475 md1477 md1479 md1481 md1483 md1485 md1487 md1489 md1491 md1493 md1495 md1497 md1499 md1501 md1503 md1505 md1507 md1509 md1511 md1513 md1515 md1517 md1519 md1521 md1523 md1525 md1527 md1529 md1531 md1533 md1535 md1537 md1539 md1541 md1543 md1545 md1547 md1549 md1551 md1553 md1555 md1557 md1559 md1561 md1563 md1565 md1567 md1569 md1571 md1573 md1575 md1577 md1579 md1581 md1583 md1585 md1587 md1589 md1591 md1593 md1595 md1597 md1599 md1601 md1603 md1605 md1607 md1609 md1611 md1613 md1615 md1762" /><meta  itemscope="" itemid="https://aspe.hhs.gov/report/dissemination-and-adoption-comparative-effectiveness-research-findings-when-findings-challenge-current-practices" itemref="md275 md305 md1763" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/assessing-status-and-prospects-state-and-local-health-department-information-technology-infrastructure" itemref="md276 md306 md1617 md1619 md1621 md1623 md1625 md1627 md1629 md1631 md1633 md1635 md1637 md1639 md1641 md1643 md1645 md1647 md1649 md1651 md1653 md1655 md1657 md1659 md1661 md1663 md1665 md1667 md1669 md1671 md1673 md1675 md1677 md1679 md1681 md1764" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/evaluation-planning-and-tools-front-package-nutrition-labeling-final-report" itemref="md277 md307 md1683 md1685 md1687 md1689 md1691 md1693 md1695 md1697 md1699 md1701 md1765" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/health-care-cost-containment-and-medical-innovation" itemref="md278 md308 md1703 md1705 md1707 md1766" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/review-and-analysis-economic-models-prevention-benefits" itemref="md279 md309 md1709 md1711 md1713 md1715 md1717 md1719 md1721 md1723 md1725 md1727 md1729 md1731 md1733 md1735 md1737 md1739 md1741 md1743 md1767" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/final-report-volume-i-background-paper-declining-response-rates-federal-surveys-trends-and-implications" itemref="md280 md288 md1744" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/measurement-interoperable-electronic-health-care-records-utilization" itemref="md281 md289 md1745" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/guidelines-regulatory-impact-analysis" itemref="md282 md290 md1746" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/guidelines-regulatory-impact-analysis-primer" itemref="md283 md291 md1747" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/study-costs-associated-community-activities-under-communities-putting-prevention-work-cppw-initiative" itemref="md284 md292 md1748" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/observations-trends-prescription-drug-spending" itemref="md285 md293 md1749" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/some-observations-related-generic-drug-market" itemref="md286 md1752" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/public-health-it-support-chronic-disease-control" itemref="md287 md373 md375 md377 md1753" /><meta  itemscope="" itemid="https://aspe.hhs.gov/coordination" itemref="md1769 md1770" /><meta  itemscope="" itemid="https://aspe.hhs.gov/strategic-planning" itemref="md1771 md1772" /><meta  itemscope="" itemid="https://aspe.hhs.gov/division-health-care-financing-policy" itemref="md1773 md1774" /><meta  itemscope="" itemid="https://aspe.hhs.gov/division-public-health-services" itemref="md1775 md1776" /><meta  itemscope="" itemid="https://aspe.hhs.gov/division-health-care-access-and-coverage" itemref="md1777 md1778" /><meta  itemscope="" itemid="https://aspe.hhs.gov/division-health-care-quality-and-outcomes" itemref="md1779 md1780" /><meta  itemscope="" itemid="https://aspe.hhs.gov/early-childhood" itemref="md1781 md2430" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/innovation-monitoring-early-care-and-education-options-states-aspe-white-paper-partnership-acf" itemref="md1782 md1818 md1833 md1835 md2418" /><meta  itemscope="" itemid="https://aspe.hhs.gov/report/estimates-child-care-eligibility-and-receipt-fiscal-year-2011" itemref="md1783 md1819 md1837 md1839 md1841 md1843 md1845 md1847 md1849 md1851 md1853 md1855 md1857 md1859 md1861 md1863 md1865 md1867 md1869 md1871 md1873 md1875 md1877 md1879 md1881 md1883 md1885 md2419" /><meta  itemscope="" itemid="https://aspe.hhs.gov/report/child-care-subsidy-duration-and-caseload-dynamics-multi-state-examination" itemref="md1784 md1820 md1887 md1889 md1891 md1893 md1895 md1897 md1899 md1901 md1903 md1905 md1907 md1909 md1911 md1913 md1915 md1917 md1919 md1921 md1923 md1925 md1927 md1929 md1931 md1933 md1935 md2420" /><meta  itemscope="" itemid="https://aspe.hhs.gov/report/using-evidence-based-constructs-assess-extent-implementation-evidence-based-interventions" itemref="md1785 md1821 md1937 md1939 md1941 md1943 md1945 md1947 md1949 md1951 md1953 md1955 md1957 md1959 md1961 md1963 md1965 md1967 md1969 md1971 md1973 md1975 md1977 md1979 md1981 md1983 md1985 md1987 md1989 md1991 md1993 md1995 md1997 md1999 md2001 md2421" /><meta  itemscope="" itemid="https://aspe.hhs.gov/report/temporary-haven-children-and-youth-are-spending-less-time-foster-care" itemref="md1786 md1822 md2003 md2005 md2007 md2009 md2011 md2013 md2015 md2017 md2019 md2021 md2023 md2025 md2422" /><meta  itemscope="" itemid="https://aspe.hhs.gov/report/trends-use-early-care-and-education-1995-2011-descriptive-analysis-child-care-arrangements-national-survey-data" itemref="md1788 md1824 md2129 md2131 md2133 md2135 md2137 md2139 md2141 md2143 md2145 md2147 md2149 md2151 md2153 md2155 md2157 md2159 md2161 md2163 md2165 md2167 md2169 md2171 md2173 md2175 md2177 md2424" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/children-nonparental-care-findings-2011-2012-national-survey-childrens-health" itemref="md1789 md1825 md2179 md2181 md2183 md2185 md2187 md2189 md2191 md2193 md2195 md2197 md2199 md2201 md2425" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/work-family-supports-low-income-families-key-research-findings-and-policy-trends" itemref="md1790 md1826 md2203 md2205 md2207 md2209 md2211 md2213 md2215 md2217 md2219 md2221 md2223 md2225 md2227 md2229 md2231 md2233 md2235 md2237 md2239 md2241 md2243 md2245 md2247 md2249 md2251 md2253 md2426" /><meta  itemscope="" itemid="https://aspe.hhs.gov/report/americas-children-poverty-new-look-whos-poor-under-supplemental-poverty-measure" itemref="md1791 md1827 md2255 md2257 md2259 md2261 md2263 md2265 md2267 md2269 md2271 md2273 md2275 md2277 md2279 md2281 md2283 md2285 md2287 md2289 md2291 md2293 md2295 md2297 md2299 md2301 md2303 md2305 md2307 md2309 md2311 md2313 md2315 md2427 md2440 md2452 md2769 md2771 md2773 md2775 md2777 md2779 md2781 md2783 md2785 md2787 md2789 md2791 md2793 md2795 md2797 md2799 md2801 md2803 md2805 md2807 md2809 md2811 md2813 md2815 md2817 md2819 md2821 md2823 md2825 md2827 md2829 md3026" /><meta  itemscope="" itemid="https://aspe.hhs.gov/report/emerging-child-welfare-practice-regarding-immigrant-children-foster-care-collaborations-foreign-consulates" itemref="md1792 md1828 md2317 md2319 md2321 md2323 md2325 md2327 md2329 md2331 md2333 md2335 md2337 md2339 md2341 md2343 md2345 md2347 md2349 md2351 md2353 md2355 md2357 md2359 md2361 md2363 md2428" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/children-nonparental-care-review-literature-and-analysis-data-gaps" itemref="md1793 md1829 md2365 md2367 md2369 md2371 md2373 md2375 md2377 md2379 md2381 md2383 md2385 md2387 md2389 md2391 md2393 md2395 md2397 md2399 md2401 md2403 md2405 md2429" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/income-and-employment-fluctuations-among-low-income-working-families-and-their-implications-child-care-subsidy-policy" itemref="md1796 md1808 md2408" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/policy-provide-child-care-access-all-working-families-effects-mothers-employment-and-caseload" itemref="md1797 md1809 md2409" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/effects-ccdf-subsidy-program-employment-outcomes-low-income-mothers" itemref="md1799 md1811 md2411" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/effects-child-care-subsidies-maternal-labor-force-participation-united-states" itemref="md1800 md1812 md2412" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/learning-about-infant-and-toddler-early-education-services-lites-summarizing-research-and-gaps-compelling-models" itemref="md1804 md1816 md2416" /><meta  itemscope="" itemid="https://aspe.hhs.gov/chronological-bibliography-mollie-orshansky%E2%80%99s-publications" itemref="md2431 md2432" /><meta  itemscope="" itemid="https://aspe.hhs.gov/poverty-estimates-trends-and-analysis" itemref="md2433 md3032" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/financial-condition-and-health-care-burdens-people-deep-poverty" itemref="md2434 md2446 md2459 md2461 md2463 md2465 md2467 md2469 md2471 md2473 md2475 md2477 md2479 md2481 md2483 md2485 md2487 md2489 md2491 md2493 md2495 md2497 md2499 md2501 md2503 md2505 md2507 md2509 md2511 md2513 md2515 md2517 md2519 md3020" /><meta  itemscope="" itemid="https://aspe.hhs.gov/report/information-supplemental-poverty-measure-summary-2013-current-population-survey-data-october-2014" itemref="md2435 md2447 md2521 md2523 md2525 md2527 md2529 md2531 md2533 md2535 md2537 md2539 md2541 md2543 md2545 md3021" /><meta  itemscope="" itemid="https://aspe.hhs.gov/report/information-poverty-and-income-statistics-summary-2014-current-population-survey-data" itemref="md2436 md2448 md2547 md2549 md2551 md2553 md2555 md3022" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/indicators-welfare-dependence-annual-report-congress" itemref="md2437 md2449 md2557 md2559 md2561 md3023" /><meta  itemscope="" itemid="https://aspe.hhs.gov/report/overview-community-characteristics-areas-concentrated-poverty" itemref="md2438 md2450 md2563 md2565 md2567 md2569 md2571 md2573 md2575 md2577 md2579 md2581 md2583 md2585 md2587 md2589 md2591 md2593 md2595 md2597 md2599 md2601 md3024" /><meta  itemscope="" itemid="https://aspe.hhs.gov/report/welfare-indicators-and-risk-factors-thirteenth-report-congress" itemref="md2439 md2451 md2603 md2605 md2607 md2609 md2611 md2613 md2615 md2617 md2619 md2621 md2623 md2625 md2627 md2629 md2631 md2633 md2635 md2637 md2639 md2641 md2643 md2645 md2647 md2649 md2651 md2653 md2655 md2657 md2659 md2661 md2663 md2665 md2667 md2669 md2671 md2673 md2675 md2677 md2679 md2681 md2683 md2685 md2687 md2689 md2691 md2693 md2695 md2697 md2699 md2701 md2703 md2705 md2707 md2709 md2711 md2713 md2715 md2717 md2719 md2721 md2723 md2725 md2727 md2729 md2731 md2733 md2735 md2737 md2739 md2741 md2743 md2745 md2747 md2749 md2751 md2753 md2755 md2757 md2759 md2761 md2763 md2765 md2767 md3025" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/information-poverty-and-income-statistics-summary-2013-current-population-survey-data" itemref="md2441 md2454 md2833 md2835 md2837 md2839 md2841 md3028" /><meta  itemscope="" itemid="https://aspe.hhs.gov/report/indicators-welfare-dependence-annual-report-congress-2009-2013" itemref="md2442 md2456 md2843 md2845 md2847 md2849 md2851 md2853 md2855 md2857 md2859 md2861 md2863 md2865 md2867 md2869 md2871 md2873 md2875 md2877 md2879 md2881 md2883 md2885 md2887 md2889 md2891 md2893 md2895 md2897 md2899 md2901 md2903 md2905 md2907 md2909 md2911 md2913 md2915 md2917 md2919 md2921 md2923 md2925 md2927 md2929 md2931 md2933 md2935 md2937 md2939 md2941 md2943 md2945 md2947 md2949 md2951 md2953 md2955 md2957 md2959 md2961 md2963 md2965 md2967 md2969 md2971 md2973 md2975 md2977 md2979 md2981 md2983 md2985 md2987 md2989 md2991 md2993 md2995 md2997 md2999 md3001 md3003 md3005 md3007 md3009 md3030" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/information-research-supplemental-poverty-measure-summary-2012-current-population-survey-data" itemref="md2443 md2457 md3011 md3013 md3015 md3017 md3019 md3031" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/change-poverty-select-demographic-groups-2007%E2%80%932012" itemref="md2444 md2453 md2831 md3027" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/geographic-variation-cost-living-implications-poverty-guidelines-and-program-eligibility" itemref="md2445 md2455 md3029" /><meta  itemscope="" itemid="https://aspe.hhs.gov/study-hhs-programs-serving-human-trafficking-victims" itemref="md3033 md3034" /><meta  itemscope="" itemid="https://aspe.hhs.gov/tanf-leavers-applicants-and-caseload-studies-study-design" itemref="md3035 md3036" /><meta  itemscope="" itemid="https://aspe.hhs.gov/tanf-leavers-applicants-and-caseload-studies-fy-1998-welfare-outcomes-grants-emphasis-tanf-leavers" itemref="md3037 md3038" /><meta  itemscope="" itemid="https://aspe.hhs.gov/tanf-leavers-applicants-and-caseload-studies-data-files-misssouri-public-use-data-files" itemref="md3039 md3040" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/insurance" id="md56 md141 md145 md341 md443 md607 md699 md785 md905 md1049 md1231 md1489 md1649 md1723 md2063 md2185 md2221 md2281 md2377 md2481 md2677 md2795 md2915" itemref="md55 md140 md144 md340 md442 md606 md698 md784 md904 md1048 md1230 md1488 md1648 md1722 md2062 md2184 md2220 md2280 md2376 md2480 md2676 md2794 md2914" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/early-childhood" id="md58 md409 md1415 md1831 md1843 md1901 md1949 md2135 md2329 md2369 md2569" itemref="md57 md408 md1414 md1830 md1842 md1900 md1948 md2134 md2328 md2368 md2568" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/family-relationships" id="md60 md62" itemref="md59 md61" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/food" id="md137 md331 md585 md763 md1437 md2273 md2471 md2523 md2653 md2787 md2893" itemref="md136 md330 md584 md762 md1436 md2272 md2470 md2522 md2652 md2786 md2892" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/health" id="md139 md143 md333 md375 md423 md591 md695 md769 md891 md1027 md1203 md1351 md1447 md1857 md1911 md1961 md2015 md2049 md2147 md2275 md2339 md2473 md2581 md2665 md2789 md2905" itemref="md138 md142 md332 md374 md422 md590 md694 md768 md890 md1026 md1202 md1350 md1446 md1856 md1910 md1960 md2014 md2048 md2146 md2274 md2338 md2472 md2580 md2664 md2788 md2904" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/insurance-health" id="md147 md445 md609 md907 md1051 md1233 md1491 md1651 md2065 md2187 md2283 md2379 md2483 md2681 md2797 md2919" itemref="md146 md444 md608 md906 md1050 md1232 md1490 md1650 md2064 md2186 md2282 md2378 md2482 md2680 md2796 md2918" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/data-collection" id="md149 md319 md401 md559 md739 md877 md989 md1167 md1397 md1897 md1947 md2035 md2631 md2869" itemref="md148 md318 md400 md558 md738 md876 md988 md1166 md1396 md1896 md1946 md2034 md2630 md2868" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/evaluation-studies" id="md151 md415 md579 md693 md759 md885 md1015 md1195 md1347 md1433 md1623 md1685 md1703 md1715 md1849 md1905 md1955 md2009 md2043 md2179 md2217 md2333 md2371 md2577 md2647 md2885 md3015" itemref="md150 md414 md578 md692 md758 md884 md1014 md1194 md1346 md1432 md1622 md1684 md1702 md1714 md1848 md1904 md1954 md2008 md2042 md2178 md2216 md2332 md2370 md2576 md2646 md2884 md3014" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/family" id="md153 md329 md417 md581 md761 md1017 md1197 md1435 md1625 md1717 md1851 md1907 md2011 md2143 md2181 md2219 md2271 md2335 md2373 md2469 md2547 md2579 md2649 md2785 md2833 md2887" itemref="md152 md328 md416 md580 md760 md1016 md1196 md1434 md1624 md1716 md1850 md1906 md2010 md2142 md2180 md2218 md2270 md2334 md2372 md2468 md2546 md2578 md2648 md2784 md2832 md2886" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/health-communication" id="md155 md1449 md2341 md2667 md2907" itemref="md154 md1448 md2340 md2666 md2906" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/hiv-infections" id="md157 md431 md597 md775 md1041 md1219 md1469 md1641 md1721 md1965 md2017 md2669" itemref="md156 md430 md596 md774 md1040 md1218 md1468 md1640 md1720 md1964 md2016 md2668" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/medicaid" id="md159 md447 md615 md701 md913 md1057 md1239 md1357 md1505 md1655 md1725 md2071 md2189 md2287 md2383 md2487 md2689 md2801 md2927" itemref="md158 md446 md614 md700 md912 md1056 md1238 md1356 md1504 md1654 md1724 md2070 md2188 md2286 md2382 md2486 md2688 md2800 md2926" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/medicare" id="md161 md449 md617 md703 md915 md1059 md1241 md1359 md1507 md1659 md1727 md2073 md2385 md2489 md2691 md2929" itemref="md160 md448 md616 md702 md914 md1058 md1240 md1358 md1506 md1658 md1726 md2072 md2384 md2488 md2690 md2928" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/nutritional-sciences" id="md163 md459 md811 md1073 md1257 md1519 md1687 md1735 md2191 md2289 md2491 md2533 md2699 md2803 md2937 md3019" itemref="md162 md458 md810 md1072 md1256 md1518 md1686 md1734 md2190 md2288 md2490 md2532 md2698 md2802 md2936 md3018" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/access" id="md311 md379 md535 md723 md869 md971 md1149 md1369 md1887 md2027 md2129 md2255 md2317 md2459 md2563 md2603 md2769 md2843" itemref="md310 md378 md534 md722 md868 md970 md1148 md1368 md1886 md2026 md2128 md2254 md2316 md2458 md2562 md2602 md2768 md2842" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/aging" id="md313 md383 md539 md727 md873 md975 md1151 md1375 md1939 md2031 md2609 md2849" itemref="md312 md382 md538 md726 md872 md974 md1150 md1374 md1938 md2030 md2608 md2848" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/birth" id="md315 md391 md547 md735 md981 md1157 md1381 md1889 md2131 md2321 md2565 md2615 md2855" itemref="md314 md390 md546 md734 md980 md1156 md1380 md1888 md2130 md2320 md2564 md2614 md2854" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/cost-benefit-analysis" id="md317" itemref="md316" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/database" id="md321 md403 md561 md687 md741 md991 md1169 md1339 md1399 md1617 md1683 md1841 md2265 md2779" itemref="md320 md402 md560 md686 md740 md990 md1168 md1338 md1398 md1616 md1682 md1840 md2264 md2778" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/depression" id="md323 md999 md1177 md1403" itemref="md322 md998 md1176 md1402" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/dietary-supplements" id="md325" itemref="md324" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/education" id="md327 md411 md575 md755 md883 md1007 md1189 md1419 md1845 md1953 md2041 md2137 md2465 md2573 md2641 md2879" itemref="md326 md410 md574 md754 md882 md1006 md1188 md1418 md1844 md1952 md2040 md2136 md2464 md2572 md2640 md2878" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/health-services" id="md335 md429 md595 md897 md1035 md1213 md1463 md1639 md1963 md2055" itemref="md334 md428 md594 md896 md1034 md1212 md1462 md1638 md1962 md2054" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/health-status" id="md337 md1037 md1215 md1465 md2277 md2791" itemref="md336 md1036 md1214 md1464 md2276 md2790" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/income" id="md339 md435 md601 md697 md781 md1045 md1225 md1481 md1859 md1913 md2149 md2279 md2343 md2477 md2527 md2549 md2583 md2673 md2793 md2835 md2911" itemref="md338 md434 md600 md696 md780 md1044 md1224 md1480 md1858 md1912 md2148 md2278 md2342 md2476 md2526 md2548 md2582 md2672 md2792 md2834 md2910" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/longevity" id="md343" itemref="md342" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/mental-health" id="md345 md451 md803 md1063 md1245 md1509 md1969" itemref="md344 md450 md802 md1062 md1244 md1508 md1968" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/mental-health-services" id="md347 md453 md1511 md1971" itemref="md346 md452 md1510 md1970" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/morbidity" id="md349 md807 md919 md1067 md1249 md2077" itemref="md348 md806 md918 md1066 md1248 md2076" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/policy" id="md351 md471 md637 md829 md929 md1085 md1273 md1537 md1865 md1917 md1975 md2019 md2087 md2157 md2231 md2293 md2351 md2497 md2535 md2707 md2807 md2837 md2947" itemref="md350 md470 md636 md828 md928 md1084 md1272 md1536 md1864 md1916 md1974 md2018 md2086 md2156 md2230 md2292 md2350 md2496 md2534 md2706 md2806 md2836 md2946" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/population" id="md353 md473 md639 md831 md931 md1087 md1275 md1363 md1539 md1867 md1919 md1977 md2021 md2089 md2159 md2295 md2353 md2499 md2537 md2551 md2587 md2709 md2809 md2839 md2949" itemref="md352 md472 md638 md830 md930 md1086 md1274 md1362 md1538 md1866 md1918 md1976 md2020 md2088 md2158 md2294 md2352 md2498 md2536 md2550 md2586 md2708 md2808 md2838 md2948" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/public-health" id="md355 md377 md479 md647 md835 md937 md1095 md1287 md1551 md1669 md1691 md1739 md2095 md2195 md2235 md2301 md2391 md2717 md2815" itemref="md354 md376 md478 md646 md834 md936 md1094 md1286 md1550 md1668 md1690 md1738 md2094 md2194 md2234 md2300 md2390 md2716 md2814" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/publications" id="md357 md485 md651 md717 md839 md941 md1099 md1291 md1555 md1671 md1695 md2099 md2165 md2239 md2393 md2721 md2959" itemref="md356 md484 md650 md716 md838 md940 md1098 md1290 md1554 md1670 md1694 md2098 md2164 md2238 md2392 md2720 md2958" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/rape" id="md359 md657 md843 md1563" itemref="md358 md656 md842 md1562" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/research" id="md361 md497 md659 md719 md845 md947 md1109 md1299 md1365 md1567 md1707 md1923 md1985 md2023 md2105 md2169 md2305 md2357 md2507 md2541 md2595 md2725 md2819 md2965" itemref="md360 md496 md658 md718 md844 md946 md1108 md1298 md1364 md1566 md1706 md1922 md1984 md2022 md2104 md2168 md2304 md2356 md2506 md2540 md2594 md2724 md2818 md2964" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/retirement" id="md363 md1111 md1301 md1569 md2509 md2727 md2967" itemref="md362 md1110 md1300 md1568 md2508 md2726 md2966" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/risk-taking" id="md365" itemref="md364" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/science" id="md367 md501 md663 md849 md949 md1115 md1305 md1989 md2107 md2173 md2731 md2971" itemref="md366 md500 md662 md848 md948 md1114 md1304 md1988 md2106 md2172 md2730 md2970" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/students" id="md369 md509 md665 md1585 md2743 md2985" itemref="md368 md508 md664 md1584 md2742 md2984" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/welfare" id="md371 md519 md1933 md2313 md2363 md2759 md2827 md3001" itemref="md370 md518 md1932 md2312 md2362 md2758 md2826 md3000" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/chronic-disease" id="md373 md549 md985 md1161 md1337 md1389" itemref="md372 md548 md984 md1160 md1336 md1388" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/adoption" id="md381 md537 md725 md871 md973 md1373 md1937 md2003 md2029 md2319 md2365 md2605 md2845" itemref="md380 md536 md724 md870 md972 md1372 md1936 md2002 md2028 md2318 md2364 md2604 md2844" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/awareness" id="md385 md541 md1155 md1377 md1941" itemref="md384 md540 md1154 md1376 md1940" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/barriers" id="md387 md543 md731 md979 md1379 md1943 md2613 md2853" itemref="md386 md542 md730 md978 md1378 md1942 md2612 md2852" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/bioethics" id="md389" itemref="md388" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/certification" id="md393 md983 md1387 md1837 md1945" itemref="md392 md982 md1386 md1836 md1944" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/civil-rights" id="md395 md551 md2205" itemref="md394 md550 md2204" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/clinical-audit" id="md397 md553" itemref="md396 md552" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/confidentiality" id="md399 md557 md987 md1165 md1395 md1895 md2327" itemref="md398 md556 md986 md1164 md1394 md1894 md2326" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/diagnosis" id="md405 md689 md743 md1001 md1179 md1341 md1407" itemref="md404 md688 md742 md1000 md1178 md1340 md1406" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/drug-users" id="md407 md1185 md1413 md2637 md2875" itemref="md406 md1184 md1412 md2636 md2874" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/employment" id="md413 md1011 md1191 md1425 md1847 md1903 md2139 md2213 md2269 md2467 md2575 md2643 md2783 md2881 md3013" itemref="md412 md1010 md1190 md1424 md1846 md1902 md2138 md2212 md2268 md2466 md2574 md2642 md2782 md2880 md3012" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/goals" id="md419 md587 md765 md889 md1023 md1201 md1349 md1443 md2047 md2659 md2899" itemref="md418 md586 md764 md888 md1022 md1200 md1348 md1442 md2046 md2658 md2898" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/government-regulation" id="md421 md589 md767 md1629 md1705 md2661 md2901" itemref="md420 md588 md766 md1628 md1704 md2660 md2900" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/health-planning" id="md425" itemref="md424" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/health-records-personal" id="md427 md1459 md1635" itemref="md426 md1458 md1634" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/hospitals" id="md433 md777 md899 md1043 md1221 md1477 md1643 md2057" itemref="md432 md776 md898 md1042 md1220 md1476 md1642 md2056" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/income-inequality" id="md437 md2151 md2479 md2529" itemref="md436 md2150 md2478 md2528" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/information-science" id="md439 md605 md901 md1047 md1227 md1485 md1645 md1967 md2059" itemref="md438 md604 md900 md1046 md1226 md1484 md1644 md1966 md2058" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/information-systems" id="md441 md903 md1229 md1487 md1647 md2061" itemref="md440 md902 md1228 md1486 md1646 md2060" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/models-statistical" id="md455 md619 md805 md917 md1065 md1247 md1513 md1661 md1729 md1973 md2075 md2225 md2693 md2931" itemref="md454 md618 md804 md916 md1064 md1246 md1512 md1660 md1728 md1972 md2074 md2224 md2692 md2930" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/neoplasms" id="md457 md621 md705 md1071 md1253 md1517 md1663 md1733" itemref="md456 md620 md704 md1070 md1252 md1516 md1662 md1732" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/parents" id="md461 md817 md1523 md1863 md1915 md2155 md2291 md2349 md2493 md2585 md2703 md2805 md2941" itemref="md460 md816 md1522 md1862 md1914 md2154 md2290 md2348 md2492 md2584 md2702 md2804 md2940" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/patient-discharge" id="md463 md819 md1075 md1259" itemref="md462 md818 md1074 md1258" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/patient-protection-and-affordable-care-act" id="md465 md627 md923 md1261 md1525 md2081" itemref="md464 md626 md922 md1260 md1524 md2080" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/patient-rights" id="md467 md1263 md1527" itemref="md466 md1262 md1526" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/patients" id="md469 md629 md707 md821 md925 md1077 md1265 md1361 md1529 md2083 md2495" itemref="md468 md628 md706 md820 md924 md1076 md1264 md1360 md1528 md2082 md2494" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/primary-prevention" id="md475 md833 md935 md1091 md1279 md1543 md1667 md1689 md1737 md1979 md2093 md2193 md2233 md2389" itemref="md474 md832 md934 md1090 md1278 md1542 md1666 md1688 md1736 md1978 md2092 md2192 md2232 md2388" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/privacy" id="md477 md643 md1093 md1281 md1545" itemref="md476 md642 md1092 md1280 md1544" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/public-safety" id="md481" itemref="md480" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/publication-formats" id="md483 md649 md715 md837 md939 md1097 md1289 md1553 md1693 md1873 md1921 md1981 md2097 md2237 md2303 md2355 md2555 md2593 md2719 md2817 md2957" itemref="md482 md648 md714 md836 md938 md1096 md1288 md1552 md1692 md1872 md1920 md1980 md2096 md2236 md2302 md2354 md2554 md2592 md2718 md2816 md2956" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/quality-control" id="md487 md1557 md2961" itemref="md486 md1556 md2960" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/quality-improvement" id="md489 md943 md1101 md1293 md1559 md1983 md2101" itemref="md488 md942 md1100 md1292 md1558 md1982 md2100" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/questionnaires" id="md491 md655 md841 md945 md1103 md1295 md1561 md1697 md2103 md2167 md2241 md2395 md2723 md2963" itemref="md490 md654 md840 md944 md1102 md1294 md1560 md1696 md2102 md2166 md2240 md2394 md2722 md2962" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/reference-standards" id="md493 md1105 md1565 md1673" itemref="md492 md1104 md1564 md1672" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/rehabilitation" id="md495 md1107 md1297" itemref="md494 md1106 md1296" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/schools" id="md499 md661 md1575 md1987 md2171" itemref="md498 md660 md1574 md1986 md2170" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/secondary-prevention" id="md503 md851 md951 md1117 md1307 md1577 md1675 md1699 md1741 md1991 md2109 md2197 md2243 md2397" itemref="md502 md850 md950 md1116 md1306 md1576 md1674 md1698 md1740 md1990 md2108 md2196 md2242 md2396" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/social-security" id="md505 md1121 md1311 md1579 md1925 md2309 md2399 md2513 md2543 md2559 md2737 md2823 md2977" itemref="md504 md1120 md1310 md1578 md1924 md2308 md2398 md2512 md2542 md2558 md2736 md2822 md2976" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/state-government" id="md507 md2981" itemref="md506 md2980" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/substance-related-disorders" id="md511 md1677 md2987" itemref="md510 md1676 md2986" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/technology" id="md513 md667 md721 md857 md957 md1125 md1317 md1591 md1679 md1993 md2115" itemref="md512 md666 md720 md856 md956 md1124 md1316 md1590 md1678 md1992 md2114" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/tertiary-prevention" id="md515 md859 md959 md1127 md1319 md1593 md1681 md1701 md1743 md1995 md2117 md2199 md2249 md2405" itemref="md514 md858 md958 md1126 md1318 md1592 md1680 md1700 md1742 md1994 md2116 md2198 md2248 md2404" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/training-support" id="md517 md669 md861 md961 md1129 md1595 md1879 md1931 md1997 md2119 md2251 md2359 md2749 md2993" itemref="md516 md668 md860 md960 md1128 md1594 md1878 md1930 md1996 md2118 md2250 md2358 md2748 md2992" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/administrative-data" id="md521 md673 md1137 md1325 md1607 md1881 md1935 md2025 md2765 md3007" itemref="md520 md672 md1136 md1324 md1606 md1880 md1934 md2024 md2764 md3006" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/affordable-care-act" id="md523 md675 md865 md965 md1139 md1609 md2123" itemref="md522 md674 md864 md964 md1138 md1608 md2122" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/data-policy" id="md525 md1327" itemref="md524 md1326" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/demographic-data" id="md527 md1141 md1329 md1611" itemref="md526 md1140 md1328 md1610" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/patient-safety" id="md529 md677 md967 md1143 md1331 md2125" itemref="md528 md676 md966 md1142 md1330 md2124" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/plans" id="md531 md679 md867 md969 md1145 md1333 md1615 md1883 md2001 md2127" itemref="md530 md678 md866 md968 md1144 md1332 md1614 md1882 md2000 md2126" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/state-data" id="md533 md1147 md1335 md2767 md3009" itemref="md532 md1146 md1334 md2766 md3008" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/biotechnology" id="md545 md683 md733" itemref="md544 md682 md732" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/communicable-diseases" id="md555 md685 md737 md1163 md1709 md2207" itemref="md554 md684 md736 md1162 md1708 md2206" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/dementia" id="md563 md995 md1173" itemref="md562 md994 md1172" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/disabled-persons" id="md565 md1003 md1181 md1343 md1409 md1711 md2209 md2267 md2463 md2633 md2781 md2871 md3011" itemref="md564 md1002 md1180 md1342 md1408 md1710 md2208 md2266 md2462 md2632 md2780 md2870 md3010" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/drug-approval" id="md567 md745" itemref="md566 md744" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/drug-therapy" id="md569 md747" itemref="md568 md746" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/early-medical-intervention" id="md571 md751 md881 md1005 md1187 md1345 md1417 md1619 md1713 md1951 md2039 md2211 md2571 md2639 md2877" itemref="md570 md750 md880 md1004 md1186 md1344 md1416 md1618 md1712 md1950 md2038 md2210 md2570 md2638 md2876" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/economic-competition" id="md573 md753" itemref="md572 md752" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/equipment-and-supplies" id="md577 md757 md1429" itemref="md576 md756 md1428" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/financial-support" id="md583" itemref="md582" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/health-policy" id="md593 md773 md1033 md1211 md1457 md1633 md1719 md3017" itemref="md592 md772 md1032 md1210 md1456 md1632 md1718 md3016" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/human-experimentation" id="md599 md779 md1223 md1479" itemref="md598 md778 md1222 md1478" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/inflation-economic" id="md603 md783 md1861 md2531 md2675 md2913" itemref="md602 md782 md1860 md2530 md2674 md2912" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/intellectual-property" id="md611 md787 md1493" itemref="md610 md786 md1492" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/managed-competition" id="md613 md799" itemref="md612 md798" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/nurses" id="md623" itemref="md622" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/outpatient-clinics-hospital" id="md625 md813 md1521" itemref="md624 md812 md1520" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/pharmaceutical-preparations" id="md631 md823 md1079 md1267 md1531" itemref="md630 md822 md1078 md1266 md1530" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/pharmacy" id="md633 md825 md1081 md1269 md1533" itemref="md632 md824 md1080 md1268 md1532" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/physicians" id="md635 md709 md827 md927 md1083 md1271 md1535 md1665 md2085" itemref="md634 md708 md826 md926 md1082 md1270 md1534 md1664 md2084" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/poverty" id="md641 md933 md1089 md1277 md1541 md1869 md2091 md2161 md2297 md2501 md2539 md2553 md2589 md2711 md2811 md2831 md2841 md2951" itemref="md640 md932 md1088 md1276 md1540 md1868 md2090 md2160 md2296 md2500 md2538 md2552 md2588 md2710 md2810 md2830 md2840 md2950" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/professional-practice" id="md645" itemref="md644" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/quality-health-care" id="md653" itemref="md652" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/universities" id="md671 md963 md1131 md1321 md1599 md2121" itemref="md670 md962 md1130 md1320 md1598 md2120" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/vouchers" id="md681 md1885" itemref="md680 md1884" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/drugs-generic" id="md691 md749" itemref="md690 md748" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/prescription-drugs" id="md711 md2503" itemref="md710 md2502" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/prospective-payment-system" id="md713 md1283" itemref="md712 md1282" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/ambulatory-care" id="md729 md977 md1153" itemref="md728 md976 md1152" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/health-maintenance-organizations" id="md771 md1031 md1209 md1455" itemref="md770 md1030 md1208 md1454" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/laboratories" id="md789 md1653" itemref="md788 md1652" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/licensure" id="md791" itemref="md790" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/long-term-care" id="md793 md911 md2069 md2683 md2921" itemref="md792 md910 md2068 md2682 md2920" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/low-income" id="md795 md1499 md2285 md2345 md2485 md2799" itemref="md794 md1498 md2284 md2344 md2484 md2798" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/managed-care-programs" id="md797 md1055 md1237 md1355" itemref="md796 md1054 md1236 md1354" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/marriage" id="md801 md1503 md2687 md2925" itemref="md800 md1502 md2686 md2924" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/nursing-homes" id="md809 md1255" itemref="md808 md1254" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/outpatients" id="md815" itemref="md814" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/risk-factors" id="md847 md1113 md1303 md1571 md2557 md2729 md2969" itemref="md846 md1112 md1302 md1570 md2556 md2728 md2968" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/skilled-nursing-facilities" id="md853 md1119 md1309" itemref="md852 md1118 md1308" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/teaching" id="md855 md1123 md1315 md1589" itemref="md854 md1122 md1314 md1588" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/vaccines" id="md863 md1999" itemref="md862 md1998" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/child-abuse" id="md875 md2007 md2033 md2323" itemref="md874 md2006 md2032 md2322" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/developmental-disabilities" id="md879 md1405 md2037" itemref="md878 md1404 md2036" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/evidence-based-practice" id="md887 md1957 md2045" itemref="md886 md1956 md2044" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/health-care-costs" id="md893 md1029 md1205 md1353 md2051 md2475" itemref="md892 md1028 md1204 md1352 md2050 md2474" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/health-care-reform" id="md895 md2053" itemref="md894 md2052" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/local-government" id="md909 md1497 md2067" itemref="md908 md1496 md2066" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/organizational-objectives" id="md921 md2079" itemref="md920 md2078" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/staff-development" id="md953 md2111 md2247" itemref="md952 md2110 md2246" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/tanf" id="md955 md1313 md1877 md1929 md2113 md2175 md2515 md2747 md2991" itemref="md954 md1312 md1876 md1928 md2112 md2174 md2514 md2746 md2990" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/delivery-health-care" id="md993 md1171 md1401" itemref="md992 md1170 md1400" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/demography" id="md997 md1175 md1899" itemref="md996 md1174 md1898" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/education-professional" id="md1009 md1421" itemref="md1008 md1420" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/ethnic-groups" id="md1013 md1193 md1431 md2141 md2645 md2883" itemref="md1012 md1192 md1430 md2140 md2644 md2882" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/genetics" id="md1019 md1439 md1627" itemref="md1018 md1438 md1626" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/geriatrics" id="md1021 md1199" itemref="md1020 md1198" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/hawaii" id="md1025 md1445 md1853 md1909 md2663 md2903" itemref="md1024 md1444 md1852 md1908 md2662 md2902" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/healthcare-disparities" id="md1039 md1467" itemref="md1038 md1466" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/intellectual-disability" id="md1053 md1235" itemref="md1052 md1234" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/medicare-advantage-plan-enrollment" id="md1061 md1243" itemref="md1060 md1242" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/motor-activity" id="md1069 md1251 md1515 md1731" itemref="md1068 md1250 md1514 md1730" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/utilization-review" id="md1133 md1323 md1367 md1601" itemref="md1132 md1322 md1366 md1600" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/violence" id="md1135 md1603 md2201 md2755 md2999" itemref="md1134 md1602 md2200 md2754 md2998" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/caregivers" id="md1159 md1383" itemref="md1158 md1382" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/disease-management" id="md1183" itemref="md1182" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/health-expenditures" id="md1207" itemref="md1206" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/healthcare-financing" id="md1217" itemref="md1216" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/psychological-phenomena-and-processes" id="md1285 md1549" itemref="md1284 md1548" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/accreditation" id="md1371" itemref="md1370" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/case-management" id="md1385 md2617 md2857" itemref="md1384 md2616 md2856" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/communication-barriers" id="md1391" itemref="md1390" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/community-health-services" id="md1393 md2627 md2867" itemref="md1392 md2626 md2866" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/domestic-violence" id="md1411 md2635 md2873" itemref="md1410 md2634 md2872" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/emigrants-and-immigrants" id="md1423 md2331" itemref="md1422 md2330" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/environmental-health" id="md1427 md1621 md2215" itemref="md1426 md1620 md2214" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/geographic-mapping" id="md1441" itemref="md1440" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/health-facilities" id="md1451" itemref="md1450" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/health-information-exchange" id="md1453" itemref="md1452" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/health-resources" id="md1461 md1637 md2183" itemref="md1460 md1636 md2182" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/homeless-families" id="md1471 md2525 md2671 md2909" itemref="md1470 md2524 md2670 md2908" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/homeless-persons" id="md1473" itemref="md1472" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/homelessness-issues" id="md1475" itemref="md1474" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/indians-north-american" id="md1483 md2153" itemref="md1482 md2152" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/legal-guardians" id="md1495 md2381" itemref="md1494 md2380" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/malnutrition" id="md1501 md2685 md2923" itemref="md1500 md2684 md2922" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/program-participation" id="md1547 md2163 md2299 md2505 md2715 md2813 md2955" itemref="md1546 md2162 md2298 md2504 md2714 md2812 md2954" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/rural-health" id="md1573" itemref="md1572" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/starvation" id="md1581 md2739 md2979" itemref="md1580 md2738 md2978" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/statistical-distributions" id="md1583" itemref="md1582" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/students-medical" id="md1587" itemref="md1586" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/transients-and-migrants" id="md1597 md2361 md2597 md2751 md2995" itemref="md1596 md2360 md2596 md2750 md2994" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/vulnerable-populations" id="md1605 md2517 md2757" itemref="md1604 md2516 md2756" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/mental-health-and-substance-abuse" id="md1613" itemref="md1612" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/health-information-management" id="md1631" itemref="md1630" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/medical-records-systems-computerized" id="md1657" itemref="md1656" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/child-care" id="md1833 md1839 md1893 md2133 md2203 md2259 md2461 md2521 md2621 md2773 md2861" itemref="md1832 md1838 md1892 md2132 md2202 md2258 md2460 md2520 md2620 md2772 md2860" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/head-start" id="md1835 md1855 md2145" itemref="md1834 md1854 md2144" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/pre-kindergarten" id="md1871" itemref="md1870" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/single-parent" id="md1875 md2307 md2511 md2735 md2821 md2975" itemref="md1874 md2306 md2510 md2734 md2820 md2974" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/caseloads" id="md1891 md2005 md2619 md2859" itemref="md1890 md2004 md2618 md2858" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/social-work" id="md1927" itemref="md1926" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/foster-home-care" id="md1959 md2013 md2337 md2375 md2657 md2897" itemref="md1958 md2012 md2336 md2374 md2656 md2896" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/wic" id="md2177 md2315 md2519 md2545 md2601 md2763 md2829 md3005" itemref="md2176 md2314 md2518 md2544 md2600 md2762 md2828 md3004" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/insurance-disability" id="md2223 md2679 md2917" itemref="md2222 md2678 md2916" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/nuclear-family" id="md2227 md2387 md2695 md2933" itemref="md2226 md2386 md2694 md2932" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/parenting" id="md2229 md2347" itemref="md2228 md2346" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/social-welfare" id="md2245" itemref="md2244" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/unemployment" id="md2253 md2311 md2599 md2753 md2825 md2997" itemref="md2252 md2310 md2598 md2752 md2824 md2996" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/aid-families-dependent-children" id="md2257 md2611 md2771 md2851" itemref="md2256 md2610 md2770 md2850" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/child-support-assistanceenforcement" id="md2261 md2623 md2775 md2863" itemref="md2260 md2622 md2774 md2862" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/child-support-orders" id="md2263 md2625 md2777 md2865" itemref="md2262 md2624 md2776 md2864" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/child-welfare" id="md2325 md2367" itemref="md2324 md2366" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/sociological-factors" id="md2401" itemref="md2400" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/supplemental-nutrition-assistance-program-snap" id="md2403 md2561 md2745 md2989" itemref="md2402 md2560 md2744 md2988" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/crime" id="md2567" itemref="md2566" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/poverty-areas" id="md2591" itemref="md2590" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/afdc" id="md2607 md2847" itemref="md2606 md2846" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/cost-living" id="md2629" itemref="md2628" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/fathers" id="md2651 md2891" itemref="md2650 md2890" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/food-assistance" id="md2655 md2895" itemref="md2654 md2894" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/nutrition-policy" id="md2697 md2935" itemref="md2696 md2934" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/out-wedlock-birth" id="md2701 md2939" itemref="md2700 md2938" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/personal-care" id="md2705 md2943" itemref="md2704 md2942" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/poverty-guidelines" id="md2713 md2953" itemref="md2712 md2952" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/secondaryhigh-schools" id="md2733 md2973" itemref="md2732 md2972" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/state-medicaid-waiver-programs" id="md2741 md2983" itemref="md2740 md2982" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/welfare-reform" id="md2761 md3003" itemref="md2760 md3002" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/father-child-relations" id="md2889" itemref="md2888" /><meta  itemscope="" itemid="https://aspe.hhs.gov/document-terms/personal-satisfaction" id="md2945" itemref="md2944" />              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <footer  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Footer">     
+
+        
+                  
+        
+                  
+        
+                                    <div  id="footer_sitemap-footer_sitemap" class="col-sm-6 col-md-6 col-lg-4 ">
+                          
+                              <div id="block-footer-sitemap-footer-sitemap" class="widget block block-footer-sitemap" >
+  
+      
+  <div id="footer-sitemap" class="clearfix">
+  <div class="fs-block-content"><div class="menu-footer-utility"><ul class="footer_links_menu-footer-utility total-items-2 parent-items-0 single-items-0"><li class="menu-5021 depth-1 total-children-8 parent-children-0 single-children-8  first"><a href="/" title="look at ASPE Home" class="fs-root-link">ASPE Home</a><ul class="footer_links_menu-footer-utility total-items-8 parent-items-0 single-items-0"><li class="menu-5026 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/" title="look at HHS Home">HHS Home</a></li>
+<li class="menu-66281 depth-1 fs-no-children"><a href="http://www.usa.gov/" title="look at USA.gov">USA.gov</a></li>
+<li class="menu-66316 depth-1 fs-no-children"><a href="https://oig.hhs.gov/" title="look at Office of the Inspector General">Office of the Inspector General</a></li>
+<li class="menu-66321 depth-1 fs-no-children"><a href="http://www.whitehouse.gov" title="look at The White House">The White House</a></li>
+<li class="menu-5046 depth-1 fs-no-children"><a href="http://www.hhs.gov/Accessibility.html" title="look at Accessibility">Accessibility</a></li>
+<li class="menu-66326 depth-1 fs-no-children"><a href="http://www.hhs.gov/about/budget/index.html" title="look at Budget/Performance">Budget/Performance</a></li>
+<li class="menu-2551 depth-1 fs-no-children"><a href="http://www.hhs.gov/Privacy.html" title="look at Privacy Policy">Privacy Policy</a></li>
+<li class="menu-197776 depth-1 fs-no-children  last"><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" title="Nondiscrimination Notice">Nondiscrimination Notice</a></li>
+</ul></li>
+<li class="menu-5051 depth-1 total-children-4 parent-children-0 single-children-4  last"><a href="http://www.hhs.gov/foia/" title="look at FOIA" class="fs-root-link">FOIA</a><ul class="footer_links_menu-footer-utility total-items-4 parent-items-0 single-items-0"><li class="menu-5056 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/open/recordsandreports/plainwritingact/index.html" title="look at Plain Writing Act">Plain Writing Act</a></li>
+<li class="menu-5061 depth-1 fs-no-children"><a href="http://www.hhs.gov/asa/eeo/no_fear_bullet_3.html" title="look at No Fear Act">No Fear Act</a></li>
+<li class="menu-5066 depth-1 fs-no-children"><a href="http://www.hhs.gov/Disclaimer.html" title="look at Disclaimers">Disclaimers</a></li>
+<li class="menu-2546 depth-1 fs-no-children  last"><a href="http://www.hhs.gov/plugins.html" title="look at Viewers &amp; Players">Viewers &amp; Players</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-5 " id="stability_cms-contact_us">
+                          
+                              <div id="block-stability-cms-contact-us" class="widget block block-stability-cms" >
+  
+      
+  <div class="contacts-widget widget widget__footer">
+	<div class="widget-content">
+		<ul class="contacts-info-list">
+      			<li>
+<!--				<i class="fa fa-map-marker">Address</i>-->
+                <div class="info-icons">
+                    <img  alt="map" class= 'map-icons' src="/sites/all/themes/stability/stability_aspe/images/map.png"/>
+                </div>
+                <div class="info-item">
+					Assistant Secretary for Planning and Evaluation, Room 415F<br />
+U.S. Department of Health and Human Services<br />
+200 Independence Avenue, SW<br />
+Washington, D.C. 20201				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-phone">phone</i>-->
+                <div class="info-icons">
+                    <img alt="phone" src="/sites/all/themes/stability/stability_aspe/images/phone.png"/>
+                </div>
+				<div class="info-item">
+					+1 202.690.7858				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-envelope">email</i>-->
+                <div class="info-icons">
+                    <img alt="mail" src="/sites/all/themes/stability/stability_aspe/images/mail-white.png"/>
+                </div>
+				<span class="info-item">
+					<a href="mailto:osaspeinfo@hhs.gov">osaspeinfo@hhs.gov</a>
+				</span>
+			</li>
+      			                					</ul>
+	</div>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-3 " id="footer">
+                          
+                              <div id="block-block-36" class="widget block block-block" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sign-up</span> for Email Updates</h3>
+		</div>
+    
+  <div class="email_updates">
+<button class="btn btn-default" name="subscribe-button" type="submit" value="subscribe">subscribe</button>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-12 " id="menu-menu-footer-language-menu">
+                          
+                              <div id="block-menu-menu-footer-language-menu" class="widget block block-menu" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Language</span> Assistance Available</h3>
+		</div>
+    
+  <ul class="menu"><li class="first expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#spanish" title="Español">Español</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#chinese" title="繁體中文">繁體中文</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#vietnamese" title="Tiếng Việt">Tiếng Việt</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#korean" title="한국어">한국어</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#tagalog" title="Tagalog">Tagalog</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#russian" title="Русский">Русский</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#arabic" title="العربية">العربية</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#creole" title="Kreyòl Ayisyen">Kreyòl Ayisyen</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#french" title="Français">Français</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#polish" title="Polski">Polski</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#portuguese" title="Português">Português</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#italian" title="Italiano">Italiano</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#german" title="Deutsch">Deutsch</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#japanese" title="日本語">日本語</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#farsi" title="فارسی">فارسی</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#english" title="English">English</a></li>
+</ul></li>
+</ul>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+      </div>
+
+          </div>
+    
+    
+      </footer>
+    
+
+    <!--/PAGEWATCH-->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+                        </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="social-links-wrapper">
+              <span class="social-links-txt">Connect with us</span>
+              <ul class="social-links social-links__dark">
+                                                  <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw-grey.png"/></a></li>
+                                <!--                --><!--                  <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin-grey.png"/></a></li>-->
+<!--                -->
+                                                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>  <script type="text/javascript" src="/sites/default/files/advagg_js/js__fcTvYyWiJ3xBSTn4ZwMs0cC_YCKtJDXDzi5kRkpfiy4__naNRMlPNqhsj7e2d9LyjrQmGf4mdB3DzjOKhKVTCOgc__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__6p8kWk-YVS5Lq-heHkh6lN3R_bBbFW_oQOzKMD1UwcM__ZwCOT9B8Ds9a0FGQ6gFW5pEr7NpPdy217HCczPjE7q0__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__9yc04ZEeLRT7TPVtgTX8P_D15BoFVys57I_n_l5x1Qk__Y8OzXheXoTE8-8Mo77q4U-dTNK5Aza0cVPTbKqZ6Ndo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5486d15a696bff0c"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__1B_GB7MmVY6KZqSg2wNOxxUHUP-Gj3vsNU4Q6cUPLKU__DZGeMt5YV7izXnVnZk9bPkVQ0TGYLHu_3wZ-P2Ljb0s__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__vQiLul2UcfC4nBAR09mhYVBYzRmiNDm2dj3GgSubV38__w84oZe-ZODKe7XnnlbrjV4IWHISOy4PioFEMVgx9hZo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__QJw3g0kOdwsv4twSZLP931zBzsHy50VEHpEN_znIitQ__A6QOuWXElDipBM2iChbWhjAAt3KlUwZ-jODoxdpbwiw__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stability_aspe","theme_token":"gkjxglIsy-rvtxGrhd1cs__iiucXFWwey64cpPkEKIg","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.datepicker.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/jquery.timeentry.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/footable.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/aspe_nodes.admin.css":1,"sites\/all\/modules\/custom\/aspe_views\/theme\/css\/aspe_views.admin.css":1,"sites\/all\/modules\/forked\/book\/book.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/openpublic\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.css":1,"profiles\/openpublic\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openpublic\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/contrib\/ext_search_page\/ext_search_page.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/modules\/contrib\/search_api_autocomplete\/search_api_autocomplete.css":1,"sites\/all\/themes\/stability\/css\/bootstrap.min.css":1,"sites\/all\/themes\/stability\/css\/fonts\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.theme.css":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/stability\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/stability\/css\/theme.css":1,"sites\/all\/themes\/stability\/css\/theme-elements.css":1,"sites\/all\/themes\/stability\/css\/animate.min.css":1,"sites\/all\/themes\/stability\/css\/skins\/red.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/slideshow.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/font-main.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/styleless.less":1,"sites\/all\/themes\/stability\/css\/skins\/blue.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/jquery.ui.core.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/jquery.ui.datepicker.js":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/jquery.timeentry.pack.js":1,"misc\/form.js":1,"sites\/all\/modules\/custom\/aspe\/theme\/js\/aspe.login-confirm.js":1,"sites\/all\/modules\/custom\/aspe_report\/modules\/aspe_databooks\/js\/aspe_databooks.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.highcharts.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/datatables\/dataTables.min.js":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.min.js":1,"sites\/all\/libraries\/highcharts\/highcharts.js":1,"sites\/all\/libraries\/highcharts\/highcharts.exporting.js":1,"sites\/all\/libraries\/highcharts\/highcharts.map.js":1,"sites\/all\/libraries\/highcharts\/highcharts.us-all.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.footable.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5486d15a696bff0c":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/date_popup.js":1,"misc\/autocomplete.js":1,"sites\/all\/modules\/contrib\/search_api_autocomplete\/search_api_autocomplete.js":1,"sites\/all\/themes\/stability\/vendor\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/stability\/vendor\/bootstrap.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flexnav.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flickrfeed.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.sloppy-masonry.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.fitvids.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.stellar.min.js":1,"sites\/all\/themes\/stability\/vendor\/snap.svg-min.js":1,"sites\/all\/themes\/stability\/js\/custom.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/aspe.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/html5shiv.min.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/main-menu.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/keyboard-control.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tabBehavior.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tileStringTrimmer.js":1}},"datePopup":{"edit-filters-field-release-date-drb-datepicker-popup-0":{"func":"datepicker","settings":{"changeMonth":true,"changeYear":true,"autoPopUp":"focus","closeAtTop":false,"speed":"immediate","firstDay":0,"dateFormat":"mm\/dd\/yy","yearRange":"-50:+0","fromTo":false,"defaultDate":"0y"}},"edit-filters-field-release-date-dre-datepicker-popup-0":{"func":"datepicker","settings":{"changeMonth":true,"changeYear":true,"autoPopUp":"focus","closeAtTop":false,"speed":"immediate","firstDay":0,"dateFormat":"mm\/dd\/yy","yearRange":"-50:+0","fromTo":false,"defaultDate":"0y"}}},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"([a-z0-9]\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This website contains links to other federal and state agencies and private organizations. The Department of Health and Human Services (HHS) cannot attest to the accuracy of information provided by these nonfederal website links. Linking to nonfederal sites does not constitute an endorsement by HHS or any of its employees of the sponsors or the information and products presented on the sites. You will be subject to the destination site\u0027s privacy policy when you leave the ASPE website.\r\n\r\nThank you for visiting aspe.hhs.gov!","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"stability":{"flickr_id":"52617155@N08","logo_sticky":"28"},"urlIsAjaxTrusted":{"\/basic-search\/topics?sort=field_release_date\u0026order=asc":true}});
+//--><!]]>
+</script>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config = {
+      pubid: "ra-5486d15a696bff0c",
+      ui_click: false
+    }
+//--><!]]>
+</script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4837db659","applicationID":"10708002","transactionName":"MwNaZBRSXEtXB0BdWQpJeVMSWl1WGTtVR0YBOUtVB0FRUGkUVVNTOxBRVRE=","queueTime":0,"applicationTime":5218,"atts":"H0RZElxIT0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

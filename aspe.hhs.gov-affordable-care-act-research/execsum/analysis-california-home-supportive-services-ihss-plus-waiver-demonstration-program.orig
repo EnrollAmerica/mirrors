@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">  <!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://aspe.hhs.gov/sites/default/files/Favicon2.png" type="image/png" />
+<meta name="description" content="U.S. Department of Health and Human Services" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://aspe.hhs.gov/execsum/analysis-california-home-supportive-services-ihss-plus-waiver-demonstration-program" />
+<link rel="shortlink" href="https://aspe.hhs.gov/node/100276" />
+<meta property="og:site_name" content="ASPE" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aspe.hhs.gov/execsum/analysis-california-home-supportive-services-ihss-plus-waiver-demonstration-program" />
+<meta property="og:title" content="Analysis of the California In-Home Supportive Services (IHSS) Plus Waiver Demonstration Program" />
+<meta property="og:description" content="U.S. Department of Health and Human Services" />
+<meta property="og:updated_time" content="2015-12-12T03:51:00-05:00" />
+<meta property="article:published_time" content="2015-12-09T05:09:18-05:00" />
+<meta property="article:modified_time" content="2015-12-12T03:51:00-05:00" />
+
+  <title>Analysis of the California In-Home Supportive Services (IHSS) Plus Waiver Demonstration Program | ASPE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+  <link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__5ln8neBOcJfyUveiD4y9fhI6kHBLOQ_YL0mMC-LS9a0__TPJIZT9UBnf_685NlFTJ5KnZVsjwFk6ACQ-nwwygmwU__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ng49uRH5y4Hl9VF9hHW_vXOj-mcOc2u2ShJqJ1YKIGU__FoMCD14GBvZaRiqSQ_JpP1w3rDB21n7H2Ar4pRZaIh8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__Hskudx14OJ5Hz8vqU7CUgN6SDV5rINZuEq9VuGsSeyc__EwNIl3xeFrniW2TmonovTzhSs3X5MdFps210puE7jog__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__9rZoaX9BdzjjNucvYxduxeNAVO2zgW_Rvjhb5rq5whc__lSr_y16grDSgHf4booPChnF7QXz3TQY3hafH49twE0k__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZgfI_ZPib5yVY0o5aKo_6TFn946Tuu_nFDa0ySTmkSc__2FTFrNw2eNh0mpHIOA34r6YRwBZMm2PjJ_JubnwLigg__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__dxabpJ5rQgDSixKgLJZjWc1beC6mpROKwVrmWxI5eno__rqhz_hGsE_i59O7-W991o71_Jxw1QOtGMxn4nsOLHY8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZbRCq2NqWgK-HXAQI3So0N1n0nr4HonsJS3eQuuxukw__7Olkk8Locn8Dj0eR0Ww3rbV9lks9sxipcboMXB18RRs__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+
+	<!-- Head Libs -->
+	<script src="/sites/all/themes/stability/stability_aspe/vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/sites/all/themes/stability/vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" href="/sites/all/themes/stability/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/stability/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/stability/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/stability/images/apple-touch-icon-144x144.png">
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-100276 node-type-report-exec-sum">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-JLFR"
+                  height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JLFR');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-nav" class="accessibility_menu">
+    <strong>Shortcut Navigation:</strong>
+    <ul>
+      <li><a href="#content" accesskey="c" title="Skip to page content (ctrl/alt + c)">Page Content</a></li>
+      <li><a href="#nav" accesskey="m" title="Skip to main navigation menu (ctrl/alt + m)">Site Navigation</a></li>
+
+      <li><a href="#Footer" accesskey="f" title="Skip to footer (ctrl/alt + f)">Footer</a></li>
+    </ul>
+  </div>
+
+    
+<div class="site-wrapper">
+  
+  <header class="header header-menu-fullw header-top-clean">
+    <div id="brand-bar">
+        <div class="container">
+                    <img alt='bird' src="/sites/all/themes/stability/stability_aspe/images/bird.png"> <a target="blank" tabindex="4" href="http://www.hhs.gov/">U.S. Department of Health & Human Services</a>
+        </div>
+
+    </div>
+    <div class="header-main">
+        <div class="container clearfix">
+            <div class="social-links-wrapper">
+                <ul class="social-links social-links__light">
+                                                          <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw.png"/></a></li>
+                                    <!--                  --><!--                    <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin.png"/></a></li>-->
+<!--                  -->
+                                                                      </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                                <div class="site_name_wrapper">
+                                     <span class="h1">
+                                      <a href="/">ASPE</a>
+                                       </span>
+                                  <p class="tagline"><p>Office of The Assistant Secretary</p><p> for Planning and Evaluation</p></p>
+                    </div>
+            </div>
+            <!-- Logo / End -->
+            <div class="header_right_wrapper">
+                <div class="search-form">
+                    <form action="/execsum/analysis-california-home-supportive-services-ihss-plus-waiver-demonstration-program" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class = "input-group"><div class="form-type-textfield form-item-search-block-form form-item form-group">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search Site..." class="form-control form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input class="btn btn-primary btn-icon form-submit" type="image" id="edit-submit" name="submit" value="Search" src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/search-white2.png" alt="Search" title="Search" /></div></div><input type="hidden" name="form_build_id" value="form-bLs3fsyOToQXZ1SKtSg6g2J7AKR5JLtaXX2ZOuuDNqM" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </div>
+                <button type="button" class="navbar-toggle" value="Menu">
+                    <i class="fa fa-bars"></i>Menu
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-main">
+        <div class="container">
+          <ul data-breakpoint="767" class="flexnav">
+                <li class="first expanded"><a href="/basic-search/about" title="">About</a><ul><li class="first leaf"><a href="/mission" title="">Mission</a></li>
+<li class="leaf"><a href="/key-staff" title="">Leadership</a></li>
+<li class="leaf"><a href="https://www.usajobs.gov/" title="">Careers</a></li>
+<li class="expanded"><a href="/coordination" title="linkTo">Coordination</a><ul><li class="first leaf"><a href="/evaluation-evidence" title="">Evaluation &amp; Evidence</a></li>
+<li class="leaf"><a href="/national-alzheimers-project-act">National Alzheimer&#039;s Project Act</a></li>
+<li class="leaf"><a href="/health-and-human-services-hhs-data-council">HHS Data Council</a></li>
+<li class="last leaf"><a href="/national-committee-vital-and-health-statistics" title="National Council on Vital and Health Statistics">National Council on Vital and Health Statistics</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/divisions" title="">Offices</a><ul><li class="first leaf"><a href="/office-disability-aging-and-long-term-care-policy-daltcp">Disability, Aging, and Long-Term Care Policy</a></li>
+<li class="leaf"><a href="/office-health-policy-hp">Health Policy</a></li>
+<li class="leaf"><a href="/office-human-services-policy">Human Services Policy</a></li>
+<li class="last leaf"><a href="/office-science-and-data-policy">Science and Data Policy</a></li>
+</ul></li>
+<li class="leaf"><a href="/strategic-planning" title="Strategic Planning">Strategic Planning</a></li>
+<li class="last leaf"><a href="/contact-aspe" title="">Contact ASPE</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/topics" title="">Topics</a><ul><li class="first leaf"><a href="/affordable-care-act-research">Affordable Care Act Research</a></li>
+<li class="leaf"><a href="/alzheimers-dementia">Alzheimer&#039;s / Dementia</a></li>
+<li class="leaf"><a href="/early-childhood">Early Childhood</a></li>
+<li class="leaf"><a href="/incarceration-reentry">Incarceration &amp; Reentry</a></li>
+<li class="leaf"><a href="/opioid-abuse-us-and-hhs-actions-address-opioid-drug-related-overdoses-and-deaths" title="Opioids">Opioids</a></li>
+<li class="leaf"><a href="/patient-centered-outcomes-research-trust-fund">Patient-Centered Outcomes Research Trust Fund (PCORTF)</a></li>
+<li class="expanded"><a href="/basic-search/poverty" title="">Poverty</a><ul><li class="first leaf"><a href="/poverty-guidelines">Poverty Guidelines</a></li>
+<li class="last leaf"><a href="/poverty-estimates-trends-and-analysis">Poverty Analysis</a></li>
+</ul></li>
+<li class="leaf"><a href="/teen-pregnancy-prevention">Teen Pregnancy Prevention</a></li>
+<li class="leaf"><a href="/homelessness">Homelessness</a></li>
+<li class="last leaf"><a href="/medicare-access-and-chip-reauthorization-act-2015">MACRA</a></li>
+</ul></li>
+<li class="leaf"><a href="/reports" title="">Publications</a></li>
+<li class="last expanded"><a href="/basic-search/datasets" title="">Data and Tools</a><ul><li class="first last leaf"><a href="/evaluations" title="">Evaluation Database</a></li>
+</ul></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation / End -->
+</header>  <div class="main" role="main">
+    <!--PAGEWATCH CODE="USHHS_458"-->
+    <section class="page-heading">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+                <h1>
+                    
+          Analysis of the California In-Home Supportive Services (IHSS) Plus Waiver Demonstration Program        </h1>
+                                 <p class="author">
+                                                 <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2008-07-01T00:00:00-04:00">07/01/2008</span>               
+                           </p>
+
+
+                  </div>
+
+
+        <div class="col-md-6">
+           <ul class="breadcrumb"><li class="first"><a href="/" title="Home">Home</a></li>
+<li class="last">Analysis of the California In-...</li>
+</ul>        </div>
+
+
+    </div>
+  </div>
+</section>
+    
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Content">     
+
+        
+                  
+        
+                                    <div  class="col-md-12 " id="content">
+                          
+                              <div id="block-aspe-aspe-addthis" class="widget block block-aspe" >
+  
+      
+  <div class="clearfix">
+  <ul class="addthis_sharing_toolbox node-share__links" data-url="https://aspe.hhs.gov/execsum/analysis-california-home-supportive-services-ihss-plus-waiver-demonstration-program" data-title="Analysis of the California In-Home Supportive Services (IHSS) Plus Waiver Demonstration Program">
+    <li><a class="addthis_button_print"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/print-white.png" alt="print" /></a></li>
+    <li><a class="addthis_button_email"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/mail-white.png" alt="email" /></a></li>
+    <li><a class="addthis_button_twitter"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/tw.png" alt="twitter" /></a></li>
+<!--    <li><a class="addthis_button_facebook">--><!--</a></li>-->
+    <li><a class="addthis_button_compact"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/plus-white.png" alt="compact" /></a></li>
+  </ul>
+</div>
+
+  </div> <!-- /.block -->
+
+                
+    
+  
+  <div class="content clearfix node-report-exec-sum">
+    
+<p>
+</p><p align="CENTER"><font color="#000099"><b><font face="Calisto MT" size="+2">U.S. Department of Health and Human Services</font></b></font></p>
+<h1 align="CENTER">Analysis of the California In-Home Supportive Services  		(IHSS) Plus Waiver Demonstration Program</h1>
+<h1 align="CENTER">Executive Summary</h1>
+<h3>Robert Newcomer, Ph.D. and Taewoon Kang, Ph.D.</h3>
+<h3>University of California, Center for Personal Assistance Services</h3>
+<h3>July 2008</h3>
+<hr /><blockquote>
+<p><i>This report was prepared under contract contract #HHS-100-03-0025  		  between the U.S. Department of Health and Human Services (HHS), Office of  		  Disability, Aging and Long-Term Care Policy (DALTCP) and Research Triangle  		  Institute. Additional funds were provided by the National Institute for  		  Disability and Rehabilitation Research under grant #H133B031102. For additional  		  information, you may visit the DALTCP home page at  		  http://aspe.hhs.gov/daltcp/home.htm or contact Pamela Doty, at HHS/ASPE/DALTCP,  		  Room 424E, H.H. Humphrey Building, 200 Independence Avenue, SW, Washington, DC  		  20201. Her e-mail address is: Pamela.Doty@hhs.gov.</i></p>
+<p><i>This report was prepared under subcontract 5-312-0208826 between  		  RTI International and the University of California (Edith G. Walsh, Ph.D.,  		  project director). The opinions and findings expressed in this report are those  		  of the authors. They do not necessarily reflect the views of the Department of  		  Health and Human Services, the contractor or any other funding  		  organization.</i></p>
+</blockquote>
+<hr /><p></p>
+<p>In 2004, the Centers for Medicare and Medicaid Services (CMS) approved  		Californias In-Home Supportive Services (IHSS) Plus program under the  		Section 1115 demonstration authority of the Social Security Act. California  		refers to this program as the IHSS Plus Waiver. Full Medicaid (referred to as  		Medi-Cal in California) benefits and IHSS Plus benefits are available to all  		eligible IHSS Plus recipients. The IHSS program began in the early 1970s and  		was originally funded primarily with state and county funds and some federal  		Title XX (later renamed Social Services Block Grant) funds. Beginning in 1993,  		most IHSS services were financed through the Personal Care Services Program  		(PCSP) optional benefit and California benefited from 50% federal financial  		participation to cover these costs. However, prior to the granting of the IHSS  		Plus waiver, some services provided to a minority of IHSS recipients were not  		eligible for Medicaid federal matching payments. The cost of these  		Residual Program services had to be borne entirely by the state,  		with county cost sharing. </p>
+<p>The effect of the IHSS Plus Waiver is to reduce the state and county  		share of costs for eligible Residual Program services to the same rates as in  		the states PCSP. About 26,000 persons were receiving all or a portion of  		their IHSS personal assistance in 2004 through elements of the Residual Program  		that were to be incorporated into the IHSS Plus Waiver. The components of the  		IHSS Plus Waiver (i.e., the services not previously eligible for federal  		matching payments) include:</p>
+<ul><li>
+<p><i>Advance Pay</i>: IHSS recipients meeting severely impaired  			 criteria have the option to receive Advance Pay (i.e., Medicaid funds are paid  			 to recipients in advance of personal assistance service delivery). This allows  			 recipients to assure timely payments to care providers (including any emergency  			 back-up providers). </p>
+</li>
+<li>
+<p><i>Parent and Spouse Providers</i>: IHSS Plus Waiver permits spouses  			 of adults, and parents of minor children to be paid as IHSS providers for  			 personal care, protective supervision, domestic and related services. Other  			 family members as well as Non-Relative providers can provide similar services  			 under Californias regular IHSS (i.e., PCSP) program. </p>
+</li>
+<li>
+<p><i>Restaurant Meal Vouchers</i>: IHSS Plus Waiver recipients have  			 the option, under appropriate circumstances, to receive a Restaurant Meal  			 voucher in lieu of in-home assistance for meal preparation and related tasks.  			 </p>
+</li>
+</ul><p>As a condition of granting the IHSS Plus Waiver, CMS required an  		evaluation. All 1115 research and demonstration waivers are subject  		to a budget neutrality requirement; that is, Medicaid costs under  		the waiver cannot exceed estimated costs in the absence of the waiver. Thus,  		the primary purpose of the evaluation was to determine the impact of the waiver  		on Medicaid service use patterns and associated costs. However, the Office of  		the Assistant Secretary for Planning and Evaluation also wished to know about  		availability of and preferences for Spouse and Parent providers and whether  		IHSS recipients with Spouse or Parent providers (especially minor children with  		Parent providers) and differences in characteristics, such as medical diagnoses  		and severity of disability, among those receiving services from different  		provider types (e.g., Spouse or Parent, Other Relatives, and Non-Relatives).  		</p>
+<p>Changes made to Medicaid law and policy through the Deficit Reduction  		Act of 2005 now make it possible California and other states to offer Medicaid  		coverage for personal care services provided by legally responsible  		relatives (i.e., spouses or parents/guardians of minor children) without  		an 1115 waiver. The results of the IHSS Plus evaluation indicate  		that allowing personal care services to be provided by such previously  		prohibited provider types is unlikely to increase -- and may even slightly  		decrease -- Medicaid costs. </p>
+<p>The IHSS Plus Waiver was initiated in August 2004. This report documents  		IHSS Plus Waiver implementation and recipient Medicaid service use in calendar  		year 2005. Analyses compare recipients having a waiver-eligible provider (i.e.,  		parents of children, spouses of adults) for any portion of 2005 with recipients  		in the regular IHSS program who received personal assistant services through  		Other Relatives and Non-Relative providers during the same period. Recipients  		are classified by these provider types on an intention to treat  		basis. Recipients changing between Spouse/Parent providers and  		non-waiver-eligible providers are considered throughout the analysis as being  		in the spouse/parent group. This is analogous to an experiment where an  		individual enrolls into the innovative care group and later changes into  		usual care, but for purposes of analysis, the recipient is included  		within the group to which they were originally assigned. </p>
+<p>The following questions are examined: </p>
+<ul><li>
+<p>Do Waiver recipients differ from regular IHSS program recipients in  			 race/ethnicity, living arrangement (e.g., household size, and availability of  			 legally responsible relatives)?</p>
+</li>
+<li>
+<p>What are the functional limitations, task assistance needs, and  			 chronic health conditions of individuals participating in each waiver component  			 (e.g., Parent providers, Spouse providers, Advance Pay, Restaurant Meals  			 voucher)? Do these differ from recipients in the regular program?</p>
+</li>
+<li>
+<p>Do Waiver and regular IHSS recipients differ in terms of continuity  			 with their provider relationship, and Share of Cost?</p>
+</li>
+<li>
+<p>Are there differences between waiver and regular program recipients  			 in the number of IHSS hours authorized?</p>
+</li>
+<li>
+<p>What are the Medicaid (aka Medi-Cal) expenditures incurred by waiver  			 and regular program recipients? This includes all IHSS services; personal care  			 from Medicaid home and community-based services (HCBS) waiver programs;  			 Medicaid hospital, emergency room (ER), nursing home, home health, and medical  			 provider claims. </p>
+</li>
+</ul><p>Taken together, these descriptive questions assess four fundamental  		policy issues: whether there was a change in the number and attributes of  		spouses and parents of minors that are paid providers under the IHSS program;  		whether hiring legally responsible relatives as personal assistance providers  		seems to be a recipient/family preference; whether Spouse and/or Parent  		providers performed, as well as the use of other providers in enabling IHSS  		recipients to remain at home, safely; and whether the employment of family  		providers has been budget neutral for Medicaid in terms of health care  		use/expenditures. These policy issues are addressed in the conclusions section  		of this summary.</p>
+<p>Approximately 407,000 persons received IHSS services in 2005. Of these  		approximately 25,700 recipients had as paid providers either parents of minor  		children, or spouses of adults. These recipients were classified as being in  		the IHSS Plus Waiver. Restaurant Meals voucher and Advance Pay recipients  		combined to include 1,600 additional Waiver recipients. About 60% of all IHSS  		recipients in 2005 were age 65 or more. Minor children (age 3-17) accounted for  		about 4% of recipients. The remaining one-third was recipients age 18-64. The  		distribution of recipients by IHSS Plus Waiver and PCSP providers varied by  		recipient age group. Parents predominate (70%) as providers among recipients  		age 3-17. Other Relatives and Non-Relatives are the predominant source  		(75%-95%) of providers for adult IHSS recipients. About 5% of non-aged adults  		and 2.5% of the aged IHSS recipients had IHSS-paid Spouse providers. There were  		only minor differences in these distributions comparing IHSS recipients  		continuing in the program from 2004 and those entering the program in 2005.  		</p>
+<p>Females are the absolute majority of IHSS recipients, as well as the  		majority of those cared for by Other Relatives and Non-Relatives. Males  		predominate as IHSS recipients age 3-17, and they account for the majority of  		those cared for by an IHSS-paid Spouse. The IHSS program has a broad mix of  		racial/ethnic groups, with non-White groups accounting for the majority of  		recipients across all age groups. Hispanic and Asian recipients are more likely  		to use relatives (parents, spouses, or other relatives) as paid IHSS providers  		than are White or Black recipients.</p>
+<p>The disability/chronic illness profile of each age group is different,  		as is the distribution of recipients among the types of paid providers used.  		Because of this most of the discussion is presented by recipient age group.  		</p>
+<h3 align="CENTER">Summary of Findings</h3>
+<p><b><i>Racial/Ethnic and Household Characteristics of IHSS  		Recipients</i></b></p>
+<ul><li>
+<p>Hispanics are the largest group (45%) of continuing recipients age  			 3-17. Whites are about 40% of continuing adult recipients, Hispanics about 22%.  			 Blacks account for about 20% of the non-aged adult recipients, Asians about  			 10%. These latter proportions reverse among recipients age 65 or over.</p>
+</li>
+<li>
+<p>The race/ethnic characteristics of persons entering IHSS in 2005  			 among minor children and non-aged adults are generally similar to those of the  			 continuing recipients. Among recipients age 65 or more the proportion of Whites  			 and Blacks is about 20% lower, and the proportion of Hispanic and Asian is  			 10%-20% higher among recipients entering the program in 2005. </p>
+</li>
+<li>
+<p>Hispanic IHSS recipients are more likely than any of the other  			 race/ethnic groups to have paid Parent providers, whereas Black IHSS recipients  			 are the least likely. (80% of Hispanic recipients age 3-17 and 20% of Hispanic  			 recipients age 18-64 have paid Parent providers, compared to 60% of Black IHSS  			 recipients age 3-17 and 9% of Black non-aged adult recipients. </p>
+</li>
+<li>
+<p>Black non-aged adult IHSS recipients are the least likely of the  			 four race/ethnic groups to have Spouse (2%) providers. </p>
+</li>
+<li>
+<p>More than half the White and Black adult age IHSS recipients use  			 Non-Relative IHSS providers. This contrasts with about one-third among Hispanic  			 and Asian groups.</p>
+</li>
+<li>
+<p>The Advance Pay and Restaurant Meals voucher programs have a much  			 different race/ethnicity distribution than the IHSS personal assistance  			 program. Whites account for about two-thirds of each program, Hispanics and  			 Blacks, each about 13%. Chinese account for about half of the Asian/Other  			 recipients.</p>
+</li>
+<li>
+<p>Regardless of age or race/ethnicity, larger households are more  			 likely to have an Other Relative provider and less likely to have Non-Relative  			 providers. Among those 18-64 household size is positively related to having a  			 paid Parent or Other Relative provider, and negatively related to having  			 Non-Relative providers. Recipients age 65 or more in larger households are less  			 likely to have Spouse and Non-Relative providers, and more likely to have Other  			 Relatives as providers.</p>
+</li>
+<li>
+<p>The presence of a parent or spouse in the household reduces the odds  			 of having non-relatives as paid IHSS providers. Among those age 18-64 a present  			 spouse has a modest association with having Other Relatives as  			 providers.</p>
+</li>
+</ul><p><b><i>Functional Limitations and Chronic Health Conditions</i></b></p>
+<ul><li>
+<p>Children average 3.6 activities of daily living (ADLs: bathing and  			 grooming, dressing, toileting, transferring, and eating) where human assistance  			 is required. These rates of impairment are similar for both new and continuing  			 IHSS recipients in 2005 and among all provider types.</p>
+</li>
+<li>
+<p>Adult IHSS recipients average about 2.5 ADL limitations requiring  			 human assistance. These rates increase to an average of about 3.5 ADLs for  			 recipients having a paid Spouse provider. There is little difference in average  			 impairment levels among those with Other Relative and Non-Relative providers.  			 Recipients entering IHSS in 2005 average about 0.5 fewer ADL  			 limitations.</p>
+</li>
+<li>
+<p>Limitations in instrumental activities of daily living (IADLs:  			 housework, laundry, shopping and errands, meal preparation and clean-up,  			 mobility inside) requiring human assistance are pervasive, averaging more than  			 four IADL limitations among adults, and three IADLs among children. These  			 levels of impairment are similar across all provider types and between new and  			 continuing IHSS recipients.</p>
+</li>
+<li>
+<p>More than 10% of children and 5% of adults require human assistance  			 with breathing.</p>
+</li>
+<li>
+<p>Based on Medicaid claims, minor children in IHSS have an average of  			 3.5 chronic health conditions. This rate is 4.2 among those age 18-64, and 3.0  			 among those age 65+. The prevalence rates are slightly lower among recipients  			 entering IHSS in 2005. Prevalence rates derived from claims data may under  			 report the actual prevalence.</p>
+</li>
+<li>
+<p>Minor children recipients with paid Parent providers tend to have a  			 slightly higher prevalence of chronic conditions than those with Other  			 Relatives or Non-Relative providers. (e.g., 81% with at least one condition vs.  			 72% and 69% respectively).</p>
+</li>
+<li>
+<p>Among IHSS recipients age 18-64, there is a comparable prevalence of  			 chronic conditions (e.g., 89% with at least one condition) among those with  			 paid Spouse, Other Relative, and Non-Relative providers. Recipients in this age  			 group with Parent providers tend to have somewhat fewer conditions (74% with at  			 least one condition), but they are five times as likely to have mental  			 retardation/developmental disabilities (6.1%) and one-third more likely to have  			 central nervous system injuries/disorders (22%).</p>
+</li>
+<li>
+<p>IHSS recipients age 65 or older have similar prevalence of chronic  			 conditions (e.g., 83% with at least one condition) regardless of paid provider  			 type. Those with paid Spouse providers tend to have slightly higher prevalence  			 of Endocrine and Metabolic disorders, Cerebral and Other Vascular system  			 disorders, and Pulmonary System disorders; and slightly lower prevalence of  			 other conditions. </p>
+</li>
+</ul><p><b><i>Continuity of Provider Relationships and Share of Cost</i></b></p>
+<ul><li>
+<p>The factors associated with selection of a Parent, Spouse, or Other  			 Relative or Non-Relative providers are, in part, a function of the family and  			 other resources available. For those without parents, spouses or other  			 relatives, the only paid provider option becomes a non-relative. This influence  			 is most apparent among minor children, where the vast majority of those with  			 available parents have paid Parent providers; and among the few adults with  			 parents or spouses.</p>
+</li>
+<li>
+<p>Cultural preferences may also contribute to provider selection. This  			 is most evident in the greater propensity of Hispanics and Asians to have other  			 relatives as paid IHSS providers.</p>
+</li>
+<li>
+<p>Fewer than 6% of IHSS recipients changed the type of provider they  			 were using during 2005. Children were the most consistent (95% consistent),  			 non-aged adults the least consistent (93% consistent).</p>
+</li>
+<li>
+<p>Change from having a spouse as a paid provider to another provider  			 type was the most common change (9%). Changes between other relatives and  			 non-relatives affected about 7% of non-aged recipients and 4% of the  			 aged.</p>
+</li>
+<li>
+<p>Share of Cost requirements affected relatively few IHSS recipients  			 in 2005: about 1% of recipients age 3-17 and 3% of those age 18 or older. Among  			 adult recipients more of those entering the program in 2005 had a Share of Cost  			 compared to the continuing recipients: 3.4% vs. 2.8% non-aged, 5.6% vs. 3.3%  			 aged.</p>
+</li>
+<li>
+<p>Among minor children Share of Cost was more common when the provider  			 was a Parent (1.5%). Among adults, Share of Cost was most common when the  			 provider was a Spouse (10% non-aged, 11% aged).</p>
+</li>
+</ul><p><b><i>Authorized Hours of Service</i></b></p>
+<ul><li>
+<p>A maximum of 283 hours of IHSS services can be authorized in a  			 month. This is based on the number and degree of the recipients  			 limitations, with adjustments made for the living arrangement. Time that would  			 otherwise be allocated for performance of household tasks is deducted when the  			 recipient is living with others who can be expected to routinely perform (for  			 their own benefit as well as for the IHSS recipient) tasks such as house  			 cleaning, meal preparation, and shopping.</p>
+</li>
+<li>
+<p>Regardless of the IHSS recipients age, those continuing in  			 IHSS from 2004 have a higher number of authorized hours than those entering the  			 program: this difference averages about 40 hours per month among minor  			 children, 30 hours among non-aged adults, and 25 hours among the aged.</p>
+</li>
+<li>
+<p>Among recipients age 3-17, there is little difference in authorized  			 hours comparing continuing recipients having Parent providers (an average of  			 112 hours/month) and those with Non-Relative providers (an average of 108  			 hours/month). Those with other relatives had the fewest average authorized  			 hours (102 per month). These minor differences persist among those entering  			 IHSS in 2005.</p>
+</li>
+<li>
+<p>Recipients age 18-64 continuing from 2004 with Parent providers have  			 substantially more authorized hours (average of 135 hours/month) than those  			 with any other provider type. Those with Non-Relatives (average of 89  			 hours/month) and those with Spouse (average of 86 hours/month) have a similar  			 amount of hours authorized. These differences reduce among recipients entering  			 IHSS in 2005, but those with Parent providers average about 20 hours more per  			 month than those with other provider types.</p>
+</li>
+<li>
+<p>Aged recipients have a similar amount of authorized hours (about 84  			 hours per month) across all provider types. Average authorized hours reduce to  			 about 60 hours per month among recipients entering IHSS in 2005, with little  			 difference among provider types.</p>
+</li>
+</ul><p><b><i>Average Monthly Total Medicaid Expenditures</i></b></p>
+<ul><li>
+<p>Across all age groups participating in IHSS, mean unadjusted  			 Medicaid expenditures (excluding pharmacy payments) range from $1,400 to $1,700  			 per IHSS participation month. This is a cost inclusive of Medicaid-reimbursed  			 personal assistance-related expenses, which averages about $825 in 2005. The  			 highest average total expenditures are among that age 18-64, the lowest among  			 those age 65 or more. Lower expenditures among this latter group are explained,  			 in part, by more of these recipients having access to Medicare -- their primary  			 payer for hospital, physician, and other health care use.</p>
+</li>
+<li>
+<p>Among IHSS recipients age 3-17, those with Parent providers tend to  			 have about $900 lower adjusted monthly Medicaid expenditures (i.e., holding  			 health status, functional ability and other factors constant) than those with  			 Non-Relative providers. Comparisons between those with Other Relatives and  			 Non-Relative providers were not statistically significant. </p>
+</li>
+<li>
+<p>Recipients age 18-64 with paid Spouse providers have adjusted mean  			 monthly Medicaid expenditures about $1,000 lower than do those with  			 Non-Relative providers. There was no statistically significant difference  			 between those with Parent providers and those with Non-Relative providers.  			 </p>
+</li>
+<li>
+<p>Among IHSS recipients age 65 or more, those with Non-Relative  			 providers have higher adjusted average monthly expenditures than those for  			 either recipients with Spouse providers ($780) or Other Relative providers  			 ($110). </p>
+</li>
+<li>
+<p>Expenditures of new as compared to continuing IHSS recipients showed  			 minor differences in adjusted mean monthly expenditures: non-significant among  			 children, slightly higher among those age 18-64, slightly lower among the  			 aged.</p>
+</li>
+</ul><p><b><i>Medicaid-Reimbursed Hospital Expenditures and Use</i></b></p>
+<ul><li>
+<p>Among all IHSS recipients age groups the unadjusted average  			 monthly hospital expenditures generally show the Waiver recipients (i.e., those  			 adults with paid Spouse providers, minor children with paid Parent providers)  			 to have within their age group either the lowest mean expenditures or  			 expenditures approaching the lowest group. </p>
+</li>
+<li>
+<p>About 13% of the minor children and 25% of the IHSS adult recipients  			 had at least one any cause hospital stay in 2005. Among minor  			 children and the aged, comparisons (adjusting for recipient characteristics) of  			 the likelihood of a hospital stay between those having waiver providers (i.e.,  			 Parent and Spouse providers respectively) and those with Non-Relative providers  			 found no statistically significant differences.</p>
+</li>
+<li>
+<p>Among IHSS recipients age 18-64, those with Spouse providers were  			 about 15% more likely to have hospital stays than those with Non-Relative  			 providers (adjusting for recipient characteristics). Comparisons between those  			 with Non-Relative and Parent providers found 25% lower adjusted odds of a  			 hospital stay for those with Parent providers. Non-aged adults with Other  			 Relative providers show about a 10% lower risk of hospital stays than those  			 with Non-Relative providers.</p>
+</li>
+<li>
+<p>These findings of favorable or neutral outcomes comparing recipients  			 with Waiver-related providers vs. those with Other Relative and Non-Relative  			 providers were sustained using a more targeted comparison of hospital stays.  			 These involved admissions having an Ambulatory Care Sensitive Condition (ACSC)  			 -- conditions thought to be manageable with appropriate primary care. For IHSS  			 recipients age 3-17 (adjusting for recipient characteristics), there were no  			 statistically significant differences in the likelihood of an ACSC hospital  			 stay comparing across all provider groups. For recipients age 18-64, a similar  			 finding occurs comparing those with Spouse and Other Relative providers to  			 those with Non-Relative providers. Those with Parent providers had lower  			 adjusted odds for an ACSC hospital stay than those with Non-Relative providers.  			 Among recipients age 65 or more, those with Spouse providers have reduced risk  			 of an ACSC hospital stay. There were no statistically significant differences  			 comparing those with Other Relative providers to those with Non-Relative  			 providers. </p>
+</li>
+<li>
+<p>Consistently, whether testing any cause or ACSC hospital  			 admissions, non-White adult age IHSS recipients tended to have an increased  			 risk for admissions. Among minor children, the pattern was less consistent, and  			 non-significant in the ACSC comparisons. New IHSS recipients, across all age  			 groups and provider types, tended to have about half the odds of a hospital  			 stay compared to recipients continuing from 2004.</p>
+</li>
+</ul><p><b><i>Medicaid-Reimbursed Physician, Outpatient and Emergency Room  		Use</i></b></p>
+<ul><li>
+<p>About 17% of IHSS recipients, regardless of age group did not have  			 any Medicaid claims for either physician services (including MDs, nurse  			 practitioners, medical groups, surgi-centers, and rural clinics), or outpatient  			 department (including hospital-based and other organized outpatient  			 departments) use in 2005. Minor children recipients (85%) with Parent providers  			 and adults with Spouse providers (94% non-aged adults 85% aged) have the  			 highest rate of any use. (Service use estimates do not include uncompensated  			 care or medical care encounters billed solely to non-Medicaid payment  			 sources.)</p>
+</li>
+<li>
+<p>ER use is experienced by more than half of the IHSS recipients in  			 each age group. Adjusting for recipient characteristics differences among  			 provider groups for recipients age 3-17 become non-significant. Among adult age  			 recipients (ages 18 and over), those with Spouse providers tend to have about  			 20% higher odds of ER use compared to those with Non-Relative providers.  			 Recipients age 18-64 with Parent providers have reduced odds of ER use. Adult  			 age recipients with Other Relative providers have lower risk of ER use. New  			 IHSS recipients, in all age groups have about 50% lower odds of ER use. The  			 cause of the difference is unknown, but the main point is that recipients  			 entering IHSS after initiation of the waiver are seemingly healthier than the  			 recipients who continued in the program from 2004.</p>
+</li>
+<li>
+<p>Inclusion of Medicaid ER use claims results in a 2%-3% increase,  			 across all IHSS recipient subgroups, in the percentage of recipients having any  			 medical care use. </p>
+</li>
+<li>
+<p>Adjusting for recipient characteristics: minor children with Parent  			 providers and adult recipients with Spouse providers have a higher likelihood  			 of any medical care use (including ER use) compared to those with Non-Relative  			 providers. Comparisons between IHSS recipients with Other Relative and  			 Non-Relative providers are not statistically different. Adults with Parent  			 providers have a 20% lower odds of medical care use than do those with  			 Non-Relatives as paid IHSS providers.</p>
+</li>
+<li>
+<p>The race/ethnicity of IHSS recipients, adjusting for health  			 conditions and functional limitations, showed no statistically significant  			 differences in the odds of medical care use (both including and excluding ER  			 use) comparing Non-White to White race/ethnic groups among IHSS recipients age  			 3-17, and comparing Hispanics and Asians to Whites among recipients age 65+.  			 Adult Black IHSS recipients, on the other hand, were less likely to use medical  			 services than Whites. Non-aged adult Hispanic and Asian recipients tended to  			 have a higher likelihood of medical care use than Whites of the same  			 age.</p>
+</li>
+<li>
+<p>Medical care expenditures follow patterns consistent with service  			 use. Within recipient age groups there is little difference in the average  			 monthly expenditures for physician and outpatient department services among  			 recipients, regardless their provider type. Average monthly Medicaid  			 expenditures tend to be highest for children, lowest for those 65 or older.  			 Combining the sources of medical care (excluding ER use), the mean monthly  			 expenditures for IHSS recipients age 3-17 continuing from 2004, range from a  			 $140-$180 across all provider types; the ranges are respectively $105-$170  			 among those age 18-64, and $40-$50 among those age 65 or more. The lower  			 expenditures among adults (the aged in particular), are likely due to Medicare  			 or another source being a primary payer on these services. Expenditures for  			 those who entered the IHSS program in 2005 are marginally higher than for  			 continuing recipients.</p>
+</li>
+</ul><p><b><i>Home and Community-Based Services</i></b></p>
+<ul><li>
+<p>The use of Medicaid HCBS waiver or State Plan services (excluding  			 IHSS) is proportionately low among IHSS recipients: fewer than 0.04% among IHSS  			 recipients age 3-17, 4.2% among those age 18-64, and 17% among those age 65+.  			 Average monthly expenditures for the users of these services tend to be highest  			 among IHSS recipients age 18-64, particularly those with Parent providers (mean  			 $2300/month). This rate is about double that for recipients with Spouse and  			 Other providers. There is little unadjusted difference among recipients with  			 different provider types for those age 65+ (mean $620), and too few minor  			 children recipients to appropriately draw conclusions. </p>
+</li>
+<li>
+<p>IHSS average monthly expenditures are comparable among adult  			 recipients regardless of whether they are older or younger than age 65, but are  			 higher among recipients age 3-17. Children with Parent providers ($520), and  			 Adults with Spouse providers ($350 non-aged-$400 aged recipients) have the  			 lowest unadjusted average monthly expenditures. The non-aged adult recipients  			 with Parent providers had the highest average monthly expenditures ($980).  			 There are minor differences comparing monthly expenditures for recipients with  			 Other Relative versus Non-Relative providers within each of the recipient age  			 groups: age 3-17 $870 vs. $880, age 18-64 $660 vs. $740, age 65+ $700 vs.  			 $730.</p>
+</li>
+<li>
+<p>Analyses combining IHSS and the other home care expenditures, and  			 adjusting for recipient characteristics, found that IHSS Plus Waiver recipients  			 (i.e., minor children whose parents are paid IHSS providers, and adults whose  			 spouses are paid IHSS providers) had lower average monthly home care  			 expenditures than recipients with Non-Relative providers. Differences averaged  			 $520 for minor children, $340 for aged, and $430 for non-aged adults.</p>
+</li>
+</ul><p><b><i>Nursing Home Use</i></b></p>
+<ul><li>
+<p>The incidence of nursing home placement among IHSS recipients in  			 2005 was low: 0.26% among children, 2.25% among non-aged adult recipients, and  			 5.9% among those age 65+. </p>
+</li>
+<li>
+<p>Among recipients age 18-64, there is a persistent adjusted effect:  			 IHSS recipients related to their providers have lower adjusted odds of nursing  			 home use than persons with Non-Relative providers. Recipients with paid Parent  			 providers tend to have a lower adjusted risk than recipients with either Spouse  			 or Other Relative providers. There were no differences between new and  			 continuing IHSS recipients in placement rates.</p>
+</li>
+<li>
+<p>Among recipients age 65 or older, the protective effect of relatives  			 as providers is present only comparing recipients with Other Relatives to those  			 with Non-Relative providers. Recipients with paid Spouse providers have a  			 modest tendency toward a lower placement rate, but this did not reach  			 statistical significance. Recipients joining IHSS in 2005 were less likely than  			 continuing recipients to have a nursing home placement.</p>
+</li>
+</ul><h3 align="CENTER">Conclusions</h3>
+<p>This section addresses four fundamental policy issues implicit in the  		IHSS Plus Waiver and its efforts to extend the use of spouses and parents as  		paid providers for personal care services.</p>
+<p><b><i>IHSS Plus vs. the IHSS Residual Program Participation</i></b></p>
+<p>The number of recipients cared for by Spouses and Parents of minors paid  		as IHSS providers remained relatively constant between 2004 (under the IHSS  		Residual Program) and 2005 (under the IHSS Plus Waiver); as did the total  		number of persons (about 1,600 recipients in 2005) participating in the  		Restaurant Meals voucher and Advance Pay waiver-eligible services. The new  		recipients, as a group, tended to be somewhat less impaired, to have lower  		health care expenditures, and to receive fewer IHSS authorized hours than the  		group of recipients who were in IHSS during the prior year, or longer. These  		attributes likely could be common to all cohorts of new recipients, and may not  		be unique to IHSS Plus Waiver program entrants. The race/ethnic and provider  		mix was somewhat different comparing the new and continuing program cohorts,  		showing a proportionate increase in Hispanic and Asian recipients.</p>
+<p><b><i>Preferences in the Selection of Paid IHSS Providers and  		Outcomes</i></b></p>
+<p>The selection of a Parent or Spouse as a paid provider, across all age  		groups, is partly a function of available family members, but differences in  		the proportion among race/ethnic groups selecting each of the  		various provider types suggests that cultural preferences may be an important  		selection factor. Wage and other possible influences on provider availability  		were not an in-depth focus of these analyses, but IHSS wage rates (which vary  		by county) did not have a consistent association with the selection of paid  		Parent or Spouse providers. To the contrary, higher wages were marginally  		associated with an increased use of Non-Relative providers, and Parents and  		Spouse providers were more likely when wages were low (and presumably low wages  		may make it more difficult to attract Non-Relative providers). </p>
+<p align="CENTER"><b>Recipients Age 3-17</b></p>
+<p>Minor children in IHSS generally have at least one parent in the home.  		Consequently, for most of these children, the choice of Parent/Non-Parent  		provider was possible and the choice made by families was for a Parent provider  		(70% overall and 80% when a parent was present in the home). Hispanics had the  		highest proportion selecting Parent providers (81%) and the least selecting  		Non-Relative providers (9%). Blacks (60%) were the least likely to have paid  		Parent provider, and comparable to Whites in the proportion selecting  		Non-Relative providers (20%). The decision of families to seek IHSS versus  		other service options was outside the scope of this study.</p>
+<p>There were few differences by provider type in the number of ADL/IADL  		and cognitive limitations among minor children IHSS recipients. However,  		proportionately more minor children with paid Parent providers were dependent  		on human assistance with breathing (this includes assistance with  		self-administration of oxygen, and the cleaning of this equipment), and had  		more chronic health conditions (including mental retardation, seizure  		disorders, and paralysis). These conditions have been shown to be associated  		with nursing home use in minor children (Fries, Wodchis, Blaum, et al., 2005),  		and may be indicative of the Parent providers willingness and/or greater  		ability to assume the demanding care responsibilities associated with these  		conditions. Contributing to this ability may be that parents are legally  		permitted to perform skilled nursing tasks that other providers,  		especially Non-Relatives, would not be permitted to perform. Investigation of  		the cause of this pattern is outside the scope of the current  		study. </p>
+<p align="CENTER"><b>Recipients Age 18-64</b></p>
+<p>Spouse providers were rarely available as a choice to the non-aged  		adults participating in IHSS. Most IHSS recipients in this age group were  		either not married or their spouses were also IHSS recipients or otherwise not  		able physically/mentally to be paid caregivers. However, when spouses were  		available and able, the preference for them appears to be strong  		(90% among those with an available/able spouse). Parents were more readily  		available than spouses to non-elderly adults, and more recipients of this age  		group selected Parent paid providers. The availability of parents beyond those  		selected as paid providers is unknown in the IHSS data. There were discernable  		ethnic differences in the propensity to select Parent or Spouse providers.  		Hispanics were most likely to select Parent providers (26%), and the second  		most likely to select Spouse providers (9%). Asians were the most likely to  		select Spouse providers (11%), and second most likely to select Parent  		providers (18%). Blacks were the least likely to select either Spouse (2%) or  		Parent (10%) providers. More than half of the Blacks and Whites relied on  		Non-Relative providers. This contrasted with about a third among Hispanics and  		Asians.</p>
+<p>In general, recipients with paid Parent or Spouse providers had more  		limitations in ADL and cognitive functioning, and a comparable number of  		chronic health conditions than recipients with other providers. However, those  		with paid Parent providers had higher rates of mental retardation/developmental  		disability, central nervous system injuries/disorders such as quadriplegia,  		paraplegia, other extensive paralysis or spinal cord disorders, and seizure  		disorder) -- all of which are conditions shown by Fries and associates (2005)  		to be associated with higher risk of nursing home placement.</p>
+<p align="CENTER"><b>Recipients Age 65 or More</b></p>
+<p>Spouses were present among about 25% of this age group of IHSS  		recipients, but except for those paid as Spouse providers, the number  		able/available reduced to about 3%. When a recipient-provider was an Other  		Relative or a Non-Relative, almost half of the spouses present were also IHSS  		recipients. This pattern of both partners being on IHSS may be the consequence  		of the income and asset eligibility criteria used for Medicaid among IHSS  		recipients. Unlike the criteria used for nursing home recipients, IHSS  		recipients are not allowed to separate their couple assets when determining  		program Medicaid eligibility for one individual. Recipients with IHSS-paid  		Spouse providers tended to have more ADL, cognitive, and breathing assistance  		limitations, but there were no substantial differences in the number of health  		conditions. Race/ethnicity had a minor association with the presence of a paid  		Spouse provider (the percentages range from 1%-4%), but the more striking  		differences involved recipients with Other Relative and Non-Relative providers.  		More than half of the Asian (64%) and Hispanic (54%) recipients had an Other  		Relative as their paid provider, whereas more than half of the Whites (53%) and  		Blacks (56%) had Non-Relative providers.</p>
+<p><b><i>Implications for Medicaid and IHSS Expenditures</i></b></p>
+<p>For all recipient age groups, IHSS expenditures, adjusting impairment  		severity and service needs, are expected to be lower relative to those with  		Non-Relative providers when Parents, Spouses, and Other Relatives living in the  		household are paid IHSS providers. This cost difference arises because an IHSS  		algorithm adjusts the authorized time for housekeeping/meal preparation when  		there are relatives living in the household who might be expected to perform  		these tasks for themselves as well as for the recipient. This adjusted cost  		difference was observed for Parent providers to minor children, and for Spouse  		providers of adults. The cost differences for Parent provider (non-aged adults)  		and Other Relative providers were minor or non-significant. This could be  		because these providers were not living with the recipient or they may reflect  		limitations in the risk adjustment model.</p>
+<p>Minor children with Parent providers, after adjusting for recipient  		functional and health conditions, have lower average monthly Medicaid  		expenditures than those with Non-Relative providers. These recipients also have  		lower adjusted use of IHSS and other home care service expenditures.</p>
+<p>Adjusting for recipient characteristics, recipients age 18-64 with  		Spouse providers had lower average Medicaid monthly expenditures than those  		with Non-Relative providers. There were no statistically significant  		differences comparing recipients with Parent and Non-Relative providers. Among  		these adult IHSS recipients each of the paid relative provider groups had a  		significantly reduced likelihood of nursing home placement compared to those  		with Non-Relative providers. The Parent provider effect for those age18-64  		appears greatest. Those with Spouse providers tended to have higher risk of  		any cause hospital stays (but not those associated with ambulatory  		sensitive conditions), higher risk of ER use, but lower IHSS and home care  		expenditures than recipients with Non-Relative providers. Recipients with  		Parent providers compared to those with Non-Relative providers had lower  		adjusted use of hospitals, ERs, and home care.</p>
+<p>Average monthly Medicaid expenditures among recipients age 65 or more,  		adjusting for recipient characteristics, were lower for those with Spouse  		providers and Other Relative compared to Non-Relative providers. This tendency  		for lower risk among those with family providers was also present with respect  		to ambulatory sensitive hospital stays; and those with Other Relative providers  		compared to those with Non-Relative providers had reduced risk of ER use, lower  		monthly expenditures for IHSS and other home care. The protective effect of  		relatives as paid providers was also present, but this association was with the  		Other Relative provider category as compared to Non-Relative providers.</p>
+<p>In short, these analyses found no financial disadvantage and some  		advantages to Medicaid from allowing spouses, parents (and other relatives) to  		be paid IHSS providers. This argues in favor of honoring the recipients  		and familys preference for such providers. Whether the availability of  		spouse, parent, and other relatives can be expanded beyond its current  		proportion among all race/ethnic groups in IHSS is unknown, but changes in the  		race/ethnic mix of recipients evident in the new cohort of enrollees may affect  		this. The proportion of recipients who are Hispanic or Asian seems to be  		growing. These groups presently have the highest proportionate use of Spouse,  		Parent, and Other Relative providers. </p>
+<p>These effects of selecting Parent, Spouse, and Other Relatives as paid  		providers are present within a program where the rate of Medicaid nursing home  		stays among IHSS recipients with Non-Relative providers seems to be low. This  		suggests that IHSS in general is doing a good job of enabling recipients to  		remain in the community regardless of the provider type selected. Not examined  		in this analysis were the factors (such as hospital stays, avoidable changes is  		health or functional status) associated with entry into and exit from IHSS; or  		the duration of participation in IHSS and the cost/use comparisons over  		time.</p>
+<table frame="BORDER" align="center" cellspacing="0" border="5" title="add"><tr align="LEFT" valign="TOP" bgcolor="#C0C0C0"><td>The Full Report is also available from the DALTCP website (<a href="http://aspe.hhs.gov/_/office_specific/daltcp.cfm">http://aspe.hhs.gov/_/office_specific/daltcp.cfm</a>)  			 or directly at: 
+<p> Main Report:  			 <a href="http://aspe.hhs.gov/daltcp/reports/2008/IHSSPlus.htm">http://aspe.hhs.gov/daltcp/reports/2008/IHSSPlus.htm</a>  			 </p>
+<p>Appendices:  			 <a href="http://aspe.hhs.gov/daltcp/reports/2008/IHSSPlus2.htm">http://aspe.hhs.gov/daltcp/reports/2008/IHSSPlus2.htm</a></p></td>
+</tr></table><div class="group-tags"><div class="field-label">Tags:&nbsp;</div><a href="/terms/consumer-directed-carecash-and-counseling">Consumer-Directed Care/Cash and Counseling</a><a href="/terms/medicaid-1">Medicaid</a><a href="/terms/personal-care-services">Personal Care Services</a><a href="/terms/publications-2">Publications</a><a href="/terms/whats-new">What&#039;s New</a><a href="/terms/disability-aging-and-long-term-care-research">Disability, Aging and Long-Term Care Research</a><a href="/terms/highlighted-issues">Highlighted Issues</a><a href="/terms/healthcarelong-term-care-financing">Healthcare/Long-Term Care Financing</a><a href="/terms/home-and-community-based-services">Home and Community-Based Services</a></div>  </div>
+
+      <footer>
+          </footer>
+  
+    <div id="block-webform-client-block-158521" class="widget block block-webform" >
+  
+      
+  <div id="webform-ajax-wrapper-158521"><form class="webform-client-form webform-client-form-158521" action="/execsum/analysis-california-home-supportive-services-ihss-plus-waiver-demonstration-program" method="post" id="webform-client-form-158521" accept-charset="UTF-8"><div><div class="webform-progressbar">
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-radios webform-component--was-this-page-helpful">
+  <label for="edit-submitted-was-this-page-helpful">Was this page helpful? <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-was-this-page-helpful" class="form-radios"><div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-1" name="submitted[was_this_page_helpful]" value="1" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-1">Yes </label>
+
+</div>
+<div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-2" name="submitted[was_this_page_helpful]" value="0" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-2">No </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="4" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-eAFJDREC_ynQleZd4ZxF5XpzWQhxq3nMd89ed54u5Z8" />
+<input type="hidden" name="form_id" value="webform_client_form_158521" />
+<input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-158521" />
+<div class="form-actions"><input class="webform-next button-primary btn btn-default form-submit" type="submit" id="edit-webform-ajax-next-158521" name="op" value="Next &gt;" /></div>
+<div class="is-useful-disclaimer"> <a href="/%23" class="" title="Survey Disclaimer" data-toggle="modal" data-target="#disclamerModal">Form Approved OMB# 0990-0379 Exp. Date 8/31/2017</a></div>
+<div class="modal fade" id="disclamerModal" tabindex="-1" role="dialog" aria-labelledby="disclamerModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="disclamerModalLabel">Survey Disclaimer</h2>
+      </div>
+      <div class="modal-body">
+         According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this information collection is 0990-0379. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, gather the data needed, and complete and review the information collection. If you have comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: U.S. Department of Health & Human Services, OS/OCIO/PRA, 200 Independence Ave., S.W., Suite 336-E, Washington D.C. 20201, Attention: PRA Reports Clearance Officer.      </div>
+    </div>
+  </div>
+</div></div></form></div>
+  </div> <!-- /.block -->
+<meta  itemscope="" itemid="https://aspe.hhs.gov/execsum/analysis-california-home-supportive-services-ihss-plus-waiver-demonstration-program" itemref="md1 md3 md5 md7 md9 md11 md13 md15 md17 md19" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/consumer-directed-carecash-and-counseling" id="md3" itemref="md2" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/medicaid-1" id="md5" itemref="md4" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/personal-care-services" id="md7" itemref="md6" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/publications-2" id="md9" itemref="md8" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/whats-new" id="md11" itemref="md10" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/disability-aging-and-long-term-care-research" id="md13" itemref="md12" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/highlighted-issues" id="md15" itemref="md14" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/healthcarelong-term-care-financing" id="md17" itemref="md16" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/home-and-community-based-services" id="md19" itemref="md18" />              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <footer  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Footer">     
+
+        
+                  
+        
+                  
+        
+                                    <div  id="footer_sitemap-footer_sitemap" class="col-sm-6 col-md-6 col-lg-4 ">
+                          
+                              <div id="block-footer-sitemap-footer-sitemap" class="widget block block-footer-sitemap" >
+  
+      
+  <div id="footer-sitemap" class="clearfix">
+  <div class="fs-block-content"><div class="menu-footer-utility"><ul class="footer_links_menu-footer-utility total-items-2 parent-items-0 single-items-0"><li class="menu-5021 depth-1 total-children-8 parent-children-0 single-children-8  first"><a href="/" title="look at ASPE Home" class="fs-root-link">ASPE Home</a><ul class="footer_links_menu-footer-utility total-items-8 parent-items-0 single-items-0"><li class="menu-5026 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/" title="look at HHS Home">HHS Home</a></li>
+<li class="menu-66281 depth-1 fs-no-children"><a href="http://www.usa.gov/" title="look at USA.gov">USA.gov</a></li>
+<li class="menu-66316 depth-1 fs-no-children"><a href="https://oig.hhs.gov/" title="look at Office of the Inspector General">Office of the Inspector General</a></li>
+<li class="menu-66321 depth-1 fs-no-children"><a href="http://www.whitehouse.gov" title="look at The White House">The White House</a></li>
+<li class="menu-5046 depth-1 fs-no-children"><a href="http://www.hhs.gov/Accessibility.html" title="look at Accessibility">Accessibility</a></li>
+<li class="menu-66326 depth-1 fs-no-children"><a href="http://www.hhs.gov/about/budget/index.html" title="look at Budget/Performance">Budget/Performance</a></li>
+<li class="menu-2551 depth-1 fs-no-children"><a href="http://www.hhs.gov/Privacy.html" title="look at Privacy Policy">Privacy Policy</a></li>
+<li class="menu-197776 depth-1 fs-no-children  last"><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" title="Nondiscrimination Notice">Nondiscrimination Notice</a></li>
+</ul></li>
+<li class="menu-5051 depth-1 total-children-4 parent-children-0 single-children-4  last"><a href="http://www.hhs.gov/foia/" title="look at FOIA" class="fs-root-link">FOIA</a><ul class="footer_links_menu-footer-utility total-items-4 parent-items-0 single-items-0"><li class="menu-5056 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/open/recordsandreports/plainwritingact/index.html" title="look at Plain Writing Act">Plain Writing Act</a></li>
+<li class="menu-5061 depth-1 fs-no-children"><a href="http://www.hhs.gov/asa/eeo/no_fear_bullet_3.html" title="look at No Fear Act">No Fear Act</a></li>
+<li class="menu-5066 depth-1 fs-no-children"><a href="http://www.hhs.gov/Disclaimer.html" title="look at Disclaimers">Disclaimers</a></li>
+<li class="menu-2546 depth-1 fs-no-children  last"><a href="http://www.hhs.gov/plugins.html" title="look at Viewers &amp; Players">Viewers &amp; Players</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-5 " id="stability_cms-contact_us">
+                          
+                              <div id="block-stability-cms-contact-us" class="widget block block-stability-cms" >
+  
+      
+  <div class="contacts-widget widget widget__footer">
+	<div class="widget-content">
+		<ul class="contacts-info-list">
+      			<li>
+<!--				<i class="fa fa-map-marker">Address</i>-->
+                <div class="info-icons">
+                    <img  alt="map" class= 'map-icons' src="/sites/all/themes/stability/stability_aspe/images/map.png"/>
+                </div>
+                <div class="info-item">
+					Assistant Secretary for Planning and Evaluation, Room 415F<br />
+U.S. Department of Health and Human Services<br />
+200 Independence Avenue, SW<br />
+Washington, D.C. 20201				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-phone">phone</i>-->
+                <div class="info-icons">
+                    <img alt="phone" src="/sites/all/themes/stability/stability_aspe/images/phone.png"/>
+                </div>
+				<div class="info-item">
+					+1 202.690.7858				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-envelope">email</i>-->
+                <div class="info-icons">
+                    <img alt="mail" src="/sites/all/themes/stability/stability_aspe/images/mail-white.png"/>
+                </div>
+				<span class="info-item">
+					<a href="mailto:osaspeinfo@hhs.gov">osaspeinfo@hhs.gov</a>
+				</span>
+			</li>
+      			                					</ul>
+	</div>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-3 " id="footer">
+                          
+                              <div id="block-block-36" class="widget block block-block" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sign-up</span> for Email Updates</h3>
+		</div>
+    
+  <div class="email_updates">
+<button class="btn btn-default" name="subscribe-button" type="submit" value="subscribe">subscribe</button>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-12 " id="menu-menu-footer-language-menu">
+                          
+                              <div id="block-menu-menu-footer-language-menu" class="widget block block-menu" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Language</span> Assistance Available</h3>
+		</div>
+    
+  <ul class="menu"><li class="first expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#spanish" title="Español">Español</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#chinese" title="繁體中文">繁體中文</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#vietnamese" title="Tiếng Việt">Tiếng Việt</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#korean" title="한국어">한국어</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#tagalog" title="Tagalog">Tagalog</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#russian" title="Русский">Русский</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#arabic" title="العربية">العربية</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#creole" title="Kreyòl Ayisyen">Kreyòl Ayisyen</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#french" title="Français">Français</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#polish" title="Polski">Polski</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#portuguese" title="Português">Português</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#italian" title="Italiano">Italiano</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#german" title="Deutsch">Deutsch</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#japanese" title="日本語">日本語</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#farsi" title="فارسی">فارسی</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#english" title="English">English</a></li>
+</ul></li>
+</ul>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+      </div>
+
+          </div>
+    
+    
+      </footer>
+    
+
+    <!--/PAGEWATCH-->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+                        </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="social-links-wrapper">
+              <span class="social-links-txt">Connect with us</span>
+              <ul class="social-links social-links__dark">
+                                                  <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw-grey.png"/></a></li>
+                                <!--                --><!--                  <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin-grey.png"/></a></li>-->
+<!--                -->
+                                                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>  <script type="text/javascript" src="/sites/default/files/advagg_js/js__VWRymaMz6HfrhnrcJNGcDiSvLVrvhaXvBa7nrBYy8gc__jntPwP3D6myJZH1jW19fXrk5cYMHGRL8NQION22VSEA__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5486d15a696bff0c"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__g6mKbcakHxQkz4ZHYaxdO_xqONINvRMgsHh1zAK-fr0__ATHtEmHaeZ0jidpGU22EkhmPDBSgjD8z0bVDQMI-BIY__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__KUp4PrfOt9BSXUVl8Ctb3dhCMBe4MNVMeb4Gyorx8yY__7g4BeXscCIZAfuu1vxsCj2RIemg-eEK0QpChP9LDmFQ__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__PNjAgubM_3xXRLp4uLsYnv8wQAdT89-RYkSPxT6T45c__rFQwFK4pA5ZaWZSF7FPTfKbbpus0h-5IS8ayrNZGrb4__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__vQiLul2UcfC4nBAR09mhYVBYzRmiNDm2dj3GgSubV38__w84oZe-ZODKe7XnnlbrjV4IWHISOy4PioFEMVgx9hZo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__QJw3g0kOdwsv4twSZLP931zBzsHy50VEHpEN_znIitQ__A6QOuWXElDipBM2iChbWhjAAt3KlUwZ-jODoxdpbwiw__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stability_aspe","theme_token":"kg9-K1p5M-kE-HFFK0eMLKuMf5scwxSJrqwDYRtlzFQ","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/footable.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/aspe_nodes.admin.css":1,"sites\/all\/modules\/custom\/aspe_views\/theme\/css\/aspe_views.admin.css":1,"sites\/all\/modules\/forked\/book\/book.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/openpublic\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.css":1,"profiles\/openpublic\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openpublic\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/openpublic\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/themes\/stability\/css\/bootstrap.min.css":1,"sites\/all\/themes\/stability\/css\/fonts\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.theme.css":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/stability\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/stability\/css\/theme.css":1,"sites\/all\/themes\/stability\/css\/theme-elements.css":1,"sites\/all\/themes\/stability\/css\/animate.min.css":1,"sites\/all\/themes\/stability\/css\/skins\/red.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/slideshow.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/font-main.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/styleless.less":1,"sites\/all\/themes\/stability\/css\/skins\/blue.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/aspe\/theme\/js\/aspe.login-confirm.js":1,"sites\/all\/modules\/custom\/aspe_report\/modules\/aspe_databooks\/js\/aspe_databooks.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.highcharts.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/datatables\/dataTables.min.js":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.min.js":1,"sites\/all\/libraries\/highcharts\/highcharts.js":1,"sites\/all\/libraries\/highcharts\/highcharts.exporting.js":1,"sites\/all\/libraries\/highcharts\/highcharts.map.js":1,"sites\/all\/libraries\/highcharts\/highcharts.us-all.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.footable.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5486d15a696bff0c":1,"misc\/progress.js":1,"profiles\/openpublic\/modules\/contrib\/webform\/js\/webform.js":1,"profiles\/openpublic\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/stability\/vendor\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/stability\/vendor\/bootstrap.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flexnav.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flickrfeed.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.sloppy-masonry.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.fitvids.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.stellar.min.js":1,"sites\/all\/themes\/stability\/vendor\/snap.svg-min.js":1,"sites\/all\/themes\/stability\/js\/custom.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/aspe.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/html5shiv.min.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/main-menu.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/keyboard-control.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tabBehavior.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tileStringTrimmer.js":1}},"webform":{"conditionals":{"webform-client-form-158521":{"ruleGroups":[],"sourceMap":[],"values":[]}}},"ajax":{"edit-webform-ajax-next-158521":{"callback":"webform_ajax_callback","wrapper":"webform-ajax-wrapper-158521","progress":{"message":"","type":"throbber"},"event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Next \u003E"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/execsum\/analysis-california-home-supportive-services-ihss-plus-waiver-demonstration-program":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"([a-z0-9]\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This website contains links to other federal and state agencies and private organizations. The Department of Health and Human Services (HHS) cannot attest to the accuracy of information provided by these nonfederal website links. Linking to nonfederal sites does not constitute an endorsement by HHS or any of its employees of the sponsors or the information and products presented on the sites. You will be subject to the destination site\u0027s privacy policy when you leave the ASPE website.\r\n\r\nThank you for visiting aspe.hhs.gov!","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"stability":{"flickr_id":"52617155@N08","logo_sticky":"28"},"field_group":{"div":"full"}});
+//--><!]]>
+</script>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config={pubid:"ra-5486d15a696bff0c",ui_click:false}
+//--><!]]>
+</script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4837db659","applicationID":"10708002","transactionName":"MwNaZBRSXEtXB0BdWQpJbUIPHFtWUgFMGkYMFg==","queueTime":0,"applicationTime":24,"atts":"H0RZElxIT0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

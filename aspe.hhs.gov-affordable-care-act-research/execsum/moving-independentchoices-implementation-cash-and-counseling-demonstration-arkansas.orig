@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">  <!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://aspe.hhs.gov/sites/default/files/Favicon2.png" type="image/png" />
+<meta name="description" content="Barbara Phillips and Barbara Schneider Mathematica Policy Research, Inc. May 2002" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://aspe.hhs.gov/execsum/moving-independentchoices-implementation-cash-and-counseling-demonstration-arkansas" />
+<link rel="shortlink" href="https://aspe.hhs.gov/node/99011" />
+<meta property="og:site_name" content="ASPE" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aspe.hhs.gov/execsum/moving-independentchoices-implementation-cash-and-counseling-demonstration-arkansas" />
+<meta property="og:title" content="Moving to IndependentChoices: The Implementation of the Cash and Counseling Demonstration in Arkansas" />
+<meta property="og:description" content="Barbara Phillips and Barbara Schneider Mathematica Policy Research, Inc. May 2002" />
+<meta property="og:updated_time" content="2017-03-20T09:53:31-04:00" />
+<meta property="article:published_time" content="2015-12-09T05:06:37-05:00" />
+<meta property="article:modified_time" content="2017-03-20T09:53:31-04:00" />
+
+  <title>Moving to IndependentChoices: The Implementation of the Cash and Counseling Demonstration in Arkansas | ASPE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+  <link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__5ln8neBOcJfyUveiD4y9fhI6kHBLOQ_YL0mMC-LS9a0__TPJIZT9UBnf_685NlFTJ5KnZVsjwFk6ACQ-nwwygmwU__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ng49uRH5y4Hl9VF9hHW_vXOj-mcOc2u2ShJqJ1YKIGU__FoMCD14GBvZaRiqSQ_JpP1w3rDB21n7H2Ar4pRZaIh8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__Hskudx14OJ5Hz8vqU7CUgN6SDV5rINZuEq9VuGsSeyc__EwNIl3xeFrniW2TmonovTzhSs3X5MdFps210puE7jog__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__9rZoaX9BdzjjNucvYxduxeNAVO2zgW_Rvjhb5rq5whc__lSr_y16grDSgHf4booPChnF7QXz3TQY3hafH49twE0k__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZgfI_ZPib5yVY0o5aKo_6TFn946Tuu_nFDa0ySTmkSc__2FTFrNw2eNh0mpHIOA34r6YRwBZMm2PjJ_JubnwLigg__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__dxabpJ5rQgDSixKgLJZjWc1beC6mpROKwVrmWxI5eno__rqhz_hGsE_i59O7-W991o71_Jxw1QOtGMxn4nsOLHY8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZbRCq2NqWgK-HXAQI3So0N1n0nr4HonsJS3eQuuxukw__7Olkk8Locn8Dj0eR0Ww3rbV9lks9sxipcboMXB18RRs__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+
+	<!-- Head Libs -->
+	<script src="/sites/all/themes/stability/stability_aspe/vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/sites/all/themes/stability/vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" href="/sites/all/themes/stability/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/stability/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/stability/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/stability/images/apple-touch-icon-144x144.png">
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-99011 node-type-report-exec-sum">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-JLFR"
+                  height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JLFR');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-nav" class="accessibility_menu">
+    <strong>Shortcut Navigation:</strong>
+    <ul>
+      <li><a href="#content" accesskey="c" title="Skip to page content (ctrl/alt + c)">Page Content</a></li>
+      <li><a href="#nav" accesskey="m" title="Skip to main navigation menu (ctrl/alt + m)">Site Navigation</a></li>
+
+      <li><a href="#Footer" accesskey="f" title="Skip to footer (ctrl/alt + f)">Footer</a></li>
+    </ul>
+  </div>
+
+    
+<div class="site-wrapper">
+  
+  <header class="header header-menu-fullw header-top-clean">
+    <div id="brand-bar">
+        <div class="container">
+                    <img alt='bird' src="/sites/all/themes/stability/stability_aspe/images/bird.png"> <a target="blank" tabindex="4" href="http://www.hhs.gov/">U.S. Department of Health & Human Services</a>
+        </div>
+
+    </div>
+    <div class="header-main">
+        <div class="container clearfix">
+            <div class="social-links-wrapper">
+                <ul class="social-links social-links__light">
+                                                          <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw.png"/></a></li>
+                                    <!--                  --><!--                    <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin.png"/></a></li>-->
+<!--                  -->
+                                                                      </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                                <div class="site_name_wrapper">
+                                     <span class="h1">
+                                      <a href="/">ASPE</a>
+                                       </span>
+                                  <p class="tagline"><p>Office of The Assistant Secretary</p><p> for Planning and Evaluation</p></p>
+                    </div>
+            </div>
+            <!-- Logo / End -->
+            <div class="header_right_wrapper">
+                <div class="search-form">
+                    <form action="/execsum/moving-independentchoices-implementation-cash-and-counseling-demonstration-arkansas" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class = "input-group"><div class="form-type-textfield form-item-search-block-form form-item form-group">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search Site..." class="form-control form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input class="btn btn-primary btn-icon form-submit" type="image" id="edit-submit" name="submit" value="Search" src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/search-white2.png" alt="Search" title="Search" /></div></div><input type="hidden" name="form_build_id" value="form-9LKreA5ths-JuKNmYCxa-VQDTQF9BLk6FpwbhZfpZx0" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </div>
+                <button type="button" class="navbar-toggle" value="Menu">
+                    <i class="fa fa-bars"></i>Menu
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-main">
+        <div class="container">
+          <ul data-breakpoint="767" class="flexnav">
+                <li class="first expanded"><a href="/basic-search/about" title="">About</a><ul><li class="first leaf"><a href="/mission" title="">Mission</a></li>
+<li class="leaf"><a href="/key-staff" title="">Leadership</a></li>
+<li class="leaf"><a href="https://www.usajobs.gov/" title="">Careers</a></li>
+<li class="expanded"><a href="/coordination" title="linkTo">Coordination</a><ul><li class="first leaf"><a href="/evaluation-evidence" title="">Evaluation &amp; Evidence</a></li>
+<li class="leaf"><a href="/national-alzheimers-project-act">National Alzheimer&#039;s Project Act</a></li>
+<li class="leaf"><a href="/health-and-human-services-hhs-data-council">HHS Data Council</a></li>
+<li class="last leaf"><a href="/national-committee-vital-and-health-statistics" title="National Council on Vital and Health Statistics">National Council on Vital and Health Statistics</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/divisions" title="">Offices</a><ul><li class="first leaf"><a href="/office-disability-aging-and-long-term-care-policy-daltcp">Disability, Aging, and Long-Term Care Policy</a></li>
+<li class="leaf"><a href="/office-health-policy-hp">Health Policy</a></li>
+<li class="leaf"><a href="/office-human-services-policy">Human Services Policy</a></li>
+<li class="last leaf"><a href="/office-science-and-data-policy">Science and Data Policy</a></li>
+</ul></li>
+<li class="leaf"><a href="/strategic-planning" title="Strategic Planning">Strategic Planning</a></li>
+<li class="last leaf"><a href="/contact-aspe" title="">Contact ASPE</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/topics" title="">Topics</a><ul><li class="first leaf"><a href="/affordable-care-act-research">Affordable Care Act Research</a></li>
+<li class="leaf"><a href="/alzheimers-dementia">Alzheimer&#039;s / Dementia</a></li>
+<li class="leaf"><a href="/early-childhood">Early Childhood</a></li>
+<li class="leaf"><a href="/incarceration-reentry">Incarceration &amp; Reentry</a></li>
+<li class="leaf"><a href="/opioid-abuse-us-and-hhs-actions-address-opioid-drug-related-overdoses-and-deaths" title="Opioids">Opioids</a></li>
+<li class="leaf"><a href="/patient-centered-outcomes-research-trust-fund">Patient-Centered Outcomes Research Trust Fund (PCORTF)</a></li>
+<li class="expanded"><a href="/basic-search/poverty" title="">Poverty</a><ul><li class="first leaf"><a href="/poverty-guidelines">Poverty Guidelines</a></li>
+<li class="last leaf"><a href="/poverty-estimates-trends-and-analysis">Poverty Analysis</a></li>
+</ul></li>
+<li class="leaf"><a href="/teen-pregnancy-prevention">Teen Pregnancy Prevention</a></li>
+<li class="leaf"><a href="/homelessness">Homelessness</a></li>
+<li class="last leaf"><a href="/medicare-access-and-chip-reauthorization-act-2015">MACRA</a></li>
+</ul></li>
+<li class="leaf"><a href="/reports" title="">Publications</a></li>
+<li class="last expanded"><a href="/basic-search/datasets" title="">Data and Tools</a><ul><li class="first last leaf"><a href="/evaluations" title="">Evaluation Database</a></li>
+</ul></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation / End -->
+</header>  <div class="main" role="main">
+    <!--PAGEWATCH CODE="USHHS_458"-->
+    <section class="page-heading">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+                <h1>
+                    
+          Moving to IndependentChoices: The Implementation of the Cash and Counseling Demonstration in Arkansas        </h1>
+                                 <p class="author">
+                                                 <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2002-05-01T00:00:00-04:00">05/01/2002</span>               
+                           </p>
+
+
+                  </div>
+
+
+        <div class="col-md-6">
+           <ul class="breadcrumb"><li class="first"><a href="/" title="Home">Home</a></li>
+<li class="last">Moving to IndependentChoices: ...</li>
+</ul>        </div>
+
+
+    </div>
+  </div>
+</section>
+    
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Content">     
+
+        
+                  
+        
+                                    <div  class="col-md-12 " id="content">
+                          
+                              <div id="block-aspe-aspe-addthis" class="widget block block-aspe" >
+  
+      
+  <div class="clearfix">
+  <ul class="addthis_sharing_toolbox node-share__links" data-url="https://aspe.hhs.gov/execsum/moving-independentchoices-implementation-cash-and-counseling-demonstration-arkansas" data-title="Moving to IndependentChoices: The Implementation of the Cash and Counseling Demonstration in Arkansas">
+    <li><a class="addthis_button_print"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/print-white.png" alt="print" /></a></li>
+    <li><a class="addthis_button_email"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/mail-white.png" alt="email" /></a></li>
+    <li><a class="addthis_button_twitter"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/tw.png" alt="twitter" /></a></li>
+<!--    <li><a class="addthis_button_facebook">--><!--</a></li>-->
+    <li><a class="addthis_button_compact"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/plus-white.png" alt="compact" /></a></li>
+  </ul>
+</div>
+
+  </div> <!-- /.block -->
+
+                
+    
+  
+  <div class="content clearfix node-report-exec-sum">
+    <h3>Barbara Phillips and Barbara Schneider</h3>
+<h3>Mathematica Policy Research, Inc.</h3>
+<h3>May 2002</h3>
+<hr /><blockquote><p><em>This report was prepared under contract #HHS-100-95-0046 between the U.S. Department of Health and Human Services (HHS), Office of Disability, Aging and Long-Term Care Policy (DALTCP) and the University of Maryland. For additional information about the study, you may visit the DALTCP home page at http://aspe.hhs.gov/daltcp/home.shtml or contact the ASPE Project Officer, Pamela Doty, at HHS/ASPE/DALTCP, Room 424E, H.H. Humphrey Building, 200 Independence Avenue, SW, Washington, DC 20201. Her e-mail address is: Pamela.Doty@hhs.gov.</em></p>
+</blockquote>
+<hr /><p> </p>
+<h2><a id="acknow" name="acknow">ACKNOWLEDGMENTS</a></h2>
+<p>This report could not have been written without the assistance of many people. It is Arkansas' story and we would especially like to thank the people of Arkansas who spoke to us; they were generous with their time and with their insights. Special thanks go to Suzanne Crisp, Sandra Barrett, and Debby Ellis of IndependentChoices who made our visit to Arkansas memorable. It has been a true pleasure to work with them over the course of the Cash and Counseling Demonstration. We would also like to thank Kevin Mahoney of the Cash and Counseling National Program Office; Pamela Doty of the Office of the Assistant Secretary for Planning and Evaluation, United States Department of Health and Human Services, and Seth Emont of the Robert Wood Johnson Foundation for the leadership they have provided and for their thoughtful comments on consumer direction generally and on Arkansas' demonstration. Our colleagues at Mathematica Policy Research, Inc., Randy Brown and Jennifer Schore provided helpful comments on earlier drafts. Patricia Ciaccio provided skillful editorial support and Marjorie Mitchell produced the report.</p>
+<p> </p>
+<h2><a id="execsum" name="execsum">EXECUTIVE SUMMARY</a></h2>
+<p>Consumer direction seeks to provide people with disabilities with more options and greater personal autonomy in determining how best to meet their care needs in a cost-effective manner. Cash and Counseling is one model of consumer-directed personal assistance services (PAS). Under the Cash and Counseling model, eligible people with disabilities receive a cash benefit. In turn, they assume responsibility for arranging and managing services to meet their personal assistance needs. They may hire workers privately and may receive assistance from counselors if they so desire.</p>
+<p>The Robert Wood Johnson Foundation (RWJF) and the Office of the Assistant Secretary for Planning and Evaluation (ASPE) of the U.S. Department of Health and Human Services are sponsoring a demonstration and evaluation of Cash and Counseling, which includes a National Program Office at the University of Maryland, Center on Aging. The Centers for Medicare &amp; Medicaid Services CMS) is assisting in the demonstration, primarily with technical assistance and waivers of federal Medicaid regulations. The demonstration has been implemented in three states: Arkansas, Florida, and New Jersey.</p>
+<p>This report describes the design and implementation of Arkansas' model of Cash and Counseling--IndependentChoices--and draws lessons from the state's experience. The report is based primarily on in-person interviews conducted with Arkansas state officials, IndependentChoices' program staff, staff of agencies providing counseling and fiscal services under IndependentChoices, staff of agencies providing traditional PAS in Arkansas, and staff of advocate organizations. In this summary, we briefly describe the design and implementation of IndependentChoices, then draw lessons for future Cash and Counseling programs in Arkansas and other states.</p>
+<h3>The IndependentChoices Program</h3>
+<p>The solicitation for demonstration proposals provided the basic outline for IndependentChoices. It stipulated that the cash benefit was to be provided in lieu of traditional PAS--provided either under the Medicaid state plan or under a Medicaid waiver--and was to cover a variety of goods and services.</p>
+<p>Arkansas chose to "cash out" Medicaid PAS under its state plan but <em>not</em> to cash out services provided under a waiver program, ElderChoices, that provides <em>additional </em>services (such as homemaker, chore, and respite services) to elderly recipients of state plan services who meet the criteria for nursing home care. The decision not to cash out ElderChoices was made at least in part to avoid increasing opposition to the cash program from providers of traditional services, most importantly, the Arkansas Department of Health (ADH) and the Area Agencies on Aging (AAAs), which provided the great majority of both state plan and waiver services. Some of the AAAs strongly opposed the cash program.</p>
+<p>Arkansas took a direct approach to reach beneficiaries who were eligible for Medicaid PAS and who expressed an interest in participating in the demonstration. Instead of working through providers of traditional personal assistance, the state hired nurses operating out of different regions of the state to conduct a community information campaign and then to enroll interested Medicaid beneficiaries. In addition, centrally located program staff conducted a direct-marketing campaign which included mailings to each beneficiary receiving state plan PAS services.</p>
+<p>The state set up a toll-free telephone number for those interested in participating in the demonstration and a database that they used to verify eligibility for Medicaid PAS during the telephone calls. Contact information was transmitted electronically to the regional nursing staff, who telephoned and then visited interested consumers to enroll them in the demonstration. Consumers who wished to participate but who were unable to manage their own services, were allowed to name a family member or friend as a representative to act on their behalf if they were selected for the cash benefit.</p>
+<p>The evaluation contractor, Mathematica Policy Research, Inc., randomly assigned half of the demonstration participants to the treatment group to receive the cash benefit and the other half to the control group to receive traditional services.</p>
+<p>Arkansas attracted a large number of participants to the cash demonstration (although not as many as the original evaluation design called for). Ultimately, about 2,000 people participated in the demonstration (in the treatment and control groups combined), roughly 10 to 15 percent of the number of PAS recipients annually.</p>
+<p>Arkansas based the amount of the cash benefit on the care plan. The amount was based on the current care plan for treatment group members who were already PAS recipients, and the outreach/enrollment nurses developed care plans for those new to PAS. Both types of care plans were cashed out at $8.00 an hour after "discounting." Discounting involves multiplying the care plan hours by the ratio of the cost of services actually received to the cost of services listed on the plan of care. It is intended to ensure the budget neutrality of the cash program by taking into account the fact that the amount of services received is generally less than the amount planned, (due, for example, to hospital admission of PAS recipients and insufficient supply of aides). Arkansas developed provider-specific discount rates for current recipients of PAS by comparing care plans and claims for the previous year for random samples of those served by various providers of traditional personal assistance. These provider-specific discount rates ranged from about .70 to .91. A rate of .91 was applied to the care plans of new recipients of personal assistance.</p>
+<p>Arkansas drew up a broad list of goods and services covered by the cash benefit and required that consumers develop a plan for uses of the cash benefit before receiving any cash payments. Almost all consumers who received a cash benefit hired a worker with these funds, usually a family member or friend. Although the demonstration waiver permitted hiring of legally liable relatives (spouses and legal guardians of adults), Arkansas chose not to exercise this aspect of the waiver. Some consumers also purchased assistive equipment, personal care supplies, and nonprescription and prescription medications (when these medications were not covered by Medicaid). A few purchased materials to modify their homes, such as lumber for a ramp.</p>
+<p>The state contracted with two human services organizations--each of which was to provide both counseling and fiscal services under IndependentChoices. One host organization was a for-profit organization with expertise in rehabilitation services. It became the counseling/fiscal agency for three-quarters of the state. The other host organization was a nonprofit organization providing schooling and supportive services to children and adults of all ages. It became the counseling/fiscal agency for the other quarter of the state. (A contract to provide counseling/fiscal services was also awarded to an AAA, but it withdrew shortly after operations began.)</p>
+<p>Under IndependentChoices, counselors had a variety of responsibilities. They visited all treatment group members to help them prepare their initial cash management plans and approved revisions to these plans. The state permitted counselors to authorize the purchase of any good or service on a preapproved list, with review by state staff of any unlisted good or service. Counselors also advised consumers about the nonfiscal responsibilities of an employer, including hiring, training, supervising, and (if necessary) firing workers. In addition, counselors monitored the use of the cash and the condition of the consumer, speaking to consumers by telephone at least monthly and visiting them periodically. Consumers maintained receipts to document the uses of cash (except for discretionary funds to total no more than 10 percent of the benefit), and counselors carefully reviewed these receipts, thereby monitoring the uses of the cash. Also, counselors were responsible for reassessing the care needs of cash recipients every six months (or when events precipitated a change in need) and revising their care plans following reassessment. (The staff of traditional agencies was responsible for reassessing and revising the care plans of the recipients of their services.)</p>
+<p>The fiscal services available to consumers under IndependentChoices were provided to them without charge and included preparation of payroll documents (including those pertaining to federal and state payroll taxes and state unemployment insurance) and check-writing and bookkeeping services. Consumers were required to demonstrate sufficient knowledge before assuming payroll responsibilities. Nearly all consumers chose to avail themselves of the fiscal services for payroll documents.</p>
+<p>Arkansas paid the counseling/fiscal agencies a monthly management fee for each person assigned to the treatment group, with the amount of the fee reduced after every six-month interval (for two years). The fee was reduced based on the presumption that as a consumer's experience with self-management increased, reliance on counseling support would decrease.</p>
+<h3>Lessons from IndependentChoices</h3>
+<p>The procedures developed for IndependentChoices were, on the whole, successful. Arkansas' experience suggests a number of lessons about operating a Cash and Counseling program.</p>
+<p><strong>Outreach and Enrollment. </strong>Direct mailings to recipients of Medicaid PAS appear to have been the most effective approach to generating participation. Direct mailings are more targeted and can be more precisely worded than newspaper articles and public service announcements. Program staff considered direct mailings more cost-effective than the other marketing techniques because they expended fewer resources responding to inquiries from those who proved ineligible for Medicaid PAS.</p>
+<p>The Arkansas experience also suggests that a sizable staff is needed for simultaneous community information and marketing efforts. Arkansas staff mounted a community information campaign, but were unable to maintain this level of effort once enrollment began. Senior state staff mounted the marketing campaign even as they worked to implement the cash program day to day. Arkansas would have needed substantially more staff than it had resources to hire to simultaneously implement major community information, marketing, and enrollment efforts.</p>
+<p>Arkansas enhanced the efficiency of the enrollment process by reducing paperwork, smoothing work flow, minimizing travel, and reducing multiple home visits in a given case, almost to the point of eliminating multiple visits. Having family members and friends present at the initial home visit was particularly important to minimizing multiple visits, both because family members and friends were potential representatives and workers and because they could answer questions that the consumer raised after the home visit.</p>
+<p>Arkansas learned that the presentation of information was critical during enrollment. Staff had to actively combat the misunderstanding that the cash benefit would be treated as income for the purposes of determining eligibility for means-tested federal programs and determining federal tax liability. Another lesson was the importance of providing information in ways that people of limited reading ability could understand and framing answers to their questions in terms that they found meaningful. The state provided multiple opportunities for oral communication; written materials were insufficient alone.</p>
+<p><strong>Attractive Program Features.</strong> Program staff reported that consumers found the ability to hire family members to be the single most attractive feature of IndependentChoices. Having a family member as a worker provided consumers with security and peace of mind; they disliked having strangers come into their homes. Moreover, some consumers found it demeaning to have intimate personal assistance provided by a stranger. Other consumers had been dissatisfied with traditional PAS, finding the schedules inflexible or the aides unreliable. In some cases, traditional personal assistance agencies simply had been unable to supply aide services.</p>
+<p><strong>Unattractive Program Features. </strong>Participation in IndependentChoices was less attractive to ElderChoices participants, according to program staff. Since ElderChoices had not been cashed out, aides from that waiver program would still be coming to consumers' homes. Moreover, consumers participating in both programs often had a majority of their home care hours through ElderChoices, an artifact of a defunct state policy under which the maximum number of hours available under ElderChoices was included in the care plan <em>before</em> any PAS hours. As a result, cash benefit levels under IndependentChoices tended to be lower for consumers participating in both programs than for other PAS recipients. Since about a third of state plan PAS recipients also received ElderChoices services, the failure to attract them probably contributed to the difficulty Arkansas had in meeting the sample size targets of the evaluation.</p>
+<p>According to program staff, other unattractive features of IndependentChoices included the amount of paperwork required and restrictions on the uses of the cash benefit, especially the restriction on hiring spouses. In addition, IndependentChoices tended to be less attractive to consumers who liked their current personal assistance aide. Random assignment (an artifact of the evaluation) was also an unattractive feature.</p>
+<p><strong>Counseling and Fiscal Services.</strong> One lesson regarding counseling services is that, for most consumers, quarterly monitoring visits are not necessary. IndependentChoices revised its initial requirement of a quarterly visit (to at least a semiannual visit) because it became clear that most consumers did not need visits quarterly, although a few required very frequent visits in the course of resolving particular problems.</p>
+<p>Three major lessons about cash management emerge from IndependentChoices. First, counseling for cash planning is labor intensive--both for development of initial cash management plans and for revision of cash plans as consumers' needs and desires change. Second, counseling and fiscal issues are often closely associated. The issues that counselors address often have fiscal implications, and discussion of fiscal issues often reveals underlying counseling issues. Third, the Arkansas experience shows that most interested consumers--even those with limited formal education--can develop a cash management plan in a few weeks, provided that: they (1) have assistance from counselors, and (2) can identify a worker from among their family members and friends. Although counselors trained consumers to look for a worker in a "widening circle," those who were not able to identify a family member or friend as a worker reportedly were more apt to disenroll from the demonstration.</p>
+<p>There are several possible reasons for the relative lack of success among consumers <em>without</em> family members and friends to serve as workers. First, those who hired workers from outside their family and friends did not experience one of the most attractive potential benefits of the cash program--avoiding having strangers come into the home. Second, the wages cash recipients offered may not have been sufficient to attract workers who did not know the consumer personally. Third, Arkansas and its counseling/fiscal agencies did not develop formal referral mechanisms for finding workers, although informal referral mechanisms began to develop relatively late in the demonstration.</p>
+<p>In recent years, many traditional agencies have found it difficult to hire enough personal assistance aides to meet the demand. Thus, an important lesson of IndependentChoices is that Cash and Counseling appears to tap a new source of personal assistance workers--family members and friends who were willing to assist a loved one for a relatively low hourly wage but not interested in agency employment. Such family members and friends can help people who were not being served (or who were underserved) by the traditional program.</p>
+<p>Another lesson of IndependentChoices is that dividing the responsibilities of the employer between the consumer and the fiscal agent can be successful. Consumers retained responsibility for timely submission of worker time sheets and fulfilled this responsibility successfully on the whole. Agencies were largely successful in implementing fiscal services. Consumers received their cash benefits and monthly statements in a timely way, and workers usually received their paychecks in a timely way.</p>
+<p>Except for difficulty in recruiting workers from beyond the circle of family members and friends, consumers satisfactorily fulfilled the nonfiscal responsibilities of employers in hiring, training, supervising, and firing workers. Counselors played a major role in this success--partly by advising consumers and partly by treating consumers as "the boss" and thereby empowering them relative to their representatives, workers, and other family members.</p>
+<p>Roughly half of the consumers in IndependentChoices named a representative to help them manage the cash benefit. An important lesson of Arkansas' experience is that representation is successful and a natural extension of the relationships that consumers already have and of the assistance they are already receiving. Under IndependentChoices, consumers who needed a representative generally identified that need themselves and selected their representatives wisely. Representatives almost invariably acted in the best interests of consumers, with family members taking a holistic view of consumers' situation and acting as consumer advocates.</p>
+<p>IndependentChoices presents two major lessons with respect to monitoring to prevent abuse of the cash benefit and exploitation of consumers. Requiring receipts to document the uses of cash reportedly was instrumental in preventing the abuse of the cash benefit by empowering consumers and representatives to prevent their family members from using the cash benefit inappropriately. Counselors' careful observation for subtle changes in consumer behavior and a positive approach to correcting problems were key ingredients in preventing almost all exploitation of consumers and quickly resolving the handful of cases that did arise.</p>
+<p><strong>Budget Neutrality: Discounting, Counseling/Fiscal Fees, and Reassessment.</strong> Consistent with the federal requirements for the demonstration waiver, IndependentChoices was not expected to be budget neutral immediately. Rather, the cost per recipient per month for the cash program was to be brought in line with the comparable cost for the traditional program over the course of the five-year demonstration waiver. Analysis of the impact of IndependentChoices on costs must await the evaluation's analysis of claims. Nonetheless, this study provides some lessons about discounting, counseling/fiscal fees, and reassessment that should be helpful in designing budget-neutral Cash and Counseling programs.</p>
+<p>The appropriate initial discount rates in Arkansas may have depended on two factors that were unknown when the state developed the initial discount rates and that were out of its control. First, the appropriate discount rates may differ from historic rates because the ratio of the cost of services received to the cost of services planned has changed. For example, as the labor market tightened in the full-employment economy of the late 1990s, it may have been harder for traditional agencies to find enough workers to deliver all the hours specified in the care plans. Second, discount rates developed for random samples of <em>all</em> PAS recipients may be inappropriate if those who choose to participate in the demonstration differ systematically from other PAS recipients. For example, PAS recipients who were underserved (or not served at all) in the traditional program had a greater incentive to participate in IndependentChoices. Assuming that the care plans of the underserved did not systematically understate their care needs, underservice would be associated with having a smaller fraction of planned care actually delivered (relative to the fraction for PAS recipients in general).</p>
+<p>Arkansas' method of payment of counseling/fiscal agencies increased program cost and thus affected budget neutrality. The state paid the counseling/fiscal agencies a monthly fee for each consumer enrolled, regardless of whether the consumer had begun to receive the cash benefit. Consequently, the state incurred costs for <em>both</em> traditional services and counseling/fiscal services until a consumer began to receive the cash benefit and traditional services discontinued (or until the consumer disenrolled).</p>
+<p>Another factor that may have affected budget neutrality is the possibility of different assessment procedures for treatment and control group members who were new to PAS. Although the outreach/enrollment nurses assessed and developed care plans for those new to PAS who were interested in the cash program, traditional agencies were not required to honor these care plans. Instead, they may have reassessed new recipients of PAS referred to the control group, which could result in different costs for the treatment and control groups.</p>
+<p>Different reassessment procedures may have led to systematically larger amounts of care planned for cash recipients than for recipients of traditional services, and this may have increased the cost of the cash program relative to the traditional program. Faced with a shortage of aides, providers may have tended to avoid increases in the hours of care planned for recipients of traditional personal assistance (even in situations in which an increase was justified). In contrast, counselors may have tended to authorize an increase in care plan hours since the cash program was tapping a different supply of workers--the family members and friends of consumers.</p>
+<p>Moreover, under IndependentChoices, the discount rate for care plans following <em>reassessment </em>of cash recipients (.91) was more generous, on average, than their initial discount rates (which ranged from .70 to .91). A more generous discount rate at reassessment may have the effect of increasing the cost of the cash program relative to the cost of the traditional program since the amount of the cash benefit would be increased when the reassessment care plan was cashed out.</p>
+<p><strong>Structure of IndependentChoices.</strong> Four important lessons emerge from the Arkansas experience about structuring a Cash and Counseling program. These lessons pertain to:</p>
+<ol><li>Combining counseling and fiscal services within an agency</li>
+<li>Having multiple counseling/fiscal agencies</li>
+<li>Orientation of host organizations</li>
+<li>Structure of counseling services</li>
+</ol><p>Contractual responsibility for counseling and fiscal services was combined under IndependentChoices. Indeed, the counselors were responsible for some fiscal activities, such as approving timesheets and purchase orders. The state program staff and the counseling/fiscal agencies felt that counseling and fiscal activities are so closely linked that combining them enhances efficiency. However, while day-to-day bookkeeping activities went smoothly, neither of the counseling/fiscal agencies was fiscally sophisticated when implementation began. For example, despite the technical assistance the National Program Office provided, both counseling/fiscal agencies erred initially by failing to refund excess withholding to consumers and workers. Possibly, the requirement that counseling and fiscal services be combined discouraged bids from organizations with more fiscal expertise but little or no human service expertise, as a joint bid would be required in that situation.</p>
+<p>Under IndependentChoices, multiple counseling/fiscal agencies served different geographic areas of the state. Having multiple agencies was an important safety net for the cash program. It enabled program operations to proceed smoothly when the state did not receive an acceptable bid for counseling/fiscal services in one region of the state and when the successful bidder for another region dropped out of the cash program early. Simply having multiple agencies is not in itself sufficient to form a safety net; at least one agency must be in a position to expand to cover other regions of the state.</p>
+<p>The orientation of host organizations may have been a fundamental strength underlying the successful implementation of the cash program in Arkansas. Neither focused on providing traditional home care. One organization's background was the provision of rehabilitation therapy, and a school was at the heart of the services provided by the other. The orientation of the host organizations (to rehabilitation and to schooling) may have been more consistent with the philosophy of consumer direction than was the orientation of traditional personal assistance agencies.</p>
+<p>The successful implementation of IndependentChoices also may partly reflect the way in which the provision of counseling services was structured at the counseling/fiscal agencies. In each of them, counseling was provided primarily by full-time staff members who were responsible only for the cash program. Thus, counselors could focus their attention on implementing IndependentChoices without being distracted by other responsibilities.</p>
+<p>Moreover, in both of the counseling/fiscal agencies, counselors initially had separate caseloads, but soon moved to shared caseloads. Shared caseloads are more efficient (reducing telephone tag with consumers and travel time) and allow counselors to apply their particular areas of expertise to address the needs of more consumers.</p>
+<p><strong>Agency Cash Flow. </strong>Counseling/fiscal agencies experienced serious cash flow problems early, before they had established reasonable caseloads. A simple solution to this problem may be for the state to provide new counseling/fiscal agencies with an up-front payment (to be recouped later).</p>
+<p><strong>Value of Counseling and Fiscal Services. </strong>The tenet of the Cash and Counseling model that distinguishes it from other models of consumer direction is the provision of services to help consumers manage the cash benefit. Some critics of this model argue that an unfettered allowance (for consumers to spend as they choose) would be preferable, as it is more consistent with the philosophy of consumer direction. Whatever the philosophical merits of an unfettered allowance, most Arkansas consumers seemed to accept the authority of the Medicaid program to impose restrictions on the use of public funds and expected to be asked to show receipts to document their adherence to these restrictions.</p>
+<p>The counseling and fiscal services IndependentChoices provided appear to have benefitted consumers. Fiscal services were clearly attractive. Consumers were <em>not</em> required to use these services, yet the great majority did so.</p>
+<p>The value of counseling services to consumers is more difficult to assess. In general, counselors seem to have empowered consumers, and counselor monitoring and a positive approach to problem solving seem to have been important in preventing exploitation of the consumer and abuse of the cash benefit. Nevertheless, consumers varied greatly in the amount of advice and training they needed from counselors. Some needed little or none, while other consumers needed a great deal of assistance, especially in the weeks and months in which they were developing a cash management plan and hiring workers. Counselors learned not to overwhelm these consumers with materials and information and to focus on what they needed to know. Overall, counseling seems to have been valuable--perhaps essential--to the success of the cash program in Arkansas.</p>
+<p><strong>Future Cash Program?</strong> Arkansas views a consumer-directed cash program as a valuable part of a package of programs designed to meet the needs of its citizens, and it is working to adopt a slightly revised version of IndependentChoices as a permanent program. At the time of our visit, the major revisions involved (1) cashing out the ElderChoices waiver (as well as the Medicaid state plan services); (2) less emphasis on outreach; (3) greater attention to training consumers to be employers, and (4) revising the payment structure for counseling/fiscal agencies to provide a one-time payment for developing the cash management plan, followed by a fixed monthly payment per cash recipient.</p>
+<div class="group-tags"><div class="field-label">Tags:&nbsp;</div><a href="/terms/consumer-choice">Consumer Choice</a><a href="/terms/cash-and-counseling-demonstration">Cash and Counseling Demonstration</a><a href="/terms/disability-aging-and-long-term-care-research">Disability, Aging and Long-Term Care Research</a><a href="/terms/publications-2">Publications</a><a href="/terms/highlighted-issues">Highlighted Issues</a><a href="/terms/consumer-directed-carecash-and-counseling">Consumer-Directed Care/Cash and Counseling</a><a href="/terms/home-and-community-based-services">Home and Community-Based Services</a><a href="/terms/personal-care-services">Personal Care Services</a></div>  </div>
+
+      <footer>
+          </footer>
+  
+    <div id="block-webform-client-block-158521" class="widget block block-webform" >
+  
+      
+  <div id="webform-ajax-wrapper-158521"><form class="webform-client-form webform-client-form-158521" action="/execsum/moving-independentchoices-implementation-cash-and-counseling-demonstration-arkansas" method="post" id="webform-client-form-158521" accept-charset="UTF-8"><div><div class="webform-progressbar">
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-radios webform-component--was-this-page-helpful">
+  <label for="edit-submitted-was-this-page-helpful">Was this page helpful? <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-was-this-page-helpful" class="form-radios"><div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-1" name="submitted[was_this_page_helpful]" value="1" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-1">Yes </label>
+
+</div>
+<div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-2" name="submitted[was_this_page_helpful]" value="0" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-2">No </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="4" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-ve9_dbkns3cf168vMdRe11SkwNGmg_4dBMFLt7TJvX4" />
+<input type="hidden" name="form_id" value="webform_client_form_158521" />
+<input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-158521" />
+<div class="form-actions"><input class="webform-next button-primary btn btn-default form-submit" type="submit" id="edit-webform-ajax-next-158521" name="op" value="Next &gt;" /></div>
+<div class="is-useful-disclaimer"> <a href="/%23" class="" title="Survey Disclaimer" data-toggle="modal" data-target="#disclamerModal">Form Approved OMB# 0990-0379 Exp. Date 8/31/2017</a></div>
+<div class="modal fade" id="disclamerModal" tabindex="-1" role="dialog" aria-labelledby="disclamerModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="disclamerModalLabel">Survey Disclaimer</h2>
+      </div>
+      <div class="modal-body">
+         According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this information collection is 0990-0379. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, gather the data needed, and complete and review the information collection. If you have comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: U.S. Department of Health & Human Services, OS/OCIO/PRA, 200 Independence Ave., S.W., Suite 336-E, Washington D.C. 20201, Attention: PRA Reports Clearance Officer.      </div>
+    </div>
+  </div>
+</div></div></form></div>
+  </div> <!-- /.block -->
+<meta  itemscope="" itemid="https://aspe.hhs.gov/execsum/moving-independentchoices-implementation-cash-and-counseling-demonstration-arkansas" itemref="md1 md3 md5 md7 md9 md11 md13 md15 md17" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/consumer-choice" id="md3" itemref="md2" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/cash-and-counseling-demonstration" id="md5" itemref="md4" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/disability-aging-and-long-term-care-research" id="md7" itemref="md6" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/publications-2" id="md9" itemref="md8" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/highlighted-issues" id="md11" itemref="md10" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/consumer-directed-carecash-and-counseling" id="md13" itemref="md12" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/home-and-community-based-services" id="md15" itemref="md14" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/personal-care-services" id="md17" itemref="md16" />              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <footer  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Footer">     
+
+        
+                  
+        
+                  
+        
+                                    <div  id="footer_sitemap-footer_sitemap" class="col-sm-6 col-md-6 col-lg-4 ">
+                          
+                              <div id="block-footer-sitemap-footer-sitemap" class="widget block block-footer-sitemap" >
+  
+      
+  <div id="footer-sitemap" class="clearfix">
+  <div class="fs-block-content"><div class="menu-footer-utility"><ul class="footer_links_menu-footer-utility total-items-2 parent-items-0 single-items-0"><li class="menu-5021 depth-1 total-children-8 parent-children-0 single-children-8  first"><a href="/" title="look at ASPE Home" class="fs-root-link">ASPE Home</a><ul class="footer_links_menu-footer-utility total-items-8 parent-items-0 single-items-0"><li class="menu-5026 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/" title="look at HHS Home">HHS Home</a></li>
+<li class="menu-66281 depth-1 fs-no-children"><a href="http://www.usa.gov/" title="look at USA.gov">USA.gov</a></li>
+<li class="menu-66316 depth-1 fs-no-children"><a href="https://oig.hhs.gov/" title="look at Office of the Inspector General">Office of the Inspector General</a></li>
+<li class="menu-66321 depth-1 fs-no-children"><a href="http://www.whitehouse.gov" title="look at The White House">The White House</a></li>
+<li class="menu-5046 depth-1 fs-no-children"><a href="http://www.hhs.gov/Accessibility.html" title="look at Accessibility">Accessibility</a></li>
+<li class="menu-66326 depth-1 fs-no-children"><a href="http://www.hhs.gov/about/budget/index.html" title="look at Budget/Performance">Budget/Performance</a></li>
+<li class="menu-2551 depth-1 fs-no-children"><a href="http://www.hhs.gov/Privacy.html" title="look at Privacy Policy">Privacy Policy</a></li>
+<li class="menu-197776 depth-1 fs-no-children  last"><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" title="Nondiscrimination Notice">Nondiscrimination Notice</a></li>
+</ul></li>
+<li class="menu-5051 depth-1 total-children-4 parent-children-0 single-children-4  last"><a href="http://www.hhs.gov/foia/" title="look at FOIA" class="fs-root-link">FOIA</a><ul class="footer_links_menu-footer-utility total-items-4 parent-items-0 single-items-0"><li class="menu-5056 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/open/recordsandreports/plainwritingact/index.html" title="look at Plain Writing Act">Plain Writing Act</a></li>
+<li class="menu-5061 depth-1 fs-no-children"><a href="http://www.hhs.gov/asa/eeo/no_fear_bullet_3.html" title="look at No Fear Act">No Fear Act</a></li>
+<li class="menu-5066 depth-1 fs-no-children"><a href="http://www.hhs.gov/Disclaimer.html" title="look at Disclaimers">Disclaimers</a></li>
+<li class="menu-2546 depth-1 fs-no-children  last"><a href="http://www.hhs.gov/plugins.html" title="look at Viewers &amp; Players">Viewers &amp; Players</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-5 " id="stability_cms-contact_us">
+                          
+                              <div id="block-stability-cms-contact-us" class="widget block block-stability-cms" >
+  
+      
+  <div class="contacts-widget widget widget__footer">
+	<div class="widget-content">
+		<ul class="contacts-info-list">
+      			<li>
+<!--				<i class="fa fa-map-marker">Address</i>-->
+                <div class="info-icons">
+                    <img  alt="map" class= 'map-icons' src="/sites/all/themes/stability/stability_aspe/images/map.png"/>
+                </div>
+                <div class="info-item">
+					Assistant Secretary for Planning and Evaluation, Room 415F<br />
+U.S. Department of Health and Human Services<br />
+200 Independence Avenue, SW<br />
+Washington, D.C. 20201				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-phone">phone</i>-->
+                <div class="info-icons">
+                    <img alt="phone" src="/sites/all/themes/stability/stability_aspe/images/phone.png"/>
+                </div>
+				<div class="info-item">
+					+1 202.690.7858				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-envelope">email</i>-->
+                <div class="info-icons">
+                    <img alt="mail" src="/sites/all/themes/stability/stability_aspe/images/mail-white.png"/>
+                </div>
+				<span class="info-item">
+					<a href="mailto:osaspeinfo@hhs.gov">osaspeinfo@hhs.gov</a>
+				</span>
+			</li>
+      			                					</ul>
+	</div>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-3 " id="footer">
+                          
+                              <div id="block-block-36" class="widget block block-block" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sign-up</span> for Email Updates</h3>
+		</div>
+    
+  <div class="email_updates">
+<button class="btn btn-default" name="subscribe-button" type="submit" value="subscribe">subscribe</button>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-12 " id="menu-menu-footer-language-menu">
+                          
+                              <div id="block-menu-menu-footer-language-menu" class="widget block block-menu" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Language</span> Assistance Available</h3>
+		</div>
+    
+  <ul class="menu"><li class="first expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#spanish" title="Español">Español</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#chinese" title="繁體中文">繁體中文</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#vietnamese" title="Tiếng Việt">Tiếng Việt</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#korean" title="한국어">한국어</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#tagalog" title="Tagalog">Tagalog</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#russian" title="Русский">Русский</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#arabic" title="العربية">العربية</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#creole" title="Kreyòl Ayisyen">Kreyòl Ayisyen</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#french" title="Français">Français</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#polish" title="Polski">Polski</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#portuguese" title="Português">Português</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#italian" title="Italiano">Italiano</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#german" title="Deutsch">Deutsch</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#japanese" title="日本語">日本語</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#farsi" title="فارسی">فارسی</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#english" title="English">English</a></li>
+</ul></li>
+</ul>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+      </div>
+
+          </div>
+    
+    
+      </footer>
+    
+
+    <!--/PAGEWATCH-->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+                        </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="social-links-wrapper">
+              <span class="social-links-txt">Connect with us</span>
+              <ul class="social-links social-links__dark">
+                                                  <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw-grey.png"/></a></li>
+                                <!--                --><!--                  <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin-grey.png"/></a></li>-->
+<!--                -->
+                                                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>  <script type="text/javascript" src="/sites/default/files/advagg_js/js__VWRymaMz6HfrhnrcJNGcDiSvLVrvhaXvBa7nrBYy8gc__jntPwP3D6myJZH1jW19fXrk5cYMHGRL8NQION22VSEA__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5486d15a696bff0c"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__g6mKbcakHxQkz4ZHYaxdO_xqONINvRMgsHh1zAK-fr0__ATHtEmHaeZ0jidpGU22EkhmPDBSgjD8z0bVDQMI-BIY__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__KUp4PrfOt9BSXUVl8Ctb3dhCMBe4MNVMeb4Gyorx8yY__7g4BeXscCIZAfuu1vxsCj2RIemg-eEK0QpChP9LDmFQ__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__PNjAgubM_3xXRLp4uLsYnv8wQAdT89-RYkSPxT6T45c__rFQwFK4pA5ZaWZSF7FPTfKbbpus0h-5IS8ayrNZGrb4__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__vQiLul2UcfC4nBAR09mhYVBYzRmiNDm2dj3GgSubV38__w84oZe-ZODKe7XnnlbrjV4IWHISOy4PioFEMVgx9hZo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__QJw3g0kOdwsv4twSZLP931zBzsHy50VEHpEN_znIitQ__A6QOuWXElDipBM2iChbWhjAAt3KlUwZ-jODoxdpbwiw__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stability_aspe","theme_token":"7MsUGk9-zfzX6GlL7tQWTsdZY4P_ZzrxQ9YnqfejUPE","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/footable.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/aspe_nodes.admin.css":1,"sites\/all\/modules\/custom\/aspe_views\/theme\/css\/aspe_views.admin.css":1,"sites\/all\/modules\/forked\/book\/book.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/openpublic\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.css":1,"profiles\/openpublic\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openpublic\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/openpublic\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/themes\/stability\/css\/bootstrap.min.css":1,"sites\/all\/themes\/stability\/css\/fonts\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.theme.css":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/stability\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/stability\/css\/theme.css":1,"sites\/all\/themes\/stability\/css\/theme-elements.css":1,"sites\/all\/themes\/stability\/css\/animate.min.css":1,"sites\/all\/themes\/stability\/css\/skins\/red.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/slideshow.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/font-main.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/styleless.less":1,"sites\/all\/themes\/stability\/css\/skins\/blue.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/aspe\/theme\/js\/aspe.login-confirm.js":1,"sites\/all\/modules\/custom\/aspe_report\/modules\/aspe_databooks\/js\/aspe_databooks.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.highcharts.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/datatables\/dataTables.min.js":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.min.js":1,"sites\/all\/libraries\/highcharts\/highcharts.js":1,"sites\/all\/libraries\/highcharts\/highcharts.exporting.js":1,"sites\/all\/libraries\/highcharts\/highcharts.map.js":1,"sites\/all\/libraries\/highcharts\/highcharts.us-all.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.footable.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5486d15a696bff0c":1,"misc\/progress.js":1,"profiles\/openpublic\/modules\/contrib\/webform\/js\/webform.js":1,"profiles\/openpublic\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/stability\/vendor\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/stability\/vendor\/bootstrap.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flexnav.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flickrfeed.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.sloppy-masonry.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.fitvids.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.stellar.min.js":1,"sites\/all\/themes\/stability\/vendor\/snap.svg-min.js":1,"sites\/all\/themes\/stability\/js\/custom.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/aspe.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/html5shiv.min.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/main-menu.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/keyboard-control.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tabBehavior.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tileStringTrimmer.js":1}},"webform":{"conditionals":{"webform-client-form-158521":{"ruleGroups":[],"sourceMap":[],"values":[]}}},"ajax":{"edit-webform-ajax-next-158521":{"callback":"webform_ajax_callback","wrapper":"webform-ajax-wrapper-158521","progress":{"message":"","type":"throbber"},"event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Next \u003E"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/execsum\/moving-independentchoices-implementation-cash-and-counseling-demonstration-arkansas":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"([a-z0-9]\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This website contains links to other federal and state agencies and private organizations. The Department of Health and Human Services (HHS) cannot attest to the accuracy of information provided by these nonfederal website links. Linking to nonfederal sites does not constitute an endorsement by HHS or any of its employees of the sponsors or the information and products presented on the sites. You will be subject to the destination site\u0027s privacy policy when you leave the ASPE website.\r\n\r\nThank you for visiting aspe.hhs.gov!","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"stability":{"flickr_id":"52617155@N08","logo_sticky":"28"},"field_group":{"div":"full"}});
+//--><!]]>
+</script>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config={pubid:"ra-5486d15a696bff0c",ui_click:false}
+//--><!]]>
+</script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4837db659","applicationID":"10708002","transactionName":"MwNaZBRSXEtXB0BdWQpJbUIPHFtWUgFMGkYMFg==","queueTime":0,"applicationTime":25,"atts":"H0RZElxIT0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

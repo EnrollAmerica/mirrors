@@ -1,0 +1,2698 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">  <!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://aspe.hhs.gov/sites/default/files/Favicon2.png" type="image/png" />
+<meta name="description" content="U.S. Department of Health and Human Services Estimating the Prevalence of Long-Term Disability for an Aging Society Suzanne R. Kunkel and Robert A. Applebaum Miami University, Scripps Gerontology Center April 1991 PDF Version: http://aspe.hhs.gov/daltcp/reports/agsoces.pdf (23 PDF pages)" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://aspe.hhs.gov/basic-report/estimating-prevalence-long-term-disability-aging-society" />
+<link rel="shortlink" href="https://aspe.hhs.gov/node/67261" />
+<meta property="og:site_name" content="ASPE" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aspe.hhs.gov/basic-report/estimating-prevalence-long-term-disability-aging-society" />
+<meta property="og:title" content="Estimating the Prevalence of Long-Term Disability for an Aging Society" />
+<meta property="og:description" content="U.S. Department of Health and Human Services Estimating the Prevalence of Long-Term Disability for an Aging Society Suzanne R. Kunkel and Robert A. Applebaum Miami University, Scripps Gerontology Center April 1991 PDF Version: http://aspe.hhs.gov/daltcp/reports/agsoces.pdf (23 PDF pages)" />
+<meta property="og:updated_time" content="2017-02-21T11:51:28-05:00" />
+<meta property="article:published_time" content="2015-06-13T04:02:08-04:00" />
+<meta property="article:modified_time" content="2017-02-21T11:51:28-05:00" />
+
+  <title>Estimating the Prevalence of Long-Term Disability for an Aging Society | ASPE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+  <link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__5ln8neBOcJfyUveiD4y9fhI6kHBLOQ_YL0mMC-LS9a0__TPJIZT9UBnf_685NlFTJ5KnZVsjwFk6ACQ-nwwygmwU__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ng49uRH5y4Hl9VF9hHW_vXOj-mcOc2u2ShJqJ1YKIGU__FoMCD14GBvZaRiqSQ_JpP1w3rDB21n7H2Ar4pRZaIh8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__Hskudx14OJ5Hz8vqU7CUgN6SDV5rINZuEq9VuGsSeyc__EwNIl3xeFrniW2TmonovTzhSs3X5MdFps210puE7jog__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__9rZoaX9BdzjjNucvYxduxeNAVO2zgW_Rvjhb5rq5whc__lSr_y16grDSgHf4booPChnF7QXz3TQY3hafH49twE0k__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZgfI_ZPib5yVY0o5aKo_6TFn946Tuu_nFDa0ySTmkSc__2FTFrNw2eNh0mpHIOA34r6YRwBZMm2PjJ_JubnwLigg__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__dxabpJ5rQgDSixKgLJZjWc1beC6mpROKwVrmWxI5eno__rqhz_hGsE_i59O7-W991o71_Jxw1QOtGMxn4nsOLHY8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZbRCq2NqWgK-HXAQI3So0N1n0nr4HonsJS3eQuuxukw__7Olkk8Locn8Dj0eR0Ww3rbV9lks9sxipcboMXB18RRs__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+
+	<!-- Head Libs -->
+	<script src="/sites/all/themes/stability/stability_aspe/vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/sites/all/themes/stability/vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" href="/sites/all/themes/stability/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/stability/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/stability/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/stability/images/apple-touch-icon-144x144.png">
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-67261 node-type-basic-report">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-JLFR"
+                  height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JLFR');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-nav" class="accessibility_menu">
+    <strong>Shortcut Navigation:</strong>
+    <ul>
+      <li><a href="#content" accesskey="c" title="Skip to page content (ctrl/alt + c)">Page Content</a></li>
+      <li><a href="#nav" accesskey="m" title="Skip to main navigation menu (ctrl/alt + m)">Site Navigation</a></li>
+
+      <li><a href="#Footer" accesskey="f" title="Skip to footer (ctrl/alt + f)">Footer</a></li>
+    </ul>
+  </div>
+
+    
+<div class="site-wrapper">
+  
+  <header class="header header-menu-fullw header-top-clean">
+    <div id="brand-bar">
+        <div class="container">
+                    <img alt='bird' src="/sites/all/themes/stability/stability_aspe/images/bird.png"> <a target="blank" tabindex="4" href="http://www.hhs.gov/">U.S. Department of Health & Human Services</a>
+        </div>
+
+    </div>
+    <div class="header-main">
+        <div class="container clearfix">
+            <div class="social-links-wrapper">
+                <ul class="social-links social-links__light">
+                                                          <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw.png"/></a></li>
+                                    <!--                  --><!--                    <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin.png"/></a></li>-->
+<!--                  -->
+                                                                      </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                                <div class="site_name_wrapper">
+                                     <span class="h1">
+                                      <a href="/">ASPE</a>
+                                       </span>
+                                  <p class="tagline"><p>Office of The Assistant Secretary</p><p> for Planning and Evaluation</p></p>
+                    </div>
+            </div>
+            <!-- Logo / End -->
+            <div class="header_right_wrapper">
+                <div class="search-form">
+                    <form action="/basic-report/estimating-prevalence-long-term-disability-aging-society" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class = "input-group"><div class="form-type-textfield form-item-search-block-form form-item form-group">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search Site..." class="form-control form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input class="btn btn-primary btn-icon form-submit" type="image" id="edit-submit" name="submit" value="Search" src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/search-white2.png" alt="Search" title="Search" /></div></div><input type="hidden" name="form_build_id" value="form-VsiuoQ6e3dvOCyUMdsGNhps6Xn4VlgQA1rSfqIIfpTY" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </div>
+                <button type="button" class="navbar-toggle" value="Menu">
+                    <i class="fa fa-bars"></i>Menu
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-main">
+        <div class="container">
+          <ul data-breakpoint="767" class="flexnav">
+                <li class="first expanded"><a href="/basic-search/about" title="">About</a><ul><li class="first leaf"><a href="/mission" title="">Mission</a></li>
+<li class="leaf"><a href="/key-staff" title="">Leadership</a></li>
+<li class="leaf"><a href="https://www.usajobs.gov/" title="">Careers</a></li>
+<li class="expanded"><a href="/coordination" title="linkTo">Coordination</a><ul><li class="first leaf"><a href="/evaluation-evidence" title="">Evaluation &amp; Evidence</a></li>
+<li class="leaf"><a href="/national-alzheimers-project-act">National Alzheimer&#039;s Project Act</a></li>
+<li class="leaf"><a href="/health-and-human-services-hhs-data-council">HHS Data Council</a></li>
+<li class="last leaf"><a href="/national-committee-vital-and-health-statistics" title="National Council on Vital and Health Statistics">National Council on Vital and Health Statistics</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/divisions" title="">Offices</a><ul><li class="first leaf"><a href="/office-disability-aging-and-long-term-care-policy-daltcp">Disability, Aging, and Long-Term Care Policy</a></li>
+<li class="leaf"><a href="/office-health-policy-hp">Health Policy</a></li>
+<li class="leaf"><a href="/office-human-services-policy">Human Services Policy</a></li>
+<li class="last leaf"><a href="/office-science-and-data-policy">Science and Data Policy</a></li>
+</ul></li>
+<li class="leaf"><a href="/strategic-planning" title="Strategic Planning">Strategic Planning</a></li>
+<li class="last leaf"><a href="/contact-aspe" title="">Contact ASPE</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/topics" title="">Topics</a><ul><li class="first leaf"><a href="/affordable-care-act-research">Affordable Care Act Research</a></li>
+<li class="leaf"><a href="/alzheimers-dementia">Alzheimer&#039;s / Dementia</a></li>
+<li class="leaf"><a href="/early-childhood">Early Childhood</a></li>
+<li class="leaf"><a href="/incarceration-reentry">Incarceration &amp; Reentry</a></li>
+<li class="leaf"><a href="/opioid-abuse-us-and-hhs-actions-address-opioid-drug-related-overdoses-and-deaths" title="Opioids">Opioids</a></li>
+<li class="leaf"><a href="/patient-centered-outcomes-research-trust-fund">Patient-Centered Outcomes Research Trust Fund (PCORTF)</a></li>
+<li class="expanded"><a href="/basic-search/poverty" title="">Poverty</a><ul><li class="first leaf"><a href="/poverty-guidelines">Poverty Guidelines</a></li>
+<li class="last leaf"><a href="/poverty-estimates-trends-and-analysis">Poverty Analysis</a></li>
+</ul></li>
+<li class="leaf"><a href="/teen-pregnancy-prevention">Teen Pregnancy Prevention</a></li>
+<li class="leaf"><a href="/homelessness">Homelessness</a></li>
+<li class="last leaf"><a href="/medicare-access-and-chip-reauthorization-act-2015">MACRA</a></li>
+</ul></li>
+<li class="leaf"><a href="/reports" title="">Publications</a></li>
+<li class="last expanded"><a href="/basic-search/datasets" title="">Data and Tools</a><ul><li class="first last leaf"><a href="/evaluations" title="">Evaluation Database</a></li>
+</ul></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation / End -->
+</header>  <div class="main" role="main">
+    <!--PAGEWATCH CODE="USHHS_458"-->
+    <section class="page-heading">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+                <h1>
+                    
+          Estimating the Prevalence of Long-Term Disability for an Aging Society        </h1>
+                                 <p class="author">
+                                                 <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="1991-04-01T00:00:00-05:00">04/01/1991</span>               
+                           </p>
+
+
+                  </div>
+
+
+        <div class="col-md-6">
+           <ul class="breadcrumb"><li class="first"><a href="/" title="Home">Home</a></li>
+<li class="last">Estimating the Prevalence of L...</li>
+</ul>        </div>
+
+
+    </div>
+  </div>
+</section>
+    
+      <div  class="nd-region nd-region-filter">
+  
+       
+
+    
+      <div  id="Filter" class="row">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region nd-region-similar-content">
+  
+       
+
+    
+      <div  id="Similar-Content" class="row">     
+
+        
+                  
+        
+                                    <div  id="top" class="">
+                          
+                              <div id="block-views-2100ccfdd214bdbcf634d7e4832c265b" class="widget block block-views solr-similar-content" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Similar</span> content</h3>
+		</div>
+    
+  <div class="view view-similar-content-solr view-id-similar_content_solr view-display-id-block_solr_similar_content view-dom-id-04bbf9b28f7b3fb9fcad84b3ec7eae5a">
+        
+  
+  
+      
+    
+    <span class="field-content"><a href="/newws-information-restricted-and-public-use-files-codebook-2-year-client-survey-public-use-file">NEWWS: Information on Restricted and Public Use Files: Codebook for 2-Year Client Survey Public Use File</a></span>    
+    <span class="field-content"><a href="/national-evaluation-welfare-work-strategies-2-year-full-impact-sample-files-data-codebook-information-each-variable">National Evaluation of Welfare-to-Work Strategies: 2-Year Full Impact Sample Files: Data codebook with information on each variable</a></span>    
+    <span class="field-content"><a href="/basic-report/synthetic-trajectories-obtained-matching-longitudinal-data">Synthetic Trajectories Obtained by Matching Longitudinal Data</a></span>    
+    <span class="field-content"><a href="/newws-information-restricted-and-public-use-files-5">National Evaluation of Welfare-to-Work Strategies: 2-Year Child Outcomes Study (COS) Files: Data Codebook (public)</a></span>    
+    <span class="field-content"><a href="/national-evaluation-welfare-work-strategies-2-year-child-outcomes-study-cos-files-data-codebook">National Evaluation of Welfare-to-Work Strategies: 2-Year Child Outcomes Study (COS) Files: Data Codebook</a></span>  
+  
+  
+  
+  
+  
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Content">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  class="col-md-12 " id="content">
+                          
+                              <div id="block-aspe-aspe-addthis" class="widget block block-aspe" >
+  
+      
+  <div class="clearfix">
+  <ul class="addthis_sharing_toolbox node-share__links" data-url="https://aspe.hhs.gov/basic-report/estimating-prevalence-long-term-disability-aging-society" data-title="Estimating the Prevalence of Long-Term Disability for an Aging Society">
+    <li><a class="addthis_button_print"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/print-white.png" alt="print" /></a></li>
+    <li><a class="addthis_button_email"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/mail-white.png" alt="email" /></a></li>
+    <li><a class="addthis_button_twitter"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/tw.png" alt="twitter" /></a></li>
+<!--    <li><a class="addthis_button_facebook">--><!--</a></li>-->
+    <li><a class="addthis_button_compact"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/plus-white.png" alt="compact" /></a></li>
+  </ul>
+</div>
+
+  </div> <!-- /.block -->
+
+                
+    
+  
+  <div class="content clearfix node-basic-report">
+    <p><strong>U.S. Department of Health and Human Services</strong></p>
+<p>Estimating the Prevalence of Long-Term Disability for an Aging Society</p>
+<h3>Suzanne R. Kunkel and Robert A. Applebaum</h3>
+<h3>Miami University, Scripps Gerontology Center</h3>
+<h3>April 1991</h3>
+<p>PDF Version: <a href="/system/files/pdf/73811/agsoces.pdf">http://aspe.hhs.gov/daltcp/reports/agsoces.pdf</a> (23 PDF pages)</p>
+<hr /><blockquote><p><em>This report was prepared under grant #87ASPE1821 between the U.S. Department of Health and Human Services (HHS), Office of Family, Community and Long-Term Care Policy (now the Office of Disability, Aging and Long-Term Care Policy (DALTCP)) and Miami University of Ohio. For additional information about the study, you may visit the DALTCP home page at <a href="http://aspe.hhs.gov/_/office_specific/daltcp.cfm">http://aspe.hhs.gov/_/office_specific/daltcp.cfm</a> or contact the office at HHS/ASPE/DALTCP, Room 424E, H.H. Humphrey Building, 200 Independence Avenue, SW, Washington, DC 20201. The e-mail address is: <a href="mailto:webmaster.DALTCP@hhs.gov">webmaster.DALTCP@hhs.gov</a>. The DALTCP Project Officer was Paul Gayer.</em></p>
+<p><em>Invaluable assistance was provided by P. Neal Ritchey, Project Consultant, and Shahla Mehdizadeh, Programming Consultant. Gregory Spencer, at the Bureau of the Census, provided essential census projections. Ray Hanley, Peter Kemper, and Robert Atchley provided valuable comments on an earlier version of this work.</em></p>
+</blockquote>
+<hr /><h2>TABLE OF CONTENTS</h2>
+<p><a href="#estimate">ESTIMATION METHODOLOGY</a></p>
+<p><a href="#model">MODEL ESTIMATES</a></p>
+<p><a href="#policy">POLICY AND RESEARCH IMPLICATIONS</a></p>
+<p><a href="#ref">REFERENCES</a></p>
+<p><a href="http://aspe.hhs.gov/daltcp/reports/agsocestd.htm">TECHNICAL DOCUMENTATION</a> (separate file)</p>
+<p>LIST OF FIGURES</p>
+<p><a href="#figure1">FIGURE 1</a>: Disability Categories for LTC Projection Study</p>
+<p><a href="#figure2">FIGURE 2</a>: Description of Estimation Scenarios</p>
+<p><a href="#figure3">FIGURE 3</a>: Total Projected Population 65 and Older With Severe Disability, 1986 to 2040: Different Mortality &amp; Disability Assumptions</p>
+<p>LIST OF TABLES</p>
+<p><a href="#table1">TABLE 1</a>: Baseline Disability Proportions by Age Category and Sex</p>
+<p><a href="#table2">TABLE 2</a>: Estimated Number of Older People at Different Levels of Disability in 1986, 2000, 2020, and 2040 for Four Projection Scenarios</p>
+<p>The aging of a nation has profound effects on all aspects of society. From the marketing of products, to retirement and employment patterns, to social relationships between generations, aging of a population results in dramatic changes in the way a society functions. Although these demographic changes have significant effects on every aspect of life in our society, one of the greatest challenges faced by an aging society lies in its ability to provide health and social service care of high quality, particularly for those with chronic needs.</p>
+<p>Providing high quality long-term care services to disabled people in a society in which the number of people requiring those services is increasing rapidly raises difficult public policy decisions. Debates about the best approaches to providing long-term care, and equally difficult issues concerning what level of resources a society can allocate to this care, have already become common in industrialized nations! Projections of the need for long-term care are fundamental for sound public policy. "If our efforts to plan for our aging population are to become more intelligent and less feeble, the highest priority must be given to amassing data and making projections of health care needs" (Brody, et. al., 1987).</p>
+<p>Projecting the size of the long-term care population in an aging America has become a subject of particular interest for researchers. Manton and Liu (1984) estimated the future growth of the long-term care population, using comprehensive national data. While this work served as an important data source, the projections were based on a static model; that is, the rates of disability and mortality were assumed to remain constant for the next half century. Given the research on potential changes in "active life expectancy" (Katz et. al. 1983), a model based on current rates lacks the comprehensiveness necessary for public policy analysis.</p>
+<p>Two other recent studies are of interest. The Brookings Institution estimated future costs for long-term care. Estimates in this model were based both on the continuation of current policies, and on changes that could occur as a result of some of the various public and private initiatives currently being proposed (Rivlin et. al., 1988). This comprehensive study assumed that disability rates remained constant over the projection period. A sensitivity analysis was done to look at the effects of higher or lower disability, but the disability assumptions on which all cost estimates wer e based was constant. A second recent effort was conducted by researchers at the Urban Institute and used a model that incorporated potential changes in disability (McBride 1989). This work attempted to develop alternative scenarios in estimating disability. This study relied on the National Health Interview Survey, Supplement on Aging for non-institutional baseline data. Due to major variations in approaches to measuring disability and differences in sampling frame, data from the Urban Institute study and this work generate different baseline estimates and hence projections of disability for the older population.</p>
+<p>The study presented in this paper extends the contributions made by the works noted above in two important ways. First, this study, like the Urban Institute project, employs a model in which both life expectancy and rates of disability can be altered over time. Second, this research deals with projections of needs for long-term care as an issue related to, but separate from, where people live (in institutions or at home in the community). Since the mix of these two populations may change in the future, accurate projections of need for long-term care should be made separate from the issue of where and what type of care is currently provided. Since social and economic changes, and policy decisions made today and in the future may well alter the availability and utilization of institutional and community-based services, it is critical to know the numbers of people who will need various levels of long-term care, without regard to whether this care would be in an institutional or home setting.</p>
+<p>In the remainder of this paper, projections of disability, and, by implication, need for long-term care, are detailed by age and sex, for the entire older population (not tied to current living arrangements or service utilization). The policy implications raised by these estimates are then discussed.</p>
+<h2><a id="estimate" name="estimate">ESTIMATION METHODOLOGY</a></h2>
+<p>The projection model used in this research required the following tasks: 1) generating baseline estimates of the level of disability of the current older population; 2) formulating assumptions about the future of disability; 3) projecting the numbers of older people with need for long-term care under different disability and mortality scenarios. The following sections describe the data sets, disability measures, and procedures used to generate baseline data, the mortality-disability scenarios, and the projection methodology.</p>
+<p><strong>Data Sets</strong>: Two national data sets were used to generate the beginning rates of disability. The National Long Term Care Survey of 1982 (NLTCS) is a detailed interview study of the population age 65 and over who were residing in non-institutional settings. In addition to data on medical conditions, cognitive functioning, health care sources and costs, and demographic characteristics, the survey provides detailed data on the functional ability of this nationally representative population. General information on disability status was obtained by telephone from a sample of 35,790 persons from the Medicare master beneficiary files. Detailed information on the nature and extent of functional limitations was then gathered from in-person interviews with the 6088 persons who had reported a functional impairment.</p>
+<p>The 1985 National Nursing Home Survey (NNHS) is a nationwide sample survey of residents and staff of nursing and related care homes. Information on a sample of 4595 current residents in the facilities included details about the nature and extent of functional limitations. Thus, the NNHS was the source of disability information on the institutionalized older population, while the NLTCS provided such data on the community-based older population.</p>
+<p><strong>Measurement of Disability</strong>: Defining and measuring long-term care disability was a critically important step in this study. In past research and in practice settings, two major approaches have been used to determine the number of individuals with long-term care disability: 1) a strategy that estimates disability based on the presence of an illness or disease that could result in chronic impairments; and, 2) a strategy that concentrates on the individual's ability to perform functional activities of daily living (such as ability to feed oneself, bathe, or dress oneself), without regard to clinical diagnosis. The primary method used to measure long-term care disability has been to examine functional ability because, although the presence of a chronic disease, such as arthritis, provides an indication that an individual may have a need for long-term care, the presence of the disease does not necessarily imply anything about level of need. In addition, because assessing the presence of disease often requires professional diagnosis, this measure is m ore likely to be affected by access to health care than is an assessment of functional ability. Criteria used for admission to nursing homes and to community-based long-term care demonstration programs have consistently emphasized the functional ability of the applicant (Rowland et. al. 1987; Kemper et. al., 1987). The study presented in this paper also uses the functional approach for assessing disability.</p>
+<p>Two principles guided the development of the disability measure for this study: 1) to distinguish between levels of disability, long-term disability should be classified into several categories, and 2) to the extent possible, the definition of disability should not be linked to an individual's place of residence.</p>
+<p>Definitions of functional disability vary widely across long-term care programs, but all rely on "activities of daily living" (ADL) and "instrumental activities of daily living" (IADL) measures. Some programs consider an impairment in one IADL or ADL as in indicator of long-term disability. Others define long-term disability as impairment in three or more ADL's. Still other programs define disability quite specifically to include only those individuals who meet criteria for nursing home of care (Rowland et. al., 1988; Kane and Kane, 1987). In response to this disagreement, a number of studies have used an approach in which disability is divided into multiple levels (Rivlin et. al., 1988; Kane and Kane, 1987). Such a strategy provides an opportunity to answer questions about a range of disability levels.</p>
+<p>Multiple levels of disability were used for this study. (See <a href="#figure1">Figure 1</a>) Specifically, the following three levels of disability were defined:</p>
+<ol><li>
+<p>Severe disability--includes those individuals with at least two ADL impairments. Individuals at this level of disability generally meet the current state requirements for intermediate level nursing home care.</p>
+</li>
+<li>
+<p>Moderate disability--includes those individuals experiencing at least one ADL impairment, <em>or</em> two IADL limitations. These individuals, in general, would not be disabled enough to meet the current nursing home level of care criteria.</p>
+</li>
+<li>
+<p>Little or no disability--includes individuals with no functional impairment and those with one limitation in an IADL. It is assumed that individuals in this category currently experience no long-term disability.</p>
+</li>
+</ol><p><strong>Calculating Current Prevalence Rates of Disability</strong>: Using the measures described above, age- and-sex-specific rates of disability were calculated for the institutionalized older population using the NNHS data, and for the community-based older population using the NLTCS information. Since calculating disability rates for the entire over 65 population without regard to residence was a key objective of the study, it was necessary to combine the residence-specific disability information on the two populations. This was accomplished by weighting the disability rates for each of the two groups by their relative representation in the overall older population. These weights were age and sex-specific.</p>
+<p>It should be noted that despite the importance of combining these two data sets, some limitations are encountered in such an approach. Because questionnaire wording, data items and data collection strategies varied between the two surveys, potential measurement problems arise when combining data from these two samples. For example, the data collection methods in the NLTCS rely primarily on self report, while the NNHS utilizes data collected from professional staff. Studies examining alternative data collection techniques have reported that such variations can result in apparent differences in functional ability of respondents, when no such differences actually exist (Brown, 1986). However, comparable data collection approaches have not been used in the existing long-term care data sets.</p>
+<p><strong>Projecting Disability</strong>: The age-sex specific disability rates calculated according to the methods described were combined with 1986 census estimates to form the baseline for our projections. The rates from the two surveys were applied to the census estimates for 1986, the most recent year available, to form the data base. Next, a disability trend (described below) was applied to the beginning rates. The result of this process was a matrix of disability rates by age and gender for the years 1986 to 2040. That is, based on our assumptions about what would happen to disability rates in the future, current disability rates were altered to give a new set of rates that increased, decreased, or remained constant over the next 55 years. These disability rates were then applied to census projections for the years in question (U.S. Bureau of the Census, 1988). The census projections were acted upon by varying mortality assumptions--continuation of recent mortality trends, faster increase in life expectancy, slower increase in life expectancy. Thus, after mortality rates are applied to the population, the disability rate matrix produces disability projections specific to the disability-mortality assumptions that have been used. For each set of mortality-disability assumptions, projections were done in five year intervals from 1990 to 2040.</p>
+<table><tbody><tr><td colspan="3"><strong><a id="figure1" name="figure1">FIGURE 1</a>. Disability Categories for LTC Projection Study</strong></td>
+</tr><tr><td colspan="3"><strong>Categories</strong></td>
+</tr><tr><td scope="col"><strong>Severe</strong></td>
+<td scope="col"><strong>Moderate</strong></td>
+<td scope="col"><strong>Little or None</strong></td>
+</tr><tr><td scope="row">2 or more ADL's from below- eating- transferring- using toilet- dressing- incontinence- cognitive impairment</td>
+<td>at least 1 ADL from below- eating- transferring- using toilet- dressing- bathing- incontinenceor at least 2 IADL's(at least one must be from Group 1)<strong><em>Group 1</em></strong>- walking- shopping- meal preparation- housekeeping<strong><em>Group 2</em></strong>- phone use- travel</td>
+<td>No ADL or IADLor 1 IADL from below- walking- shopping- meal preparation- housekeeping- travel- money management- phone use</td>
+</tr></tbody></table><p><strong>Disability-Mortality Scenarios</strong>: Estimating rates of disability and mortality through the year 2040 is without question a speculative process. Numerous developments in such areas as public health, medical technology, the environment, and economic and social changes cannot be predicted with accuracy, yet will surely influence mortality and disability. Estimates for longevity did not have to be developed by the project, as they had been generated by the U.S. Bureau of the Census. The Census uses three different assumptions about the future of mortality (a rapid improvement life expectancy series, a middle mortality view, and a slow improvement series). The middle mortality scenario was estimated by examining mortality trends between 1940 and 1986. Census researchers identified variations in life expectancy improvements over that time period. During the 1970's life expectancy increased at a much higher rate 1han the time period 1982 to 1986. The middle mortality scenario thus, "represents the middle ground between sharply different recent trends" (Spencer, 1989, p. 24). The rapid improvement scenario assumes that mortality will decline 100 percent faster than in the middle series. Longevity in the slow- improvement series was originally assumed to decrease half as fast as the middle assumption. However, these estimates were modified because of the effects of Acquired Immunodeficiency Syndrome (AIDS). Under this latter assumption life expectancy is projected to show almost no increase.</p>
+<p>A review of the research literature revealed very little agreement on the direction of change in disability rates or on the magnitude of potential changes. Predictions range from decline to improvement in disability rates among older people. A reduction in the rate of disability experienced by older cohorts is perhaps best represented by the work of Fries (1983; also Fries and Crapo, 1981), who suggests that medical advances would result in a compression of morbidity and mortality into the latest years of life. This theory took the position that life would be extended to its biological maximum and that the additional years of life would be relatively healthy and active. While such a theory has been proposed by others (Bjorksten, 1987), there is little research evidence to support such a scenario.</p>
+<p>A more middle-ground position suggests that the current rates of disability will remain relatively constant. Represented by the works of several researchers (Brody, 1985; Chapman et. al. 1986; Manton 1986; Feldman 1983) this review of health trends for older people found relatively stable patterns of disability over the past few decades, suggesting that disability rates would remain constant.</p>
+<p>A third scenario suggests that longer life expectancy will actually result in an increase in the rates of disability experienced by older people. Verbrugge (1984) suggested, for example, that longer life and the resultant higher prevalence rates for serious diseases would have a "pernicious effect ... since future new survivors will be even more ill and susceptible than those in earlier decades" (1984: 515). Thus, the extension of life would include more active days, but also more inactive or disabled days.</p>
+<p>After identifying the continuum of possibilities for future disability trends, it was still necessary to quantify the possible changes in order to develop the estimation models. Unfortunately, there was little information available to aid in estimating the magnitude of potential changes. A review of the literature on disability identified a small number of studies that examined rates of disability over time. The studies used a range of measures such as the existence of an activity limitation, the number of days restricted in the home, and the number of days restricted to bed to assess disability.</p>
+<p>The analysis of disability over time in the U.S. relied on the National Health Interview Survey. A detailed analysis of the survey between 1958 and 1980 examined several variables including the presence of total restricted activity, a major activity limitation, and any activity limitation (Verbrugge 1984). Results from this work showed that between 1958 and 1980 there was an increase in the proportion of the older population that reported experiencing disability. For the total restricted activity measure, men age 65 and over showed a 4 percent increase in days restricted, and women 65 and over had a 10.3 percent increase. A second measure which examined the presence of a major activity limitation, showed an 11 percent increase for women and a 1.1 percent increase for men age 65 and over. A third measure that examined the existence of any limitation showed a 13.8 percent increase for men age 65 and over and a 2.3 percent increase for women of comparable ages. This study also examined changes for the 45 to 64 age group. Larger increases in the proportion of those experiencing a disability were reported for this group. Men age 45 to 64 showed a 33 percent increase, while women of this group showed a 46 percent increase.</p>
+<p>Although these numbers suggest increased disability, they need to be interpreted cautiously. Changes in questionnaire wording, data collection, and sampling procedures existed. For example, because the data from the survey are grouped in broad age categories as the population has aged over the course of the studies, the average age of the groupings has risen, thus causing an increase in group disability rates that is not necessarily related to increasing rates of disability for comparable age groups.</p>
+<p>Several other studies have also used the National Health Interview Survey (Colvez and Blanchet, 1981; Ycas, 1985, Chapman, LaPlante, Wilensky, 1986; Culler, van Deen Daigle 1983). Although these studies examined different time periods (typically a smaller number of years), as expected the findings of these studies, while smaller in magnitude, were generally consistent with the study discussed above.</p>
+<p>A second major data source was the Canadian Health Survey (Wilkins and Adams, 1983). Using measures of both the presence of a long-term disability and the number of disability days, the study examined changes between 1951 and 1978. Results also showed an increase in disability over time. Men age 65 and over showed a 15 percent increase, and women of comparable age were reported to show a 60 percent increase. The measure on disability days also showed an increase, but of smaller magnitude, in reported disability over time. For example, men age 65 and over were reported to have a 3.4 percent increase, and women of this age category had a 34 percent increase. The authors of this study pointed out several methodological problems. The most serious problem appears to be the change in definition of long-term disability; from having permanent physical disability to the presence of any activity limitation. Other questionnaire wording and data collection changes and sample weighting problems were also noted.</p>
+<p>In addition to these studies there were several other authors who speculated about future trends in disability (Fries, 1981; Manton, 1986; Brody, 1985; Schneider and Brody, 1983). These estimates were based on theoretical assumptions rather than data on trends in disability.</p>
+<p>With these studies as background, we developed our estimates. Data from' the NHIS for the over 65 population had suggested disability increases for the over 65 population ranging from 1 to 14 percent, depending on the measure. Larger increases (33% men, 46% women) were reported for the 45-64 age group. The Canadian survey reported increases on the disability days measure of 3.4 percent for men and 34 percent for women and increases in any long term disability of 50 percent for the over 65 population.</p>
+<p>Based on these numbers a 15 percent increase in disability was used to represent the estimates for the increasing disability scenario. No supporting numbers were available for estimating an improvement in disability. In order to represent an alternative hypothesis a 15 percent rate for the decreasing disability scenario was used as well. A best-guess scenario, which assumed a smaller increase (7.5%) in disability rates was also estimated. The rationale for the best-guess estimate was that while some increase in disability may have occurred, methodological concerns suggest that the increase has been over-estimated in the data presented. Yet it seems plausible that increases in longevity may result in a higher proportion of the population experiencing a disability. The disability changes were estimated for the next twenty-five years; after 2010, rates were held constant. The estimates did assume that the amount of change would be spread evenly over the twenty-five years, and evenly among the three levels of disability (little or none, moderate, severe). Disability rates were also assumed to be the same for men and women and spread evenly across the age range.</p>
+<p><strong>Models developed</strong>: From the combination of mortality and disability scenarios possible, four models were developed to generate projections: 1) a constant model--with mortality and disability trends continuing under current rates; 2) a longer life/lower disability model--assuming faster improvement in mortality and lower levels of disability (compression of morbidity and mortality); 3) a longer life/higher disability model--assuming faster improvements in mortality and higher levels of disability; 4) a moderately longer life/moderately higher disability model-- assuming the middle mortality rates and a higher level of disability than currently exists, but not as high as that assumed in the previous model. This last model represents our best guess for the future long-term care population. The selected scenarios are summarized in <a href="#figure2">Figure 2</a>.</p>
+<h2><a id="model" name="model">MODEL ESTIMATES</a></h2>
+<p><a href="#table1">Table 1</a> shows the beginning disability rates summarized by age and sex. Data for 1986 indicate that the vast majority of the population over age 65 (82.7%) experienced little or no disability. However, 8.9 percent of the over 65 population are classified as moderately impaired and 8.4 percent are placed in the severely disabled category. As might be expected, the proportion of the older population with little or no disability decreases with age, and the proportion with severe disability increases with age. For example, 4.4 percent of the 65-74 year old age group are classified as being severely impaired, compared to almost 29 percent for the over age 85 group. Examination of the category of individuals with no disability also highlights these differences. Almost 90 percent of the 65-74 age category are classified as having no disability, compared to just under 50 percent for the 85+ group.</p>
+<p>For all age groups, the proportion of women with a severe disability is greater than that for males. For those age 85 and above, almost 32 percent of the women are classified as being severely disabled, while about 22 percent of the men are within this category. This reinforces an often-cited finding that women have higher rates of illness and disability than do men, even though in general women enjoy greater longevity than do men. To be certain that the higher rates of disability among women were not explained by their higher average age (and thus greater likelihood of living long enough to become disabled), we compared the proportions of men and women disabled within single years of age. The same pattern held; in fact, at higher ages, the difference between men and women was greater. Old-old women were much more likely than old-old men to be disabled, and this difference was greater at these older ages than at younger ages. Thus, the sex differential in disability is not "explained away" by the greater longevity, and thus higher average age of older women.</p>
+<p>Using these 1986 numbers as a base (see <a href="#table1">Table 1</a>), estimates were generated for the four different models described above. The importance of developing alternative models that allow for change in disability and mortality over the course of the projection period is illustrated by the range of estimates generated by the different scenarios. As seen in <a href="#table2">Table 2</a>, the estimates of the numbers of older persons with severe disability for the year 2040 range from 7.6 million (in the constant model) to 12 million (for the high disability model). The reader will note that the lowest estimate of the number of older persons with severe disability in the year 2040 comes from the constant model rather than the longer life/lower disability model. This and other apparent discrepancies are explained by the fact that findings reflect three related but distinct forces: the force of population aging, the force of mortality, and the impact of disability. The estimates for severe disability are lower for the constant model than the longer life/lower disability model because the latter model assumes faster improvement in life expectancy. Thus, the longer life/lower disability scenario results in a very large old-old population. Although the scenario assumes improvements in disability, the higher number of people in the oldest age group results in a higher estimate of severely disabled persons than does the scenario with higher rates of disability.</p>
+<table><tbody><tr><td colspan="3"><strong><a id="figure2" name="figure2">FIGURE 2</a>. Description of Estimation Scenarios</strong></td>
+</tr><tr><td scope="col"><strong>Model</strong></td>
+<td scope="col"><strong>Description</strong></td>
+<td scope="col"><strong>Disability and Mortality Rate Assumption</strong></td>
+</tr><tr><td scope="row">Constant Model</td>
+<td>Continuation of current rates of disability. Mortality estimates represent middle ground of diverging mortality trends.</td>
+<td>Model assumes that current disability rates will remain constant in the future. Current rates of disability in 1986 are applied to the population estimates based on the middle series mortality projections.</td>
+</tr><tr><td scope="row">Longer Life/ Less Disability Model</td>
+<td>Improvement in mortality rates. Lowering of disability rates.</td>
+<td>Model uses Census estimates for rapid improvement series in life expectancy. Disability rates are assumed to be lower than current rates (15% decrease). Assumptions made for first 25 years of projections only.</td>
+</tr><tr><td scope="row">Longer Life/ Higher Disability Model</td>
+<td>Improvement in mortality rates. Increase in disability rates.</td>
+<td>Model uses Census estimates for rapid improvement series in life expectancy. Disability rates are assumed to be higher than current rates (15% increase). Assumptions made for first 25 years of projections.</td>
+</tr><tr><td scope="row">Moderately Longer Life/ Moderately Higher Disability</td>
+<td>Mortality uses middle series. Some increase projections in disability rates is expected to occur.</td>
+<td>Model assumes the middle series rates of improvement in life expectancy. Disability is assumed to increase, but at slower rate than above (7.5%). Assumptions for first 25 years of projections.</td>
+</tr></tbody></table><table><tbody><tr><td colspan="5"><strong><a id="table1" name="table1">TABLE 1</a>. Baseline (1986) Disability Proportions by Age Category and Sex*(proportions are given as percentages)</strong></td>
+</tr><tr><td scope="col"><strong>DisabilityCategory</strong></td>
+<td scope="col"><strong>AgeRange</strong></td>
+<td scope="col"><strong>Males</strong></td>
+<td scope="col"><strong>Females</strong></td>
+<td scope="col"><strong>Total</strong></td>
+</tr><tr><td scope="row">Little or No Disability</td>
+<td>65-7475-8485+All Ages</td>
+<td>90.982.758.386.4</td>
+<td>89.077.146.580.2</td>
+<td>89.979.249.882.7</td>
+</tr><tr><td scope="row">Moderate Disability</td>
+<td>65-7475-8485+All Ages</td>
+<td>5.19.119.97.2</td>
+<td>6.312.121.810.0</td>
+<td>5.811.021.38.9</td>
+</tr><tr><td scope="row">Severe Disability</td>
+<td>65-7475-8485+All Ages</td>
+<td>4.08.221.76.4</td>
+<td>4.610.831.79.8</td>
+<td>4.49.928.98.4</td>
+</tr><tr><td colspan="5">* Estimates use data from the 1982 National Long-Term Care Survey and the 1985 National Nursing Home Survey that have been weighted and applied to 1986 Census population estimates.</td>
+</tr></tbody></table><p>The models are graphically presented in <a href="#figure3">Figure 3</a>. The interaction of the forces of population aging, mortality, and disability explains the inter-relationships between the scenarios. For example, in <a href="#figure3">Figure 3</a>, the longer life/less disability line is quite close to the longer life and moderately higher disability model line due to differences in mortality rates between the two models. If mortality rates were the same for each model and only disability levels were manipulated, such a merging of estimates would not occur.</p>
+<p>As presented in <a href="#table2">Table 2</a>, the four scenarios generate a range of estimates concerning the projected size of the disabled population of older persons. Although the differences in the estimates generated by the various mortality-disability scenarios are clearly significant, what is most important is that the numbers generated under even the most conservative and most optimistic scenarios have enormous consequences for future long-term care needs. Current estimates indicate that about 2.6 million older people have a moderate disability and about 2.5 million are severely disabled. In the constant model, with no changes in current disability or mortality rates, the sheer force of population aging will result in 4.9 million older people estimated to have a severe disability by 2020; another 4.8 million will have moderate disability. The longer life/lower disability model generates the lowest estimates of disability for 2020, predicting 4.8 million severely disabled older people and 4.6 million with moderate levels of disability. Thus, by 2020, under the most conservative model, the population of older people experiencing disability is projected to increase about 84 percent, from the current 5.1 million to 9.4 million. Similarly the lowest estimates for disability for 2040 (generated under the constant model) are 14.8 million older people with a disability (an increase of about 190% from 1986). The longer life/higher disability model generates estimates of 7.0 million severely disabled older people by 2020 and 6.6 million moderately disabled older people, for an increase of approximately 167% in the elderly disabled population.</p>
+<table><tbody><tr><td colspan="5"><strong><a id="table2" name="table2">TABLE 2</a>. Estimated Number (in millions) of Older People at Different Levels of Disability in 1986, 2000, 2020, and 2040 for Four Projection Scenarios</strong></td>
+</tr><tr><td scope="col"><strong>ProjectedYear</strong></td>
+<td scope="col"><strong>Little orNo Disability</strong></td>
+<td scope="col"><strong>ModerateDisability</strong></td>
+<td scope="col"><strong>SevereDisability</strong></td>
+<td scope="col"><strong>*TotalPopulation</strong></td>
+</tr><tr><td colspan="5" scope="row">CONSTANT</td>
+</tr><tr><td scope="row">1986200020202040</td>
+<td>24.128.142.453.3</td>
+<td>2.63.44.87.2</td>
+<td>2.53.44.97.6</td>
+<td>29.334.852.168.1</td>
+</tr><tr><td colspan="5" scope="row">LONGER LIFE/LOWER DISABILITY</td>
+</tr><tr><td scope="row">1986200020202040</td>
+<td>24.129.748.164.1</td>
+<td>2.63.14.67.5</td>
+<td>2.53.24.88.5</td>
+<td>29.236.057.580.1</td>
+</tr><tr><td colspan="5" scope="row">LONGER LIFE/HIGHER DISABILITY</td>
+</tr><tr><td scope="row">1986200020202040</td>
+<td>24.128.143.957.5</td>
+<td>2.63.96.610.6</td>
+<td>2.54.07.012.0</td>
+<td>29.236.057.580.1</td>
+</tr><tr><td colspan="5" scope="row">LONGER LIFE/MODERATE DISABILITY (BEST GUESS)</td>
+</tr><tr><td scope="row">1986200020202040</td>
+<td>24.127.741.551.9</td>
+<td>2.63.65.37.9</td>
+<td>2.53.65.48.4</td>
+<td>29.234.952.168.1</td>
+</tr><tr><td colspan="5">* Due to rounding errors total may not match the sum of individual disability categories.</td>
+</tr></tbody></table><h2><a id="policy" name="policy">POLICY AND RESEARCH IMPLICATIONS</a></h2>
+<p>Most of us are aware of the children's story <em><strong>Chicken Little</strong></em> in which the main character is struck on the head by an acorn, then communicates to his fellow citizens that the sky is failing, creating a panic in the mythical animal community. Although we are not suggesting that the sky is failing, the policy and research implications of these estimates are clearly striking. Of particular importance is the finding that regardless of the scenario projected, by the year 2040 when the baby boomers reach their 80's and 90's, the number of older Americans with long-term disabilities will have increased significantly. Estimates of the over 65 population expected to have a long-term disability in 2040 range from 14.8 to 22.6 million people, compared to approximately 5.1 million older people experiencing a long-term disability in 1986, (an increase ranging from 190 to 343 percent).</p>
+<table><tbody><tr><td><strong><a id="figure3" name="figure3">FIGURE 3. Total Projected Population 65 and Older With Severe Disability, 1986 to 2040: Different Mortality &amp; Disability Assumptions</a></strong></td>
+</tr><tr><td><img alt="Line graph" src="/system/files/images-reports-basic/67261/agsoces-fig3.jpg" /></td>
+</tr></tbody></table><p>These projections present a serious challenge for a long-term care system that has already been subject to a considerable amount of criticism, particularly concerning quality and financing. When combined with other social and demographic trends, such as lower fertility rates and changes in the structure and mobility patterns of the family, these estimates suggest that the challenges of providing adequate long-term care to an aging America are almost overwhelming. For example, a current problem that has implications for the future involves the adequacy of the labor force available to provide long-term care. Many states are currently experiencing a shortage of long-term care personnel, both nurses and paraprofessionals. In some states, particularly those with low unemployment rates, these shortages are severe. At the same time, projections indicate that the pool of workers most likely to perform these jobs will decline in future years. if concerns about who will provide long-term care are real today, in future years such an issue will be of paramount importance.</p>
+<p>The increase in the population experiencing long-term disabilities also has obvious implications for financing long-term care. Concern about whether American society can afford to provide adequate health and long-term care for our nation's elderly and disabled populations has now become a topic of national interest. Long-term care has undeniably come to the forefront of the American political system with numerous bills being proposed in the 100th Congress. If adequate funding for long-term care is a topic of debate in 1989, it is difficult to imagine how this challenge will be addressed in 2020 or 2040.</p>
+<p>What then are the implications of these demographic changes for policy makers and researchers? Because the estimates show dramatic increases, a coherent set of public policies will be essential. A planning and research strategy that recognizes the future challenges facing the system needs to be developed. While some of the policy and research activities will follow current lines of thinking, others must clearly search for new horizons. For example, current research on personnel problems in long-term care has primarily focused on methods to reduce turnover of staff through various benefit changes. Future research will need to look past the current approach to entirely different ways to structure and deliver long-term care. A related topic involves the relationship between technology and long-term care. Exploration into different ways to deliver long-term care, such as through the use of robotics, smart houses, and other technological innovations, needs to be incorporated into our research agenda.</p>
+<p>This work has also identified several specific research issues of significance. First, our review suggests that while the definition and measurement of disability is important both for the development of projections and in the operation of everyday programs, there is no agreement on what constitutes long-term disability, nor on exactly how to measure disability. In fact, the major national surveys, such as the National Nursing Home Survey, the National Long-Term Care Survey (used in this work), and the National Health Interview Survey, do not measure disability in a consistent manner. Because much of the proposed legislation for expanding coverage for long-term care provides benefits based on a specific definition of disability, this issue has direct relevance to the current public policy debate on long-term care.</p>
+<p>Information on the duration of disability will also be an important research area. At one time the literature was dominated by the theme that once an individual needed long-term care that would always be the case. Book titles and articles such as, <em><strong>Last Home For the Aged</strong></em>, (Tobin &amp; Lieberman 1976), were common. Longitudinal data from both nursing homes and disabled community residents suggests that although the majority of disabled older people do continue to experience impairments, approximately 25 to 30 percent of the disabled sample members improved their functional status (Branch, et al. 1984; Manton, 1988).</p>
+<p>Although developing uniform definitions and measures will improve efforts to generate future projections, other enhancements are needed as well. For instance, it is important to examine additional social and economic variables such as marital status, living arrangement, family structure and mobility patterns, and economic status as part of the projections process. Speculation about these areas is perhaps even more difficult than forecasting disability, but these factors will undoubtedly have a major impact on the long-term care needs of our society,</p>
+<p>Another research area for continued study is the differential rates of disability experienced by men and women. As noted, despite longer life expectancy, women experience higher rates of disability. Whether this is a by-product of gains in life expectancy achieved by women and is indicative of future trends, and whether such patterns can be altered are clearly questions of critical importance.</p>
+<p>The issues raised in this paper are but a sampling of topics for future policy and research activities in long-term care. While the development of such an agenda is not straightforward, it is clear that the aging of America will have a phenomenal impact on the number of people experiencing long-term disabilities. Our policy and research agenda must now formulate a response to this demographic and social challenge.</p>
+<h2><a id="ref" name="ref">REFERENCES</a></h2>
+<p>Bjorksten, Johan. 1987. <strong><em>Longevity: Past, Present Future</em></strong>. Charleston, SC: JAB Publishing.</p>
+<p>Branch, Laurence, S. Katz, K. Kniepman, and J. Papsidero. 1984. A prospective study of functional status among community elders. <strong><em>American Journal of Public Health</em></strong> 74(3).</p>
+<p>Brody, Jacob A., O.B. Brock, and T. Franklin Williams. 1987. Trends in the health of the elderly. <em><strong>Annual Review of Public Health</strong></em>, V.8:211-234.</p>
+<p>Brody, Jacob A. 1985. Prospects for an Aging Population. <em><strong>Nature</strong></em>, V.315:463-466.</p>
+<p>Brown, Randy. 1986. Methodological Issues in the Evaluation of the National Long-Term Care Demonstration, Mathematica Policy Research, Princeton NJ. [<a href="methodes.htm">http://aspe.hhs.gov/daltcp/reports/methodes.htm</a>]</p>
+<p>Chapman, Steven H., M.P. LaPlante, and G. Wilensky. 1986. Life Expectancy and Health Status of the Aged. <strong><em>Social Security Bulletin</em></strong>, V.49(10):24-48.</p>
+<p>Feldman, Jacob J. 1983. Work Ability of the Aged Under Conditions of Improving Mortality. <em><strong>Milbank Memorial Fund Quarterly/Health and Society</strong></em>, V.62(3):430-444.</p>
+<p>Fries, James F. 1983. The compression of morbidity. <em><strong>Milbank Memorial Fund Quarterly</strong></em>, V.6:397-419.</p>
+<p>Fries, James F. and L. M. Crapo. 1981. <strong><em>Vitality and Aging: Implications of the Rectangular Curve</em></strong>. San Francisco: W. H. Freeman.</p>
+<p>Kane, Rosalie, and Robert Kane. 1982. Long-Term Care, Principles, Programs and Policies. Springer . Publishing, New York.</p>
+<p>Katz, Sidney, L. Branch, M. Bronson, J. Papsidero, J. Beck and D. Greer. 1983. Active life expectancy. <em><strong>New England Journal of Medicine</strong></em>, V.309(20):1218- 1224.</p>
+<p>Kemper, Peter, R. Applebaum, and M. Harrigan. 1987 Community Care Demonstrations: What Have We Learned? <em><strong>Health Care Financing Review</strong></em>, V.8(4).</p>
+<p>Manton, Kenneth G. 1988. A longitudinal study of functional change and mortality in the United States. <em><strong>Journal of Gerontology: Social Sciences</strong></em> 43(5):5153-5159.</p>
+<p>Manton, Kenneth G. 1986. Past and Future Life Expectancy Increases at Later Ages: Their Implications for the Linkage of Chronic Morbidity, Disability, and Mortality. <em><strong>Journal of Gerontology</strong></em>, V.41(5):672-681.</p>
+<p>Manton, Kenneth G. and K. Liu. 1984. The future growth of the long-term care population: Projections based on the 1977 National Nursing Home Survey and the 1982 Long-Term Care Survey. Paper presented at Third National Leadership Conference on Long-Term Care Issues.</p>
+<p>McBride, Timothy D. 1989. Measuring the Disability of the Elderly: Empirical Analysis and Projections into the 21st Century, Paper presented at the Population Association of America, Baltimore Md.</p>
+<p>Rivlin, Alice M., et. al. 1988. Caring for the Disabled Elderly--Who Will Pay? Washington, D.C.: The Brookings Institution.</p>
+<p>Rowland, Diane, B. Lyons, P. Neuman, A. Salganicoff, T. Taghavi. 1988. Defining the functionally impaired elderly population. Report submitted to the Public Policy Institute, The American Association of Retired Persons.</p>
+<p>Spencer, Gregory. 1989. Projections of the population of the United States by age, sex, and race: 1988 to 2080. <em><strong>Current Population Reports</strong></em>, Series P-25, Number 1018, Washington, DC: U.S. Government Printing Office.</p>
+<p>Verbrugge, Lois M. 1984. Long life but worsening health? Trends in health and mortality of middle-aged and older persons. <em><strong>Milbank Memorial Fund Quarterly/Health and Society</strong></em>. V.62(3):475-519.</p>
+<h2>Technical Documentation</h2>
+<h3>TABLE OF CONTENTS</h3>
+<p><a href="#rates">CALCULATING BEGINNING DISABILITY RATES</a></p>
+<p><a href="#predict">PREDICTING FUTURE RATES OF DISABILITY</a></p>
+<p><a href="#project">PROJECTING THE DISABLED POPULATION: APPLYING THE DISABILITY RATES TO THE SURVIVED POPULATION</a></p>
+<p><a href="#summary">SUMMARY</a></p>
+<p><a href="#append">PROGRAM APPENDIX</a></p>
+<p><a href="#notes">NOTES</a></p>
+<p>LIST OF TABLES</p>
+<p><a href="#table1">TABLE 1</a>: Rates of Institutionalization by Age and Sex</p>
+<p><a href="#table2">TABLE 2</a>: Calculated Beginning of Disability Rates by Age and Sex</p>
+<p><a href="#table3">TABLE 3</a>: Review of Studies Examining Morbidity Changes Experienced by the U.S. Population</p>
+<p> </p>
+<p>This document is the technical manual to accompany the paper, <strong><em>Estimating the Prevalence of Long-term Disability for an Aging Society</em></strong>.<sup><a href="#note1">1</a></sup> That paper describes the results of research projecting to the year 2040 the numbers of older persons who will have long-term care needs in the future, under varying assumptions about the future of mortality and disability. This document describes in detail the methods, tasks, and procedures involved in those projections. Each step in the process is outlined, and the computer programs that accomplish each of these steps are included, with documentation.</p>
+<p>There were three general steps in the projection of disability: 1) calculating beginning rates of disability; 2) trending disability rates over time, allowing for the possibilities that health of the older population may improve, stay about the same, or worsen; 3) applying the disability rates to the survived population, allowing for three different mortality scenarios (continuation of recent gains in life expectancy, faster improvement in mortality, slower improvement in mortality. Each of these three basic procedures involved multiple tasks and computer programs and generated computer data files. Details about these tasks, data files, and programs, are provided below.</p>
+<p> </p>
+<h2><a name="rates" id="rates">CALCULATING BEGINNING DISABILITY RATES</a></h2>
+<p>Two national data sets were used as the basis for the beginning rates of disability among the older population: the National Long-Term Care Survey (NLTCS) of 1982, which provided information on the community-based older population, and the National Nursing Home Survey (NNHS) of 1985, which surveyed institutionalized older people. Further information on these data sets is provided in the text of the overview paper, <strong><em>Estimating the Prevalence of Long-Term Disability for an Aging Society</em></strong>.<sup><a href="#note2">2</a></sup> The rates of disability calculated from the two subpopulations were combined to provide overall disability rates for the older population. These rates were calculated for males and females for single years of age up to age 94; ages 95 through 99, and 100 plus were aggregated. Following are the detailed steps in this process.</p>
+<ol><li>
+<p><strong>Create disability measure</strong>. Based on past research and current practice regarding the measurement of disability, a three-category ordinal scale of level of disability was created. The three categories are: little or no disability, moderate disability, severe disability. Further discussion of these levels of disability, and the items that comprise the scale, are provided in the overview paper.</p>
+</li>
+<li>
+<p><strong>Calculate individual disability scores</strong>. After carefully selecting ADL-IADL items that were comparable on the two surveys, individual scores on each of the ADL-IADL items were calculated. Based on these responses, each individual was assigned to a disability category or level. Individuals in the NLTCS with 7 or more missing items, and individuals in the NNHS with 5 or more missing items, were eliminated from the sample; in the remaining cases mean substitution was used for missing items. Details about the ADL and IADL items, and the program that calculates disability scores for the NLTCS and NNHS samples are on pages 1-12 of the <a href="#append">Program Appendix</a> to this document.</p>
+</li>
+<li>
+<p><strong>Calculate proportions of older persons at three levels of disability</strong>. The age-and-sex specific proportions of individuals at each level of disability were calculated for each of the two subsamples. For the NNHS sample, this was a straightforward percentage taken from a frequency table of disability levels. The program which calculates these proportions is on page of the <a href="#append">Program Appendix</a>. For the NLTCS, this calculation was more complicated because of the sampling procedure used for the detailed interviews. Anyone who reported no disability at the time of the screening interview was eliminated from the detailed sample. Thus, the detailed sample includes only those individuals who have at least one ADL or IADL impairment. To account for the excluded persons who actually comprise a large part of the “little or no” category, the proportions at various levels of disability in the NLTCS detailed sample were weighted. The adjustment factor was an age-sex specific ratio of number in the detailed sample to number in the total sample. This factor was then multiplied times the proportion calculated for the detailed sample only. This adjustment effectively alters the denominator of the proportion to be equivalent to the total sample age-sex group, instead of the detailed sample age-sex group. Consider a hypothetical example of 120 70-year old women in the detailed sample; 60 of these women were moderately disabled. From just these figures, one might conclude that 50% of 70-year old women are moderately disabled. However, that proportion is exaggerated, because those 70-year older women with no disability were not included in the denominator. So, if there were 200 70-year old women in the total sample, that proportion calculated from the detailed sample (60/120) would be multiplied by 120/200; this procedure in effect alters the denominator to reflect the total sample rather than the detailed sample only. The logic of the adjustment factor is as explained above, the actual adjustment weights were calculated as five-year moving averages of the single-year weights, to compensate for variations in sample size and sampling error. The program that calculates the appropriate adjustment factors for each age-sex group, and further details on the moving-average procedure, is in the <a href="#append">Appendix</a>. The age-sex specific “little or no” disability category was then calculated by subtracting the sum of the adjusted moderate and severe proportions from 1.</p>
+</li>
+<li>
+<p><strong>Combine disability rates from nursing home sample with those from community-based sample</strong>. Since our goal during this phase of the project was to estimate overall prevalence of disability, it was necessary to combine information on the two subpopulations (nursing home and community-based). This was accomplished by weighting the information on the two subgroups according to their representation in the total older population.</p>
+<p>Institutionalization rates were calculated, then age-sex specific community-based were calculated as (1 - the rates of institutionalization) for that age-sex group.</p>
+<p>For the numerator of the age-sex specific rates of institutionalization, estimates of the numbers of older persons in institutions were taken from the 1980 Census Special Report<sup><a href="#note3">3</a></sup> on persons in institutions and other groups quarters. It is important to note that, for this research, institutionalization was not defined as inclusively as is often the case. For example, the Bureau of the Census typically distinguishes two general categories of living arrangements: in households or in group quarters (including institutions and other noninstitutional group quarters). Since this research required information specifically on older persons living in nursing homes (to weight our nursing home sample appropriately), only those older persons living in “homes for the aged” were counted in the numerator of the rate of institutionalization. Therefore, these estimates of the rates of institutionalization will be lower than other rates based on more inclusive definitions of institutionalization.</p>
+<p>Since the estimates of older people in homes for the aged were 1980 figures, counts of population for the denominator were 1980 estimates also. These population estimates by age and sex for the denominator were taken from two sources, since no single source provided the age-sex detail necessary. The primary source was the most recent published Census<sup><a href="#note4">4</a></sup> estimates of the total population; however, this most recent publication did not include any age detail beyond 85+, so an earlier Census publication was used for estimates of those 85 to 89, 90 to 94, and 95 plus.</p>
+<p>The age-sex specific rates of institutionalization, and the sources of data used to calculate those rates, are given in <a href="#table1">Table 1</a>. These weights were applied to the disability rates for the two subsamples to produce overall age-sex proportions of older persons at four levels of disability. The program that weights and combines the subsample proportions is part of the program in the <a href="#append">Appendix</a>.</p>
+</li>
+<li>
+<p><strong>Smoothing the age-disability curves</strong>. The single-year of age, sex-specific data for levels of disability produced a predictably jagged curve, which was smoothed using five-year moving averages. The five year span used in calculating the moving average included the two years before and the two years after a given year of age. The program which accomplished this task is in the <a href="#append">appendix</a>.</p>
+</li>
+<li>
+<p><strong>Produce data file of baseline rates</strong>. The preceding steps produced proportions disabled at three different levels for the older population, by sex and single years of age. These beginning rates which were used as a baseline for all projections are given in <a href="#table2">Table 2</a>.</p>
+</li>
+</ol><table align="center" border="1" cellspacing="0"><tbody><tr><th colspan="3"><strong><a name="table1" id="table1">TABLE 1</a>: Rates of Institutionalization by Age and Sex</strong></th>
+</tr><tr><th scope="col">  <strong>Age</strong>  </th>
+<th scope="col">  <strong>Males</strong>  </th>
+<th scope="col">  <strong>Females</strong>  </th>
+</tr><tr><th scope="row">65</th>
+<td>0.01</td>
+<td>0.01</td>
+</tr><tr><th scope="row">66</th>
+<td>0.01</td>
+<td>0.01</td>
+</tr><tr><th scope="row">67</th>
+<td>0.01</td>
+<td>0.01</td>
+</tr><tr><th scope="row">68</th>
+<td>0.01</td>
+<td>0.01</td>
+</tr><tr><th scope="row">69</th>
+<td>0.01</td>
+<td>0.01</td>
+</tr><tr><th scope="row">70</th>
+<td>0.01</td>
+<td>0.02</td>
+</tr><tr><th scope="row">71</th>
+<td>0.02</td>
+<td>0.02</td>
+</tr><tr><th scope="row">72</th>
+<td>0.02</td>
+<td>0.02</td>
+</tr><tr><th scope="row">73</th>
+<td>0.02</td>
+<td>0.03</td>
+</tr><tr><th scope="row">74</th>
+<td>0.02</td>
+<td>0.03</td>
+</tr><tr><th scope="row">75</th>
+<td>0.03</td>
+<td>0.04</td>
+</tr><tr><th scope="row">76</th>
+<td>0.03</td>
+<td>0.04</td>
+</tr><tr><th scope="row">77</th>
+<td>0.04</td>
+<td>0.05</td>
+</tr><tr><th scope="row">78</th>
+<td>0.04</td>
+<td>0.06</td>
+</tr><tr><th scope="row">79</th>
+<td>0.05</td>
+<td>0.08</td>
+</tr><tr><th scope="row">80</th>
+<td>0.05</td>
+<td>0.09</td>
+</tr><tr><th scope="row">81</th>
+<td>0.06</td>
+<td>0.10</td>
+</tr><tr><th scope="row">82</th>
+<td>0.07</td>
+<td>0.12</td>
+</tr><tr><th scope="row">83</th>
+<td>0.07</td>
+<td>0.13</td>
+</tr><tr><th scope="row">84</th>
+<td>0.09</td>
+<td>0.15</td>
+</tr><tr><th scope="row">85</th>
+<td>0.11</td>
+<td>0.18</td>
+</tr><tr><th scope="row">86</th>
+<td>0.13</td>
+<td>0.20</td>
+</tr><tr><th scope="row">87</th>
+<td>0.15</td>
+<td>0.22</td>
+</tr><tr><th scope="row">88</th>
+<td>0.16</td>
+<td>0.25</td>
+</tr><tr><th scope="row">89</th>
+<td>0.16</td>
+<td>0.28</td>
+</tr><tr><th scope="row">90</th>
+<td>0.19</td>
+<td>0.29</td>
+</tr><tr><th scope="row">91</th>
+<td>0.20</td>
+<td>0.30</td>
+</tr><tr><th scope="row">92</th>
+<td>0.20</td>
+<td>0.31</td>
+</tr><tr><th scope="row">93</th>
+<td>0.20</td>
+<td>0.32</td>
+</tr><tr><th scope="row">94</th>
+<td>0.20</td>
+<td>0.32</td>
+</tr><tr><th scope="row">95-99</th>
+<td>0.28</td>
+<td>0.48</td>
+</tr><tr><th scope="row">100+</th>
+<td>0.33</td>
+<td>0.56</td>
+</tr><tr><td colspan="3"><strong>DATA SOURCES</strong>:<br />
+				1980 Census of Population, v.2 Subject Reports, <strong><em>Persons in Institutions and Other Group Quarters</em></strong>, U.S. Department of Commerce, 1984.<br />
+				Current Population Reports, Series P-25, Number 929, <strong><em>Estimates of the Population of the U.S. by Age, Sex, and Race</em></strong>, U.S. Department of Commerce, 1983.</td>
+</tr></tbody></table><p> </p>
+<table align="center" border="1" cellspacing="0"><tbody><tr><th colspan="9"><strong><a name="table2" id="table2">TABLE 2</a>: Calculated Beginning of Disability Rates by Age and Sex</strong></th>
+</tr><tr><th scope="col"><strong>  Age  </strong></th>
+<th scope="col"><strong>  NODIS-M  </strong></th>
+<th scope="col"><strong>  NODIS-F  </strong></th>
+<th scope="col"><strong>  MILDDIS-M  </strong></th>
+<th scope="col"><strong>  MILDDIS-F  </strong></th>
+<th scope="col"><strong>  MODDIS-M  </strong></th>
+<th scope="col"><strong>  MODDIS-F  </strong></th>
+<th scope="col"><strong>  SVEREDIS-M  </strong></th>
+<th scope="col"><strong>  SVEREDIS-F  </strong></th>
+</tr><tr><th scope="row">65</th>
+<td>  0.886540  </td>
+<td>  0.872374  </td>
+<td>0.018675</td>
+<td>0.012912</td>
+<td>0.052111</td>
+<td>0.068478</td>
+<td>0.042674</td>
+<td>0.046236</td>
+</tr><tr><th scope="row">66</th>
+<td>0.898503</td>
+<td>0.879552</td>
+<td>0.015516</td>
+<td>0.011606</td>
+<td>0.047082</td>
+<td>0.061800</td>
+<td>0.038899</td>
+<td>0.047042</td>
+</tr><tr><th scope="row">67</th>
+<td>0.910492</td>
+<td>0.891920</td>
+<td>0.011271</td>
+<td>0.010552</td>
+<td>0.044144</td>
+<td>0.054203</td>
+<td>0.034093</td>
+<td>0.043325</td>
+</tr><tr><th scope="row">68</th>
+<td>0.912165</td>
+<td>0.894536</td>
+<td>0.009686</td>
+<td>0.011326</td>
+<td>0.043442</td>
+<td>0.051737</td>
+<td>0.034707</td>
+<td>0.042401</td>
+</tr><tr><th scope="row">69</th>
+<td>0.908763</td>
+<td>0.896909</td>
+<td>0.011688</td>
+<td>0.012252</td>
+<td>0.043032</td>
+<td>0.052804</td>
+<td>0.036517</td>
+<td>0.038035</td>
+</tr><tr><th scope="row">70</th>
+<td>0.904047</td>
+<td>0.893258</td>
+<td>0.013954</td>
+<td>0.011455</td>
+<td>0.042771</td>
+<td>0.054405</td>
+<td>0.039228</td>
+<td>0.040882</td>
+</tr><tr><th scope="row">71</th>
+<td>0.894966</td>
+<td>0.877360</td>
+<td>0.010231</td>
+<td>0.011279</td>
+<td>0.055794</td>
+<td>0.064223</td>
+<td>0.039009</td>
+<td>0.047147</td>
+</tr><tr><th scope="row">72</th>
+<td>0.885851</td>
+<td>0.864802</td>
+<td>0.010085</td>
+<td>0.012919</td>
+<td>0.060262</td>
+<td>0.069915</td>
+<td>0.043801</td>
+<td>0.052364</td>
+</tr><tr><th scope="row">73</th>
+<td>0.874615</td>
+<td>0.852736</td>
+<td>0.014040</td>
+<td>0.015070</td>
+<td>0.064407</td>
+<td>0.76516</td>
+<td>0.046938</td>
+<td>0.055678</td>
+</tr><tr><th scope="row">74</th>
+<td>0.865530</td>
+<td>0.846851</td>
+<td>0.018675</td>
+<td>0.016112</td>
+<td>0.064258</td>
+<td>0.080632</td>
+<td>0.051536</td>
+<td>0.056405</td>
+</tr><tr><th scope="row">75</th>
+<td>0.856974</td>
+<td>0.834662</td>
+<td>0.018537</td>
+<td>0.014238</td>
+<td>0.066068</td>
+<td>0.087289</td>
+<td>0.058427</td>
+<td>0.063811</td>
+</tr><tr><th scope="row">76</th>
+<td>0.850976</td>
+<td>0.818653</td>
+<td>0.018058</td>
+<td>0.014020</td>
+<td>0.068774</td>
+<td>0.093019</td>
+<td>0.062192</td>
+<td>0.074308</td>
+</tr><tr><th scope="row">77</th>
+<td>0.843089</td>
+<td>0.798597</td>
+<td>0.016053</td>
+<td>0.015507</td>
+<td>0.078460</td>
+<td>0.097037</td>
+<td>0.062398</td>
+<td>0.088859</td>
+</tr><tr><th scope="row">78</th>
+<td>0.825720</td>
+<td>0.777589</td>
+<td>0.016639</td>
+<td>0.018140</td>
+<td>0.090549</td>
+<td>0.106143</td>
+<td>0.067092</td>
+<td>0.098128</td>
+</tr><tr><th scope="row">79</th>
+<td>0.802035</td>
+<td>0.752673</td>
+<td>0.022068</td>
+<td>0.017251</td>
+<td>0.097367</td>
+<td>0.118816</td>
+<td>0.078530</td>
+<td>0.111259</td>
+</tr><tr><th scope="row">80</th>
+<td>0.779377</td>
+<td>0.726876</td>
+<td>0.022477</td>
+<td>0.020202</td>
+<td>0.105129</td>
+<td>0.131765</td>
+<td>0.093017</td>
+<td>0.121157</td>
+</tr><tr><th scope="row">81</th>
+<td>0.760430</td>
+<td>0.697876</td>
+<td>0.018404</td>
+<td>0.028405</td>
+<td>0.114488</td>
+<td>0.146951</td>
+<td>0.106678</td>
+<td>0.126769</td>
+</tr><tr><th scope="row">82</th>
+<td>0.745541</td>
+<td>0.671138</td>
+<td>0.016711</td>
+<td>0.031692</td>
+<td>0.115733</td>
+<td>0.161271</td>
+<td>0.122015</td>
+<td>0.135899</td>
+</tr><tr><th scope="row">83</th>
+<td>0.732364</td>
+<td>0.642034</td>
+<td>0.022943</td>
+<td>0.030610</td>
+<td>0.120239</td>
+<td>0.165393</td>
+<td>0.124454</td>
+<td>0.161963</td>
+</tr><tr><th scope="row">84</th>
+<td>0.711687</td>
+<td>0.615603</td>
+<td>0.029535</td>
+<td>0.026637</td>
+<td>0.125125</td>
+<td>0.169244</td>
+<td>0.133654</td>
+<td>0.188516</td>
+</tr><tr><th scope="row">85</th>
+<td>0.684635</td>
+<td>0.585447</td>
+<td>0.033016</td>
+<td>0.026117</td>
+<td>0.136895</td>
+<td>0.179174</td>
+<td>0.145454</td>
+<td>0.209262</td>
+</tr><tr><th scope="row">86</th>
+<td>0.648618</td>
+<td>0.555925</td>
+<td>0.026264</td>
+<td>0.021374</td>
+<td>0.155378</td>
+<td>0.194508</td>
+<td>0.169741</td>
+<td>0.228193</td>
+</tr><tr><th scope="row">87</th>
+<td>0.614459</td>
+<td>0.519170</td>
+<td>0.011255</td>
+<td>0.022193</td>
+<td>0.191934</td>
+<td>0.202966</td>
+<td>0.183252</td>
+<td>0.256570</td>
+</tr><tr><th scope="row">88</th>
+<td>0.584799</td>
+<td>0.470918</td>
+<td>0.014180</td>
+<td>0.023102</td>
+<td>0.197537</td>
+<td>0.219542</td>
+<td>0.203484</td>
+<td>0.286438</td>
+</tr><tr><th scope="row">89</th>
+<td>0.5410.13</td>
+<td>0.412285</td>
+<td>0.025174</td>
+<td>0.022814</td>
+<td>0.212405</td>
+<td>0.238873</td>
+<td>0.221408</td>
+<td>0.326028</td>
+</tr><tr><th scope="row">90</th>
+<td>0.501841</td>
+<td>0.370619</td>
+<td>0.031514</td>
+<td>0.020564</td>
+<td>0.226852</td>
+<td>0.261115</td>
+<td>0.239793</td>
+<td>0.347702</td>
+</tr><tr><th scope="row">91</th>
+<td>0.476466</td>
+<td>0.354703</td>
+<td>0.022347</td>
+<td>0.017767</td>
+<td>0.255428</td>
+<td>0.266644</td>
+<td>0.245758</td>
+<td>0.360886</td>
+</tr><tr><th scope="row">92</th>
+<td>0.454570</td>
+<td>0.338441</td>
+<td>0.013466</td>
+<td>0.016099</td>
+<td>0.293437</td>
+<td>0.252365</td>
+<td>0.238527</td>
+<td>0.393095</td>
+</tr><tr><th scope="row">93</th>
+<td>0.403403</td>
+<td>0.299338</td>
+<td>0.026168</td>
+<td>0.009750</td>
+<td>0.324142</td>
+<td>0.259881</td>
+<td>0.246287</td>
+<td>0.431031</td>
+</tr><tr><th scope="row">94</th>
+<td>0.366625</td>
+<td>0.276847</td>
+<td>0.054570</td>
+<td>0.017131</td>
+<td>0.321344</td>
+<td>0.249630</td>
+<td>0.257461</td>
+<td>0.456392</td>
+</tr><tr><th scope="row">95</th>
+<td>0.270686</td>
+<td>0.263427</td>
+<td>0.023223</td>
+<td>0.012142</td>
+<td>0.256135</td>
+<td>0.224285</td>
+<td>0.449955</td>
+<td>0.500146</td>
+</tr><tr><th scope="row">100</th>
+<td>0.234400</td>
+<td>0.182094</td>
+<td>0.000000</td>
+<td>0.051581</td>
+<td>0.055110</td>
+<td>0.135082</td>
+<td>0.710490</td>
+<td>0.631243</td>
+</tr><tr><td colspan="9"><strong>RUN INFO</strong>: 21-Feb-90, 19:21:47, Miami University, IBM 4381 M23 VM/CMS 5.0<br /><strong>NOTE</strong>: The “no” and “mild” disability categories were combined following this step.</td>
+</tr></tbody></table><p> </p>
+<h2><a name="predict" id="predict">PREDICTING FUTURE RATES OF DISABILITY</a></h2>
+<p>The next major task was to estimate future disability rates. This is clearly one of the most difficult aspects of this study. Based on past literature, three possible scenarios concerning future disability rates were considered: increase in disability, decrease in disability, and maintenance of current rates of disability. As noted in the overview paper, while several researchers have speculated about how disability or morbidity might be influenced over the next half century or so, few of these researchers have estimated the size of these changes. In order to develop estimates we reviewed those studies that examined past changes in rates of morbidity and disability over time. It was our contention that information on past disability trends would provide a basis for the development of estimates of future trends.</p>
+<p>A review of the literature on disability identified a small number of studies that examined rates of disability over time. A summary of these studies is presented in <a href="#table3">Table 3</a>. These studies use data collected annually from two national samples, one in Canada (first done in 1951) and one in the United States (1958). The studies used a range of measures such as the existence of an activity limitation, the number of days restricted in the home, and the number of days restricted to bed to assess disability. Although these major data bases (the National Health Interview Survey, and the Canadian Health Interview Survey) are an important data source, they are not without major methodological limitations. For example, while the Canadian Health Survey reports data annually from 1951, questionnaire wording changes limit the ability of the survey to analyze whether differences have actually occurred. In 1951 respondents were asked if they had a permanent physical disability, while in 1978 they were asked if they had any activity limitation. Thus, the fact that the proportion of the population that was disabled rose from 25.5% in 1951 to 38.2% in 1978 (a 50% increase) is not particularly meaningful. Measurement, sampling and weighting problems appear on the U. S. National Health Interview Survey as well. Thus, while data are available to examine trends of disability over time, such data need to be examined with caution.</p>
+<p>As shown in <a href="#table3">Table 3</a>, the analysis of disability over time has primarily relied on the National Health Interview Survey. Verbrugge (1984) has undertaken a detailed analysis of the survey between 1958 and 1980. Her work examined several variables including the presence of total restricted activity, a major activity limitation, and any activity limitation. Results from this work showed that between 1958 and 1980 there was an increase in the proportion of the older population that reported experiencing a disability. For the total restricted measure between 1958 and 1980 men age 65 and over showed a 4 percent increase in days restricted, and women 65 and over had a 10.3 percent increase. A second measure which examined the presence of a major activity limitation, showed an 11 percent increase for women and a 1.1 percent increase for men age 65 and over. A third measure that examined the existence of any limitation showed a 13.8 percent increase for men age 65 and over and a 2.3 percent increase for women of comparable ages. This study also examined changes for the 45 to 64 age group. Larger increases in the proportion of those experiencing a disability were reported for this group. Men age 45 to 64 showed a 33 percent increase, while women of this group showed a 46 percent increase.</p>
+<table align="center" border="1" cellspacing="0"><tbody><tr><th colspan="7"><strong><a name="table3" id="table3">TABLE 3</a>: Review of Studies Examining Morbidity Changes Experienced by the U.S. Population</strong></th>
+</tr><tr><th scope="col"><strong>  Study/Data Base  </strong></th>
+<th colspan="6" scope="col"><strong>Results</strong></th>
+</tr><tr><th rowspan="10" scope="row">Verbrugge 1984/National Health Interview Survey, 1958-1980    </th>
+<th colspan="2" scope="col">Men 65+</th>
+<th rowspan="2" scope="col">  Percent  <br />
+				Change</th>
+<th colspan="2" scope="col">Women 65+</th>
+<th rowspan="2" scope="col">  Percent  <br />
+				Change</th>
+</tr><tr><th scope="col">1958</th>
+<th scope="col">1980</th>
+<th scope="col">1958</th>
+<th scope="col">1980</th>
+</tr><tr><th colspan="6">TOTAL RESTRICTED ACTIVITY</th>
+</tr><tr><td>  37 days  </td>
+<td>  38.5 days  </td>
+<td>4%</td>
+<td>  39 days  </td>
+<td>  43 days  </td>
+<td>10.3%</td>
+</tr><tr><th colspan="6">MAJOR ACTIVITY LIMITATION</th>
+</tr><tr><td>45.5%</td>
+<td>45%</td>
+<td>1.1%</td>
+<td>32%</td>
+<td>35.5%</td>
+<td>11%</td>
+</tr><tr><th colspan="6">ANY LIMITATION</th>
+</tr><tr><td>43.5%</td>
+<td>49.5%</td>
+<td>11%</td>
+<td>43%</td>
+<td>44%</td>
+<td>2.3%</td>
+</tr><tr><th colspan="6">MAJOR ACTIVITY/LIMITATIONS</th>
+</tr><tr><td>15%</td>
+<td>20%</td>
+<td>33.3%</td>
+<td>12%</td>
+<td>17.5%</td>
+<td>46%</td>
+</tr><tr><th rowspan="6" scope="row">Colvez, Blanchet 1981/NHIS 1966-1974</th>
+<th colspan="2" scope="col">Men 65+</th>
+<th rowspan="2" scope="col">  Percent  <br />
+				Change</th>
+<th colspan="2" scope="col">Women 65+</th>
+<th rowspan="2" scope="col">  Percent  <br />
+				Change</th>
+</tr><tr><th scope="col">1966</th>
+<th scope="col">1974</th>
+<th scope="col">1966</th>
+<th scope="col">1974</th>
+</tr><tr><th colspan="6">SEVERE LIMITATION OF ACTIVITY 65+ -- 1966-1974</th>
+</tr><tr><td>21.0%</td>
+<td>29.8%</td>
+<td>38%</td>
+<td>5.12%</td>
+<td>8.2%</td>
+<td>6%</td>
+</tr><tr><th colspan="6">MODERATE LIMITATION OF ACTIVITY</th>
+</tr><tr><td>26.96%</td>
+<td>15.1%</td>
+<td>-44%</td>
+<td>24.9%</td>
+<td>27.1%</td>
+<td>9%</td>
+</tr><tr><th rowspan="5" scope="row">Culler, Van Veen Daigle 1983/NHIS</th>
+<th colspan="2" scope="col">1975</th>
+<th colspan="2" scope="col">1981</th>
+<th colspan="2" scope="col">  Percent Change  </th>
+</tr><tr><th colspan="6">RESTRICTED-ACTIVITY DAYS -- ALL 65+</th>
+</tr><tr><td colspan="2">38.4</td>
+<td colspan="2">39.9</td>
+<td colspan="2">3.9%</td>
+</tr><tr><th colspan="6">BED-DISABILITY DAYS -- ALL 65+</th>
+</tr><tr><td colspan="2">12.9</td>
+<td colspan="2">14.0</td>
+<td colspan="2">8.5%</td>
+</tr><tr><th rowspan="14" scope="row">Wilkins, Adams 1983/Canada Health Survey</th>
+<th colspan="2" scope="col">1951</th>
+<th colspan="2" scope="col">1978</th>
+<th colspan="2" scope="col">  Percent Change  </th>
+</tr><tr><th colspan="6">LONG TERM DISABILITY -- ALL AGE 65+</th>
+</tr><tr><td colspan="2">25.5</td>
+<td colspan="2">38.2</td>
+<td colspan="2">50%</td>
+</tr><tr><th colspan="2" scope="col">Men 65+</th>
+<th rowspan="2" scope="col">  Percent  <br />
+				Change</th>
+<th colspan="2" scope="col">Women 65+</th>
+<th rowspan="2" scope="col">  Percent  <br />
+				Change</th>
+</tr><tr><th scope="col">1951</th>
+<th scope="col">1978</th>
+<th scope="col">1951</th>
+<th scope="col">1978</th>
+</tr><tr><th colspan="6">LONG-TERM DISABILITY</th>
+</tr><tr><td>27.0</td>
+<td>31.1</td>
+<td>15.2%</td>
+<td>23.9</td>
+<td>38.3</td>
+<td>60.3%</td>
+</tr><tr><th colspan="2" scope="col">1951</th>
+<th colspan="2" scope="col">1978</th>
+<th colspan="2" scope="col">Percent Change</th>
+</tr><tr><th colspan="6">DISABILITY DAYS</th>
+</tr><tr><td colspan="2">29</td>
+<td colspan="2">35</td>
+<td colspan="2">21%</td>
+</tr><tr><th colspan="2" scope="col">Men</th>
+<th rowspan="2" scope="col">  Percent  <br />
+				Change</th>
+<th colspan="2" scope="col">Women</th>
+<th rowspan="2" scope="col">  Percent  <br />
+				Change</th>
+</tr><tr><th scope="col">1951</th>
+<th scope="col">1978</th>
+<th scope="col">1951</th>
+<th scope="col">1978</th>
+</tr><tr><th colspan="6">DISABILITY DAYS</th>
+</tr><tr><td>29</td>
+<td>30</td>
+<td>3.4%</td>
+<td>29</td>
+<td>39</td>
+<td>34%</td>
+</tr></tbody></table><p>Although these numbers suggest increased disability, as noted earlier they need to be interpreted cautiously. Changes in questionnaires and in data collection and sampling procedures could effect results. Because the data from the survey are grouped in broad age categories (45-64, 65 and above) as the population has aged over the course of the studies, the average age of the groupings has risen, this could cause an increase in group disability rates that is not related to increasing rates of disability for comparable age groups.</p>
+<p>Several other studies have also used the National Health Interview Survey (Colvez and Blanchet, 1981; Ycas, 1985, Chapman, LaPlante, Wilensky, 1986; Culler, Van Veen Daigle 1983). Although these studies examined different time periods (typically a smaller number of years), as might be expected the findings of these studies, while smaller in magnitude, were generally consistent with the Verbrugge study discussed above.</p>
+<p>The seond major data source was the Canadian Health Survey (Wilkins and Adams, 1983). Using measures of both the presence of a long-term disability and the number of disability days, the study examined changes between 1951 and 1978. Results also showed an increase in disability over time. Men age 65 and over showed a 15 percent increase, and women of comparable age were reported to show a 60 percent increase. The measure on disability days also showed an increase, but of smaller magnitude, in reported disability over time. For example, men age 65 and over were reported to have a 3.4 percent increase, and women of this age category had a 34 percent increase. The authors of this study pointed out several serious methodological problems. The most serious problem, as noted earlier, appears to be the change in definition of long-term disability, from permanent physical disability to any activity limitation. Other questionnaire wording and data collection changes and sample weighting problems were also noted.</p>
+<p>In addition to these studies there were several other authors who speculated about future trends in disability (Fries, 1981; Manton, 1986; Brody, 1985; Schneider and Brody, 1983). These estimates were based on theoretical assumptions rather than data on trends in disability.</p>
+<p>With these studies as background, we developed our estimates. Data from the NHIS for the over 65 population had suggested disability increases for the over 65 population ranging from 1 to 14 percent, depending on the measure. Larger increaes (33% men, 46% women) were reported for the 45-64 age group. The Canadian survey reported increases on the disability days measure of 3.4% for men and 34% for women and increases in any long term disability of 50% for the over 65 population.</p>
+<p>Based on these numbers we used a 15 percent increase in disability to represent our estimates for the increasing disability scenario. No supporting numbers were available for estimating an improvement in disability; Fries, the major proponent of the suggestion that health of older persons will improve over time, bases his argument on a theoretical rather than empirical foundation. Therefore, we used the 15 percent rate for the lowering of disability scenario as well. A best guess scenario, which assumed a smaller increase (7.5%) in disability rates was also estimated. The rationale for our best guess estimate was that while some increase in disability may have occurred, methodological concerns suggest that the increase has been over-estimated in the data presented. Yet it seems plausible that increase in longevity may result in a higher proportion of the population experiencing a disability. Thus, four specific possibilities were included in these projections: an increase of 15%, a decrease of 15%, an increase of 7.5%, and no change in disability among the older population. Each of these four possibilities represented a different data set to be input into the projection program. Each of the three sets of disability rates that assume some change were created using the following simplifying assumptions: 1) that the change would occur during the next twenty-five years; after 2010, rates were held constant; 2) that the amount of change would be spread evenly over the twenty-five years, and evenly among the three levels of disability (little or none, moderate, severe); 3) that men’s and women’s disability rates would not converge at any age or at any point in time; 4) that the change would affect all ages.</p>
+<p>An example of the programs used to trend disability rates over time is found in the <a href="#append">Program Appendix</a>. For each of the three disability scenarios involving change, the program is essentially the same, with differences only in the amount and direction of change over the next twenty-five years. For the fourth possibility, no change in disability, the baseline rates were used for each year of the projection. This step in the process resulted in four separate data files of disability rates, to be input into the projection program, depending on the assumption about disability being considered.</p>
+<p> </p>
+<h2><a name="project" id="project">PROJECTING THE DISABLED POPULATION: APPLYING THE DISABILITY RATES TO THE SURVIVED POPULATION</a></h2>
+<p>The final step in generating the projections was to apply the disability rates to the survived population. Estimates of the survived population through the year 2040 were generously provided by Gregory Spencer at the Bureau of the Census. Three different sets of estimates were used, based on three assumptions about mortality in the future: a continuation of recent gains in life expectancy, a faster improvement in life expectancy, and a slower improvement in life expectancy. These three sets of population estimates were used as input matrices; they were multiplied by the disability matrices. Population estimates and disability rates were input for five-year intervals from 1985 through 2040. Given four different disability matrices, and three different mortality matrices, twelve combinations were possible. All combinations were run, but the final report focused on only four, which were selected because they covered the range of possibilities, from longer life with worsening health to longer life with improving health. The programs that combined the disability and mortality matrices to project the numbers of other persons at various levels of disability are in the <a href="#append">Program Appendix</a>.</p>
+<p> </p>
+<h2><a name="summary" id="summary">SUMMARY</a></h2>
+<p>In summary, there were two types of input files: disability rates and population estimates by single years of age and sex, through the year 2040. There was one type of output file: estimates of disabled persons by single years of age and sex, through the year 2040. The exact nature of each of these input and output files depended upon the disability and mortality assumptions being considered in any particular projection run. The computer programs in the <a href="#append">Program Appendix</a> are arranged in a logical order, beginning with the programs that generated beginning rates of disability, followed by those programs that created disability rate matrices, followed by the projection programs.</p>
+<p> </p>
+<h2><a name="append" id="append">PROGRAM APPENDIX</a></h2>
+<p>Programs were written by: P. Neal Ritchey and Shahla Mehdizadeh</p>
+<h3>PROGRAM NAME: ASPSTORY</h3>
+<ul><li>Calculates disability item scores for individuals</li>
+<li>Calculates disability level of individual</li>
+</ul><p>FILE: ASPSTORY TEXT     A     MIAMI UNIVERSITY VM/CMS REL 5</p>
+<p> </p>
+<p>The following text will explain the process used in calculation of DISABILITY proportions used in the computation of the number of disabled and level of disability in ASPE project.</p>
+<p>Process involves three steps:</p>
+<ol><li>
+<p>Calculation of DISABILITY proportions for the institutionalized populations.</p>
+<ol><li>Calculation of the individual ADL &amp; IADL item scores for institutionalized sample.</li>
+<li>Using ADL &amp; IADL scores according to our specific definition to arrive at institutionalized disability proportions.</li>
+</ol></li>
+<li>
+<p>Calculation of DISABILITY proportions for the non-institutionalized population.</p>
+<ol><li>Calculation of the individual ADL &amp; IADL item scores for the non-institutionalized sample.</li>
+<li>Using ADL &amp; IADL scores according to our specific definition to arrive at non-institutionalized disability proportions.</li>
+<li>Conversion of the sample disability proportions to population proportions.</li>
+</ol></li>
+<li>
+<p>Combining of the two above proportions and smoothing to compensate for sampling error and variation in sample size at different age and sex.</p>
+</li>
+</ol><table align="center" cellspacing="0"><tbody><tr><td>1.a)  </td>
+<td>In order to arrive at the institutionalized DISABILITY proportions the 1985 National Nursing Home Survey of Current Residents were used. The following logical statements were used to arrive at ADL &amp; IADL scores. (The questions that the Variable names stand for are listed first.)</td>
+</tr></tbody></table><p>ASSTBATH : DOES RES. REQUIRE ANY ASSISTANCE IN BATHING?</p>
+<p>BATHSPEQ : DOES RES. BATHE WITH HELP OF SPECIAL EQUIPMENT?</p>
+<p>BATHPERS : DOES RES. BATHE WITH HELP OF A PERSON?</p>
+<p>ASSTDRES : DOES RES. REQUIRE ASSISTANCE IN DRESSING?</p>
+<p>DRESSREQ : DOES RES. DRESS WITH HELP OF SPECIAL EQUIPMENT?</p>
+<p>DRESPERS : DOES RES. DRESS WITH HELP OF A PERSON?</p>
+<p>ASSTEAT : DOES RES. REQUIRE ASSISTANCE IN EATING?</p>
+<p>EATSPEQ : DOES RES. EAT WITH HELP OF SPECIAL EQUIPMENT?</p>
+<p>EATPERS : DOES RES. EAT WITH HELP OF A PERSON?</p>
+<p>ASSTOUTB : DOES RES. REQUIRE ASSISTANCE TRANSFERRING OUT OF BED?</p>
+<p>OUTBSPEQ : DOES RES. REQUIRE THE HELP OF SPECIAL EQUIPMENT?</p>
+<p>OUTBREPS : DOES RES. REQUIRE HELP OUT OF BED:PERSON?</p>
+<p>CHAIFAST : IS RES. CHAIRFAST?</p>
+<p>BEDFAST : IS RES. BEDFAST?</p>
+<p>ASSTTOIL : DOES RES. REQUIRE ASSISTANCE USING TOILET?</p>
+<p>TOILSPEQ : DOES RES. REQUIRE HELP WITH SPECIAL EQUIPMENT?</p>
+<p>TOILPERS : DOES RES. REQUIRE HELP OF A PERSON?</p>
+<p>HELPFONE : DOES RES. RECEIVE HELP USING THE PHONE?</p>
+<p>WALKHELP : DOES RES. CURRENTLY REQUIRE HELP WALKING?</p>
+<p>WALKSPEQ : DOES RES. REQUIRE SPECIAL EQUIPMENT TO WALK?</p>
+<p>WALKPERS : DOES RES. WALK WITH HELP OF A PERSON?</p>
+<p>HANDLE$ : DOES RES. RECEIVE HELP HANDLING MONEY?</p>
+<p>OUTFACIL : DOES RES. GO OUTSIDE GROUPS OF FACILITY?</p>
+<p>OUTSPEQ : DOES RES. GO OUTSIDE WITH HELP OF SPECIAL EQUIPMENT?</p>
+<p>OUTPERS : DOES RES. GO OUTSIDE WITH HELP OF A PERSON?</p>
+<p>DIFBOWEL : DOES RES. HAVE DIFFICULTY CONTROLLING BOWELS?</p>
+<p>DIFBLADD : DOES RES. HAVE DIFFICULTY CONTROLLING BLADDER?</p>
+<p>FDIFBOWL : HOW FREQUENTLY DOES RES. HAVE THIS DIFFICULTY?</p>
+<p>FDIFBLAD : HOW FREQUENTLY DOES RES. HAVE THIS DIFFICULTY?</p>
+<p>ONLYNITE : DOES THIS OCCUP ONLY AT NIGHT?</p>
+<p>OSTOCATH : DOES RES. HAVE AN OSTOMY OR CATHETER?</p>
+<p>BSTEAL : TYPES OF BEHAVIOR : STEALING</p>
+<p>BGETLOST : TYPES OF BEHAVIOR : GETTING LOST</p>
+<p>BADATTIM : BASIC ACTIVITIES : UNABLE TO REMEMBER DATES/TIME</p>
+<p> </p>
+<p>DO IF (ASSTBATH EQ 2)</p>
+<p>COMPUTE BATHING=0</p>
+<p>ELSE IF (ASSTBATH EQ 1 AND BATHSPEQ EQ 1)</p>
+<p>COMPUTE BATHING=1</p>
+<p>ELSE IF (ASSTBATH EQ 1 AND BATHPERS EQ 1)</p>
+<p>COMPUTE BATHING=1</p>
+<p>ELSE</p>
+<p>COMPUTE BATHING=99</p>
+<p>END IF</p>
+<p>DO IF (ASSTDRES EQ 2)</p>
+<p>COMPUTE DRESSING=0</p>
+<p>ELSE IF (ASSTDRES EQ 1 AND DRESSPEQ EQ 1)</p>
+<p>COMPUTE DRESSING=1</p>
+<p>ELSE IF (ASSTDRES EQ 1 AND DRESPERS EQ 1)</p>
+<p>COMPUTE DRESSING=1</p>
+<p>ELSE</p>
+<p>COMPUTE DRESSING=99</p>
+<p>END IF</p>
+<p>DO IF (ASSTEAT EQ 2)</p>
+<p>COMPUTE EATING=0</p>
+<p>ELSE IF (ASSTEAT EQ 1 AND EATSPEQ EQ 1)</p>
+<p>COMPUTE EATING=1</p>
+<p>ELSE IF (ASSTEAT EQ 1 AND EATPERS EQ 1)</p>
+<p>COMPUTE EATING=1</p>
+<p>ELSE</p>
+<p>COMPUTE EATING=99</p>
+<p>END IF</p>
+<p>DO IF (ASSTOUTB EQ 2)</p>
+<p>COMPUTE TRANSFER=0</p>
+<p>ELSE IF (ASSTOUTB EQ 1 AND OUTBSPEQ EQ 1)</p>
+<p>COMPUTE TRANSFER=1</p>
+<p>ELSE IF (ASSTOUTB EQ 1 AND OUTBPERS EQ 1)</p>
+<p>COMPUTE TRANSFER=1</p>
+<p>ELSE IF (CHAIFAST EQ 1)</p>
+<p>COMPUTE TRANSFER=1</p>
+<p>ELSE IF (BEDFAST EQ 1)</p>
+<p>COMPUTE TRANSFER=1</p>
+<p>ELSE</p>
+<p>COMPUTE TRANSFER=99</p>
+<p>END IF</p>
+<p>DO IF (ASSTTOIL EQ 2)</p>
+<p>COMPUTE TOILTING=0</p>
+<p>ELSE IF (ASSTTOIL EQ 1 AND TOILSPEQ EQ 1)</p>
+<p>COMPUTE TOILTING=1</p>
+<p>ELSE IF (ASSTTOIL EQ 1 AND TOILPERS EQ 1)</p>
+<p>COMPUTE TOILTING=1</p>
+<p>ELSE</p>
+<p>COMPUTE TOILTING=99</p>
+<p>END IF</p>
+<p>DO IF (HELPFONE EQ 2)</p>
+<p>COMPUTE FONEUSE=0</p>
+<p>ELSE IF (HELPFONE EQ 1)</p>
+<p>COMPUTE FONEUSE=1</p>
+<p>ELSE</p>
+<p>COMPUTE FONEUSE=99</p>
+<p>END IF</p>
+<p>DO IF (WALKHELP EQ 2)</p>
+<p>COMPUTE WALKING=0</p>
+<p>ELSE IF (WALKHELP EQ 1 AND WALKSPEQ EQ 1)</p>
+<p>COMPUTE WALKING=1</p>
+<p>ELSE IF (WALKHELP EQ 1 AND WALKPERS EQ 1)</p>
+<p>COMPUTE WALKING=1</p>
+<p>ELSE</p>
+<p>COMPUTE WALKING=99</p>
+<p>END IF</p>
+<p>DO IF (HANDLE$ EQ 2)</p>
+<p>COMPUTE MONEYMGT=0</p>
+<p>ELSE IF (HANDLE$ EQ 1)</p>
+<p>COMPUTE MONEYMGT=1</p>
+<p>ELSE</p>
+<p>COMPUTE MONEYMGT=99</p>
+<p>END IF</p>
+<p>DO IF (OUTFACIL EQ 2)</p>
+<p>COMPUTE TRAVEL=0</p>
+<p>ELSE IF (OUTFACIL EQ 1 AND OUTSPEQ EQ 1)</p>
+<p>COMPUTE TRAVEL=1</p>
+<p>ELSE IF (OUTFACIL EQ 1 AND OUTPERS EQ 1)</p>
+<p>COMPUTE TRAVEL=1</p>
+<p>ELSE</p>
+<p>COMPUTE TRAVEL=99</p>
+<p>END IF</p>
+<p>DO IF (DIFBOWEL EQ 2 OR DIFBLADD EQ 2)</p>
+<p>COMPUTE CONTINEN=0</p>
+<p>ELSE IF ((DIFBOWEL EQ 1 AND FDIFBOWL LE 3) OR (DIFBLADD EQ 1 AND FDIFBLAD LE 3))</p>
+<p>COMPUTE CONTINEN=1</p>
+<p>ELSE IF ((DIFBOWEL EQ 1 AND FDIFBOWL EQ 4) OR (DIFBLADD EQ 1 AND FDIFBLAD EQ 4))</p>
+<p>COMPUTE CONTINEN=0</p>
+<p>ELSE IF (ONLYNITE EQ 1)</p>
+<p>COMPUTE CONTINEN=1</p>
+<p>ELSE IF (OSTOCATH EQ 1)</p>
+<p>COMPUTE CONTINEN=1</p>
+<p>ELSE</p>
+<p>COMPUTE CONTINEN=99</p>
+<p>END IF</p>
+<p>DO IF (BSTEAL EQ 1 OR BGETLOST EQ 1 OR BADATTIM EQ 1)</p>
+<p>COMPUTE COGNETIV=1</p>
+<p>ELSE</p>
+<p>COMPUTE COGNETIV=0</p>
+<p>END IF</p>
+<p>MISSING VALUES BATHING TO COGNETIV(99)</p>
+<p>COMPUTE AGE=1985-DATEBIRY</p>
+<p>VALUE LABEL BATHING TO COGNETIV 0 ‘INDEPENDENT’ 1 ‘DISABLED’</p>
+<table align="center" cellspacing="0"><tbody><tr><td>1.b)  </td>
+<td>Since not all the questions were answered by all the respondents missing values were generated in the calculation of ADL &amp; IADL scores.
+<p>				The respondents who had 6 or more ADL IADL scores missing were excluded from further calculations. For the remaining respondents the missing value was substituted by the mean value of the specific ADL IADL score of the appropriate age and sex.</p>
+<p>				The following logical statements were used to employ ADL &amp; IADL scores in order to create DISABILITY proportions for institutionalized sample.</p></td>
+</tr></tbody></table><p>COUNT NOFMISS=BATHING TO COGNET IV(99)</p>
+<p>DO IF (NOFMISS GE 6)</p>
+<p>MISSING VALUES BATHING TO COGNETIV( )</p>
+<p>COMPUTE CHECK=1</p>
+<p>ELSE</p>
+<p>COMPUTE CHECK=0</p>
+<p>END IF</p>
+<p>IF (AGE EQ 106) TOILTING=0</p>
+<p>COMPUTE SEVERADL=EATING+TRANSFER+TOILTING+DRESSING+CONTINEN+COGNETIV</p>
+<p>COMPUTE MODADL=EATING+TRANSFER+TOILTING+DRESSING+CONTINEN+BATHING</p>
+<p>COMPUTE MODIADL=WALKING+FONEUSE+TRAVEL</p>
+<p>DO IF (CHECK EQ 1)</p>
+<p>COMPUTE DISABLTY=99</p>
+<p>ELSE IF (SEVERADL GE 2)</p>
+<p>COMPUTE DISABLTY=4</p>
+<p>ELSE IF (MODADL EQ 1 OR (MODIADL EQ 2))</p>
+<p>COMPUTE DISABLTY=3</p>
+<p>ELSE IF (TRAVEL EQ 1 OR (MONEYMGT EQ 1 AND FONEUSE EQ 1))</p>
+<p>COMPUTE DISABLTY=2</p>
+<p>ELSE</p>
+<p>COMPUTE DISABLTY=1</p>
+<p>END IF</p>
+<table align="center" cellspacing="0"><tbody><tr><td>1.c)  </td>
+<td>after the disability score for each respondent in the sample was calculated, a frequency table of this score for each single year of age and sex was formed. The % of the respondents at each level of disability of this table was used as the proportion of the sample with that level of disability for the specific age and sex.
+<p>				As a result of the above performance for each single year of age and sex four disability proportion exist. i.e.</p>
+<p>Age     sex     No or Mild Dis.     Mod Dis.     Sev. Dis.</p>
+</td>
+</tr></tbody></table><p>****************************************************************************************************</p>
+<table align="center" cellspacing="0"><tbody><tr><td>2.a)  </td>
+<td>In order to arrive at the non-institutionalized DISABILITY proportions the 1982 National Long Term Care (Detailed Survey) were used. The following logical statements were used to arrive at ADL &amp; IADL scores. (The questions that the Variable names stand for are listed first.)</td>
+</tr></tbody></table><p>PCTRLBS : TROUBLE CONTROLLING BLADDER?</p>
+<p>PCOLOS : USE CATHETER OR COLOSTOMY?</p>
+<p>PHUEAT1 : IN PAST WEEK GET HELP TO EAT?</p>
+<p>PFEEDU : DID SOMEONE FEED YOU?</p>
+<p>PCUTMEAT : DID SOMEONE CUT YOUR MEAT?</p>
+<p>PSPUTN2 : DID YOU USE SPECIAL UTENSILS?</p>
+<p>PSPUTN1 : USE SPECIAL UTENSILS?</p>
+<p>PNEPEAT1 : SOMEONE STAY NEAR WHEN EATING?</p>
+<p>PPWALKIN : PROBLEM WALKING INSIDE WITHOUT HELP?</p>
+<p>PFONHERE : IS THERE A PHONE HERE?</p>
+<p>PCANFON : CAN YOU MAKE OWN PHONE CALLS?</p>
+<p>PTYPEON : IS IT A REGULAR OR SPECIAL PHONE?</p>
+<p>PUFON : DO YOU MAKE OWN PHONE CALLS?</p>
+<p>PMG$WOH : MANAGE MONEY WITHOUT HELP?</p>
+<p>PHNWALK : NEED HELP OUTSIDE OF WALKING DISTANCE?</p>
+<p>PHBATHRM : SOMEONE HELP YOU TO BATHROOM?</p>
+<p>PUTOIL2 : TAKE YOURSELF TO TOILET?</p>
+<p>PSPTOL1 : USE SPECIAL EQUIPMENT TO USE TOILET?</p>
+<p>PNEPTOL2 : SOMEONE STAY NEAR I CASE NEED HELP?</p>
+<p>PHDRESS : SOMEONE HELP YOU GET DRESSED?</p>
+<p>PSPDRES1 : SPECIAL CLITHING OR EQUIPMENT TO DRESS?</p>
+<p>PNERDRS1 : SOMEONE STAY NEAR IN CASE YOU NEED HELP?</p>
+<p>PNOBED : NOT GET OUT OF BED?</p>
+<p>PWCHAIR : CONFINED TO A WHEELCHAIR?</p>
+<p>PHUBED : SOMEONE HELP YOU GET IN/OUT OF BED?</p>
+<p>PSPBED1 : USE SPECIAL EQUIPMENT TO GET OUT OF BED?</p>
+<p>PNEP1 : SOMEONE STAY NEAR IN CASE NEED HELP?</p>
+<p>PHBATHE : SOMEONE HELP YOU BATHE?</p>
+<p>PSNKBSN : WASH AT SINK OR BASIN?</p>
+<p>PBEDBATH : HAVE A BEDBATH?</p>
+<p>PSPBATH1 : USE SPECIAL EQUIPMENT TO BATHE?</p>
+<p>PNERBTH1 : SOMEONE STAY NEAR IN CASE NEED HELP?</p>
+<p>PLOST : GET LOST AND NOT FIND WAY BACK?</p>
+<p>PSTEAL : TAKE SOMETHING NOT BELONGING TO YOU?</p>
+<p>PFORGET : FORGET IMPORTANT THINGS?</p>
+<p>PUMEAL : DO YOU PREPARE OWN MEALS?</p>
+<p>PCANMEAL : CAN YOU PREPARE OWN MEALS?</p>
+<p>PRMOMEAL : REASON CAN NOT PREPARE OWN MEALS</p>
+<p>PUSHOP2 : DO YOU SHOP FOR OWN GROCERIES?</p>
+<p>PCANSHOP : CAN YOU SHOP FOR OWN GROCERIES?</p>
+<p>PRNOSHOP : REASON CAN NOT SHOP FOR GROCERIES</p>
+<p>PLWORK2 : DO YOU DO LIGHT WORK?</p>
+<p>PCANLWK : CAN YOU DO LIGHT WORK?</p>
+<p>PRNOLWK : REASON CAN NOT DO LIGHT WORK</p>
+<p>PLAUD1 : DO YOU DO LAUNDRY?</p>
+<p>PCANLAUD : CAN YOU DO LAUNDRY?</p>
+<p>PRNOLAUD : REASON CAN NOT DO LAUNDRY</p>
+<p> </p>
+<p>DO IF (PCTRLBB EQ 2)</p>
+<p>COMPUTE CONTINEN=0</p>
+<p>ELSE IF (PCTRLBB EQ 1)</p>
+<p>COMPUTE CONTINEN=1</p>
+<p>ELSE IF (PCOLOS EQ 1)</p>
+<p>COMPUTE CONTINEN=1</p>
+<p>ELSE</p>
+<p>COMPUTE CONTINNEN=99</p>
+<p>END IF</p>
+<p>DO IF (PHUEAT1 EQ 3)</p>
+<p>COMPUTE EATING=99</p>
+<p>ELSE IF (PHUEAT1 EQ 1 AND PFEEDU EQ 1)</p>
+<p>COMPUTE EATING=1</p>
+<p>ELSE IF (PHUEAT1 EQ 1 AND PCUTMEAT EQ 1 AND PSPUTN2 EQ 2)</p>
+<p>COMPUTE EATING=0</p>
+<p>ELSE IF (PHUEAT1 EQ 1 AND PCUTMEAT EQ 1 AND PSPUTN2 EQ 1)</p>
+<p>COMPUTE EATING=1</p>
+<p>ELSE IF (PHUEAT1 EQ 1)</p>
+<p>COMPUTE EATING=1</p>
+<p>ELSE IF (PHUEAT1 EQ 2 AND PSPUTN1 EQ 1)</p>
+<p>COMPUTE EATING=1</p>
+<p>ELSE IF (PHUEAT1 EQ 2 AND PNEREAT1 EQ 1)</p>
+<p>COMPUTE EATING=1</p>
+<p>ELSE IF (PHUEAT1 EQ 2)</p>
+<p>COMPUTE EATING=0</p>
+<p>ELSE</p>
+<p>COMPUTE EATING=99</p>
+<p>END IF</p>
+<p>DO IF (PPWALKIN EQ 1)</p>
+<p>COMPUTE WALKING=1</p>
+<p>ELSE IF (PPWALKIN EQ 2)</p>
+<p>COMPUTE WALKING=0</p>
+<p>ELSE</p>
+<p>COMPUTE WALKING=99</p>
+<p>END IF</p>
+<p>DO IF (PFONHERE EQ 2 AND PCANFON EQ 1)</p>
+<p>COMPUTE FONDUSE=0</p>
+<p>ELSE IF (PFONHERE EQ 2 AND PCANFON EQ 2)</p>
+<p>COMPUTE FONEUSE=1</p>
+<p>ELSE IF (PFONHERE EQ 1 AND PTYPFON EQ 1 AND PUFON EQ 1)</p>
+<p>COMPUTE FONEUSE=0</p>
+<p>ELSE IF (PFONHERE EQ 1 AND PTYPFON EQ 2 AND PUFON EQ 1)</p>
+<p>COMPUTE FONEUSE=1</p>
+<p>ELSE IF (PFONHERE EQ 1 AND PTYPFON EQ 1 AND PUFON EQ 2)</p>
+<p>COMPUTE FONEUSE=1</p>
+<p>ELSE IF (PFONHERE EQ 1 AND PTYPFON EQ 2 AND PUFON EQ 2)</p>
+<p>COMPUTE FONEUSE=1</p>
+<p>ELSE</p>
+<p>COMPUTE FONEUSE=99</p>
+<p>END IF</p>
+<p>DO IF (PMG$WOH EQ 1)</p>
+<p>COMPUTE MONEYMGT=0</p>
+<p>ELSE IF (PMG$WOH EQ 2)</p>
+<p>COMPUTE MONEYMGT=1</p>
+<p>END IF</p>
+<p>DO IF (PNHWALK EQ 1)</p>
+<p>COMPUTE TRAVEL=1</p>
+<p>ELSE</p>
+<p>COMPUTE TRAVEL=0</p>
+<p>END IF</p>
+<p>DO IF (PHBATHRM EQ 3 AND PUTOIL2 EQ 1)</p>
+<p>COMPUTE TOILTING=1</p>
+<p>ELSE IF (PHBATHRM EQ 1)</p>
+<p>COMPUTE TOILTING=1</p>
+<p>ELSE IF (PHBATHRM EQ 2 AND PSPTOL1 EQ 1)</p>
+<p>COMPUTE TOILTING=1</p>
+<p>ELSE IF (PHBATHRM EQ 2 AND PNERTOL1 EQ 1)</p>
+<p>COMPUTE TOILETING=1</p>
+<p>ELSE IF (PHBATHRM EQ 2)</p>
+<p>COMPUTE TOILTING=0</p>
+<p>ELSE</p>
+<p>COMPUTE TOILTING=99</p>
+<p>END IF</p>
+<p>DO IF (PHDRESS EQ 3 AND PHPJ EQ 1)</p>
+<p>COMPUTE DRESSING=1</p>
+<p>ELSE IF (PHDRESS EQ 2 AND PSPDRES1 EQ 1)</p>
+<p>COMPUTE DRESSING=1</p>
+<p>ELSE IF (PHDRESS EQ 2 AND PNERDRS1 EQ 1)</p>
+<p>COMPUTE DRESSING=1</p>
+<p>ELSE IF (PHDRESS EQ 3)</p>
+<p>COMPUTE SHOPPING=99</p>
+<p>END IF</p>
+<p>DO IF (PLWORK2 EQ 1 OR PCONLWK EQ 1)</p>
+<p>COMPUTE HKEEP=0</p>
+<p>ELSE IF (PLWORK2 EQ 2 OR PCANLWK EQ 2 AND PRNOLWK EQ 1)</p>
+<p>COMPUTE HKEEP=1</p>
+<p>ELSE</p>
+<p>COMPUTE HKEEP=99</p>
+<p>END IF</p>
+<p>DO IF (PLAUD1 EQ 1 OR PCANLAUD EQ 1)</p>
+<p>COMPUTE LAUNDRY=0</p>
+<p>ELSE IF (PLAUD1 EQ 2 OR PCANLAUD EQ 2 AND PRNOLAUD EQ 1)</p>
+<p>COMPUTE LAUNDRY=1</p>
+<p>ELSE</p>
+<p>COMPUTE LAUNDRY=99</p>
+<p>END IF</p>
+<p>DO IF (LAUNDRY EQ 1 OR HKEEP EQ 1)</p>
+<p>COMPUTE HOUSKEEP=1</p>
+<p>ELSE IF (LAUNDRY EQ 99 AND HKEEP EQ 99)</p>
+<p>COMPUTE HOUSKEEP=99</p>
+<p>ELSE</p>
+<p>COMPUTE HOUSKEEP=0</p>
+<p>END IF</p>
+<p>MISSING VALUES CONTINEN TO HOUSKEEP (99)</p>
+<p>VALUE LABEL</p>
+<p>CONTINEN TO HOUSKEEP 0 ‘INDEPENDENT’ 1 ‘DISABLED’/</p>
+<table align="center" cellspacing="0"><tbody><tr><td>2.b)  </td>
+<td>Since not all the questions were answered by all the respondents missing values were generated in the calculation of ADL &amp; IADL scores.
+<p>				The respondents that had 8 or more ADL &amp; IADL scores missing were excluded from further calculations. For the remaining respondents the missing values were substituted by the mean value of the specific ADL IADL score of the appropriate age and sex.</p>
+<p>				The following logical statments were used to employ ADL &amp; IADL scores in order to create DISABILITY proportions for non-institutionalized sample.</p></td>
+</tr></tbody></table><p>RECODE HOUSKEEP(SYSMIS=0)</p>
+<p>COUNT NOFMISS=BATHING DRESSING EATING TOILTING TRANSFER CONTINEN WALKING FONEUSE MONEYMGT TRAVEL COGNETIV MEALPREP SHOPPING HKEEP LAUNDRY HOUSKEEP(99)</p>
+<p>DO IF (NOFMISS GE 8)</p>
+<p>COMPUTE CHECK=1</p>
+<p>ELSE</p>
+<p>COMPUTE CHECK=0</p>
+<p>END IF</p>
+<p>COMPUTE SEVERADL=EATING+TRANSFER+TOILTING+DRESSING+CONTINEN+COGNETIV</p>
+<p>IF (SEVERADL GT 0 AND SEVEADL LT 1)SEVERADL=0</p>
+<p>IF (FONEUSE GT 0 AND FONEUSE LT 1)FONEUSE=0</p>
+<p>RECODE MONEYMGT(SYSMIS=0)</p>
+<p>COMPUTE MODADL=EATING+TRANSFER+TOILTING+DRESSING+CONTINEN</p>
+<p>IF (MODADL GT 0 AND MODADL LT 1)MODADL=0</p>
+<p>COMPUTE MODIADL=HOUSKEEP+SHOPING+MEALPREP+WALKING</p>
+<p>IF (MODIADL GT 1 AND MODIADL LT2)MODIADL=1</p>
+<p>COMPUTE MODIADL2=MODIADL+TRAVEL+FONEUSE</p>
+<p>COMPUTE MILDIADL=MODIALD+TRAVEL</p>
+<p>COMPUTE OTHRIADL=MONEYMGT+FONEUSE</p>
+<p>COMPUTE IADL=HOUSKEEP+SHOPPING+MEALPREP+FONEUSE+MONEYMGT+TRAVEL</p>
+<p>COMPUTE ADL=EATING+DRESSING+TOILTING+BATHING+TRANSFER</p>
+<p>DO IT (CHECK=1)</p>
+<p>COMPUTE DISABLTY=99</p>
+<p>ELSE IF (SEVERADL GE 2)</p>
+<p>COMPUTE DISABLTY=4</p>
+<p>ELSE IF (MODADL EQ 1 OR BATHING EQ 1 OR(MODIADL2 GE 2 AND MODIADL GE 1))</p>
+<p>COMPUTE DISABLTY=3</p>
+<p>ELSE IF (MILDIADL EQ 1 OR OTHRIADL EQ 2)</p>
+<p>COMPUTE DISABLTY=2</p>
+<p>ELSE IF (ADL EQ 0 AND IALD EQ 0 OR (ADL EQ 0 AND (MONEYMGT FQ 1 OR FONEUSE EQ 1)))</p>
+<p>COMPUTE DISABLTY=1</p>
+<p>ELSE</p>
+<p>COMPUTE DISABLTY=1</p>
+<p>END IF</p>
+<p>MISSING VALUES DISABLTY ADL (99)</p>
+<p>RECODE DISABLTY(SYSMIS=2)</p>
+<table align="center" cellspacing="0"><tbody><tr><td>2.c)  </td>
+<td>after the disability score for each respondent in the sample was calculated, a frequency table of this score for each single year of age and sex was formed. The % of the respondents at each level of disability of this table was used as the proportion of the sample with that level of disability for the specific age and sex.
+<p>				As a result of the above performance for each single year of age and sex four disability proportions exist. i.e.</p>
+<p>Age     sex     No or Mild Dis.     Mod Dis.     Sev. Dis.</p>
+</td>
+</tr></tbody></table><p>****************************************************************************************************</p>
+<p>inistitutionalized with severe dis.(2.c</p>
+<p>To compensate for variation in sample size in different age and sex and sampling error a five year moving average procedure was used. The five year consisted of two years before and two years after. As a result of this procedure the fist two ages (65 and 66) remained blank, for 65 the actual proportions as they were used, for 66 the three year moving average was used.</p>
+<p>Because the sample size for ages 95+ was very small, the disability proportions for ages 95-99 and 100+ was calculated together as a group rather than single year of age, for this reason the dis. proportions for these two age group are the actual proportions rather than the smoothed one. however the single year of age disability proportions for 95 and 96 was used to calculate the smoothed dis. proportion for 94 year olds.</p>
+<p> </p>
+<h3>PROGRAM NAME: PROCORR</h3>
+<ul><li>Weights NLTCS detailed sample by its relative representation in total sample</li>
+<li>Combines weighted disability rates for community and nursing home sample</li>
+<li>Calculates five-year moving average for total disability rates</li>
+</ul><p>FILE: PROCORR     SAS     A     MIAMI UNIVERSITY VM/CMS REL 5</p>
+<p> </p>
+<p>CMS FILEDEF RATE95 DISK INSTR3 DATA;</p>
+<p>CMS FILEDEF DISABLTY DISK COMOIS95 DATA;</p>
+<p>CMS FILEDEF RATIOS DISK INSTRATE DATA;</p>
+<p>CMS FILEDEF DISABL95 DISK COMOIS95 DATA;</p>
+<p>DATA INS_COM;</p>
+<p>INFILE RATIOS;</p>
+<p>INPUT AGE MALEINS MALECOM FEMALINS FEMALCOM;</p>
+<p>IF AGE &gt;=65;</p>
+<p>DATA INS_COM5;</p>
+<p>INFILE RATE95;</p>
+<p>INPUT AGE MALEINS MAILCOM FEMALINS FEMALCOM;</p>
+<p>DATA PART2;</p>
+<p>INFILE DISABLTY;</p>
+<p>INPUT AGE SEX NN NNMI NNMC NNS NL NLMI NLMO NLS;</p>
+<p>NTOTAL=NN+NNMI+NNMO+NNS;</p>
+<p>ADJUSTN=1-NTOTAL;</p>
+<p>IF NTOTAL&lt;1 THEN NNN=NN+ADJUSTN;</p>
+<p>ELSE IF NTOTAL=1.001 THEN NNN=NN+ADJUSTN;</p>
+<p>ELSE IF NTOTAL=1.000 THEN NNN=NN;</p>
+<p>LTOTAL=NL+NLMI+NLM0+NLS;</p>
+<p>ADJUSTL=1-LTOTAL;</p>
+<p>IF LTOTAL&lt;1 THEN NLN=NL+ADJUSTL;</p>
+<p>ELSE IF LTOTAL=1.001 THEN NLN=NL+ADJUSTL;</p>
+<p>IF LTOTAL=1.000 THEN NLN-NL;</p>
+<p>NTOTAL=NNN+NNMI+NNMO+NNS;</p>
+<p>LTOTALC=NLN+NLMI+NLMO+NLS;</p>
+<p>PROC PRINT; VAR NTOTALC LTOTALC;</p>
+<p>DATA PART295;</p>
+<p>INFILE DISABL95;</p>
+<p>INPUT AGE SEX NNN NNMI NNMO NNS NLN NLMI NLMO NLS;</p>
+<p>NTOTAL=NNN+NNMI+NNMO+NNS;</p>
+<p>LTOTAL=NLN+NLMI+NLMO+NLS;</p>
+<p>CMS FILEDEF SWEIGHT DISK SOWEIGHT DATA A;</p>
+<p>CMS FILEDEF SWEIGHT2 DISK SOW95PLS DATA A;</p>
+<p>DATA NEWFIND; INFILE SWEIGHT; INPUT AGE 1-3 SEX 5 WEIGHT 7-14 6;</p>
+<p>PROC SORT; BY AGE SEX;</p>
+<p>PROC PRINT;</p>
+<p>DATA NEWFIND2; INFILE SWEIGHT2; INPUT AGE 1-3 SEX 5 WEIGHT 7-14 6;</p>
+<p>PROC SORT; BY AGE SEX;</p>
+<p>PROC PRINT;</p>
+<p>DATA CORRCTED;</p>
+<p>MERGE PART2 NEW FIND; BY AGE SEX;</p>
+<p>CNLMI-WEIGHT*NLMI;</p>
+<p>CNLMO=WEIGHT*NLMO;</p>
+<p>CNLS=WEIGHT*NLS;</p>
+<p>CNLN=1-(CNLMI+CNLMO+CNLS);</p>
+<p>CLTOTAL=CNLN+NCLMI+CNLMC+CNLS;</p>
+<p>DATA C95PLUS;</p>
+<p>MERGE PART295 NEWFIND2;</p>
+<p>CNLMI=WEIGHT*NLMI;</p>
+<p>CNLMO=WEIGHT*NLMO;</p>
+<p>CNLS=WEIGHT*NLS;</p>
+<p>CNLN=1-(CNLMI+CNLMO+CNLS);</p>
+<p>CLTOTAL=CNLN+CNLMI+CNLMO+CNLS;</p>
+<p>PROC PRINT;</p>
+<p> </p>
+<p>DATA MALE;</p>
+<p>SET CORRCTED;</p>
+<p>KEEP AGE SEX NNN NNMI NNMO NNS CNLN CNLMI CNLMO CNLS;</p>
+<p>IF SEX=1;</p>
+<p>DATA FEMALE;</p>
+<p>SET CORRCTED;</p>
+<p>IF SEX=2;</p>
+<p>KEEP AGE SEX NNN NNMI NNMO NNS CNLN CNLMI CNLMO CNLS;</p>
+<p>REMAIN NNN=NNNF NNMI=NNMIF NNMO=NNMCF NNS=NNSF CNLN=CNLNF CNLMI=CNLMIF CNLMO=CNLMOF CNLS=CNLSF;</p>
+<p>DATA ALL;</p>
+<p>MERGE MALE FEMALE;</p>
+<p>BY AGE;</p>
+<p>DATA ADJUSTED;</p>
+<p>MEGER ALL INS_COM;</p>
+<p>BY AGE;</p>
+<p>PNDM=MALEINS*NNN+MALECOM*CNLN;</p>
+<p>PNDF=FEMALINS*NNNF+FEMALCOM*CNLNF;</p>
+<p>PLDM=MALEINS*NNMI+MALECOM*CNLMI;</p>
+<p>PLDF=FEMALINS*NNMIF+FEMALCOM*CNLMIF;</p>
+<p>PMODDM=MALEINS*NNMC+MALECOM*CNLMO;</p>
+<p>CMODDF=FEMALINS*NNMCF+FEMALCOM*CNLMOF;</p>
+<p>PMOSDM=MALEINS*NNS+MALECOM*CNLS;</p>
+<p>PMOSDF=FEMALINS*NNSF+FEMALCOM*CNLSF;</p>
+<p>PNDM_1=LAG(PNDM);</p>
+<p>PNDF_1=LAG(PNDF);</p>
+<p>PLDM_1=LAG(PLDM);</p>
+<p>PLDF_1=LAG(PLDF);</p>
+<p>PMODDM_1=LAG(PMODDM);</p>
+<p>PMODDF_1=LAG(PMODDF);</p>
+<p>PMOSDM_1=LAG(FMOSDM);</p>
+<p>PMOSDF_1=LAG(FMOSDF);</p>
+<p>PNDM_2=LAG(PNDM_1);</p>
+<p>PNDF_2=LAG(PNDF_1);</p>
+<p>PLDM_2=LAG(PLDM_1);</p>
+<p>PLDF_2=LAG(PLDF_1);</p>
+<p>PMODDM_2=LAG(PMODDM_1);</p>
+<p>PMODDF_2=LAG(PMODDF_1);</p>
+<p>PMOSDM_2=LAG(PMOSDM_1);</p>
+<p>PMOSDF_2=LAG(PMOSDF_1);</p>
+<p>PNDM_3=LAG(PNDM_2);</p>
+<p>PNDF_3=LAG(PNDF_2);</p>
+<p>PLDM_3=LAG(PLDM_2);</p>
+<p>PLDF_3=LAG(PLDF_2);</p>
+<p>PMODDM_3=LAG(PMODDM_2);</p>
+<p>PMODDF_3=LAG(PMODDF_2);</p>
+<p>PMOSDM_3=LAG(PMOSDM_2);</p>
+<p>PMOSDF_3=LAG(PMOSDF_2);</p>
+<p>PNDM_4=LAG(PNDM_3);</p>
+<p>PNDF_4=LAG(PNDF_3);</p>
+<p>PLDM_4=LAG(PLDM_3);</p>
+<p>PLDF_4=LAG(PLDF_3);</p>
+<p>PMODDM_4=LAG(PMODDM_3);</p>
+<p>PMODDF_4=LAG(PMODDF_3);</p>
+<p>PMOSDM_4=LAG(PMOSDM_3);</p>
+<p>PMOSDF_4=LAG(PMOSDF_3);</p>
+<p>DATA LEAD1;</p>
+<p>SET ADJUSTED;</p>
+<p>KEEP AGE PNDM--PMOSDF;</p>
+<p>RENAME PNDM=PNDM1 PNDF=PNDF1 PLDM=PLDM1 PLDF=PLDF1 PMODDM=PMODDM1 PMODDF=PMODDF1 PMOSDM=PMOSDM1 PMOSDF=PMOSDF1;</p>
+<p>AGE=AGE+1;</p>
+<p>DATA LEAD2;</p>
+<p>SET ADJUSTED;</p>
+<p>KEEP AGE PNDM--PMOSDF;</p>
+<p>RENAME PNDM=PNDM2 PNDF=PNDF2 PLDM=PLDF2 PMODDM=PMODDM2 PMODDF=PMODDF2 PMOSDM=PMOSDM2 PMOSDF=PMOSDF2;</p>
+<p>AGE=AGE+2;</p>
+<p>DATA LEAD3;</p>
+<p>SET ADJUSTED;</p>
+<p>KEEP AGE PNDM--PMOSDF;</p>
+<p>RENAME PNDM=PNDM3 PNDF=PNDF3 PLDM=PLDM3 PLDF=PLDF3 PMODDM=PMODDM3 PMODDF=PMODDF3 PMOSDM=PMOSDM3 PMOSDF=PMOSDF3;</p>
+<p>AGE=AGE+3;</p>
+<p>DATA LEAD4;</p>
+<p>SET ADJUSTED;</p>
+<p>KEEP AGE PNDM--PMOSDF;</p>
+<p>RENAME PNDM=PNDM4 PNDF=PNDF4 PLDM=PLDM4 PLDF=PLDF4 PMODDM=PMODDM4 PMODDF=PMODDF4 PMOSDM=PMOSDM4 PMOSDF=PMOSDF4;</p>
+<p>AGE=AGE+4;</p>
+<p>DATA ALL;</p>
+<p>MERGE ADJUSTED LEAD1 LEAD2 LEAD3 LEAD4;</p>
+<p>BY AGE;</p>
+<p>SMONM3=(PNDM1+PNDM+PNDM_1)/3;</p>
+<p>SMOLM3=(PLDM1+PLDM+PLDM_1)/3;</p>
+<p>SMOMDDM3=(PMODDM1+PMODDM+PMODDM_1)/3;</p>
+<p>SMOMOSM3=(PMOSDM1+PMOSDM+PMOSDM_1)/3;</p>
+<p>SMONF3=(PNDF1+PNDF+PNDF_1)/3;</p>
+<p>SMOLF3=(PLDF1+PLDF+PLDF_1)/3;</p>
+<p>SMOMODF3=(PMODDF1+PMODDF+PMODDF_1)/3;</p>
+<p>SMOMOSF3=(PMOSDF1+PMOSDF+PMOSDF_1)/3;</p>
+<p>SMONM5=(PNDM2+PNDM1+PNDM+PNDM_1+PNDM_2)/5;</p>
+<p>SMOLM5=(PLDM2+PLDM1+PLDM+PLDM_1+PLDM_2)/5;</p>
+<p>SMOMODM5=(PMODDM2+PMODDM1+PMODDM+PMODDM_1+PMODDM_2)/5;</p>
+<p>PMOMOSM5=(PMOSDM2+PMOSDM1+PMOSDM+PMOSDM_1+PMOSDM_2)/5;</p>
+<p>SMONF5=(PNDF2+PNDF1+PNDF+PNDF_1+PNDF_2)/5;</p>
+<p>SMOLF5=(PLDF2+PLDF1+PLDF+PLDF_1+PLDF_2)/5;</p>
+<p>SMOMODF5=(PMODDF2+PMODDF1+PMODDF+PMODDF_1+PMODDF_2)/5;</p>
+<p>SMODOSF5=(PMOSDF2+PMOSDF1+PMOSDF+PMOSDF_1+PMOSDF_2)/5;</p>
+<p>SMONM7=(PNDM3+PNDM2+PNDM1+PNDM+PNDM_1+PNDM_2+PNDM_3)/7;</p>
+<p>SMOLM7=(PLDM3+PLDM2+PLDM1+PLDM+PLDM_1+PLDM_2+PLDM_3)/7;</p>
+<p>SMOMODM7=(PMODDM3+PMODDM2+PMODDM1+PMODDM+PMODDM_1+PMODDM_2+PMODDM_3)/7;</p>
+<p>SMOMOSM7=(PMOSDM3+PMOSDM2+PMOSDM1+PMOSDM+PMOSDM_1+PMOSDM_2+PMOSDM_3)/7;</p>
+<p>SMONF7=(PNDF3+PNDF2+PNDF1+PNDF+PNDF_1+PNDF_2+PNDF_3)/7;</p>
+<p>SMOLF7=(PLDF3+PLDF2+PLDF1+PLDF+PLDF_1+PLDF_2+PLDF_3)/7;</p>
+<p>SMOMODF7=(PMODDF3+PMODDF2+PMODDF1+PMODDF+PMODDF_1+PMODDF_2+PMODDF_3)/7;</p>
+<p>SMOMOSF7=(PMOSDF3+PMOSDF2+PMOSDF1+PMOSDF+PMOSDF_1+PMOSDF_2+PMOSDF_3)/7;</p>
+<p>SMONM9=(PNDM4+PNDM3+PNDM2+PNDM1+PNDM+PNDM_1+PNDM_2+PNDM_3+PNDM_4)/9; ;</p>
+<p>SMOLM9=(PLDM4+PLDM3+PLDM2+PLDM1+PLDM+PLDM_1+PLDM_2+PLDM_3+PLDM_4)/9;</p>
+<p>SMOMODM9=(PMODDM3+PMODDM2+PMODDM1+PMODDM+PMODDM_1+PMODDM_2+PMODDM_3+PMODDM4+PMODDM_4)/9;</p>
+<p>SMOMOSM9=(PMOSDM3+PMOSDM2+PMOSDM1+PMOSDM+PMOSDM_1+PMOSDM_2+PMOSDM_3+PMOSDM4+PMOSDM_4)/9;</p>
+<p>SMONF9=(PNDF4+PNDF3+PNDF2+PNDF1+PNDF+PNDF_1+PNDF_2+PNDF_3+PNDF_4)/9;</p>
+<p>SMOLF9=(PLDF4+PLDF3+PLDF2+PLDF1+PLDF+PLDF_1+PLDF_2+PLDF_3+PLDF_4)/9;</p>
+<p>SMOMODF9=(PMODDF3+PMODDF2+PMODDF1+PMODDF+PMODDF_1+PMODDF_2+PMODDF_3+PMODDF4+PMODDF_4)/9;</p>
+<p>SMOMOSF9=(PMOSDF3+PMOSDF2+PMOSDF1+PMOSDF+PMOSDF_1+PMOSDF_2+PMOSDF_3+PMOSDF4+PMOSDF_4)/9;</p>
+<p>PROC PRINT; VAR AGE SMONM3--SMOMCSF3;</p>
+<p>DATA MALE95;</p>
+<p>SET C95PLUS;</p>
+<p>KEEP AGE SEX NNN NNMI NNMO NNS CNLN CNLMI CNLMO CNLS;</p>
+<p>IF SEX=1;</p>
+<p>DATA FEMALE95;</p>
+<p>SET C95PLUS;</p>
+<p>IF SEX=2;</p>
+<p>KEEP AGE SEX NNN NNMI NNMO NNS CNLN CNLMI CNLM0 CNLS;</p>
+<p>RENAME NNN=NNNF NNMI=NNMIF NNMO=NNMOF NNS=NNSF CNLN=CNLNF CNLMI=CNLMF CNLMO=CNLMOF CNLS=CNLSF;</p>
+<p>DATA ALL95;</p>
+<p>MERGE MALE95 FEMALE95;</p>
+<p>BY AGE;</p>
+<p>DATA ADJUST95;</p>
+<p>MERGE ALL95 INS_COM5;</p>
+<p>BY AGE;</p>
+<p>PNDM=MALEINS*NNN*MALECOM*CNLN;</p>
+<p>PNDF=FEMALINS*NNNF*FEMALCOM*CNLNF;</p>
+<p>PLDM=MALEINS*NNMI+MALECOM*CNLMI;</p>
+<p>PLDF=FEMALINS*NNMIF+FEMALCOM*CNLMIF;</p>
+<p>PMODDM=MALEINS*NNMO+MALECOM*CNLMO;</p>
+<p>PMODDF=FEMALINS*NNMOF+FEMALCOM*CNLMOF;</p>
+<p>PMOSDM=MALEINS*NNS+MALECOM*CNLS;</p>
+<p>PMOSDF=FEMALINS*NNSF+FEMALCOM*CNLSF;</p>
+<p>SMONM5=PNDM;</p>
+<p>SMOLM5=PLDM;</p>
+<p>SMOMODM5=PMCDDM;</p>
+<p>SMOMOSM5=PMCSDM;</p>
+<p>SMONF5=PNDF;</p>
+<p>PMOLF5=PLDF;</p>
+<p>SMOMODF5=PMCDDF;</p>
+<p>SMOMOSF5=PMCSDF;</p>
+<p>DATA ALL_1;</p>
+<p>SET ALL;</p>
+<p>IF AGE&lt;95 AND AGE&gt;=65;</p>
+<p>KEEP AGE PNDM--PMOSDF SMONM5=SMOMOSF5;</p>
+<p>PROC PRINT;VAR AGE PNDM--PMOSDF SMONM5--SMOMOSF5;</p>
+<p>DATA ALL95_C; SET ADJUST95;</p>
+<p>KEEP AGE PNDM--PMOSDF SMONM5--SMOMOSF5;</p>
+<p>DATA FINAL;SET ALL_1 ALL95_C;</p>
+<p>IF AGE=65 THEN SMONM5=.886539;</p>
+<p>IF AGE=65 THEN SMOLM5=.0186755;</p>
+<p>IF AGE=65 THEN SMOMODM5=.052111;</p>
+<p>IF AGE=65 THEN SMOMOSM5=.042674;</p>
+<p>IF AGE=65 THEN SMONF5=.872375;</p>
+<p>IF AGE=65 THEN SMOLF5=.0129119;</p>
+<p>IF AGE=65 THEN SMOMCDF5=.068478;</p>
+<p>IF AGE=65 THEN SMOMCSF5=.046236;</p>
+<p>IF AGE=66 THEN SMONM5=.898503;</p>
+<p>IF AGE=66 THEN SMOLM5=.0155162;</p>
+<p>IF AGE=66 THEN SMOMCDM5=.047082;</p>
+<p>IF AGE=66 THEN SMOMCSM5=.038899;</p>
+<p>IF AGE=66 THEN SMONF5=.879552</p>
+<p>IF AGE=66 THEN SMOLF5=.0116058;</p>
+<p>IF AGE=66 THEN SMOMCDF5=.061800;</p>
+<p>IF AGE=66 THEN SMOMCSF5=.047042;</p>
+<p>TM=SUM(OF SMONM5--SMOMCSM5);</p>
+<p>TF=SUM(CF SMONF5--SMOMCSF5);</p>
+<p>PROC PRINT; VAR TM TF;</p>
+<p>PROC PRINT;</p>
+<p>VAR AGE PNDM--PMOSDF;</p>
+<p>PROC PRINT;</p>
+<p>VAR AGE SMONM5--SMOMOSF5;</p>
+<p>CMS FILEDEF OUT DISK FILE1C DATA;</p>
+<p>DATA LAST; FILE OUT;SET FINAL;</p>
+<p>PUT @1 ‘1986’ @5 ‘1’ AGE 6-8 SMONM5 10-17 6 SMOLM5 19-26 6 SMOMODMS 28-35 6 SMOMCSM5 37-44 6 SMONF5 46-53 F SMOLF5 55-62 6 SMOMCDF5 64-71 6 SMOMOSF5 73-80 6;</p>
+<p> </p>
+<h3>PROGRAM NAME: DISESFIO</h3>
+<ul><li>Sample program that calcaltes marginals for projected disability over time; this example calculates marginals for an increase of 7.5% in disability of women</li>
+</ul><p>FILE: DISESF10     SAS     A     MIAMI UNIVERSITY VM/CMS REL 5</p>
+<p> </p>
+<p>TITLE1 ‘THIS FILE WILL CREATE THE “MARGINAL” DISABILITIES FOR 1986’;</p>
+<p>TITLE2 ‘AND EVERY FIVE YEAR AFTER THAT. THE 7.5% CHANGE IS DIVIDED’;</p>
+<p>TITLE 3 ‘EVENLY BETWEEN 1986 AND 2010’;</p>
+<p>DATA MARGINAL;</p>
+<p>INPUT YEAR SEX MD1-MD4;</p>
+<p>TOTAL=MD1+MD2+MD3+MD4;</p>
+<p>ARRAY A MD1-MD4;</p>
+<p>ARRAY B SMD1-SMD4;</p>
+<p>DO OVER A;</p>
+<p>DO OVER B;</p>
+<p>B=A/32;</p>
+<p>END; END;</p>
+<p>TOTAL SD=SUM(OF SMD1-SMD4);</p>
+<p>CHNG1SM2=SMD2*1.015;</p>
+<p>CHNG1SM3=SMD3*1.015;</p>
+<p>CHNG1SM4=SMD4*1.015;</p>
+<p>CHNG1SM1=1-(CHNG1SM4+CHNG1SM2+CHNG1SM3);</p>
+<p>CHNG2SM2=CHNG1SM2*1.015;</p>
+<p>CHNG2SM3=CHNG1SM3*1.015;</p>
+<p>CHNG2SM4=CHNG1SM4*1.015;</p>
+<p>CHNG2SM1=1-(CHNG2SM4+CHNG2SM2+CHNG2SM3);</p>
+<p>CHNG3SM2=CHNG2SM2*1.015;</p>
+<p>CHNG3SM3=CHNG2SM3*1.015;</p>
+<p>CHNG3SM4=CHNG2SM4*1.015;</p>
+<p>CHNG3SM1=1-(CHNG3SM4+CHNG3SM2+CHNG3SM3);</p>
+<p>CHNG4SM2=CHNG3SM2*1.015;</p>
+<p>CHNG4SM3=CHNG3SM3*1.015;</p>
+<p>CHNG4SM4=CHNG3SM4*1.015;</p>
+<p>CHNG4SM1=1-(CHNG4SM4+CHNG4SM2+CHNG4SM3);</p>
+<p>CHNG5SM2=CHNG4SM2*1.015;</p>
+<p>CHNG5SM3=CHNG4SM3*1.015;</p>
+<p>CHNG5SM4=CHNG4SM4*1.015;</p>
+<p>CHNG5SM1=1-(CHNG5SM4+CHNG5SM2+CHNG5SM3);</p>
+<p>TOTAL1=SUM(CF CHNG1SM1-CHNG1SM4);</p>
+<p>TOTAL2=SUM(CF CHNG2SM1-CHNG2SM4);</p>
+<p>TOTAL3=SUM(CF CHNG3SM1-CHNG3SM4);</p>
+<p>TOTAL4=SUM(CF CHNG4SM1-CHNG4SM4);</p>
+<p>TOTAL5=SUM(CF CHNG5SM1-CHNG5SM4);</p>
+<p>CARDS;</p>
+<p>1986 2 20.7352 .60281 4.59481 6.06717</p>
+<p>PROC PRINT; VAR SMD1-SMD4 TOTAL SD;</p>
+<p>PROC PRINT; VAR CHNG1SM1-CHNG1SM4 TOTAL1;</p>
+<p>PROC PRINT; VAR CHNG2SM1-CHNG2SM4 TOTAL2;</p>
+<p>PROC PRINT; VAR CHNG3SM1-CHNG3SM4 TOTAL3;</p>
+<p>PROC PRINT; VAR CHNG4SM1-CHNG4SM4 TOTAL4;</p>
+<p>PROC PRINT; VAR CHNG5SM1-CHNG5SM4 TOTAL5;</p>
+<p>CMS FILEDEF R1 DISK R1 DATA;</p>
+<p>DATA NEW; SET MARGINAL; FILE R1;</p>
+<p>PUT ‘1986’ SEX SMD1-SMD4;</p>
+<p>CMS FILEDEF R2 DISK R2 DATA;</p>
+<p>DATA NEW; SET MARGINAL; FILE R2;</p>
+<p>PUT ‘1990’ SEX CHNG1SM1-CHNG1SM4;</p>
+<p>CMS FILEDEF R3 DISK R3 DATA;</p>
+<p>DATA NEW; SET MARGINAL; FILE R3;</p>
+<p>PUT ‘1995’ SEX CHNG2SM1-CHNG2SM4;</p>
+<p>CMS FILEDEF R4 DISK R4 DATA;</p>
+<p>DATA NEW; SET MARGINAL; FILE R4;</p>
+<p>PUT ‘2000’ SEX CHNG3SM1-CHNG3SM4;</p>
+<p>CMS FILEDEF R5 DISK R5 DATA;</p>
+<p>DATA NEW; SET MARGINAL; FILE R5;</p>
+<p>PUT ‘2005’ SEX CHNG4SM1-CHNG4SM4;</p>
+<p>CMS FILEDEF R6 DISK R6 DATA;</p>
+<p>DATA NEW; SET MARGINAL; FILE R6;</p>
+<p>PUT ‘2010’ SEX CHNG5SM1-CHNG5SM4;</p>
+<p> </p>
+<h3>PROGRAM NAME: MATRXFIO</h3>
+<ul><li>Sample program that projects proportions disabled to the marginals calculated in preceeding program</li>
+</ul><p>FILE: MATRXFI0     SAS     A     MIAMI UNIVERSITY VM/CMS REL 5</p>
+<p> </p>
+<p>TITLE1 ‘THIS PROGRAM PRODUCES THE PROJECTIONS FOR FEMALE’;</p>
+<p>************** PROGRAM CREATING AGE SPECIFIC TRANSITION RATES ******;</p>
+<p>*NOTE THIS PROGRAM WILL BE RUN FOR MALE AND FEMALE SEPARATELY AND *;</p>
+<p>* THE TWO DATA SETS WILL BE COMBINED*;</p>
+<p>* INPUT AGE-SPECIFIC BASE RATES ;</p>
+<p> </p>
+<p>CMS FILEDEF RAW DISK FILEIO DATA;</p>
+<p>DATA BASE;</p>
+<p>INFILE RAW;</p>
+<p>INPUT @6 AGE 3. @46 R1 8.7 @55 R2 8.7 @64 R3 8.7 @73 R4 8.7;</p>
+<p> </p>
+<p>PROC SORT;</p>
+<p>BY AGE;</p>
+<p> </p>
+<p>* INPUT COLUMN MARGINALS OVER TIME HORIZON;</p>
+<p>* NOTE FIRST OBSERVATION IS BASE RATES’ MARGINALS;</p>
+<p>CMS FILEDEF RAW1F DISK RAW10F DATA;</p>
+<p>DATA MARGINAL;</p>
+<p>INFILE RAW1F;</p>
+<p>INPUT YEAR 1-4 @7 R1-R4;</p>
+<p> </p>
+<p>PROC SORT;</p>
+<p>BY YEAR;</p>
+<p> </p>
+<p>********** CONVERSIONS *************** ;</p>
+<p> </p>
+<p>PROC MATRIX FUZZ FW=10;</p>
+<p> </p>
+<p>* FETCHING DATA IN BASE = AGER;</p>
+<p> </p>
+<p>FETCH AGER 36 DATA = BASE (KEEP=R1-R4);</p>
+<p> </p>
+<p>* FETCHING BASE RATES’ MARGINALS = BCM;</p>
+<p> </p>
+<p>FETCH BCM 1 DATA = MARGINAL (KEEP=R1-R4);</p>
+<p> </p>
+<p>******** LOOP YEAR FOR EACH FUTURE YEAR IN TIME HORIZON *****;</p>
+<p> </p>
+<p>* DO YEAR = 1985 TO 2040 BY 5;</p>
+<p>DO YEAR = 1985 TO 2010 BY 5;</p>
+<p> </p>
+<p>WK1 = J(36,4,0);</p>
+<p> </p>
+<p>* FETCHING GOAL COLUMN MARGINAL = GCM ;</p>
+<p> </p>
+<p>FETCH GCM 1 DATA=MARGINAL (KEEP=R1-R4);</p>
+<p> </p>
+<p>* COMPUTING ROW VECTOR OF INITIAL COLUMN RATIOS = ICR ;</p>
+<p> </p>
+<p>ICR = GCM #/ BCM ;</p>
+<p>PRINT ICR;</p>
+<p>* ROUND 1 ADJUSTMENT WHERE ROUND = ADJUSTMENT BASED ON COLUMN THEN ROW TOTALS;</p>
+<p> </p>
+<p>DO I = 1 TO 36;</p>
+<p>WK1(I,) = AGER(I,) * ICR ;</p>
+<p> </p>
+<p>END;</p>
+<p> </p>
+<p>LINK RSUM;</p>
+<p> </p>
+<p>* ADDITIONAL ROUNDS CONTROLLED BY INDEX TIMES -- SET TO DO 8 IN ALL;</p>
+<p> </p>
+<p>DO TIME = 2 TO 8;</p>
+<p>LINK CSUM;</p>
+<p>LINK RSUM;</p>
+<p>END;</p>
+<p> </p>
+<p>************** OUTPUT TO SAS DATA SET = PROGRATE ********;</p>
+<p> </p>
+<p>OUTDAT = J(36,7,0);</p>
+<p> </p>
+<p>* SET YEAR ON RECORD ;</p>
+<p>OUTDAT(,1) = YEAR;</p>
+<p> </p>
+<p>* SET DISABILITY SERIES # ON RECORD ;</p>
+<p> </p>
+<p>OUTDAT(,2) = 1;</p>
+<p> </p>
+<p>* SET AGE ON RECORD ;</p>
+<p> </p>
+<p>CT = 0;</p>
+<p>DO AGE = 65 TO 100 ;</p>
+<p>CT = CT + 1;</p>
+<p>OUTDAT(CT,3) - AGE;</p>
+<p>END;</p>
+<p> </p>
+<p>* SET COMPUTED RATES ;</p>
+<p> </p>
+<p>OUTDAT(,4:7) = WK1(,1:4);</p>
+<p> </p>
+<p>* OUTPUT;</p>
+<p> </p>
+<p>OUTPUT OUT DAT OUT=PROGRATE(RENAME=(COL1=YEAR COL2=DIS_AB_S COL3=AGE COL4=APPRO1 COL5=APPRO2 COL6=APPRO3 COL7=APPRO4));</p>
+<p> </p>
+<p>* END LOOP;</p>
+<p> </p>
+<p>END;</p>
+<p> </p>
+<p>********** SUEROUNTINES RSUM &amp; CSUM **********;</p>
+<p>RSUM:</p>
+<p>WK2 = J(36,4,0); RS = J(36,1,0); RRS = J(36,1,0);</p>
+<p>RS = WK1(,+);</p>
+<p>RRS = 1 #/ RS;</p>
+<p>DO C = 1 TO 4;</p>
+<p>WK2(,C) = WK1(,C) # RRS;</p>
+<p>WK1 = WK2;</p>
+<p>RETURN;</p>
+<p> </p>
+<p>CSUM:</p>
+<p>WK2 = J(36,4,0); CS = J(1,4,0); RCS = J(1,4,0);</p>
+<p>CS = WK1(+,);</p>
+<p>RCS = GCM #/ (CS #/ 36);</p>
+<p>DO R = 1 TO 36;</p>
+<p>WK2(R,) = WK1(R,) # RCS;</p>
+<p>WK1 = WK2;</p>
+<p>RETURN;</p>
+<p> </p>
+<p>************ PROC MATRIX DONE **********;</p>
+<p>************* NEW DATA SET TO DO WHATEVER WITH PROGRATE ********;</p>
+<p> </p>
+<p>PROC PRINT DATA= PROGRATE;</p>
+<p>SUM APPRO1 APPRO2 APPRO3 APPRO4;</p>
+<p>BY YEAR;</p>
+<p>CMS FILEDEF OUTF DISK FILE1F10 DATA ;</p>
+<p>DATA NEW; SET PROGRATE; FILE OUTF;</p>
+<p>PUT YEAR 1-4 AGE 5-8 @10 ‘2’ @12 APPRO1-APPRO4;</p>
+<p> </p>
+<h3>PROGRAM NAME: COMPRJCT</h3>
+<ul><li>Combines disability projections for men and women</li>
+</ul><p>FILE: COMPRJCT     SAS     A     MIAMI UNIVERSITY VM/CMS REL 5</p>
+<p> </p>
+<p>TITLE1 ‘THIS IS THE PROGRAM THAT COMBINES THE PROJECTED DISABILITY’;</p>
+<p>TITLE2 ‘RATES FOR MALE AND FEMALE AND PRODUCES FILE129’;</p>
+<p> </p>
+<p>CMS FILEDEF MALE DISK FILE1M29 DATA;</p>
+<p>CMS FILEDEF FEMALE DISK FILE1F29 DATA;</p>
+<p>DATA MALE;</p>
+<p>INFILE MALE;</p>
+<p>INPUT YEAR AGE SEX DISPRO1-DISPRO4;</p>
+<p>DATA FEMALE;</p>
+<p>INFILE FEMALE;</p>
+<p>INPUT YEAR AGE SEX DISPRO1-DISPRO4;</p>
+<p>DATA ALL;SET MALE FEMALE;</p>
+<p>IF AGE&gt;96 THEN DELETE;</p>
+<p>IF AGE=96 THEN AGE =100;</p>
+<p>IF YEAR=1985 THEN YEAR 1986;</p>
+<p>PROC SORT; BY YEAR AGE SEX ;</p>
+<p>CMS FILE DEF COMB DISK COMB DATA;</p>
+<p>DATA LAST; SET ALL;FILE COMB;</p>
+<p>PUT YEAR AGE SEX DISPRO1-DISPRO4;</p>
+<p>DATA NEW; INFILE COMB;</p>
+<p>INPUT YEAR AGE SEX DISM1-DISM4 #2 @12 DISF1-DISF4;</p>
+<p>CMS FILEDEF XXXX DISK FILE129 DATA;</p>
+<p>DATA NEW;SET NEW; FILE XXXX;</p>
+<p>PUT YEAR 1-4 ‘3’ @6 AGE 3. @10 DISM1 8.7 @19 DISM2 8.7 @28 DISM3 8.7 @37 DISM4 8.7 @46 DISF1 8.7 @55 DISF2 8.7 @64 DISF3 8.7 @73 DISF4 8.7;</p>
+<p> </p>
+<h3>PROGRAM NAME: PROGIOS</h3>
+<ul><li>Sample program that projects numbers disabled, using population counts and disability rate matrices as input</li>
+</ul><p>FILE: PROGIOS     SAS     A     MIAMI UNIVERSITY VM/CMS REL 5</p>
+<p> </p>
+<p>TITLE1 ‘THIS IS THE 10TH SCENARIO WITH BASELINE, CONTINUATION OF ‘;</p>
+<p>TITLE2 ‘CURRENT, MORTALITY, “1”, AND INCREASE IN DISABILITY, “4”, ‘;</p>
+<p>TITLE3 ‘THE INCREASE IN DISABILITY IS 7.5% FROM 1985 TO 2010 AND NO’;</p>
+<p>TITLE4 ‘CHANGE FROM 2010 TO 2040’;</p>
+<p> </p>
+<p>************** PROGRAM I ********************************;</p>
+<p>CMS FILEDEF FILE1 DISK FILEI10 DATA;</p>
+<p>CMS FILEDEF FILE2 DISK CENSUS1 DATA;</p>
+<p> </p>
+<p>TITLE “CREATING FILES 3 AND 4 FROM FILES 1 AND 2”;</p>
+<p> </p>
+<p>* READING FILE 1 INTO SASFILES DIS_DNE, DIS_TWO, &amp; DIS_TRI = SEGREGATING DISABILITY RATES BY DISABILITY SERIES;</p>
+<p> </p>
+<p>DATA DIS_ONE;</p>
+<p>INFILE FILE1;</p>
+<p>INPUT @1 YEAR 4.0 @5 DIS_AB_S 1.0 @6 AGE 3.0 @10 MAL_D_RI 8.7 @19 MAL_D_R2 8.7 @28 MAL_D_R3 8.7 @37 MAL_D_R4 8.7 @46 FEM_D_R1 8.7 @55 FEM_D_R2 8.7 @64 FEM_D_R3 8.7 @73 FEM_D_R4 8.7;</p>
+<p>MAL_D_R=MAL_D_R1+MAL_D_R2;</p>
+<p>FEM-D-R=FEM_D_R1+FEM_D_R2;</p>
+<p>PROC SORT DATA = DIS_ONE;</p>
+<p>BY YEAR AGE;</p>
+<p> </p>
+<p>* READING FILE 2 INTO SASFILE MCRT_ONE=SEGREGATING PROJECTED POPULATION COUNTS BY MORTALITY SERIES;</p>
+<p> </p>
+<p>DATA MORT_ONE;</p>
+<p>INFILE FILE2;</p>
+<p>INPUT YEAR MORT_S AGE MALE_CNT FEM_CNT;</p>
+<p> </p>
+<p>* MERGING INPUT SASFILES TO NIN COMBINATIONS OF RATES AND COUNTS = CREATING NINE SEPARATE SASFILES WITH PROJECTED COUNTS BY DISABILITY STATUS;</p>
+<p>* NOTE EACH OF THESE FILES RESEMBLE FILE 3;</p>
+<p> </p>
+<p>DATA TEMP1;</p>
+<p>MERGE DIS_ONE MORT_ONE;</p>
+<p>* TOTAL POPULATION AT AGE;</p>
+<p>TOTL_CNT = MALE_CNT + FEM_CNT;</p>
+<p>* MALE AND FEMALE COUNT BY DISABILITY STATUS;</p>
+<p>MAL_D_C1 =ROUND(MAL_D_R1 * MALE_CNT) ; MAL_D_C2 =ROUND(MAL_D_R2 * MALE_CNT);</p>
+<p>MAL_D_C=MAL_D_C1+MAL_D_C2;</p>
+<p> </p>
+<p>MAL_D_C3 = ROUND(MAL_D_R3 * MALE_CNT) ;</p>
+<p>MAL_D_C4 = MALE_CNT - (MAL_D_C1 + MAL_D_C2 + MAL_D_C3) ;</p>
+<p>FEM_D_C1 =ROUND(FEM_D_R1 * FEM_CNT) ; FEM_D_C2 = ROUND(FEM_D_R2 * FEM_CNT);</p>
+<p>FEM_D_C=FEM_D_C4+FEM_D_C2;</p>
+<p>FEM_D_C3 = ROUND(FEM_D_R3 * FEM_CNT) ;</p>
+<p>FEM_D_C4 = FEM_CNT - (FEM_D_C1 + FEM_D_C2 + FEM_D_C3) ;</p>
+<p>* TOTAL COUNT BY DISABILITY STATUS;</p>
+<p>TOT_D_C1 = MAL_D_C1 + FEM_D_C1 ; TOT_D_C2 = MAL_D_C2 + FEM_D_C2 ;</p>
+<p>TOT_D_C3 = MAL_D_C3 + FEM_D_C3 ; TOT_D_C4 = MAL_D_C4 + FEM_D_C4 ;</p>
+<p>TOT_D_C=MAL_D_C+FEM_D_C;</p>
+<p>* PROPORTION OF TOTAL COUNT BY DISABILITY STATUS;</p>
+<p>TOT_D_P1 = TOT_D_C1 / TOTL_CNT; TOT_D_P2 = TOT_D_C2 / TOTL_CNT;</p>
+<p>TOT_D_P3 = TOT_D_C3 / TOTL_CNT; TOT_D_P4 = TOT_D_C4 / TOTL_CNT;</p>
+<p>TOT_D_P=TOT_D_P1 + TOT_D_P2;</p>
+<p> </p>
+<p>* CONCATENATE NINE SCENARIOS INTO TEMPORARY FILE 2;</p>
+<p> </p>
+<p>DATA TFILES3;</p>
+<p> </p>
+<p>SET TEMP1;</p>
+<p>KEEP YEAR DIS_AB_S MORT_2 AGE TOTL_CNT MALE_CNT FEM_CNT MAL_D_R1 MAL_D_R2 MAL_D_R3 MAL_D_R4 MAL_D_R FEM_D_R1 FEM_D_R2 FEM_D_R3 FEM_D_R4 FEM_D_R MAL_D_C1 MAL_D_C2 MAL_D_C3 MAL_D_C4 MAL_D_C FEM_D_C1 FEM_D_C2 FEM_D_C3 FEM_D_C4 FEM_D_C TOT_D_C1 TOT_D_C2 TOT_D_C3 TOT_D_C4 TOT_D_C TOT_D_P1 TOT_D_P2 TOT_D_P3 TOT_D_P4 TOT_D_P;</p>
+<p> </p>
+<p>PROC SORT DATA=TFILE3;</p>
+<p>BY YEAR DIS_AB_S MORT_S;</p>
+<p> </p>
+<p>* CREATING FILE 4;</p>
+<p> </p>
+<p>DATA FILE4; SET TFILE3;</p>
+<p>BY YEAR DIS_AB_S MORT_S;</p>
+<p> </p>
+<p>RETAIN SUM_PCP SUM_MALE SUM_FEM S_M_D_C1 S_M_D_C2 S_M_D_C3 S_M_D_C4 S_M_D_C S_F_D_C1 S_F_D_C2 S_F_D_C3 S_F_D_C4 S_F_D_C STD_M_D1 STD_M_D2 STD_M_D3 STD_M_D4 STD_M_D STD_F_D1 STD_F_D2 STD_F_D3 STD_F_D4 STD_F_D;</p>
+<p> </p>
+<p>ARRAY L1 SUM_POP SUM_MALE SUM_FEM S_M_D_C1 S_M_D_C2 S_M_D_C3 S_M_D_C4 S_M_D_C S_F_D_C1 S_F_D_C2 S_F_D_C3 S_F_D_C4 S_F_D_C STD_M_D1 STD_M_D2 STD_M_D3 STD_M_D4 STD_M_D STD_F_D1 STD_F_D2 STD_F_D3 STD_F_D4 STD_F_D;</p>
+<p> </p>
+<p>ARRAY L2 TOTL_CNT MALE_CNT FEM_CNT MAL_D_C1 MAL_D_C2 MAL_D_C3 MAL_D_C4 MAL_D_C FEM_D_C1 FEM_D_C2 FEM_D_C3 FEM_D_C4 FEM_D_C MAL_D_R1 MAL_D_R2 MAL_D_R3 MAL_D_R4 MAL_D_R FEM_D_R1 FEM_D_R2 FEM_D_R3 FEM_D_R4 FEM_D_R;</p>
+<p> </p>
+<p>KEEP YEAR DIS_AB_S MORT_S SUM_POP SUM_MALE SUM_FEM ACT_M_P1 ACT_M_P2 ACT_M_P3 ACT_M_P4 ACT_M_P ACT_F_P1 ACT_F_P2 ACT_F_P3 ACT_F_P4 ACT_F_P S_M_D_C1 S_M_D_C2 S_M_D_C3 S_M_D_C4 S_M_D_C S_F_D_C1 S_F_D_C2 S_F_D_C3 S_F_D_C4 S_F_D_C SUM_C1 SUM_C2 SUM_C3 SUM_C4 SUM_C ACT_P1 ACT_P2 ACT_P3 ACT_P4 ACT_P STD_M_D1 STD_M_D2 STD_M_D3 STD_M_D4 STD_M_D STD_F_D1 STD_F_D2 STD_F_D3 STD_F_D4 STD_F_D STD_D1 STD_D2 STD_D3 STD_D4 STD_D;</p>
+<p> </p>
+<p>********************************* ;</p>
+<p> </p>
+<p>* NOTE N_AGES MUST BE SET = # OF AGE GROUPS SELECTED…</p>
+<p>ALL AGE GROUPS = 32;</p>
+<p> </p>
+<p>N_AGES = 32;</p>
+<p> </p>
+<p>********************************* ;</p>
+<p>IF FIRST.MORT_S THEN DO;</p>
+<p>DO OVER L1;</p>
+<p>L1 = 0;</p>
+<p>END;</p>
+<p>END;</p>
+<p> </p>
+<p>DO OVER L1;</p>
+<p>L1 = L1 + L2;</p>
+<p>END;</p>
+<p> </p>
+<p>IF LAST.MORT_S THEN DO;</p>
+<p>ACT_M_P1 = S_M_D_C1 / SUM_MALE; ACT_M_P2 = S_M_D_C2 / SUM_MALE;</p>
+<p>ACT_M_P3 = S_M_D_C3 / SUM_MALE; ACT_M_P4 = S_M_D_C4 / SUM_MALE;</p>
+<p>ACT_M_P = ACT_M_P1 + ACT_M_P2;</p>
+<p>ACT_F_P1 = S_F_D_C1 / SUM_FEM; ACT_F_P2 = S_F_D_C2 / SUM_FEM;</p>
+<p>ACT_F_P3 = S_F_D_C3 / SUM_FEM; ACT_F_P4 = S_F_D_C4 / SUM_FEM;</p>
+<p>ACT_F_P = ACT_F_P1 + ACT_F_P2;</p>
+<p>SUM_C1 = S_M_D_C1 + S_F_D_C1; SUM_C2 = S_M_D_C2 + S_F_D_C2;</p>
+<p>SUM_C3 = S_M_D_C3 + S_F_D_C3; SUM_C4 = S_M_D_C4 + S_F_D_C4;</p>
+<p>SUM_C = SUM_C1 + SUM_C2;</p>
+<p>ACT_P1 = SUM_C1 / SUM_POP; ACT_P2 = SUM_C2 / SUM_POP;</p>
+<p>ACT_P3 = SUM_C3 / SUM_POP; ACT_P4 = SUM_C4 / SUM_POP;</p>
+<p>ACT_P = ACT_P1 + ACT_P2;</p>
+<p> </p>
+<p>ARRAY L3 STD_M_D1--STD_M_D STD_F_D1--STD_F_D;</p>
+<p>DO OVER L3;</p>
+<p>L3 = L3 / N_AGES;</p>
+<p>END;</p>
+<p>STD_D1 = (STD_M_D1 + STD_F_D1) / 2;</p>
+<p>STD_D2 = (STD_M_D2 + STD_F_D2) / 2;</p>
+<p>STD_D3 = (STD_M_D3 + STD_F_D3) / 2;</p>
+<p>STD_D4 = (STD_M_D4 + STD_F_D4) / 2;</p>
+<p>STD_D = STD_D1 + STD_D2;</p>
+<p>OUTPUT;</p>
+<p>END;</p>
+<p> </p>
+<p>LABEL YEAR = ‘PROJECTION YEAR’;</p>
+<p>LABEL DIS_AB_S = ‘DISABILITY SERIES’;</p>
+<p>LABEL MORT_S = ‘MORTALITY SERIES’;</p>
+<p> </p>
+<p>LABEL SUM_POP = ‘POP 65 AND OLDER’;</p>
+<p>LABEL SUM_MALE = ‘MALES 65 AND OLDER’;</p>
+<p>LABEL SUM_FEM = ‘FEMALES 65 AND OLDER’;</p>
+<p> </p>
+<p>LABEL ACT_M_P = ‘MALE, (% NOT + % LEAST) DISABLED’;</p>
+<p>LABEL ACT_M_P1 = ‘MALE, % NOT DISABLED’;</p>
+<p>LABEL ACT_M_P2 = ‘MALE, % LEAST DISABLED”;</p>
+<p>LABEL ACT_M_P3 = ‘MALE, % MODERATELY DISABLED’;</p>
+<p>LABEL ACT_M_P4 = ‘MALE, % MOST DISABLED’;</p>
+<p>LABEL ACT_F_P = ‘FEMALE, (% NOT + % LEAST) DISABLED’;</p>
+<p>LABEL ACT_F_P1 = ‘FEMALE, % NOT DISABLED’;</p>
+<p>LABEL ACT_F_P2 = ‘FEMALE, % LEAST DISABLED”;</p>
+<p>LABEL ACT_F_P3 = ‘FEMALE, % MODERATELY DISABLED’;</p>
+<p>LABEL ACT_F_P4 = ‘FEMALE, % MOST DISABLED’;</p>
+<p>LABEL S_M_D_C = ‘MALE, COUNT (NOT + LEAST) DISABLED’;</p>
+<p>LABEL S_M_D_C1 = ‘MALE, COUNT NOT DISABLED’;</p>
+<p>LABEL S_M_D_C2 = ‘MALE, COUNT LEAST DISABLED’;</p>
+<p>LABEL S_M_D_C3 = ‘MALE, COUNT MODERATELY DISABLED’;</p>
+<p>LABEL S_M_D_C4 = ‘MALE, COUNT MOST DISABLED’;</p>
+<p>LABEL S_F_D_C = ‘FEMALE, COUNT (NOT + LEAST) DISABLED’;</p>
+<p>LABEL S_F_D_C1 = ‘FEMALE, COUNT NOT DISABLED’;</p>
+<p>LABEL S_F_D_C2 = ‘FEMALE, COUNT LEAST DISABLED’;</p>
+<p>LABEL S_F_D_C3 = ‘FEMALE, COUNT MODERATELY DISABLED’;</p>
+<p>LABEL S_F_D_C4 = ‘FEMALE, COUNT MOST DISABLED’;</p>
+<p>LABEL SUM_C = ‘COUNT (NOT + LEAST) DISABLED’;</p>
+<p>LABEL SUM_C1 = ‘COUNT NOT DISABLED’;</p>
+<p>LABEL SUM_C2 = ‘COUNT LEAST DISABLED’;</p>
+<p>LABEL SUM_C3 = ‘COUNT MODERATELY DISABLED’;</p>
+<p>LABEL SUM_C4 = ‘COUNT MOST DISABLED’;</p>
+<p>LABEL ACT_P = ‘% (NOT + LEAST) DISABLED’;</p>
+<p>LABEL ACT_P1 = ‘% NOT DISABLED’;</p>
+<p>LABEL ACT_P2 = ‘% LEAST DISABLED’;</p>
+<p>LABEL ACT_P3 = ‘% MODERATELY DISABLED’;</p>
+<p>LABEL ACT_P4 = ‘% MOST DISABLED’;</p>
+<p>LABEL STD_M_D = ‘MALE, STANDARD % (NOT + LEAST) DISABLED’;</p>
+<p>LABEL STD_M_D1= ‘MALE, STANDARD % NOT DISABLED’;</p>
+<p>LABEL STD_M_D2= ‘MALE, STANDARD % LEAST DISABLED’;</p>
+<p>LABEL STD_M_D3= ‘MALE, STANDARD % MODERATELY DISABLED’;</p>
+<p>LABEL STD_M_D4= ‘MALE, STANDARD % MOST DISABLED’;</p>
+<p>LABEL STD_F_D = ‘FEMALE, STANDARD % (NOT + LEAST) DISABLED’;</p>
+<p>LABEL STD_F_D1= ‘FEMALE, STANDARD % NOT DISABLED’;</p>
+<p>LABEL STD_F_D2= ‘FEMALE, STANDARD % LEAST DISABLED’;</p>
+<p>LABEL STD_F_D3= ‘FEMALE, STANDARD % MODERATELY DISABLED’;</p>
+<p>LABEL STD_F_D4= ‘FEMALE, STANDARD % MOST DISABLED’;</p>
+<p>LABEL STD_D = ‘STANDARD % (NOT + LEAST) DISABLED’;</p>
+<p>LABEL STD_D1= ‘STANDARD % NOT DISABLED’;</p>
+<p>LABEL STD_D2= ‘STANDARD % LEAST DISABLED’;</p>
+<p>LABEL STD_D3= ‘STANDARD % MODERATELY DISABLED’;</p>
+<p>LABEL STD_D4= ‘STANDARD % MOST DISABLED’;</p>
+<p> </p>
+<p>* FINISHING FILE 3 CONSTRUCTION;</p>
+<p> </p>
+<p>DATA FILE3; MERGE TFILE3 FILE4;</p>
+<p>BY YEAR DIS_AB_S MORT_S;</p>
+<p>KEEP YEAR DIS_AB_S MORT_S AGE TOTL_CNT MALE_CNT FEM_CNT MAL_D_R1 MAL_D_R2 MAL_D_R3 MAL_D_R4 MAL_D_R FEM_D_R1 FEM_D_R2 FEM_D_R3 FEM_D_R4 FEM_D_R MAL_D_C1 MAL_D_C2 MAL_D_C3 MAL_D_C4 MAL_D_C FEM_D_C1 FEM_D_C2 FEM_D_C3 FEM_D_C4 FEM_D_C TOT_D_C1 TOT_D_C2 TOT_D_C3 TOT_D_C4 TOT_D_C TOT_D_P1 TOT_D_P2 TOT_D_P3 TOT_D_P4 TOT_D_P SUM_POP SUM_MALE SUM_FEM S_M_D_C1 S_M_D_C2 S_M_D_C3 S_M_D_C4 S_M_D_C S_F_D_C1 S_F_D_C2 S_F_D_C3 S_F_D_C4 S_F_D_C SUM_C1 SUM_C2 SUM_C3 SUM_C4 SUM_C;</p>
+<p> </p>
+<p>LABEL YEAR = ‘PROJECTION YEAR’;</p>
+<p>LABEL DIS_AB_S = ‘DISABILITY SERIES’;</p>
+<p>LABEL MORT_S = ‘MORTALITY SERIES’;</p>
+<p>LABEL AGE = ‘AGE GROUP’;</p>
+<p>LABEL TOTL_CNT = ‘TOTAL POP -- THIS AGE GRP’;</p>
+<p> </p>
+<p>LABEL MALE_CNT = ‘MALES -- THIS AGE GRP’;</p>
+<p>LABEL FEM_CNT = ‘FEMALES -- THIS AGE GRP’;</p>
+<p>LABEL MAL_D_R = ‘MALE, % (NOT + % LEAST) DISABLED’;</p>
+<p>LABEL MAL_D_R1 = ‘MALE, % NOT DISABLED’;</p>
+<p>LABEL MAL_D_R2 = ‘MALE, % LEAST DISABLED”;</p>
+<p>LABEL MAL_D_R3 = ‘MALE, % MODERATELY DISABLED’;</p>
+<p>LABEL MAL_D_R4 = ‘MALE, % MOST DISABLED’;</p>
+<p>LABEL FEM_D_R = ‘FEMALE, % (NOT + % LEAST) DISABLED’;</p>
+<p>LABEL FEM_D_R1 = ‘FEMALE, % NOT DISABLED’;</p>
+<p>LABEL FEM_D_R2 = ‘FEMALE, % LEAST DISABLED”;</p>
+<p>LABEL FEM_D_R3 = ‘FEMALE, % MODERATELY DISABLED’;</p>
+<p>LABEL FEM_D_R4 = ‘FEMALE, % MOST DISABLED’;</p>
+<p>LABEL MAL_D_C = ‘MALE, COUNT (NOT + LEAST) DISABLED’;</p>
+<p>LABEL MAL_D_C1 = ‘MALE, COUNT NOT DISABLED’;</p>
+<p>LABEL MAL_D_C2 = ‘MALE, COUNT LEAST DISABLED’;</p>
+<p>LABEL MAL_D_C3 = ‘MALE, COUNT MODERATELY DISABLED’;</p>
+<p>LABEL MAL_D_C4 = ‘MALE, COUNT MOST DISABLED’;</p>
+<p>LABEL FEM_D_C = ‘FEMALE, COUNT (NOT + LEAST) DISABLED’;</p>
+<p>LABEL FEM_D_C1 = ‘FEMALE, COUNT NOT DISABLED’;</p>
+<p>LABEL FEM_D_C2 = ‘FEMALE, COUNT LEAST DISABLED’;</p>
+<p>LABEL FEM_D_C3 = ‘FEMALE, COUNT MODERATELY DISABLED’;</p>
+<p>LABEL FEM_D_C4 = ‘FEMALE, COUNT MOST DISABLED’;</p>
+<p>LABEL TOT_D_C = ‘COUNT (NOT + LEAST) DISABLED’;</p>
+<p>LABEL TOT_D_C1 = ‘COUNT NOT DISABLED’;</p>
+<p>LABEL TOT_D_C2 = ‘COUNT LEAST DISABLED’;</p>
+<p>LABEL TOT_D_C3 = ‘COUNT MODERATELY DISABLED’;</p>
+<p>LABEL TOT_D_C4 = ‘COUNT MOST DISABLED’;</p>
+<p>LABEL TOT_D_P = ‘% (NOT + LEAST) DISABLED’;</p>
+<p>LABEL TOT_D_P1 = ‘% NOT DISABLED’;</p>
+<p>LABEL TOT_D_P2 = ‘% LEAST DISABLED’;</p>
+<p>LABEL TOT_D_P3 = ‘% MODERATELY DISABLED’;</p>
+<p>LABEL TOT_D_P4 = ‘% MOST DISABLED’;</p>
+<p> </p>
+<p>LABEL SUM_POP = ‘POP 65 AND OLDER’;</p>
+<p>LABEL SUM_MALE = ‘MALES 65 AND OLDER’;</p>
+<p>LABEL SUM_FEM = ‘FEMALES 65 AND OLDER’;</p>
+<p>LABEL S_M_D_C = ‘65+ - MALE, COUNT (NOT+LEAST) DISABLED’;</p>
+<p>LABEL S_M_D_C1 = ‘65+ - MALE, COUNT NOT DISABLED’;</p>
+<p>LABEL S_M_D_C2 = ‘65+ - MALE, COUNT LEAST DISABLED’;</p>
+<p>LABEL S_M_D_C3 = ‘65+ - MALE, COUNT MODERATELY DISABLED’;</p>
+<p>LABEL S_M_D_C4 = ‘65+ - MALE, COUNT MOST DISABLED’;</p>
+<p>LABEL S_F_D_C = ‘65+ - FEMALE, COUNT (NOT+LEAST) DISABLED’;</p>
+<p>LABEL S_F_D_C1 = ‘65+ - FEMALE, COUNT NOT DISABLED’;</p>
+<p>LABEL S_F_D_C2 = ‘65+ - FEMALE, COUNT LEAST DISABLED’;</p>
+<p>LABEL S_F_D_C3 = ‘65+ - FEMALE, COUNT MODERATELY DISABLED’;</p>
+<p>LABEL S_F_D_C4 = ‘65+ - FEMALE, COUNT MOST DISABLED’;</p>
+<p>LABEL SUM_C = ‘65+ - COUNT (NOT+LEAST) DISABLED’;</p>
+<p>LABEL SUM_C1 = ‘65+ - COUNT NOT DISABLED’;</p>
+<p>LABEL SUM_C2 = ‘65+ - COUNT LEAST DISABLED’;</p>
+<p>LABEL SUM_C3 = ‘65+ - COUNT MODERATELY DISABLED’;</p>
+<p>LABEL SUM_C4 = ‘65+ - COUNT MOST DISABLED’;</p>
+<p>CMS FIL5DEF FILE3 DISK FILE310 SYSFILE;</p>
+<p>DATA FILE3.FILE310;</p>
+<p>SET FILE3;</p>
+<p>CMS FILEDEF FILE4 DISK FILE410 SYSFILE;</p>
+<p>DATA FILE4.FILE410;</p>
+<p>SET FILE4;</p>
+<p> </p>
+<h3>PROGRAM NAME: PRGRAM 20 and PRGRAM 30</h3>
+<ul><li>Sample programs to present data from projections in tabular and graph form</li>
+</ul><p>FILE: PRGRAM20     SAS     A     MIAMI UNIVERSITY VM/CMS REL 5</p>
+<p> </p>
+<p>TITLE1 ‘THIS IS THE 10TH SCENARIO WITH BASELINE, CONTINUATION OF ‘;</p>
+<p>TITLE2 ‘CURRENT, MORTALITY, “1”, AND INCREASE IN DISABILITY, “4”, ‘;</p>
+<p>TITLE3 ‘THE INCREASE IN DISABILITY IS 7.5% FROM 1985 TO 2010 AND NO’;</p>
+<p>TITLE4 ‘CHANGE FROM 2010 TO 2040’;</p>
+<p> </p>
+<p>**************** PROGRAM II ***********************;</p>
+<p>CMS FILEDEF FILE3 DISK FILE310 FILE 3 A;</p>
+<p>DATA FILE3; SET FILE3.FILE310;</p>
+<p>************************************************;</p>
+<p> </p>
+<p>* IF YOU WANT TO SELECT A CERTAIN SENARIO(S) FOR THIS RUN THEN SELECT ON DIS_AB_S &amp; MORT_S IN FOLLOWING EXAMPLE IF STATEMENT. SAME IF STATEMENT COULD SELECT PROJECTION YEAR IF DESIRED. NOT REMOVE COMMENT ASTERISK…;</p>
+<p> </p>
+<p>* YEAR = ‘PROJECTION YEAR’;</p>
+<p>* DIS_AB_S = ‘DISABILITY SERIES’;</p>
+<p>* MORT_S = ‘MORTALITY SERIES’;</p>
+<p>* AGE = ‘AGE GROUP’;</p>
+<p>* TOT_CNT = ‘TOTAL POP -- THIS AGE GRP’;</p>
+<p>* MALE_CNT = ‘MALES -- THIS AGE GRP’;</p>
+<p>* FEM_CNT = ‘FEMALES -- THIS AGE GRP’;</p>
+<p>* MAL_D_R = ‘MALE, % (NOT+LEAST) DISABLED’;</p>
+<p>* MAL_D_R1 = ‘MALE, % NOT DISABLED’;</p>
+<p>* MAL_D_R2 = ‘MALE, % LEAST DISABLED’;</p>
+<p>* MAL_D_R3 = ‘MALE, % MODERATELY DISABLED’;</p>
+<p>* MAL_D_R4 = ‘MALE, % MOST DISABLED’;</p>
+<p>* FEM_D_R = ‘FEMALE, % (NOT+LEAST) DISABLED’;</p>
+<p>* FEM_D_R1 = ‘FEMALE, % NOT DISABLED’;</p>
+<p>* FEM_D_R2 = ‘FEMALE, % LEAST DISABLED’;</p>
+<p>* FEM_D_R3 = ‘FEMALE, % MODERATELY DISABLED’;</p>
+<p>* FEM_D_R4 = ‘FEMALE, % MOST DISABLED’;</p>
+<p>* MAL_D_C = ‘MALE, COUNT (NOT+LEAST) DISABLED’;</p>
+<p>* MAL_D_C1 = ‘MALE, COUNT NOT DISABLED’;</p>
+<p>* MAL_D_C2 = ‘MALE, COUNT LEAST DISABLED’;</p>
+<p>* MAL_D_C3 = ‘MALE, COUNT MODERATELY DISABLED’;</p>
+<p>* MAL_D_C4 = ‘MALE, COUNT MOST DISABLED’;</p>
+<p>* FEM_D_C = ‘FEMALE, COUNT (NOT+LEAST) DISABLED’;</p>
+<p>* FEM_D_C1 = ‘FEMALE, COUNT NOT DISABLED’;</p>
+<p>* FEM_D_C2 = ‘FEMALE, COUNT LEAST DISABLED’;</p>
+<p>* FEM_D_C3 = ‘FEMALE, COUNT MODERATELY DISABLED’;</p>
+<p>* FEM_D_C4 = ‘FEMALE, COUNT MOST DISABLED’;</p>
+<p>* TOT_D_C = ‘COUNT (NOT+LEAST) DISABLED’;</p>
+<p>* TOT_D_C1 = ‘COUNT NOT DISABLED’;</p>
+<p>* TOT_D_C2 = ‘COUNT LEAST DISABLED’;</p>
+<p>* TOT_D_C3 = ‘COUNT MODERATELY DISABLED’;</p>
+<p>* TOT_D_C4 = ‘COUNT MOST DISABLED’;</p>
+<p>* TOT_D_P = ‘% (NOT+LEAST) DISABLED’;</p>
+<p>* TOT_D_P1 = ‘% NOT DISABLED’;</p>
+<p>* TOT_D_P2 = ‘% LEAST DISABLED’;</p>
+<p>* TOT_D_P3 = ‘% MODERATELY DISABLED’;</p>
+<p>* TOT_D_P4 = ‘% MOST DISABLED’;</p>
+<p>* SUM_POP = ‘POP 65 AND OLDER’;</p>
+<p>* SUM_MALE = ‘MALES 65 AND OLDER’;</p>
+<p>* SUM_FEM = ‘FEMALES 65 AND OLDER’;</p>
+<p>* S_M_D_C = ‘65+ -- MALE, COUNT (NOT+LEAST) DISABLED’;</p>
+<p>* S_M _D_C1 = ‘65+ -- MALE, COUNT NOT DISABLED’;</p>
+<p>* S_M _D_C2 = ‘65+ -- MALE, COUNT LEAST DISABLED’;</p>
+<p>* S_M _D_C3 = ‘65+ -- MALE, COUNT MODERATELY DISABLED’;</p>
+<p>* S_M _D_C4 = ‘65+ -- MALE, COUNT MOST DISABLED’;</p>
+<p>* S_F_D_C = ‘65+ -- FEMALE, COUNT (NOT+LEAST) DISABLED’;</p>
+<p>* S_F _D_C1 = ‘65+ -- FEMALE, COUNT NOT DISABLED’;</p>
+<p>* S_F _D_C2 = ‘65+ -- FEMALE, COUNT LEAST DISABLED’;</p>
+<p>* S_F _D_C3 = ‘65+ -- FEMALE, COUNT MODERATELY DISABLED’;</p>
+<p>* S_F _D_C4 = ‘65+ -- FEMALE, COUNT MOST DISABLED’;</p>
+<p>* SUM_C = ‘65+ -- COUNT (NOT+LEAST) DISABLED’;</p>
+<p>* SUM_C1 = ‘65+ -- COUNT NOT DISABLED’;</p>
+<p>* SUM_C2 = ‘65+ -- COUNT LEAST DISABLED’;</p>
+<p>* SUM_C3 = ‘65+ -- COUNT MODERATELY DISABLED’;</p>
+<p>* SUM_C4 = ‘65+ -- COUNT MOST DISABLED’;</p>
+<p> </p>
+<p>*************************************************;</p>
+<p> </p>
+<p>* TO PRINT A TYPE OF ITEM BY AGE AND SEX OR BY AGE FOR ALL OR SELECTED SENARIOS</p>
+<p> </p>
+<p>NAME ITEMS ON VAR CARD;</p>
+<p> </p>
+<p>* LEAVE AGE IN FIRST POSITION ON VAR CARD TO GET AGE GROUP NOTATION PRINTED ON OUTPUT;</p>
+<p> </p>
+<p>* NOTE CAN SUM VARIABLE OVER AGE CASES WITH SUM STATEMENT IN PROC PRINT BY NAMING VARIABLE ON SUM CARD (REMEMBER SUM ONLY COUNTS, NOT RATES);</p>
+<p> </p>
+<p>PROC SORT;</p>
+<p>BY DIS_AB_S MORT_S YEAR AGE;</p>
+<p> </p>
+<p>PROC PRINT;</p>
+<p>VAR AGE TOT_D_C1 TOT_D_C2 TOT_D_C TOT_D_C3 TOT_D_C4 TOT_D_P1 TOT_D_P2 TOT_D_P TOT_D_P3 TOT_D_P4;</p>
+<p>SUM TOT_D_C1 TOT_D_C2 TOT_D_C TOT_D_C3 TOT_D_C4;</p>
+<p>BY DIS_AB_S MORT_S YEAR;</p>
+<p>**************************************************;</p>
+<p> </p>
+<p>TITLE1 ‘THIS IS THE 10TH SCENARIO WITH BASELINE, CONTINUATION OF ‘;</p>
+<p>TITLE2 ‘CURRENT, MORTALITY, “1”, AND INCREASE IN DISABILITY, “4”, ‘;</p>
+<p>TITLE3 ‘THE INCREASE IN DISABILITY IS 7.5% FROM 1985 TO 2010 AND NO’;</p>
+<p>TITLE4 ‘CHANGE FROM 2010 TO 2040’;</p>
+<p> </p>
+<p>**************** PROGRAM III ***********************;</p>
+<p>CMS FILEDEF FILE4 DISK FILE410 FILE 4;</p>
+<p>DATA FILE4; SET FILE4.FILE410;</p>
+<p>**************** PROGRAM III ***********************;</p>
+<p> </p>
+<p>* VARIABLES ARE:</p>
+<p>YEAR DIS_AB_S MORT_S SUM_POP SUM_MALE SUM_FEM ACT_M_P1 ACT_M_P2 ACT_M_P3 ACT_M_P4 ACT_M_P ACT_F_P1 ACT_F_P2 ACT_F_P3 ACT_F_P4 ACT_F_P S_M_D_C1 S_M_D_C2 S_M_D_C3 S_M_D_C4 S_M_D_C S_F_D_C1 S_F_D_C2 S_F_D_C3 S_F_D_C4 S_F_D_C SUM_C1 SUM_C2 SUM_C3 SUM_C4 SUM_C ACT_P1 ACT_P2 ACT_P3 ACT_P4 ACT_P STD_M_D1 STD_M_D2 STD_M_D3 STD_M_D4 STD_M_D STD_F_D1 STD_F_D2 STD_F_D3 STD_F_D4 STD_F_D STD_D1 STD_D2 STD_D3 STD_D4 STD_D;</p>
+<p> </p>
+<p>* YEAR = ‘PROJECTION YEAR’;</p>
+<p>* DIS_AB_S = ‘DISABILITY SERIES’;</p>
+<p>* MORT_S = ‘MORTALITY SERIES’;</p>
+<p> </p>
+<p>* SUM_POP = ‘POP 65 AND OLDER’;</p>
+<p>* SUM_MALE = ‘MALES 65 AND OLDER’;</p>
+<p>* SUM_FEM = ‘FEMALES 65 AND OLDER’;</p>
+<p> </p>
+<p>* ACT_M_P = ‘MALE, % (NOT + LEAST) DISABLED’;</p>
+<p>* ACT_M_P1 = ‘MALE, % NOT DISABLED’;</p>
+<p>* ACT_M_P2 = ‘MALE, % LEAST DISABLED’;</p>
+<p>* ACT_M_P3 = ‘MALE, % MODERATELY DISABLED’;</p>
+<p>* ACT_M_P4 = ‘MALE, % MOST DISABLED’;</p>
+<p>* ACT_F_P = ‘FEMALE, % (NOT + LEAST) DISABLED’;</p>
+<p>* ACT_F_P1 = ‘FEMALE, % NOT DISABLED’;</p>
+<p>* ACT_F_P2 = ‘FEMALE, % LEAST DISABLED’;</p>
+<p>* ACT_F_P3 = ‘FEMALE, % MODERATELY DISABLED’;</p>
+<p>* ACT_F_P4 = ‘FEMALE, % MOST DISABLED’;</p>
+<p> </p>
+<p>* S_M_D_C = ‘MALE, COUNT (NOT + LEAST) DISABLED’;</p>
+<p>* S_M_D_C1 = ‘MALE, COUNT NOT DISABLED’;</p>
+<p>* S_M_D_C2 = ‘MALE, COUNT LEAST DISABLED’;</p>
+<p>* S_M_D_C3 = ‘MALE, COUNT MODERATELY DISABLED’;</p>
+<p>* S_M_D_C4 = ‘MALE, COUNT MOST DISABLED’;</p>
+<p>* S_F_D_C = ‘FEMALE, COUNT (NOT + LEAST) DISABLED’;</p>
+<p>* S_F_D_C1 = ‘FEMALE, COUNT NOT DISABLED’;</p>
+<p>* S_F_D_C2 = ‘FEMALE, COUNT LEAST DISABLED’;</p>
+<p>* S_F_D_C3 = ‘FEMALE, COUNT MODERATELY DISABLED’;</p>
+<p>* S_F_D_C4 = ‘FEMALE, COUNT MOST DISABLED’;</p>
+<p> </p>
+<p>* SUM_C = ‘COUNT (NOT + LEAST) DISABLED’;</p>
+<p>* SUM_C1 = ‘COUNT NOT DISABLED’;</p>
+<p>* SUM_C2 = ‘COUNT LEAST DISABLED’;</p>
+<p>* SUM_C3 = ‘COUNT MODERATELY DISABLED’;</p>
+<p>* SUM_C4 = ‘COUNT MOST DISABLED’;</p>
+<p> </p>
+<p>* ACT_P = ‘% (NOT + LEAST) DISABLED’;</p>
+<p>* ACT_P1 = ‘% NOT DISABLED’;</p>
+<p>* ACT_P2 = ‘% LEAST DISABLED’;</p>
+<p>* ACT_P3 = ‘% MODERATELY DISABLED’;</p>
+<p>* ACT_P4 = ‘% MOST DISABLED’;</p>
+<p> </p>
+<p>* STD_M_D = ‘MALE, STANDARD % (NOT + LEAST) DISABLED’;</p>
+<p>* STD_M_D1= ‘MALE, STANDARD % NOT DISABLED’;</p>
+<p>* STD_M_D2= ‘MALE, STANDARD % LEAST DISABLED’;</p>
+<p>* STD_M_D3= ‘MALE, STANDARD % MODERATELY DISABLED’;</p>
+<p>* STD_M_D4= ‘MALE, STANDARD % MOST DISABLED’;</p>
+<p> </p>
+<p>* STD_F_D = ‘FEMALE, STANDARD % (NOT + LEAST) DISABLED’;</p>
+<p>* STD_F_D1= ‘FEMALE, STANDARD % NOT DISABLED’;</p>
+<p>* STD_F_D2= ‘FEMALE, STANDARD % LEAST DISABLED’;</p>
+<p>* STD_F_D3= ‘FEMALE, STANDARD % MODERATELY DISABLED’;</p>
+<p>* STD_F_D4= ‘FEMALE, STANDARD % MOST DISABLED’;</p>
+<p> </p>
+<p>* STD_D = ‘STANDARD % (NOT + LEAST) DISABLED’;</p>
+<p>* STD_D1= ‘STANDARD % NOT DISABLED’;</p>
+<p>* STD_D2= ‘STANDARD % LEAST DISABLED’;</p>
+<p>* STD_D3= ‘STANDARD % MODERATELY DISABLED’;</p>
+<p>* STD_D4= ‘STANDARD % MOST DISABLED’;</p>
+<p> </p>
+<p>************************************************;</p>
+<p> </p>
+<p>* IF YOU WANT TO SELECT A CERTAIN SENARIO(S) FOR THIS RUN THEN SELECT ON DIS_AB_S &amp; MORT_S IN FOLLOWING EXAMPLE IF STATEMENT. NOTE REMOVE COMMENT ASTERISK…;</p>
+<p> </p>
+<p>*************************************************;</p>
+<p> </p>
+<p>* TO PRINT A TYPE OF ITEM BY YEAR FOR ALL OR SELECTED SENARIOS, NAME ITEMS ON VAR CARD;</p>
+<p> </p>
+<p>PROC SORT DATA=FILE4;</p>
+<p>BY DIS_AB_S MORT_S YEAR;</p>
+<p> </p>
+<p>PROC PRINT;</p>
+<p>VAR SUM_POP SUM_MALE SUM_FEM STD_D1 STD_D2 STD_D STD_D3 STD_D4;</p>
+<p>BY DIS_AB_S MORT_S YEAR;</p>
+<p>**************************************************;</p>
+<p> </p>
+<p>* TO PLOT TREND IN VARIABLE OVER TIME HORIZON REQUIRES STATING VARIABLE*YEAR ON PLOT CARD. OVERLAYS FOR SEVERAL VARIABLES ARE POSSIBLE THRU OVERLAY OPTION. TITLE CARD CONTAINS MESSAGE IN QUOTES;</p>
+<p> </p>
+<h2><a name="notes" id="notes">NOTES</a></h2>
+<ol><li>
+<p><a name="note1" id="note1">See</a> <a href="http://aspe.hhs.gov/daltcp/reports/agsoces.htm">http://aspe.hhs.gov/daltcp/reports/agsoces.htm</a>.</p>
+</li>
+<li>
+<p><a name="note2" id="note2">See</a> <a href="http://aspe.hhs.gov/daltcp/reports/agsoces.htm">http://aspe.hhs.gov/daltcp/reports/agsoces.htm</a>.</p>
+</li>
+<li>
+<p><a name="note3" id="note3">References</a> for these data sources are given in Table T1.</p>
+</li>
+<li>
+<p><a name="note4" id="note4">See</a> <a href="#note3">Footnote #3</a>.</p>
+</li>
+</ol>
+  <div class="download_report">
+    
+                        <div class="pdf-prev">
+                <img src="https://aspe.hhs.gov/system/files/pdfpreview/c371dfb2fc5e13d6ad0ed33b63d5e569.png" alt="Preview" title="Preview" />            </div>
+                <a class="btn btn-sm btn-default download-file"
+           href="https://aspe.hhs.gov/system/files/pdf/73811/agsoces.pdf">Download</a>
+
+        <p class="download_title">&quot;agsoces.pdf&quot;
+            (pdf,
+            1.41Mb)</p>
+        <p>Note: Documents in PDF format require the <a href="http://www.adobe.com/products/acrobat/readstep2.html">Adobe
+                Acrobat Reader&reg;</a>. If you experience problems with PDF documents, please <a
+                href="http://www.adobe.com/products/acrobat/readstep2.html">download the latest version of the
+                Reader&reg;</a>
+        </p>
+    </div>
+<div class="download_report">
+    
+                        <div class="pdf-prev">
+                <img src="https://aspe.hhs.gov/system/files/pdfpreview/b86a6104d8c6dcbbcee67e3f1735262a.png" alt="Preview" title="Preview" />            </div>
+                <a class="btn btn-sm btn-default download-file"
+           href="https://aspe.hhs.gov/system/files/pdf/73811/agsocestd.pdf">Download</a>
+
+        <p class="download_title">&quot;agsocestd.pdf&quot;
+            (pdf,
+            1.79Mb)</p>
+        <p>Note: Documents in PDF format require the <a href="http://www.adobe.com/products/acrobat/readstep2.html">Adobe
+                Acrobat Reader&reg;</a>. If you experience problems with PDF documents, please <a
+                href="http://www.adobe.com/products/acrobat/readstep2.html">download the latest version of the
+                Reader&reg;</a>
+        </p>
+    </div>
+<div class="group-tags"><div class="field-label">Tags:&nbsp;</div><a href="/terms/data-sources-and-statistics">Data Sources and Statistics</a><a href="/terms/morbidity-and-mortality">Morbidity and Mortality</a><a href="/terms/disability-aging-and-long-term-care-research">Disability, Aging and Long-Term Care Research</a><a href="/terms/publications-2">Publications</a><a href="/terms/long-term-care">Long-Term Care</a></div>  </div>
+
+      <footer>
+          </footer>
+  
+    <div id="block-webform-client-block-158521" class="widget block block-webform" >
+  
+      
+  <div id="webform-ajax-wrapper-158521"><form class="webform-client-form webform-client-form-158521" action="/basic-report/estimating-prevalence-long-term-disability-aging-society" method="post" id="webform-client-form-158521" accept-charset="UTF-8"><div><div class="webform-progressbar">
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-radios webform-component--was-this-page-helpful">
+  <label for="edit-submitted-was-this-page-helpful">Was this page helpful? <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-was-this-page-helpful" class="form-radios"><div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-1" name="submitted[was_this_page_helpful]" value="1" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-1">Yes </label>
+
+</div>
+<div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-2" name="submitted[was_this_page_helpful]" value="0" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-2">No </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="4" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-JIATTT3fiqcPApm369A8cSj47J-1Oo-Lsn6RFU3j6Wg" />
+<input type="hidden" name="form_id" value="webform_client_form_158521" />
+<input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-158521" />
+<div class="form-actions"><input class="webform-next button-primary btn btn-default form-submit" type="submit" id="edit-webform-ajax-next-158521" name="op" value="Next &gt;" /></div>
+<div class="is-useful-disclaimer"> <a href="/%23" class="" title="Survey Disclaimer" data-toggle="modal" data-target="#disclamerModal">Form Approved OMB# 0990-0379 Exp. Date 8/31/2017</a></div>
+<div class="modal fade" id="disclamerModal" tabindex="-1" role="dialog" aria-labelledby="disclamerModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="disclamerModalLabel">Survey Disclaimer</h2>
+      </div>
+      <div class="modal-body">
+         According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this information collection is 0990-0379. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, gather the data needed, and complete and review the information collection. If you have comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: U.S. Department of Health & Human Services, OS/OCIO/PRA, 200 Independence Ave., S.W., Suite 336-E, Washington D.C. 20201, Attention: PRA Reports Clearance Officer.      </div>
+    </div>
+  </div>
+</div></div></form></div>
+  </div> <!-- /.block -->
+<meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/estimating-prevalence-long-term-disability-aging-society" itemref="md1" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/estimating-prevalence-long-term-disability-aging-society" itemref="md2 md3 md5 md7 md9 md11 md13" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/data-sources-and-statistics" id="md5" itemref="md4" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/morbidity-and-mortality" id="md7" itemref="md6" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/disability-aging-and-long-term-care-research" id="md9" itemref="md8" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/publications-2" id="md11" itemref="md10" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/long-term-care" id="md13" itemref="md12" />              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <footer  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Footer">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  id="footer_sitemap-footer_sitemap" class="col-sm-6 col-md-6 col-lg-4 ">
+                          
+                              <div id="block-footer-sitemap-footer-sitemap" class="widget block block-footer-sitemap" >
+  
+      
+  <div id="footer-sitemap" class="clearfix">
+  <div class="fs-block-content"><div class="menu-footer-utility"><ul class="footer_links_menu-footer-utility total-items-2 parent-items-0 single-items-0"><li class="menu-5021 depth-1 total-children-8 parent-children-0 single-children-8  first"><a href="/" title="look at ASPE Home" class="fs-root-link">ASPE Home</a><ul class="footer_links_menu-footer-utility total-items-8 parent-items-0 single-items-0"><li class="menu-5026 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/" title="look at HHS Home">HHS Home</a></li>
+<li class="menu-66281 depth-1 fs-no-children"><a href="http://www.usa.gov/" title="look at USA.gov">USA.gov</a></li>
+<li class="menu-66316 depth-1 fs-no-children"><a href="https://oig.hhs.gov/" title="look at Office of the Inspector General">Office of the Inspector General</a></li>
+<li class="menu-66321 depth-1 fs-no-children"><a href="http://www.whitehouse.gov" title="look at The White House">The White House</a></li>
+<li class="menu-5046 depth-1 fs-no-children"><a href="http://www.hhs.gov/Accessibility.html" title="look at Accessibility">Accessibility</a></li>
+<li class="menu-66326 depth-1 fs-no-children"><a href="http://www.hhs.gov/about/budget/index.html" title="look at Budget/Performance">Budget/Performance</a></li>
+<li class="menu-2551 depth-1 fs-no-children"><a href="http://www.hhs.gov/Privacy.html" title="look at Privacy Policy">Privacy Policy</a></li>
+<li class="menu-197776 depth-1 fs-no-children  last"><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" title="Nondiscrimination Notice">Nondiscrimination Notice</a></li>
+</ul></li>
+<li class="menu-5051 depth-1 total-children-4 parent-children-0 single-children-4  last"><a href="http://www.hhs.gov/foia/" title="look at FOIA" class="fs-root-link">FOIA</a><ul class="footer_links_menu-footer-utility total-items-4 parent-items-0 single-items-0"><li class="menu-5056 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/open/recordsandreports/plainwritingact/index.html" title="look at Plain Writing Act">Plain Writing Act</a></li>
+<li class="menu-5061 depth-1 fs-no-children"><a href="http://www.hhs.gov/asa/eeo/no_fear_bullet_3.html" title="look at No Fear Act">No Fear Act</a></li>
+<li class="menu-5066 depth-1 fs-no-children"><a href="http://www.hhs.gov/Disclaimer.html" title="look at Disclaimers">Disclaimers</a></li>
+<li class="menu-2546 depth-1 fs-no-children  last"><a href="http://www.hhs.gov/plugins.html" title="look at Viewers &amp; Players">Viewers &amp; Players</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-5 " id="stability_cms-contact_us">
+                          
+                              <div id="block-stability-cms-contact-us" class="widget block block-stability-cms" >
+  
+      
+  <div class="contacts-widget widget widget__footer">
+	<div class="widget-content">
+		<ul class="contacts-info-list">
+      			<li>
+<!--				<i class="fa fa-map-marker">Address</i>-->
+                <div class="info-icons">
+                    <img  alt="map" class= 'map-icons' src="/sites/all/themes/stability/stability_aspe/images/map.png"/>
+                </div>
+                <div class="info-item">
+					Assistant Secretary for Planning and Evaluation, Room 415F<br />
+U.S. Department of Health and Human Services<br />
+200 Independence Avenue, SW<br />
+Washington, D.C. 20201				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-phone">phone</i>-->
+                <div class="info-icons">
+                    <img alt="phone" src="/sites/all/themes/stability/stability_aspe/images/phone.png"/>
+                </div>
+				<div class="info-item">
+					+1 202.690.7858				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-envelope">email</i>-->
+                <div class="info-icons">
+                    <img alt="mail" src="/sites/all/themes/stability/stability_aspe/images/mail-white.png"/>
+                </div>
+				<span class="info-item">
+					<a href="mailto:osaspeinfo@hhs.gov">osaspeinfo@hhs.gov</a>
+				</span>
+			</li>
+      			                					</ul>
+	</div>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-3 " id="footer">
+                          
+                              <div id="block-block-36" class="widget block block-block" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sign-up</span> for Email Updates</h3>
+		</div>
+    
+  <div class="email_updates">
+<button class="btn btn-default" name="subscribe-button" type="submit" value="subscribe">subscribe</button>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-12 " id="menu-menu-footer-language-menu">
+                          
+                              <div id="block-menu-menu-footer-language-menu" class="widget block block-menu" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Language</span> Assistance Available</h3>
+		</div>
+    
+  <ul class="menu"><li class="first expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#spanish" title="Español">Español</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#chinese" title="繁體中文">繁體中文</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#vietnamese" title="Tiếng Việt">Tiếng Việt</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#korean" title="한국어">한국어</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#tagalog" title="Tagalog">Tagalog</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#russian" title="Русский">Русский</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#arabic" title="العربية">العربية</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#creole" title="Kreyòl Ayisyen">Kreyòl Ayisyen</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#french" title="Français">Français</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#polish" title="Polski">Polski</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#portuguese" title="Português">Português</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#italian" title="Italiano">Italiano</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#german" title="Deutsch">Deutsch</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#japanese" title="日本語">日本語</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#farsi" title="فارسی">فارسی</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#english" title="English">English</a></li>
+</ul></li>
+</ul>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+      </div>
+
+          </div>
+    
+    
+      </footer>
+    
+
+    <!--/PAGEWATCH-->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+                        </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="social-links-wrapper">
+              <span class="social-links-txt">Connect with us</span>
+              <ul class="social-links social-links__dark">
+                                                  <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw-grey.png"/></a></li>
+                                <!--                --><!--                  <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin-grey.png"/></a></li>-->
+<!--                -->
+                                                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>  <script type="text/javascript" src="/sites/default/files/advagg_js/js__VWRymaMz6HfrhnrcJNGcDiSvLVrvhaXvBa7nrBYy8gc__jntPwP3D6myJZH1jW19fXrk5cYMHGRL8NQION22VSEA__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5486d15a696bff0c"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__g6mKbcakHxQkz4ZHYaxdO_xqONINvRMgsHh1zAK-fr0__ATHtEmHaeZ0jidpGU22EkhmPDBSgjD8z0bVDQMI-BIY__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__KUp4PrfOt9BSXUVl8Ctb3dhCMBe4MNVMeb4Gyorx8yY__7g4BeXscCIZAfuu1vxsCj2RIemg-eEK0QpChP9LDmFQ__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__PNjAgubM_3xXRLp4uLsYnv8wQAdT89-RYkSPxT6T45c__rFQwFK4pA5ZaWZSF7FPTfKbbpus0h-5IS8ayrNZGrb4__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__vQiLul2UcfC4nBAR09mhYVBYzRmiNDm2dj3GgSubV38__w84oZe-ZODKe7XnnlbrjV4IWHISOy4PioFEMVgx9hZo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__QJw3g0kOdwsv4twSZLP931zBzsHy50VEHpEN_znIitQ__A6QOuWXElDipBM2iChbWhjAAt3KlUwZ-jODoxdpbwiw__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stability_aspe","theme_token":"vX6LBfJVltG9CuXRXR8OrOaRRaX2kSvLxNDnjJMlzis","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/footable.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/aspe_nodes.admin.css":1,"sites\/all\/modules\/custom\/aspe_views\/theme\/css\/aspe_views.admin.css":1,"sites\/all\/modules\/forked\/book\/book.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/openpublic\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.css":1,"profiles\/openpublic\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openpublic\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/openpublic\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/themes\/stability\/css\/bootstrap.min.css":1,"sites\/all\/themes\/stability\/css\/fonts\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.theme.css":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/stability\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/stability\/css\/theme.css":1,"sites\/all\/themes\/stability\/css\/theme-elements.css":1,"sites\/all\/themes\/stability\/css\/animate.min.css":1,"sites\/all\/themes\/stability\/css\/skins\/red.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/slideshow.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/font-main.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/styleless.less":1,"sites\/all\/themes\/stability\/css\/skins\/blue.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/aspe\/theme\/js\/aspe.login-confirm.js":1,"sites\/all\/modules\/custom\/aspe_report\/modules\/aspe_databooks\/js\/aspe_databooks.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.highcharts.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/datatables\/dataTables.min.js":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.min.js":1,"sites\/all\/libraries\/highcharts\/highcharts.js":1,"sites\/all\/libraries\/highcharts\/highcharts.exporting.js":1,"sites\/all\/libraries\/highcharts\/highcharts.map.js":1,"sites\/all\/libraries\/highcharts\/highcharts.us-all.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.footable.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5486d15a696bff0c":1,"misc\/progress.js":1,"profiles\/openpublic\/modules\/contrib\/webform\/js\/webform.js":1,"profiles\/openpublic\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/stability\/vendor\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/stability\/vendor\/bootstrap.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flexnav.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flickrfeed.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.sloppy-masonry.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.fitvids.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.stellar.min.js":1,"sites\/all\/themes\/stability\/vendor\/snap.svg-min.js":1,"sites\/all\/themes\/stability\/js\/custom.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/aspe.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/html5shiv.min.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/main-menu.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/keyboard-control.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tabBehavior.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tileStringTrimmer.js":1}},"webform":{"conditionals":{"webform-client-form-158521":{"ruleGroups":[],"sourceMap":[],"values":[]}}},"ajax":{"edit-webform-ajax-next-158521":{"callback":"webform_ajax_callback","wrapper":"webform-ajax-wrapper-158521","progress":{"message":"","type":"throbber"},"event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Next \u003E"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/basic-report\/estimating-prevalence-long-term-disability-aging-society":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"([a-z0-9]\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This website contains links to other federal and state agencies and private organizations. The Department of Health and Human Services (HHS) cannot attest to the accuracy of information provided by these nonfederal website links. Linking to nonfederal sites does not constitute an endorsement by HHS or any of its employees of the sponsors or the information and products presented on the sites. You will be subject to the destination site\u0027s privacy policy when you leave the ASPE website.\r\n\r\nThank you for visiting aspe.hhs.gov!","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"stability":{"flickr_id":"52617155@N08","logo_sticky":"28"},"field_group":{"div":"full","hidden":"full"}});
+//--><!]]>
+</script>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config={pubid:"ra-5486d15a696bff0c",ui_click:false}
+//--><!]]>
+</script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4837db659","applicationID":"10708002","transactionName":"MwNaZBRSXEtXB0BdWQpJbUIPHFtWUgFMGkYMFg==","queueTime":0,"applicationTime":57,"atts":"H0RZElxIT0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

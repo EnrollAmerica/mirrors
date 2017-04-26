@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">  <!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://aspe.hhs.gov/sites/default/files/Favicon2.png" type="image/png" />
+<meta name="description" content="U.S. Department of Health and Human Services" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://aspe.hhs.gov/execsum/physician-practices-nursing-homes-final-report" />
+<link rel="shortlink" href="https://aspe.hhs.gov/node/99896" />
+<meta property="og:site_name" content="ASPE" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aspe.hhs.gov/execsum/physician-practices-nursing-homes-final-report" />
+<meta property="og:title" content="Physician Practices in Nursing Homes: Final Report" />
+<meta property="og:description" content="U.S. Department of Health and Human Services" />
+<meta property="og:updated_time" content="2015-12-12T03:50:29-05:00" />
+<meta property="article:published_time" content="2015-12-09T05:08:41-05:00" />
+<meta property="article:modified_time" content="2015-12-12T03:50:29-05:00" />
+
+  <title>Physician Practices in Nursing Homes: Final Report | ASPE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+  <link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__5ln8neBOcJfyUveiD4y9fhI6kHBLOQ_YL0mMC-LS9a0__TPJIZT9UBnf_685NlFTJ5KnZVsjwFk6ACQ-nwwygmwU__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ng49uRH5y4Hl9VF9hHW_vXOj-mcOc2u2ShJqJ1YKIGU__FoMCD14GBvZaRiqSQ_JpP1w3rDB21n7H2Ar4pRZaIh8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__Hskudx14OJ5Hz8vqU7CUgN6SDV5rINZuEq9VuGsSeyc__EwNIl3xeFrniW2TmonovTzhSs3X5MdFps210puE7jog__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__9rZoaX9BdzjjNucvYxduxeNAVO2zgW_Rvjhb5rq5whc__lSr_y16grDSgHf4booPChnF7QXz3TQY3hafH49twE0k__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZgfI_ZPib5yVY0o5aKo_6TFn946Tuu_nFDa0ySTmkSc__2FTFrNw2eNh0mpHIOA34r6YRwBZMm2PjJ_JubnwLigg__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__dxabpJ5rQgDSixKgLJZjWc1beC6mpROKwVrmWxI5eno__rqhz_hGsE_i59O7-W991o71_Jxw1QOtGMxn4nsOLHY8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZbRCq2NqWgK-HXAQI3So0N1n0nr4HonsJS3eQuuxukw__7Olkk8Locn8Dj0eR0Ww3rbV9lks9sxipcboMXB18RRs__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+
+	<!-- Head Libs -->
+	<script src="/sites/all/themes/stability/stability_aspe/vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/sites/all/themes/stability/vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" href="/sites/all/themes/stability/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/stability/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/stability/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/stability/images/apple-touch-icon-144x144.png">
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-99896 node-type-report-exec-sum">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-JLFR"
+                  height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JLFR');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-nav" class="accessibility_menu">
+    <strong>Shortcut Navigation:</strong>
+    <ul>
+      <li><a href="#content" accesskey="c" title="Skip to page content (ctrl/alt + c)">Page Content</a></li>
+      <li><a href="#nav" accesskey="m" title="Skip to main navigation menu (ctrl/alt + m)">Site Navigation</a></li>
+
+      <li><a href="#Footer" accesskey="f" title="Skip to footer (ctrl/alt + f)">Footer</a></li>
+    </ul>
+  </div>
+
+    
+<div class="site-wrapper">
+  
+  <header class="header header-menu-fullw header-top-clean">
+    <div id="brand-bar">
+        <div class="container">
+                    <img alt='bird' src="/sites/all/themes/stability/stability_aspe/images/bird.png"> <a target="blank" tabindex="4" href="http://www.hhs.gov/">U.S. Department of Health & Human Services</a>
+        </div>
+
+    </div>
+    <div class="header-main">
+        <div class="container clearfix">
+            <div class="social-links-wrapper">
+                <ul class="social-links social-links__light">
+                                                          <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw.png"/></a></li>
+                                    <!--                  --><!--                    <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin.png"/></a></li>-->
+<!--                  -->
+                                                                      </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                                <div class="site_name_wrapper">
+                                     <span class="h1">
+                                      <a href="/">ASPE</a>
+                                       </span>
+                                  <p class="tagline"><p>Office of The Assistant Secretary</p><p> for Planning and Evaluation</p></p>
+                    </div>
+            </div>
+            <!-- Logo / End -->
+            <div class="header_right_wrapper">
+                <div class="search-form">
+                    <form action="/execsum/physician-practices-nursing-homes-final-report" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class = "input-group"><div class="form-type-textfield form-item-search-block-form form-item form-group">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search Site..." class="form-control form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input class="btn btn-primary btn-icon form-submit" type="image" id="edit-submit" name="submit" value="Search" src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/search-white2.png" alt="Search" title="Search" /></div></div><input type="hidden" name="form_build_id" value="form-UKZVEnZAy65GPrHdHKaUDWC0O6Cxg6jHjBMoaLo_CKE" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </div>
+                <button type="button" class="navbar-toggle" value="Menu">
+                    <i class="fa fa-bars"></i>Menu
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-main">
+        <div class="container">
+          <ul data-breakpoint="767" class="flexnav">
+                <li class="first expanded"><a href="/basic-search/about" title="">About</a><ul><li class="first leaf"><a href="/mission" title="">Mission</a></li>
+<li class="leaf"><a href="/key-staff" title="">Leadership</a></li>
+<li class="leaf"><a href="https://www.usajobs.gov/" title="">Careers</a></li>
+<li class="expanded"><a href="/coordination" title="linkTo">Coordination</a><ul><li class="first leaf"><a href="/evaluation-evidence" title="">Evaluation &amp; Evidence</a></li>
+<li class="leaf"><a href="/national-alzheimers-project-act">National Alzheimer&#039;s Project Act</a></li>
+<li class="leaf"><a href="/health-and-human-services-hhs-data-council">HHS Data Council</a></li>
+<li class="last leaf"><a href="/national-committee-vital-and-health-statistics" title="National Council on Vital and Health Statistics">National Council on Vital and Health Statistics</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/divisions" title="">Offices</a><ul><li class="first leaf"><a href="/office-disability-aging-and-long-term-care-policy-daltcp">Disability, Aging, and Long-Term Care Policy</a></li>
+<li class="leaf"><a href="/office-health-policy-hp">Health Policy</a></li>
+<li class="leaf"><a href="/office-human-services-policy">Human Services Policy</a></li>
+<li class="last leaf"><a href="/office-science-and-data-policy">Science and Data Policy</a></li>
+</ul></li>
+<li class="leaf"><a href="/strategic-planning" title="Strategic Planning">Strategic Planning</a></li>
+<li class="last leaf"><a href="/contact-aspe" title="">Contact ASPE</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/topics" title="">Topics</a><ul><li class="first leaf"><a href="/affordable-care-act-research">Affordable Care Act Research</a></li>
+<li class="leaf"><a href="/alzheimers-dementia">Alzheimer&#039;s / Dementia</a></li>
+<li class="leaf"><a href="/early-childhood">Early Childhood</a></li>
+<li class="leaf"><a href="/incarceration-reentry">Incarceration &amp; Reentry</a></li>
+<li class="leaf"><a href="/opioid-abuse-us-and-hhs-actions-address-opioid-drug-related-overdoses-and-deaths" title="Opioids">Opioids</a></li>
+<li class="leaf"><a href="/patient-centered-outcomes-research-trust-fund">Patient-Centered Outcomes Research Trust Fund (PCORTF)</a></li>
+<li class="expanded"><a href="/basic-search/poverty" title="">Poverty</a><ul><li class="first leaf"><a href="/poverty-guidelines">Poverty Guidelines</a></li>
+<li class="last leaf"><a href="/poverty-estimates-trends-and-analysis">Poverty Analysis</a></li>
+</ul></li>
+<li class="leaf"><a href="/teen-pregnancy-prevention">Teen Pregnancy Prevention</a></li>
+<li class="leaf"><a href="/homelessness">Homelessness</a></li>
+<li class="last leaf"><a href="/medicare-access-and-chip-reauthorization-act-2015">MACRA</a></li>
+</ul></li>
+<li class="leaf"><a href="/reports" title="">Publications</a></li>
+<li class="last expanded"><a href="/basic-search/datasets" title="">Data and Tools</a><ul><li class="first last leaf"><a href="/evaluations" title="">Evaluation Database</a></li>
+</ul></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation / End -->
+</header>  <div class="main" role="main">
+    <!--PAGEWATCH CODE="USHHS_458"-->
+    <section class="page-heading">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+                <h1>
+                    
+          Physician Practices in Nursing Homes: Final Report        </h1>
+                                 <p class="author">
+                                                 <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2005-08-11T00:00:00-04:00">08/11/2005</span>               
+                           </p>
+
+
+                  </div>
+
+
+        <div class="col-md-6">
+           <ul class="breadcrumb"><li class="first"><a href="/" title="Home">Home</a></li>
+<li class="last">Physician Practices in Nursing...</li>
+</ul>        </div>
+
+
+    </div>
+  </div>
+</section>
+    
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Content">     
+
+        
+                  
+        
+                                    <div  class="col-md-12 " id="content">
+                          
+                              <div id="block-aspe-aspe-addthis" class="widget block block-aspe" >
+  
+      
+  <div class="clearfix">
+  <ul class="addthis_sharing_toolbox node-share__links" data-url="https://aspe.hhs.gov/execsum/physician-practices-nursing-homes-final-report" data-title="Physician Practices in Nursing Homes: Final Report">
+    <li><a class="addthis_button_print"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/print-white.png" alt="print" /></a></li>
+    <li><a class="addthis_button_email"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/mail-white.png" alt="email" /></a></li>
+    <li><a class="addthis_button_twitter"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/tw.png" alt="twitter" /></a></li>
+<!--    <li><a class="addthis_button_facebook">--><!--</a></li>-->
+    <li><a class="addthis_button_compact"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/plus-white.png" alt="compact" /></a></li>
+  </ul>
+</div>
+
+  </div> <!-- /.block -->
+
+                
+    
+  
+  <div class="content clearfix node-report-exec-sum">
+    
+<p>
+</p><p align="CENTER"><font color="#000099"><b><font face="Calisto MT" size="+2">U.S. Department of Health and Human Services</font></b></font></p>
+<h1 align="CENTER">Physician Practices in Nursing Homes: Final Report</h1>
+<h1 align="CENTER">Executive Summary</h1>
+<h3>Cari Levy, M.D., Anne Epstein, Ph.D., Lori-Ann Landry, M.S.W., and  		Andrea Kramer, M.D. <br />University of Colorado, Health Sciences Center</h3>
+<h3>Jennie Harvell, M.ED., and Charlene Liggings, M.P.H., M.P.A.<br />U.S.  		Department of Health and Human Services</h3>
+<h3>April 4, 2006</h3>
+<hr /><blockquote>
+<p><i>This report was prepared under contract#HHS-100-03-0028 between  		  U.S. Department of Health and Human Services (HHS), Office of Disability, Aging  		  and Long-Term Care Policy (DALTCP) and the University of Colorado. For  		  additional information about this subject, you can visit the DALTCP home page  		  at http://aspe.hhs.gov/_/office_specific/daltcp.cfm or contact the ASPE Project  		  Officer, Jennie Harvell, at HHS/ASPE/DALTCP, Room 424E, H.H. Humphrey Building,  		  200 Independence Avenue, S.W., Washington, D.C. 20201. Her e-mail address is:  		  Jennie.Harvell@hhs.gov.</i></p>
+<p><i>The opinions and views expressed in this report are those of the  		  authors. They do not necessarily reflect the views of the Department of Health  		  and Human Services, the contractor or any other funding organization.</i></p>
+</blockquote>
+<hr /><p></p>
+<h2 align="LEFT"> INTRODUCTION</h2>
+<p>The Assistant Secretary for Planning and Evaluation (ASPE) contracted  		with the University of Colorado Health Sciences Center (UCHSC) to examine and  		describe models of physician practices in nursing homes; the financing  		arrangements and payment rates associated with these models; and determine what  		is known about the impact of physician practice models on the quality of care  		received by nursing home patients and on the quality of care provided in  		nursing homes.</p>
+<p>In the first phase of this project, the UCHSC completed a literature  		review related to physician practice patterns in nursing homes, including the:  		requirements related to such practices; extent to which medical schools prepare  		physicians to practice in nursing homes; level of physician practice and  		specialization in providing services in nursing homes; barriers to physicians  		practicing in nursing homes and innovative physician practice arrangements in  		nursing homes.</p>
+<p>The second phase of the study, which is presented in this report, was  		designed to further explore several issues that were not adequately addressed  		in the literature. Using information learned during the first phase,  		discussions were held in nursing homes and with key stakeholders in certain  		areas of the country to better understand the use and impact of various  		physician practice arrangements in nursing homes. This report summarizes  		discussions with stakeholders throughout the country in an attempt to identify  		obstacles and promising approaches to successful physician practices in nursing  		homes; synthesizes themes that recurred during the discussions; presents issues  		for further consideration; and offers potential areas for future research on  		physician practice in nursing homes.</p>
+<p></p>
+<h2 align="LEFT">METHODS</h2>
+<p>A purposeful sample of eight facilities was selected for case studies of  		physician practice models. The objective of the purposeful sampling methodology  		was to select varied examples of physician practice models in a range of  		markets and facilities. No attempt was made to select a representative sample  		from which to draw statistical inferences.</p>
+<p><b>Market, Facility and Practice Models of Interest</b></p>
+<p>The literature review identified multiple market, facility and practice  		model characteristics related to access to and quality of nursing home  		physician care. Market characteristics included: (1) managed care penetration,  		(2) rural location, (3) geographic region, and (4) litigious environment.  		Facility characteristics included: (1) ownership and (2) size. Practice model  		characteristics included various types of physician specialization in nursing  		home care including practices that: (1) emphasize geriatrics and teaching, (2)  		limit physician practice to only nursing home patients, (3) integrate mid-level  		providers, (4) limiting the number of physicians in the care of patients in one  		facility (including the use of closed panel physician groups), and (5) include  		a variety of other physician practice models.</p>
+<p><b>Stakeholders of Interest</b></p>
+<p>Stakeholders targeted for discussions in each nursing home included: (1)  		a physician, (2) the nursing home administrator, (3) the medical director, (4)  		the director of nursing, (5) a social worker, and (6) one stakeholder for each  		facility who was identified by other respondents as an employee who would add  		valuable information to the discussions because of their unique perspective on  		physician care in the facility. Once a facility agreed to participate, a  		representative from each of the vocational disciplines was contacted by e-mail,  		telephone or fax to arrange individual stakeholder discussions.</p>
+<p><b>Creation and Administration of the Discussion Guides</b></p>
+<p>Discussion guides (<a href="phypracfr.htm#appendA">Appendix A</a>) were  		created to assist interviewers gather information from stakeholders regarding  		physician practices in the selected nursing homes. The discussion guides  		focused on four areas: (1) qualifications and training of the practicing  		physicians and medical directors; (2) practice models and patterns used by  		physicians; (3) access to care associated with specific practice models; and  		(4) the quality of care provided in the practice models used in the facility.  		Six versions, one for each vocational discipline, of the discussion guides were  		created so that each respondent was asked a set of questions relevant to their  		vocational discipline.</p>
+<p></p>
+<h2 align="LEFT">RESULTS</h2>
+<p>Three themes emerged from the stakeholder discussions regarding  		physician practice in nursing homes including: (1) physician specialization in  		nursing home care; (2) benefits of mid-level practitioners; and (3) importance  		of information transfer.</p>
+<p><b>Physician Specialization in Nursing Home Care</b></p>
+<p>The form of physician specialization in nursing homes varied, but most  		stakeholders clearly valued models of care that permitted physicians to  		specialize in the care of nursing home residents. While the stakeholders did  		not have precise definitions for nursing home specialists, they generally  		defined physician specialists as those who spend a substantial portion of time  		in the delivery of nursing home care or have the majority of their patient care  		caseload in nursing homes.</p>
+<p>The incentives to the physicians who specialize in nursing home care  		were described as: (1) a reduction in overhead expenses associated with  		maintaining an office practice among those who practiced exclusively in nursing  		homes; (2) an ability to develop improved knowledge of regulations in nursing  		homes and effectively meet the needs of the nursing homes; (3) scheduling  		flexibility; and (4) the opportunity for long-term relationships with patients  		and families. Stakeholders felt that if medical students had a greater exposure  		to nursing home care during medical training, more physicians would select this  		career path. Based on the literature review, early exposure to the benefits of  		specializing in nursing home care can increase the number of physicians  		specializing in nursing home care.<sup><font size="-1"><a href="#note1">1</a></font></sup></p>
+<p>Benefits cited by stakeholders regarding specialist nursing home  		physicians included: (1) greater accessibility of physicians to patients,  		family, and nursing home staff; (2) improved knowledge of and sensitivity by  		physicians to challenges faced by nursing homes (e.g., regulations regarding  		use of anti-psychotics); and (3) enhanced medical management of common  		syndromes faced by nursing home residents (e.g., falls, urinary incontinence,  		agitated behaviors associated with dementia). The literature review also  		suggested that selected outcomes are better among patients of physicians  		specializing in geriatric medicine.<sup><font size="-1"><a href="#note1">1</a></font></sup></p>
+<p>Nursing home regulatory requirements are unique and unlike the  		requirements in other health care arenas. The respondents associated lack of  		knowledge about these regulations with negative effects on physician  		communication with the nursing staff, medication ordering practices and  		compliance with regulatory visits. Several respondents found the American  		Medical Directors Association (AMDA) certification program a valuable resource  		in the pursuit of information on various regulatory requirements such as the  		use of physical and chemical restraints and required intervals for physician  		visitations. Sources identified in the literature review supported early  		exposure during training as a strategy to increase physician experience and  		familiarity with nursing homes.<sup><font size="-1"><a href="#note2">2</a>,  		<a href="#note3">3</a>, <a href="#note4">4</a></font></sup></p>
+<p>The stakeholders concept of the best model of specialization  		differed; some stakeholders favored a mid-level provider-based model (e.g.,  		using nurse practitioners (NPs) as is the practice in the Evercare model),  		others favored a closed physician practice model and still others preferred a  		model with physicians practicing independently in multiple facilities. The  		closed models provided a salary to the physicians in contrast to other models  		in which physicians obtained payments via billing Medicare Part B for physician  		services rendered to individual patients. In the literature review, selected  		outcomes (e.g., response to emergencies, hospitalization rates, satisfaction)  		were superior in mid-level provider and closed models compared to the  		traditional independent physician practice model.<sup><font size="-1"><a href="#note5">5</a>, <a href="#note6">6</a>, <a href="#note7">7</a></font></sup></p>
+<p>The stakeholders differed in their opinion of how physicians should be  		compensated for the delivery of specialized nursing home care. Stakeholders who  		practiced in a model with physicians salaried by the nursing home agreed that  		this model afforded the physicians more time to devote to the care of the  		patients, but they recognized that payment to physicians under the salaried  		model could be less than in a model in which physicians bill Medicare Part B  		for their services.</p>
+<p>Differences in opinion also were evident with regard to the ideal  		mixture of practice across settings of care. For example, one stakeholder felt  		it was essential for nursing home physicians to practice in outpatient clinics  		and hospitals and then follow patients from these settings to the nursing home  		to provide continuity of care. Others felt an office or hospital practice  		detracted from the physicians' ability to focus on nursing home patients  		because the physicians were often unavailable for calls during office hours and  		tended to see their nursing home patients as a last priority in evenings and on  		weekends. The non-physician stakeholders consistently reported difficulty  		communicating with physicians who care for only a very few nursing home  		residents because of the competing demands of physicians clinic and  		hospital-based practices.</p>
+<p>Nursing facility staff members uniformly reported a preference for  		physician practice models that involve regular and frequent presence in the  		facility. These physicians were described as having a better understanding of  		the pressures faced by nursing homes and improved relationships with the  		nursing staff and interdisciplinary teams. Social workers valued models that  		allowed the physicians to become nursing home specialists and respond quickly  		to emergency calls. Staff members, and nursing home residents and their  		families, uniformly were pleased with working with nursing home physician  		specialists. No patterns in preferences for specific models of care were  		observed consistently across facility types.</p>
+<p>Although the evidence is limited, there is some literature to support  		that specializing in the care of patients in one care setting improves quality  		of care and reduces costs. For example, patients who are cared for by  		physicians who specialize in the hospital setting, have lower mortality rates  		and reduced hospital costs.<sup><font size="-1"><a href="#note2">2</a></font></sup> The literature also suggests that physicians  		who specialize in nursing home care are on-site at nursing homes more  		frequently, have quicker response times to emergencies, lower hospitalization  		rates, and reduced use of medications.<sup><font size="-1"><a href="#note7">7</a>, <a href="#note8">8</a></font></sup></p>
+<p>Stakeholders also alluded to the difficulty researchers may have in  		determining whether or not specialization results in better care. For example,  		if one utilizes a higher frequency of lab tests as an indicator of good medical  		care, there may be factors other than clinical acumen guiding the volume of  		tests. On one hand, a non-nursing home specialist may order more tests because  		they are not in the facility to perform an assessment and must instead rely  		heavily on lab tests to substitute for a clinical examination. Alternatively, a  		nursing home specialist physician may order more tests than non-nursing home  		specialists, in part, because he/she are concerned about lawsuits if tests are  		not ordered to support their clinical assessments. Similarly, one stakeholder  		commented that more visits from practitioners increased the volume of orders  		but it is unknown whether or not an increase in orders results in improved  		care. Thus, future investigations regarding the quality of care provided by  		specialist versus non-specialist nursing home physicians should use caution in  		the design of outcome variables.</p>
+<p><b>Increasing Use of and Desire to Work with Mid-Level  		Practitioners</b></p>
+<p>The literature review and most respondents indicated that mid-level  		practitioners have the potential to increase the quality of care provided to  		nursing home residents and provide an important service in nursing home  		physician practice models. Respondents indicated that operating an efficient,  		large nursing home medical practice is not possible without the use of  		mid-level practitioners. Mid-level practitioners were described as enabling  		physicians to provide more efficient care because of their ability to respond  		quickly to urgent care needs.</p>
+<p>Current Medicare policy permits mid-level practitioners to alternate  		visits with physicians. However, a concern expressed by several respondents was  		that physicians relied too heavily on the mid-level practitioners and  		participated less in the care of patients when a mid-level practitioner was  		involved.</p>
+<p>An additional concern expressed by respondents and reinforced by the  		literature was that while the overall supply of NPs has increased in the past  		decade, there are not enough geriatric-trained mid-level practitioners to meet  		the demand for these practitioners in nursing homes.<sup><font size="-1"><a href="#note8">8</a>, <a href="#note9">9</a></font></sup> Reasons for this  		shortage are not well understood, but they may parallel the reasons cited in  		the literature and offered by respondents regarding the lack of  		geriatric-trained physicians (e.g., minimal exposure to nursing homes during  		training).</p>
+<p><b>Information Exchange -- Knowledge About Nursing Home  		Operations</b></p>
+<p>Stakeholders and the literature review suggest the need for enhanced  		communications and/or information exchange between physicians and nursing home  		staff, across settings of care and across providers of care (e.g.,  		communications among physicians, nursing homes, and laboratories).<sup><font size="-1"><a href="#note10">10</a></font></sup></p>
+<p>Issues and requirements that, in some instances, are unique to the  		nursing home setting and in other instances common across the health care  		continuum characterize medical service delivery in nursing homes. Persons  		treated in nursing homes often are severely functionally and cognitively  		impaired and/or medically complex, requiring intervention by interdisciplinary  		teams with substantial family/informal caregiver involvement.<sup><font size="-1"><a href="#note11">11</a>, <a href="#note12">12</a>, <a href="#note13">13</a></font></sup> The literature provides evidence that  		transitions to and from nursing home care are a common occurrence and a major  		source of medical errors in relation to medication administration, advanced  		care directives, allergies, and delivery of essential services.<sup><font size="-1"><a href="#note14">14</a></font></sup> An AMDA survey of 3,000  		sequential admissions to skilled nursing facilities from 25 different hospitals  		found the following: 22% of transfers had no formal summary of information;  		legible summaries were available only 56% of the time; secondary diagnoses were  		missing in 30% of transfers; test results were omitted in 31%-67% of transfers,  		advance directives and code status were absent in 81% of transfers; and a  		legible phone number for the transferring physician was present in only 33% of  		transfers.<sup><font size="-1"><a href="#note15">15</a></font></sup></p>
+<p>The stakeholders also expressed similar concerns with respect to  		transitions from hospitals to nursing homes. They noted that transferring  		accurate medical information from one care setting to another is time-consuming  		and often inaccurate. This is because physicians often are not caring for  		patients across care settings, and there is no standardized process or standard  		set of information transferred across care settings to communicate health  		information. As observed by the stakeholders, nursing homes often are separated  		geographically from hospitals, diagnostic services, and physician offices,  		creating communication barriers that contribute to medical errors.</p>
+<p>A common theme that emerged from discussions with stakeholders was the  		need for physicians to receive accurate and complete information regarding  		nursing home patients. Information transfer between hospital and nursing home  		stays were described as cumbersome and wrought with inaccurate and incomplete  		transfer of information. In most cases, the nursing facilities did not have  		computerized health information beyond the software used to record information  		for the Minimum Data Set. All stakeholders agreed that electronic medical  		records would vastly improve quality of care by reducing the inefficiencies  		involved with duplicating documentation that has occurred in other care  		settings and tracking down information.</p>
+<p></p>
+<h2 align="LEFT">ISSUES REQUIRING FURTHER CONSIDERATION AND FUTURE  		RESEARCH</h2>
+<p>The case presentations (<a href="phypracfr.htm#appendB">Appendix B</a>)  		provide examples of facilities with varied physician practice models and the  		issues related to each of these models. Several of these models offer promising  		approaches for improving physician care in nursing homes. This information  		could be useful when considering ways to promote effective and efficient  		medical service delivery to nursing home residents, to researchers in designing  		future studies examining physician practices in nursing homes, and to nursing  		homes and physicians in designing and implementing effective efficient  		physician practice models in nursing facilities.</p>
+<p><b>Issues Requiring Further Consideration</b></p>
+<p>Several overarching issues that arise from the literature review and  		stakeholder discussions that merit further consideration include availability  		of mid-level providers in long-term care (LTC). The literature review and  		stakeholder informants consistently suggested that mid-level providers are  		useful in extending medical services to nursing home residents and in promoting  		higher quality medical care to nursing home residents. However, these sources  		also discussed the limited supply of these mid-level providers. Other issues  		included physician training in geriatrics and nursing home care; and the need  		for incentives for enhancing physician care through pay-for-performance. </p>
+<p><b><i>Availability of Mid-Level Providers in Long-Term Care</i></b></p>
+<p>One strategy that has demonstrated success in attracting advanced  		practice nurses to LTC is the teaching nursing home concept in which schools of  		nursing establish affiliations with LTC facilities providing an advanced  		practice degree program for nurses with an emphasis in LTC. Funding specialty  		and advanced practice internship and residency programs for post degree  		recipients may also increase the availability of advanced practice nurses to  		nursing home care and help to provide a career ladder for nurses interested in  		positions of greater responsibility.</p>
+<p><b><i>Physician Training in Geriatrics and Nursing Home Care</i></b></p>
+<p>Strategies to stimulate physician practice in nursing homes may include  		modifications of the Medicare Graduate Medical Education program to provide  		direct and indirect funds to teaching hospitals in exchanges for placing an  		emphasis on training in nursing home care and/or geriatrics. Another approach  		may be to modify Medicare physician payment rules/methods to encourage  		physicians to provide services in nursing homes. Public Health Service training  		grants may also be structured in a manner that encourages medical education in  		geriatrics and nursing home care. Favorable student loan repayment programs for  		physicians who devote a significant proportion of their practice to nursing  		home care may also be established. Medical education could also incorporate  		exposure to nursing home patients for all internal medicine and family practice  		physician training programs.</p>
+<p>The literature indicated few physicians are trained to provide care in  		nursing homes yet the literature and stakeholder informants indicate that when  		appropriately trained in the care of nursing home residents, physicians have an  		ability to effectively manage the frail, elderly population and improve  		outcomes. Stakeholders suggest that physicians who specialize in nursing home  		care are more proficient in understanding nursing home regulations and  		therefore are better able to respond to the medical needs of patients. However,  		the limited supply of physicians who are adequately trained to care for nursing  		home patients remains a challenge.</p>
+<p><b><i>Incentive Payments for Medical Practices in Nursing  		Homes</i></b></p>
+<p>Increasingly, purchasers of health care are interested in value-based  		purchasing. Recently legislation has been enacted to establish various  		pay-for-performance incentive programs to promote specific outcomes for  		physician practices. However, pay-for-performance incentive programs do not  		address clinically relevant outcomes for the frail institutionalized elderly.  		</p>
+<p><b>Future Research</b></p>
+<p>Currently, research is not available on features identified by  		stakeholders as important components of nursing home physician practice models.  		Specifically, the literature does not quantitatively or qualitatively address:  		(1) the efficacy of nursing home specialization, (2) effective strategies for  		information exchange between nursing homes and physicians or (3) methods to  		study physician payment incentives in nursing homes. Study designs are proposed  		for these topics. Recommendations related to specific research activities that  		would advance our knowledge related to physician practice in nursing homes  		include: (1) physician specialization in nursing home care and its impact on  		quality and costs; (2) health information transfer using technology across  		providers and settings when caring for nursing home patients; and (3)  		pay-for-performance incentives for physicians providing nursing home care. </p>
+<p><b><i>Physician Specialization in Nursing Home Care</i></b></p>
+<p>To study the effect of physician specialization in nursing homes an  		investigation could determine the extent to which quality indicators,  		influenced by physician practice, and avoidable hospitalizations are associated  		with the degree to which: (1) nursing homes are staffed by physicians who spend  		the majority of their practice caring for nursing home care patients  		(facility-level); and (2) a physician's practice is devoted to caring for  		nursing home residents (physician-level).</p>
+<p><b><i>Health Information Transfer</i></b></p>
+<p>Research could identify the issues that support or create barriers for  		information exchange and strategies that could facilitate information exchange,  		including electronic information exchange. The investigation would involve a  		literature review, stakeholder discussions and case studies examining how LTC  		organizations receive information, what information they receive when they  		serve patients that are treated by physicians and in hospitals that have the  		capacity to exchange health information electronically, and the factors that  		promote or inhibit electronic information exchange. ASPE is funding a study on  		health information exchange with post-acute and LTC settings.</p>
+<p><b><i>Pay-for-Performance</i></b></p>
+<p>A study could be developed under either Section 646 of the Medicare  		Modernization Act to establish a pay-for-performance demonstration program or,  		under an expanded demonstration program, to create physician incentive payments  		to promote high quality medical management by physicians and/or physician  		practice groups that include physician extenders on behalf of medically fragile  		nursing home patients. In developing pay-for-performance measures for nursing  		home care, the unique characteristics of nursing home residents and the  		environment of the nursing home must be taken into consideration. Such measures  		will apply specifically to the care of nursing home residents and not to a  		physician's outpatient population.</p>
+<p>A study to pay for physician performance in skilled nursing facilities  		and nursing homes could test the effects of incentives for physicians (and  		their mid-level providers) to play a more active role in the care of their  		skilled nursing facility and nursing home residents. Process performance  		measures for physician and mid-level provider care in nursing homes could  		include timeliness of visits, responsiveness to phone calls from nursing home  		staff, and transfer of necessary information between a physician and nursing  		home staff. Outcome performance measures would need to target aspects of  		nursing home care over which the physician has the most influence. For example,  		use of unnecessary or inappropriate medications, untreated depression and pain,  		and rates of potentially avoidable hospitalizations might be considered.</p>
+<p>Medication data available under the Medicare Part D program could be  		used to evaluate physician prescribing for nursing home and skilled nursing  		facility residents and whether unnecessary medications or inappropriate  		medications were used. Hospitalization for potentially avoidable causes, such  		as urinary tract infections, respiratory infections, sepsis, wound infections,  		and conditions such as congestive heart failure where monitoring and early  		response might avoid the need for hospitalizing a resident, are potential  		performance measures for physician care. However, physicians are not solely  		responsible for hospitalization of nursing home residents, and thus these  		measures should be risk adjusted for resident as well as facility  		characteristics that research has found to be associated with preventable  		hospitalization rates (such as nursing home staffing).</p>
+<p>Following standard treatment approaches for problems such as pain and  		depression also can be used as physician performance measures. If such  		conditions have been identified, treatment is appropriate. However, for some  		conditions following standard treatment guidelines typically used in outpatient  		medicine may not be the most appropriate treatment intervention for the elderly  		nursing home patient.</p>
+<p></p>
+<h2><a name="ref" id="ref">REFERENCES</a></h2>
+<ol><li>
+<p><a name="note1" id="note1">Schols</a> J, Crebolder H, van Weel C. Nursing home  			 and nursing home physician: The Dutch experience. Long-Term Care Around the  			 Globe: JAMDA, May/June 2004; 207-212.</p>
+</li>
+<li>
+<p><a name="note2" id="note2">Meltzer</a> D, Manning WG, Morrison J, et al.  			 Effects of physician experience on costs and outcomes on an academic general  			 medicine service: Results of a trial of hospitalists. Annals of Internal  			 Medicine, 2002; 137:866-874.</p>
+</li>
+<li>
+<p><a name="note3" id="note3">Katz</a> PR, Karuza J, Kolassa J, Hutson A. Medical  			 practice with nursing home residents: Results from the National Physician  			 Professional Activities census. Journal of the American Geriatrics Society,  			 1997; 45:911-917.</p>
+</li>
+<li>
+<p><a name="note4" id="note4">Warshaw</a> GA, Bragg EJ, Shaull RW. Geriatric  			 medicine training and practice in the United States at the beginning of the  			 21st century. New York, NY and Cincinnati, OH: Association of Directors of  			 Geriatric Academic Programs and the Institute for Health Policy and Health  			 Services Research. 2002; 1-113.</p>
+</li>
+<li>
+<p><a name="note5" id="note5">Kane</a> RL, Flood S, Keckhafer G, Rockwood T. How  			 EverCare nurse practitioners spend their time. Journal of the American  			 Geriatrics Society, 2001; 49:1530-1534.</p>
+</li>
+<li>
+<p><a name="note6" id="note6">Ackermann</a> RJ, Kemle KA. The effect of a  			 physician assistant on the hospitalization of nursing home residents. Journal  			 of the American Geriatrics Society, 1998; 46:610-614.</p>
+</li>
+<li>
+<p><a name="note7" id="note7">Karuza</a> J, Katz PR. Physician staffing patterns  			 correlates of nursing home care: Initial inquiry and consideration of policy  			 implications. Journal of the American Geriatrics Society, 1994;  			 42:787-793.</p>
+</li>
+<li>
+<p><a name="note8" id="note8">Fama</a> T, Fox PD. Efforts to improve primary care  			 delivery to nursing home residents. Journal of the American Geriatrics Society,  			 1997; 45:627-632.</p>
+</li>
+<li>
+<p><a name="note9" id="note9">Bureau</a> of Health Professions, Division of  			 Nursing, National Advisory Council on Nurse Education and Practice. Report to  			 the Secretary of Health and Human Services. Federal Support for the Preparation  			 of the Nurse Practitioner Workforce through Title VIII. 1997; 19-20.</p>
+</li>
+<li>
+<p><a name="note10" id="note10">Kramer</a> A, Bennett R, Fish R, Lin CT, Floersch  			 N, Conway K, Coleman E, Harvell J, Tuttle M. Case Studies of Electronic Health  			 Records in Post-Acute and Long-Term Care. Available at  			 <a href="http://aspe.hhs.gov/daltcp/reports/ehrpaltc.htm">http://aspe.hhs.gov/daltcp/reports/ehrpaltc.htm</a>.  			 August 18, 2004.</p>
+</li>
+<li>
+<p><a name="note11" id="note11">Coleman</a> EA, Kramer AM, Kowalsky JC, et al. A  			 comparison of functional outcomes after hip fracture in group/staff HMOs and  			 fee-for-service systems. Eff Clin Pract, 2000; 3:1-11.</p>
+</li>
+<li>
+<p><a name="note12" id="note12">Kramer</a> AM. Rehabilitation care and outcomes  			 from a patients perspective. Med Care, 1997; 35:JS48-JS57.</p>
+</li>
+<li>
+<p><a name="note13" id="note13">Kramer</a> AM, Kowalsky JC, Lin M, Grigsby J,  			 Hughes R, Steiner JF. Outcome and utilization differences for older persons  			 with stroke in HMO and fee-for-service systems. J Am Geriatr Soc, 2000;  			 48:726-734.</p>
+</li>
+<li>
+<p><a name="note14" id="note14">Coleman</a> EA, Min S, Chomiak A, Kramer AM.  			 Posthospital care transitions: patterns, complications, and risk  			 identification. Health Serv Res, 2004; 39:1449-1465.</p>
+</li>
+<li>
+<p><a name="note15" id="note15">Foley</a> C. Falling Through the Cracks. Symposium  			 at the American Geriatrics Society Annual Conference, Baltimore, MD.  			 http://www.amda.com/caring/february2003/foundation.htm. 2003.</p>
+</li>
+</ol><table frame="BORDER" align="center" cellspacing="0" border="5"><tr align="LEFT" valign="TOP" bgcolor="#C0C0C0"><td>The Full Report is also available from the DALTCP website (<a href="http://aspe.hhs.gov/_/office_specific/daltcp.cfm">http://aspe.hhs.gov/_/office_specific/daltcp.cfm</a>)  			 or directly at <a href="http://aspe.hhs.gov/daltcp/reports/2006/phypracfr.htm">http://aspe.hhs.gov/daltcp/reports/2006/phypracfr.htm</a>.</td>
+</tr></table><div class="group-tags"><div class="field-label">Tags:&nbsp;</div><a href="/terms/health-information-and-technology">Health Information and Technology</a><a href="/terms/information-technology-0">Information Technology</a><a href="/terms/nursingphysician-services">Nursing/Physician Services</a><a href="/terms/publications-2">Publications</a><a href="/terms/disability-aging-and-long-term-care-research">Disability, Aging and Long-Term Care Research</a><a href="/terms/highlighted-issues">Highlighted Issues</a><a href="/terms/healthcarelong-term-care-financing">Healthcare/Long-Term Care Financing</a><a href="/terms/health-information-infrastructure">Health Information Infrastructure</a><a href="/terms/health-services-formal">Health Services, Formal</a></div>  </div>
+
+      <footer>
+          </footer>
+  
+    <div id="block-webform-client-block-158521" class="widget block block-webform" >
+  
+      
+  <div id="webform-ajax-wrapper-158521"><form class="webform-client-form webform-client-form-158521" action="/execsum/physician-practices-nursing-homes-final-report" method="post" id="webform-client-form-158521" accept-charset="UTF-8"><div><div class="webform-progressbar">
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-radios webform-component--was-this-page-helpful">
+  <label for="edit-submitted-was-this-page-helpful">Was this page helpful? <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-was-this-page-helpful" class="form-radios"><div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-1" name="submitted[was_this_page_helpful]" value="1" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-1">Yes </label>
+
+</div>
+<div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-2" name="submitted[was_this_page_helpful]" value="0" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-2">No </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="4" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-70GIh3mDMVnsnHSTyKgQMFGExRKU-bgui_-7qSA_PEo" />
+<input type="hidden" name="form_id" value="webform_client_form_158521" />
+<input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-158521" />
+<div class="form-actions"><input class="webform-next button-primary btn btn-default form-submit" type="submit" id="edit-webform-ajax-next-158521" name="op" value="Next &gt;" /></div>
+<div class="is-useful-disclaimer"> <a href="/%23" class="" title="Survey Disclaimer" data-toggle="modal" data-target="#disclamerModal">Form Approved OMB# 0990-0379 Exp. Date 8/31/2017</a></div>
+<div class="modal fade" id="disclamerModal" tabindex="-1" role="dialog" aria-labelledby="disclamerModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="disclamerModalLabel">Survey Disclaimer</h2>
+      </div>
+      <div class="modal-body">
+         According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this information collection is 0990-0379. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, gather the data needed, and complete and review the information collection. If you have comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: U.S. Department of Health & Human Services, OS/OCIO/PRA, 200 Independence Ave., S.W., Suite 336-E, Washington D.C. 20201, Attention: PRA Reports Clearance Officer.      </div>
+    </div>
+  </div>
+</div></div></form></div>
+  </div> <!-- /.block -->
+<meta  itemscope="" itemid="https://aspe.hhs.gov/execsum/physician-practices-nursing-homes-final-report" itemref="md1 md3 md5 md7 md9 md11 md13 md15 md17 md19" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/health-information-and-technology" id="md3" itemref="md2" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/information-technology-0" id="md5" itemref="md4" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/nursingphysician-services" id="md7" itemref="md6" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/publications-2" id="md9" itemref="md8" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/disability-aging-and-long-term-care-research" id="md11" itemref="md10" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/highlighted-issues" id="md13" itemref="md12" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/healthcarelong-term-care-financing" id="md15" itemref="md14" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/health-information-infrastructure" id="md17" itemref="md16" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/health-services-formal" id="md19" itemref="md18" />              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <footer  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Footer">     
+
+        
+                  
+        
+                  
+        
+                                    <div  id="footer_sitemap-footer_sitemap" class="col-sm-6 col-md-6 col-lg-4 ">
+                          
+                              <div id="block-footer-sitemap-footer-sitemap" class="widget block block-footer-sitemap" >
+  
+      
+  <div id="footer-sitemap" class="clearfix">
+  <div class="fs-block-content"><div class="menu-footer-utility"><ul class="footer_links_menu-footer-utility total-items-2 parent-items-0 single-items-0"><li class="menu-5021 depth-1 total-children-8 parent-children-0 single-children-8  first"><a href="/" title="look at ASPE Home" class="fs-root-link">ASPE Home</a><ul class="footer_links_menu-footer-utility total-items-8 parent-items-0 single-items-0"><li class="menu-5026 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/" title="look at HHS Home">HHS Home</a></li>
+<li class="menu-66281 depth-1 fs-no-children"><a href="http://www.usa.gov/" title="look at USA.gov">USA.gov</a></li>
+<li class="menu-66316 depth-1 fs-no-children"><a href="https://oig.hhs.gov/" title="look at Office of the Inspector General">Office of the Inspector General</a></li>
+<li class="menu-66321 depth-1 fs-no-children"><a href="http://www.whitehouse.gov" title="look at The White House">The White House</a></li>
+<li class="menu-5046 depth-1 fs-no-children"><a href="http://www.hhs.gov/Accessibility.html" title="look at Accessibility">Accessibility</a></li>
+<li class="menu-66326 depth-1 fs-no-children"><a href="http://www.hhs.gov/about/budget/index.html" title="look at Budget/Performance">Budget/Performance</a></li>
+<li class="menu-2551 depth-1 fs-no-children"><a href="http://www.hhs.gov/Privacy.html" title="look at Privacy Policy">Privacy Policy</a></li>
+<li class="menu-197776 depth-1 fs-no-children  last"><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" title="Nondiscrimination Notice">Nondiscrimination Notice</a></li>
+</ul></li>
+<li class="menu-5051 depth-1 total-children-4 parent-children-0 single-children-4  last"><a href="http://www.hhs.gov/foia/" title="look at FOIA" class="fs-root-link">FOIA</a><ul class="footer_links_menu-footer-utility total-items-4 parent-items-0 single-items-0"><li class="menu-5056 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/open/recordsandreports/plainwritingact/index.html" title="look at Plain Writing Act">Plain Writing Act</a></li>
+<li class="menu-5061 depth-1 fs-no-children"><a href="http://www.hhs.gov/asa/eeo/no_fear_bullet_3.html" title="look at No Fear Act">No Fear Act</a></li>
+<li class="menu-5066 depth-1 fs-no-children"><a href="http://www.hhs.gov/Disclaimer.html" title="look at Disclaimers">Disclaimers</a></li>
+<li class="menu-2546 depth-1 fs-no-children  last"><a href="http://www.hhs.gov/plugins.html" title="look at Viewers &amp; Players">Viewers &amp; Players</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-5 " id="stability_cms-contact_us">
+                          
+                              <div id="block-stability-cms-contact-us" class="widget block block-stability-cms" >
+  
+      
+  <div class="contacts-widget widget widget__footer">
+	<div class="widget-content">
+		<ul class="contacts-info-list">
+      			<li>
+<!--				<i class="fa fa-map-marker">Address</i>-->
+                <div class="info-icons">
+                    <img  alt="map" class= 'map-icons' src="/sites/all/themes/stability/stability_aspe/images/map.png"/>
+                </div>
+                <div class="info-item">
+					Assistant Secretary for Planning and Evaluation, Room 415F<br />
+U.S. Department of Health and Human Services<br />
+200 Independence Avenue, SW<br />
+Washington, D.C. 20201				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-phone">phone</i>-->
+                <div class="info-icons">
+                    <img alt="phone" src="/sites/all/themes/stability/stability_aspe/images/phone.png"/>
+                </div>
+				<div class="info-item">
+					+1 202.690.7858				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-envelope">email</i>-->
+                <div class="info-icons">
+                    <img alt="mail" src="/sites/all/themes/stability/stability_aspe/images/mail-white.png"/>
+                </div>
+				<span class="info-item">
+					<a href="mailto:osaspeinfo@hhs.gov">osaspeinfo@hhs.gov</a>
+				</span>
+			</li>
+      			                					</ul>
+	</div>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-3 " id="footer">
+                          
+                              <div id="block-block-36" class="widget block block-block" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sign-up</span> for Email Updates</h3>
+		</div>
+    
+  <div class="email_updates">
+<button class="btn btn-default" name="subscribe-button" type="submit" value="subscribe">subscribe</button>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-12 " id="menu-menu-footer-language-menu">
+                          
+                              <div id="block-menu-menu-footer-language-menu" class="widget block block-menu" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Language</span> Assistance Available</h3>
+		</div>
+    
+  <ul class="menu"><li class="first expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#spanish" title="Español">Español</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#chinese" title="繁體中文">繁體中文</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#vietnamese" title="Tiếng Việt">Tiếng Việt</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#korean" title="한국어">한국어</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#tagalog" title="Tagalog">Tagalog</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#russian" title="Русский">Русский</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#arabic" title="العربية">العربية</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#creole" title="Kreyòl Ayisyen">Kreyòl Ayisyen</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#french" title="Français">Français</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#polish" title="Polski">Polski</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#portuguese" title="Português">Português</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#italian" title="Italiano">Italiano</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#german" title="Deutsch">Deutsch</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#japanese" title="日本語">日本語</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#farsi" title="فارسی">فارسی</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#english" title="English">English</a></li>
+</ul></li>
+</ul>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+      </div>
+
+          </div>
+    
+    
+      </footer>
+    
+
+    <!--/PAGEWATCH-->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+                        </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="social-links-wrapper">
+              <span class="social-links-txt">Connect with us</span>
+              <ul class="social-links social-links__dark">
+                                                  <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw-grey.png"/></a></li>
+                                <!--                --><!--                  <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin-grey.png"/></a></li>-->
+<!--                -->
+                                                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>  <script type="text/javascript" src="/sites/default/files/advagg_js/js__VWRymaMz6HfrhnrcJNGcDiSvLVrvhaXvBa7nrBYy8gc__jntPwP3D6myJZH1jW19fXrk5cYMHGRL8NQION22VSEA__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5486d15a696bff0c"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__g6mKbcakHxQkz4ZHYaxdO_xqONINvRMgsHh1zAK-fr0__ATHtEmHaeZ0jidpGU22EkhmPDBSgjD8z0bVDQMI-BIY__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__KUp4PrfOt9BSXUVl8Ctb3dhCMBe4MNVMeb4Gyorx8yY__7g4BeXscCIZAfuu1vxsCj2RIemg-eEK0QpChP9LDmFQ__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__PNjAgubM_3xXRLp4uLsYnv8wQAdT89-RYkSPxT6T45c__rFQwFK4pA5ZaWZSF7FPTfKbbpus0h-5IS8ayrNZGrb4__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__vQiLul2UcfC4nBAR09mhYVBYzRmiNDm2dj3GgSubV38__w84oZe-ZODKe7XnnlbrjV4IWHISOy4PioFEMVgx9hZo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__QJw3g0kOdwsv4twSZLP931zBzsHy50VEHpEN_znIitQ__A6QOuWXElDipBM2iChbWhjAAt3KlUwZ-jODoxdpbwiw__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stability_aspe","theme_token":"8_EXlC3SgauVYtJBc5mpQ3dJfpuM8raqL-c_8ZHwqTw","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/footable.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/aspe_nodes.admin.css":1,"sites\/all\/modules\/custom\/aspe_views\/theme\/css\/aspe_views.admin.css":1,"sites\/all\/modules\/forked\/book\/book.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/openpublic\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.css":1,"profiles\/openpublic\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openpublic\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/openpublic\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/themes\/stability\/css\/bootstrap.min.css":1,"sites\/all\/themes\/stability\/css\/fonts\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.theme.css":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/stability\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/stability\/css\/theme.css":1,"sites\/all\/themes\/stability\/css\/theme-elements.css":1,"sites\/all\/themes\/stability\/css\/animate.min.css":1,"sites\/all\/themes\/stability\/css\/skins\/red.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/slideshow.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/font-main.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/styleless.less":1,"sites\/all\/themes\/stability\/css\/skins\/blue.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/aspe\/theme\/js\/aspe.login-confirm.js":1,"sites\/all\/modules\/custom\/aspe_report\/modules\/aspe_databooks\/js\/aspe_databooks.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.highcharts.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/datatables\/dataTables.min.js":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.min.js":1,"sites\/all\/libraries\/highcharts\/highcharts.js":1,"sites\/all\/libraries\/highcharts\/highcharts.exporting.js":1,"sites\/all\/libraries\/highcharts\/highcharts.map.js":1,"sites\/all\/libraries\/highcharts\/highcharts.us-all.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.footable.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5486d15a696bff0c":1,"misc\/progress.js":1,"profiles\/openpublic\/modules\/contrib\/webform\/js\/webform.js":1,"profiles\/openpublic\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/stability\/vendor\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/stability\/vendor\/bootstrap.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flexnav.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flickrfeed.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.sloppy-masonry.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.fitvids.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.stellar.min.js":1,"sites\/all\/themes\/stability\/vendor\/snap.svg-min.js":1,"sites\/all\/themes\/stability\/js\/custom.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/aspe.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/html5shiv.min.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/main-menu.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/keyboard-control.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tabBehavior.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tileStringTrimmer.js":1}},"webform":{"conditionals":{"webform-client-form-158521":{"ruleGroups":[],"sourceMap":[],"values":[]}}},"ajax":{"edit-webform-ajax-next-158521":{"callback":"webform_ajax_callback","wrapper":"webform-ajax-wrapper-158521","progress":{"message":"","type":"throbber"},"event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Next \u003E"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/execsum\/physician-practices-nursing-homes-final-report":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"([a-z0-9]\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This website contains links to other federal and state agencies and private organizations. The Department of Health and Human Services (HHS) cannot attest to the accuracy of information provided by these nonfederal website links. Linking to nonfederal sites does not constitute an endorsement by HHS or any of its employees of the sponsors or the information and products presented on the sites. You will be subject to the destination site\u0027s privacy policy when you leave the ASPE website.\r\n\r\nThank you for visiting aspe.hhs.gov!","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"stability":{"flickr_id":"52617155@N08","logo_sticky":"28"},"field_group":{"div":"full"}});
+//--><!]]>
+</script>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config={pubid:"ra-5486d15a696bff0c",ui_click:false}
+//--><!]]>
+</script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4837db659","applicationID":"10708002","transactionName":"MwNaZBRSXEtXB0BdWQpJbUIPHFtWUgFMGkYMFg==","queueTime":0,"applicationTime":25,"atts":"H0RZElxIT0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

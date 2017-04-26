@@ -1,0 +1,2940 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">  <!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://aspe.hhs.gov/sites/default/files/Favicon2.png" type="image/png" />
+<meta name="description" content="Brenda Spillman and Timothy Waidmann Urban Institute June 2014 Printer Friendly Version in PDF Format: http://aspe.hhs.gov/pdf-report/rates-and-timing-medicaid-enrollment-among-older-americans (37 PDF pages)" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://aspe.hhs.gov/basic-report/rates-and-timing-medicaid-enrollment-among-older-americans" />
+<link rel="shortlink" href="https://aspe.hhs.gov/node/134551" />
+<meta property="og:site_name" content="ASPE" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aspe.hhs.gov/basic-report/rates-and-timing-medicaid-enrollment-among-older-americans" />
+<meta property="og:title" content="Rates and Timing of Medicaid Enrollment among Older Americans" />
+<meta property="og:description" content="Brenda Spillman and Timothy Waidmann Urban Institute June 2014 Printer Friendly Version in PDF Format: http://aspe.hhs.gov/pdf-report/rates-and-timing-medicaid-enrollment-among-older-americans (37 PDF pages)" />
+<meta property="og:updated_time" content="2017-02-21T12:05:51-05:00" />
+<meta property="article:published_time" content="2015-10-27T15:51:57-04:00" />
+<meta property="article:modified_time" content="2017-02-21T12:05:51-05:00" />
+
+  <title>Rates and Timing of Medicaid Enrollment among Older Americans | ASPE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+  <link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__5ln8neBOcJfyUveiD4y9fhI6kHBLOQ_YL0mMC-LS9a0__TPJIZT9UBnf_685NlFTJ5KnZVsjwFk6ACQ-nwwygmwU__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ng49uRH5y4Hl9VF9hHW_vXOj-mcOc2u2ShJqJ1YKIGU__FoMCD14GBvZaRiqSQ_JpP1w3rDB21n7H2Ar4pRZaIh8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__Hskudx14OJ5Hz8vqU7CUgN6SDV5rINZuEq9VuGsSeyc__EwNIl3xeFrniW2TmonovTzhSs3X5MdFps210puE7jog__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__9rZoaX9BdzjjNucvYxduxeNAVO2zgW_Rvjhb5rq5whc__lSr_y16grDSgHf4booPChnF7QXz3TQY3hafH49twE0k__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZgfI_ZPib5yVY0o5aKo_6TFn946Tuu_nFDa0ySTmkSc__2FTFrNw2eNh0mpHIOA34r6YRwBZMm2PjJ_JubnwLigg__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__dxabpJ5rQgDSixKgLJZjWc1beC6mpROKwVrmWxI5eno__rqhz_hGsE_i59O7-W991o71_Jxw1QOtGMxn4nsOLHY8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZbRCq2NqWgK-HXAQI3So0N1n0nr4HonsJS3eQuuxukw__7Olkk8Locn8Dj0eR0Ww3rbV9lks9sxipcboMXB18RRs__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+
+	<!-- Head Libs -->
+	<script src="/sites/all/themes/stability/stability_aspe/vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/sites/all/themes/stability/vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" href="/sites/all/themes/stability/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/stability/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/stability/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/stability/images/apple-touch-icon-144x144.png">
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-134551 node-type-basic-report">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-JLFR"
+                  height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JLFR');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-nav" class="accessibility_menu">
+    <strong>Shortcut Navigation:</strong>
+    <ul>
+      <li><a href="#content" accesskey="c" title="Skip to page content (ctrl/alt + c)">Page Content</a></li>
+      <li><a href="#nav" accesskey="m" title="Skip to main navigation menu (ctrl/alt + m)">Site Navigation</a></li>
+
+      <li><a href="#Footer" accesskey="f" title="Skip to footer (ctrl/alt + f)">Footer</a></li>
+    </ul>
+  </div>
+
+    
+<div class="site-wrapper">
+  
+  <header class="header header-menu-fullw header-top-clean">
+    <div id="brand-bar">
+        <div class="container">
+                    <img alt='bird' src="/sites/all/themes/stability/stability_aspe/images/bird.png"> <a target="blank" tabindex="4" href="http://www.hhs.gov/">U.S. Department of Health & Human Services</a>
+        </div>
+
+    </div>
+    <div class="header-main">
+        <div class="container clearfix">
+            <div class="social-links-wrapper">
+                <ul class="social-links social-links__light">
+                                                          <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw.png"/></a></li>
+                                    <!--                  --><!--                    <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin.png"/></a></li>-->
+<!--                  -->
+                                                                      </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                                <div class="site_name_wrapper">
+                                     <span class="h1">
+                                      <a href="/">ASPE</a>
+                                       </span>
+                                  <p class="tagline"><p>Office of The Assistant Secretary</p><p> for Planning and Evaluation</p></p>
+                    </div>
+            </div>
+            <!-- Logo / End -->
+            <div class="header_right_wrapper">
+                <div class="search-form">
+                    <form action="/basic-report/rates-and-timing-medicaid-enrollment-among-older-americans" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class = "input-group"><div class="form-type-textfield form-item-search-block-form form-item form-group">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search Site..." class="form-control form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input class="btn btn-primary btn-icon form-submit" type="image" id="edit-submit" name="submit" value="Search" src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/search-white2.png" alt="Search" title="Search" /></div></div><input type="hidden" name="form_build_id" value="form-TQR03PEvUlOeeGX63CgIAEtCUQpUq0Q2r9B-Qespc_M" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </div>
+                <button type="button" class="navbar-toggle" value="Menu">
+                    <i class="fa fa-bars"></i>Menu
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-main">
+        <div class="container">
+          <ul data-breakpoint="767" class="flexnav">
+                <li class="first expanded"><a href="/basic-search/about" title="">About</a><ul><li class="first leaf"><a href="/mission" title="">Mission</a></li>
+<li class="leaf"><a href="/key-staff" title="">Leadership</a></li>
+<li class="leaf"><a href="https://www.usajobs.gov/" title="">Careers</a></li>
+<li class="expanded"><a href="/coordination" title="linkTo">Coordination</a><ul><li class="first leaf"><a href="/evaluation-evidence" title="">Evaluation &amp; Evidence</a></li>
+<li class="leaf"><a href="/national-alzheimers-project-act">National Alzheimer&#039;s Project Act</a></li>
+<li class="leaf"><a href="/health-and-human-services-hhs-data-council">HHS Data Council</a></li>
+<li class="last leaf"><a href="/national-committee-vital-and-health-statistics" title="National Council on Vital and Health Statistics">National Council on Vital and Health Statistics</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/divisions" title="">Offices</a><ul><li class="first leaf"><a href="/office-disability-aging-and-long-term-care-policy-daltcp">Disability, Aging, and Long-Term Care Policy</a></li>
+<li class="leaf"><a href="/office-health-policy-hp">Health Policy</a></li>
+<li class="leaf"><a href="/office-human-services-policy">Human Services Policy</a></li>
+<li class="last leaf"><a href="/office-science-and-data-policy">Science and Data Policy</a></li>
+</ul></li>
+<li class="leaf"><a href="/strategic-planning" title="Strategic Planning">Strategic Planning</a></li>
+<li class="last leaf"><a href="/contact-aspe" title="">Contact ASPE</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/topics" title="">Topics</a><ul><li class="first leaf"><a href="/affordable-care-act-research">Affordable Care Act Research</a></li>
+<li class="leaf"><a href="/alzheimers-dementia">Alzheimer&#039;s / Dementia</a></li>
+<li class="leaf"><a href="/early-childhood">Early Childhood</a></li>
+<li class="leaf"><a href="/incarceration-reentry">Incarceration &amp; Reentry</a></li>
+<li class="leaf"><a href="/opioid-abuse-us-and-hhs-actions-address-opioid-drug-related-overdoses-and-deaths" title="Opioids">Opioids</a></li>
+<li class="leaf"><a href="/patient-centered-outcomes-research-trust-fund">Patient-Centered Outcomes Research Trust Fund (PCORTF)</a></li>
+<li class="expanded"><a href="/basic-search/poverty" title="">Poverty</a><ul><li class="first leaf"><a href="/poverty-guidelines">Poverty Guidelines</a></li>
+<li class="last leaf"><a href="/poverty-estimates-trends-and-analysis">Poverty Analysis</a></li>
+</ul></li>
+<li class="leaf"><a href="/teen-pregnancy-prevention">Teen Pregnancy Prevention</a></li>
+<li class="leaf"><a href="/homelessness">Homelessness</a></li>
+<li class="last leaf"><a href="/medicare-access-and-chip-reauthorization-act-2015">MACRA</a></li>
+</ul></li>
+<li class="leaf"><a href="/reports" title="">Publications</a></li>
+<li class="last expanded"><a href="/basic-search/datasets" title="">Data and Tools</a><ul><li class="first last leaf"><a href="/evaluations" title="">Evaluation Database</a></li>
+</ul></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation / End -->
+</header>  <div class="main" role="main">
+    <!--PAGEWATCH CODE="USHHS_458"-->
+    <section class="page-heading">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+                <h1>
+                    
+          Rates and Timing of Medicaid Enrollment among Older Americans        </h1>
+                                 <p class="author">
+                                                 <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2014-06-01T00:00:00-04:00">06/01/2014</span>               
+                           </p>
+
+
+                  </div>
+
+
+        <div class="col-md-6">
+           <ul class="breadcrumb"><li class="first"><a href="/" title="Home">Home</a></li>
+<li class="last">Rates and Timing of Medicaid E...</li>
+</ul>        </div>
+
+
+    </div>
+  </div>
+</section>
+    
+      <div  class="nd-region nd-region-filter">
+  
+       
+
+    
+      <div  id="Filter" class="row">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region nd-region-similar-content">
+  
+       
+
+    
+      <div  id="Similar-Content" class="row">     
+
+        
+                  
+        
+                                    <div  id="top" class="">
+                          
+                              <div id="block-views-2100ccfdd214bdbcf634d7e4832c265b" class="widget block block-views solr-similar-content" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Similar</span> content</h3>
+		</div>
+    
+  <div class="view view-similar-content-solr view-id-similar_content_solr view-display-id-block_solr_similar_content view-dom-id-90ff12f5d179e5960e3aab5bd8273980">
+        
+  
+  
+      
+    
+    <span class="field-content"><a href="/pdf-report/rates-and-timing-medicaid-enrollment-among-older-americans">Rates and Timing of Medicaid Enrollment among Older Americans</a></span>    
+    <span class="field-content"><a href="/basic-report/does-home-care-prevent-or-defer-nursing-home-use">Does Home Care Prevent or Defer Nursing Home Use?</a></span>    
+    <span class="field-content"><a href="/basic-report/source-book-long-term-care-data">Source Book on Long-Term Care Data</a></span>    
+    <span class="field-content"><a href="/basic-report/report-secretary-private-financing-long-term-care-elderly">Report to the Secretary on Private Financing of Long-Term Care for the Elderly</a></span>    
+    <span class="field-content"><a href="/basic-report/long-term-services-and-supports-what-are-concerns-and-what-are-people-willing-do">Long-Term Services and Supports: What are the Concerns and What are People Willing to Do?</a></span>  
+  
+  
+  
+  
+  
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Content">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  class="col-md-12 " id="content">
+                          
+                              <div id="block-aspe-aspe-addthis" class="widget block block-aspe" >
+  
+      
+  <div class="clearfix">
+  <ul class="addthis_sharing_toolbox node-share__links" data-url="https://aspe.hhs.gov/basic-report/rates-and-timing-medicaid-enrollment-among-older-americans" data-title="Rates and Timing of Medicaid Enrollment among Older Americans">
+    <li><a class="addthis_button_print"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/print-white.png" alt="print" /></a></li>
+    <li><a class="addthis_button_email"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/mail-white.png" alt="email" /></a></li>
+    <li><a class="addthis_button_twitter"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/tw.png" alt="twitter" /></a></li>
+<!--    <li><a class="addthis_button_facebook">--><!--</a></li>-->
+    <li><a class="addthis_button_compact"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/plus-white.png" alt="compact" /></a></li>
+  </ul>
+</div>
+
+  </div> <!-- /.block -->
+
+                
+    
+  
+  <div class="content clearfix node-basic-report">
+    <h3>Brenda Spillman and Timothy Waidmann</h3>
+<h3>Urban Institute</h3>
+<h3>June 2014</h3>
+<p>Printer Friendly Version in PDF Format: <a href="http://aspe.hhs.gov/pdf-report/rates-and-timing-medicaid-enrollment-among-older-americans">http://aspe.hhs.gov/pdf-report/rates-and-timing-medicaid-enrollment-among-older-americans</a> (37 PDF pages)</p>
+<hr /><h2>ABSTRACT</h2>
+<p>Analysis of the 2004 National Long-Term Care Survey reveals that when this cross-sectional nationally representative survey of older Americans was carried out, 14.3% of Medicare beneficiaries aged 65+ were enrolled in Medicaid. This cohort included older Americans both with and without functional disabilities or cognitive impairment, those residing in nursing homes and in the community, and elders who had become eligible for Medicaid both before and after reaching age 65. Within 4 years, an additional 4.7% of the cohort had transitioned to Medicaid, some while continuing to reside in the community, others in connection with nursing home stays other than short-term Medicare covered post-acute episodes. Multivariate analyses found the strongest predictors of post-baseline transition to Medicaid enrollment were continued survivorship and use of nursing home care. The next largest marginal effects of the predicted probability of transitioning to Medicaid were income (having income below $20,000 for transitioning within 1 year and below $30,000 in all years) and homeownership (not owning a home was a statistically significant predictor of transitioning to Medicaid throughout the follow-up years). In sum, older Americans in the lowest income quartile and those who were not homeowners were much more likely to transition to Medicaid during the 4 year follow-up period compared to older Americans who were in the highest income group. Elders in both the highest and lowest income groups were more likely to enroll in Medicaid if they used nursing home care than to do so if they remained in the community. However, those in the lowest income group were also vulnerable to Medicaid enrollment if they remained in the community, whereas the risk of enrollment in Medicaid among those in the highest income group was almost entirely associated with long-stay nursing home use.</p>
+<p>DISCLAIMER: The opinions and views expressed in this report are those of the authors. They do not necessarily reflect the views of the Department of Health and Human Services, the contractor or any other funding organization.</p>
+<hr /><p> </p>
+<h2>TABLE OF CONTENTS</h2>
+<p><a href="#acronym">ACRONYMS</a></p>
+<p><a href="#intro">INTRODUCTION</a></p>
+<p><a href="#data">DATA AND METHODS</a></p>
+<p>Analysis Samples</p>
+<p>Overview of Analytic Measures</p>
+<p>Medicaid Transition</p>
+<p>Baseline Characteristics</p>
+<p>Time-Varying Characteristics</p>
+<p>Methods</p>
+<p><a href="#overview">OVERVIEW OF MEDICAID ELIGIBILITY AND TRANSITION</a></p>
+<p><a href="#community">COMMUNITY POPULATION AT RISK FOR MEDICAID TRANSITION</a></p>
+<p><a href="#probability">MULTIVARIATE ANALYSIS: PROBABILITY OF TRANSITION IN 1-4 YEARS</a></p>
+<p>Marginal Effects on the Predicted Probability of Transition</p>
+<p>Predicted Transition Over 4 Years</p>
+<p><a href="#effect">MULTIVARIATE ANALYSIS: EFFECTS OF TIME-VARYING FACTORS ON TRANSITION</a></p>
+<p>Time-Varying Factors</p>
+<p>Baseline Characteristics</p>
+<p><a href="#summary">SUMMARY AND DISCUSSION</a></p>
+<p><a href="#ref">REFERENCES</a></p>
+<p><a href="#appendA">APPENDIX A</a>: Additional Tables</p>
+<p>LIST OF FIGURES</p>
+<p><a href="#figure1">FIGURE 1</a>: Medicaid Transition Over 4 Years by Nursing Home Use Timing</p>
+<p><a href="#figure2">FIGURE 2</a>: Predicted Percent Transitioning to Medicaid by Income</p>
+<p><a href="#figure3">FIGURE 3</a>: Predicted Percent of Nursing Home Non-Users Transitioning to Medicaid by Income</p>
+<p><a href="#figure4">FIGURE 4</a>: Predicted Percent of Nursing Home Users Transitioning to Medicaid by Income</p>
+<p><a href="#figure5">FIGURE 5</a>: Predicted Percent Transitioning to Medicaid by Homeownership and Nursing Home Use</p>
+<p>LIST OF TABLES</p>
+<p><a href="#table1">TABLE 1</a>: Cumulative Medicaid Enrollment Over a 4-Year Follow-Up Period, Medicare Beneficiaries Age 65 or Older</p>
+<p><a href="#table2">TABLE 2</a>: Cumulative Percent of Community Residents Transitioning to Medicaid Over a 4-Year Follow-Up by Age, Disability, and Health</p>
+<p><a href="#table3">TABLE 3</a>: Cumulative Percent of Community Residents Transitioning to Medicaid Over a 4-Year Follow-Up Period by Potential Support Environment and Economic Characteristics</p>
+<p><a href="#table4">TABLE 4</a>: Residence at Transition, Average Time to Transition, and Average Months of Medicaid Over 4 Years, Community Residents Not Enrolled in Medicaid at Baseline</p>
+<p><a href="#table5">TABLE 5</a>: Probit Estimation of the Probability of Transition to Medicaid Within 1-4 Years, Community Residents Not Enrolled in Medicaid at Baseline</p>
+<p><a href="#table6">TABLE 6</a>: Survival Analysis of Transition to Medicaid Within 4 Years, Community Residents Not Eligible for Medicaid at Interview</p>
+<p>
+	<a href="#tableA1">TABLE A1</a>: Weighted Means/Proportions of Individual-Level Variables Used in Models, All Persons and by Medicaid Transition Over 4 Years</p>
+<p><a href="#tableA2">TABLE A2</a>: Predicted Transitions by Income, Homeownership, and Nursing Home Use</p>
+<p> </p>
+<h2><a name="acronym" id="acronym">ACRONYMS</a></h2>
+<p>The following acronyms are mentioned in this report and/or appendix.</p>
+<table border="1" cellspacing="0"><tbody><tr><th scope="row">ACA</th>
+<td>Affordable Care Act</td>
+</tr><tr><th scope="row">ADL</th>
+<td>Activity of Daily Living</td>
+</tr><tr><th colspan="2" scope="row"> </th>
+</tr><tr><th scope="row">CLASS</th>
+<td>Community Living and Services and Supports  </td>
+</tr><tr><th colspan="2" scope="row"> </th>
+</tr><tr><th scope="row">DME</th>
+<td>Durable Medical Equipment</td>
+</tr><tr><th colspan="2" scope="row"> </th>
+</tr><tr><th scope="row">ER</th>
+<td>Emergency Room</td>
+</tr><tr><th colspan="2" scope="row"> </th>
+</tr><tr><th scope="row">FFS</th>
+<td>Fee-For-Service</td>
+</tr><tr><th colspan="2" scope="row"> </th>
+</tr><tr><th scope="row">HRS</th>
+<td>Health and Retirement Study</td>
+</tr><tr><th colspan="2" scope="row"> </th>
+</tr><tr><th scope="row">IADL</th>
+<td>Instrumental Activity of Daily Living</td>
+</tr><tr><th colspan="2" scope="row"> </th>
+</tr><tr><th scope="row">LTSS</th>
+<td>Long-Term Services and Supports</td>
+</tr><tr><th colspan="2" scope="row"> </th>
+</tr><tr><th scope="row">MAX</th>
+<td>Medicaid Analytic eXtract</td>
+</tr><tr><th scope="row">MDS</th>
+<td>Minimum Data Set</td>
+</tr><tr><th colspan="2" scope="row"> </th>
+</tr><tr><th scope="row">NLTCS  </th>
+<td>National Long-Term Care Survey</td>
+</tr><tr><th colspan="2" scope="row"> </th>
+</tr><tr><th scope="row">SNF</th>
+<td>Skilled Nursing Facility</td>
+</tr></tbody></table><p> </p>
+<h2><a name="intro" id="intro">INTRODUCTION</a></h2>
+<p>Aged Medicare beneficiaries represent a small proportion of the Medicaid population but are disproportionately expensive because of their high likelihood of using long-term services and supports (LTSS). States have expanded community-based services, which the older population generally prefers, but nursing home costs still dominate LTSS spending for the aged. Waiver programs covering LTSS most commonly are available only to those who meet functional standards for nursing home care, and typically have limited slots available. Although the Affordable Care Act (ACA) provided new opportunities for states to expand community-based services to additional groups through state plan amendment or new waiver authorities, the extent of such expansions are not yet known.</p>
+<p>This study updates and expands knowledge about the prevalence and process of transitions to Medicaid among aged Medicare enrollees, using multiple years of Medicare, Medicaid, and assessment data linked to the 2004 National Long-Term Care Survey (NLTCS), with a focus on the role of nursing home use. This new information is particularly timely because of current policy exploration of ways to expand access to affordable private pre-funding options for long-term care in the wake of the repeal of the Community Living and Services and Supports (CLASS) program. CLASS, enacted as part of the ACA was repealed because of intractable issues relating to long-run viability in the form specified in the legislation.</p>
+<p>Because of the high cost of nursing home care and higher income thresholds typically allowed for nursing home residents, many who are not financially eligible for Medicaid services in the community either would become eligible at nursing home admission or would soon exhaust resources and become eligible. Most available evidence is very old, however, so that both the service environment and Medicaid programs have undergone significant changes. Studies from the 1990s estimated that the risk at age 65 of having Medicaid-financed nursing home care in remaining life was nearly one in five, and that more than 60% of those who ended life as nursing home residents either already were receiving Medicaid or became eligible at admission (Spillman &amp; Kemper 1995). Although the rates of conversion to Medicaid were far lower in the community, a larger number of persons became eligible outside of nursing homes (Liu, Doty, &amp; Manton 1990). Growth in use of community-based residential care and increased options for Medicaid services in the community logically may have increased the rate of conversion in the community, and the availability of alternatives to nursing home care for those with greater financial resources may have reduced the overall risk of Medicaid-financed nursing home use.</p>
+<p>Recent estimates based on a longitudinal sample of persons age 65 or older from the Health and Retirement Study (HRS) indicate that about 13% of those not already eligible for Medicaid at a baseline in 1996 or 1998 became eligible over a 10-12 year period ending in 2008 (Wiener et al. 2013). The study used a combination of survey-reported Medicaid eligibility and indicators of "buy-in" to Medicaid in Medicare data linked with the survey. Several caveats apply to these data: (1) the "buy-in" indicator identifies persons for whom state Medicaid programs pay premiums, deductibles, or coinsurance, but cannot distinguish those who receive full Medicaid benefits for services and thus may overstate eligibility; (2) survey reports are subject to error because of well-known respondent confusion between Medicare and Medicaid, and only those who showed a Medicaid card at interview were counted as Medicaid eligible; and (3) 15% of Medicare beneficiaries in the HRS refused to allow linkage to their Medicare data. Strengths are the ability to observe respondent-reported changes in physical and cognitive functioning and use of personal care or nursing home use over the analysis period. A potential weakness, however, is that survey reports of the timing of nursing home admission and the length of use may be less reliable than administrative data.</p>
+<p>In the present study, we examine the prevalence and process of transition to Medicaid over a 4-year follow-up period. Although we have only baseline observations from survey data on physical and cognitive status and other personal characteristics, we are able to observe the timing of Medicaid transition to full service benefits directly from Medicaid eligibility files and a new dual-eligibility flag included on the Medicare files since 2006, in addition to the buy-in indicators. The linkage to Minimum Data Set (MDS) nursing home assessments allows more confident identification of nursing home use, regardless of payer.</p>
+<p>Research questions to be addressed are the following:</p>
+<ul><li>
+<p>What proportion of a representative cross-section of Medicare beneficiaries age 65 or older is either eligible for Medicaid at baseline or will transition to Medicaid over a 1-4 year follow-up period.</p>
+</li>
+<li>
+<p>Among community residents not eligible for Medicaid at baseline, what proportion will transition over 1-4 years, and what is the univariate association between transition and demographic characteristics, disability and health, disability, support environment, economic factors, and nursing home use.</p>
+</li>
+<li>
+<p>Which factors remain important when multivariate controls for the correlation among them are applied?</p>
+</li>
+<li>
+<p>What can time variant information on health spending patterns and nursing home use tell us about the process of Medicaid transition and potential policies to affect it?</p>
+</li>
+</ul><p> </p>
+<h2><a name="data" id="data">DATA AND METHODS</a></h2>
+<p>Our analysis is based on the 2004 wave of the NLTCS, which was the dominant nationally representative longitudinal survey focused on disability and long-term care in the Medicare population age 65 or older for 2 decades before the final 2004 survey year.</p>
+<p>Throughout the survey's history, Medicare beneficiary and claims data were linked to respondents, providing continuous longitudinal information on Medicare service use and spending. Beginning in the 1999 survey year, the Office of Disability, Aging and Long-Term Care Policy supported linkage of Outcome and Assessment Information Set and MDS assessments, the latter with the particular intent of being able to observe nursing home admissions occurring in the intervals between interviews (Spillman &amp; Long 2009). For the 2004 survey year, Medicaid beneficiary and claims data for the years 2004-2007 also were linked, providing for the first time, more confident identification of Medicaid eligibility and the ability to observe transitions to Medicaid occurring after the survey baseline. The estimates provided in this report draw on data from the 2004 NLTCS and from the linked Medicaid and Medicare administrative files as well as the MDS for identification of the timing of nursing home use.</p>
+<h3>Analysis Samples</h3>
+<p>The base sample for descriptive estimates of Medicaid enrollment in the older population is 6,171 respondents to the NLTCS detailed interview, including 2,170 persons who reported no current chronic disability, 3,031 non-institutional residents who reported chronic disabilities, and 970 institutionalized persons. The full population is used in an initial profile of Medicaid enrollment at baseline and transitions over the 4-year follow-up period. For descriptive analyses examining the prevalence and process of Medicaid transitions, the analysis sample is limited to all respondents living in non-institutional settings who are not already enrolled in Medicaid at interview (n=4,254). This sample also is the basis of the analysis file for multivariate models of the probability of transition to Medicaid. For hazard models examining how selected time-varying factors, including Medicare service use, are associated with increased risk of transition over time, we select fee-for-service (FFS) enrollees (n=3,241).</p>
+<h3>Overview of Analytic Measures</h3>
+<p>Measures constructed for the descriptive and multivariate analyses include both baseline characteristics and time-varying characteristics. Some baseline characteristics (e.g., gender, race, ethnicity, education) can be assumed to persist throughout the analysis period, while others indicate a starting position relative to others, although we cannot observe change over time (e.g., economic situation, disability, health). Yet other baseline personal characteristics, such as living arrangement, potential informal care resources, and residential setting, are especially likely to change over time in response to declines in health and functioning. Medicaid enrollment, nursing home use, Medicare spending and utilization patterns, and vital status are observed over the full 4-year analysis period. Medicaid state program characteristics, long-term care prices, and local health system characteristics, which can be expected to affect the likelihood and timing of Medicaid transition, can be observed over time, but show so little temporal variation that they are treated in these analyses as persistent baseline characteristics.</p>
+<h3>Medicaid Transition</h3>
+<p>We constructed Medicaid enrollment and transition to Medicaid among those not enrolled at baseline from three administrative data sources. The primary source was Medicaid eligibility for full benefits obtained from the 2004-2007 Medicaid Analytic eXtract (MAX) Person Summary files. A secondary source was an indicator of full-benefit dual-eligibility for Medicaid and Medicare from Medicare beneficiary files for 2006-2008. The final source was the "buy-in" indicator on Medicare beneficiary files for 2004-2009. The overlaps in availability of each measure allowed examination of the consistency across sources of Medicaid indicators. In general, "false" positives relative to the MAX data were very uncommon in both the buy-in (about 0.5%) and dual indicator variables (about 0.2%). False negatives were more common in both variables, indicating that both may understate enrollment. Based on analysis of the MAX-based measure that indicated persistence of enrollment after transition and the low rate of false positives in the buy-in and duals indicators, we assumed continuing enrollment through death or the end of the 4-year analysis period for all sample members identified as having transitioned in the MAX data through 2007 or identified by the buy-in flag or duals indicator in 2008 or 2009.</p>
+<p>Our measure is enrollment. We do not estimate eligibility and cannot directly distinguish how transition occurred. Some persons may meet financial standards for eligibility choose not to enroll, for example, if they wish to and are able to remain in the community, but community-based Medicaid services are not available. Some persons may meet their state's asset standards but have income above eligibility thresholds, so that they would have to "spend down" income on health care or nursing home use to become eligible. Others may have to "spend down" assets above their state's standards.</p>
+<h3>Baseline Characteristics</h3>
+<p><strong><em>Disability and Cognitive Status</em></strong>. The NLTCS measures disability as using assistive devices or receiving help in the last week with at least one activity of daily living (ADL) or being unable to perform at least one instrumental activity of daily living (IADL) without assistance because of health or disability. The included ADLs are eating, getting in or out of bed, getting around inside, dressing, bathing, and toileting. Although inability to perform IADLs is a more stringent measure than is used in many surveys, limitation in these activities is important for the ability to live independently but indicative of less severe disability than ADL limitation. The included IADLs are getting around outside, doing housework, doing laundry, preparing meals, shopping, taking medications, managing money, and using the telephone. For this analysis, we constructed a hierarchical measure that distinguishes between those managing all disabilities without help, those receiving help with IADLs only, and those receiving help with 1-2 ADLs and 3+ ADLs. The group managing without help primarily consists of a growing segment of the older population that reports managing with assistive devices but no help, but also includes a far smaller group who report inability to perform IADLs but identify no one who usually helps them. For cognition, we constructed an indicator of mild to severe cognitive impairment using survey reports of cognitive conditions and results of the Short Portable Mental Status Questionnaire conventionally coded (Pfeiffer 1975).</p>
+<p><strong><em>Health Characteristics</em></strong>. Health status is an important factor both because poor health and chronic conditions may result in functional decline and need for long-term care, but also because out-of-pocket spending associated with high service utilization may contribute to eroding of financial resources over time. To characterize initial health status, we used self-reported health and selected chronic conditions and events reported by survey respondents. These are high blood pressure, diabetes, heart disease, lung disease (bronchitis, asthma, emphysema) in the last year, a nervous disorder (cerebral palsy, epilepsy, multiple sclerosis, paralysis, Parkinson's disease), and a stroke in the last year.</p>
+<p><strong><em>Informal Care Resources and Support Environment</em></strong>. Informal care, most often provided by close family members, is the most common type of long-term care and may reduce the need for paid care. Because the analysis examines those without and with disabilities at baseline, we characterized <em>potential</em> care resources using two measures that can be constructed for all sample members. The first is whether the respondent lives alone, with a spouse (with or without others), or with only persons other than a spouse. The second measure of potential informal resources is whether the respondent has any daughters who are coresident or live nearby, specifically within an hour's travel. Spouses and children have long been the dominant source of informal care to the older population (Spillman &amp; Black 2005). We further differentiated whether the respondent lived in a traditional community residence, in some other type of retirement or group setting that did not meet criteria for residential care, or in community-based residential care, which includes a range of settings from assisted living to board and care homes, generally indicating the need for daily assistance with household tasks or personal care. About 2.5% of NLTCS respondents live in residential care settings classified as being in the community by NLTCS definitions.</p>
+<p><strong><em>Economic Status</em></strong>. The NLTCS collects information on income in the prior year in categories for individuals and for couples, as well as home ownership and home value. We categorized income as less than $10,000, $10,000 to less than $20,000, $20,000 to less than $30,000, and $30,000 or more. The lowest two categories roughly approximate the poor and near poor (defined as at or below twice the federal poverty threshold for individuals and couples age 65 or older, $9,060 and $11,430, respectively). The survey does not collect information on non-housing assets. Home ownership was missing for less than 3% of the weighted sample (128 unweighted observations), and home value was missing for about 10% of the weighted sample (391 unweighted observations). We imputed values first for home ownership and then for home value, using a hot deck imputation procedure. We categorized home value as less than $75,000, $75,000 to less than $150,000, and $150,000 or more.</p>
+<p><strong><em>Medicaid Program and Health System Characteristics</em></strong>. We constructed state-level Medicaid program characteristics and prices of assisted living, home care, and nursing facility care and county-level health and long-term care system supply variables for all years from 2004-2009 available from various external sources, linked to the survey data by state and county identifiers. From these measures, we constructed indicators of whether values for each state or county were above the median for all states or counties where applicable (prices, supply, and percent of Medicaid program spending in the community). Other state program characteristics relevant to transition included as indicator variables in our analyses are whether the state has special income rules that allow higher income thresholds for nursing home entrants, was a 209B state (with more stringent financial eligibility than federal guidelines), or had a medically needy program. States with medically needy programs allow beneficiaries to become eligible if health care expenses reduce available income below the state threshold, and 209B states also must allow "spend down" to their lower eligibility thresholds. For spousal impoverishment we created indicators of whether the state set protected income thresholds at the maximum allowable and had a protected resource standard at or above the 75th percentile across states and whether community-based waiver participants had spousal impoverishment protections. As noted, we generally found little variation over time in the relative positions of states and counties on these measures and treated them as persistent baseline characteristics.</p>
+<h3>Time-Varying Characteristics</h3>
+<p><strong><em>Medicare Spending and Utilization Patterns</em></strong>. We used Medicare claims files from 2003-2009 to construct monthly spending and utilization. To characterize high spending levels that could indicate additional out-of-pocket health costs contributing to Medicaid transition, we constructed total spending in the 6 months prior to each monthly observation, including the current month. We also constructed flags indicating the use in each month of inpatient, outpatient, home health, skilled nursing facility (SNF), and hospice care.</p>
+<p><strong><em>Nursing Home Use</em></strong>. We used MDS data for the years 2004-2009 to construct a longitudinal monthly file indicating any use, short stay use, and long stay use. A long stay was defined as any episode of 2 months or more without a period of 30 days or more of community residence. Short and long stays are mutually exclusive. For the hazard model, we included separate indicators for short and long stays, since a stay may be "short" because it is a permanent placement that ends quickly in death. For both short and long stays, we excluded months in which the SNF flag was set to differentiate use not covered by Medicare. For descriptive estimates and models predicting the probability of transition to Medicaid over periods of 1-4 years, we constructed indicators of whether use occurred within each time period. We also constructed indicators of whether transition occurred before, at, or after nursing home entry, total months to transition, and months to transition after nursing home entry.</p>
+<p><strong><em>Survival</em></strong>. To control for exposure to the risk of Medicaid transition, we constructed indicators for each month for use in hazard models. For descriptive estimates and models predicting the probability of transition, we constructed indicators of the probability of surviving through each of the 1-year to 4-year analysis periods and variables indicating the proportion of each analysis period survived.</p>
+<h3>Methods</h3>
+<p>Descriptive estimates addressing the first two research questions regarding the population enrolled in Medicaid or transitioning over 1-4 years and characteristics associated with transition were produced using SAS (Version 9.2) procedures (Proc Surveyfreq and Proc Surveymean) that produce standard errors corrected for complex survey design. Detailed sample weights adjust for survey design and non-response and are post-stratified by age and sex to the Medicare population in 2004 (Spillman 2011).</p>
+<p>To examine factors predicting Medicaid transition over 1-4 years, we used a multivariate model and a probit specification to estimate the probability of transitioning, controlling for personal baseline characteristics, state Medicaid program characteristics, state-level long-term care prices, and county-level supply of long-term care and health care. To address the final research question, we used survival model techniques to examine how time-varying factors, including spending and use of acute and post-acute care and nursing homes are associated with the timing of transitions to Medicaid, controlling for baseline characteristics. Coefficient estimates indicate the relative risk (ratio of instantaneous hazard) that a person will transition to Medicaid at time <em>t</em> given baseline characteristics, total Medicare spending, acute and post-acute service utilization, and nursing home utilization at time <em>t</em>. For the multivariate models, we used Stata (Version 10.1) Probit and streg (survival time regression) commands, respectively, and Stata's survey (svy) commands to produce standard errors adjusted for survey design.</p>
+<p> </p>
+<h2><a name="overview" id="overview">OVERVIEW OF MEDICAID ELIGIBILITY AND TRANSITION</a></h2>
+<p>About 14% of Medicare beneficiaries age 65 or older in 2004 were eligible for Medicaid, and another nearly 5% had enrolled within 4 years of interview (<a href="#table1">Table 1</a>). Women and those age 85+ were more likely and men and those younger than 85 were less likely than the average to be enrolled at baseline and to transition. Not surprisingly, given the association of long-term care utilization and spending with Medicaid eligibility, all groups receiving IADL or ADL assistance, and those with cognitive impairment had far higher than average rates of transition. Most notably, nearly two in three institutional residents at baseline were enrolled in Medicaid, and 70% of this group was enrolled after 4 years, consistent with generally more favorable eligibility rules for those in nursing homes and with the high cost of private nursing home care.</p>
+<table border="1"><tbody><tr><th colspan="10"><strong><a id="table1">TABLE 1</a>. Cumulative Medicaid Enrollment Over a 4-Year Follow-Up Period, Medicare Beneficiaries Age 65 or Older</strong></th>
+</tr><tr><th rowspan="3" scope="col"> </th>
+<th rowspan="3" scope="col"><strong>Number of Persons<br />
+				(000s)</strong></th>
+<th rowspan="3" scope="col"><strong>Percent of Population</strong></th>
+<th colspan="7" scope="col"><strong>Medicaid Status</strong></th>
+</tr><tr><th rowspan="2" scope="col"><strong>Enrolled at Baseline</strong></th>
+<th colspan="4" scope="col"><strong>Transition After Baseline</strong></th>
+<th rowspan="2" scope="col"><strong>Total Enrolled at<br />
+				Baseline or Transitioning</strong></th>
+<th rowspan="2" scope="col"><strong>Not Enrolled at Baseline, No Transition</strong></th>
+</tr><tr><th scope="col"><strong>Within 1 Year</strong></th>
+<th scope="col"><strong>Within 2 Years</strong></th>
+<th scope="col"><strong>Within 3 Years</strong></th>
+<th scope="col"><strong>Within 4 Years</strong></th>
+</tr><tr><th scope="row">All Medicare aged</th>
+<td>35,135</td>
+<td>100.0</td>
+<td>14.3</td>
+<td>1.5</td>
+<td>2.7</td>
+<td>4.0</td>
+<td>4.7</td>
+<td>19.0</td>
+<td>81.0</td>
+</tr><tr><th colspan="10" scope="row">Gender</th>
+</tr><tr><th scope="row">Men</th>
+<td>14,717</td>
+<td>41.9</td>
+<td>10.1</td>
+<td>1.0</td>
+<td>2.2</td>
+<td>3.3</td>
+<td>3.8</td>
+<td>13.9</td>
+<td>86.1</td>
+</tr><tr><th scope="row">Women</th>
+<td>20,418</td>
+<td>58.1</td>
+<td>17.3</td>
+<td>1.8</td>
+<td>3.1</td>
+<td>4.5</td>
+<td>5.3</td>
+<td>22.6</td>
+<td>77.4</td>
+</tr><tr><th colspan="10" scope="row">Age</th>
+</tr><tr><th scope="row">65-74</th>
+<td>17,941</td>
+<td>51.1</td>
+<td>12.4</td>
+<td>1.1</td>
+<td>1.7</td>
+<td>2.4</td>
+<td>3.0</td>
+<td>15.4</td>
+<td>84.6</td>
+</tr><tr><th scope="row">75-84</th>
+<td>12,614</td>
+<td>35.9</td>
+<td>14.1</td>
+<td>1.4</td>
+<td>3.0</td>
+<td>4.5</td>
+<td>5.1</td>
+<td>19.2</td>
+<td>80.8</td>
+</tr><tr><th scope="row">85+</th>
+<td>4,580</td>
+<td>13.0</td>
+<td>20.1</td>
+<td>2.6</td>
+<td>5.7</td>
+<td>8.9</td>
+<td>9.9</td>
+<td>30.0</td>
+<td>70.0</td>
+</tr><tr><th colspan="10" scope="row">Disability</th>
+</tr><tr><th scope="row">None</th>
+<td>27,771</td>
+<td>79.0</td>
+<td>9.7</td>
+<td>1.0</td>
+<td>1.9</td>
+<td>3.0</td>
+<td>3.5</td>
+<td>13.2</td>
+<td>86.8</td>
+</tr><tr><th scope="row">Receiving no help<sup>a</sup></th>
+<td>1,549</td>
+<td>4.4</td>
+<td>13.3</td>
+<td>2.0</td>
+<td>3.9</td>
+<td>5.9</td>
+<td>7.3</td>
+<td>20.7</td>
+<td>79.3</td>
+</tr><tr><th scope="row">Help with IADLs only</th>
+<td>1,568</td>
+<td>4.5</td>
+<td>21.2</td>
+<td>2.6</td>
+<td>5.9</td>
+<td>8.1</td>
+<td>9.9</td>
+<td>31.1</td>
+<td>68.9</td>
+</tr><tr><th scope="row">Help with 1-2 ADLs</th>
+<td>1,205</td>
+<td>3.4</td>
+<td>27.4</td>
+<td>4.3</td>
+<td>7.7</td>
+<td>9.5</td>
+<td>11.1</td>
+<td>38.5</td>
+<td>61.5</td>
+</tr><tr><th scope="row">Help with 3+ ADLs</th>
+<td>1,557</td>
+<td>4.4</td>
+<td>32.6</td>
+<td>4.4</td>
+<td>7.1</td>
+<td>10.2</td>
+<td>11.5</td>
+<td>44.1</td>
+<td>55.9</td>
+</tr><tr><th scope="row">Institutional resident<sup>b</sup></th>
+<td>1,485</td>
+<td>4.2</td>
+<td>63.4</td>
+<td>2.9</td>
+<td>5.0</td>
+<td>6.2</td>
+<td>7.1</td>
+<td>70.5</td>
+<td>29.5</td>
+</tr><tr><th colspan="10" scope="row">Cognitive Status</th>
+</tr><tr><th scope="row">Not impaired</th>
+<td>30,114</td>
+<td>85.7</td>
+<td>11.9</td>
+<td>1.2</td>
+<td>2.2</td>
+<td>3.3</td>
+<td>4.0</td>
+<td>15.9</td>
+<td>84.1</td>
+</tr><tr><th scope="row">Impaired</th>
+<td>5,021</td>
+<td>14.3</td>
+<td>37.6</td>
+<td>4.0</td>
+<td>8.0</td>
+<td>10.9</td>
+<td>11.8</td>
+<td>49.4</td>
+<td>50.6</td>
+</tr><tr><td colspan="10" scope="row"><strong>NOTES</strong>: Medicare enrollees age 65 or older responding to detailed interview, NLTCS 2004 (n=6,171).
+<ol><li>Managing disabilities with assistive devices only or reporting IADL disabilities only and identifying no one who usually helped. The NLTCS assesses help and device use over the week prior to interview for ADL disabilities and inability to perform IADLs without help because of health or disability. A small percentage of persons report IADL inabilities but identify no helpers.</li>
+<li>Nearly all institutional residents in NLTCS are nursing home residents. About 10% in other supportive settings where medical supervision is provided.</li>
+</ol></td>
+</tr></tbody></table><p> </p>
+<h2><a name="community" id="community">COMMUNITY POPULATION AT RISK FOR MEDICAID TRANSITION</a></h2>
+<p>Among the population living outside of institutional settings and not enrolled in Medicaid at baseline, a little more than 5% had transitioned by the end of 4 years. Patterns are similar to those for the full population age 65 or older, with women, the oldest old, and those with higher levels of disability more likely than others to transition to Medicaid. As for the full population, those with cognitive impairment at baseline had the highest rate of transition--nearly one in five.</p>
+<table border="1"><tbody><tr><th colspan="8"><strong><a id="table2">TABLE 2</a>. Cumulative Percent of Community Residents Transitioning to Medicaid Over a 4-Year Follow-Up by Age, Disability, and Health </strong></th>
+</tr><tr><th rowspan="2" scope="col"> </th>
+<th rowspan="2" scope="col"><strong>Number of Persons<br />
+				(000s) </strong></th>
+<th rowspan="2" scope="col"><strong>Percent of Persons </strong></th>
+<th colspan="4" scope="col"><strong>Transition After Baseline </strong></th>
+<th rowspan="2" scope="col"><strong>No Transition </strong></th>
+</tr><tr><th scope="col"><strong>Within 1 Year </strong></th>
+<th scope="col"><strong>Within 2 Years</strong></th>
+<th scope="col"><strong>Within 3 Years</strong></th>
+<th scope="col"><strong>Within 4 Years</strong></th>
+</tr><tr><th scope="row">Community, not enrolled at baseline</th>
+<td>29,500</td>
+<td>100.0</td>
+<td>1.6</td>
+<td>30.</td>
+<td>4.5</td>
+<td>5.2</td>
+<td>94.8</td>
+</tr><tr><th colspan="8" scope="row">Gender</th>
+</tr><tr><th scope="row">Men</th>
+<td>13,028</td>
+<td>44.2</td>
+<td>1.1</td>
+<td>2.4</td>
+<td>3.6</td>
+<td>4.1</td>
+<td>95.9</td>
+</tr><tr><th scope="row">Women</th>
+<td>16,471</td>
+<td>55.8</td>
+<td>2.0</td>
+<td>3.5</td>
+<td>5.2</td>
+<td>6.1</td>
+<td>93.9</td>
+</tr><tr><th colspan="8" scope="row">Age</th>
+</tr><tr><th scope="row">65-74</th>
+<td>15,651</td>
+<td>53.1</td>
+<td>1.3</td>
+<td>1.9</td>
+<td>2.8</td>
+<td>3.4</td>
+<td>96.6</td>
+</tr><tr><th scope="row">75-84</th>
+<td>10,616</td>
+<td>36.0</td>
+<td>1.5</td>
+<td>3.3</td>
+<td>5.0</td>
+<td>5.7</td>
+<td>94.3</td>
+</tr><tr><th scope="row">85+</th>
+<td>3,233</td>
+<td>11.0</td>
+<td>3.5</td>
+<td>7.0</td>
+<td>10.9</td>
+<td>12.1</td>
+<td>87.9</td>
+</tr><tr><th colspan="8" scope="row">Disability</th>
+</tr><tr><th scope="row">None</th>
+<td>25,035</td>
+<td>84.9</td>
+<td>1.1</td>
+<td>2.1</td>
+<td>3.3</td>
+<td>3.8</td>
+<td>96.2</td>
+</tr><tr><th scope="row">Receiving no help<sup>a</sup></th>
+<td>1,339</td>
+<td>4.5</td>
+<td>2.3</td>
+<td>4.5</td>
+<td>6.8</td>
+<td>8.5</td>
+<td>91.5</td>
+</tr><tr><th scope="row">Help with IADLs only</th>
+<td>1,230</td>
+<td>4.2</td>
+<td>3.2</td>
+<td>7.5</td>
+<td>10.2</td>
+<td>12.6</td>
+<td>87.4</td>
+</tr><tr><th scope="row">Help with 1-2 ADLs</th>
+<td>871</td>
+<td>3.0</td>
+<td>5.9</td>
+<td>10.6</td>
+<td>13.1</td>
+<td>15.4</td>
+<td>84.6</td>
+</tr><tr><th scope="row">Help with 3+ ADLs</th>
+<td>1,024</td>
+<td>3.5</td>
+<td>6.7</td>
+<td>10.6</td>
+<td>15.3</td>
+<td>17.3</td>
+<td>82.7</td>
+</tr><tr><th colspan="8" scope="row">Cognitive Status</th>
+</tr><tr><th scope="row">Not impaired</th>
+<td>27,935</td>
+<td>94.7</td>
+<td>1.3</td>
+<td>2.4</td>
+<td>3.7</td>
+<td>4.4</td>
+<td>95.6</td>
+</tr><tr><th scope="row">Impaired</th>
+<td>1,565</td>
+<td>5.3</td>
+<td>6.0</td>
+<td>13.1</td>
+<td>18.3</td>
+<td>19.3</td>
+<td>80.7</td>
+</tr><tr><th colspan="8" scope="row">Self-Reported Health Status<sup>b</sup></th>
+</tr><tr><th scope="row">Excellent/good</th>
+<td>23,063</td>
+<td>78.8</td>
+<td>1.0</td>
+<td>2.1</td>
+<td>3.4</td>
+<td>4.0</td>
+<td>96.0</td>
+</tr><tr><th scope="row">Fair/poor</th>
+<td>6,217</td>
+<td>21.2</td>
+<td>3.5</td>
+<td>6.0</td>
+<td>8.2</td>
+<td>9.4</td>
+<td>90.6</td>
+</tr><tr><th colspan="8" scope="row">Selected Health Conditions</th>
+</tr><tr><th scope="row">None</th>
+<td>11,032</td>
+<td>37.4</td>
+<td>0.9</td>
+<td>1.7</td>
+<td>2.9</td>
+<td>3.6</td>
+<td>96.4</td>
+</tr><tr><th scope="row">High blood pressure</th>
+<td>13,540</td>
+<td>46.0</td>
+<td>2.0</td>
+<td>3.9</td>
+<td>5.8</td>
+<td>6.4</td>
+<td>93.6</td>
+</tr><tr><th scope="row">Diabetes</th>
+<td>5,121</td>
+<td>17.4</td>
+<td>1.2</td>
+<td>4.2</td>
+<td>5.0</td>
+<td>6.5</td>
+<td>93.5</td>
+</tr><tr><th scope="row">Heart disease</th>
+<td>4,536</td>
+<td>15.4</td>
+<td>3.1</td>
+<td>4.4</td>
+<td>6.0</td>
+<td>7.2</td>
+<td>92.8</td>
+</tr><tr><th scope="row">Lung disease in the last year</th>
+<td>4,164</td>
+<td>14.1</td>
+<td>3.6</td>
+<td>5.5</td>
+<td>7.1</td>
+<td>7.7</td>
+<td>92.3</td>
+</tr><tr><th scope="row">Paralysis/nervous system disorder</th>
+<td>996</td>
+<td>3.4</td>
+<td>4.7</td>
+<td>7.4</td>
+<td>10.8</td>
+<td>11.8</td>
+<td>88.2</td>
+</tr><tr><th scope="row">Stroke in the last year</th>
+<td>801</td>
+<td>2.7</td>
+<td>4.9</td>
+<td>7.5</td>
+<td>8.3</td>
+<td>8.7</td>
+<td>91.3</td>
+</tr><tr><td colspan="8" scope="row"><strong>NOTES</strong>: Medicare enrollees age 65 or older living in community settings and not Medicaid enrolled at baseline, NLTCS 2004 (n=4,254).
+<ol><li>Managing disabilities with assistive devices only or reporting IADL disabilities only and identifying no one who usually helped. The NLTCS assesses help and device use over the week prior to interview for ADL disabilities and inability to perform IADLs without help because of health or disability. A small percentage of persons report IADL inabilities but identify no helpers.</li>
+<li>Self-reported health was missing for 52 unweighted cases.</li>
+</ol></td>
+</tr></tbody></table><p><strong><em>Health Status</em></strong>. Those who reported fair or poor health were more than twice as likely to have met eligibility requirements and enrolled in Medicaid than those with excellent or good health over each time period. Those with selected health conditions also were more likely than to have transitioned to Medicaid in each time period than those with none of the selected conditions, although differences were relatively small for those with high blood pressure or diabetes. The rate was highest in each period for those with paralysis or nervous system disorders, followed by those who had experienced a stroke within a year of interview.</p>
+<table border="1"><tbody><tr><th colspan="8"><strong><a id="table3">TABLE 3</a>. Cumulative Percent of Community Residents Transitioning to Medicaid Over a 4-Year Follow-Up Period by Potential Support Environment and Economic Characteristics</strong></th>
+</tr><tr><th rowspan="2" scope="col"> </th>
+<th rowspan="2" scope="col"><strong>Number of Persons<br />
+				(000s)</strong></th>
+<th rowspan="2" scope="col"><strong>Percent of Persons</strong></th>
+<th colspan="4" scope="col"><strong>Transition After Baseline</strong></th>
+<th rowspan="2" scope="col"><strong>No Transition</strong></th>
+</tr><tr><th scope="col"><strong>Within 1 Year</strong></th>
+<th scope="col"><strong>Within 2 Years</strong></th>
+<th scope="col"><strong>Within 3 Years</strong></th>
+<th scope="col"><strong>Within 4 Years</strong></th>
+</tr><tr><th colspan="8" scope="row">Support Environment</th>
+</tr><tr><th colspan="8" scope="row">Potential Informal Support</th>
+</tr><tr><th scope="row">Lives alone</th>
+<td>9,300</td>
+<td>31.5</td>
+<td>2.2</td>
+<td>4.1</td>
+<td>6.0</td>
+<td>7.1</td>
+<td>92.9</td>
+</tr><tr><th scope="row">Lives with spouse</th>
+<td>17,399</td>
+<td>59.0</td>
+<td>0.9</td>
+<td>2.1</td>
+<td>3.0</td>
+<td>3.4</td>
+<td>96.6</td>
+</tr><tr><th scope="row">Lives with others, not spouse</th>
+<td>2,800</td>
+<td>9.5</td>
+<td>3.5</td>
+<td>5.3</td>
+<td>8.6</td>
+<td>10.2</td>
+<td>89.8</td>
+</tr><tr><th colspan="8" scope="row">Daughter Resident or Within 1 Hour</th>
+</tr><tr><th scope="row">No</th>
+<td>15,733</td>
+<td>53.3</td>
+<td>1.3</td>
+<td>2.7</td>
+<td>4.2</td>
+<td>5.0</td>
+<td>95.0</td>
+</tr><tr><th scope="row">Yes</th>
+<td>13,767</td>
+<td>46.7</td>
+<td>1.9</td>
+<td>3.4</td>
+<td>4.8</td>
+<td>5.5</td>
+<td>94.5</td>
+</tr><tr><th colspan="8" scope="row">Residential Setting</th>
+</tr><tr><th scope="row">Traditional private residence</th>
+<td>26,320</td>
+<td>89.2</td>
+<td>1.3</td>
+<td>2.5</td>
+<td>3.7</td>
+<td>4.4</td>
+<td>95.6</td>
+</tr><tr><th scope="row">Retirement community/ housing</th>
+<td>2,575</td>
+<td>8.7</td>
+<td>3.3</td>
+<td>5.4</td>
+<td>8.6</td>
+<td>9.7</td>
+<td>90.3</td>
+</tr><tr><th scope="row">Community residential care</th>
+<td>605</td>
+<td>2.1</td>
+<td>5.8</td>
+<td>16.7</td>
+<td>19.2</td>
+<td>20.9</td>
+<td>79.1</td>
+</tr><tr><th colspan="8" scope="row">Economic Characteristics</th>
+</tr><tr><th colspan="8" scope="row">Annual Income</th>
+</tr><tr><th scope="row">Less than $10,000</th>
+<td>2,551</td>
+<td>8.6</td>
+<td>3.8</td>
+<td>7.9</td>
+<td>10.6</td>
+<td>11.7</td>
+<td>88.3</td>
+</tr><tr><th scope="row">$10,000 - &lt;$20,000</th>
+<td>7,919</td>
+<td>26.8</td>
+<td>3.0</td>
+<td>5.6</td>
+<td>8.6</td>
+<td>10.3</td>
+<td>89.7</td>
+</tr><tr><th scope="row">$20,000 - &lt;$30,000</th>
+<td>7,086</td>
+<td>24.0</td>
+<td>1.6</td>
+<td>2.4</td>
+<td>3.7</td>
+<td>4.0</td>
+<td>96.0</td>
+</tr><tr><th scope="row">$30,000 or more</th>
+<td>11,944</td>
+<td>40.5</td>
+<td>0.2</td>
+<td>0.6</td>
+<td>0.9</td>
+<td>1.2</td>
+<td>98.8</td>
+</tr><tr><th colspan="8" scope="row">Homeowner<sup>a</sup></th>
+</tr><tr><th scope="row">No</th>
+<td>7,228</td>
+<td>24.5</td>
+<td>3.7</td>
+<td>6.5</td>
+<td>9.7</td>
+<td>10.7</td>
+<td>89.3</td>
+</tr><tr><th scope="row">Yes</th>
+<td>22,271</td>
+<td>75.5</td>
+<td>0.9</td>
+<td>1.9</td>
+<td>2.8</td>
+<td>3.4</td>
+<td>96.6</td>
+</tr><tr><th colspan="8" scope="row">Home Value</th>
+</tr><tr><th scope="row">Under $75K</th>
+<td>7,137</td>
+<td>15.5</td>
+<td>2.2</td>
+<td>5.4</td>
+<td>6.9</td>
+<td>8.2</td>
+<td>91.8</td>
+</tr><tr><th scope="row">$75 - &lt;$150K</th>
+<td>10,503</td>
+<td>27.2</td>
+<td>0.8</td>
+<td>1.4</td>
+<td>2.5</td>
+<td>3.1</td>
+<td>96.9</td>
+</tr><tr><th scope="row">$150K or more</th>
+<td>4,631</td>
+<td>32.8</td>
+<td>0.3</td>
+<td>0.5</td>
+<td>1.1</td>
+<td>1.5</td>
+<td>98.5</td>
+</tr><tr><th colspan="8" scope="row">Education</th>
+</tr><tr><th scope="row">Less than high school</th>
+<td>7,224</td>
+<td>24.5</td>
+<td>3.0</td>
+<td>5.1</td>
+<td>8.0</td>
+<td>9.3</td>
+<td>90.7</td>
+</tr><tr><th scope="row">High school</th>
+<td>9,633</td>
+<td>32.7</td>
+<td>1.7</td>
+<td>3.1</td>
+<td>4.4</td>
+<td>5.1</td>
+<td>94.9</td>
+</tr><tr><th scope="row">Some college</th>
+<td>12,643</td>
+<td>42.9</td>
+<td>0.7</td>
+<td>1.7</td>
+<td>2.5</td>
+<td>3.0</td>
+<td>97.0</td>
+</tr><tr><td colspan="8" scope="row"><strong>NOTES</strong>: Medicare enrollees age 65 or older living in community settings and not Medicaid enrolled at baseline, NLTCS 2004. (n=4,254).
+<ol><li>Home ownership was imputed for less than 3% of the weighted sample (128 unweighted observations), and home value was imputed for about 10% of the weighted sample (391 unweighted observations).</li>
+</ol></td>
+</tr></tbody></table><p><strong><em>Support Environment</em></strong>. The nearly six in ten persons who were living with a spouse at baseline had the lowest rate of transition over the 4-year analysis period, while the rates for those who were living alone or with persons other than a spouse were more than twice and more than three times as likely to transition, respectively (<a href="#table3">Table 3</a>). Having at least one daughter either coresident or nearby had little effect, although among those receiving disability assistance, daughters are second only to spouses in their importance as informal care providers. Those living in residential care settings at baseline are more than five times as likely to transition over 4 years as those in traditional private residences and more than twice as likely as those in retirement housing or communities. This presumably reflects that they already are experiencing functional decline but also may reflect economic factors.</p>
+<p><strong><em>Economic Characteristics</em></strong>. Low income and housing assets are clearly associated with higher rates of transition in each time period, as would be expected. More than one in ten of those in the two lower income categories, approximating poor and near poor individuals and couples, were enrolled in Medicaid by the end of the 4-year period, compared with 4% of those with incomes between $20,000 and $30,000, and only 1.2% of those with baseline incomes of $30,000 or more. Those who were not homeowners had the highest rate of transition in time periods, followed by those with homes valued at less than $75,000. Nearly 11% of non-homeowners and about 8% of those with low home value had enrolled in Medicaid by the end of the 4-year analysis period, compared with only 1.5% of those with home values of $150,000 or more. Education level, which is correlated with economic status but also has been found to be strongly associated with health, functioning, and cognitive health, also is important. Those with less than a high school education were a little more than three times as likely to have enrolled in Medicaid by the end of the 4-year period as those with some college education.</p>
+<table align="center" border="1" cellspacing="0"><tbody><tr><th><strong><a id="figure1">FIGURE 1</a>. Medicaid Transition Over 4 Years by Nursing Home Use Timing</strong></th>
+</tr><tr><td><img alt="FIGURE 1, Bar Chart: Any nursing home use--No (2.7), Within 1 year (21.8), Within 2 years (19.5), Within 3 years (19.3), Within 4 years (17.3); Any long-stay nursing home use--No (2.9), Within 1 year (51.6), Within 2 years (48.5), Within 3 years (46.0), Within 4 years (39.9)." src="http://aspe.hhs.gov/system/files/images-reports-basic/134551/timing-fig1.jpg" style="height:446px; width:645px" /></td>
+</tr></tbody></table><p><strong><em>Nursing Home Use</em></strong>. Nursing home use and transition to Medicaid are strongly related, as illustrated by <a href="#figure1">Figure 1</a>. Only about 3% of those with no nursing home use transitioned to Medicaid over the 4-year analysis period. In contrast, one in five persons admitted to a nursing home within 1 year and about 17% of all admitted within 4 years transitioned to Medicaid at some point over 4 years. The contrast is even greater for admissions to long stay use. Again, only about 3% of those with no lengthy use but nearly half of those admitted to a long stay within 1 year and 40% of those ever admitted over 4 years were enrolled in Medicaid by the end of the analysis period. Among persons ever using nursing homes who transitioned to Medicaid, 60% did so only after nursing home entry (not shown). For those with long stays who transitioned, the proportion transitioning after entry was about two in three, compared with only a third of those who had only short stay nursing home use.</p>
+<p><a href="#table4">Table 4</a> shows the distribution by place of transition for all persons transitioning over the 4-year analysis period, the average number of months to transition, and, for those transitioning after admission, the number of months until transition following admission. Overall, about 56% of those who transitioned to Medicaid did so in the community, 10% at nursing home admission, and a little more than a third after admission. The average time to transition was 21 months overall and differed little across groups--19 months for those who enrolled at admission and 23 months for those who transitioned after admission. The average number of months of Medicaid coverage over the analysis period was 21 overall, 24 for those transitioning in the community, and 18 and 16 for those who enrolled at or after nursing home admission, respectively.</p>
+<table border="1"><tbody><tr><th colspan="5"><strong><a id="table4">TABLE 4</a>. Residence at Transition, Average Time to Transition, and Average Months of Medicaid Over 4 Years, Community Residents Not Enrolled in Medicaid at Baseline</strong></th>
+</tr><tr><th scope="col"> </th>
+<th scope="col"><strong>Percent of Transitions</strong></th>
+<th scope="col"><strong>Time to Transition<br />
+				(months)</strong></th>
+<th scope="col"><strong>Time to Transition After Nursing Home Admission<br />
+				(months)</strong></th>
+<th scope="col"><strong>Total Months of Medicaid After Transition</strong></th>
+</tr><tr><th scope="row">All</th>
+<td>100.0</td>
+<td>21</td>
+<td>---</td>
+<td>21</td>
+</tr><tr><th scope="row">Community</th>
+<td>55.7</td>
+<td>20</td>
+<td>---</td>
+<td>24</td>
+</tr><tr><th colspan="5" scope="row">Nursing home</th>
+</tr><tr><th scope="row">At admission</th>
+<td>10.0</td>
+<td>19</td>
+<td>---</td>
+<td>18</td>
+</tr><tr><th scope="row">After admission</th>
+<td>34.3</td>
+<td>23</td>
+<td>9</td>
+<td>16</td>
+</tr></tbody></table><p> </p>
+<h2><a name="probability" id="probability">MULTIVARIATE ANALYSIS: PROBABILITY OF TRANSITION IN 1-4 YEARS</a></h2>
+<p><a href="#table5">Table 5</a> provides the marginal effect estimates derived from probit models of transitions to Medicaid in 1-4 years, controlling for the percent of each analysis period survived, baseline personal characteristics described above, use of nursing home care, state Medicaid program characteristics, and long-term care prices and local health and long-term care supply characteristics. Although baseline characteristics subject to unobserved change over time logically would be expected to have greater predictive power in the first year, marginal effects on the predicted probability of transition in the first year, are smaller and less likely to be statistically significant than the cumulative results over longer time periods. (Means or proportions of all variables in the model are provided in Appendix <a href="#tableA1">Table A1</a>.)</p>
+<table border="1"><tbody><tr><th colspan="9"><strong><a id="table5">TABLE 5</a>. Probit Estimation of the Probability of Transition to Medicaid Within 1-4 Years, Community Residents Not Enrolled in Medicaid at Baseline</strong></th>
+</tr><tr><th rowspan="2" scope="col"> </th>
+<th colspan="8" scope="col"><strong>Marginal Effect on the Probability of Medicaid Transition </strong></th>
+</tr><tr><th colspan="2" scope="col"><strong>Within 1 Year</strong></th>
+<th colspan="2" scope="col"><strong>Within 2 Years</strong></th>
+<th colspan="2" scope="col"><strong>Within 3 Years</strong></th>
+<th colspan="2" scope="col"><strong>Within 4 Years</strong></th>
+</tr><tr><th colspan="9" scope="row">Exposure and Nursing Home Use</th>
+</tr><tr><th scope="row">Percent of analysis period survived</th>
+<td>0.00205</td>
+<td> </td>
+<td>0.01091</td>
+<td>*</td>
+<td>0.02383</td>
+<td>**</td>
+<td>0.02419</td>
+<td>**</td>
+</tr><tr><th scope="row">Nursing home entry during analysis period</th>
+<td>0.03899</td>
+<td>**</td>
+<td>0.05182</td>
+<td>**</td>
+<td>0.07841</td>
+<td>**</td>
+<td>0.08095</td>
+<td>**</td>
+</tr><tr><th colspan="9" scope="row">Economic Factors</th>
+</tr><tr><th scope="row">Income &lt;$10,000</th>
+<td>0.01044</td>
+<td>**</td>
+<td>0.03530</td>
+<td>**</td>
+<td>0.05103</td>
+<td>**</td>
+<td>0.06382</td>
+<td>**</td>
+</tr><tr><th scope="row">Income $10,000 - &lt;$20,000</th>
+<td>0.00961</td>
+<td>**</td>
+<td>0.02315</td>
+<td>**</td>
+<td>0.04170</td>
+<td>**</td>
+<td>0.05487</td>
+<td>**</td>
+</tr><tr><th scope="row">Income $20,000 - &lt;$30,000</th>
+<td>0.00616</td>
+<td>**</td>
+<td>0.00803</td>
+<td> </td>
+<td>0.01404</td>
+<td> </td>
+<td>0.01638</td>
+<td> </td>
+</tr><tr><th scope="row">Not a homeowner</th>
+<td>0.00441</td>
+<td>**</td>
+<td>0.01762</td>
+<td>**</td>
+<td>0.02173</td>
+<td>**</td>
+<td>0.02067</td>
+<td>**</td>
+</tr><tr><th scope="row">Home value less than $75,000</th>
+<td>0.00181</td>
+<td> </td>
+<td>0.01767</td>
+<td>*</td>
+<td>0.02073</td>
+<td>**</td>
+<td>0.02372</td>
+<td>**</td>
+</tr><tr><th scope="row">Home value $75,000 - &lt;$150,000</th>
+<td>0.00067</td>
+<td> </td>
+<td>0.00346</td>
+<td> </td>
+<td>0.00557</td>
+<td> </td>
+<td>0.00770</td>
+<td> </td>
+</tr><tr><th scope="row">Cumulative Medicare spending last 6 months</th>
+<td>0.00003</td>
+<td> </td>
+<td>0.00003</td>
+<td> </td>
+<td>-0.00010</td>
+<td> </td>
+<td>-0.00021</td>
+<td> </td>
+</tr><tr><th colspan="9" scope="row">Physical and Cognitive Functioning</th>
+</tr><tr><th scope="row">Disability but receiving no help<sup>a</sup></th>
+<td>0.00054</td>
+<td> </td>
+<td>0.00192</td>
+<td> </td>
+<td>-0.00064</td>
+<td> </td>
+<td>0.00108</td>
+<td> </td>
+</tr><tr><th scope="row">Help with IADLs only</th>
+<td>0.00049</td>
+<td> </td>
+<td>0.00446</td>
+<td> </td>
+<td>0.00426</td>
+<td> </td>
+<td>0.00807</td>
+<td> </td>
+</tr><tr><th scope="row">Help with 1-2 ADLs</th>
+<td>0.00390</td>
+<td> </td>
+<td>0.00645</td>
+<td> </td>
+<td>0.00536</td>
+<td> </td>
+<td>0.01230</td>
+<td> </td>
+</tr><tr><th scope="row">Help with 3+ ADLs</th>
+<td>0.00280</td>
+<td> </td>
+<td>0.00465</td>
+<td> </td>
+<td>0.01105</td>
+<td> </td>
+<td>0.02035</td>
+<td>*</td>
+</tr><tr><th scope="row">Cognitively impaired</th>
+<td>0.00129</td>
+<td> </td>
+<td>0.01643</td>
+<td>*</td>
+<td>0.02577</td>
+<td>**</td>
+<td>0.02699</td>
+<td>**</td>
+</tr><tr><th colspan="9" scope="row">Health</th>
+</tr><tr><th scope="row">Self-reported health fair or poor</th>
+<td>0.00157</td>
+<td> </td>
+<td>0.00353</td>
+<td> </td>
+<td>0.00621</td>
+<td> </td>
+<td>0.00675</td>
+<td> </td>
+</tr><tr><th scope="row">High blood pressure</th>
+<td>0.00080</td>
+<td> </td>
+<td>0.00426</td>
+<td> </td>
+<td>0.00719</td>
+<td>*</td>
+<td>0.00473</td>
+<td> </td>
+</tr><tr><th scope="row">Diabetes</th>
+<td>-0.00146</td>
+<td>**</td>
+<td>-0.00069</td>
+<td> </td>
+<td>-0.00565</td>
+<td>*</td>
+<td>-0.00369</td>
+<td> </td>
+</tr><tr><th scope="row">Heart disease</th>
+<td>0.00174</td>
+<td> </td>
+<td>0.00157</td>
+<td> </td>
+<td>0.00118</td>
+<td> </td>
+<td>0.00352</td>
+<td> </td>
+</tr><tr><th scope="row">Lung disease in the last year</th>
+<td>0.00264</td>
+<td>*</td>
+<td>0.00884</td>
+<td>*</td>
+<td>0.00814</td>
+<td> </td>
+<td>0.00878</td>
+<td> </td>
+</tr><tr><th scope="row">Paralysis/nervous system disorder</th>
+<td>0.00121</td>
+<td> </td>
+<td>0.00278</td>
+<td> </td>
+<td>0.00460</td>
+<td> </td>
+<td>0.00559</td>
+<td> </td>
+</tr><tr><th scope="row">Stroke in the last year</th>
+<td>0.00012</td>
+<td> </td>
+<td>-0.00066</td>
+<td> </td>
+<td>-0.00376</td>
+<td> </td>
+<td>-0.00642</td>
+<td> </td>
+</tr><tr><th colspan="9" scope="row">Medicaid Program Characteristics (state-level)</th>
+</tr><tr><th scope="row">Spousal protection income max AND resource &gt;75th percentile</th>
+<td>0.00113</td>
+<td> </td>
+<td>0.00433</td>
+<td> </td>
+<td>0.00886</td>
+<td>*</td>
+<td>0.01097</td>
+<td>*</td>
+</tr><tr><th scope="row">Spousal resources + income protected for waiver participants</th>
+<td>0.00096</td>
+<td> </td>
+<td>0.00346</td>
+<td> </td>
+<td>0.00850</td>
+<td>*</td>
+<td>0.00770</td>
+<td> </td>
+</tr><tr><th scope="row">Special income rule for nursing home residents</th>
+<td>0.00060</td>
+<td> </td>
+<td>0.00443</td>
+<td>*</td>
+<td>0.00377</td>
+<td> </td>
+<td>0.00360</td>
+<td> </td>
+</tr><tr><th scope="row">Medically needy program</th>
+<td>0.00178</td>
+<td>**</td>
+<td>0.00559</td>
+<td>**</td>
+<td>0.00912</td>
+<td>**</td>
+<td>0.01193</td>
+<td>**</td>
+</tr><tr><th scope="row">209b state</th>
+<td>0.00041</td>
+<td> </td>
+<td>-0.00022</td>
+<td> </td>
+<td>0.00389</td>
+<td> </td>
+<td>0.00413</td>
+<td> </td>
+</tr><tr><th scope="row">Percent of Medicaid LTSS spending in community &gt;median</th>
+<td>0.00022</td>
+<td> </td>
+<td>0.00218</td>
+<td> </td>
+<td>0.01051</td>
+<td>**</td>
+<td>0.01320</td>
+<td>**</td>
+</tr><tr><th colspan="9" scope="row">Long-Term Care Prices (state-level)</th>
+</tr><tr><th scope="row">Private monthly cost for assisted living &gt;median</th>
+<td>0.00155</td>
+<td> </td>
+<td>0.00374</td>
+<td> </td>
+<td>0.00169</td>
+<td> </td>
+<td>0.00335</td>
+<td> </td>
+</tr><tr><th scope="row">Mean home care aide hourly wage &gt;median</th>
+<td>0.00128</td>
+<td> </td>
+<td>0.00350</td>
+<td> </td>
+<td>0.00458</td>
+<td> </td>
+<td>0.00733</td>
+<td> </td>
+</tr><tr><th scope="row">Private pay nursing home per diem &gt;median</th>
+<td>0.00399</td>
+<td>*</td>
+<td>-0.00824</td>
+<td>**</td>
+<td>-0.01008</td>
+<td>**</td>
+<td>-0.01268</td>
+<td>**</td>
+</tr><tr><th colspan="9" scope="row">Long-Term Care and General Health Provider Supply (county-level)</th>
+</tr><tr><th scope="row">Home health agencies/1,000 persons 65+ &gt;median</th>
+<td>0.00026</td>
+<td> </td>
+<td>0.00065</td>
+<td> </td>
+<td>0.00207</td>
+<td> </td>
+<td>0.00435</td>
+<td> </td>
+</tr><tr><th scope="row">Nursing facility beds/1,000 persons 65+ &gt;median</th>
+<td>0.00047</td>
+<td> </td>
+<td>-0.00107</td>
+<td> </td>
+<td>-0.00452</td>
+<td> </td>
+<td>-0.00596</td>
+<td> </td>
+</tr><tr><th scope="row">SNF beds/1,000 persons 65+ &gt;median</th>
+<td>0.00067</td>
+<td> </td>
+<td>0.00120</td>
+<td> </td>
+<td>0.00416</td>
+<td> </td>
+<td>0.00560</td>
+<td> </td>
+</tr><tr><th scope="row">Hospital beds/1,000 persons &gt;median</th>
+<td>0.00113</td>
+<td>*</td>
+<td>0.00161</td>
+<td> </td>
+<td>0.00510</td>
+<td> </td>
+<td>0.00331</td>
+<td> </td>
+</tr><tr><th scope="row">Physicians/1,000 persons &gt;median</th>
+<td>0.00089</td>
+<td> </td>
+<td>-0.00286</td>
+<td> </td>
+<td>-0.00523</td>
+<td> </td>
+<td>-0.00610</td>
+<td> </td>
+</tr><tr><th colspan="9" scope="row">Demographics</th>
+</tr><tr><th scope="row">Age 75-84</th>
+<td>0.00123</td>
+<td> </td>
+<td>-0.00069</td>
+<td> </td>
+<td>0.00073</td>
+<td> </td>
+<td>-0.00220</td>
+<td> </td>
+</tr><tr><th scope="row">Age 85+</th>
+<td>-0.00070</td>
+<td> </td>
+<td>0.00169</td>
+<td> </td>
+<td>0.00488</td>
+<td> </td>
+<td>0.00380</td>
+<td> </td>
+</tr><tr><th scope="row">Female</th>
+<td>0.00073</td>
+<td> </td>
+<td>0.00110</td>
+<td> </td>
+<td>0.00123</td>
+<td> </td>
+<td>0.00259</td>
+<td> </td>
+</tr><tr><th scope="row">Black, non-Hispanic</th>
+<td>0.01223</td>
+<td> </td>
+<td>0.04928</td>
+<td>**</td>
+<td>0.04938</td>
+<td>**</td>
+<td>0.06209</td>
+<td>**</td>
+</tr><tr><th scope="row">Hispanic</th>
+<td>0.00151</td>
+<td> </td>
+<td>0.00127</td>
+<td> </td>
+<td>0.00706</td>
+<td> </td>
+<td>0.00160</td>
+<td> </td>
+</tr><tr><th scope="row">Less than high school education</th>
+<td>0.00165</td>
+<td> </td>
+<td>0.00146</td>
+<td> </td>
+<td>0.00879</td>
+<td> </td>
+<td>0.01212</td>
+<td>*</td>
+</tr><tr><th scope="row">High school education</th>
+<td>0.00118</td>
+<td> </td>
+<td>0.00144</td>
+<td> </td>
+<td>0.00409</td>
+<td> </td>
+<td>0.00450</td>
+<td> </td>
+</tr><tr><th colspan="9" scope="row">Support Environment</th>
+</tr><tr><th scope="row">Lives alone</th>
+<td>0.00026</td>
+<td> </td>
+<td>-0.00491</td>
+<td>**</td>
+<td>-0.00808</td>
+<td>**</td>
+<td>-0.00852</td>
+<td> </td>
+</tr><tr><th scope="row">Lives with others, not spouse</th>
+<td>0.00024</td>
+<td> </td>
+<td>-0.00434</td>
+<td>**</td>
+<td>-0.00220</td>
+<td> </td>
+<td>-0.00074</td>
+<td> </td>
+</tr><tr><th scope="row">Any non-resident daughter within 1 hour</th>
+<td>0.00005</td>
+<td> </td>
+<td>0.00048</td>
+<td> </td>
+<td>0.00076</td>
+<td> </td>
+<td>0.00099</td>
+<td> </td>
+</tr><tr><th scope="row">Retirement community/housing</th>
+<td>0.00249</td>
+<td> </td>
+<td>0.00690</td>
+<td> </td>
+<td>0.02075</td>
+<td>**</td>
+<td>0.02803</td>
+<td>**</td>
+</tr><tr><th scope="row">Community residential/care</th>
+<td>0.00115</td>
+<td> </td>
+<td>0.01632</td>
+<td> </td>
+<td>0.02043</td>
+<td> </td>
+<td>0.03263</td>
+<td> </td>
+</tr><tr><td colspan="9" scope="row"><strong>SOURCE</strong>: Analysis of the 2004 NLTCS linked with administrative data and state and county-level Medicaid program, price, and supply characteristics (n=4,226, excluding 28 cases with data missing on 1 or more explanatory variables).<br /><strong>NOTES</strong>: Omitted categories are non-Hispanic White/other; lives with spouse; traditional community residence; income $30,000 or more; housing value $150,000 or more; some college education; no disability; self-reported health excellent or good; and none of the selected health conditions or events.
+<ol><li>Managing disabilities with assistive devices only or reporting IADL disabilities only and identifying no one who usually helped. The NLTCS assesses help and device use over the week prior to interview for ADL disabilities and inability to perform IADLs without help because of health or disability. A small percentage of persons report IADL inabilities but identify no helpers.</li>
+</ol><p>				**(*) Significantly different from 0 at the 5%(10%) confidence level.</p></td>
+</tr></tbody></table><h3>Marginal Effects on the Predicted Probability of Transition</h3>
+<p><strong><em>Exposure and Nursing Home Use</em></strong>. The percent of the analysis period survived is, as would be expected, positively associated with the probability of transition, since it measures the duration of exposure to the possibility of transition. Consistent with the descriptive finding for nursing home use, the cumulative effect of having entered a nursing home during the current or a prior analysis period is positive, statistically significant, and increases with time, and its marginal effect on the predicted probability is the largest across all characteristics in the model in each period.</p>
+<p><strong><em>Economic Factors</em></strong>. The next largest marginal effects are for being in the two income categories below $20,000. Income of $20,000 but less than $30,000 had a significant marginal effect only within a year, while being in either of the two lowest income categories had a uniform positive association that increased in magnitude across time. Not being a homeowner shows a similar pattern of a relatively large and positive association with transition throughout. Having a home value below $75,000 is significantly associated only in years 2-4, when marginal effects are significant and of similar magnitude to those for not owning a home. In a sensitivity analysis excluding nursing home use from the model (note shown), all significant effects of economic factors seen in <a href="#table5">Table 5</a> were larger and stronger, and the marginal effect of having income of $20,000 to less than $30,000 (relative to having income of $30,000 or more) increased in magnitude and became significant in all periods. This suggests the vulnerability of this group to transition in the event of nursing home entry.</p>
+<p><strong><em>Functioning and Health</em></strong>. There are perhaps surprisingly few significant marginal effects among the baseline functional and health characteristics included in the model. One explanation may be that these characteristics are highly correlated with economic status. The exception is cognitive impairment, which has a positive and significant marginal effect on the predicted probability in years 2-4.</p>
+<p><strong><em>Medicaid Program Characteristics</em></strong>. Few significant effects are seen among the included program characteristics, which varied little and can be considered persistent across the 4 years covered by this study. Only living in a state with a medically needy program was significant, positive, and increasing with time throughout. Living in a state with relatively generous spousal protection standards or a state with a greater than median share of LTSS spending devoted to community-based services were significant only after 3 years and 4 years.</p>
+<p><strong><em>Long-Term Care Prices and Supply</em></strong>. The only significant marginal effects among long-term care price variables were a perhaps counter-intuitive negative association of private pay nursing home per diems above the median with Medicaid transition after the first year. It is possible that this reflects substitution of other types of care, including informal care in places where nursing home costs are higher, but while marginal effects of both above median assisted living costs and home care aide wages were positive, neither was significantly associated with a greater probability of transition in any period.</p>
+<p><strong><em>Demographics and Support Environment</em></strong>. Among demographic characteristics, the marginal effect of being Black non-Hispanic was significant, positive and increasing over 2-4 years, and having less than a high school education was significant only after 4 years. Age category had no significant association with transition. Although descriptive estimates showed that those living alone were twice as likely as the excluded category of persons living with a spouse to transition to Medicaid, after controlling for other characteristics, living alone was significantly associated with a <em>lower</em> predicted probability of transition over 2-4 years. In the sensitivity analysis excluding nursing home use from the model, the marginal effects for this group remained negative, but were smaller and significant only over 2 years. We interpret this as evidence of the mixed character and potential vulnerability of this group. Those able to live alone at baseline include those who are able to function independently but who also are likely to change residential situation if health and functioning declines (e.g., to move in with others, move to a more supportive setting, or enter a nursing home.) The marginal effect of living in a retirement community or retirement housing was positive throughout but significant only over 3-4 years. The marginal effect of living in community residential care showed a similar pattern, but was significant only over 4 years.</p>
+<h3>Predicted Transition Over 4 Years</h3>
+<p>To further investigate the importance of economic characteristics and nursing home use in transitions to Medicaid we predicted the mean probability of Medicaid transition for subgroups defined by income, homeownership, and nursing home use. All other characteristics in the model take the values in the data for each subgroup. Results are shown in Figures 2-5. (Data for Figures 2-5 and additional predictions are provided in Appendix <a href="#tableA2">Table A2</a>.)</p>
+<table align="center" border="1" cellspacing="0"><tbody><tr><th><strong><a id="figure2">FIGURE 2</a>. Predicted Percent Transitioning to Medicaid by Income</strong></th>
+</tr><tr><td><img alt="FIGURE 2, Bar chart: Within 1 year--All persons (0.38), Income &lt;$10,000 (1.64), Income $10,000-$20,000 (1.58), Income $20,000-$30,000 (0.56), Income $30,000 or more (0.03). Within 2 years--All persons (1.64), Income &lt;$10,000 (6.26), Income $10,000-$20,000 (4.57), Income $20,000-$30,000 (1.38), Income $30,000 or more (0.30). Within 3 years--All persons (2.86), Income &lt;$10,000 (9.28), Income $10,000-$20,000 (8.09), Income $20,000-$30,000 (2.45), Income $30,000 or more (0.52). Within 4 years--All persons (3.83), Income &lt;$10,000 (11.42), Income $10,000-$20,000 (10.80), Income $20,000-$30,000 (3.01), Income $30,000 or more (0.76)." src="http://aspe.hhs.gov/system/files/images-reports-basic/134551/timing-fig2.jpg" style="height:378px; width:585px" /></td>
+</tr></tbody></table><p><strong><em>Income</em></strong>. The highest rate of transition by far for all time periods was for those with incomes in the lowest two categories, corresponding roughly to the poor and near poor, although the rate was higher as the time period increased for all income levels (<a href="#figure2">Figure 2</a>). Among those with baseline income below $10,000, fewer than 2% transitioned within 1 year, but more than 6% had transitioned within 2 years, and just over 11% had transitioned by the end of 4 years. The pattern was similar, for those with income between $10,000 and $20,000 at baseline, although the percent transitioning was marginally lower after the first year. In contrast, only about 0.5% of those with income of $20,000-$30,000 at baseline had transitioned within a year, and 3% over the full 4 years, while for the highest income group, the proportion who transitioned within 1 year was negligible, and less than 1% had transitioned by the end of the 4-year analysis period.</p>
+<table align="center" border="1" cellspacing="0"><tbody><tr><th><strong><a id="figure3">FIGURE 3</a>. Predicted Percent of Nursing Home Non-Users Transitioning to Medicaid by Income</strong></th>
+</tr><tr><td><img alt="FIGURE 3, Bar chart: Within 1 year--All nursing home nonusers (0.23), Income &lt;$10,000 (1.01), Income $10,000-$20,000 (1.01), Income $20,000-$30,000 (0.36), Income $30,000 or more (0.02). Within 2 years--All nursing home nonusers (0.92), Income &lt;$10,000 (3.78), Income $10,000-$20,000 (2.71), Income $20,000-$30,000 (0.78), Income $30,000 or more (0.20). Within 3 years--All nursing home nonusers (1.37), Income &lt;$10,000 (5.01), Income $10,000-$20,000 (4.26), Income $20,000-$30,000 (1.20), Income $30,000 or more (0.31). Within 4 years--All nursing home nonusers (1.75), Income &lt;$10,000 (6.31), Income $10,000-$20,000 (5.51), Income $20,000-$30,000 (1.44), Income $30,000 or more (0.42)." src="http://aspe.hhs.gov/system/files/images-reports-basic/134551/timing-fig3.jpg" style="height:378px; width:580px" /></td>
+</tr></tbody></table><p><strong><em>Income and Nursing Home Use</em></strong>. <a href="#figure3">Figure 3</a> and <a href="#figure4">Figure 4</a> show the dramatic impact of nursing home use on transitions to Medicaid. <a href="#figure3">Figure 3</a>, showing transition rates for those with no nursing home use over 4 years, is on the same scale as <a href="#figure2">Figure 2</a> to highlight that transitions in every period are about half the overall rate for each income group. In contrast, for nursing home users (<a href="#figure4">Figure 4</a>), the transition rate within 1 year is nearly one in five for the two lowest income categories, rising to more than 30% after 4 years. Whereas less than a half percent of those with intermediate incomes between $20,000 and $30,000 who had no nursing home use transitioned within a year, the rate for those who used a nursing home within a year, was one in ten. However, after 4 years, the cumulate transition rate for nursing home users in this income group had increased only to 12.6%. Among those with incomes of $30,000 or more, less than 3% of those with nursing home use within a year transitioned to Medicaid within a year, and the cumulative transition rate for nursing home users in this income group was only a little more than 6%.</p>
+<p><strong><em>Home Ownership</em></strong>. <a href="#figure5">Figure 5</a> shows predictions by home ownership at baseline and nursing home use. The contrasts are nearly as stark between non-homeowners and owners as between the lowest and highest income groups, although moderated somewhat by variation in income within non-owners and owners. Less than 1% of homeowners transitioned over 4 years versus one in ten non-owners. The large difference between non-owners and owners is perhaps surprising, since the home is in many cases protected for an extended period, particularly for married couples. It is also the case that home ownership and value are correlated with other asset accumulations that we cannot measure in the NLTCS. When nursing home use is taken into account, differences are amplified. About 7% of homeowners using nursing homes within a year transitioned to Medicaid within a year, compared with about 18% of non-owners. In each time period, the rate of transition among non-owners was more than double that for owners, and by the end of 4 years, a quarter of non-owners were enrolled, compared with about 12% of owners.</p>
+<table align="center" border="1" cellspacing="0"><tbody><tr><th><strong><a id="figure4">FIGURE 4</a>. Predicted Percent of Nursing Home Users Transition to Medicaid by Income</strong></th>
+</tr><tr><td><img alt="FIGURE 4, Bar chart: Within 1 year--All nursing home users (11.60), Income &lt;$10,000 (17.05), Income $10,000-$20,000 (18.64), Income $20,000-$30,000 (9.98), Income $30,000 or more (2.38). Within 2 years--All nursing home users (14.03), Income &lt;$10,000 (24.01), Income $10,000-$20,000 (20.88), Income $20,000-$30,000 (10.37), Income $30,000 or more (5.03). Within 3 years--All nursing home users (17.52), Income &lt;$10,000 (28.76), Income $10,000-$20,000 (26.39), Income $20,000-$30,000 (12.85), Income $30,000 or more (6.07). Within 4 years--All nursing home users (17.88), Income &lt;$10,000 (29.26), Income $10,000-$20,000 (28.25), Income $20,000-$30,000 (12.58), Income $30,000 or more (6.26)." src="http://aspe.hhs.gov/system/files/images-reports-basic/134551/timing-fig4.jpg" style="height:378px; width:573px" /></td>
+</tr></tbody></table><p>When both income and homeownership are taken into account, patterns are similar. Non-owners are more likely than owners to transition, and both non-owners and owners at all income levels are multiple times more likely to transition if they have nursing home use (not shown, see Appendix <a href="#tableA1">Table A1</a>.) For example, among those in the two lowest income categories, about 9% of non-owners who do not use nursing homes transition over 4 years, compared with half that proportion of homeowners. Among those in these income categories who do use nursing homes, the proportions are about one in three for non-owners, compared with about one in four for homeowners. For those in the highest income group, less than 1% of non-owners and owners who do not use nursing homes transition within 4 years, compared with 12% of non-owners and 4% of homeowners who use nursing homes.</p>
+<table align="center" border="1" cellspacing="0"><tbody><tr><th><strong><a id="figure5">FIGURE 5</a>. Predicted Percent Transitioning to Medicaid by Homeownership and Nursing Home Use</strong></th>
+</tr><tr><td><img alt="FIGURE 5, Bar chart: Within 1 year--All homeowners (0.10), All nonowners (1.84), Homeowners using nursing homes (6.97), Nonowners using nursing homes (17.90). Within 2 years--All homeowners (0.50), All nonowners (5.39), Homeowners using nursing homes (9.12), Nonowners using nursing homes (20.38). Within 3 years--All homeowners (0.80), All nonowners (8.40), Homeowners using nursing homes (11.69), Nonowners using nursing homes (25.60). Within 4 years--All homeowners (1.11), All nonowners (10.05), Homeowners using nursing homes (12.36), Nonowners using nursing homes (25.58)." src="http://aspe.hhs.gov/system/files/images-reports-basic/134551/timing-fig5.jpg" style="height:377px; width:589px" /></td>
+</tr></tbody></table><p> </p>
+<h2><a name="effect" id="effect">MULTIVARIATE ANALYSIS: EFFECTS OF TIME-VARYING FACTORS ON TRANSITION</a></h2>
+<p>To examine how spending and utilization over time relate to the process of Medicaid transition we used a hazard model, with Medicare spending and utilization and nursing home use as time-varying characteristics. We then progressively entered baseline variables measuring state-level Medicaid program characteristics and long-term care prices, county-level health and long-term care supply, and individual-level economic characteristics, physical and cognitive functioning, health status, and finally demographic and support environment characteristics (<a href="#table6">Table 6</a>). Data are monthly records for each individual in the sample, and estimates presented are relative hazards, so that a value greater than 1 indicates that the factor is associated with a greater hazard of transition in the month, and a value between 0 and 1 indicates that the factor is associated with a lower hazard of transition. The model explicitly incorporates exposure to the potential for transition, with Medicaid transition, death, and the end of the 4-year analysis period as terminal events.</p>
+<h3>Time-Varying Factors</h3>
+<p>As expected, nursing home use is associated with by far the greatest relative hazard of transition. Because of the likelihood of higher out-of-pocket costs that can be incurred even for insured care, cumulative Medicare spending and utilization patterns also are strongly related to a greater hazard of Medicaid transition, and key utilization events generally remain important when economic, disability, health, and other individual characteristics and state and local characteristics enter the model.</p>
+<ul><li>
+<p>The cumulative level of Medicare spending over the previous 6 months is significantly associated with a higher hazard of Medicaid transition when only utilization in the current month is included in the equation.</p>
+</li>
+<li>
+<p>When short and long stay nursing home use in the current month are added to the model, 6-month cumulative spending, SNF use in the current month, and hospice use become insignificant, the latter two results indicating the overlap with the nursing home use variables. Both short and long stays may begin with a Medicare-covered SNF stay or hospice use.</p>
+</li>
+<li>
+<p>Of note is that outpatient use in the current month (which includes emergency room [ER] visits) is associated with a significantly higher hazard of transition (1.4-1.8) in the base model and in all models with controls for the individual's economic status. In specifications including indicators of inpatient and outpatient ER use, the relative hazards for the ER indicators were roughly 1 and not significant (not shown) and those for outpatient and inpatient use were essentially unchanged in magnitude or significance.</p>
+</li>
+<li>
+<p>Inpatient hospital use in the current month is associated with a higher transition hazard than outpatient use in all models except the base model with only spending and Medicare utilization variables (Model A). The relative hazard associated with inpatient use is significant in all but the base model and Model D, in which the only individual-level variables are income and home ownership and value.</p>
+</li>
+</ul><h3>Baseline Characteristics</h3>
+<p>Among the baseline characteristics, the largest effects--in all cases showing increased hazards--are individual income, home ownership and value, and cognitive impairment, and Black race. Among state and local variables, which as discussed earlier, can be considered persistent over the 4-year analysis period, state program characteristics that indicate greater commitment to shifting care to community settings, and county-level supply of home health agencies also are all associated with significantly higher relative hazard of transition. Both being Hispanic and living alone (relative to living with a spouse) are associated with a significantly lower transition hazard.</p>
+<p>The individual's economic status at baseline behaves in expected ways, with lower incomes and not having housing wealth strongly associated with a substantially larger hazard of transition.</p>
+<ul><li>
+<p>Income has the largest association: those with income less than $20,000, approximating poor and near poor individuals and couples with income below twice the federal poverty thresholds, have a five-fold hazard of transition relative to those with income greater than $30,000, after controls for all other individual characteristics, and those with incomes between $20,000 and $30,000 have nearly a three-fold relative hazard.</p>
+</li>
+<li>
+<p>Not being a homeowner is uniformly associated with a three-fold higher transition hazard in all models; loses significance when controls for health, disability and cognitive impairment are entered in Model E; but regains significance after controls for basic demographics and support environment are added in Model F.</p>
+</li>
+</ul><p>Medicaid program characteristics also are associated with higher transition hazard rates, but the private pay prices of assisted living, home care aides, and nursing homes are not, and among local supply variables, only home health agencies show a significant association.</p>
+<ul><li>
+<p>The most important state program characteristic is the percent of Medicaid long-term care spending for those age 65 or older that is used for community-based care: living in a state with a share above the median across all states is associated with a two-fold hazard of transition.</p>
+</li>
+<li>
+<p>Living in a state with spousal income and resource protection for waiver participants receiving care in the community also associated with a uniformly higher and significant hazard of transition.</p>
+</li>
+<li>
+<p>Living in a state with a medically needy program also is significantly associated with an elevated hazard, although the association loses significance when demographic and support environment characteristics are entered in the model.</p>
+</li>
+</ul><table border="1"><tbody><tr><th colspan="13"><strong><a id="table6">TABLE 6</a>. Survival Analysis of Transition to Medicaid Within 4 Years, Community Residents Not Eligible for Medicaid at Interview </strong></th>
+</tr><tr><th rowspan="2" scope="col"> </th>
+<th colspan="12" scope="col"><strong>Relative Hazard of Transition to Medicaid Enrollment in Current Month </strong></th>
+</tr><tr><th colspan="2" scope="col"><strong>Model A: Medicare Spending &amp; Utilization</strong></th>
+<th colspan="2" scope="col"><strong>Model B: Model A Plus Nursing Home Use</strong></th>
+<th colspan="2" scope="col"><strong>Model C: Model B Plus Program Features, Prices &amp; Supply</strong></th>
+<th colspan="2" scope="col"><strong>Model D: Model C Plus Economic Factors </strong></th>
+<th colspan="2" scope="col"><strong>Model E: Model D Plus Physical &amp; Cognitive Status, Fair/Poor Health </strong></th>
+<th colspan="2" scope="col"><strong>Model F: Model E Plus Demographic &amp; Support Environment </strong></th>
+</tr><tr><th colspan="13" scope="row">Time-Varying Characteristics</th>
+</tr><tr><th scope="row">Total Medicare spending in the last 6 months (log)</th>
+<td>1.155</td>
+<td>**</td>
+<td>1.033</td>
+<td> </td>
+<td>1.047</td>
+<td> </td>
+<td>1.055</td>
+<td> </td>
+<td>1.043</td>
+<td> </td>
+<td>1.033</td>
+<td> </td>
+</tr><tr><th scope="row">Inpatient stay in current month</th>
+<td>1.440</td>
+<td> </td>
+<td><strong>1.716</strong></td>
+<td>*</td>
+<td><strong>1.760</strong></td>
+<td>*</td>
+<td><strong>1.652</strong></td>
+<td> </td>
+<td><strong>1.727</strong></td>
+<td>*</td>
+<td><strong>1.681</strong></td>
+<td>*</td>
+</tr><tr><th scope="row">SNF stay in current month</th>
+<td>10.758</td>
+<td>**</td>
+<td>0.770</td>
+<td> </td>
+<td>0.769</td>
+<td> </td>
+<td>0.832</td>
+<td> </td>
+<td>0.886</td>
+<td> </td>
+<td>0.857</td>
+<td> </td>
+</tr><tr><th scope="row">Home health use in current month</th>
+<td>0.871</td>
+<td> </td>
+<td>1.191</td>
+<td> </td>
+<td>1.183</td>
+<td> </td>
+<td>1.026</td>
+<td> </td>
+<td>1.032</td>
+<td> </td>
+<td>0.946</td>
+<td> </td>
+</tr><tr><th scope="row">Hospice use in current month</th>
+<td>2.217</td>
+<td>**</td>
+<td>1.011</td>
+<td> </td>
+<td>1.174</td>
+<td> </td>
+<td>0.803</td>
+<td> </td>
+<td>0.655</td>
+<td> </td>
+<td>0.766</td>
+<td> </td>
+</tr><tr><th scope="row">Outpatient use in current month</th>
+<td><strong>1.780</strong></td>
+<td>**</td>
+<td><strong>1.473</strong></td>
+<td>*</td>
+<td><strong>1.400</strong></td>
+<td> </td>
+<td><strong>1.537</strong></td>
+<td>*</td>
+<td><strong>1.576</strong></td>
+<td>**</td>
+<td><strong>1.580</strong></td>
+<td>**</td>
+</tr><tr><th scope="row">Part B or DME use in current month</th>
+<td>0.746</td>
+<td> </td>
+<td>0.836</td>
+<td> </td>
+<td>0.886</td>
+<td> </td>
+<td>0.880</td>
+<td> </td>
+<td>0.862</td>
+<td> </td>
+<td>0.841</td>
+<td> </td>
+</tr><tr><th scope="row">Any short stay nursing home use in month</th>
+<td> </td>
+<td> </td>
+<td><strong>7.889</strong></td>
+<td>**</td>
+<td><strong>7.488</strong></td>
+<td>**</td>
+<td><strong>5.170</strong></td>
+<td>**</td>
+<td><strong>4.250</strong></td>
+<td>**</td>
+<td><strong>4.675</strong></td>
+<td>**</td>
+</tr><tr><th scope="row">Any long stay nursing home use in month</th>
+<td> </td>
+<td> </td>
+<td><strong>52.153</strong></td>
+<td>**</td>
+<td><strong>50.209</strong></td>
+<td>**</td>
+<td><strong>33.352</strong></td>
+<td>**</td>
+<td><strong>25.227</strong></td>
+<td>**</td>
+<td><strong>30.125</strong></td>
+<td>**</td>
+</tr><tr><th colspan="13" scope="row">Time Invariant Baseline Characteristics</th>
+</tr><tr><th scope="row">Income less than $10,000</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td><strong>5.802</strong></td>
+<td>**</td>
+<td><strong>5.126</strong></td>
+<td>**</td>
+<td><strong>5.210</strong></td>
+<td>**</td>
+</tr><tr><th scope="row">Income $10,000 - &lt;$20,000</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td><strong>4.603</strong></td>
+<td>**</td>
+<td><strong>4.709</strong></td>
+<td>**</td>
+<td><strong>4.841</strong></td>
+<td>**</td>
+</tr><tr><th scope="row">Income $20,000 - &lt;$30,000</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td><strong>3.041</strong></td>
+<td>**</td>
+<td><strong>3.000</strong></td>
+<td>**</td>
+<td><strong>2.721</strong></td>
+<td>*</td>
+</tr><tr><th scope="row">Not a homeowner</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td><strong>3.802</strong></td>
+<td>**</td>
+<td><strong>3.156</strong></td>
+<td>**</td>
+<td><strong>3.024</strong></td>
+<td>**</td>
+</tr><tr><th scope="row">Home value less than $75,000</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>2.181</td>
+<td>*</td>
+<td>2.085</td>
+<td> </td>
+<td>2.004</td>
+<td> </td>
+</tr><tr><th scope="row">Home value $75,000 - &lt;$150,000</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>1.768</td>
+<td>*</td>
+<td>1.696</td>
+<td> </td>
+<td>1.635</td>
+<td> </td>
+</tr><tr><th scope="row">Disability but receiving no help<sup>a</sup></th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>1.041</td>
+<td> </td>
+<td>1.070</td>
+<td> </td>
+</tr><tr><th scope="row">Help with IADLs only</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>1.319</td>
+<td> </td>
+<td>1.195</td>
+<td> </td>
+</tr><tr><th scope="row">Help with 1-2 ADLs</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>1.413</td>
+<td> </td>
+<td>1.317</td>
+<td> </td>
+</tr><tr><th scope="row">Help with 3+ ADLs</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>1.075</td>
+<td> </td>
+<td>0.930</td>
+<td> </td>
+</tr><tr><th scope="row">Cognitively impaired</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td><strong>2.738</strong></td>
+<td>**</td>
+<td><strong>2.575</strong></td>
+<td>**</td>
+</tr><tr><th scope="row">Self-reported health fair or poor</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>1.362</td>
+<td> </td>
+<td>1.405</td>
+<td> </td>
+</tr><tr><th scope="row">Spousal protection income maximum AND resource <u>&gt;</u>75th percentile</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>1.130</td>
+<td> </td>
+<td>1.394</td>
+<td> </td>
+<td>1.311</td>
+<td> </td>
+<td>1.429</td>
+<td> </td>
+</tr><tr><th scope="row">Spousal resources, income protected for waiver participants</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td><strong>1.587</strong></td>
+<td>**</td>
+<td><strong>1.820</strong></td>
+<td>**</td>
+<td><strong>1.681</strong></td>
+<td>**</td>
+<td><strong>1.730</strong></td>
+<td>**</td>
+</tr><tr><th scope="row">Special income rules for nursing home residents</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>0.956</td>
+<td> </td>
+<td>0.890</td>
+<td> </td>
+<td>0.850</td>
+<td> </td>
+<td>0.819</td>
+<td> </td>
+</tr><tr><th scope="row">Medically need program</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>1.802</td>
+<td>**</td>
+<td>1.524</td>
+<td>*</td>
+<td>1.506</td>
+<td>*</td>
+<td>1.472</td>
+<td> </td>
+</tr><tr><th scope="row">209b state</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>1.319</td>
+<td> </td>
+<td>1.376</td>
+<td> </td>
+<td>1.306</td>
+<td> </td>
+<td>1.321</td>
+<td> </td>
+</tr><tr><th scope="row">Percent of Medicaid LTSS spending in community &gt;median</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td><strong>1.772</strong></td>
+<td>**</td>
+<td><strong>2.023</strong></td>
+<td>**</td>
+<td><strong>2.037</strong></td>
+<td>**</td>
+<td><strong>2.262</strong></td>
+<td>**</td>
+</tr><tr><th scope="row">Private monthly cost for assisted living &gt;median</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>0.779</td>
+<td> </td>
+<td>0.813</td>
+<td> </td>
+<td>0.780</td>
+<td> </td>
+<td>0.755</td>
+<td> </td>
+</tr><tr><th scope="row">Mean home care aide hourly wage &gt;median</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>1.072</td>
+<td> </td>
+<td>0.957</td>
+<td> </td>
+<td>1.047</td>
+<td> </td>
+<td>1.100</td>
+<td> </td>
+</tr><tr><th scope="row">Private pay nursing home per diem &gt;median</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>0.780</td>
+<td> </td>
+<td>0.915</td>
+<td> </td>
+<td>0.872</td>
+<td> </td>
+<td>0.921</td>
+<td> </td>
+</tr><tr><th scope="row">Home health agencies/1,000 persons 65+ &gt;median</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>1.467</td>
+<td>**</td>
+<td>1.332</td>
+<td> </td>
+<td>1.455</td>
+<td>*</td>
+<td>1.530</td>
+<td>**</td>
+</tr><tr><th scope="row">Nursing facility beds/1,000 persons 65+ &gt;median</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>0.773</td>
+<td> </td>
+<td>0.854</td>
+<td> </td>
+<td>0.834</td>
+<td> </td>
+<td>0.851</td>
+<td> </td>
+</tr><tr><th scope="row">SNF beds/1,000 persons 65+ &gt;median</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>1.068</td>
+<td> </td>
+<td>0.987</td>
+<td> </td>
+<td>0.988</td>
+<td> </td>
+<td>1.036</td>
+<td> </td>
+</tr><tr><th scope="row">Hospital beds/1,000 persons &gt;median</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>1.009</td>
+<td> </td>
+<td>0.981</td>
+<td> </td>
+<td>0.928</td>
+<td> </td>
+<td>1.016</td>
+<td> </td>
+</tr><tr><th scope="row">Physicians/1,000 persons &gt;median</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>1.041</td>
+<td> </td>
+<td>0.997</td>
+<td> </td>
+<td>1.027</td>
+<td> </td>
+<td>0.957</td>
+<td> </td>
+</tr><tr><th colspan="13" scope="row">Demographic and Support Characteristics</th>
+</tr><tr><th scope="row">Age 75-84</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>1.208</td>
+<td> </td>
+</tr><tr><th scope="row">Age 85+</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>1.326</td>
+<td> </td>
+</tr><tr><th scope="row">Female</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>1.234</td>
+<td> </td>
+</tr><tr><th scope="row">Black, non-Hispanic</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>2.663</td>
+<td>**</td>
+</tr><tr><th scope="row">Hispanic</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>0.371</td>
+<td>**</td>
+</tr><tr><th scope="row">Less than high school education</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>1.515</td>
+<td> </td>
+</tr><tr><th scope="row">High school education</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>1.365</td>
+<td> </td>
+</tr><tr><th scope="row">Lives alone</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>0.499</td>
+<td>**</td>
+</tr><tr><th scope="row">Lives with others, not spouse</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>0.769</td>
+<td> </td>
+</tr><tr><th scope="row">Any non-resident daughter within 1 hour</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>1.001</td>
+<td> </td>
+</tr><tr><th scope="row">Retirement community/housing</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>1.691</td>
+<td>*</td>
+</tr><tr><th scope="row">Community residential care</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>1.043</td>
+<td> </td>
+</tr><tr><td colspan="13" scope="row"><strong>SOURCE</strong>: Analysis of the 2004 NLTCS linked with administrative data and state and county-level Medicaid program, price, and supply characteristics (n=125,930 monthly records for 3,241 FFS Medicare enrollees in all months who were living in non-institutional settings and not enrolled in Medicaid at baseline).<br /><strong>NOTE</strong>: Omitted categories are White non-Hispanic/other; lives with spouse; traditional community residence; income $30,000 or more; housing value $150,000 or more; some college education; no disability; and self-reported health excellent or good.
+<ol><li>Managing disabilities with assistive devices only or reporting IADL disabilities only and identifying no one who usually helped. The NLTCS assesses help and device use over the week prior to interview for ADL disabilities and inability to perform IADLs without help because of health or disability. A small percentage of persons report IADL inabilities but identify no helpers.</li>
+</ol><p>				**(*) Significantly different from 0 at the 5%(10%) confidence level.</p></td>
+</tr></tbody></table><p> </p>
+<h2><a name="summary" id="summary">SUMMARY AND DISCUSSION</a></h2>
+<p>Descriptive and multivariate analyses all point to the central role of nursing home use in transitions to Medicaid enrollment. The next largest factors are, not surprisingly, income and home ownership and value, the latter of which can reasonably be assumed to be highly correlated with the presence of other asset accumulations. Among the lowest income group, nearly 30% of those who used nursing homes transition, compared with a little more than 6% of those who did not, and even high income and homeownership are not sufficient to overcome the effects of nursing home use. In the highest income group we examined, the transition rate is less than 0.5% among those did not use nursing homes, but more than ten times that among those with nursing home use. In multivariate models, only cognitive impairment among health and functional factors is steadfastly a large and significant predictor of transition, possibly reflecting a far higher likelihood of nursing home use. That the most serious level of functional limitation at baseline--three or more ADL limitations--is associated with a higher transition rate only in univariate estimates may be explained by the overlap in these two groups. Nearly half of those with 3+ ADL limitations have cognitive impairment.</p>
+<p>Evidence from the multivariate analyses show the significant association of higher income and homeownership with lower likelihoods of transition to Medicaid, among elders living in the community and nursing home users. These findings do not support the claims of some critics that Medicaid financial eligibility criteria are too lax and make it easy for wealthy older Americans to transition to Medicaid while retaining significant financial resources. If current eligibility criteria provide an incentive that older Americans find appealing, we would have expected to find much higher rates of transition to Medicaid among high income older adult homeowners. In particular, the analytic results fail to support concerns that Medicaid's protection of a minimum $522,000 in home equity for older adult users of Medicaid-funded long-term care during their lifetimes encourages transitions to Medicaid among wealthy homeowners. Homeownership was associated with a lower rate of transition among elders at all income levels and at far lower ranges of home equity.</p>
+<p>Our study has a number of limitations, notably that we cannot observe changes in health and functional status over time and changes in residential arrangements, such as selling a home and moving to assisted living or moving in with relatives. We are able to observe the large effect of nursing home use and the more modest effects of spending and utilization patterns on the likelihood of transition over time, but cannot directly observe the economic process of "spending down" assets, prior to or after nursing home entry. We do not have even baseline data on assets other than the home that may slow the transition process. Finally, our models do not take into account potentially endogenous factors. For example, nursing home admission may be a route to Medicaid eligibility in cases where income or resources are insufficient to support lengthy community-based care but exceed community eligibility standards.</p>
+<p>Nevertheless, our results have a number of implications for policy. First, current efforts to support the change in the locus of care for the frail elderly from nursing homes to community settings may be able to reduce the rate of transitions. Further, although efforts in some states to build greater Medicaid home and community-based services appear to be associated with higher rates of transitions, the effects are modest relative to the higher rates associated with nursing home use. At least some evidence indicates that Medicaid cost effects over time will be favorable (Kaye et al. 2009). Second, policies that improve the availability of affordable pre-funding earlier in life might be able to bridge gaps between financial means and care needs for those with modest retirement income and resources. Third, policies to expand and improve supports for informal caregivers may have the potential to reduce the need for nursing home placement and transitions to Medicaid. Informal caregivers are the dominant source of community-based care for the older population. Previous research has found that reducing stress from caregiving demands reduces or defers nursing home placement (Spillman &amp; Long 2009), and that informal caregivers to those with probable dementia provide more hours of care and report substantial negative aspects of caregiving at far higher rates than other caregivers (Kasper, Freedman, &amp; Spillman 2014). Finally, the results with respect to a greater relative hazard of transition associated with inpatient and outpatient use warrant further investigation to understand whether current Medicare policies intended to reduce hospital admissions and readmissions have the potential to affect transitions to Medicaid. A recent concern has been that large increases in use of inpatient "observation" stays in response to policies attempting to curb hospital readmissions increase beneficiary out-of-pocket expenses for care and also preclude Medicare coverage for any post-discharge SNF stays (Office of the Inspector General 2013; Feng et al. 2012).</p>
+<p> </p>
+<h2><a name="ref" id="ref">REFERENCES</a></h2>
+<p>Feng, Z, B Wright, and V Mor. 2012. "Sharp rise in Medicare enrollees being held in hospitals for observation raises concerns about causes and consequences." <em>Health Affairs</em>, 31(6): 1251-1259.</p>
+<p>Freedman, VA, BC Spillman, PM Andreski, JC Cornman, EM Crimmins, E Kramarow, J Lubitz, LG Martin, SS Merkin, RF Schoeni, TE Seeman, and TA Waidmann. 2013. "Trends in late-life activity limitations: An update from 5 national surveys." <em>Demography</em>, 50(2): 661-671.</p>
+<p>Kaye, HS, MP LaPlante, and C Harrington. 2009. "Do noninstitutional long-term care services reduce Medicaid spending?" <em>Health Affairs</em>, 28(1): 262-272.</p>
+<p>Liu, K, P Doty, and K Manton. 1990. "Medicaid spenddown in nursing homes," <em>Gerontologist</em>, 30(1): 7-15.</p>
+<p>Office of the Inspector General, U.S. Department of Health and Human Services. 2013. Memorandum Report: Hospitals' Use of Hospital Observation Stays and Short Inpatient Stays for Medicare Beneficiaries OEI-02-12-00040. <a href="https://oig.hhs.gov/oei/reports/oei-02-12-00040.pdf">https://oig.hhs.gov/oei/reports/oei-02-12-00040.pdf</a>.</p>
+<p>Pfeiffer E., 1975, "A short portable mental status questionnaire for the assessment of organic brain deficit in elderly patients," <em>J Am Geriatr Soc</em>, 23(10): 433-441.</p>
+<p>Spillman, BC. 2011. Technical Documentation: Adjusted 1994, 1999 and 2004 Cross-sectional Weights for the National Long-Term Care Survey. Report to U.S. Department of Health and Human Services, Office of the Assistant Secretary for Planning and Evaluation, Office of Disability, Aging and Long-Term Care Policy.</p>
+<p>Spillman, BC, and K Black. 2005. "Staying the Course: Trends in Family Caregiving." AARP Public Policy Institute Issue Paper #2005-17.</p>
+<p>Spillman, BC, and SK Long. 2009. "Does high caregiver stress predict nursing home entry?" <em>Inquiry</em>, 46(2): 140-161.</p>
+<p>Spillman, BC, and P Kemper. 1995. "Lifetime patterns of payment for nursing home care." <em>Medical Care</em>, 33(3): 280-296.</p>
+<p>Wiener, JM, WL Anderson, G Khatutsky, Y Kaganova, and J O'Keeffe. 2013. Medicaid Spend Down: New Estimates and Implications for Long-Term Services and Supports Financing Reform. Washington, DC: RTI International.</p>
+<p> </p>
+<h2><a name="appendA" id="appendA">APPENDIX A. ADDITIONAL TABLES</a></h2>
+<table border="1"><tbody><tr><th colspan="4"><strong><a id="tableA1">TABLE A1</a>. Weighted Means/Proportions of Individual-Level Variables Used in Models, All Persons and by Medicaid Transition Over 4 Years</strong></th>
+</tr><tr><th scope="col"><strong>Community Residents Not Enrolled in Medicaid at Baseline</strong></th>
+<th scope="col"><strong>All</strong></th>
+<th scope="col"><strong>Persons Who Transition Within 4 Years</strong></th>
+<th scope="col"><strong>Persons Who Do No Transition Over 4 Years</strong></th>
+</tr><tr><th scope="row">Unweighted sample size</th>
+<td>4,254  </td>
+<td>386</td>
+<td>3,868</td>
+</tr><tr><th scope="row">Proportion of analysis period survived</th>
+<td>0.909</td>
+<td>0.864</td>
+<td>0.912</td>
+</tr><tr><th scope="row">Nursing home entry during analysis period</th>
+<td>0.175</td>
+<td>0.577</td>
+<td>0.153</td>
+</tr><tr><th scope="row">Income &lt;$10,000</th>
+<td>0.085</td>
+<td>0.193</td>
+<td>0.079</td>
+</tr><tr><th scope="row">Income $10,000 - &lt;$20,000</th>
+<td>0.269</td>
+<td>0.530</td>
+<td>0.255</td>
+</tr><tr><th scope="row">Income $20,000 - &lt;$30,000</th>
+<td>0.241</td>
+<td>0.186</td>
+<td>0.244</td>
+</tr><tr><th scope="row">Income $30,000 or more*</th>
+<td>0.405</td>
+<td>0.091</td>
+<td>0.423</td>
+</tr><tr><th scope="row">Not a homeowner</th>
+<td>0.244</td>
+<td>0.501</td>
+<td>0.230</td>
+</tr><tr><th scope="row">Home value less than $75,000</th>
+<td>0.155</td>
+<td>0.244</td>
+<td>0.150</td>
+</tr><tr><th scope="row">Home value $75,000 - &lt;$150,000</th>
+<td>0.273</td>
+<td>0.162</td>
+<td>0.279</td>
+</tr><tr><th scope="row">Home value $150,000 or more</th>
+<td>0.328</td>
+<td>0.092</td>
+<td>0.341</td>
+</tr><tr><th scope="row">Cumulative Medicare spending last 6 months (000s)</th>
+<td>2.538</td>
+<td>3.316</td>
+<td>2.496</td>
+</tr><tr><th scope="row">No disability*</th>
+<td>0.849</td>
+<td>0.627</td>
+<td>0.862</td>
+</tr><tr><th scope="row">Disability but receiving no help</th>
+<td>0.045</td>
+<td>0.074</td>
+<td>0.044</td>
+</tr><tr><th scope="row">Help with IADLs only</th>
+<td>0.042</td>
+<td>0.100</td>
+<td>0.038</td>
+</tr><tr><th scope="row">Help with 1-2 ADLs</th>
+<td>0.029</td>
+<td>0.084</td>
+<td>0.026</td>
+</tr><tr><th scope="row">Help with 3+ ADLs</th>
+<td>0.035</td>
+<td>0.116</td>
+<td>0.030</td>
+</tr><tr><th scope="row">Cognitively impaired</th>
+<td>0.052</td>
+<td>0.197</td>
+<td>0.044</td>
+</tr><tr><th scope="row">Self-reported excellent or good*</th>
+<td>0.791</td>
+<td>0.623</td>
+<td>0.800</td>
+</tr><tr><th scope="row">Self-reported health fair or poor</th>
+<td>0.209</td>
+<td>0.377</td>
+<td>0.200</td>
+</tr><tr><th scope="row">High blood pressure</th>
+<td>0.461</td>
+<td>0.564</td>
+<td>0.455</td>
+</tr><tr><th scope="row">Diabetes</th>
+<td>0.174</td>
+<td>0.215</td>
+<td>0.172</td>
+</tr><tr><th scope="row">Heart disease</th>
+<td>0.154</td>
+<td>0.208</td>
+<td>0.151</td>
+</tr><tr><th scope="row">Lung disease in the last year</th>
+<td>0.141</td>
+<td>0.207</td>
+<td>0.138</td>
+</tr><tr><th scope="row">Paralysis/nervous system disorder</th>
+<td>0.033</td>
+<td>0.077</td>
+<td>0.030</td>
+</tr><tr><th scope="row">Stroke in the last year</th>
+<td>0.027</td>
+<td>0.046</td>
+<td>0.026</td>
+</tr><tr><th scope="row">Age 65-74*</th>
+<td>0.531</td>
+<td>0.350</td>
+<td>0.541</td>
+</tr><tr><th scope="row">Age 75-84</th>
+<td>0.360</td>
+<td>0.394</td>
+<td>0.358</td>
+</tr><tr><th scope="row">Age 85+</th>
+<td>0.109</td>
+<td>0.256</td>
+<td>0.101</td>
+</tr><tr><th scope="row">Male*</th>
+<td>0.443</td>
+<td>0.346</td>
+<td>0.448</td>
+</tr><tr><th scope="row">Female</th>
+<td>0.557</td>
+<td>0.654</td>
+<td>0.552</td>
+</tr><tr><th scope="row">White, non-Hispanic*</th>
+<td>0.908</td>
+<td>0.821</td>
+<td>0.913</td>
+</tr><tr><th scope="row">Black, non-Hispanic</th>
+<td>0.053</td>
+<td>0.138</td>
+<td>0.049</td>
+</tr><tr><th scope="row">Hispanic</th>
+<td>0.039</td>
+<td>0.041</td>
+<td>0.039</td>
+</tr><tr><th scope="row">Less than high school education</th>
+<td>0.245</td>
+<td>0.437</td>
+<td>0.235</td>
+</tr><tr><th scope="row">High school education</th>
+<td>0.326</td>
+<td>0.316</td>
+<td>0.326</td>
+</tr><tr><th scope="row">Some college education*</th>
+<td>0.239</td>
+<td>0.211</td>
+<td>0.240</td>
+</tr><tr><th scope="row">Lives with spouse*</th>
+<td>0.590</td>
+<td>0.386</td>
+<td>0.601</td>
+</tr><tr><th scope="row">Lives alone</th>
+<td>0.315</td>
+<td>0.428</td>
+<td>0.309</td>
+</tr><tr><th scope="row">Lives with others, not spouse</th>
+<td>0.095</td>
+<td>0.185</td>
+<td>0.090</td>
+</tr><tr><th scope="row">Any non-resident daughter within 1 hour</th>
+<td>0.686</td>
+<td>0.699</td>
+<td>0.685</td>
+</tr><tr><th scope="row">Retirement community/housing</th>
+<td>0.088</td>
+<td>0.162</td>
+<td>0.083</td>
+</tr><tr><th scope="row">Community residential care</th>
+<td>0.021</td>
+<td>0.083</td>
+<td>0.017</td>
+</tr><tr><th colspan="4" scope="row">State and County Characteristics</th>
+</tr><tr><th scope="row">Spousal protection income maximum AND resources <u>&gt;</u>75th percentile</th>
+<td>0.408</td>
+<td>0.414</td>
+<td>0.408</td>
+</tr><tr><th scope="row">Spousal resources + income protected for wavier participants</th>
+<td>0.607</td>
+<td>0.653</td>
+<td>0.605</td>
+</tr><tr><th scope="row">Special income rule for nursing home residents</th>
+<td>0.677</td>
+<td>0.657</td>
+<td>0.678</td>
+</tr><tr><th scope="row">Medically needy program</th>
+<td>0.664</td>
+<td>0.721</td>
+<td>0.661</td>
+</tr><tr><th scope="row">209b state</th>
+<td>0.216</td>
+<td>0.245</td>
+<td>0.214</td>
+</tr><tr><th scope="row">Percent of Medicaid LTSS spending in community &gt;median</th>
+<td>0.523</td>
+<td>0.594</td>
+<td>0.519</td>
+</tr><tr><th scope="row">Private monthly cost for assisted living &gt;median</th>
+<td>0.521</td>
+<td>0.543</td>
+<td>0.520</td>
+</tr><tr><th scope="row">Mean home care aide hourly wage &gt;median</th>
+<td>0.420</td>
+<td>0.460</td>
+<td>0.417</td>
+</tr><tr><th scope="row">Private pay nursing home per diem &gt;median</th>
+<td>0.500</td>
+<td>0.453</td>
+<td>0.502</td>
+</tr><tr><th scope="row">Home health agencies/1,000 persons 65+ &gt;median</th>
+<td>0.481</td>
+<td>0.513</td>
+<td>0.479</td>
+</tr><tr><th scope="row">Nursing facility beds/1,000 persons 65+ &gt;median</th>
+<td>0.391</td>
+<td>0.351</td>
+<td>0.393</td>
+</tr><tr><th scope="row">SNF beds/1,000 persons 65+ &gt;median</th>
+<td>0.501</td>
+<td>0.560</td>
+<td>0.498</td>
+</tr><tr><th scope="row">Hospital beds/1,000 persons &gt;median</th>
+<td>0.493</td>
+<td>0.475</td>
+<td>0.494</td>
+</tr><tr><th scope="row">Physicians/1,000 persons &gt;median</th>
+<td>0.506</td>
+<td>0.463</td>
+<td>0.509</td>
+</tr><tr><td colspan="4" scope="row"><strong>SOURCE</strong>: Analysis of the 2004 NLTCS linked with administrative data and state and county-level Medicaid program, price, and supply characteristics.<br />
+				* Denotes omitted categories.</td>
+</tr></tbody></table><p> </p>
+<table border="1"><tbody><tr><th colspan="5"><strong><a id="tableA2">TABLE A2</a>. Predicted Transitions by Income, Homeownership, and Nursing Home Use</strong></th>
+</tr><tr><th rowspan="2" scope="col"> </th>
+<th colspan="4" scope="col"><strong>Predicted Percent Transitioning to Medicaid </strong></th>
+</tr><tr><th scope="col"><strong>Within 1 Year</strong></th>
+<th scope="col"><strong>Within 2 Years</strong></th>
+<th scope="col"><strong>Within 3 Years</strong></th>
+<th scope="col"><strong>Within 4 Years</strong></th>
+</tr><tr><th scope="row">All persons</th>
+<td>0.4</td>
+<td>1.6</td>
+<td>2.9</td>
+<td>3.8</td>
+</tr><tr><th scope="row">Income &lt;10</th>
+<td>1.6</td>
+<td>6.3</td>
+<td>9.3</td>
+<td>11.4</td>
+</tr><tr><th scope="row">Income 10-20</th>
+<td>1.6</td>
+<td>4.6</td>
+<td>8.1</td>
+<td>10.8</td>
+</tr><tr><th scope="row">Income 20-30</th>
+<td>0.6</td>
+<td>1.4</td>
+<td>2.4</td>
+<td>3.0</td>
+</tr><tr><th scope="row">Income 30+</th>
+<td>0.0</td>
+<td>0.3</td>
+<td>0.5</td>
+<td>0.8</td>
+</tr><tr><th scope="row">Non-homeowners</th>
+<td>1.8</td>
+<td>5.4</td>
+<td>8.4</td>
+<td>10.1</td>
+</tr><tr><th scope="row">   Income &lt;10</th>
+<td>3.3</td>
+<td>9.8</td>
+<td>14.3</td>
+<td>16.3</td>
+</tr><tr><th scope="row">   Income 10-20</th>
+<td>3.5</td>
+<td>8.2</td>
+<td>12.9</td>
+<td>16.3</td>
+</tr><tr><th scope="row">   Income 20-30</th>
+<td>1.8</td>
+<td>3.4</td>
+<td>5.6</td>
+<td>5.8</td>
+</tr><tr><th scope="row">   Income 30+</th>
+<td>0.2</td>
+<td>1.6</td>
+<td>2.3</td>
+<td>2.9</td>
+</tr><tr><th scope="row">Homeowner</th>
+<td>0.1</td>
+<td>0.8</td>
+<td>1.5</td>
+<td>2.1</td>
+</tr><tr><th scope="row">   Income &lt;10</th>
+<td>0.7</td>
+<td>3.6</td>
+<td>5.3</td>
+<td>7.3</td>
+</tr><tr><th scope="row">   Income 10-20</th>
+<td>0.8</td>
+<td>2.7</td>
+<td>5.3</td>
+<td>7.4</td>
+</tr><tr><th scope="row">   Income 20-30</th>
+<td>0.3</td>
+<td>0.9</td>
+<td>1.6</td>
+<td>2.2</td>
+</tr><tr><th scope="row">   Income 30+</th>
+<td>0.0</td>
+<td>0.2</td>
+<td>0.3</td>
+<td>0.5</td>
+</tr><tr><th colspan="5" scope="row">No Nursing Home Use</th>
+</tr><tr><th scope="row">All persons</th>
+<td>0.2</td>
+<td>0.9</td>
+<td>1.4</td>
+<td>1.8</td>
+</tr><tr><th scope="row">Income &lt;10</th>
+<td>1.0</td>
+<td>3.8</td>
+<td>5.0</td>
+<td>6.3</td>
+</tr><tr><th scope="row">Income 10-20</th>
+<td>1.0</td>
+<td>2.7</td>
+<td>4.3</td>
+<td>5.5</td>
+</tr><tr><th scope="row">Income 20-30</th>
+<td>0.4</td>
+<td>0.8</td>
+<td>1.2</td>
+<td>1.4</td>
+</tr><tr><th scope="row">Income 30+</th>
+<td>0.0</td>
+<td>0.2</td>
+<td>0.3</td>
+<td>0.4</td>
+</tr><tr><th scope="row">Non-homeowners</th>
+<td>1.1</td>
+<td>3.0</td>
+<td>4.1</td>
+<td>4.7</td>
+</tr><tr><th scope="row">   Income &lt;10</th>
+<td>2.1</td>
+<td>6.2</td>
+<td>7.9</td>
+<td>9.2</td>
+</tr><tr><th scope="row">   Income 10-20</th>
+<td>2.2</td>
+<td>4.8</td>
+<td>7.0</td>
+<td>8.5</td>
+</tr><tr><th scope="row">   Income 20-30</th>
+<td>1.1</td>
+<td>1.8</td>
+<td>2.3</td>
+<td>2.5</td>
+</tr><tr><th scope="row">   Income 30+</th>
+<td>0.1</td>
+<td>0.8</td>
+<td>1.0</td>
+<td>1.2</td>
+</tr><tr><th scope="row">Homeowner</th>
+<td>0.1</td>
+<td>0.5</td>
+<td>0.8</td>
+<td>1.1</td>
+</tr><tr><th scope="row">   Income &lt;10</th>
+<td>0.4</td>
+<td>2.1</td>
+<td>3.1</td>
+<td>4.2</td>
+</tr><tr><th scope="row">   Income 10-20</th>
+<td>0.5</td>
+<td>1.7</td>
+<td>2.9</td>
+<td>4.0</td>
+</tr><tr><th scope="row">   Income 20-30</th>
+<td>0.2</td>
+<td>0.6</td>
+<td>0.9</td>
+<td>1.2</td>
+</tr><tr><th scope="row">   Income 30+</th>
+<td>0.0</td>
+<td>0.1</td>
+<td>0.2</td>
+<td>0.3</td>
+</tr><tr><th colspan="5" scope="row">Nursing Home Use</th>
+</tr><tr><th scope="row">All persons</th>
+<td>11.6</td>
+<td>14.0</td>
+<td>17.5</td>
+<td>17.9</td>
+</tr><tr><th scope="row">Income &lt;10</th>
+<td>17.1</td>
+<td>24.0</td>
+<td>28.8</td>
+<td>29.3</td>
+</tr><tr><th scope="row">Income 10-20</th>
+<td>18.6</td>
+<td>20.9</td>
+<td>26.4</td>
+<td>28.3</td>
+</tr><tr><th scope="row">Income 20-30</th>
+<td>10.0</td>
+<td>10.4</td>
+<td>12.8</td>
+<td>12.6</td>
+</tr><tr><th scope="row">Income 30+</th>
+<td>2.4</td>
+<td>5.0</td>
+<td>6.1</td>
+<td>6.3</td>
+</tr><tr><th scope="row">Non-homeowners</th>
+<td>17.9</td>
+<td>20.4</td>
+<td>25.6</td>
+<td>25.6</td>
+</tr><tr><th scope="row">   Income &lt;10</th>
+<td>22.3</td>
+<td>29.5</td>
+<td>34.2</td>
+<td>34.2</td>
+</tr><tr><th scope="row">   Income 10-20</th>
+<td>23.4</td>
+<td>25.5</td>
+<td>31.6</td>
+<td>32.2</td>
+</tr><tr><th scope="row">   Income 20-30</th>
+<td>16.8</td>
+<td>15.3</td>
+<td>19.9</td>
+<td>18.4</td>
+</tr><tr><th scope="row">   Income 30+</th>
+<td>4.6</td>
+<td>9.4</td>
+<td>12.0</td>
+<td>12.1</td>
+</tr><tr><th scope="row">Homeowner</th>
+<td>7.0</td>
+<td>9.1</td>
+<td>11.7</td>
+<td>12.4</td>
+</tr><tr><th scope="row">   Income &lt;10</th>
+<td>11.5</td>
+<td>17.5</td>
+<td>21.1</td>
+<td>22.5</td>
+</tr><tr><th scope="row">   Income 10-20</th>
+<td>13.1</td>
+<td>15.6</td>
+<td>21.2</td>
+<td>23.8</td>
+</tr><tr><th scope="row">   Income 20-30</th>
+<td>6.5</td>
+<td>7.5</td>
+<td>9.0</td>
+<td>9.6</td>
+</tr><tr><th scope="row">   Income 30+</th>
+<td>1.5</td>
+<td>3.1</td>
+<td>3.8</td>
+<td>4.1</td>
+</tr><tr><td colspan="5" scope="row"><strong>SOURCE</strong>: Probit analysis of the 2004 NLTCS linked with administrative data and stat and county-level Medicaid program, price, and supply characteristics.</td>
+</tr></tbody></table><hr /><p>This report was prepared under contract #HHSP23337033T between the U.S. Department of Health and Human Services (HHS), Office of Disability, Aging and Long-Term Care Policy (DALTCP) and the Urban Institute. For additional information about this subject, you can visit the DALTCP home page at <a href="http://aspe.hhs.gov/office-disability-aging-and-long-term-care-policy-daltcp">http://aspe.hhs.gov/office-disability-aging-and-long-term-care-policy-daltcp</a> or contact the ASPE Project Officer, Pamela Doty, at HHS/ASPE/DALTCP, Room 424E, H.H. Humphrey Building, 200 Independence Avenue, S.W., Washington, D.C. 20201.  Their e-mail addresses are: Pamela.Doty@hhs.gov.</p>
+
+  <div class="download_report">
+    
+                        <div class="pdf-prev">
+                <img src="https://aspe.hhs.gov/system/files/pdfpreview/3536d9075ef704608caac8f8136694e4.png" alt="Preview" title="Preview" />            </div>
+                <a class="btn btn-sm btn-default download-file"
+           href="https://aspe.hhs.gov/system/files/pdf/134546/timing.pdf">Download</a>
+
+        <p class="download_title">&quot;timing.pdf&quot;
+            (pdf,
+            795.46Kb)</p>
+        <p>Note: Documents in PDF format require the <a href="http://www.adobe.com/products/acrobat/readstep2.html">Adobe
+                Acrobat Reader&reg;</a>. If you experience problems with PDF documents, please <a
+                href="http://www.adobe.com/products/acrobat/readstep2.html">download the latest version of the
+                Reader&reg;</a>
+        </p>
+    </div>
+  </div>
+
+      <footer>
+          </footer>
+  
+    <div id="block-webform-client-block-158521" class="widget block block-webform" >
+  
+      
+  <div id="webform-ajax-wrapper-158521"><form class="webform-client-form webform-client-form-158521" action="/basic-report/rates-and-timing-medicaid-enrollment-among-older-americans" method="post" id="webform-client-form-158521" accept-charset="UTF-8"><div><div class="webform-progressbar">
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-radios webform-component--was-this-page-helpful">
+  <label for="edit-submitted-was-this-page-helpful">Was this page helpful? <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-was-this-page-helpful" class="form-radios"><div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-1" name="submitted[was_this_page_helpful]" value="1" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-1">Yes </label>
+
+</div>
+<div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-2" name="submitted[was_this_page_helpful]" value="0" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-2">No </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="4" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-Js0zwezvuoew_il9SKELH5Bf_2WgL8DM8gx9zz5JmsY" />
+<input type="hidden" name="form_id" value="webform_client_form_158521" />
+<input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-158521" />
+<div class="form-actions"><input class="webform-next button-primary btn btn-default form-submit" type="submit" id="edit-webform-ajax-next-158521" name="op" value="Next &gt;" /></div>
+<div class="is-useful-disclaimer"> <a href="/%23" class="" title="Survey Disclaimer" data-toggle="modal" data-target="#disclamerModal">Form Approved OMB# 0990-0379 Exp. Date 8/31/2017</a></div>
+<div class="modal fade" id="disclamerModal" tabindex="-1" role="dialog" aria-labelledby="disclamerModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="disclamerModalLabel">Survey Disclaimer</h2>
+      </div>
+      <div class="modal-body">
+         According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this information collection is 0990-0379. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, gather the data needed, and complete and review the information collection. If you have comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: U.S. Department of Health & Human Services, OS/OCIO/PRA, 200 Independence Ave., S.W., Suite 336-E, Washington D.C. 20201, Attention: PRA Reports Clearance Officer.      </div>
+    </div>
+  </div>
+</div></div></form></div>
+  </div> <!-- /.block -->
+<meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/rates-and-timing-medicaid-enrollment-among-older-americans" itemref="md1" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/rates-and-timing-medicaid-enrollment-among-older-americans" itemref="md2 md3" />              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <footer  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Footer">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  id="footer_sitemap-footer_sitemap" class="col-sm-6 col-md-6 col-lg-4 ">
+                          
+                              <div id="block-footer-sitemap-footer-sitemap" class="widget block block-footer-sitemap" >
+  
+      
+  <div id="footer-sitemap" class="clearfix">
+  <div class="fs-block-content"><div class="menu-footer-utility"><ul class="footer_links_menu-footer-utility total-items-2 parent-items-0 single-items-0"><li class="menu-5021 depth-1 total-children-8 parent-children-0 single-children-8  first"><a href="/" title="look at ASPE Home" class="fs-root-link">ASPE Home</a><ul class="footer_links_menu-footer-utility total-items-8 parent-items-0 single-items-0"><li class="menu-5026 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/" title="look at HHS Home">HHS Home</a></li>
+<li class="menu-66281 depth-1 fs-no-children"><a href="http://www.usa.gov/" title="look at USA.gov">USA.gov</a></li>
+<li class="menu-66316 depth-1 fs-no-children"><a href="https://oig.hhs.gov/" title="look at Office of the Inspector General">Office of the Inspector General</a></li>
+<li class="menu-66321 depth-1 fs-no-children"><a href="http://www.whitehouse.gov" title="look at The White House">The White House</a></li>
+<li class="menu-5046 depth-1 fs-no-children"><a href="http://www.hhs.gov/Accessibility.html" title="look at Accessibility">Accessibility</a></li>
+<li class="menu-66326 depth-1 fs-no-children"><a href="http://www.hhs.gov/about/budget/index.html" title="look at Budget/Performance">Budget/Performance</a></li>
+<li class="menu-2551 depth-1 fs-no-children"><a href="http://www.hhs.gov/Privacy.html" title="look at Privacy Policy">Privacy Policy</a></li>
+<li class="menu-197776 depth-1 fs-no-children  last"><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" title="Nondiscrimination Notice">Nondiscrimination Notice</a></li>
+</ul></li>
+<li class="menu-5051 depth-1 total-children-4 parent-children-0 single-children-4  last"><a href="http://www.hhs.gov/foia/" title="look at FOIA" class="fs-root-link">FOIA</a><ul class="footer_links_menu-footer-utility total-items-4 parent-items-0 single-items-0"><li class="menu-5056 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/open/recordsandreports/plainwritingact/index.html" title="look at Plain Writing Act">Plain Writing Act</a></li>
+<li class="menu-5061 depth-1 fs-no-children"><a href="http://www.hhs.gov/asa/eeo/no_fear_bullet_3.html" title="look at No Fear Act">No Fear Act</a></li>
+<li class="menu-5066 depth-1 fs-no-children"><a href="http://www.hhs.gov/Disclaimer.html" title="look at Disclaimers">Disclaimers</a></li>
+<li class="menu-2546 depth-1 fs-no-children  last"><a href="http://www.hhs.gov/plugins.html" title="look at Viewers &amp; Players">Viewers &amp; Players</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-5 " id="stability_cms-contact_us">
+                          
+                              <div id="block-stability-cms-contact-us" class="widget block block-stability-cms" >
+  
+      
+  <div class="contacts-widget widget widget__footer">
+	<div class="widget-content">
+		<ul class="contacts-info-list">
+      			<li>
+<!--				<i class="fa fa-map-marker">Address</i>-->
+                <div class="info-icons">
+                    <img  alt="map" class= 'map-icons' src="/sites/all/themes/stability/stability_aspe/images/map.png"/>
+                </div>
+                <div class="info-item">
+					Assistant Secretary for Planning and Evaluation, Room 415F<br />
+U.S. Department of Health and Human Services<br />
+200 Independence Avenue, SW<br />
+Washington, D.C. 20201				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-phone">phone</i>-->
+                <div class="info-icons">
+                    <img alt="phone" src="/sites/all/themes/stability/stability_aspe/images/phone.png"/>
+                </div>
+				<div class="info-item">
+					+1 202.690.7858				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-envelope">email</i>-->
+                <div class="info-icons">
+                    <img alt="mail" src="/sites/all/themes/stability/stability_aspe/images/mail-white.png"/>
+                </div>
+				<span class="info-item">
+					<a href="mailto:osaspeinfo@hhs.gov">osaspeinfo@hhs.gov</a>
+				</span>
+			</li>
+      			                					</ul>
+	</div>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-3 " id="footer">
+                          
+                              <div id="block-block-36" class="widget block block-block" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sign-up</span> for Email Updates</h3>
+		</div>
+    
+  <div class="email_updates">
+<button class="btn btn-default" name="subscribe-button" type="submit" value="subscribe">subscribe</button>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-12 " id="menu-menu-footer-language-menu">
+                          
+                              <div id="block-menu-menu-footer-language-menu" class="widget block block-menu" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Language</span> Assistance Available</h3>
+		</div>
+    
+  <ul class="menu"><li class="first expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#spanish" title="Español">Español</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#chinese" title="繁體中文">繁體中文</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#vietnamese" title="Tiếng Việt">Tiếng Việt</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#korean" title="한국어">한국어</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#tagalog" title="Tagalog">Tagalog</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#russian" title="Русский">Русский</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#arabic" title="العربية">العربية</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#creole" title="Kreyòl Ayisyen">Kreyòl Ayisyen</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#french" title="Français">Français</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#polish" title="Polski">Polski</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#portuguese" title="Português">Português</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#italian" title="Italiano">Italiano</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#german" title="Deutsch">Deutsch</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#japanese" title="日本語">日本語</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#farsi" title="فارسی">فارسی</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#english" title="English">English</a></li>
+</ul></li>
+</ul>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+      </div>
+
+          </div>
+    
+    
+      </footer>
+    
+
+    <!--/PAGEWATCH-->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+                        </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="social-links-wrapper">
+              <span class="social-links-txt">Connect with us</span>
+              <ul class="social-links social-links__dark">
+                                                  <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw-grey.png"/></a></li>
+                                <!--                --><!--                  <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin-grey.png"/></a></li>-->
+<!--                -->
+                                                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>  <script type="text/javascript" src="/sites/default/files/advagg_js/js__VWRymaMz6HfrhnrcJNGcDiSvLVrvhaXvBa7nrBYy8gc__jntPwP3D6myJZH1jW19fXrk5cYMHGRL8NQION22VSEA__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5486d15a696bff0c"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__g6mKbcakHxQkz4ZHYaxdO_xqONINvRMgsHh1zAK-fr0__ATHtEmHaeZ0jidpGU22EkhmPDBSgjD8z0bVDQMI-BIY__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__KUp4PrfOt9BSXUVl8Ctb3dhCMBe4MNVMeb4Gyorx8yY__7g4BeXscCIZAfuu1vxsCj2RIemg-eEK0QpChP9LDmFQ__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__PNjAgubM_3xXRLp4uLsYnv8wQAdT89-RYkSPxT6T45c__rFQwFK4pA5ZaWZSF7FPTfKbbpus0h-5IS8ayrNZGrb4__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__vQiLul2UcfC4nBAR09mhYVBYzRmiNDm2dj3GgSubV38__w84oZe-ZODKe7XnnlbrjV4IWHISOy4PioFEMVgx9hZo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__QJw3g0kOdwsv4twSZLP931zBzsHy50VEHpEN_znIitQ__A6QOuWXElDipBM2iChbWhjAAt3KlUwZ-jODoxdpbwiw__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stability_aspe","theme_token":"gCRof-ZnK-x7rTKsCF8qMuhP7G10263uoSCC5bVaeVE","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/footable.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/aspe_nodes.admin.css":1,"sites\/all\/modules\/custom\/aspe_views\/theme\/css\/aspe_views.admin.css":1,"sites\/all\/modules\/forked\/book\/book.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/openpublic\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.css":1,"profiles\/openpublic\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openpublic\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/openpublic\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/themes\/stability\/css\/bootstrap.min.css":1,"sites\/all\/themes\/stability\/css\/fonts\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.theme.css":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/stability\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/stability\/css\/theme.css":1,"sites\/all\/themes\/stability\/css\/theme-elements.css":1,"sites\/all\/themes\/stability\/css\/animate.min.css":1,"sites\/all\/themes\/stability\/css\/skins\/red.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/slideshow.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/font-main.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/styleless.less":1,"sites\/all\/themes\/stability\/css\/skins\/blue.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/aspe\/theme\/js\/aspe.login-confirm.js":1,"sites\/all\/modules\/custom\/aspe_report\/modules\/aspe_databooks\/js\/aspe_databooks.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.highcharts.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/datatables\/dataTables.min.js":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.min.js":1,"sites\/all\/libraries\/highcharts\/highcharts.js":1,"sites\/all\/libraries\/highcharts\/highcharts.exporting.js":1,"sites\/all\/libraries\/highcharts\/highcharts.map.js":1,"sites\/all\/libraries\/highcharts\/highcharts.us-all.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.footable.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5486d15a696bff0c":1,"misc\/progress.js":1,"profiles\/openpublic\/modules\/contrib\/webform\/js\/webform.js":1,"profiles\/openpublic\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/stability\/vendor\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/stability\/vendor\/bootstrap.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flexnav.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flickrfeed.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.sloppy-masonry.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.fitvids.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.stellar.min.js":1,"sites\/all\/themes\/stability\/vendor\/snap.svg-min.js":1,"sites\/all\/themes\/stability\/js\/custom.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/aspe.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/html5shiv.min.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/main-menu.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/keyboard-control.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tabBehavior.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tileStringTrimmer.js":1}},"webform":{"conditionals":{"webform-client-form-158521":{"ruleGroups":[],"sourceMap":[],"values":[]}}},"ajax":{"edit-webform-ajax-next-158521":{"callback":"webform_ajax_callback","wrapper":"webform-ajax-wrapper-158521","progress":{"message":"","type":"throbber"},"event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Next \u003E"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/basic-report\/rates-and-timing-medicaid-enrollment-among-older-americans":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"([a-z0-9]\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This website contains links to other federal and state agencies and private organizations. The Department of Health and Human Services (HHS) cannot attest to the accuracy of information provided by these nonfederal website links. Linking to nonfederal sites does not constitute an endorsement by HHS or any of its employees of the sponsors or the information and products presented on the sites. You will be subject to the destination site\u0027s privacy policy when you leave the ASPE website.\r\n\r\nThank you for visiting aspe.hhs.gov!","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"stability":{"flickr_id":"52617155@N08","logo_sticky":"28"},"field_group":{"div":"full","hidden":"full"}});
+//--><!]]>
+</script>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config={pubid:"ra-5486d15a696bff0c",ui_click:false}
+//--><!]]>
+</script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4837db659","applicationID":"10708002","transactionName":"MwNaZBRSXEtXB0BdWQpJeVMSWl1WGQpbUFM7FllXA2xEUVMT","queueTime":0,"applicationTime":2136,"atts":"H0RZElxIT0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

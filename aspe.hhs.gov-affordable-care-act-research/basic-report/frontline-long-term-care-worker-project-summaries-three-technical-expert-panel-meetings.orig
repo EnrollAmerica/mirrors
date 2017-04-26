@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">  <!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://aspe.hhs.gov/sites/default/files/Favicon2.png" type="image/png" />
+<meta name="description" content="U.S. Department of Health and Human Services Frontline Long-Term Care Worker Project:Summaries of the Three Technical Expert Panel Meetings" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://aspe.hhs.gov/basic-report/frontline-long-term-care-worker-project-summaries-three-technical-expert-panel-meetings" />
+<link rel="shortlink" href="https://aspe.hhs.gov/node/65051" />
+<meta property="og:site_name" content="ASPE" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aspe.hhs.gov/basic-report/frontline-long-term-care-worker-project-summaries-three-technical-expert-panel-meetings" />
+<meta property="og:title" content="Frontline Long-Term Care Worker Project: Summaries of the Three Technical Expert Panel Meetings" />
+<meta property="og:description" content="U.S. Department of Health and Human Services Frontline Long-Term Care Worker Project:Summaries of the Three Technical Expert Panel Meetings" />
+<meta property="og:updated_time" content="2016-03-04T23:21:09-05:00" />
+<meta property="article:published_time" content="2015-11-23T02:49:17-05:00" />
+<meta property="article:modified_time" content="2016-03-04T23:21:09-05:00" />
+
+  <title>Frontline Long-Term Care Worker Project: Summaries of the Three Technical Expert Panel Meetings | ASPE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+  <link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__5ln8neBOcJfyUveiD4y9fhI6kHBLOQ_YL0mMC-LS9a0__TPJIZT9UBnf_685NlFTJ5KnZVsjwFk6ACQ-nwwygmwU__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ng49uRH5y4Hl9VF9hHW_vXOj-mcOc2u2ShJqJ1YKIGU__FoMCD14GBvZaRiqSQ_JpP1w3rDB21n7H2Ar4pRZaIh8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__Hskudx14OJ5Hz8vqU7CUgN6SDV5rINZuEq9VuGsSeyc__EwNIl3xeFrniW2TmonovTzhSs3X5MdFps210puE7jog__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__9rZoaX9BdzjjNucvYxduxeNAVO2zgW_Rvjhb5rq5whc__lSr_y16grDSgHf4booPChnF7QXz3TQY3hafH49twE0k__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZgfI_ZPib5yVY0o5aKo_6TFn946Tuu_nFDa0ySTmkSc__2FTFrNw2eNh0mpHIOA34r6YRwBZMm2PjJ_JubnwLigg__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__dxabpJ5rQgDSixKgLJZjWc1beC6mpROKwVrmWxI5eno__rqhz_hGsE_i59O7-W991o71_Jxw1QOtGMxn4nsOLHY8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZbRCq2NqWgK-HXAQI3So0N1n0nr4HonsJS3eQuuxukw__7Olkk8Locn8Dj0eR0Ww3rbV9lks9sxipcboMXB18RRs__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+
+	<!-- Head Libs -->
+	<script src="/sites/all/themes/stability/stability_aspe/vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/sites/all/themes/stability/vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" href="/sites/all/themes/stability/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/stability/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/stability/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/stability/images/apple-touch-icon-144x144.png">
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-65051 node-type-basic-report">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-JLFR"
+                  height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JLFR');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-nav" class="accessibility_menu">
+    <strong>Shortcut Navigation:</strong>
+    <ul>
+      <li><a href="#content" accesskey="c" title="Skip to page content (ctrl/alt + c)">Page Content</a></li>
+      <li><a href="#nav" accesskey="m" title="Skip to main navigation menu (ctrl/alt + m)">Site Navigation</a></li>
+
+      <li><a href="#Footer" accesskey="f" title="Skip to footer (ctrl/alt + f)">Footer</a></li>
+    </ul>
+  </div>
+
+    
+<div class="site-wrapper">
+  
+  <header class="header header-menu-fullw header-top-clean">
+    <div id="brand-bar">
+        <div class="container">
+                    <img alt='bird' src="/sites/all/themes/stability/stability_aspe/images/bird.png"> <a target="blank" tabindex="4" href="http://www.hhs.gov/">U.S. Department of Health & Human Services</a>
+        </div>
+
+    </div>
+    <div class="header-main">
+        <div class="container clearfix">
+            <div class="social-links-wrapper">
+                <ul class="social-links social-links__light">
+                                                          <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw.png"/></a></li>
+                                    <!--                  --><!--                    <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin.png"/></a></li>-->
+<!--                  -->
+                                                                      </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                                <div class="site_name_wrapper">
+                                     <span class="h1">
+                                      <a href="/">ASPE</a>
+                                       </span>
+                                  <p class="tagline"><p>Office of The Assistant Secretary</p><p> for Planning and Evaluation</p></p>
+                    </div>
+            </div>
+            <!-- Logo / End -->
+            <div class="header_right_wrapper">
+                <div class="search-form">
+                    <form action="/basic-report/frontline-long-term-care-worker-project-summaries-three-technical-expert-panel-meetings" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class = "input-group"><div class="form-type-textfield form-item-search-block-form form-item form-group">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search Site..." class="form-control form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input class="btn btn-primary btn-icon form-submit" type="image" id="edit-submit" name="submit" value="Search" src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/search-white2.png" alt="Search" title="Search" /></div></div><input type="hidden" name="form_build_id" value="form-di_HOdp9kgRPKE-jXak4CftQrELChHwpG-Q7G-rMhrk" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </div>
+                <button type="button" class="navbar-toggle" value="Menu">
+                    <i class="fa fa-bars"></i>Menu
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-main">
+        <div class="container">
+          <ul data-breakpoint="767" class="flexnav">
+                <li class="first expanded"><a href="/basic-search/about" title="">About</a><ul><li class="first leaf"><a href="/mission" title="">Mission</a></li>
+<li class="leaf"><a href="/key-staff" title="">Leadership</a></li>
+<li class="leaf"><a href="https://www.usajobs.gov/" title="">Careers</a></li>
+<li class="expanded"><a href="/coordination" title="linkTo">Coordination</a><ul><li class="first leaf"><a href="/evaluation-evidence" title="">Evaluation &amp; Evidence</a></li>
+<li class="leaf"><a href="/national-alzheimers-project-act">National Alzheimer&#039;s Project Act</a></li>
+<li class="leaf"><a href="/health-and-human-services-hhs-data-council">HHS Data Council</a></li>
+<li class="last leaf"><a href="/national-committee-vital-and-health-statistics" title="National Council on Vital and Health Statistics">National Council on Vital and Health Statistics</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/divisions" title="">Offices</a><ul><li class="first leaf"><a href="/office-disability-aging-and-long-term-care-policy-daltcp">Disability, Aging, and Long-Term Care Policy</a></li>
+<li class="leaf"><a href="/office-health-policy-hp">Health Policy</a></li>
+<li class="leaf"><a href="/office-human-services-policy">Human Services Policy</a></li>
+<li class="last leaf"><a href="/office-science-and-data-policy">Science and Data Policy</a></li>
+</ul></li>
+<li class="leaf"><a href="/strategic-planning" title="Strategic Planning">Strategic Planning</a></li>
+<li class="last leaf"><a href="/contact-aspe" title="">Contact ASPE</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/topics" title="">Topics</a><ul><li class="first leaf"><a href="/affordable-care-act-research">Affordable Care Act Research</a></li>
+<li class="leaf"><a href="/alzheimers-dementia">Alzheimer&#039;s / Dementia</a></li>
+<li class="leaf"><a href="/early-childhood">Early Childhood</a></li>
+<li class="leaf"><a href="/incarceration-reentry">Incarceration &amp; Reentry</a></li>
+<li class="leaf"><a href="/opioid-abuse-us-and-hhs-actions-address-opioid-drug-related-overdoses-and-deaths" title="Opioids">Opioids</a></li>
+<li class="leaf"><a href="/patient-centered-outcomes-research-trust-fund">Patient-Centered Outcomes Research Trust Fund (PCORTF)</a></li>
+<li class="expanded"><a href="/basic-search/poverty" title="">Poverty</a><ul><li class="first leaf"><a href="/poverty-guidelines">Poverty Guidelines</a></li>
+<li class="last leaf"><a href="/poverty-estimates-trends-and-analysis">Poverty Analysis</a></li>
+</ul></li>
+<li class="leaf"><a href="/teen-pregnancy-prevention">Teen Pregnancy Prevention</a></li>
+<li class="leaf"><a href="/homelessness">Homelessness</a></li>
+<li class="last leaf"><a href="/medicare-access-and-chip-reauthorization-act-2015">MACRA</a></li>
+</ul></li>
+<li class="leaf"><a href="/reports" title="">Publications</a></li>
+<li class="last expanded"><a href="/basic-search/datasets" title="">Data and Tools</a><ul><li class="first last leaf"><a href="/evaluations" title="">Evaluation Database</a></li>
+</ul></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation / End -->
+</header>  <div class="main" role="main">
+    <!--PAGEWATCH CODE="USHHS_458"-->
+    <section class="page-heading">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+                <h1>
+                    
+          Frontline Long-Term Care Worker Project: Summaries of the Three Technical Expert Panel Meetings        </h1>
+                                 <p class="author">
+                                                 <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2002-02-01T00:00:00-05:00">02/01/2002</span>               
+                           </p>
+
+
+                  </div>
+
+
+        <div class="col-md-6">
+           <ul class="breadcrumb"><li class="first"><a href="/" title="Home">Home</a></li>
+<li class="last">Frontline Long-Term Care Worke...</li>
+</ul>        </div>
+
+
+    </div>
+  </div>
+</section>
+    
+      <div  class="nd-region nd-region-filter">
+  
+       
+
+    
+      <div  id="Filter" class="row">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region nd-region-similar-content">
+  
+       
+
+    
+      <div  id="Similar-Content" class="row">     
+
+        
+                  
+        
+                                    <div  id="top" class="">
+                          
+                              <div id="block-views-2100ccfdd214bdbcf634d7e4832c265b" class="widget block block-views solr-similar-content" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Similar</span> content</h3>
+		</div>
+    
+  <div class="view view-similar-content-solr view-id-similar_content_solr view-display-id-block_solr_similar_content view-dom-id-8e0b210ef2a9114a7be03495f67d2418">
+        
+  
+  
+      
+    
+    <span class="field-content"><a href="/pdf-report/frontline-long-term-care-worker-project-summaries-three-technical-expert-panel-meetings">Frontline Long-Term Care Worker Project: Summaries of the Three Technical Expert Panel Meetings</a></span>    
+    <span class="field-content"><a href="/basic-report/recruiting-and-retaining-quality-paraprofessional-long-term-care-workforce-building-collaboratives-nations-workforce-investment-system">Recruiting and Retaining a Quality Paraprofessional Long-Term Care Workforce: Building Collaboratives with the Nation&#039;s Workforce Investment System</a></span>    
+    <span class="field-content"><a href="/execsum/who-will-care-us-addressing-long-term-care-workforce-crisis">Who Will Care for Us? Addressing the Long-Term Care Workforce Crisis</a></span>    
+    <span class="field-content"><a href="/basic-report/who-will-care-us-addressing-long-term-care-workforce-crisis">Who Will Care for Us? Addressing the Long-Term Care Workforce Crisis</a></span>    
+    <span class="field-content"><a href="/basic-report/state-based-initiatives-improve-recruitment-and-retention-paraprofessional-long-term-care-workforce">State-Based Initiatives to Improve the Recruitment and Retention of the Paraprofessional Long-Term Care Workforce</a></span>  
+  
+  
+  
+  
+  
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Content">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  class="col-md-12 " id="content">
+                          
+                              <div id="block-aspe-aspe-addthis" class="widget block block-aspe" >
+  
+      
+  <div class="clearfix">
+  <ul class="addthis_sharing_toolbox node-share__links" data-url="https://aspe.hhs.gov/basic-report/frontline-long-term-care-worker-project-summaries-three-technical-expert-panel-meetings" data-title="Frontline Long-Term Care Worker Project: Summaries of the Three Technical Expert Panel Meetings">
+    <li><a class="addthis_button_print"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/print-white.png" alt="print" /></a></li>
+    <li><a class="addthis_button_email"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/mail-white.png" alt="email" /></a></li>
+    <li><a class="addthis_button_twitter"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/tw.png" alt="twitter" /></a></li>
+<!--    <li><a class="addthis_button_facebook">--><!--</a></li>-->
+    <li><a class="addthis_button_compact"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/plus-white.png" alt="compact" /></a></li>
+  </ul>
+</div>
+
+  </div> <!-- /.block -->
+
+                
+    
+  
+  <div class="content clearfix node-basic-report">
+    <p><strong>U.S. Department of Health and Human Services</strong></p>
+<p>Frontline Long-Term Care Worker Project:Summaries of the Three Technical Expert Panel Meetings</p>
+<h3>The Urban InstituteThe Institute for the Future of Aging Services</h3>
+<h3>February 2002</h3>
+<hr /><blockquote><p><em>This report was prepared under contract #HHS-100-97-0010 between the U.S. Department of Health and Human Services (HHS), Office of Disability, Aging and Long-Term Care Policy (DALTCP) and The Urban Institute. For additional information about the study, you may visit the DALTCP home page at <a href="http://aspe.hhs.gov/daltcp/home.htm">http://aspe.hhs.gov/daltcp/home.htm</a> or contact the ASPE Project Officer, Andreas Frank, at HHS/ASPE/DALTCP, Room 424E, H.H. Humphrey Building, 200 Independence Avenue, SW, Washington, DC 20201. His e-mail address is: <a href="mailto:Andreas.Frank@hhs.gov">Andreas.Frank@hhs.gov</a>.</em></p>
+</blockquote>
+<hr /><h2>TABLE OF CONTENTS</h2>
+<p><a href="#meeting1">Summary of Meeting of the Technical Expert Panel on Extrinsic Rewards and Incentives</a> (June 15, 2001)</p>
+<p><a href="#meeting2">Summary of Meeting of the Technical Expert Panel on Organizational Culture Change</a> (November 30, 2001)</p>
+<p><a href="#meeting3">Summary of Meeting of the Technical Expert Panel on Labor Pool Expansion</a> (December 14, 2001)</p>
+<h3>Introduction</h3>
+<p>Paraprofessional long-term care workers, such as certified nurse assistants, home health aides and personal care attendants, are the backbone of the formal long-term care delivery system, providing the majority of paid assistance to people with disabilities. These "frontline" workers help people by assisting with activities of daily living, such as eating, bathing and dressing, and instrumental activities of daily living, such as medication management and meal preparation. The central role of these workers in providing "hands on" services makes them the key factor determining the quality of paid long-term care.</p>
+<p>Long-term care providers currently report unprecedented paraprofessional labor vacancies and turnover rates. Increasingly, the media, federal and state policy makers and the industry itself are beginning to acknowledge a labor shortage crisis with its potentially negative consequences for quality of care and quality of life. These shortages are likely to worsen over time in the face of increased demand for services.</p>
+<p>In order to address this important policy issue, the Office of the Assistant Secretary for Planning and Evaluation in the U.S. Department of Health and Human Services and the Robert Wood Johnson Foundation have funded the Urban Institute and the Institute for the Future of Aging Services to develop recommendations for a research and demonstration strategy on frontline long-term care workers. This paper reports on meetings of the Technical Expert Panels (TEPs) that were formed as part of the project.</p>
+<h3>Background</h3>
+<p>In order to develop recommendations for a research and demonstration agenda on this issue, the project established a technical advisory group (TAG) to guide the planning for expert meetings and to review and comment on policy and research recommendations. Members included federal and state government officials, providers, researchers, unions, foundations, consumers, and others.</p>
+<p>Based on input from the TAG, TEPs were formed to address specific issues relating to frontline workers. Each TEP included persons with a broad mix of expertise and experiences. Based in part on input from the TAG, TEPs were established to address the following three areas as they relate to direct care workers in long-term care settings:</p>
+<ul><li>
+<p>Extrinsic rewards and incentives, such as wages and fringe benefits.</p>
+</li>
+<li>
+<p>Workplace culture, which focuses on the organizational structures and processes, social factors, physical settings, environmental modifications and technology advances most likely to improve recruitment and retention of workers.</p>
+</li>
+<li>
+<p>Labor pool expansion, which addresses the issue of how the supply of paraprofessional workers may be augmented from new sources such as older workers, family, students, men, welfare recipients, and immigrants.</p>
+</li>
+</ul><p>Each TEP was asked to engage in several activities:</p>
+<ul><li>
+<p>Identify evidence that labor shortage problems are real and will persist.</p>
+</li>
+<li>
+<p>Review evidence around viable solutions to the problems.</p>
+</li>
+<li>
+<p>Identify potential applied research, demonstration and policy topics in the public and provider practice arenas.</p>
+</li>
+</ul><h2><a id="meeting1" name="meeting1">SUMMARY OF MEETING OF THE TECHNICAL EXPERT PANEL ON EXTRINSIC REWARDS AND INCENTIVES</a></h2>
+<p><strong>Washington, DC, June 15, 2001The Urban Institute and the Institute for the Future of Aging Services</strong></p>
+<h3>Summary</h3>
+<p>The discussion centered on such issues as wages and benefits, training, and the availability of health insurance, minimum-staffing ratios, and access to child care and transportation. The central question is how specific policy and regulatory strategies practiced at the federal, state and local level influence these external incentives (both positively and negatively) and how they might be modified to enhance worker recruitment and retention.</p>
+<p>The meeting consisted of three parts. The first section was a short presentation and discussion of a paper by Harry Holzer of Georgetown University on how long-term care workers fit into the larger context of low-wage employees. The second segment was an identification of the major issues affecting external rewards and incentives for long-term care workers. For this, the TEP engaged in a prioritization exercise that narrowed the list of issues. The third part of the meeting was the generation of a list of possible research and demonstration topics that address extrinsic rewards and incentives for long-term care workers. To stimulate the thinking of the TEP, Jane Tilly of the Urban Institute and Mary Ann Wilner of the Paraprofessional Healthcare Institute prepared an options paper identifying a variety of possible research and demonstration topics. Paul Saucier of the University of Southern Maine acted as facilitator for the meeting.</p>
+<h3>Presentation and Discussion of Background Paper</h3>
+<p>Harry Holzer summarized his paper, "Long-Term Care Workers and the Low-Wage Labor Market: Current Characteristics and Future Trends." According to data from the U.S. Bureau of Labor Statistics, there are at least two million paraprofessional long-term care workers, who have certain characteristics similar to many other low-wage workers. The average long-term care worker has hourly earnings close to the 20th percentile of all workers, payment levels at or above about 26 million workers. Long-term care workers account for about 6-8 percent of low-wage workers. Other workers at the 20th percentile of earnings include people working at food service and preparation (including fast food cooks), building cleaning, child care, cashier/retail clerk, and entertainment service. Like other low-wage workers, long-term care workers are disproportionately female, Hispanic, Black, with low levels of education, but long-term care workers tend to be older. Again, like other low-wage workers, long-term care employees receive few fringe benefits from their employers.</p>
+<p>Current projections are that low-wage employment (i.e., at the 20th percentile of earnings or below) should increase by about 3.0 to 3.5 million jobs over the next decade, of which the long-term care sector will account for about 800,000 of these jobs, roughly one quarter.</p>
+<p>Labor supply is projected to grow slowly over the next decade, but at least a few demographic groups are likely to continue generating low-wage workers. These include immigrants, youth, women, older people, and welfare beneficiaries.</p>
+<p>If these groups do not generate enough low-wage workers in general or long-term care workers in particular, a number of other adjustment mechanisms could operate in these labor markets. First, increases in real wages and benefits could help draw more marginal workers into the labor force. Moreover, increases in the relative compensation of long-term care workers could reallocate available low-wage workers to that sector. Elasticities of labor supply across occupations with few education and training requirements are relatively high. For example, an increase in wages paid to long-term care workers so that they averaged $8 per hour might make these jobs competitive for an additional 6-7 million workers. However, the cost implications for public programs of these increases may make even smaller wage increases prohibitively expensive.</p>
+<p>Second, changes in recruitment and selection mechanisms may make it easier to reallocate workers to those sectors with the greatest needs. For example, employers might need to be less selective or less discriminatory in their hiring patterns, which could make it easier for some disadvantaged groups (such as young Black women and men) to find employment. While less discrimination would be desirable, less selectivity might have negative consequences for quality of care.</p>
+<p>Finally, training programs might be used to bring more marginally employable groups into the market. In a tight labor market, employers might be willing to spend their own resources on training and other supports (such as child care and transportation) that could effectively improve labor force attachments and performance among the most disadvantaged workers. This last point underlines the fact that despite the looming shortage of low-wage workers, there remain groups in the labor market (e.g., low-skilled Black males) with very low employment rates who have not been heavily used in the long-term care sector to date.</p>
+<p>The TEP's discussion raised a number of questions about the application the paper's observations to efforts to increase participation in the long-term care labor force. The first issues raised related to the ways in which the long-term care labor market differs from the market for other low wage workers and to the implications these differences have for efforts to recruit and retain paraprofessional workers. Can older workers, youth, and males provide a significant source of new workers? Can providers relax their hiring standards for long-term care workers and what would be the implications of doing so for quality of services? What skills do long-term care workers need that other low wage workers do not? Will providers have the ability to raise wages and benefits given the degree of their reliance on public payers? Will increasing extrinsic rewards and incentives be enough to draw people into the long-term care sector? These questions pointed to the need for further exploration of the special case of the market for long-term care workers.</p>
+<h3>Research and Demonstration Topics</h3>
+<p>The TEP began by generating a large number of possible issues and then prioritized the list by "voting" for the most important issues. The TEP identified five topics as being the most important--training, provider payment and regulatory policy, wages and benefits, characteristics of workers, and quality of care. Within those general categories, there were a number of related or more specific issues, which were not ranked by the TEP. Members of the TEP emphasized the importance of examining these issues across the range of long-term care services (e.g., nursing homes, assisted living facilities, agency-sponsored home care, and consumer-directed home care) and across a range of possible environments (e.g., urban and rural settings). The five overarching issues and research topics generated by the TEP are discussed below:</p>
+<h4>What impact does training of long-term care workers and lack of career ladder have on recruitment, retention, and quality of care?</h4>
+<p>Most paraprofessional long-term care workers have low levels of education and relatively little training. For example, a substantial majority of workers have only a high school education or less. Federal law requires 75 hours of initial training for nursing assistants and home health aides; state training requirements for personal care workers vary, but generally are not very extensive. While this minimal training makes entry into the job market for frontline long-term care workers fairly easy, it is more extensive than for many other low-wage jobs, such as fast food worker. Almost all of these jobs lack career ladders, making any career advancement unlikely. This low level of education and training may make it difficult for workers to provide high quality of care.</p>
+<ul><li>
+<p>What training is being provided to long-term care workers and how does it affect recruitment, retention and quality of care?</p>
+</li>
+<li>
+<p>How can existing federal and state job training programs be used to increase the pool of trained long-term care workers?</p>
+</li>
+<li>
+<p>What impact do certification standards (such as the amount of education required) have on recruitment, retention, and quality of care?</p>
+</li>
+<li>
+<p>What constitutes an effective career ladder and for which types of workers?</p>
+</li>
+</ul><h4>What is the impact of provider payment and regulatory policy on the market for paraprofessional long-term care workers?</h4>
+<p>More than any other part of the health care system, long-term care is dependent on public financing and is subject to federal and state regulation. For example, 75 percent of nursing home residents have their care reimbursed by Medicaid or Medicare. Because these programs are major sources of long-term care funding, reimbursement policy plays a substantial role in determining workers' wages, benefits, and training opportunities. In addition, nursing homes are subject to extensive federal and state quality regulation and states are increasingly regulating assisted living facilities and home care. The long-term care industry and some consumer advocates contend that public reimbursement levels are too low to provide adequate wages and benefits or sufficient staffing.</p>
+<ul><li>
+<p>What are Medicare, Medicaid, and other public program payment rates for long-term care services? How does payment level affect workers' wages and benefits and recruitment, retention, and quality of care?</p>
+</li>
+<li>
+<p>What types of wage-pass-throughs for long-term care have states implemented and how have the provisions affected recruitment, retention, and quality of care?</p>
+</li>
+<li>
+<p>How does the federal and state regulatory system (especially related to quality assurance) affect the supply of long-term care of workers and their recruitment and retention?</p>
+</li>
+</ul><h4>At what level do additional wages, other benefits and general economic conditions significantly affect recruitment, retention and quality of care?</h4>
+<p>Paraprofessional long-term care workers receive low wages and relatively few fringe benefits. According to the Bureau of Labor Statistics, the median hourly wages for nursing assistants working in nursing and personal care facilities was $7.50 in 1998; much of the work in long-term care is part-time, which means low annual earnings. These workers also have high levels of uninsurance for health care and most do not have paid vacations, sick leave, or retirement plans. It is often argued that this low compensation package combined with the difficult work makes it hard to recruit and retain workers.</p>
+<ul><li>
+<p>What are wage and fringe benefit levels for workers and how do they vary across long-term care sectors? Do higher wages, guaranteed hours, and full-time status affect recruitment, retention and quality of care?</p>
+</li>
+<li>
+<p>How does the part-time nature of a great deal of long-term care work affect recruitment, retention, and quality of care?</p>
+</li>
+<li>
+<p>Do long-term care workers maximize use of publicly available benefits, such as State Children's Health insurance Program and the Earned Income Tax Credit?</p>
+</li>
+<li>
+<p>How do general economic conditions, such as the unemployment rate, affect recruitment and retention?</p>
+</li>
+</ul><h4>What are the characteristics of long-term care workers and what implications do they have for recruitment, retention, and quality of care?</h4>
+<p>Earlier research found that long-term care workers are overwhelmingly women and disproportionately minorities. As noted above, they tend to have low levels of education and income. While similar in most respects to other low-wage employees, long-term care workers tend to be somewhat older and disproportionately female. Relatively slow growth in the demographic groups from which long-term care workers have traditionally been drawn combined with increasing demand for services may signal continuing shortages into the future.</p>
+<ul><li>
+<p>What are the current demographic and income characteristics of long-term care workers?</p>
+</li>
+<li>
+<p>What factors relating to the characteristics of long-term care workers (e.g., personality, wanting to work with people) affect recruitment and retention of workers?</p>
+</li>
+<li>
+<p>Are there ways of increasing the pool of potential workers, such as providing college credits for caregiving or requiring nursing students to have experience as caregivers, or targeting under-represented groups for recruitment?</p>
+</li>
+<li>
+<p>How do related industries (such as the hotel industry) recruit and retain workers?</p>
+</li>
+</ul><h4>What is the relationship between a worker's quality of life on the job and quality of care?</h4>
+<p>The low wages, lack of fringe benefits, minimal training, and lack of career ladder for frontline long-term care workers may make recruitment and retention difficult. This can lead to extensive turnover and lack of staff, which may affect a worker's quality of life and, in turn, the quality of care she provides.</p>
+<ul><li>
+<p>Is there a relationship between the worker's quality of life on the job and the quality of care provided?</p>
+</li>
+<li>
+<p>What is the impact of worker shortages on quality of care and on workers?</p>
+</li>
+</ul><h3>Design of Demonstration Projects</h3>
+<p>The TEP also discussed how to design demonstration projects. On the one hand, some TEP members argued for very comprehensive demonstration projects that include a broad array of interventions. Some members added that regional demonstration projects could enable local governments to partner with providers to test linked public and private sector strategies. The rationale for a comprehensive strategy is that effective programs must address a number of issues that are unlikely to be successfully solved by isolated interventions. On the other hand, some TEP members argued that narrower demonstrations are desirable because evaluations can then link the intervention and the outcomes. The problem with comprehensive demonstrations is that it may be quite difficult to disentangle what actually led to the changes in outcomes. Policymakers might, therefore, be unwilling to fund the more expensive parts of the interventions.</p>
+<h3>Meeting Attendees</h3>
+<p><strong><u>Technical Expert Panel Members</u></strong></p>
+<p>Carolyn Blanks, Massachusetts Extended Care Federation Miriam Brewer, Alzheimer's Association Michael Cousineau, University of Southern California Diane Findley, Iowa CareGivers Association Peter Kemper, Pennsylvania State University Thomas Konrad, University of North Carolina, Chapel Hill Joel Leon, Philadelphia Geriatric Center Carol Raphael, Visiting Nurse Service of New York Donald Shumway, New Hampshire Department of Human Services Jeffrey Gerber, American Hotel and Lodging Association</p>
+<p><u><strong>Project Staff</strong></u></p>
+<p>Obed Agredano-Lozano, Institute for the Future of Aging Services/AAHSA Sonya Barsness, Institute for the Future of Aging Services/AHSA Jean Fielding, Institute for the Future of Aging Services/AAHSA Robyn Stone, Institute for the Future of Aging Services/AAHSA Jane Tilly, The Urban Institute Joshua Wiener, The Urban Institute</p>
+<p><u><strong>Consultants </strong></u></p>
+<p>Mary Harahan, Independent Consultant Harry Holzer, Georgetown University Paul Saucier, University of Southern Maine Mary Ann Wilner, Paraprofessional Healthcare Institute</p>
+<p><u><strong>Funders</strong></u></p>
+<p>Pamela Doty, Office of the Assistant Secretary for Planning and Evaluation/HHS Andreas Frank, Office of the Assistant Secretary for Planning and Evaluation/HHS Jane Issacs Lowe, The Robert Wood Johnson Foundation Ruth Katz, Office of the Assistant Secretary for Planning and Evaluation/HHS Bill Marton, Office of the Assistant Secretary for Planning and Evaluation/HHS</p>
+<h2><a id="meeting2" name="meeting2">SUMMARY OF MEETING OF THE TECHNICAL EXPERT PANEL ON ORGANIZATIONAL CULTURE CHANGE</a></h2>
+<p>Washington, DC, November 30, 2001The Urban Institute and the Institute for the Future of Aging Services</p>
+<h3>Summary</h3>
+<p>The meeting consisted of three parts. The first section was a short presentation and discussion of a paper by Barbara Bowers of the University of Wisconsin on the concept of organizational culture change and how it applies to long-term care. The second segment was an identification of the major issues affecting external rewards and incentives for long-term care workers. For this, the TEP engaged in a prioritization exercise that narrowed the list of issues. The third part of the meeting was the generation of a list of possible research and demonstration topics that address extrinsic rewards and incentives for long-term care workers. Paul Saucier of the University of Southern Maine acted as facilitator for the meeting.</p>
+<h3>Presentation and Discussion of Background Paper</h3>
+<p>Barbara Bowers presented some themes from her background paper, "Organizational Change and Workforce Development in Long-Term Care." She made the following general points:</p>
+<ul><li>
+<p>Workplace culture, particularly as it relates to long term care, has been studied very little.</p>
+</li>
+<li>
+<p>One of our goals should be to create enduring new partnerships for doing this kind of research. We need to bring different disciplines together in lasting partnerships for sustained research. We must take advantage of the approaches and knowledge of multiple fields, including anthropology, organizational behavior, social psychology, etc.</p>
+</li>
+<li>
+<p>We also need to shift away from the usual way of doing research which emphasizes distance from the studied organization and work more closely with the groups we wish to study. We must come to terms with the complexity of the workplace and be flexible enough to incorporate unanticipated issues that we discover in the course of our research.</p>
+</li>
+<li>
+<p>We need to understand what makes change sustainable and replicable.</p>
+</li>
+</ul><p>In terms of existing research, Bowers noted:</p>
+<ul><li>
+<p>Culture goes deeper than "organizational climate." Shein has conceptualized climate as "an artifact of culture." To get to culture, we need to focus on the underlying values of an organization.</p>
+</li>
+<li>
+<p>There appears to be a recognition that values must change (e.g., to empower CNAs), but we have little research as to how those value changes can be accomplished.</p>
+</li>
+<li>
+<p>Context matters in the implementation of culture change. For example there have been facilities where career ladders worked successfully, with nursing assistants flocking to them. In others facilities where an identical career ladders were available, staff was not interested. The reason may have been that in the latter facility nurse assistants could not use the information they obtained in training programs because the nurses in that facility would not let them. As a result, they soon lost interest in the career ladder.</p>
+</li>
+<li>
+<p>Interventions tend to end soon after the research or demonstration terminates, underscoring the important of sustainability as an issue in culture change.</p>
+</li>
+<li>
+<p>We have little research that looks inside the black box of services; we need to better understand the processes of care. We should think about consumers as co-producing the service with workers, which makes the relationship between them critical to success.</p>
+</li>
+<li>
+<p>Much of the current regulatory emphasis is based on a sincere motivation to make things better, but the research does not tell us whether minimum staffing ratios, complaint processes and other requirements actually improve culture or outcomes.</p>
+</li>
+</ul><p>The panel discussed Bowers' paper and presentation, and the following views were expressed:</p>
+<ul><li>
+<p>The point about working with agencies and conducting realistic, "messy" research was underscored as important. In the long run, culture change must come from within organizations, so researchers will need to engage them in the research and demonstration process.</p>
+</li>
+<li>
+<p>Also underscored was the need to identify how culture change is institutionalized so it can survive changes in leadership, staff, etc. On the other hand, culture must also be adaptable, or it may cease to be effective as policy and market contexts change.</p>
+</li>
+<li>
+<p>We must recognize that culture change presents different challenges in home care settings than in nursing facilities, and both are important to study. Home care workers have more autonomy and are subject to less supervision.</p>
+</li>
+</ul><p>The cost of particular interventions has not been studied consistently. If a culture change increases or decreases costs significantly, policy makers need to know.</p>
+<p>Researchers need to be careful not to automatically assume that culture change is the key to everything. It is an important component of the workforce puzzle, but does not replace interventions like increased pay and minimum staffing requirements. In fact, these items very likely have a large impact on culture.</p>
+<p>Organizational culture is about having certain values, but the key issue is how those values are translated into how an organization is structured and functions.</p>
+<p>All organizations have multiple cultures, making them very hard to study. This underscores the appropriateness of anthropological approaches, in which researchers immerse themselves in organizations over time.</p>
+<p>We have a growing body of work that describes organizational cultures, but this literature does not tell us how to create a certain culture. What specific policies are needed? What kind of training? There's a need to refocus research away from "what is" toward "how did they get to this place?"</p>
+<h3>Research and Demonstration Topics</h3>
+<p>The group brainstormed areas for research and demonstrations about culture change. The group used the following two definitions of culture to guide the discussion. A short definition of organizational culture is that "it is the way we live and work together." A longer definition of organizational culture includes the following elements:</p>
+<ul><li>The rationale that led to the creation of the organization;</li>
+<li>The values that drive the organization's behavior;</li>
+<li>The relationships among all of the various internal stakeholders;</li>
+<li>Traditions of all kinds;</li>
+<li>What is rewarded and punished in the organization;</li>
+<li>The boundaries of the organization (Who's in and who's out?); and</li>
+<li>The norms of behavior (What do people do, and why?).</li>
+</ul><p>The potential research and demonstration projects consisted of a broad range of projects that would analyze the impact of a range of factors on workplace culture. For each of these studies, the impact of workplace culture on a variety of outcome variables, including recruitment and retention, quality of care, quality of life for consumers and workers, and cost, would then be examined. The hypothesis is that culture change will result in better outcomes for workers and consumers, but there is little empirical literature to establish whether this is true.</p>
+<p>Items from the morning's brainstorming session were grouped into four broad categories, and the group generated research and demonstration ideas for each of the categories, with an emphasis on research that could influence federal and state policy. The four categories are:</p>
+<ul><li>Determinants of workplace culture.</li>
+<li>The organization of work.</li>
+<li>Impact of government regulation and reimbursement policy on workplace culture.</li>
+<li>Impact of program models and initiatives on workplace culture.</li>
+</ul><h3>Determinants of Workplace Culture</h3>
+<p>What interventions can funders and policymakers support that will actually result in positive change? As Bowers points out in her background paper, this question has barely been addressed in the literature. Setting aside the actual organization and structures of work (addressed separately below), variables thought to be important, either alone or in combination with others, include the following:</p>
+<ul><li>
+<p><em>Physical layout and other environmental issues</em>. How does the physical layout of the workplace influence its culture? For example, do certain designs encourage teamwork and communication? How important are environmental factors such as light, color and aroma?</p>
+</li>
+<li>
+<p><em>Subcultures within the organization</em>. Many subcultures may exist within an organization. For example, workers may naturally divide themselves into groups based on ethnicity, job classification, job shift, length or permanency of position, etc. How do subcultures influence the overall workplace culture?</p>
+</li>
+<li>
+<p><em>Cultural competency</em>. Some organizations are more competent than others in addressing needs related to workers' and consumers' cultural backgrounds, including race, nation of origin, language, care-giving traditions, religion, etc. To what extent does an organization's cultural competency influence workplace culture?</p>
+</li>
+<li>
+<p><em>Demographics</em>. To what extent do demographic factors, such as age, education and family income of workers, affect organizational culture?</p>
+</li>
+<li>
+<p><em>Family role</em>. What roles do family members play in facilities, or in the care of family members at home? What kind of family involvement contributes to positive workplace culture, and how can it be cultivated by organizations.</p>
+</li>
+<li>
+<p><em>Existence of support and accountability groups</em>. How important are external and internal oversight groups (e.g., Board of Visitors, Community Advisory Group, Resident Advisory Group) to workplace culture? Do some group models have a greater positive impact on culture than others?</p>
+</li>
+<li>
+<p><em>Upper and middle management</em>. To what extent do the leadership philosophies and styles of upper and middle management affect workplace culture? Are particular management approaches (e.g. continuous quality improvement) that are positive influences on workplace culture? How do changes in leadership effect culture?</p>
+</li>
+<li>
+<p><em>Staff and board roles</em>. Are the roles of the governance board and staff clearly articulated and understood? How does this influence workplace culture.</p>
+</li>
+<li>
+<p><em>Corporate structure.</em> Does the legal status of an organization (e.g., profit or non-profit status) influence workplace culture? Is the culture of "chain" organizations different from non-chains?</p>
+</li>
+<li>
+<p><em>Funding base.</em> To what extent does the funding source of an organization determine its culture? Is the culture of a facility that accepts Medicaid reimbursement different from one that does not? Does Medicare certification influence the culture of an organization?</p>
+</li>
+</ul><p>The group identified the following ideas for research and demonstrations in this area.</p>
+<h4>Create a typology of factors that influence culture.</h4>
+<p>In this project, researchers would observe culture across a large number of organizations and identify the elements that are influencing culture. Key questions include: Which influences, if any, are more important than others? Do combinations of aligned influences need to be present? Can the interrelatedness of influences be identified? Which influences are generalizable across organizations and which are unique to an organization?</p>
+<h4>Compare the cultures of "successful" and "unsuccessful" organizations to determine elements of success.</h4>
+<p>In this project, researchers would identify "successful" and "unsuccessful" organizations and then compare their organizational culture's. This project requires selecting indicators of success (e.g., turnover rates) that are truly comparable across organizations (given the general lack of uniform data). If "successful" and "unsuccessful" organizations varied by culture, then expected determinants of culture could then be compared across organizations. Recruiting "unsuccessful" organizations to participate could be difficult.</p>
+<h4>Select two similar organizations and change one or more determinants of culture in one of the organizations.</h4>
+<p>With this quasi-experimental approach, the same determinants of culture can be studied, but the researcher (in partnership with the participating organizations) selects one or more hypothesized determinant to change in one organization and maintain the same in the other. Unlike the approach above, neither organization has to be labeled "unsuccessful," though the control organization may not have incentive to participate.</p>
+<h3>The Organization and Structures of Work</h3>
+<p>This category addresses how workers are grouped and deployed, their relationships to one another and to consumers, their roles and responsibilities, opportunities for development, support structures and other aspects of workplace organization. Is it possible to identify and support workplace structures and organizational schemes that contribute positively to culture? Organizational and structural elements needing further research include the following:</p>
+<ul><li>
+<p><em>Organizational groupings</em>. How are workers grouped and deployed in the workplace? Are they grouped according to the functions they carry out (traditional approach) or in multi-functional, consumer-focused teams? Does it matter?</p>
+</li>
+<li>
+<p><em>Interrelationships of workers and work processes</em>. How does one worker's processes depend upon and affect the work processes of others? What is the significance of these interrelationships?</p>
+</li>
+<li>
+<p><em>Mix and ratios of staff</em>. Are there ideal staffing ratios? What is the impact of having geriatric nurse practitioners (GNPs) on staff? What is the impact of low staffing ratios?</p>
+</li>
+<li>
+<p><em>Relationships among staff in home care</em>. What structures are necessary to foster relationships among individual home care workers? Do relationships among staff matter in settings where workers are usually alone with consumers?</p>
+</li>
+<li>
+<p><em>Worker-consumer relationships.</em> From a co-production perspective, what kinds of relationships between workers and consumers results in the optimal experience for both? Who has control over what, and how is that negotiated?</p>
+</li>
+<li>
+<p><em>Scope of duties.</em> How is the expanding use of single task workers effecting workplace culture? How does it affect relationships among workers?</p>
+</li>
+<li>
+<p><em>Deployment of short-term workers</em>. The long term care workforce is increasingly made up of workers who are transient for one reason or another, staying at one facility or with one home care consumer for only a short period of time. This includes pool staff working on short-term assignments through employment agencies, and workers who move from one setting to another out of dissatisfaction or in response to sign-up incentives. How does this phenomenon affect culture? Some states have moved to limit the amount of reimbursement provided for pool staff, making this an important policy question.</p>
+</li>
+<li>
+<p><em>Front line staff influence</em>. How much influence do frontline staff have in the organization and how is it manifested? How does staff empowerment actually happen?</p>
+</li>
+<li>
+<p><em>Communication technology and protocols</em>. What technology (e.g., cell phones and palm pilots) and protocols promote good communication throughout an organization and how do they affect the culture? Can the use of technology support more creative deployment of staff and foster feelings of interconnectedness? Especially in home care, the decentralized aspect of care makes communication issues important. How do you nurture a culture in a decentralized system?</p>
+</li>
+<li>
+<p><em>Training and advancement</em>. How does the availability of training and advancement opportunities affect culture? Is it important to provide for advancement within a front-line position (e.g., CNA I, II, III)?</p>
+</li>
+</ul><p>The group identified the following research and demonstration ideas in this area:</p>
+<ul><li>
+<p>Compare workplace culture in organizations that organize workers by resident-service units and those that organize them according to traditional functional departments.</p>
+</li>
+<li>
+<p>Facilities that organize workers into teams oriented around groups of consumers (such as Evergreen) could be compared to those that organize workers by function (e.g., nursing, housekeeping, aides, etc.) to determine the impact on culture.</p>
+</li>
+<li>
+<p>Compare workplace culture in organizations that make extensive use of single-task workers with those that cross-train workers to conduct both deferrable and non-deferrable tasks (Mount St. Vincent's is an example of the latter.)</p>
+</li>
+</ul><p>In order to alleviate staffing shortages, some nursing facilities are proposing single task workers (i.e., staff that would only help with feeding) who would not receive the training of certified nurse assistants. Other facilities have proposed cross-training staff to perform a wider variety of functions than is currently the case. This project would assess the effect of specialization and broadening staff responsibilities.</p>
+<h4>Create a typology of supervisory models in long term care and conduct comparative studies.</h4>
+<p>There is a need to identify supervisory models across long term care settings so that different types of supervision can be studied for their impact on culture.</p>
+<h4>Conduct longitudinal studies of career pathways.</h4>
+<p>In this project, researchers would study organizations that have implemented career pathways, mentoring and similar structures designed to give front-line staff opportunities for wage or responsibility advancement to assess whether workers who participate stay longer in front-line jobs. Comparisons could include organizations with career pathways versus those without; organizations with different types of pathways could be compared to see if one type has greater impact than another. Of interest to policy makers who set reimbursement rates is the question of whether wage increases must be a component of such programs to make them effective.</p>
+<h4>Conduct productivity studies.</h4>
+<p>Little is really known about when a front-line job is manageable and when it is not. What staffing levels (or hours for an individual worker) are adequate, given a certain set of expectations?</p>
+<h4>Study the effect of relationships from a co-production perspective.</h4>
+<p>Studies should be designed that would apply concepts of co-production to the worker-consumer relationship. How does the relationship affect outcomes for both the client and the worker and how does that contribute to culture? Can the relationship and its effects be measured? For example, is a homemaker expected to do housekeeping tasks and little else, or is there also an expectation that a warm, personal relationship will be established with the consumer? Judging from the state-of-the-art in time and motion studies, the current policy assumption is that personal relationship should not be reimbursed. (Time studies focus exclusively on tasks.) This is a very difficult area given lack of uniform expectations or definitions of output, but one that needs work if policy makers are to determine adequate reimbursement levels.</p>
+<h4>Study organizations that have empowered front-line workers and identify critical characteristics and actions of organizations that have a culture of empowerment.</h4>
+<p>Although empowerment is believed to be effective in retaining front-line workers, little is known about how empowerment is actually implemented in an organization or whether it actually improves retention rates. When and how do provider organizations include workers in decision making (e.g., identifying priority areas for improvement; participating in the early stages of program design; making on-the-job decisions about consumer needs.)? Why does empowerment philosophy flourish in some organizations but not others? How can workers be supported to assume more responsibility and control progressively?</p>
+<p>One discreet area of empowerment that appears to hold promise is participation in care planning by front line workers. This particular approach should be studied further. Also worth examining is the impact on culture of workplace policies that effect workers' control over their jobs, such as mandatory overtime. Do practices such as self-scheduling have an impact on attendance, for example?</p>
+<h3>Impact of Government Regulation and Reimbursement Policy</h3>
+<p>Many providers contend that government regulations and reimbursement limitations severely restrict their ability to promote cultures of innovation and creativity. To what extent does regulation actually block innovation, and to what extent is it an excuse for not taking the initiative to change? Do some government policies actually promote innovation? Issues for examination include the following:</p>
+<ul><li>
+<p><em>Staffing ratios and other minimum requirements</em>. Do they make a difference? How do they impact workplace culture?</p>
+</li>
+<li>
+<p><em>Training and certification mandates</em>. Are training requirements too rigid? Do they become a <em>de facto</em> ceiling rather than acting as a floor? On the other hand, do they promote professionalism and improve care delivery?</p>
+</li>
+<li>
+<p><em>Approaches to regulation</em>. Is there any evidence that provider-regulator collaboration affects culture and innovation differently than traditional, arm's length approaches? When are incentives effective versus sanctions?</p>
+</li>
+</ul><h4>Develop case studies or a best practices guide to long term care regulation and policy.</h4>
+<p>In this project, examples where culture change and regulation or government policy were closely tied together would be identified and analyzed. The links between state policy and organizational practice, and the processes that were followed to ensure that policy and program initiatives were aligned would be described. (Examples include: Massachusetts' career ladders/organizational change initiative, Rhode Island's values minimum training initiative, and Michigan's grantmaking to implement Eden alternative approaches to care).</p>
+<h4>Conduct a comparative study of workplace culture in states where more collaborative approaches to regulation are being implemented with those with a more traditional "arm's length" regulatory models.</h4>
+<p>There are a few places where the state has established consultative relationships with the industry in addition to acting as a regulator. Washington, Iowa, and Colorado are examples. How does organizational culture in these state differ from those in states that use a more traditional approach to regulation. How does a collaborative regulatory model impact culture change?</p>
+<h4>Ask providers to identify regulatory obstacles.</h4>
+<p>In this study, surveys or focus groups of providers would be conducted to assess the main regulatory barriers to recruiting and retaining a high quality workforce, which are most important to change, and how should they be changed.</p>
+<h3>Impact of Program Models and Initiatives</h3>
+<p>A number of program models and initiatives are already being implemented around the country. These should be studied further to assess their impact on culture. Issues include:</p>
+<ul><li>
+<p><em>Scope of models</em>. Study should include but not be limited to comprehensive models such as the Eden Alternative and Wellspring. More limited initiatives (e.g., career ladders) that could be implemented across models of care should be included.</p>
+</li>
+<li>
+<p><em>Replicability</em>. Studies should identify key factors critical to replication. How important is the political, economic, market and social context where the model has emerged? How unique were the circumstances?</p>
+</li>
+<li>
+<p><em>Impact on Culture</em>. Studies should focus specifically on how particular models affect the culture of organizations. Can certain features of the models be singled out as particularly important to culture change? Can those features be implemented with or without the full model?</p>
+</li>
+<li>
+<p><em>Impact on Cost</em>. Given the realities of tight Medicaid budgets, the cost impact of particular models must be assessed and considered by policy makers.</p>
+</li>
+</ul><h4>Study the impact on home care culture of independent worker models, agency models, and public authority models.</h4>
+<p>With the expansion of consumer-directed models of care, an increasing number of front line workers are independent contractors. Studies could compare the culture of these workers with the culture in an agency model, and to a public authority model (operating in parts of California), in which workers and consumers maintain a direct relationship (in terms of hiring, firing, supervising), but the authority gives workers a venue for collective bargaining and other group supports.</p>
+<h4>Study the impact on culture of various models and initiatives.</h4>
+<p>Other models or initiatives that were specifically mentioned as potential topics for study included: LEAP (Learn, Empower, Achieve, Produce); NAGNA's CNA Institute; Cooperative Home Care models; Wellspring; Evergreen; Eden; nurse delegation in Kansas (certified medical assistants); labor-management committees (e.g., the National Interfaith Committee for Worker Justice); and Pioneers (a collection of approaches used in other models, as opposed to a single model).</p>
+<h3>Overarching Research Observations and Challenges</h3>
+<p>The following research challenges were noted during the group's discussions:</p>
+<p><strong><em>Approach</em></strong>. An anthropological approach is probably necessary to really understand workplace culture. In order to understand culture, an immersion method is required that penetrates beneath the surface of an organization's climate. Related to this is the need to be practical and recognize that work places are extremely dynamic. Researchers should work closely with agencies to design feasible studies that minimize disruptions and administrative burdens on staff and consumers. There is a natural tension between the research need to isolate variables and the co-existence of multiple factors in work settings.</p>
+<p><strong><em>Sustainability</em></strong>. Many participants emphasized the futility of creating interventions that are not sustainable. For example, if a grant-funded intervention involves additional costs that are not offset by cost reductions (such as lower turnover) or covered by additional reimbursement, an organization is not likely to sustain the innovation after the study ends. Another factor to sustainability is the demands that an intervention places on management and staff. If a significant number of additional meetings are required, for example, the organization may reach a point of exhaustion and discontinue the intervention, even if it is having the desired impact. Is it possible to define characteristics of a sustainable change?</p>
+<p><strong><em>Models versus their component parts</em></strong>. Comprehensive models are often very contextual and therefore difficult to replicate. Also, some organizations may be able to implement incremental changes, but do not have the capacity or desire to adopt entire models. How can models be dissected to determine component features that could be effective on their own?</p>
+<h3>Meeting Attendees</h3>
+<p><strong><u>Technical Expert Panel Members</u></strong></p>
+<p>Barbara Bowers, University of Wisconsin-Madison Susan Eaton, Harvard University Nancy Eustis, University of Minnesota David Green, Evergreen Retirement Community David Lindeman, Mather Institute on Aging Steven Lutzky, District of Columbia Medical Assistance Administration Ingrid McDonald, Service Employees International Union Susan Misiorski, Paraprofessional Health Care Institute Linda Morrison, Wisconsin Alzheimer's Institute Linda Noelker, Benjamin Rose Institute Rick Surpin, Independent Care System Rose Wormington, National Association of Geriatric Nursing Assistants Dale Yeats, University of North Texas</p>
+<p><u><strong>Funders and Other Foundations</strong></u></p>
+<p>Brian Hofland, Atlantic Philanthropic Services Corporation Maureen Michael, Robert Wood Johnson Foundation Janice Nottoli, Annie E. Casey Foundation</p>
+<p><u><strong>Project Staff and Consultants</strong></u></p>
+<p>Obed Agredano-Lozano, University of Southern California Jean Fielding, Institute for the Future of Aging Services Mary Harahan, Consultant Paul Saucier, University of Southern Maine Jane Tilly, The Urban Institute Joshua Wiener, The Urban Institute</p>
+<h2><a id="meeting3" name="meeting3">SUMMARY OF MEETING OF THE TECHNICAL EXPERT PANEL ON LABOR POOL EXPANSION</a></h2>
+<p>Washington, DC, December 14, 2001The Urban Institute and the Institute for the Future of Aging Services</p>
+<h3>Summary</h3>
+<p>The discussion centered on the issues surrounding expanding the labor pool for frontline workers by tapping five sources of labor -- older workers, family caregivers, students, welfare recipients, and immigrants. Expanding the pool is necessary because of the huge imbalance between the future increase in demand for long-term care due to the aging of the population and the very slow increase in the working age population available to provide services.</p>
+<p>The first section of the meeting was a short presentation and discussion of a paper by Nancy Pindus of The Urban Institute on strategies that the service industry has used to draw workers into entry-level positions. Next, the TEP discussed the issues surrounding each of the five sources of labor and then proposed ideas for demonstration and research projects. Paul Saucier of the University of Southern Maine acted as facilitator for the meeting.</p>
+<h3>Presentation and Discussion of Background Paper</h3>
+<p>Nancy Pindus set the stage for the meeting by discussing entry level workers in three service sectors -- health and long-term care, child care, and hospitality. While we have some basic information about why health care workers choose to enter the field, we have little information specific to long-term care. Low wage health care workers base their employment decisions on several factors including the desire to help other people and the type of people they would like to help (e.g., children or older adults). In addition, immediate availability of job openings that are close to home, and information received word-of-mouth about job opportunities influence where workers will seek employment. Marginal changes in wage rates and improvements in benefits can cause workers to change jobs within an industry. However, surprisingly few workers migrate from one service sector to another; rather they change jobs within their field. To determine how best to attract new workers, we need to understand why people choose to enter the long-term care field.</p>
+<p>Once in health and long-term care, entry-level workers have difficulty climbing the available career ladders because of educational and licensure barriers. To advance, these workers must obtain one or more years of additional schooling and state licensure to become a licensed practical or registered nurse. Even with the availability of tuition reimbursement from employers, obtaining the required education is difficult. Low wage workers often lack the time, energy, and confidence in their academic skills to attempt nursing school. In addition, tuition reimbursement programs generally require workers to pay their school costs first and apply for reimbursement after the courses have been successfully completed; this can be an insurmountable financial burden for many workers. As a result of these factors, many people believe that it is difficult to advance in the health care industry. In contrast, advancement in the hospitality industry is easier because of high employee turnover and fewer credential and licensure requirements.</p>
+<h3>General Recommendations</h3>
+<p>After Nancy Pindus' presentation, the TEP made some general observations that cut across the five sources of labor and, to some extent, addressed issues beyond labor pool expansion. These observations related to determining what motivates long-term care workers to enter the field and remain in it, the necessity of job redesign, and suggestions for a major research project along these lines. The discussion began with the observation that we know little about what attracts workers to the long-term care field, other than the fact that many are drawn by their desire to help people. In addition, we do not know what causes workers to leave the field or to remain. Another set of issues that needs exploration is what attracts workers to these different long-term care settings and how the frontline jobs differ among nursing homes, assisted living facilities, and home health or personal care agencies. Some TEP members suggested surveys of current workers, those who have stayed in long-term care for more than one year, and workers who have left the field to determine what aspects of their jobs affected their employment decisions.</p>
+<p>The TEP members said that the major barriers to recruiting new workers include (1) low wages in the long-term care sector compared to other service industries such as hospitality, (2) lack of access to benefits and few opportunities for advancement compared to other types of entry level work, and (3) the poor image of long-term care. Several members of the TEP expressed concern that finding new sources of labor for long-term care should not undermine or replace efforts to improve the wages and fringe benefits and the content of these jobs.</p>
+<p>These deterrents need to be addressed, partly through job redesign, which was one of the main topics the second TEP addressed. This third TEP discussed two types of redesign: (1) delegation of nursing tasks to workers who receive specific training and perform the tasks under the supervision of a nurse and (2) use of single task workers to supplement the work of nurse aides in facilities. These ideas are controversial, but could be tested to determine how they affect recruitment and retention of workers as well as quality of care.</p>
+<p>Job redesign could be tested and marketed in a moderately sized labor market. A group of 20-50 providers would have to agree to the job redesign and track what happens as the program is implemented. Funding would be needed to help providers implement the redesign and marketing campaign for new long-term care workers. The project would have to last at least two years to allow sufficient time to test the concepts and their implementation processes.</p>
+<p>Given the generally poor image of long-term work, TEP members suggested testing an image improvement campaign that touts the intrinsic rewards of working in the long-term care industry (it should be noted that the negative image of long-term care work is not universal). Wisconsin is engaged is such an effort, which could be evaluated.</p>
+<h3>Research and Demonstration Topics/Initiatives</h3>
+<p>The TEP next discussed the issues surrounding underdeveloped sources of labor, including older workers, family members, students, welfare beneficiaries, immigrants, and other pools.</p>
+<h4>Older Workers</h4>
+<p>Members observed that several types of older workers exist including those who are already in the long-term care field, displaced older workers from other fields, those working due to economic necessity, and retirees looking for meaningful work. One TEP member asserted that the experiences of certain service companies show that their older workers tend to be healthier and have a better work history than their contemporaries and they take direction better than younger cohorts. However, not all older workers fit this profile.</p>
+<p>There are several barriers to hiring older workers. Some managers have stereotypes about older workers being inflexible and too tired or weak to work. These attitudinal barriers would have to be overcome, as would the Social Security earnings limits, that may prevent some older persons from working. Other barriers include the need for transportation because many older people have difficulty getting to and from work. Providers could test banding together to provide transportation to older workers.</p>
+<p>The TEP members generally agreed that older workers could be a stable source of employees for the long-term care sector but accommodations might have to be made, depending upon the workers' skills, abilities, and needs. Older workers are likely to want flexible schedules, but may be willing to work at odd hours. Heavy lifting may not be appropriate for some older workers but could be possible with the aid of technology. Also, older workers could assist with tasks that may not be physically demanding such as feeding. These types of accommodations could be tested.</p>
+<p>The TEP suggested some strategies for recruiting older workers. Once information about the profile and experiences of older workers currently in the long-term care sector is collected, the data could be used to develop recruitment strategies. In addition, some programs provide opportunities to recruit older workers. For example, the federally-funded Senior Community Service Employment Program (SCSEP),<sup><a href="#note1">1</a></sup> runs local programs throughout the country to connect older workers with employers. In addition, senior centers and churches might be convenient sources of older workers. Demonstration projects could test the viability of recruiting older workers from these and other sources and the types of job characteristics (e.g., flexibility of scheduling, transportation, and financial compensation) that are necessary for successful recruitment.</p>
+<h4>Family Members</h4>
+<p>TEP members discussed two types of family members who could be potential sources of labor -- those who want to work only for their family members with disabilities and those who like providing long-term care and would be willing to continue doing so after their family caregiving responsibilities end. In the Arkansas Cash and Counseling demonstration<sup><a href="#note2">2</a></sup> site, about three-quarters of Medicaid beneficiaries are hiring family members to provide services. Other programs that give beneficiaries hiring and firing power over workers find that majorities of beneficiaries hire family or friends as their workers.</p>
+<p>Paying family, however, can pose some difficulties. Family members may need training to provide some services and it may be difficult to fire them when they are not performing satisfactorily. In addition, the desirability of hiring family could vary. Some people with disabilities may feel most comfortable with families, while others may prefer to establish lives independent of their families. Also, policy and attitudinal barriers to hiring family exist. For example, Medicaid prohibits hiring of spouses and some states extend prohibitions on hiring family to any close relative including grandchildren and daughters-in-law. Some policymakers are skeptical about hiring family, doubting that this will actually increase the amount of services people with disabilities receive since these caregivers mostly provided informal care before being paid. Consumers may also be vulnerable to abuse.</p>
+<p>Two projects could help ascertain whether family caregivers are a good source of paid labor. One project could determine whether paying family caregivers leads to an increased number of workers in the field and increased hours of care for the person with disabilities. A demonstration program could test recruiting family members who no longer have caregiving responsibilities to work as paid long-term care service providers.</p>
+<h4>Students</h4>
+<p>Arguing that initial exposure to a field influences subsequent career choices, TEP members suggested that involving high school and college students in long-term care has potential to add to the labor supply. Such opportunities could include: (1) incorporating long-term care into high school career academies,<sup><a href="#note3">3</a></sup> (2) allowing students to meet state community service requirements with long-term care work, (3) providing Job Corps participants with vocational training in long-term care, (4) establishing youth apprenticeship programs, and (5) offering classes that give credit for caring for people with disabilities. All of these mechanisms could be tested to determine their utility.</p>
+<p>Some barriers to employment of younger students should be explored. Barriers could include age requirements and minimum number of hours for aide training as well as the need for supports and extra supervision. Nurses and others may need training on how to manage younger workers. Scheduling for students would need to be flexible so that their work experiences do not interfere with their schooling. The extent to which scholarship and training grants can be used for work in long-term care settings is also unclear.</p>
+<h4>Welfare Beneficiaries</h4>
+<p>TEP members agreed that there are two general types of welfare recipients -- those who are in need of temporary assistance and those with long-term needs. Both groups could be a source of labor for long-term care but some recipients may need supports, such as day care and transportation, to work in the industry.</p>
+<p>There are some federal opportunities for helping welfare recipients obtain employment. The Personal Responsibility and Work Opportunity Reconciliation Act of 1996 provides tax credits to employers for the first $6,000 of welfare recipients' wages. Employers can also participate in welfare to work programs, which consist of a partnership among a (1) a health care provider that offers employment, (2) a non-profit community organization that provides training and mentoring, and (3) the welfare system, which oversees the program and ensures transition benefits for recipients. Some TEP members asserted that these programs work when the business and community organization's leadership are enthusiastic about them and that health care providers often take on welfare to work programs because they consider them part of their mission.</p>
+<p>Sometimes welfare to work program requirements can pose barriers. For example, New York City requires recipients to work 35 hours every week or lose their transitional benefits and home health agencies sometimes cannot guarantee a 35 hour work week. In addition, some programs require that participants secure paid employment immediately so that the training requirements for certified home health aides and nurse aides pose a barrier to entry. Other programs do not refer welfare recipients to long-term care providers because the entry-level salaries are too low to provide a livable wage. Programmatic barriers should be examined and their effects assessed. In addition, the health and long-term care components of welfare to work programs should be evaluated separately from the general evaluations of these initiatives that are under way.<sup><a href="#note4">4</a></sup></p>
+<h4>Immigrants</h4>
+<p>Since a significant proportion of frontline long-term care workers are immigrants in many parts of the country, we need to learn more about the advantages and disadvantages of using immigrant labor from the perspective of the employers and employees. This could be accomplished through the use of surveys and focus groups.</p>
+<p>According to TEP members, successful methods of recruiting immigrants include giving bonuses to current workers when they refer their friends or family to the provider. This appears to work well in the immigrant community as does simple word of mouth about the availability of jobs. Another potential draw for immigrants is to make health care work a means of obtaining legal resident status. These recruitment methods could be tested to determine their efficacy.</p>
+<p>Hiring immigrants to serve as frontline long-term care workers comes with a number of hurdles. Visas come with educational and language requirements as well as time limits, among other constraints. Also employers have difficulty obtaining visas for workers with few skills. Refugee programs have their own barriers such as the requirement that agencies settle refugees within one month, which can limit the ability to match refugee skills with long-term care jobs. Some TEP members added that immigrants may need supports when they transition to the US and security concerns in the wake of the September 11<sup>th</sup> attacks have affected immigrant labor. Members suggested commissioning a policy paper that would address these issues and others affecting use of immigrants in long-term care.</p>
+<p>Some TEP members raised two major concerns about relying on immigrant labor. Efforts to recruit immigrants could undercut efforts to improve long-term care worker's jobs and drain skilled workers from areas of the world where they are greatly needed.</p>
+<h4>Other Sources of Labor</h4>
+<p>The TEP discussed several other groups that might become long-term care workers, but focused on people with disabilities. Members described programs that hire people with developmental disabilities to perform simple tasks; these programs are said to be particularly successful with dementia patients. Other TEP members pointed to potential exploitation of workers with disabilities under these types of arrangement and the likelihood that people with certain disabilities will need extra training and supervision. Another potential barrier to employment is that it might interfere with eligibility for Supplemental Security Income, Social Security Disability Insurance, Medicare, and Medicaid.</p>
+<p>There is a need to catalogue successful examples programs that involve people with disabilities providing services to others with disabilities. In addition, Centers for Independent Living, which exist throughout the country, could provide a referral service designed to connect people with disabilities who could assist each other. The types of supports that people with different types of disabilities need to provide services also must be explored.</p>
+<h3>Concluding Observations</h3>
+<p>Several themes persisted throughout the discussion. One was the need for departments of labor, education, and health and human services at the federal, state, and local levels to coordinate their efforts. Education and training funds that flow from these departments to states and localities could be directed, in part, to the long-term care field. Local workforce boards and welfare to work programs could focus more on training for long-term care positions. In addition, the economic slowdown presents an opportunity to use training funds and programs to train displaced workers for service in the long-term care field. For example, laid off hospitality workers could transition to long-term care jobs.</p>
+<p>Another theme was that providers should play a proactive role in the research effort. For example, they could brainstorm to determine what types of regulations really are barriers to hiring aides and participate in testing whether relaxing certain rules would improve recruitment without affecting quality of care.</p>
+<h3>NOTES</h3>
+<ol><li>
+<p><a id="note1" name="note1">SCSEP</a>, which is administered by the Department of Labor and receives funding from the Older Americans Act, serves persons with low incomes who are age 55 and older and have poor employment prospects. Services provided include up to 1300 hours per year of part-time employment in community service assignments, job training, and opportunities for placement into unsubsidized jobs.</p>
+</li>
+<li>
+<p><a id="note2" name="note2">The</a> Cash and Counseling demonstrations in Arkansas, Florida, and New Jersey give Medicaid home and community services beneficiaries cash which they can use to hire and fire their own personal care workers. Beneficiaries also receive assistance in carrying out management responsibilities.</p>
+</li>
+<li>
+<p><a id="note3" name="note3">These</a> are separate schools within high schools that emphasize practical training for specific careers. TEP members said that about 20 percent of the 1500 to 2500 academies in the country have a health and human services theme, but it is not clear to what extent these academies focus on careers in long-term care.</p>
+</li>
+<li>
+<p><a id="note4" name="note4">One</a> evaluation mentioned is <em>Welfare to Work: Strategies for Health Care Work Force Development</em>, Irving, Texas: VHA Health Foundation, 2001.</p>
+</li>
+</ol>
+  <div class="download_report">
+    
+                        <div class="pdf-prev">
+                <img src="https://aspe.hhs.gov/system/files/pdfpreview/ae866923a03f1f0f4e733a9b2be55a84.png" alt="Preview" title="Preview" />            </div>
+                <a class="btn btn-sm btn-default download-file"
+           href="https://aspe.hhs.gov/system/files/pdf/72751/FWmtgs.pdf">Download</a>
+
+        <p class="download_title">&quot;FWmtgs.pdf&quot;
+            (pdf,
+            70.65Kb)</p>
+        <p>Note: Documents in PDF format require the <a href="http://www.adobe.com/products/acrobat/readstep2.html">Adobe
+                Acrobat Reader&reg;</a>. If you experience problems with PDF documents, please <a
+                href="http://www.adobe.com/products/acrobat/readstep2.html">download the latest version of the
+                Reader&reg;</a>
+        </p>
+    </div>
+<div class="group-tags"><div class="field-label">Tags:&nbsp;</div><a href="/terms/disability-aging-and-long-term-care-research">Disability, Aging and Long-Term Care Research</a><a href="/terms/publications-2">Publications</a><a href="/terms/employment">Employment</a><a href="/terms/long-term-care-workforce">Long-Term Care Workforce</a><a href="/terms/health-services-formal">Health Services, Formal</a><a href="/terms/assistive-and-medical-devicestechnology-0">Assistive and Medical Devices/Technology</a><a href="/terms/long-term-care-workforce-0">Long-Term Care Workforce</a><a href="/terms/highlighted-issues">Highlighted Issues</a><a href="/terms/paraprofessional-long-term-care-workforce">Paraprofessional Long-Term Care Workforce</a><a href="/terms/home-and-community-based-services">Home and Community-Based Services</a><a href="/terms/home-modification">Home Modification</a></div>  </div>
+
+      <footer>
+          </footer>
+  
+    <div id="block-webform-client-block-158521" class="widget block block-webform" >
+  
+      
+  <div id="webform-ajax-wrapper-158521"><form class="webform-client-form webform-client-form-158521" action="/basic-report/frontline-long-term-care-worker-project-summaries-three-technical-expert-panel-meetings" method="post" id="webform-client-form-158521" accept-charset="UTF-8"><div><div class="webform-progressbar">
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-radios webform-component--was-this-page-helpful">
+  <label for="edit-submitted-was-this-page-helpful">Was this page helpful? <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-was-this-page-helpful" class="form-radios"><div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-1" name="submitted[was_this_page_helpful]" value="1" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-1">Yes </label>
+
+</div>
+<div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-2" name="submitted[was_this_page_helpful]" value="0" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-2">No </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="4" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-vmqioS6oW_ricLbJkPvUXYFQP5lhRZAILCPZvbepi7Y" />
+<input type="hidden" name="form_id" value="webform_client_form_158521" />
+<input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-158521" />
+<div class="form-actions"><input class="webform-next button-primary btn btn-default form-submit" type="submit" id="edit-webform-ajax-next-158521" name="op" value="Next &gt;" /></div>
+<div class="is-useful-disclaimer"> <a href="/%23" class="" title="Survey Disclaimer" data-toggle="modal" data-target="#disclamerModal">Form Approved OMB# 0990-0379 Exp. Date 8/31/2017</a></div>
+<div class="modal fade" id="disclamerModal" tabindex="-1" role="dialog" aria-labelledby="disclamerModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="disclamerModalLabel">Survey Disclaimer</h2>
+      </div>
+      <div class="modal-body">
+         According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this information collection is 0990-0379. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, gather the data needed, and complete and review the information collection. If you have comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: U.S. Department of Health & Human Services, OS/OCIO/PRA, 200 Independence Ave., S.W., Suite 336-E, Washington D.C. 20201, Attention: PRA Reports Clearance Officer.      </div>
+    </div>
+  </div>
+</div></div></form></div>
+  </div> <!-- /.block -->
+<meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/frontline-long-term-care-worker-project-summaries-three-technical-expert-panel-meetings" itemref="md1" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/frontline-long-term-care-worker-project-summaries-three-technical-expert-panel-meetings" itemref="md2 md3 md5 md7 md9 md11 md13 md15 md17 md19 md21 md23 md25" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/disability-aging-and-long-term-care-research" id="md5" itemref="md4" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/publications-2" id="md7" itemref="md6" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/employment" id="md9" itemref="md8" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/long-term-care-workforce" id="md11" itemref="md10" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/health-services-formal" id="md13" itemref="md12" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/assistive-and-medical-devicestechnology-0" id="md15" itemref="md14" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/long-term-care-workforce-0" id="md17" itemref="md16" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/highlighted-issues" id="md19" itemref="md18" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/paraprofessional-long-term-care-workforce" id="md21" itemref="md20" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/home-and-community-based-services" id="md23" itemref="md22" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/home-modification" id="md25" itemref="md24" />              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <footer  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Footer">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  id="footer_sitemap-footer_sitemap" class="col-sm-6 col-md-6 col-lg-4 ">
+                          
+                              <div id="block-footer-sitemap-footer-sitemap" class="widget block block-footer-sitemap" >
+  
+      
+  <div id="footer-sitemap" class="clearfix">
+  <div class="fs-block-content"><div class="menu-footer-utility"><ul class="footer_links_menu-footer-utility total-items-2 parent-items-0 single-items-0"><li class="menu-5021 depth-1 total-children-8 parent-children-0 single-children-8  first"><a href="/" title="look at ASPE Home" class="fs-root-link">ASPE Home</a><ul class="footer_links_menu-footer-utility total-items-8 parent-items-0 single-items-0"><li class="menu-5026 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/" title="look at HHS Home">HHS Home</a></li>
+<li class="menu-66281 depth-1 fs-no-children"><a href="http://www.usa.gov/" title="look at USA.gov">USA.gov</a></li>
+<li class="menu-66316 depth-1 fs-no-children"><a href="https://oig.hhs.gov/" title="look at Office of the Inspector General">Office of the Inspector General</a></li>
+<li class="menu-66321 depth-1 fs-no-children"><a href="http://www.whitehouse.gov" title="look at The White House">The White House</a></li>
+<li class="menu-5046 depth-1 fs-no-children"><a href="http://www.hhs.gov/Accessibility.html" title="look at Accessibility">Accessibility</a></li>
+<li class="menu-66326 depth-1 fs-no-children"><a href="http://www.hhs.gov/about/budget/index.html" title="look at Budget/Performance">Budget/Performance</a></li>
+<li class="menu-2551 depth-1 fs-no-children"><a href="http://www.hhs.gov/Privacy.html" title="look at Privacy Policy">Privacy Policy</a></li>
+<li class="menu-197776 depth-1 fs-no-children  last"><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" title="Nondiscrimination Notice">Nondiscrimination Notice</a></li>
+</ul></li>
+<li class="menu-5051 depth-1 total-children-4 parent-children-0 single-children-4  last"><a href="http://www.hhs.gov/foia/" title="look at FOIA" class="fs-root-link">FOIA</a><ul class="footer_links_menu-footer-utility total-items-4 parent-items-0 single-items-0"><li class="menu-5056 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/open/recordsandreports/plainwritingact/index.html" title="look at Plain Writing Act">Plain Writing Act</a></li>
+<li class="menu-5061 depth-1 fs-no-children"><a href="http://www.hhs.gov/asa/eeo/no_fear_bullet_3.html" title="look at No Fear Act">No Fear Act</a></li>
+<li class="menu-5066 depth-1 fs-no-children"><a href="http://www.hhs.gov/Disclaimer.html" title="look at Disclaimers">Disclaimers</a></li>
+<li class="menu-2546 depth-1 fs-no-children  last"><a href="http://www.hhs.gov/plugins.html" title="look at Viewers &amp; Players">Viewers &amp; Players</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-5 " id="stability_cms-contact_us">
+                          
+                              <div id="block-stability-cms-contact-us" class="widget block block-stability-cms" >
+  
+      
+  <div class="contacts-widget widget widget__footer">
+	<div class="widget-content">
+		<ul class="contacts-info-list">
+      			<li>
+<!--				<i class="fa fa-map-marker">Address</i>-->
+                <div class="info-icons">
+                    <img  alt="map" class= 'map-icons' src="/sites/all/themes/stability/stability_aspe/images/map.png"/>
+                </div>
+                <div class="info-item">
+					Assistant Secretary for Planning and Evaluation, Room 415F<br />
+U.S. Department of Health and Human Services<br />
+200 Independence Avenue, SW<br />
+Washington, D.C. 20201				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-phone">phone</i>-->
+                <div class="info-icons">
+                    <img alt="phone" src="/sites/all/themes/stability/stability_aspe/images/phone.png"/>
+                </div>
+				<div class="info-item">
+					+1 202.690.7858				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-envelope">email</i>-->
+                <div class="info-icons">
+                    <img alt="mail" src="/sites/all/themes/stability/stability_aspe/images/mail-white.png"/>
+                </div>
+				<span class="info-item">
+					<a href="mailto:osaspeinfo@hhs.gov">osaspeinfo@hhs.gov</a>
+				</span>
+			</li>
+      			                					</ul>
+	</div>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-3 " id="footer">
+                          
+                              <div id="block-block-36" class="widget block block-block" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sign-up</span> for Email Updates</h3>
+		</div>
+    
+  <div class="email_updates">
+<button class="btn btn-default" name="subscribe-button" type="submit" value="subscribe">subscribe</button>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-12 " id="menu-menu-footer-language-menu">
+                          
+                              <div id="block-menu-menu-footer-language-menu" class="widget block block-menu" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Language</span> Assistance Available</h3>
+		</div>
+    
+  <ul class="menu"><li class="first expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#spanish" title="Español">Español</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#chinese" title="繁體中文">繁體中文</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#vietnamese" title="Tiếng Việt">Tiếng Việt</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#korean" title="한국어">한국어</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#tagalog" title="Tagalog">Tagalog</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#russian" title="Русский">Русский</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#arabic" title="العربية">العربية</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#creole" title="Kreyòl Ayisyen">Kreyòl Ayisyen</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#french" title="Français">Français</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#polish" title="Polski">Polski</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#portuguese" title="Português">Português</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#italian" title="Italiano">Italiano</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#german" title="Deutsch">Deutsch</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#japanese" title="日本語">日本語</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#farsi" title="فارسی">فارسی</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#english" title="English">English</a></li>
+</ul></li>
+</ul>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+      </div>
+
+          </div>
+    
+    
+      </footer>
+    
+
+    <!--/PAGEWATCH-->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+                        </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="social-links-wrapper">
+              <span class="social-links-txt">Connect with us</span>
+              <ul class="social-links social-links__dark">
+                                                  <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw-grey.png"/></a></li>
+                                <!--                --><!--                  <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin-grey.png"/></a></li>-->
+<!--                -->
+                                                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>  <script type="text/javascript" src="/sites/default/files/advagg_js/js__VWRymaMz6HfrhnrcJNGcDiSvLVrvhaXvBa7nrBYy8gc__jntPwP3D6myJZH1jW19fXrk5cYMHGRL8NQION22VSEA__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5486d15a696bff0c"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__g6mKbcakHxQkz4ZHYaxdO_xqONINvRMgsHh1zAK-fr0__ATHtEmHaeZ0jidpGU22EkhmPDBSgjD8z0bVDQMI-BIY__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__KUp4PrfOt9BSXUVl8Ctb3dhCMBe4MNVMeb4Gyorx8yY__7g4BeXscCIZAfuu1vxsCj2RIemg-eEK0QpChP9LDmFQ__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__PNjAgubM_3xXRLp4uLsYnv8wQAdT89-RYkSPxT6T45c__rFQwFK4pA5ZaWZSF7FPTfKbbpus0h-5IS8ayrNZGrb4__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__vQiLul2UcfC4nBAR09mhYVBYzRmiNDm2dj3GgSubV38__w84oZe-ZODKe7XnnlbrjV4IWHISOy4PioFEMVgx9hZo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__QJw3g0kOdwsv4twSZLP931zBzsHy50VEHpEN_znIitQ__A6QOuWXElDipBM2iChbWhjAAt3KlUwZ-jODoxdpbwiw__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stability_aspe","theme_token":"YMRrYvvvqck_pI_lz7eQYaNwTnMw_jVcvUy_msNTN4I","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/footable.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/aspe_nodes.admin.css":1,"sites\/all\/modules\/custom\/aspe_views\/theme\/css\/aspe_views.admin.css":1,"sites\/all\/modules\/forked\/book\/book.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/openpublic\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.css":1,"profiles\/openpublic\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openpublic\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/openpublic\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/themes\/stability\/css\/bootstrap.min.css":1,"sites\/all\/themes\/stability\/css\/fonts\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.theme.css":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/stability\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/stability\/css\/theme.css":1,"sites\/all\/themes\/stability\/css\/theme-elements.css":1,"sites\/all\/themes\/stability\/css\/animate.min.css":1,"sites\/all\/themes\/stability\/css\/skins\/red.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/slideshow.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/font-main.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/styleless.less":1,"sites\/all\/themes\/stability\/css\/skins\/blue.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/aspe\/theme\/js\/aspe.login-confirm.js":1,"sites\/all\/modules\/custom\/aspe_report\/modules\/aspe_databooks\/js\/aspe_databooks.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.highcharts.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/datatables\/dataTables.min.js":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.min.js":1,"sites\/all\/libraries\/highcharts\/highcharts.js":1,"sites\/all\/libraries\/highcharts\/highcharts.exporting.js":1,"sites\/all\/libraries\/highcharts\/highcharts.map.js":1,"sites\/all\/libraries\/highcharts\/highcharts.us-all.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.footable.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5486d15a696bff0c":1,"misc\/progress.js":1,"profiles\/openpublic\/modules\/contrib\/webform\/js\/webform.js":1,"profiles\/openpublic\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/stability\/vendor\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/stability\/vendor\/bootstrap.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flexnav.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flickrfeed.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.sloppy-masonry.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.fitvids.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.stellar.min.js":1,"sites\/all\/themes\/stability\/vendor\/snap.svg-min.js":1,"sites\/all\/themes\/stability\/js\/custom.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/aspe.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/html5shiv.min.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/main-menu.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/keyboard-control.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tabBehavior.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tileStringTrimmer.js":1}},"webform":{"conditionals":{"webform-client-form-158521":{"ruleGroups":[],"sourceMap":[],"values":[]}}},"ajax":{"edit-webform-ajax-next-158521":{"callback":"webform_ajax_callback","wrapper":"webform-ajax-wrapper-158521","progress":{"message":"","type":"throbber"},"event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Next \u003E"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/basic-report\/frontline-long-term-care-worker-project-summaries-three-technical-expert-panel-meetings":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"([a-z0-9]\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This website contains links to other federal and state agencies and private organizations. The Department of Health and Human Services (HHS) cannot attest to the accuracy of information provided by these nonfederal website links. Linking to nonfederal sites does not constitute an endorsement by HHS or any of its employees of the sponsors or the information and products presented on the sites. You will be subject to the destination site\u0027s privacy policy when you leave the ASPE website.\r\n\r\nThank you for visiting aspe.hhs.gov!","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"stability":{"flickr_id":"52617155@N08","logo_sticky":"28"},"field_group":{"div":"full","hidden":"full"}});
+//--><!]]>
+</script>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config={pubid:"ra-5486d15a696bff0c",ui_click:false}
+//--><!]]>
+</script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4837db659","applicationID":"10708002","transactionName":"MwNaZBRSXEtXB0BdWQpJbUIPHFtWUgFMGkYMFg==","queueTime":0,"applicationTime":24,"atts":"H0RZElxIT0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

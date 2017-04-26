@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">  <!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="next" href="organizational-conditions-required-research-combining-multiple-data-sources.html" />
+<link rel="up" href="https://aspe.hhs.gov/report/feasibility-using-electronic-health-data-research-small-populations/part-ii-potential-use-electronic-health-records-and-other-electronic-health-data-improve-research-health-and-health-care" />
+<link rel="prev" href="technical-conditions-required-research-using-ehr-and-other-electronic-health-data.html" />
+<link rel="shortcut icon" href="../../sites/default/files/Favicon2.png" type="image/png" />
+<meta name="description" content="In addition to technical requirements for data extraction and analysis, there are legal requirements that complicate the repurposing of EHR data for research. Privacy and security may be of particular concern for small populations, where individuals may be easily identified with just a few variables. In addition, particularly where there may be issues with stigma, individuals from small populations may not want to be identifiable by their employer, school, or others who may access the data." />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="privacy-and-security-conditions-required-research-using-ehr-and-other-electronic-health-data.html" />
+<link rel="shortlink" href="https://aspe.hhs.gov/node/107886" />
+<meta property="og:site_name" content="ASPE" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aspe.hhs.gov/report/feasibility-using-electronic-health-data-research-small-populations/privacy-and-security-conditions-required-research-using-ehr-and-other-electronic-health-data" />
+<meta property="og:title" content="Privacy and Security Conditions Required for Research Using EHR and Other Electronic Health Data" />
+<meta property="og:description" content="In addition to technical requirements for data extraction and analysis, there are legal requirements that complicate the repurposing of EHR data for research. Privacy and security may be of particular concern for small populations, where individuals may be easily identified with just a few variables. In addition, particularly where there may be issues with stigma, individuals from small populations may not want to be identifiable by their employer, school, or others who may access the data." />
+<meta property="og:updated_time" content="2015-12-03T02:39:54-05:00" />
+<meta property="article:published_time" content="2015-11-23T04:14:29-05:00" />
+<meta property="article:modified_time" content="2015-12-03T02:39:54-05:00" />
+
+  <title>Privacy and Security Conditions Required for Research Using EHR and Other Electronic Health Data | ASPE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+  <link type="text/css" rel="stylesheet" href="../../sites/default/files/advagg_css/css__5ln8neBOcJfyUveiD4y9fhI6kHBLOQ_YL0mMC-LS9a0__TPJIZT9UBnf_685NlFTJ5KnZVsjwFk6ACQ-nwwygmwU__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../../sites/default/files/advagg_css/css__ng49uRH5y4Hl9VF9hHW_vXOj-mcOc2u2ShJqJ1YKIGU__FoMCD14GBvZaRiqSQ_JpP1w3rDB21n7H2Ar4pRZaIh8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../../sites/default/files/advagg_css/css__Hskudx14OJ5Hz8vqU7CUgN6SDV5rINZuEq9VuGsSeyc__EwNIl3xeFrniW2TmonovTzhSs3X5MdFps210puE7jog__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../../sites/default/files/advagg_css/css__9rZoaX9BdzjjNucvYxduxeNAVO2zgW_Rvjhb5rq5whc__lSr_y16grDSgHf4booPChnF7QXz3TQY3hafH49twE0k__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../../sites/default/files/advagg_css/css__ZgfI_ZPib5yVY0o5aKo_6TFn946Tuu_nFDa0ySTmkSc__2FTFrNw2eNh0mpHIOA34r6YRwBZMm2PjJ_JubnwLigg__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../../sites/default/files/advagg_css/css__dxabpJ5rQgDSixKgLJZjWc1beC6mpROKwVrmWxI5eno__rqhz_hGsE_i59O7-W991o71_Jxw1QOtGMxn4nsOLHY8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../../sites/default/files/advagg_css/css__ZbRCq2NqWgK-HXAQI3So0N1n0nr4HonsJS3eQuuxukw__7Olkk8Locn8Dj0eR0Ww3rbV9lks9sxipcboMXB18RRs__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+
+	<!-- Head Libs -->
+	<script src="../../sites/all/themes/stability/stability_aspe/vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/sites/all/themes/stability/vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" href="../../sites/all/themes/stability/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="../../sites/all/themes/stability/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="../../sites/all/themes/stability/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="../../sites/all/themes/stability/images/apple-touch-icon-144x144.png">
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-107886 node-type-book">
+<!-- Google Tag Manager -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-JLFR"
+                  height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JLFR');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-nav" class="accessibility_menu">
+    <strong>Shortcut Navigation:</strong>
+    <ul>
+      <li><a href="privacy-and-security-conditions-required-research-using-ehr-and-other-electronic-health-data.html#content" accesskey="c" title="Skip to page content (ctrl/alt + c)">Page Content</a></li>
+      <li><a href="privacy-and-security-conditions-required-research-using-ehr-and-other-electronic-health-data.html#nav" accesskey="m" title="Skip to main navigation menu (ctrl/alt + m)">Site Navigation</a></li>
+
+      <li><a href="privacy-and-security-conditions-required-research-using-ehr-and-other-electronic-health-data.html#Footer" accesskey="f" title="Skip to footer (ctrl/alt + f)">Footer</a></li>
+    </ul>
+  </div>
+
+    
+<div class="site-wrapper">
+  
+  <header class="header header-menu-fullw header-top-clean">
+    <div id="brand-bar">
+        <div class="container">
+                    <img alt='bird' src="../../sites/all/themes/stability/stability_aspe/images/bird.png"> <a target="blank" tabindex="4" href="http://www.hhs.gov/">U.S. Department of Health & Human Services</a>
+        </div>
+
+    </div>
+    <div class="header-main">
+        <div class="container clearfix">
+            <div class="social-links-wrapper">
+                <ul class="social-links social-links__light">
+                                                          <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="../../sites/all/themes/stability/stability_aspe/images/tw.png"/></a></li>
+                                    <!--                  --><!--                    <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin.png"/></a></li>-->
+<!--                  -->
+                                                                      </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                                <div class="site_name_wrapper">
+                                     <span class="h1">
+                                      <a href="../../images/exit_disclaimer.jpg.html">ASPE</a>
+                                       </span>
+                                  <p class="tagline"><p>Office of The Assistant Secretary</p><p> for Planning and Evaluation</p></p>
+                    </div>
+            </div>
+            <!-- Logo / End -->
+            <div class="header_right_wrapper">
+                <div class="search-form">
+                    <form action="privacy-and-security-conditions-required-research-using-ehr-and-other-electronic-health-data.html" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class = "input-group"><div class="form-type-textfield form-item-search-block-form form-item form-group">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search Site..." class="form-control form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input class="btn btn-primary btn-icon form-submit" type="image" id="edit-submit" name="submit" value="Search" src="../../sites/all/themes/stability/stability_aspe/images/search-white2.png" alt="Search" title="Search" /></div></div><input type="hidden" name="form_build_id" value="form-EEFZfEelJGoluHO30GzkdRCH15rE6rhTV5z2B2BGkUg" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </div>
+                <button type="button" class="navbar-toggle" value="Menu">
+                    <i class="fa fa-bars"></i>Menu
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-main">
+        <div class="container">
+          <ul data-breakpoint="767" class="flexnav">
+                <li class="first expanded"><a href="../../basic-search/about.html" title="">About</a><ul><li class="first leaf"><a href="../../node/41366.html" title="">Mission</a></li>
+<li class="leaf"><a href="../../key-staff.html" title="">Leadership</a></li>
+<li class="leaf"><a href="https://www.usajobs.gov/" title="">Careers</a></li>
+<li class="expanded"><a href="../../node/83081.html" title="linkTo">Coordination</a><ul><li class="first leaf"><a href="../../node/94561.html" title="">Evaluation &amp; Evidence</a></li>
+<li class="leaf"><a href="../../node/83126.html">National Alzheimer&#039;s Project Act</a></li>
+<li class="leaf"><a href="../../hhs-data-council.html">HHS Data Council</a></li>
+<li class="last leaf"><a href="../../node/83076.html" title="National Council on Vital and Health Statistics">National Council on Vital and Health Statistics</a></li>
+</ul></li>
+<li class="expanded"><a href="../../basic-search/divisions.html" title="">Offices</a><ul><li class="first leaf"><a href="../../daltcp/home.htm">Disability, Aging, and Long-Term Care Policy</a></li>
+<li class="leaf"><a href="../../node/57001.html">Health Policy</a></li>
+<li class="leaf"><a href="../../hsp/index.shtml.html">Human Services Policy</a></li>
+<li class="last leaf"><a href="../../node/57011.html">Science and Data Policy</a></li>
+</ul></li>
+<li class="leaf"><a href="../../node/83096.html" title="Strategic Planning">Strategic Planning</a></li>
+<li class="last leaf"><a href="../../node/83911.html" title="">Contact ASPE</a></li>
+</ul></li>
+<li class="expanded"><a href="../../basic-search/topics.html" title="">Topics</a><ul><li class="first leaf"><a href="../../health/reports/2012/ACA-Research/index.cfm.html">Affordable Care Act Research</a></li>
+<li class="leaf"><a href="../../node/101296.html">Alzheimer&#039;s / Dementia</a></li>
+<li class="leaf"><a href="../../node/105551.html">Early Childhood</a></li>
+<li class="leaf"><a href="../../node/103281.html">Incarceration &amp; Reentry</a></li>
+<li class="leaf"><a href="../../node/83056.html" title="Opioids">Opioids</a></li>
+<li class="leaf"><a href="../../node/83296.html">Patient-Centered Outcomes Research Trust Fund (PCORTF)</a></li>
+<li class="expanded"><a href="../../basic-search/poverty.html" title="">Poverty</a><ul><li class="first leaf"><a href="../../node/107166.html">Poverty Guidelines</a></li>
+<li class="last leaf"><a href="../../node/107171.html">Poverty Analysis</a></li>
+</ul></li>
+<li class="leaf"><a href="../../node/164501.html">Teen Pregnancy Prevention</a></li>
+<li class="leaf"><a href="../../node/100556.html">Homelessness</a></li>
+<li class="last leaf"><a href="../../node/117441.html">MACRA</a></li>
+</ul></li>
+<li class="leaf"><a href="../../reports.html" title="">Publications</a></li>
+<li class="last expanded"><a href="../../basic-search/datasets.html" title="">Data and Tools</a><ul><li class="first last leaf"><a href="../../pic/index.cfm.html" title="">Evaluation Database</a></li>
+</ul></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation / End -->
+</header>  <div class="main" role="main">
+    <!--PAGEWATCH CODE="USHHS_458"-->
+    <section class="page-heading">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+                <h1>
+                                  The Feasibility of Using Electronic Health Data for Research on Small Populations.
+                    
+          Privacy and Security Conditions Required for Research Using EHR and Other Electronic Health Data        </h1>
+                                 <p class="author">
+                                                 <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-09-01T00:00:00-04:00">09/01/2013</span>               
+                           </p>
+
+
+                  </div>
+
+
+        <div class="col-md-6">
+           <ul class="breadcrumb"><li class="first"><a href="../../images/exit_disclaimer.jpg.html" title="Home">Home</a></li>
+<li><a href="../../node/107236.html" title="The Feasibility of Using Electronic Health Data for Research on Small Populations">The Feasibility of Using Elect...</a></li>
+<li><a href="https://aspe.hhs.gov/report/feasibility-using-electronic-health-data-research-small-populations/part-ii-potential-use-electronic-health-records-and-other-electronic-health-data-improve-research-health-and-health-care" title=" Part II: The Potential Use of Electronic Health Records and Other Electronic Health Data to Improve Research on the Health and Health Care of Small Populations"> Part II: The Potential Use of...</a></li>
+<li class="last">Privacy and Security Condition...</li>
+</ul>        </div>
+
+
+    </div>
+  </div>
+</section>
+    
+      <div  class="nd-region nd-region-filter">
+  
+       
+
+    
+      <div  id="Filter" class="row">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region nd-region-similar-content">
+  
+       
+
+    
+      <div  id="Similar-Content" class="row">     
+
+        
+                  
+        
+                                    <div  id="top" class="">
+                          
+                              <div id="block-views-2100ccfdd214bdbcf634d7e4832c265b" class="widget block block-views solr-similar-content" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Similar</span> content</h3>
+		</div>
+    
+  <div class="view view-similar-content-solr view-id-similar_content_solr view-display-id-block_solr_similar_content view-dom-id-fb202e8b3fc1d538069a7802506ca8a1">
+        
+  
+  
+      
+    
+    <span class="field-content"><a href="https://aspe.hhs.gov/standards-privacy-individually-identifiable-health-information"> Standards for Privacy of Individually Identifiable Health Information</a></span>    
+    <span class="field-content"><a href="../../federal-register-wednesday-january-13-2010-42-cfr-parts-412-et-al.html">Federal Register, Wednesday, January 13, 2010, 42 CFR Parts 412, et al.</a></span>    
+    <span class="field-content"><a href="https://aspe.hhs.gov/hhs-announces-final-regulation-establishing-first-ever-national-standards-protect-patients-personal-medical-records">HHS ANNOUNCES FINAL REGULATION ESTABLISHING FIRST-EVER NATIONAL STANDARDS TO PROTECT PATIENTS&#039; PERSONAL MEDICAL RECORDS</a></span>    
+    <span class="field-content"><a href="../../node/163066.html">The OS PCORTF-funded Projects</a></span>    
+    <span class="field-content"><a href="../../basic-report/identifying-opportunities-maximize-utility-genomics-research-data-through-electronic-health-information-exchange.html">Identifying Opportunities to Maximize the Utility of Genomics Research Data Through Electronic Health Information Exchange</a></span>  
+  
+  
+  
+  
+  
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Content">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  class="col-md-12 " id="content">
+                          
+                              <div id="block-aspe-aspe-addthis" class="widget block block-aspe" >
+  
+      
+  <div class="clearfix">
+  <ul class="addthis_sharing_toolbox node-share__links" data-url="https://aspe.hhs.gov/report/feasibility-using-electronic-health-data-research-small-populations/privacy-and-security-conditions-required-research-using-ehr-and-other-electronic-health-data" data-title="Privacy and Security Conditions Required for Research Using EHR and Other Electronic Health Data">
+    <li><a class="addthis_button_print"><img src="../../sites/all/themes/stability/stability_aspe/images/print-white.png" alt="print" /></a></li>
+    <li><a class="addthis_button_email"><img src="../../sites/all/themes/stability/stability_aspe/images/mail-white.png" alt="email" /></a></li>
+    <li><a class="addthis_button_twitter"><img src="../../sites/all/themes/stability/stability_aspe/images/tw.png" alt="twitter" /></a></li>
+<!--    <li><a class="addthis_button_facebook">--><!--</a></li>-->
+    <li><a class="addthis_button_compact"><img src="../../sites/all/themes/stability/stability_aspe/images/plus-white.png" alt="compact" /></a></li>
+  </ul>
+</div>
+
+  </div> <!-- /.block -->
+
+                
+    
+  
+  <div class="content clearfix node-book ">
+    <p>In addition to technical requirements for data extraction and analysis, there are legal requirements that complicate the repurposing of EHR data for research. Privacy and security may be of particular concern for small populations, where individuals may be easily identified with just a few variables. In addition, particularly where there may be issues with stigma, individuals from small populations may not want to be identifiable by their employer, school, or others who may access the data. Institutional review boards are used to requiring that data are used for only one project for which patients consent, and that identifiable data are destroyed at the end of the study. Such requirements create barriers for the use of EHR-based data for research. Usual practices for protecting privacy and security may need to be reconsidered when EHR-based data are to be used for research. This data source will have increasing potential to answer additional research questions as more information is collected over time. Alternatives to study-by-study review and consent requirements will need to be found if the potential of EHR-based data is to be realized.</p>
+<p><em><strong>Legal landscape</strong></em></p>
+<p>Presently, the two federal laws most relevant to the use of electronic health data for research are the Health Insurance Portability and Accountability Act (HIPAA) and the Common Rule.<sup>324</sup> In addition, there are state laws that govern the use of health data tend to go beyond the protections provided by HIPAA. While HIPAA allows covered entities (including most health care providers) to access, use and disclose identifiable personal health information for treatment, payment, and health operations (including quality improvement), the HIPAA Privacy Rule requires informed consent be obtained from individuals to use this information used for research. The Common Rule covers research conducted using federal funding from certain agencies, and defines research as “systematic investigation, including research development, testing, and evaluation, designed to develop or contribute to general knowledge.” Application of these two laws broadly defines what is legally considered research today.</p>
+<p>The original HIPAA legislation was passed in 1996—before the use of EHR based data for research was foreseen. Concern is growing about how much the HIPAA rules and their local application may deter important research based on secondary use of patient records.<sup>325</sup> The HIPAA omnibus rule was changed earlier this year with the intention of increasing protection and control of personal health information, particularly in light of the growth of electronic data. Individual rights are expanded so patients can ask for a copy of their electronic medical record, as well as instruct their provider not to share their information with their insurance company if they pay in cash. In addition, the new rule aims to reduce individual burden by allowing the use of their health information for future research purposes.<sup>326</sup> This however does not address the need for consent for secondary uses of already collected data for research.</p>
+<p>There is ongoing legal/ethical debate about the role of restrictions based on HIPAA and human subjects’ protection in governing the use of EHRs for research, as well as on the blurring line between the use of the information for quality improvement and for research. The IOM has suggested that in a learning health care system, the distinction between research and quality improvement or other internal uses is artificial, and the laws remain unclear on this difference as well. Out of caution, IRBs tend to treat all secondary uses of data as research—a practice supported by publication policies of many academic journals that require IRB approval for results to be published.<sup>327</sup> Other countries such as the UK and Canada are in the midst of similar debates around balancing the need to protect privacy with secondary uses of data for research. Some countries such as Denmark have concluded that database-driven research should be allowed without the consent typically needed to protect research subjects because of its contribution to the common good without disrupting people’s everyday lives. Because studies entirely based on national registries or clinical databases can be done without patient consent, a growing number of population-based studies using EHR data are being done in Denmark.<sup>328, 329</sup></p>
+<p>In addition, where there is lack of clarity or knowledge on the details of the laws, researchers tend to air on the more conservative side where they perceive there may be a potential issue for their IRB. At times, it is even unnecessary to go through the IRB but it is done with intentions of being cautious—but also creating unnecessary expense and patient and provider burden that at times are not legally necessary.</p>
+<p><em><strong>Opportunities for patients to make meaningful choices</strong></em></p>
+<p>While the intent of informed consent is to respect patient autonomy, it has been argued that the public benefit of health research is greater, particularly if adequate provisions for protecting data confidentiality are present.<sup>330, 331, 332</sup> The burden would be intolerable if patients had to be re-contacted for consent for each new research use of a database that contained their records. The ability for patients to now give consent for future research given the update to HIPAA may help relieve this burden. However, patients may want their information to be used for certain purposes and not others, or change their mind over time. Interestingly, there is some evidence that patients view the use of medical records to be part of the health care routine and a necessary part of receiving good treatment rather than considering it in terms of the costs and benefits of participation in research.<sup>333</sup> There are a full range of practices that can help patients make a meaningful choice, such as transparency around how their information will be used, who will use it, and allowing patients access to their own data.<sup>334</sup></p>
+<p>The benefits of seeking individual informed consent before using their EHR-based data for research are increasingly seen as coming at too high an administrative burden on research.<sup>335, 336</sup> Of even greater concern is the potential for bias when records of patients who have not consented are excluded. One national survey found strong support and willingness to share one’s electronic health information for research,<sup>337</sup> and evidence is accumulating that patients who refuse to agree to the use of their records in research differ in various ways from those who agree. A recent review of 17 such studies from around the world (including 5 from the United States) found differences by age, sex, race, education, income, and health status between patients who did and did not consent to the use of their medical records for research.<sup>338</sup> Such differences could bias research results or limit generalizability of findings. This could be particularly problematic in research on small populations. In addition, there are specific issues with including child populations (such as adolescents with ASDs) in research because they are not legally able to provide informed consent, which implies understanding of the potential risks of participating in research. Parents must provide consent on their behalf, but may uncomfortable with their children being included in research studies. Until recently, children were rarely included in medical studies. Agencies such as the FDA are making an effort to educate parents on the importance of including children research.<sup>339</sup></p>
+<p>Both HIPAA and the Common Rule have been criticized for over-emphasizing patient consent rather than providing more comprehensive opportunities for patients to make meaningful choices.<sup>340</sup> Organizations that conduct a lot of research using EHR data have taken a number of approaches to issues of meaningful choice and protecting patient privacy. These approaches include obtaining general consent from patients at the time care is being provided for the use of their records for research, standardizing IRB documents, classifying studies as quality improvement rather than research, and using de-identified data. For example, Essentia Health asks patients to sign a general consent form each year to use their data for research purposes. Only 1–2 percent of Essentia’s patients have been opting out, and those who opt out don’t appear to be different from those who do not demographically. This general consent applies only to research conducted within the health system and its research institute, and IRB approval is needed for use of the data for research.<sup>341</sup> Geisinger Health System requires IRB approval for each research project, but has standardized the needed documentation to streamline the process. They also take additional steps to protect patient information, such as altering dates in the copy of the data used for research to protect confidentiality.<sup>342</sup></p>
+<p>For Kaiser Permanente, when someone signs up to be a member, they are informed that their data will be used for “approved research purposes.” Members may request to be excluded from all future research projects or from all genetic research. IRB approval is not needed when identifying information in EHR-based studies is used only to make linkages and then removed.<sup>343</sup> Vanderbilt has also granted a waiver of consent under the IRB Common Rule to allow research on LGBT patients without consent since the data are de-identified after extraction. However, patients do have the opportunity to opt out of studies.<sup>344</sup> New York’s Health and Hospital Corporation makes only de-identified data available to researchers.<sup>345</sup></p>
+<p>Other health systems such as Intermountain Healthcare and UC Davis conduct some studies that are classified as quality improvement rather than research, and these do not require IRB approval or informed consent.<sup>346</sup> Such classifying of studies as serving operational purposes may avoid the privacy protections needed for research (defined as intended to generate generalizable knowledge new findings for publication), there are tradeoffs. If the activity is conducted for quality improvement or other in-house purposes, the investigator may lose ability to set priorities, be unable to invest the time needed for a rigorous study, or to candidly share findings externally. This disincentive to share knowledge externally prevents much of this type of work from contributing to a learning health care system.<sup>347</sup> On the other hand, analytics performed for internal uses such as quality improvement may have the benefit of leveraging available data facilitate studies that are quicker and less costly than traditional research. <sup>348, 349</sup></p>
+<p><em><strong>De-identified data</strong></em></p>
+<p>HIPAA’s Privacy Rule does not regulate de-identified data, and it specifies that data can be de-identified using safe harbor criteria (the removal of 18 specified data fields that could be used to identify an individual) or statistical methods (demonstrating extremely small statistical risk that an individual could be identified). Statistical methods are less commonly used because the description is vague and there remains lack of a standard approach.<sup>350</sup> In addition, individuals with the knowledge needed to make an expert determination that the statistical risk is sufficiently small are in short supply. However, some organizations such as Vanderbilt’s Multicenter Perioperative Outcomes Group, a consortium of 30 medical centers aggregating EHR data, patient reported outcomes and administrative outcomes,<sup>351</sup> have opted to seek this expert determination instead after finding use of the safe harbor criteria to be more challenging, particularly when pooling data from multiple centers. The Privacy Rule does allow the alternative of using a limited data set that includes certain geographic and date information considered important for patient-centered outcomes research, but then requires a data use agreement between the data holder and the recipient. Researchers at Kaiser Permanente have found limited data sets to be useful for research when the length of time between events can be included where full dates are not allowed.</p>
+<p>While eliminating the need for informed consent, de-identifying data may remove the information needed to identify small populations. For instance, removal of geographic identifiers makes it impossible to identify residents of rural communities. In addition, de-identified data complicates linkage of patient records from multiple sources, such as with lab or pharmacy data if not integrated into the EHR or across multiple institutions where the patient may receive care.</p>
+<p><em><strong>Governance</strong></em></p>
+<p>Governance processes specifying who owns, controls, and regulates the data must also be in place in order to use EHR data for research. Data governance is generally understood to include legal and regulatory concerns, the structure and role of governance bodies, IRB issues, properties of data, data sharing considerations, business issues, stakeholder engagement and participation, and sustainability.<sup>352</sup> Institutions may designate committees or have designated employees responsible for these issues. Data governance has also been described as the process designated for the data steward (such as a health care organization) to carry out its responsibilities. A data steward has fiduciary responsibilities toward the data, or has been trusted with information that patients consider private. The role of a data steward continues to evolve both conceptually and legally, particularly as health care data have potential not only for research, but are already used for many purposes in the public interest such as for quality monitoring and improvement.<sup>353</sup> There remains a lack of coherent policies and standards to help govern the secondary use of health data.<sup>354</sup></p>
+<p>In the absence of specific governance structures for research processes, some organizations such as New York’s Health and Hospital Corporation have developed a data warehouse and use the data for quality improvement; their data are used less frequently for research.<sup>355</sup> However, building this infrastructure is resource intensive and obtaining funding for this type of development may be difficult for health systems. One of the reasons Essentia developed a separate research institute was because grants are often unwilling to pay for programming at the site of day to day operations.<sup>356</sup> Geisinger has also developed a separate Research Center which is based on an honest broker system where researchers can request to look at a topic (such as diabetes and a specific genome), and then the broker runs the database and shares the results.<sup>357</sup> Some health systems are creating new companies that house and mine their electronic health record data and to combine them with other sources such as EHRs from other health care organizations. Two examples of health systems with such companies are Montefiore (Emerging Health Information Technology) and MetroHealth (Explorys).</p>
+<div class="download_report">
+        <h4>
+        <a href="../../node/107236.html">View full report</a>    </h4>
+    
+                        <div class="pdf-prev">
+                <img src="../../system/files/pdfpreview/60999a4ed69addf0d311ba402a514d66.png" alt="Preview" title="Preview" />            </div>
+                <a class="btn btn-sm btn-default download-file"
+           href="../../system/files/pdf/107231/rpt_ehealthdata.pdf">Download</a>
+
+        <p class="download_title">&quot;rpt_ehealthdata.pdf&quot;
+            (pdf,
+            1.99Mb)</p>
+        <p>Note: Documents in PDF format require the <a href="http://www.adobe.com/products/acrobat/readstep2.html">Adobe
+                Acrobat Reader&reg;</a>. If you experience problems with PDF documents, please <a
+                href="http://www.adobe.com/products/acrobat/readstep2.html">download the latest version of the
+                Reader&reg;</a>
+        </p>
+    </div>
+  </div>
+
+      <footer>
+          </footer>
+  
+    <div id="block-webform-client-block-158521" class="widget block block-webform" >
+  
+      
+  <div id="webform-ajax-wrapper-158521"><form class="webform-client-form webform-client-form-158521" action="privacy-and-security-conditions-required-research-using-ehr-and-other-electronic-health-data.html" method="post" id="webform-client-form-158521" accept-charset="UTF-8"><div><div class="webform-progressbar">
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-radios webform-component--was-this-page-helpful">
+  <label for="edit-submitted-was-this-page-helpful">Was this page helpful? <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-was-this-page-helpful" class="form-radios"><div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-1" name="submitted[was_this_page_helpful]" value="1" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-1">Yes </label>
+
+</div>
+<div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-2" name="submitted[was_this_page_helpful]" value="0" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-2">No </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="4" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-z3I0hU8W2vmBIaakHfL2N4KQbijOhcG-IqkTe7v59HQ" />
+<input type="hidden" name="form_id" value="webform_client_form_158521" />
+<input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-158521" />
+<div class="form-actions"><input class="webform-next button-primary btn btn-default form-submit" type="submit" id="edit-webform-ajax-next-158521" name="op" value="Next &gt;" /></div>
+<div class="is-useful-disclaimer"> <a href="https://aspe.hhs.gov/%23" class="" title="Survey Disclaimer" data-toggle="modal" data-target="#disclamerModal">Form Approved OMB# 0990-0379 Exp. Date 8/31/2017</a></div>
+<div class="modal fade" id="disclamerModal" tabindex="-1" role="dialog" aria-labelledby="disclamerModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="disclamerModalLabel">Survey Disclaimer</h2>
+      </div>
+      <div class="modal-body">
+         According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this information collection is 0990-0379. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, gather the data needed, and complete and review the information collection. If you have comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: U.S. Department of Health & Human Services, OS/OCIO/PRA, 200 Independence Ave., S.W., Suite 336-E, Washington D.C. 20201, Attention: PRA Reports Clearance Officer.      </div>
+    </div>
+  </div>
+</div></div></form></div>
+  </div> <!-- /.block -->
+<meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/feasibility-using-electronic-health-data-research-small-populations" itemref="md1" /><meta  itemscope="" itemid="https://aspe.hhs.gov/report/feasibility-using-electronic-health-data-research-small-populations/privacy-and-security-conditions-required-research-using-ehr-and-other-electronic-health-data" itemref="md2" />              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <footer  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Footer">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  id="footer_sitemap-footer_sitemap" class="col-sm-6 col-md-6 col-lg-4 ">
+                          
+                              <div id="block-footer-sitemap-footer-sitemap" class="widget block block-footer-sitemap" >
+  
+      
+  <div id="footer-sitemap" class="clearfix">
+  <div class="fs-block-content"><div class="menu-footer-utility"><ul class="footer_links_menu-footer-utility total-items-2 parent-items-0 single-items-0"><li class="menu-5021 depth-1 total-children-8 parent-children-0 single-children-8  first"><a href="../../images/exit_disclaimer.jpg.html" title="look at ASPE Home" class="fs-root-link">ASPE Home</a><ul class="footer_links_menu-footer-utility total-items-8 parent-items-0 single-items-0"><li class="menu-5026 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/" title="look at HHS Home">HHS Home</a></li>
+<li class="menu-66281 depth-1 fs-no-children"><a href="http://www.usa.gov/" title="look at USA.gov">USA.gov</a></li>
+<li class="menu-66316 depth-1 fs-no-children"><a href="https://oig.hhs.gov/" title="look at Office of the Inspector General">Office of the Inspector General</a></li>
+<li class="menu-66321 depth-1 fs-no-children"><a href="http://www.whitehouse.gov" title="look at The White House">The White House</a></li>
+<li class="menu-5046 depth-1 fs-no-children"><a href="http://www.hhs.gov/Accessibility.html" title="look at Accessibility">Accessibility</a></li>
+<li class="menu-66326 depth-1 fs-no-children"><a href="http://www.hhs.gov/about/budget/index.html" title="look at Budget/Performance">Budget/Performance</a></li>
+<li class="menu-2551 depth-1 fs-no-children"><a href="http://www.hhs.gov/Privacy.html" title="look at Privacy Policy">Privacy Policy</a></li>
+<li class="menu-197776 depth-1 fs-no-children  last"><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" title="Nondiscrimination Notice">Nondiscrimination Notice</a></li>
+</ul></li>
+<li class="menu-5051 depth-1 total-children-4 parent-children-0 single-children-4  last"><a href="http://www.hhs.gov/foia/" title="look at FOIA" class="fs-root-link">FOIA</a><ul class="footer_links_menu-footer-utility total-items-4 parent-items-0 single-items-0"><li class="menu-5056 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/open/recordsandreports/plainwritingact/index.html" title="look at Plain Writing Act">Plain Writing Act</a></li>
+<li class="menu-5061 depth-1 fs-no-children"><a href="http://www.hhs.gov/asa/eeo/no_fear_bullet_3.html" title="look at No Fear Act">No Fear Act</a></li>
+<li class="menu-5066 depth-1 fs-no-children"><a href="http://www.hhs.gov/Disclaimer.html" title="look at Disclaimers">Disclaimers</a></li>
+<li class="menu-2546 depth-1 fs-no-children  last"><a href="http://www.hhs.gov/plugins.html" title="look at Viewers &amp; Players">Viewers &amp; Players</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-5 " id="stability_cms-contact_us">
+                          
+                              <div id="block-stability-cms-contact-us" class="widget block block-stability-cms" >
+  
+      
+  <div class="contacts-widget widget widget__footer">
+	<div class="widget-content">
+		<ul class="contacts-info-list">
+      			<li>
+<!--				<i class="fa fa-map-marker">Address</i>-->
+                <div class="info-icons">
+                    <img  alt="map" class= 'map-icons' src="../../sites/all/themes/stability/stability_aspe/images/map.png"/>
+                </div>
+                <div class="info-item">
+					Assistant Secretary for Planning and Evaluation, Room 415F<br />
+U.S. Department of Health and Human Services<br />
+200 Independence Avenue, SW<br />
+Washington, D.C. 20201				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-phone">phone</i>-->
+                <div class="info-icons">
+                    <img alt="phone" src="../../sites/all/themes/stability/stability_aspe/images/phone.png"/>
+                </div>
+				<div class="info-item">
+					+1 202.690.7858				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-envelope">email</i>-->
+                <div class="info-icons">
+                    <img alt="mail" src="../../sites/all/themes/stability/stability_aspe/images/mail-white.png"/>
+                </div>
+				<span class="info-item">
+					<a href="mailto:osaspeinfo@hhs.gov">osaspeinfo@hhs.gov</a>
+				</span>
+			</li>
+      			                					</ul>
+	</div>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-3 " id="footer">
+                          
+                              <div id="block-block-36" class="widget block block-block" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sign-up</span> for Email Updates</h3>
+		</div>
+    
+  <div class="email_updates">
+<button class="btn btn-default" name="subscribe-button" type="submit" value="subscribe">subscribe</button>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-12 " id="menu-menu-footer-language-menu">
+                          
+                              <div id="block-menu-menu-footer-language-menu" class="widget block block-menu" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Language</span> Assistance Available</h3>
+		</div>
+    
+  <ul class="menu"><li class="first expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#spanish" title="Español">Español</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#chinese" title="繁體中文">繁體中文</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#vietnamese" title="Tiếng Việt">Tiếng Việt</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#korean" title="한국어">한국어</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#tagalog" title="Tagalog">Tagalog</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#russian" title="Русский">Русский</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#arabic" title="العربية">العربية</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#creole" title="Kreyòl Ayisyen">Kreyòl Ayisyen</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#french" title="Français">Français</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#polish" title="Polski">Polski</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#portuguese" title="Português">Português</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#italian" title="Italiano">Italiano</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#german" title="Deutsch">Deutsch</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#japanese" title="日本語">日本語</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#farsi" title="فارسی">فارسی</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#english" title="English">English</a></li>
+</ul></li>
+</ul>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+      </div>
+
+          </div>
+    
+    
+      </footer>
+    
+
+    <!--/PAGEWATCH-->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+                        </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="social-links-wrapper">
+              <span class="social-links-txt">Connect with us</span>
+              <ul class="social-links social-links__dark">
+                                                  <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="../../sites/all/themes/stability/stability_aspe/images/tw-grey.png"/></a></li>
+                                <!--                --><!--                  <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin-grey.png"/></a></li>-->
+<!--                -->
+                                                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>  <script type="text/javascript" src="../../sites/default/files/advagg_js/js__VWRymaMz6HfrhnrcJNGcDiSvLVrvhaXvBa7nrBYy8gc__jntPwP3D6myJZH1jW19fXrk5cYMHGRL8NQION22VSEA__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5486d15a696bff0c"></script>
+<script type="text/javascript" src="../../sites/default/files/advagg_js/js__g6mKbcakHxQkz4ZHYaxdO_xqONINvRMgsHh1zAK-fr0__ATHtEmHaeZ0jidpGU22EkhmPDBSgjD8z0bVDQMI-BIY__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="../../sites/default/files/advagg_js/js__KUp4PrfOt9BSXUVl8Ctb3dhCMBe4MNVMeb4Gyorx8yY__7g4BeXscCIZAfuu1vxsCj2RIemg-eEK0QpChP9LDmFQ__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="../../sites/default/files/advagg_js/js__-lTibmScdz72f0-5WA9kxuPp-TZJEfyLCI6M2oC8I7o__WokrfyLOTIIjCC2mi9PpCwBq3hzxExmsz_JSnp4-OsM__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="../../sites/default/files/advagg_js/js__vQiLul2UcfC4nBAR09mhYVBYzRmiNDm2dj3GgSubV38__w84oZe-ZODKe7XnnlbrjV4IWHISOy4PioFEMVgx9hZo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="../../sites/default/files/advagg_js/js__QJw3g0kOdwsv4twSZLP931zBzsHy50VEHpEN_znIitQ__A6QOuWXElDipBM2iChbWhjAAt3KlUwZ-jODoxdpbwiw__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stability_aspe","theme_token":"4FULfqrmR5r6rR-2EazDzMMbGzVgCBUhbmBCuQLR2ZE","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/footable.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/aspe_nodes.admin.css":1,"sites\/all\/modules\/custom\/aspe_views\/theme\/css\/aspe_views.admin.css":1,"sites\/all\/modules\/forked\/book\/book.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/openpublic\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.css":1,"profiles\/openpublic\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openpublic\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/openpublic\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/themes\/stability\/css\/bootstrap.min.css":1,"sites\/all\/themes\/stability\/css\/fonts\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.theme.css":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/stability\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/stability\/css\/theme.css":1,"sites\/all\/themes\/stability\/css\/theme-elements.css":1,"sites\/all\/themes\/stability\/css\/animate.min.css":1,"sites\/all\/themes\/stability\/css\/skins\/red.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/slideshow.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/font-main.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/styleless.less":1,"sites\/all\/themes\/stability\/css\/skins\/blue.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/aspe\/theme\/js\/aspe.login-confirm.js":1,"sites\/all\/modules\/custom\/aspe_report\/modules\/aspe_databooks\/js\/aspe_databooks.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.highcharts.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/datatables\/dataTables.min.js":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.min.js":1,"sites\/all\/libraries\/highcharts\/highcharts.js":1,"sites\/all\/libraries\/highcharts\/highcharts.exporting.js":1,"sites\/all\/libraries\/highcharts\/highcharts.map.js":1,"sites\/all\/libraries\/highcharts\/highcharts.us-all.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.footable.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5486d15a696bff0c":1,"misc\/progress.js":1,"profiles\/openpublic\/modules\/contrib\/webform\/js\/webform.js":1,"sites\/all\/modules\/custom\/aspe_book\/theme\/js\/async.js":1,"sites\/all\/modules\/custom\/aspe_book\/theme\/js\/aspe_book.jquery_ajax_load.js":1,"sites\/all\/modules\/custom\/aspe_book\/theme\/js\/aspe_book.filtering.js":1,"sites\/all\/modules\/custom\/aspe_book\/theme\/js\/aspe_book.collapsible.js":1,"profiles\/openpublic\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/stability\/vendor\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/stability\/vendor\/bootstrap.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flexnav.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flickrfeed.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.sloppy-masonry.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.fitvids.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.stellar.min.js":1,"sites\/all\/themes\/stability\/vendor\/snap.svg-min.js":1,"sites\/all\/themes\/stability\/js\/custom.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/aspe.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/html5shiv.min.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/main-menu.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/keyboard-control.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tabBehavior.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tileStringTrimmer.js":1}},"webform":{"conditionals":{"webform-client-form-158521":{"ruleGroups":[],"sourceMap":[],"values":[]}}},"ajax":{"edit-webform-ajax-next-158521":{"callback":"webform_ajax_callback","wrapper":"webform-ajax-wrapper-158521","progress":{"message":"","type":"throbber"},"event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Next \u003E"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/report\/feasibility-using-electronic-health-data-research-small-populations\/privacy-and-security-conditions-required-research-using-ehr-and-other-electronic-health-data":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"([a-z0-9]\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This website contains links to other federal and state agencies and private organizations. The Department of Health and Human Services (HHS) cannot attest to the accuracy of information provided by these nonfederal website links. Linking to nonfederal sites does not constitute an endorsement by HHS or any of its employees of the sponsors or the information and products presented on the sites. You will be subject to the destination site\u0027s privacy policy when you leave the ASPE website.\r\n\r\nThank you for visiting aspe.hhs.gov!","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"stability":{"flickr_id":"52617155@N08","logo_sticky":"28"},"jquery_ajax_load":{"trigger":".jquery_ajax_load","target":"#jquery_ajax_load_target","toggle":true,"animation":true,"base_path":"\/","module_path":"sites\/all\/modules\/custom\/aspe_book","site_name":"ASPE"},"field_group":{"div":"full"}});
+//--><!]]>
+</script>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config={pubid:"ra-5486d15a696bff0c",ui_click:false}
+//--><!]]>
+</script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4837db659","applicationID":"10708002","transactionName":"MwNaZBRSXEtXB0BdWQpJeVMSWl1WGQpbUFM7FllXA2xEUVMT","queueTime":0,"applicationTime":704,"atts":"H0RZElxIT0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

@@ -1,0 +1,1547 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">  <!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://aspe.hhs.gov/sites/default/files/Favicon2.png" type="image/png" />
+<meta name="description" content="U.S. Department of Health and Human Services An Analysis of the Impact of Spenddown on Medicaid Expenditures Leonard Gruenberg and Hillel AlpertThe Long-Term Care Data Institute Brian BurwellSysteMetrics/McGraw-Hill January 1992 PDF Version: http://aspe.hhs.gov/daltcp/reports/spddwn.pdf (36 PDF pages)" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://aspe.hhs.gov/basic-report/analysis-impact-spend-down-medicaid-expenditures" />
+<link rel="shortlink" href="https://aspe.hhs.gov/node/68311" />
+<meta property="og:site_name" content="ASPE" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aspe.hhs.gov/basic-report/analysis-impact-spend-down-medicaid-expenditures" />
+<meta property="og:title" content="An Analysis of the Impact of Spend-down on Medicaid Expenditures" />
+<meta property="og:description" content="U.S. Department of Health and Human Services An Analysis of the Impact of Spenddown on Medicaid Expenditures Leonard Gruenberg and Hillel AlpertThe Long-Term Care Data Institute Brian BurwellSysteMetrics/McGraw-Hill January 1992 PDF Version: http://aspe.hhs.gov/daltcp/reports/spddwn.pdf (36 PDF pages)" />
+<meta property="og:updated_time" content="2017-02-21T11:36:46-05:00" />
+<meta property="article:published_time" content="2015-12-09T05:27:54-05:00" />
+<meta property="article:modified_time" content="2017-02-21T11:36:46-05:00" />
+
+  <title>An Analysis of the Impact of Spend-down on Medicaid Expenditures | ASPE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+  <link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__5ln8neBOcJfyUveiD4y9fhI6kHBLOQ_YL0mMC-LS9a0__TPJIZT9UBnf_685NlFTJ5KnZVsjwFk6ACQ-nwwygmwU__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ng49uRH5y4Hl9VF9hHW_vXOj-mcOc2u2ShJqJ1YKIGU__FoMCD14GBvZaRiqSQ_JpP1w3rDB21n7H2Ar4pRZaIh8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__Hskudx14OJ5Hz8vqU7CUgN6SDV5rINZuEq9VuGsSeyc__EwNIl3xeFrniW2TmonovTzhSs3X5MdFps210puE7jog__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__9rZoaX9BdzjjNucvYxduxeNAVO2zgW_Rvjhb5rq5whc__lSr_y16grDSgHf4booPChnF7QXz3TQY3hafH49twE0k__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZgfI_ZPib5yVY0o5aKo_6TFn946Tuu_nFDa0ySTmkSc__2FTFrNw2eNh0mpHIOA34r6YRwBZMm2PjJ_JubnwLigg__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__dxabpJ5rQgDSixKgLJZjWc1beC6mpROKwVrmWxI5eno__rqhz_hGsE_i59O7-W991o71_Jxw1QOtGMxn4nsOLHY8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZbRCq2NqWgK-HXAQI3So0N1n0nr4HonsJS3eQuuxukw__7Olkk8Locn8Dj0eR0Ww3rbV9lks9sxipcboMXB18RRs__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+
+	<!-- Head Libs -->
+	<script src="/sites/all/themes/stability/stability_aspe/vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/sites/all/themes/stability/vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" href="/sites/all/themes/stability/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/stability/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/stability/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/stability/images/apple-touch-icon-144x144.png">
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-68311 node-type-basic-report">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-JLFR"
+                  height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JLFR');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-nav" class="accessibility_menu">
+    <strong>Shortcut Navigation:</strong>
+    <ul>
+      <li><a href="#content" accesskey="c" title="Skip to page content (ctrl/alt + c)">Page Content</a></li>
+      <li><a href="#nav" accesskey="m" title="Skip to main navigation menu (ctrl/alt + m)">Site Navigation</a></li>
+
+      <li><a href="#Footer" accesskey="f" title="Skip to footer (ctrl/alt + f)">Footer</a></li>
+    </ul>
+  </div>
+
+    
+<div class="site-wrapper">
+  
+  <header class="header header-menu-fullw header-top-clean">
+    <div id="brand-bar">
+        <div class="container">
+                    <img alt='bird' src="/sites/all/themes/stability/stability_aspe/images/bird.png"> <a target="blank" tabindex="4" href="http://www.hhs.gov/">U.S. Department of Health & Human Services</a>
+        </div>
+
+    </div>
+    <div class="header-main">
+        <div class="container clearfix">
+            <div class="social-links-wrapper">
+                <ul class="social-links social-links__light">
+                                                          <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw.png"/></a></li>
+                                    <!--                  --><!--                    <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin.png"/></a></li>-->
+<!--                  -->
+                                                                      </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                                <div class="site_name_wrapper">
+                                     <span class="h1">
+                                      <a href="/">ASPE</a>
+                                       </span>
+                                  <p class="tagline"><p>Office of The Assistant Secretary</p><p> for Planning and Evaluation</p></p>
+                    </div>
+            </div>
+            <!-- Logo / End -->
+            <div class="header_right_wrapper">
+                <div class="search-form">
+                    <form action="/basic-report/analysis-impact-spend-down-medicaid-expenditures" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class = "input-group"><div class="form-type-textfield form-item-search-block-form form-item form-group">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search Site..." class="form-control form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input class="btn btn-primary btn-icon form-submit" type="image" id="edit-submit" name="submit" value="Search" src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/search-white2.png" alt="Search" title="Search" /></div></div><input type="hidden" name="form_build_id" value="form-cD_omGc4blKhmO_JdOUtRtIHb4hkGPrYv4XgHKybdqo" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </div>
+                <button type="button" class="navbar-toggle" value="Menu">
+                    <i class="fa fa-bars"></i>Menu
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-main">
+        <div class="container">
+          <ul data-breakpoint="767" class="flexnav">
+                <li class="first expanded"><a href="/basic-search/about" title="">About</a><ul><li class="first leaf"><a href="/mission" title="">Mission</a></li>
+<li class="leaf"><a href="/key-staff" title="">Leadership</a></li>
+<li class="leaf"><a href="https://www.usajobs.gov/" title="">Careers</a></li>
+<li class="expanded"><a href="/coordination" title="linkTo">Coordination</a><ul><li class="first leaf"><a href="/evaluation-evidence" title="">Evaluation &amp; Evidence</a></li>
+<li class="leaf"><a href="/national-alzheimers-project-act">National Alzheimer&#039;s Project Act</a></li>
+<li class="leaf"><a href="/health-and-human-services-hhs-data-council">HHS Data Council</a></li>
+<li class="last leaf"><a href="/national-committee-vital-and-health-statistics" title="National Council on Vital and Health Statistics">National Council on Vital and Health Statistics</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/divisions" title="">Offices</a><ul><li class="first leaf"><a href="/office-disability-aging-and-long-term-care-policy-daltcp">Disability, Aging, and Long-Term Care Policy</a></li>
+<li class="leaf"><a href="/office-health-policy-hp">Health Policy</a></li>
+<li class="leaf"><a href="/office-human-services-policy">Human Services Policy</a></li>
+<li class="last leaf"><a href="/office-science-and-data-policy">Science and Data Policy</a></li>
+</ul></li>
+<li class="leaf"><a href="/strategic-planning" title="Strategic Planning">Strategic Planning</a></li>
+<li class="last leaf"><a href="/contact-aspe" title="">Contact ASPE</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/topics" title="">Topics</a><ul><li class="first leaf"><a href="/affordable-care-act-research">Affordable Care Act Research</a></li>
+<li class="leaf"><a href="/alzheimers-dementia">Alzheimer&#039;s / Dementia</a></li>
+<li class="leaf"><a href="/early-childhood">Early Childhood</a></li>
+<li class="leaf"><a href="/incarceration-reentry">Incarceration &amp; Reentry</a></li>
+<li class="leaf"><a href="/opioid-abuse-us-and-hhs-actions-address-opioid-drug-related-overdoses-and-deaths" title="Opioids">Opioids</a></li>
+<li class="leaf"><a href="/patient-centered-outcomes-research-trust-fund">Patient-Centered Outcomes Research Trust Fund (PCORTF)</a></li>
+<li class="expanded"><a href="/basic-search/poverty" title="">Poverty</a><ul><li class="first leaf"><a href="/poverty-guidelines">Poverty Guidelines</a></li>
+<li class="last leaf"><a href="/poverty-estimates-trends-and-analysis">Poverty Analysis</a></li>
+</ul></li>
+<li class="leaf"><a href="/teen-pregnancy-prevention">Teen Pregnancy Prevention</a></li>
+<li class="leaf"><a href="/homelessness">Homelessness</a></li>
+<li class="last leaf"><a href="/medicare-access-and-chip-reauthorization-act-2015">MACRA</a></li>
+</ul></li>
+<li class="leaf"><a href="/reports" title="">Publications</a></li>
+<li class="last expanded"><a href="/basic-search/datasets" title="">Data and Tools</a><ul><li class="first last leaf"><a href="/evaluations" title="">Evaluation Database</a></li>
+</ul></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation / End -->
+</header>  <div class="main" role="main">
+    <!--PAGEWATCH CODE="USHHS_458"-->
+    <section class="page-heading">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+                <h1>
+                    
+          An Analysis of the Impact of Spend-down on Medicaid Expenditures        </h1>
+                                 <p class="author">
+                                                 <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="1992-01-01T00:00:00-05:00">01/01/1992</span>               
+                           </p>
+
+
+                  </div>
+
+
+        <div class="col-md-6">
+           <ul class="breadcrumb"><li class="first"><a href="/" title="Home">Home</a></li>
+<li class="last">An Analysis of the Impact of S...</li>
+</ul>        </div>
+
+
+    </div>
+  </div>
+</section>
+    
+      <div  class="nd-region nd-region-filter">
+  
+       
+
+    
+      <div  id="Filter" class="row">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region nd-region-similar-content">
+  
+       
+
+    
+      <div  id="Similar-Content" class="row">     
+
+        
+                  
+        
+                                    <div  id="top" class="">
+                          
+                              <div id="block-views-2100ccfdd214bdbcf634d7e4832c265b" class="widget block block-views solr-similar-content" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Similar</span> content</h3>
+		</div>
+    
+  <div class="view view-similar-content-solr view-id-similar_content_solr view-display-id-block_solr_similar_content view-dom-id-ca6ad64716980d752c972453ab5a46a1">
+        
+  
+  
+      
+    
+    <span class="field-content"><a href="/execsum/synthesis-and-critique-studies-medicaid-asset-spenddown">A Synthesis and Critique of Studies on Medicaid Asset Spenddown</a></span>    
+    <span class="field-content"><a href="/basic-report/synthesis-and-critique-studies-medicaid-asset-spenddown">A Synthesis and Critique of Studies on Medicaid Asset Spenddown</a></span>    
+    <span class="field-content"><a href="/execsum/analysis-impact-spend-down-medicaid-expenditures">An Analysis of the Impact of Spend-down on Medicaid Expenditures</a></span>    
+    <span class="field-content"><a href="/basic-report/use-cost-and-economic-burden-nursing-home-care-1985">The Use, Cost, and Economic Burden of Nursing Home Care in 1985</a></span>    
+    <span class="field-content"><a href="/pdf-report/analysis-impact-spend-down-medicaid-expenditures">An Analysis of the Impact of Spend-down on Medicaid Expenditures</a></span>  
+  
+  
+  
+  
+  
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Content">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  class="col-md-12 " id="content">
+                          
+                              <div id="block-aspe-aspe-addthis" class="widget block block-aspe" >
+  
+      
+  <div class="clearfix">
+  <ul class="addthis_sharing_toolbox node-share__links" data-url="https://aspe.hhs.gov/basic-report/analysis-impact-spend-down-medicaid-expenditures" data-title="An Analysis of the Impact of Spend-down on Medicaid Expenditures">
+    <li><a class="addthis_button_print"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/print-white.png" alt="print" /></a></li>
+    <li><a class="addthis_button_email"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/mail-white.png" alt="email" /></a></li>
+    <li><a class="addthis_button_twitter"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/tw.png" alt="twitter" /></a></li>
+<!--    <li><a class="addthis_button_facebook">--><!--</a></li>-->
+    <li><a class="addthis_button_compact"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/plus-white.png" alt="compact" /></a></li>
+  </ul>
+</div>
+
+  </div> <!-- /.block -->
+
+                
+    
+  
+  <div class="content clearfix node-basic-report">
+    <p><font><b><font face="Calisto MT">U.S. Department of Health and Human Services</font></b></font></p>
+<h1>An Analysis of the Impact of Spenddown on Medicaid  		Expenditures</h1>
+<h3>Leonard Gruenberg and Hillel AlpertThe Long-Term Care Data  		Institute</h3>
+<h3>Brian BurwellSysteMetrics/McGraw-Hill</h3>
+<h3>January 1992</h3>
+<p>PDF Version:  		<a href="/system/files/pdf/74496/spddwn.pdf">http://aspe.hhs.gov/daltcp/reports/spddwn.pdf</a>  		(36 PDF pages)</p>
+<hr /><blockquote>
+<p><i>This report was prepared under contract #HHS-100-88-0041 between  		  the U.S. Department of Health and Human Services (HHS), Office of Disability,  		  Aging and Long-Term Care Policy (DALTCP) and MEDSTAT Group. For additional  		  information about this subject, you can visit the DALTCP home page at  		  <a href="http://aspe.hhs.gov/_/office_specific/daltcp.cfm">http://aspe.hhs.gov/_/office_specific/daltcp.cfm</a> or contact the office at  		  HHS/ASPE/DALTCP, Room 424E, H.H. Humphrey Building, 200 Independence Avenue,  		  S.W., Washington, D.C. 20201. The e-mail address is: <a href="mailto:webmaster.DALTCP@hhs.gov">webmaster.DALTCP@hhs.gov</a>.  		  The Project Officer was John Drabek.</i></p>
+<p><i>The opinions and views expressed in this report are those of the  		  authors. They do not necessarily reflect the views of the Department of Health  		  and Human Services, the contractor or any other funding  		  organization.</i></p>
+</blockquote>
+<hr /><h2>TABLE OF CONTENTS</h2>
+<dl><dt><a href="#preface">PREFACE</a></dt>
+</dl><dl><dt><a href="#execsum">EXECUTIVE SUMMARY</a></dt>
+</dl><dl><dt>1. <a href="#intro">INTRODUCTION</a></dt>
+<dd>a. Background/Overview/Purpose of Paper</dd>
+<dd>b. Research Questions</dd>
+<dd>c. Methodology</dd>
+<dd>d. Data Sources and File Construction</dd>
+<dd>e. Reliability of the Linkage of the Connecticut nursing home patient  		  registry data to create the longitudinal file and of the match with DIM data  		  </dd>
+</dl><dl><dt>2. <a href="#impact">THE IMPACT OF SPEND-DOWN ON MEDICAID  		  EXPENDITURES</a></dt>
+<dd>a. Overview</dd>
+<dd>b. Defining the Payment Groups</dd>
+<dd>c. Basic Spend-Down Statisticsd. Determining the Contribution from  		  Medicaid</dd>
+</dl><dl><dt>3. <a href="#dynamic">SPEND-DOWN DYNAMICS</a></dt>
+</dl><dl><dt>4. <a href="#patient">PATIENT CHARACTERISTICS IN RELATION TO  		  SPEND-DOWN</a></dt>
+<dd>a. Overview</dd>
+<dd>b. Spend-Down Indices and Demographics</dd>
+<dd>c. Spend-Down Indices and Diagnoses at Admission</dd>
+<dd>d. Spend-down indices and functional level on September 30, 1985</dd>
+<dd>e. Effect of Controlling for length of stay</dd>
+</dl><dl><dt>5. <a href="#source">SOURCES OF APPLIED INCOME</a></dt>
+</dl><dl><dt>6. <a href="#eligible">WHEN DO PERSONS BECOME ELIGIBLE FOR  		  MEDICAID?</a></dt>
+</dl><dl><dt>7. <a href="#compare">COMPARISON OF RESULTS WITH OTHER  		  STUDIES</a></dt>
+</dl><dl><dt>8. <a href="#imply">IMPLICATIONS OF THE FINDINGS</a></dt>
+</dl><dl><dt><a href="#ref">REFERENCES</a></dt>
+</dl><dl><dt><a href="#notes">NOTES</a></dt>
+</dl><dl><dt>LIST OF TABLES</dt>
+<dd><a href="#tableI">TABLE I</a>: Nursing Home Resident Payment Groups  		  Based Upon Payment Status at First Admission and on Date of the Survey</dd>
+<dd><a href="#tableII">TABLE II</a>: Payment Status of Nursing Home  		  Residents Who Were Private Payers on the Date of Their First Admission</dd>
+<dd><a href="#tableIII">TABLE III</a>: Payment Status of Nursing Home  		  Residents Receiving Medicaid on the Date of Survey</dd>
+<dd><a href="#tableIV">TABLE IV</a>: Per-Capita Amount of Contributed  		  Payments During Month of Survey Made in Behalf of Individuals Receiving  		  Medicaid by Payment Group</dd>
+<dd><a href="#tableV">TABLE V</a>: Average Facility Per-Diem Rate During  		  Month of Survey for Nursing Home Residents Receiving Medicaid</dd>
+<dd><a href="#tableVI">TABLE VI</a>: Per-Capita Medicaid Expenditures  		  During Month of Survey Made in Behalf of Nursing Home Residents Receiving  		  Medicaid</dd>
+<dd><a href="#tableVII">TABLE VII</a>: Mean Length of Stay Among Nursing  		  Home Residents by Payment Group</dd>
+<dd><a href="#tableVIII">TABLE VIII</a>: Mean Length of Stay During Most  		  Recent Admission Among Nursing Home Residents by Payment Group</dd>
+<dd><a href="#tableIX">TABLE IX</a>: Length of Stay Distribution by  		  Payment Group</dd>
+<dd><a href="#tableX">TABLE X</a>: Spend-Down Indexes by Length of  		  Stay</dd>
+<dd><a href="#tableXI">TABLE XI</a>: Distribution of Length of Stay as  		  Private Payers and on Medicaid and Proportion of Private Pay Days by Total  		  Length of Stay</dd>
+<dd><a href="#tableXII">TABLE XII</a>: Distribution of Private Pay Days  		  for Persons Who Spent Down</dd>
+<dd><a href="#tableXIII">TABLE XIII</a>: Spend-Down Indices According to  		  Patient Characteristics</dd>
+<dd><a href="#tableXIV">TABLE XIV</a>: Logit Analysis of the Probability  		  of Spend-Down</dd>
+<dd><a href="#tableXV">TABLE XV</a>: Sources of Contributed Payments:  		  Per-Capita Amounts and Proportion of Contributions by Source of Income and  		  Payment Group</dd>
+<dd><a href="#tableXVI">TABLE XVI</a>: Distribution of Days of Medicaid  		  Eligibility Prior to First Nursing Home Admission</dd>
+<dd><a href="#tableXVII">TABLE XVII</a>: Comparison of Spend-Down  		  Statistics, Connecticut, U.S., Massachusetts and Michigan</dd>
+</dl><h2><a name="preface" id="preface">PREFACE</a></h2>
+<p>This paper addresses the impact of spend-down on Medicaid expenditures  		in the State of Connecticut. The study uses data that traces the payment  		sources used by individual nursing home residents back to the time of their  		first admission to a nursing home, and by so doing, provides a clear picture of  		the portion of the state's nursing home expenditures that are paid in behalf of  		persons that entered homes as private-paying patients.</p>
+<p>The authors would like to thank Mary Kapp and Chris Pattee in the  		Connecticut Department of Health Services for providing the data, and for  		invaluable discussions regarding the use and limitations of the data. They also  		want to thank Kevin Mahoney for his keen insights regarding the analysis and  		interpretation of the results. The authors also would like to acknowledge and  		thank John Drabeck for his ongoing help at key stages of this project.</p>
+<p>Mr. Gruenberg and Mr. Alpert are both affiliated with the Long-Term Care  		Data Institute.</p>
+<p>Mr. Burwell is affiliated with SysteMetrics/McGraw Hill.</p>
+<p>This report was developed in conjunction with a study of long-term care  		financing reform conducted by the Office of the Assistant Secretary for  		Planning and Evaluation. Other reports also developed during the course of the  		study include:</p>
+<ul><li>access to nursing home care</li>
+<li>consumer protection and regulation of long term care insurance</li>
+<li>the combined burden of acute and long term care expenses</li>
+</ul><p>Copies of the reports may be obtained by writing to:</p>
+<p>Brenda Veazey Department of Health and Human Services Room 410E,  		Humphrey Building 200 Independence Avenue, S.W. Washington, D.C.  		20201</p>
+<h2><a name="execsum" id="execsum">EXECUTIVE SUMMARY</a></h2>
+<p>The study provides estimates of the impact of spend-down on Medicaid  		expenditures in Connecticut. It was found that nearly 40 percent of nursing  		home residents who receive Medicaid originally entered as private-paying  		patients and ended up on Medicaid after spending down their assets. Also,  		nearly 40 percent of residents who had entered as private-payers had spent-down  		by the day of the survey.</p>
+<p>In addition to these asset spend-downers, 50 percent of individuals who  		were Medicaid upon entry to the nursing home became eligible for Medicaid  		either on the day of their admission to the nursing home, or within one year  		prior to that date. Many of these individuals were not categorically eligible  		for Medicaid, but became eligible either because of large medical expenses  		while in the community, or because their income wasn't enough to pay the  		nursing home per diem when they entered a nursing home. Taking these  		individuals into account increases the count of the number of persons who spend  		down considerably.</p>
+<p>Contributions to the payment to nursing homes by Medicaid recipients  		averaged $343 per month in 1985. These contributions varied and were  		lowest--$293 per month--for individuals who had not spent down; they were  		highest--$421 per month--for individuals who had spent down their assets after  		a period of private payment in the nursing home.</p>
+<p>Among nursing home residents, the proportion of Medicaid recipients who  		had spent-down from private pay status at admission varied with the amount of  		time the individual had spent in facilities. Among individuals who had only  		spent 3-4 months in a facility, only 11 percent had spent down. For those who  		had spent seven or more years, 64 percent had spent down.</p>
+<p>The spend-down rates observed in this analysis of a Connecticut resident  		cohort differed from what was found in analyses of the Connecticut admission  		cohort. Nursing home residents are two times more likely to have spent down  		from private pay status than are nursing home admissions. This results from the  		fact that nursing home residents have significantly longer lengths of stay than  		do nursing home admissions.</p>
+<h2><a name="intro" id="intro">1. INTRODUCTION</a></h2>
+<h3>a. Background/Overview/Purpose of Paper</h3>
+<p>This paper addresses the impact of Spend-Down on Medicaid expenditures.  		It follows previous studies which we (Gruenberg, et.al., 1989; Farbstein  		et.al., 1990) and others (Bice and Pattee, 1990; Liu and Manton, 1991) have  		carried out using the State of Connecticut's Nursing Home Patient Registry.</p>
+<p>Unlike these earlier studies and others carried out at the national  		level as well as the State level (Sekcenski, 1987; Liu, Doty and Manton, 1990;  		Spence and Weiner, 1990, Arling, et. al., 1991) which analyze spend-down from  		the perspective of an individual admitted to or discharged from nursing homes,  		we focus here on understanding the effect of spend-down on Medicaid  		expenditures. </p>
+<p>We are interested in determining the portion of the Medicaid burden that  		results from paying nursing homes in behalf of people who were not poor (and on  		Medicaid) originally, but who became poor as a result of their health problems  		and resulting catastrophic health expenditures they had to make while in a  		nursing home. For this reason, the study focuses on the payment patterns of the  		persons that Medicaid must pay for, namely, the <b>nursing home resident</b>.  		Analyses from this perspective have been carried out at the national level  		using National Medical Expenditure Survey (NMES) data (Short, et. al., 1990),  		and for the State of Michigan using Tape-to-Tape data (Burwell, et. al., 1989)  		and for the State of Massachusetts using data from a one-day survey (Goss and  		Meiners, 1989; Farbstein and Gruenberg, 1989). The Connecticut data includes a  		complete recording of nursing home utilization from the time an individual is  		first admitted to a nursing home, and hence are more powerful than the data  		used in these other studies. </p>
+<h3>b. Research Questions</h3>
+<p>Specific questions addressed in this report include:</p>
+<ol><li>
+<p>How many residents of Connecticut nursing homes pay privately? How  			 many are supported by Medicaid?</p>
+</li>
+<li>
+<p>Among those supported by Medicaid, what proportion spent down?  			 </p>
+</li>
+<li>
+<p>How much do individuals on Medicaid contribute towards their nursing  			 home per diem? How do these contributions differ for persons who spent down and  			 for those who entered on Medicaid? How much of these contributions come from  			 Social Security and private pensions and how much come from contributions from  			 families and other sources?</p>
+</li>
+<li>
+<p>What part of total Medicaid expenditures are for persons who spend  			 down.</p>
+</li>
+<li>
+<p>For residents who have spent down, what portion of their days are  			 paid for by private funds, and what proportion are paid for by Medicaid funds?  			 How much do individuals spend for nursing homes prior to the time they become  			 eligible for Medicaid</p>
+</li>
+<li>
+<p>What client characteristics influence spend-down rates? How is the  			 proportion of persons who spent down related to length of stay? </p>
+</li>
+<li>
+<p>For persons who are eligible for Medicaid upon entry into nursing  			 homes, when did they become eligible? How many first became eligible on the day  			 of their first admission? How many became eligible recently before their  			 admission? How many had been eligible for Medicaid for a long time?</p>
+</li>
+</ol><h3>c. Methodology</h3>
+<p>To examine the impact of spend-down on Medicaid expenditures, we study  		individuals who were found to reside in Connecticut nursing homes on September  		30, 1985. We analyze their sources of payment and amounts they payed. This  		provides a point-in-time picture of Medicaid expenditures in relation to  		spend-down.<sup><font><a href="#note1">1</a></font></sup> Since the  		number of persons living in nursing homes on that day is large (over 25,000)  		and our estimates are proportions of the total, this cross-sectional  		perspective should be a reasonably good estimate of the experience in  		Connecticut during the period 1985-86. </p>
+<p>Most of these analyses are descriptive. In addition, in order to examine  		the effects of various client characteristics, we have attempted to control for  		length of stay, using a multivariate analysis of the proportion of persons  		spending down by their features and by this factor.</p>
+<h3>d. Data Sources and File Construction</h3>
+<p>Our data were obtained from the State of Connecticut. Two research files  		were used. One, referred to as, "ALLREC", contains all patient records from the  		Connecticut Nursing Home Patient Registry. These data were collected by the  		State of Connecticut Department of Health Services (DOHS) as a part of their  		annual surveys of nursing home admissions, discharges and residents (Pattee,  		1988). There is a record for each admission and discharge to Connecticut  		nursing homes during the period September 30, 1977-September 30, 1987 as well  		as a record for each person who was found to be residing in a nursing home at  		the time of an annual survey which was conducted on September 30 of each year.  		From this file, we selected a subset of records (which we will call index  		records) which consisted of the complete set of ALLREC records for all persons  		who were nursing home residents on September 30, 1985. We found 25,857 cases.  		These records were then used to: construct a summary file in the manner  		discussed below, based on all admissions and discharges of each patient that  		occurred prior to 9/30/85; and, to select records containing relevant  		information from the second research file, "APPINC".</p>
+<p>The APPINC file was created from Connecticut Department of Income  		Maintenance (DIM) administrative records, and it contains the date that an  		individual first became eligible for Medicaid coverage in a nursing home. In  		addition, it contains a unique patient identifier which allows for linkage of  		these data with data from the Connecticut Nursing Home Patient Registry  		(Pattee, 1989; Judge, 1990). The DIM data contain information about all DIM  		clients for whom Medicaid made some payment to nursing homes during the period  		1964-1989. These data provide detailed historical information regarding the  		amounts that individuals on Medicaid contributed towards their nursing home  		expenses (i.e., their applied income) and the sources of their income. The  		changes of income over time, are thus recorded. A single record containing this  		payment information at the latest date which preceeded September 30, 1985 and  		the date upon which the person first became eligible for Medicaid was then  		selected to correspond to each index record for every person who has received  		Medicaid support. There were 15,674 of these records.</p>
+<p>It should be noted that the DIM data were <b>not</b> constructed for  		research purposes -- i.e., they were collected as a part of the administrative  		activities of DIM -- and there have not been any systematic attempts to  		validate these data. In the next section, we report on a comparison of some of  		these data with those collected by DOHS; we found some important errors, but  		believe that the DIM data are accurate enough to provide reasonable estimates  		of the quantities examined in this study. There is clearly a need for more work  		in validating these data.</p>
+<p>A summary file of each resident's nursing home history was constructed.  		It included: total number of days resided; number of days as a private payer;  		number of admissions; recent admission date; diagnosis at the time of first  		admission; ADL and mental status on September 30, 1985; age; gender; race;  		referral source at the time of first admission; and an identifying code for the  		facility in which the patient resided that date. </p>
+<p>The summary file and applied income information were merged based upon  		the identifying field which is unique to each resident. These, in turn, were  		combined with facility Medicaid per-diem rates, obtained from Department of  		Health Services (DOHS) which correspond with each nursing home's identifier  		noted in the ALLREC file.</p>
+<h3>e. Reliability of the linkage of the Connecticut nursing  		home patient registry data to create the longitudinal file and of the match  		with DIM data</h3>
+<p>In the course of building the summary file some inconsistencies between  		records were identified. In 291 cases, admission and discharge dates in an  		individuals' set of records were chronologically incompatible. For instance,  		the admission date in one reporting year preceeded the discharge date found in  		a previous reporting year in 260 cases. Another twelve records selected from  		the DIM files had blank fields for their first eligibility date. For 477  		patients for whom applied income data were available, the rates of their  		respective facilities were listed as 0. In a small number of cases, more than  		one error type was found, and so a total of 770 individual observations were  		excluded from the analysis, leaving a study cohort of 25,087 persons.</p>
+<p>We also conducted a preliminary analysis regarding the agreement between  		DIM data (which were used in this study) and Connecticut longitudinal nursing  		home patient registry data collected by DOHS regarding whether or not a person  		was eligible for Medicaid on September 30, 1985. These data were based upon  		reports on each patient to DOHS as a part of the one day patient survey. We  		found that out of the 25,087 persons included in the study, there was agreement  		in 92.1% (23,096) of the cases. The errors were as follows: Of the 15,021  		persons found in the registry to be paid for by Medicaid on the date of the  		survey, 761 were <b>not</b> identified in the DIM data as being eligible by  		DIM. In contrast, of the 10,066 persons found to be paid for by a source other  		than Medicaid by DOHS, 1,230 were found to be eligible for Medicaid according  		to the DIM data. There thus appears to be at least a fair degree of agreement  		between data from the two sources. </p>
+<p>For the analyses of applied income (i.e., the individual contribution  		made towards the nursing home per diem by those receiving Medicaid) and the  		level Medicaid expenditures, some cases had to be excluded in addition to those  		with errors previously documented because they were missing either or both  		facility rate information (missing for 1702 persons on Medicaid, or 10.9% of  		the all such persons) or applied income information (missing for 502 persons or  		3.2% of persons on Medicaid). The Medicaid payment analysis used data for  		individuals having both of these data items available, and was restricted to  		13,333 persons, which represents 85% of all persons on Medicaid.</p>
+<h2><a name="impact" id="impact">2. THE IMPACT OF SPEND-DOWN ON MEDICAID  		EXPENDITURES</a></h2>
+<h3>a. Overview</h3>
+<p>In this section, we directly address the major subject of this study. We  		first determine, for persons found to be eligible for Medicaid on 9/30/85, the  		proportion who were private-payers when they first entered a nursing home. We  		then determine the payments made to nursing homes in behalf of these  		individuals as well as for individuals who were already eligible for Medicaid  		when they first entered facilities. The impact of spend-down on Medicaid  		expenditures is determined simply by the ratio of the Medicaid payments made in  		behalf of spend-down persons and the total Medicaid expenditures for the entire  		population.</p>
+<p>The payments made by Medicaid are determined indirectly, using data  		available in the DIM file. We subtract an individual's applied income (that is,  		the individual's own contribution to the nursing home per diem) from the  		nursing home per diem rate to determine Medicaid's contribution. </p>
+<h3>b. Defining the Payment Groups</h3>
+<p>We begin by describing the patterns of Medicaid eligibility found for  		the 1985 resident cohort, that is, persons residing in nursing homes in  		Connecticut on September 30, 1985. First, individuals were identified as  		"Private Pay", "Medicaid at Entry" or "Asset Spend-Down" using data from the  		DIM file in conjunction with data from the DOHS nursing home patient registry.  		This was done as follows: using the DIM data, we determined the first date that  		the person was found to be eligible for Medicaid. If there was no DIM record,  		or if the first date occurred <b>after</b> 9/30/85, the person was classified  		as "Private Pay." If there was a record and the person's first Medicaid  		eligibility date was found to occur before or exactly on the date of their  		first nursing home admission, then the person was classified as "Medicaid at  		Entry". If there was a record and the the first eligibility date occurred in  		the interval between the individuals first nursing home admission and 9/30/85,  		then the individual was classified as "Asset Spend-Down."</p>
+<p>It should be noted that individuals may have become eligible for  		Medicaid at a time after their admission to the nursing home as a result of one  		of the following two scenarios:</p>
+<ul><li>
+<p>Their income was not sufficient to pay the full nursing home per  			 diem, and they needed to rely upon their assets as well. When these assets were  			 used up, they became eligible for Medicaid.</p>
+</li>
+<li>
+<p>Their income was sufficient to pay the full nursing home per diem,  			 but at some point in time, their income dropped. They then became eligible for  			 Medicaid.</p>
+</li>
+</ul><p>Of these two possibilities, the first one seems more likely. For this  		reason, we refer to such individuals as "Asset Spend-Down."</p>
+<p>In comparing these data with similar data from other studies, it should  		be noted that our method uses eligibility for Medicaid rather than whether  		Medicaid actually pays for nursing home care. Some individuals may be eligible  		for Medicaid, but may have their nursing home stay reimbursed by some other  		source (i.e., Medicare). For this reason, care must be taken in comparing these  		results with other studies.</p>
+<h3>c. Basic Spend-Down Statistics</h3>
+<p><a href="#tableI">Table I</a> shows the distribution of persons among  		the payment groups defined above.</p>
+<table title="TABLE I: Nursing Home Resident Payment Based Upon Payment Status at First Admission and on Date of the Survey"><tr><td colspan="3"><font><b><a name="tableI" id="tableI">TABLE I</a>: Nursing Home Resident Payment  			 Based Upon Payment Status at First Admission and on Date of the  			 Survey</b></font></td>
+</tr><tr><td scope="col"><font><b>Payment Group</b></font></td>
+<td scope="col"><font><b>  Number  </b></font></td>
+<td scope="col"><font><b>  Percentage  </b></font></td>
+</tr><tr><td scope="row"><font>Medicaid At  			 Entry</font></td>
+<td><font>9400</font></td>
+<td><font>37.47</font></td>
+</tr><tr><td scope="row"><font>Asset  			 Spend-Down  </font></td>
+<td><font>6090</font></td>
+<td><font>24.28</font></td>
+</tr><tr><td scope="row"><font>Private  			 Pay</font></td>
+<td><font>9597</font></td>
+<td><font>38.25</font></td>
+</tr><tr><td scope="row"><font>Total</font></td>
+<td><font>25087</font></td>
+<td><font>100.00</font></td>
+</tr></table><p>These data indicate that more than 3/5 of those in nursing homes were  		being paid for by Medicaid on the day of the survey. The percentage of persons  		who were Medicaid at Entry (37.5%) was nearly equal to that of those who were  		Private Pay (38.3%). Nearly 1/4 of persons in the resident cohort were Asset  		Spend-Down.</p>
+<p>Two indices are useful in interpreting spend-down patterns (Spence and  		Weiner, 1990; Gruenberg et.al., 1990). The first, Spend-Down Index 1, is  		defined as the percentage of individuals who enter the nursing home as private  		pay and were found to be receiving Medicaid on the survey date. This reflects  		the probability that a person will spend-down. The second, Spend-Down Index 2,  		is the percentage of persons receiving Medicaid on the survey date who were  		Private Pay at the time of their first admission. This second index does not  		reflect a probability of spending down; rather it represents the portion of the  		Medicaid burden that is due to persons who spend down. These indices are easily  		derived from <a href="#tableI">Table I</a>.</p>
+<p><a href="#tableII">Table II</a> and <a href="#tableIII">Table III</a>  		show the Spend-Down Indices for the 1985 Connecticut Resident Cohort.</p>
+<table title="TABLE II: Payment Status of Nursing Home Residents Who Were Private Payers on the Date of Their First Admission"><tr><td colspan="3"><font>  <b><a name="tableII" id="tableII">TABLE II</a>: Payment Status  			 of Nursing Home Residents Who Were Private Payers on the Date of Their First  			 Admission  (Spend-Down Index 1)</b></font></td>
+</tr><tr><td scope="col"><font><b>Payment Status on Survey Date</b></font></td>
+<td scope="col"><font><b>  Number  </b></font></td>
+<td scope="col"><font><b>  Percentage  </b></font></td>
+</tr><tr><td scope="row"><font>Private  			 Pay</font></td>
+<td><font>9597</font></td>
+<td><font>61.18</font></td>
+</tr><tr><td scope="row"><font>Asset  			 Spend-Down  </font></td>
+<td><font>6090</font></td>
+<td><font>38.82</font></td>
+</tr><tr><td scope="row"><font>Total</font></td>
+<td><font>15687</font></td>
+<td><font>100.00</font></td>
+</tr></table><table title="TABLE III: Payment Status of Nursing Home Residents Receiving Medicaid on the Date of Survey"><tr><td colspan="3"><font><b>  <a name="tableIII" id="tableIII">TABLE III</a>: Payment Status  			 of Nursing Home Residents Receiving Medicaid on the Date of  			 Survey  (Spend-Down Index 2)</b></font></td>
+</tr><tr><td scope="col"><font><b>Payment Group</b></font></td>
+<td scope="col"><font><b>  Number  </b></font></td>
+<td scope="col"><font><b>  Percentage  </b></font></td>
+</tr><tr><td scope="row"><font>Medicaid At  			 Entry</font></td>
+<td><font>9400</font></td>
+<td><font>37.47</font></td>
+</tr><tr><td scope="row"><font>Asset  			 Spend-Down  </font></td>
+<td><font>6090</font></td>
+<td><font>24.28</font></td>
+</tr><tr><td scope="row"><font>Private  			 Pay</font></td>
+<td><font>9597</font></td>
+<td><font>38.25</font></td>
+</tr><tr><td scope="row"><font>Total</font></td>
+<td><font>25087</font></td>
+<td><font>100.00</font></td>
+</tr></table><p>These data show that Spend-Down Indices 1 and 2 are both close to 40%.  		Index 1 is greater than what we estimated for the admission cohort (Gruenberg,  		et.al., 1989; Index 1 = 21%). The reason for this difference is the  		considerably longer lengths of stay among the resident cohort than among the  		admission cohort. Index 2 is quite similar to what we found for the admission  		cohort (Index 2 = 41%).</p>
+<h3>d. Determining the Contribution from Medicaid</h3>
+<p><i><b>(1) Description of Method</b></i></p>
+<p>Medicaid pays only a portion of an individual's payment to a nursing  		home. We used the data obtained from DIM to determine the monthly contributions  		to the nursing home bill which were made by individuals (denoted by "applied  		income"), and we also incorporated the 1985 Medicaid per diem rates. Medicaid's  		payment to nursing homes for each resident was determined using the following  		formula:</p>
+<p>MEDICAID PAYMENT = 30 x PER DIEM RATE - APPLIED  		INCOME</p>
+<p>The average Per Diem Rate and Applied Income were determined for  		Medicaid at Entry and Asset Spend-Down Groups, and the mean Medicaid Payment  		for each subgroup was determined by the above formula. (Note: In determining  		these averages, we separately used all persons for whom nursing home rate  		information was available to determine the average per diem rate and all  		persons for whom applied income information was available to determine the  		average of applied income.)</p>
+<p><i><b>(2) The Applied Income</b></i></p>
+<p><a href="#tableV">Table V</a> shows the average Applied Income in  		relationship to the payment groups defined in the previous section.</p>
+<p> Individuals who spend-down their assets contributed 44% more ($421  		compared to $293) than those who were True Medicaid. As we might have  		anticipated, the spend-down group have higher incomes than those who entered  		nursing homes already on Medicaid, and this is reflected in their applied  		income.</p>
+<table title="TABLE IV: Per-Capita Amount of Contributed Payments During Month of Survey Made in Behalf of Individuals Receiving Medicaid by Payment Group"><tr><td colspan="4"><font><b><a name="tableIV" id="tableIV">TABLE IV</a>: Per-Capita Amount of  			 Contributed Payments During Month of Survey Made in Behalf of Individuals  			 Receiving Medicaid by Payment Group</b></font></td>
+</tr><tr><td rowspan="2" scope="col"><font><b>Payment Group</b></font></td>
+<td colspan="2" scope="col"><font><b>Summary of Applied  			 Income</b></font></td>
+<td rowspan="2" scope="col"><font><b>Freq.</b></font></td>
+</tr><tr><td scope="col"><font><b>Mean</b></font></td>
+<td scope="col"><font><b>  Std. Dev.  </b></font></td>
+</tr><tr><td scope="row"><font>Medicaid At  			 Entry</font></td>
+<td><font>  $292.73  </font></td>
+<td><font>210.44</font></td>
+<td><font>9168</font></td>
+</tr><tr><td scope="row"><font>Asset  			 Spend-Down  </font></td>
+<td><font>$420.96</font></td>
+<td><font>217.28</font></td>
+<td><font>5820</font></td>
+</tr><tr><td scope="row"><font>Total</font></td>
+<td><font>$342.52</font></td>
+<td><font>$222.09</font></td>
+<td><font>  14988  </font></td>
+</tr></table><p><i><b>(3) Nursing Home Per Diem Rates</b></i></p>
+<p>The average per diem rate paid by Medicaid in 1985 (<a href="#tableV">Table V</a>) was $56.05. It is interesting to note that there is  		a small but significant difference (.01 level) between the average Medicaid per  		diem in homes where Asset Spend-Down persons and where Medicaid-at-entry  		persons reside. These latter homes have slightly lower-than-average per diem  		costs. </p>
+<table title="TABLE V: Average Facility Per-Diem Rate During Month of Survey for Nursing Home Residents Receiving Medicaid"><tr><td colspan="4"><font>  <b><a name="tableV" id="tableV">TABLE V</a>: Average Facility  			 Per-Diem Rate During Month of Survey for Nursing Home Residents Receiving  			 Medicaid  </b></font></td>
+</tr><tr><td scope="col"><font><b>Payment Group</b></font></td>
+<td scope="col"><font><b>Mean</b></font></td>
+<td scope="col"><font><b>  Std. Dev.  </b></font></td>
+<td scope="col"><font><b>Freq.</b></font></td>
+</tr><tr><td scope="row"><font>Medicaid At  			 Entry</font></td>
+<td><font>  $55.50  </font></td>
+<td><font>16.29</font></td>
+<td><font>8198</font></td>
+</tr><tr><td scope="row"><font>Asset  			 Spend-Down  </font></td>
+<td><font>$56.87</font></td>
+<td><font>14.66</font></td>
+<td><font>5590</font></td>
+</tr><tr><td scope="row"><font>Total</font></td>
+<td><font>$56.05</font></td>
+<td><font>$15.57</font></td>
+<td><font>  13788  </font></td>
+</tr></table><p><i><b>(4) Medicaid Expenditures</b></i></p>
+<p><a href="#tableVI">Table VI</a> shows how Medicaid expenditures vary by  		payment group. These data are, in fact, the major finding of this study. They  		were computed using the formula in (1) above and the data for applied income  		and per diem rates as shown in (2) and (3) above. Included in this table are  		both the per capita expenditures and the proportion of total expenditures.</p>
+<p>The data show that nursing home Medicaid expenditures made in behalf of  		the asset spend-down population account for 37.8% of the total amount of  		nursing home Medicaid expenditures. The percentage is only slightly smaller  		than the percentage of the total Medicaid population that are asset  		spend-downers (39.3%). The difference comes primarily from the fact that  		persons who spend down have higher applied incomes than do indivdiuals who are  		Medicaid at entry (see <a href="#tableVI">Table VI</a>). Although the  		differences in applied income between the two groups were found to be  		substantial, they only result in a small difference in Medicaid's expenditures  		for the two groups, because applied income only accounts for a small proportion  		(about 1/4) of the total nursing home per diem payment.</p>
+<table title="TABLE VI: Per-Capita Medicaid Expenditures During Month of Survey Made in Behalf of Nursing Home Residents Receiving Medicaid"><tr><td colspan="4"><font>  <b><a name="tableVI" id="tableVI">TABLE VI</a>: Per-Capita  			 Medicaid Expenditures During Month of Survey Made in Behalf of Nursing Home  			 Residents Receiving Medicaid  </b></font></td>
+</tr><tr><td scope="col"><font><b>Payment Group</b></font></td>
+<td scope="col"><font><b>  Per Capita  			 Expenditures  </b></font></td>
+<td scope="col"><font><b>Percentage of  Medicaid  			 Expenditures  </b></font></td>
+<td scope="col"><font><b>Percent of  Total  			 Persons  </b></font></td>
+</tr><tr><td scope="row"><font>True  			 Medicaid</font></td>
+<td><font>$1372.27</font></td>
+<td><font>62.2%</font></td>
+<td><font>60.7%</font></td>
+</tr><tr><td scope="row"><font>Asset  			 Spend-Down  </font></td>
+<td><font>$1285.14</font></td>
+<td><font>37.8%</font></td>
+<td><font>39.3%</font></td>
+</tr><tr><td scope="row"><font>Total</font></td>
+<td><font>$1338.62</font></td>
+<td><font>1.0</font></td>
+<td><font>1.0</font></td>
+</tr></table><p>These data show that the overall impact of Spend-Down on Medicaid  		expenditures is quite dramatic. Nearly 38% of Medicaid's expenditures are made  		in behalf of persons identified as Asset Spend-Down. </p>
+<h2><a name="dynamic" id="dynamic">3. SPEND-DOWN DYNAMICS</a></h2>
+<p>In examining the phenomenon of asset spend-down, it would be interesting  		to examine whether persons with differing characteristics spend down at  		different rates. This would be an indication of differing levels of wealth of  		various subpopulation groups. Before addressing this question, however, it is  		important to examine the dynamics of spend-down in more depth. A key parameter  		is the amount of time individuals spend in a facility and the proportion of  		time that individuals paid privately for their care. </p>
+<p>To begin this discussion, we examine lengths of stay of the 1985  		Resident cohort, and show how these are related to spend-down probabilities.  		The Connecticut Nursing Home Patient Registry allows one to examine the length  		of stay accumulated over all episodes in nursing homes in addition to the  		length of stay in a particular episode.</p>
+<p>In determining the total length of stay over all episodes, only actual  		times of residency in the nursing home were included. Similarly, in computing  		the amount of time an individual remained on a private-pay basis, we included  		only times actually spent in a facility. This could differ significantly from  		the calendar time, as measured from the first date of admission, because many  		persons had multiple admissions and spent considerable time outside of nursing  		homes. </p>
+<p><a href="#tableVII">Table VII</a> and <a href="#tableVIII">Table  		VIII</a> show the mean length of stay by payment group for the entire nursing  		home experience and for the most recent admission. It should be noted that the  		length of stay is for incomplete episodes; it represents the days in a facility  		up to the date of the resident survey.</p>
+<table title="TABLE VII: Mean Length of Stay Among Nursing Home Residents by Payment Group"><tr><td colspan="4"><font>  <b><a name="tableVII" id="tableVII">TABLE VII</a>: Mean Length of  			 Stay (Days in Facility Since First Admission) Among Nursing Home Residents by  			 Payment Group  </b></font></td>
+</tr><tr><td scope="col"><font><b>Payment Group</b></font></td>
+<td scope="col"><font><b>  Mean  </b></font></td>
+<td scope="col"><font><b>  Std. Dev.  </b></font></td>
+<td scope="col"><font><b>Freq.</b></font></td>
+</tr><tr><td scope="row"><font>Medicaid At  			 Entry  </font></td>
+<td><font>1823</font></td>
+<td><font>1487</font></td>
+<td><font>9400</font></td>
+</tr><tr><td scope="row"><font>Spend-Down</font></td>
+<td><font>1699</font></td>
+<td><font>1269</font></td>
+<td><font>6090</font></td>
+</tr><tr><td scope="row"><font>Private  			 Pay</font></td>
+<td><font>889</font></td>
+<td><font>969</font></td>
+<td><font>9597</font></td>
+</tr><tr><td scope="row"><font>Total</font></td>
+<td><font>1436</font></td>
+<td><font>1329</font></td>
+<td><font>  25087  </font></td>
+</tr></table><table title="TABLE VIII: Mean Length of Stay During Most Recent Admission Among Nursing Home Residents by Payment Group"><tr><td colspan="4"><font>  <b><a name="tableVIII" id="tableVIII">TABLE VIII</a>: Mean Length  			 of Stay During Most Recent Admission Among Nursing Home Residents by Payment  			 Group  </b></font></td>
+</tr><tr><td scope="col"><font><b>Payment Group</b></font></td>
+<td scope="col"><font><b>  Mean  </b></font></td>
+<td scope="col"><font><b>  Std. Dev.  </b></font></td>
+<td scope="col"><font><b>Freq.</b></font></td>
+</tr><tr><td scope="row"><font>Medicaid At  			 Entry  </font></td>
+<td><font>1039</font></td>
+<td><font>1189</font></td>
+<td><font>9400</font></td>
+</tr><tr><td scope="row"><font>Spend-Down</font></td>
+<td><font>1029</font></td>
+<td><font>1051</font></td>
+<td><font>6090</font></td>
+</tr><tr><td scope="row"><font>Private  			 Pay</font></td>
+<td><font>597</font></td>
+<td><font>751</font></td>
+<td><font>9597</font></td>
+</tr><tr><td scope="row"><font>Total</font></td>
+<td><font>868</font></td>
+<td><font>1029</font></td>
+<td><font>  25087  </font></td>
+</tr></table><p>These data show that the average length of stay of nursing home  		residents is extraordinarily long. The average total length of stay is 3.9  		years, while the average recent length of stay is 2.4 years. The distribution  		of lengths of stay is fairly broad, with the standard deviation roughly equal  		to the mean.<sup><font><a href="#note2">2</a></font></sup></p>
+<p>There is a clear distinction between Private Pay and Medicaid at Entry  		lengths of stay. For both recent and total stays, Medicaid patients experience  		nearly twice the duration in nursing homes of private pay patients. Also, the  		private pay distribution has a larger standard deviation relative to the mean  		than do the spend-down or Medicaid groups. We conjecture that this is in part  		due to the inclusion of larger numbers of short-stayers among the private-pay  		group and in part to the greater likelihood of the longer-staying private pay  		patients to spend down.</p>
+<p>The lengths of stay of Medicaid at Entry and Spend-Down groups are quite  		similar. The total length of stay of the Medicaid at Entry group is slightly  		longer (7% longer) than that of the Spend-Down group. These results are  		different than those observed for the admission cohort (Gruenberg, et. al.,  		1989; Bice, 1989), where it was found that persons who spend-down have  		substantially longer lengths of stay than individuals who were Medicaid at  		entry. </p>
+<p>The patterns observed in the resident cohort result from complex  		interactions between the dynamics of spend down and the historical patterns in  		rate of admission and rate of spend-down. An understanding of the differences  		observed between the patterns in the admission and resident cohort must await  		an in-depth analysis of these historical patterns, as well as a comprehensive  		theoretical approach for interpreting these data.</p>
+<p><a href="#tableIX">Table IX</a> shows the total length of stay  		distribution by payment groups. For the entire cohort, only 7% have stays less  		than 90 days. 20% have stays of 2521 days or greater. </p>
+<p>The distribution for Medicaid at entry residents is particularly  		striking. Nearly 1/3 of them had stays of 2521 days or longer. The Private Pay  		group exhibits quite long lengths of stay, but its durations are considerably  		shorter than either those of the True Medicaid or Spend-Down groups. Only 8% of  		this group had stays longer than 2521 days.</p>
+<table title="TABLE IX: Length of Stay Distribution by Payment Group"><tr><td colspan="5"><font><b><a name="tableIX" id="tableIX">TABLE IX</a>: Length of Stay Distribution  			 by Payment Group</b></font></td>
+</tr><tr><td scope="col"><font><b>  Length of  			 Stay  (Days)</b></font></td>
+<td scope="col"><font><b>  Medicaid At  			 Entry  </b></font></td>
+<td scope="col"><font><b>  Spend-Down  </b></font></td>
+<td scope="col"><font><b>  Private  			 Pay  </b></font></td>
+<td scope="col"><font><b>Total</b></font></td>
+</tr><tr><td scope="row"><font>0-30</font></td>
+<td><font>1821.94</font></td>
+<td><font>40.07</font></td>
+<td><font>4885.08</font></td>
+<td><font>6742.69</font></td>
+</tr><tr><td scope="row"><font>31-60  			 </font></td>
+<td><font>1541.64</font></td>
+<td><font>140.23</font></td>
+<td><font>4174.35</font></td>
+<td><font>5852.33</font></td>
+</tr><tr><td scope="row"><font>61-90  			 </font></td>
+<td><font>1531.63</font></td>
+<td><font>190.31</font></td>
+<td><font>3773.93</font></td>
+<td><font>5492.19</font></td>
+</tr><tr><td scope="row"><font>91-120  			 </font></td>
+<td><font>1501.60</font></td>
+<td><font>410.67</font></td>
+<td><font>32943.43</font></td>
+<td><font>5202.07</font></td>
+</tr><tr><td scope="row"><font>121-150</font></td>
+<td><font>1341.43</font></td>
+<td><font>530.87</font></td>
+<td><font>3033.16</font></td>
+<td><font>4901.95</font></td>
+</tr><tr><td scope="row"><font>151-180</font></td>
+<td><font>1631.73</font></td>
+<td><font>330.54</font></td>
+<td><font>3383.52</font></td>
+<td><font>5342.13</font></td>
+</tr><tr><td scope="row"><font>181-360</font></td>
+<td><font>7808.30</font></td>
+<td><font>3786.21</font></td>
+<td><font>140214.61</font></td>
+<td><font>256010.20</font></td>
+</tr><tr><td scope="row"><font>361-720</font></td>
+<td><font>125113.31</font></td>
+<td><font>85614.06</font></td>
+<td><font>196720.50</font></td>
+<td><font>407416.24</font></td>
+</tr><tr><td scope="row"><font>721-1080</font></td>
+<td><font>94210.02</font></td>
+<td><font>91314.99</font></td>
+<td><font>117712.26</font></td>
+<td><font>303212.09</font></td>
+</tr><tr><td scope="row"><font>1081-1440</font></td>
+<td><font>7187.64</font></td>
+<td><font>74112.17</font></td>
+<td><font>7978.30</font></td>
+<td><font>22568.99</font></td>
+</tr><tr><td scope="row"><font>1441-1800</font></td>
+<td><font>6867.30</font></td>
+<td><font>70611.59</font></td>
+<td><font>5796.03</font></td>
+<td><font>19717.86</font></td>
+</tr><tr><td scope="row"><font>1801-2160</font></td>
+<td><font>5756.12</font></td>
+<td><font>5629.23</font></td>
+<td><font>3964.13</font></td>
+<td><font>15336.11</font></td>
+</tr><tr><td scope="row"><font>2161-2520</font></td>
+<td><font>4654.95</font></td>
+<td><font>4657.64</font></td>
+<td><font>2792.91</font></td>
+<td><font>12094.82</font></td>
+</tr><tr><td scope="row"><font>2521 &amp;  			 over</font></td>
+<td><font>304732.41</font></td>
+<td><font>130521.43</font></td>
+<td><font>7487.79</font></td>
+<td><font>510020.33</font></td>
+</tr><tr><td scope="row"><font>Total</font></td>
+<td><font>9400100.00</font></td>
+<td><font>6090100.00</font></td>
+<td><font>9597100.00</font></td>
+<td><font>  25087  100.00</font></td>
+</tr></table><p>In <a href="#tableX">Table X</a>, Spend-Down Indices 1 and 2 are shown  		in relation to total length of stay. As could be expected, Index 1 (which  		indicates the proportion of persons who enter as private paying patients, and  		who later, spend down) increases steadily with length of stay. The rate at  		which this occurs is quite low. For example, from the period 361-720 days until  		1801-2160 days, an interval of four years, the index increases by nearly a  		factor of 2, from .30 to .59. </p>
+<table title="TABLE X: Spend-Down Indexes by Length of Stay"><tr><td colspan="3"><font><b>  <a name="tableX" id="tableX">TABLE X</a>: Spend-Down Indexes  			 by Length of Stay  </b></font></td>
+</tr><tr><td scope="col"><font><b>  Length of  			 Stay  </b></font></td>
+<td scope="col"><font><b>  Spend-Down Index  			 1  </b></font></td>
+<td scope="col"><font><b>  Spend-Down Index  			 2  </b></font></td>
+</tr><tr><td scope="row"><font>0-30</font></td>
+<td><font>0.008</font></td>
+<td><font>0.022</font></td>
+</tr><tr><td scope="row"><font>31-60</font></td>
+<td><font>0.032</font></td>
+<td><font>0.083</font></td>
+</tr><tr><td scope="row"><font>61-90</font></td>
+<td><font>0.048</font></td>
+<td><font>0.110</font></td>
+</tr><tr><td scope="row"><font>91-120</font></td>
+<td><font>0.111</font></td>
+<td><font>0.215</font></td>
+</tr><tr><td scope="row"><font>121-150</font></td>
+<td><font>0.149</font></td>
+<td><font>0.283</font></td>
+</tr><tr><td scope="row"><font>151-180</font></td>
+<td><font>0.089</font></td>
+<td><font>0.168</font></td>
+</tr><tr><td scope="row"><font>181-360</font></td>
+<td><font>0.212</font></td>
+<td><font>0.326</font></td>
+</tr><tr><td scope="row"><font>361-720</font></td>
+<td><font>0.303</font></td>
+<td><font>0.406</font></td>
+</tr><tr><td scope="row"><font>721-1080</font></td>
+<td><font>0.437</font></td>
+<td><font>0.492</font></td>
+</tr><tr><td scope="row"><font>1081-1440</font></td>
+<td><font>0.482</font></td>
+<td><font>0.508</font></td>
+</tr><tr><td scope="row"><font>1441-1800</font></td>
+<td><font>0.549</font></td>
+<td><font>0.508</font></td>
+</tr><tr><td scope="row"><font>1801-2160</font></td>
+<td><font>0.587</font></td>
+<td><font>0.494</font></td>
+</tr><tr><td scope="row"><font>2161-2520</font></td>
+<td><font>0.625</font></td>
+<td><font>0.500</font></td>
+</tr><tr><td scope="row"><font>2521+</font></td>
+<td><font>0.636</font></td>
+<td><font>0.300</font></td>
+</tr></table><p>These data are at least qualitatively consistent with our earlier  		analysis of the spend-down rate of admission cohort, in which we also found  		very low rates of spend-down. A quantitative comparison is not possible here  		because of the complex behavior of the spend-down probability distribution in a  		resident cohort.</p>
+<p>Viewing the relationship between length of stay and Spend-down Index 2  		(the proportions of persons who were Spend-Down among the population which  		includes themselves and those who were Medicaid at Entry) it is interesting to  		note that the Index reaches a plateau of .5 in the 721-1080 day interval and  		remains at close to .5 through 2520 days. The longest stay group (2521 days or  		longer) has a much smaller Medicaid Index 2 (.30). This may be due to the  		relatively large proportion of mental hospital patients admitted to nursing  		homes with Medicaid coverage who have very long lengths of stay.</p>
+<p>In addition to examining the Spend-Down Indices 1 and 2, a more complete  		understanding of the effects of spend-down can be attained by studying the  		number and proportion of days that are covered by private payments and by  		Medicaid for persons who spend down. In <a href="#tableXI">Table XI</a>, a  		breakdown by length of stay of private payment days, Medicaid days, and the  		proportion of total days paid for by Medicaid is shown. </p>
+<p>The proportion of private days decreases as length of stay increases and  		then it appears to plateau around 1440 days and remain near .30 for greater  		lengths of stay. In contrast, it can be seen that the number of private pay  		days increases with length of stay. These data suggest that the rate of  		spend-down, which is quite low, is, in fact, lower than the rate of discharge.  		Thus, the number of days individuals pay privately for long-term care is  		effected more strongly by their length of stay than by their rate of spend  		down.</p>
+<table title="TABLE XI: Distribution of Length of Stay as Private Payers and on Medicaid and Proportion of Private Pay Days by Total Length of Stay"><tr><td colspan="4"><font>  <b><a name="tableXI" id="tableXI">TABLE XI</a>: Distribution of  			 Length of Stay as Private Payers and on Medicaid and Proportion of Private Pay  			 Days by Total Length of Stay</b>  </font></td>
+</tr><tr><td scope="col"><font><b>  Length of  			 Stay  (Days)</b></font></td>
+<td scope="col"><font><b>  Private-Pay  			 Days  </b></font></td>
+<td scope="col"><font><b>  Medicaid  			 Days  </b></font></td>
+<td scope="col"><font><b>  Proportion of  			 Days  Private Pay</b></font></td>
+</tr><tr><td scope="row"><font>0-30</font></td>
+<td><font>8.8</font></td>
+<td><font>3.5</font></td>
+<td><font>0.704</font></td>
+</tr><tr><td scope="row"><font>31-60</font></td>
+<td><font>19.1</font></td>
+<td><font>22.9</font></td>
+<td><font>0.438</font></td>
+</tr><tr><td scope="row"><font>61-90</font></td>
+<td><font>32.2</font></td>
+<td><font>39.0</font></td>
+<td><font>0.456</font></td>
+</tr><tr><td scope="row"><font>91-120</font></td>
+<td><font>44.1</font></td>
+<td><font>62.5</font></td>
+<td><font>0.414</font></td>
+</tr><tr><td scope="row"><font>121-150</font></td>
+<td><font>55.0</font></td>
+<td><font>80.8</font></td>
+<td><font>0.404</font></td>
+</tr><tr><td scope="row"><font>151-180</font></td>
+<td><font>59.2</font></td>
+<td><font>106.4</font></td>
+<td><font>0.355</font></td>
+</tr><tr><td scope="row"><font>181-360</font></td>
+<td><font>106.5</font></td>
+<td><font>168.0</font></td>
+<td><font>0.389</font></td>
+</tr><tr><td scope="row"><font>361-720</font></td>
+<td><font>209.4</font></td>
+<td><font>334.8</font></td>
+<td><font>0.385</font></td>
+</tr><tr><td scope="row"><font>721-1080</font></td>
+<td><font>333.9</font></td>
+<td><font>563.3</font></td>
+<td><font>0.372</font></td>
+</tr><tr><td scope="row"><font>1081-1440</font></td>
+<td><font>418.5</font></td>
+<td><font>841.6</font></td>
+<td><font>0.332</font></td>
+</tr><tr><td scope="row"><font>1441-1800</font></td>
+<td><font>501.5</font></td>
+<td><font>1114.4</font></td>
+<td><font>0.312</font></td>
+</tr><tr><td scope="row"><font>1801-2160</font></td>
+<td><font>646.7</font></td>
+<td><font>1325.6</font></td>
+<td><font>0.328</font></td>
+</tr><tr><td scope="row"><font>2161-2520</font></td>
+<td><font>761.7</font></td>
+<td><font>1573.2</font></td>
+<td><font>0.326</font></td>
+</tr><tr><td scope="row"><font>2521-2880</font></td>
+<td><font>1109.4</font></td>
+<td><font>2471.4</font></td>
+<td><font>0.319</font></td>
+</tr></table><p>The data on the amount of time spent as private-payers can also be used  		to get a picture of how much persons who spend down pay, in total, out of  		pocket, prior to their becoming eligible for Medicaid. Of course, we can only  		estimate this amount, since we don't have data indicating the actual amount  		persons paid privately prior to their Medicaid eligibility date.</p>
+<table title="TABLE XII: Distribution of Private Pay Days for Persons Who Spent Down"><tr><td colspan="5"><font>  <b><a name="tableXII" id="tableXII">TABLE XII</a>: Distribution  			 of Private Pay Days for Persons Who Spent Down</b>  </font></td>
+</tr><tr><td scope="col"><font><b>  Number of  			 Days  </b></font></td>
+<td scope="col"><font><b>  Freq.  </b></font></td>
+<td scope="col"><font><b>  Percent  </b></font></td>
+<td scope="col"><font><b>Cum.</b></font></td>
+<td scope="col"><font><b>  Dollars  			 Spent*  </b></font></td>
+</tr><tr><td scope="row"><font>0-30</font></td>
+<td><font>629</font></td>
+<td><font>10.33</font></td>
+<td><font>10.33</font></td>
+<td><font>$1,080</font></td>
+</tr><tr><td scope="row"><font>31-60</font></td>
+<td><font>468</font></td>
+<td><font>7.68</font></td>
+<td><font>18.01</font></td>
+<td><font>3,240</font></td>
+</tr><tr><td scope="row"><font>61-90</font></td>
+<td><font>364</font></td>
+<td><font>5.98</font></td>
+<td><font>23.99</font></td>
+<td><font>5,400</font></td>
+</tr><tr><td scope="row"><font>91-120</font></td>
+<td><font>299</font></td>
+<td><font>4.91</font></td>
+<td><font>28.90</font></td>
+<td><font>7,560</font></td>
+</tr><tr><td scope="row"><font>121-180</font></td>
+<td><font>512</font></td>
+<td><font>8.41</font></td>
+<td><font>37.31</font></td>
+<td><font>10,800</font></td>
+</tr><tr><td scope="row"><font>181-360</font></td>
+<td><font>1043</font></td>
+<td><font>17.13</font></td>
+<td><font>54.43</font></td>
+<td><font>19,440</font></td>
+</tr><tr><td scope="row"><font>361-720</font></td>
+<td><font>1151</font></td>
+<td><font>18.90</font></td>
+<td><font>73.33</font></td>
+<td><font>38,880</font></td>
+</tr><tr><td scope="row"><font>721-1080</font></td>
+<td><font>671</font></td>
+<td><font>11.02</font></td>
+<td><font>84.35</font></td>
+<td><font>64,800</font></td>
+</tr><tr><td scope="row"><font>1081-1440</font></td>
+<td><font>356</font></td>
+<td><font>5.85</font></td>
+<td><font>90.20</font></td>
+<td><font>90,720</font></td>
+</tr><tr><td scope="row"><font>1441-1800</font></td>
+<td><font>242</font></td>
+<td><font>3.97</font></td>
+<td><font>94.17</font></td>
+<td><font>116,640</font></td>
+</tr><tr><td scope="row"><font>1801-2160</font></td>
+<td><font>142</font></td>
+<td><font>2.33</font></td>
+<td><font>96.50</font></td>
+<td><font>142,560</font></td>
+</tr><tr><td scope="row"><font>2161-2520</font></td>
+<td><font>88</font></td>
+<td><font>1.44</font></td>
+<td><font>97.95</font></td>
+<td><font>168,480</font></td>
+</tr><tr><td scope="row"><font>2521-2880</font></td>
+<td><font>50</font></td>
+<td><font>0.82</font></td>
+<td><font>98.77</font></td>
+<td><font>194,400</font></td>
+</tr><tr><td scope="row"><font>2880+</font></td>
+<td><font>75</font></td>
+<td><font>1.23</font></td>
+<td><font>100.00</font></td>
+<td><font>261,360</font></td>
+</tr><tr><td scope="row"><font>Total</font></td>
+<td><font>  6090  </font></td>
+<td><font>100.00</font></td>
+<td><font>  100.00  </font></td>
+<td><font>$39,744</font></td>
+</tr><tr><td colspan="3" scope="col"><font>  </font></td>
+<td scope="col"><font><b>  Days  </b></font></td>
+<td scope="col"><font><b>  Dollars  </b></font></td>
+</tr><tr><td colspan="3" scope="row"><font>Mean number of days &amp; dollars spent</font></td>
+<td><font>552.0</font></td>
+<td><font>$39,744</font></td>
+</tr><tr><td colspan="3" scope="row"><font>Median number of days &amp; dollars spent  </font></td>
+<td><font>306.0</font></td>
+<td><font>$22,032</font></td>
+</tr><tr><td colspan="3" scope="row"><font>Standard Deviation</font></td>
+<td><font>672.4</font></td>
+<td><font>$48,413</font></td>
+</tr><tr><td colspan="5"><font>* Assumes private pay rates of  			 $72</font></td>
+</tr></table><p>In <a href="#tableXII">Table XII</a>, we show the distribution of  		private pay days for persons who spent down. We also estimate their total  		private payments, in constant 1985 dollars, assuming that their average per  		diem private pay rate was $72 per day -- 30% greater than the average $55 per  		day Medicaid rate found during that year.</p>
+<p>The average person who spent down remained more than 1 1/2 years (552  		days) as a private payer, at an estimated out-of-pocket cost of nearly $40,000.  		The median person spent more than 10 months as a private payer. The  		distribution of private pay days is quite broad; nearly 1/4 of persons who  		spent down did so within 90 days, while more than 1/4 spent down after at least  		two years of paying privately.</p>
+<h2><a name="patient" id="patient">4. PATIENT CHARACTERISTICS IN RELATION TO  		SPEND-DOWN</a></h2>
+<h3>a. Overview</h3>
+<p>In order to explore the possibility that the spend-down phenomenon is  		related to particular patient characteristics, we examine the relationships  		between the two spend-down indices and these descriptors. These are depicted in  		<a href="#tableXIII">Table XIII</a>. Data regarding demographic  		characteristics, diagnosis at time of first admission, history of psychiatric  		illness, and mental and physical functioning at the time of the resident survey  		are included. Relationships between spend-down indices and patient  		characteristics were all found to be statistically significant at the .05 level  		or less. </p>
+<table title="TABLE XIII: Spend-Down Indices According to Patient Characteristics"><tr><td colspan="3"><font><b><a name="tableXIII" id="tableXIII">TABLE XIII</a>: Spend-Down Indices  			 According to Patient Characteristics</b></font></td>
+</tr><tr><td scope="col"><font><b> </b></font></td>
+<td scope="col"><font><b>Spend-Down Index  			 1  Spend-Downers/Private-Pay  			 Admissions  </b></font></td>
+<td scope="col"><font><b>Spend-Down Index  			 2  Spend-Downers/Medicaid Recipients  </b></font></td>
+</tr><tr><td scope="row"><font>TOTAL  			 POPULATION  </font></td>
+<td><font>38.3%</font></td>
+<td><font>39.3%</font></td>
+</tr><tr><td colspan="3" scope="row"><font>GENDER</font></td>
+</tr><tr><td scope="row"><font>Male</font></td>
+<td><font>32.6%</font></td>
+<td><font>31.6%</font></td>
+</tr><tr><td scope="row"><font>Female</font></td>
+<td><font>39.5%</font></td>
+<td><font>42.1%</font></td>
+</tr><tr><td colspan="3" scope="row"><font>AGE GROUP</font></td>
+</tr><tr><td scope="row"><font>Less than 65  			 years</font></td>
+<td><font>29.5%</font></td>
+<td><font>15.8%</font></td>
+</tr><tr><td scope="row"><font>65 to 74  			 years</font></td>
+<td><font>36.7%</font></td>
+<td><font>24.3%</font></td>
+</tr><tr><td scope="row"><font>75 to 84  			 years</font></td>
+<td><font>35.1%</font></td>
+<td><font>40.8%</font></td>
+</tr><tr><td scope="row"><font>Over 84  			 years</font></td>
+<td><font>41.1%</font></td>
+<td><font>51.1%</font></td>
+</tr><tr><td colspan="3" scope="row"><font>RACE</font></td>
+</tr><tr><td scope="row"><font>White</font></td>
+<td><font>38.0%</font></td>
+<td><font>41.2%</font></td>
+</tr><tr><td scope="row"><font>Non-White</font></td>
+<td><font>30.3%</font></td>
+<td><font>9.4%</font></td>
+</tr><tr><td colspan="3" scope="row"><font>DIAGNOSIS</font></td>
+</tr><tr><td scope="row"><font>Neoplasms</font></td>
+<td><font>32.3%</font></td>
+<td><font>36.8%</font></td>
+</tr><tr><td scope="row"><font>Diabetes</font></td>
+<td><font>44.4%</font></td>
+<td><font>36.1%</font></td>
+</tr><tr><td scope="row"><font>Mental  			 (Non-Psych.)  </font></td>
+<td><font>40.8%</font></td>
+<td><font>41.3%</font></td>
+</tr><tr><td scope="row"><font>Mental  			 (Psych.)</font></td>
+<td><font>34.0%</font></td>
+<td><font>16.2%</font></td>
+</tr><tr><td scope="row"><font>Mental  			 Retardation</font></td>
+<td><font>35.5%</font></td>
+<td><font>41.7%</font></td>
+</tr><tr><td scope="row"><font>Nervous  			 System</font></td>
+<td><font>41.3%</font></td>
+<td><font>43.5%</font></td>
+</tr><tr><td scope="row"><font>Circulatory</font></td>
+<td><font>38.4%</font></td>
+<td><font>43.2%</font></td>
+</tr><tr><td scope="row"><font>Stroke</font></td>
+<td><font>38.5%</font></td>
+<td><font>36.8%</font></td>
+</tr><tr><td scope="row"><font>Respiratory</font></td>
+<td><font>40.0%</font></td>
+<td><font>51.5%</font></td>
+</tr><tr><td scope="row"><font>Connective  			 Tissue</font></td>
+<td><font>37.3%</font></td>
+<td><font>47.4%</font></td>
+</tr><tr><td scope="row"><font>Injury</font></td>
+<td><font>37.6%</font></td>
+<td><font>39.8%</font></td>
+</tr><tr><td scope="row"><font>Other</font></td>
+<td><font>39.8%</font></td>
+<td><font>38.1%</font></td>
+</tr><tr><td colspan="3" scope="row"><font>PSYCHIATRIC HIST.</font></td>
+</tr><tr><td scope="row"><font>Present</font></td>
+<td><font>35.2%</font></td>
+<td><font>23.3%</font></td>
+</tr><tr><td scope="row"><font>Absent</font></td>
+<td><font>38.3%</font></td>
+<td><font>43.0%</font></td>
+</tr><tr><td colspan="3" scope="row"><font>#  			 ADL LIMITATIONS</font></td>
+</tr><tr><td scope="row"><font>0</font></td>
+<td><font>33.9%</font></td>
+<td><font>27.9%</font></td>
+</tr><tr><td scope="row"><font>1</font></td>
+<td><font>35.1%</font></td>
+<td><font>34.6%</font></td>
+</tr><tr><td scope="row"><font>2</font></td>
+<td><font>38.6%</font></td>
+<td><font>36.2%</font></td>
+</tr><tr><td scope="row"><font>3</font></td>
+<td><font>34.5%</font></td>
+<td><font>41.6%</font></td>
+</tr><tr><td scope="row"><font>4</font></td>
+<td><font>40.0%</font></td>
+<td><font>43.9%</font></td>
+</tr><tr><td scope="row"><font>5</font></td>
+<td><font>40.7%</font></td>
+<td><font>46.0%</font></td>
+</tr><tr><td colspan="3" scope="row"><font>CONFUSION</font></td>
+</tr><tr><td scope="row"><font>Present</font></td>
+<td><font>40.8%</font></td>
+<td><font>42.9%</font></td>
+</tr><tr><td scope="row"><font>Absent</font></td>
+<td><font>38.6%</font></td>
+<td><font>34.3%</font></td>
+</tr></table><h3>b. Spend-Down Indices and Demographics</h3>
+<p><a href="#tableXIII">Table XIII</a> shows that Spend-Down Index 1 and 2  		are both greater for women than for men and that they both increase with age  		(which is shown as the patient's age at the time of first admission to a  		nursing home). The most significant increase is observed for Spend-Down Index 2  		by age. For ages less than 65 years old, this index is 15%, indicating that 85%  		of these individuals who received Medicaid on September 30, 1985 had always  		received Medicaid since the time of their first entry into a nursing home. In  		contrast, for individuals 85 years of age and older, half (51%) of the Medicaid  		recipients had spent down after their admission to a nursing home. </p>
+<p>Although only a small percentage of the cohort is non-white, there is a  		sharp contrast seen in the spend-down rates by race. Whites demonstrate a  		moderately larger rate (25% higher) of spending down from private pay, as  		reflected by Spend-Down Index 1 than do non-Whites. Non-White persons who spend  		down represent a strikingly smaller proportion of the non-White Medicaid  		population than do White spend-downers among White Medicaid recipients. This is  		clear from the value of Spend-Down Index 2 which, in non-Whites, is less than  		1/4 of that of Whites (9% as compared with 41%). </p>
+<h3>c. Spend-Down Indices and Diagnoses at Admission</h3>
+<p>In categorizing individuals according to their medical diagnoses, we  		followed the classification scheme introduced by the Connecticut DOHS (Pattee,  		1988). Mental disorders were identified in two subgroups: the first included  		non-psychotic conditions such as senile dementia and chronic brain syndrome.  		The second included psychotic conditions, such as schizophrenic or  		manic-depressive psychoses. Individuals were recorded as having a psychiatric  		history if they had a psychotic diagnoses on one or more of their admissions,  		or if they were either admitted from, or discharged to, a mental hospital.</p>
+<p>The differences among diagnostic categories in Spend-Down Indices are  		small but statistically significant at the .05 level or less. Conditions  		showing low rates for Index 1 included neoplasms, psychotic conditions, and  		mental retardation. Psychotic conditions also displayed very low rates of Index  		2 (less than 1/2 of the average). Respiratory diseases and diseases of  		connective tissue (i.e., arthritis) showed high rates of Index 2. </p>
+<p>There appeared to be a strong positive correlation between Spend-Down  		Index 2 and psychiatric history. Nearly 4/5 of Medicaid patients with a  		psychiatric history had entered a nursing home already on Medicaid, as compared  		with less than 3/5 of persons who had no psychiatric history.</p>
+<h3>d. Spend-down indices and functional level on September  		30, 1985</h3>
+<p>Unlike the medical diagnoses, information is available about the  		patients functional status at the time of the one-day survey rather than at  		time of admission. ADL limitations included in the survey were transferring,  		dressing, feeding, ambulation, and bowel and bladder continence.</p>
+<p>There appeared to be a direct but weak relationship between disability  		level as measured by the number of ADL limitations and Spend-Down Indices 1 and  		2. Individuals who had more limitations had higher spend-down rates than those  		with fewer limitations. The relationship was much stronger between ADL  		limitations and Spend-Down Index 2. </p>
+<p>An individual's mental functioning was measured with a single dummy  		variable indicating the presence of confusion. Individuals classified as  		"confused" were found to have a higher Spend-Down Index 2 than those not so  		classified.</p>
+<h3>e. Effect of Controlling for length of stay</h3>
+<p>We further examine the above variations in spend-down proportions,  		focusing on Spend-Down Index 1. Recall that this index is a measure of the  		propensity of private pay persons to spend down, and it therefore could be used  		as a surrogate for the extent of wealth of persons with certain  		characteristics. However, we have shown (<a href="#tableXII">Table XII</a>)  		that length of stay affects Spend-Down Index 1 quite strongly. Individuals who  		have long lengths of stay have a much larger Index 1, because they have more  		time in which to spend down their assets. </p>
+<p>In order to understand whether the differences in Spend-Down Index 1  		that are observed between persons with varying characteristics imply different  		levels of wealth, it is necessary to control for length of stay. To examine  		this issue, we carried out a logit analysis to predict the probability that an  		individual in the resident cohort who entered as Private Pay will spend down  		some time prior to September 30, 1985. Index 1 is the dependent variable and we  		include the following variables as independent variables: los (length of stay),  		age as measured from 65 years (age-65), sex (male = 1, female=2), race  		(white=1, non-white=2), adl (the number of ADL limitations), and psychpt  		(psychiatric history=1, no such history=2).</p>
+<p>If particular characteristics are found in the logit analysis to be  		significantly associated with the probability of spending down, even with  		length of stay included as an independent variable, this would indicate that  		these characteristics are independently related to the probability of  		spend-down, and thus, to the amount of private payments made by individuals  		having these characteristics, prior to the time they spend down. </p>
+<p>The results of the logit analysis are shown in <a href="#tableXIV">Table  		XIV</a>.</p>
+<table title="TABLE XIV: Logit Analysis of the Probability of Spend-Down"><tr><td colspan="6"><b>  <font><a name="tableXIV" id="tableXIV">TABLE  			 XIV</a>: Logit Analysis of the Probability of  			 Spend-Down</font></b>  </td>
+</tr><tr><td colspan="3" scope="col"><font>Logit  			 EstimatesLog Likelihood = -5466.417</font></td>
+<td colspan="3" scope="col"><font>  			 Number of obs = 9262chi2(6) = 1097.55Prob &gt; chi2 =  			 0.0000</font></td>
+</tr><tr><td scope="col"><font><b>Variable</b></font></td>
+<td scope="col"><font><b>  Coefficient  </b></font></td>
+<td scope="col"><font><b>  Std. Error  </b></font></td>
+<td scope="col"><font><b>t</b></font></td>
+<td scope="col"><font><b>  Prob &gt;  			 |t|  </b></font></td>
+<td scope="col"><font><b>Mean</b></font></td>
+</tr><tr><td scope="row"><font>privduml  </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font>  .3532714  </font></td>
+</tr><tr><td scope="row"><font>los</font></td>
+<td><font>.0006971</font></td>
+<td><font>.000024</font></td>
+<td><font>  29.054  </font></td>
+<td><font>0.000</font></td>
+<td><font>1095.163</font></td>
+</tr><tr><td scope="row"><font>age</font></td>
+<td><font>.0076989</font></td>
+<td><font>.0023135</font></td>
+<td><font>3.328</font></td>
+<td><font>0.001</font></td>
+<td><font>81.97474</font></td>
+</tr><tr><td scope="row"><font>sex</font></td>
+<td><font>.0971541</font></td>
+<td><font>.0558644</font></td>
+<td><font>1.739</font></td>
+<td><font>0.082</font></td>
+<td><font>1.757288</font></td>
+</tr><tr><td scope="row"><font>race</font></td>
+<td><font>-.2456267</font></td>
+<td><font>.2087763</font></td>
+<td><font>-1.177</font></td>
+<td><font>0.239</font></td>
+<td><font>1.014792</font></td>
+</tr><tr><td scope="row"><font>adl</font></td>
+<td><font>.0214722</font></td>
+<td><font>.0126758</font></td>
+<td><font>1.694</font></td>
+<td><font>0.090</font></td>
+<td><font>2.161736</font></td>
+</tr><tr><td scope="row"><font>psychpt</font></td>
+<td><font>.4000606</font></td>
+<td><font>.0782291</font></td>
+<td><font>5.114</font></td>
+<td><font>0.000</font></td>
+<td><font>1.868711</font></td>
+</tr><tr><td scope="row"><font>_cons</font></td>
+<td><font>-2.75204</font></td>
+<td><font>.3267625</font></td>
+<td><font>-8.422</font></td>
+<td><font>0.000</font></td>
+<td><font>1</font></td>
+</tr></table><p>The analysis shows that length of stay is the strongest predictor of the  		probability of spending down. Race is found not to be a significant variable.  		All other dependent variables are significant at the .1 level or higher. </p>
+<p>The single most significant patient characteristic is psychiatric  		history. The analysis shows that individuals with a psychiatric history who  		enter as private pay are more likely to spend down than others when length of  		stay is controlled. This means that these individuals, as a group, spent more  		prior to the time they spent down than did the average resident. In contrast,  		older age, being female, and having a severe disability (as measured by the adl  		score) are all associated with higher rates of spend-down, and hence, lower  		amounts of out-of-pocket spending for nursing home care prior to spend-down.  		</p>
+<h2><a name="source" id="source">5. SOURCES OF APPLIED INCOME</a></h2>
+<p>The amount and proportion of total income that are derived from Social  		Security payments, pensions, family members, and all other sources in relation  		to payment group are contained in the data obtained from the Connecticut  		Department of Income Maintenance. Although these data are peripheral to the  		major questions addressed in this report, they are of some interest and so we  		present some basic information obtained from these data files. The breakdown of  		applied income by source of income are shown in <a href="#tableXV">Table  		XV</a>.</p>
+<p>It should be noted that the total income of individuals is greater than  		the amount contributed by these individuals to their nursing home care (see  		<a href="#tableV">Table 5</a>), because nursing home residents keep a portion  		of their income as a personal needs allowance, and to pay for health  		insurance.</p>
+<table title="TABLE XV: Sources of Contributed Payments: Per-Capita Amounts and Proportion of Contributions by Source of Income and Payment Group"><tr><td colspan="6"><font>  <b><a name="tableXV" id="tableXV">TABLE XV</a>: Sources of  			 Contributed Payments: Per-Capita Amounts and Proportion of Contributions by  			 Source of Income and Payment Group  </b></font></td>
+</tr><tr><td rowspan="2" scope="col"><font><b>Payment Group</b></font></td>
+<td colspan="4" scope="col"><font><b>Sources</b></font></td>
+<td rowspan="2" scope="col"><font><b>  Total  			 Income  </b></font></td>
+</tr><tr><td scope="col"><font><b>  Social  			 Security  </b></font></td>
+<td scope="col"><font><b>  Pensions  </b></font></td>
+<td scope="col"><font><b>  Relatives  </b></font></td>
+<td scope="col"><font><b>  Other  </b></font></td>
+</tr><tr><td colspan="6" scope="row"><font>MEDICAID AT ENTRY</font></td>
+</tr><tr><td scope="row"><font>Income  			 Received  </font></td>
+<td><font>$310.08</font></td>
+<td><font>$36.66</font></td>
+<td><font>$0.57</font></td>
+<td><font>$8.10</font></td>
+<td><font>$355.41</font></td>
+</tr><tr><td scope="row"><font>Income  			 Portion</font></td>
+<td><font>87.3%</font></td>
+<td><font>10.3%</font></td>
+<td><font>.2%</font></td>
+<td><font>2.2%</font></td>
+<td><font>100.0%</font></td>
+</tr><tr><td colspan="6" scope="row"><font>ASSET SPEND-DOWN</font></td>
+</tr><tr><td scope="row"><font>Income  			 Received</font></td>
+<td><font>$417.96</font></td>
+<td><font>$81.91</font></td>
+<td><font>$2.28</font></td>
+<td><font>$17.00</font></td>
+<td><font>$519.15</font></td>
+</tr><tr><td scope="row"><font>Income  			 Portion</font></td>
+<td><font>80.5%</font></td>
+<td><font>15.8%</font></td>
+<td><font>.4%</font></td>
+<td><font>3.3%</font></td>
+<td><font>100.0%</font></td>
+</tr><tr><td colspan="6" scope="row"><font>TOTAL</font></td>
+</tr><tr><td scope="row"><font>Income  			 Received</font></td>
+<td><font>$351.97</font></td>
+<td><font>$54.23</font></td>
+<td><font>$1.24</font></td>
+<td><font>$11.56</font></td>
+<td><font>$419.00</font></td>
+</tr><tr><td scope="row"><font>Income  			 Portion</font></td>
+<td><font>84.0%</font></td>
+<td><font>12.9%</font></td>
+<td><font>.3%</font></td>
+<td><font>2.8%</font></td>
+<td><font>100.0%</font></td>
+</tr></table><p>It is evident in <a href="#tableXV">Table XV</a> that the preponderance  		of income of nursing home residents receiving Medicaid comes from Social  		Security payments to individuals. 84% of their total income is attributed to  		this source. The remainder comes from pensions, which provides 13%, and  		relatives and other sources, which together, account for only 3%. </p>
+<p>It can also be seen that asset spend-down residents (whose applied  		income was shown earlier to be more than that of those who were Medicaid at  		entry) had greater income from all four sources than had those who were  		Medicaid at entry, as may have been anticipated. </p>
+<h2><a name="eligible" id="eligible">6. WHEN DO PERSONS BECOME ELIGIBLE FOR  		MEDICAID?</a></h2>
+<p>It is interesting to examine the time of Medicaid eligibility of persons  		who are Medicaid at entry. These data are shown in <a href="#tableXVI">Table  		XVI</a> below.</p>
+<table title="TABLE XVI: Distribution of Days of Medicaid Eligibility Prior to First Nursing Home Admission"><tr><td colspan="3"><font><b>  <a name="tableXVI" id="tableXVI">TABLE XVI</a>: Distribution  			 of Days of Medicaid Eligibility Prior to First Nursing Home  			 Admission  </b></font></td>
+</tr><tr><td scope="col"><font><b>Days EligibleBefore Admission</b></font></td>
+<td scope="col"><font><b>  Number  </b></font></td>
+<td scope="col"><font><b>  Percentage  </b></font></td>
+</tr><tr><td scope="row"><font>0</font></td>
+<td><font>925</font></td>
+<td><font>9.84</font></td>
+</tr><tr><td scope="row"><font>1-30</font></td>
+<td><font>716</font></td>
+<td><font>7.62</font></td>
+</tr><tr><td scope="row"><font>31-365</font></td>
+<td><font>3109</font></td>
+<td><font>33.07</font></td>
+</tr><tr><td scope="row"><font>Over  			 365  </font></td>
+<td><font>4650</font></td>
+<td><font>49.47</font></td>
+</tr><tr><td scope="row"><font>Total</font></td>
+<td><font>9400</font></td>
+<td><font>100.00</font></td>
+</tr></table><p>These data indicate that the Medicaid at entry population is quite  		diverse. About half of these individuals were eligible for Medicaid for at  		least one year prior to their first admission. The others became eligible  		within the last year. Among them, about 10% first became eligible on the date  		of their first admission to a nursing home.</p>
+<p>Although we cannot know for certain what these data represent, it is  		plausible to associate the long-time Medicaid recipients (those who were  		eligible for 1 year or more) as, primarily, the categorically eligible  		population; individuals who became eligible more recently may represent persons  		who had high medical expenses including expenses for community long-term care  		services; those who became eligible on the day of their nursing home entry are  		likely to represent the near-poor population who are eligible for Medicaid on  		the basis of their assets, but whose income prevents them from becoming  		eligible for Medicaid until they enter the nursing home.</p>
+<p>If these conjectures are correct, and the year cutoff was accurate for  		distinguishing community spend-downers from categorically eligible individuals,  		then as many as 50% of the Medicaid at entry population would not be  		categorically-eligible Medicaid recipients. If we add these persons to the  		nearly 40% of the total Medicaid resident population we found to be asset  		spend-downers, we would find that the great majority (70%, in fact) of all  		Medicaid recipients of nursing homes were not categorically-eligible Medicaid  		recipients before they became ill. Thus, the impact of spend-down on Medicaid  		may be considerably greater than what can be attributed to asset spend-down  		alone.</p>
+<p>It should be pointed out, however, that these latter data only provide  		an upper bound for the number of persons who qualify for Medicaid because of  		spend-down. Individuals who become eligible for Medicaid at a time approaching  		their nursing home entry may, in fact, be categorically eligible for Medicaid;  		it is known that many individuals who are eligible do not apply because they  		feel they don't need the additional coverage (Coe, 1985). Also, some of these  		individuals may have been able to figure out how to transfer their assets in  		order to become Medicaid eligible, knowing that they were going to enter a  		nursing home soon.</p>
+<h2><a name="compare" id="compare">7. COMPARISON OF RESULTS WITH OTHER STUDIES</a></h2>
+<p><a href="#tableXVII">Table XVII</a> shows a comparison of our findings  		with those of other studies. We included only two studies that examine resident  		cohort data and a third one -- the Michigan study -- that examined an all-user  		cohort because the statistics that are shown are shown in our comparison are  		comparable for an all-user and a resident cohort.</p>
+<p>It should be emphasized that only in our Connecticut study are  		individuals traced back to the time of their first admission to a nursing home.  		The U.S. and Massachusetts study looked back to the time when an individual was  		first admitted to the nursing home that they were found as a resident. The  		Michigan study included earlier admissions, but only those that occurred within  		a time frame of no more than 5 years. Because of these differences, we expect  		that the other 3 studies underestimate the extent of spend-down, i.e., they  		include individuals as Medicaid at entry if they had spent down in other  		nursing homes, or, in the case of Michigan, prior to the time of the beginning  		of data collection. </p>
+<table title="TABLE XVII: Comparison of Spend-Down Statistics, Connecticut, U.S. Massachusetts and Michigan"><tr><td colspan="5"><font>  <b><a name="tableXVII" id="tableXVII">TABLE XVII</a>: Comparison  			 of Spend-Down Statistics, Connecticut, U.S. Massachusetts and  			 Michigan</b>  </font></td>
+</tr><tr><td rowspan="2" scope="col"><font><b>Variable</b></font></td>
+<td colspan="4" scope="col"><font><b>Location</b></font></td>
+</tr><tr><td scope="col"><font><b>  Connecticut  </b></font></td>
+<td scope="col"><font><b>  US-NMES  </b></font></td>
+<td scope="col"><font><b>  Massachusetts  </b></font></td>
+<td scope="col"><font><b>  Michigan*  </b></font></td>
+</tr><tr><td colspan="5" scope="row"><font>A. % RECEIVING</font></td>
+</tr><tr><td scope="row"><font>Receiving</font></td>
+<td><font>62%</font></td>
+<td><font>62%</font></td>
+<td><font>70%</font></td>
+<td><font>n.a.</font></td>
+</tr><tr><td colspan="5" scope="row"><font>B. SPENDDOWN STATISTICS</font></td>
+</tr><tr><td scope="row"><font>Spenddown  			 Index I</font></td>
+<td><font>39%</font></td>
+<td><font>26%</font></td>
+<td><font>47%</font></td>
+<td><font>n.a.</font></td>
+</tr><tr><td scope="row"><font>Spenddown  			 Index II  </font></td>
+<td><font>39%</font></td>
+<td><font>18%</font></td>
+<td><font>26%</font></td>
+<td><font>25%</font></td>
+</tr><tr><td colspan="5" scope="row"><font>C. TIME UNTIL SPENDDOWN</font></td>
+</tr><tr><td scope="row"><font>&lt; 12  			 months</font></td>
+<td><font>54%</font></td>
+<td><font>62%</font></td>
+<td><font>n.a.</font></td>
+<td><font>73%</font></td>
+</tr><tr><td scope="row"><font>12-24  			 months</font></td>
+<td><font>19%</font></td>
+<td><font>15%</font></td>
+<td><font>n.a.</font></td>
+<td><font>15%</font></td>
+</tr><tr><td scope="row"><font>24-36  			 months</font></td>
+<td><font>11%</font></td>
+<td><font>6%</font></td>
+<td><font>n.a.</font></td>
+<td><font>5%</font></td>
+</tr><tr><td scope="row"><font>&gt; 36  			 months</font></td>
+<td><font>16%</font></td>
+<td><font>17%</font></td>
+<td><font>n.a.</font></td>
+<td><font>6%</font></td>
+</tr><tr><td colspan="5" scope="row"><font>D. MEAN APPLIED INCOME</font></td>
+</tr><tr><td scope="row"><font>Medicaid At  			 Entry</font></td>
+<td><font>$292</font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font>$316**</font></td>
+</tr><tr><td scope="row"><font>Spend  			 downers</font></td>
+<td><font>$421</font></td>
+<td><font> </font></td>
+<td><font> </font></td>
+<td><font>$425</font></td>
+</tr><tr><td colspan="5"><font>* All-user cohort** Includes  			 persons who became eligible for Medicaid within 30 days of their admission to  			 the home.</font></td>
+</tr></table><p>The NMES analysis found exactly the same proportion of persons enrolled  		in Medicaid (62%) as were found in Connecticut. From this perspective,  		Connecticut may look quite close to the nation as a whole. However, the  		percentage of private persons who spent down is only much smaller in the  		national sample (i.e., Spend-down index 1) than in Connecticut as is the  		percentage of the Medicaid population that had spent down (i.e., Spend-down  		index 2). It may be that all or part of these differences result from the use  		of only the most recent nursing home in the NMES study.</p>
+<p>The frequency distribution of spend-down times appears quite similar in  		the Connecticut and NMES studies, although the rates are slightly higher for  		periods of 2 years or less in NMES as compared with Connecticut. In contrast,  		the rate at which residents had spent-down appears much faster in Michigan than  		in Connecticut. </p>
+<p>Massachusetts and Michigan appear quite different from Connecticut.  		Massachusetts stands out by its very high (46%) value of Spend-down index I. It  		is likely that this index would be even higher if data were obtained at the  		point of first admission. Both Massachusetts and Michigan have much lower  		values of Spend-down Index II than in Connecticut, suggesting that Spend-down  		has less of an impact on Medicaid expenditures in these states. However, it  		isn't known whether this finding would stand up if individuals had been traced  		back to their first nursing home admission in these states.</p>
+<p>The data on applied income -- i.e., the amount individuals receiving  		Medicaid contribute towards their nursing home per diem -- is remarkably  		similar in Connecticut and in Michigan. The difference in the amount  		contributed by Medicaid at entry and those who spent down is about 15% less in  		Michigan than in Connecticut, but this could result from the fact that in  		Michigan, the Medicaid at entry group included persons who spent down within 30  		days after their entry into nursing homes, while in Connecticut, these  		individuals were classified as spend-downers.</p>
+<h2><a name="imply" id="imply">8. IMPLICATIONS OF THE FINDINGS</a></h2>
+<p>The findings of this study have important implications which need to be  		considered when formulating new public policy options. First of all, there has  		been a great deal of concern recently about transfers of assets by nursing home  		patients to enable them to qualify for Medicaid. The data does not allow one to  		determine the extent of such transfers, but it does show that in 1985, there  		were substantial amounts of private payments to nursing homes. In addition to  		the payments made by the privately paying population, we find that the average  		person who spent down stayed 4.7 years in nursing homes, of which 1.5 years  		were spent paying privately at a total cost of $40,000 (in 1985 dollars). Thus,  		if transfers of assets were taking place prior to 1985, they were not making a  		significant enough impact to prevent a considerable amount of personal savings  		being applied to nursing home care.</p>
+<p>Spend-down affects Medicaid expenditures in a different way than it  		affects individuals admitted to nursing homes. A substantial effect on Medicaid  		arises from the relatively small number of admissions who stay in nursing homes  		for very long periods of time. In fact, we have seen (see <a href="#tableX">Table X</a>) that 3/4 of persons who spent down had lengths of  		stays that exceed two years. Thus, long stayers are dominant among nursing home  		residents who have spent down. </p>
+<p>A close look at the data shows that the spend-down population is very  		diverse, including many individuals with considerable wealth -- and who spent  		more than the $40,000 average nursing home cost experienced by this population  		-- and many individuals who had only small amounts of savings and who spent  		down very quickly. In designing new programs that involve public and/or private  		dollars, it is important to take into account the considerable amount of  		private payments made by persons who spend down as well as the diversity in the  		wealth among this population. </p>
+<p>The least costly (in public dollars) program would encourage wealthier  		persons -- some of whom spend down after very long nursing home stays -- to  		pool their risks through insurance, thus enabling them to pay for their nursing  		home care without spending down; at the same time, a new program could provide  		public dollars to support individuals with only meager savings and low incomes  		who can ill afford private insurance and who are observed to spend-down after  		relatively short periods of time. </p>
+<p>One part of the public debate has centered on whether there should be a  		"front-end benefit" covering the first few months of care or a "back-end  		benefit" covering nursing home stays after an extended waiting period. The  		broad distribution of spend-down times suggests that the least costly type of  		public benefit would be income-related. Persons who spend down after short  		times (i.e., those with low incomes) would be benefited most (as would the  		Medicaid program) if these persons could obtain a reasonably-priced (or  		publicly provided) front-end benefit, covering 3-6 months of nursing home and  		home care; this would enable them to preserve their meager savings if they  		returned in good health to the community. Also, it would prevent many of them  		-- the short-stayers -- from spending down at all. In contrast, wealthier  		individuals who are observed to spend-down only after long nursing home stays  		could be encouraged to pool their resources to purchase a reasonable amount  		(2-3 years) of private insurance; Federal dollars used to provide stop-loss  		protection beyond this period would provide individuals who can afford private  		insurance with an incentive to purchase that insurance. The amount of stop-loss  		protection offered by the Federal government could be related to individuals  		assets, as is done in the Connecticut Partnership program. </p>
+<p>One initiative that should be considered that would include the  		desirable features mentioned above would be a combined Federal-private  		initiative incorporating publicly provided short-term coverage for the poor and  		near poor with the offer of stop-loss coverage for persons who can afford to  		buy private insurance; an initiative of this kind would make a big dent in  		State deficits caused by bloated Medicaid nursing home expenditures, while at  		the same time, protecting vulnerable lower income individuals, who could remain  		in the community, from spending their meager savings on short but expensive  		episodes of nursing home or home care. </p>
+<p>This type of means-tested program would be less costly than most of the  		other proposals that are on the table, while at the same time incorporating the  		desirable features of front- and back-end proposals.</p>
+<h2><a name="ref" id="ref">REFERENCES</a></h2>
+<p>Arling, G., Buhaug, H., Hagan, S. and Zimmerman, D., "Medicaid Spenddown  		Among Nursing Home Residents in Wisconsin", <b>The Gerontologist</b>, Vol. 31,  		No. 2, 1991.</p>
+<p>Bice, T.W., and C. Pattee, "Nursing Home Stays and Spend-Down in the  		State of Connecticut 1978-1983 Admission Cohorts", Working Paper DP #8-90, The  		Connecticut Partnership For Long Term Care, October, 1990. </p>
+<p>Burwell, B., Adams, E.K. and Meiners, M, "Spend-Down of Assets Before  		Medicaid Eligibility Among Nursing Home Elderly Recipients in Michigan",  		<b>Medical Care</b>, Vol. 28, No. 4, April 1990.</p>
+<p>Farbstein, K. and L. Gruenberg, "Understanding Nursing Home Use in  		Massachusetts: An Analysis of Massachusetts Long Term Care Utilization  		Patterns, September, 1989.</p>
+<p>Gruenberg, L., Farbstein, K., Hughes-Cromwick, P., Pattee, C., and  		Mahoney, K., "An Analysis of the Spend-Down Patterns of Individuals Admitted To  		Nursing Homes in the State of Connecticut", Working Paper DP #1-89, The  		Connecticut Partnership For Long Term Care", September, 1989.</p>
+<p>Judge, A., "Long-Term Care Data Linkage", Working Paper DP #4-90,  		Connecticut Partnership for Long-Term Care, 1990.</p>
+<p>Liu, K., and K. Manton, "Nursing Home Length of Stay and Spenddown in  		Connecticut, 1977-1986", <b>The Gerontologist</b>, Vol. 31, No. 2, 1991. </p>
+<p>Pattee, C., "A Longitudinal Study of Connecticut Nursing Home Patients  		10/1/77-9/30/85", Part 1, Connecticut Department of Health Services, July,  		1988.</p>
+<p>Sekcenski, E.S., "Discharges From Nursing Homes: Preliminary Data From  		the 1985 National Nursing Home Survey. <b>Advance Data from Vital and Health  		Statistics</b>, Number 142. DHHS Pub. No. (PHS)87-1250. Hyattsville, MD: U.S.  		Public Health Service.</p>
+<p>Short, P., Kemper, P., Cornelius, L., and Walden, D., Public and Private  		Responsibility For Financing Nursing Home Care: The Effect of Medicaid  		Spend-Down", paper presented at the meeting of the American Public Health  		Association, October, 1990, draft.</p>
+<p>Spence, D., and J. Weiner, "Estimating the Extent of Medicaid Spend-Down  		in Nursing Homes", <b>Journal of Health Policy, Politics and Law</b>, Vol. 15,  		No. 3, Fall 1990.</p>
+<h2><a name="notes" id="notes">NOTES</a></h2>
+<ol><li>
+<p><a name="note1" id="note1">A</a> more rigorous approach would be to follow the  			 methods used by Burwell (Burwell, et.al., 1989) and examine all users of a  			 nursing home over a year period. This would have required complex file  			 construction which was outside of the scope of this project.</p>
+</li>
+<li>
+<p><a name="note2" id="note2">There</a> data probably understate the actual length  			 of stay of the 1985 resident cohort. The Connecticut nursing home reporting  			 system began on September 30, 1977, and data about the first date of admission  			 for persons admitted before that date reflect only the admission to the nursing  			 home where the person resided on that date. Earlier admissions to other nursing  			 homes were not recorded. Thus the data presented here represent a lower bound  			 to the length of stay.</p>
+</li>
+</ol><hr /><p>To obtain a printed copy of this report, send the full report title and  		your mailing information to:</p>
+<blockquote><p>U.S. Department of Health and Human ServicesOffice of Disability,  		  Aging and Long-Term Care PolicyRoom 424E, H.H. Humphrey Building200  		  Independence Avenue, S.W.Washington, D.C.  		  20201FAX:  202-401-7733Email:  <a href="mailto: webmaster.DALTCP@hhs.gov">webmaster.DALTCP@hhs.gov</a></p>
+</blockquote>
+<hr /><p class="lastupdated"><b>RETURN TO:</b> </p>
+<p class="lastupdated">Office of Disability, Aging and  		Long-Term Care Policy (DALTCP) Home [<a href="http://aspe.hhs.gov/_/office_specific/daltcp.cfm">http://aspe.hhs.gov/_/office_specific/daltcp.cfm</a>]Assistant  		Secretary for Planning and Evaluation (ASPE) Home [<a href="http://aspe.hhs.gov">http://aspe.hhs.gov</a>]U.S. Department of  		Health and Human Services Home [<a href="http://www.hhs.gov">http://www.hhs.gov</a>]</p>
+
+  <div class="download_report">
+    
+                        <div class="pdf-prev">
+                <img src="https://aspe.hhs.gov/system/files/pdfpreview/264f7ea20f9ab324c98d9d1cb1c63c8e.png" alt="Preview" title="Preview" />            </div>
+                <a class="btn btn-sm btn-default download-file"
+           href="https://aspe.hhs.gov/system/files/pdf/74496/spddwn.pdf">Download</a>
+
+        <p class="download_title">&quot;spddwn.pdf&quot;
+            (pdf,
+            1.67Mb)</p>
+        <p>Note: Documents in PDF format require the <a href="http://www.adobe.com/products/acrobat/readstep2.html">Adobe
+                Acrobat Reader&reg;</a>. If you experience problems with PDF documents, please <a
+                href="http://www.adobe.com/products/acrobat/readstep2.html">download the latest version of the
+                Reader&reg;</a>
+        </p>
+    </div>
+<div class="group-tags"><div class="field-label">Tags:&nbsp;</div><a href="/terms/asset-spenddown">Asset Spenddown</a><a href="/terms/publications-2">Publications</a><a href="/terms/nursing-home-0">Nursing Home</a><a href="/terms/disability-aging-and-long-term-care-research">Disability, Aging and Long-Term Care Research</a><a href="/terms/expenditures">Expenditures</a><a href="/terms/health-services-formal">Health Services, Formal</a></div>  </div>
+
+      <footer>
+          </footer>
+  
+    <div id="block-webform-client-block-158521" class="widget block block-webform" >
+  
+      
+  <div id="webform-ajax-wrapper-158521"><form class="webform-client-form webform-client-form-158521" action="/basic-report/analysis-impact-spend-down-medicaid-expenditures" method="post" id="webform-client-form-158521" accept-charset="UTF-8"><div><div class="webform-progressbar">
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-radios webform-component--was-this-page-helpful">
+  <label for="edit-submitted-was-this-page-helpful">Was this page helpful? <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-was-this-page-helpful" class="form-radios"><div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-1" name="submitted[was_this_page_helpful]" value="1" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-1">Yes </label>
+
+</div>
+<div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-2" name="submitted[was_this_page_helpful]" value="0" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-2">No </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="4" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-_ZJDYCUsvN8pmr8YgYvXppkvaC9oJTMsKO8qgq5yLXA" />
+<input type="hidden" name="form_id" value="webform_client_form_158521" />
+<input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-158521" />
+<div class="form-actions"><input class="webform-next button-primary btn btn-default form-submit" type="submit" id="edit-webform-ajax-next-158521" name="op" value="Next &gt;" /></div>
+<div class="is-useful-disclaimer"> <a href="/%23" class="" title="Survey Disclaimer" data-toggle="modal" data-target="#disclamerModal">Form Approved OMB# 0990-0379 Exp. Date 8/31/2017</a></div>
+<div class="modal fade" id="disclamerModal" tabindex="-1" role="dialog" aria-labelledby="disclamerModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="disclamerModalLabel">Survey Disclaimer</h2>
+      </div>
+      <div class="modal-body">
+         According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this information collection is 0990-0379. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, gather the data needed, and complete and review the information collection. If you have comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: U.S. Department of Health & Human Services, OS/OCIO/PRA, 200 Independence Ave., S.W., Suite 336-E, Washington D.C. 20201, Attention: PRA Reports Clearance Officer.      </div>
+    </div>
+  </div>
+</div></div></form></div>
+  </div> <!-- /.block -->
+<meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/analysis-impact-spend-down-medicaid-expenditures" itemref="md1" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/analysis-impact-spend-down-medicaid-expenditures" itemref="md2 md3 md5 md7 md9 md11 md13 md15" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/asset-spenddown" id="md5" itemref="md4" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/publications-2" id="md7" itemref="md6" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/nursing-home-0" id="md9" itemref="md8" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/disability-aging-and-long-term-care-research" id="md11" itemref="md10" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/expenditures" id="md13" itemref="md12" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/health-services-formal" id="md15" itemref="md14" />              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <footer  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Footer">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  id="footer_sitemap-footer_sitemap" class="col-sm-6 col-md-6 col-lg-4 ">
+                          
+                              <div id="block-footer-sitemap-footer-sitemap" class="widget block block-footer-sitemap" >
+  
+      
+  <div id="footer-sitemap" class="clearfix">
+  <div class="fs-block-content"><div class="menu-footer-utility"><ul class="footer_links_menu-footer-utility total-items-2 parent-items-0 single-items-0"><li class="menu-5021 depth-1 total-children-8 parent-children-0 single-children-8  first"><a href="/" title="look at ASPE Home" class="fs-root-link">ASPE Home</a><ul class="footer_links_menu-footer-utility total-items-8 parent-items-0 single-items-0"><li class="menu-5026 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/" title="look at HHS Home">HHS Home</a></li>
+<li class="menu-66281 depth-1 fs-no-children"><a href="http://www.usa.gov/" title="look at USA.gov">USA.gov</a></li>
+<li class="menu-66316 depth-1 fs-no-children"><a href="https://oig.hhs.gov/" title="look at Office of the Inspector General">Office of the Inspector General</a></li>
+<li class="menu-66321 depth-1 fs-no-children"><a href="http://www.whitehouse.gov" title="look at The White House">The White House</a></li>
+<li class="menu-5046 depth-1 fs-no-children"><a href="http://www.hhs.gov/Accessibility.html" title="look at Accessibility">Accessibility</a></li>
+<li class="menu-66326 depth-1 fs-no-children"><a href="http://www.hhs.gov/about/budget/index.html" title="look at Budget/Performance">Budget/Performance</a></li>
+<li class="menu-2551 depth-1 fs-no-children"><a href="http://www.hhs.gov/Privacy.html" title="look at Privacy Policy">Privacy Policy</a></li>
+<li class="menu-197776 depth-1 fs-no-children  last"><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" title="Nondiscrimination Notice">Nondiscrimination Notice</a></li>
+</ul></li>
+<li class="menu-5051 depth-1 total-children-4 parent-children-0 single-children-4  last"><a href="http://www.hhs.gov/foia/" title="look at FOIA" class="fs-root-link">FOIA</a><ul class="footer_links_menu-footer-utility total-items-4 parent-items-0 single-items-0"><li class="menu-5056 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/open/recordsandreports/plainwritingact/index.html" title="look at Plain Writing Act">Plain Writing Act</a></li>
+<li class="menu-5061 depth-1 fs-no-children"><a href="http://www.hhs.gov/asa/eeo/no_fear_bullet_3.html" title="look at No Fear Act">No Fear Act</a></li>
+<li class="menu-5066 depth-1 fs-no-children"><a href="http://www.hhs.gov/Disclaimer.html" title="look at Disclaimers">Disclaimers</a></li>
+<li class="menu-2546 depth-1 fs-no-children  last"><a href="http://www.hhs.gov/plugins.html" title="look at Viewers &amp; Players">Viewers &amp; Players</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-5 " id="stability_cms-contact_us">
+                          
+                              <div id="block-stability-cms-contact-us" class="widget block block-stability-cms" >
+  
+      
+  <div class="contacts-widget widget widget__footer">
+	<div class="widget-content">
+		<ul class="contacts-info-list">
+      			<li>
+<!--				<i class="fa fa-map-marker">Address</i>-->
+                <div class="info-icons">
+                    <img  alt="map" class= 'map-icons' src="/sites/all/themes/stability/stability_aspe/images/map.png"/>
+                </div>
+                <div class="info-item">
+					Assistant Secretary for Planning and Evaluation, Room 415F<br />
+U.S. Department of Health and Human Services<br />
+200 Independence Avenue, SW<br />
+Washington, D.C. 20201				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-phone">phone</i>-->
+                <div class="info-icons">
+                    <img alt="phone" src="/sites/all/themes/stability/stability_aspe/images/phone.png"/>
+                </div>
+				<div class="info-item">
+					+1 202.690.7858				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-envelope">email</i>-->
+                <div class="info-icons">
+                    <img alt="mail" src="/sites/all/themes/stability/stability_aspe/images/mail-white.png"/>
+                </div>
+				<span class="info-item">
+					<a href="mailto:osaspeinfo@hhs.gov">osaspeinfo@hhs.gov</a>
+				</span>
+			</li>
+      			                					</ul>
+	</div>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-3 " id="footer">
+                          
+                              <div id="block-block-36" class="widget block block-block" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sign-up</span> for Email Updates</h3>
+		</div>
+    
+  <div class="email_updates">
+<button class="btn btn-default" name="subscribe-button" type="submit" value="subscribe">subscribe</button>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-12 " id="menu-menu-footer-language-menu">
+                          
+                              <div id="block-menu-menu-footer-language-menu" class="widget block block-menu" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Language</span> Assistance Available</h3>
+		</div>
+    
+  <ul class="menu"><li class="first expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#spanish" title="Español">Español</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#chinese" title="繁體中文">繁體中文</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#vietnamese" title="Tiếng Việt">Tiếng Việt</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#korean" title="한국어">한국어</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#tagalog" title="Tagalog">Tagalog</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#russian" title="Русский">Русский</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#arabic" title="العربية">العربية</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#creole" title="Kreyòl Ayisyen">Kreyòl Ayisyen</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#french" title="Français">Français</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#polish" title="Polski">Polski</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#portuguese" title="Português">Português</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#italian" title="Italiano">Italiano</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#german" title="Deutsch">Deutsch</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#japanese" title="日本語">日本語</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#farsi" title="فارسی">فارسی</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#english" title="English">English</a></li>
+</ul></li>
+</ul>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+      </div>
+
+          </div>
+    
+    
+      </footer>
+    
+
+    <!--/PAGEWATCH-->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+                        </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="social-links-wrapper">
+              <span class="social-links-txt">Connect with us</span>
+              <ul class="social-links social-links__dark">
+                                                  <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw-grey.png"/></a></li>
+                                <!--                --><!--                  <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin-grey.png"/></a></li>-->
+<!--                -->
+                                                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>  <script type="text/javascript" src="/sites/default/files/advagg_js/js__VWRymaMz6HfrhnrcJNGcDiSvLVrvhaXvBa7nrBYy8gc__jntPwP3D6myJZH1jW19fXrk5cYMHGRL8NQION22VSEA__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5486d15a696bff0c"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__g6mKbcakHxQkz4ZHYaxdO_xqONINvRMgsHh1zAK-fr0__ATHtEmHaeZ0jidpGU22EkhmPDBSgjD8z0bVDQMI-BIY__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__KUp4PrfOt9BSXUVl8Ctb3dhCMBe4MNVMeb4Gyorx8yY__7g4BeXscCIZAfuu1vxsCj2RIemg-eEK0QpChP9LDmFQ__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__PNjAgubM_3xXRLp4uLsYnv8wQAdT89-RYkSPxT6T45c__rFQwFK4pA5ZaWZSF7FPTfKbbpus0h-5IS8ayrNZGrb4__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__vQiLul2UcfC4nBAR09mhYVBYzRmiNDm2dj3GgSubV38__w84oZe-ZODKe7XnnlbrjV4IWHISOy4PioFEMVgx9hZo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__QJw3g0kOdwsv4twSZLP931zBzsHy50VEHpEN_znIitQ__A6QOuWXElDipBM2iChbWhjAAt3KlUwZ-jODoxdpbwiw__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stability_aspe","theme_token":"pn0vVCbL0c5RjanC3sN39m1vh-YSufnzFxXTw5TLFZA","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/footable.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/aspe_nodes.admin.css":1,"sites\/all\/modules\/custom\/aspe_views\/theme\/css\/aspe_views.admin.css":1,"sites\/all\/modules\/forked\/book\/book.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/openpublic\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.css":1,"profiles\/openpublic\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openpublic\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/openpublic\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/themes\/stability\/css\/bootstrap.min.css":1,"sites\/all\/themes\/stability\/css\/fonts\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.theme.css":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/stability\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/stability\/css\/theme.css":1,"sites\/all\/themes\/stability\/css\/theme-elements.css":1,"sites\/all\/themes\/stability\/css\/animate.min.css":1,"sites\/all\/themes\/stability\/css\/skins\/red.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/slideshow.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/font-main.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/styleless.less":1,"sites\/all\/themes\/stability\/css\/skins\/blue.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/aspe\/theme\/js\/aspe.login-confirm.js":1,"sites\/all\/modules\/custom\/aspe_report\/modules\/aspe_databooks\/js\/aspe_databooks.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.highcharts.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/datatables\/dataTables.min.js":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.min.js":1,"sites\/all\/libraries\/highcharts\/highcharts.js":1,"sites\/all\/libraries\/highcharts\/highcharts.exporting.js":1,"sites\/all\/libraries\/highcharts\/highcharts.map.js":1,"sites\/all\/libraries\/highcharts\/highcharts.us-all.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.footable.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5486d15a696bff0c":1,"misc\/progress.js":1,"profiles\/openpublic\/modules\/contrib\/webform\/js\/webform.js":1,"profiles\/openpublic\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/stability\/vendor\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/stability\/vendor\/bootstrap.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flexnav.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flickrfeed.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.sloppy-masonry.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.fitvids.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.stellar.min.js":1,"sites\/all\/themes\/stability\/vendor\/snap.svg-min.js":1,"sites\/all\/themes\/stability\/js\/custom.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/aspe.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/html5shiv.min.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/main-menu.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/keyboard-control.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tabBehavior.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tileStringTrimmer.js":1}},"webform":{"conditionals":{"webform-client-form-158521":{"ruleGroups":[],"sourceMap":[],"values":[]}}},"ajax":{"edit-webform-ajax-next-158521":{"callback":"webform_ajax_callback","wrapper":"webform-ajax-wrapper-158521","progress":{"message":"","type":"throbber"},"event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Next \u003E"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/basic-report\/analysis-impact-spend-down-medicaid-expenditures":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"([a-z0-9]\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This website contains links to other federal and state agencies and private organizations. The Department of Health and Human Services (HHS) cannot attest to the accuracy of information provided by these nonfederal website links. Linking to nonfederal sites does not constitute an endorsement by HHS or any of its employees of the sponsors or the information and products presented on the sites. You will be subject to the destination site\u0027s privacy policy when you leave the ASPE website.\r\n\r\nThank you for visiting aspe.hhs.gov!","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"stability":{"flickr_id":"52617155@N08","logo_sticky":"28"},"field_group":{"div":"full","hidden":"full"}});
+//--><!]]>
+</script>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config={pubid:"ra-5486d15a696bff0c",ui_click:false}
+//--><!]]>
+</script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4837db659","applicationID":"10708002","transactionName":"MwNaZBRSXEtXB0BdWQpJeVMSWl1WGQpbUFM7FllXA2xEUVMT","queueTime":0,"applicationTime":1521,"atts":"H0RZElxIT0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

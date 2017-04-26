@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">  <!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://aspe.hhs.gov/sites/default/files/Favicon2.png" type="image/png" />
+<meta name="description" content="Health Care in Transition: Technology Assessment in the Private Sector Prepared by: Richard Rettig of the RAND Corporation Office of the Assistant Secretary of Planning and Evaluation Agency for Health Care Policy and Research. July, 1996." />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://aspe.hhs.gov/execsum/health-care-transition-technology-assessment-private-sector" />
+<link rel="shortlink" href="https://aspe.hhs.gov/node/98926" />
+<meta property="og:site_name" content="ASPE" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aspe.hhs.gov/execsum/health-care-transition-technology-assessment-private-sector" />
+<meta property="og:title" content="Health Care in Transition: Technology Assessment in the Private Sector" />
+<meta property="og:description" content="Health Care in Transition: Technology Assessment in the Private Sector Prepared by: Richard Rettig of the RAND Corporation Office of the Assistant Secretary of Planning and Evaluation Agency for Health Care Policy and Research. July, 1996." />
+<meta property="og:updated_time" content="2017-02-21T05:53:46-05:00" />
+<meta property="article:published_time" content="2015-11-23T03:57:18-05:00" />
+<meta property="article:modified_time" content="2017-02-21T05:53:46-05:00" />
+
+  <title>Health Care in Transition: Technology Assessment in the Private Sector | ASPE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+  <link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__5ln8neBOcJfyUveiD4y9fhI6kHBLOQ_YL0mMC-LS9a0__TPJIZT9UBnf_685NlFTJ5KnZVsjwFk6ACQ-nwwygmwU__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ng49uRH5y4Hl9VF9hHW_vXOj-mcOc2u2ShJqJ1YKIGU__FoMCD14GBvZaRiqSQ_JpP1w3rDB21n7H2Ar4pRZaIh8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__Hskudx14OJ5Hz8vqU7CUgN6SDV5rINZuEq9VuGsSeyc__EwNIl3xeFrniW2TmonovTzhSs3X5MdFps210puE7jog__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__9rZoaX9BdzjjNucvYxduxeNAVO2zgW_Rvjhb5rq5whc__lSr_y16grDSgHf4booPChnF7QXz3TQY3hafH49twE0k__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZgfI_ZPib5yVY0o5aKo_6TFn946Tuu_nFDa0ySTmkSc__2FTFrNw2eNh0mpHIOA34r6YRwBZMm2PjJ_JubnwLigg__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__dxabpJ5rQgDSixKgLJZjWc1beC6mpROKwVrmWxI5eno__rqhz_hGsE_i59O7-W991o71_Jxw1QOtGMxn4nsOLHY8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZbRCq2NqWgK-HXAQI3So0N1n0nr4HonsJS3eQuuxukw__7Olkk8Locn8Dj0eR0Ww3rbV9lks9sxipcboMXB18RRs__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+
+	<!-- Head Libs -->
+	<script src="/sites/all/themes/stability/stability_aspe/vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/sites/all/themes/stability/vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" href="/sites/all/themes/stability/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/stability/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/stability/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/stability/images/apple-touch-icon-144x144.png">
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-98926 node-type-report-exec-sum">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-JLFR"
+                  height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JLFR');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-nav" class="accessibility_menu">
+    <strong>Shortcut Navigation:</strong>
+    <ul>
+      <li><a href="#content" accesskey="c" title="Skip to page content (ctrl/alt + c)">Page Content</a></li>
+      <li><a href="#nav" accesskey="m" title="Skip to main navigation menu (ctrl/alt + m)">Site Navigation</a></li>
+
+      <li><a href="#Footer" accesskey="f" title="Skip to footer (ctrl/alt + f)">Footer</a></li>
+    </ul>
+  </div>
+
+    
+<div class="site-wrapper">
+  
+  <header class="header header-menu-fullw header-top-clean">
+    <div id="brand-bar">
+        <div class="container">
+                    <img alt='bird' src="/sites/all/themes/stability/stability_aspe/images/bird.png"> <a target="blank" tabindex="4" href="http://www.hhs.gov/">U.S. Department of Health & Human Services</a>
+        </div>
+
+    </div>
+    <div class="header-main">
+        <div class="container clearfix">
+            <div class="social-links-wrapper">
+                <ul class="social-links social-links__light">
+                                                          <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw.png"/></a></li>
+                                    <!--                  --><!--                    <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin.png"/></a></li>-->
+<!--                  -->
+                                                                      </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                                <div class="site_name_wrapper">
+                                     <span class="h1">
+                                      <a href="/">ASPE</a>
+                                       </span>
+                                  <p class="tagline"><p>Office of The Assistant Secretary</p><p> for Planning and Evaluation</p></p>
+                    </div>
+            </div>
+            <!-- Logo / End -->
+            <div class="header_right_wrapper">
+                <div class="search-form">
+                    <form action="/execsum/health-care-transition-technology-assessment-private-sector" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class = "input-group"><div class="form-type-textfield form-item-search-block-form form-item form-group">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search Site..." class="form-control form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input class="btn btn-primary btn-icon form-submit" type="image" id="edit-submit" name="submit" value="Search" src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/search-white2.png" alt="Search" title="Search" /></div></div><input type="hidden" name="form_build_id" value="form-A6n8fYo5GyQjnaolmp0UGU_77Rmgi7dAP0iNkqzUwxk" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </div>
+                <button type="button" class="navbar-toggle" value="Menu">
+                    <i class="fa fa-bars"></i>Menu
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-main">
+        <div class="container">
+          <ul data-breakpoint="767" class="flexnav">
+                <li class="first expanded"><a href="/basic-search/about" title="">About</a><ul><li class="first leaf"><a href="/mission" title="">Mission</a></li>
+<li class="leaf"><a href="/key-staff" title="">Leadership</a></li>
+<li class="leaf"><a href="https://www.usajobs.gov/" title="">Careers</a></li>
+<li class="expanded"><a href="/coordination" title="linkTo">Coordination</a><ul><li class="first leaf"><a href="/evaluation-evidence" title="">Evaluation &amp; Evidence</a></li>
+<li class="leaf"><a href="/national-alzheimers-project-act">National Alzheimer&#039;s Project Act</a></li>
+<li class="leaf"><a href="/health-and-human-services-hhs-data-council">HHS Data Council</a></li>
+<li class="last leaf"><a href="/national-committee-vital-and-health-statistics" title="National Council on Vital and Health Statistics">National Council on Vital and Health Statistics</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/divisions" title="">Offices</a><ul><li class="first leaf"><a href="/office-disability-aging-and-long-term-care-policy-daltcp">Disability, Aging, and Long-Term Care Policy</a></li>
+<li class="leaf"><a href="/office-health-policy-hp">Health Policy</a></li>
+<li class="leaf"><a href="/office-human-services-policy">Human Services Policy</a></li>
+<li class="last leaf"><a href="/office-science-and-data-policy">Science and Data Policy</a></li>
+</ul></li>
+<li class="leaf"><a href="/strategic-planning" title="Strategic Planning">Strategic Planning</a></li>
+<li class="last leaf"><a href="/contact-aspe" title="">Contact ASPE</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/topics" title="">Topics</a><ul><li class="first leaf"><a href="/affordable-care-act-research">Affordable Care Act Research</a></li>
+<li class="leaf"><a href="/alzheimers-dementia">Alzheimer&#039;s / Dementia</a></li>
+<li class="leaf"><a href="/early-childhood">Early Childhood</a></li>
+<li class="leaf"><a href="/incarceration-reentry">Incarceration &amp; Reentry</a></li>
+<li class="leaf"><a href="/opioid-abuse-us-and-hhs-actions-address-opioid-drug-related-overdoses-and-deaths" title="Opioids">Opioids</a></li>
+<li class="leaf"><a href="/patient-centered-outcomes-research-trust-fund">Patient-Centered Outcomes Research Trust Fund (PCORTF)</a></li>
+<li class="expanded"><a href="/basic-search/poverty" title="">Poverty</a><ul><li class="first leaf"><a href="/poverty-guidelines">Poverty Guidelines</a></li>
+<li class="last leaf"><a href="/poverty-estimates-trends-and-analysis">Poverty Analysis</a></li>
+</ul></li>
+<li class="leaf"><a href="/teen-pregnancy-prevention">Teen Pregnancy Prevention</a></li>
+<li class="leaf"><a href="/homelessness">Homelessness</a></li>
+<li class="last leaf"><a href="/medicare-access-and-chip-reauthorization-act-2015">MACRA</a></li>
+</ul></li>
+<li class="leaf"><a href="/reports" title="">Publications</a></li>
+<li class="last expanded"><a href="/basic-search/datasets" title="">Data and Tools</a><ul><li class="first last leaf"><a href="/evaluations" title="">Evaluation Database</a></li>
+</ul></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation / End -->
+</header>  <div class="main" role="main">
+    <!--PAGEWATCH CODE="USHHS_458"-->
+    <section class="page-heading">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+                <h1>
+                    
+          Health Care in Transition: Technology Assessment in the Private Sector        </h1>
+                                 <p class="author">
+                                                 <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2004-07-08T00:00:00-04:00">07/08/2004</span>               
+                           </p>
+
+
+                  </div>
+
+
+        <div class="col-md-6">
+           <ul class="breadcrumb"><li class="first"><a href="/" title="Home">Home</a></li>
+<li class="last">Health Care in Transition: Tec...</li>
+</ul>        </div>
+
+
+    </div>
+  </div>
+</section>
+    
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Content">     
+
+        
+                  
+        
+                                    <div  class="col-md-12 " id="content">
+                          
+                              <div id="block-aspe-aspe-addthis" class="widget block block-aspe" >
+  
+      
+  <div class="clearfix">
+  <ul class="addthis_sharing_toolbox node-share__links" data-url="https://aspe.hhs.gov/execsum/health-care-transition-technology-assessment-private-sector" data-title="Health Care in Transition: Technology Assessment in the Private Sector">
+    <li><a class="addthis_button_print"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/print-white.png" alt="print" /></a></li>
+    <li><a class="addthis_button_email"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/mail-white.png" alt="email" /></a></li>
+    <li><a class="addthis_button_twitter"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/tw.png" alt="twitter" /></a></li>
+<!--    <li><a class="addthis_button_facebook">--><!--</a></li>-->
+    <li><a class="addthis_button_compact"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/plus-white.png" alt="compact" /></a></li>
+  </ul>
+</div>
+
+  </div> <!-- /.block -->
+
+                
+    
+  
+  <div class="content clearfix node-report-exec-sum">
+    <p>Health Care in Transition:<br />
+	Technology Assessment in the Private Sector</p>
+<p style="text-align:center"><em>Prepared by:</em><br />
+	Richard Rettig of the RAND Corporation<br />
+	Office of the Assistant Secretary of Planning and Evaluation<br />
+	Agency for Health Care Policy and Research.</p>
+<p style="text-align:center">July, 1996.</p>
+<h2 style="text-align:center">SUMMARY</h2>
+<p>The policy discussion of technology assessment (TA) in medicine has focused most of its attention historically on the role of the federal government. This report focuses on TA in the private health care system. Although some attention is given to TA in the hospital and physician sectors, the report is concerned primarily with TA in the managed care sector.</p>
+<p>Innovation in medical technology (drugs, medical devices, and clinical procedures) has been identified by many analysts as a major factor driving the relentless increase in national expenditures for health care services. At the same time, innovation in medicine is regarded by many as a primary guarantor of quality health care and the only pathway to finding new solutions to both old and new clinical problems.</p>
+<p>The efforts, largely unsuccessful, to establish a national technology assessment capability in the federal government or in the non-profit sector reveal this deeply-rooted societal ambivalence toward medical technology -- we wish to control health care costs but not at the expense of innovation, quality and clinical progress. Society, however, is not a decision maker and societal ambivalence toward TA is seldom found at the level of the interested parties. Indeed, political opposition to TA by those developing new health and medical care products and bringing them to the market has been expressed strongly and with great effectiveness over two decades.</p>
+<p>However, the health system environment affecting TA has changed profoundly in the past five years compared to the period that began in the mid-1970s. The failure to enact federal health care reform legislation in 1994 both diminished the role of the federal government and released substantial private sector energies. Large corporate purchasers of health care have become more active in seeking to rein in the growth of health care expenditures. Managed care organizations have responded to market opportunities by enrolling an increasing proportion of patients, reducing excess hospital capacity, and shifting care away from physician specialists to primary care-givers.</p>
+<p>In this context, the evaluation of clinical practice for its clinical and cost-effectiveness has assumed greater market value. In short, the demand for TA and other forms of evaluation has increased. Traditional forms of evaluation of medical technology, which occur at the beginning of the innovation process, include Food and Drug Administration evaluation of drugs and medical devices for safety and efficacy and clinical trials for the evaluation of medical procedures. Among more recent means of evaluation, technology assessment takes place mainly at the boundary between innovation in medical technology and clinical practice. Clinical practice guidelines come into play more with respect to widely accepted, though not always well evaluated, clinical practices. Both TA and practice guidelines draw heavily on health services research pertaining to efficacy, effectiveness, outcomes, and appropriateness.</p>
+<p>This report briefly describes a number of private health sector organizations that are engaged today in technology assessment. This information is not a comprehensive enumeration of all such organizations but a selective picture of the major ones. There are several national TA subscription services. Some national insurers/managed care organizations conduct centralized TA efforts that serve member plans. Several membership organizations have constituency- oriented TA programs. And some individual managed care organizations have significant TA capability. In short, the private sector TA "system" is a mix of distributed centralization (national subscription, plan, and constituency efforts) and decentralized (regional and local health plans) efforts.</p>
+<p>The report emphasizes managed care organizations for two reasons. First, managed care constitutes the most visible and rapidly changing element in a changing health care system and it deserves attention for that reason alone. And second, it is an appropriate time to move beyond undifferentiated studies of all those engaged in TA to consider sector analyses -- of hospitals, physicians, insurers/managed care, the therapeutic products industries (drugs, biologics, medical devices), and research and consulting. Each sector differs regarding the incentives to develop and use medical technology and, thus, the incentives to support or conduct technology assessment differs in similar fashion. It appears from the evidence presented in this report that managed care has strong incentives to support and conduct TA in the current environment.</p>
+<p>The conduct of TA is examined with respect to its changing scope (e.g., more attention is being given to the evaluation of new drugs than before and sole reliance upon FDA approval is less frequent). Most important, a strong conceptual and methodological development within TA has been the movement toward evidence-based medicine. This movements seeks to develop a strong scientific base for what is known about effective clinical practice. Although consensus processes are used to interpret and apply the results of TAs, the evidence-based movement discounts very heavily the use of consensus to assess the scientific bases of clinical practice. In methodological terms, priority-setting processes are well-developed, cost-effectiveness analysis is on the verge of being used in operational decision-making, TA and clinical practice guidelines show substantial convergence (though the former focuses more on specific technologies and procedures and the latter on the management of clinical problems or disease conditions), and the need for greater attention to improved design and conduct of clinical trials becomes increasingly clear.</p>
+<p>The use of TA in the managed care sector is primarily to support coverage decision- making. However, a number of innovative developments go beyond this narrow range of issues. These include benchmarking for member organizations of evaluative activities believed to be needed for survival in the current marketplace and the provision of a forum for reviewing the evidence related to competing technologies. They also include educational efforts in some plans directed to changing physician behavior toward evidence-based medicine.</p>
+<p>Finally, an examination of private sector TA activity leads back to questions about the appropriate role of the federal government in TA and the appropriate division of labor between the public and private sectors. One strong implication is that the federal government as purchaser of health care services should be no less competent and effective than the private sector in the support and conduct of TA. However, this does not necessarily imply a centralized federal government leadership role, which does not appear feasible at present. Another implication is that both public and private sectors should emphasize evidence-based assessments and the development of cost-effectiveness as an operational tool. In addition, as evidence-based TA organizations encounter the weaknesses of the clinical literature, the need becomes clearer for a feedback loop to the organizations that sponsor and perform clinical trials. Both sectors should also promote the convergence of technology assessment and clinical practice guidelines. These activities have some differences but share a commitment to evidence-based medicine and have common methodologies. The effective use of TA beyond coverage decision-making should also be promoted. Finally, among the various forms of public- private cooperation, a distinct role for the federal government remains the sponsorship of TA- related research. Such research generates benefits available to all to use and is extremely modest in cost relative to the benefits received.</p>
+<h2 style="text-align:center">CHAPTER 1. INTRODUCTION</h2>
+<h6>A. Health Care in Transition</h6>
+<p>The United States health care system is undergoing substantial change in practically all dimensions. Change is occurring at the level of the nation's health system, within all major elements of the system, and in the established relationships between elements of the system. Elements that were once loosely-coupled are now being drawn into more tightly-coupled relationships. Important changes include:</p>
+<ul><li>Large corporate purchasers of health care have become increasingly aggressive in seeking to reduce their health care costs and, concurrently, are forcing explicit attention to the measurement of and accountability for the quality of delivered services.</li>
+<li>Traditional indemnity health insurance is shrinking as a source of payment for health care and indemnity insurers are either abandoning health insurance entirely, providing both indemnity insurance and managed care, or shifting to managed care entirely.</li>
+<li>Managed care organizations--ranging from traditional group and staff model health maintenance organizations (HMOs) to preferred provider organizations (PPOs) and independent practice associations (IPAs) to network and mixed models-- have become the most visible manifestation of change in the delivery system.</li>
+<li>A number of managed care entities are now evolving into integrated delivery systems, which combine aspects of managed care with hospital-based delivery systems (Shortell, et al., 1994).</li>
+<li>Simultaneously, however, the hospital is being displaced as the center of the health care system and the hospital sector is engaged in downsizing (both by reductions in the number of beds and by the closing of hospitals), consolidation into multi-hospital chains, and evolution toward integrated delivery systems (Robinson, 1994; Stoeckle, 1995; Shortell, et al., 1995).</li>
+<li>Physician practice is changing from traditional solo fee-for-service to single- and multi- specialty group practices that are contracting with managed care plans and, increasingly, are capitated or involve other risk-sharing arrangements, or involve physicians organizing health plans themselves</li>
+</ul><p>What is motivating the rate and direction of change? There are two primary concerns: first, the growth of health care expenditures has imposed increasing burdens on federal and state governments, private employers, and individuals in recent years and this has stimulated a search for ways to control costs. The second concern is to ensure that the quality of health care is not impaired by cost containment, a quest often referred to as seeking value for the health care dollar.</p>
+<p>In this context, medical technology is of substantial interest to many parties. The Office of Technology Assessment defined <em>medical technology</em> as "the drugs, devices, and medical and surgical procedures used in medical care, and the organizational and supportive systems within which such care is provided" (Banta, Behney, Sisk, 1981). This definition, which has been adopted by most analysts, embraces innovations in medicine--new drugs, biologics, medical devices, and procedures--as well as existing therapeutic and diagnostic capabilities.</p>
+<p>There are at least three reasons for the interest in medical technology. First, it is believed by many to be a major driver of increased health expenditures (Weisbrod, 1991; Newhouse, 1993; Rettig, 1994; Cutler, 1995), thus an object of cost containment. Second, medical technology is also regarded as a primary guarantor of quality in U.S. health care. Third, both elite attitudes and mass public opinion strongly support innovation in medicine as the hoped-for- source of tomorrow's solutions to many of today's intractable medical problems. These attitudes toward medical technology create great ambivalence among both public and private health policy makers--they wish to control the cost impacts of medical technology, but without sacrificing the benefits of innovation. This ambivalence has often complicated efforts, especially in the public sector, to establish effective institutions and processes for evaluating the benefits and costs of medical technology.</p>
+<h6>B. The Changing Context of Technology Assessment</h6>
+<p>The evaluation of the clinical and cost-effectiveness of medical technology, then, is a matter of great concern to a diverse array of institutions--purchasers, insurers, managed care organizations, hospitals, physicians, other health care personnel, and patients. <em>Technology assessment</em> (TA), the term most often applied to such evaluation, was defined by an Institute of Medicine report (IOM-Mosteller, 1985) as "any process of examining and reporting properties of a medical technology used in health care, such as safety, efficacy, feasibility, and indications for use, cost, and cost-effectiveness, as well as social, economic, and ethical consequences, whether intended or unintended." Although not included in the definition, the distinction between efficacy, or "what a method [technology] can accomplish in expert hands when correctly applied to an appropriate patient" and effectiveness, or a technology's "performance in more general routine applications" is discussed in the report.</p>
+<p>The historical experience with TA, however, has been mixed. Since the mid-1970s, a strong federal government leadership role in TA has been envisioned. This view was embodied historically in the National Center for Health Care Technology (NCHCT), which existed within the U.S. Public Health Service from 1978 through 1982 (Perry, 1982; Blumenthal, 1983; Rettig, 1991). When NCHCT ceased to function in 1982 because no funds had been appropriated for it, a national, non-governmental, public-private entity was advocated (Bunker et al, 1982; Barondess, 1983). In response, a Council on Health Care Technology was established within the Institute of Medicine following legislation in 1984 and 1985. This council existed from 1985 to 1989, when Congress withdrew the statutory authority for its public funding and the IOM decided to discontinue it.</p>
+<p>Notwithstanding this history, the idea of a national TA entity continues to receive support. Had federal health care reform legislation proposed in 1993 become law, a strong federal government TA organization might have been established. In fact, the Physician Payment Review Commission recommended in early 1994 that a single national organization be established to conduct assessments supporting coverage decision-making (PPRC, 1994). In the wake of the collapse of reform legislation in 1994, however, and the election in November of that year of a Republican-controlled Congress, political support for such an approach to TA has all but vanished. A two-decade history of failed efforts to establish a strong federal or national TA organization reflect the ambivalence with which TA is regarded at the national level as well as the limited political feasibility of such proposals.</p>
+<p>During this complicated history, several reports have assessed the status of TA in medicine. In 1985, the Institute of Medicine (IOM) published Assessing Medical Technologies (IOM-Mosteller, 1985), which surveyed the field of TA. This included profiles of 20 organizations that conducted TA programs. These programs fell in the following categories: professional medical societies; the hospital sector; third-party insurers; health maintenance organizations; therapeutic products firms and industries (drugs, biologics, medical devices); TA consulting and research organizations; and federal government (biomedical research, health services research, technology assessment, information resources, health policy analysis, and reimbursement- related policy analysis).</p>
+<p>The IOM also published a Medical Technology Assessment Directory, in 1988, which greatly expanded the number of TA organizational profiles and added information on specific medical technologies, TA information resources, and TA organizational resources. Ite Directory used the same organizational categories as the 1985 report, but added federal government regulatory and payment agencies and many international organizations. (IOM-Goodman, 1988).</p>
+<p>A 1994 Office of Technology Assessment report, Identifying Health Technologies that Work; Searching for Evidence, which with 954 references is undoubtedly the most extensive survey of the literature, is the most recent review. This report focused mainly on federal government agencies involved in TA and clinical practice guidelines development. However, the report did observe that the private sector market for technology assessment was "small but explosive," thus raising the question that motivated this study.</p>
+<p>A comprehensive analysis of private sector TA would consider four sectors of the health care system: insurance/managed care; hospitals; professional medical societies; and firms in the therapeutic product industries (pharmaceuticals, biotechnology, and medical devices). These sectors differ in the incentives they have to use medical technology and thus in their reasons for supporting or using technology assessments. In this report, attention is given primarily, but not exclusively, to the managed care sector. Time and resource constraints made it necessary to limit the scope of the study and managed care constitutes the most significant change in the financing, organization, and delivery of health care. (Managed care organizations include traditional group and staff model health maintenance organizations (HMOs) preferred provider organizations (PPOs), independent practice associations (IPAs), and hybrid or mixed models. Unlike indemnity insurance-based fee-for-service, managed care organizations negotiate physician fee discounts or capitate payments.)</p>
+<p>Managed care organizations have strong incentives to hold down the costs of care and one way to do so is to avoid providing unnecessary, inappropriate, or inadequately tested medical technologies and procedures. Managed care has had and is having a strong but<em> indirect</em> effect on shrinking the demand for medical technology by reducing hospital bed capacity and reducing the demand for physician specialists. Presumably it is also having a <em>direct</em> effect by damping the incentives to purchase medical technology. It was assumed, therefore, that managed care had a strong interest in evaluating medical technology for clinical and cost- effectiveness.</p>
+<p>Limited consideration is given in this study to the hospital sector and to professional medical societies and none to the therapeutic products industries. The hospital sector has a complicated orientation toward technology and TA. A typical hospital views technology mainly in terms of capital equipment, but also includes supplies and disposable items used in inpatient care. It is concerned with the effect of acquisition of technology on assets and liabilities, on revenues and expenses (Teplensky, et al., 1995). It values technology in relation to its competitors and its share of the local health care market, its ability to recruit physicians to its staff, and its ability to attract patients. Hospitals have generally seen medical technology as revenue-generating, thus damping interest in TA. In the contemporary environment, however, hospitals are increasingly seen as cost centers, not revenue centers, and technology is regarded in a similar way. This shift in perception creates greater incentives in the hospital sector to engage in and use TA (Anderson and Steinberg, 1994). In this study, attention has been limited to the American Hospital Association (AHA) and the University Health System Consortium (UHC). A more detailed examination of the changing role of TA in the hospital sector is warranted.</p>
+<p>Physician specialty societies accounted for a number of the entries in the 1988 Institute of Medicine Directory. In this study, we have included only the American Medical Association (AMA) and the American College of Physicians (ACP). We limited the research in this sector on the assumption that, in 1995, physician specialty societies are more likely to be engaged in the development of clinical practice guidelines than in technology assessment. Indeed, both the AMA's Diagnostic and Therapeutic Technology Assessment Program and the ACP's Clinical Efficacy Assessment Program could be characterized as guidelines development programs rather than as TA programs.</p>
+<p>The firms and associations in the therapeutic products industries (drugs, biologics, and medical devices) respond quite differently to TA as a function of the structure of their respective industries, their products, and the relative importance they attach to Food and Drug Administration (FDA) regulatory issues and payment issues. The pharmaceutical industry has a more-or-less settled, even if fractious, relationship with FDA and is engaged actively in responding to the implications of pricing and marketing its products for a managed care world. The therapeutic biotechnology firms are preoccupied mainly with the drug/biologics review and approval process of FDA and with demonstrating via randomized controlled clinical trials the safety and efficacy of their products.</p>
+<p>The medical device industry stands in a somewhat different position than the prescription drug industry, being actively concerned with FDA reform of device evaluation, issues of product liability, and how to pay for clinical trials. The "TA issues" of coverage and reimbursement that engage the device industry deal mainly with Medicare coverage decision-making, less so with the TA efforts of decentralized managed care organizations. No attention has been given in this report to the firms in these industries, but a thorough treatment of their views of TA is warranted (HIMA, III, 1995).</p>
+<h6>C. The Research Questions</h6>
+<p>The five research questions of this study are: what is the demand for TA? who are the performers of TA? what characterizes the conduct of TA? how are the results of TA used? and what are the unmet needs of TA that might be met by cooperation between the public and private sectors of health care?</p>
+<h5>1. What is the Demand for Technology Assessment?</h5>
+<p>As noted above, the 1994 OTA report argued that the private sector market for technology assessment was "small but explosive." However, this report provided little evidence to support this claim. In this study, we examined whether the private sector demand for TA was increasing--either steadily or explosively? If so, why, how, and for what reasons? What organizations were driving the change and why? What were the implications of changed demand on the conduct of TAs, especially on their rigor? Was increased demand resulting in TA being incorporated into operational decision-making policies and procedures of health care organizations? Was TA being integrated with other evaluative activities such as guidelines development? What expectations about the future demand for TA were reasonable in 1995? These issues are considered in Chapter 2 and in later chapters.</p>
+<h5>2. Who Are the Performers of Technology Assessment?</h5>
+<p>Relatively speaking, the focus of much discussion of TA has been on federal government agencies responsible for this function. But there have been private sector organizations engaged in TA for some time, as two Institute of Medicine documents (1985, 1988) made clear. However, the question asked by the OTA regarding their rapid growth casts the discussion in a new light. In this study we consider the organizations in the private health care sector that are engaged in the conduct technology assessment. What do they do? For whom? At what level of effort in terms of professional staff and volume of output? Are their TAs available freely to the public, available only to organization members, or available on a subscription basis? What coordination, if any, exists among these TA performers? These questions are examined in Chapter 3.</p>
+<h5>3. What Characterizes the Conduct of Technology Assessment?</h5>
+<p>The concern for performers of TA leads naturally to an examination of the conduct of assessments. What are the characteristics of TAs? How is TA defined operationally? Are TAs typically evidence-based or consensus-based? What is the scope of TA and how has it changed in the decade? How are priorities for assessments established? What analytical techniques, including cost-effectiveness analysis, are used? What are the products (reports, papers, guidelines, coverage policies) of TAs? What TA resources are used? How is TA related to other evaluative activities, such as appropriateness, effectiveness, and outcomes research, and especially clinical practice guidelines development? Chapter 4 addresses these questions.</p>
+<h5>4. What Use is Made of the Results of Technology Assessment?</h5>
+<p>The emphasis in the TA literature has been on the performance of assessments, much less on their use. In Chapter 5, consideration is given to who uses TAs and for what purposes? What policies and procedures exist that pertain to the implementation of TAs? Who is involved in decisions about the use of TAs? How are TAs evaluated for their clinical and financial utility?</p>
+<h5>5. What is the Role of the Government?</h5>
+<p>Both the public and private sectors of health care have a large stake in the effective conduct and use of technology assessments. The question arises about the appropriate roles of each sector. This leads in turn to the issue of opportunities for constructive TA-related relationships--cooperation, collaboration, coordination, contracting, technical assistance-- between the federal government and the private, non-governmental health sector. A discussion of these issues concludes the study and is found in Chapter 6.</p>
+<h6>D. Research Methods</h6>
+<p>The scope of this study, initially very broad, was narrowed to a focus on managed care in the study's early stages. Data collection relied on several methods--site visits; semi-structured interviews, both face-to-face and telephone; attendance at meetings; document review; and follow-up of referrals to others.</p>
+<p>Since Blue Cross Blue Shield Association (BCBSA) and ECRI had been involved in TA for a long period of time, contacts with these organizations were established early in the study. These contacts resulted in visits to both organizations. The initial visit to BCBSA, involved a one-hour interview with the principals of the Technology Evaluation Center (TEC). This initial contact established the basis for later interviews with officials, usually the medical directors, of Blue Shield of California, Blue Cross Blue Shield of Illinois, Blue Cross Blue Shield of Minnesota, and Blue Cross Blue Shield of Oregon. Later, an invitation was accepted to attend the two-day June 1995 meeting of the TEC's Medical Advisory Panel as an observer. In the case of ECRI, the visit resulted in a six-hour detailed discussion of that organization's TA effort.</p>
+<p>Site visits were made to Philadelphia (ECRI, the American College of Physicians, University of Pennsylvania, Jefferson University); Chicago (BCBSA, the American Medical Association, the American Hospital Association, the University Health System Consortium; and Blue Cross Blue Shield of Illinois); San Francisco (Blue Shield of California; Kaiser Permanente of Northern California); Minneapolis-St. Paul (University of Minnesota, Health Partners, Institute for Clinical Systems Integration, Blue Cross Blue Shield of Minnesota, Allina Health System, Minnesota Business Health Care Action Group, and Medical Alley); Seattle (Group Health Cooperative of Puget Sound); Portland (Blue Cross Blue Shield of Oregon); Los Angeles (Kaiser Permanente of Southern California); and Hartford (Aetna).</p>
+<p>All site visits involved face-to-face interviews of at least one hour; many resulted in extended discussions, as in the cases of ECRI and the University Health System Consortium; and several included multiple interviews, as in the case of Group Health Cooperative of Puget Sound. Some visits were preceded by telephone interviews, and some led to follow-up discussions on the telephone or on visits of key individuals to Washington, D.C. Toward the end of the project, a number of interviews were conducted by telephone; these typically lasted 45 minutes to one hour in length. In total, 46 interviews were conducted with 56 individuals in 29 different organizations (The list of organizations interviewed for this study appears in the appendix to this chapter.)</p>
+<p>The study director also attended a meeting of the American College of Physicians' Subcommittee on Clinical Efficacy Assessment and a meeting of the Medical Policy Committee on Quality and Technology of Blue Shield of California.</p>
+<p>Chapter 3 was written when it became clear that it was necessary to separate the discussion of performers of TA from that of the conduct of TA (Chapter 4). The brief snapshots that are presented were sent to the individual organizations to review for accuracy.</p>
+<p>The data provided by the organizations interviewed for the study, in our judgment, support the conclusion that substantial private sector activity in TA is occurring. In addition, we believe that they provide hypotheses that could be tested in a more comprehensive examination of private sector activity in TA and the management of medical technology.</p>
+<h2 style="text-align:center"><strong>REFERENCES</strong></h2>
+<p>Anderson, G.F. and Steinberg, E.P., 1994. "Role of the Hospital in the Acquisition of Technology," pp. 61-70 in Gelijns, A.C. and Dawkins, H.V., eds., 1994. Adopting New Medical Technology: Medical Innovation at the Crossroads, Vol. IV., Washington, D.C., National Academy Press.</p>
+<p>Banta, H.D., Behney, C.J., and Sisk, J.S., 1981. Toward Rational Technology in Medicine, New York, NY, Springer Publishing Company.</p>
+<p>Blumenthal, D., 1983. "Federal policy toward health care technology: the case of the National Center," Milbank Memorial Fund Quarterly/Health and Society, Vol 61, pp. 584-613.</p>
+<p>Brook, R.H., Park, R.E., Chassin, M.R., Solomon, D.H., Keesey, J., Kosecoff, J., 1990. "Predicting the appropriate use of carotid endarterectomy, upper gastrointestinal endoscopy, and coronary angiography," New England Journal of Medicine, Vol. 323, pp. 1173-1177.</p>
+<p>Bunker, J.P., Fowles, J., Schaffarzick, R., 1982. "Evaluation of medical technology strategies: effects of coverage and reimbursement," New England Journal of Medicine, Vol 306, pp. 620- 624.</p>
+<p>Bunker, J.P., Fowles, J., Schaffarzick, R., 1982. "Evaluation of medical technology strategies: proposal for an institute of health care evaluation," New England Journal of Medicine, Vol 306, pp. 687-692.</p>
+<p>Cutler, D.M., 1995. "Technology, health costs, and the NIH," paper prepared for the National Institutes of Health Economics Roundtable on Biomedical Research.</p>
+<p>Fryback, D.G., ed., 1995. Introduction to Technology Assessment for Radiologists: Vision Beyond Tomorrow, Vols. 1 and 2, Milwaukee, Wisconsin, GE Medical Systems-Association of University Radiologists Radiology Research Academic Fellowship (GERRAF) Program.</p>
+<p>Health Industry Manufacturers Association, 1995. Report on Public Policy Reform and the U.S. Health Care Technology Industry. Part I: Reforms at the Food and Drug Administration, Washington, D.C., February 9.</p>
+<p>Health Industry Manufacturers Association, 1995. Report on Public Policy Reform and the U.S. Health Care Technology Industry. Part II: Reforming Product Liability Laws, Washington, D.C., March 2.</p>
+<p>Health Industry Manufacturers Association, 1995. Report on Public Policy Reform and the U.S. Health Care Technology Industry. Part III: Strengthening the Climate for Health Care Financing and Delivery, Washington, D.C., May 5.</p>
+<p>Institute of Medicine (Barondess, J., ed.), 1983. A Consortium for Assessing Medical Technology, Washington, D.C., National Academy Press.</p>
+<p>Institute of Medicine (Mosteller, F., ed.), 1985. Assessing Medical Technologies, Washington, D.C., National Academy Press.</p>
+<p>Institute of Medicine (Goodman, C., ed.), 1988. Medical Technology Assessment Directory, Washington, D.C., National Academy Press.</p>
+<p>Mendelson, D.N., Abramson, R.G., and Rubin, R.J., 1995. "State involvement in medical technology assessment," Health Affairs, Vol. 14, No. 2 (Summer), pp. 83-98.</p>
+<p>Newhouse, J.P., 1993. "An iconoclastic view of health cost containment," Health Affairs, Vol. 12 (Suppl.), pp.152-171.</p>
+<p>Office of Technology Assessment, U.S. Congress, 1994. Identifying Health Technologies that Work: Searching for Evidence, Washington, D.C., Government Printing Office.</p>
+<p>Perry, S., 1982. "The brief life of the National Center for Health Care Technology," New England Journal of Medicine, Vol. 307, pp. 1095-1100.</p>
+<p>Physician Payment Review Commission, 1994. Annual Report to Congress, 1994, Washington, D.C., pp. 219-236.</p>
+<p>Rettig, R.A., 1991. "Technology assessment: an update," Investigative Radiology, Vol. 26, pp. 165-173.</p>
+<p>Rettig, R.A., 1994. "Medical innovation duels cost containment," Health Affairs, Vol 13, No.3 (Summer), pp.7-27.</p>
+<p>Robinson, J.C., 1994. "The Changing Boundaries of the American Hospital," Milbank Quarterly, Vol. 72, No. 2, pp. 259-275.</p>
+<p>Shortell, S.M., Gillies, R.R., and Anderson, D.A., 1994. "The New World of Managed Care: Creating Organized Delivery Systems," Health Affairs, Vol. 13, No. 5, Winter, pp.46-64.</p>
+<p>Shortell, S.M., Gillies, R.R., and Devers, K.J., 1995. "Reinventing the American Hospital," Milbank Quarterly, Vol. 73, No. 2., pp. 131-160.</p>
+<p>Stoeckle, J.D., 1995. "The Citadel Cannot Hold: Technologies Go Outside the Hospital, Patients and Doctors Too," Milbank Quarterly, Vol. 73, No. 1, pp. 3-17.</p>
+<p>Teplensky, J.D., Pauly, M.V., Kimberly, J.R., Hillman, A.L., and Schwartz, J.S., 1995. "Hospital Adoption of Medical Technology: An Empirical Test of Alternative Models," HSR: Health Services Research, Vol. 30, No. 3 (August), pp. 437-465.</p>
+<p>Weisbrod, B.A., 1991. "The health care quadrilemma: an essay on technological change, insurance, quality of care, and cost containment," Journal of Economic Literature, Vol. 29, pp. 523-552.</p>
+<p>Wennberg, J.E., and Gittlesohn, A., 1982. "Variations in medical care among small areas," Scientific American, Vol. 246, pp. 120-134.</p>
+<p>Wennberg, J.E., and Gittlesohn, A., 1983. "Small area variations in health care delivery," Science, Vol. 142, pp. 1102-1108.</p>
+<p>Wennberg, J.E., Freeman, J.L., and Culp, W.J., 1987. "Are hospital services rationed in New Haven or over-utilized in Boston?" The Lancet, Vol. 1, (May 23), pp. 1185-1188.</p>
+<h2 style="text-align:center">APPENDIX: INTERVIEWS FOR THE TA STATUS PROJECT</h2>
+<p>(* indicates telephone interview)</p>
+<p>Third-party insurers and managed care organizations:</p>
+<ul><li>Aetna: William T. McGiveney</li>
+<li>Allina: Gordon M. Sprenger; John H. Kleinman*</li>
+<li>Blue Cross Blue Shield Association: Susan Gleeson; Naomi Aronson; Ellen Pearson; also attended June 29, 1995 meeting of Medical Advisory Panel</li>
+<li>Blue Cross Blue Shield of Minnnesota: Del Ohrt; Jack Alexander; Julie Carr</li>
+<li>Blue Cross &amp; Blue Shield of Illinois: Arnold L. Widen</li>
+<li>Blue Cross &amp; Blue Shield of Oregon: John Santa</li>
+<li>Blue Shield of California: Wade M. Aubry; also attended June 7, 1995 meeting of Medical Policy Committee on Quality and Technology</li>
+<li>Cigna: Edward J. Smith*; Jadwiga Goclowski*</li>
+<li>Group Health Cooperative of Puget Sound, Seattle, Washington: Hugh Straley; Terri Calnan; Simeon Rubenstein; Michael E. Stuart*; Jeff K. Shornick; Timothy McAfee; Edward H. Wagner*</li>
+<li>Harvard Community Health Plan, Boston, Massachusetts: Melinda Karp*</li>
+<li>Health Partners, Minneapolis, Minnesota: George J. Isham</li>
+<li>The HMO Group, New Brunswick, NJ &amp; Teminex, Buffalo, New York: Daniel Wolfson*; John Reinhard*</li>
+<li>Institute for Clinical Systems Integration, Minneapolis, Minnesota: Gordon Mosser; James C. Smith</li>
+<li>Kaiser Permanente Program: Ian Leverton*</li>
+<li>Kaiser Permanente Medical Group of Northern California: D. Blair Beebe*; Joseph Selby</li>
+<li>Kaiser Permanente Medical Group of Southern California: Les Zendle; Robin Cisneros; David Eddy*</li>
+<li>Prudential: Art L. Levin*; William L. Roper*</li>
+<li>United Health Care: Lee N. Newcomer*; Joseph A. Barry*; Sylvia Giebler Robinson*</li>
+</ul><p>Other organizations:</p>
+<ul><li>American College of Physicians: Linda J. White; also attended May 31, 1995 meeting of Clinical Efficacy Assessment Subcommittee</li>
+<li>American Hospital Association: Suzanna Hoppszallern</li>
+<li>American Medical Association: Sona Kalousdian; Andrea Schneider</li>
+<li>ECRI: Jeffrey Lerner; Vivian Coates</li>
+<li>Medical Alley (Tom Meskan)</li>
+<li>Minnesota Business Health Care Action Group: Steve Wetzel</li>
+<li>National Committee on Quality Assurance: Margaret E. O'Kane; Cary Sennet</li>
+<li>Thomas Jefferson (David Nash)</li>
+<li>University Hospital Consortium (now University Health Systems Consortium): David A. Burnett; Karl A. Matuszewski; Jean Livingston; Richard A. Bankowitz</li>
+<li>University of Pennsylvania (Alan Hillman, J. Sanford Schwarz)</li>
+<li>Xerox: Helen Darling</li>
+</ul><div class="group-tags"><div class="field-label">Tags:&nbsp;</div><a href="/terms/drugs-medical-devices-and-pharmacy-services">Drugs, Medical Devices, and Pharmacy Services</a><a href="/terms/approval-new-drugs-medical-devicestechnology">Approval of New Drugs, Medical Devices/Technology</a><a href="/terms/healthcare-marketplace">Healthcare Marketplace</a></div>  </div>
+
+      <footer>
+          </footer>
+  
+    <div id="block-webform-client-block-158521" class="widget block block-webform" >
+  
+      
+  <div id="webform-ajax-wrapper-158521"><form class="webform-client-form webform-client-form-158521" action="/execsum/health-care-transition-technology-assessment-private-sector" method="post" id="webform-client-form-158521" accept-charset="UTF-8"><div><div class="webform-progressbar">
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-radios webform-component--was-this-page-helpful">
+  <label for="edit-submitted-was-this-page-helpful">Was this page helpful? <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-was-this-page-helpful" class="form-radios"><div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-1" name="submitted[was_this_page_helpful]" value="1" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-1">Yes </label>
+
+</div>
+<div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-2" name="submitted[was_this_page_helpful]" value="0" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-2">No </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="4" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-oLZe-t1Ddyb4YRPjS7juWwx_JAj6ls4YNH_A2qEw2GI" />
+<input type="hidden" name="form_id" value="webform_client_form_158521" />
+<input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-158521" />
+<div class="form-actions"><input class="webform-next button-primary btn btn-default form-submit" type="submit" id="edit-webform-ajax-next-158521" name="op" value="Next &gt;" /></div>
+<div class="is-useful-disclaimer"> <a href="/%23" class="" title="Survey Disclaimer" data-toggle="modal" data-target="#disclamerModal">Form Approved OMB# 0990-0379 Exp. Date 8/31/2017</a></div>
+<div class="modal fade" id="disclamerModal" tabindex="-1" role="dialog" aria-labelledby="disclamerModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="disclamerModalLabel">Survey Disclaimer</h2>
+      </div>
+      <div class="modal-body">
+         According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this information collection is 0990-0379. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, gather the data needed, and complete and review the information collection. If you have comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: U.S. Department of Health & Human Services, OS/OCIO/PRA, 200 Independence Ave., S.W., Suite 336-E, Washington D.C. 20201, Attention: PRA Reports Clearance Officer.      </div>
+    </div>
+  </div>
+</div></div></form></div>
+  </div> <!-- /.block -->
+<meta  itemscope="" itemid="https://aspe.hhs.gov/execsum/health-care-transition-technology-assessment-private-sector" itemref="md1 md3 md5 md7" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/drugs-medical-devices-and-pharmacy-services" id="md3" itemref="md2" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/approval-new-drugs-medical-devicestechnology" id="md5" itemref="md4" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/healthcare-marketplace" id="md7" itemref="md6" />              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <footer  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Footer">     
+
+        
+                  
+        
+                  
+        
+                                    <div  id="footer_sitemap-footer_sitemap" class="col-sm-6 col-md-6 col-lg-4 ">
+                          
+                              <div id="block-footer-sitemap-footer-sitemap" class="widget block block-footer-sitemap" >
+  
+      
+  <div id="footer-sitemap" class="clearfix">
+  <div class="fs-block-content"><div class="menu-footer-utility"><ul class="footer_links_menu-footer-utility total-items-2 parent-items-0 single-items-0"><li class="menu-5021 depth-1 total-children-8 parent-children-0 single-children-8  first"><a href="/" title="look at ASPE Home" class="fs-root-link">ASPE Home</a><ul class="footer_links_menu-footer-utility total-items-8 parent-items-0 single-items-0"><li class="menu-5026 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/" title="look at HHS Home">HHS Home</a></li>
+<li class="menu-66281 depth-1 fs-no-children"><a href="http://www.usa.gov/" title="look at USA.gov">USA.gov</a></li>
+<li class="menu-66316 depth-1 fs-no-children"><a href="https://oig.hhs.gov/" title="look at Office of the Inspector General">Office of the Inspector General</a></li>
+<li class="menu-66321 depth-1 fs-no-children"><a href="http://www.whitehouse.gov" title="look at The White House">The White House</a></li>
+<li class="menu-5046 depth-1 fs-no-children"><a href="http://www.hhs.gov/Accessibility.html" title="look at Accessibility">Accessibility</a></li>
+<li class="menu-66326 depth-1 fs-no-children"><a href="http://www.hhs.gov/about/budget/index.html" title="look at Budget/Performance">Budget/Performance</a></li>
+<li class="menu-2551 depth-1 fs-no-children"><a href="http://www.hhs.gov/Privacy.html" title="look at Privacy Policy">Privacy Policy</a></li>
+<li class="menu-197776 depth-1 fs-no-children  last"><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" title="Nondiscrimination Notice">Nondiscrimination Notice</a></li>
+</ul></li>
+<li class="menu-5051 depth-1 total-children-4 parent-children-0 single-children-4  last"><a href="http://www.hhs.gov/foia/" title="look at FOIA" class="fs-root-link">FOIA</a><ul class="footer_links_menu-footer-utility total-items-4 parent-items-0 single-items-0"><li class="menu-5056 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/open/recordsandreports/plainwritingact/index.html" title="look at Plain Writing Act">Plain Writing Act</a></li>
+<li class="menu-5061 depth-1 fs-no-children"><a href="http://www.hhs.gov/asa/eeo/no_fear_bullet_3.html" title="look at No Fear Act">No Fear Act</a></li>
+<li class="menu-5066 depth-1 fs-no-children"><a href="http://www.hhs.gov/Disclaimer.html" title="look at Disclaimers">Disclaimers</a></li>
+<li class="menu-2546 depth-1 fs-no-children  last"><a href="http://www.hhs.gov/plugins.html" title="look at Viewers &amp; Players">Viewers &amp; Players</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-5 " id="stability_cms-contact_us">
+                          
+                              <div id="block-stability-cms-contact-us" class="widget block block-stability-cms" >
+  
+      
+  <div class="contacts-widget widget widget__footer">
+	<div class="widget-content">
+		<ul class="contacts-info-list">
+      			<li>
+<!--				<i class="fa fa-map-marker">Address</i>-->
+                <div class="info-icons">
+                    <img  alt="map" class= 'map-icons' src="/sites/all/themes/stability/stability_aspe/images/map.png"/>
+                </div>
+                <div class="info-item">
+					Assistant Secretary for Planning and Evaluation, Room 415F<br />
+U.S. Department of Health and Human Services<br />
+200 Independence Avenue, SW<br />
+Washington, D.C. 20201				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-phone">phone</i>-->
+                <div class="info-icons">
+                    <img alt="phone" src="/sites/all/themes/stability/stability_aspe/images/phone.png"/>
+                </div>
+				<div class="info-item">
+					+1 202.690.7858				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-envelope">email</i>-->
+                <div class="info-icons">
+                    <img alt="mail" src="/sites/all/themes/stability/stability_aspe/images/mail-white.png"/>
+                </div>
+				<span class="info-item">
+					<a href="mailto:osaspeinfo@hhs.gov">osaspeinfo@hhs.gov</a>
+				</span>
+			</li>
+      			                					</ul>
+	</div>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-3 " id="footer">
+                          
+                              <div id="block-block-36" class="widget block block-block" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sign-up</span> for Email Updates</h3>
+		</div>
+    
+  <div class="email_updates">
+<button class="btn btn-default" name="subscribe-button" type="submit" value="subscribe">subscribe</button>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-12 " id="menu-menu-footer-language-menu">
+                          
+                              <div id="block-menu-menu-footer-language-menu" class="widget block block-menu" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Language</span> Assistance Available</h3>
+		</div>
+    
+  <ul class="menu"><li class="first expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#spanish" title="Español">Español</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#chinese" title="繁體中文">繁體中文</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#vietnamese" title="Tiếng Việt">Tiếng Việt</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#korean" title="한국어">한국어</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#tagalog" title="Tagalog">Tagalog</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#russian" title="Русский">Русский</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#arabic" title="العربية">العربية</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#creole" title="Kreyòl Ayisyen">Kreyòl Ayisyen</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#french" title="Français">Français</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#polish" title="Polski">Polski</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#portuguese" title="Português">Português</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#italian" title="Italiano">Italiano</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#german" title="Deutsch">Deutsch</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#japanese" title="日本語">日本語</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#farsi" title="فارسی">فارسی</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#english" title="English">English</a></li>
+</ul></li>
+</ul>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+      </div>
+
+          </div>
+    
+    
+      </footer>
+    
+
+    <!--/PAGEWATCH-->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+                        </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="social-links-wrapper">
+              <span class="social-links-txt">Connect with us</span>
+              <ul class="social-links social-links__dark">
+                                                  <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw-grey.png"/></a></li>
+                                <!--                --><!--                  <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin-grey.png"/></a></li>-->
+<!--                -->
+                                                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>  <script type="text/javascript" src="/sites/default/files/advagg_js/js__VWRymaMz6HfrhnrcJNGcDiSvLVrvhaXvBa7nrBYy8gc__jntPwP3D6myJZH1jW19fXrk5cYMHGRL8NQION22VSEA__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5486d15a696bff0c"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__g6mKbcakHxQkz4ZHYaxdO_xqONINvRMgsHh1zAK-fr0__ATHtEmHaeZ0jidpGU22EkhmPDBSgjD8z0bVDQMI-BIY__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__KUp4PrfOt9BSXUVl8Ctb3dhCMBe4MNVMeb4Gyorx8yY__7g4BeXscCIZAfuu1vxsCj2RIemg-eEK0QpChP9LDmFQ__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__PNjAgubM_3xXRLp4uLsYnv8wQAdT89-RYkSPxT6T45c__rFQwFK4pA5ZaWZSF7FPTfKbbpus0h-5IS8ayrNZGrb4__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__vQiLul2UcfC4nBAR09mhYVBYzRmiNDm2dj3GgSubV38__w84oZe-ZODKe7XnnlbrjV4IWHISOy4PioFEMVgx9hZo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__QJw3g0kOdwsv4twSZLP931zBzsHy50VEHpEN_znIitQ__A6QOuWXElDipBM2iChbWhjAAt3KlUwZ-jODoxdpbwiw__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stability_aspe","theme_token":"s9S0FA9i6EwESfzPiUh-he93u8fJmtwGizGUjTWgsTw","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/footable.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/aspe_nodes.admin.css":1,"sites\/all\/modules\/custom\/aspe_views\/theme\/css\/aspe_views.admin.css":1,"sites\/all\/modules\/forked\/book\/book.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/openpublic\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.css":1,"profiles\/openpublic\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openpublic\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/openpublic\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/themes\/stability\/css\/bootstrap.min.css":1,"sites\/all\/themes\/stability\/css\/fonts\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.theme.css":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/stability\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/stability\/css\/theme.css":1,"sites\/all\/themes\/stability\/css\/theme-elements.css":1,"sites\/all\/themes\/stability\/css\/animate.min.css":1,"sites\/all\/themes\/stability\/css\/skins\/red.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/slideshow.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/font-main.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/styleless.less":1,"sites\/all\/themes\/stability\/css\/skins\/blue.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/aspe\/theme\/js\/aspe.login-confirm.js":1,"sites\/all\/modules\/custom\/aspe_report\/modules\/aspe_databooks\/js\/aspe_databooks.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.highcharts.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/datatables\/dataTables.min.js":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.min.js":1,"sites\/all\/libraries\/highcharts\/highcharts.js":1,"sites\/all\/libraries\/highcharts\/highcharts.exporting.js":1,"sites\/all\/libraries\/highcharts\/highcharts.map.js":1,"sites\/all\/libraries\/highcharts\/highcharts.us-all.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.footable.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5486d15a696bff0c":1,"misc\/progress.js":1,"profiles\/openpublic\/modules\/contrib\/webform\/js\/webform.js":1,"profiles\/openpublic\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/stability\/vendor\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/stability\/vendor\/bootstrap.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flexnav.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flickrfeed.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.sloppy-masonry.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.fitvids.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.stellar.min.js":1,"sites\/all\/themes\/stability\/vendor\/snap.svg-min.js":1,"sites\/all\/themes\/stability\/js\/custom.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/aspe.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/html5shiv.min.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/main-menu.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/keyboard-control.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tabBehavior.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tileStringTrimmer.js":1}},"webform":{"conditionals":{"webform-client-form-158521":{"ruleGroups":[],"sourceMap":[],"values":[]}}},"ajax":{"edit-webform-ajax-next-158521":{"callback":"webform_ajax_callback","wrapper":"webform-ajax-wrapper-158521","progress":{"message":"","type":"throbber"},"event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Next \u003E"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/execsum\/health-care-transition-technology-assessment-private-sector":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"([a-z0-9]\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This website contains links to other federal and state agencies and private organizations. The Department of Health and Human Services (HHS) cannot attest to the accuracy of information provided by these nonfederal website links. Linking to nonfederal sites does not constitute an endorsement by HHS or any of its employees of the sponsors or the information and products presented on the sites. You will be subject to the destination site\u0027s privacy policy when you leave the ASPE website.\r\n\r\nThank you for visiting aspe.hhs.gov!","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"stability":{"flickr_id":"52617155@N08","logo_sticky":"28"},"field_group":{"div":"full"}});
+//--><!]]>
+</script>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config={pubid:"ra-5486d15a696bff0c",ui_click:false}
+//--><!]]>
+</script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4837db659","applicationID":"10708002","transactionName":"MwNaZBRSXEtXB0BdWQpJeVMSWl1WGQpbUFM7FllXA2xEUVMT","queueTime":0,"applicationTime":1168,"atts":"H0RZElxIT0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

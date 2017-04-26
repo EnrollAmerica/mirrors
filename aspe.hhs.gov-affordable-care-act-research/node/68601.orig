@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">  <!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://aspe.hhs.gov/sites/default/files/Favicon2.png" type="image/png" />
+<meta name="description" content="U.S. Department of Health and Human Services The Nursing Home Liability Insurance Market: A Case Study of Texas David Stevenson, Brian Burwell and Michael Schaefer Thomson Medstat June 1, 2006 PDF Version" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://aspe.hhs.gov/basic-report/nursing-home-liability-insurance-market-case-study-texas" />
+<link rel="shortlink" href="https://aspe.hhs.gov/node/68601" />
+<meta property="og:site_name" content="ASPE" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aspe.hhs.gov/basic-report/nursing-home-liability-insurance-market-case-study-texas" />
+<meta property="og:title" content="The Nursing Home Liability Insurance Market: A Case Study of Texas" />
+<meta property="og:description" content="U.S. Department of Health and Human Services The Nursing Home Liability Insurance Market: A Case Study of Texas David Stevenson, Brian Burwell and Michael Schaefer Thomson Medstat June 1, 2006 PDF Version" />
+<meta property="og:updated_time" content="2017-02-21T11:37:05-05:00" />
+<meta property="article:published_time" content="2015-12-09T05:29:25-05:00" />
+<meta property="article:modified_time" content="2017-02-21T11:37:05-05:00" />
+
+  <title>The Nursing Home Liability Insurance Market: A Case Study of Texas | ASPE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+  <link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__5ln8neBOcJfyUveiD4y9fhI6kHBLOQ_YL0mMC-LS9a0__TPJIZT9UBnf_685NlFTJ5KnZVsjwFk6ACQ-nwwygmwU__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ng49uRH5y4Hl9VF9hHW_vXOj-mcOc2u2ShJqJ1YKIGU__FoMCD14GBvZaRiqSQ_JpP1w3rDB21n7H2Ar4pRZaIh8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__Hskudx14OJ5Hz8vqU7CUgN6SDV5rINZuEq9VuGsSeyc__EwNIl3xeFrniW2TmonovTzhSs3X5MdFps210puE7jog__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__9rZoaX9BdzjjNucvYxduxeNAVO2zgW_Rvjhb5rq5whc__lSr_y16grDSgHf4booPChnF7QXz3TQY3hafH49twE0k__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZgfI_ZPib5yVY0o5aKo_6TFn946Tuu_nFDa0ySTmkSc__2FTFrNw2eNh0mpHIOA34r6YRwBZMm2PjJ_JubnwLigg__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__dxabpJ5rQgDSixKgLJZjWc1beC6mpROKwVrmWxI5eno__rqhz_hGsE_i59O7-W991o71_Jxw1QOtGMxn4nsOLHY8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZbRCq2NqWgK-HXAQI3So0N1n0nr4HonsJS3eQuuxukw__7Olkk8Locn8Dj0eR0Ww3rbV9lks9sxipcboMXB18RRs__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+
+	<!-- Head Libs -->
+	<script src="/sites/all/themes/stability/stability_aspe/vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/sites/all/themes/stability/vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" href="/sites/all/themes/stability/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/stability/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/stability/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/stability/images/apple-touch-icon-144x144.png">
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-68601 node-type-basic-report">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-JLFR"
+                  height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JLFR');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-nav" class="accessibility_menu">
+    <strong>Shortcut Navigation:</strong>
+    <ul>
+      <li><a href="#content" accesskey="c" title="Skip to page content (ctrl/alt + c)">Page Content</a></li>
+      <li><a href="#nav" accesskey="m" title="Skip to main navigation menu (ctrl/alt + m)">Site Navigation</a></li>
+
+      <li><a href="#Footer" accesskey="f" title="Skip to footer (ctrl/alt + f)">Footer</a></li>
+    </ul>
+  </div>
+
+    
+<div class="site-wrapper">
+  
+  <header class="header header-menu-fullw header-top-clean">
+    <div id="brand-bar">
+        <div class="container">
+                    <img alt='bird' src="/sites/all/themes/stability/stability_aspe/images/bird.png"> <a target="blank" tabindex="4" href="http://www.hhs.gov/">U.S. Department of Health & Human Services</a>
+        </div>
+
+    </div>
+    <div class="header-main">
+        <div class="container clearfix">
+            <div class="social-links-wrapper">
+                <ul class="social-links social-links__light">
+                                                          <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw.png"/></a></li>
+                                    <!--                  --><!--                    <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin.png"/></a></li>-->
+<!--                  -->
+                                                                      </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                                <div class="site_name_wrapper">
+                                     <span class="h1">
+                                      <a href="/">ASPE</a>
+                                       </span>
+                                  <p class="tagline"><p>Office of The Assistant Secretary</p><p> for Planning and Evaluation</p></p>
+                    </div>
+            </div>
+            <!-- Logo / End -->
+            <div class="header_right_wrapper">
+                <div class="search-form">
+                    <form action="/basic-report/nursing-home-liability-insurance-market-case-study-texas" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class = "input-group"><div class="form-type-textfield form-item-search-block-form form-item form-group">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search Site..." class="form-control form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input class="btn btn-primary btn-icon form-submit" type="image" id="edit-submit" name="submit" value="Search" src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/search-white2.png" alt="Search" title="Search" /></div></div><input type="hidden" name="form_build_id" value="form-oG5Uor-AYKbyPmoKCFjZEQPYoqqay8_F9LEcB4MA9oY" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </div>
+                <button type="button" class="navbar-toggle" value="Menu">
+                    <i class="fa fa-bars"></i>Menu
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-main">
+        <div class="container">
+          <ul data-breakpoint="767" class="flexnav">
+                <li class="first expanded"><a href="/basic-search/about" title="">About</a><ul><li class="first leaf"><a href="/mission" title="">Mission</a></li>
+<li class="leaf"><a href="/key-staff" title="">Leadership</a></li>
+<li class="leaf"><a href="https://www.usajobs.gov/" title="">Careers</a></li>
+<li class="expanded"><a href="/coordination" title="linkTo">Coordination</a><ul><li class="first leaf"><a href="/evaluation-evidence" title="">Evaluation &amp; Evidence</a></li>
+<li class="leaf"><a href="/national-alzheimers-project-act">National Alzheimer&#039;s Project Act</a></li>
+<li class="leaf"><a href="/health-and-human-services-hhs-data-council">HHS Data Council</a></li>
+<li class="last leaf"><a href="/national-committee-vital-and-health-statistics" title="National Council on Vital and Health Statistics">National Council on Vital and Health Statistics</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/divisions" title="">Offices</a><ul><li class="first leaf"><a href="/office-disability-aging-and-long-term-care-policy-daltcp">Disability, Aging, and Long-Term Care Policy</a></li>
+<li class="leaf"><a href="/office-health-policy-hp">Health Policy</a></li>
+<li class="leaf"><a href="/office-human-services-policy">Human Services Policy</a></li>
+<li class="last leaf"><a href="/office-science-and-data-policy">Science and Data Policy</a></li>
+</ul></li>
+<li class="leaf"><a href="/strategic-planning" title="Strategic Planning">Strategic Planning</a></li>
+<li class="last leaf"><a href="/contact-aspe" title="">Contact ASPE</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/topics" title="">Topics</a><ul><li class="first leaf"><a href="/affordable-care-act-research">Affordable Care Act Research</a></li>
+<li class="leaf"><a href="/alzheimers-dementia">Alzheimer&#039;s / Dementia</a></li>
+<li class="leaf"><a href="/early-childhood">Early Childhood</a></li>
+<li class="leaf"><a href="/incarceration-reentry">Incarceration &amp; Reentry</a></li>
+<li class="leaf"><a href="/opioid-abuse-us-and-hhs-actions-address-opioid-drug-related-overdoses-and-deaths" title="Opioids">Opioids</a></li>
+<li class="leaf"><a href="/patient-centered-outcomes-research-trust-fund">Patient-Centered Outcomes Research Trust Fund (PCORTF)</a></li>
+<li class="expanded"><a href="/basic-search/poverty" title="">Poverty</a><ul><li class="first leaf"><a href="/poverty-guidelines">Poverty Guidelines</a></li>
+<li class="last leaf"><a href="/poverty-estimates-trends-and-analysis">Poverty Analysis</a></li>
+</ul></li>
+<li class="leaf"><a href="/teen-pregnancy-prevention">Teen Pregnancy Prevention</a></li>
+<li class="leaf"><a href="/homelessness">Homelessness</a></li>
+<li class="last leaf"><a href="/medicare-access-and-chip-reauthorization-act-2015">MACRA</a></li>
+</ul></li>
+<li class="leaf"><a href="/reports" title="">Publications</a></li>
+<li class="last expanded"><a href="/basic-search/datasets" title="">Data and Tools</a><ul><li class="first last leaf"><a href="/evaluations" title="">Evaluation Database</a></li>
+</ul></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation / End -->
+</header>  <div class="main" role="main">
+    <!--PAGEWATCH CODE="USHHS_458"-->
+    <section class="page-heading">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+                <h1>
+                    
+          The Nursing Home Liability Insurance Market: A Case Study of Texas        </h1>
+                                 <p class="author">
+                                                 <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2006-06-01T00:00:00-04:00">06/01/2006</span>               
+                           </p>
+
+
+                  </div>
+
+
+        <div class="col-md-6">
+           <ul class="breadcrumb"><li class="first"><a href="/" title="Home">Home</a></li>
+<li class="last">The Nursing Home Liability Ins...</li>
+</ul>        </div>
+
+
+    </div>
+  </div>
+</section>
+    
+      <div  class="nd-region nd-region-filter">
+  
+       
+
+    
+      <div  id="Filter" class="row">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region nd-region-similar-content">
+  
+       
+
+    
+      <div  id="Similar-Content" class="row">     
+
+        
+                  
+        
+                                    <div  id="top" class="">
+                          
+                              <div id="block-views-2100ccfdd214bdbcf634d7e4832c265b" class="widget block block-views solr-similar-content" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Similar</span> content</h3>
+		</div>
+    
+  <div class="view view-similar-content-solr view-id-similar_content_solr view-display-id-block_solr_similar_content view-dom-id-eadc8d85da1eec932d60e60f644172db">
+        
+  
+  
+      
+    
+    <span class="field-content"><a href="/basic-report/recent-trends-nursing-home-liability-insurance-market">Recent Trends in the Nursing Home Liability Insurance Market</a></span>    
+    <span class="field-content"><a href="/basic-report/nursing-home-liability-insurance-market-case-study-ohio">The Nursing Home Liability Insurance Market: A Case Study of Ohio</a></span>    
+    <span class="field-content"><a href="/basic-report/nursing-home-liability-insurance-market-case-study-california">The Nursing Home Liability Insurance Market: A Case Study of California</a></span>    
+    <span class="field-content"><a href="/basic-report/nursing-home-liability-insurance-market-case-study-georgia">The Nursing Home Liability Insurance Market: A Case Study of Georgia</a></span>    
+    <span class="field-content"><a href="/basic-report/nursing-home-liability-insurance-market-case-study-florida">The Nursing Home Liability Insurance Market: A Case Study of Florida</a></span>  
+  
+  
+  
+  
+  
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Content">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  class="col-md-12 " id="content">
+                          
+                              <div id="block-aspe-aspe-addthis" class="widget block block-aspe" >
+  
+      
+  <div class="clearfix">
+  <ul class="addthis_sharing_toolbox node-share__links" data-url="https://aspe.hhs.gov/basic-report/nursing-home-liability-insurance-market-case-study-texas" data-title="The Nursing Home Liability Insurance Market: A Case Study of Texas">
+    <li><a class="addthis_button_print"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/print-white.png" alt="print" /></a></li>
+    <li><a class="addthis_button_email"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/mail-white.png" alt="email" /></a></li>
+    <li><a class="addthis_button_twitter"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/tw.png" alt="twitter" /></a></li>
+<!--    <li><a class="addthis_button_facebook">--><!--</a></li>-->
+    <li><a class="addthis_button_compact"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/plus-white.png" alt="compact" /></a></li>
+  </ul>
+</div>
+
+  </div> <!-- /.block -->
+
+                
+    
+  
+  <div class="content clearfix node-basic-report">
+    <p><font><b><font face="Calisto MT">U.S. Department of Health and Human Services</font></b></font></p>
+<h1>The Nursing Home Liability Insurance Market: A Case  		Study of Texas</h1>
+<h3>David Stevenson, Brian Burwell and Michael Schaefer</h3>
+<h3>Thomson Medstat</h3>
+<h3>June 1, 2006</h3>
+<p><a href="/system/files/pdf/74741/NHliab-TX.pdf">PDF Version</a></p>
+<hr /><blockquote>
+<p><i>This report was prepared under contract between the U.S. Department  		  of Health and Human Services (HHS), Office of Disability, Aging and Long-Term  		  Care Policy (DALTCP) and Medstat. For additional information about the study,  		  you may visit the DALTCP home page at  		  <a href="http://aspe.hhs.gov/_/office_specific/daltcp.cfm">http://aspe.hhs.gov/_/office_specific/daltcp.cfm</a> or contact the ASPE Project  		  Officer, Susan Polniaszek, at HHS/ASPE/DALTCP, Room 424E, H.H. Humphrey  		  Building, 200 Independence Avenue, SW, Washington, DC 20201. Her e-mail address  		  is: <a href="mailto:Susan.Polniaszek@hhs.gov">Susan.Polniaszek@hhs.gov</a>.</i></p>
+<p><i>The opinions and views expressed in this report are those of the  		  authors. They do not necessarily reflect the views of the Department of Health  		  and Human Services.</i></p>
+</blockquote>
+<hr /><h2>TABLE OF CONTENTS</h2>
+<dl><dt><a href="#intro">INTRODUCTION</a></dt>
+</dl><dl><dt><a href="#state">STATE ENVIRONMENT</a></dt>
+<dd>Texas Nursing Home Industry</dd>
+<dd>Nursing Home Quality and Oversight in Texas</dd>
+<dd>Nursing Home Litigation and Liability Insurance Trends in Texas</dd>
+<dd>Nursing Home Liability Insurance Market in Texas</dd>
+<dd>Legal and Legislative Environment in Texas</dd>
+</dl><dl><dt><a href="#summary">SUMMARY</a></dt>
+</dl><dl><dt><a href="#ref">REFERENCES</a></dt>
+</dl><dl><dt><a href="#notes">NOTES</a></dt>
+</dl><dl><dt><a href="#glossary">GLOSSARY</a></dt>
+</dl><dl><dt><a href="#tables">TABLES</a></dt>
+<dd><a href="#table1">TABLE 1</a>: Texas Nursing Home Liability Estimates  		  vs. U.S. Based on Various Data Sources</dd>
+</dl><dl><dt><a href="#reports">REPORTS AVAILABLE</a></dt>
+</dl><h2><a name="intro" id="intro">INTRODUCTION</a></h2>
+<p>The market for professional liability insurance for nursing facility  		operators is in a state of flux, and the cost of professional liability  		insurance has increased substantially in all areas of the country, though more  		so in some states than in others. At the same time, the number of insurance  		carriers offering liability coverage to nursing homes has decreased  		dramatically, as many admitted insurance carriers incurred huge losses in this  		product line in the late 1990s, and decided to get out of the market  		altogether. Those carriers that decided to stay in the market changed their  		terms and conditions for liability coverage dramatically, taking on less risk  		at much higher prices.<sup><font><a href="#notea">a</a></font></sup>  		Consequently, in some areas of the country, many nursing facility owners have  		been forced to operate without any professional liability insurance coverage  		whatsoever.</p>
+<p>A major contributing factor to increased cost and reduced availability  		of professional liability insurance for nursing homes has been increased  		litigation. However, the nature of the link between nursing home litigation and  		the cost and availability of professional liability insurance is a matter of  		considerable debate in the policy arena. </p>
+<p>This report presents a case study of the nursing home liability  		insurance market in Texas. The report is one of five case studies that was  		prepared as part of a larger study sponsored by the Office of the Assistant  		Secretary for Planning and Evaluation within the Department of Health and Human  		Services (HHS) on trends and issues in the nursing home liability insurance  		market. Additional case studies were conducted of the nursing home liability  		insurance market in the states of California, Ohio, Florida, and Georgia. The  		purpose of the study is to inform federal and state policymakers, providers,  		insurers, and consumer groups about trends and issues concerning the nursing  		home liability insurance crisis. This report presents the case study on nursing  		home litigation and liability insurance issue in the state of Texas.</p>
+<p>The case study draws largely upon a week long site visit conducted by  		the study contractor in March 2003. The case study offers a brief background on  		the Texas nursing home industry, nursing home quality, and litigation and  		liability insurance trends in Texas before discussing perspectives on these  		issues as they relate to the recent tort reform debate in the state. The report  		draws on in-person, telephone, and email discussions, in addition to published  		and unpublished literature. Discussions were conducted with a broad range of  		stakeholders including consumer advocates, representatives of for-profit and  		not-for-profit nursing homes, plaintiff and defense attorneys, state agencies,  		state legislators, and the Office of the Governor. In June 2003, three months  		after the site visit was conducted, the Texas state legislature enacted  		significant medical malpractice reform legislation (House Bill 4) which  		encompassed the nursing home industry as well as other health care providers in  		the state. Numerous follow-up calls were made, and additional background  		materials collected, during the summer and fall of 2003 to augment the  		information obtained during the conduct of the site visit. In August 2005, the  		case study was updated with the most recent information available pertaining to  		the effects of the implementation of House Bill 4 and related legislation.</p>
+<h2><a name="state" id="state">STATE ENVIRONMENT</a></h2>
+<p>Texas and Florida have emerged as the two states where the nursing home  		liability insurance crisis has proven to be the most severe. One study  		estimated that Texas and Florida alone account for more nursing home  		litigation--in claims and in dollars--than all other states combined.<sup><font><a href="#ref1">1</a></font></sup> Although the liability insurance  		situation is relatively new to the nursing home industry, the implications of  		these trends are familiar to observers of medical malpractice debates over the  		last 30 years--rising liability insurance premiums, increased practice costs,  		and market pullouts by insurers and providers. Much remains unexplored about  		nursing home liability trends in Texas. While several reports have focused on  		the scale, dynamics, and policy responses to nursing home litigation in  		Florida, few have focused on Texas.<sup><font><a href="#ref2">2</a>,  		<a href="#ref3">3</a>, <a href="#ref4">4</a>, <a href="#ref5">5</a>,  		<a href="#ref6">6</a>, <a href="#ref7">7</a>, <a href="#ref8">8</a>,  		<a href="#ref9">9</a></font></sup></p>
+<h3>Texas Nursing Home Industry</h3>
+<p>The nursing home industry in Texas is distinctive in a number of  		characteristics that have affected recent trends in the liability insurance  		market in the state. First, for-profit companies and regional and national  		chains control a large share of the states 1,134 nursing facilities.  		Texas ranks second in the country in percentage of nursing homes that are  		for-profit (81%). While the percentage of chain providers decreased from 74% in  		December 2001 to 62% in June 2005, the current figure is still well above the  		national average (52%).<sup><font><a href="#ref10">10</a></font></sup></p>
+<p>Second, nursing homes in the state are substantially overbuilt.  		Texas 115,000 certified nursing home beds have the ninth lowest occupancy  		rate in the country (77%).<sup><font><a href="#ref11">11</a></font></sup> The states 52 certified nursing home  		beds per 1,000 people age 65 or older is greater than the national average of  		46. The bed supply appears even higher when considering people age 85 or older,  		the age group most likely to use nursing facility care. Texas ranks fifth in  		the nation in nursing home beds per 1,000 people age 85 or older (468), 35%  		above the national average (345).<sup><font><a href="#ref12">12</a></font></sup></p>
+<p>Third, both public and private reimbursement rates are among the lowest  		in the country. In 2002, Texas Medicaid program paid an average of $98  		per day. This rate was 37th among 46 states that responded to a survey of  		Medicaid payment policies.<sup><font><a href="#ref13">13</a></font></sup> The 2003 average private pay rate in urban  		areas, $103, ranked 49th among the 50 states and DC.<sup><font><a href="#ref14">14</a></font></sup></p>
+<p>Fourth, Texas nursing facilities have decreased their reliance on  		Medicaid in recent years. In December 2001, Medicaid was the primary payer for  		73% of nursing facility residents, above the national average of 67%. As of  		June 2005, Medicaid is the primary payer for 67% of residents, close to the  		national average of 66%. This trend is only partly explained by an increase in  		Medicare billing, which was slightly higher than the national increase.  		Medicare is the primary payer for 12% of Texas nursing facility residents,  		which is the same as the national average. In December 2001, Texas was slightly  		below the national average (9% versus 10%).<sup><font><a href="#ref15">15</a></font></sup></p>
+<p>Fifth, Texas has seen a greater than average increase in  		Medicare-certified beds. In December 2001, Texas was below the national average  		in the percentage of Medicare-certified beds (50% versus 60%). By June 2005,  		Texas had caught up to the national average, which increased after changes in  		Medicare reimbursement (82%). The percentage of Medicaid-certified beds  		remained constant during this time (82%, most of which are also  		Medicare-certified). Nationally, 91% of nursing facilities are  		Medicaid-certified. Only 6% of beds are not certified for either Medicare or  		Medicaid, which is slightly above the national average of 5%.<sup><font><a href="#ref16">16</a></font></sup></p>
+<h3>Nursing Home Quality and Oversight in Texas</h3>
+<p>Data from Medicare and Medicaid certification surveys indicate Texas has  		slightly fewer deficiencies than nursing facilities across the country. In  		2004, surveys identified 8.4 deficiencies per Texas facility, compared to the  		national average, 9.2. A small portion of these quality concerns led to actual  		harm to residents or put residents at risk of death or serious injury (i.e.,  		immediate jeopardy). Texas also had a lower than average percentage of  		facilities with the most serious deficiencies (12%, compared to the national  		average of 15.5%).<sup><font><a href="#ref17">17</a></font></sup></p>
+<p>Survey data may understate quality problems, however. A 1999 U.S.  		General Accounting Office (GAO) report offered strong criticism of the nursing  		facility enforcement system, and noted large variations among states in the  		survey process.<sup><font><a href="#ref18">18</a></font></sup>  		Although a more recent GAO report noted improvements, it identified continued  		nursing home oversight shortcomings in several states, including  		Texas.<sup><font><a href="#ref19">19</a></font></sup></p>
+<p>Texas is one of a few states where nursing home staffing has declined  		since 1998. Licensed nurse and certified nursing assistant staff per resident  		day dropped from 3.8 in 1998 to 3.5 in 2004. Texas is now in the bottom third  		among states in nursing home staffing.<sup><font><a href="#ref20">20</a></font></sup></p>
+<h3>Nursing Home Litigation and Liability Insurance Trends  		in Texas</h3>
+<p>Nursing homes in Texas have faced considerable financial pressures as a  		result of claims and lawsuits in recent years. Except for Florida, no other  		state has been hit as hard by professional liability costs as Texas.<sup><font><a href="#ref21">21</a>, <a href="#ref22">22</a></font></sup><a href="#table1">Table 1</a> outlines some of the available data for Texas  		and, where possible, includes national comparisons. Generally, the data in  		<a href="#table1">Table 1</a> indicate that nursing homes in Texas are  		experiencing greater professional liability loss costs per bed and higher  		frequencies of liability claims compared to nursing homes elsewhere in the  		United States. </p>
+<p>The available data indicate that the frequency of nursing home liability  		claims in Texas exceed those of any state except Florida. Two estimates, one  		based upon liability claims submitted by nursing home providers and one based  		upon a survey of plaintiff and defense attorneys, put claims frequency in Texas  		at 2-3 times the national average.<sup><font><a href="#ref23">23</a>,  		<a href="#ref24">24</a></font></sup> In addition, the severity of claims in  		Texas is estimated to be among the highest in the nation, with punitive damages  		and large jury awards playing an influential role in pushing average settlement  		amounts per claim into the $300,000-$500,000 range.<sup><font><a href="#ref25">25</a>, <a href="#ref26">26</a></font></sup> Two  		high profile jury verdicts in Texas in 2001 were returned at $82 million and  		$315 million. To put these estimates into context, one report, based on a  		survey of lawyers, estimates that the attorneys for these two cases handled  		claims worth approximately 15% of Texas annual nursing home expenditures  		in 2001.<sup><font><a href="#ref27">27</a></font></sup> The  		combination of these trends has led to substantially increased liability  		insurance premiums for nursing home providers. One survey conducted by the  		Texas Association of Homes and Services for the Aging estimated that premiums  		had increased, on average, from $328 per bed in 1998 to almost $3,000 per bed  		in 2002.<sup><font><a href="#ref28">28</a></font></sup></p>
+<p>Spiraling loss costs and insurance premiums have affected the stability  		of the liability insurance market in Texas. Almost all admitted  		liability insurers (i.e., those which adhere to state insurance regulations)  		have left the Texas market, and many nursing homes in Texas have had difficulty  		obtaining coverage.<sup><font><a href="#ref29">29</a></font></sup>  		Many facilities have had to rely on surplus-line insurance companies or other  		insurance arrangements, which tend to be even more expensive. Surplus-line  		insurance companies do not adhere to state insurance regulations. A 2001 study  		estimated surplus-line premiums for nursing homes at about $2,500-$5,000 per  		bed.<sup><font><a href="#ref30">30</a></font></sup> Two surveys of  		nursing homes conducted by the Texas Department of Insurance (TDI) and the  		Texas Association of Homes and Services for the Aging in March 2003 and  		February 2002, respectively, both estimated that around half of all nursing  		homes in Texas had no liability insurance coverage whatsoever.<sup><font><a href="#ref31">31</a>, <a href="#ref32">32</a></font></sup></p>
+<h3>Nursing Home Liability Insurance Market in Texas</h3>
+<p>As in other malpractice debates, a flashpoint in Texas has been failures  		in the liability insurance market. Providers point to diminished coverage  		options and spiraling liability premiums as indisputable evidence of the need  		for reform. In March 2003, when the site visit was conducted, both for-profit  		and not-for-profit providers reported that liability premiums had jumped 1000%  		over the previous five years, and that these increased rates were for reduced  		coverage (e.g., higher deductibles and claims-based rather than  		occurrence-based coverage). TDI estimated that almost half of all nursing homes  		had no liability insurance whatsoever. Consumer advocates posited that some  		facilities may go without insurance simply to limit their attractiveness as  		lawsuit targets. Providers emphasized that soaring premiums for liability  		insurance made it impossible for them to purchase coverage and remain  		financially viable. </p>
+<p>Providers stated that increasing liability insurance costs and exposure  		to liability claims made it difficult to provide quality resident care given  		constrained resources. Although Texas had instituted an add-on to the Medicaid  		rate for facilities with insurance coverage, providers stated that it was an  		inadequate boost to an already insufficient Medicaid rate. Specifically, the  		add-on increased the Medicaid payment rate by only $2.40/bed/day for facilities  		that maintained mandated levels of insurance coverage. </p>
+<p>One physician who worked as a medical director in several facilities  		estimated that liability-related costs represented almost 10% of the Medicaid  		per-diem rate for patient care. In addition, she reported that physicians who  		work in nursing homes--either as medical directors or as attending  		physicians--are being forced to discontinue this work due to several factors:  		physicians and other health care professionals are increasingly being named in  		nursing home liability claims (i.e., in addition to the nursing home itself);  		physicians no longer have umbrella coverage under facility policies; and  		physicians face substantially increased premiums or the threat of being dropped  		by their professional liability carriers if they continue to practice in  		nursing homes.<sup><font><a href="#ref33">33</a></font></sup>  		Finally, several not-for-profit providers maintained that the rise in liability  		claims had impeded their ability to fulfill their charitable missions, since  		donors were hesitant to contribute assets that might be tapped to pay  		litigation claims. </p>
+<p>Plaintiff attorneys and consumer advocates, on the other hand,  		questioned how dire things really were financially for Texas nursing  		homes and whether increased claims activity alone had led to increase liability  		insurance premiums. As evidence, they pointed to a report produced by the Texas  		state affiliate of the AARP. The report used cost report data from 1997-1999  		and concluded that Texas nursing homes had remained profitable over this time  		period,<sup><font><a href="#ref34">34</a></font></sup> although these  		years pre-dated the more recent surge in liability premiums.</p>
+<p>Consumer advocates and plaintiff attorneys expressed the view that  		rising liability premiums were primarily driven by cyclical economic forces  		affecting the liability insurance market more generally, such as reduced  		investment returns (or losses) in the stock market. One advocate indicated that  		the rise in premiums started well before any large nursing home verdicts had  		been awarded in Texas and that premium increases in the nursing home market  		were affected by the rise in medical malpractice costs more generally. </p>
+<p>Representatives from the TDI expressed a different opinion, claiming  		that large awards in recent nursing home cases and insurance carrier pull-outs  		in the liability reinsurance market had played a significant role in recent  		premium increases. While acknowledging the difficulty in determining all the  		reasons for the implosion in the insurance market, TDI staff felt that price  		increases and market exits by insurance carriers began before the economic  		downturn and that insurance companies had relatively low exposure to the stock  		market that made them less susceptible to market fluctuations. A recent review  		of the medical malpractice insurance crisis conducted by the National  		Association of Insurance Commissioners supports this view:</p>
+<p>Given the relatively small impact of investment income on the  		overall income of insurers, this study concludes that underwriting losses, not  		a declining stock market, were the major factor influencing the rate increases  		experienced by physicians and other health care providers.<sup><font><a href="#ref35">35</a></font></sup></p>
+<p>During the site visit, nursing home providers discussed how they had  		changed their operations in light of these insurance trends. For-profit and  		not-for-profit providers responded somewhat differently, perhaps in part  		because of different liability experiences.<sup><font><a href="#noteb">b</a></font></sup> When asked how litigation trends had impacted  		their business practices, for-profit providers emphasized changes in risk  		management practices specifically designed to reduce litigation risk.  		Not-for-profit providers were more focused on quality improvement practices.  		While acknowledging that litigation had pushed them to place increased  		attention on documentation practices, not-for-profit providers were insistent  		that they were primarily focused on maintaining the highest quality standards  		possible throughout the rise in litigation. </p>
+<h3>Legal and Legislative Environment in Texas</h3>
+<p>In the years prior to the 2003 (78th) legislative session, Texas  		lawmakers had already taken several steps to address nursing home quality and  		liability insurance market issues. The 76th and 77th state legislatures took  		steps in 1997 and 1999, respectively, to strengthen nursing home oversight and  		enforcement, increase standards of care and residents rights, create a  		nursing home guide for consumers, and address the emerging liability insurance  		situation. </p>
+<p>In particular, the Omnibus Nursing Home Legislation (Senate Bill 1839 or  		S.B. 1839), passed in 1999 by the 77th legislature, attempted to address the  		availability and cost of liability insurance by authorizing the states  		insurer of last resort, the Joint Underwriting Association (JUA) to write  		professional liability insurance policies for all nursing homes. This option  		was previously available only to non-profit nursing homes. At the same time,  		Senate Bill 1839 mandated that all nursing homes have professional liability  		coverage, effective September 2003. This statute, which was also the topic of  		considerable debate in the 78th legislative session, mandated coverage of  		$1,000,000 per occurrence and $3,000,000 in total coverage per year. Other  		insurance-related aspects of the bill directed the TDI to develop risk  		management best practices for nursing homes and to require all  		liability insurers--both admitted and non-admitted--to submit claims<sup><font><a href="#notec">c</a></font></sup> and settlement data to the TDI.  		</p>
+<p>S.B. 1839 addressed other legal and regulatory issues related to nursing  		home liability. The bill clarified and re-affirmed the admissibility of nursing  		home survey documents in civil trials. On the regulatory side, the bill created  		quality assurance monitors and rapid response teams to  		work in a consultative--rather than punitive--way to improve quality of care  		and to assist troubled facilities. The bill allocated 82 full-time employees to  		the program, diverting resources from state survey activities to do so. In  		addition, S.B. 1839 transferred the informal dispute resolution process from  		the Department of Human Services (the survey agency) to the Health and Human  		Services Commission to minimize the potential for bias. </p>
+<p>Finally, S.B. 1839 contained provisions related to nursing home  		financing. In particular, responding to a coalition of provider and consumer  		groups who were supportive of a Medicaid rate increase tied to staffing and  		quality improvements, S.B. 1839 appropriated an additional $175 million in  		general revenues for the 2002-2003 biennium. Importantly, $135 million of this  		amount was designated for staffing enhancements. Increased reimbursement was  		available to participating nursing facility providers that improved direct-care  		staffing levels and/or their level of compensation. It is unclear what portion  		of these resources were actually distributed as most nursing homes reportedly  		participated in the staff enhancement program. </p>
+<p>The 78th Texas legislative session was dominated by a debate on tort  		reform. In this section, we describe the underlying perspectives that drove the  		debate, detail the reforms themselves, and highlight the views of various  		stakeholders. These issues include the etiology of claim increases, the impacts  		on the liability insurance market, and insurance premium trends. </p>
+<p>The first issue of debate concerned the origins and magnitude of the  		nursing home litigation problem. Both sides of the debate agreed that the rise  		in nursing home claims in Texas stretched back to the mid to late1990s, and was  		at least partly related to reforms enacted in the states worker  		compensation system that limited recoveries and attorneys fees.  		Consequently, the plaintiff bar in Texas focused increased attention on the  		nursing home market as a potential area for litigation.</p>
+<p>One of the more contentious questions in any malpractice debate is the  		extent to which claims are driven by legitimate instances of substandard  		quality or rather more simply by the economic interests of attorneys and other  		individuals involved. Almost inevitably, a lack of reliable data confounds the  		ability to answer the question with clarity, leaving both sides to construct  		competing arguments. </p>
+<p>Plaintiffs attorneys and consumer advocates in Texas argue that  		endemic poor quality in some of the states nursing homes is the primary  		factor underlying the increase in litigation activity in Texas. In their view,  		inadequate staffing, poor facility management, and misaligned corporate  		priorities (balance sheet abuse as one advocate called it) produce  		poor care outcomes and the justified liability claims that follow. Rather than  		following a further decline in nursing home quality, plaintiff attorneys and  		advocates claimed that the rise in litigation activity tapped into negligent  		care practices that had existed for years but which have only recently drawn  		claimants and attorneys due to the increased potential for sizeable awards.  		</p>
+<p>Along these lines, one advocacy group--Texas Advocates for Nursing Home  		Reform (TANHR)--produced a book entitled Faces of Neglect for  		distribution to state legislators during the reform debate. The book contained  		stories and pictures of plaintiffs in claims against Texas nursing homes.  		Advocates view nursing home litigation (and the threat of it) as a tool to  		promote positive change for quality improvement. Toward this end, TANHR  		actively encourages families whose loved ones have experienced abuse and/or  		neglect in nursing homes to come forward, and refers these families to  		recommended attorneys with expertise in nursing home litigation. </p>
+<p>The nursing home industry and defense attorneys had a decidedly  		different view of the factors which underlay the rise in nursing home  		litigation. They expressed the view that plaintiff attorneys are primarily  		motivated by the opportunity to make an easy killing against the  		nursing home industry that has been made an easy target for resident outcomes  		that, in many cases, are not within their ability to control. Many providers  		stated that family members had unrealistic expectations about the aging (and  		dying) process, and wanted to hold nursing homes accountable for outcomes, that  		were, in many cases, unavoidable. While acknowledging that there are indeed  		real cases of abuse and neglect within the industry that warrant litigation and  		compensation to injured parties, many providers expressed the belief that the  		size and frequency of liability awards is considerably out of proportion to the  		adverse outcomes caused by negligent care practices. </p>
+<p>The legitimacy of professional liability claims against  		nursing homes for negligent and/or substandard care is a difficult question to  		evaluate without thorough and in-depth reviews of actual cases. Even then,  		there may be disagreement regarding the culpability of providers for incidents  		which lead to filing of a claim or lawsuit, be it a fall, excessive weight  		loss, or pressure ulcers. One figure cited by both sides in Texas to debate  		this question is the low proportion (10-15%) of 4590i letters that  		go on to become actual claims. 4590i letters refer to a statute in the Medical  		Liability and Insurance Improvement Act of Texas which requires that  		individuals send a written letter notifying healthcare providers of a potential  		claim before filing a lawsuit. Providers and their insurers have 60 days to  		investigate and respond to these letters, after which point the injured party  		can decide whether or not to pursue the claim. While providers assert the low  		proportion of these letters that actually move forward is indicative of  		attorneys conducting fishing expeditions, plaintiff attorneys  		assert that it reflects an effective system for filtering out the more  		legitimate claims without tying up the courts.</p>
+<p>The 78th legislative session in Texas was dominated by debate on House  		Bill 4 (H.B. 4), a comprehensive tort reform bill covering claims against  		health care providers, manufacturers, and retailers. Supported by the House and  		Senate leadership, and by the Governor, H.B. 4 proposed sweeping changes in  		Texas tort system, which could radically change the nursing home  		litigation environment in the state. Although the legislation was fiercely  		debated throughout the legislative session, H.B. 4 eventually won approval in  		June 2003 by significant voting margins of 110-34 and 28-3 in the House and  		Senate, respectively. </p>
+<p>Caps on damages in medical malpractice cases existed in Texas even  		before H.B. 4 was passed. Texas Civil Statute 4590i included caps on  		non-economic damages of $500,000 in 1977 dollars, indexed to inflation (around  		$1.4 million in 2003 dollars). In addition, Chapter 41 of the Texas Civil  		Practices and Remedies Code limited punitive damages in cases arising after  		September 1, 1995 to two times economic damages plus an amount equal to  		non-economic damages, not to exceed $750,000. Thus, in arguing against caps  		within H.B. 4, plaintiff attorneys were quick to point out that Texas already  		had caps in place and questioned whether more severe caps would have any  		marginal impact on the liability insurance situation.<sup><font><a href="#ref36">36</a></font></sup> However, the pre-existing statutes contained  		loopholes. Although the caps on non-economic damages contained in 4590i were  		intended to apply to all medical malpractice cases, they were held in 1988 to  		be constitutional only in wrongful death and survival action cases. In  		addition, punitive damages caps did not apply to certain felonies (e.g., fraud,  		malice, or a willful act, omission, or gross neglect) or to injuries of  		children, the elderly, or the disabled. The latter exemption essentially left  		awards for non-economic damages in nursing home cases uncapped. </p>
+<p>H.B. 4 set a $250,000 hard cap on non-economic damages in lawsuits  		against physicians and individual health care institutions and a $500,000  		cumulative cap if claims extended across multiple providers.<sup><font><a href="#noted">d</a></font></sup> Another clause restricted the  		ability of multiple parties (e.g., different family members) to claim damages  		related to the injury or death of a single individual. In addition, for  		wrongful death and survival actions, H.B. 4 limited <i>all </i>damages,  		including non-economic and exemplary damages, to $500,000, regardless of the  		number of defendants or the number of separate causes of action on which the  		claim is based.<sup><font><a href="#notee">e</a></font></sup> The  		combination of the changes outlined above ensures that the cap on damages is a  		<i>hard cap</i>; in other words, filing multiple claims against multiple  		defendants or under multiple causes of action cannot circumvent the newly  		imposed limits. In addition to the caps outlined above, H.B. 4 extends punitive  		damages caps to encompass nursing home cases,<sup><font><a href="#notef">f</a></font></sup> and requires unanimous jury verdicts to award  		punitive damages.</p>
+<p>H.B. 4 was signed into law by the Governor on June 11, 2003, and went  		into effect in September 2003. Accompanying the passage of H.B. 4 was House  		Joint Resolution 3, a resolution proposing a constitutional amendment that  		allowed the legislature, by statute, to establish liability limits for  		non-economic damages and losses in health and other liability claims. The  		proposed amendment--known as Proposition 12--was put to voters on September 13,  		2003 in an effort to circumvent potential court challenges to the  		constitutionality of the law. The resolution passed by a close 51-49 percent  		margin. </p>
+<p>While the reform debate in Texas centered on damage caps, several other  		measures relevant to nursing home quality and litigation were also deliberated  		in the 78th legislative session. These included whether to delay or repeal the  		liability insurance requirement that had been passed in the 77th legislature  		(which required nursing homes to obtain liability coverage no later than  		September 2003), whether to allow state survey findings to be admitted as  		evidence in nursing home liability cases, and whether to deem Medicaid-only  		nursing homes certified through Joint Commission on Accreditation of Healthcare  		Organizations (JCAHO) accreditation. On each of these measures, the legislature  		enacted legislation aimed at achieving a more fair and efficient  		system.<sup><font><a href="#noteg">g</a></font></sup></p>
+<p>As noted previously, provisions in S.B. 1839, enacted in 2001, required  		that all Texas nursing homes carry professional liability insurance in the  		amount of $1,000,000 per occurrence and $3,000,000 total per year. Coverage  		could be provided by the JUA, admitted carriers, or surplus-lines carriers.  		Notably, self-insurance and off-shore captive arrangements did not meet the  		requirements outlined in the legislation. Providers argued that S.B. 1839 was  		too restrictive (e.g., not allowing self-insurance) and that--given the current  		condition of the liability insurance market--it was unrealistic to expect  		nursing homes to be able to purchase insurance with specified amounts of  		coverage. Lawmakers agreed and delayed the mandated insurance requirements to  		September 1, 2005. Minimum levels of insurance were maintained at previous  		levels, but self-insurance and off-shore captive arrangements were also made  		acceptable forms of insurance coverage. </p>
+<p>One key barrier reported by providers in complying with the requirements  		was the JUAs inability to make coverage available <i>and</i> affordable.  		According to providers, the JUA addressed the availability part of the equation  		but did little to deal with the question of affordability. The JUA priced its  		own policies on a tiered-basis according to a nursing homes previous  		claims experience and its performance on various quality indicators. Rate tiers  		were assigned based on CMS-reported quality information and self-reported  		claims information. According to the TDI, most of the small number of homes  		that had participated in the JUA insurance pool (45 homes--mostly non-profit  		facilities participated at the time of the interview) had been in the lowest  		(i.e., cheapest) tiers. It remains to be seen whether the JUA can provide  		insurance coverage for a broader range of facilities in the future. </p>
+<p>Another issue that had been debated in previous sessions of the state  		legislature concerned the states performance in regulating nursing home  		quality. While consumer advocates agreed that nursing home oversight and  		enforcement had improved considerably over the last few decades, they also  		maintained that weaknesses in the states regulatory system continued to  		persist. In addition, advocates expressed concern that the Department of Human  		Services, the states survey agency, was becoming too consultative and not  		sufficiently aggressive in its regulatory approach. </p>
+<p>Providers, on the other hand, supported the Department of Human Services  		leadership for adopting a more consultative rather than punitive approach. The  		previous legislature had replaced 82 state surveyors with quality  		monitors who were directed to work with nursing homes in a consultative  		manner to improve the quality of care. Although providers were supportive of  		this change in regulatory oversight, others, including state agency staff,  		cautioned that it was too early to evaluate its effectiveness. </p>
+<p>The legislature proposed another change to the states regulatory  		approach in the 78th session. Lawmakers introduced legislation (H.B. 2292) to  		use JCAHO rather than state certification for Medicaid-only nursing homes  		(around 15% of Texas nursing homes are Medicaid-only certified).<sup><font><a href="#noteh">h</a></font></sup> Supporters of the change touted its potential  		to reduce nursing homes regulatory burden and focus attention on care  		processes rather than paper compliance. Those opposed to the  		legislation characterized it as an effort to privatize the nursing  		home survey process and said it would weaken resident protections.<sup><font><a href="#notei">i</a></font></sup> H.B. 2292 was enacted,  		authorizing the state to apply for a Medicaid waiver to allow Medicaid-only  		nursing homes to obtain deemed status through JCAHO. </p>
+<p>The JCAHO accreditation plan raised another ongoing issue. Consumer  		advocates expressed concern that plaintiff attorneys would not be able to  		subpoena JCAHO survey results because of the confidentiality of this private  		exchange. This question parallels the larger debate about whether state survey  		findings should be admissible in litigation cases. Plaintiff attorneys and  		advocates argued that survey information is critical evidence in nursing home  		litigation cases. In particular, they argued that including inspection records  		in the discovery process can establish whether there is a pattern of provider  		behavior that is key to assessing whether punitive damages are appropriate. In  		arguing against the admissibility of survey evidence, providers and defense  		attorneys raised several key objections, including that survey results are  		often irrelevant to the case at hand, that juries do not know how to interpret  		survey findings, and that inspection results are often known to be wrong.  		Providers were particularly vigorous in asserting the potential inaccuracy of  		survey results, claiming that a high percentage of disputed deficiencies are  		ultimately overturned. In the end, the 78th legislature voted to restrict the  		use of inspection reports in nursing home litigation. H.B. 4 limits the  		admission of survey evidence<sup><font><a href="#notej">j</a></font></sup> to instances where these reports include the  		particular legal incident or individual in question or instances that are  		substantially similar to the legal incident and within one year of the alleged  		incident.</p>
+<p>Two years after the passage of H.B. 4 and Proposition 12, the nursing  		home liability insurance market is definitely stabilizing. According to the  		most recent analysis conducted by Aon Risk Consultants in March 2005,<sup><font><a href="#ref37">37</a></font></sup> the long-term care environment  		in Texas has shown marked improvement. Examining data from a sample  		representing 19% of the total licensed beds in the state, the report found that  		the average loss costs per occupied bed had declined to $3,390 in 2004, down  		from a 2002 peak of $6,720 and a drop from $4,260 in 2003.<sup><font><a href="#ref38">38</a></font></sup> Aon data also showed that claim  		frequency has declined steadily, starting in 2001. The authors of the report  		conclude that tort reform in Texas largely explains the improvements in the  		liability insurance market, stating that the combination of H.B. 4 and  		Proposition 12 appear to be having the greatest impact of any reforms  		among the states reviewed in this study on reducing general and professional  		liability claim costs.<sup><font><a href="#ref39">39</a></font></sup></p>
+<p>While the nursing home liability insurance market in Texas has  		definitely stabilized, Texas providers still face higher than average costs for  		professional liability insurance. When measured as a percentage of the Medicaid  		reimbursement rate, loss costs for Texas long-term care facilities still  		exceed the national average. Nationally, providers loss costs average  		around 5% of the Medicaid rate, while in Texas the figure is closer to 9%.  		While loss costs are trending down in Texas, the state still has the 6th  		highest average loss costs in the nation. Meanwhile, average claim severity has  		not declined, remaining in the $175,000 to $250,000 range since the late 1990s,  		according to Aon.<sup><font><a href="#ref40">40</a></font></sup> Tort  		reform advocates in Texas have pointed out that while the 2003 measures  		represent significant improvements, further reforms are necessary to ensure the  		security of the industry in the future. </p>
+<h2><a name="summary" id="summary">SUMMARY</a></h2>
+<p>The nursing home liability insurance situation in Texas played out in an  		environment of a much larger liability crisis in the state, cutting across the  		entire health care industry, as well as other business markets. The policy  		response of the 78th Texas legislature was to enact significant tort reforms  		that placed hard caps on non-economic damages and punitive awards for all  		health care providers. The enactment of H.B. 4 in June 2003, and the subsequent  		approval of Proposition 12 by Texas voters in September 2003, is viewed as a  		test case by other states and by the nursing home industry regarding whether  		substantial tort reforms can have a positive effect on stabilizing the  		liability insurance market. Industry observers generally agree that among the  		various tort reform initiatives enacted by states, the tort reform measures  		enacted under H.B. 4 have the greatest chance of reducing the frequency and  		severity of nursing home liability claims. The preliminary evidence two years  		after the enactment of H.B. 4 is that the legislation has indeed reduced  		average loss costs significantly for nursing home providers. However, whether  		commercial insurance carriers are willing to re-enter the Texas nursing home  		market, and offer liability insurance coverage at rates that nursing home  		providers can afford, remains to be seen.</p>
+<h2><a name="ref" id="ref">REFERENCES</a></h2>
+<ol><li>
+<p><a name="ref1" id="ref1">Stevenson,</a> DG, and Studdert, DM. The Rise  			 of Nursing Home Litigation: Findings from a National Survey of Attorneys.  			 <b>Health Affairs</b> (Millwood). 22(2):219-229, 2003.</p>
+</li>
+<li>
+<p><a name="ref2" id="ref2">Williamson,</a> J. The Siren Song of the  			 Elderly: Floridas Nursing Homes and the Dark Side of Chapter 400.  			 <b>American Journal of Law and Medicine</b>. 25:423-443, 1999.</p>
+</li>
+<li>
+<p><a name="ref3" id="ref3">Polivka-West,</a> L, Tuch, H, and Goldsmith, K.  			 A Perfect Storm of Unlimited Risks for Florida Nursing Home  			 Providers. <b>Ethics Law and Aging Review</b>. 7:81-99, 2001.</p>
+</li>
+<li>
+<p><a name="ref4" id="ref4">Oakley,</a> M, and Johnson, CE. <i>Liability and  			 Long-Term Care Viability, in Informational Report of the Task Force on  			 Availability and Affordability of Long-Term Care for the Florida Legislature in  			 Response to House Bill 1993</i>. Tampa, FL: Florida Policy Exchange Center on  			 Aging, University of South Florida. 2001.</p>
+</li>
+<li>
+<p><a name="ref5" id="ref5">Polivka,</a> L, Salmon, JR, Hyer, K, Johnson, CE, and  			 Hedgecock, D. The Nursing Home Problem in Florida.  			 <b>Gerontologist</b>. 43(Special Issue II):7-18, 2003.</p>
+</li>
+<li>
+<p><a name="ref6" id="ref6">Hedgecock,</a> D, and Salmon, J. <i>Lawsuits and  			 Liability Insurance Experience of Florida Nursing </i>Facilities. Tampa, FL:  			 Florida Policy Exchange Center on Aging, University of South Florida.  			 2001.</p>
+</li>
+<li>
+<p><a name="ref7" id="ref7">Florida</a> Health Care Association (FHCA).  			 <i>Nursing Home Litigation Reform Will End The Crisis that Threatens  			 Floridas Elderly</i>. Tallahassee, FL: FHCA. March 2001.</p>
+</li>
+<li>
+<p><a name="ref8" id="ref8">Florida</a> Association of Homes for the Aging and  			 the Florida Health Care Association. <i>Nursing Home Tort Survey Results</i>.  			 March 2001. Available at  			 <a href="http://www.fhca.org/fhca/news/tortsurvey_files/frame.htm">http://www.fhca.org/fhca/news/tortsurvey_files/frame.htm</a>  			 (accessed March 2002).</p>
+</li>
+<li>
+<p><a name="ref9" id="ref9">Bourdon,</a> T, and Dubin, S. <i>Florida Long-Term  			 Care: General Liability and Professional Liability Actuarial Analysis</i>. New  			 York, NY: Aon Actuarial Solutions. 2001.</p>
+</li>
+<li>
+<p><a name="ref10" id="ref10">American</a> Health Care Association, Health  			 Services Research and Evaluation (AHCA/HSRE). <i>OSCAR Data Reports:  			 Operational Characteristics June 2005</i>. Washington, DC: AHCA/HSRE. American  			 Health Care Association, Health Services Research and Evaluation (AHCA/HSRE).  			 <i>OSCAR Data Reports: Operational Characteristics December 2001</i>.  			 Washington, DC: AHCA/HSRE.</p>
+</li>
+<li>
+<p><a name="ref11" id="ref11">American</a> Health Care Association, Health  			 Services Research and Evaluation (AHCA/HSRE). <i>OSCAR Data Reports:  			 Operational Characteristics June 2005</i>. Washington, DC: AHCA/HSRE.</p>
+</li>
+<li>
+<p><a name="ref12" id="ref12">Medstat</a> analysis based on data from American  			 Health Care Association, Health Services Research and Evaluation (AHCA/HSRE).  			 <i>OSCAR Data Reports: Operational Characteristics June 2005</i>. Washington,  			 DC: AHCA/HSRE. Medstat analysis based on data from U.S. Census Bureau.  			 <i>Estimates of the Resident Population by Selected Age Groups for the United  			 States and for Puerto Rico: July 1, 2004</i>. Washington, DC: U.S. Bureau of  			 the Census.</p>
+</li>
+<li>
+<p><a name="ref13" id="ref13">Grabowski,</a> DC, Feng, Z, Intrator, O, and Mor V.  			 Recent Trends in State Nursing Home Payment Policies. <b>Health  			 Affairs</b>. Web Exclusive, June 16, 2004.</p>
+</li>
+<li>
+<p><a name="ref14" id="ref14">Gibson,</a> MJ, Gregory, SR, Houser, AN, and  			 Fox-Grage, W. <i>Across the States: Profiles of Long-Term Care (sixth  			 edition)</i>. Washington, DC: AARP. 2004.</p>
+</li>
+<li>
+<p><a name="ref15" id="ref15">American</a> Health Care Association, Health  			 Services Research and Evaluation (AHCA/HSRE). <i>OSCAR Data Reports:  			 Operational Characteristics June 2005</i>. Washington, DC: AHCA/HSRE. American  			 Health Care Association, Health Services Research and Evaluation (AHCA/HSRE).  			 <i>OSCAR Data Reports: Operational Characteristics December 2001</i>.  			 Washington, DC: AHCA/HSRE.</p>
+</li>
+<li>
+<p><a name="ref16" id="ref16">Ibid.</a></p>
+</li>
+<li>
+<p><a name="ref17" id="ref17">Harrington,</a> C, Carillo, H, Wellin, V, and  			 Shemirani, B. <i>Nursing Facilities, Staffing, Residents, and Facility  			 Deficiencies, 1995-2001</i>. San Francisco, CA: University of California at San  			 Francisco. 2002.</p>
+</li>
+<li>
+<p><a name="ref18" id="ref18">U.S.</a> Government Accounting Office (GAO).  			 <i>Nursing Homes: Additional Steps Needed to Strengthen Enforcement of Federal  			 Quality Standards</i>. Washington, DC: GAO. 1999.</p>
+</li>
+<li>
+<p><a name="ref19" id="ref19">U.S.</a> Government Accounting Office (GAO).  			 <i>Nursing Home Quality: Prevalence of Serious Problems, While Declining,  			 Reinforces Importance of Enhanced Oversight</i>. Washington, DC: GAO.  			 GAO-03-561, 2003.</p>
+</li>
+<li>
+<p><a name="ref20" id="ref20">Harrington,</a> C, Carillo, H, Wellin, V, and  			 Shemirani, B. <i>Nursing Facilities, Staffing, Residents, and Facility  			 Deficiencies, 1995-2001</i>. San Francisco, CA: University of California at San  			 Francisco. 2002.</p>
+</li>
+<li>
+<p><a name="ref21" id="ref21">Stevenson,</a> DG, and Studdert, DM. The Rise  			 of Nursing Home Litigation: Findings from a National Survey of Attorneys.  			 <b>Health Affairs</b> (Millwood). 22(2):219-229, 2003.</p>
+</li>
+<li>
+<p><a name="ref22" id="ref22">Bourdon,</a> T, and Dubin, S. <i>Long-Term Care:  			 General Liability and Professional Liability Actuarial Analysis</i>. New York,  			 NY: Aon Risk Consultants, Inc. 2003.</p>
+</li>
+<li>
+<p><a name="ref23" id="ref23">Stevenson</a> DG, and Studdert, DM. The Rise  			 of Nursing Home Litigation: Findings from a National Survey of Attorneys.  			 <b>Health Affairs</b> (Millwood). 22(2):219-229, 2003.</p>
+</li>
+<li>
+<p><a name="ref24" id="ref24">Bourdon,</a> T, and Dubin, S. <i>Long-Term Care:  			 General Liability and Professional Liability Actuarial Analysis</i>. New York,  			 NY: Aon Risk Consultants, Inc. 2003.</p>
+</li>
+<li>
+<p><a name="ref25" id="ref25">Stevenson,</a> DG, and Studdert, DM. The Rise  			 of Nursing Home Litigation: Findings from a National Survey of Attorneys.  			 <b>Health Affairs</b> (Millwood). 22(2):219-229, 2003.</p>
+</li>
+<li>
+<p><a name="ref26" id="ref26">Bourdon,</a> T, and Dubin, S. <i>Long-Term Care:  			 General Liability and Professional Liability Actuarial Analysis</i>. New York,  			 NY: Aon Risk Consultants, Inc. 2003.</p>
+</li>
+<li>
+<p><a name="ref27" id="ref27">Stevenson,</a> DG, and Studdert, DM. The Rise  			 of Nursing Home Litigation: Findings from a National Survey of Attorneys.  			 <b>Health Affairs</b> (Millwood). 22(2):219-229, 2003.</p>
+</li>
+<li>
+<p><a name="ref28" id="ref28">Texas</a> Association of Homes and Services for the  			 Aging (TAHSA). <i>Liability Insurance for Faith and Community-Based Nursing  			 Facility Care in Texas</i>. Austin, TX: TAHSA. 2002.</p>
+</li>
+<li>
+<p><a name="ref29" id="ref29">Tell,</a> E, Burwell, B, and Stevenson, D.  			 <i>Nursing Home Liability Insurance: A Market in Crisis</i>. Cambridge, MA: The  			 MEDSTAT Group, under contract with the Assistant Secretary for Planning and  			 Evaluation, U.S. Department of Health and Human Services. 2003.</p>
+</li>
+<li>
+<p><a name="ref30" id="ref30">Thomason,</a> D. <i>Nursing Home Liability Insurance  			 Rates: Factors Contributing to the Rate Increase in Texas</i>. Austin, TX:  			 Texas Senate Research Center. 2001.</p>
+</li>
+<li>
+<p><a name="ref31" id="ref31">Texas</a> Association of Homes and Services for the  			 Aging (TAHSA). <i>Liability Insurance for Faith and Community-Based Nursing  			 Facility Care in Texas</i>. Austin, TX: TAHSA. 2002.</p>
+</li>
+<li>
+<p><a name="ref32" id="ref32">Texas</a> Department of Insurance (TDI). <i>Nursing  			 Home Survey</i>. Austin, TX: TDI. 2003.</p>
+</li>
+<li>
+<p><a name="ref33" id="ref33">Wilson,</a> KM. Nursing Home Liability  			 Crisis. <b>Caring for the Ages</b>. Volume 4, Number 7, 2003.</p>
+</li>
+<li>
+<p><a name="ref34" id="ref34">Bragg,</a> D. <i>Nursing Home Resource Book for the  			 78th Texas Legislature</i>. Austin, TX: AARP. 2003.</p>
+</li>
+<li>
+<p><a name="ref35" id="ref35">National</a> Association of Insurance Commissioners.  			 <i>Medical Malpractice Insurance: A Study of Market Conditions</i>. December 5,  			 2003, draft report.</p>
+</li>
+<li>
+<p><a name="ref36" id="ref36">Bragg,</a> D. <i>Nursing Home Resource Book for the  			 78th Texas Legislature</i>. Austin, TX: AARP. 2003.</p>
+</li>
+<li>
+<p><a name="ref37" id="ref37">Aon</a> Risk Consultants. <i>Long Term Care: 2005  			 General Liability and Professional Liability Benchmark Analysis</i>. March 21,  			 2005.</p>
+</li>
+<li>
+<p><a name="ref38" id="ref38">Aon</a> Risk Consultants. <i>Long Term Care: 2005  			 General Liability and Professional Liability Benchmark Analysis</i>. March 21,  			 2005.</p>
+</li>
+<li>
+<p><a name="ref39" id="ref39">Aon</a> Risk Consultants. <i>Long Term Care: 2005  			 General Liability and Professional Liability Benchmark Analysis</i>. March 21,  			 2005.</p>
+</li>
+<li>
+<p><a name="ref40" id="ref40">Aon</a> Risk Consultants. <i>Long Term Care: 2005  			 General Liability and Professional Liability Benchmark Analysis</i>. March 21,  			 2005.</p>
+</li>
+</ol><h2><a name="notes" id="notes">NOTES</a></h2>
+<ol type="a"><li>
+<p><a name="notea" id="notea">For</a> a more extensive discussion of recent trends  			 in the nursing home liability insurance market, see Burwell, B., Stevenson, D.,  			 Tell, E., and Schaefer, M. <i>Recent Trends in the Nursing Home Liability  			 Insurance Market</i>. Report prepared for the Office of the Assistant Secretary  			 for Planning and Evaluation HHS, June 2006. [<a href="http://aspe.hhs.gov/daltcp/reports/2006/NHliab.htm">http://aspe.hhs.gov/daltcp/reports/2006/NHliab.htm</a>]</p>
+</li>
+<li>
+<p><a name="noteb" id="noteb">Although</a> for-profits and not-for-profits alike  			 face the consequences of liability insurance market failures, larger for-profit  			 facilities--anecdotally--have been the target of more litigation  			 claims.</p>
+</li>
+<li>
+<p><a name="notec" id="notec">It</a> should be noted that there is some debate  			 about the definition of a claim. As noted below, 4590i letters to  			 medical providers are formal, written requests for information from plaintiff  			 attorneys regarding care for particular individuals. Plaintiff attorneys posit  			 that these letters are not claims but rather requests for  			 information in advance of making a decision of whether or not to pursue a  			 claim. Plaintiff attorneys argue that the TDI counts these letters as claims,  			 thus overstating the litigation problem.</p>
+</li>
+<li>
+<p><a name="noted" id="noted">For</a> more detail of the provisions of H.B. 4 that  			 impact the nursing home liability situation, see the "Texas Association of  			 Homes and Services for the Aging 78th Legislature Wrap-up" compiled by David  			 Thomason of TAHSA and "Key Provisions of House Bill 4" on the Texas Medical  			 Association website (<a href="http://www.texmed.org/liability/hb4_78leg.asp">http://www.texmed.org/liability/hb4_78leg.asp</a>).</p>
+</li>
+<li>
+<p><a name="notee" id="notee">The</a> cap for wrongful death cases is in 1977  			 dollars. Indexed to inflation, it is now approximately $1.4 million.</p>
+</li>
+<li>
+<p><a name="notef" id="notef">Injuries</a> to children, the elderly, and the  			 disabled were previously exempt from punitive damages caps, but H.B. 4 amended  			 this statute to include under the caps injuries to these individuals that  			 occurred while providing health care as defined by [the  			 law].</p>
+</li>
+<li>
+<p><a name="noteg" id="noteg">Another</a> bill, S.B. 313, moved to protect the  			 endowments of not-for-profit nursing homes from legal judgment.</p>
+</li>
+<li>
+<p><a name="noteh" id="noteh">The</a> legislation may not apply to nursing homes  			 that accept Medicare payments because of federal law; the state would have to  			 get a Medicaid waiver from the Centers for Medicare and Medicaid Services to  			 institute the proposed changes as a pilot program. The state would maintain its  			 enforcement functions over these homes.</p>
+</li>
+<li>
+<p><a name="notei" id="notei">JCAHO</a> generally focuses more on structure and  			 care processes, while the federal/state survey processes have strived to focus  			 more on resident quality of life and care since Omnibus Budget Reconciliation  			 Act of 1987. For more detail, see U.S. Health Care Financing Administration,  			 Study of Private Accreditation (Deeming) of Nursing Homes, Regulatory  			 Incentives and Non-Regulatory Initiatives, and Effectiveness of the Survey and  			 Certification System (Baltimore, MD: HCFA, 1998).</p>
+</li>
+<li>
+<p><a name="notej" id="notej">Including</a> violations of conditions of  			 participation (i.e., deficiencies), monetary fines, and other  			 sanctions.</p>
+</li>
+</ol><h2><a name="glossary" id="glossary">GLOSSARY</a></h2>
+<p><b>Admitted Carriers</b> are commercial insurers whose nursing home  		liability insurance products are regulated by state departments of insurance.  		These carriers enjoy some advantages over non-admitted carriers. They can  		participate in state guaranty funds, which help protect policyholders in the  		case of insurer insolvency. Also, they have a marketing advantage over  		non-admitted carriers because some brokers, facility providers and lenders  		value state oversight and participation in the guaranty fund.</p>
+<p>The <b>Alternative Market</b> to nursing home liability insurance is  		composed of various forms of self-insurance, meaning the risk is borne by the  		participants and not an insurance company. The different forms of  		self-insurance include risk retention and risk purchasing groups (RPGs),  		captives, rent-a-captives, and sponsored captives (Joint Underwriting  		Associations).</p>
+<p><b>Arbitration Agreements</b> are contracts, the terms of which are  		determined by an arbitrator, entered into by opposing parties. An arbitrator is  		a person or panel of people who are not judges and may be: (1) agreed to by the  		parties; (2) required by a provision in a contract for settling disputes; or  		(3) provided for under statute. Arbitration is designed to be a fair and  		equitable means of dispute resolution agreed to by both parties to avoid a  		court trial and the associated expenses and time investment.</p>
+<p><b>Capitalization</b> means funding the reserves of an insurance or  		self-insurance program to pay claims.</p>
+<p>A <b>Cell Captive</b> is a captive in which member providers share  		administrative expenses but not risk.</p>
+<p>A <b>Captive</b> is a self-formed pool of providers who share risk among  		themselves, thus acting as their own insurance company. Members do their own  		underwriting, meaning they decide among themselves which providers to admit to  		the captive. Members will share liability risk with the providers they admit.  		</p>
+<p><b>Claims Made Policies</b> provide coverage for insured events that  		both occur and <i>for which a claim is made</i> during the term of the policy.  		Thus, if an incident occurs, but the policy is terminated before a claim is  		made, liability for the incident is not insured.</p>
+<p><b>Claims Occurrence Policies</b> provide coverage for all incidents and  		events that occur during the term of the policy, regardless of when a liability  		claim is made, or when a lawsuit is settled.</p>
+<p><b>Collateral Damages</b> are damages incurred by the plaintiff that are  		already covered by other sources of payment. Collateral source  		offset rules reduce awards by denying plaintiffs compensation for  		losses that are recouped from other sources, such as health insurance. These  		rules aim to prevent plaintiffs from double dipping by  		recovering for losses for which the plaintiff has already been remunerated  		through other sources of payment.</p>
+<p><b>Deductibles</b> are initial amounts of claims incurred by the  		policyholder not covered by the insurance policy. Insurance coverage begins  		only for losses incurred above the deductible amount.</p>
+<p><b>Economic Damages</b> in civil litigation is compensation due the  		plaintiff for financial losses caused by the wrongful actions of another party  		(e.g., awards for the medical bills of a nursing home resident caused by an  		abusive employee).</p>
+<p><b>Estimated Liability Costs</b> are approximate calculations of  		expenses for damages to which a nursing home is exposed. Because estimates are  		derived from information provided by nursing homes and the cost of settlements  		of lawsuits is confidential information known only to the insurance carrier,  		plaintiffs attorney and defense attorney, these calculations are only  		estimates and are subject to change.</p>
+<p><b>General Liability Claims/Losses</b> are amounts a nursing home  		liability insurer is legally obligated to pay as damages to a plaintiff due to  		bodily injury or property damage. </p>
+<p>A <b>Joint Underwriting Association</b> is a state-sponsored  		organization that creates insurance pools and functions as an insurer in  		markets without a significant number of licensed insurers. It has the power to  		sell insurance policies, collect premiums, and purchase reinsurance and it can  		usually guarantee a certain level of premium rates to its members. It can also  		levy surcharges on policyholders and, in some cases, on licensed insurers  		selling liability insurance, to create reserves to pay claims.</p>
+<p><b>Joint and Several Liability</b> in civil litigation is a situation in  		which the concurrent acts of two or more defendants bring harm to the  		plaintiff. Such acts need not occur simultaneously, but must contribute to the  		same event. In such a case, the damages may be collected from one or more of  		the defendants. If the court does not apportion blame in specific shares, the  		damages may be collected from any and all defendants. If a defendant does not  		have the financial wherewithal to pay, the others must make up the  		difference.</p>
+<p><b>Non-admitted Carriers</b>, also called <b>Surplus Line Carriers</b>,  		are commercial insurers whose nursing home liability insurance products are not  		regulated by state departments of insurance. These insurers enjoy some  		advantages over admitted carriers. They have greater flexibility in designing  		and pricing products. Because they are not subject to state regulation, they  		can also change coverage forms and application protocols more quickly. However,  		they must pay an excess and surplus lines tax that is not levied on  		admitted carriers. They cannot participate in state guaranty funds, which help  		protect policyholders in the case of insurer insolvency</p>
+<p><b>Non-economic Damages</b> in civil litigation is compensation due the  		plaintiff for intangible harms (e.g., pain and suffering).</p>
+<p><b>Nursing Home Liability Insurance</b> is indemnification of nursing  		home providers against damages for negligent care and abuse.</p>
+<p><b>Nursing Home Residents Rights Statutes</b> are state and  		federal laws to protect each nursing home residents civil, religious and  		human rights.</p>
+<p><b>Offshore Captives</b> are captives located outside the United States.  		The most popular host states for offshore captives include Bermuda, Guernsey  		and the Cayman Islands.</p>
+<p><b>Premium</b> is the charge paid by a policyholder for insurance  		coverage.</p>
+<p><b>Professional Liability Claims/Losses</b> are amounts a nursing home  		liability insurer is legally obligated to pay as damages and associated claims  		and defense expenses to a plaintiff due to a negligent act, error or omission  		in a nursing home providers rendering or failure to render professional  		services.</p>
+<p><b>Punitive damages</b> in civil litigation means monetary compensation  		awarded by a judge or jury which exceeds the losses suffered by the injured  		party in order to punish the defendant.</p>
+<p><b>Regulated Insurance Carriers</b> are admitted carriers (see  		definition above).</p>
+<p><b>Reinsurance</b> is the practice of insurance carriers ceding risk to  		other firms, called reinsurance companies, in order to limit their liability  		exposure. Reinsurance companies essentially provide insurance to insurance  		companies. Instead of assessing the risk of individual policyholders,  		reinsurance companies assess risk on a broader scale, such as on the basis of a  		particular product-line (nursing home liability insurance) or a geographic  		region.</p>
+<p>A <b>Rent-A-Captive</b> is a captive, usually formed by an insurance  		company, broker or captive manager, and rented out to users (in this case  		nursing home providers) who avoid the cost of funding their own captive. The  		user provides some form of collateral so that the rent-a-captive is not at risk  		from any underwriting loss suffered by the user.</p>
+<p><b>Risk Management Programs</b> are structured approaches to  		purposefully limit liability risk. They include systematic efforts to improve  		and maintain high standards for care quality, but can also include additional  		management techniques to minimize liability exposure, such as improving written  		documentation. They are often formalized within the management structure of  		nursing home providers in the form of Risk Management Committees, and/or a  		designated Director of Risk Management along with formal Risk Management plans  		that are implemented and monitored by senior management.</p>
+<p>A <b>Risk Retention Group (RRG)</b> is an insurance company that is  		owned by its members. The members of an RRG come from the same industry. For  		instance, nursing home providers can form an RRG in order to obtain nursing  		home liability coverage.</p>
+<p>A <b>Settlement</b> is an agreement reached between the legal counsel of  		the plaintiff and the defendant that terminates a civil litigation before a  		verdict is reached by the court.</p>
+<p><b>Tort Reform</b> generally means a movement intended to curb  		litigation and damages in the civil justice system. With respect to nursing  		home liability insurance, many states have enacted tort reform through  		legislation and it has changed the legal framework under which residents and/or  		family members can seek damages for negligent or abusive care practices. States  		also placed limits on the amount of damages that could be awarded to plaintiffs  		and/or their family members, particularly non-economic damages for pain and  		suffering. </p>
+<p><b>Underwriting</b> is the process by which an insurer assesses the risk  		of insuring a particular applicant for coverage. Risk retention groups also  		underwrite by assessing the risk of accepting a prospective member.</p>
+<h2><a name="tables" id="tables">TABLES</a></h2>
+<table><tr><td colspan="7"><font><b><a name="table1" id="table1">TABLE 1</a>: Texas Nursing Home Liability  			 Estimates vs. U.S. (National Average) Based on Various Data  			 Sources</b></font></td>
+</tr><tr><td scope="col"><font><b>Year</b></font></td>
+<td scope="col"><font><b>Mean Loss *Cost per Occupied Bed  			 (TX)</b></font></td>
+<td scope="col"><font><b>Mean Loss Cost per Occupied Bed  			 (US)</b></font></td>
+<td scope="col"><font><b>Mean Claims per 1,000 Occupied Beds  			 (TX)</b></font></td>
+<td scope="col"><font><b>Mean Claims per 1,000 Occupied Beds  			 (US)</b></font></td>
+<td scope="col"><font><b>Mean Severity per Claim (TX) </b></font></td>
+<td scope="col"><font><b>Mean Severity per Claim (US) </b></font></td>
+</tr><tr><td scope="row"><font>1997</font></td>
+<td><font>$259 (1)$809  			 (2)$3,530 (3) </font></td>
+<td><font>$1,210  			 (3)</font></td>
+<td><font>14 (3)</font></td>
+<td><font>7.8 (3)</font></td>
+<td><font>$255,000  			 (3)</font></td>
+<td><font>$156,000  			 (3)</font></td>
+</tr><tr><td scope="row"><font>1998</font></td>
+<td><font>$1,511 (1)$1,562  			 (2)$3,970 (3)</font></td>
+<td><font>$1,630  			 (3)</font></td>
+<td><font>15 (3)</font></td>
+<td><font>9.1 (3)</font></td>
+<td><font>$275,000  			 (3)</font></td>
+<td><font>$179,000  			 (3)</font></td>
+</tr><tr><td scope="row"><font>1999</font></td>
+<td><font>$2,165 (1)$2,476  			 (2)$3,860 (3)</font></td>
+<td><font>$1,820  			 (3)</font></td>
+<td><font>18 (3)</font></td>
+<td><font>10.9 (3)</font></td>
+<td><font>$225,000  			 (3)</font></td>
+<td><font>$167,000  			 (3)</font></td>
+</tr><tr><td scope="row"><font>2000</font></td>
+<td><font>$2,727 (2)$3,920  			 (3)$250 (5)</font></td>
+<td><font>$2,100 (3)$209  			 (5)</font></td>
+<td><font>18 (3)0.7  			 (5)</font></td>
+<td><font>11.5 (3)1.5  			 (5)</font></td>
+<td><font>$230,000  			 (3)$380,000 (5) </font></td>
+<td><font>$182,000  			 (3)$139,000 (5) </font></td>
+</tr><tr><td scope="row"><font>2001</font></td>
+<td><font>$4,870  			 (3)</font></td>
+<td><font>$2,340  			 (3)</font></td>
+<td><font>23 (3)32  			 (4)</font></td>
+<td><font>12.8 (3)9.2  			 (4)</font></td>
+<td><font>$225,000  			 (3)$552,000 (4) </font></td>
+<td><font>$182,000  			 (3)$406,000 (4) </font></td>
+</tr><tr><td scope="row"><font>2002</font></td>
+<td><font>$6,310  			 (3)</font></td>
+<td><font>$2,880  			 (3)</font></td>
+<td><font>27.5 (3)</font></td>
+<td><font>14.5 (3)</font></td>
+<td><font>$240,000  			 (3)</font></td>
+<td><font>$198,000  			 (3)</font></td>
+</tr><tr><td scope="row"><font>2003</font></td>
+<td><font>$4,260  			 (6)</font></td>
+<td><font>$2,270  			 (6)</font></td>
+<td><font>22 (6)</font></td>
+<td><font>12.6 (6)</font></td>
+<td><font>$200,000  			 (6)</font></td>
+<td><font>$180,000  			 (6)</font></td>
+</tr><tr><td scope="row"><font>2004</font></td>
+<td><font>$3,390  			 (6)</font></td>
+<td><font>$2,310  			 (6)</font></td>
+<td><font>20 (6)</font></td>
+<td><font>13.1 (6)</font></td>
+<td><font>$175,000  			 (6)</font></td>
+<td><font>$176,000  			 (6)</font></td>
+</tr><tr><td colspan="7"><font><b>DATA SOURCES</b>: (1)  			 Texas Department of Insurance (TDI) survey; (2) TDI closed-claims analysis; (3)  			 Aon Risk Consultants 2003; (4) Stevenson and Studdert; (5) Insurance Services  			 Office (ISO); and (6) Aon Risk Consultants 2005. Each of these data sources has  			 distinct limitations and should be interpreted and/or compared with caution.  			 Some estimates from Aon and ISO studies are approximations based on charts  			 presented in their data. ISO estimates are three year averages for 1998-2000.  			 The bottom line is that there is a paucity of reliable, state- and  			 national-level data on this issue. </font>
+<ol><li><font>TDI conducted two recent studies of nursing  				  home liability trends in Texas. The first is based on a 1999 survey of nursing  				  homes. These data are limited in the fact that they are based on self-report of  				  the survey respondents.</font></li>
+<li><font>The second TDI study is based on an analysis of  				  closed-claims. Although much more reliable, claims can take a number of years  				  to close, potentially yielding estimates that are not as timely as  				  possible.</font></li>
+<li><font>Aon Risk Consultants, Inc. conducted analyses  				  for the American Health Care Association (AHCA), the national for-profit  				  nursing home association. These estimates are based on a non-representative  				  sample of nursing facilities that is heavily weighted to for-profit, chain  				  facilities, potentially affecting their validity. It is also difficult to  				  determine how some indicators in the report are calculated. For instance,  				  frequency is calculated as the number of claims<i>projected</i>for the  				  given time period divided by the number of occupied beds during that same time  				  period. [emphasis added] The report can be found on the AHCA website at  				  <a href="http://www.ahca.org/brief/aon_ltcanalysis2003.pdf">http://www.ahca.org/brief/aon_ltcanalysis2003.pdf</a>.</font></li>
+<li><font>Estimates of frequency, severity, and scale for  				  Texas are also included in a recent article by Stevenson and Studdert. These  				  results are based on a national survey of attorneys and potentially subject to  				  biases as well (e.g., recall bias and non-respondent bias).</font></li>
+<li><font>A final study conducted by the Insurance  				  Services Office includes estimates for Texas (and other states). ISO estimates  				  are based on data from admitted carriers and, thus, exclude facilities that  				  self-insure or use non-admitted carriers. In addition, Texas estimates are  				  based on only 4.8% of the states nursing home beds. Both of these factors  				  raise questions about how generalizable these data are to other nursing  				  homes.</font></li>
+<li><font>See note (3) above for limitations. The 2005  				  Aon report can be found on the AHCA website at  				  <a href="http://www.ahca.org/brief/aon_ltcanalysis2005.pdf">http://www.ahca.org/brief/aon_ltcanalysis2005.pdf</a>.</font></li>
+</ol><p><font> </font></p>
+</td>
+</tr></table><h2><a name="reports" id="reports">REPORTS AVAILABLE</a></h2>
+<dl><dt><b>Recent Trends in the Nursing Home Liability Insurance Market</b>  		  (Main Report)</dt>
+<dd>HTML: <a href="http://aspe.hhs.gov/daltcp/reports/2006/NHliab.htm">http://aspe.hhs.gov/daltcp/reports/2006/NHliab.htm</a>  		  </dd>
+<dd>PDF: <a href="http://aspe.hhs.gov/daltcp/reports/2006/NHliab.pdf">http://aspe.hhs.gov/daltcp/reports/2006/NHliab.pdf</a></dd>
+</dl><dl><dt><b>Nursing Home Liability Insurance Market: A Case Study of  		  California</b></dt>
+<dd>HTML: <a href="http://aspe.hhs.gov/daltcp/reports/2006/NHliab-CA.htm">http://aspe.hhs.gov/daltcp/reports/2006/NHliab-CA.htm</a>  		  </dd>
+<dd>PDF: <a href="http://aspe.hhs.gov/daltcp/reports/2006/NHliab-CA.pdf">http://aspe.hhs.gov/daltcp/reports/2006/NHliab-CA.pdf</a></dd>
+</dl><dl><dt><b>Nursing Home Liability Insurance Market: A Case Study of  		  Florida</b></dt>
+<dd>HTML: <a href="http://aspe.hhs.gov/daltcp/reports/2006/NHliab-FL.htm">http://aspe.hhs.gov/daltcp/reports/2006/NHliab-FL.htm</a>  		  </dd>
+<dd>PDF: <a href="http://aspe.hhs.gov/daltcp/reports/2006/NHliab-FL.pdf">http://aspe.hhs.gov/daltcp/reports/2006/NHliab-FL.pdf</a></dd>
+</dl><dl><dt><b>Nursing Home Liability Insurance Market: A Case Study of  		  Georgia</b></dt>
+<dd>HTML: <a href="http://aspe.hhs.gov/daltcp/reports/2006/NHliab-GA.htm">http://aspe.hhs.gov/daltcp/reports/2006/NHliab-GA.htm</a>  		  </dd>
+<dd>PDF: <a href="http://aspe.hhs.gov/daltcp/reports/2006/NHliab-GA.pdf">http://aspe.hhs.gov/daltcp/reports/2006/NHliab-GA.pdf</a></dd>
+</dl><dl><dt><b>Nursing Home Liability Insurance Market: A Case Study of  		  Ohio</b></dt>
+<dd>HTML: <a href="http://aspe.hhs.gov/daltcp/reports/2006/NHliab-OH.htm">http://aspe.hhs.gov/daltcp/reports/2006/NHliab-OH.htm</a>  		  </dd>
+<dd>PDF: <a href="http://aspe.hhs.gov/daltcp/reports/2006/NHliab-OH.pdf">http://aspe.hhs.gov/daltcp/reports/2006/NHliab-OH.pdf</a></dd>
+</dl><dl><dt><b>Nursing Home Liability Insurance Market: A Case Study of  		  Texas</b></dt>
+<dd>HTML: <a href="http://aspe.hhs.gov/daltcp/reports/2006/NHliab-TX.htm">http://aspe.hhs.gov/daltcp/reports/2006/NHliab-TX.htm</a>  		  </dd>
+<dd>PDF: <a href="/system/files/pdf/74741/NHliab-TX.pdf">http://aspe.hhs.gov/daltcp/reports/2006/NHliab-TX.pdf</a></dd>
+</dl>
+  <div class="download_report">
+    
+                        <div class="pdf-prev">
+                <img src="https://aspe.hhs.gov/system/files/pdfpreview/9a51d1c4439cc66c1db6609d5e90155c.png" alt="Preview" title="Preview" />            </div>
+                <a class="btn btn-sm btn-default download-file"
+           href="https://aspe.hhs.gov/system/files/pdf/74741/NHliab-TX.pdf">Download</a>
+
+        <p class="download_title">&quot;NHliab-TX.pdf&quot;
+            (pdf,
+            315.75Kb)</p>
+        <p>Note: Documents in PDF format require the <a href="http://www.adobe.com/products/acrobat/readstep2.html">Adobe
+                Acrobat Reader&reg;</a>. If you experience problems with PDF documents, please <a
+                href="http://www.adobe.com/products/acrobat/readstep2.html">download the latest version of the
+                Reader&reg;</a>
+        </p>
+    </div>
+<div class="group-tags"><div class="field-label">Tags:&nbsp;</div><a href="/terms/nursing-home">Nursing Home</a><a href="/terms/publications-2">Publications</a><a href="/terms/nursing-home-financing-and-quality">Nursing Home Financing and Quality</a><a href="/terms/nursing-home-0">Nursing Home</a><a href="/terms/disability-aging-and-long-term-care-research">Disability, Aging and Long-Term Care Research</a><a href="/terms/highlighted-issues">Highlighted Issues</a><a href="/terms/health-services-formal">Health Services, Formal</a><a href="/terms/insurance">Insurance</a><a href="/terms/medical-liability-and-malpractice">Medical Liability and Malpractice</a></div>  </div>
+
+      <footer>
+          </footer>
+  
+    <div id="block-webform-client-block-158521" class="widget block block-webform" >
+  
+      
+  <div id="webform-ajax-wrapper-158521"><form class="webform-client-form webform-client-form-158521" action="/basic-report/nursing-home-liability-insurance-market-case-study-texas" method="post" id="webform-client-form-158521" accept-charset="UTF-8"><div><div class="webform-progressbar">
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-radios webform-component--was-this-page-helpful">
+  <label for="edit-submitted-was-this-page-helpful">Was this page helpful? <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-was-this-page-helpful" class="form-radios"><div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-1" name="submitted[was_this_page_helpful]" value="1" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-1">Yes </label>
+
+</div>
+<div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-2" name="submitted[was_this_page_helpful]" value="0" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-2">No </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="4" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-lud_MMkgUnSwsMew3BHeQ-pLlOoIAseYBg12o93NIlM" />
+<input type="hidden" name="form_id" value="webform_client_form_158521" />
+<input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-158521" />
+<div class="form-actions"><input class="webform-next button-primary btn btn-default form-submit" type="submit" id="edit-webform-ajax-next-158521" name="op" value="Next &gt;" /></div>
+<div class="is-useful-disclaimer"> <a href="/%23" class="" title="Survey Disclaimer" data-toggle="modal" data-target="#disclamerModal">Form Approved OMB# 0990-0379 Exp. Date 8/31/2017</a></div>
+<div class="modal fade" id="disclamerModal" tabindex="-1" role="dialog" aria-labelledby="disclamerModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="disclamerModalLabel">Survey Disclaimer</h2>
+      </div>
+      <div class="modal-body">
+         According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this information collection is 0990-0379. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, gather the data needed, and complete and review the information collection. If you have comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: U.S. Department of Health & Human Services, OS/OCIO/PRA, 200 Independence Ave., S.W., Suite 336-E, Washington D.C. 20201, Attention: PRA Reports Clearance Officer.      </div>
+    </div>
+  </div>
+</div></div></form></div>
+  </div> <!-- /.block -->
+<meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/nursing-home-liability-insurance-market-case-study-texas" itemref="md1" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/nursing-home-liability-insurance-market-case-study-texas" itemref="md2 md3 md5 md7 md9 md11 md13 md15 md17 md19 md21" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/nursing-home" id="md5" itemref="md4" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/publications-2" id="md7" itemref="md6" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/nursing-home-financing-and-quality" id="md9" itemref="md8" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/nursing-home-0" id="md11" itemref="md10" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/disability-aging-and-long-term-care-research" id="md13" itemref="md12" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/highlighted-issues" id="md15" itemref="md14" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/health-services-formal" id="md17" itemref="md16" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/insurance" id="md19" itemref="md18" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/medical-liability-and-malpractice" id="md21" itemref="md20" />              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <footer  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Footer">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  id="footer_sitemap-footer_sitemap" class="col-sm-6 col-md-6 col-lg-4 ">
+                          
+                              <div id="block-footer-sitemap-footer-sitemap" class="widget block block-footer-sitemap" >
+  
+      
+  <div id="footer-sitemap" class="clearfix">
+  <div class="fs-block-content"><div class="menu-footer-utility"><ul class="footer_links_menu-footer-utility total-items-2 parent-items-0 single-items-0"><li class="menu-5021 depth-1 total-children-8 parent-children-0 single-children-8  first"><a href="/" title="look at ASPE Home" class="fs-root-link">ASPE Home</a><ul class="footer_links_menu-footer-utility total-items-8 parent-items-0 single-items-0"><li class="menu-5026 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/" title="look at HHS Home">HHS Home</a></li>
+<li class="menu-66281 depth-1 fs-no-children"><a href="http://www.usa.gov/" title="look at USA.gov">USA.gov</a></li>
+<li class="menu-66316 depth-1 fs-no-children"><a href="https://oig.hhs.gov/" title="look at Office of the Inspector General">Office of the Inspector General</a></li>
+<li class="menu-66321 depth-1 fs-no-children"><a href="http://www.whitehouse.gov" title="look at The White House">The White House</a></li>
+<li class="menu-5046 depth-1 fs-no-children"><a href="http://www.hhs.gov/Accessibility.html" title="look at Accessibility">Accessibility</a></li>
+<li class="menu-66326 depth-1 fs-no-children"><a href="http://www.hhs.gov/about/budget/index.html" title="look at Budget/Performance">Budget/Performance</a></li>
+<li class="menu-2551 depth-1 fs-no-children"><a href="http://www.hhs.gov/Privacy.html" title="look at Privacy Policy">Privacy Policy</a></li>
+<li class="menu-197776 depth-1 fs-no-children  last"><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" title="Nondiscrimination Notice">Nondiscrimination Notice</a></li>
+</ul></li>
+<li class="menu-5051 depth-1 total-children-4 parent-children-0 single-children-4  last"><a href="http://www.hhs.gov/foia/" title="look at FOIA" class="fs-root-link">FOIA</a><ul class="footer_links_menu-footer-utility total-items-4 parent-items-0 single-items-0"><li class="menu-5056 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/open/recordsandreports/plainwritingact/index.html" title="look at Plain Writing Act">Plain Writing Act</a></li>
+<li class="menu-5061 depth-1 fs-no-children"><a href="http://www.hhs.gov/asa/eeo/no_fear_bullet_3.html" title="look at No Fear Act">No Fear Act</a></li>
+<li class="menu-5066 depth-1 fs-no-children"><a href="http://www.hhs.gov/Disclaimer.html" title="look at Disclaimers">Disclaimers</a></li>
+<li class="menu-2546 depth-1 fs-no-children  last"><a href="http://www.hhs.gov/plugins.html" title="look at Viewers &amp; Players">Viewers &amp; Players</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-5 " id="stability_cms-contact_us">
+                          
+                              <div id="block-stability-cms-contact-us" class="widget block block-stability-cms" >
+  
+      
+  <div class="contacts-widget widget widget__footer">
+	<div class="widget-content">
+		<ul class="contacts-info-list">
+      			<li>
+<!--				<i class="fa fa-map-marker">Address</i>-->
+                <div class="info-icons">
+                    <img  alt="map" class= 'map-icons' src="/sites/all/themes/stability/stability_aspe/images/map.png"/>
+                </div>
+                <div class="info-item">
+					Assistant Secretary for Planning and Evaluation, Room 415F<br />
+U.S. Department of Health and Human Services<br />
+200 Independence Avenue, SW<br />
+Washington, D.C. 20201				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-phone">phone</i>-->
+                <div class="info-icons">
+                    <img alt="phone" src="/sites/all/themes/stability/stability_aspe/images/phone.png"/>
+                </div>
+				<div class="info-item">
+					+1 202.690.7858				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-envelope">email</i>-->
+                <div class="info-icons">
+                    <img alt="mail" src="/sites/all/themes/stability/stability_aspe/images/mail-white.png"/>
+                </div>
+				<span class="info-item">
+					<a href="mailto:osaspeinfo@hhs.gov">osaspeinfo@hhs.gov</a>
+				</span>
+			</li>
+      			                					</ul>
+	</div>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-3 " id="footer">
+                          
+                              <div id="block-block-36" class="widget block block-block" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sign-up</span> for Email Updates</h3>
+		</div>
+    
+  <div class="email_updates">
+<button class="btn btn-default" name="subscribe-button" type="submit" value="subscribe">subscribe</button>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-12 " id="menu-menu-footer-language-menu">
+                          
+                              <div id="block-menu-menu-footer-language-menu" class="widget block block-menu" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Language</span> Assistance Available</h3>
+		</div>
+    
+  <ul class="menu"><li class="first expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#spanish" title="Español">Español</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#chinese" title="繁體中文">繁體中文</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#vietnamese" title="Tiếng Việt">Tiếng Việt</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#korean" title="한국어">한국어</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#tagalog" title="Tagalog">Tagalog</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#russian" title="Русский">Русский</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#arabic" title="العربية">العربية</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#creole" title="Kreyòl Ayisyen">Kreyòl Ayisyen</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#french" title="Français">Français</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#polish" title="Polski">Polski</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#portuguese" title="Português">Português</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#italian" title="Italiano">Italiano</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#german" title="Deutsch">Deutsch</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#japanese" title="日本語">日本語</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#farsi" title="فارسی">فارسی</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#english" title="English">English</a></li>
+</ul></li>
+</ul>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+      </div>
+
+          </div>
+    
+    
+      </footer>
+    
+
+    <!--/PAGEWATCH-->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+                        </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="social-links-wrapper">
+              <span class="social-links-txt">Connect with us</span>
+              <ul class="social-links social-links__dark">
+                                                  <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw-grey.png"/></a></li>
+                                <!--                --><!--                  <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin-grey.png"/></a></li>-->
+<!--                -->
+                                                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>  <script type="text/javascript" src="/sites/default/files/advagg_js/js__VWRymaMz6HfrhnrcJNGcDiSvLVrvhaXvBa7nrBYy8gc__jntPwP3D6myJZH1jW19fXrk5cYMHGRL8NQION22VSEA__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5486d15a696bff0c"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__g6mKbcakHxQkz4ZHYaxdO_xqONINvRMgsHh1zAK-fr0__ATHtEmHaeZ0jidpGU22EkhmPDBSgjD8z0bVDQMI-BIY__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__KUp4PrfOt9BSXUVl8Ctb3dhCMBe4MNVMeb4Gyorx8yY__7g4BeXscCIZAfuu1vxsCj2RIemg-eEK0QpChP9LDmFQ__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__PNjAgubM_3xXRLp4uLsYnv8wQAdT89-RYkSPxT6T45c__rFQwFK4pA5ZaWZSF7FPTfKbbpus0h-5IS8ayrNZGrb4__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__vQiLul2UcfC4nBAR09mhYVBYzRmiNDm2dj3GgSubV38__w84oZe-ZODKe7XnnlbrjV4IWHISOy4PioFEMVgx9hZo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__QJw3g0kOdwsv4twSZLP931zBzsHy50VEHpEN_znIitQ__A6QOuWXElDipBM2iChbWhjAAt3KlUwZ-jODoxdpbwiw__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stability_aspe","theme_token":"VdD-FuwhyISCQ-AyaAAwcedtrwZTOVLRQt70KIzmHEA","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/footable.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/aspe_nodes.admin.css":1,"sites\/all\/modules\/custom\/aspe_views\/theme\/css\/aspe_views.admin.css":1,"sites\/all\/modules\/forked\/book\/book.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/openpublic\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.css":1,"profiles\/openpublic\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openpublic\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/openpublic\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/themes\/stability\/css\/bootstrap.min.css":1,"sites\/all\/themes\/stability\/css\/fonts\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.theme.css":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/stability\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/stability\/css\/theme.css":1,"sites\/all\/themes\/stability\/css\/theme-elements.css":1,"sites\/all\/themes\/stability\/css\/animate.min.css":1,"sites\/all\/themes\/stability\/css\/skins\/red.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/slideshow.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/font-main.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/styleless.less":1,"sites\/all\/themes\/stability\/css\/skins\/blue.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/aspe\/theme\/js\/aspe.login-confirm.js":1,"sites\/all\/modules\/custom\/aspe_report\/modules\/aspe_databooks\/js\/aspe_databooks.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.highcharts.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/datatables\/dataTables.min.js":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.min.js":1,"sites\/all\/libraries\/highcharts\/highcharts.js":1,"sites\/all\/libraries\/highcharts\/highcharts.exporting.js":1,"sites\/all\/libraries\/highcharts\/highcharts.map.js":1,"sites\/all\/libraries\/highcharts\/highcharts.us-all.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.footable.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5486d15a696bff0c":1,"misc\/progress.js":1,"profiles\/openpublic\/modules\/contrib\/webform\/js\/webform.js":1,"profiles\/openpublic\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/stability\/vendor\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/stability\/vendor\/bootstrap.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flexnav.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flickrfeed.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.sloppy-masonry.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.fitvids.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.stellar.min.js":1,"sites\/all\/themes\/stability\/vendor\/snap.svg-min.js":1,"sites\/all\/themes\/stability\/js\/custom.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/aspe.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/html5shiv.min.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/main-menu.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/keyboard-control.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tabBehavior.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tileStringTrimmer.js":1}},"webform":{"conditionals":{"webform-client-form-158521":{"ruleGroups":[],"sourceMap":[],"values":[]}}},"ajax":{"edit-webform-ajax-next-158521":{"callback":"webform_ajax_callback","wrapper":"webform-ajax-wrapper-158521","progress":{"message":"","type":"throbber"},"event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Next \u003E"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/basic-report\/nursing-home-liability-insurance-market-case-study-texas":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"([a-z0-9]\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This website contains links to other federal and state agencies and private organizations. The Department of Health and Human Services (HHS) cannot attest to the accuracy of information provided by these nonfederal website links. Linking to nonfederal sites does not constitute an endorsement by HHS or any of its employees of the sponsors or the information and products presented on the sites. You will be subject to the destination site\u0027s privacy policy when you leave the ASPE website.\r\n\r\nThank you for visiting aspe.hhs.gov!","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"stability":{"flickr_id":"52617155@N08","logo_sticky":"28"},"field_group":{"div":"full","hidden":"full"}});
+//--><!]]>
+</script>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config={pubid:"ra-5486d15a696bff0c",ui_click:false}
+//--><!]]>
+</script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4837db659","applicationID":"10708002","transactionName":"MwNaZBRSXEtXB0BdWQpJbUIPHFtWUgFMGkYMFg==","queueTime":0,"applicationTime":34,"atts":"H0RZElxIT0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

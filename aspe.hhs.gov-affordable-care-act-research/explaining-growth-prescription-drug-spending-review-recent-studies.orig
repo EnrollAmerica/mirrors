@@ -1,0 +1,2229 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">  <!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://aspe.hhs.gov/sites/default/files/Favicon2.png" type="image/png" />
+<meta name="description" content="by Mark Merlis Institute for Health Policy Solutions A background report prepared for the Department of Health and Human Services Conference on Pharmaceutical Pricing Practices, Utilization and Costs August 8-9, 2000 Leavey Conference Center, Georgetown University Washington, DC" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://aspe.hhs.gov/explaining-growth-prescription-drug-spending-review-recent-studies" />
+<link rel="shortlink" href="https://aspe.hhs.gov/node/210121" />
+<meta property="og:site_name" content="ASPE" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aspe.hhs.gov/explaining-growth-prescription-drug-spending-review-recent-studies" />
+<meta property="og:title" content="Explaining the Growth in Prescription Drug Spending: A Review of Recent Studies" />
+<meta property="og:description" content="by Mark Merlis Institute for Health Policy Solutions A background report prepared for the Department of Health and Human Services Conference on Pharmaceutical Pricing Practices, Utilization and Costs August 8-9, 2000 Leavey Conference Center, Georgetown University Washington, DC" />
+<meta property="og:updated_time" content="2016-10-12T01:26:54-04:00" />
+<meta property="article:published_time" content="2016-10-12T01:26:54-04:00" />
+<meta property="article:modified_time" content="2016-10-12T01:26:54-04:00" />
+
+  <title>Explaining the Growth in Prescription Drug Spending: A Review of Recent Studies | ASPE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+  <link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__5ln8neBOcJfyUveiD4y9fhI6kHBLOQ_YL0mMC-LS9a0__TPJIZT9UBnf_685NlFTJ5KnZVsjwFk6ACQ-nwwygmwU__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ng49uRH5y4Hl9VF9hHW_vXOj-mcOc2u2ShJqJ1YKIGU__FoMCD14GBvZaRiqSQ_JpP1w3rDB21n7H2Ar4pRZaIh8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__Hskudx14OJ5Hz8vqU7CUgN6SDV5rINZuEq9VuGsSeyc__EwNIl3xeFrniW2TmonovTzhSs3X5MdFps210puE7jog__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__9rZoaX9BdzjjNucvYxduxeNAVO2zgW_Rvjhb5rq5whc__lSr_y16grDSgHf4booPChnF7QXz3TQY3hafH49twE0k__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZgfI_ZPib5yVY0o5aKo_6TFn946Tuu_nFDa0ySTmkSc__2FTFrNw2eNh0mpHIOA34r6YRwBZMm2PjJ_JubnwLigg__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__dxabpJ5rQgDSixKgLJZjWc1beC6mpROKwVrmWxI5eno__rqhz_hGsE_i59O7-W991o71_Jxw1QOtGMxn4nsOLHY8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZbRCq2NqWgK-HXAQI3So0N1n0nr4HonsJS3eQuuxukw__7Olkk8Locn8Dj0eR0Ww3rbV9lks9sxipcboMXB18RRs__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+
+	<!-- Head Libs -->
+	<script src="/sites/all/themes/stability/stability_aspe/vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/sites/all/themes/stability/vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" href="/sites/all/themes/stability/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/stability/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/stability/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/stability/images/apple-touch-icon-144x144.png">
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-210121 node-type-site-page">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-JLFR"
+                  height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JLFR');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-nav" class="accessibility_menu">
+    <strong>Shortcut Navigation:</strong>
+    <ul>
+      <li><a href="#content" accesskey="c" title="Skip to page content (ctrl/alt + c)">Page Content</a></li>
+      <li><a href="#nav" accesskey="m" title="Skip to main navigation menu (ctrl/alt + m)">Site Navigation</a></li>
+
+      <li><a href="#Footer" accesskey="f" title="Skip to footer (ctrl/alt + f)">Footer</a></li>
+    </ul>
+  </div>
+
+    
+<div class="site-wrapper">
+  
+  <header class="header header-menu-fullw header-top-clean">
+    <div id="brand-bar">
+        <div class="container">
+                    <img alt='bird' src="/sites/all/themes/stability/stability_aspe/images/bird.png"> <a target="blank" tabindex="4" href="http://www.hhs.gov/">U.S. Department of Health & Human Services</a>
+        </div>
+
+    </div>
+    <div class="header-main">
+        <div class="container clearfix">
+            <div class="social-links-wrapper">
+                <ul class="social-links social-links__light">
+                                                          <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw.png"/></a></li>
+                                    <!--                  --><!--                    <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin.png"/></a></li>-->
+<!--                  -->
+                                                                      </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                                <div class="site_name_wrapper">
+                                     <span class="h1">
+                                      <a href="/">ASPE</a>
+                                       </span>
+                                  <p class="tagline"><p>Office of The Assistant Secretary</p><p> for Planning and Evaluation</p></p>
+                    </div>
+            </div>
+            <!-- Logo / End -->
+            <div class="header_right_wrapper">
+                <div class="search-form">
+                    <form action="/explaining-growth-prescription-drug-spending-review-recent-studies" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class = "input-group"><div class="form-type-textfield form-item-search-block-form form-item form-group">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search Site..." class="form-control form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input class="btn btn-primary btn-icon form-submit" type="image" id="edit-submit" name="submit" value="Search" src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/search-white2.png" alt="Search" title="Search" /></div></div><input type="hidden" name="form_build_id" value="form-He4B-J-8u5GEuzS04znprQy5Wx6F6YGTenUR4_a3vmY" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </div>
+                <button type="button" class="navbar-toggle" value="Menu">
+                    <i class="fa fa-bars"></i>Menu
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-main">
+        <div class="container">
+          <ul data-breakpoint="767" class="flexnav">
+                <li class="first expanded"><a href="/basic-search/about" title="">About</a><ul><li class="first leaf"><a href="/mission" title="">Mission</a></li>
+<li class="leaf"><a href="/key-staff" title="">Leadership</a></li>
+<li class="leaf"><a href="https://www.usajobs.gov/" title="">Careers</a></li>
+<li class="expanded"><a href="/coordination" title="linkTo">Coordination</a><ul><li class="first leaf"><a href="/evaluation-evidence" title="">Evaluation &amp; Evidence</a></li>
+<li class="leaf"><a href="/national-alzheimers-project-act">National Alzheimer&#039;s Project Act</a></li>
+<li class="leaf"><a href="/health-and-human-services-hhs-data-council">HHS Data Council</a></li>
+<li class="last leaf"><a href="/national-committee-vital-and-health-statistics" title="National Council on Vital and Health Statistics">National Council on Vital and Health Statistics</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/divisions" title="">Offices</a><ul><li class="first leaf"><a href="/office-disability-aging-and-long-term-care-policy-daltcp">Disability, Aging, and Long-Term Care Policy</a></li>
+<li class="leaf"><a href="/office-health-policy-hp">Health Policy</a></li>
+<li class="leaf"><a href="/office-human-services-policy">Human Services Policy</a></li>
+<li class="last leaf"><a href="/office-science-and-data-policy">Science and Data Policy</a></li>
+</ul></li>
+<li class="leaf"><a href="/strategic-planning" title="Strategic Planning">Strategic Planning</a></li>
+<li class="last leaf"><a href="/contact-aspe" title="">Contact ASPE</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/topics" title="">Topics</a><ul><li class="first leaf"><a href="/affordable-care-act-research">Affordable Care Act Research</a></li>
+<li class="leaf"><a href="/alzheimers-dementia">Alzheimer&#039;s / Dementia</a></li>
+<li class="leaf"><a href="/early-childhood">Early Childhood</a></li>
+<li class="leaf"><a href="/incarceration-reentry">Incarceration &amp; Reentry</a></li>
+<li class="leaf"><a href="/opioid-abuse-us-and-hhs-actions-address-opioid-drug-related-overdoses-and-deaths" title="Opioids">Opioids</a></li>
+<li class="leaf"><a href="/patient-centered-outcomes-research-trust-fund">Patient-Centered Outcomes Research Trust Fund (PCORTF)</a></li>
+<li class="expanded"><a href="/basic-search/poverty" title="">Poverty</a><ul><li class="first leaf"><a href="/poverty-guidelines">Poverty Guidelines</a></li>
+<li class="last leaf"><a href="/poverty-estimates-trends-and-analysis">Poverty Analysis</a></li>
+</ul></li>
+<li class="leaf"><a href="/teen-pregnancy-prevention">Teen Pregnancy Prevention</a></li>
+<li class="leaf"><a href="/homelessness">Homelessness</a></li>
+<li class="last leaf"><a href="/medicare-access-and-chip-reauthorization-act-2015">MACRA</a></li>
+</ul></li>
+<li class="leaf"><a href="/reports" title="">Publications</a></li>
+<li class="last expanded"><a href="/basic-search/datasets" title="">Data and Tools</a><ul><li class="first last leaf"><a href="/evaluations" title="">Evaluation Database</a></li>
+</ul></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation / End -->
+</header>  <div class="main" role="main">
+    <!--PAGEWATCH CODE="USHHS_458"-->
+    <section class="page-heading">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+                <h1>
+                    
+          Explaining the Growth in Prescription Drug Spending: A Review of Recent Studies        </h1>
+                                 <p class="author">
+                                                 <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2000-08-08T00:00:00-04:00">08/08/2000</span>               
+                           </p>
+
+
+                  </div>
+
+
+        <div class="col-md-6">
+           <ul class="breadcrumb"><li class="first"><a href="/" title="Home">Home</a></li>
+<li class="last">Explaining the Growth in Presc...</li>
+</ul>        </div>
+
+
+    </div>
+  </div>
+</section>
+    
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Content">     
+
+        
+                  
+        
+                                    <div  class="col-md-12 " id="content">
+                          
+                              <div id="block-aspe-aspe-addthis" class="widget block block-aspe" >
+  
+      
+  <div class="clearfix">
+  <ul class="addthis_sharing_toolbox node-share__links" data-url="https://aspe.hhs.gov/explaining-growth-prescription-drug-spending-review-recent-studies" data-title="Explaining the Growth in Prescription Drug Spending: A Review of Recent Studies">
+    <li><a class="addthis_button_print"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/print-white.png" alt="print" /></a></li>
+    <li><a class="addthis_button_email"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/mail-white.png" alt="email" /></a></li>
+    <li><a class="addthis_button_twitter"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/tw.png" alt="twitter" /></a></li>
+<!--    <li><a class="addthis_button_facebook">--><!--</a></li>-->
+    <li><a class="addthis_button_compact"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/plus-white.png" alt="compact" /></a></li>
+  </ul>
+</div>
+
+  </div> <!-- /.block -->
+
+                
+    
+  
+  <div class="content clearfix node-site-page">
+    <p style="text-align: center;">by<br />
+	Mark Merlis<br />
+	Institute for Health Policy Solutions</p>
+<p style="text-align: center;"><em>A background report prepared for the<br />
+	Department of Health and Human Services </em></p>
+<p style="text-align: center;"><em>Conference on<br />
+	Pharmaceutical Pricing Practices, Utilization and Costs </em></p>
+<p style="text-align: center;"><em>August 8-9, 2000 </em></p>
+<p style="text-align: center;"><em>Leavey Conference Center, Georgetown University </em></p>
+<p style="text-align: center;"><em>Washington, DC </em></p>
+<p style="text-align: center;"><strong>Final Version</strong></p>
+<p> </p>
+<hr /><h2>EXECUTIVE SUMMARY</h2>
+<p>A number of recent studies have examined the factors leading to the rapid growth of spending for prescription drugs in the late 1990s. These studies have offered differing accounts of the relative importance of utilization and price changes, as well as the extent to which introduction of new drugs has driven spending growth. This report compares the findings of four studies: two conducted by pharmaceutical benefit managers (Merck-Medco and Express Scripts) using data on their own client populations, and two by independent researchers (Brandeis University/PCS Health Systems and National Institute for Health Care Management, or NIHCM).</p>
+<p>The studies show annual rates of per capita spending growth ranging from 11.9 percent to 21.9 percent per member year. The differences are largely attributable to differences in the populations served—the entire US population in the case of NIHCM, groups with generous insurance coverage and a high proportion of retirees in the case of Brandeis/PCS and Merck-Medco. The time period reviewed also makes a difference. Spending growth accelerated in the last few years; studies that review a longer period show smaller annual growth. Finally, studies that examined a continuously enrolled population show higher growth because of population aging during the study period.</p>
+<p>Per capita prescription drug spending for a given population may increase over time for three basic reasons:</p>
+<ul><li>Volume. The proportion of the population receiving any prescription grows; each user receives more prescriptions; people receive more days’ supply (or other units) in each prescription; the strength and dosage of each day’s supply increases.</li>
+<li>Unit price: The price of a unit of a particular drug (of a particular strength/dosage) increases;</li>
+<li>Mix: The mix of drugs received changes, from less to more costly drugs.</li>
+</ul><p>Estimates of the relative role of utilization and cost in driving spending depend on the units of measure used. If utilization is defined in terms of average number of prescriptions per enrollee, all the studies find that rising cost per prescription was a more important factor than utilization change. However, this is because the price measure includes changes in days’ supply and strength, as well as in the mix of drugs used. When days, instead of prescriptions, are used as the volume measure, utilization becomes the more important factor in spending change. For the insured populations studied by Brandeis/PCS and Merck-Medco, changes in days per enrollee accounted for about 60 percent of spending growth; cost per day accounted for about 40 percent.</p>
+<p>Much of the increase in use and spending has resulted from the introduction of new brand-name drugs, some of which replace existing, less costly treatments and some of which help with conditions for which treatment was not previously available. The relative importance of “new” drugs depends on where one draws the line between old and new. NIHCM, which treats any drug introduced in 1992 or later as new, finds that new drugs accounted for two-thirds of 1998 spending. Other studies, which treat as new only those drugs introduced in the last half of the decade, find that they accounted for about 40 percent of spending.</p>
+<p>Using this narrower definition, then, most spending growth—about three-fifths-- was for medications that were already available by the mid-1990s. While the average number of prescriptions for these existing drugs rose in recent years, changes in cost per prescription were the more important factor in spending growth for older drugs, accounting for about 60 to 75 percent of the increase. Cost per prescription for existing drugs rose about 8 percent a year. About half of this increase was simple inflation—price increases for the same drug over time. The rest was attributable to changes in days’ supply, in the strength or dosage of drugs, and in the mix of existing medications prescribed.</p>
+<p>New drugs not only contributed heavily to utilization growth, but were more costly than existing ones. The cost per prescription for drugs introduced in the last half of the 1990s was about two-and-one-half times that of existing drugs. About half the spending increase attributable to new drugs was due to utilization, about half to the fact that they were more expensive.</p>
+<p>The figure presents a rough consensus estimate of the factors in spending growth over the five years 1996-1999.</p>
+<p>A few therapeutic categories saw especially large increases in spending. These included:</p>
+<ul><li>Cardiovascular, especially cholesterol reducers and antihypertensives</li>
+<li>Gastrointestinal, especially anti-ulcerants</li>
+<li>Psychotherapeutics, especially antidepressants</li>
+<li>Anti-infectives</li>
+<li>Hypoglycemics or anti-diabetics</li>
+<li>Antihistamines</li>
+<li>Asthma medications</li>
+<li>Pain relievers</li>
+</ul><p>The first five of these accounted for about half of all spending growth during the middle and late 1990s. A recent study by Dubois et al. studied spending increases for drugs in six of the listed categories plus sex hormone therapies. The study found that the lion’s share of growth was due to increased utilization. While this is true, drugs in these categories also showed significant price increases. What the study really shows is that drugs in these categories had unusually large increases in utilization, accompanied by cost changes comparable to those for drugs in other categories.</p>
+<p>Forecasts of future drug spending growth—by Merck-Medco, Express Scripts, and researchers at the University of Maryland—show continuing annual increases in the range of about 10 to 20 percent over the next several years. Different forecasters have different ideas about whether price and/or utilization increases will continue at the same rate as in recent years. They concur that new drugs now in the “pipeline”—awaiting approval by the Food and Drug Administration—will be a major factor. The University of Maryland researchers expect pipeline drugs to account for 40 to 50 percent of spending growth in the next five years.</p>
+<p>As in the past, much of the spending growth is expected to come in just a few categories. Central nervous system drugs, including psychotherapeutics and pain relievers, are projected to account for 24 to 29 percent of spending increases over the next few years. Cardiovascular drugs, including antihypertensives and cholesterol reducers, are projected to account for 15 to 26 percent of the increases.</p>
+<h2>ACKNOWLEDGMENTS</h2>
+<p>Support for this paper was provided by the Office of the Assistant Secretary for Planning and Evaluation, U.S. Department of Health and Human Services. The views presented here are those of the author and should not be attributed to the Department or its staff.</p>
+<p>Researchers who contributed to the studies reviewed in this report provided nformation on methods and supplementary data. They included Cindy Thomas, Brandeis University; Fred Teitelbaum, Express Scripts; Michael Barberi, Merck-Medco; Ed Neuschler, Institute for Health Policy Solutions (formerly with the National Institute for Health Care Management); C. Daniel Mullins, University of Maryland; and Robert W. Dubois, Protocare Sciences. Katharine Levit, Health Care Financing Administration(now known as Centers for Medicare and Medicaid Services(CMS)), provided information on the National Health Expenditures estimates. Larry Bartlett of Health Systems Research, Joan Sokolovsky of the Office of the Assistant Secretary for Planning and Evaluation, and several of the researchers provided helpful comments on an earlier draft of this report.</p>
+<p><strong>EXPLAINING THE GROWTH IN PRESCRIPTION DRUG SPENDING: A REVIEW OF RECENT STUDIES</strong></p>
+<p><strong>INTRODUCTION </strong></p>
+<p>Spending for prescription drugs is one of the fastest-growing components of national health expenditures. As table 1 shows, drug spending grew at more than twice the rate of overall health spending between 1993 and 1998. The effect on private insurance payments has been even more pronounced. The share of private insurance spending devoted to prescription drugs nearly doubled; drugs accounted for over 40 percent of growth in private insurance spending during the period. Partly this is because managed care and other measures slowed spending growth in other medical care sectors. Increased use of prescription drugs may in fact have contributed to this trend, as medications substitute for other and more costly treatments. Still, there is concern about the rate of growth in drug spending and about the likelihood that costs will rise further as new drugs now in development become available.</p>
+<p><strong>Table 1. Growth in National Health Expenditures and Spending for Prescription Drugs, 1993-1998 </strong></p>
+<table align="Center" border="" cellpadding="2" cellspacing="0"><tbody><tr><td> </td>
+<th colspan="2">Annual growth in spending</th>
+<th colspan="2">Prescription drugs as share of total spending</th>
+</tr><tr><td> </td>
+<th>National health expenditures</th>
+<th>Prescription drugs</th>
+<th>1993</th>
+<th>1998</th>
+</tr><tr><td>Total</td>
+<td>
+<p>5.0%</p>
+</td>
+<td>
+<p>12.4%</p>
+</td>
+<td>
+<p>5.6%</p>
+</td>
+<td>
+<p>7.9%</p>
+</td>
+</tr><tr><td>Private insurance</td>
+<td>
+<p>4.1%</p>
+</td>
+<td>
+<p>18.9%</p>
+</td>
+<td>
+<p>6.6%</p>
+</td>
+<td>
+<p>12.7%</p>
+</td>
+</tr><tr><td>Medicaid</td>
+<td>
+<p>7.0%</p>
+</td>
+<td>
+<p>14.8%</p>
+</td>
+<td>
+<p>6.4%</p>
+</td>
+<td>
+<p>9.1%</p>
+</td>
+</tr></tbody></table><p>Source: HCFA(now known as CMS) Office of the Actuary.</p>
+<p>A number of studies have analyzed recent trends in spending for prescription drugs, for the population as a whole or for specific insured groups. These studies have offered somewhat different accounts of the relative importance of utilization and price changes, as well as the extent to which introduction of new drugs has driven spending growth. Some of the variation in study results is attributable to the population studied, the time period considered, or methodology; some of the variation is merely apparent, stemming from differing definitions of components of spending or choices about how to present the results.</p>
+<p>This report compares the findings of several widely distributed studies, highlights the key points on which they agree or disagree, and attempts to explain the differences in study findings whenever possible. It is not the aim of this report to evaluate the quality or validity of the different studies. They were produced for different purposes or audiences and use different methods accordingly. Nor will there be any attempt to address broader questions, such as whether drugs are appropriately priced, or whether drug spending represents a good value in terms of improved health or quality of life. The aim is merely to try to develop a coherent picture of what has been happening, without evaluating whether what has been happening is good or bad.</p>
+<p>The basic studies to be reviewed are:</p>
+<ul><li>NIHCM. Factors Affecting the Growth of Prescription Drug Expenditures, prepared by Barents Group LLC for the National Institute for Health Care Management (NIHCM) Research and Educational Foundation, Washington, July 9, 1999.</li>
+<li>Brandeis/PCS. Sources of Growth in Pharmaceutical Expenditures, Brandeis University Schneider Institute for Health Policy and PCS Health Systems, Inc. (Data cited in this report were supplied by the researchers and are different from those in a preliminary presentation of study findings at a conference in Princeton, NJ, in May 2000.)</li>
+<li>Express Scripts. 1999 Drug Trend Report, Express Scripts, Maryland Heights, MO, June 2000.</li>
+<li>Merck-Medco. Managing Pharmacy Benefit Costs, 2000 Edition, Merck- Medco Managed Care, LLC, Franklin Lakes, NJ, 2000.</li>
+</ul><p>Two additional studies will be referred to in this report, but cannot be directly compared to the four listed above. Dubois et al. explores spending changes for only a subset of seven therapeutic categories. Mullins, Palumbo, and Stuart project future spending trends on the basis of recent experience, but provide only limited analysis of recent spending growth.</p>
+<p>DATA USED IN THE STUDIES</p>
+<p>Table 2 compares key features of the data used in the four studies. The time periods examined differ; the effects will be considered below. Note also that Brandeis/PCS uses fiscal years from October 1995 through September 1999. There are also important differences in the populations studied and in methods of estimating spending.</p>
+<p><strong>Table 2. Data Used in Prescription Drug Studies </strong></p>
+<table align="Center" border="" cellpadding="2" cellspacing="0"><tbody><tr><td> </td>
+<th>Brandeis/PCS</th>
+<th>NIHCM</th>
+<th>Express Scripts</th>
+<th>Merck-Medco</th>
+</tr><tr><td>Time period</td>
+<td>1996-1999 (fiscal years beginning 10/1)</td>
+<td>1993-1998</td>
+<td>1995-1999</td>
+<td>1996-1999</td>
+</tr><tr><td>Data source</td>
+<td>PCS (PBM) claims data</td>
+<td>Scott-Levin retail pharmacy audit</td>
+<td>Express Scripts (PBM) claims data</td>
+<td>Merck-Medco (PBM) claims data</td>
+</tr><tr><td>Population</td>
+<td>Constant cohort of continuously enrolled individuals in plans served by PCS</td>
+<td>All users of retail pharmacy services</td>
+<td>Individuals in a sample of health plans served by Express Scripts; excludes Medicaid and Medicare+Choice enrollees</td>
+<td>Sample of continuously eligible enrollees in all types of plans served by Merck-Medco</td>
+</tr><tr><td>Population size</td>
+<td>1.4 million</td>
+<td>Total U.S. population</td>
+<td>9.6 million</td>
+<td>1.6 million</td>
+</tr><tr><td>Cost data</td>
+<td>Retail transaction price, including patient share</td>
+<td>Retail transaction price, including patient share</td>
+<td>Average wholesale price (AWP)</td>
+<td>Retail transaction price, including patient share</td>
+</tr></tbody></table><p>The NIHCM study uses data from an audit of a sample of retail pharmacies and other retail outlets, weighted to reflect the whole universe of retail drug sales; its figures thus reflect drug use by people with and without insurance coverage for prescription drugs. The other three studies use data for a sample of insured people in health plans whose prescription drug benefits are administered by a pharmaceutical benefits manager (PBM). These are chiefly active workers, retirees, and dependents in employer groups; individual purchasers of nongroup coverage may be included if any of the carriers contracting with the PBMs sell coverage in the nongroup market.</p>
+<p>Brandeis/PCS and Merck-Medco follow a single cohort of continuously eligible individuals over time. Express Scripts looks at enrollees in a subset of the groups they serve, selected from among groups that are able to provide valid monthly enrollment counts. The particular enrollees examined in the starting year may be different from those examined in the final year.</p>
+<p>In reporting costs for prescriptions, three of the studies use the actual retail transaction price: the total amount paid to the retail pharmacy, including any insurer payment and the amount paid by the patient. These prices do not reflect the rebates that manufacturers often grant to insurers, employers, or PBMs, because payment of these rebates is a side transaction not reflected in the payment to the retail pharmacy or other outlet. On the other hand, these prices do reflect any discounts granted by the retail pharmacy itself—as, for example, when a pharmacy negotiates with a PBM a fixed mark-up that is lower than the mark-up it charges to cash customers.</p>
+<p>The Express Scripts study does not use actual transaction prices. Instead it uses the “average wholesale price,” or AWP. <sup><a href="#1">1</a></sup> The AWP is not, as its name would suggest, the average of the amounts actually paid by retail pharmacies to wholesalers for a particular drug. Instead it is the published wholesale price suggested by the manufacturer of the drug. This is not necessarily the price any pharmacy actually pays for the drug, nor does it include the pharmacy’s own mark-up, which may vary for different purchasers and different drugs. Express Scripts believes growth in AWP tracks growth in retail transaction prices fairly well; the inflation figures for “old” drugs in table 9, below, would seem to confirm this.</p>
+<p>OVERALL ESTIMATES OF SPENDING GROWTH</p>
+<p>The studies show very different rates of growth in total prescription drug spending. This is partly attributable to differences in the time periods and populations studied. As a basis for comparison of the studies, it is helpful to look at two estimates of overall retail prescription drug spending for the entire population: data from IMS Health pharmacy audits and estimates from the National Health Expenditures (NHE) series calculated by the Health Care Financing Administration. The main difference is that the NHE figures are net of the estimated amounts of rebates paid by pharmaceutical manufacturers to insurers and other third-party purchasers, such as state Medicaid programs, while the IMS figures reflect retail transaction prices. As none of the studies considered here takes account of manufacturer rebates, the IMS data provide a better benchmark. (Note that the 1999 NHE figure is a preliminary estimate derived from 1997 data; the final estimate, when available, is expected to show a rate of increase closer to that shown by IMS.)</p>
+<p><strong>Table 3. Comparison of National Health Expenditures and IMS Health Prescription Drug Spending Estimates</strong></p>
+<table align="Center" border="" cellpadding="2" cellspacing="0"><tbody><tr><td> </td>
+<th colspan="2">National Health Expenditures</th>
+<th>IMS Health</th>
+<td> </td>
+<td> </td>
+</tr><tr><td> </td>
+<th>$ million</th>
+<th>% increase</th>
+<th>$ million</th>
+<th>% increase</th>
+<th>Per capita increase</th>
+</tr><tr><td>1993</td>
+<td>
+<p>50,632</p>
+</td>
+<td> </td>
+<td>
+<p>56,201</p>
+</td>
+<td> </td>
+<td> </td>
+</tr><tr><td>1994</td>
+<td>
+<p>55,189</p>
+</td>
+<td>
+<p>9.00%</p>
+</td>
+<td>
+<p>60,965</p>
+</td>
+<td>
+<p>8.50%</p>
+</td>
+<td>
+<p>7.4%</p>
+</td>
+</tr><tr><td>1995</td>
+<td>
+<p>61,021</p>
+</td>
+<td>
+<p>10.60%</p>
+</td>
+<td>
+<p>68,585</p>
+</td>
+<td>
+<p>12.50%</p>
+</td>
+<td>
+<p>11.4%</p>
+</td>
+</tr><tr><td>1996</td>
+<td>
+<p>68,890</p>
+</td>
+<td>
+<p>12.90%</p>
+</td>
+<td>
+<p>78,124</p>
+</td>
+<td>
+<p>13.90%</p>
+</td>
+<td>
+<p>12.8%</p>
+</td>
+</tr><tr><td>1997</td>
+<td>
+<p>78,545</p>
+</td>
+<td>
+<p>14.00%</p>
+</td>
+<td>
+<p>89,050</p>
+</td>
+<td>
+<p>14.00%</p>
+</td>
+<td>
+<p>12.9%</p>
+</td>
+</tr><tr><td>1998</td>
+<td>
+<p>90,648</p>
+</td>
+<td>
+<p>15.40%</p>
+</td>
+<td>
+<p>103,049</p>
+</td>
+<td>
+<p>15.70%</p>
+</td>
+<td>
+<p>14.6%</p>
+</td>
+</tr><tr><td>1999</td>
+<td>100,628 (est.)</td>
+<td>
+<p>11.00%</p>
+</td>
+<td>
+<p>121,600</p>
+</td>
+<td>
+<p>18.00%</p>
+</td>
+<td>
+<p>16.9%</p>
+</td>
+</tr></tbody></table><p>Source: HCFA(now known as CMS) Office of the Actuary, IMS Health data from NACDS (1999 and 2000). Per capita increase based on changes in average civilian population, U.S. Census Bureau.</p>
+<p>Differences in reported spending growth</p>
+<p>Table 4 compares the annual rate of spending growth reported in the studies to the IMS per capita growth rate for the period of each study. Note that all the studies except NIHCM report spending per member year (PMY); they thus correct for changes in the size of the study population, though not for population aging, an issue to be discussed below. NIHCM reports spending for the entire U.S. population; for comparison it must be converted to a per capita figure. The resulting growth rate is quite close to that shown by IMS for the same time period. This is not surprising, because NIHCM uses a pharmacy audit that produces data for the total population, as IMS does.</p>
+<p><strong>Table 4. Estimated Annual Growth in Prescription Drug Spending, Four Studies </strong></p>
+<table align="Center" border="1" cellspacing="1"><tbody><tr><td> </td>
+<td>Time period</td>
+<td>Annual growth rate</td>
+<td>IMS per capita annual growth for study period</td>
+</tr><tr><td>NIHCM (total)</td>
+<td>1993-1998</td>
+<td>13.0%</td>
+<td> </td>
+</tr><tr><td>NIHCM (per capita)</td>
+<td> </td>
+<td>11.9%</td>
+<td>11.8%</td>
+</tr><tr><td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><td>Brandeis/PCS (PMY)</td>
+<td>1996-1999</td>
+<td>21.9%</td>
+<td>14.8%</td>
+</tr><tr><td>Merck-Medco (PMY)</td>
+<td>1995-1999</td>
+<td>20.8%</td>
+<td>14.3%</td>
+</tr><tr><td>Express Scripts (PMY)</td>
+<td>1995-1999</td>
+<td>15.7%</td>
+<td>14.3%</td>
+</tr></tbody></table><p>Source: Author’s estimates based on cited studies. Per capita estimates for NIHCM and IMS Health use changes in average civilian population, U.S. Census Bureau.</p>
+<p>Brandeis/PCS and Merck-Medco show much faster growth, and Express Scripts slightly faster growth, than the IMS data. All three reflect spending only for people with prescription drug coverage, while NIHCM and IMS average in spending for people without coverage. It has been shown that, in a single year, people who have drug coverage for the entire year receive more prescriptions, and for more costly medications, than people without coverage or covered for only part of the year (DHHS 2000). It seems likely that spending by the insured would also rise more rapidly from year to year, because they are more likely than the uninsured to receive new and more costly medications.</p>
+<p>Trends in drug utilization and spending over time for the insured and uninsured have not been investigated for the entire population. However, data from the Medicare Current Beneficiary Survey do show that, between 1995 and 1996, per capita drug spending by beneficiaries without drug coverage rose 7.2 percent, while spending by beneficiaries with coverage rose 11.3 percent, or 56 percent faster.<sup><a href="#2">2</a></sup> If the same were true for the entire population, one would expect spending for a group of insured people to rise about 1 percentage point a year faster than for the total-population mix of insured and uninsured.<sup><a href="#3">3</a></sup></p>
+<p>The restriction of the three PBM-based studies to insured people may, then, explain only a small part of the difference between their results and the NIHCM and IMS figures. Two other factors might possibly play a role:</p>
+<ul><li>The PBM groups might be in plans that have especially generous prescription drug benefits, which could promote faster growth in utilization and spending. The effects of having generous coverage might outweigh the effects of the cost containment measures often adopted in such plans, including use of formularies and promotion of generic substitution, negotiated discounts with pharmacies, use of mail order pharmacies, and other practices associated with managed care. Each PBM is serving numerous groups, which may offer different levels of drug coverage and use different cost control measures. (For example, some may have closed formularies, while others cover any drug.) A differing mix of such groups in the different PBMs could explain some of the variation in spending growth.</li>
+<li>The population composition of the PBM groups may be different from that of the entire US population. In the Brandeis/PCS group, for example, 39 percent of participants were aged 45 or older, compared to 33 percent of the total population. If spending for older people rose faster than spending for younger ones, this could affect the overall averages.<sup><a href="#4">4</a></sup> Merck- Medco reports that 40 percent of its enrollees are retirees (these include Federal annuitants in the Blue Cross/Blue Shield plan), though this is nThe population composition of the PBM groups may be different from that of the entire US population. In the Brandeis/PCS group, for exam</li>
+</ul><p>Effect of population aging</p>
+<p>Because older people incur higher prescription drug costs than younger ones, aging of the population during the period being examined would account for some part of the observed overall spending increases. The effects of aging are different for Brandeis/PCS and Merck-Medco, which follow constant cohorts of enrollees over a multi-year period; NIHCM, which examines the entire US population in different years; and Express Scripts, which looks at different enrollees in a sample of its groups in each year.</p>
+<p>It is estimated that aging of the US civilian noninstitutionalized population would, if utilization and cost by age remained constant, have resulted in a per capita spending increase of at least 2.7 percent between 1996 and 1998, or 1.3 percent per year.<sup><a href="#5">5</a></sup> If the same were true for all the years of the NIHCM study (1993-1998), aging alone would account for about 12 percent of the observed per capita annual spending growth in that study.</p>
+<p>Aging of a constant cohort, as in the Brandeis/PCS study, would have different effects. The average age of the total noninstitutionalized population grew by less than one year between 1996 and 1998, while every member of the Brandeis/PCS group aged three years. The authors estimate that 3 to 5 percentage points of the observed 21.9 percent annual spending growth is attributable to cohort aging. In the Merck-Medco study, covering 1995 through 1999, every participant aged four years.</p>
+<p>In the Express Scripts groups, on the other hand, some older workers leave (without continuing in the group as retirees) and are replaced by younger workers. Express Scripts estimates that the average age of its population may increase by only three to six months for each year in its study. This could account for much of the difference in spending growth between Express Scripts and the other PBMs.<sup><a href="#6">6</a></sup></p>
+<p>COMPONENTS OF SPENDING GROWTH</p>
+<p>Per capita prescription drug spending for a given population may increase over time for a number of reasons:</p>
+<ul><li>User rate. The proportion of the population receiving any prescription grows;</li>
+<li>Prescriptions/user: Each user receives more prescriptions;</li>
+<li>Days/prescription: People receive more days’ supply (or other units) in each prescription;</li>
+<li>Strength: For any particular drug, the strength and dosage of each day’s supply increases;</li>
+<li>Unit price: The price of a unit of a particular drug (of a particular strength/dosage) increases;</li>
+<li>Mix: The mix of drugs received changes, from less to more costly drugs.</li>
+</ul><p>The first four factors are all related to volume or quantity: more people are getting more drugs, in larger supplies and with higher dosages. The fifth factor, change in unit price over time for the identical medication, is what is ordinarily meant by inflation. The last factor, change in the mix of drugs received, has had an important effect on the average cost of prescriptions: people are typically getting drugs with higher prices than they were some years ago. However, it is confusing and incorrect to speak of this change as a “price change,” because the nature of the commodity being purchased is changing over time. New medications are not simply more costly than older ones. They may be more effective or have fewer side effects; some may treat conditions for which no treatment was available.<sup><a href="#7">7 </a></sup></p>
+<p>Each of the studies reviewed here attempts to deal with this problem by distinguishing between old drugs—those available at the start of the study period—and new drugs, those introduced during the study period.<sup><a href="#8">8</a></sup> This allows a partial disentanglement of changes in mix from the other factors driving spending increases. However, changes in mix do not represent simply a shift in use from older drugs to newer drugs. There are also changes in the mix of older drugs—for example, when a drug loses patent protection and generic competitors are introduced. Only Express Scripts separately measures these changes. In addition, because the dividing line between old and new is arbitrary, changes in cost for the class of “old” drugs may be driven by increased use of drugs introduced shortly before whatever cut-off date is used.</p>
+<p>Leaving aside the problem of mix, each study presents its information in a different way, and each to some extent collapses the various factors in spending increases, conflating volume, price, and mix changes. For example, NIHCM reports—separately for old and new drugs—changes in utilization (number of prescriptions) and in price (cost per prescription). The utilization measure is equivalent to growth in users times growth in prescriptions per user, while the price measure merges changes in days per prescription, strength, and mix with changes in unit price. Merck-Medco reports changes in users, days per user, and cost per day. Its utilization measure thus includes part of what NIHCM has labeled “price,” while its price measure still includes changes in strength as well as unit price changes and changes in mix.</p>
+<p>There is thus no simple way of comparing the results of all four studies. This report will provide a variety of comparisons, each including as many of the studies as possible. Even to produce these comparisons, it has been necessary to recalculate the data provided in the studies, because of differences in presentation. Because these recalculations rely on published figures that have been rounded, they are subject to some degree of error. All recalculated numbers are presented in bold face; they should be read as approximations only for the purpose of comparison and should not be cited separately.</p>
+<p>The following discussion will begin with some gross measures for all drugs combined, before considering the effects of changes in mix of old and new drugs.</p>
+<p>Growth in prescriptions and cost per prescription</p>
+<p>Table 5 compares the annual increase in prescriptions per capita and cost per prescription in three studies. IMS Health data for comparable periods are again provided as a benchmark. Again, NIHCM tracks the IMS closely, although it shows slightly faster utilization growth and slower cost growth.<sup><a href="#9">9</a></sup> Express Scripts shows utilization growth similar to that in the IMS data for the period, but faster cost growth. Brandeis/PCS shows much faster growth in both utilization and costs. Again, the differences may be attributable to generosity of insurance coverage and enrollee characteristics.</p>
+<p><strong>Table 5. Annual Changes in Number of Prescriptions and Cost Per Prescription, Three Studies</strong></p>
+<table align="Center" border="1" cellspacing="1"><tbody><tr><td> </td>
+<td>Brandeis/PCS</td>
+<td>NIHCM (per capita)</td>
+<td>Express Scripts</td>
+</tr><tr><td>Time period</td>
+<td>
+<p>1996-1999</p>
+</td>
+<td>
+<p>1995-1999</p>
+</td>
+<td>
+<p>1995-1999</p>
+</td>
+</tr><tr><td>Annual increase in prescriptions</td>
+<td>
+<p>9.9%</p>
+</td>
+<td>
+<p>4.5%</p>
+</td>
+<td>
+<p>4.7%</p>
+</td>
+</tr><tr><td>Annual increase in cost per prescription</td>
+<td>
+<p>11.0%</p>
+</td>
+<td>
+<p>7.0%</p>
+</td>
+<td>
+<p>10.6%</p>
+</td>
+</tr><tr><td>Total annual spending increase</td>
+<td>
+<p>21.9%</p>
+</td>
+<td>
+<p>11.9%</p>
+</td>
+<td>
+<p>15.8%</p>
+</td>
+</tr><tr><td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><td>Share attributable to utilization</td>
+<td>
+<p>47.5%</p>
+</td>
+<td>
+<p>39.5%</p>
+</td>
+<td>
+<p>31.4%</p>
+</td>
+</tr><tr><td>Share attributable to cost</td>
+<td>
+<p>52.5%</p>
+</td>
+<td>
+<p>60.5%</p>
+</td>
+<td>
+<p>68.6%</p>
+</td>
+</tr><tr><td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><td>IMS annual increase for period in:</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><td>Prescriptions per capita</td>
+<td>
+<p>6.2%</p>
+</td>
+<td>
+<p>3.9%</p>
+</td>
+<td>
+<p>4.8%</p>
+</td>
+</tr><tr><td>Cost per prescription</td>
+<td>
+<p>8.2%</p>
+</td>
+<td>
+<p>7.6%</p>
+</td>
+<td>
+<p>9.0%</p>
+</td>
+</tr></tbody></table><p>Source: Author’s estimates based on cited studies. IMS Health prescription estimates are from NACDS; these include a conversion of mail order prescriptions to estimated retail equivalents.</p>
+<p>Growth in users, days per user, and cost per day</p>
+<p>Counts of prescriptions are not a very good measure of volume, because the supply of medication in each prescription changes over time. Only Brandeis/PCS and Merck-Medco count total days of medication. (Express Scripts measures changes in units per prescription only for “old” drugs; see below.) As table 6 shows, using days as the volume measure markedly increases the share of spending growth attributable to utilization. Brandeis/PCS and Merck-Medco show similar growth in days per enrollee; Brandeis/PCS shows a slightly higher increase in cost per day. Both show the utilization change as accounting for about three-fifths of growth in per capita spending.</p>
+<p><strong>Table 6. Annual Growth in Users, Days Per User, and Cost Per Day, Two Studies </strong></p>
+<table align="Center" border="" cellpadding="2" cellspacing="0"><tbody><tr><td> </td>
+<td>Brandeis/PCS</td>
+<td>Merck-Medco</td>
+</tr><tr><td>Annual growth in:</td>
+<td> </td>
+<td> </td>
+</tr><tr><td>Users/enrollees</td>
+<td>
+<p>2.8%</p>
+</td>
+<td>
+<p>5.8%</p>
+</td>
+</tr><tr><td>Days per user</td>
+<td>
+<p>9.7%</p>
+</td>
+<td>
+<p>6.6%</p>
+</td>
+</tr><tr><td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><td>Days/enrollee</td>
+<td>
+<p>12.8%</p>
+</td>
+<td>
+<p>12.9%</p>
+</td>
+</tr><tr><td>Cost per day</td>
+<td>
+<p>8.1%</p>
+</td>
+<td>
+<p>7.0%</p>
+</td>
+</tr><tr><td>Total</td>
+<td>
+<p>21.9%</p>
+</td>
+<td>
+<p>20.8%</p>
+</td>
+</tr><tr><td>Share of growth attributable to:</td>
+<td> </td>
+<td> </td>
+</tr><tr><td>Days/enrollee</td>
+<td>
+<p>60.7%</p>
+</td>
+<td>
+<p>64.0%</p>
+</td>
+</tr><tr><td>Cost per day</td>
+<td>
+<p>39.3%</p>
+</td>
+<td>
+<p>36.0%</p>
+</td>
+</tr></tbody></table><p>Source: Author’s estimates based on cited studies.</p>
+<p>It should be noted, however, that the two studies that allow counts of days are also the studies that follow a constant cohort, which ages faster than the general population. Because aging is likely to affect utilization more than unit cost, table 6 probably overstates the share of spending growth attributable to utilization. For the general population, the truth is likely to fall somewhere between table 5 and table 6.</p>
+<p>GROWTH IN USE AND COST FOR OLD AND NEW DRUGS</p>
+<p>Although most recent discussions of spending growth for prescription drugs emphasize the role of new drugs, utilization of existing drugs has also increased, and the price of these drugs has risen over time. This section compares the results of three of the studies.<sup><a href="#10">10</a></sup></p>
+<p>Defining old and new drugs</p>
+<p>The relative importance of old and new drugs in driving spending increases obviously depends on where one sets the cut-off point between old and new. Table 7 shows Brandeis/PCS and Express Scripts estimates of drugs’ shares of 1999 spending by the year of the drugs’ introduction.<a href="#11"><sup>11</sup></a></p>
+<p><strong>Table 7. Shares of 1999 Spending by the Year Drugs Were Introduced, Two Studies </strong></p>
+<table align="Center" border="" cellpadding="2" cellspacing="0"><tbody><tr><td>Introduction year</td>
+<td>Express Scripts</td>
+<td>Brandeis/PCS</td>
+</tr><tr><td>Before 1992</td>
+<td>59%</td>
+<td>67%</td>
+</tr><tr><td>1992</td>
+<td>9%</td>
+<td>5%</td>
+</tr><tr><td>1993</td>
+<td>5%</td>
+<td>6%</td>
+</tr><tr><td>1994</td>
+<td>4%</td>
+<td>3%</td>
+</tr><tr><td>1995</td>
+<td>7%</td>
+<td>6%</td>
+</tr><tr><td>1996 or later</td>
+<td>16%</td>
+<td>13%</td>
+</tr></tbody></table><p>Source: Author’s estimates based on cited studies.</p>
+<p>Express Scripts, studying spending change between 1995 and 1999, treats drugs introduced in 1996 or later as “new” and all other drugs as “common”—that is, they were available during at least part of every year studied. It thus classes 16 percent of drug spending as spending for “new” drugs. Brandeis/PCS, studying spending change between 1996 and 1999, treats drugs introduced in 1995 or later as “new.” Thus there are some “new” drugs that were available for the entire study period; 19 percent of drug spending is classed as spending for “new” drugs.</p>
+<p>NIHCM also treats some drugs introduced before the start of its study period (1993 to 1998) as “new”; only drugs introduced in 1991 or earlier are classed as “old.” This, plus the longer study period used by NIHCM, means that drugs introduced at any time in a seven year period are treated as new. Thus NIHCM attributes a much larger share of spending to new drugs: 32 percent. If Express Scripts had used the same method, counting all drugs introduced in the seven years 1993 through 1999 as new, new drugs would similarly have accounted for 32 percent of its 1999 spending total.</p>
+<p>Growth in spending for old drugs</p>
+<p>Table 8 shows annual growth in prescriptions for old drugs and in cost per prescription. As in table 5, Brandeis/PCS shows a much higher rate of growth and attributes much more of the growth to increased utilization. The rate of growth in cost per prescription is comparable in Brandeis/PCS and Express Scripts. The much slower growth in NIHCM may well be related to the fact that it classes many more drugs as new. Those treated as old were, on average, introduced earlier than the larger group of drugs treated as old in the other two studies. This may mean that they are therefore more likely to face competition, in the form either of generic equivalents or more recently introduced drugs in the same therapeutic categories, restraining price growth. It may also mean that they have reached their maximum utilization rate for their target populations.</p>
+<p><strong>Table 8. Growth in Prescriptions for “Old” Drugs and Cost Per Prescription, Three Studies </strong></p>
+<table align="Center" border="" cellpadding="2" cellspacing="0"><tbody><tr><td> </td>
+<td>Brandeis/PCS</td>
+<td>Express Scripts</td>
+<td>NIHCM</td>
+</tr><tr><td>Annual growth in:</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><td>Prescriptions PMY</td>
+<td>
+<p>5.5%</p>
+</td>
+<td>
+<p>2.3%</p>
+</td>
+<td>
+<p>1.2%</p>
+</td>
+</tr><tr><td>Cost per prescription</td>
+<td>
+<p>8.0%</p>
+</td>
+<td>
+<p>8.2%</p>
+</td>
+<td>
+<p>3.3%</p>
+</td>
+</tr><tr><td>Total</td>
+<td>
+<p>13.9%</p>
+</td>
+<td>
+<p>10.6%</p>
+</td>
+<td>
+<p>4.6%</p>
+</td>
+</tr><tr><td>Share of growth attributable to:</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><td>Prescriptions PMY</td>
+<td>
+<p>41.0%</p>
+</td>
+<td>
+<p>22.2%</p>
+</td>
+<td>
+<p>27.0%</p>
+</td>
+</tr><tr><td>Cost per prescription</td>
+<td>
+<p>59.0%</p>
+</td>
+<td>
+<p>77.8%</p>
+</td>
+<td>
+<p>73.0%</p>
+</td>
+</tr><tr><td>Total</td>
+<td>
+<p>100.0%</p>
+</td>
+<td>
+<p>100.0%</p>
+</td>
+<td>
+<p>100.0%</p>
+</td>
+</tr></tbody></table><p>Source: Author’s estimates based on cited studies.</p>
+<p>Old drug price growth</p>
+<p>As was noted earlier, growth in cost per prescription is not an accurate measure of price change, because it is affected by changes in days’ supply, strength, and the mix of drugs being used. Express Scripts provides the fullest breakdown of factors contributing to changes in cost per prescription for older drugs, as shown in table 9. (The total annual change is slightly different from that shown in table 8, because of rounding error.) “Inflation”—meaning change in the unit cost for the same drug in the same strength—accounted for about half the growth in spending for old drugs. Much of the rest is attributable to changes in mix—substitution of more costly old drugs for less costly old drugs.</p>
+<p><strong>Table 9. Components of Change in Cost Per Prescription, “Old” Drugs, Express Scripts </strong></p>
+<table border="1" cellspacing="1"><tbody><tr><td> </td>
+<td>Annual change</td>
+<td>Share of cost change</td>
+</tr><tr><td>Inflation</td>
+<td>
+<p>3.8%</p>
+</td>
+<td>
+<p>46.8%</p>
+</td>
+</tr><tr><td>Units per prescription</td>
+<td>
+<p>0.8%</p>
+</td>
+<td>
+<p>10.4%</p>
+</td>
+</tr><tr><td>Strength</td>
+<td>
+<p>1.0%</p>
+</td>
+<td>
+<p>11.9%</p>
+</td>
+</tr><tr><td>Mix</td>
+<td>
+<p>2.5%</p>
+</td>
+<td>
+<p>31.0%</p>
+</td>
+</tr><tr><td>Total</td>
+<td>
+<p>8.4%</p>
+</td>
+<td>
+<p>100.0%</p>
+</td>
+</tr></tbody></table><p>Source: Author’s estimates based on cited study.</p>
+<p>Once again, it should be noted that Express Scripts uses AWP as a price measure, rather than actual retail transaction prices. However, its inflation estimate of 3.8 percent a year is quite close to that given by the Consumer Price Index (CPI) for all urban consumers for the same period, as shown in table 10. The CPI does use retail transaction prices and uses a more or less constant market basket of existing drugs for the purpose of indexing.<sup><a href="#12">12</a></sup> That its results are so similar to those of Express Scripts suggests that the inflation figure of about 4 percent per year is about right. Like the CPI, Express Scripts shows a sharp increase in inflation, 5.4 percent, in 1999.</p>
+<p><strong>Table 10. Changes in Consumer Price Index, All Items, Medical Care, and Prescription Drugs, 1991-1999</strong></p>
+<table align="Center" border="" cellpadding="2" cellspacing="0"><tbody><tr><td> </td>
+<td>CPI – all urban consumers</td>
+<td> </td>
+<td> </td>
+</tr><tr><td>Year</td>
+<td>All items</td>
+<td>Medical care</td>
+<td>Prescription drugs</td>
+</tr><tr><td>1991</td>
+<td>4.2%</td>
+<td>8.7%</td>
+<td>9.9%</td>
+</tr><tr><td>1992</td>
+<td>3.0%</td>
+<td>7.4%</td>
+<td>7.5%</td>
+</tr><tr><td>1993</td>
+<td>3.0%</td>
+<td>6.0%</td>
+<td>3.9%</td>
+</tr><tr><td>1994</td>
+<td>2.6%</td>
+<td>4.8%</td>
+<td>3.4%</td>
+</tr><tr><td>1995</td>
+<td>2.8%</td>
+<td>4.5%</td>
+<td>1.9%</td>
+</tr><tr><td>1996</td>
+<td>2.9%</td>
+<td>3.5%</td>
+<td>3.3%</td>
+</tr><tr><td>1997</td>
+<td>2.3%</td>
+<td>2.8%</td>
+<td>2.6%</td>
+</tr><tr><td>1998</td>
+<td>1.6%</td>
+<td>3.2%</td>
+<td>3.8%</td>
+</tr><tr><td>1999</td>
+<td>2.2%</td>
+<td>3.5%</td>
+<td>5.7%</td>
+</tr><tr><td>1995-1999</td>
+<td>9.3%</td>
+<td>13.7%</td>
+<td>16.3%</td>
+</tr><tr><td>Annual, 1995-99</td>
+<td>2.2%</td>
+<td>3.3%</td>
+<td>3.9%</td>
+</tr></tbody></table><p>Source: Bureau of Labor Statistics</p>
+<p>Spending for new drugs</p>
+<p>New drugs have contributed heavily to recent growth in overall utilization, and their cost is much higher than that for older drugs. Brandeis/PCS finds that the cost per prescription for the drugs it classes as new is 1.75 times the cost for older drugs. The ratio in NIHCM is 2.34:1, again because many fewer drugs are classified as old. Express Scripts and Merck-Medco data allow estimates of cost by the year drugs were introduced, as shown in table 11. The price ratios in Express Scripts are somewhat lower than in Merck-Medco. Note that the Express Scripts cost is per prescription, the Merck-Medco per day. Brandeis/PCS data indicate that the average day’s supply in prescriptions for newer drugs (22 days) is lower than that in prescriptions for older drugs (30 days). This could account for higher price ratios when days rather than prescriptions are the unit.</p>
+<p><strong>Table 11. 1999 Ratio of Cost of Newer Drugs to Cost of Drugs Available before 1995, Two Studies </strong></p>
+<table align="Center" border="" cellpadding="2" cellspacing="0"><tbody><tr><td>Year drug became available</td>
+<td>Express Scripts<br />
+				(per prescription)</td>
+<td>Merck-Medco<br />
+				(per day)</td>
+</tr><tr><td>Before 1995</td>
+<td>
+<p>1.00</p>
+</td>
+<td>
+<p>1.00</p>
+</td>
+</tr><tr><td>
+<p>1995</p>
+</td>
+<td>
+<p>1.46</p>
+</td>
+<td>
+<p>2.02</p>
+</td>
+</tr><tr><td>
+<p>1996</p>
+</td>
+<td>
+<p>1.80</p>
+</td>
+<td>
+<p>2.20</p>
+</td>
+</tr><tr><td>
+<p>1997</p>
+</td>
+<td>
+<p>1.92</p>
+</td>
+<td>
+<p>2.29</p>
+</td>
+</tr><tr><td>
+<p>1998</p>
+</td>
+<td>
+<p>2.40</p>
+</td>
+<td>
+<p>2.55</p>
+</td>
+</tr><tr><td>
+<p>1999</p>
+</td>
+<td>
+<p>2.23</p>
+</td>
+<td>
+<p>2.72</p>
+</td>
+</tr></tbody></table><p>Source: Author’s estimates based on cited studies.</p>
+<p>Displaying the relative contribution of new drug use and price to overall spending increases is problematic. NIHCM estimates a “price effect” for new drugs by comparing their 1998 price to the average 1993 drug price. This seems unsatisfactory, because it merges the effects of the higher prices of new drugs and general price inflation (along with the unmeasured volume factors of days supply and strength). For this report, a different method has been adopted.</p>
+<p>The utilization effect is defined here as the amount that would have been spent on new drugs in 1998 or 1999 (depending on the study) if the cost per prescription for new drugs were the same as that for older drugs in the same year. The cost effect, a residual, is the additional amount of spending attributable to the fact that newer drugs cost more than older drugs in 1998 or 1999. This is not entirely satisfactory, either, because the prices of existing drugs may be affected by the competitive changes resulting from introduction of new drugs in the same therapeutic category. (The complex interplay of old and new drug prices is suggested by the findings of Dubois et al., discussed below.) Still, the figures have to be shown somehow; the decision on presentation here is necessarily arbitrary.</p>
+<p>Table 12 shows the resulting estimates for the three studies. NIHCM attributes much more of spending growth to new drugs; again, this is largely because its definition of “new” drugs is more expansive than that in the other two studies. Brandeis/PCS and Express Scripts both show new drugs accounting for about two-fifths of total spending increases, but the utilization effect is somewhat more important in Brandeis/PCS. This is the reverse of what was shown for older drugs in table 8.</p>
+<p><strong>Table 12. Components of Overall Spending Growth, with Prescriptions as Measure of Volume, Three Studies </strong></p>
+<table align="Center" border="" cellpadding="2" cellspacing="0"><tbody><tr><td> </td>
+<td>Brandeis/PCS</td>
+<td>Express Scripts</td>
+<td>NIHCM</td>
+</tr><tr><td>Old utilization increase</td>
+<td>
+<p>24.0%</p>
+</td>
+<td>
+<p>14.0%</p>
+</td>
+<td>
+<p>8.5%</p>
+</td>
+</tr><tr><td>Old cost increase</td>
+<td>
+<p>34.6%</p>
+</td>
+<td>
+<p>48.8%</p>
+</td>
+<td>
+<p>23.0%</p>
+</td>
+</tr><tr><td>Total old drugs</td>
+<td>
+<p>58.6%</p>
+</td>
+<td>
+<p>62.8%</p>
+</td>
+<td>
+<p>31.5%</p>
+</td>
+</tr><tr><td>New utilization effect</td>
+<td>
+<p>23.7%</p>
+</td>
+<td>
+<p>18.5%</p>
+</td>
+<td>
+<p>28.6%</p>
+</td>
+</tr><tr><td>New cost effect</td>
+<td>
+<p>17.7%</p>
+</td>
+<td>
+<p>18.7%</p>
+</td>
+<td>
+<p>39.9%</p>
+</td>
+</tr><tr><td>Total new drugs</td>
+<td>
+<p>41.4%</p>
+</td>
+<td>
+<p>37.2%</p>
+</td>
+<td>
+<p>68.5%</p>
+</td>
+</tr><tr><td>Total</td>
+<td>
+<p>100.0%</p>
+</td>
+<td>
+<p>100.0%</p>
+</td>
+<td>
+<p>100.0%</p>
+</td>
+</tr></tbody></table><p>Source: Author’s estimates based on cited studies.</p>
+<p>It might be expected that the utilization effect would be larger if changes in days’ supply were included in the volume measure instead of being included in the estimated cost change. Only the Brandeis/PCS data permit estimates using days; the result, as shown in table 13, is mixed. The utilization effect grows larger for old drugs, but smaller for new ones, because the average day’s supply in prescriptions for newer drugs in 1999 was lower than that in prescriptions for older drugs in either 1996 or 1999.</p>
+<p><strong>Table 13. Components of Overall Spending Growth, with Days as Measure of Volume, Brandeis/PCS Study</strong></p>
+<table align="Center" border="" cellpadding="2" cellspacing="0"><tbody><tr><td> </td>
+<td>Share of cost change</td>
+</tr><tr><td>Old utilization increase</td>
+<td>
+<p>40.3%</p>
+</td>
+</tr><tr><td>Old cost increase</td>
+<td>
+<p>18.2%</p>
+</td>
+</tr><tr><td>Total old drugs</td>
+<td>
+<p>58.6%</p>
+</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>New utilization effect</td>
+<td>
+<p>19.9%</p>
+</td>
+</tr><tr><td>New cost effect</td>
+<td>
+<p>21.6%</p>
+</td>
+</tr><tr><td>Total new drugs</td>
+<td>
+<p>41.4%</p>
+</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>Total</td>
+<td>
+<p>100.0%</p>
+</td>
+</tr></tbody></table><p>Source: Author’s estimates based on cited study.</p>
+<p>CHANGES BY THERAPEUTIC CATEGORY</p>
+<p>All of the studies find that spending growth is heavily driven by spending for specific types of drugs or therapeutic categories. Both Brandeis/PCS and NIHCM find that nearly half of spending growth came from five broad drug classes, as shown in table 14.<sup><a href="#13">13</a></sup> Differences in distribution may reflect differences in the time periods reviewed; for example, much of the growth in antidepressant spending shown by NIHCM might have occurred before the 1996 base year for Brandeis/PCS. Three additional categories missing from the Brandeis/PCS list each accounted for about 5 percent of spending growth in the NIHCM study: antihistamines, asthma medications, and pain relievers.</p>
+<p><strong>Table 14. Share of Spending Growth by Therapeutic Class, Two Studies</strong></p>
+<table align="Center" border="" cellpadding="2" cellspacing="0"><tbody><tr><td>Brandeis/PCS class</td>
+<td>Brandeis/PCS</td>
+<td>NIHCM</td>
+<td>NIHCM category</td>
+<td> </td>
+</tr><tr><td>Cardiovascular</td>
+<td>
+<p>19%</p>
+</td>
+<td>
+<p>16%</p>
+</td>
+<td> </td>
+<td> </td>
+</tr><tr><td> </td>
+<td> </td>
+<td> </td>
+<td>Cholesterol reducers</td>
+<td>
+<p>8%</p>
+</td>
+</tr><tr><td> </td>
+<td> </td>
+<td> </td>
+<td>Antihypertensive</td>
+<td>
+<p>4%</p>
+</td>
+</tr><tr><td> </td>
+<td> </td>
+<td> </td>
+<td>Calcium blockers</td>
+<td>
+<p>2%</p>
+</td>
+</tr><tr><td> </td>
+<td> </td>
+<td> </td>
+<td>Beta-blockers</td>
+<td>
+<p>2%</p>
+</td>
+</tr><tr><td>Gastrointestinal</td>
+<td>
+<p>10%</p>
+</td>
+<td>
+<p>6%</p>
+</td>
+<td>Anti-ulcerants</td>
+<td>
+<p>6%</p>
+</td>
+</tr><tr><td>Psychotherapeutics</td>
+<td>
+<p>7%</p>
+</td>
+<td>
+<p>15%</p>
+</td>
+<td> </td>
+<td> </td>
+</tr><tr><td> </td>
+<td> </td>
+<td> </td>
+<td>Antidepressants</td>
+<td>
+<p>12%</p>
+</td>
+</tr><tr><td> </td>
+<td> </td>
+<td> </td>
+<td>Antipsychotics</td>
+<td>
+<p>3%</p>
+</td>
+</tr><tr><td>Anti-infectives</td>
+<td>
+<p>6%</p>
+</td>
+<td>
+<p>5%</p>
+</td>
+<td> </td>
+<td> </td>
+</tr><tr><td> </td>
+<td> </td>
+<td> </td>
+<td>Antibiotic, broad-based</td>
+<td>
+<p>3%</p>
+</td>
+</tr><tr><td> </td>
+<td> </td>
+<td> </td>
+<td>Fungicides</td>
+<td>
+<p>2%</p>
+</td>
+</tr><tr><td>Hypoglycemics</td>
+<td>
+<p>6%</p>
+</td>
+<td>
+<p>4%</p>
+</td>
+<td>Diabetes (oral)</td>
+<td>
+<p>4%</p>
+</td>
+</tr><tr><td>All other</td>
+<td>
+<p>52%</p>
+</td>
+<td>
+<p>46%</p>
+</td>
+<td> </td>
+<td> </td>
+</tr></tbody></table><p>Source: Author’s estimates based on cited studies.</p>
+<p>As is true of spending growth in general, growth in a particular therapeutic category reflects both volume and price changes, with the importance of each varying by category.</p>
+<p>Growth in utilization may stem from changes in medical practice—such as the increase in prescriptions for cholesterol reducers. Or it may stem from consumer demand that may be partly fueled by direct-to-consumer advertising or other publicity for new treatments, as is likely the case for antihistamines or fungicides. NIHCM found that the ten drugs with the highest spending for direct-to- consumer advertising in 1998 accounted for 12 percent of total prescription drug spending in that year.</p>
+<p>Price changes may reflect the introduction of new drugs in a category that replace less costly older drugs. However, price changes for existing drugs also vary by category. Express Scripts reports an average price change for existing drugs of 5.4 percent between 1998 and 1999. By category, price changes ranged from as little as 2.5 percent for beta blockers and 2.7 percent for calcium blockers to as much as 10.6 percent for narcotic analgesics and 10.9 percent for thyroid medications.</p>
+<p>One detailed recent analysis of factors in spending growth for specific therapeutic categories is a study by Dubois et al., using two data sets: one including claims for members of managed care plans (employer groups and Medicare HMOs), the other using claims from large employers’ fee-for-service plans.<sup><a href="#14">14</a></sup> Table 15 shows the three-year spending growth in the seven categories studied.</p>
+<p><strong>Table 15. Three-year Spending Growth in Seven Drug Categories, Dubois et al. </strong></p>
+<table align="Center" border="" cellpadding="2" cellspacing="0"><tbody><tr><td>Category</td>
+<td>Observation period</td>
+<td>Spending growth</td>
+</tr><tr><td>Asthma</td>
+<td>1995-1998</td>
+<td>
+<p>94%</p>
+</td>
+</tr><tr><td>Hormone replacement therapy</td>
+<td>1995-1998</td>
+<td>
+<p>220%</p>
+</td>
+</tr><tr><td>Antidiabetics</td>
+<td>1994-1997</td>
+<td>
+<p>94%</p>
+</td>
+</tr><tr><td>Antihyperlipidemics</td>
+<td>1994-1997</td>
+<td>
+<p>80%</p>
+</td>
+</tr><tr><td>Antidepressants</td>
+<td>1994-1997</td>
+<td>
+<p>85%</p>
+</td>
+</tr><tr><td>Antihistamines</td>
+<td>1994-1997</td>
+<td>
+<p>66%</p>
+</td>
+</tr><tr><td>Gastrointestinal</td>
+<td>1994-1997</td>
+<td>
+<p>43%</p>
+</td>
+</tr></tbody></table><p>Source: Dubois et al.</p>
+<p>Table 16 shows the components of this growth for the seven categories. Note that a component can be shown as making a negative contribution to total growth if the value for that factor declined over the period. In the asthma category, for example, the study found that prices for new and established drugs and the use of established drugs went down between 1995 and 1998. (New drug prices are the 1998 price relative to the 1995 prices for established drugs.) The “prevalence” factor should also be explained. Unlike the other studies reviewed here, the data sets include information on use of other medical services as well as prescription drugs. Accordingly the study attempts to identify enrollees whose conditions or diagnoses made them candidates for use of prescription drugs in a given therapeutic category, as well as those who actually received drugs. Prevalence is the growth in the proportion of enrollees thought to be candidates for a drug class.<sup><a href="#15">15</a></sup></p>
+<p>For every category, the study reports that volume is much more important than price in explaining spending increases. For antihyperlipidemics (cholesterol reducers), volume explains the entire change; the price of both new and established drugs at the end of the study period was lower than that for established drugs at the start of the period.</p>
+<p><strong>Table 16. Components of Spending Increase, Seven Drug Categories, Dubois et al. </strong></p>
+<table align="Center" border="" cellpadding="2" cellspacing="0"><tbody><tr><td> </td>
+<td>
+<p>Price factors</p>
+</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>
+<p>Volume factors</p>
+</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><td> </td>
+<td>
+<p>Established drugs</p>
+</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>Prescriptions/
+<p>patient</p>
+</td>
+<td> </td>
+<td>Days/
+<p>prescription</p>
+</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><td> </td>
+<td>
+<p>Inflation</p>
+</td>
+<td>
+<p>Mix</p>
+</td>
+<td>
+<p>New drug prices</p>
+</td>
+<td>
+<p>Total price</p>
+</td>
+<td>
+<p>Prevalence</p>
+</td>
+<td>
+<p>Established</p>
+</td>
+<td>
+<p>New</p>
+</td>
+<td>
+<p>Established</p>
+</td>
+<td>
+<p>New</p>
+</td>
+<td>
+<p>Total volume</p>
+</td>
+<td>
+<p>Total</p>
+</td>
+</tr><tr><td>
+<p>Asthma</p>
+</td>
+<td>
+<p>-1%</p>
+</td>
+<td>
+<p>18%</p>
+</td>
+<td>
+<p>-5%</p>
+</td>
+<td>
+<p>12%</p>
+</td>
+<td>
+<p>27%</p>
+</td>
+<td>
+<p>-20%</p>
+</td>
+<td>
+<p>67%</p>
+</td>
+<td>
+<p>15%</p>
+</td>
+<td>
+<p>0%</p>
+</td>
+<td>
+<p>88%</p>
+</td>
+<td>
+<p>100%</p>
+</td>
+</tr><tr><td>
+<p>Hormone replacement therapy</p>
+</td>
+<td>
+<p>19%</p>
+</td>
+<td>
+<p>10%</p>
+</td>
+<td>
+<p>0%</p>
+</td>
+<td>
+<p>29%</p>
+</td>
+<td>
+<p>46%</p>
+</td>
+<td>
+<p>16%</p>
+</td>
+<td>
+<p>10%</p>
+</td>
+<td>
+<p>0%</p>
+</td>
+<td>
+<p>0%</p>
+</td>
+<td>
+<p>71%</p>
+</td>
+<td>
+<p>100%</p>
+</td>
+</tr><tr><td>
+<p>Antidiabetics</p>
+</td>
+<td>
+<p>12%</p>
+</td>
+<td>
+<p>-14%</p>
+</td>
+<td>
+<p>24%</p>
+</td>
+<td>
+<p>22%</p>
+</td>
+<td>
+<p>36%</p>
+</td>
+<td>
+<p>-44%</p>
+</td>
+<td>
+<p>71%</p>
+</td>
+<td>
+<p>10%</p>
+</td>
+<td>
+<p>4%</p>
+</td>
+<td>
+<p>78%</p>
+</td>
+<td>
+<p>100%</p>
+</td>
+</tr><tr><td>
+<p>Antihyperlipidemics</p>
+</td>
+<td>
+<p>-9%</p>
+</td>
+<td>
+<p>13%</p>
+</td>
+<td>
+<p>-5%</p>
+</td>
+<td>
+<p>-1%</p>
+</td>
+<td>
+<p>68%</p>
+</td>
+<td>
+<p>-53%</p>
+</td>
+<td>
+<p>68%</p>
+</td>
+<td>
+<p>20%</p>
+</td>
+<td>
+<p>-1%</p>
+</td>
+<td>
+<p>101%</p>
+</td>
+<td>
+<p>100%</p>
+</td>
+</tr><tr><td>
+<p>Antidepressants</p>
+</td>
+<td>
+<p>8%</p>
+</td>
+<td>
+<p>12%</p>
+</td>
+<td>
+<p>2%</p>
+</td>
+<td>
+<p>22%</p>
+</td>
+<td>
+<p>45%</p>
+</td>
+<td>
+<p>2%</p>
+</td>
+<td>
+<p>20%</p>
+</td>
+<td>
+<p>11%</p>
+</td>
+<td>
+<p>0%</p>
+</td>
+<td>
+<p>78%</p>
+</td>
+<td>
+<p>100%</p>
+</td>
+</tr><tr><td>
+<p>Antihistamines</p>
+</td>
+<td>
+<p>9%</p>
+</td>
+<td>
+<p>12%</p>
+</td>
+<td>
+<p>0%</p>
+</td>
+<td>
+<p>21%</p>
+</td>
+<td>
+<p>33%</p>
+</td>
+<td>
+<p>-48%</p>
+</td>
+<td>
+<p>73%</p>
+</td>
+<td>
+<p>20%</p>
+</td>
+<td>
+<p>2%</p>
+</td>
+<td>
+<p>79%</p>
+</td>
+<td>
+<p>100%</p>
+</td>
+</tr><tr><td>
+<p>Gastrointestinal</p>
+</td>
+<td>
+<p>5%</p>
+</td>
+<td>
+<p>7%</p>
+</td>
+<td>
+<p>-5%</p>
+</td>
+<td>
+<p>7%</p>
+</td>
+<td>
+<p>53%</p>
+</td>
+<td>
+<p>-40%</p>
+</td>
+<td>
+<p>56%</p>
+</td>
+<td>
+<p>23%</p>
+</td>
+<td>
+<p>0%</p>
+</td>
+<td>
+<p>93%</p>
+</td>
+<td>
+<p>100%</p>
+</td>
+</tr></tbody></table><p>Source: Author’s calculation from Dubois et al.</p>
+<p>NIHCM data indicate that the seven categories studied accounted for about 33 percent of total drug spending in 1998. The question necessarily arises, whether what happened in these categories is representative of what happened for prescription drugs in general. Table 17 compares NIHCM’s findings for the seven categories (eight in NIHCM’s classification) to its findings for all other drugs. For the study categories, NIHCM shows utilization changes accounting for 69 percent of spending growth and change in cost per prescription for 31 percent. For all remaining drugs, NIHCM shows utilization accounting for only 41 percent of spending growth and cost changes for 59 percent.<sup><a href="#16">16</a></sup></p>
+<p>This strongly suggests that the categories studied by Dubois et al. happened to be the ones in which utilization drove spending growth disproportionately.</p>
+<p><strong>Table 17. Components of Five-Year Spending Growth by Therapeutic Category, NIHCM Study </strong></p>
+<table align="Center" border="" cellpadding="2" cellspacing="0"><tbody><tr><td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>Share due to:</td>
+<td> </td>
+</tr><tr><td>Dubois category</td>
+<td>NIHCM category</td>
+<td>Cost change</td>
+<td>Utilization change</td>
+<td>Total change</td>
+<td>Cost</td>
+<td>Utilization</td>
+</tr><tr><td>Asthma</td>
+<td>Bronchodilators</td>
+<td>
+<p>24%</p>
+</td>
+<td>
+<p>18%</p>
+</td>
+<td>
+<p>47%</p>
+</td>
+<td>
+<p>57%</p>
+</td>
+<td>
+<p>43%</p>
+</td>
+</tr><tr><td>Asthma</td>
+<td>Respiratory steroids (inhaled)</td>
+<td>
+<p>39%</p>
+</td>
+<td>
+<p>85%</p>
+</td>
+<td>
+<p>156%</p>
+</td>
+<td>
+<p>35%</p>
+</td>
+<td>
+<p>65%</p>
+</td>
+</tr><tr><td>Hormone replacement therapy</td>
+<td>Sex hormones</td>
+<td>
+<p>17%</p>
+</td>
+<td>
+<p>56%</p>
+</td>
+<td>
+<p>83%</p>
+</td>
+<td>
+<p>27%</p>
+</td>
+<td>
+<p>73%</p>
+</td>
+</tr><tr><td>Antidiabetics</td>
+<td>Diabetes (oral)</td>
+<td>
+<p>34%</p>
+</td>
+<td>
+<p>123%</p>
+</td>
+<td>
+<p>198%</p>
+</td>
+<td>
+<p>27%</p>
+</td>
+<td>
+<p>73%</p>
+</td>
+</tr><tr><td>Antihyperlipi- demics</td>
+<td>Cholesterol reducers</td>
+<td>
+<p>12%</p>
+</td>
+<td>
+<p>149%</p>
+</td>
+<td>
+<p>180%</p>
+</td>
+<td>
+<p>11%</p>
+</td>
+<td>
+<p>89%</p>
+</td>
+</tr><tr><td>Antidepressants</td>
+<td>Antidepressants</td>
+<td>
+<p>61%</p>
+</td>
+<td>
+<p>101%</p>
+</td>
+<td>
+<p>225%</p>
+</td>
+<td>
+<p>41%</p>
+</td>
+<td>
+<p>59%</p>
+</td>
+</tr><tr><td>Antihistamines</td>
+<td>Antihistamine (oral)</td>
+<td>
+<p>19%</p>
+</td>
+<td>
+<p>472%</p>
+</td>
+<td>
+<p>578%</p>
+</td>
+<td>
+<p>9%</p>
+</td>
+<td>
+<p>91%</p>
+</td>
+</tr><tr><td>Gastrointestinal</td>
+<td>Anti-ulcerants</td>
+<td>
+<p>30%</p>
+</td>
+<td>
+<p>26%</p>
+</td>
+<td>
+<p>63%</p>
+</td>
+<td>
+<p>53%</p>
+</td>
+<td>
+<p>47%</p>
+</td>
+</tr><tr><td> </td>
+<td>Subtotal, study categories</td>
+<td>
+<p>31%</p>
+</td>
+<td>
+<p>80%</p>
+</td>
+<td>
+<p>135%</p>
+</td>
+<td>
+<p>31%</p>
+</td>
+<td>
+<p>69%</p>
+</td>
+</tr><tr><td> </td>
+<td>All other categories</td>
+<td>
+<p>29%</p>
+</td>
+<td>
+<p>19%</p>
+</td>
+<td>
+<p>53%</p>
+</td>
+<td>
+<p>59%</p>
+</td>
+<td>
+<p>41%</p>
+</td>
+</tr><tr><td> </td>
+<td>Total</td>
+<td>
+<p>29%</p>
+</td>
+<td>
+<p>34%</p>
+</td>
+<td>
+<p>73%</p>
+</td>
+<td>
+<p>47%</p>
+</td>
+<td>
+<p>53%</p>
+</td>
+</tr></tbody></table><p>Note: “all other” and total omit two categories with no spending in the base year, sexual function disorder and bone density regulators.<br />
+	Source: Author’s estimates based on cited studies.</p>
+<p>This is not to say that the categories selected for the Dubois study were the wrong ones to examine; they account for 45 percent of all the spending increase found by NIHCM. Rather, the comparison suggests that different trends are affecting spending in different categories. A few show dramatic increases in utilization, accompanied by unit cost increases that are on average comparable to those for other drugs; the effect was to move their share of total drug spending from about 24 percent in 1993 to 33 percent in 1998. The rest, on average, show more modest utilization change and roughly the same amount of price change.<sup><a href="#17">17</a></sup></p>
+<p>The Brandeis/PCS study also examines change in specific therapeutic categories (gastrointestinal, NSAIDs for arthritis, and cholesterol reducers). The findings are currently undergoing revision and were not available for inclusion in this report.</p>
+<p>LOOKING INTO THE FUTURE</p>
+<p>Annual growth in prescription drug spending is expected to continue in the next few years at the double-digit levels observed in the late 1990s, because of population aging, price inflation, and the effects of continued introduction of new drugs. The Express Scripts and Merck-Medco reports both include forecasts of coming increases for populations resembling their client base. A team of researchers at the University of Maryland (Mullins, Palumbo, and Stuart) has recently projected future spending increases for the entire population, along with the share of those increases likely to come from “pipeline” drugs—those now in development and expected to win approval from the Food and Drug Administration in the next few years.</p>
+<p>Table 18 compares the Express Scripts and Merck-Medco forecasts. Note that the “price” column for Express Scripts reflects simple price inflation, while Merck- Medco includes cost increases resulting from change of mix in this column. Express Scripts predicts that pharmaceutical manufacturers will restrain price increases in the next few years, chiefly in response to increased scrutiny; Merck- Medco does not share this conjecture.</p>
+<p><strong>Table 18. Projected Annual Drug Spending Increases Per Member Year, Two Studies </strong></p>
+<table align="Center" border="" cellpadding="2" cellspacing="0"><tbody><tr><td> </td>
+<td>Express Scripts</td>
+<td> </td>
+<td> </td>
+<td>Merck-Medco</td>
+<td> </td>
+<td> </td>
+</tr><tr><td> </td>
+<td>Price</td>
+<td>Use/mix</td>
+<td>Total</td>
+<td>Price/mix</td>
+<td>Use</td>
+<td>Total</td>
+</tr><tr><td>
+<p>2000</p>
+</td>
+<td>
+<p>6%</p>
+</td>
+<td>
+<p>11%</p>
+</td>
+<td>
+<p>18%</p>
+</td>
+<td>8-10%</td>
+<td>11-13%</td>
+<td>19-23%</td>
+</tr><tr><td>
+<p>2001</p>
+</td>
+<td>
+<p>4%</p>
+</td>
+<td>
+<p>12%</p>
+</td>
+<td>
+<p>17%</p>
+</td>
+<td>8-11%</td>
+<td>9-11%</td>
+<td>17-22%</td>
+</tr><tr><td>
+<p>2002</p>
+</td>
+<td>
+<p>2%</p>
+</td>
+<td>
+<p>11%</p>
+</td>
+<td>
+<p>13%</p>
+</td>
+<td>8-11%</td>
+<td>9-12%</td>
+<td>17-22%</td>
+</tr><tr><td>
+<p>2003</p>
+</td>
+<td>
+<p>2%</p>
+</td>
+<td>
+<p>10%</p>
+</td>
+<td>
+<p>13%</p>
+</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><td>
+<p>2004</p>
+</td>
+<td>
+<p>2%</p>
+</td>
+<td>
+<p>10%</p>
+</td>
+<td>
+<p>12%</p>
+</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr></tbody></table><p>Note: Merck-Medco estimate is for a population with an average age of 50 and "limited benefit management interventions."<br />
+	Source: Author’s estimates based on cited studies.</p>
+<p>The University of Maryland projects that total drug spending will increase by 15 percent in each of the years 2000 through 2004. The study estimates that prices will rise 9 to 11 percent per year, while use will rise 5 to 7 percent. This reflects an expectation that the higher utilization increases of recent years will not continue. Instead much of the cost increase will come as new drugs replace older drugs for current utilizers.</p>
+<p>All three studies expect new drugs to continue to be an important factor in spending growth. The University of Maryland projects that “pipeline” drugs will account for 40 to 50 percent of spending growth, slightly higher than the 40 percent share observed in recent years, as shown in table 13. Among the top classes of pipeline drugs are expected to be biotechnology drugs, cardiovascular drugs, antidepressants, anti-cancer drugs, and drugs for erectile dysfunction. Some of these will replace existing therapies; others will treat conditions for which no medication now exists. Merck-Medco estimates that new drugs will account for about 40 spending of future spending growth.</p>
+<p>Most growth, then, is still expected to stem from increased spending for existing drugs. This includes continued growth in the use of recently introduced drugs whose market is not yet saturated, as well as changes in the mix of older drugs prescribed. Merck-Medco suggests that another important factor is likely to be the marketing of existing drugs in new forms, such as inhalants or extended- release oral dosages.</p>
+<p>As in recent years, much of the spending growth is likely to occur in a few therapeutic categories. Merck-Medco expects that five groups of drugs will account for 80 percent of spending growth, as shown in table 19.</p>
+<p><strong>Table 19. Share of Estimated Spending Increases by Therapeutic Category, 2000-2002, Merck-Medco Projection </strong></p>
+<table align="Center" border="" cellpadding="2" cellspacing="0"><tbody><tr><td>Therapeutic category</td>
+<td>Expected share of total spending increase</td>
+</tr><tr><td>Cardiovascular, hypertension, cholesterol lowering</td>
+<td>26%</td>
+</tr><tr><td>Central nervous system, psychiatric, neurological</td>
+<td>24%</td>
+</tr><tr><td>Gastroenterology</td>
+<td>11%</td>
+</tr><tr><td>Anti-infective</td>
+<td>10%</td>
+</tr><tr><td>Endocrine, diabetes</td>
+<td>9%</td>
+</tr><tr><td>Other</td>
+<td>20%</td>
+</tr></tbody></table><p>Source: Merck-Medco.</p>
+<p>Projections by Express Scripts show a somewhat different pattern for the years 1999-2004, as shown in table 20. The combination of central nervous system and pain medications (equivalent to Merck-Medco’s CNS category) is projected to account for almost 30% of spending growth, and the combination of antihyperlipidemics and other cardiovascular drugs for 15%. But Express Scripts also expects anti-asthmatics and other respiratory drugs, along with cholesterol reducers and sex hormone therapy, to account for much of the spending growth. Some of the differences in the forecasts reflect the different populations served by the two PBMs. For example, Express Scripts attributes a much smaller share of total spending growth to antidiabetics, because these drugs are used chiefly by the elderly, who are underrepresented in the Express Scripts sample.</p>
+<p><strong>Table 20. Share of Estimated Spending Increases by Therapeutic Category, 1999-2004, Express Scripts Projection</strong></p>
+<table align="Center" border="" cellpadding="2" cellspacing="0"><tbody><tr><td> </td>
+<td>Percent change,<br />
+				1999-2004</td>
+<td>Share of total change</td>
+</tr><tr><td>Central nervous system</td>
+<td>160%</td>
+<td>21%</td>
+</tr><tr><td>Respiratory</td>
+<td>85%</td>
+<td>10%</td>
+</tr><tr><td>Antihyperlipidemic</td>
+<td>142%</td>
+<td>10%</td>
+</tr><tr><td>Pain</td>
+<td>103%</td>
+<td>9%</td>
+</tr><tr><td>Gastrointestinal</td>
+<td>80%</td>
+<td>7%</td>
+</tr><tr><td>Women's health</td>
+<td>166%</td>
+<td>8%</td>
+</tr><tr><td>Antiviral</td>
+<td>250%</td>
+<td>7%</td>
+</tr><tr><td>Cardiovasculars</td>
+<td>46%</td>
+<td>5%</td>
+</tr><tr><td>Anti-infective</td>
+<td>62%</td>
+<td>5%</td>
+</tr><tr><td>Antidiabetic</td>
+<td>74%</td>
+<td>3%</td>
+</tr><tr><td>Dermatological</td>
+<td>61%</td>
+<td>2%</td>
+</tr><tr><td>Other</td>
+<td>62%</td>
+<td>13%</td>
+</tr><tr><td>Total</td>
+<td>96%</td>
+<td>100%</td>
+</tr></tbody></table><p>Source: Express Scripts</p>
+<h2>REFERENCES</h2>
+<p>R. W. Dubois, A.J. Chawla, C.A. Neslusan, M.W. Smith, and S. Wade, “Explaining Drug Spending Trends,” Health Affairs, v. 19, n. 2 (Mar./Apr. 2000), p. 231-239</p>
+<p>C.D. Mullins, F. Palumbo, and B. Stuart (University of Maryland School of Pharmacy), The Impact of Pipeline Drugs on Pharmaceutical Spending, presentation at a BCBSA/HIAA symposium, Washington, April 2000.</p>
+<p>National Association of Chain Drug Stores (NACDS), The Chain Pharmacy: Industry Profile, Alexandria, VA, 1999. Updated figures downloaded from <a href="http://www.nacds.org/industry/industry_fr.html">www.nacds.org/industry/industry_fr.html</a>, June 27, 2000.</p>
+<p>P.J. Neumann, E.A. Sandberg, C.M. Bell, P.W. Stone, and R.H. Chapman, “Are Pharmaceuticals Cost-Effective? A Review of the Evidence,” Health Affairs, v. 19, n. 2 (Mar./Apr. 2000), p. 92-109.</p>
+<p>U.S. Census Bureau, civilian population estimates downloaded from <a href="http://www.census.gov/population/estimates/nation/intfile1-1.txt">www.census.gov/population/estimates/nation/intfile1-1.txt</a>, July 6, 2000.</p>
+<p>U.S. Bureau of Labor Statistics, Consumer Price Index, downloaded from <a href="http://www.bls.gov">www.bls.gov</a> , June 27, 2000.</p>
+<p>U.S. Health Care Financing Administration(now known as Centers for Medicare and Medicaid Services(CMS)), National Health Expenditures Series, downloaded from <a href="http://www.hcfa.gov">www.hcfa.gov</a>, June 21, 2000.</p>
+<h2>FOOTNOTES</h2>
+<p><a name="1" id="1">(1)</a> Express Scripts also converts counts of mail order prescriptions to retail equivalents; the other studies apparently do not.</p>
+<p><a name="2" id="2">(2)</a> The difference was entirely due to different rates of growth in cost per prescription, rather than in numbers of prescriptions received.</p>
+<p><a name="3" id="3">(3)</a> This assumes that there are about three people with drug coverage for every one without; see coverage estimates for the elderly and nonelderly population in DHHS (2000).</p>
+<p><a name="4" id="4">(4)</a> It is not clear that this effect is large. The published Brandeis/PCS data do not break out spending growth by age, but do show changes in utilization by age for participants aged 18 and older. Applying the figures to the age composition of the over-18 US population produces expected utilization growth almost identical to that for the Brandeis/PCS group.</p>
+<p><a name="5" id="5">(5)</a>Author’s estimate, derived as follows. Average drug spending by age was estimated using the 1996 Medical Expenditures Panel Survey (MEPS) Household Component. The population was then aged using the March supplement to the Current Population Survey (CPS). Both MEPS and the CPS omit nursing home residents. As these are heavy users of prescription drugs, the estimate probably understates the effects of aging on drug spending.</p>
+<p><a name="6" id="6">(6) </a>Another impact of population turnover is that some participants are buying drugs for only part of the year; in a constant cohort, every participant is buying drugs throughout the year. This might make a difference in growth rates if turnover rates were different in the base and final years for the study.</p>
+<p><a name="7" id="7">(7)</a>Again, this report will not attempt to evaluate whether these benefits are worth the additional costs. For an overview of the difficulty in making such assessments, see Neumann, et al.</p>
+<p><a name="8" id="8">(8)</a> NIHCM treats drugs launched in 1992 as “new” drugs in its 1993 base year. The other studies treat all drugs available at the start of their base year as “old.”</p>
+<p><a name="9" id="9">(9)</a> The IMS prescription counts used are from NACDS, which converts mail order prescriptions to retail equivalents, as NIHCM presumably does not. The effects are uncertain.</p>
+<p><a name="10" id="10">(10)</a> The Merck-Medco data on old and new drugs contain some inconsistencies that prevented calculation of comparable figures.</p>
+<p><a name="11" id="11">(11)</a>A small part of the difference in shares may be attributable to the fact that, for Brandeis/PCS, 1999 is a fiscal year beginning in October 1998, while Express Scripts uses calendar years. A drug introduced in 1999 would have a slightly shorter time period in which to gain market share under Brandeis/PCS; a drug introduced late in the year might not appear in the Brandeis/PCS figures at all.</p>
+<p><a name="12" id="12">(12)</a> Both Express Scripts and the CPI adjust their inflation estimates to reflect shifts from brand- name to generic versions of the same drug.</p>
+<p><a name="13" id="13">(13)</a> NIHCM reports spending for 25 categories and groups the remainder as “all other.” It is possible that some therapeutic categories included in “all other” would also fall into the five broader Brandeis/PCS classes.</p>
+<p><a name="14" id="14">(14)</a> The two sets are, respectively, a Protocare Sciences database and the MEDSTAT MarketScan database.</p>
+<p><a name="15" id="15">(15)</a> For certain of the classes, such as hormone replacement, candidates are identical to users, because there is no way of identifying potential users.</p>
+<p><a name="16" id="16">(16)</a> The results are affected by the fact that changes in days’ supply are treated by NIHCM as part of price and by Dubois et al. as part of utilization. However, given the Brandeis/PCS estimate that overall days per prescription have risen about 4 percent per year, shifting days to utilization in the NIHCM figures would not make utilization the more important factor in the “all other categories” group.</p>
+<p><a name="17" id="17">(17)</a> It should be noted that both the Dubois and NIHCM time periods include years when general drug price inflation was fairly low, as shown by the CPI figures in table 10. Carrying forward into 1999 might have led to a slightly higher share of spending growth attributed to cost.</p>
+  </div>
+
+      <footer>
+          </footer>
+  
+    <div id="block-webform-client-block-158521" class="widget block block-webform" >
+  
+      
+  <div id="webform-ajax-wrapper-158521"><form class="webform-client-form webform-client-form-158521" action="/explaining-growth-prescription-drug-spending-review-recent-studies" method="post" id="webform-client-form-158521" accept-charset="UTF-8"><div><div class="webform-progressbar">
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-radios webform-component--was-this-page-helpful">
+  <label for="edit-submitted-was-this-page-helpful">Was this page helpful? <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-was-this-page-helpful" class="form-radios"><div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-1" name="submitted[was_this_page_helpful]" value="1" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-1">Yes </label>
+
+</div>
+<div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-2" name="submitted[was_this_page_helpful]" value="0" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-2">No </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="4" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-EeTysgcdK4FIR86USZ6WZGM2iCrik_Ct7MfXRk4_DZo" />
+<input type="hidden" name="form_id" value="webform_client_form_158521" />
+<input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-158521" />
+<div class="form-actions"><input class="webform-next button-primary btn btn-default form-submit" type="submit" id="edit-webform-ajax-next-158521" name="op" value="Next &gt;" /></div>
+<div class="is-useful-disclaimer"> <a href="/%23" class="" title="Survey Disclaimer" data-toggle="modal" data-target="#disclamerModal">Form Approved OMB# 0990-0379 Exp. Date 8/31/2017</a></div>
+<div class="modal fade" id="disclamerModal" tabindex="-1" role="dialog" aria-labelledby="disclamerModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="disclamerModalLabel">Survey Disclaimer</h2>
+      </div>
+      <div class="modal-body">
+         According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this information collection is 0990-0379. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, gather the data needed, and complete and review the information collection. If you have comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: U.S. Department of Health & Human Services, OS/OCIO/PRA, 200 Independence Ave., S.W., Suite 336-E, Washington D.C. 20201, Attention: PRA Reports Clearance Officer.      </div>
+    </div>
+  </div>
+</div></div></form></div>
+  </div> <!-- /.block -->
+<meta  itemscope="" itemid="https://aspe.hhs.gov/explaining-growth-prescription-drug-spending-review-recent-studies" itemref="md1" />              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <footer  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Footer">     
+
+        
+                  
+        
+                  
+        
+                                    <div  id="footer_sitemap-footer_sitemap" class="col-sm-6 col-md-6 col-lg-4 ">
+                          
+                              <div id="block-footer-sitemap-footer-sitemap" class="widget block block-footer-sitemap" >
+  
+      
+  <div id="footer-sitemap" class="clearfix">
+  <div class="fs-block-content"><div class="menu-footer-utility"><ul class="footer_links_menu-footer-utility total-items-2 parent-items-0 single-items-0"><li class="menu-5021 depth-1 total-children-8 parent-children-0 single-children-8  first"><a href="/" title="look at ASPE Home" class="fs-root-link">ASPE Home</a><ul class="footer_links_menu-footer-utility total-items-8 parent-items-0 single-items-0"><li class="menu-5026 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/" title="look at HHS Home">HHS Home</a></li>
+<li class="menu-66281 depth-1 fs-no-children"><a href="http://www.usa.gov/" title="look at USA.gov">USA.gov</a></li>
+<li class="menu-66316 depth-1 fs-no-children"><a href="https://oig.hhs.gov/" title="look at Office of the Inspector General">Office of the Inspector General</a></li>
+<li class="menu-66321 depth-1 fs-no-children"><a href="http://www.whitehouse.gov" title="look at The White House">The White House</a></li>
+<li class="menu-5046 depth-1 fs-no-children"><a href="http://www.hhs.gov/Accessibility.html" title="look at Accessibility">Accessibility</a></li>
+<li class="menu-66326 depth-1 fs-no-children"><a href="http://www.hhs.gov/about/budget/index.html" title="look at Budget/Performance">Budget/Performance</a></li>
+<li class="menu-2551 depth-1 fs-no-children"><a href="http://www.hhs.gov/Privacy.html" title="look at Privacy Policy">Privacy Policy</a></li>
+<li class="menu-197776 depth-1 fs-no-children  last"><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" title="Nondiscrimination Notice">Nondiscrimination Notice</a></li>
+</ul></li>
+<li class="menu-5051 depth-1 total-children-4 parent-children-0 single-children-4  last"><a href="http://www.hhs.gov/foia/" title="look at FOIA" class="fs-root-link">FOIA</a><ul class="footer_links_menu-footer-utility total-items-4 parent-items-0 single-items-0"><li class="menu-5056 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/open/recordsandreports/plainwritingact/index.html" title="look at Plain Writing Act">Plain Writing Act</a></li>
+<li class="menu-5061 depth-1 fs-no-children"><a href="http://www.hhs.gov/asa/eeo/no_fear_bullet_3.html" title="look at No Fear Act">No Fear Act</a></li>
+<li class="menu-5066 depth-1 fs-no-children"><a href="http://www.hhs.gov/Disclaimer.html" title="look at Disclaimers">Disclaimers</a></li>
+<li class="menu-2546 depth-1 fs-no-children  last"><a href="http://www.hhs.gov/plugins.html" title="look at Viewers &amp; Players">Viewers &amp; Players</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-5 " id="stability_cms-contact_us">
+                          
+                              <div id="block-stability-cms-contact-us" class="widget block block-stability-cms" >
+  
+      
+  <div class="contacts-widget widget widget__footer">
+	<div class="widget-content">
+		<ul class="contacts-info-list">
+      			<li>
+<!--				<i class="fa fa-map-marker">Address</i>-->
+                <div class="info-icons">
+                    <img  alt="map" class= 'map-icons' src="/sites/all/themes/stability/stability_aspe/images/map.png"/>
+                </div>
+                <div class="info-item">
+					Assistant Secretary for Planning and Evaluation, Room 415F<br />
+U.S. Department of Health and Human Services<br />
+200 Independence Avenue, SW<br />
+Washington, D.C. 20201				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-phone">phone</i>-->
+                <div class="info-icons">
+                    <img alt="phone" src="/sites/all/themes/stability/stability_aspe/images/phone.png"/>
+                </div>
+				<div class="info-item">
+					+1 202.690.7858				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-envelope">email</i>-->
+                <div class="info-icons">
+                    <img alt="mail" src="/sites/all/themes/stability/stability_aspe/images/mail-white.png"/>
+                </div>
+				<span class="info-item">
+					<a href="mailto:osaspeinfo@hhs.gov">osaspeinfo@hhs.gov</a>
+				</span>
+			</li>
+      			                					</ul>
+	</div>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-3 " id="footer">
+                          
+                              <div id="block-block-36" class="widget block block-block" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sign-up</span> for Email Updates</h3>
+		</div>
+    
+  <div class="email_updates">
+<button class="btn btn-default" name="subscribe-button" type="submit" value="subscribe">subscribe</button>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-12 " id="menu-menu-footer-language-menu">
+                          
+                              <div id="block-menu-menu-footer-language-menu" class="widget block block-menu" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Language</span> Assistance Available</h3>
+		</div>
+    
+  <ul class="menu"><li class="first expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#spanish" title="Español">Español</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#chinese" title="繁體中文">繁體中文</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#vietnamese" title="Tiếng Việt">Tiếng Việt</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#korean" title="한국어">한국어</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#tagalog" title="Tagalog">Tagalog</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#russian" title="Русский">Русский</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#arabic" title="العربية">العربية</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#creole" title="Kreyòl Ayisyen">Kreyòl Ayisyen</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#french" title="Français">Français</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#polish" title="Polski">Polski</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#portuguese" title="Português">Português</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#italian" title="Italiano">Italiano</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#german" title="Deutsch">Deutsch</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#japanese" title="日本語">日本語</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#farsi" title="فارسی">فارسی</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#english" title="English">English</a></li>
+</ul></li>
+</ul>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+      </div>
+
+          </div>
+    
+    
+      </footer>
+    
+
+    <!--/PAGEWATCH-->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+                        </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="social-links-wrapper">
+              <span class="social-links-txt">Connect with us</span>
+              <ul class="social-links social-links__dark">
+                                                  <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw-grey.png"/></a></li>
+                                <!--                --><!--                  <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin-grey.png"/></a></li>-->
+<!--                -->
+                                                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>  <script type="text/javascript" src="/sites/default/files/advagg_js/js__VWRymaMz6HfrhnrcJNGcDiSvLVrvhaXvBa7nrBYy8gc__jntPwP3D6myJZH1jW19fXrk5cYMHGRL8NQION22VSEA__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5486d15a696bff0c"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__g6mKbcakHxQkz4ZHYaxdO_xqONINvRMgsHh1zAK-fr0__ATHtEmHaeZ0jidpGU22EkhmPDBSgjD8z0bVDQMI-BIY__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__KUp4PrfOt9BSXUVl8Ctb3dhCMBe4MNVMeb4Gyorx8yY__7g4BeXscCIZAfuu1vxsCj2RIemg-eEK0QpChP9LDmFQ__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__PNjAgubM_3xXRLp4uLsYnv8wQAdT89-RYkSPxT6T45c__rFQwFK4pA5ZaWZSF7FPTfKbbpus0h-5IS8ayrNZGrb4__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__vQiLul2UcfC4nBAR09mhYVBYzRmiNDm2dj3GgSubV38__w84oZe-ZODKe7XnnlbrjV4IWHISOy4PioFEMVgx9hZo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__QJw3g0kOdwsv4twSZLP931zBzsHy50VEHpEN_znIitQ__A6QOuWXElDipBM2iChbWhjAAt3KlUwZ-jODoxdpbwiw__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stability_aspe","theme_token":"P93eZGWwRuEEfkjvPAjkNgFxK5VyAMT0c2lsxAr8hJQ","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/footable.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/aspe_nodes.admin.css":1,"sites\/all\/modules\/custom\/aspe_views\/theme\/css\/aspe_views.admin.css":1,"sites\/all\/modules\/forked\/book\/book.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/openpublic\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.css":1,"profiles\/openpublic\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openpublic\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/openpublic\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/themes\/stability\/css\/bootstrap.min.css":1,"sites\/all\/themes\/stability\/css\/fonts\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.theme.css":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/stability\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/stability\/css\/theme.css":1,"sites\/all\/themes\/stability\/css\/theme-elements.css":1,"sites\/all\/themes\/stability\/css\/animate.min.css":1,"sites\/all\/themes\/stability\/css\/skins\/red.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/slideshow.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/font-main.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/styleless.less":1,"sites\/all\/themes\/stability\/css\/skins\/blue.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/aspe\/theme\/js\/aspe.login-confirm.js":1,"sites\/all\/modules\/custom\/aspe_report\/modules\/aspe_databooks\/js\/aspe_databooks.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.highcharts.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/datatables\/dataTables.min.js":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.min.js":1,"sites\/all\/libraries\/highcharts\/highcharts.js":1,"sites\/all\/libraries\/highcharts\/highcharts.exporting.js":1,"sites\/all\/libraries\/highcharts\/highcharts.map.js":1,"sites\/all\/libraries\/highcharts\/highcharts.us-all.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.footable.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5486d15a696bff0c":1,"misc\/progress.js":1,"profiles\/openpublic\/modules\/contrib\/webform\/js\/webform.js":1,"profiles\/openpublic\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/stability\/vendor\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/stability\/vendor\/bootstrap.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flexnav.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flickrfeed.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.sloppy-masonry.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.fitvids.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.stellar.min.js":1,"sites\/all\/themes\/stability\/vendor\/snap.svg-min.js":1,"sites\/all\/themes\/stability\/js\/custom.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/aspe.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/html5shiv.min.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/main-menu.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/keyboard-control.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tabBehavior.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tileStringTrimmer.js":1}},"webform":{"conditionals":{"webform-client-form-158521":{"ruleGroups":[],"sourceMap":[],"values":[]}}},"ajax":{"edit-webform-ajax-next-158521":{"callback":"webform_ajax_callback","wrapper":"webform-ajax-wrapper-158521","progress":{"message":"","type":"throbber"},"event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Next \u003E"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/explaining-growth-prescription-drug-spending-review-recent-studies":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"([a-z0-9]\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This website contains links to other federal and state agencies and private organizations. The Department of Health and Human Services (HHS) cannot attest to the accuracy of information provided by these nonfederal website links. Linking to nonfederal sites does not constitute an endorsement by HHS or any of its employees of the sponsors or the information and products presented on the sites. You will be subject to the destination site\u0027s privacy policy when you leave the ASPE website.\r\n\r\nThank you for visiting aspe.hhs.gov!","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"stability":{"flickr_id":"52617155@N08","logo_sticky":"28"},"field_group":{"div":"full"}});
+//--><!]]>
+</script>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config={pubid:"ra-5486d15a696bff0c",ui_click:false}
+//--><!]]>
+</script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4837db659","applicationID":"10708002","transactionName":"MwNaZBRSXEtXB0BdWQpJeVMSWl1WGQpbUFM7FllXA2xEUVMT","queueTime":0,"applicationTime":1252,"atts":"H0RZElxIT0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

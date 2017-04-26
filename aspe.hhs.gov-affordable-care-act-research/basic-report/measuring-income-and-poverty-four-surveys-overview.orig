@@ -1,0 +1,2494 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">  <!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://aspe.hhs.gov/sites/default/files/Favicon2.png" type="image/png" />
+<meta name="description" content="Measuring Income and Poverty in Four Surveys:  An Overview Final Report Prepared by:" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://aspe.hhs.gov/basic-report/measuring-income-and-poverty-four-surveys-overview" />
+<link rel="shortlink" href="https://aspe.hhs.gov/node/69531" />
+<meta property="og:site_name" content="ASPE" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aspe.hhs.gov/basic-report/measuring-income-and-poverty-four-surveys-overview" />
+<meta property="og:title" content="Measuring Income and Poverty in Four Surveys: an Overview" />
+<meta property="og:description" content="Measuring Income and Poverty in Four Surveys:  An Overview Final Report Prepared by:" />
+<meta property="og:updated_time" content="2017-03-23T13:57:20-04:00" />
+<meta property="article:published_time" content="2015-11-23T03:04:37-05:00" />
+<meta property="article:modified_time" content="2017-03-23T13:57:20-04:00" />
+
+  <title>Measuring Income and Poverty in Four Surveys: an Overview | ASPE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+  <link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__5ln8neBOcJfyUveiD4y9fhI6kHBLOQ_YL0mMC-LS9a0__TPJIZT9UBnf_685NlFTJ5KnZVsjwFk6ACQ-nwwygmwU__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ng49uRH5y4Hl9VF9hHW_vXOj-mcOc2u2ShJqJ1YKIGU__FoMCD14GBvZaRiqSQ_JpP1w3rDB21n7H2Ar4pRZaIh8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__Hskudx14OJ5Hz8vqU7CUgN6SDV5rINZuEq9VuGsSeyc__EwNIl3xeFrniW2TmonovTzhSs3X5MdFps210puE7jog__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__9rZoaX9BdzjjNucvYxduxeNAVO2zgW_Rvjhb5rq5whc__lSr_y16grDSgHf4booPChnF7QXz3TQY3hafH49twE0k__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZgfI_ZPib5yVY0o5aKo_6TFn946Tuu_nFDa0ySTmkSc__2FTFrNw2eNh0mpHIOA34r6YRwBZMm2PjJ_JubnwLigg__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__dxabpJ5rQgDSixKgLJZjWc1beC6mpROKwVrmWxI5eno__rqhz_hGsE_i59O7-W991o71_Jxw1QOtGMxn4nsOLHY8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZbRCq2NqWgK-HXAQI3So0N1n0nr4HonsJS3eQuuxukw__7Olkk8Locn8Dj0eR0Ww3rbV9lks9sxipcboMXB18RRs__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+
+	<!-- Head Libs -->
+	<script src="/sites/all/themes/stability/stability_aspe/vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/sites/all/themes/stability/vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" href="/sites/all/themes/stability/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/stability/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/stability/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/stability/images/apple-touch-icon-144x144.png">
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-69531 node-type-basic-report">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-JLFR"
+                  height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JLFR');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-nav" class="accessibility_menu">
+    <strong>Shortcut Navigation:</strong>
+    <ul>
+      <li><a href="#content" accesskey="c" title="Skip to page content (ctrl/alt + c)">Page Content</a></li>
+      <li><a href="#nav" accesskey="m" title="Skip to main navigation menu (ctrl/alt + m)">Site Navigation</a></li>
+
+      <li><a href="#Footer" accesskey="f" title="Skip to footer (ctrl/alt + f)">Footer</a></li>
+    </ul>
+  </div>
+
+    
+<div class="site-wrapper">
+  
+  <header class="header header-menu-fullw header-top-clean">
+    <div id="brand-bar">
+        <div class="container">
+                    <img alt='bird' src="/sites/all/themes/stability/stability_aspe/images/bird.png"> <a target="blank" tabindex="4" href="http://www.hhs.gov/">U.S. Department of Health & Human Services</a>
+        </div>
+
+    </div>
+    <div class="header-main">
+        <div class="container clearfix">
+            <div class="social-links-wrapper">
+                <ul class="social-links social-links__light">
+                                                          <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw.png"/></a></li>
+                                    <!--                  --><!--                    <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin.png"/></a></li>-->
+<!--                  -->
+                                                                      </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                                <div class="site_name_wrapper">
+                                     <span class="h1">
+                                      <a href="/">ASPE</a>
+                                       </span>
+                                  <p class="tagline"><p>Office of The Assistant Secretary</p><p> for Planning and Evaluation</p></p>
+                    </div>
+            </div>
+            <!-- Logo / End -->
+            <div class="header_right_wrapper">
+                <div class="search-form">
+                    <form action="/basic-report/measuring-income-and-poverty-four-surveys-overview" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class = "input-group"><div class="form-type-textfield form-item-search-block-form form-item form-group">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search Site..." class="form-control form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input class="btn btn-primary btn-icon form-submit" type="image" id="edit-submit" name="submit" value="Search" src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/search-white2.png" alt="Search" title="Search" /></div></div><input type="hidden" name="form_build_id" value="form-5ayGO7nUdQOdmRozBgMkNeZbM0cCdEyVmpdP0Xy3QAM" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </div>
+                <button type="button" class="navbar-toggle" value="Menu">
+                    <i class="fa fa-bars"></i>Menu
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-main">
+        <div class="container">
+          <ul data-breakpoint="767" class="flexnav">
+                <li class="first expanded"><a href="/basic-search/about" title="">About</a><ul><li class="first leaf"><a href="/mission" title="">Mission</a></li>
+<li class="leaf"><a href="/key-staff" title="">Leadership</a></li>
+<li class="leaf"><a href="https://www.usajobs.gov/" title="">Careers</a></li>
+<li class="expanded"><a href="/coordination" title="linkTo">Coordination</a><ul><li class="first leaf"><a href="/evaluation-evidence" title="">Evaluation &amp; Evidence</a></li>
+<li class="leaf"><a href="/national-alzheimers-project-act">National Alzheimer&#039;s Project Act</a></li>
+<li class="leaf"><a href="/health-and-human-services-hhs-data-council">HHS Data Council</a></li>
+<li class="last leaf"><a href="/national-committee-vital-and-health-statistics" title="National Council on Vital and Health Statistics">National Council on Vital and Health Statistics</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/divisions" title="">Offices</a><ul><li class="first leaf"><a href="/office-disability-aging-and-long-term-care-policy-daltcp">Disability, Aging, and Long-Term Care Policy</a></li>
+<li class="leaf"><a href="/office-health-policy-hp">Health Policy</a></li>
+<li class="leaf"><a href="/office-human-services-policy">Human Services Policy</a></li>
+<li class="last leaf"><a href="/office-science-and-data-policy">Science and Data Policy</a></li>
+</ul></li>
+<li class="leaf"><a href="/strategic-planning" title="Strategic Planning">Strategic Planning</a></li>
+<li class="last leaf"><a href="/contact-aspe" title="">Contact ASPE</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/topics" title="">Topics</a><ul><li class="first leaf"><a href="/affordable-care-act-research">Affordable Care Act Research</a></li>
+<li class="leaf"><a href="/alzheimers-dementia">Alzheimer&#039;s / Dementia</a></li>
+<li class="leaf"><a href="/early-childhood">Early Childhood</a></li>
+<li class="leaf"><a href="/incarceration-reentry">Incarceration &amp; Reentry</a></li>
+<li class="leaf"><a href="/opioid-abuse-us-and-hhs-actions-address-opioid-drug-related-overdoses-and-deaths" title="Opioids">Opioids</a></li>
+<li class="leaf"><a href="/patient-centered-outcomes-research-trust-fund">Patient-Centered Outcomes Research Trust Fund (PCORTF)</a></li>
+<li class="expanded"><a href="/basic-search/poverty" title="">Poverty</a><ul><li class="first leaf"><a href="/poverty-guidelines">Poverty Guidelines</a></li>
+<li class="last leaf"><a href="/poverty-estimates-trends-and-analysis">Poverty Analysis</a></li>
+</ul></li>
+<li class="leaf"><a href="/teen-pregnancy-prevention">Teen Pregnancy Prevention</a></li>
+<li class="leaf"><a href="/homelessness">Homelessness</a></li>
+<li class="last leaf"><a href="/medicare-access-and-chip-reauthorization-act-2015">MACRA</a></li>
+</ul></li>
+<li class="leaf"><a href="/reports" title="">Publications</a></li>
+<li class="last expanded"><a href="/basic-search/datasets" title="">Data and Tools</a><ul><li class="first last leaf"><a href="/evaluations" title="">Evaluation Database</a></li>
+</ul></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation / End -->
+</header>  <div class="main" role="main">
+    <!--PAGEWATCH CODE="USHHS_458"-->
+    <section class="page-heading">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+                <h1>
+                    
+          Measuring Income and Poverty in Four Surveys: an Overview        </h1>
+                                 <p class="author">
+                                                 <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2008-08-09T00:00:00-04:00">08/09/2008</span>               
+                           </p>
+
+
+                  </div>
+
+
+        <div class="col-md-6">
+           <ul class="breadcrumb"><li class="first"><a href="/" title="Home">Home</a></li>
+<li class="last">Measuring Income and Poverty i...</li>
+</ul>        </div>
+
+
+    </div>
+  </div>
+</section>
+    
+      <div  class="nd-region nd-region-filter">
+  
+       
+
+    
+      <div  id="Filter" class="row">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region nd-region-similar-content">
+  
+       
+
+    
+      <div  id="Similar-Content" class="row">     
+
+        
+                  
+        
+                                    <div  id="top" class="">
+                          
+                              <div id="block-views-2100ccfdd214bdbcf634d7e4832c265b" class="widget block block-views solr-similar-content" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Similar</span> content</h3>
+		</div>
+    
+  <div class="view view-similar-content-solr view-id-similar_content_solr view-display-id-block_solr_similar_content view-dom-id-daf9ce76015a3d611f30d886aa007d45">
+        
+  
+  
+      
+    
+    <span class="field-content"><a href="/basic-report/understanding-estimates-uninsured-putting-differences-context-0">Understanding Estimates of the Uninsured: Putting the Differences in Context</a></span>    
+    <span class="field-content"><a href="/basic-report/understanding-estimates-uninsured-children-putting-differences-context">Understanding Estimates of Uninsured Children: Putting the Differences in Context</a></span>    
+    <span class="field-content"><a href="/basic-report/understanding-different-estimates-uninsured-children-putting-differences-context">Understanding Different Estimates of Uninsured Children: Putting the Differences in Context</a></span>    
+    <span class="field-content"><a href="/basic-report/progress-toward-self-sufficiency-low-wage-workers">Progress toward Self-Sufficiency for Low-Wage Workers</a></span>    
+    <span class="field-content"><a href="/basic-report/understanding-estimates-uninsured-putting-differences-context">Understanding Estimates of the Uninsured: Putting the Differences in Context</a></span>  
+  
+  
+  
+  
+  
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Content">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  class="col-md-12 " id="content">
+                          
+                              <div id="block-aspe-aspe-addthis" class="widget block block-aspe" >
+  
+      
+  <div class="clearfix">
+  <ul class="addthis_sharing_toolbox node-share__links" data-url="https://aspe.hhs.gov/basic-report/measuring-income-and-poverty-four-surveys-overview" data-title="Measuring Income and Poverty in Four Surveys: an Overview">
+    <li><a class="addthis_button_print"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/print-white.png" alt="print" /></a></li>
+    <li><a class="addthis_button_email"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/mail-white.png" alt="email" /></a></li>
+    <li><a class="addthis_button_twitter"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/tw.png" alt="twitter" /></a></li>
+<!--    <li><a class="addthis_button_facebook">--><!--</a></li>-->
+    <li><a class="addthis_button_compact"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/plus-white.png" alt="compact" /></a></li>
+  </ul>
+</div>
+
+  </div> <!-- /.block -->
+
+                
+    
+  
+  <div class="content clearfix node-basic-report">
+    <p><strong>Measuring Income and Poverty in Four Surveys:  An Overview</strong></p>
+<h2>Final Report</h2>
+<p><em>Prepared by:</em></p>
+<p>Gabrielle Denmead<a href="#_ftn1" id="_ftnref1" name="_ftnref1" title=""><sup>1</sup></a>, Joan Turek<a href="#_ftn2" id="_ftnref2" name="_ftnref2" title=""><sup>2</sup></a>, Brian James<a href="#_ftn2"><sup>2</sup></a>, and Sameer Desale<a href="#_ftn2"><sup>2</sup></a> Joan Turek <u>&lt;</u><a href="mailto:joan.turek@hhs.gov">joan.turek@hhs.gov</a><u>&gt;</u><a href="#_ftn3" id="_ftnref3" name="_ftnref3" title=""><sup>3</sup></a> August 9, 2008</p>
+<p><em>Prepared for:</em><a href="http://aspe.hhs.gov/">Office of the Assistant Secretary for Planning and Evaluation (ASPE)</a><a href="http://www.hhs.gov/">U.S. Department of Health and Human Services (HHS)</a></p>
+<p><em>This report is available on the Internet at:</em><a href="/sp/reports/2008/mipfs/Report.html">http://aspe.hhs.gov/sp/reports/2008/mipfs/report.html </a></p>
+<p><a href="/system/files/pdf/75526/report.pdf">Printer Friendly Version in PDF format</a> (279KB) Documents in PDF format require a free <a href="http://www.adobe.com/products/acrobat/readstep2.html">reader</a>.</p>
+<h2><a id="contents" name="contents"></a>Contents</h2>
+<div id="skip"><a href="#_main">Skip to Main Content</a></div>
+<ol><li><a href="#one">Introduction and Summary</a></li>
+<li><a href="#two">CY2002 Person-Level Income by Source </a></li>
+<li><a href="#three">CY2002 Family Definitions and Poverty Status</a></li>
+<li><a href="#four">CY2002 Person-Level Income by Source for Poor and Elderly Populations</a></li>
+<li><a href="#five">Conclusions</a></li>
+<li><a href="#appa">Appendix A</a></li>
+<li><a href="#appb">Appendix B</a></li>
+</ol><h2>Tables</h2>
+<ul><li><a href="#t1">Table 1</a></li>
+<li><a href="#t2">Table 2</a></li>
+<li><a href="#t3">Table 3</a></li>
+<li><a href="#t4">Table 4</a></li>
+<li><a href="#t5">Table 5</a></li>
+<li><a href="#t6">Table 6</a></li>
+<li><a href="#t7">Table 7</a></li>
+<li><a href="#t8">Table 8</a></li>
+<li><a href="#t9">Table 9</a></li>
+<li><a href="#t10">Table 10</a></li>
+<li><a href="#t11">Table 11</a></li>
+<li><a href="#t12">Table 12</a></li>
+<li><a href="#t13">Table 13</a></li>
+<li><a href="#T14">Table 14</a></li>
+<li><a href="#t15">Table 15</a></li>
+<li><a href="#t16">Table 16</a></li>
+</ul><p><a id="_main" name="_main"></a></p>
+<h2><strong><a id="one" name="one"></a>1.  Introduction and Summary</strong></h2>
+<p>Policy makers use national surveys to paint a picture of the U.S. population along a variety of dimensions, such as demographic characteristics, poverty status, receipt of benefits from public programs, and health insurance. Inferences are drawn about need and eligibility for a range of Federal benefit and health programs based on sources and amounts of income, and the incidence of poverty, as estimated in National surveys.</p>
+<p>If major surveys are equally successful in capturing income, then for the same time period, populations and income types, consistently defined income estimates and poverty rates across surveys will be highly similar – varying somewhat due to sampling error. If consistently defined income estimates differ significantly among surveys, then policy makers’ conclusions can depend on which survey is used. It is important to understand whether variations in the results produced by different surveys are significant enough to imply different policy alternatives.</p>
+<p>This paper constructs comparable measures of income and poverty and examines whether the same picture of the U.S. population is presented by four major Federal surveys: the Annual Social and Economic Supplement to the Current Population Survey (CPS), the Survey of Income and Program Participation (SIPP), the Medical Expenditure Panel Survey Household Component (MEPS), and the National Health Interview Survey (NHIS). Standard errors were not calculated, since when presenting the findings of policy analysis, point estimates are given without standard errors.</p>
+<p>Each survey covers the civilian non-institutional  population, although the surveys differ significantly in design, periodicity, income question detail and income data processing and post-processing. However, despite differences, estimates of total income can be constructed for the same time period and unit of analysis. This paper focuses on empirical estimates, that is, how quantitative results vary depending on the survey used. Analysis of the impact that specific survey differences have on empirical results is beyond the scope of this paper, but important differences are noted, and an Appendix provides some detail on survey design, methodology, and income measurement. Another study, funded by the Office of the Assistant Secretary for Planning and Evaluation, is systematically examining the quality of income data collected on eight surveys, including the four in this paper<a href="#_ftn4" id="_ftnref4" name="_ftnref4" title="">4</a>.</p>
+<p>The number of persons with income, the dollar amounts and the amounts per person – person-level data – are compared among surveys for calendar year 2002. Comparisons are made for all persons, the poor and the elderly. Every attempt is made to construct comparable estimates, and unavoidable differences are noted on tables or in the text. However, it is not possible to adjust directly for one major difference, NHIS treatment of unmarried partners who pool resources as a family. Official poverty estimates do not treat unmarried partners as a family. Because NHIS asks only a “family income” amount, there is no person-level income data with which to construct family income for the family definition used in official poverty estimates, which come from CPS.</p>
+<p>This paper has five sections, starting with this introduction. The second section describes income amounts and recipiency for each income source and compares estimates of earners among surveys. The third section compares CPS and NHIS family definitions across the total population and for the poor. The fourth section describes income amounts and recipiency for each income source for the poor and for the elderly. The last section summarizes findings and suggests some possible next steps.</p>
+<p><a href="#contents">table of contents</a></p>
+<h2><strong><a id="two" name="two"></a>2.  CY2002 Person-Level Income by Source </strong></h2>
+<p>Three of the surveys, CPS, SIPP and MEPS, collect information on dollar amounts of income by source for each person in the survey. The fourth survey -- NHIS -- collects information on receipt of income from various sources for each person, but not the dollar amounts. As noted above, measures of  income by source and income recipiency by source were constructed for calendar year 2002 as comparably as possible<a href="#_ftn5" id="_ftnref5" name="_ftnref5" title="">5</a>.  <em>2.1. All Income For All Ages. </em>Table 1 shows aggregate income by source and its’ percent distribution by source for the three surveys collecting income amounts by source (and by person). There are large differences among the surveys in overall total income and total income by source for the same time period. SIPP has over seven hundred billion dollars less total income than CPS. This difference is more than accounted for by almost nine hundred billion dollars less wages and salaries in SIPP compared to CPS. SIPP has higher amounts of self-employment income, pensions, SSI and public assistance than CPS, and about half the property income. MEPS has somewhat lower aggregate income than CPS, but higher wages and salaries and SSI, and much lower self-employment income.</p>
+<p>While aggregate income amounts vary significantly, the distribution by source is remarkably consistent. Earned income (wages and salaries and self-employment) dominates the picture, accounting for 83 percent of total income in each survey. Earned income’s actual share varies less than one percentage point among the surveys, from 82.5 to 83.1 percent of total income. The surveys differ in the proportion of earnings attributable to self-employment as compared to wages and salaries -- SIPP shows the most self-employment earnings, at 10.6 percent of aggregate income, and MEPS the least, at 1.8 percent of aggregate income. The remaining 17 percent of income in each survey is accounted for by Social Security (5.6 to 6.4 percent), other pensions (3.9 to 5.6 percent), property income<a href="#_ftn6" id="_ftnref6" name="_ftnref6" title="">6</a> (2.4 to 4.2 percent), and means-tested SSI and public assistance (0.5 to 0.8 percent), as well as a range of other income sources (including Veterans benefits, Unemployment Insurance, Workers Compensation and child support) that together account for the balance (1.8 to 2.5 percent). SIPP has the highest shares for Social Security, other pensions, and public assistance, and the lowest shares for property income.</p>
+<p><a href="#contents">table of contents</a></p>
+<table><caption><strong><a id="t1" name="t1"></a>Table 1. Amount and Distribution of Income by Source</strong></caption>
+<tbody><tr><td rowspan="2"> </td>
+<td colspan="3" scope="col">Billions of Dollars</td>
+<td colspan="3" scope="col">Percent Distribution by Source</td>
+</tr><tr><td scope="col">CPS</td>
+<td scope="col">SIPP</td>
+<td scope="col">MEPS</td>
+<td scope="col">CPS</td>
+<td scope="col">SIPP</td>
+<td scope="col">MEPS</td>
+</tr><tr><td scope="row">Total</td>
+<td>$6,529.9</td>
+<td>$5,819.8</td>
+<td>$6,364.5</td>
+<td>100.0%</td>
+<td>100.0%</td>
+<td>100.0%</td>
+</tr><tr><td scope="row">Wages and Salaries</td>
+<td>5,073.0</td>
+<td>4,181.8</td>
+<td>5,179.9</td>
+<td>77.7%</td>
+<td>71.9%</td>
+<td>81.4%</td>
+</tr><tr><td scope="row">Self Employment</td>
+<td>335.7</td>
+<td>618.8</td>
+<td>111.6</td>
+<td>5.1%</td>
+<td>10.6%</td>
+<td>1.8%</td>
+</tr><tr><td scope="row">Total Earnings</td>
+<td>5,408.6</td>
+<td>4,800.7</td>
+<td>5,291.6</td>
+<td>82.8%</td>
+<td>82.5%</td>
+<td>83.1%</td>
+</tr><tr><td scope="row">Interest and Dividends</td>
+<td>204.0</td>
+<td>102.7</td>
+<td>178.0</td>
+<td>3.1%</td>
+<td>1.8%</td>
+<td>2.8%</td>
+</tr><tr><td scope="row">IRAs<a href="#_ftn7" id="_ftnref1" name="_ftnref1" title="">7</a></td>
+<td> </td>
+<td>31.8</td>
+<td>65.6</td>
+<td> </td>
+<td>0.5%</td>
+<td>1.0%</td>
+</tr><tr><td scope="row">Rents, Royalties and Estates</td>
+<td>70.3</td>
+<td>34.2</td>
+<td>52.1</td>
+<td>1.1%</td>
+<td>0.6%</td>
+<td>0.8%</td>
+</tr><tr><td scope="row">Social Security</td>
+<td>389.9</td>
+<td>372.0</td>
+<td>356.6</td>
+<td>6.0%</td>
+<td>6.4%</td>
+<td>5.6%</td>
+</tr><tr><td scope="row">Pensions</td>
+<td>262.8</td>
+<td>327.6</td>
+<td>246.8</td>
+<td>4.0%</td>
+<td>5.6%</td>
+<td>3.9%</td>
+</tr><tr><td scope="row">SSI</td>
+<td>25.9</td>
+<td>34.0</td>
+<td>39.2</td>
+<td>0.4%</td>
+<td>0.6%</td>
+<td>0.6%</td>
+</tr><tr><td scope="row">Public Assistance</td>
+<td>6.4</td>
+<td>9.4</td>
+<td>5.3</td>
+<td>0.1%</td>
+<td>0.2%</td>
+<td>0.1%</td>
+</tr><tr><td scope="row">All Other</td>
+<td>161.9</td>
+<td>107.4</td>
+<td>129.4</td>
+<td>2.5%</td>
+<td>1.8%</td>
+<td>2.0%</td>
+</tr></tbody></table><p>Note: Total and detail in all tables exclude small negative amounts of self-employment and rental income;  Social Security lines in all tables include Railroad Retirement.</p>
+<p>Tables 2 and 3 show unduplicated recipients, the recipiency rate – percent of the population with that income source – and the recipiency rate as a percent of the CPS recipiency rate by income source. CPS is used as a standard of comparison since it has the most widely-used income data and is the source of official poverty statistics. Table 3 also shows the average amount per recipient for each income source. In all tables the recipient numbers for any category count each person only once -- someone receiving income from more than one source in the category is counted as one person, although persons may be in multiple categories. Total persons with income and with earnings are also unduplicated.</p>
+<p>There is greater disparity among the surveys in the number of recipients for each income source than in the percent distribution of income by source. Generally, the highest recipiency is found in SIPP, which collects the most detailed income data. The lowest recipiency is found in NHIS, which has the fewest questions about sources and types of income, and gets amounts only for earnings and total <em>family</em> income. The NHIS public use file has no imputed values for item non-response on recipiency questions, but item non-response rates are low and do not account for the difference.<a href="#_ftn8" id="_ftnref1" name="_ftnref1" title="">8</a></p>
+<p>The main exception is wages and salaries, which MEPS finds received by 160.0 million persons compared to 141.3 and 143.0 million in SIPP and CPS, respectively. The other exception is IRA withdrawals, which MEPS estimates are received by more than twice as many persons as SIPP. The overall recipiency rates suggest SIPP is finding more sources of income per person than the other surveys.</p>
+<p><a href="#contents">table of contents</a></p>
+<table><caption><strong><a id="t2" name="t2"></a>Table 2. Unduplicated Recipients and Recipiency Rates by Income Source</strong></caption>
+<tbody><tr><td rowspan="2"> </td>
+<td colspan="4" scope="col">Millions of Persons</td>
+<td colspan="4" scope="col">Percent with Income</td>
+</tr><tr><td scope="col">CPS</td>
+<td scope="col">SIPP</td>
+<td scope="col">MEPS</td>
+<td scope="col">NHIS</td>
+<td scope="col">CPS</td>
+<td scope="col">SIPP</td>
+<td scope="col">MEPS</td>
+<td scope="col">NHIS</td>
+</tr><tr><td scope="row">Total With Income</td>
+<td>201.5</td>
+<td>208.7</td>
+<td>202.4</td>
+<td>196.5</td>
+<td>70.5%</td>
+<td>73.4%</td>
+<td>71.1%</td>
+<td>68.7%</td>
+</tr><tr><td scope="row">Wages and Salaries</td>
+<td>143.0</td>
+<td>141.3</td>
+<td>160.0</td>
+<td>134.7</td>
+<td>50.0%</td>
+<td>49.7%</td>
+<td>56.2%</td>
+<td>47.1%</td>
+</tr><tr><td scope="row">Self Employment</td>
+<td>12.2</td>
+<td>20.1</td>
+<td>4.2</td>
+<td>18.0</td>
+<td>4.3%</td>
+<td>7.1%</td>
+<td>1.5%</td>
+<td>6.3%</td>
+</tr><tr><td scope="row">Total With Earnings</td>
+<td>151.3</td>
+<td>155.3</td>
+<td>160.6</td>
+<td>144.6</td>
+<td>52.9%</td>
+<td>54.6%</td>
+<td>56.4%</td>
+<td>50.6%</td>
+</tr><tr><td scope="row">Interest and Dividends</td>
+<td>102.2</td>
+<td>132.9</td>
+<td>87.8</td>
+<td>64.9</td>
+<td>35.7%</td>
+<td>46.8%</td>
+<td>30.9%</td>
+<td>22.7%</td>
+</tr><tr><td scope="row">IRAs</td>
+<td> </td>
+<td>5.4</td>
+<td>12.1</td>
+<td> </td>
+<td> </td>
+<td>1.9%</td>
+<td>4.3%</td>
+<td> </td>
+</tr><tr><td scope="row">Rents, Royalties and Estates</td>
+<td>8.4</td>
+<td>10.1</td>
+<td>4.9</td>
+<td> </td>
+<td>2.9%</td>
+<td>3.6%</td>
+<td>1.7%</td>
+<td> </td>
+</tr><tr><td scope="row">Social Security</td>
+<td>40.0</td>
+<td>44.3</td>
+<td>37.5</td>
+<td>39.2</td>
+<td>14.0%</td>
+<td>15.6%</td>
+<td>13.2%</td>
+<td>13.7%</td>
+</tr><tr><td scope="row">Pensions</td>
+<td>18.5</td>
+<td>29.0</td>
+<td>22.8</td>
+<td>19.7</td>
+<td>6.5%</td>
+<td>10.2%</td>
+<td>8.0%</td>
+<td>6.9%</td>
+</tr><tr><td scope="row">SSI</td>
+<td>4.9</td>
+<td>8.4</td>
+<td>6.4</td>
+<td>5.5</td>
+<td>1.7%</td>
+<td>3.0%</td>
+<td>2.2%</td>
+<td>1.9%</td>
+</tr><tr><td scope="row">Public Assistance</td>
+<td>2.2</td>
+<td>3.4</td>
+<td>1.8</td>
+<td>3.3</td>
+<td>0.8%</td>
+<td>1.2%</td>
+<td>0.6%</td>
+<td>1.1%</td>
+</tr><tr><td scope="row">All Other</td>
+<td>27.2</td>
+<td>31.8</td>
+<td>21.5</td>
+<td>15.9</td>
+<td>9.5%</td>
+<td>11.2%</td>
+<td>7.5%</td>
+<td>5.6%</td>
+</tr><tr><td scope="row">Total Population</td>
+<td>285.9</td>
+<td>284.1</td>
+<td>284.6</td>
+<td>286.0</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr></tbody></table><p> </p>
+<p>The lower dollar aggregates in SIPP, combined with its higher recipiency rates, result in  SIPP having the lowest amounts of income per recipient for all income, and for almost all sources of income. Average amounts per recipient are highest in CPS and lowest in SIPP for total income, wages and salaries and Social Security. Average amounts per recipient are highest in MEPS and lowest in SIPP for property income, SSI and public assistance. SIPP has the highest self-employment income per recipient, and CPS has the highest pension income per recipient. Both CPS and MEPS find about twice as much other income per recipient as SIPP, and close to three times as much property income as SIPP.</p>
+<p><a href="#contents">table of contents</a></p>
+<table><caption><strong><a id="t3" name="t3"></a>Table 3. Relative Recipiency Rates and Average Amounts Received by Source</strong></caption>
+<tbody><tr><td rowspan="2"> </td>
+<td colspan="3" scope="col">Recipiency Rates as Percent of CPS Recipiency Rate</td>
+<td colspan="3" scope="col">Average Amount Per Recipient</td>
+</tr><tr><td scope="col">SIPP</td>
+<td scope="col">MEPS</td>
+<td scope="col">NHIS</td>
+<td scope="col">CPS</td>
+<td scope="col">SIPP</td>
+<td scope="col">MEPS</td>
+</tr><tr><td scope="row">Total With Income</td>
+<td>104.2%</td>
+<td>100.9%</td>
+<td>97.5%</td>
+<td>$32,399</td>
+<td>$27,891</td>
+<td>$31,444</td>
+</tr><tr><td scope="row">Wages and Salaries</td>
+<td>99.4%</td>
+<td>112.4%</td>
+<td>94.2%</td>
+<td>35,482</td>
+<td>29,604</td>
+<td>32,380</td>
+</tr><tr><td scope="row">Self Employment</td>
+<td>165.6%</td>
+<td>35.0%</td>
+<td>147.6%</td>
+<td>27,576</td>
+<td>30,714</td>
+<td>26,311</td>
+</tr><tr><td scope="row">Total With Earnings</td>
+<td>103.3%</td>
+<td>106.7%</td>
+<td>95.6%</td>
+<td>35,757</td>
+<td>30,920</td>
+<td>32,950</td>
+</tr><tr><td scope="row">Interest and Dividends</td>
+<td>131.0%</td>
+<td>86.4%</td>
+<td>63.5%</td>
+<td>1,997</td>
+<td>772</td>
+<td>2,027</td>
+</tr><tr><td scope="row">IRAs</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>5,909</td>
+<td>5,415</td>
+</tr><tr><td scope="row">Rents, Royalties and Estates</td>
+<td>121.6%</td>
+<td>58.5%</td>
+<td> </td>
+<td>8,380</td>
+<td>3,371</td>
+<td>10,670</td>
+</tr><tr><td scope="row">Social Security</td>
+<td>111.5%</td>
+<td>94.0%</td>
+<td>98.0%</td>
+<td>9,740</td>
+<td>8,391</td>
+<td>9,519</td>
+</tr><tr><td scope="row">Pensions</td>
+<td>158.0%</td>
+<td>123.7%</td>
+<td>106.8%</td>
+<td>14,219</td>
+<td>11,293</td>
+<td>10,844</td>
+</tr><tr><td scope="row">SSI</td>
+<td>172.8%</td>
+<td>131.4%</td>
+<td>112.7%</td>
+<td>5,295</td>
+<td>4,047</td>
+<td>6,118</td>
+</tr><tr><td scope="row">Public Assistance</td>
+<td>156.6%</td>
+<td>82.7%</td>
+<td>151.1%</td>
+<td>2,974</td>
+<td>2,807</td>
+<td>2,980</td>
+</tr><tr><td scope="row">All Other</td>
+<td>117.7%</td>
+<td>79.4%</td>
+<td>58.4%</td>
+<td>5,944</td>
+<td>3,377</td>
+<td>6,023</td>
+</tr></tbody></table><p><em>2.2. Income for Persons 18 or Older. </em><br />
+	The surveys differ in their treatment of the income of persons under 18 (see Appendix B for details). To determine the impact of these differences, the tables above were repeated for the adult population, excluding some 73 million children. Virtually no change occurred in aggregate income amounts, percent distribution of income by source, or relative recipiency rates for any of the surveys; and total income, earnings, and wages and salaries per recipient increased only 1.5 to 2.6 percent. However, recipients and recipiency rates changed more sharply.</p>
+<p>Table 4 shows the result of restricting the universe to adults. In CPS, SIPP and MEPS, persons with any income decreased 4.3 to 5.8 million, compared to 9.2 million in NHIS. In CPS, SIPP and MEPS, persons with wages and salaries and the total with earnings decreased 2.7 to 4.0 million, in contrast to no change in the NHIS, which asks earnings only for persons 18 or over. In CPS, SIPP and MEPS, recipients decreased less than one million for all other income sources except interest and dividends. In NHIS, recipients decreased over a million for Social Security and public assistance, and four million for “all other” income.<a href="#_ftn9" id="_ftnref1" name="_ftnref1" title="">9</a></p>
+<p>When the universe is restricted to adults, overall income recipiency rates increase 19.2 to 22.5 percentage points, to 87.9 percent in NHIS, and 92.4 to 96.0 percent in CPS, MEPS and SIPP. The largest increases in recipiency are in wages and salaries (15.3 to 18.0 percentage points), any earnings (16.6 to 18.0 percentage points), and interest and dividends (6.7 to 14.7 percentage points). Recipiency of other income sources increased by lesser amounts in all surveys, with recipiency of public assistance decreasing slightly in NHIS.</p>
+<p>The picture of income recipiency that emerges for adults thus differs substantially from that for persons of all ages. Nonetheless, the highest recipiency is still found in SIPP, and the lowest in NHIS, except for wages and salaries, earnings, and IRA withdrawals. MEPS has 157.8 million adults with earnings, compared to 151.2 and 147.8 million in SIPP and CPS, and 144.6 million in NHIS. MEPS also estimates more than twice as many adults as SIPP had income from IRA withdrawals. Overall recipiency rates still suggest SIPP is finding more sources of income per person than the other surveys.</p>
+<p><a href="#contents">table of contents</a></p>
+<table><caption><strong><a id="t4" name="t4"></a>Table 4. Unduplicated Adult Recipients and Recipiency Rates by Income Source</strong></caption>
+<tbody><tr><td rowspan="2"> </td>
+<td colspan="4" scope="col">Millions of Adults (Age 18 and Over)</td>
+<td colspan="4" scope="col">Percent with Income</td>
+</tr><tr><td scope="col">CPS</td>
+<td scope="col">SIPP</td>
+<td scope="col">MEPS</td>
+<td scope="col">NHIS</td>
+<td scope="col">CPS</td>
+<td scope="col">SIPP</td>
+<td scope="col">MEPS</td>
+<td scope="col">NHIS</td>
+</tr><tr><td scope="row">Total With Income</td>
+<td>196.5</td>
+<td>202.9</td>
+<td>198.1</td>
+<td>187.3</td>
+<td>92.4%</td>
+<td>96.0%</td>
+<td>93.5%</td>
+<td>87.9%</td>
+</tr><tr><td scope="row">Wages and Salaries</td>
+<td>139.7</td>
+<td>137.4</td>
+<td>157.2</td>
+<td>134.7</td>
+<td>65.7%</td>
+<td>65.0%</td>
+<td>74.2%</td>
+<td>63.2%</td>
+</tr><tr><td scope="row">Self Employment</td>
+<td>12.0</td>
+<td>20.0</td>
+<td>4.2</td>
+<td>18.0</td>
+<td>5.7%</td>
+<td>9.5%</td>
+<td>2.0%</td>
+<td>8.4%</td>
+</tr><tr><td scope="row">Total With Earnings</td>
+<td>147.8</td>
+<td>151.2</td>
+<td>157.8</td>
+<td>144.6</td>
+<td>69.5%</td>
+<td>71.6%</td>
+<td>74.5%</td>
+<td>67.9%</td>
+</tr><tr><td scope="row">Interest and Dividends</td>
+<td>100.0</td>
+<td>129.9</td>
+<td>87.1</td>
+<td>62.5</td>
+<td>47.0%</td>
+<td>61.5%</td>
+<td>41.1%</td>
+<td>29.3%</td>
+</tr><tr><td scope="row">IRAs</td>
+<td> </td>
+<td>5.4</td>
+<td>12.1</td>
+<td> </td>
+<td> </td>
+<td>2.5%</td>
+<td>5.7%</td>
+<td> </td>
+</tr><tr><td scope="row">Rents, Royalties and Estates</td>
+<td>8.4</td>
+<td>10.1</td>
+<td>4.9</td>
+<td> </td>
+<td> 3.9%</td>
+<td>4.8%</td>
+<td>2.3%</td>
+<td> </td>
+</tr><tr><td scope="row">Social Security</td>
+<td>39.6</td>
+<td>44.3</td>
+<td>37.3</td>
+<td>38.1</td>
+<td>18.6%</td>
+<td>20.9%</td>
+<td>17.6%</td>
+<td>17.9%</td>
+</tr><tr><td scope="row">Pensions</td>
+<td>18.5</td>
+<td>29.0</td>
+<td>22.8</td>
+<td>19.6</td>
+<td>8.7%</td>
+<td>13.7%</td>
+<td>10.7%</td>
+<td>9.2%</td>
+</tr><tr><td scope="row">SSI</td>
+<td>4.8</td>
+<td>8.1</td>
+<td>5.5</td>
+<td>4.7</td>
+<td>2.3%</td>
+<td>3.8%</td>
+<td>2.6%</td>
+<td>2.2%</td>
+</tr><tr><td scope="row">Public Assistance</td>
+<td>2.1</td>
+<td>3.3</td>
+<td>1.7</td>
+<td>1.8</td>
+<td>1.0%</td>
+<td>1.6%</td>
+<td>0.8%</td>
+<td>0.9%</td>
+</tr><tr><td scope="row">All Other</td>
+<td>26.9</td>
+<td>31.6</td>
+<td>21.3</td>
+<td>11.8</td>
+<td>12.7%</td>
+<td>14.9%</td>
+<td>10.0%</td>
+<td>5.6%</td>
+</tr><tr><td scope="row"><strong>Total Adult Population </strong></td>
+<td>212.6</td>
+<td>211.4</td>
+<td>211.9</td>
+<td>213.0</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr></tbody></table><p><em>2.3 Composition of Earnings.</em> All four surveys find earned income to be the dominant component – 83 percent – of aggregate income in the United States, and wages and salaries to be the single most important income source for adults. As shown above in Table 4, three surveys -- CPS, SIPP and NHIS – find relatively similar numbers of adult wage earners in 2002, from 134.7 to 139.7 million. However, MEPS has 157.2 million adults reporting wage and salary income, 17.5 million more than CPS, which is the official source of national employment and labor force data. There is a mirror image difference in adults with self-employment income. Three surveys  -- CPS, SIPP and NHIS – find fairly significant numbers of self-employed adults in 2002, ranging from 12.0 to 20.0 million, while MEPS has only 4.2 million. Adults whose self-employment is the sole source of earnings show a similar pattern -- CPS, SIPP and NHIS have 7.9 to 13.8 million, compared to 620 thousand in MEPS. MEPS appears to be an outlier both in the total number of employed adults and in the composition – wages and salaries versus self-employment – of their earnings.</p>
+<p>When these findings were shared with MEPS staff, they advised that the wage and salary income variable on the public use file (despite its name) reflected <em>both</em> wage and salary and self-employment earnings. They suggested reclassifying earned income based on data in the JOBS file, which is a separate research file with a record for each job mentioned in each interview and/or on employment status on the public use file. However, since the employment status variables on the public use file classify only the current main job and do not allow for multiple jobs or a combination of wages and salaries <em>and</em> self-employment, this approach proved less than useful.</p>
+<p>An identifier match was performed to merge data from the public use and JOBS files in order to determine whether an improved estimate of wage and salary recipiency could be constructed. However, the suggested reclassification of wages and salaries based on JOBS data was not in fact possible because persons reporting earned income on the public use file were sometimes not the same individuals as those with JOBS file records of employment, and because large numbers both worked for others and were self-employed. There is no way to assign income amounts to persons with employment in JOBS but no reported earnings. There also is no way to split wage income into wages and salaries and self-employment for persons who both worked for others and were self-employed in JOBS, but reported only wages. Additional uncertainty about use of JOBS data results from the fact that the identifier match found over 6 million people reporting earned income, mostly wages, on the public use file who had no employment records in the JOBS file. The differences in covered population would preclude valid comparisons of income by source.</p>
+<p>Table 5 shows persons in MEPS classified by whether they reported earnings and/or had JOBS employment records, and age. Some 6.6 million persons had reported earnings on the public use file (MEPS income) and no JOBS employment records, and another 2.6 million had employment records but no earnings. This is over 9 million persons in one but not the other file -- either with earned income but no employment records, or with employment records but no earned income – in addition to 154 million persons in both files. Taken together, MEPS finds over 163 million unduplicated persons all ages reporting earnings and/or a job, compared to 151 million in CPS, or 155 million in SIPP. Thus after taking JOBS file data into account, MEPS provides a picture of the employed population even more at variance from CPS, SIPP and NHIS than the picture based on income data in the public use file alone.</p>
+<p><a href="#contents">table of contents</a></p>
+<table><caption><strong><a id="t5" name="t5"></a>Table 5. Unduplicated Persons With Earnings in MEPS by Age</strong></caption>
+<tbody><tr><td scope="col">Millions of Persons</td>
+<td scope="col">Under 18</td>
+<td scope="col">18 to 64</td>
+<td scope="col">65 and Older</td>
+<td scope="col">Total</td>
+</tr><tr><td scope="row">In Both MEPS Income and JOBS Data</td>
+<td>2.4</td>
+<td>146.1</td>
+<td>5.7</td>
+<td>154.2</td>
+</tr><tr><td scope="row">Only in MEPS Income Data</td>
+<td>0.4</td>
+<td>2.8</td>
+<td>3.4</td>
+<td>6.6</td>
+</tr><tr><td scope="row">Only in MEPS JOBS Data</td>
+<td>0.6</td>
+<td>1.6</td>
+<td>0.5</td>
+<td>2.6</td>
+</tr><tr><td scope="row">Total</td>
+<td>3.3</td>
+<td>150.5</td>
+<td>9.6</td>
+<td>163.4</td>
+</tr></tbody></table><p>Restricting the comparisons to adults has little impact on the findings. There are two million adults who report no earned income but have JOBS employment records and over six million adults with average annual earnings of $16,277 who have no JOBS employment records<a href="#_ftn10" id="_ftnref1" name="_ftnref1" title="">10</a>. This gives a total of 160.1 million adults who reported earnings and/or were identified as employed in MEPS, compared to 144.6 to 151.2 million in CPS, SIPP and NHIS.</p>
+<p>Table 6 shows adults classified by type of employment -- whether only wages and salaries, only self-employment, or both -- and whether earnings were reported. No attempt has been made to reclassify reported earned income or impute earnings based on JOBS data. The employment status variable included at staff recommendation is on the public use file and is based on JOBS data. It shows substantially the same pattern as JOBS data, but only describes the current main job and does not allow for multiple jobs or a combination of wages and salaries and self-employment. Apparently it has not been used to edit the income data, with which it has significant inconsistencies.</p>
+<p><a href="#contents">table of contents</a></p>
+<table><caption><strong><a id="t6" name="t6"></a>Table 6. Unduplicated Adults by Type of Employment and Whether Earnings Reported</strong></caption>
+<tbody><tr><td rowspan="2" scope="col">Millions of Persons</td>
+<td rowspan="2" scope="col">CPS</td>
+<td rowspan="2" scope="col">SIPP</td>
+<td colspan="3" scope="col">MEPS</td>
+<td rowspan="2" scope="col">NHIS</td>
+</tr><tr><td> Income Data</td>
+<td>Employ’t Status</td>
+<td>JOBS File</td>
+</tr><tr><td scope="row">Employed Adults Reporting Earnings</td>
+<td>147.8</td>
+<td>151.2</td>
+<td>157.8</td>
+<td>151.7</td>
+<td>151.8</td>
+<td>144.6</td>
+</tr><tr><td scope="row">Wages and Salaries Only</td>
+<td>135.7</td>
+<td>131.3</td>
+<td>153.6</td>
+<td>131.1</td>
+<td>127.7</td>
+<td>126.6</td>
+</tr><tr><td scope="row">Self Employment Only</td>
+<td>8.2</td>
+<td>13.9</td>
+<td>0.6</td>
+<td>20.6</td>
+<td>16.5</td>
+<td>9.9</td>
+</tr><tr><td scope="row">Both Wages/Salaries and Self Employment</td>
+<td>3.9</td>
+<td>6.1</td>
+<td>3.6</td>
+<td> </td>
+<td>7.6</td>
+<td>8.1</td>
+</tr><tr><td scope="row">Employed Adults Not Reporting Earnings</td>
+<td> </td>
+<td> </td>
+<td>0</td>
+<td>1.6</td>
+<td>2.0</td>
+<td> </td>
+</tr><tr><td scope="row">Wages and Salaries Only</td>
+<td> </td>
+<td> </td>
+<td>0</td>
+<td>1.4</td>
+<td>1.8</td>
+<td> </td>
+</tr><tr><td scope="row">Self Employment Only</td>
+<td> </td>
+<td> </td>
+<td>0</td>
+<td>0.1</td>
+<td>0.2</td>
+<td> </td>
+</tr><tr><td scope="row">Both Wages/Salaries and Self Employment</td>
+<td> </td>
+<td> </td>
+<td>0</td>
+<td> </td>
+<td>0.0</td>
+<td> </td>
+</tr></tbody></table><p>Note: MEPS employment status variables classify the current main job only; coding does not allow for multiple jobs or both wages and salaries and self-employment.</p>
+<p>In CPS, SIPP and NHIS, screeners and edits make it virtually impossible for a person to have employment but no earnings (with the minor exceptions of unpaid family workers and self-employed with losses) or to have earnings without employment. However, this is not the case in MEPS.</p>
+<p><a href="#contents">table of contents</a></p>
+<h2><strong><a id="three" name="three"></a>3.  CY2002 Family Definitions and Poverty Status</strong></h2>
+<p>Poverty status is determined by comparing family income to a set of poverty thresholds that vary with family size, age of the householder (for one and two-person families), and number of children. Differences in how well income is measured affect poverty status directly, by changing the income amounts that are summed to family income for comparison to the poverty thresholds. Differences in family definitions affect poverty status in two ways. Changing who is considered part of a family can change family size. More importantly, if the persons being included or excluded from the family have income, changing who is in the family can change which persons’ income is included in family income and whether family members are counted as poor.</p>
+<p>Two of the surveys -- CPS and SIPP -- use the CPS family definition employed in official poverty counts. Under this definition, a family consists of persons related by blood or marriage. The third survey -- NHIS -- uses a broader definition that treats unmarried couples (of the same or opposite sex) who pool resources as a family, and includes foster children. MEPS, the fourth survey, uses the NHIS definition but also constructs CPS families to use in calculating person and family weights.</p>
+<p>Additional differences must also be taken into account in order to present findings that are analytically comparable across surveys. First, the MEPS public use file includes 6.3 million persons in 3.5 million families of “undefined size” that lack data for one or more family members<a href="#_ftn11" id="_ftnref1" name="_ftnref1" title="">11</a>. Tables 7 through 10 exclude these MEPS families of “undefined size”. Later, in Table 11, these families of “undefined size” are reintroduced to permit appropriate comparisons of the demographic characteristics of the poor.</p>
+<p>Second, family weights for families of size one (single individuals) in MEPS produce a significantly different population count<a href="#_ftn2" id="_ftnref2" name="_ftnref2" title="">12</a> than the person weights for these same cases. Differences in MEPS family counts under person and family weights result from post-stratification of families (see Appendix B) as well as from the difference between person and family universes in MEPS.<a href="#_ftn3" id="_ftnref3" name="_ftnref3" title="">13</a> For accurate comparisons, all persons and families by family size in Tables 7 through 10 are calculated using person weights for each survey.</p>
+<p><em>3.1. Differences in Overall Family Counts</em>. Table 7 shows persons and families, by family size, for both CPS and NHIS family definitions in the four surveys. Under the broader NHIS definition, there are fewer families of larger average size. The greatest differences are for one and two-person families, which account for about 40 percent of all persons (38.6 percent in NHIS to 42.7 percent in MEPS). Single persons decrease 7.1 million between the two definitions in MEPS, 9.3 million if NHIS is compared to SIPP, and 11.2 million when compared to CPS. Persons in families of two increase 2.7 million between the two definitions in MEPS, 7.4 million when NHIS is compared to SIPP, and 5.1 million from NHIS to CPS. Detailed tabulations (not shown) found the NHIS definition added 5.5 million unmarried adults either to other single persons to create families, or to existing related families, in both MEPS and in NHIS.</p>
+<p>Regardless of the family definition used in comparing surveys, the largest differences remain the number of single individuals. Comparing counts under the CPS family definition, MEPS has more single persons than SIPP or CPS, despite the exclusion of 2.0 million singles in families of “undefined size”. Comparing counts under the NHIS family definition, MEPS has more singles than NHIS, (again despite the excluded 2.0 million), even though the NHIS treats as singles close to one million students living in college dormitories who are included in the parental family in CPS, SIPP and MEPS.</p>
+<p><a href="#contents">table of contents</a></p>
+<table><caption><strong><a id="t7" name="t7"></a>Table 7. Persons and Families by Family Size, Total Population</strong></caption>
+<tbody><tr><td rowspan="3" scope="col">Family Size</td>
+<td scope="col">Families in Millions</td>
+<td colspan="5" scope="col">Persons in Millions</td>
+</tr><tr><td colspan="3" scope="col">CPS Family</td>
+<td colspan="2" scope="col">NHIS Family</td>
+<td colspan="3" scope="col">CPS Family</td>
+<td colspan="2" scope="col">NHIS Family</td>
+</tr><tr><td scope="col">CPS</td>
+<td scope="col">SIPP</td>
+<td scope="col">MEPS</td>
+<td scope="col">MEPS</td>
+<td scope="col">NHIS</td>
+<td scope="col">CPS</td>
+<td scope="col">SIPP</td>
+<td scope="col">MEPS</td>
+<td scope="col">MEPS</td>
+<td scope="col">NHIS</td>
+</tr><tr><td scope="row">Total</td>
+<td>124.9</td>
+<td>122.1</td>
+<td>124.6</td>
+<td>119.9</td>
+<td>117.7</td>
+<td>285.9</td>
+<td>284.1</td>
+<td>278.3</td>
+<td>278.3</td>
+<td>286.0</td>
+</tr><tr><td scope="row">One</td>
+<td>47.8</td>
+<td>45.9</td>
+<td>50.5</td>
+<td>43.4</td>
+<td>36.6</td>
+<td>47.8</td>
+<td>45.9</td>
+<td>50.5</td>
+<td>43.4</td>
+<td>36.6</td>
+</tr><tr><td scope="row">Two</td>
+<td>34.4</td>
+<td>33.3</td>
+<td>33.8</td>
+<td>35.1</td>
+<td>36.9</td>
+<td>68.8</td>
+<td>66.5</td>
+<td>67.6</td>
+<td>70.3</td>
+<td>73.9</td>
+</tr><tr><td scope="row">Three</td>
+<td>17.2</td>
+<td>17.0</td>
+<td>15.8</td>
+<td>16.2</td>
+<td>17.8</td>
+<td>51.6</td>
+<td>51.0</td>
+<td>47.4</td>
+<td>48.5</td>
+<td>53.4</td>
+</tr><tr><td scope="row">Four</td>
+<td>15.3</td>
+<td>15.0</td>
+<td>14.7</td>
+<td>15.0</td>
+<td>15.5</td>
+<td>61.4</td>
+<td>60.1</td>
+<td>58.6</td>
+<td>59.8</td>
+<td>62.1</td>
+</tr><tr><td scope="row">Five</td>
+<td>6.7</td>
+<td>7.2</td>
+<td>6.5</td>
+<td>6.8</td>
+<td>6.9</td>
+<td>33.4</td>
+<td>36.0</td>
+<td>32.7</td>
+<td>33.8</td>
+<td>34.7</td>
+</tr><tr><td scope="row">Six Plus</td>
+<td>3.5</td>
+<td>3.7</td>
+<td>3.2</td>
+<td>3.4</td>
+<td>3.8</td>
+<td>23.0</td>
+<td>24.6</td>
+<td>21.4</td>
+<td>22.5</td>
+<td>25.3</td>
+</tr></tbody></table><p>Notes: 1. Family sizes calculated from persons, using person weights, by family size. 2. Excludes families of “undefined size”  in MEPS.</p>
+<p>Table 8 shows percent distributions of the counts of persons and families in Table 7, to provide clearer comparisons given that total persons range from 278 to 286 million. Findings are unchanged – the NHIS family definition reduces singles, and increases couples and larger families. </p>
+<p><a href="#contents">table of contents</a></p>
+<table><caption><strong><a id="t8" name="t8"></a>Table 8. Distribution of Persons and Families by Family Size, Total Population</strong></caption>
+<tbody><tr><td rowspan="3" scope="col">Family Size</td>
+<td scope="col">Percent of Families</td>
+<td colspan="5" scope="col">Percent of Persons</td>
+</tr><tr><td scope="col">CPS Family</td>
+<td scope="col">NHIS Family</td>
+<td scope="col">CPS Family</td>
+<td scope="col">NHIS Family</td>
+</tr><tr><td scope="col">CPS</td>
+<td scope="col">SIPP</td>
+<td scope="col">MEPS</td>
+<td scope="col">MEPS</td>
+<td scope="col">NHIS</td>
+<td scope="col">CPS</td>
+<td scope="col">SIPP</td>
+<td scope="col">MEPS</td>
+<td scope="col">MEPS</td>
+<td scope="col">NHIS</td>
+</tr><tr><td scope="row">Total</td>
+<td>100.0%</td>
+<td>100.0%</td>
+<td>100.0%</td>
+<td>100.0%</td>
+<td>100.0%</td>
+<td>100.0%</td>
+<td>100.0%</td>
+<td>100.0%</td>
+<td>100.0%</td>
+<td>100.0%</td>
+</tr><tr><td scope="row">One</td>
+<td>38.2%</td>
+<td>37.6%</td>
+<td>40.6%</td>
+<td>36.2%</td>
+<td>31.1%</td>
+<td>16.7%</td>
+<td>16.2%</td>
+<td>18.2%</td>
+<td>15.6%</td>
+<td>12.8%</td>
+</tr><tr><td scope="row">Two</td>
+<td>27.5%</td>
+<td>27.2%</td>
+<td>27.1%</td>
+<td>29.3%</td>
+<td>31.4%</td>
+<td>24.1%</td>
+<td>23.4%</td>
+<td>24.3%</td>
+<td>25.2%</td>
+<td>25.8%</td>
+</tr><tr><td scope="row">Three Plus</td>
+<td>34.2%</td>
+<td>35.2%</td>
+<td>32.3%</td>
+<td>34.4%</td>
+<td>37.5%</td>
+<td>59.2%</td>
+<td>60.4%</td>
+<td>57.6%</td>
+<td>59.1%</td>
+<td>61.4%</td>
+</tr></tbody></table><p>Notes: 1. Family sizes calculated from persons, using person weights, by family size. 2. Excludes families of “undefined size”  in MEPS.</p>
+<p>The impact of alternative family definitions on the number, size and composition of families in the overall population leads to a further question, What is their impact on the number, size and composition of families below the poverty threshold? Table 9 shows poor persons<a href="#_ftn14" id="_ftnref1" name="_ftnref1" title="">14</a> and families, by family size, for both CPS and NHIS family definitions in the four surveys. These comparisons are complicated by the fact that the accuracy of income measurement and the amount of income reported varies among the surveys, with the result that surveys using the same family definition nonetheless find different numbers of persons and families below the poverty threshold.<strong> </strong>Nonetheless, compared to the CPS family definition, the NHIS definition produces fewer poor families of larger average size. Specifically, the NHIS has one million fewer poor families than the CPS, although it has four million more poor persons.</p>
+<p>Holding income measurement constant and comparing the two alternative family definitions in MEPS, single poor persons decrease 1.5 million, poor persons in families of two to four decrease 1.3 million and poor persons in larger families increase by 65 thousand.<a href="#_ftn15" id="_ftnref2" name="_ftnref2" title="">15</a> In NHIS, despite the much higher total count of poor, there are 1.8 million fewer single poor persons than in SIPP, and 2.6 million fewer than in CPS, with correspondingly higher counts of poor persons in larger families. Detailed tabulations (not shown) found that over 80 percent of unmarried partners included in families by the NHIS definition have earnings. In MEPS, they increased family income as well as size, resulting in fewer poor. This suggests that the high count of poor in NHIS does not result from the broader family definition being used, and in fact would be still higher, if the CPS family definition were used when family income is ascertained.</p>
+<p><a href="#contents">table of contents</a></p>
+<table><caption><strong><a id="t9" name="t9"></a>Table 9. Persons and Families in Poverty by Family Size</strong></caption>
+<tbody><tr><td rowspan="3" scope="col">Family Size</td>
+<td scope="col">Families in Millions</td>
+<td scope="col">Persons in Millions</td>
+</tr><tr><td scope="col">CPS Family</td>
+<td scope="col">NHIS Family</td>
+<td scope="col">CPS Family</td>
+<td scope="col">NHIS Family</td>
+</tr><tr><td scope="col">CPS</td>
+<td scope="col">SIPP</td>
+<td scope="col">MEPS</td>
+<td scope="col">MEPS</td>
+<td scope="col">NHIS</td>
+<td scope="col">CPS</td>
+<td scope="col">SIPP</td>
+<td scope="col">MEPS</td>
+<td scope="col">MEPS</td>
+<td scope="col">NHIS</td>
+</tr><tr><td scope="row">Total</td>
+<td>17.6</td>
+<td>16.3</td>
+<td>16.0</td>
+<td>14.1</td>
+<td>16.6</td>
+<td>35.2</td>
+<td>33.8</td>
+<td>32.8</td>
+<td>30.0</td>
+<td>39.2</td>
+</tr><tr><td scope="row">One</td>
+<td>10.2</td>
+<td>9.4</td>
+<td>8.8</td>
+<td>7.3</td>
+<td>7.6</td>
+<td>10.2</td>
+<td>9.4</td>
+<td>8.8</td>
+<td>7.3</td>
+<td>7.6</td>
+</tr><tr><td scope="row">Two</td>
+<td>2.8</td>
+<td>2.4</td>
+<td>3.1</td>
+<td>2.9</td>
+<td>3.2</td>
+<td>5.7</td>
+<td>4.9</td>
+<td>6.2</td>
+<td>5.8</td>
+<td>6.4</td>
+</tr><tr><td scope="row">Three</td>
+<td>1.6</td>
+<td>1.5</td>
+<td>1.4</td>
+<td>1.3</td>
+<td>1.8</td>
+<td>4.8</td>
+<td>4.6</td>
+<td>4.3</td>
+<td>3.8</td>
+<td>5.5</td>
+</tr><tr><td scope="row">Four</td>
+<td>1.5</td>
+<td>1.3</td>
+<td>1.2</td>
+<td>1.1</td>
+<td>1.9</td>
+<td>5.9</td>
+<td>5.1</td>
+<td>4.9</td>
+<td>4.5</td>
+<td>7.5</td>
+</tr><tr><td scope="row">Five</td>
+<td>0.8</td>
+<td>0.9</td>
+<td>0.8</td>
+<td>0.8</td>
+<td>1.0</td>
+<td>4.2</td>
+<td>4.7</td>
+<td>4.0</td>
+<td>4.0</td>
+<td>5.2</td>
+</tr><tr><td scope="row">Six Plus</td>
+<td>0.7</td>
+<td>0.7</td>
+<td>0.7</td>
+<td>0.7</td>
+<td>1.0</td>
+<td>4.4</td>
+<td>5.0</td>
+<td>4.6</td>
+<td>4.6</td>
+<td>7.0</td>
+</tr></tbody></table><p>Notes: 1. Family sizes calculated from persons, using person weights, by family size 2. Excludes families of “undefined size”  in MEPS</p>
+<p><a href="#contents">table of contents</a></p>
+<table><caption><strong><a id="t10" name="t10"></a>Table 10. Distribution of Persons and Families in Poverty by Family Size</strong></caption>
+<tbody><tr><td scope="col">Family Size</td>
+<td scope="col">Percent of Poor Families</td>
+<td scope="col">Percent of Poor Persons</td>
+</tr><tr><td scope="col">CPS Family</td>
+<td scope="col">NHIS Family</td>
+<td scope="col">CPS Family</td>
+<td scope="col">NHIS Family</td>
+</tr><tr><td scope="col">CPS</td>
+<td scope="col">SIPP</td>
+<td scope="col">MEPS</td>
+<td scope="col">MEPS</td>
+<td scope="col">NHIS</td>
+<td scope="col">CPS</td>
+<td scope="col">SIPP</td>
+<td scope="col">MEPS</td>
+<td scope="col">MEPS</td>
+<td scope="col">NHIS</td>
+</tr><tr><td scope="row">Total</td>
+<td>100.0%</td>
+<td>100.0%</td>
+<td>100.0%</td>
+<td>100.0%</td>
+<td>100.0%</td>
+<td>100.0%</td>
+<td>100.0%</td>
+<td>100.0%</td>
+<td>100.0%</td>
+<td>100.0%</td>
+</tr><tr><td scope="row">One</td>
+<td>58.0%</td>
+<td>57.6%</td>
+<td>54.9%</td>
+<td>52.1%</td>
+<td>46.0%</td>
+<td>29.1%</td>
+<td>27.8%</td>
+<td>26.9%</td>
+<td>24.4%</td>
+<td>19.5%</td>
+</tr><tr><td scope="row">Two</td>
+<td>16.1%</td>
+<td>14.9%</td>
+<td>19.3%</td>
+<td>20.4%</td>
+<td>19.2%</td>
+<td>16.1%</td>
+<td>14.4%</td>
+<td>18.9%</td>
+<td>19.2%</td>
+<td>16.3%</td>
+</tr><tr><td scope="row">Three Plus</td>
+<td>25.9%</td>
+<td>27.5%</td>
+<td>25.8%</td>
+<td>27.5%</td>
+<td>34.8%</td>
+<td>54.8%</td>
+<td>57.8%</td>
+<td>54.2%</td>
+<td>56.4%</td>
+<td>64.2%</td>
+</tr></tbody></table><p>Notes: 1. Family sizes calculated from persons, using person weights, by family size 2. Excludes families of “undefined size”  in MEPS</p>
+<p><em>3.2. Differences in the Poverty Population.</em>  Table 11 shows poor persons<a href="#_ftn16" id="_ftnref1" name="_ftnref1" title="">16</a> and poverty rates, by demographic sub-groups, for both CPS and NHIS family definitions in the four surveys. As was the case with Table 9, these comparisons are complicated by the differences in income reporting that result in surveys with the same family definition finding different numbers of poor persons. As noted above, MEPS data in Table 11 (and subsequent tables) contain all persons on the MEPS public use file. These include 2.3 million poor persons in families of “undefined size”, 36 percent of all persons in families of “undefined size” on the public use file. Their inclusion is required for appropriate comparisons of demographic characteristics, since they are included when MEPS demographics and poverty rates are post-stratified to match the CPS.</p>
+<p>Table 11 shows that the decline in numbers of poor persons and poverty rates resulting from use of the broader NHIS family definition is not spread evenly across demographic groups. Comparing the definitions in the same survey, that is, using the same income data, gives the clearest illustration. In MEPS, the NHIS family definition decreases the number of poor persons by 2.8 million, of which 1.1 million are males and 1.7 million are females. Children in poverty decrease by 1.3 million and non-aged adults by 1.5 million, while elderly poor change by less than ten thousand.<a href="#_ftn17" id="_ftnref2" name="_ftnref2" title="">17</a> Compared to CPS, NHIS finds an additional 4.0 million persons in poverty, and 5.4 million more than SIPP. The additional poor in NHIS counts are more likely to be male, Hispanic or non-aged adults, as compared to female, white or Black, or children. For one group, the elderly, there is virtually no difference between counts of poor in CPS, NHIS or under either family definition in MEPS, although SIPP finds fewer poor elderly than other surveys.</p>
+<p>The patterns for poverty rates reflect those for numbers of poor. In MEPS, use of the broader NHIS definition lowers the overall poverty rate by almost a percentage point, and results in lower poverty rates for all groups except the elderly. The poverty rates decrease most for females, Hispanics and Blacks, and children, decreases less for males, whites and non-aged adults and do not change for the elderly. NHIS poverty rates are higher than in any other survey overall and for each demographic group (except for Blacks in SIPP), but not uniformly so. NHIS poverty rates compared to other surveys increase less for elderly, females, children and Blacks, and more for males, Hispanics, whites and non-aged adults.</p>
+<p>Looking at counts of poor and poverty rates across surveys, SIPP has the smallest count of poor and the lowest overall poverty rate using the CPS family definition. Poverty rates in SIPP are relatively higher for women, children and Blacks, and relatively lower for males, Hispanics and the elderly. There are 1.4 million fewer poor in SIPP than in the CPS, 1.1 million fewer males and 1.4 million fewer non-aged adults, but more children and Hispanics. The counts and poverty rates in MEPS are virtually the same as those in CPS, a result MEPS guarantees by re-weighting the public use file to match CPS poverty rates for CPS-defined families by age, sex, and race/ethnicity.<a href="#_ftn18" id="_ftnref3" name="_ftnref3" title="">18</a> The NHIS finds 4.0 million more poor than the CPS, almost evenly split between male and female. Almost half of the additional poor in the NHIS compared to CPS are Hispanic, and almost all (80 percent) are non-aged adults. Less than 100 thousand are elderly.</p>
+<p><a href="#contents">table of contents</a></p>
+<table><caption><strong><a id="t11" name="t11"></a>Table 11. Characteristics of Poor and Poverty Rates, CY2002</strong></caption>
+<tbody><tr><td rowspan="3"> </td>
+<td scope="col">Persons in Millions</td>
+<td scope="col">Poverty Rate</td>
+</tr><tr><td scope="col">CPS</td>
+<td scope="col">SIPP</td>
+<td scope="col">MEPS</td>
+<td scope="col">NHIS</td>
+<td scope="col">CPS</td>
+<td scope="col">SIPP</td>
+<td scope="col">MEPS</td>
+<td scope="col">NHIS</td>
+</tr><tr><td scope="col">CPS Family</td>
+<td scope="col">NHIS Family</td>
+<td scope="col">CPS Family</td>
+<td scope="col">NHIS Family</td>
+</tr><tr><td scope="row">All Poor</td>
+<td>35.2</td>
+<td>33.8</td>
+<td>35.1</td>
+<td>32.3</td>
+<td>39.2</td>
+<td>12.3%</td>
+<td>11.9%</td>
+<td>12.3%</td>
+<td>11.4%</td>
+<td>13.7%</td>
+</tr><tr><td scope="row">Male</td>
+<td>15.5</td>
+<td>14.5</td>
+<td>15.4</td>
+<td>14.3</td>
+<td>17.6</td>
+<td>11.1%</td>
+<td>10.4%</td>
+<td>11.1%</td>
+<td>10.3%</td>
+<td>12.6%</td>
+</tr><tr><td scope="row">Female</td>
+<td>19.7</td>
+<td>19.3</td>
+<td>19.7</td>
+<td>18.0</td>
+<td>21.6</td>
+<td>13.5%</td>
+<td>13.3%</td>
+<td>13.5%</td>
+<td>12.3%</td>
+<td>14.7%</td>
+</tr><tr><td scope="row">White</td>
+<td>15.8</td>
+<td>15.5</td>
+<td>15.7</td>
+<td>14.3</td>
+<td>17.8</td>
+<td>8.1%</td>
+<td>7.9%</td>
+<td>8.1%</td>
+<td>7.4%</td>
+<td>9.0%</td>
+</tr><tr><td scope="row">Black</td>
+<td>8.4</td>
+<td>8.7</td>
+<td>8.5</td>
+<td>8.0</td>
+<td>8.8</td>
+<td>24.3%</td>
+<td>25.4%</td>
+<td>24.8%</td>
+<td>23.4%</td>
+<td>24.9%</td>
+</tr><tr><td scope="row">Hispanic</td>
+<td>8.7</td>
+<td>7.8</td>
+<td>8.7</td>
+<td>8.0</td>
+<td>10.6</td>
+<td>22.1%</td>
+<td>20.4%</td>
+<td>22.3%</td>
+<td>20.4%</td>
+<td>26.8%</td>
+</tr><tr><td scope="row">Under 18</td>
+<td>12.7</td>
+<td>13.3</td>
+<td>12.7</td>
+<td>11.4</td>
+<td>13.5</td>
+<td>17.4%</td>
+<td>18.2%</td>
+<td>17.4%</td>
+<td>15.7%</td>
+<td>18.5%</td>
+</tr><tr><td scope="row">18 to 64</td>
+<td>18.9</td>
+<td>17.5</td>
+<td>18.7</td>
+<td>17.3</td>
+<td>22.1</td>
+<td>10.6%</td>
+<td>9.8%</td>
+<td>10.5%</td>
+<td>9.7%</td>
+<td>12.3%</td>
+</tr><tr><td scope="row">65 and Over</td>
+<td>3.6</td>
+<td>3.1</td>
+<td>3.7</td>
+<td>3.6</td>
+<td>3.7</td>
+<td>10.4%</td>
+<td>9.0%</td>
+<td>10.7%</td>
+<td>10.7%</td>
+<td>10.7%</td>
+</tr></tbody></table><p>Notes: 1. The three race/ethnicity categories are mutually exclusive but non-exhaustive, that is, lines for White and Black exclude Hispanics and the three categories do not include other minority groups 2. Includes families of “undefined size” in MEPS</p>
+<p><a href="#contents">table of contents</a></p>
+<h2><strong><a id="four" name="four"></a>4.  CY2002 Person-Level Income by Source for Poor and Elderly Populations</strong></h2>
+<p>The poor and the elderly both are demographic groups of interest for policy research. The two populations are of roughly equal size (with a small overlap of 3.1 to 3.7 million) but account for quite different shares of aggregate income. The poor, approximately 12 percent of total population, have less than two percent of aggregate income. In contrast, the elderly account for 11 to 12 percent of aggregate income. This section employs the CPS family definition to measure poverty in CPS, SIPP and MEPS, and as noted above, includes all persons on the MEPS public use file.</p>
+<p><em>4.1. Income of the Poor.</em> Table 12 shows aggregate income by source and the percent distribution by source for persons in poverty in the three surveys collecting income amounts by source. The surveys report very similar amounts of aggregate income for the poor – $112 to $120 billion – despite somewhat different counts of poor. Average amounts of income for poor persons with income are also similar, ranging from $6,376 per recipient in SIPP to $6,722 per recipient in MEPS. Amounts and distribution by source, however, vary substantially between surveys as well as differing from the distribution by source for the total population. There is much more variation among surveys in the relative importance of different income sources for the poor than for the population as a whole. Earned income (wages and salaries and self-employment) ranges from 50.5 percent in CPS to 59.4 percent in MEPS, in contrast to the uniform 83 percent of aggregate income for the total and the adult population found in all surveys. The share of wages and salaries has an even greater range, 46.5 percent in CPS to 59.3 percent in MEPS, compared to 72 to 81 percent for the total population. In all surveys the second largest component of income of the poor is Social Security, accounting for 16.6 percent of income in MEPS and 23.8 percent in CPS, followed by means-tested SSI, ranging from 8.8 percent in CPS to 12.3 percent in MEPS.</p>
+<p><a href="#contents">table of contents</a></p>
+<table><caption><strong><a id="t12" name="t12"></a>Table 12. Poor: Amount and Distribution of Income by Source</strong></caption>
+<tbody><tr><td rowspan="2"> </td>
+<td scope="col">Billions of Dollars </td>
+<td scope="col">Percent Distribution by Source</td>
+</tr><tr><td scope="col">CPS</td>
+<td scope="col">SIPP</td>
+<td scope="col">MEPS</td>
+<td scope="col">CPS</td>
+<td scope="col">SIPP</td>
+<td scope="col">MEPS</td>
+</tr><tr><td scope="row">Total Income</td>
+<td>$111.5</td>
+<td>$114.6</td>
+<td>$119.9</td>
+<td>100.0%</td>
+<td>100.0%</td>
+<td>100.0%</td>
+</tr><tr><td scope="row">Wages and Salaries</td>
+<td>51.9</td>
+<td>52.7</td>
+<td>71.1</td>
+<td>46.5%</td>
+<td>46.0%</td>
+<td>59.3%</td>
+</tr><tr><td scope="row">Self Employment</td>
+<td>4.5</td>
+<td>6.5</td>
+<td>0.1</td>
+<td>4.0%</td>
+<td>5.7%</td>
+<td>0.1%</td>
+</tr><tr><td scope="row">Total  Earnings</td>
+<td>56.3</td>
+<td>59.3</td>
+<td>71.3</td>
+<td>50.5%</td>
+<td>51.7%</td>
+<td>59.4%</td>
+</tr><tr><td scope="row">Interest and Dividends</td>
+<td>1.8</td>
+<td>1.4</td>
+<td>1.6</td>
+<td>1.6%</td>
+<td>1.2%</td>
+<td>1.3%</td>
+</tr><tr><td scope="row">IRAs</td>
+<td> </td>
+<td>0.2</td>
+<td>0.2</td>
+<td> </td>
+<td>0.2%</td>
+<td>0.2%</td>
+</tr><tr><td scope="row">Rents, Royalties and Estates</td>
+<td>0.5</td>
+<td>0.5</td>
+<td>0.1</td>
+<td>0.4%</td>
+<td>0.4%</td>
+<td>0.1%</td>
+</tr><tr><td scope="row">Social Security</td>
+<td>26.5</td>
+<td>23.7</td>
+<td>20.0</td>
+<td>23.8%</td>
+<td>20.7%</td>
+<td>16.6%</td>
+</tr><tr><td scope="row">Pensions</td>
+<td>2.2</td>
+<td>2.9</td>
+<td>1.2</td>
+<td>2.0%</td>
+<td>2.6%</td>
+<td>1.0%</td>
+</tr><tr><td scope="row">SSI</td>
+<td>9.8</td>
+<td>12.9</td>
+<td>14.8</td>
+<td>8.8%</td>
+<td>11.3%</td>
+<td>12.3%</td>
+</tr><tr><td scope="row">Public Assistance</td>
+<td>3.7</td>
+<td>4.7</td>
+<td>3.8</td>
+<td>3.3%</td>
+<td>4.1%</td>
+<td>3.2%</td>
+</tr><tr><td scope="row">All Other</td>
+<td>10.6</td>
+<td>9.0</td>
+<td>6.9</td>
+<td>9.5%</td>
+<td>7.9%</td>
+<td>5.8%</td>
+</tr></tbody></table><p>These three sources (earnings, Social Security and SSI) account for 83.1 percent of income of the poor in CPS, 83.7 percent in SIPP, and 88.3 percent in MEPS. Means-tested public assistance and a range of income sources including Veterans benefits, child support, Unemployment, and Workers Compensation account for most of the balance, with very little contributed by other pensions or property income.</p>
+<p>Table 13 shows unduplicated poor recipients, and recipiency rates (percent with that income source) by income source. There is as much disparity among the surveys in the number of recipients for each income source as in the percent distribution of income by source. Generally, NHIS has the highest number of recipients as well as the highest recipiency rates, including earnings and wages and salaries, Social Security and pensions, but not property income or SSI. NHIS classifies many more persons as poor than the other three surveys, but with somewhat different demographic characteristics. Additional poor in NHIS include many persons 18 to 64 (3.2 to 4.6 million compared to the other surveys) and less than a million more children (200 to 800 thousand), thus shifting the demographic mix towards persons working or otherwise receiving income.</p>
+<p><a href="#contents">table of contents</a></p>
+<table><caption><strong><a id="t13" name="t13"></a>Table 13. Poor: Unduplicated Recipients and Recipient Rates by Income Source</strong></caption>
+<tbody><tr><td rowspan="2"> </td>
+<td scope="col">Millions of Poor Persons</td>
+<td scope="col">Percent of Poor with Income</td>
+</tr><tr><td scope="col">CPS</td>
+<td scope="col">SIPP</td>
+<td scope="col">MEPS</td>
+<td scope="col">NHIS</td>
+<td scope="col">CPS</td>
+<td scope="col">SIPP</td>
+<td scope="col">MEPS</td>
+<td scope="col">NHIS</td>
+</tr><tr><td scope="row">Total With Income</td>
+<td>17.0</td>
+<td>18.0</td>
+<td>17.8</td>
+<td>22.4</td>
+<td>48.3%</td>
+<td>53.2%</td>
+<td>50.9%</td>
+<td>57.2%</td>
+</tr><tr><td scope="row">Wages and Salaries</td>
+<td>7.9</td>
+<td>8.3</td>
+<td>10.5</td>
+<td>11.8</td>
+<td>22.4%</td>
+<td>24.6%</td>
+<td>29.9%</td>
+<td>30.2%</td>
+</tr><tr><td scope="row">Self Employment</td>
+<td>0.9</td>
+<td>1.4</td>
+<td>0.1</td>
+<td>1.3</td>
+<td>2.7%</td>
+<td>4.1%</td>
+<td>0.2%</td>
+<td>3.3%</td>
+</tr><tr><td scope="row">Total With Earnings</td>
+<td>8.7</td>
+<td>9.4</td>
+<td>10.5</td>
+<td>12.6</td>
+<td>24.6%</td>
+<td>27.7%</td>
+<td>29.9%</td>
+<td>32.2%</td>
+</tr><tr><td scope="row">Interest and Dividends</td>
+<td>3.5</td>
+<td>5.0</td>
+<td>2.5</td>
+<td>2.0</td>
+<td>10.0%</td>
+<td>14.8%</td>
+<td>7.2%</td>
+<td>5.2%</td>
+</tr><tr><td scope="row">IRAs</td>
+<td> </td>
+<td>0.1</td>
+<td>0.2</td>
+<td> </td>
+<td> </td>
+<td>0.2%</td>
+<td>0.6%</td>
+<td> </td>
+</tr><tr><td scope="row">Rents, Royalties and Estates</td>
+<td>0.3</td>
+<td>0.3</td>
+<td>0.1</td>
+<td> </td>
+<td>0.8%</td>
+<td>0.9%</td>
+<td>0.2%</td>
+<td> </td>
+</tr><tr><td scope="row">Social Security</td>
+<td>4.4</td>
+<td>4.6</td>
+<td>3.4</td>
+<td>5.1</td>
+<td>12.4%</td>
+<td>13.8%</td>
+<td>9.8%</td>
+<td>12.9%</td>
+</tr><tr><td scope="row">Pensions</td>
+<td>0.6</td>
+<td>1.1</td>
+<td>0.5</td>
+<td>1.3</td>
+<td>1.6%</td>
+<td>3.2%</td>
+<td>1.5%</td>
+<td>3.3%</td>
+</tr><tr><td scope="row">SSI</td>
+<td>2.2</td>
+<td>3.3</td>
+<td>2.8</td>
+<td>2.9</td>
+<td>6.2%</td>
+<td>9.8%</td>
+<td>8.1%</td>
+<td>7.5%</td>
+</tr><tr><td scope="row">Public Assistance</td>
+<td>1.3</td>
+<td>1.9</td>
+<td>1.2</td>
+<td>2.2</td>
+<td>3.7%</td>
+<td>5.6%</td>
+<td>3.3%</td>
+<td>5.6%</td>
+</tr><tr><td scope="row">All Other</td>
+<td>3.4</td>
+<td>4.4</td>
+<td>2.0</td>
+<td>3.2</td>
+<td>9.5%</td>
+<td>13.1%</td>
+<td>5.7%</td>
+<td>8.2%</td>
+</tr><tr><td scope="row">Total Poor</td>
+<td>35.2</td>
+<td>33.8</td>
+<td>35.1</td>
+<td>39.2</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr></tbody></table><p>The demographic mix of the poverty population in SIPP compared to that in the CPS has a somewhat higher share of children, and lower share of non-aged adults and elderly, which might lead to lower recipiency rates. Nonetheless, the overall recipiency rate for income among the poor in SIPP is higher than CPS, particularly for self-employment, pensions, SSI and public assistance. In contrast, MEPS poverty rates by demographic group are designed and in fact are close or identical to those in CPS. It would be reasonable for the pattern of receipt of income by source for the poor in MEPS to also be highly similar to that in CPS. However, recipiency by income source for the poor in MEPS is not close to CPS. Recipiency is higher for wages and salaries, earnings, and SSI, and lower for self-employment, property income, and “all other”.</p>
+<p>Another way of comparing the picture of the poverty population provided by different surveys is to look at the share of income and of income recipients accounted for by the poor. These relative shares standardize for the different levels of aggregate income by source in the different surveys. Table 14 shows the relative shares of total income and income recipients by source represented by the poor in the three surveys collecting income amounts by source. The poor account for the majority of public assistance income and recipients in the three surveys. However, the relative share of public assistance income ranges from 49.4 percent in SIPP to 72.5 percent in MEPS, and the proportion of recipients ranges from56 to 66 percent. The income source with the second largest share accounted for by the poor is SSI. The proportion of total SSI estimated to be received by the poverty population is virtually identical among surveys – 37.8 or 37.9 percent -- although the dollar aggregates differ substantially, and there is some range – 39.5 percent in SIPP to 44.4 percent in CPS – in the percent of SSI recipients accounted for by the poor. The third income source estimated to have significant relative shares accounted for by poor is Social Security – 5.6 to 6.8 percent of dollars and 9.2 to 10.9 percent of recipients. The poor account for negligible shares of other individual sources of income (detail not shown).</p>
+<p><a href="#contents">table of contents</a></p>
+<table><caption><strong><a id="t14" name="t14"></a>Table 14. Poor: Share of Total Income and Recipients by Source</strong></caption>
+<tbody><tr><td rowspan="2"> </td>
+<td scope="col">Percent of Dollars</td>
+<td scope="col">Percent of Recipients</td>
+</tr><tr><td scope="col">CPS</td>
+<td scope="col">SIPP</td>
+<td scope="col">MEPS</td>
+<td scope="col">CPS</td>
+<td scope="col">SIPP</td>
+<td scope="col">MEPS</td>
+</tr><tr><td scope="row">Total</td>
+<td>1.7%</td>
+<td>2.0%</td>
+<td>1.9%</td>
+<td>12.3%</td>
+<td>11.9%</td>
+<td>12.3%</td>
+</tr><tr><td scope="row">Earned Income</td>
+<td>1.0%</td>
+<td>1.2%</td>
+<td>1.4%</td>
+<td>5.7%</td>
+<td>6.0%</td>
+<td>6.5%</td>
+</tr><tr><td scope="row">Property Income</td>
+<td>1.6%</td>
+<td>3.4%</td>
+<td>1.5%</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><td scope="row">Social Security</td>
+<td>6.8%</td>
+<td>6.4%</td>
+<td>5.6%</td>
+<td>10.9%</td>
+<td>10.5%</td>
+<td>9.2%</td>
+</tr><tr><td scope="row">Pensions</td>
+<td>0.9%</td>
+<td>0.9%</td>
+<td>0.5%</td>
+<td>3.0%</td>
+<td>3.7%</td>
+<td>2.4%</td>
+</tr><tr><td scope="row">SSI</td>
+<td>37.8%</td>
+<td>37.9%</td>
+<td>37.8%</td>
+<td>44.4%</td>
+<td>39.5%</td>
+<td>44.1%</td>
+</tr><tr><td scope="row">Public Assistance</td>
+<td>57.3%</td>
+<td>49.4%</td>
+<td>72.5%</td>
+<td>59.7%</td>
+<td>55.9%</td>
+<td>66.0%</td>
+</tr><tr><td scope="row">All Other</td>
+<td>6.6%</td>
+<td>8.4%</td>
+<td>5.4%</td>
+<td>12.3%</td>
+<td>13.9%</td>
+<td>9.3%</td>
+</tr></tbody></table><p>Notes: 1. Property income includes interest and dividends, IRAs, and rents, royalties, and estates. 2. Unduplicated recipients of property income not calculated.</p>
+<p><em>4.2 Income of the Elderly.</em> Table 15 shows aggregate income by source and its’ percent distribution by source for persons age 65 and over in the three surveys collecting income amounts by source. The survey differences in overall amounts of income for the elderly are not nearly as large as for the total population. This is due in part to the fact that the largest differences among surveys are in earned income, which is much less important as a source of income for the elderly than for the population as a whole. However, income by source for the elderly varies much more among surveys than for the population as a whole. While CPS has the highest and SIPP the lowest amounts of aggregate income for the total population, MEPS has the highest level of aggregate income for the elderly, and SIPP still has the lowest.</p>
+<p>The most important source of income for the elderly is Social Security, which is highest in CPS at $307.0 billion and lowest in MEPS at $286.3 billion. The share of income accounted for by Social Security ranges from 36.8 percent in MEPS to 42.6 percent in SIPP. The second most important source varies among surveys – in SIPP it is other pensions at 26.3 percent, in MEPS it is wages and salaries at 25.3 percent, and in CPS, other pensions at 20.0 percent. When Social Security, other pensions and IRAs are combined to constitute retirement income, total amounts range from $453.0 billion in CPS to $499.7 billion in SIPP, and the share of total income provided by retirement income varies from 60.3 percent in MEPS to 74.7 percent in SIPP.</p>
+<p>Total earned income (wages and salaries and self-employment) of the elderly has greater range than retirement income for dollar amounts but less variation in the share of income. Earnings of the elderly are lowest in SIPP– $117.6 billion and 17.0 percent of income – and highest in MEPS – $206.8 billion and 26.6 percent – with CPS at $156.7 billion and 21.4 percent. The relative importance of wages and salaries and self-employment also varies sharply among surveys. SIPP, which has substantially lower amounts and shares of earnings for the elderly than CPS or MEPS, has much higher amounts and shares of self-employment income. Property income (interest, dividends, rents, royalties etc.) also differs substantially among surveys, ranging from $55.6 billion and 8.0 percent in SIPP to $102.6 billion and 14.0 percent in CPS. SSI and all other sources together account for approximately two percent of the income of the elderly. Very little of the SSI income reported in the three surveys is received by elderly persons; the majority (76 to 81 percent) of SSI income is reported by persons under 65.</p>
+<p><a href="#contents">table of contents</a></p>
+<table><caption><strong><a id="t15" name="t15"></a>Table 15. Elderly: Amount and Distribution of Income by Source</strong></caption>
+<tbody><tr><td rowspan="2"> </td>
+<td scope="col">Billions of Dollars</td>
+<td scope="col">Percent Distribution by Source</td>
+</tr><tr><td scope="col">CPS</td>
+<td scope="col">SIPP</td>
+<td scope="col">MEPS</td>
+<td scope="col">CPS</td>
+<td scope="col">SIPP</td>
+<td scope="col">MEPS</td>
+</tr><tr><td scope="row">Total Income</td>
+<td>730.8</td>
+<td>690.2</td>
+<td>777.4</td>
+<td>100.0%</td>
+<td>100.0%</td>
+<td>100.0%</td>
+</tr><tr><td scope="row">Wages and Salaries</td>
+<td>132.9</td>
+<td>77.4</td>
+<td>196.7</td>
+<td>18.2%</td>
+<td>11.2%</td>
+<td>25.3%</td>
+</tr><tr><td scope="row">Self Employment</td>
+<td>23.8</td>
+<td>40.2</td>
+<td>10.1</td>
+<td>3.3%</td>
+<td>5.8%</td>
+<td>1.3%</td>
+</tr><tr><td scope="row">Total Earnings</td>
+<td>156.7</td>
+<td>117.6</td>
+<td>206.8</td>
+<td>21.4%</td>
+<td>17.0%</td>
+<td>26.6%</td>
+</tr><tr><td scope="row">Interest and Dividends</td>
+<td>83.5</td>
+<td>43.0</td>
+<td>75.4</td>
+<td>11.4%</td>
+<td>6.2%</td>
+<td>9.7%</td>
+</tr><tr><td scope="row">IRAs</td>
+<td> </td>
+<td>24.2</td>
+<td>36.8</td>
+<td> </td>
+<td>3.5%</td>
+<td>4.7%</td>
+</tr><tr><td scope="row">Rents, Royalties and Estates</td>
+<td>19.1</td>
+<td>12.3</td>
+<td>10.7</td>
+<td>2.6%</td>
+<td>1.8%</td>
+<td>1.4%</td>
+</tr><tr><td scope="row">Social Security</td>
+<td>307.0</td>
+<td>293.8</td>
+<td>286.3</td>
+<td>42.0%</td>
+<td>42.6%</td>
+<td>36.8%</td>
+</tr><tr><td scope="row">Pensions</td>
+<td>146.0</td>
+<td>181.7</td>
+<td>144.2</td>
+<td>20.0%</td>
+<td>26.3%</td>
+<td>18.5%</td>
+</tr><tr><td scope="row">Retirement Income</td>
+<td>453.0</td>
+<td>499.7</td>
+<td>467.3</td>
+<td>62.0%</td>
+<td>74.7%</td>
+<td>60.3%</td>
+</tr><tr><td scope="row">SSI</td>
+<td>5.0</td>
+<td>6.4</td>
+<td>9.3</td>
+<td>0.7%</td>
+<td>0.9%</td>
+<td>1.2%</td>
+</tr><tr><td scope="row">All Other</td>
+<td>13.6</td>
+<td>11.3</td>
+<td>8.0</td>
+<td>1.9%</td>
+<td>1.6%</td>
+<td>1.0%</td>
+</tr></tbody></table><p>Notes:1. Retirement income includes Social Security (including Railroad Retirement), other pensions, and IRA withdrawals. 2. Small amount (under 0.3) of Public Assistance included in All Other category.</p>
+<p>Table 16 shows unduplicated recipients, and recipiency rates (percent with that income source) by income source for the population aged 65 and over. There is somewhat less disparity among the surveys in number of recipients for each income source than in the percent distribution of income by source. Nonetheless, there are sizeable differences among surveys. MEPS has three million fewer elderly receiving Social Security than SIPP, and CPS and NHIS have two million fewer Social Security recipients than SIPP. MEPS also has 3.5 million more elderly with earned income from a job or self-employment than CPS, and over three million more than SIPP or NHIS. SIPP finds other pension received by over half the elderly, compared to 40 percent in MEPS and 34 percent in CPS. As with the income amounts, the picture of the sources and composition of support for the elderly differ significantly from survey to survey.</p>
+<p>Overall, the highest recipiency is found in SIPP. SIPP also has a higher recipiency rate than CPS, MEPS or NHIS for each individual income source except wages and salaries and IRA withdrawals. For both of these sources MEPS has much higher numbers (and rates) of recipiency. As with the overall and adult populations, recipiency rates suggest SIPP is finding more sources of income per person than the other surveys.</p>
+<p><a href="#contents">table of contents</a></p>
+<table><caption><strong><a id="t16" name="t16"></a>Table 16. Elderly: Unduplicated Recipients and Recipient Rates by Income Source</strong></caption>
+<tbody><tr><td rowspan="2"> </td>
+<td scope="col">Millions of Elderly (Age 65 and Over)</td>
+<td scope="col">Percent with Income</td>
+</tr><tr><td scope="col">CPS</td>
+<td scope="col">SIPP</td>
+<td scope="col">MEPS</td>
+<td scope="col">NHIS</td>
+<td scope="col">CPS</td>
+<td scope="col">SIPP</td>
+<td scope="col">MEPS</td>
+<td scope="col">NHIS</td>
+</tr><tr><td scope="row">Total With Income</td>
+<td>33.3</td>
+<td>33.8</td>
+<td>33.1</td>
+<td>32.6</td>
+<td>97.2%</td>
+<td>99.6%</td>
+<td>96.9%</td>
+<td>95.1%</td>
+</tr><tr><td scope="row">Wages and Salaries</td>
+<td>4.8</td>
+<td>4.4</td>
+<td>8.8</td>
+<td>4.6</td>
+<td>14.1%</td>
+<td>13.0%</td>
+<td>25.6%</td>
+<td>13.5%</td>
+</tr><tr><td scope="row">Self Employment</td>
+<td>0.9</td>
+<td>1.7</td>
+<td>0.6</td>
+<td>1.8</td>
+<td>2.6%</td>
+<td>4.9%</td>
+<td>1.8%</td>
+<td>5.4%</td>
+</tr><tr><td scope="row">Total Earnings</td>
+<td>5.6</td>
+<td>5.9</td>
+<td>9.1</td>
+<td>6.0</td>
+<td>16.3%</td>
+<td>17.3%</td>
+<td>26.6%</td>
+<td>17.5%</td>
+</tr><tr><td scope="row">Interest and Dividends</td>
+<td>18.6</td>
+<td>24.3</td>
+<td>19.3</td>
+<td>15.6</td>
+<td>54.4%</td>
+<td>71.4%</td>
+<td>56.6%</td>
+<td>45.6%</td>
+</tr><tr><td scope="row">IRAs</td>
+<td> </td>
+<td>4.6</td>
+<td>7.1</td>
+<td> </td>
+<td> </td>
+<td>13.5%</td>
+<td>20.8%</td>
+<td> </td>
+</tr><tr><td scope="row">Rents, Royalties and Estates</td>
+<td>2.2</td>
+<td>2.8</td>
+<td>1.2</td>
+<td> </td>
+<td>6.4%</td>
+<td>8.4%</td>
+<td>3.5%</td>
+<td> </td>
+</tr><tr><td scope="row">Social Security</td>
+<td>30.5</td>
+<td>32.5</td>
+<td>29.3</td>
+<td>30.6</td>
+<td>89.1%</td>
+<td>95.7%</td>
+<td>85.8%</td>
+<td>89.6%</td>
+</tr><tr><td scope="row">Pensions</td>
+<td>11.7</td>
+<td>18.2</td>
+<td>13.8</td>
+<td>12.8</td>
+<td>34.0%</td>
+<td>53.7%</td>
+<td>40.5%</td>
+<td>37.3%</td>
+</tr><tr><td scope="row">SSI</td>
+<td>1.2</td>
+<td>2.0</td>
+<td>1.5</td>
+<td>1.4</td>
+<td>3.5%</td>
+<td>6.0%</td>
+<td>4.4%</td>
+<td>4.1%</td>
+</tr><tr><td scope="row">Public Assistance</td>
+<td>0.1</td>
+<td>0.2</td>
+<td>0.0</td>
+<td>0.1</td>
+<td>0.3%</td>
+<td>0.7%</td>
+<td>0.0%</td>
+<td>0.4%</td>
+</tr><tr><td scope="row">All Other</td>
+<td>1.8</td>
+<td>2.2</td>
+<td>1.2</td>
+<td>1.0</td>
+<td>5.4%</td>
+<td>6.5%</td>
+<td>3.5%</td>
+<td>3.0%</td>
+</tr><tr><td scope="row">Total Elderly Population</td>
+<td>34.2</td>
+<td>34.0</td>
+<td>34.2</td>
+<td>34.2</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr></tbody></table><p><a href="#contents">table of contents</a></p>
+<h2><strong><a id="five" name="five"></a>5.  Conclusions</strong></h2>
+<p>In evaluating policy options, analysts must be aware of the strengths and weaknesses of potential or alternative sources of estimates. Indeed, this study finds that measures of income and income recipiency vary substantially among the surveys even when comparable estimates of family income in 2002 are constructed for each survey. Policy analysts also have a responsibility to inform policy officials of the impact that alternative sources of estimates are likely to have on findings and consequent policy options due to differences in income measures and other survey characteristics.</p>
+<p>At the same time, policy analysts may not be able to use the surveys with the best income data because other essential data are not also collected by those surveys. If detailed health data is needed, the CPS  – the official source of income and poverty statistics -- cannot be used.  Similarly, policy analysis for many Federal programs frequently requires information on <em>each</em> person in a family in order to calculate eligibility of units that are smaller than the family. Without this information, “what-if” scenarios looking at persons who are eligible but not participating, or who would become eligible if the program is changed, cannot be constructed. The NHIS cannot be used for such analysis since it lacks person-level income data; has family income measured only as a range; and uses a definition of “marriage” not currently in use for any Federally-funded transfer programs.</p>
+<p>The different survey definitions of a family have significant impacts on estimates of family size, family income and poverty rates, all of which are important for policy analysis. The broader NHIS family definition used in MEPS and NHIS greatly reduces estimates of single persons, increases family size and income, and appears to reduce the number of persons in poverty at a given level of income reporting. Policy analysis based on either of those surveys must be sensitive to the choice of family definition. Also, as discussed in the paper, additional issues arise in developing comparable poverty estimates for MEPS that need to be resolved.</p>
+<p>While there are large differences among the surveys in estimates of total income and  income by source for the U.S. population for this time period, the distribution by source is remarkably consistent. At the same time, the surveys provide sharply different counts of adults with earnings – wages and salaries and self employment -- the most important source of income for adults in the United States. There are even greater differences among the survey estimates of the number with wages and salaries. Examination of populations important for policy purposes also finds very different pictures of target populations. The size and demographic composition of the poverty population as well as its sources of income varies considerably among surveys.</p>
+<p>The elderly, for whom survey estimates of aggregate income and poverty are closer than for adults of all ages, have much more variation in income by source than the population as a whole. The relative importance of retirement and earned income varies sharply among surveys. For the elderly, the income source and impact on retirement decisions and well-being after retirement are critical policy concerns.</p>
+<p>Earnings account for 83 percent of all income, and atypical patterns naturally raise questions. MEPS income and JOBS data taken together find over 163 million unduplicated persons all ages (160 million adults) reporting earnings and/or a job, compared to 151 million all ages (148 million adults) in CPS, or 155 million all ages (151 million adults) in SIPP. These large differences in employment require an explanation, especially given that the principal focus of the CPS is National employment and labor force data, for which it is the official source.</p>
+<p>CPS, SIPP and NHIS have screeners and edits that make it impossible (with minor exceptions) for a person to have employment but no earnings or to have earnings without employment. This is not the case in MEPS, which has 6.6 million persons with reported earned income but no employment record and 2.6 million persons with employment records but no reported earnings (and no imputed earnings). For another 25 million persons, the source of earnings – wages and salaries or self-employment – differs between the public use file income data and their type of employment in JOBS file records. Clearly increased attention to editing of MEPS employment and earned income data for consistency would enhance data quality and utility.</p>
+<p>Different estimates of the poverty rates of important demographic groups suggest that design, estimated costs and estimated impacts of policy options for assisting low income populations would vary depending on the survey used<strong>.</strong>  For example, program interventions involving a primarily Hispanic population must deal with cultural and language issues that would not apply to other populations. SIPP tends to have the lowest poverty rates, suggesting that it is more successful than the other surveys in capturing income at the lower end of the income distribution. This presumably reflects the greater detail of its’ income questions, which were designed by policy analysts to improve income information about low income persons. SIPP is therefore likely to yield the lowest cost estimates, whereas NHIS has significantly higher poverty rates, except for children and Blacks, and is likely to yield quite different results.</p>
+<p><strong>Acknowledgments</strong></p>
+<p>The authors greatly appreciate the assistance provided by MEPS staff.</p>
+<p><a href="#contents">table of contents</a></p>
+<h2><a id="appa" name="appa"></a>Appendix A</h2>
+<table><caption><strong>Income Source Variables for Tabulations on Four Surveys, Income Year 2002 (Variables define recipiency; consistent variables used for amounts)</strong></caption>
+<tbody><tr><td> </td>
+<td scope="col">CPS</td>
+<td scope="col">SIPP</td>
+<td scope="col">MEPS</td>
+<td scope="col">NHIS</td>
+</tr><tr><td scope="row">File</td>
+<td>2003 Annual Social and Economic Supplement</td>
+<td>2001 Panel</td>
+<td>2002 Full Year File</td>
+<td>2003 NHIS</td>
+</tr><tr><td scope="row">Total Income (CPS Definition)</td>
+<td>PTOTVAL&gt; 0    </td>
+<td>TPTOTINC &gt;0 and/or EEDFUND = 1</td>
+<td>TTLP02X </td>
+<td>Any item</td>
+</tr><tr><td scope="row">Wages and Salaries</td>
+<td>WSAL-YN; OI-YN (15,16)</td>
+<td>TPMSUM1&gt; 0 and/or ER15 &gt; 0; (for $, also TPMSUM2;TMLMSUM)</td>
+<td>WAGEP02X</td>
+<td>PSAL</td>
+</tr><tr><td scope="row">Self-employment</td>
+<td>SEMP-YN; FRSE-YN; OI-YN (17, 18)</td>
+<td>TBMSUM1 &gt; 0 (for $, also TBMSUM2)</td>
+<td>BUSNP02X</td>
+<td>PSEINC</td>
+</tr><tr><td scope="row">Interest and Dividends</td>
+<td>INT-YN; DIV-YN; OI-YN (5,6) <a href="#tn1">(See Note 1) </a></td>
+<td>TINTINC &gt; 0 and/or TDIVINC &gt; 0 and/or TRNDUP2 &gt; 0</td>
+<td>INTRP02X; DIVDP02X</td>
+<td>PINTRSTR and/or PDIVD</td>
+</tr><tr><td scope="row">Rents, Royalties, Estates and Trusts</td>
+<td>RNT-YN; SUR-SC1(8); SUR-SC2(8);  OI-YN (7,8)</td>
+<td>ER37; ER53; TJACLR &gt; 0 and/or TJACLR2 &gt; 0 and/or TOACLR &gt; 0; TRNDUP1 &gt; 0</td>
+<td>TRSTP02X</td>
+<td> </td>
+</tr><tr><td scope="row">IRA Income</td>
+<td>RET-SC1(7); RET-SC2(7)</td>
+<td>ER42</td>
+<td>IRASP02X</td>
+<td> </td>
+</tr><tr><td scope="row">Pensions</td>
+<td>SUR-SC1(except 5,8); SUR-SC2(except 5,8); DIS-SC1(except 1,6,8); DIS-SC2(except 1,6,8); RET-SC1(except 5,7); RET-SC2(except 5,7); OI-YN (2,10,13)</td>
+<td>ER30; ER31; ER32; ER34; ER35; ER36; ER38; ER13</td>
+<td>PENSP02X</td>
+<td>PPENS; POPENS</td>
+</tr><tr><td scope="row">Social Security and Railroad Retirement</td>
+<td>SS-YN; SUR-SC1(5); SUR-SC2(5); DIS-SC1(6); DIS-SC2(6); RET-SC1(5); RET-SC2(5); OI-YN (1)</td>
+<td>ER01A; ER01K; ER02</td>
+<td>SSECP0X</td>
+<td>PSSRR</td>
+</tr><tr><td scope="row">SSI</td>
+<td>SSI-YN</td>
+<td>ER03A; ERO3K; ER04</td>
+<td>SSIP02X</td>
+<td>PSSI</td>
+</tr><tr><td scope="row">Public Assistance (cash only)</td>
+<td>PAW-YN; OI-YN (3,4)</td>
+<td>ER20; ER21;ER23; ER24</td>
+<td>PUBP02X</td>
+<td>PTANF</td>
+</tr><tr><td scope="row">Unemployment Compensation</td>
+<td>UC-YN; OI-YN (11,12)</td>
+<td>ER05; ER07</td>
+<td>UNEMP02X</td>
+<td>(<a href="#tn2">see Note 5</a>)</td>
+</tr><tr><td scope="row">Workers Compensation and Veterans Benefits</td>
+<td>WC-YN if WC-TYPE = 1,2; DIS-SC1(1,8); DIS-SC2(1,8);  OI-YN (9); VET-YN</td>
+<td>ER10; ER12; ER14; ER08</td>
+<td>WCMP02X; VETSP02X</td>
+<td>(<a href="#tn2">see Note 5</a>)</td>
+</tr><tr><td scope="row">Child Support and Alimony</td>
+<td>CSP-YN; ALM-YN</td>
+<td>ER28; ER29; ER26</td>
+<td>CHILDP02X; ALIMP02X</td>
+<td>PCHLDSP (<a href="#tn2">see Note 5</a>)</td>
+</tr><tr><td scope="row">Financial Assistance, Educational Aid (non-VA) and Other Cash Income</td>
+<td>FIN-YN; ED-YN; OI-YN (19), WC-YN if WC_TYPE=3,4</td>
+<td>ER50; ER51; ER55; ER56; ER75; EEDFUND = 1</td>
+<td>CASHP02X; OTHRP02X</td>
+<td>PINCOT <a href="#tn2">(see Note 5) </a></td>
+</tr></tbody></table><p>Notes:<a id="tn1" name="tn1"></a>1. CPS recipiency of dividends restricted to non-zero dollar amounts -- positive value for DIV-YN is based on asset ownership and includes over two million persons with zero dividend income 2. Pension category includes disability and survivors benefits, and own disability insurance 3. Workers Compensation and Veterans Benefits category includes Black Lung and excludes own insurance, and survivors benefits from Workers Compensation and Black Lung 4. Four items – Unemployment Compensation, Workers Compensation and Veterans Benefits, Child Support and Alimony, and Financial Assistance, Educational Aid (non-VA) and Other Cash Income – are aggregated in the analysis in the category “All Other”.<a id="tn5" name="tn5"></a>5. In NHIS, alimony, Veterans Benefits, Workers Compensation, Unemployment Compensation and contributions from family/others are included in PINCOT, which is shown here as the category financial assistance/other cash income.</p>
+<p><a href="#contents">table of contents</a></p>
+<h2><a id="appb" name="appb"></a>Appendix B</h2>
+<table><caption><strong>Exhibit 1A. Survey Design</strong></caption>
+<tbody><tr><td> </td>
+<td scope="col">Current Population Survey</td>
+<td scope="col">Survey of Income and Program Participation</td>
+</tr><tr><td scope="row">Design Summary</td>
+<td>Annual cross-section household survey at fixed point in time collecting detailed prior calendar year income and current labor force and demographic data</td>
+<td>Longitudinal panel survey collecting detailed monthly income and a broad range of other data through interviews at 4 month intervals, with most recent panels started in 2001 and 2004</td>
+</tr><tr><td scope="row">Universe</td>
+<td>Resident civilian noninstitutionalized population of the US plus military living with civilian family members on or off base</td>
+<td>Resident civilian noninstitutionalized population of the US plus military living with civilian family members on or off base</td>
+</tr><tr><td scope="row">Exclusions</td>
+<td>Unrelated children under 15 in group quarters e.g. shelters</td>
+<td>Unrelated children under 15 in group quarters e.g. shelters</td>
+</tr><tr><td scope="row">Sample Size</td>
+<td>78,300 interviewed households in 2003 (2002 income)</td>
+<td>28,000 interviewed households in 2001 panel (post-reduction)</td>
+</tr><tr><td scope="row">Sample Design</td>
+<td>Multi-stage sampling design at the State level with sub-State samples in NY and CA</td>
+<td>Multi-stage sampling design at the National level with sample drawn at beginning of each new panel</td>
+</tr><tr><td scope="row">Oversamples</td>
+<td>Hispanics, non-Whites, and Whites with children under 19</td>
+<td>Low income areas</td>
+</tr><tr><td scope="row">Data Collection</td>
+<td>Data collected once from each household through personal and phone interviews February through April, with bulk of data collection in March (2002 forward)One person per household responds for household</td>
+<td>Data collected from each household through 9 personal and phone interviews at 4 month intervals (2001 panel) -- rotation groups provide continuous fieldworkEach person 15 or over responds for self</td>
+</tr><tr><td scope="row">Longitudinal         </td>
+<td> </td>
+<td>Movers followed to new locations and move-ins interviewed while living with sample personsInstitutionalized not interviewed and data for decedents is last interview outside an institution before death</td>
+</tr><tr><td scope="row">Response Rates and Attrition</td>
+<td>2003 Supplement month response to CPS-1 (underlying monthly survey): 92.2% – supplement data is imputed for CPS-1 responders who refuse supplement</td>
+<td>2001 panel initial response: 87.7%Average 6.5% attrition wave to wave (4 months) after wave 2</td>
+</tr></tbody></table><p><a href="#contents">table of contents</a></p>
+<p> </p>
+<table><caption><strong>Exhibit 1B. Survey Design</strong></caption>
+<tbody><tr><td> </td>
+<td scope="col">Medical Expenditure Panel Survey</td>
+<td scope="col">National Health Interview Survey</td>
+</tr><tr><td scope="row">Design Summary</td>
+<td>Longitudinal panel survey collecting monthly event-level health data and prior calendar year income data through interviews at 6 month intervals, with panels starting annually</td>
+<td>Annual cross-section household survey collecting prior month and year health data and prior calendar year income data continuously during the year (rolling sample)</td>
+</tr><tr><td scope="row">Universe</td>
+<td>Resident civilian noninstitutionalized population of the US (military living with civilian family members excluded but their income included in the income of their civilian family)</td>
+<td>Resident civilian noninstitutionalized population of the US (military living with civilian family members excluded but their income included in the income of their civilian family)</td>
+</tr><tr><td scope="row">Exclusions</td>
+<td>Unrelated minors (usually under age 18) in households or group quarters if not foster children</td>
+<td>Unrelated minors (usually under age 18) in households or group quarters if not foster children</td>
+</tr><tr><td scope="row">Sample Size</td>
+<td>14,700 interviewed families in 2002 (2002 income)</td>
+<td>Over 36,000 interviewed families in 2003 (2002 income)</td>
+</tr><tr><td scope="row">Sample Design</td>
+<td>Sub-sample of persons interviewed by NHIS during previous year</td>
+<td>Multi-stage sampling design at the National level with 1/4 of annual sample drawn quarterly</td>
+</tr><tr><td scope="row">Oversamples</td>
+<td>Blacks, Hispanics, Asians, and families predicted to have income less than 200% of poverty</td>
+<td>Blacks and Hispanics</td>
+</tr><tr><td scope="row">Data Collection</td>
+<td>Data collected from each household through 5 personal and phone interviews at approximately 6 month intervals in fairly continuous fieldwork-One person per family responds for family</td>
+<td>Data collected once from each household through personal interviews in continuous fieldwork – 1/52 of sample per week-One person knowledgeable about family health responds for family but any adult present may respond for self</td>
+</tr><tr><td scope="row">Longitudinal</td>
+<td>Movers followed to new locations and move-ins interviewed while living with sample persons-Institutionalized not interviewed but data for decedents collected until death</td>
+<td> </td>
+</tr><tr><td scope="row">Response Rates and Attrition</td>
+<td>Initial response (including frame): 70%Average 2% attrition wave to wave (6 months) after wave 1</td>
+<td>2003 response: 89.2%</td>
+</tr></tbody></table><p><a href="#contents">table of contents</a></p>
+<table><caption><strong>Exhibit 2A. Income DataExhibit 2A. Income Data</strong></caption>
+<tbody><tr><td> </td>
+<td scope="col">Current Population Survey</td>
+<td scope="col">Survey of Income and Program Participation</td>
+</tr><tr><td scope="row">Definitions Differ From CPS</td>
+<td>  </td>
+<td>Self-employment is monthly draw plus net profit (cash basis) and never negative-Includes lump-sum or non-periodic payments such as IRA withdrawals-Excludes educational benefits</td>
+</tr><tr><td scope="row">Amount Detail For Persons</td>
+<td>Over 50 sources and up to 24 amounts of income</td>
+<td>Up to 60 sources and amounts of income</td>
+</tr><tr><td scope="row">Person and Family Totals</td>
+<td>Sum of detail for persons and family</td>
+<td>Sum of detail for persons and family</td>
+</tr><tr><td scope="row">Persons Covered</td>
+<td>All persons for Social Security, SSI and TANF-Persons 15 or over for all other income sources-For persons under 15, Social Security, SSI and TANF assigned to a representative payee or guardian</td>
+<td>All persons for Social Security, SSI and TANFPersons 15 or over for all other income sources-For persons under 15, Social Security, SSI and TANF assigned to a representative payee or guardian</td>
+</tr><tr><td scope="row">Reference Period</td>
+<td>Prior calendar year</td>
+<td>Monthly and 4-month periods in prior 4 months</td>
+</tr><tr><td scope="row">Recall Length</td>
+<td>Average 14 ½ months maximum 15 ½ months</td>
+<td>Average 3 months maximum 5 months</td>
+</tr></tbody></table><p><a href="#contents">table of contents</a></p>
+<table><caption><strong>Exhibit 2B. Income Amounts and Recipiency</strong></caption>
+<tbody><tr><td>           </td>
+<td scope="col">Medical Expenditure Panel Survey</td>
+<td scope="col">National Health Interview Survey</td>
+</tr><tr><td scope="row">Definitions Differ From CPS</td>
+<td>Internal Revenue Service definitions used for tax filers <a href="#tn3">Note 1</a> -Wages omit “above the line” item such as 401(k) contributions -Self-employment earnings other than sole proprietorships and farm reported with rents, royalties, estates and trusts- Includes taxable lump-sum or non-periodic payments- Excludes tax exempt interest for tax filers</td>
+<td>Earnings amount includes net income from rental property and unemployment or worker’s compensation- Recipiency data groupings conform to CPS definitions – rental income is grouped with dividends, estates and trusts</td>
+</tr><tr><td scope="row">Amount Detail For Persons</td>
+<td>Up to 16 sources and amounts of income-Taxable income sources not person-level for joint return filers -- primary filer allocates amounts between self and spouse-Additional data on employment in separate JOBS file</td>
+<td>One bracket for total earnings from all sources-Recipiency but no amounts for up to 10 other sources – public use file has no imputations of recipiency-Brackets on public use file are $5,000 wide below $25,000 and $10,000 wide from $25,000 to $75,000</td>
+</tr><tr><td scope="row">Person and Family Totals</td>
+<td>Sum of detail for persons and family</td>
+<td>One bracket for total income of NHIS-type familyBrackets on public use file are $5,000 wide below $25,000 and $10,000 wide from $25,000 to $75,000-NCHS creates 5 files of imputations and recommends that analyses be performed 5 times and results averaged</td>
+</tr><tr><td scope="row">Persons Covered</td>
+<td>Persons 16 or over, and persons under 16 who report filing a tax return, for taxable income source-All persons for all other income sources</td>
+<td>Persons 18 or over for earnings</td>
+</tr><tr><td scope="row">Reference Period</td>
+<td>Prior calendar year</td>
+<td>Prior calendar year</td>
+</tr><tr><td scope="row">Recall Length</td>
+<td>Average 15 months maximum 18 months            </td>
+<td>Average 18 months maximum 23 months</td>
+</tr></tbody></table><p>  <a id="tn3" name="tn3"></a> 1. Filers of tax form 1040EZ are skipped around self-employment income questions, e.g. sole proprietorship (Schedules C), farm (Schedule F) or other business arrangements (Schedule E).</p>
+<p><a href="#contents">table of contents</a></p>
+<table><caption><strong>Exhibit 3A. Top-Codes, Poverty, Weights and Post-Stratification</strong></caption>
+<tbody><tr><td>  </td>
+<td scope="col">Current Population Survey Annual Supplement</td>
+<td scope="col">Survey of Income and Program Participation</td>
+</tr><tr><td scope="row">Earnings Top-Codes</td>
+<td>Wages and salary from longest job top-coded at $200,000-Other wage and salary, self-employment and farm earnings top-coded at $35,000, $50,000 and $25,000 respectively-Value when top-coded is average across top-coded records in each of 12 demographic cells for each earnings source (some cells empty or collapsed)</td>
+<td>Each monthly earnings amount (main job, other wages and salary, and self-employment including farm) top-coded at $12,500 (equivalent to $150,000 annually) if 4-month sum from that source exceeds $50,000-Value when top-coded is average across top-coded records in each of 12 demographic cells for each earnings source (some cells empty or collapsed)</td>
+</tr><tr><td scope="row">Other Income Top-Codes</td>
+<td>Larger of 97th percentile of dollar values or 99.5th percentile of persons 15 or over (whether or not have income)-Value when top-coded is average across top-coded recordsNo top-codes for Social Security, SSI, TANF, unemployment benefits, Workers Compensation and Veterans payments</td>
+<td>Larger of 97th percentile of dollar values or 99.5th percentile of persons 15 or over (whether or not have income)-Value when top-coded is top-codeNo top-codes for Social Security, SSI, TANF, unemployment benefits, Workers Compensation and Veterans payments</td>
+</tr><tr><td scope="row">Poverty Status Family and Date</td>
+<td>Persons related by blood, marriage or adoption (CPS family)-Interview month (usually March) an average of 3 months after income reference year</td>
+<td>Persons related by blood, marriage or adoption (CPS family)-Tabulations use December for construction of family units and consequent family composition and income amounts</td>
+</tr><tr><td scope="row">Poverty Status in Paper</td>
+<td>2002 poverty status of CPS family as of the following March (usually) based on CPS income for year</td>
+<td>December, 2002 based on pre-tax money income for year</td>
+</tr><tr><td scope="row">Weights and Date</td>
+<td>Person, family and household weights for subsequent March for all data collection months</td>
+<td>Person, family and household weights for each month, year, and full panel</td>
+</tr><tr><td scope="row">Universes</td>
+<td>Anyone with person weight has family and household weights – 3 universes the same</td>
+<td>Anyone with person weight has family and household weights – 3 universes the same</td>
+</tr><tr><td scope="row">Person Control Totals</td>
+<td>Age, sex, race/ethnicity, and State of residence</td>
+<td>Age, sex, race/ethnicity, and marital and family status of householder</td>
+</tr><tr><td scope="row">Family Control Totals</td>
+<td>None</td>
+<td>None</td>
+</tr><tr><td scope="row">Income Control Totals </td>
+<td>None</td>
+<td>None</td>
+</tr></tbody></table><p><a href="#contents">table of contents</a></p>
+<table><caption><strong>Exhibit 3B. Top-Codes, Poverty, Weights and Post-Stratifications</strong></caption>
+<tbody><tr><td> </td>
+<td scope="col">Medical Expenditure Panel</td>
+<td scope="col">National Health Interview Survey</td>
+</tr><tr><td scope="row">Earnings Top-Codes</td>
+<td>Wages and salary and self-employment each top-coded at  99th percentile – amount not documented-Top-coded amounts replaced with a “smeared” value</td>
+<td>Total earnings top-coded at $75,000+ bracketValue if top-coded is $75,000+ bracket</td>
+</tr><tr><td scope="row">Other Income Top-Codes</td>
+<td>Other income sources top-coded at the 99th percentile-Person totals separately top-coded at 99th percentile-Top-coded amounts replaced with a “smeared” value</td>
+<td>Family income top-coded at $75,000+ bracket-Value when top-coded is $75,000+ bracket, which includes 28% of persons on 2003 (2002 income) file</td>
+</tr><tr><td scope="row">Poverty Status Family and Date</td>
+<td>Persons related by blood, marriage or adoption (CPS family)-Alternative NHIS family also calculated December 31 of income reference year</td>
+<td>Persons related by blood, marriage or adoption, including foster relationships and unmarried (opposite or same sex) partners (NHIS family)1 to 12 months after income reference year (rolling sample)</td>
+</tr><tr><td scope="row">Poverty Status in Paper</td>
+<td>Calendar year poverty status of CPS-type family as of December 31 based on pre-tax money income for 2002-Calendar year poverty status of NHIS-type family as of December 31 based on pre-tax money income for 2002</td>
+<td>Bracket for 2002 poverty status of NHIS-type family as of interview month based on pre-tax money income for year Brackets on public use file are 25% wide below 200% of poverty and 50% wide from 200 to 500% of poverty</td>
+</tr><tr><td scope="row">Weights</td>
+<td>Person, family and household weights for December of calendar year and full panel</td>
+<td>Person, family and household weights for calendar quarter of interview -- average across quarters is effectively mid-June</td>
+</tr><tr><td scope="row">Universes</td>
+<td>Person universe restricted to original NHIS sample personsCPS-type family universe excludes part of person universe but includes move-ins related by blood or marriage (meeting CPS family definition)-Broader NHIS-type family universe adds unmarried partner move-ins and others (meeting NHIS family definition) to CPS-type family universe</td>
+<td>Anyone with person weight has family and household weights – 3 universes the same                                     Some families with household weights are refusals but family weights not adjusted to compensate</td>
+</tr><tr><td scope="row">Person Control Totals</td>
+<td>Age, sex, race/ethnicity, Census Region, and MSA/non-MSA (and income)</td>
+<td>Age, sex, and race/ethnicity-Weights prior to post-stratification also on file</td>
+</tr><tr><td scope="row">Family Control Totals</td>
+<td>Family type (spouse present or not), family size, age, sex, and race/ethnicity of reference person, MSA/non-MSA, and region for CPS-type familiesCPS has no family control totals so family counts depend on CPS method of calculating family weights <a href="#tn4">note 2 </a></td>
+<td>None</td>
+</tr><tr><td scope="row">Income Control Totals </td>
+<td>CPS poverty rates for persons in CPS-type families as of December 31 – crossed with demographic control totals when person weights calculated</td>
+<td>None</td>
+</tr></tbody></table><p><a id="tn4" name="tn4"></a>2. The CPS family weight is the person weight of the reference person after a family equalization process that ensures husbands and wives have the same weights while overall age, sex, and race/ethnicity control totals are maintained. The method of family equalization depends on household composition and the sex of the reference person: either the householder weight is used for the spouse or partner, or the weights of the householder and spouse or partner are averaged, or a separate ratio adjustment is calculated.</p>
+<p><a href="#contents">table of contents</a></p>
+<h2>Footnotes</h2>
+<p><a id="_ftn1" name="_ftn1"></a>1. Denmead Services &amp; Consulting</p>
+<p><a id="_ftn2" name="_ftn2"></a>2. Office of the Assistant Secretary for Planning and Evaluation, Health and Human Services</p>
+<p><a id="_ftn3" name="_ftn3"></a>3. The views expressed are the authors’ and do not represent the official position of the Department of Health and Human Services.</p>
+<p><a id="_ftn4" name="_ftn4"></a>4. This project is being conducted by Mathematica Policy Research Inc., under Task Order HHSP23320600002T, “Assessing the Quality of Income Data Across Surveys”.</p>
+<p><a id="_ftn5" name="_ftn5"></a>5. Appendix A gives the variables used for recipiency and amounts for each income source for each survey. Exhibits 1 to 3 in Appendix B summarize survey differences in periodicity, question detail, recall interval, control totals and weighting, as well as definitional and other differences affecting income data.</p>
+<p><a id="_ftn6" name="_ftn6"></a>6.Property income consists of interest and dividends, and rents, royalties, and estates.</p>
+<p><a id="_ftn7" name="_ftn7"></a>7.CPS money income excludes lump sums, including irregular withdrawals from IRAs, that are included in SIPP and MEPS. A small amount ($3.3 billion) of IRA distributions were reported in the CPS but are excluded in this paper. Actual IRA distributions net of rollovers in CY2002 were $123.3 billion. (Bryant and Sailer (2006). “Accumulation and Distribution of Individual Retirement Arrangements, 2001-2002", <em>Statistics of Income Bulletin</em>, Spring, 2006. Internal Revenue Service, Washington, D.C.)</p>
+<p><a id="_ftn8" name="_ftn8"></a>8. Weighted item non-response rates in NHIS for adults range from 2.6 percent for wages and salaries to 4.2 percent for “all other” income sources, except for interest and dividends, which have item non-response rates of about seven percent.</p>
+<p><a id="_ftn9" name="_ftn9"></a>9. Mostly (3.8 of 4.0 million) child support, which the NHIS treats as income of the child.</p>
+<p><a id="_ftn10" name="_ftn10"></a>10. More than half of adults reporting earnings but not employment were 65 or over, and their average reported earnings were lower – by about a third -- than those elderly who reported employment.</p>
+<p><a id="_ftn11" name="_ftn11"></a>11. There are data for these 6.3 million persons, but not for one or more other family members; in fact, 3 million persons with data are in families with no data for the family reference person. The number and income of the 6.3 million persons can be determined but not the size or income of the complete family. MEPS public use file poverty status for these persons does not and cannot take into account family members with no data, and is based only on the family members present on the file.</p>
+<p><a id="_ftn12" name="_ftn12"></a>12. The differences are 3.0 million under the CPS family definition and 2.7 million under the NHIS.</p>
+<p><a id="_ftn13" name="_ftn13"></a>13. In MEPS, only original sample persons have person weights, not move-ins joining MEPS families after sample selection. Both have NHIS-type family weights, and most have CPS-type family weights, except move-ins not related by blood or marriage. As measured by family weights, there are 10.4 million in the CPS-type family and 13.0 million in the NHIS-type family universes who are not in the person universe. In addition, the 6.4 million original sample persons in families of “undefined size” have no family weights, so are in the person but not family universe.</p>
+<p><a id="_ftn14" name="_ftn14"></a>14. Counts of poor include a small number of unrelated children under 15 in CPS (616,000) and SIPP. MEPS and NHIS exclude unrelated minors, under 18 except in three States, from the universe.</p>
+<p><a id="_ftn15" name="_ftn15"></a>15. MEPS counts exclude 2.3 million persons in 1.4 million families of “undefined size” who are coded (or calculated) to be below the poverty threshold on the public use file.</p>
+<p><a id="_ftn16" name="_ftn16"></a>16. Again, counts of poor include a small number of unrelated children under 15 in CPS (616,000) and SIPP. MEPS and NHIS exclude unrelated minors, under 18 except in three States, from the universe.</p>
+<p><a id="_ftn17" name="_ftn17"></a>17. From 3,658,000 under the CPS family definition to 3,648,792 under the broader NHIS definition.</p>
+<p><a id="_ftn18" name="_ftn18"></a>18. Poverty status was independently calculated for all persons based on family income and size, and matched poverty codes on the public use files for CPS and SIPP but not MEPS. The MEPS algorithm for poverty status apparently bases family size and income on persons ever in the family, including those deceased, rather than those present December 31. As a result, MEPS and CPS poverty rates do not quite match, although MEPS person weights are adjusted to match CPS poverty rates.</p>
+<p><a href="#contents">table of contents</a></p>
+<p> </p>
+
+  <div class="download_report">
+    
+                        <div class="pdf-prev">
+                <img src="https://aspe.hhs.gov/system/files/pdfpreview/440a87a4201e1ce8af53a79528fa7bc8.png" alt="Preview" title="Preview" />            </div>
+                <a class="btn btn-sm btn-default download-file"
+           href="https://aspe.hhs.gov/system/files/pdf/75526/report.pdf">Download</a>
+
+        <p class="download_title">&quot;report.pdf&quot;
+            (pdf,
+            279.96Kb)</p>
+        <p>Note: Documents in PDF format require the <a href="http://www.adobe.com/products/acrobat/readstep2.html">Adobe
+                Acrobat Reader&reg;</a>. If you experience problems with PDF documents, please <a
+                href="http://www.adobe.com/products/acrobat/readstep2.html">download the latest version of the
+                Reader&reg;</a>
+        </p>
+    </div>
+<div class="group-tags"><div class="field-label">Tags:&nbsp;</div><a href="/terms/data-and-information-policy">Data and Information Policy</a><a href="/terms/data-standards">Data Standards</a><a href="/terms/data-sources-and-statistics">Data Sources and Statistics</a><a href="/terms/survey-data">Survey Data</a><a href="/terms/hhs-data-council">HHS Data Council</a><a href="/terms/poverty-income-and-assets">Poverty, Income, and Assets</a><a href="/terms/measurement-poverty-and-income">Measurement of Poverty and Income</a></div>  </div>
+
+      <footer>
+          </footer>
+  
+    <div id="block-webform-client-block-158521" class="widget block block-webform" >
+  
+      
+  <div id="webform-ajax-wrapper-158521"><form class="webform-client-form webform-client-form-158521" action="/basic-report/measuring-income-and-poverty-four-surveys-overview" method="post" id="webform-client-form-158521" accept-charset="UTF-8"><div><div class="webform-progressbar">
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-radios webform-component--was-this-page-helpful">
+  <label for="edit-submitted-was-this-page-helpful">Was this page helpful? <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-was-this-page-helpful" class="form-radios"><div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-1" name="submitted[was_this_page_helpful]" value="1" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-1">Yes </label>
+
+</div>
+<div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-2" name="submitted[was_this_page_helpful]" value="0" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-2">No </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="4" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-GxdfXiA6de_9D6uN2pwXl2yUefuWLBxP0cfQRmHwFQI" />
+<input type="hidden" name="form_id" value="webform_client_form_158521" />
+<input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-158521" />
+<div class="form-actions"><input class="webform-next button-primary btn btn-default form-submit" type="submit" id="edit-webform-ajax-next-158521" name="op" value="Next &gt;" /></div>
+<div class="is-useful-disclaimer"> <a href="/%23" class="" title="Survey Disclaimer" data-toggle="modal" data-target="#disclamerModal">Form Approved OMB# 0990-0379 Exp. Date 8/31/2017</a></div>
+<div class="modal fade" id="disclamerModal" tabindex="-1" role="dialog" aria-labelledby="disclamerModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="disclamerModalLabel">Survey Disclaimer</h2>
+      </div>
+      <div class="modal-body">
+         According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this information collection is 0990-0379. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, gather the data needed, and complete and review the information collection. If you have comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: U.S. Department of Health & Human Services, OS/OCIO/PRA, 200 Independence Ave., S.W., Suite 336-E, Washington D.C. 20201, Attention: PRA Reports Clearance Officer.      </div>
+    </div>
+  </div>
+</div></div></form></div>
+  </div> <!-- /.block -->
+<meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/measuring-income-and-poverty-four-surveys-overview" itemref="md1" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/measuring-income-and-poverty-four-surveys-overview" itemref="md2 md3 md5 md7 md9 md11 md13 md15 md17" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/data-and-information-policy" id="md5" itemref="md4" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/data-standards" id="md7" itemref="md6" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/data-sources-and-statistics" id="md9" itemref="md8" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/survey-data" id="md11" itemref="md10" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/hhs-data-council" id="md13" itemref="md12" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/poverty-income-and-assets" id="md15" itemref="md14" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/measurement-poverty-and-income" id="md17" itemref="md16" />              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <footer  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Footer">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  id="footer_sitemap-footer_sitemap" class="col-sm-6 col-md-6 col-lg-4 ">
+                          
+                              <div id="block-footer-sitemap-footer-sitemap" class="widget block block-footer-sitemap" >
+  
+      
+  <div id="footer-sitemap" class="clearfix">
+  <div class="fs-block-content"><div class="menu-footer-utility"><ul class="footer_links_menu-footer-utility total-items-2 parent-items-0 single-items-0"><li class="menu-5021 depth-1 total-children-8 parent-children-0 single-children-8  first"><a href="/" title="look at ASPE Home" class="fs-root-link">ASPE Home</a><ul class="footer_links_menu-footer-utility total-items-8 parent-items-0 single-items-0"><li class="menu-5026 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/" title="look at HHS Home">HHS Home</a></li>
+<li class="menu-66281 depth-1 fs-no-children"><a href="http://www.usa.gov/" title="look at USA.gov">USA.gov</a></li>
+<li class="menu-66316 depth-1 fs-no-children"><a href="https://oig.hhs.gov/" title="look at Office of the Inspector General">Office of the Inspector General</a></li>
+<li class="menu-66321 depth-1 fs-no-children"><a href="http://www.whitehouse.gov" title="look at The White House">The White House</a></li>
+<li class="menu-5046 depth-1 fs-no-children"><a href="http://www.hhs.gov/Accessibility.html" title="look at Accessibility">Accessibility</a></li>
+<li class="menu-66326 depth-1 fs-no-children"><a href="http://www.hhs.gov/about/budget/index.html" title="look at Budget/Performance">Budget/Performance</a></li>
+<li class="menu-2551 depth-1 fs-no-children"><a href="http://www.hhs.gov/Privacy.html" title="look at Privacy Policy">Privacy Policy</a></li>
+<li class="menu-197776 depth-1 fs-no-children  last"><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" title="Nondiscrimination Notice">Nondiscrimination Notice</a></li>
+</ul></li>
+<li class="menu-5051 depth-1 total-children-4 parent-children-0 single-children-4  last"><a href="http://www.hhs.gov/foia/" title="look at FOIA" class="fs-root-link">FOIA</a><ul class="footer_links_menu-footer-utility total-items-4 parent-items-0 single-items-0"><li class="menu-5056 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/open/recordsandreports/plainwritingact/index.html" title="look at Plain Writing Act">Plain Writing Act</a></li>
+<li class="menu-5061 depth-1 fs-no-children"><a href="http://www.hhs.gov/asa/eeo/no_fear_bullet_3.html" title="look at No Fear Act">No Fear Act</a></li>
+<li class="menu-5066 depth-1 fs-no-children"><a href="http://www.hhs.gov/Disclaimer.html" title="look at Disclaimers">Disclaimers</a></li>
+<li class="menu-2546 depth-1 fs-no-children  last"><a href="http://www.hhs.gov/plugins.html" title="look at Viewers &amp; Players">Viewers &amp; Players</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-5 " id="stability_cms-contact_us">
+                          
+                              <div id="block-stability-cms-contact-us" class="widget block block-stability-cms" >
+  
+      
+  <div class="contacts-widget widget widget__footer">
+	<div class="widget-content">
+		<ul class="contacts-info-list">
+      			<li>
+<!--				<i class="fa fa-map-marker">Address</i>-->
+                <div class="info-icons">
+                    <img  alt="map" class= 'map-icons' src="/sites/all/themes/stability/stability_aspe/images/map.png"/>
+                </div>
+                <div class="info-item">
+					Assistant Secretary for Planning and Evaluation, Room 415F<br />
+U.S. Department of Health and Human Services<br />
+200 Independence Avenue, SW<br />
+Washington, D.C. 20201				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-phone">phone</i>-->
+                <div class="info-icons">
+                    <img alt="phone" src="/sites/all/themes/stability/stability_aspe/images/phone.png"/>
+                </div>
+				<div class="info-item">
+					+1 202.690.7858				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-envelope">email</i>-->
+                <div class="info-icons">
+                    <img alt="mail" src="/sites/all/themes/stability/stability_aspe/images/mail-white.png"/>
+                </div>
+				<span class="info-item">
+					<a href="mailto:osaspeinfo@hhs.gov">osaspeinfo@hhs.gov</a>
+				</span>
+			</li>
+      			                					</ul>
+	</div>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-3 " id="footer">
+                          
+                              <div id="block-block-36" class="widget block block-block" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sign-up</span> for Email Updates</h3>
+		</div>
+    
+  <div class="email_updates">
+<button class="btn btn-default" name="subscribe-button" type="submit" value="subscribe">subscribe</button>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-12 " id="menu-menu-footer-language-menu">
+                          
+                              <div id="block-menu-menu-footer-language-menu" class="widget block block-menu" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Language</span> Assistance Available</h3>
+		</div>
+    
+  <ul class="menu"><li class="first expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#spanish" title="Español">Español</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#chinese" title="繁體中文">繁體中文</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#vietnamese" title="Tiếng Việt">Tiếng Việt</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#korean" title="한국어">한국어</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#tagalog" title="Tagalog">Tagalog</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#russian" title="Русский">Русский</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#arabic" title="العربية">العربية</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#creole" title="Kreyòl Ayisyen">Kreyòl Ayisyen</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#french" title="Français">Français</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#polish" title="Polski">Polski</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#portuguese" title="Português">Português</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#italian" title="Italiano">Italiano</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#german" title="Deutsch">Deutsch</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#japanese" title="日本語">日本語</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#farsi" title="فارسی">فارسی</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#english" title="English">English</a></li>
+</ul></li>
+</ul>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+      </div>
+
+          </div>
+    
+    
+      </footer>
+    
+
+    <!--/PAGEWATCH-->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+                        </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="social-links-wrapper">
+              <span class="social-links-txt">Connect with us</span>
+              <ul class="social-links social-links__dark">
+                                                  <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw-grey.png"/></a></li>
+                                <!--                --><!--                  <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin-grey.png"/></a></li>-->
+<!--                -->
+                                                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>  <script type="text/javascript" src="/sites/default/files/advagg_js/js__VWRymaMz6HfrhnrcJNGcDiSvLVrvhaXvBa7nrBYy8gc__jntPwP3D6myJZH1jW19fXrk5cYMHGRL8NQION22VSEA__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5486d15a696bff0c"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__g6mKbcakHxQkz4ZHYaxdO_xqONINvRMgsHh1zAK-fr0__ATHtEmHaeZ0jidpGU22EkhmPDBSgjD8z0bVDQMI-BIY__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__KUp4PrfOt9BSXUVl8Ctb3dhCMBe4MNVMeb4Gyorx8yY__7g4BeXscCIZAfuu1vxsCj2RIemg-eEK0QpChP9LDmFQ__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__PNjAgubM_3xXRLp4uLsYnv8wQAdT89-RYkSPxT6T45c__rFQwFK4pA5ZaWZSF7FPTfKbbpus0h-5IS8ayrNZGrb4__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__vQiLul2UcfC4nBAR09mhYVBYzRmiNDm2dj3GgSubV38__w84oZe-ZODKe7XnnlbrjV4IWHISOy4PioFEMVgx9hZo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__QJw3g0kOdwsv4twSZLP931zBzsHy50VEHpEN_znIitQ__A6QOuWXElDipBM2iChbWhjAAt3KlUwZ-jODoxdpbwiw__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stability_aspe","theme_token":"MGmbd3v6-WLkd2Et6Fx63BEzDMHKlBJeLnAdtP7dl7Q","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/footable.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/aspe_nodes.admin.css":1,"sites\/all\/modules\/custom\/aspe_views\/theme\/css\/aspe_views.admin.css":1,"sites\/all\/modules\/forked\/book\/book.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/openpublic\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.css":1,"profiles\/openpublic\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openpublic\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/openpublic\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/themes\/stability\/css\/bootstrap.min.css":1,"sites\/all\/themes\/stability\/css\/fonts\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.theme.css":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/stability\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/stability\/css\/theme.css":1,"sites\/all\/themes\/stability\/css\/theme-elements.css":1,"sites\/all\/themes\/stability\/css\/animate.min.css":1,"sites\/all\/themes\/stability\/css\/skins\/red.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/slideshow.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/font-main.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/styleless.less":1,"sites\/all\/themes\/stability\/css\/skins\/blue.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/aspe\/theme\/js\/aspe.login-confirm.js":1,"sites\/all\/modules\/custom\/aspe_report\/modules\/aspe_databooks\/js\/aspe_databooks.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.highcharts.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/datatables\/dataTables.min.js":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.min.js":1,"sites\/all\/libraries\/highcharts\/highcharts.js":1,"sites\/all\/libraries\/highcharts\/highcharts.exporting.js":1,"sites\/all\/libraries\/highcharts\/highcharts.map.js":1,"sites\/all\/libraries\/highcharts\/highcharts.us-all.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.footable.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5486d15a696bff0c":1,"misc\/progress.js":1,"profiles\/openpublic\/modules\/contrib\/webform\/js\/webform.js":1,"profiles\/openpublic\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/stability\/vendor\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/stability\/vendor\/bootstrap.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flexnav.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flickrfeed.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.sloppy-masonry.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.fitvids.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.stellar.min.js":1,"sites\/all\/themes\/stability\/vendor\/snap.svg-min.js":1,"sites\/all\/themes\/stability\/js\/custom.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/aspe.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/html5shiv.min.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/main-menu.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/keyboard-control.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tabBehavior.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tileStringTrimmer.js":1}},"webform":{"conditionals":{"webform-client-form-158521":{"ruleGroups":[],"sourceMap":[],"values":[]}}},"ajax":{"edit-webform-ajax-next-158521":{"callback":"webform_ajax_callback","wrapper":"webform-ajax-wrapper-158521","progress":{"message":"","type":"throbber"},"event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Next \u003E"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/basic-report\/measuring-income-and-poverty-four-surveys-overview":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"([a-z0-9]\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This website contains links to other federal and state agencies and private organizations. The Department of Health and Human Services (HHS) cannot attest to the accuracy of information provided by these nonfederal website links. Linking to nonfederal sites does not constitute an endorsement by HHS or any of its employees of the sponsors or the information and products presented on the sites. You will be subject to the destination site\u0027s privacy policy when you leave the ASPE website.\r\n\r\nThank you for visiting aspe.hhs.gov!","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"stability":{"flickr_id":"52617155@N08","logo_sticky":"28"},"field_group":{"div":"full","hidden":"full"}});
+//--><!]]>
+</script>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config={pubid:"ra-5486d15a696bff0c",ui_click:false}
+//--><!]]>
+</script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4837db659","applicationID":"10708002","transactionName":"MwNaZBRSXEtXB0BdWQpJbUIPHFtWUgFMGkYMFg==","queueTime":0,"applicationTime":25,"atts":"H0RZElxIT0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

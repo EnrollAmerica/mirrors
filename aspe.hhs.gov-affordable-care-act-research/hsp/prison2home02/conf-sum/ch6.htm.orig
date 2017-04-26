@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">  <!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://aspe.hhs.gov/sites/default/files/Favicon2.png" type="image/png" />
+<meta name="description" content="From Prison to Home: The Effect of Incarceration on Children, Families, and Communities Conference Report Prepared for:U.S. Department of Health and Human Services (HHS)Office of the Assistant Secretary for Planning and Evaluation (ASPE)Substance Abuse and Mental Health Services Administration (SAMSHA)" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://aspe.hhs.gov/basic-report/prison-home-effect-incarceration-and-reentry-children-families-and-communities" />
+<link rel="shortlink" href="https://aspe.hhs.gov/node/68866" />
+<meta property="og:site_name" content="ASPE" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aspe.hhs.gov/basic-report/prison-home-effect-incarceration-and-reentry-children-families-and-communities" />
+<meta property="og:title" content="From Prison to Home: The Effect of Incarceration and Reentry on Children, Families, and Communities" />
+<meta property="og:description" content="From Prison to Home: The Effect of Incarceration on Children, Families, and Communities Conference Report Prepared for:U.S. Department of Health and Human Services (HHS)Office of the Assistant Secretary for Planning and Evaluation (ASPE)Substance Abuse and Mental Health Services Administration (SAMSHA)" />
+<meta property="og:updated_time" content="2017-03-23T07:21:02-04:00" />
+<meta property="article:published_time" content="2015-11-23T03:02:18-05:00" />
+<meta property="article:modified_time" content="2017-03-23T07:21:02-04:00" />
+
+  <title>From Prison to Home: The Effect of Incarceration and Reentry on Children, Families, and Communities | ASPE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+  <link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__5ln8neBOcJfyUveiD4y9fhI6kHBLOQ_YL0mMC-LS9a0__TPJIZT9UBnf_685NlFTJ5KnZVsjwFk6ACQ-nwwygmwU__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ng49uRH5y4Hl9VF9hHW_vXOj-mcOc2u2ShJqJ1YKIGU__FoMCD14GBvZaRiqSQ_JpP1w3rDB21n7H2Ar4pRZaIh8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__Hskudx14OJ5Hz8vqU7CUgN6SDV5rINZuEq9VuGsSeyc__EwNIl3xeFrniW2TmonovTzhSs3X5MdFps210puE7jog__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__9rZoaX9BdzjjNucvYxduxeNAVO2zgW_Rvjhb5rq5whc__lSr_y16grDSgHf4booPChnF7QXz3TQY3hafH49twE0k__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZgfI_ZPib5yVY0o5aKo_6TFn946Tuu_nFDa0ySTmkSc__2FTFrNw2eNh0mpHIOA34r6YRwBZMm2PjJ_JubnwLigg__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__dxabpJ5rQgDSixKgLJZjWc1beC6mpROKwVrmWxI5eno__rqhz_hGsE_i59O7-W991o71_Jxw1QOtGMxn4nsOLHY8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZbRCq2NqWgK-HXAQI3So0N1n0nr4HonsJS3eQuuxukw__7Olkk8Locn8Dj0eR0Ww3rbV9lks9sxipcboMXB18RRs__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+
+	<!-- Head Libs -->
+	<script src="/sites/all/themes/stability/stability_aspe/vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/sites/all/themes/stability/vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" href="/sites/all/themes/stability/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/stability/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/stability/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/stability/images/apple-touch-icon-144x144.png">
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-68866 node-type-basic-report">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-JLFR"
+                  height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JLFR');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-nav" class="accessibility_menu">
+    <strong>Shortcut Navigation:</strong>
+    <ul>
+      <li><a href="#content" accesskey="c" title="Skip to page content (ctrl/alt + c)">Page Content</a></li>
+      <li><a href="#nav" accesskey="m" title="Skip to main navigation menu (ctrl/alt + m)">Site Navigation</a></li>
+
+      <li><a href="#Footer" accesskey="f" title="Skip to footer (ctrl/alt + f)">Footer</a></li>
+    </ul>
+  </div>
+
+    
+<div class="site-wrapper">
+  
+  <header class="header header-menu-fullw header-top-clean">
+    <div id="brand-bar">
+        <div class="container">
+                    <img alt='bird' src="/sites/all/themes/stability/stability_aspe/images/bird.png"> <a target="blank" tabindex="4" href="http://www.hhs.gov/">U.S. Department of Health & Human Services</a>
+        </div>
+
+    </div>
+    <div class="header-main">
+        <div class="container clearfix">
+            <div class="social-links-wrapper">
+                <ul class="social-links social-links__light">
+                                                          <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw.png"/></a></li>
+                                    <!--                  --><!--                    <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin.png"/></a></li>-->
+<!--                  -->
+                                                                      </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                                <div class="site_name_wrapper">
+                                     <span class="h1">
+                                      <a href="/">ASPE</a>
+                                       </span>
+                                  <p class="tagline"><p>Office of The Assistant Secretary</p><p> for Planning and Evaluation</p></p>
+                    </div>
+            </div>
+            <!-- Logo / End -->
+            <div class="header_right_wrapper">
+                <div class="search-form">
+                    <form action="/basic-report/prison-home-effect-incarceration-and-reentry-children-families-and-communities" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class = "input-group"><div class="form-type-textfield form-item-search-block-form form-item form-group">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search Site..." class="form-control form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input class="btn btn-primary btn-icon form-submit" type="image" id="edit-submit" name="submit" value="Search" src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/search-white2.png" alt="Search" title="Search" /></div></div><input type="hidden" name="form_build_id" value="form-vxT3Ugh26fFOxzH8wwtC0nY-kT7yF_XNa8kdYQ9lIAM" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </div>
+                <button type="button" class="navbar-toggle" value="Menu">
+                    <i class="fa fa-bars"></i>Menu
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-main">
+        <div class="container">
+          <ul data-breakpoint="767" class="flexnav">
+                <li class="first expanded"><a href="/basic-search/about" title="">About</a><ul><li class="first leaf"><a href="/mission" title="">Mission</a></li>
+<li class="leaf"><a href="/key-staff" title="">Leadership</a></li>
+<li class="leaf"><a href="https://www.usajobs.gov/" title="">Careers</a></li>
+<li class="expanded"><a href="/coordination" title="linkTo">Coordination</a><ul><li class="first leaf"><a href="/evaluation-evidence" title="">Evaluation &amp; Evidence</a></li>
+<li class="leaf"><a href="/national-alzheimers-project-act">National Alzheimer&#039;s Project Act</a></li>
+<li class="leaf"><a href="/health-and-human-services-hhs-data-council">HHS Data Council</a></li>
+<li class="last leaf"><a href="/national-committee-vital-and-health-statistics" title="National Council on Vital and Health Statistics">National Council on Vital and Health Statistics</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/divisions" title="">Offices</a><ul><li class="first leaf"><a href="/office-disability-aging-and-long-term-care-policy-daltcp">Disability, Aging, and Long-Term Care Policy</a></li>
+<li class="leaf"><a href="/office-health-policy-hp">Health Policy</a></li>
+<li class="leaf"><a href="/office-human-services-policy">Human Services Policy</a></li>
+<li class="last leaf"><a href="/office-science-and-data-policy">Science and Data Policy</a></li>
+</ul></li>
+<li class="leaf"><a href="/strategic-planning" title="Strategic Planning">Strategic Planning</a></li>
+<li class="last leaf"><a href="/contact-aspe" title="">Contact ASPE</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/topics" title="">Topics</a><ul><li class="first leaf"><a href="/affordable-care-act-research">Affordable Care Act Research</a></li>
+<li class="leaf"><a href="/alzheimers-dementia">Alzheimer&#039;s / Dementia</a></li>
+<li class="leaf"><a href="/early-childhood">Early Childhood</a></li>
+<li class="leaf"><a href="/incarceration-reentry">Incarceration &amp; Reentry</a></li>
+<li class="leaf"><a href="/opioid-abuse-us-and-hhs-actions-address-opioid-drug-related-overdoses-and-deaths" title="Opioids">Opioids</a></li>
+<li class="leaf"><a href="/patient-centered-outcomes-research-trust-fund">Patient-Centered Outcomes Research Trust Fund (PCORTF)</a></li>
+<li class="expanded"><a href="/basic-search/poverty" title="">Poverty</a><ul><li class="first leaf"><a href="/poverty-guidelines">Poverty Guidelines</a></li>
+<li class="last leaf"><a href="/poverty-estimates-trends-and-analysis">Poverty Analysis</a></li>
+</ul></li>
+<li class="leaf"><a href="/teen-pregnancy-prevention">Teen Pregnancy Prevention</a></li>
+<li class="leaf"><a href="/homelessness">Homelessness</a></li>
+<li class="last leaf"><a href="/medicare-access-and-chip-reauthorization-act-2015">MACRA</a></li>
+</ul></li>
+<li class="leaf"><a href="/reports" title="">Publications</a></li>
+<li class="last expanded"><a href="/basic-search/datasets" title="">Data and Tools</a><ul><li class="first last leaf"><a href="/evaluations" title="">Evaluation Database</a></li>
+</ul></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation / End -->
+</header>  <div class="main" role="main">
+    <!--PAGEWATCH CODE="USHHS_458"-->
+    <section class="page-heading">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+                <h1>
+                    
+          From Prison to Home: The Effect of Incarceration and Reentry on Children, Families, and Communities        </h1>
+                                 <p class="author">
+                                                 <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2002-01-31T00:00:00-05:00">01/31/2002</span>               
+                           </p>
+
+
+                  </div>
+
+
+        <div class="col-md-6">
+           <ul class="breadcrumb"><li class="first"><a href="/" title="Home">Home</a></li>
+<li class="last">From Prison to Home: The Effec...</li>
+</ul>        </div>
+
+
+    </div>
+  </div>
+</section>
+    
+      <div  class="nd-region nd-region-filter">
+  
+       
+
+    
+      <div  id="Filter" class="row">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region nd-region-similar-content">
+  
+       
+
+    
+      <div  id="Similar-Content" class="row">     
+
+        
+                  
+        
+                                    <div  id="top" class="">
+                          
+                              <div id="block-views-2100ccfdd214bdbcf634d7e4832c265b" class="widget block block-views solr-similar-content" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Similar</span> content</h3>
+		</div>
+    
+  <div class="view view-similar-content-solr view-id-similar_content_solr view-display-id-block_solr_similar_content view-dom-id-648cd13b740cc42b190420c9afb2402e">
+        
+  
+  
+      
+    
+    <span class="field-content"><a href="/basic-report/research-and-practice-symposium-marriage-and-incarceration-meeting-summary">Research and Practice Symposium on Marriage and Incarceration: A Meeting Summary</a></span>    
+    <span class="field-content"><a href="/prison-home-effect-incarceration-and-reentry-children-families-and-communities">From Prison to Home: The Effect of Incarceration and Reentry on Children, Families, and Communities</a></span>    
+    <span class="field-content"><a href="/incarceration-reentry">Incarceration &amp; Reentry</a></span>    
+    <span class="field-content"><a href="/basic-report/prisoners-and-families-parenting-issues-during-incarceration">Prisoners and Families: Parenting Issues During Incarceration</a></span>    
+    <span class="field-content"><a href="/prison-home-effect-incarceration-and-reentry-children-families-and-communities-national-policy-conference">From Prison to Home: The Effect of Incarceration and Reentry on Children, Families, and Communities: National Policy Conference</a></span>  
+  
+  
+  
+  
+  
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Content">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  class="col-md-12 " id="content">
+                          
+                              <div id="block-aspe-aspe-addthis" class="widget block block-aspe" >
+  
+      
+  <div class="clearfix">
+  <ul class="addthis_sharing_toolbox node-share__links" data-url="https://aspe.hhs.gov/basic-report/prison-home-effect-incarceration-and-reentry-children-families-and-communities" data-title="From Prison to Home: The Effect of Incarceration and Reentry on Children, Families, and Communities">
+    <li><a class="addthis_button_print"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/print-white.png" alt="print" /></a></li>
+    <li><a class="addthis_button_email"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/mail-white.png" alt="email" /></a></li>
+    <li><a class="addthis_button_twitter"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/tw.png" alt="twitter" /></a></li>
+<!--    <li><a class="addthis_button_facebook">--><!--</a></li>-->
+    <li><a class="addthis_button_compact"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/plus-white.png" alt="compact" /></a></li>
+  </ul>
+</div>
+
+  </div> <!-- /.block -->
+
+                
+    
+  
+  <div class="content clearfix node-basic-report">
+    <div>
+<p>From Prison to Home: The Effect of Incarceration on Children, Families, and Communities</p>
+<h2>Conference Report</h2>
+<p><em>Prepared for:</em><a href="http://www.hhs.gov/">U.S. Department of Health and Human Services (HHS)</a><a href="http://aspe.hhs.gov/">Office of the Assistant Secretary for Planning and Evaluation (ASPE)</a><a href="http://www.samhsa.gov/">Substance Abuse and Mental Health Services Administration (SAMSHA)</a></p>
+<p><em>By:</em> The Urban Institute: Marcia Festen, principal author and Justice Policy Center: Michelle Waul, Amy Solomon, and Jeremy Travis</p>
+<p>January 2002</p>
+<p><em>This report is available on the Internet at:</em><a href="http://aspe.hhs.gov/hsp/prison2home02/conf-sum/">http://aspe.hhs.gov/hsp/prison2home02/conf-sum/</a></p>
+<p><a href="/system/files/pdf/74976/report.pdf">Printer Friendly Version in PDF format</a> (87 pages)</p>
+<div class="bordered-text"><strong>Disclaimer:</strong> This report presents a summary of the presentations and discussions at the state symposium held by the Office of the Assistant Secretary for Planning and Evaluation on November 21, 2001 and the <em>From Prison to Home</em> conference held at the National Institutes of Health Natcher Conference Center on January 30 and 31, 2002. These activities were conducted by the Urban Institute under contract HHS-100-99-0003, TO #12 with the Office of the Assistant Secretary for Planning and Evaluation, U.S. Department of Health and Human Services. The report presents the views and opinions of the symposium and conference participants and does not necessarily represent the views, positions, and policies of the Urban Institute or of the funding agencies, the Office of the Assistance Secretary for Planning and Evaluation and the Substance Abuse and Mental Health Services Administration.</div>
+</div>
+<h2>Contents</h2>
+<p><a href="#ack">Acknowledgments</a></p>
+<p><strong>Chapters:</strong></p>
+<ol><li>Introduction to the From Prison to Home Project</li>
+<li>Children and Families of Incarcerated Adults: What's at Stake?</li>
+<li>Who Are the Children and Families Affected by Incarceration and Reentry?
+<ol><li>Incarcerated Parents and Their Families</li>
+<li>The Community Context</li>
+</ol></li>
+<li>What Are the Consequences of Incarceration and Reentry for Children, Families and Communities?
+<ol><li>The Incarceration Period</li>
+<li>Reentry into the Family and Community</li>
+</ol></li>
+<li>Community Connections: What is the Role of Service Systems and Social Capital in Helping to Restore Families?</li>
+<li><a href="/hsp/prison2home02/conf-sum/ch6.htm">From Prison to Home: What Are the Implications for Program Interventions and Research?</a></li>
+</ol><p><strong><a href="/hsp/prison2home02/conf-sum/postscript.htm">Post Script</a></strong></p>
+<p><strong>Appendices:</strong></p>
+<ol><li>Technical Review Group</li>
+<li>State Symposium
+<ol><li>Symposium Agenda</li>
+<li>Symposium Participants and Observers</li>
+</ol></li>
+<li>From Prison to Home Conference
+<ol><li>Conference Agenda</li>
+<li>Conference Participants</li>
+</ol></li>
+</ol><hr /><h2>Acknowledgments</h2>
+<p>The <em>Prison to Home</em> project was made possible because of the contributions and hard work of more than 400 researchers, practitioners, policymakers, analysts and advocates from the public and private sectors of the criminal justice and human services systems. Helping to frame the issues and ensure a balanced approach was a Technical Review Group comprised of individuals from 30 federal agencies, professional associations and advocacy organizations. Eighteen State officials from Maryland, Nevada, Oregon, Pennsylvania, and Wisconsin took time out of their very busy schedules to travel to Washington D.C. to provide insights from their states experiences in developing innovated practices that linked criminal justice and health and human services systems. The eleven commissioned papers on the effects of parental incarceration on children, families and communities were reviewed by three dozen experts from various disciplines and perspectives throughout the public and private sectors. About 350 individuals participated in the <em>Prisons to Home</em> conference itself, including Assistant Secretaries in the Federal Government, Agency Heads at the State level, nationally recognized academic and program experts, federal and state program and policy staff, and researchers and program practitioners from Massachusetts to California. From the plenary sessions to the small group breakout sessions to the networking discussions over lunch and break, comments were thoughtful, perspectives diverse, and the excitement palpable. Lastly, special thanks are owed to the HHS federal project officers, Evvie Becker and Linda Mellgren of the Office of Human Services Policy, ASPE, and Ulonda Shamwell, Women, Children, and Family Team, SAMHSA, for their vision and perseverance throughout the life of the project.</p>
+<h2>From Prison to Home:<br />
+	What Are the Implications for Program Interventions and Research?</h2>
+<p>Presented research and the subsequent discussions identified children, families, and former prisoners who have experienced incarceration as a group at high risk for adverse child, adult and family outcomes. Many conference participants expressed hope that addressing these needs could reduce the risks of recidivism, substance abuse relapse, and family violence. Throughout the conference participants noted examples of many public policy and program areas that could better serve prisoners and their families. Reentry strategies that involve families could also promote child, family and community well-being. Mental health and substance abuse prevention and treatment programs could be more family-oriented. Re-entry planning could include re-unification services for children and parents, when appropriate. Use of welfare and food stamps could be part of a self-sufficiency plan for the re-turning prisoner and his/her family. And family violence concerns could be addressed both in prison and in the community. Participants believed that the opportunities to link incarceration, re-entry and family services are substantial and bear the promise of profound and far-reaching benefits for all involved. Targeted interventions could increase public safety and social functioning-benefits of interventions that are important for returning prisoners, their children and families, and communities.</p>
+<p>Participants acknowledged the need for a continuum of supports for individuals and families throughout the incarceration and reentry period — so that appropriate services for individuals and families are developed and those who actually need services get them. It was expressed that current and new interventions need to be integrated and coordinated across multiple systems and institutional domains and that to capitalize on the learnings from interventions, accompanying research also needs to be multi-disciplinary.</p>
+<p>Summarized here are highlights from the conference discussion that may be helpful in the development of future interventions and research at the local, state, and federal level.</p>
+<ul><li><em><strong>Maintenance of Family Ties During Incarceration.</strong></em> Most parents remain involved in their children's lives during incarceration and expect to resume parenting responsibilities upon release. Most children want to continue to maintain a relationship with their parents. Fostering positive child-parent interaction during incarceration, when appropriate, can help children, the incarcerated, and the care-giving parent. More interaction between human services' and the corrections' systems is needed on how and when ongoing relationships between the inmate parent and the caregiver and between the parent and the child should be facilitated. Information is also lacking on how best to support families in their desire to maintain ties with an incarcerated family member, ties that will strengthen the families and community upon release.</li>
+<li><em><strong>Preparation of Prisoners and their Families for Reentry.</strong></em> Nearly all prisoners will eventually return to their families and communities. Yet, many prisoners are not adequately prepared to manage the return. Likewise, the families of prisoners and the communities they return to are often not prepared to help them become reintegrated into family and community life.</li>
+<li><em><strong>Implementation of Coordinated Community Programs.</strong></em> Many inmates and ex-offenders would benefit from employment and parenting skill building, treatment for their trauma histories and substance abuse problems, and help in preparing for productive life when they return to their families and communities. However, there are few models for coordinated, multidisciplinary, multi-systemic efforts to provide ex-offenders with opportunities to financially and emotionally support their families. Additionally, gender, race, and class difference of inmates, ex-offenders, their families, and communities often are not considered in the design of programs and research.</li>
+<li><em><strong>Coordination of Systems and Resources.</strong></em> Poverty, welfare, public housing, and incarcerated and parole populations concentrated in a small number of neighborhoods may hinder child development outcomes. Neighborhood assessments seems to indicate that it is likely that many of the same families have family members in the criminal justice system and family members served by health and human services systems of care. Yet, there are only a few communities and states where the criminal justice and health and human services systems are working together to address the needs of these multi-system involved families. More attention needs to be paid to how health and human services and criminal justice policies and programs intersect in high crime communities and how policies and programs can be coordinated and structured to improve the delivery of services that meet the needs of community residents.</li>
+<li><em><strong>Information Sharing Among and Between Systems.</strong></em> Relatedly, current human services and criminal justice systems have no easy way of sharing information with each other. In fact, incarceration of a parent may never be identified as one of the causative or related events that brings a family into some part of the health and human services systems. Information sharing models that provide privacy protections and facilitate an examination of the service needs of the prisoner and family need to be tested to determine if early and coordinated interventions provide better outcomes for prisoners, families, and society as a whole.</li>
+<li><em><strong>Basic Research on Children and Families of Prisoners.</strong></em> There is little basic research on children and families with incarcerated parents, and thus, there are many unanswered questions. Some of these questions are: the effects of parental criminality and parental absence during incarceration on children; the effect of parental involvement and familial relationships on adult recidivism; and the effect of high rates of incarceration on family and community stability. Answering these kinds of questions would involve undertaking prospective, longitudinal studies that: 1) follow families at risk of incarceration to determine the impact of incarceration, beyond other risk factors such as poverty and exposure to violence; 2) develop and use multidisciplinary approaches; 3) use developmentally appropriate, standardized measures for assessing children; and 4) address the effects of mother versus father incarceration, cultural and ethnic backgrounds, and individual, family, contextual and cultural processes.</li>
+<li><em><strong>Research on Policy Impacts.</strong></em> There has been little research on the effect of human services and corrections policies on children and families and on re-unification efforts. Program provisions that may provide good opportunities for study include time limits for termination of parental rights, restrictions on the receipt of welfare and public housing by convicted drug felons, non-modification of child support orders while a non-custodial parent is in prison, and mandatory sentencing requirements for certain crimes.</li>
+</ul><h2>Post Script</h2>
+<p>Since the Prison to Home Conference was held in January 2002, there has been a significant amount of activity relevant to the focus of the conference — children and families with an incarcerated parent. It is important for the reader of this report to understand that a lot has happened but that a lot more remains to be done. Current activities underway that address some of the issues and concerns identified at the conference include the Serious and Violent Offenders Re-entry Initiative (SVORI), the Mentoring Children of Prisoners program, the National Institute of Drug Abuse CJ-DATs program, the Council of State Governments Re-entry Policy Council, and the National Governors Association Prisoner Re-entry Policy Academy.</p>
+<p>During the <em>Prison to Home Conference</em>, representatives from DOJ announced the publication of the announcement of grant fund availability for the Serious and Violent Offenders Re-entry Initiative (SVORI). Established by the Department of Justice in collaboration with the Departments of Labor, Housing and Urban Development, and Health and Human Services, SVORI has provided over $100 million to 69 grantees to develop programming, training, and state-of-the-art reentry strategies at the community level. An evaluation of the initiative is underway. The first report of the national evaluation, A National Portrait of SVORI was published in July of 2004. Also in 2004, DOJ sponsored the First National Conference on Re-entry for SVORI grantees and others interested in re-entry activity in Cleveland, Ohio. Over 1000 criminal justice, health, and human services providers from the public and private sectors attended the conference.</p>
+<p>In FY 2002, the Congress passed and President Bush signed into law, a bill authorizing the Mentoring of Children of Prisoners program. Ten million dollars was appropriated for spending in FY 2003 and fifty million dollars in FY 2004. Currently there are over 200 Mentoring Children of Prisoners grantees throughout the country. The MCP grantees provide services, both directly and in collaboration with other local agencies, to strengthen and support children of incarcerated parents and their families. This includes preserving families and connecting the children with their imprisoned parent when appropriate. Grant recipients are required to cultivate mentors from within the child's family and community through recruitment, screening, training, and monitoring and evaluation. In addition, grantees are encouraged to incorporate elements of a positive youth development approach, reducing risky behavior by giving young people the chance to exercise leadership, build skills, and become involved in their communities.</p>
+<p>In September of 2002 the National Institute of Drug Abuse established a cooperative research program (the Criminal Justice-Drug Abuse Treatment Research Studies (CJ-DATS)) to explore the issues related to the complex system of offender treatment services. Nine research centers and a Coordinating Center were created in partnership with researchers, criminal justice professionals, and drug abuse treatment practitioners to form a national research infrastructure to develop and test models for integrated approaches to the treatment of incarcerated individuals with substance use disorders, including both treatment in jail or prison and treatment as part of re-entry into the community. Research is ongoing and includes a range of topics, such as, facilitating adolescent offenders' reintegration from juvenile detention to community life and inmate pre-release assessments.</p>
+<p>In 2003, the Center for Best Practices of the National Governors Association established the NGA Prisoner Reentry Policy Academy (RPA). The RPA works with seven states in an effort to help Governors and other state policymakers develop and implement statewide prisoner reentry strategies that reduce recidivism rates by improving access to key services and supports. Through the academy, states assembled interdisciplinary reentry policy teams responsible for assessing the reentry process within their state, identifying major service gaps and other barriers, and examining relevant state data on prisoner reentry trends. State teams have had the opportunity to participate in at least one in-state policy workshop, two policy academy meetings that brought together all seven states, and a "learning lab" on working with families, youth, and children. Through the academy, the Center has helped states take advantage of and build on other large-scale reentry initiatives.</p>
+<p>In his State of the Union address in January 2004, President Bush announced the creation of a new initiative to facilitate prisoner re-entry. The Prisoner Re-entry Initiative (PRI) is a collaboration of the Departments of Labor, Justice, Housing and Urban Development and Health and Human Services. Designed to help ex-offenders find and keep employment, obtain transitional housing and receive mentoring in urban centers and areas of greatest need, faith-based and community organizations will offer job training and job placement services in coordination with business and other employment providers. They will also provide post-release mentoring and other services essential to reintegrating ex-offenders in coordination with the corrections, parole, and probation structure. In 2005, the U.S. Department of Labor awarded 30 grants totaling $19.8 million to faith-and community-based organizations to assist non-violent ex-offenders returning to their local communities. The Department of Justice will fund additional grants in the states where the Labor Department PRI grants were awarded.</p>
+<p>In January of 2005, the Council of State Government's published the report of its Re-entry Policy Council (RPC). Established in 2001 to assist state government officials grappling with the increasing number of people leaving prisons and jails and returning to the communities they left behind, the RPC brought together key stakeholders from all branches of state and local government and community provider across criminal justice, health, and human services systems to develop bi-partisan re-entry policies and principles and facilitate coordination and information-sharing among organizations involved in implementing re-entry initiatives. The 650 page report, organized into 35 broad policy statements, provides critical information about research, practice, and collaborations to facilitate re-entry. Information about how to support family relationships and address family and children's issues within the context of prisoner re-entry is also included.</p>
+<p>All these efforts, and others at the local, state, and federal level, have expanded the discussions about the affects of parental incarceration on children, families, and communities. While there is still much work to be done, the work has begun. Professionals from the criminal justice systems and health and human services systems are not only talking to each other, but are also working together to plan and implement interventions that strengthen families, support positive change by incarcerated parents, and promote re-integration into family and community life.</p>
+
+  <div class="download_report">
+    
+                        <div class="pdf-prev">
+                <img src="https://aspe.hhs.gov/system/files/pdfpreview/9633c450c21d8247e4ceeb1a8fe65992.png" alt="Preview" title="Preview" />            </div>
+                <a class="btn btn-sm btn-default download-file"
+           href="https://aspe.hhs.gov/system/files/pdf/74976/report.pdf">Download</a>
+
+        <p class="download_title">&quot;report.pdf&quot;
+            (pdf,
+            390.17Kb)</p>
+        <p>Note: Documents in PDF format require the <a href="http://www.adobe.com/products/acrobat/readstep2.html">Adobe
+                Acrobat Reader&reg;</a>. If you experience problems with PDF documents, please <a
+                href="http://www.adobe.com/products/acrobat/readstep2.html">download the latest version of the
+                Reader&reg;</a>
+        </p>
+    </div>
+<div class="group-tags"><div class="field-label">Tags:&nbsp;</div><a href="/terms/child-welfare">Child Welfare</a><a href="/terms/child-abuse-neglect-and-family-preservation">Child Abuse, Neglect, and Family Preservation</a><a href="/terms/family-and-marriage-issues">Family and Marriage Issues</a><a href="/terms/incarcerated-parents-and-re-entry-ex-offenders">Incarcerated Parents and Re-Entry of Ex-Offenders</a><a href="/terms/family-strengthening">Family Strengthening</a><a href="/terms/family-structure-and-healthy-relationships">Family Structure and Healthy Relationships</a><a href="/terms/place-based-initiatives-and-communityfaith-based-partnerships">Place-Based Initiatives and Community/Faith-Based Partnerships</a><a href="/terms/other-5">Other</a><a href="/terms/substance-abuse-alcohol-and-drug-abuse">Substance Abuse (Alcohol and Drug Abuse)</a><a href="/terms/vulnerable-populations">Vulnerable Populations</a><a href="/terms/justice-involved-populations">Justice-Involved Populations</a></div>  </div>
+
+      <footer>
+          </footer>
+  
+    <div id="block-webform-client-block-158521" class="widget block block-webform" >
+  
+      
+  <div id="webform-ajax-wrapper-158521"><form class="webform-client-form webform-client-form-158521" action="/basic-report/prison-home-effect-incarceration-and-reentry-children-families-and-communities" method="post" id="webform-client-form-158521" accept-charset="UTF-8"><div><div class="webform-progressbar">
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-radios webform-component--was-this-page-helpful">
+  <label for="edit-submitted-was-this-page-helpful">Was this page helpful? <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-was-this-page-helpful" class="form-radios"><div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-1" name="submitted[was_this_page_helpful]" value="1" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-1">Yes </label>
+
+</div>
+<div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-2" name="submitted[was_this_page_helpful]" value="0" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-2">No </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="4" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-dJUT9A4zRpxO_1WSeU82qfpQdaZhOoK5nra7TEBQQwQ" />
+<input type="hidden" name="form_id" value="webform_client_form_158521" />
+<input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-158521" />
+<div class="form-actions"><input class="webform-next button-primary btn btn-default form-submit" type="submit" id="edit-webform-ajax-next-158521" name="op" value="Next &gt;" /></div>
+<div class="is-useful-disclaimer"> <a href="/%23" class="" title="Survey Disclaimer" data-toggle="modal" data-target="#disclamerModal">Form Approved OMB# 0990-0379 Exp. Date 8/31/2017</a></div>
+<div class="modal fade" id="disclamerModal" tabindex="-1" role="dialog" aria-labelledby="disclamerModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="disclamerModalLabel">Survey Disclaimer</h2>
+      </div>
+      <div class="modal-body">
+         According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this information collection is 0990-0379. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, gather the data needed, and complete and review the information collection. If you have comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: U.S. Department of Health & Human Services, OS/OCIO/PRA, 200 Independence Ave., S.W., Suite 336-E, Washington D.C. 20201, Attention: PRA Reports Clearance Officer.      </div>
+    </div>
+  </div>
+</div></div></form></div>
+  </div> <!-- /.block -->
+<meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/prison-home-effect-incarceration-and-reentry-children-families-and-communities" itemref="md1" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/prison-home-effect-incarceration-and-reentry-children-families-and-communities" itemref="md2 md3 md5 md7 md9 md11 md13 md15 md17 md19 md21 md23 md25" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/child-welfare" id="md5" itemref="md4" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/child-abuse-neglect-and-family-preservation" id="md7" itemref="md6" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/family-and-marriage-issues" id="md9" itemref="md8" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/incarcerated-parents-and-re-entry-ex-offenders" id="md11" itemref="md10" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/family-strengthening" id="md13" itemref="md12" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/family-structure-and-healthy-relationships" id="md15" itemref="md14" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/place-based-initiatives-and-communityfaith-based-partnerships" id="md17" itemref="md16" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/other-5" id="md19" itemref="md18" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/substance-abuse-alcohol-and-drug-abuse" id="md21" itemref="md20" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/vulnerable-populations" id="md23" itemref="md22" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/justice-involved-populations" id="md25" itemref="md24" />              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <footer  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Footer">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  id="footer_sitemap-footer_sitemap" class="col-sm-6 col-md-6 col-lg-4 ">
+                          
+                              <div id="block-footer-sitemap-footer-sitemap" class="widget block block-footer-sitemap" >
+  
+      
+  <div id="footer-sitemap" class="clearfix">
+  <div class="fs-block-content"><div class="menu-footer-utility"><ul class="footer_links_menu-footer-utility total-items-2 parent-items-0 single-items-0"><li class="menu-5021 depth-1 total-children-8 parent-children-0 single-children-8  first"><a href="/" title="look at ASPE Home" class="fs-root-link">ASPE Home</a><ul class="footer_links_menu-footer-utility total-items-8 parent-items-0 single-items-0"><li class="menu-5026 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/" title="look at HHS Home">HHS Home</a></li>
+<li class="menu-66281 depth-1 fs-no-children"><a href="http://www.usa.gov/" title="look at USA.gov">USA.gov</a></li>
+<li class="menu-66316 depth-1 fs-no-children"><a href="https://oig.hhs.gov/" title="look at Office of the Inspector General">Office of the Inspector General</a></li>
+<li class="menu-66321 depth-1 fs-no-children"><a href="http://www.whitehouse.gov" title="look at The White House">The White House</a></li>
+<li class="menu-5046 depth-1 fs-no-children"><a href="http://www.hhs.gov/Accessibility.html" title="look at Accessibility">Accessibility</a></li>
+<li class="menu-66326 depth-1 fs-no-children"><a href="http://www.hhs.gov/about/budget/index.html" title="look at Budget/Performance">Budget/Performance</a></li>
+<li class="menu-2551 depth-1 fs-no-children"><a href="http://www.hhs.gov/Privacy.html" title="look at Privacy Policy">Privacy Policy</a></li>
+<li class="menu-197776 depth-1 fs-no-children  last"><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" title="Nondiscrimination Notice">Nondiscrimination Notice</a></li>
+</ul></li>
+<li class="menu-5051 depth-1 total-children-4 parent-children-0 single-children-4  last"><a href="http://www.hhs.gov/foia/" title="look at FOIA" class="fs-root-link">FOIA</a><ul class="footer_links_menu-footer-utility total-items-4 parent-items-0 single-items-0"><li class="menu-5056 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/open/recordsandreports/plainwritingact/index.html" title="look at Plain Writing Act">Plain Writing Act</a></li>
+<li class="menu-5061 depth-1 fs-no-children"><a href="http://www.hhs.gov/asa/eeo/no_fear_bullet_3.html" title="look at No Fear Act">No Fear Act</a></li>
+<li class="menu-5066 depth-1 fs-no-children"><a href="http://www.hhs.gov/Disclaimer.html" title="look at Disclaimers">Disclaimers</a></li>
+<li class="menu-2546 depth-1 fs-no-children  last"><a href="http://www.hhs.gov/plugins.html" title="look at Viewers &amp; Players">Viewers &amp; Players</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-5 " id="stability_cms-contact_us">
+                          
+                              <div id="block-stability-cms-contact-us" class="widget block block-stability-cms" >
+  
+      
+  <div class="contacts-widget widget widget__footer">
+	<div class="widget-content">
+		<ul class="contacts-info-list">
+      			<li>
+<!--				<i class="fa fa-map-marker">Address</i>-->
+                <div class="info-icons">
+                    <img  alt="map" class= 'map-icons' src="/sites/all/themes/stability/stability_aspe/images/map.png"/>
+                </div>
+                <div class="info-item">
+					Assistant Secretary for Planning and Evaluation, Room 415F<br />
+U.S. Department of Health and Human Services<br />
+200 Independence Avenue, SW<br />
+Washington, D.C. 20201				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-phone">phone</i>-->
+                <div class="info-icons">
+                    <img alt="phone" src="/sites/all/themes/stability/stability_aspe/images/phone.png"/>
+                </div>
+				<div class="info-item">
+					+1 202.690.7858				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-envelope">email</i>-->
+                <div class="info-icons">
+                    <img alt="mail" src="/sites/all/themes/stability/stability_aspe/images/mail-white.png"/>
+                </div>
+				<span class="info-item">
+					<a href="mailto:osaspeinfo@hhs.gov">osaspeinfo@hhs.gov</a>
+				</span>
+			</li>
+      			                					</ul>
+	</div>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-3 " id="footer">
+                          
+                              <div id="block-block-36" class="widget block block-block" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sign-up</span> for Email Updates</h3>
+		</div>
+    
+  <div class="email_updates">
+<button class="btn btn-default" name="subscribe-button" type="submit" value="subscribe">subscribe</button>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-12 " id="menu-menu-footer-language-menu">
+                          
+                              <div id="block-menu-menu-footer-language-menu" class="widget block block-menu" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Language</span> Assistance Available</h3>
+		</div>
+    
+  <ul class="menu"><li class="first expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#spanish" title="Español">Español</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#chinese" title="繁體中文">繁體中文</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#vietnamese" title="Tiếng Việt">Tiếng Việt</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#korean" title="한국어">한국어</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#tagalog" title="Tagalog">Tagalog</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#russian" title="Русский">Русский</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#arabic" title="العربية">العربية</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#creole" title="Kreyòl Ayisyen">Kreyòl Ayisyen</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#french" title="Français">Français</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#polish" title="Polski">Polski</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#portuguese" title="Português">Português</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#italian" title="Italiano">Italiano</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#german" title="Deutsch">Deutsch</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#japanese" title="日本語">日本語</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#farsi" title="فارسی">فارسی</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#english" title="English">English</a></li>
+</ul></li>
+</ul>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+      </div>
+
+          </div>
+    
+    
+      </footer>
+    
+
+    <!--/PAGEWATCH-->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+                        </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="social-links-wrapper">
+              <span class="social-links-txt">Connect with us</span>
+              <ul class="social-links social-links__dark">
+                                                  <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw-grey.png"/></a></li>
+                                <!--                --><!--                  <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin-grey.png"/></a></li>-->
+<!--                -->
+                                                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>  <script type="text/javascript" src="/sites/default/files/advagg_js/js__VWRymaMz6HfrhnrcJNGcDiSvLVrvhaXvBa7nrBYy8gc__jntPwP3D6myJZH1jW19fXrk5cYMHGRL8NQION22VSEA__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5486d15a696bff0c"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__g6mKbcakHxQkz4ZHYaxdO_xqONINvRMgsHh1zAK-fr0__ATHtEmHaeZ0jidpGU22EkhmPDBSgjD8z0bVDQMI-BIY__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__KUp4PrfOt9BSXUVl8Ctb3dhCMBe4MNVMeb4Gyorx8yY__7g4BeXscCIZAfuu1vxsCj2RIemg-eEK0QpChP9LDmFQ__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__PNjAgubM_3xXRLp4uLsYnv8wQAdT89-RYkSPxT6T45c__rFQwFK4pA5ZaWZSF7FPTfKbbpus0h-5IS8ayrNZGrb4__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__vQiLul2UcfC4nBAR09mhYVBYzRmiNDm2dj3GgSubV38__w84oZe-ZODKe7XnnlbrjV4IWHISOy4PioFEMVgx9hZo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__QJw3g0kOdwsv4twSZLP931zBzsHy50VEHpEN_znIitQ__A6QOuWXElDipBM2iChbWhjAAt3KlUwZ-jODoxdpbwiw__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stability_aspe","theme_token":"FgJZD8kuDkH6j_Y2mtcq3RvwPiHPBPVQIgMd1azdkXQ","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/footable.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/aspe_nodes.admin.css":1,"sites\/all\/modules\/custom\/aspe_views\/theme\/css\/aspe_views.admin.css":1,"sites\/all\/modules\/forked\/book\/book.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/openpublic\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.css":1,"profiles\/openpublic\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openpublic\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/openpublic\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/themes\/stability\/css\/bootstrap.min.css":1,"sites\/all\/themes\/stability\/css\/fonts\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.theme.css":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/stability\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/stability\/css\/theme.css":1,"sites\/all\/themes\/stability\/css\/theme-elements.css":1,"sites\/all\/themes\/stability\/css\/animate.min.css":1,"sites\/all\/themes\/stability\/css\/skins\/red.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/slideshow.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/font-main.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/styleless.less":1,"sites\/all\/themes\/stability\/css\/skins\/blue.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/aspe\/theme\/js\/aspe.login-confirm.js":1,"sites\/all\/modules\/custom\/aspe_report\/modules\/aspe_databooks\/js\/aspe_databooks.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.highcharts.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/datatables\/dataTables.min.js":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.min.js":1,"sites\/all\/libraries\/highcharts\/highcharts.js":1,"sites\/all\/libraries\/highcharts\/highcharts.exporting.js":1,"sites\/all\/libraries\/highcharts\/highcharts.map.js":1,"sites\/all\/libraries\/highcharts\/highcharts.us-all.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.footable.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5486d15a696bff0c":1,"misc\/progress.js":1,"profiles\/openpublic\/modules\/contrib\/webform\/js\/webform.js":1,"profiles\/openpublic\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/stability\/vendor\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/stability\/vendor\/bootstrap.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flexnav.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flickrfeed.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.sloppy-masonry.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.fitvids.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.stellar.min.js":1,"sites\/all\/themes\/stability\/vendor\/snap.svg-min.js":1,"sites\/all\/themes\/stability\/js\/custom.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/aspe.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/html5shiv.min.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/main-menu.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/keyboard-control.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tabBehavior.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tileStringTrimmer.js":1}},"webform":{"conditionals":{"webform-client-form-158521":{"ruleGroups":[],"sourceMap":[],"values":[]}}},"ajax":{"edit-webform-ajax-next-158521":{"callback":"webform_ajax_callback","wrapper":"webform-ajax-wrapper-158521","progress":{"message":"","type":"throbber"},"event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Next \u003E"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/basic-report\/prison-home-effect-incarceration-and-reentry-children-families-and-communities":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"([a-z0-9]\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This website contains links to other federal and state agencies and private organizations. The Department of Health and Human Services (HHS) cannot attest to the accuracy of information provided by these nonfederal website links. Linking to nonfederal sites does not constitute an endorsement by HHS or any of its employees of the sponsors or the information and products presented on the sites. You will be subject to the destination site\u0027s privacy policy when you leave the ASPE website.\r\n\r\nThank you for visiting aspe.hhs.gov!","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"stability":{"flickr_id":"52617155@N08","logo_sticky":"28"},"field_group":{"div":"full","hidden":"full"}});
+//--><!]]>
+</script>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config={pubid:"ra-5486d15a696bff0c",ui_click:false}
+//--><!]]>
+</script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4837db659","applicationID":"10708002","transactionName":"MwNaZBRSXEtXB0BdWQpJbUIPHFtWUgFMGkYMFg==","queueTime":0,"applicationTime":23,"atts":"H0RZElxIT0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

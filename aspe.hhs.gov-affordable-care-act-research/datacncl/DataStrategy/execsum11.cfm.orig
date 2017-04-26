@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">  <!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://aspe.hhs.gov/sites/default/files/Favicon2.png" type="image/png" />
+<meta name="description" content="EXECUTIVE SUMMARY Contents Introduction and Background Data Needs and Priorities Research and Development to Improve HHS Data Collection Systems Web Panels and Web Surveys  Timeliness of HHS Data Systems  Access to HHS Data" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://aspe.hhs.gov/basic-report/improving-data-decision-making-hhs-data-collection-strategies-transformed-health-system" />
+<link rel="shortlink" href="https://aspe.hhs.gov/node/70581" />
+<meta property="og:site_name" content="ASPE" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aspe.hhs.gov/basic-report/improving-data-decision-making-hhs-data-collection-strategies-transformed-health-system" />
+<meta property="og:title" content="Improving Data for Decision Making: HHS Data Collection Strategies for a Transformed Health System" />
+<meta property="og:description" content="EXECUTIVE SUMMARY Contents Introduction and Background Data Needs and Priorities Research and Development to Improve HHS Data Collection Systems Web Panels and Web Surveys  Timeliness of HHS Data Systems  Access to HHS Data" />
+<meta property="og:updated_time" content="2016-11-15T23:04:22-05:00" />
+<meta property="article:published_time" content="2015-11-23T03:08:27-05:00" />
+<meta property="article:modified_time" content="2016-11-15T23:04:22-05:00" />
+
+  <title>Improving Data for Decision Making: HHS Data Collection Strategies for a Transformed Health System | ASPE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+  <link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__5ln8neBOcJfyUveiD4y9fhI6kHBLOQ_YL0mMC-LS9a0__TPJIZT9UBnf_685NlFTJ5KnZVsjwFk6ACQ-nwwygmwU__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ng49uRH5y4Hl9VF9hHW_vXOj-mcOc2u2ShJqJ1YKIGU__FoMCD14GBvZaRiqSQ_JpP1w3rDB21n7H2Ar4pRZaIh8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__Hskudx14OJ5Hz8vqU7CUgN6SDV5rINZuEq9VuGsSeyc__EwNIl3xeFrniW2TmonovTzhSs3X5MdFps210puE7jog__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__9rZoaX9BdzjjNucvYxduxeNAVO2zgW_Rvjhb5rq5whc__lSr_y16grDSgHf4booPChnF7QXz3TQY3hafH49twE0k__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZgfI_ZPib5yVY0o5aKo_6TFn946Tuu_nFDa0ySTmkSc__2FTFrNw2eNh0mpHIOA34r6YRwBZMm2PjJ_JubnwLigg__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__dxabpJ5rQgDSixKgLJZjWc1beC6mpROKwVrmWxI5eno__rqhz_hGsE_i59O7-W991o71_Jxw1QOtGMxn4nsOLHY8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZbRCq2NqWgK-HXAQI3So0N1n0nr4HonsJS3eQuuxukw__7Olkk8Locn8Dj0eR0Ww3rbV9lks9sxipcboMXB18RRs__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+
+	<!-- Head Libs -->
+	<script src="/sites/all/themes/stability/stability_aspe/vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/sites/all/themes/stability/vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" href="/sites/all/themes/stability/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/stability/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/stability/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/stability/images/apple-touch-icon-144x144.png">
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-70581 node-type-basic-report">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-JLFR"
+                  height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JLFR');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-nav" class="accessibility_menu">
+    <strong>Shortcut Navigation:</strong>
+    <ul>
+      <li><a href="#content" accesskey="c" title="Skip to page content (ctrl/alt + c)">Page Content</a></li>
+      <li><a href="#nav" accesskey="m" title="Skip to main navigation menu (ctrl/alt + m)">Site Navigation</a></li>
+
+      <li><a href="#Footer" accesskey="f" title="Skip to footer (ctrl/alt + f)">Footer</a></li>
+    </ul>
+  </div>
+
+    
+<div class="site-wrapper">
+  
+  <header class="header header-menu-fullw header-top-clean">
+    <div id="brand-bar">
+        <div class="container">
+                    <img alt='bird' src="/sites/all/themes/stability/stability_aspe/images/bird.png"> <a target="blank" tabindex="4" href="http://www.hhs.gov/">U.S. Department of Health & Human Services</a>
+        </div>
+
+    </div>
+    <div class="header-main">
+        <div class="container clearfix">
+            <div class="social-links-wrapper">
+                <ul class="social-links social-links__light">
+                                                          <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw.png"/></a></li>
+                                    <!--                  --><!--                    <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin.png"/></a></li>-->
+<!--                  -->
+                                                                      </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                                <div class="site_name_wrapper">
+                                     <span class="h1">
+                                      <a href="/">ASPE</a>
+                                       </span>
+                                  <p class="tagline"><p>Office of The Assistant Secretary</p><p> for Planning and Evaluation</p></p>
+                    </div>
+            </div>
+            <!-- Logo / End -->
+            <div class="header_right_wrapper">
+                <div class="search-form">
+                    <form action="/basic-report/improving-data-decision-making-hhs-data-collection-strategies-transformed-health-system" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class = "input-group"><div class="form-type-textfield form-item-search-block-form form-item form-group">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search Site..." class="form-control form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input class="btn btn-primary btn-icon form-submit" type="image" id="edit-submit" name="submit" value="Search" src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/search-white2.png" alt="Search" title="Search" /></div></div><input type="hidden" name="form_build_id" value="form-5EC_nBryV3hS6sAqP7s5TIepNZv4LZxU0PkZdvEnRec" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </div>
+                <button type="button" class="navbar-toggle" value="Menu">
+                    <i class="fa fa-bars"></i>Menu
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-main">
+        <div class="container">
+          <ul data-breakpoint="767" class="flexnav">
+                <li class="first expanded"><a href="/basic-search/about" title="">About</a><ul><li class="first leaf"><a href="/mission" title="">Mission</a></li>
+<li class="leaf"><a href="/key-staff" title="">Leadership</a></li>
+<li class="leaf"><a href="https://www.usajobs.gov/" title="">Careers</a></li>
+<li class="expanded"><a href="/coordination" title="linkTo">Coordination</a><ul><li class="first leaf"><a href="/evaluation-evidence" title="">Evaluation &amp; Evidence</a></li>
+<li class="leaf"><a href="/national-alzheimers-project-act">National Alzheimer&#039;s Project Act</a></li>
+<li class="leaf"><a href="/health-and-human-services-hhs-data-council">HHS Data Council</a></li>
+<li class="last leaf"><a href="/national-committee-vital-and-health-statistics" title="National Council on Vital and Health Statistics">National Council on Vital and Health Statistics</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/divisions" title="">Offices</a><ul><li class="first leaf"><a href="/office-disability-aging-and-long-term-care-policy-daltcp">Disability, Aging, and Long-Term Care Policy</a></li>
+<li class="leaf"><a href="/office-health-policy-hp">Health Policy</a></li>
+<li class="leaf"><a href="/office-human-services-policy">Human Services Policy</a></li>
+<li class="last leaf"><a href="/office-science-and-data-policy">Science and Data Policy</a></li>
+</ul></li>
+<li class="leaf"><a href="/strategic-planning" title="Strategic Planning">Strategic Planning</a></li>
+<li class="last leaf"><a href="/contact-aspe" title="">Contact ASPE</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/topics" title="">Topics</a><ul><li class="first leaf"><a href="/affordable-care-act-research">Affordable Care Act Research</a></li>
+<li class="leaf"><a href="/alzheimers-dementia">Alzheimer&#039;s / Dementia</a></li>
+<li class="leaf"><a href="/early-childhood">Early Childhood</a></li>
+<li class="leaf"><a href="/incarceration-reentry">Incarceration &amp; Reentry</a></li>
+<li class="leaf"><a href="/opioid-abuse-us-and-hhs-actions-address-opioid-drug-related-overdoses-and-deaths" title="Opioids">Opioids</a></li>
+<li class="leaf"><a href="/patient-centered-outcomes-research-trust-fund">Patient-Centered Outcomes Research Trust Fund (PCORTF)</a></li>
+<li class="expanded"><a href="/basic-search/poverty" title="">Poverty</a><ul><li class="first leaf"><a href="/poverty-guidelines">Poverty Guidelines</a></li>
+<li class="last leaf"><a href="/poverty-estimates-trends-and-analysis">Poverty Analysis</a></li>
+</ul></li>
+<li class="leaf"><a href="/teen-pregnancy-prevention">Teen Pregnancy Prevention</a></li>
+<li class="leaf"><a href="/homelessness">Homelessness</a></li>
+<li class="last leaf"><a href="/medicare-access-and-chip-reauthorization-act-2015">MACRA</a></li>
+</ul></li>
+<li class="leaf"><a href="/reports" title="">Publications</a></li>
+<li class="last expanded"><a href="/basic-search/datasets" title="">Data and Tools</a><ul><li class="first last leaf"><a href="/evaluations" title="">Evaluation Database</a></li>
+</ul></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation / End -->
+</header>  <div class="main" role="main">
+    <!--PAGEWATCH CODE="USHHS_458"-->
+    <section class="page-heading">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+                <h1>
+                    
+          Improving Data for Decision Making: HHS Data Collection Strategies for a Transformed Health System        </h1>
+                                 <p class="author">
+                                                 <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2011-12-21T00:00:00-05:00">12/21/2011</span>               
+                           </p>
+
+
+                  </div>
+
+
+        <div class="col-md-6">
+           <ul class="breadcrumb"><li class="first"><a href="/" title="Home">Home</a></li>
+<li class="last">Improving Data for Decision Ma...</li>
+</ul>        </div>
+
+
+    </div>
+  </div>
+</section>
+    
+      <div  class="nd-region nd-region-filter">
+  
+       
+
+    
+      <div  id="Filter" class="row">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region nd-region-similar-content">
+  
+       
+
+    
+      <div  id="Similar-Content" class="row">     
+
+        
+                  
+        
+                                    <div  id="top" class="">
+                          
+                              <div id="block-views-2100ccfdd214bdbcf634d7e4832c265b" class="widget block block-views solr-similar-content" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Similar</span> content</h3>
+		</div>
+    
+  <div class="view view-similar-content-solr view-id-similar_content_solr view-display-id-block_solr_similar_content view-dom-id-aca04e0206a62fceae9266b94bc9866d">
+        
+  
+  
+      
+    
+    <span class="field-content"><a href="/improving-data-decision-making-hhs-data-collection-strategies-transformed-health-system">Improving Data for Decision Making: HHS Data Collection Strategies for a Transformed Health System</a></span>    
+    <span class="field-content"><a href="/basic-report/enhancements-hhs-surveys-measure-health-system-change">Enhancements to HHS Surveys to Measure Health System Change</a></span>    
+    <span class="field-content"><a href="/basic-report/literature-review-and-synthesis-existing-surveys-health-information-technology-including-surveys-health-information-technology-nursing-homes-and-home-health">Literature Review and Synthesis: Existing Surveys on Health Information Technology, including Surveys on Health Information Technology in Nursing Homes and Home Health</a></span>    
+    <span class="field-content"><a href="/basic-report/web-based-information-exchange-and-information-services-concept-support-exchange-newborn-screening-information">Web-based Information Exchange and Information Services Concept to Support the Exchange of Newborn Screening Information</a></span>    
+    <span class="field-content"><a href="/basic-report/evaluation-hhs-delivery-system-reform-efforts-and-affordable-care-act-provisions-consolidated-evaluation-design-recommendations">Evaluation of HHS Delivery System Reform Efforts and Affordable Care Act Provisions: Consolidated Evaluation Design Recommendations</a></span>  
+  
+  
+  
+  
+  
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Content">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  class="col-md-12 " id="content">
+                          
+                              <div id="block-aspe-aspe-addthis" class="widget block block-aspe" >
+  
+      
+  <div class="clearfix">
+  <ul class="addthis_sharing_toolbox node-share__links" data-url="https://aspe.hhs.gov/basic-report/improving-data-decision-making-hhs-data-collection-strategies-transformed-health-system" data-title="Improving Data for Decision Making: HHS Data Collection Strategies for a Transformed Health System">
+    <li><a class="addthis_button_print"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/print-white.png" alt="print" /></a></li>
+    <li><a class="addthis_button_email"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/mail-white.png" alt="email" /></a></li>
+    <li><a class="addthis_button_twitter"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/tw.png" alt="twitter" /></a></li>
+<!--    <li><a class="addthis_button_facebook">--><!--</a></li>-->
+    <li><a class="addthis_button_compact"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/plus-white.png" alt="compact" /></a></li>
+  </ul>
+</div>
+
+  </div> <!-- /.block -->
+
+                
+    
+  
+  <div class="content clearfix node-basic-report">
+    <div>
+<h2 style="text-align:center">EXECUTIVE SUMMARY</h2>
+<hr /><h2 style="text-align:center"><a id="TOC">Contents</a></h2>
+<ul><li><a href="#Introduction">Introduction and Background</a></li>
+<li><a href="#Data">Data Needs and Priorities</a></li>
+<li><a href="#Research">Research and Development to Improve HHS Data Collection Systems</a>
+<ul><li><a href="#Web">Web Panels and Web Surveys</a></li>
+<li><a href="#Timeliness">Timeliness of HHS Data Systems</a></li>
+<li><a href="#Access">Access to HHS Data</a></li>
+<li><a href="#Non">Non-Traditional Data Sources</a></li>
+<li><a href="#Methodological">Methodological Techniques to Increase Survey Efficiency</a></li>
+<li><a href="#Augmenting">Augmenting HHS Analytic Capacity for Community-level Analysis and Special Populations</a></li>
+</ul></li>
+<li><a href="#Enhancing">Enhancing the Integration and Future Alignment of HHS Data Collection Systems</a>
+<ul><li><a href="#Survey">Survey data</a></li>
+<li><a href="#Administrative">Administrative and Claims Data</a></li>
+<li><a href="#Public">Public Health Surveillance Data</a></li>
+<li><a href="#Electronic">Electronic Health Records</a></li>
+<li><a href="#Alignment">Alignment</a></li>
+</ul></li>
+<li><a href="#Goals">Goals and Action Steps</a>
+<ul><li><a href="#Advancing">Advancing Research and Development to Improve HHS Data Collection Systems</a></li>
+<li><a href="#Promoting">Promoting Data Collection Coordination, Integration and Future Alignment of Surveys, Administrative Data, and Electronic Health Record Systems</a></li>
+</ul></li>
+<li><a href="#Recommendations">Recommendations</a></li>
+<li><a href="#Conclusions">Conclusions</a></li>
+</ul><h2 style="text-align:center"><a id="Introduction">Introduction and Background</a></h2>
+<div style="padding:15px;">The collection, analysis and dissemination of timely and reliable data are essential to the success of the HHS mission of enhancing the health and well-being of Americans.  Indeed it would be difficult to conceive of an HHS program mission or policy initiative in which data and information do not play a central role.  In addition to HHS programs, the Department plays critical leadership and stewardship roles for health and human services data.  In those roles, HHS periodically assesses its survey and data collection portfolio with a view to identifying data collection strategies that would strengthen the capacity of HHS data resources; promote synergy across systems; assure efficiencies, quality, utility and timeliness; address high priority data gaps and minimize unintended redundancy.
+<p>Accordingly, the HHS Data Councils Executive Committee directed an assessment of the current HHS data collection system portfolio with a view towards recommendations that would promote continuing improvement in the way data are collected and made available for program management, research, surveillance, policy analysis and consumer health.  To carry out the review, the Executive Committee created two Working Groups.  The Research and Development Working Group was asked to review the current HHS data collection system portfolio and to identify and assess the benefits and costs of proven, promising and emerging practices, approaches, strategies and technologies that could be considered to improve the timeliness and responsiveness of HHS surveys and data collection systems, with special attention to web based data collection capabilities.  The Integration and Alignment Working Group was charged with outlining a framework for data coordination and integration in current and planned data collection systems, and identifying opportunities for future integration and alignment relating to surveys, administrative data systems and electronic health record (EHR) systems.</p>
+<p>The Executive Committee noted that the value of HHS data is a function of its relevance, timeliness, availability when needed and distinctive contributions.  As a springboard for its work, the Executive Committee adopted a number of principles for an HHS data collection strategy that were used to guide the development of goals and recommendations provided in this report.  The principles embody the values of Privacy, Confidentiality, and Security; Relevance, Efficiency; Availability and Ease of Use; Innovation, Synergy, and Scientific Integrity.  The findings and recommendations from these two Working Groups provide a framework to support HHS leadership in planning a data strategy that involves maximizing existing resources and setting future priorities.</p>
+<p>As the initial step in assessment, the Working Groups developed an inventory of current and planned HHS data collection systems and assessedthe methods and technology that form the basis for current HHS data capacity.  As part of this review, the work group identified opportunities for Research and Development that would:</p>
+<ul><li>Strengthen the capacity of HHS data resources</li>
+<li>Assure efficiencies, quality, utility and timeliness</li>
+<li>Address high priority data gaps and minimize non-productive redundancy</li>
+<li>Enhance HHS capacity for quick response data, nontraditional data, State and local data, and data on vulnerable populations.</li>
+</ul><p>Similarly, the Integration and Alignment Working Group reviewed the inventory of HHS data systems and assessed past and emerging integration initiatives in Departmental data collection systems including surveys, administrative data and public health reporting.  As part of their charge, this work group identified opportunities for Integration and Alignment that would:</p>
+<ul><li>Promote synergy across systems</li>
+<li>Achieve further integration and alignment</li>
+<li>Enhance data linkage across systems</li>
+<li>Assure alignment and convergence of surveys, administrative data, and EHR data</li>
+<li>Maximize the use of technology</li>
+</ul><p style="text-align:right">[ Go to <a href="#TOC">Contents</a> ]</p>
+<h2 style="text-align:center"><a id="Data">Data Needs and Priorities</a></h2>
+<p>The review of the inventory of HHS data systems by the Working Groups included an assessment of critical data gaps and priorities that currently exist.  The Department will need to direct focus and attention in moving forward to address these and other priorities, including data on:</p>
+<ul><li>The impact of the Affordable Care Act (ACA) provisions and other forces affecting health system change on health status outcomes, insurance coverage rates, access and quality indicators, health care expenditures and population health measures.</li>
+<li>Monitoring the behavior of States, health plans, employers, providers, and consumers in the context of ACA.</li>
+<li>The health status and health care disparities of vulnerable populations, such as racial and ethnic populations, persons with disabilities, rural populations and LGBT populations.</li>
+<li>State and community level policy and public health data.</li>
+<li>Changes in the adequacy of health care institutions and workforce to meet needs.</li>
+<li>Social determinants of health and the changing nature of population health beyond the health care delivery system.</li>
+</ul><p>To address such priorities, HHS data collection systems will need to be more responsive to policy needs in terms of timeliness, flexibility, granularity, and the capacity to monitor change over time.  In addition, consideration of non-traditional data sources such as those available in the commercial sector will help to address some data needs and priorities.</p>
+<p style="text-align:right">[ Go to <a href="#TOC">Contents</a> ]</p>
+<h2 style="text-align:center"><a id="Research">Research and Development to Improve HHS Data Collection Systems</a></h2>
+<p>HHS data collection systems have historically employed the latest data collection modes and technologies consistent with data objectives, and they do so currently as well.  Current technologies for surveys include:  Computer assisted personal interviewing (CAPI); Audio computer assisted self-interviewing (ACASI); Computer assisted telephone interviewing (CATI); and, Interactive Voice Response (IVR).  Current activities are exploring the potential for survey pilots using EHR data, and ongoing health care provider and establishment surveys are employing mixed mode techniques that include web based and interactive online reporting.  Data collected from physical examinations, medical record abstraction, surveillance systems and administrative data systems employ a range of mechanisms for data capturing and coding which include electronic automated and web based systems.  Several promising practices for research, development and survey technology are described below.  These promising practices can improve the speed and efficiency of data collection and release; improve access to HHS data; and enhance methodology to fill data policy and population data needs.</p>
+<h3><a id="Web">Web Panels and Web Surveys</a></h3>
+<p>Web based research panels and web based surveys are increasingly being used alone or in combination with other modes for research.  The advantages of the use of the web include faster data collection, convenience, and lower costs compared to in-person interviewing.  Challenges in using web surveys and web panels include ensuring a representative sample, coverage of small or special populations, and variable response rates.  Considerable interest has been expressed in the development of a plan and feasibility study to add web panel components to the National Health Interview Survey, the National Health and Nutrition Examination Survey, and the Medical Expenditure Panel Survey.  In addition, SAMHSA is exploring the use of web panels to identify emerging patterns of substance use that need to be captured with questionnaire updates.  In addition, the potential of utilizing commercial web panels for health research needs further exploration.  The Work Groups recognized the need for the development of HHS guidelines describing good practices for using web panels in the context of research objectives.</p>
+<h3><a id="Timeliness">Timeliness of HHS Data Systems</a></h3>
+<p>There is considerable interest in expanding and enhancing the capacity of HHS data systems for providing quick response and faster turnaround for researchers, policymakers, State and local health departments and the public.  HHS surveys provide data for researchers, analysts, and policymakers within 9-12 months after data collection is completed.  Within the Department, a number of operating divisions have developed quick release analytical programs such as the National Health Interview Survey quarterly release program, the vital statistics advance data release program, and the MEPS employer component.  CMS also has made strides in improving the timeliness of administrative and claims data for Medicare and Medicaid.  Early release strategies for administrative data now include sample or partial year release of data for analysis along with early estimates.</p>
+<h3><a id="Access">Access to HHS Data</a></h3>
+<p>HHS agencies have expanded their efforts to provide access to the extensive data resources they maintain.  HHS data access initiatives now include the HHS <a href="http://www.whitehouse.gov/open">Open Government Plan</a>, <a href="http://www.data.gov/">Data.Gov</a>, <a href="http://www.data.gov/health">Health Data.Gov</a>, the <a href="http://healthindicators.gov/">Health Indicators Warehouse</a>, and a number of individual agency initiatives.  In addition, HHS agencies continue to make their data available through a variety of other methods, including public use data files, web based statistical tabulations and compendia, publications, and <a href="http://www.cdc.gov/rdc/">Research Data Centers</a> (RDCs).  Research Data Centers currently serve as the mechanism for researchers to access restricted data files.  The present structure and process through which users gain access to RDCs can pose barriers, including difficulty for researchers to learn what linked data are currently available for analysis, travel to RDCs due to limited remote access options, and the challenge of determining which data sets involve linked data.  At the same time, considerable progress has been made in expanding access to non-restricted files, for example, through direct website access as with <a href="http://hcupnet.ahrq.gov/">HCUPnet</a> and MEPSnet.  SAMHSA has accelerated its program to expand data access.  Public use files for the Drug Abuse Warning Network have been released for the first time for download and online analysis.  An online restricted use data analysis system and a data portal to provide off-site access to restricted use data files are under development by SAMHSA, beginning with the National Survey on Drug Use and Health data.</p>
+<h3><a id="Non">Non-Traditional Data Sources</a></h3>
+<p>Data from commercial and non-traditional sources have the potential to enhance or augment data collected by HHS, and several commercial data sources are currently utilized within the Department.  HHS agencies make use of commercial data resources such as pharmacy claims data, commercial insurance data bases, multi payer claims data bases, local health care market area data, local health care resource data and retail sales data.  An inventory of commercial data sources that agencies currently utilize is needed to facilitate broader shared use of commercial data.</p>
+<h3><a id="Methodological">Methodological Techniques to Increase Survey Efficiency</a></h3>
+<p>Responsive design interviewing has been used successfully in the National Survey of Family Growth and mixed modes are used in many HHS data systems.  These methodologies can be explored for expanded use in HHS data collections.</p>
+<h3><a id="Augmenting">Augmenting HHS Analytic Capacity for Community-level Analysis and Special Populations</a></h3>
+<p>For surveys, sample size presents a challenge for small area analysis and analyses of vulnerable and special populations.  However, several techniques are currently being used to develop estimates for small areas and special populations.  A number of HHS surveys have the capability to provide State and community level data and special population data.  Other HHS surveys will need to explore the potential application of a variety of techniques for such estimates, including direct estimates and model based estimates.  A complementary strategy is to use administrative data, which are based on a census rather than a sample.  Work also is needed to improve coding in administrative data, ensure completeness, and expand the use of EHR data in HHS data systems.</p>
+<p style="text-align:right">[ Go to <a href="#TOC">Contents</a> ]</p>
+<h2 style="text-align:center"><a id="Enhancing">Enhancing the Integration and Future Alignment of HHS Data Collection Systems</a></h2>
+<p>One powerful strategy to bolster the utility of data is to integrate data from two or more sources.  This can be accomplished, for example, by linking two surveys, linking surveys with administrative data, linking administrative data with clinical data, and other data linkages.</p>
+<h3><a id="Survey">Survey data</a></h3>
+<p>Integration of surveys with each other depends on a strong core of surveys with sufficient samples and breadth of content.  The HHS core surveys already provide a platform for integration, lessening the need for stand-alone survey efforts.  Thus, little evidence was found of duplication or unintended overlap within HHS data collections.  However, there is a greater need for coordination and standardization of data collection in some areas, such as insurance coverage and health plan data.</p>
+<p>Successful past survey integration activities in HHS include the NHIS and MEPS, and the National Immunization Survey (NIS) and the State and Local Area Integrated Telephone Survey (SLAITS).  Several additional survey integration efforts are planned within the Department.  They include the integration of various health care provider surveys in the National Health Care Survey at NCHS, the Substance Abuse and Mental Health Services Administration  NCHS integration of emergency department surveys, the NCHS Long Term Care Family of Surveys involving the integration of long term care provider surveys, and the integration of the sample frame for SAMHSAs two national surveys of Mental Health and Substance Abuse facilities.  In planning its health care provider surveys, NCHS is looking to obtaining increasing amounts of data from EHRs in conjunction with health care provider surveys.</p>
+<p>Most surveys have the capacity for linkage to Medicare enrollment and claims data, Social Security Administration data, and social and economic contextual data, but the frequency of these linkages and access to data are unclear.  HHS provider surveys are testing the potential for data linkage with administrative and EHR data, and initiatives are underway in Medicare and Medicaid data access, linkage and timeliness, in multi payer claims data, and health plan data.</p>
+<p>Although many HHS surveys have the capacity to link to administrative records, information on what data systems are currently linked and available for use is limited.  Several data access initiatives to promote the use of linked data are underway, but more effort is needed in this area.  Coordination and improvements also are needed for Research Data Centers to provide access to data, usually linked data that cannot be released to the public, while safeguarding the privacy and confidentiality of personally identifiable health information.  SAMHSAs data portal will facilitate the linkage of its survey data with other data sources in a secure environment.</p>
+<h3><a id="Administrative">Administrative and Claims Data</a></h3>
+<p>Administrative or claims data can provide a relatively inexpensive source of data with the capacity to drill-down to States and localities and to assess racial, ethnic or other disparities in access, quality, or cost.  Considerable innovation is underway to expand the utility of administrative data by linking it to other data sources and improving the information in the source data.  AHRQ is actively supporting and evaluating State and hospital ability to link to additional clinical data that are already available electronically.  Progress is being made to adopt standards in claims data sets for primary language spoken.  Web-based toolkits are being made available in the area of laboratory data and point of admission coding (POA) easing the adoption process with staff and stakeholders through training materials.</p>
+<p>Administrative data files created by CMS are an extremely valuable source of HHS data.  Efforts to speed the process through which users can extract information contained in CMS administrative data systems and reducing barriers to use could also improve data timeliness.  To improve accessibility, the agency is examining the feasibility of creating claims-level public use files (PUFs) that can be made available to users free of charge on the CMS website.  CMS is testing new techniques of data acquisition from States in order to examine ways to reduce administrative costs and level of effort for both federal and State governments, and to improve data timeliness, detail, and reliability of Medicaid data.</p>
+<h3><a id="Public">Public Health Surveillance Data</a></h3>
+<p>National public health surveillance systems, including the National Notifiable Disease Surveillance System, the Behavioral Risk Factor Surveillance System, and several infectious and chronic disease surveillance systems provide a critical public health data resource.  Conducted in collaboration with local and State health department partners, these data systems constitute a great deal of the data collected and disseminated by CDC and represent a large portion of the CDC fiscal investment in data collection.  A number of initiatives are underway to strengthen and improve these data resources, including increased reliance on electronic reporting, the development and adoption of data standards, and coordination and integration efforts.</p>
+<p>In addition, the meaningful use provisions of HITECH envision more effective ways of accomplishing public health functions such as disease reporting, registry development, and syndromic surveillance.  For this vision to be realized, State and local public health information systems need to be strengthened so that they can receive and process data coming from provider EHRs.  There is also a need for standards development based on functional requirements that reflect the workflow and data content needs of State and local health agencies.  On this front, work is being conducted in a number of public health areas at CDC including laboratory reporting, vital records, newborn screening, immunization, cancer reporting and other disease-specific areas.  The pathway toward adoption of the necessary standards and the considerable investment needed in bringing health departments up to an operating status is the subject of workgroups at CDC, the Office of the National Coordinator for Health IT (ONC), and numerous public health informatics groups such as the Joint Public Health Informatics Taskforce and the Public Health Data Standards Consortium.</p>
+<h3><a id="Electronic">Electronic Health Records</a></h3>
+<p>In the context of pursuing meaningful use through certified EHR systems, standards are being developed that could facilitate reporting of clinical data that will be useful not only for patient care, but for population monitoring and research as well.  Steps must be taken to develop techniques to extract meaningful data in ways that can in the future complement survey and administrative data collection.  Challenges for research with these records include non-standardized data elements as well as physical and organizational barriers to data integration when source data are housed in multiple repositories.  A research roadmap is needed to align the data capabilities afforded by new administrative data systems, EHRs, surveys, and the promise of standardized data repositories for public health and research.  Pilot tests, workshops, linkage and methodological research can promote alignment.  HHS Comparative Effectiveness Research investments to create practice-based networks can be used to learn how EHR data can be extracted for use in population health, provider, surveys, and outcomes evaluation.</p>
+<h3><a id="Alignment">Alignment</a></h3>
+<p>For purposes of data strategy, alignment involves the harmonization and convergence of current and future data sources through standards, data collection processes, analysis and dissemination policies and other means of assuring future convergence among EHR systems, administrative data systems and surveys.  The ultimate goal is to encourage synergy across these data producers in ways that enhance everyones capability to improve health and health care and answer critical health policy, systems, and research questions.  A variety of activities are being undertaken in HHS to explore how greater standardization of data can enhance analytic capabilities.</p>
+<ul><li>Under the National Quality Strategy, efforts will be made to ensure that quality measures used by HHS will increasingly be harmonized for use with provider incentives and with further iterations of meaningful use standards.</li>
+<li>In terms of workforce policy, there is a growing concern about the adequacy of the health professional workforce to address future demand, particularly the availability and distribution of primary care practitioners as well as the public health workforce.  HHS is undertaking a multi-agency effort to assess the current state of monitoring the workforce with existing data and the potential of new standardized data from States, professional groups, and other federal agencies to augment present efforts.</li>
+<li>The administrative data that will be created as a byproduct of implementation of ACA provisions will be an important source of future information.  Careful attention should be paid to alignment across the data elements and standards adopted by both the federal government and States in developing insurance exchanges and other information systems.</li>
+</ul><p style="text-align:right">[ Go to <a href="#TOC">Contents</a> ]</p>
+<h2 style="text-align:center"><a id="Goals">Goals and Action Steps</a></h2>
+<p>The following goals and action steps have been identified in support of a Department wide data strategy to ensure that data activities address Administration and Secretarial priorities, promote coordination and efficiencies in data planning, and meet critical interagency data needs in a coordinated and integrated fashion.</p>
+<h3><em><a id="Advancing">Advancing Research and Development to Improve HHS Data Collection Systems</a></em></h3>
+<h4>Goal 1:  Improve the speed and efficiency of data collection and release.</h4>
+<p><em>Action Steps:</em></p>
+<ul><li>HHS will explore approaches to improve the speed of data collection by maximizing the appropriate use of web surveys, quick turnaround phone surveys, and automating data collection for provider surveys.  These technologies have the potential to significantly reduce the time in the field required to collect data and provide meaningful analyses.</li>
+<li>HHS agencies will explore the use of web surveys and web panels in HHS data collection systems.  Specifically,
+<ul><li>NCHS will test the feasibility of adding a web based component to the National Health Interview Survey and will evaluate this effort as it relates to improvement in survey timeliness.</li>
+<li>The HHS Data Council will develop policy and best practices for the use of web surveys and web panels in HHS data collections.</li>
+</ul></li>
+<li>HHS agencies will explore use of quick response telephone surveys to improve timeliness.
+<ul><li>AHRQ will test the feasibility of adding a telephone or web based panel to the MEPS Household Component as a quick response mechanism.</li>
+</ul></li>
+<li>HHS agencies will fully explore and expand the use of electronic and automated data collection capabilities in data systems.</li>
+<li>HHS agencies will develop and expand early data release programs, such as the NCHS, AHRQ, SAMHSA and CMS initiatives, and expand and adapt the strategy to new survey platforms and administrative data systems.
+<ul><li>HHS will explore the expansion of administrative data analytic capability to include developing methods and capacity to improve coding, ensure data completeness, and use of EHRs.  CMS is currently pursuing methods to collect encounter data collected for Medicare beneficiaries in managed care plans.</li>
+</ul></li>
+</ul><h4>Goal 2:  Improve access to HHS data</h4>
+<p><em>Action Steps:</em></p>
+<ul><li>HHS agencies will continue to expand their efforts to provide access to the extensive data resources they maintain though outlets such as Data.Gov, Health Data.Gov, the Health Indicators Warehouse and individual agency initiatives.  In addition, HHS agencies will continue to make their data available through a variety of methods, including public use data files, web based statistical tabulations and compendia, publications, restricted-use data analysis systems, data portals and Research Data Centers (RDCs).</li>
+<li>The Data Council will oversee periodic reviews of the data portfolios of HHS agencies to identify additional opportunities to make data accessible.</li>
+<li>The Data Council will coordinate an assessment of Research Data Centers (RDCs) sponsored by HHS agencies with a view toward improvements to facilitate access to restricted data, while ensuring confidentiality protections.  This effort will include an assessment of expanded opportunities for remote access.</li>
+<li>HHS will analyze de-identification methods to support greater development of public use files, and explore options to reduce the costs associated with using administrative data.</li>
+<li>HHS will continue to make data and tools available to researchers and the public on Data.gov, including the availability of new tools and instruments to analyze Departmental data.</li>
+</ul><h4>Goal 3:  Enhance methodology to address policy and population data needs</h4>
+<p><em>Action Steps:</em></p>
+<ul><li>HHS will assess strategies to augment samples in population surveys to address community level and special population data needs, including data on vulnerable populations.</li>
+<li>HHS agencies will develop and assess the potential of model based estimates to provide data for small areas and special populations.  In particular, NCHS will develop and assess the potential of small area estimation procedures for the NHIS and other NCHS surveys.</li>
+<li>HHS will explore ways to expand use of mixed-mode surveys to address data needs.</li>
+<li>HHS will compile and share an inventory of commercial data sets used by HHS agencies and identify situations and data objectives for which use of commercial data may be appropriate.</li>
+</ul><h3><em><a id="Promoting">Promoting Data Collection Coordination, Integration and Future Alignment of Surveys, Administrative Data, and Electronic Health Record Systems</a></em></h3>
+<h4>Goal 4:  Ensure that survey integration efforts are preserved and expanded.</h4>
+<p><em>Action Steps:</em></p>
+<ul><li>HHS agencies that conduct national surveys are planning and advancing several integration initiatives.  The HHS Data Council will ensure that these efforts remain on track, monitor their progress, learn from implementation experience, and assess further opportunities to increase value through further integration.  Specifically,
+<ul><li>NCHS is integrating data collected from the National Hospital Discharge Survey and the National Hospital Ambulatory Medical Care Survey into the new National Hospital Care Survey.</li>
+<li>SAMHSA and NCHS are collaborating on the integration of emergency department data collection systems into the NCHS family of national provider care surveys.</li>
+<li>SAMHSA is currently integrating its two major surveys of treatment facilities for mental illness and substance abuse.</li>
+<li>NCHS is developing a plan for a family of long term care facilities surveys.</li>
+</ul></li>
+</ul><h4>Goal 5:  Maximize data linkages between HHS data systems to increase analytic capacity and survey efficiency</h4>
+<p><em>Action Steps:</em></p>
+<ul><li>Through the HHS Data Council, HHS will develop and publicize a description of all current data linkage capacities and linked data sets.  Attention will be directed at the array of on-going linkage capabilities between the national surveys and administrative datasets as well as plans for additional linked data sets.</li>
+<li>Based on a review of the linked data set inventory, HHS will identify gaps across the major surveys that might be addressed through record linkages and assess the potential for additional linkages.</li>
+</ul><h4>Goal 6:  HHS will promote opportunities for integration, standards and alignment of surveys, administrative data systems and Electronic Health Record Systems to meet emerging data needs in a coordinated and cost effective manner.</h4>
+<p><em>Action Steps</em></p>
+<ul><li>The HHS Data Council will coordinate a review of current and new administrative data systems associated with ACA implementation to determine where greater alignment in terms of data standards can enhance the potential for ACA monitoring, policy analysis, and evaluation, and will describe how survey data can complement administrative data.</li>
+<li>HHS will develop and implement data collection standards for race, ethnicity and other demographic data as outlined in Section 4302 of the Affordable Care Act.  Proposed standards for race, ethnicity, sex, primary language, and disability status have been published for public comment.  Final data standards are scheduled to be implemented by the Department in 2012.</li>
+<li>The Data Council will establish a Working Group to coordinate plans and activities for adding new questions relating to monitoring the impact of health reform to HHS and Census Bureau surveys.</li>
+<li>HHS will explore ways to build on federal research investments in practice-based networks to learn how EHR data can be most effectively extracted for use in population health activities, quality measurement, provider surveys, and outcomes evaluation.</li>
+<li>The Data Council will develop a framework and research agenda to guide and support the alignment of the data systems and data capabilities that will be afforded by new administrative data systems, Health information exchange, EHRs and personal health records, and surveys.  An agenda of pilots, workshops and methodological research will be developed to promote this alignment.</li>
+<li>HHS initiatives in the areas of workforce, disparities reduction, and EHR meaningful use have implications for data standards development and alignment.  These cut across federal, State and private data systems.  The Data Council will serve as an overarching monitor, and when appropriate coordinator, of data alignment aspects of these domains.</li>
+</ul><p style="text-align:right">[ Go to <a href="#TOC">Contents</a> ]</p>
+<h2 style="text-align:center"><a id="Recommendations">Recommendations</a></h2>
+<p>In addition to the Action Steps described above, the Data Council offers several high level recommendations concerning continuing leadership support for the data collection infrastructure, goals and strategies proposed in this report.  These recommendations provide the framework to ensure that HHS continues to make progress in addressing data needs, policies and priorities.</p>
+<ol><li>HHS should maintain and protect the core surveys and administrative data systems that provide the foundation for the Departments and the nations capacity to monitor health and well-being, the quality and efficiency of healthcare, health and human services systems changes, and Secretarial initiatives and priorities.</li>
+<li>HHS should ensure that the core surveys maintain their capabilities to serve as robust platforms for integration, and look at possible ways of enhancing their designs to meet future integration needs</li>
+<li>HHS should continue to support the development and use of timely and high quality administrative data to provide data for decision making, as well as administrative data initiatives aimed at more timely release and improved access and availability</li>
+<li>HHS should implement the Data Councils proposed strategy to address data needs for racial and ethnic minority populations as well as other vulnerable populations, as outlined in the HHS Disparities Action Plan.  The strategy includes data collection standards, inclusion of standard questions in major surveys, oversampling in major surveys, use of administrative data, pooling and other innovative approaches to analysis, commitment to data access and dissemination, and special targeted studies for populations not amenable to national surveys.</li>
+<li>HHS should examine the potential of current surveys and data collection systems to provide data on high priority HHS data needs, including
+<ul><li>The impact of ACA provisions and other forces affecting health system change on health status outcomes, insurance coverage rates, access and quality indicators, healthcare expenditures and population health measures.</li>
+<li>Data to monitor the behavior of States, health plans, employers, providers, and consumers in the context of ACA.</li>
+<li>Data to assess disparities in health status and health care of vulnerable populations, such as racial and ethnic populations, persons with disabilities, rural and LGBT populations.</li>
+<li>State and community level policy and public health data.</li>
+<li>Information to monitor and assess changes in and the adequacy of health care institutions and workforce to meet needs.</li>
+</ul></li>
+<li>HHS agencies should continue to expand efforts to provide user friendly access to and maximum availability of the extensive data resources they maintain though outlets such as Data.Gov, Health Data.Gov, the Health Indicators Warehouse and agency initiatives.  In addition, HHS agencies should continue to make their data available through a variety of other methods, including public use data files, web based statistical resources and compendia, publications and Research Data Centers (RDCs.</li>
+</ol><p style="text-align:right">[ Go to <a href="#TOC">Contents</a> ]</p>
+<h2 style="text-align:center"><a id="Conclusions">Conclusions</a></h2>
+<p>While the data collection systems sponsored by HHS are essential to support the HHS mission, they also provide most of the national statistical capacity to monitor the health of the population and the functioning of the health care and human services systems.  Although many HHS data systems represent the state of the art in their class, new challenges are placing increasing demands on these resources.  New data needs are arising, significant gaps exist, pressures for improved timeliness are mounting, and costs are increasing.  At the same time, new administrative data systems needed to support health reform, and the widespread adoption of EHR systems and electronic information exchange can provide a wealth of new data sources.  The need to improve survey efficiencies, address gaps, increase data for vulnerable populations and small areas and improve the timeliness of data collection and dissemination are challenges that a thoughtful and systematic data strategy can address.</p>
+<p>The goals, actions steps and recommendations described above are offered for HHS consideration to address many of the challenges outlined.  In many instances, work has already been initiated under the auspices of the HHS Data Council and individual agencies.  The Data Council stands ready to undertake, coordinate and oversee implementation of the Actions Steps recommendations and strategies outlined, and to work with and support other entities in doing so.</p>
+</div>
+</div>
+<p> </p>
+<div class="group-tags"><div class="field-label">Tags:&nbsp;</div><a href="/terms/data-and-information-policy">Data and Information Policy</a><a href="/terms/data-council-web-site">Data Council (web site)</a><a href="/terms/data-standards">Data Standards</a><a href="/terms/data-sources-and-statistics">Data Sources and Statistics</a><a href="/terms/administrative-data">Administrative Data</a><a href="/terms/development-data-surveys-and-indicators">Development of Data, Surveys, and Indicators</a><a href="/terms/hhs-data-council">HHS Data Council</a><a href="/terms/standards">Standards</a></div>  </div>
+
+      <footer>
+          </footer>
+  
+    <div id="block-webform-client-block-158521" class="widget block block-webform" >
+  
+      
+  <div id="webform-ajax-wrapper-158521"><form class="webform-client-form webform-client-form-158521" action="/basic-report/improving-data-decision-making-hhs-data-collection-strategies-transformed-health-system" method="post" id="webform-client-form-158521" accept-charset="UTF-8"><div><div class="webform-progressbar">
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-radios webform-component--was-this-page-helpful">
+  <label for="edit-submitted-was-this-page-helpful">Was this page helpful? <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-was-this-page-helpful" class="form-radios"><div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-1" name="submitted[was_this_page_helpful]" value="1" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-1">Yes </label>
+
+</div>
+<div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-2" name="submitted[was_this_page_helpful]" value="0" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-2">No </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="4" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-8KjNVHO58mZBfOg9Hj8MuVxLi7BjX9bwTPUmChNTXc8" />
+<input type="hidden" name="form_id" value="webform_client_form_158521" />
+<input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-158521" />
+<div class="form-actions"><input class="webform-next button-primary btn btn-default form-submit" type="submit" id="edit-webform-ajax-next-158521" name="op" value="Next &gt;" /></div>
+<div class="is-useful-disclaimer"> <a href="/%23" class="" title="Survey Disclaimer" data-toggle="modal" data-target="#disclamerModal">Form Approved OMB# 0990-0379 Exp. Date 8/31/2017</a></div>
+<div class="modal fade" id="disclamerModal" tabindex="-1" role="dialog" aria-labelledby="disclamerModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="disclamerModalLabel">Survey Disclaimer</h2>
+      </div>
+      <div class="modal-body">
+         According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this information collection is 0990-0379. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, gather the data needed, and complete and review the information collection. If you have comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: U.S. Department of Health & Human Services, OS/OCIO/PRA, 200 Independence Ave., S.W., Suite 336-E, Washington D.C. 20201, Attention: PRA Reports Clearance Officer.      </div>
+    </div>
+  </div>
+</div></div></form></div>
+  </div> <!-- /.block -->
+<meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/improving-data-decision-making-hhs-data-collection-strategies-transformed-health-system" itemref="md1 md3 md5 md7 md9 md11 md13 md15 md17" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/data-and-information-policy" id="md3" itemref="md2" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/data-council-web-site" id="md5" itemref="md4" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/data-standards" id="md7" itemref="md6" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/data-sources-and-statistics" id="md9" itemref="md8" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/administrative-data" id="md11" itemref="md10" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/development-data-surveys-and-indicators" id="md13" itemref="md12" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/hhs-data-council" id="md15" itemref="md14" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/standards" id="md17" itemref="md16" />              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <footer  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Footer">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  id="footer_sitemap-footer_sitemap" class="col-sm-6 col-md-6 col-lg-4 ">
+                          
+                              <div id="block-footer-sitemap-footer-sitemap" class="widget block block-footer-sitemap" >
+  
+      
+  <div id="footer-sitemap" class="clearfix">
+  <div class="fs-block-content"><div class="menu-footer-utility"><ul class="footer_links_menu-footer-utility total-items-2 parent-items-0 single-items-0"><li class="menu-5021 depth-1 total-children-8 parent-children-0 single-children-8  first"><a href="/" title="look at ASPE Home" class="fs-root-link">ASPE Home</a><ul class="footer_links_menu-footer-utility total-items-8 parent-items-0 single-items-0"><li class="menu-5026 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/" title="look at HHS Home">HHS Home</a></li>
+<li class="menu-66281 depth-1 fs-no-children"><a href="http://www.usa.gov/" title="look at USA.gov">USA.gov</a></li>
+<li class="menu-66316 depth-1 fs-no-children"><a href="https://oig.hhs.gov/" title="look at Office of the Inspector General">Office of the Inspector General</a></li>
+<li class="menu-66321 depth-1 fs-no-children"><a href="http://www.whitehouse.gov" title="look at The White House">The White House</a></li>
+<li class="menu-5046 depth-1 fs-no-children"><a href="http://www.hhs.gov/Accessibility.html" title="look at Accessibility">Accessibility</a></li>
+<li class="menu-66326 depth-1 fs-no-children"><a href="http://www.hhs.gov/about/budget/index.html" title="look at Budget/Performance">Budget/Performance</a></li>
+<li class="menu-2551 depth-1 fs-no-children"><a href="http://www.hhs.gov/Privacy.html" title="look at Privacy Policy">Privacy Policy</a></li>
+<li class="menu-197776 depth-1 fs-no-children  last"><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" title="Nondiscrimination Notice">Nondiscrimination Notice</a></li>
+</ul></li>
+<li class="menu-5051 depth-1 total-children-4 parent-children-0 single-children-4  last"><a href="http://www.hhs.gov/foia/" title="look at FOIA" class="fs-root-link">FOIA</a><ul class="footer_links_menu-footer-utility total-items-4 parent-items-0 single-items-0"><li class="menu-5056 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/open/recordsandreports/plainwritingact/index.html" title="look at Plain Writing Act">Plain Writing Act</a></li>
+<li class="menu-5061 depth-1 fs-no-children"><a href="http://www.hhs.gov/asa/eeo/no_fear_bullet_3.html" title="look at No Fear Act">No Fear Act</a></li>
+<li class="menu-5066 depth-1 fs-no-children"><a href="http://www.hhs.gov/Disclaimer.html" title="look at Disclaimers">Disclaimers</a></li>
+<li class="menu-2546 depth-1 fs-no-children  last"><a href="http://www.hhs.gov/plugins.html" title="look at Viewers &amp; Players">Viewers &amp; Players</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-5 " id="stability_cms-contact_us">
+                          
+                              <div id="block-stability-cms-contact-us" class="widget block block-stability-cms" >
+  
+      
+  <div class="contacts-widget widget widget__footer">
+	<div class="widget-content">
+		<ul class="contacts-info-list">
+      			<li>
+<!--				<i class="fa fa-map-marker">Address</i>-->
+                <div class="info-icons">
+                    <img  alt="map" class= 'map-icons' src="/sites/all/themes/stability/stability_aspe/images/map.png"/>
+                </div>
+                <div class="info-item">
+					Assistant Secretary for Planning and Evaluation, Room 415F<br />
+U.S. Department of Health and Human Services<br />
+200 Independence Avenue, SW<br />
+Washington, D.C. 20201				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-phone">phone</i>-->
+                <div class="info-icons">
+                    <img alt="phone" src="/sites/all/themes/stability/stability_aspe/images/phone.png"/>
+                </div>
+				<div class="info-item">
+					+1 202.690.7858				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-envelope">email</i>-->
+                <div class="info-icons">
+                    <img alt="mail" src="/sites/all/themes/stability/stability_aspe/images/mail-white.png"/>
+                </div>
+				<span class="info-item">
+					<a href="mailto:osaspeinfo@hhs.gov">osaspeinfo@hhs.gov</a>
+				</span>
+			</li>
+      			                					</ul>
+	</div>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-3 " id="footer">
+                          
+                              <div id="block-block-36" class="widget block block-block" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sign-up</span> for Email Updates</h3>
+		</div>
+    
+  <div class="email_updates">
+<button class="btn btn-default" name="subscribe-button" type="submit" value="subscribe">subscribe</button>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-12 " id="menu-menu-footer-language-menu">
+                          
+                              <div id="block-menu-menu-footer-language-menu" class="widget block block-menu" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Language</span> Assistance Available</h3>
+		</div>
+    
+  <ul class="menu"><li class="first expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#spanish" title="Español">Español</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#chinese" title="繁體中文">繁體中文</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#vietnamese" title="Tiếng Việt">Tiếng Việt</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#korean" title="한국어">한국어</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#tagalog" title="Tagalog">Tagalog</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#russian" title="Русский">Русский</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#arabic" title="العربية">العربية</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#creole" title="Kreyòl Ayisyen">Kreyòl Ayisyen</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#french" title="Français">Français</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#polish" title="Polski">Polski</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#portuguese" title="Português">Português</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#italian" title="Italiano">Italiano</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#german" title="Deutsch">Deutsch</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#japanese" title="日本語">日本語</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#farsi" title="فارسی">فارسی</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#english" title="English">English</a></li>
+</ul></li>
+</ul>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+      </div>
+
+          </div>
+    
+    
+      </footer>
+    
+
+    <!--/PAGEWATCH-->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+                        </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="social-links-wrapper">
+              <span class="social-links-txt">Connect with us</span>
+              <ul class="social-links social-links__dark">
+                                                  <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw-grey.png"/></a></li>
+                                <!--                --><!--                  <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin-grey.png"/></a></li>-->
+<!--                -->
+                                                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>  <script type="text/javascript" src="/sites/default/files/advagg_js/js__VWRymaMz6HfrhnrcJNGcDiSvLVrvhaXvBa7nrBYy8gc__jntPwP3D6myJZH1jW19fXrk5cYMHGRL8NQION22VSEA__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5486d15a696bff0c"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__g6mKbcakHxQkz4ZHYaxdO_xqONINvRMgsHh1zAK-fr0__ATHtEmHaeZ0jidpGU22EkhmPDBSgjD8z0bVDQMI-BIY__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__KUp4PrfOt9BSXUVl8Ctb3dhCMBe4MNVMeb4Gyorx8yY__7g4BeXscCIZAfuu1vxsCj2RIemg-eEK0QpChP9LDmFQ__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__PNjAgubM_3xXRLp4uLsYnv8wQAdT89-RYkSPxT6T45c__rFQwFK4pA5ZaWZSF7FPTfKbbpus0h-5IS8ayrNZGrb4__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__vQiLul2UcfC4nBAR09mhYVBYzRmiNDm2dj3GgSubV38__w84oZe-ZODKe7XnnlbrjV4IWHISOy4PioFEMVgx9hZo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__QJw3g0kOdwsv4twSZLP931zBzsHy50VEHpEN_znIitQ__A6QOuWXElDipBM2iChbWhjAAt3KlUwZ-jODoxdpbwiw__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stability_aspe","theme_token":"I8yPpZfmuP-6XmGvZozzjKbhjROxg7YDoez-GJ3l_TE","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/footable.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/aspe_nodes.admin.css":1,"sites\/all\/modules\/custom\/aspe_views\/theme\/css\/aspe_views.admin.css":1,"sites\/all\/modules\/forked\/book\/book.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/openpublic\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.css":1,"profiles\/openpublic\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openpublic\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/openpublic\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/themes\/stability\/css\/bootstrap.min.css":1,"sites\/all\/themes\/stability\/css\/fonts\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.theme.css":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/stability\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/stability\/css\/theme.css":1,"sites\/all\/themes\/stability\/css\/theme-elements.css":1,"sites\/all\/themes\/stability\/css\/animate.min.css":1,"sites\/all\/themes\/stability\/css\/skins\/red.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/slideshow.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/font-main.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/styleless.less":1,"sites\/all\/themes\/stability\/css\/skins\/blue.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/aspe\/theme\/js\/aspe.login-confirm.js":1,"sites\/all\/modules\/custom\/aspe_report\/modules\/aspe_databooks\/js\/aspe_databooks.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.highcharts.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/datatables\/dataTables.min.js":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.min.js":1,"sites\/all\/libraries\/highcharts\/highcharts.js":1,"sites\/all\/libraries\/highcharts\/highcharts.exporting.js":1,"sites\/all\/libraries\/highcharts\/highcharts.map.js":1,"sites\/all\/libraries\/highcharts\/highcharts.us-all.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.footable.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5486d15a696bff0c":1,"misc\/progress.js":1,"profiles\/openpublic\/modules\/contrib\/webform\/js\/webform.js":1,"profiles\/openpublic\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/stability\/vendor\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/stability\/vendor\/bootstrap.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flexnav.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flickrfeed.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.sloppy-masonry.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.fitvids.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.stellar.min.js":1,"sites\/all\/themes\/stability\/vendor\/snap.svg-min.js":1,"sites\/all\/themes\/stability\/js\/custom.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/aspe.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/html5shiv.min.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/main-menu.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/keyboard-control.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tabBehavior.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tileStringTrimmer.js":1}},"webform":{"conditionals":{"webform-client-form-158521":{"ruleGroups":[],"sourceMap":[],"values":[]}}},"ajax":{"edit-webform-ajax-next-158521":{"callback":"webform_ajax_callback","wrapper":"webform-ajax-wrapper-158521","progress":{"message":"","type":"throbber"},"event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Next \u003E"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/basic-report\/improving-data-decision-making-hhs-data-collection-strategies-transformed-health-system":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"([a-z0-9]\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This website contains links to other federal and state agencies and private organizations. The Department of Health and Human Services (HHS) cannot attest to the accuracy of information provided by these nonfederal website links. Linking to nonfederal sites does not constitute an endorsement by HHS or any of its employees of the sponsors or the information and products presented on the sites. You will be subject to the destination site\u0027s privacy policy when you leave the ASPE website.\r\n\r\nThank you for visiting aspe.hhs.gov!","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"stability":{"flickr_id":"52617155@N08","logo_sticky":"28"},"field_group":{"div":"full","hidden":"full"}});
+//--><!]]>
+</script>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config={pubid:"ra-5486d15a696bff0c",ui_click:false}
+//--><!]]>
+</script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4837db659","applicationID":"10708002","transactionName":"MwNaZBRSXEtXB0BdWQpJbUIPHFtWUgFMGkYMFg==","queueTime":0,"applicationTime":28,"atts":"H0RZElxIT0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

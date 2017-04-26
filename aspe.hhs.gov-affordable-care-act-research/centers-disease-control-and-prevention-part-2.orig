@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">  <!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://aspe.hhs.gov/sites/default/files/Favicon2.png" type="image/png" />
+<meta name="description" content="TITLE: 122 Cities Mortality Reporting System ACRONYM: 122 MRS AGENCY/PROGRAM: Epidemiology Program Office, Centers for Disease Control and Prevention" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://aspe.hhs.gov/centers-disease-control-and-prevention-part-2" />
+<link rel="shortlink" href="https://aspe.hhs.gov/node/168901" />
+<meta property="og:site_name" content="ASPE" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aspe.hhs.gov/centers-disease-control-and-prevention-part-2" />
+<meta property="og:title" content="Centers for Disease Control and Prevention, Part 2" />
+<meta property="og:description" content="TITLE: 122 Cities Mortality Reporting System ACRONYM: 122 MRS AGENCY/PROGRAM: Epidemiology Program Office, Centers for Disease Control and Prevention" />
+<meta property="og:updated_time" content="2016-01-10T16:14:35-05:00" />
+<meta property="article:published_time" content="2016-01-10T16:14:35-05:00" />
+<meta property="article:modified_time" content="2016-01-10T16:14:35-05:00" />
+
+  <title>Centers for Disease Control and Prevention, Part 2 | ASPE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+  <link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__5ln8neBOcJfyUveiD4y9fhI6kHBLOQ_YL0mMC-LS9a0__TPJIZT9UBnf_685NlFTJ5KnZVsjwFk6ACQ-nwwygmwU__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ng49uRH5y4Hl9VF9hHW_vXOj-mcOc2u2ShJqJ1YKIGU__FoMCD14GBvZaRiqSQ_JpP1w3rDB21n7H2Ar4pRZaIh8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__Hskudx14OJ5Hz8vqU7CUgN6SDV5rINZuEq9VuGsSeyc__EwNIl3xeFrniW2TmonovTzhSs3X5MdFps210puE7jog__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__9rZoaX9BdzjjNucvYxduxeNAVO2zgW_Rvjhb5rq5whc__lSr_y16grDSgHf4booPChnF7QXz3TQY3hafH49twE0k__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZgfI_ZPib5yVY0o5aKo_6TFn946Tuu_nFDa0ySTmkSc__2FTFrNw2eNh0mpHIOA34r6YRwBZMm2PjJ_JubnwLigg__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__dxabpJ5rQgDSixKgLJZjWc1beC6mpROKwVrmWxI5eno__rqhz_hGsE_i59O7-W991o71_Jxw1QOtGMxn4nsOLHY8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZbRCq2NqWgK-HXAQI3So0N1n0nr4HonsJS3eQuuxukw__7Olkk8Locn8Dj0eR0Ww3rbV9lks9sxipcboMXB18RRs__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+
+	<!-- Head Libs -->
+	<script src="/sites/all/themes/stability/stability_aspe/vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/sites/all/themes/stability/vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" href="/sites/all/themes/stability/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/stability/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/stability/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/stability/images/apple-touch-icon-144x144.png">
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-168901 node-type-site-page">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-JLFR"
+                  height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JLFR');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-nav" class="accessibility_menu">
+    <strong>Shortcut Navigation:</strong>
+    <ul>
+      <li><a href="#content" accesskey="c" title="Skip to page content (ctrl/alt + c)">Page Content</a></li>
+      <li><a href="#nav" accesskey="m" title="Skip to main navigation menu (ctrl/alt + m)">Site Navigation</a></li>
+
+      <li><a href="#Footer" accesskey="f" title="Skip to footer (ctrl/alt + f)">Footer</a></li>
+    </ul>
+  </div>
+
+    
+<div class="site-wrapper">
+  
+  <header class="header header-menu-fullw header-top-clean">
+    <div id="brand-bar">
+        <div class="container">
+                    <img alt='bird' src="/sites/all/themes/stability/stability_aspe/images/bird.png"> <a target="blank" tabindex="4" href="http://www.hhs.gov/">U.S. Department of Health & Human Services</a>
+        </div>
+
+    </div>
+    <div class="header-main">
+        <div class="container clearfix">
+            <div class="social-links-wrapper">
+                <ul class="social-links social-links__light">
+                                                          <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw.png"/></a></li>
+                                    <!--                  --><!--                    <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin.png"/></a></li>-->
+<!--                  -->
+                                                                      </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                                <div class="site_name_wrapper">
+                                     <span class="h1">
+                                      <a href="/">ASPE</a>
+                                       </span>
+                                  <p class="tagline"><p>Office of The Assistant Secretary</p><p> for Planning and Evaluation</p></p>
+                    </div>
+            </div>
+            <!-- Logo / End -->
+            <div class="header_right_wrapper">
+                <div class="search-form">
+                    <form action="/centers-disease-control-and-prevention-part-2" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class = "input-group"><div class="form-type-textfield form-item-search-block-form form-item form-group">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search Site..." class="form-control form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input class="btn btn-primary btn-icon form-submit" type="image" id="edit-submit" name="submit" value="Search" src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/search-white2.png" alt="Search" title="Search" /></div></div><input type="hidden" name="form_build_id" value="form-W6SKyBhNOOlSG_QmAGdygMao_o39WZzdBwHebmfVNGA" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </div>
+                <button type="button" class="navbar-toggle" value="Menu">
+                    <i class="fa fa-bars"></i>Menu
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-main">
+        <div class="container">
+          <ul data-breakpoint="767" class="flexnav">
+                <li class="first expanded"><a href="/basic-search/about" title="">About</a><ul><li class="first leaf"><a href="/mission" title="">Mission</a></li>
+<li class="leaf"><a href="/key-staff" title="">Leadership</a></li>
+<li class="leaf"><a href="https://www.usajobs.gov/" title="">Careers</a></li>
+<li class="expanded"><a href="/coordination" title="linkTo">Coordination</a><ul><li class="first leaf"><a href="/evaluation-evidence" title="">Evaluation &amp; Evidence</a></li>
+<li class="leaf"><a href="/national-alzheimers-project-act">National Alzheimer&#039;s Project Act</a></li>
+<li class="leaf"><a href="/health-and-human-services-hhs-data-council">HHS Data Council</a></li>
+<li class="last leaf"><a href="/national-committee-vital-and-health-statistics" title="National Council on Vital and Health Statistics">National Council on Vital and Health Statistics</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/divisions" title="">Offices</a><ul><li class="first leaf"><a href="/office-disability-aging-and-long-term-care-policy-daltcp">Disability, Aging, and Long-Term Care Policy</a></li>
+<li class="leaf"><a href="/office-health-policy-hp">Health Policy</a></li>
+<li class="leaf"><a href="/office-human-services-policy">Human Services Policy</a></li>
+<li class="last leaf"><a href="/office-science-and-data-policy">Science and Data Policy</a></li>
+</ul></li>
+<li class="leaf"><a href="/strategic-planning" title="Strategic Planning">Strategic Planning</a></li>
+<li class="last leaf"><a href="/contact-aspe" title="">Contact ASPE</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/topics" title="">Topics</a><ul><li class="first leaf"><a href="/affordable-care-act-research">Affordable Care Act Research</a></li>
+<li class="leaf"><a href="/alzheimers-dementia">Alzheimer&#039;s / Dementia</a></li>
+<li class="leaf"><a href="/early-childhood">Early Childhood</a></li>
+<li class="leaf"><a href="/incarceration-reentry">Incarceration &amp; Reentry</a></li>
+<li class="leaf"><a href="/opioid-abuse-us-and-hhs-actions-address-opioid-drug-related-overdoses-and-deaths" title="Opioids">Opioids</a></li>
+<li class="leaf"><a href="/patient-centered-outcomes-research-trust-fund">Patient-Centered Outcomes Research Trust Fund (PCORTF)</a></li>
+<li class="expanded"><a href="/basic-search/poverty" title="">Poverty</a><ul><li class="first leaf"><a href="/poverty-guidelines">Poverty Guidelines</a></li>
+<li class="last leaf"><a href="/poverty-estimates-trends-and-analysis">Poverty Analysis</a></li>
+</ul></li>
+<li class="leaf"><a href="/teen-pregnancy-prevention">Teen Pregnancy Prevention</a></li>
+<li class="leaf"><a href="/homelessness">Homelessness</a></li>
+<li class="last leaf"><a href="/medicare-access-and-chip-reauthorization-act-2015">MACRA</a></li>
+</ul></li>
+<li class="leaf"><a href="/reports" title="">Publications</a></li>
+<li class="last expanded"><a href="/basic-search/datasets" title="">Data and Tools</a><ul><li class="first last leaf"><a href="/evaluations" title="">Evaluation Database</a></li>
+</ul></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation / End -->
+</header>  <div class="main" role="main">
+    <!--PAGEWATCH CODE="USHHS_458"-->
+    <section class="page-heading">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+                <h1>
+                    
+          Centers for Disease Control and Prevention, Part 2        </h1>
+                                 <p class="author">
+                                                 <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="1969-12-31T00:00:00-05:00">12/31/1969</span>               
+                           </p>
+
+
+                  </div>
+
+
+        <div class="col-md-6">
+           <ul class="breadcrumb"><li class="first"><a href="/" title="Home">Home</a></li>
+<li class="last">Centers for Disease Control an...</li>
+</ul>        </div>
+
+
+    </div>
+  </div>
+</section>
+    
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Content">     
+
+        
+                  
+        
+                                    <div  class="col-md-12 " id="content">
+                          
+                              <div id="block-aspe-aspe-addthis" class="widget block block-aspe" >
+  
+      
+  <div class="clearfix">
+  <ul class="addthis_sharing_toolbox node-share__links" data-url="https://aspe.hhs.gov/centers-disease-control-and-prevention-part-2" data-title="Centers for Disease Control and Prevention, Part 2">
+    <li><a class="addthis_button_print"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/print-white.png" alt="print" /></a></li>
+    <li><a class="addthis_button_email"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/mail-white.png" alt="email" /></a></li>
+    <li><a class="addthis_button_twitter"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/tw.png" alt="twitter" /></a></li>
+<!--    <li><a class="addthis_button_facebook">--><!--</a></li>-->
+    <li><a class="addthis_button_compact"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/plus-white.png" alt="compact" /></a></li>
+  </ul>
+</div>
+
+  </div> <!-- /.block -->
+
+                
+    
+  
+  <div class="content clearfix node-site-page">
+    <p><strong>TITLE:</strong> 122 Cities Mortality Reporting System</p>
+<p><strong>ACRONYM:</strong> 122 MRS</p>
+<p><strong>AGENCY/PROGRAM:</strong> Epidemiology Program Office, Centers for Disease Control and Prevention</p>
+<p><strong>DESCRIPTION:</strong> This system compiles summary mortality data by age group for all-causes and pneumonia and influenza as reported by Vital Statistic Registrars and Reporters within 122 U.S. cities. This reporting process occurs on a weekly basis through either fax or voice mail. These provisional data are disseminated weekly in Table III of CDC's Morbidity and Mortality Weekly Report. Public health professionals use these data to evaluate mortality patterns to determine if any unusual trends are occurring. Researchers have also used these data to forecast or to predict the number of deaths in defined regional areas. The Influenza Branch of the Division of Viral and Rickettsial Diseases, National Center for Infectious Diseases, CDC, uses these data as part of its influenza surveillance efforts. Additional information and access to a query system linked to 122 Cities Mortality data is available at URL: <a href="http://www.cdc.gov/epo/dphsi/phs.htm">http://www.cdc.gov/epo/dphsi/phs.htm</a>.</p>
+<p>Methods of data collection for this system include:</p>
+<ul><li>notification of case(s)/events</li>
+</ul><p>Data are originally collected by:</p>
+<ul><li>private/doctors or nurses</li>
+<li>hospitals</li>
+<li>managed care organizations</li>
+<li>Death certificates</li>
+</ul><p><strong>RACE/ETHNICITY:</strong> Race and/or Ethnicity data are not collected.</p>
+<p><strong>STATUS:</strong> This system collects data actively and passively.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> Public use data files are available upon request or through the URL listed above. Interpreted results can be accessed through:</p>
+<ul><li>internal reports</li>
+<li>external reports</li>
+<li>MMWR Weekly Reports</li>
+<li>MMWR Surveillance Summaries</li>
+<li>peer reviewed journals</li>
+</ul><p><strong>CONTACT PERSON:</strong> Samuel L. Groseclose, D.V.M., M.P.H.<br />
+	Epidemiology Program Office<br />
+	Division of Public Health Surveillance and Informatics<br />
+	Centers for Disease Control and Prevention<br />
+	Mailstop K-74, 4770 Buford Highway, Koger Center<br />
+	Atlanta, GA 30341<br />
+	Phone (770) 488-8359 / Fax (770) 488-8447<br /><a href="mailto:slg0@cdc.gov">slg0@cdc.gov</a></p>
+<p> </p>
+<hr /><p><a name="hi" id="hi"></a><strong>TITLE:</strong> Haemophilus Influenzae Surveillance System</p>
+<p><strong>ACRONYM:</strong> HI</p>
+<p><strong>AGENCY/PROGRAM:</strong> Epidemiology Program Office, National Immunization Program, and National Center for Infectious Diseases, Centers for Disease Control and Prevention</p>
+<p><strong>DESCRIPTION:</strong> The Haemophilus Influenzae System at NIP compiles information on all U.S. Haemophilus influenzae invasive disease cases reported to CDC via NETSS since 1991 (managed by EPO and NIP), or via active surveillance in several locales since 1989 (managed by NCIP). Information collected includes demographic data, disease symptoms, isolate serotype, and vaccination history.</p>
+<p>Methods of data collection for this system include:</p>
+<ul><li>via the National Electronic Telecommunications System for Surveillance</li>
+<li>medical record abstraction (by state/local health departments and by active surveillance personnel)</li>
+</ul><p>Data are originally collected by:</p>
+<ul><li>state/local health departments</li>
+<li>hospitals (active surveillance)</li>
+</ul><p>Data are collected weekly.</p>
+<p><strong>RACE/ETHNICITY:</strong> Race and/or Ethnicity data available. The OMB Statistical Directive 15 two variable standard for reporting is used.</p>
+<p>Race categories are: White; Black; Asian/Pacific Islander; American Indian/Alaskan Native; and Other.</p>
+<p>Ethnicity categories are: Hispanic/Latino origin; not of Hispanic/Latino origin.</p>
+<p><strong>STATUS:</strong> This system collects data passively and actively.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> CDC internal use files only. Interpreted results can be accessed through:</p>
+<ul><li>internal reports</li>
+<li>external reports</li>
+<li>MMWR Weekly Reports</li>
+<li>MMWR Reports and Recommendations</li>
+</ul><p>CONTACT PERSON: Kris Bisgard, DVM, MPH (NIP)<br /><a href="mailto:kmb6@cdc.gov">kmb6@cdc.gov</a><br />
+	(404)639-8773</p>
+<p>Nancy Rosenstein, MD (NCID)<br /><a href="mailto:nar5@cdc.gov">nar5@cdc.gov</a><br />
+	(404)639-4734</p>
+<p> </p>
+<hr /><p>
+	<a name="mmwr" id="mmwr"></a><strong>TITLE:</strong> Morbidity and Mortality Weekly Report of Provisional Nationally Notifiable Infectious Disease Data</p>
+<p><strong>ACRONYM:</strong> MMWR Provisional Data</p>
+<p><strong>AGENCY/PROGRAM:</strong> Epidemiology Program Office (EPO), Centers for Disease Control and Prevention (CDC)</p>
+<p><strong>DESCRIPTION:</strong> The Morbidity and Mortality Weekly Report (MMWR) is used to disseminate weekly provisional data on nationally notifiable infectious diseases. These provisional data are used for program planning and evaluation, monitoring trends in incidence, and detecting disease outbreaks. Data are reported weekly to CDC/EPO from 50 U.S. state health departments and health departments in two autonomous reporting sites (New York City and Washington, D.C.) and five U.S. Territories (Guam, Puerto Rico, the Virgin Islands, American Samoa, and the Commonwealth of the Northern Mariana Islands). Case ascertainment sources include hospitals, laboratories, and physicians, which provide case reports to local, county, or state health departments. Case-specific (person-level) data and aggregate summary data (information about a group of cases) are transmitted to CDC/EPO via the National Electronic Telecommunications System for Surveillance (NETSS) to the National Notifiable Diseases Surveillance System (NNDSS). Weekly NNDSS provisional data are summarized for the United States and each State, Census Region, and territory. These provisional NNDSS data are published in Figure 1 and Tables 1, 2, and 3 of the MMWR. Final NNDSS data for 1951-2001 are available in publications found in most medical or public health school libraries.</p>
+<p>NNDSS data files contain data on: Age/Gender, Disease, and Geographic Location.</p>
+<p><strong>RACE/ETHNICITY:</strong> Race categories are: American Indian/Alaskan Native, Asian or Pacific Islander, Black, White, and Other.</p>
+<p>Ethnicity categories are: Hispanic; and Not of Hispanic Origin.</p>
+<p><strong>STATUS:</strong> Starting approximately in 1950, this periodic (weekly) data collection is active.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> Provisional data are made available as tabular data in the MMWR and as tabular and microdata (person-level data files) to CDC Programs with responsibility for prevention and control of the specified disease or condition. Provisional tabular data by disease, reporting area, and week of report are available at URL: <a href="http://www.cdc.gov/mmwr//weekcvol.html">http://www.cdc.gov/mmwr//weekcvol.html</a>. Finalized case-specific (person-level) data (1990-2000) and aggregate summary data (1951-2000) data are available upon request in accordance with the Council of State and Territorial Epidemiologists (CSTE) data release policy and with special agreement with the user.</p>
+<p>Data cell sizes that are small enough to identify particular individuals will be excluded from the data request. In addition, any case identification information will be omitted from the request. These provisional data are collected and released by direction of the CSTE, and thus all rights of privacy and confidentiality will be observed.</p>
+<p><strong>WEB SITE:</strong> Provisional data by disease, reporting area, and week or report are available at <a href="http://www.cdc.gov/epo/dphsi/phs.htm">http://www.cdc.gov/epo/dphsi/phs.htm</a></p>
+<p><strong>CONTACT PERSON:</strong> Samuel L. Groseclose, D.V.M., M.P.H.<br />
+	Epidemiology Program Office<br />
+	Division of Public Health Surveillance and Informatics<br />
+	Centers for Disease Control and Prevention<br />
+	Mailstop K-74, 4770 Buford Highway, Koger Center<br />
+	Atlanta, GA 30341<br />
+	Phone (770) 488-8359 / Fax (770) 488-8447<br /><a href="mailto:slg0@cdc.gov">slg0@cdc.gov</a></p>
+<hr /><p><a name="mmwras" id="mmwras"></a><strong>TITLE:</strong> Morbidity and Mortality Weekly Report, Summary of Notifiable Diseases, United States</p>
+<p><strong>ACRONYM:</strong> MMWR Annual Summary</p>
+<p><strong>AGENCY/PROGRAM:</strong> Epidemiology Program Office (EPO), Centers for Disease Control and Prevention (CDC)</p>
+<p><strong>DESCRIPTION:</strong> The purpose of the MMWR Annual Summary is to disseminate finalized data on nationally notifiable infectious diseases. These data are reported to CDC/EPO from 50 U.S. state health departments and health departments in two autonomous reporting sites (New York City and Washington DC) and five U.S. Territories (Guam, Puerto Rico, the Virgin Islands, American Samoa, and the Commonwealth of the Northern Mariana Islands). Case-specific (person-level) data and aggregate summary data (information about a group of cases) are transmitted via the National Electronic Telecommunications System for Surveillance (NETSS) to CDC's National Notifiable Diseases Surveillance System (NNDSS) on a weekly basis. Each year, the MMWR Annual Summary presents the most current finalized NNDSS data on nationally notifiable infectious disease incidence. In this report, incidence counts are presented for the U.S. overall by month of report, geographic location (State and Census Region), and by the patient's age, race, sex, and hispanic ethnicity. Graphs and maps of disease occurrence are presented for selected diseases. In addition, historical total counts of NNDSS incidence data for the U.S. are presented for the last 30 years. Data for 1920 through 2000 are available in publications found in most medical or public health school libraries.</p>
+<p>The case-specific data files contain data on: age group, gender, race, disease/condition, state, and hispanic ethnicity. Summary data files include incidence counts by either county or month of report to CDC, but do not include demographic data.</p>
+<p><strong>RACE/ETHNICITY:</strong> Race categories are: American Indian/Alaskan Native, Asian or Pacific Islander, Black, White, and Other.</p>
+<p>Ethnicity categories are: Hispanic; and Not of Hispanic Origin.</p>
+<p><strong>STATUS:</strong> Started approximately in 1920, this periodic (annual) data collection is active.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> Case-specific (person-level) (1990-2000) and aggregate (1951-2000) final data are available upon request in accordance with the Council of State and Territorial Epidemiologists (CSTE) data release policy and with special agreement with the user.</p>
+<p>Data cell sizes that are small enough to identify particular individuals will be excluded from the data request. In addition, any case identification information will be omitted from the request; no personal identifiers are received by CDC. These final data are collected and released by direction of the CSTE, and thus all rights of privacy and confidentiality will be observed.</p>
+<p><strong>WEB SITE:</strong> Annual summaries (1993-2000) are available at URL: <a href="http://www.cdc.gov/mmwr/summary.html">http://www.cdc.gov/mmwr/summary.html</a> . Additional information about the National Notifiable Diseases Surveillance System is available at URL: <a href="http://www.cdc.gov/epo/dphsi/phs.htm">http://www.cdc.gov/epo/dphsi/phs.htm</a>.</p>
+<p><strong>CONTACT PERSON:</strong> Samuel L. Groseclose, D.V.M., M.P.H.<br />
+	Epidemiology Program Office<br />
+	Division of Public Health Surveillance and Informatics<br />
+	Centers for Disease Control and Prevention<br />
+	Mailstop K-74, 4770 Buford Highway, Koger Center<br />
+	Atlanta, GA 30341<br />
+	Phone (770) 488-8359 / Fax (770) 488-8447<br /><a href="mailto:slg0@cdc.gov">slg0@cdc.gov</a></p>
+<p> </p>
+<hr /><p><a name="brfss" id="brfss"></a><strong>TITLE:</strong> Behavioral Risk Factor Surveillance System</p>
+<p><strong>ACRONYM:</strong> BRFSS</p>
+<p><strong>AGENCY/PROGRAM:</strong> National Center for Chronic Disease Prevention and Health Promotion, Centers for Disease Control and Prevention</p>
+<p><strong>DESCRIPTION:</strong> The system provides official state health agencies with the funding, training, and consultation necessary to permit them to routinely collect behavioral risk factor information. Data items are included such as cigarette smoking, alcohol abuse, seat belt usage, sedentary lifestyle, obesity, hypertension treatment compliance, and routine demographic information (age, race, sex, education). The behavioral risk factors are chosen based on their strong relationship with many of the leading causes of premature death and disability. States design the instrument that is used to collect these data. Technical and financial assistance is provided by the Centers for Disease Control and Prevention (CDC) to all States, the District of Columbia, Guam,</p>
+<p>Puerto Rico, and the Virgin Islands. Each participant will conduct surveys of its noninstitutionalized adult populations during the course of the year with 1,200-7,000 respondents interviewed annually in each State. Cluster sampling will be employed. Interviews will be conducted monthly (100-700 per month) to provide temporal information. Telephone interviewing is employed for cost and efficiency. Each of the funded projects will use the information to track progress in reducing behavioral risk factors over time. These selected behavioral risk factors are closely associated with accidents, chronic diseases, and premature death. They will provide early indications of chronic disease trends in minority populations.</p>
+<p>These files contain data on: Functional/Health Status; Socioeconomic; Age/Gender; Other Demographic/Sociocultural; Behavioral; and Other (personal behavioral data related to the leading causes of premature death).</p>
+<p><strong>RACE/ETHNICITY:</strong> Race categories are: American Indian/Alaskan Native; Asian or Pacific Islander; Black; White; Other; Refused Specification; and Don't Know/Not Sure.</p>
+<p>Ethnicity categories are: Hispanic Origin; Not Hispanic Origin; Don't Know; and Refused Specification.</p>
+<p><strong>STATUS:</strong> Started in 1984, this periodic (monthly) data collection is active.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> Upon request, with special agreement with the user. All users must agree to submit, at least 4 weeks prior to any publication of BRFSS data: (1) the title, abstract, expected date of publication and journal name of publications that result from analysis of the data; and (2) name and phone number of a contact person for any questions from state BRFSS coordinators regarding the analysis or associated recommendations.</p>
+<p>Data that are over 1-year-old are available from CDC.</p>
+<p>All users must also agree to not release the data to other persons, not to use the data for any purpose other than statistical reporting, and to acknowledge the CDC as the original source of the data.</p>
+<p>Data Media: CD-ROM, Internet, Hard Copy</p>
+<p>Distributor of Public Use Files: Lina Balluz, ScD, M.P.H.<br />
+	Survey Operations Section<br />
+	Behavioral Surveillance Branch, NCCDPHP Centers for Disease Control and Prevention<br />
+	Mailstop K-66, 4770 Buford Hwy., N.E.<br />
+	Atlanta, Ga 30341-3724<br />
+	(770) 488-2466 / fax (770) 488-8150<br /><a href="mailto:Lballuz@cdc.gov">Lballuz@cdc.gov</a></p>
+<p><strong>WEB SITE:</strong> <a href="http://www.cdc.gov/brfss">http://www.cdc.gov/brfss</a></p>
+<p><strong>CONTACT PERSON:</strong> Bill Scott<br />
+	National Center for Chronic Disease Prevention<br />
+	Centers for Disease Control and Prevention<br />
+	Mailstop K-66, 4770 Buford Hwy., N.E.<br />
+	Atlanta, GA 30341-3724<br />
+	(770) 488-2542 / fax (770) 488-8150<br /><a href="mailto:Bscott1@cdc.gov">Bscott1@cdc.gov</a></p>
+<hr /><p><a name="mde" id="mde"></a><strong>TITLE:</strong> Minimum Data Elements (National Breast/Cervical Cancer Early Detection)</p>
+<p><strong>ACRONYM:</strong> MDE</p>
+<p><strong>AGENCY/PROGRAM:</strong> National Center for Chronic Disease Prevention and Health Promotion, Centers for Disease Control and Prevention</p>
+<p><strong>DESCRIPTION:</strong> The Breast and Cervical Cancer Mortality Prevention Act Public Law 101-354 authorizes CDC to grant funds to states to screen low-income, uninsured women for breast and cervical cancers, provide referrals for follow-up and medical treatment for women with abnormal test results, develop and disseminate information for preventing breast and cervical cancers, improve the training of health professionals in preventing these cancers, and monitor the quality of screening procedures.</p>
+<p>Methods of data collection for this system include:</p>
+<p>direct interview</p>
+<ul><li>notification of case(s)/events</li>
+</ul><p>Data are originally collected by:</p>
+<ul><li>individuals by self-report</li>
+<li>private/doctors or nurses</li>
+<li>hospitals</li>
+<li>public health clinics</li>
+<li>public health laboratories</li>
+<li>state/local health departments</li>
+<li>managed care organizations</li>
+</ul><p>Data are sent bi-annually.</p>
+<p><strong>RACE/ETHNICITY:</strong> Race and/or Ethnicity data available. The OMB Statistical Directive 15 two variable standard for reporting is used.</p>
+<p>Race categories are: White, Black or African American, Asian, Native Hawaiian or Other Pacific Islander, American Indian or Alaskan Native, Other.</p>
+<p>Ethnicity categories are: Hispanic or Latino Origin.</p>
+<p><strong>STATUS:</strong> This system collects data actively.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> CDC internal use files only. Interpreted results can be accessed through:</p>
+<ul><li>internal reports</li>
+<li>external reports</li>
+<li>peer reviewed journals</li>
+<li>Internet</li>
+</ul><p><strong>CONTACT PERSON:</strong> Susan True<br /><a href="mailto:smt7@cdc.gov">smt7@cdc.gov</a><br />
+	(770) 488-4880</p>
+<p> </p>
+<hr /><p>
+	<a name="npcr" id="npcr"></a></p>
+<p><strong>TITLE:</strong> National Program of Cancer Registries</p>
+<p><strong>ACRONYM:</strong> NPCR</p>
+<p><strong>AGENCY/PROGRAM:</strong> National Center for Chronic Disease Prevention and Health Promotion, Centers for Disease Control and Prevention</p>
+<p><strong>DESCRIPTION:</strong> The Centers for Disease Control and Prevention (CDC) was authorized by Congress in 1992 to implement the Cancer Registries Amendment Act, Public Law 102-515. The National Program of Cancer Registries (NPCR) was established to make grants available to States to enhance statewide population-based cancer registries that will meet minimum standards of completeness, timeliness, and quality and to establish statewide cancer registries where none exist.</p>
+<p>The national goals of this program are to rapidly establish and standardize the reporting of cancer among the States in order to provide: (1) timely feedback for evaluating progress toward achieving cancer-control objectives that include the "Healthy People 2010" objectives; (2) data to monitor the incidence and mortality trends in patterns by age, ethnic, and geographic regions within the State, between States, and between regions; (3) guidance for health resource allocation; (4) data to evaluate state cancer-control activities; and (5) information to improve planning for future health care needs.</p>
+<p>At the close of 2001, CDC provided funding to 43 States and the District of Columbia for enhancement of their existing central cancer registries and to 2 States and 3 Territories for planning and implementation of central cancer registries. The NPCR collects incidence data on 100% of the population in the central registries it supports.</p>
+<p>The NPCR requires each funded program to implement the standards for data quality and format as described by the North American Association of Central Cancer Registries (NAACCR) and endorsed by CDC. The NPCR requires each funded State to collect race and ethnicity data according to format described by the NAACCR</p>
+<p><strong>RACE/ETHNICITY:</strong> Race categories are: White; Black; American Indian / Aleutian or /Eskimo; Chinese; Japanese; Filipino; Hawaiian; Korean; Asian Indian/Pakistani; Vietnamese; Laotian; Hmong; Kampuchean; Thai; Micronesian, NOS; Chamorran; Guamanian, NOS; Polynesian, NOS; Tahitian; Samoan; Tongan; Melanesian, NOS; Fiji Islander; New Guinean; Other Asian (including Asian, NOS and Oriental, NOS); Pacific Islander, NOS; Other; and Unknown.</p>
+<p>Ethnicity categories are: Spanish / Hispanic Origin = Non-Spanish / Non-Hispanic; Mexican (includes Chicano); Puerto Rican; Cuban; South or Central American (except Brazil); Other Spanish (includes European); Spanish, NOS / Hispanic, NOS / Latino, NOS (i.e., there is evidence other than surname or maiden name that the person is Hispanic, but he/she cannot be assigned to any of the preceding categories); Spanish (surname only) (only evidence of person's Hispanic origin is surname or maiden name); and Unknown Whether Spanish or Not.</p>
+<p><strong>DATA LIMITATIONS:</strong> The NPCR requires each funded program to implement the standards of data quality and format as described by the NAACCR and endorsed by CDC. In regard to the use of race and ethnicity, NAACCR provides the following guidance: "Cancer rates vary by ethnic and racial group. For this reason, it is useful to calculate incidence separately for ethnic and racial groups within the registry's area of coverage. Of primary concern when calculating ethnic- and race-specific rates is the comparability of definitions between the numerator (i.e., cancer cases) and the denominator (i.e., population estimates). Specifically, the methods that are used to define a person's race or ethnicity in the numerator of the rate should be comparable to those used in the denominator. Unfortunately, it is sometimes difficult to obtain appropriate estimates of the size of the population by ethnicity and race. When calculating rates by ethnicity and race, the registry must carefully document the methods by which race and ethnicity were assigned, both in the numerator and the denominator."</p>
+<p><strong>STATUS:</strong> This continuous data collection is active, from January 1995 to October 2002.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> Data are owned by and reside in the State of origin. Any restrictions on the use of data are stipulated by the individual State.</p>
+<p>NPCR funded programs report incidence data to CDC from their NPCR reference year forward. The "NPCR reference year" is the first diagnosis year for which a state or territorial cancer registry collected data with the assistance of NPCR funds. In January 2002, CDC received information on more than 5.3 million invasive cancer cases diagnosed during 1995 - 1999.</p>
+<p><strong>CONTACT PERSON:</strong> Phyllis A. Wingo, Ph. D., M.S.<br />
+	Cancer Surveillance Branch, DCPC<br />
+	Centers for Disease Control and Prevention<br />
+	Mailstop K-53, 4770 Buford Hwy., N.E.<br />
+	Atlanta, GA 30341-3724<br />
+	(770) 488-4783 / fax (770) 488-4759<br /><a href="mailto:paw1@cdc.gov">paw1@cdc.gov</a></p>
+<p> </p>
+<hr /><p><a name="pednss" id="pednss"></a><strong>TITLE:</strong> Pediatric Nutrition Surveillance System</p>
+<p><strong>ACRONYM:</strong> PedNSS</p>
+<p><strong>AGENCY/PROGRAM:</strong> National Center for Chronic Disease Prevention and Health Promotion, Centers for Disease Control and Prevention</p>
+<p><strong>DESCRIPTION:</strong> The Pediatric Nutrition Surveillance System (PedNSS) is a program-based surveillance system designed to monitor trends in physical growth, anemia, and breastfeeding initiation and duration in children. The data represent low-income children, in 46 participating States, territories, and tribal governments, who are served by publicly funded health and nutrition programs such as the Special Supplemental Nutrition Program for Women, Infants, and Children (WIC); Early and Periodic Screening, Diagnosis, and Treatment (EPSDT) Program; the Title V Maternal and Child Health Program (MCH); and Head Start. Technical assistance is provided by the Centers for Disease Control and Prevention (CDC).</p>
+<p>Data are collected during clinic visits. Summary reports are generated annually at the state, county, and clinic level.</p>
+<p>These files contain data on: Functional/Health Status; Age/Gender; and Other (hematology, breastfeeding).</p>
+<p>CDC can provide national data, reports and publications.</p>
+<p><strong>RACE/ETHNICITY:</strong> American Indian; Asian or Pacific Islander; Southeast Asian Refugee; Black, Not Hispanic; White, Not Hispanic; Hispanic; and Other.</p>
+<p><strong>STATUS:</strong> Started in 1973, this continuous data collection is active.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> The data are owned by participating States, territories, and tribal governments and may be released upon their permission.</p>
+<p>Data are owned by the State of origin. Any restrictions on the use of the data are stipulated by the individual State, territory, or tribal government.</p>
+<p>States have identified surveillance coordinators. These individuals would be the contacts for state specific data, reports and publications.</p>
+<p><strong>CONTACT PERSON:</strong> Christopher Reinold<br />
+	Public Health Nutritionist, Maternal and Child Nutrition Branch<br />
+	Mailstop K-25, 4770 Buford Hwy.<br />
+	Atlanta, GA 30341<br />
+	(770) 488-5702<br /><a href="mailto:CReinold@cdc.gov">CReinold@cdc.gov</a></p>
+<hr /><p><a name="pnss" id="pnss"></a><strong>TITLE:</strong> Pregnancy Nutrition Surveillance System</p>
+<p><strong>ACRONYM:</strong> PNSS</p>
+<p><strong>AGENCY/PROGRAM:</strong> National Center for Chronic Disease Prevention and Health Promotion, Centers for Disease Control and Prevention</p>
+<p><strong>DESCRIPTION:</strong> The Pregnancy Nutrition Surveillance System (PNSS) is a program-based surveillance system designed to monitor trends in the prevalence of prenatal risk factors, which are major predictors of infant mortality and low birthweight, as well as to monitor infant feeding practices. The data represent low-income pregnant and postpartum women, in 27 participating States, territories, and tribal governments, who are served by publicly funded health and nutrition programs such as the Special Supplemental Nutrition Program for Women, Infants, and Children (WIC) and the Title V Maternal and Child Health Program (MCH). Technical assistance is provided by the Centers for Disease Control and Prevention (CDC).</p>
+<p>Data are collected during clinic visits. Summary reports are generated annually at the state, county, and clinic level.</p>
+<p>These files contain data on: Functional/Health Status; Socioeconomic; Age/Gender; Other Demographic/Sociocultural; Behavioral; and Other (hematology, breastfeeding).</p>
+<p>CDC can provide national data, reports, and publications.</p>
+<p><strong>RACE/ETHNICITY:</strong> American Indian; Asian or Pacific Islander; Southeast Asian Refugee; Black, Not Hispanic; White, Not Hispanic; Hispanic; and Other.</p>
+<p><strong>STATUS:</strong> Started in 1979, this continuous data collection is active.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> The data are owned by the participating States, territories, and tribal governments and may be released upon their permission.</p>
+<p>Data are owned in the State of origin. Any restrictions on the use of the data are stipulated by the individual State, territory, or tribal government.</p>
+<p>States have identified surveillance coordinators. These individuals would be the contacts for state specific data, reports and publications.</p>
+<p><strong>CONTACT PERSON:</strong> Karen Dalenius<br />
+	Public Health Nutritionist, Maternal and Child Nutrition Branch<br />
+	Mailstop K-25, 4770 Buford Hwy.<br />
+	Atlanta, GA 30341<br />
+	(770) 488-5702<br /><a href="mailto:ked3@cdc.gov">ked3@cdc.gov</a></p>
+<p> </p>
+<hr /><p><a name="prams" id="prams"></a><strong>TITLE:</strong> Pregnancy Risk Assessment Monitoring System (PRAMS)</p>
+<p><strong>ACRONYM:</strong> PRAMS</p>
+<p><strong>AGENCY/PROGRAM:</strong> National Center for Chronic Disease Prevention and Health Promotion, Centers for Disease Control and Prevention</p>
+<p><strong>DESCRIPTION:</strong> The Pregnancy Risk Assessment Monitoring System (PRAMS) is a program to reduce infant mortality and low birthweight. The surveillance system is funded through the Infant Health Initiative. The overall goal of PRAMS is to provide a basis for improved policies and programs that reduce infant mortality and morbidity by changing women's high-risk behaviors during the periconception and perinatal periods. Using PRAMS findings, States will be better equipped to determine how to allocate resources and target subpopulations at increased risk of poor birth outcome. PRAMS is being implemented in collaboration with 32 States and New York City.</p>
+<p>PRAMS is an ongoing state-specific population-based surveillance of selected maternal behaviors that occur before and during pregnancy and the child's early infancy. States collect data from a sample of State resident women who have recently had a live birth. State sampling plans are tailored to meet the individual needs of the State. Average annual sample sizes range from 1,200 to 3,600 women per State. Samples are stratified to obtain larger numbers of high-risk deliveries.</p>
+<p>Women are asked about their prepregnant and prenatal behaviors, their experiences of complications during pregnancy, and their use of health care during pregnancy and the first months of the infant's life. Questionnaire data are linked to information available from infant birth certificates.</p>
+<p>The data may be used to assess trends in behavioral risk factors, to identify gaps in health care to be targeted for intervention, and to assess the impact of behavioral risk factors and health care problems on pregnancy outcome, including birthweight and infant mortality. PRAMS questions are designed to permit States to track relevant Healthy People 2010 Objectives for the Nation and provide information needed for Federal grant programs, e.g., the Title V Maternal and Child Health (MCH) block grant and the Title X Family Planning grant.</p>
+<p>These files contain data on: Functional/Health Status; Services Utilization; Services Expenditure and Financing; Socioeconomic; Age/Gender; Other Demographic /Sociocultural; Behavioral; and Other (data are specific to state residents who have delivered a live infant within 2-6 months of receiving the questionnaire).</p>
+<p>CDC publishes a multi-state surveillance book on 22-25 indicators. It also provides some state-specific data on indicators by sociodemographic variables.</p>
+<p><strong>RACE/ETHNICITY:</strong> American Indian; Chinese; Japanese; Hawaiian; Other Asian or Pacific Islander; Black; Other Nonwhite; White; Unknown.</p>
+<p>All the variables in the survey can be looked at by race/ethnicity (including Hispanic women).</p>
+<p><strong>DATA LIMITATIONS:</strong> Maternal race is taken from the birth certificate. Several States stratify by race, but stratification is not consistent and varies from State to State. Florida, California, New York, and Washington State have their own nonstandardized identifiers for Hispanic ethnicity; those data remain with the respective State.</p>
+<p><strong>STATUS:</strong> Started in Fall of 1988 (varies from State to State). This periodic (monthly) data collection is active.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> The data are state-owned.</p>
+<p>Data are state-specific and state-owned. Questionnaire data cannot stand alone but must be linked with birth certificate data. Individual States must be contacted regarding the data.</p>
+<p>Each state handles the release of its data and the mechanisms for that vary by state.</p>
+<p><strong>WEBSITE:</strong> <a href="http://www.cdc.gov/nccdphp/drh/srv_prams.htm">http://www.cdc.gov/nccdphp/drh/srv_prams.htm</a></p>
+<p><strong>CONTACT PERSON:</strong> Amy Lansky<br />
+	National Center for Chronic Disease Prevention and Health Promotion, Centers for Disease Control and Prevention<br />
+	Mailstop K-22, 4770 Buford Hwy., N.E.,<br />
+	Atlanta, GA 30341-3724<br />
+	(770) 488-56284 / fax (770) 488-6291<br /><a href="mailto:ALansky@cdc.gov">ALansky@cdc.gov</a></p>
+<p> </p>
+<hr /><p><a name="yrbss" id="yrbss"></a><strong>TITLE:</strong> Youth Risk Behavior Surveillance System</p>
+<p><strong>ACRONYM:</strong> YRBSS</p>
+<p><strong>AGENCY/PROGRAM:</strong> National Center for Chronic Disease Prevention and Health Promotion, Centers for Disease Control and Prevention</p>
+<p><strong>DESCRIPTION:</strong> The Youth Risk Behavior Surveillance System (YRBSS) was developed to monitor priority health-risk behaviors that contribute to the leading causes of mortality, morbidity, and social problems among youth and adults in the United States. The YRBSS monitors six categories of behaviors: (1) behaviors that contribute to unintentional and intentional injuries; (2) tobacco use; (3) alcohol and other drug use; (4) sexual behaviors that contribute to unintended pregnancy and sexually transmitted disease, including human immunodeficiency virus (HIV) infection; (5) dietary behaviors; and (6) physical activity.</p>
+<p>The YRBSS consists of national, state, and local school-based surveys of representative samples of 9th through 12th grade students, a national household-based survey of 12- through 21-year-olds, and a national college survey. The national surveys are conducted by the Centers for Disease Control and Prevention (CDC). The state and local surveys are conducted by state and local education and health agencies which receive technical assistance from the Division of Adolescent and School Health, National Center for Chronic Disease Prevention and Health Promotion, CDC. The school-based surveys are conducted biennially with a self-administered questionnaire. The household-based survey was conducted as a supplement to the 1992 National Health Interview Survey with an audiotape mode of administration and a similar questionnaire. The National College Health Risk Behavior Survey was conducted in 1995 among students attending 2- and 4-year colleges and universities.</p>
+<p>These files contain data on: Age/Gender; Behavioral; and Other (grade in school).</p>
+<p><strong>RACE/ETHNICITY:</strong> American Indian or Alaska Native, Asian, Black or African American, Hispanic or Latino, Native Hawaiian or Other Pacific Islander, White.</p>
+<p><strong>DATA LIMITATIONS:</strong> Most state and local surveys do not gather enough data from some minority populations in their jurisdictions to allow for accurate separate analyses of these subgroups. The specific categories vary by jurisdiction.</p>
+<p>For the national survey, Black or African American and Hispanic or Latino students are oversampled to allow for accurate separate analyses of these subgroups. Separate analyses also may be conducted for Asian or Pacific Islanders but with less precision.</p>
+<p><strong>STATUS:</strong> Started in February 1990, this periodic (biennial, odd-numbered years) data collection is active.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> Public use files of national data sets and codebooks, usable without restrictions can be downloaded from www.cdc.gov/yrbs.</p>
+<p>State, district, school, and classroom identifiers are not provided. Also, no personal identifiers are collected-the data are anonymous. Permission to use data from state and local surveys must be obtained from state and local education and health agencies conducting such surveys.</p>
+<p><strong>WEB SITE:</strong> <a href="http://www.cdc.gov/yrbs">www.cdc.gov/yrbs</a></p>
+<p><strong>CONTACT PERSON:</strong> Laura Kann, Ph.D.<br />
+	National Center for Chronic Disease Prevention and Health Promotion, Centers for Disease Control and Prevention<br />
+	Mailstop K-33, 4770 Buford Hwy., N.E.,<br />
+	Atlanta, GA 30341-3724<br />
+	(770) 488-3202 / fax (770) 488-6181<br /><a href="mailto:lkk1@cdc.gov">lkk1@cdc.gov</a></p>
+<p> </p>
+<hr /><p><a name="cbls" id="cbls"></a><strong>TITLE:</strong> Childhood Blood Lead Surveillance</p>
+<p><strong>ACRONYM:</strong></p>
+<p><strong>AGENCY/PROGRAM:</strong> National Center for Environmental Health, Centers for Disease Control and Prevention</p>
+<p><strong>DESCRIPTION:</strong> The purpose of the national childhood blood lead surveillance program is to build state capacity to conduct surveillance; to establish a national surveillance system based on state systems; and to use data to direct prevention activities at the local, state, and national levels. The database includes children age 16 years or less but is more complete for children less than age 6 years. The national database collects data from participating States but excludes personal identifiers. In 1995, collection of national data began with 10 states (California, Colorado, Connecticut, Georgia, Illinois, New Mexico, New York, Ohio, Oregon, and Rhode Island). Additional States are expected to participate in the future as their surveillance systems are developed.</p>
+<p>State surveillance is based on laboratory reporting. In many States, all blood lead levels are collected. State databases are organized by child identifier and include basic demographic data, e.g., birth date, on all children. For children with elevated blood lead levels, additional data, e.g., results of environmental investigations, are also collected. However, the completeness of reporting of the fields is variable.</p>
+<p>These files contain data on: Services Utilization; Age/Gender; and Other (blood lead levels and demographic data on children tested for leading poisoning; for children with elevated levels, medical treatment and possible sources of lead exposure).</p>
+<p><strong>RACE/ETHNICITY:</strong> Race categories are: Native American/Alaskan Native; Asian/Pacific Islander (Asian Indian, Chinese, Filipino, Hawaiian, Korean, Vietnamese, Japanese, Samoan, Hmong, Guamian, Other, Unknown); Black; White; Multiracial; Other; and Unknown.</p>
+<p>Ethnicity categories are: Hispanic, Non-Hispanic; and Unknown.</p>
+<p><strong>DATA LIMITATIONS:</strong> Among States participating in the system, the completeness of reporting of fields on race/ethnicity is variable. The primary source of these data are laboratory slips, which often contain incomplete data on race/ethnicity. In addition, definitions of race/ethnicity categories may differ from State to State. For example, a person with parents of different racial backgrounds may be described as "multiracial" in one State, whereas in another State that person may be described by the category of his/her mother. Finally, a category for specific ethnicity was developed in response to a request from several States to collect this information. Not all States use this field.</p>
+<p><strong>STATUS:</strong> Started in 1995, data are collected annually.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> Data collection began in 1995. The first national report of data are expected in December 1998. Individual state reports and data subsets are routinely developed for states submitting data to the national database. Procedures for making additional data available are being developed.</p>
+<p><strong>CONTACT PERSON:</strong> Sharunda Buchanan, Ph.D.<br />
+	Surveillance and Programs Branch<br />
+	Centers for Disease Control and Prevention<br />
+	Mailstop F-47, 4770 Buford Hwy., N.E.<br />
+	Atlanta, GA 30341<br />
+	(770) 488-7088 / fax (770)488-7454<br /><a href="mailto:sdb4@cdc.gov">sdb4@cdc.gov</a></p>
+<p> </p>
+<hr /><p><a name="macdp" id="macdp"></a><strong>TITLE:</strong> Metropolitan Atlanta Congenital Defects Program</p>
+<p><strong>ACRONYM:</strong> MACDP</p>
+<p><strong>AGENCY/PROGRAM:</strong> National Center for Environmental Health, Centers for Disease Control and Prevention</p>
+<p><strong>DESCRIPTION:</strong> System compiles information on birth defects among all children born to mothers resident in the 5 counties of metro Atlanta. Defects must have been diagnosed before the sixth birthday. Rates are population-based. Ascertainment is active.</p>
+<p>Methods of data collection for this system include:</p>
+<ul><li>medical record abstraction</li>
+</ul><p>Data are originally collected by:</p>
+<ul><li>public health laboratories</li>
+</ul><p>Data are collected daily.</p>
+<p><strong>RACE/ETHNICITY:</strong> Race and/or ethnicity data not collected.</p>
+<p><strong>STATUS:</strong> This system collects data actively.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> Public use data files available. Interpreted results can be accessed through:</p>
+<ul><li>internal reports</li>
+<li>peer reviewed journals</li>
+</ul><p><strong>CONTACT PERSON:</strong> Dave Erickson, D.D.S., Ph.D.<br /><a href="mailto:jde9@cdc.gov">jde9@cdc.gov</a><br />
+	(770)488-7170</p>
+  </div>
+
+      <footer>
+          </footer>
+  
+    <div id="block-webform-client-block-158521" class="widget block block-webform" >
+  
+      
+  <div id="webform-ajax-wrapper-158521"><form class="webform-client-form webform-client-form-158521" action="/centers-disease-control-and-prevention-part-2" method="post" id="webform-client-form-158521" accept-charset="UTF-8"><div><div class="webform-progressbar">
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-radios webform-component--was-this-page-helpful">
+  <label for="edit-submitted-was-this-page-helpful">Was this page helpful? <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-was-this-page-helpful" class="form-radios"><div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-1" name="submitted[was_this_page_helpful]" value="1" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-1">Yes </label>
+
+</div>
+<div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-2" name="submitted[was_this_page_helpful]" value="0" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-2">No </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="4" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-wzumwZCzZe9DTVrPpYCD2YqMtBDOw9eFRVsEADRGs5g" />
+<input type="hidden" name="form_id" value="webform_client_form_158521" />
+<input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-158521" />
+<div class="form-actions"><input class="webform-next button-primary btn btn-default form-submit" type="submit" id="edit-webform-ajax-next-158521" name="op" value="Next &gt;" /></div>
+<div class="is-useful-disclaimer"> <a href="/%23" class="" title="Survey Disclaimer" data-toggle="modal" data-target="#disclamerModal">Form Approved OMB# 0990-0379 Exp. Date 8/31/2017</a></div>
+<div class="modal fade" id="disclamerModal" tabindex="-1" role="dialog" aria-labelledby="disclamerModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="disclamerModalLabel">Survey Disclaimer</h2>
+      </div>
+      <div class="modal-body">
+         According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this information collection is 0990-0379. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, gather the data needed, and complete and review the information collection. If you have comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: U.S. Department of Health & Human Services, OS/OCIO/PRA, 200 Independence Ave., S.W., Suite 336-E, Washington D.C. 20201, Attention: PRA Reports Clearance Officer.      </div>
+    </div>
+  </div>
+</div></div></form></div>
+  </div> <!-- /.block -->
+<meta  itemscope="" itemid="https://aspe.hhs.gov/centers-disease-control-and-prevention-part-2" itemref="md1" />              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <footer  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Footer">     
+
+        
+                  
+        
+                  
+        
+                                    <div  id="footer_sitemap-footer_sitemap" class="col-sm-6 col-md-6 col-lg-4 ">
+                          
+                              <div id="block-footer-sitemap-footer-sitemap" class="widget block block-footer-sitemap" >
+  
+      
+  <div id="footer-sitemap" class="clearfix">
+  <div class="fs-block-content"><div class="menu-footer-utility"><ul class="footer_links_menu-footer-utility total-items-2 parent-items-0 single-items-0"><li class="menu-5021 depth-1 total-children-8 parent-children-0 single-children-8  first"><a href="/" title="look at ASPE Home" class="fs-root-link">ASPE Home</a><ul class="footer_links_menu-footer-utility total-items-8 parent-items-0 single-items-0"><li class="menu-5026 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/" title="look at HHS Home">HHS Home</a></li>
+<li class="menu-66281 depth-1 fs-no-children"><a href="http://www.usa.gov/" title="look at USA.gov">USA.gov</a></li>
+<li class="menu-66316 depth-1 fs-no-children"><a href="https://oig.hhs.gov/" title="look at Office of the Inspector General">Office of the Inspector General</a></li>
+<li class="menu-66321 depth-1 fs-no-children"><a href="http://www.whitehouse.gov" title="look at The White House">The White House</a></li>
+<li class="menu-5046 depth-1 fs-no-children"><a href="http://www.hhs.gov/Accessibility.html" title="look at Accessibility">Accessibility</a></li>
+<li class="menu-66326 depth-1 fs-no-children"><a href="http://www.hhs.gov/about/budget/index.html" title="look at Budget/Performance">Budget/Performance</a></li>
+<li class="menu-2551 depth-1 fs-no-children"><a href="http://www.hhs.gov/Privacy.html" title="look at Privacy Policy">Privacy Policy</a></li>
+<li class="menu-197776 depth-1 fs-no-children  last"><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" title="Nondiscrimination Notice">Nondiscrimination Notice</a></li>
+</ul></li>
+<li class="menu-5051 depth-1 total-children-4 parent-children-0 single-children-4  last"><a href="http://www.hhs.gov/foia/" title="look at FOIA" class="fs-root-link">FOIA</a><ul class="footer_links_menu-footer-utility total-items-4 parent-items-0 single-items-0"><li class="menu-5056 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/open/recordsandreports/plainwritingact/index.html" title="look at Plain Writing Act">Plain Writing Act</a></li>
+<li class="menu-5061 depth-1 fs-no-children"><a href="http://www.hhs.gov/asa/eeo/no_fear_bullet_3.html" title="look at No Fear Act">No Fear Act</a></li>
+<li class="menu-5066 depth-1 fs-no-children"><a href="http://www.hhs.gov/Disclaimer.html" title="look at Disclaimers">Disclaimers</a></li>
+<li class="menu-2546 depth-1 fs-no-children  last"><a href="http://www.hhs.gov/plugins.html" title="look at Viewers &amp; Players">Viewers &amp; Players</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-5 " id="stability_cms-contact_us">
+                          
+                              <div id="block-stability-cms-contact-us" class="widget block block-stability-cms" >
+  
+      
+  <div class="contacts-widget widget widget__footer">
+	<div class="widget-content">
+		<ul class="contacts-info-list">
+      			<li>
+<!--				<i class="fa fa-map-marker">Address</i>-->
+                <div class="info-icons">
+                    <img  alt="map" class= 'map-icons' src="/sites/all/themes/stability/stability_aspe/images/map.png"/>
+                </div>
+                <div class="info-item">
+					Assistant Secretary for Planning and Evaluation, Room 415F<br />
+U.S. Department of Health and Human Services<br />
+200 Independence Avenue, SW<br />
+Washington, D.C. 20201				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-phone">phone</i>-->
+                <div class="info-icons">
+                    <img alt="phone" src="/sites/all/themes/stability/stability_aspe/images/phone.png"/>
+                </div>
+				<div class="info-item">
+					+1 202.690.7858				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-envelope">email</i>-->
+                <div class="info-icons">
+                    <img alt="mail" src="/sites/all/themes/stability/stability_aspe/images/mail-white.png"/>
+                </div>
+				<span class="info-item">
+					<a href="mailto:osaspeinfo@hhs.gov">osaspeinfo@hhs.gov</a>
+				</span>
+			</li>
+      			                					</ul>
+	</div>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-3 " id="footer">
+                          
+                              <div id="block-block-36" class="widget block block-block" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sign-up</span> for Email Updates</h3>
+		</div>
+    
+  <div class="email_updates">
+<button class="btn btn-default" name="subscribe-button" type="submit" value="subscribe">subscribe</button>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-12 " id="menu-menu-footer-language-menu">
+                          
+                              <div id="block-menu-menu-footer-language-menu" class="widget block block-menu" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Language</span> Assistance Available</h3>
+		</div>
+    
+  <ul class="menu"><li class="first expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#spanish" title="Español">Español</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#chinese" title="繁體中文">繁體中文</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#vietnamese" title="Tiếng Việt">Tiếng Việt</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#korean" title="한국어">한국어</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#tagalog" title="Tagalog">Tagalog</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#russian" title="Русский">Русский</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#arabic" title="العربية">العربية</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#creole" title="Kreyòl Ayisyen">Kreyòl Ayisyen</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#french" title="Français">Français</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#polish" title="Polski">Polski</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#portuguese" title="Português">Português</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#italian" title="Italiano">Italiano</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#german" title="Deutsch">Deutsch</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#japanese" title="日本語">日本語</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#farsi" title="فارسی">فارسی</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#english" title="English">English</a></li>
+</ul></li>
+</ul>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+      </div>
+
+          </div>
+    
+    
+      </footer>
+    
+
+    <!--/PAGEWATCH-->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+                        </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="social-links-wrapper">
+              <span class="social-links-txt">Connect with us</span>
+              <ul class="social-links social-links__dark">
+                                                  <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw-grey.png"/></a></li>
+                                <!--                --><!--                  <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin-grey.png"/></a></li>-->
+<!--                -->
+                                                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>  <script type="text/javascript" src="/sites/default/files/advagg_js/js__VWRymaMz6HfrhnrcJNGcDiSvLVrvhaXvBa7nrBYy8gc__jntPwP3D6myJZH1jW19fXrk5cYMHGRL8NQION22VSEA__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5486d15a696bff0c"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__g6mKbcakHxQkz4ZHYaxdO_xqONINvRMgsHh1zAK-fr0__ATHtEmHaeZ0jidpGU22EkhmPDBSgjD8z0bVDQMI-BIY__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__KUp4PrfOt9BSXUVl8Ctb3dhCMBe4MNVMeb4Gyorx8yY__7g4BeXscCIZAfuu1vxsCj2RIemg-eEK0QpChP9LDmFQ__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__PNjAgubM_3xXRLp4uLsYnv8wQAdT89-RYkSPxT6T45c__rFQwFK4pA5ZaWZSF7FPTfKbbpus0h-5IS8ayrNZGrb4__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__vQiLul2UcfC4nBAR09mhYVBYzRmiNDm2dj3GgSubV38__w84oZe-ZODKe7XnnlbrjV4IWHISOy4PioFEMVgx9hZo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__QJw3g0kOdwsv4twSZLP931zBzsHy50VEHpEN_znIitQ__A6QOuWXElDipBM2iChbWhjAAt3KlUwZ-jODoxdpbwiw__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stability_aspe","theme_token":"HW3Eoic42umDTLsC8uOYG73pnePMRKZdK8dNQMaVo3I","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/footable.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/aspe_nodes.admin.css":1,"sites\/all\/modules\/custom\/aspe_views\/theme\/css\/aspe_views.admin.css":1,"sites\/all\/modules\/forked\/book\/book.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/openpublic\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.css":1,"profiles\/openpublic\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openpublic\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/openpublic\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/themes\/stability\/css\/bootstrap.min.css":1,"sites\/all\/themes\/stability\/css\/fonts\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.theme.css":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/stability\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/stability\/css\/theme.css":1,"sites\/all\/themes\/stability\/css\/theme-elements.css":1,"sites\/all\/themes\/stability\/css\/animate.min.css":1,"sites\/all\/themes\/stability\/css\/skins\/red.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/slideshow.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/font-main.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/styleless.less":1,"sites\/all\/themes\/stability\/css\/skins\/blue.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/aspe\/theme\/js\/aspe.login-confirm.js":1,"sites\/all\/modules\/custom\/aspe_report\/modules\/aspe_databooks\/js\/aspe_databooks.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.highcharts.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/datatables\/dataTables.min.js":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.min.js":1,"sites\/all\/libraries\/highcharts\/highcharts.js":1,"sites\/all\/libraries\/highcharts\/highcharts.exporting.js":1,"sites\/all\/libraries\/highcharts\/highcharts.map.js":1,"sites\/all\/libraries\/highcharts\/highcharts.us-all.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.footable.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5486d15a696bff0c":1,"misc\/progress.js":1,"profiles\/openpublic\/modules\/contrib\/webform\/js\/webform.js":1,"profiles\/openpublic\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/stability\/vendor\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/stability\/vendor\/bootstrap.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flexnav.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flickrfeed.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.sloppy-masonry.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.fitvids.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.stellar.min.js":1,"sites\/all\/themes\/stability\/vendor\/snap.svg-min.js":1,"sites\/all\/themes\/stability\/js\/custom.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/aspe.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/html5shiv.min.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/main-menu.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/keyboard-control.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tabBehavior.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tileStringTrimmer.js":1}},"webform":{"conditionals":{"webform-client-form-158521":{"ruleGroups":[],"sourceMap":[],"values":[]}}},"ajax":{"edit-webform-ajax-next-158521":{"callback":"webform_ajax_callback","wrapper":"webform-ajax-wrapper-158521","progress":{"message":"","type":"throbber"},"event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Next \u003E"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/centers-disease-control-and-prevention-part-2":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"([a-z0-9]\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This website contains links to other federal and state agencies and private organizations. The Department of Health and Human Services (HHS) cannot attest to the accuracy of information provided by these nonfederal website links. Linking to nonfederal sites does not constitute an endorsement by HHS or any of its employees of the sponsors or the information and products presented on the sites. You will be subject to the destination site\u0027s privacy policy when you leave the ASPE website.\r\n\r\nThank you for visiting aspe.hhs.gov!","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"stability":{"flickr_id":"52617155@N08","logo_sticky":"28"},"field_group":{"div":"full"}});
+//--><!]]>
+</script>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config={pubid:"ra-5486d15a696bff0c",ui_click:false}
+//--><!]]>
+</script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4837db659","applicationID":"10708002","transactionName":"MwNaZBRSXEtXB0BdWQpJeVMSWl1WGQpbUFM7FllXA2xEUVMT","queueTime":0,"applicationTime":949,"atts":"H0RZElxIT0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

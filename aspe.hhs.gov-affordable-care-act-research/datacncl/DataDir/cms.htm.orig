@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">  <!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://aspe.hhs.gov/sites/default/files/Favicon2.png" type="image/png" />
+<meta name="description" content="TITLE: Enrollment DataBase ACRONYM: EDB AGENCY/PROGRAM: Office of Informational Services, Centers for Medicare &amp; Medicaid Services" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://aspe.hhs.gov/centers-medicare-medicaid-services" />
+<link rel="shortlink" href="https://aspe.hhs.gov/node/168886" />
+<meta property="og:site_name" content="ASPE" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aspe.hhs.gov/centers-medicare-medicaid-services" />
+<meta property="og:title" content="Centers for Medicare &amp; Medicaid Services" />
+<meta property="og:description" content="TITLE: Enrollment DataBase ACRONYM: EDB AGENCY/PROGRAM: Office of Informational Services, Centers for Medicare &amp; Medicaid Services" />
+<meta property="og:updated_time" content="2016-01-10T13:30:45-05:00" />
+<meta property="article:published_time" content="2016-01-10T13:30:45-05:00" />
+<meta property="article:modified_time" content="2016-01-10T13:30:45-05:00" />
+
+  <title>Centers for Medicare &amp; Medicaid Services | ASPE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+  <link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__5ln8neBOcJfyUveiD4y9fhI6kHBLOQ_YL0mMC-LS9a0__TPJIZT9UBnf_685NlFTJ5KnZVsjwFk6ACQ-nwwygmwU__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ng49uRH5y4Hl9VF9hHW_vXOj-mcOc2u2ShJqJ1YKIGU__FoMCD14GBvZaRiqSQ_JpP1w3rDB21n7H2Ar4pRZaIh8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__Hskudx14OJ5Hz8vqU7CUgN6SDV5rINZuEq9VuGsSeyc__EwNIl3xeFrniW2TmonovTzhSs3X5MdFps210puE7jog__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__9rZoaX9BdzjjNucvYxduxeNAVO2zgW_Rvjhb5rq5whc__lSr_y16grDSgHf4booPChnF7QXz3TQY3hafH49twE0k__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZgfI_ZPib5yVY0o5aKo_6TFn946Tuu_nFDa0ySTmkSc__2FTFrNw2eNh0mpHIOA34r6YRwBZMm2PjJ_JubnwLigg__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__dxabpJ5rQgDSixKgLJZjWc1beC6mpROKwVrmWxI5eno__rqhz_hGsE_i59O7-W991o71_Jxw1QOtGMxn4nsOLHY8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZbRCq2NqWgK-HXAQI3So0N1n0nr4HonsJS3eQuuxukw__7Olkk8Locn8Dj0eR0Ww3rbV9lks9sxipcboMXB18RRs__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+
+	<!-- Head Libs -->
+	<script src="/sites/all/themes/stability/stability_aspe/vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/sites/all/themes/stability/vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" href="/sites/all/themes/stability/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/stability/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/stability/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/stability/images/apple-touch-icon-144x144.png">
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-168886 node-type-site-page">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-JLFR"
+                  height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JLFR');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-nav" class="accessibility_menu">
+    <strong>Shortcut Navigation:</strong>
+    <ul>
+      <li><a href="#content" accesskey="c" title="Skip to page content (ctrl/alt + c)">Page Content</a></li>
+      <li><a href="#nav" accesskey="m" title="Skip to main navigation menu (ctrl/alt + m)">Site Navigation</a></li>
+
+      <li><a href="#Footer" accesskey="f" title="Skip to footer (ctrl/alt + f)">Footer</a></li>
+    </ul>
+  </div>
+
+    
+<div class="site-wrapper">
+  
+  <header class="header header-menu-fullw header-top-clean">
+    <div id="brand-bar">
+        <div class="container">
+                    <img alt='bird' src="/sites/all/themes/stability/stability_aspe/images/bird.png"> <a target="blank" tabindex="4" href="http://www.hhs.gov/">U.S. Department of Health & Human Services</a>
+        </div>
+
+    </div>
+    <div class="header-main">
+        <div class="container clearfix">
+            <div class="social-links-wrapper">
+                <ul class="social-links social-links__light">
+                                                          <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw.png"/></a></li>
+                                    <!--                  --><!--                    <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin.png"/></a></li>-->
+<!--                  -->
+                                                                      </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                                <div class="site_name_wrapper">
+                                     <span class="h1">
+                                      <a href="/">ASPE</a>
+                                       </span>
+                                  <p class="tagline"><p>Office of The Assistant Secretary</p><p> for Planning and Evaluation</p></p>
+                    </div>
+            </div>
+            <!-- Logo / End -->
+            <div class="header_right_wrapper">
+                <div class="search-form">
+                    <form action="/centers-medicare-medicaid-services" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class = "input-group"><div class="form-type-textfield form-item-search-block-form form-item form-group">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search Site..." class="form-control form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input class="btn btn-primary btn-icon form-submit" type="image" id="edit-submit" name="submit" value="Search" src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/search-white2.png" alt="Search" title="Search" /></div></div><input type="hidden" name="form_build_id" value="form--nRM2NHVzCFf5GGOstVlEypDRA9yyrUu303ozDHPjH4" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </div>
+                <button type="button" class="navbar-toggle" value="Menu">
+                    <i class="fa fa-bars"></i>Menu
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-main">
+        <div class="container">
+          <ul data-breakpoint="767" class="flexnav">
+                <li class="first expanded"><a href="/basic-search/about" title="">About</a><ul><li class="first leaf"><a href="/mission" title="">Mission</a></li>
+<li class="leaf"><a href="/key-staff" title="">Leadership</a></li>
+<li class="leaf"><a href="https://www.usajobs.gov/" title="">Careers</a></li>
+<li class="expanded"><a href="/coordination" title="linkTo">Coordination</a><ul><li class="first leaf"><a href="/evaluation-evidence" title="">Evaluation &amp; Evidence</a></li>
+<li class="leaf"><a href="/national-alzheimers-project-act">National Alzheimer&#039;s Project Act</a></li>
+<li class="leaf"><a href="/health-and-human-services-hhs-data-council">HHS Data Council</a></li>
+<li class="last leaf"><a href="/national-committee-vital-and-health-statistics" title="National Council on Vital and Health Statistics">National Council on Vital and Health Statistics</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/divisions" title="">Offices</a><ul><li class="first leaf"><a href="/office-disability-aging-and-long-term-care-policy-daltcp">Disability, Aging, and Long-Term Care Policy</a></li>
+<li class="leaf"><a href="/office-health-policy-hp">Health Policy</a></li>
+<li class="leaf"><a href="/office-human-services-policy">Human Services Policy</a></li>
+<li class="last leaf"><a href="/office-science-and-data-policy">Science and Data Policy</a></li>
+</ul></li>
+<li class="leaf"><a href="/strategic-planning" title="Strategic Planning">Strategic Planning</a></li>
+<li class="last leaf"><a href="/contact-aspe" title="">Contact ASPE</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/topics" title="">Topics</a><ul><li class="first leaf"><a href="/affordable-care-act-research">Affordable Care Act Research</a></li>
+<li class="leaf"><a href="/alzheimers-dementia">Alzheimer&#039;s / Dementia</a></li>
+<li class="leaf"><a href="/early-childhood">Early Childhood</a></li>
+<li class="leaf"><a href="/incarceration-reentry">Incarceration &amp; Reentry</a></li>
+<li class="leaf"><a href="/opioid-abuse-us-and-hhs-actions-address-opioid-drug-related-overdoses-and-deaths" title="Opioids">Opioids</a></li>
+<li class="leaf"><a href="/patient-centered-outcomes-research-trust-fund">Patient-Centered Outcomes Research Trust Fund (PCORTF)</a></li>
+<li class="expanded"><a href="/basic-search/poverty" title="">Poverty</a><ul><li class="first leaf"><a href="/poverty-guidelines">Poverty Guidelines</a></li>
+<li class="last leaf"><a href="/poverty-estimates-trends-and-analysis">Poverty Analysis</a></li>
+</ul></li>
+<li class="leaf"><a href="/teen-pregnancy-prevention">Teen Pregnancy Prevention</a></li>
+<li class="leaf"><a href="/homelessness">Homelessness</a></li>
+<li class="last leaf"><a href="/medicare-access-and-chip-reauthorization-act-2015">MACRA</a></li>
+</ul></li>
+<li class="leaf"><a href="/reports" title="">Publications</a></li>
+<li class="last expanded"><a href="/basic-search/datasets" title="">Data and Tools</a><ul><li class="first last leaf"><a href="/evaluations" title="">Evaluation Database</a></li>
+</ul></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation / End -->
+</header>  <div class="main" role="main">
+    <!--PAGEWATCH CODE="USHHS_458"-->
+    <section class="page-heading">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+                <h1>
+                    
+          Centers for Medicare &amp; Medicaid Services        </h1>
+                                 <p class="author">
+                                                 <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="1969-12-31T00:00:00-05:00">12/31/1969</span>               
+                           </p>
+
+
+                  </div>
+
+
+        <div class="col-md-6">
+           <ul class="breadcrumb"><li class="first"><a href="/" title="Home">Home</a></li>
+<li class="last">Centers for Medicare &amp; Med...</li>
+</ul>        </div>
+
+
+    </div>
+  </div>
+</section>
+    
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Content">     
+
+        
+                  
+        
+                                    <div  class="col-md-12 " id="content">
+                          
+                              <div id="block-aspe-aspe-addthis" class="widget block block-aspe" >
+  
+      
+  <div class="clearfix">
+  <ul class="addthis_sharing_toolbox node-share__links" data-url="https://aspe.hhs.gov/centers-medicare-medicaid-services" data-title="Centers for Medicare &amp; Medicaid Services">
+    <li><a class="addthis_button_print"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/print-white.png" alt="print" /></a></li>
+    <li><a class="addthis_button_email"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/mail-white.png" alt="email" /></a></li>
+    <li><a class="addthis_button_twitter"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/tw.png" alt="twitter" /></a></li>
+<!--    <li><a class="addthis_button_facebook">--><!--</a></li>-->
+    <li><a class="addthis_button_compact"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/plus-white.png" alt="compact" /></a></li>
+  </ul>
+</div>
+
+  </div> <!-- /.block -->
+
+                
+    
+  
+  <div class="content clearfix node-site-page">
+    <p><strong>TITLE:</strong> Enrollment DataBase</p>
+<p><strong>ACRONYM: </strong> EDB</p>
+<p><strong>AGENCY/PROGRAM:</strong> Office of Informational Services, Centers for Medicare &amp; Medicaid Services</p>
+<p><strong>DESCRIPTION:</strong> The Enrollment DataBase (EDB) is the Centers for Medicare &amp; Medicaid Services's database of record for Medicare Beneficiary enrollment information. It is the authoritative source for Medicare beneficiary information, entitlement, etc. The EDB has information on all Medicare beneficiaries, including Social Security Retirement and Disability insurance Beneficiaries, End Stage Renal Disease (ESRD) beneficiaries, and Railroad Retirement Board (RRB) beneficiaries.</p>
+<p>The EDB represents information on the beneficiaries from the beginning of Medicare (1966) to the present and is updated daily. It is not a sample, but a 5% sample of the EDB is maintained.</p>
+<p>The primary source for beneficiary information is the Social Security Administration (SSA) Master Beneficiary Record (MBR). Information on race is updated from SSA's Numerical Identification File (NUMIDENT).</p>
+<p>The record unit is the individual beneficiary. Data collected include Functional/Health Status; Service Expenditure and Financing; Age/Gender; Other Demographic/ Sociocultural</p>
+<p><strong>RACE/ETHNICITY:</strong> American Indian/Alaskan Native; Asian or Pacific Islander; Black, White, Hispanic; Other</p>
+<p><strong>DATA LIMITATIONS:</strong> Standard Limitations</p>
+<p><strong>STATUS:</strong> Starting in July 1966, the data collection is active (continuous data collection with data transferred for SSA, and intermittent activities to fill certain data gaps--primarily those concerning race/ethnicity data).</p>
+<p><strong>HOW TO ACCESS DATA:</strong> Upon request, with special agreement with the user.</p>
+<p>Within the Centers for Medicare &amp; Medicaid Services (CMM), data can be released based on a user's "need to know." If requester plans to release the data to a CMS contractor or grantee, both must sign an Agreement for Release of Data with Individual Identifiers that bind the user to protect Confidentiality of data. Other Federal agencies or outside requesters generally may not receive identifiable data. CMS requires that appropriate data release agreements must be signed, fees paid, and research protocols submitted. CMS will review the research protocols.</p>
+<p>Researchers can receive assistance on the appropriate use of CMS data and guidance for acquiring data from CMS from The Research Data Assistance Center (ResDAC). ResDAC is a CMS contractor that provides free assistance to researchers interested in obtaining CMS data. Requests for assistance should be sent to:</p>
+<p>Research Data Assistance Center<br />
+	Box 97, D355<br />
+	420 Delaware Street S.E.<br />
+	Minneapolis, MN 55455-0381<br />
+	Telephone: 1-888-973-7322<br /><a href="http://www.resdac.umn.edu">http://www.resdac.umn.edu</a></p>
+<p><strong>WEB SITE:</strong> Please visit the CMS data website for further information. Use the Professional/Researcher pulldown menu, or navigate directly to <a href="http://cms.hhs.gov/data/">http://cms.hhs.gov/data/</a></p>
+<p><strong>CONTACT PERSON:</strong> Roger Hicks<br />
+	Business Standards and Systems Operations Group<br />
+	Office of Informational Services<br />
+	Centers for Medicare &amp; Medicaid Services<br />
+	7500 Security Blvd., N2-11-24<br />
+	Baltimore, Maryland 21244-1850<br />
+	410-786-6302;<br /><a href="mailto:rhicks1@cms.hhs.gov%20">rhicks1@cms.hhs.gov</a></p>
+<p> </p>
+<hr /><p><a name="HISKEW" id="HISKEW"></a><strong>TITLE:</strong> Health Insurance Skeleton Eligibility Write-Off (HISKEW) File</p>
+<p><strong>ACRONYM: </strong> HISKEW</p>
+<p><strong>AGENCY/PROGRAM:</strong> Office of Informational Services, Centers for Medicare &amp; Medicaid Services</p>
+<p><strong>DESCRIPTION:</strong> The Health Insurance Skeleton Eligibility Write-Off (HISKEW) File, like the Enrollment Database, contains data for all beneficiaries ever enrolled in Medicare. The HISKEW File contains a subset of data elements from the Enrollment Database and is extracted quarterly from the Unloaded Enrollment Database. (The Unloaded Enrollment Database is a flat file version of the Enrollment Database). Among these elements are information on beneficiary demographics (e.g age, gender), residence, entitlement, and coverage. The scope of information for each of the elements is less on the HISKEW than on the Enrollment Database. For example, health insurance claim numbers are present, but not names; and State, county, and ZIP Code of residence are included, but not street address. The information included, however, is normally sufficient for statistical and demographic research. The file is available from 1985 to the present.</p>
+<p>The HISKEW is a "skeleton" of the Enrollment Database in the sense that only a subset of the Enrollment Database elements is present in the file. The HISKEW is designed to support tabulation of enrollment data for various program statistical reports and matching of enrollment data against utilization data to extract utilization data for specific cohorts of beneficiaries. The file is of interest to health care policy analysts, health care and outcomes researchers, and health care investigators.</p>
+<p><strong>RACE/ETHNICITY:</strong> Race/Ethnicity categories prior to January 1994: White; Black; Other; Unknown. Race/Ethnicity categories -- January 1994 to Present: Asian or Pacific Islander; Hispanic; Black (Not of Hispanic Origin); American Indian or Alaskan Native; White (Not of Hispanic Origin); Other; Unknown</p>
+<p><strong>STATUS:</strong> Starting in 1985, this data collection is active. The HISKEW File maintenance involves the quarterly update of the file under HDC production control. The quarterly update includes a backup process which prepares a duplicate HISKEW File. Quality assurance edits are applied to the file before it is made available to external users. From 1985 to 1991, the HISKEW File was delineated by active and inactive designations. The active version of the file contained records for active beneficiaries only; the inactive version contained records for inactive beneficiaries only. Both versions contained the same elements. Beginning in 1992, separate versions of the HISKEW File have not been maintained. Both active and inactive beneficiaries are represented on the HISKEW file.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> Tabulations provided. Identifiable data are available for approved research/studies. Requesters of identifiable data must have their research project approved by the Centers for Medicare &amp; Medicaid Services (CMS) and agree to comply with the provisions of the Privacy Act.</p>
+<p><strong>WEB SITE:</strong> <a href="http://www.CMS.gov">http://www.CMS.gov </a></p>
+<p><strong>CONTACT PERSON:</strong> Roger Hicks<br />
+	Business Systems Operations Group<br />
+	Office of Informational Services<br />
+	Centers for Medicare &amp; Medicaid Services<br />
+	7500 Security Blvd.<br />
+	N2-11-24<br />
+	Baltimore, Maryland 21244-1850<br />
+	410-786-6302<br /><a href="mailto:rhicks1@CMS.gov">rhicks1@CMS.gov</a></p>
+<p> </p>
+<hr /><p><a name="NCH" id="NCH"></a><strong>TITLE:</strong> National Claims History (NCH) 100% Nearline File</p>
+<p><strong>ACRONYM: </strong> NCH</p>
+<p><strong>AGENCY/PROGRAM:</strong> Office of Information Services, Centers for Medicare &amp; Medicaid Services</p>
+<p><strong>DESCRIPTION:</strong> The purpose of the NCH 100% Nearline file is to house all Common Working File (CWF) processed Part A and Part B detailed Medicare claims transaction records (includes initial, interim, debit/credit adjustments), beginning with service year 1991. "Processed" means that the intermediary submitted institutional Part A/B claims and the carrier submitted physician/supplier and Durable Medical Equipment Regional Carrier (DMERC) Part B claims that have been validated and payment authorized (or denial validated) by CWF Host. CWF is a decentralized Medicare claims validation and benefit authorization process, under which each Medicare beneficiary is assigned to one of nine host sites. Once a claim is filed for a beneficiary, the intermediary or carrier forwards the data to the appropriate host for authorization. After authorizing payment, the host transmits the "processed" claims data to the NCH for monthly loading. The 100% Nearline file is divided into six record types, there are four institutional record types (Inpatient/Skilled Nursing Facility (SNF), Outpatient, Home Health Agency (HHA), and Hospice) that are submitted by fiscal intermediaries; and two non-institutional Part B record types physician/supplier and Durable Medical Equipment Regional Carrier (DMERC) that are submitted by carriers. The unit of analysis in the NCH 100% Nearline file is the claim.</p>
+<p>NOTE: Additional subsets of the Nearline file are created on an ongoing basis (generated monthly as a prospective tap based on specific criteria):</p>
+<ul><li>100% Nearline Tap - a file of the entire NCH 100% Nearline File used by the Program Safeguard Contract</li>
+<li>CHOICES Tap - a file of institutional and non-institutional claims used for the CHOICES demonstration</li>
+<li>Ambulatory Surgical Center (ASC) Tap - file of outpatient, physician/supplier and DMERC claims</li>
+<li>RIC V/W Tap - file of all Part A and Part B institutional claims</li>
+</ul><p>This file included data on Services Resources; Services Utilization; Service Expenditure and Financing; Gender</p>
+<p><strong>RACE/ETHNICITY:</strong> Race/Ethnicity categories prior to July 1994: White; Black; Other; Unknown</p>
+<p>Race/Ethnicity categories from July 1994-Present: Asian or Pacific Islander; Hispanic; Black (Not of Hispanic Origin); American Indian or Alaskan Native; White (Not of Hispanic Origin); Other; Unknown</p>
+<p><strong>DATA LIMITATIONS:</strong> For the coding scheme used prior to July 1994, Asian, Hispanic, and North American values were contained in the "Other" race category</p>
+<p><strong>STATUS:</strong> Started in January 1988, this continuous data collection is active.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> Upon request with special agreement with the user.</p>
+<p>Within CMS, data can be released based on a user's "need-to-know." If requester plans to release the data to CMS contractor or grantee, both must sign an Agreement for Release of Data with individual identifiers that bind the user to protect confidentiality of data.</p>
+<p>Researchers can receive assistance on the appropriate use of CMS data and guidance for acquiring data from CMS from The Research Data Assistance Center (ResDAC). ResDAC is a CMS contractor that provides free assistance to researchers interested in obtaining CMS data. Requests for assistance should be sent to:</p>
+<p>Research Data Assistance Center<br />
+	Box 97, D355<br />
+	420 Delaware Street S.E.<br />
+	Minneapolis, MN 55455-0381<br />
+	Telephone: 1-888-973-7322<br /><a href="http://www.resdac.umn.edu">http://www.resdac.umn.edu</a></p>
+<p><strong>WEB SITE:</strong> Please visit the CMS data website for further information. Use the Professional/Researcher pulldown menu, or navigate directly to <a href="http://cms.hhs.gov/data/">http://cms.hhs.gov/data/</a></p>
+<p><strong>CONTACT PERSON:</strong> Mike Rappaport<br />
+	Office of Information Services<br />
+	Centers for Medicare &amp; Medicaid Services<br />
+	7500 Security Blvd<br />
+	N2-16-24<br />
+	Baltimore, Maryland 21244-1850<br />
+	410-786-6759<br /><a href="mailto:mrappaport@cms.hhs.gov">mrappaport@cms.hhs.gov</a></p>
+<p> </p>
+<hr /><p><a name="NCHSAF" id="NCHSAF"></a><strong>TITLE:</strong> National Claims History (NCH) Standard Analytical Files</p>
+<p><strong>ACRONYM: </strong> SAF</p>
+<p><strong>AGENCY/PROGRAM:</strong> Office of Information Services, Centers for Medicare &amp; Medicaid Services</p>
+<p><strong>DESCRIPTION:</strong> The Standard Analytical Files (SAFs) are final action claims level files developed from the Medicare National Claims History (NCH) database. The SAFs were developed in response to criticism that the 100% Medicare claims data were unwieldy and cumbersome to use because of the number of adjustment claims resident in the repository. Under Medicare claims processing procedures, when an error is discovered on a claim, a duplicate claim is submitted indicating that the prior claim was an error. A subsequent claim containing the corrected information may then be submitted. The SAFs contain only the final action claims. All adjustment claims have been resolved.</p>
+<p>SAFs are available for each institutional and non-institutional claim types from 1991 onward.</p>
+<p>The 100% Institutional SAF groups are: Inpatient, SNF, Outpatient, HHA, &amp; Hospice. The 100% non-institutional SAF groups are: Clinical Laboratory and DMEPOS. The 5% sample beneficiary SAF contains all final action claims data for a five percent sample of Medicare beneficiaries. The 5% Sample Beneficiary SAFs are available in the following record types: Inpatient, Outpatient, HHA, Hospice, SNF, &amp; Physician/Supplier &amp; DMERC. The SAFs are constructed from weekly data submissions to the National Claims History (NCH) 100% Nearline file. The SAFs are obtained by processing the NCH Nearline raw claims through final action algorithms that match original claim with adjusted claims to resolve any adjustments. Annual files are created each July for services incurred in the prior calendar year and processed through June of the current year (18 month window). Current year's data is created after 6 months and then updated quarterly and finalized after 18 months.</p>
+<p>The files include data on Functional/Health Status; Services Utilization; Services Expenditure and Financing; Gender</p>
+<p><strong>RACE/ETHNICITY:</strong> Race/Ethnicity categories prior to July 1994: White; Black; Other; Unknown</p>
+<p>Race/Ethnicity categories from July 1994-Present: Asian or Pacific Islander; Hispanic; Black (Not of Hispanic Origin); American Indian or Alaskan Native: White (Not of Hispanic Origin); Other; Unknown</p>
+<p><strong>DATA LIMITATIONS:</strong> For the coding scheme used prior to July 1994, Asian, Hispanic, and North American values were contained in the "Other" race category</p>
+<p><strong>STATUS:</strong> Started in 1991, this continuous data collection is active</p>
+<p><strong>HOW TO ACCESS DATA:</strong> Public use files, usable without restrictions, other file versions upon request, with special agreement with the user. Magnetic tape reel; magnetic tape cartridge. Within the Centers for Medicare &amp; Medicaid Services (CMS), data can be released based on a user's "need-to-know." If requester plans to release the data to CMS contractor or grantee, both must sign an Agreement of Release for Data with individual identifiers that bind the user to protect confidentiality of data.</p>
+<p>Other Federal agencies or outside requesters can receive identifiable data when they are needed for a project. CMS requires that appropriate data release agreements must be signed, fees paid, and research protocols submitted. Study protocols will be reviewed by CMS.</p>
+<p>Researchers can receive assistance on the appropriate use of CMS data and guidance for acquiring data from CMS from The Research Data Assistance Center (ResDAC). ResDAC is a CMS contractor that provides free assistance to researchers interested in obtaining CMS data. Requests for assistance should be sent to:</p>
+<p>Research Data Assistance Center<br />
+	Box 97, D355<br />
+	420 Delaware Street S.E.<br />
+	Minneapolis, MN 55455-0381<br />
+	Telephone: 1-888-973-7322<br /><a href="http://www.resdac.umn.edu">http://www.resdac.umn.edu</a></p>
+<p><strong>WEB SITE:</strong> Please visit the CMS data website for further information. Use the Professional/Researcher pulldown menu, or navigate directly to <a href="http://cms.hhs.gov/data/">http://cms.hhs.gov/data/</a></p>
+<p><strong>CONTACT PERSON:</strong> Mike Rappaport<br />
+	Office of Information Services<br />
+	Centers for Medicare &amp; Medicaid Services<br />
+	7500 Security Blvd.<br />
+	N2-12-24<br />
+	Baltimore, Maryland 21244-1850<br />
+	410-786-6759<br /><a href="mailto:mrappaport@cms.hhs.gov">mrappaport@CMS.hhs.gov</a></p>
+<hr /><p> </p>
+<hr /><p><a name="ESRD" id="ESRD"></a><strong>TITLE:</strong> End Stage Renal Disease (ESRD) Program Management and Medical Information System (PMMIS)</p>
+<p><strong>ACRONYM: </strong> N/A</p>
+<p><strong>AGENCY/PROGRAM:</strong> Office of Clincial Standards and Quality, Centers for Medicare &amp; Medicaid Services</p>
+<p><strong>DESCRIPTION:</strong> The End Stage Renal Disease (ESRD) Program Management and Medical Information System (PMMIS) is a comprehensive database covering medical and demographic information for the Medicare ESRD population. It is designed to serve the needs of the Department of Health and Human Services in support of program analysis, policy development, and epidemiologic research. The ESRD PMMIS includes information on both Medicare ESRD beneficiaries and Medicare-approved ESRD hospitals and dialysis facilities. The principal sources of beneficiary-specific information are the Medicare billing records and incidence-specific medical information forms that report onset of ESRD, characteristics and status of a kidney transplant, and cause of death for an ESRD beneficiary. The principal sources of hospital and facility information are the Medicare certification approval notices and an annual survey of these organizations.</p>
+<p>The file includes data on: functional/health status; services resources; services utilization; services expenditure and financing; socioeconomic; age/gender; behavioral .</p>
+<p><strong>RACE/ETHNICITY:</strong> As of April 1, 1995, race categories are: American Indian/Alaskan Native; Asian; Pacific Islander; Mid-East/Arabian; Indian Sub-Continent; Black; White; Other or Multiracial; and Unknown. As of the same date, ethnic categories are: Hispanic Mexican; Hispanic Other; Non-Hispanic.</p>
+<p><strong>STATUS:</strong> Started in July 1980, this continuous data collection is active.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> Data on renal providers and aggregate counts of patients at those providers are available from public use files. Patient specific data are restricted to special requests subject to the Privacy Act. ESRD PMMIS patient data are provided to researchers on an ad hoc basis and are subject to the conditions of the Privacy Act.</p>
+<p>Researchers can receive assistance on the appropriate use of CMS data and guidance for acquiring data from CMS from The Research Data Assistance Center (ResDAC). ResDAC is a CMS contractor that provides free assistance to researchers interested in obtaining CMS data. Requests for assistance should be sent to:</p>
+<p>Research Data Assistance Center<br />
+	Box 97, D355<br />
+	420 Delaware Street S.E.<br />
+	Minneapolis, MN 55455-0381<br />
+	Telephone: 1-888-973-7322<br /><a href="http://www.resdac.umn.edu">http://www.resdac.umn.edu</a></p>
+<p><strong>WEB SITE:</strong> Please visit the CMS data website for further information. Use the Professional/Researcher pulldown menu, or navigate directly to <a href="http://cms.hhs.gov/data/">http://cms.hhs.gov/data/</a></p>
+<p><strong>CONTACT PERSON:</strong> Roger Milam<br />
+	Centers for Medicare &amp; Medicaid Services<br />
+	7500 Security Blvd.<br />
+	S3-02-01<br />
+	Baltimore, Maryland 21244-1850<br />
+	Phone: 410-786-0613<br /><a href="mailto:rmilam@CMS.hhs.gov">rmilam@CMS.hhs.gov</a></p>
+<p> </p>
+<hr /><p><strong><a name="smsis" id="smsis"></a>TITLE:</strong> State MSIS Reports</p>
+<p><strong>ACRONYM: </strong> Previously known as the HCFA-2082</p>
+<p><strong>AGENCY/PROGRAM:</strong> Office of Information Services, Centers for Medicare &amp; Medicaid Services</p>
+<p><strong>DESCRIPTION:</strong> The State MSIS Reports provides for reporting summary data of Medicaid eligibles, recipients, services, and medical vendor payments. Since 1972, all States and territories that operate Medicaid programs under Title XIX of the Social Security Act have been required to report annually. A report covers the Federal fiscal year which begins October 1 and ends September 30. The report has 14 sections that contain aggregate data on Medicaid eligibles, recipients, and vendor payments broken down by service types and demographic categories. This file includes data on: Services Utilization; Services Expenditure and Financing; Age/Gender. Effective FY 1999, this standardized report set will be replaced with a state summary datamart that allows creation of a number of tables using multidimensional analytic tools, and an updated set of standardized hard-copy summary reports.</p>
+<p><strong>RACE/ETHNICITY:</strong> Race/ethnicity is generated from State Medicaid administrative systems, and includes the data obtained from the intake caseworker. As of FY 1999, the State MSIS Reports race/ethnicity groupings are as follows:</p>
+<p>Valid Values Code Definition</p>
+<ol><li>White</li>
+<li>Black or African American</li>
+<li>American Indian or Alaskan Native</li>
+<li>Asian</li>
+<li>Hispanic or Latino (no race information available)</li>
+<li>Native Hawaiian or Other Pacific Islander</li>
+<li>Hispanic or Latino and one or more races</li>
+<li>More than one race (Hispanic or Latino not indicated)</li>
+<li>Unknown</li>
+</ol><p><strong>STATUS:</strong> Started in October 1971 to September 1972. This periodic (annual) data collection is active.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> Upon request, with special agreement with the user.</p>
+<p>Researchers can receive assistance on the appropriate use of CMS data and guidance for acquiring data from CMS from The Research Data Assistance Center (ResDAC). ResDAC is a CMS contractor that provides free assistance to researchers interested in obtaining CMS data. Requests for assistance should be sent to:</p>
+<p>Research Data Assistance Center<br />
+	Box 97, D355<br />
+	420 Delaware Street S.E.<br />
+	Minneapolis, MN 55455-0381<br />
+	Telephone: 1-888-973-7322<br /><a href="http://www.resdac.umn.edu">http://www.resdac.umn.edu</a></p>
+<p><strong>WEB SITE:</strong> Please visit the CMS data website for further information. Use the Professional/Researcher pulldown menu, or navigate directly to <a href="http://cms.hhs.gov/data/">http://cms.hhs.gov/data/</a></p>
+<p><strong>CONTACT PERSON:</strong> Susan Hart<br />
+	Office of Information Services<br />
+	Centers for Medicare and Medicaid Services<br />
+	7500 Security Blvd., N2-04-27<br />
+	Baltimore, Maryland 21244-1850<br />
+	410-786-2608<br /><a href="mailto:shart@cms.hhs.gov">shart@cms.hhs.gov</a></p>
+<hr /><p><a name="MSIS" id="MSIS"></a><strong>TITLE:</strong> Medicaid Statistical Information System Personal Summary File</p>
+<p><strong>ACRONYM: </strong> MSIS Personal Summary File</p>
+<p><strong>AGENCY/PROGRAM:</strong> Office of Informational Services, Centers for Medicare &amp; Medicaid Services</p>
+<p><strong>DESCRIPTION:</strong> There are now 30 States participating in the Medicaid Statistical Information System (MSIS), with all States being legislatively required to participate as of January 1999. The MSIS Personal Summary File is a fiscal year person-specific file by State that gives a history of Medicaid eligibility and service use. Summary files are created using each State's: 1) quarterly validated Eligible file; 2) quarterly validated inpatient file; 3) quarterly validated Long Term Care file; 4) quarterly validated Other claim file; 5) prior year fourth-quarter Summary File; and 6) previous quarter Summary File when processing quarters two through four. Each Summary file contains one record for each unique MSIS identification number and provides roll-ups of eligibility and claim data for each individual. The first files were produced for fiscal year 1985 with 10 states participating. Twenty eight states were participating in fiscal year 1995 representing 51% of the Medicaid population. It is to be noted that the State Medicaid Research Files (SMRFs) which are person and claim-detail files are oriented by date of eligibility and service. The files include data on Services Utilization; Services Expenditure and Financing; Age/Gender.</p>
+<p><strong>RACE/ETHNICITY:</strong> The race /ethnicity categories will be updated for 1999 to include: White, Black or African American, American Indian or Alaska Native, Asian, Hispanic or Latino, Native Hawaiian or Other Pacific Islander.</p>
+<p><strong>DATA LIMITATIONS:</strong> One State, Maine, does not report race/ethnicity on its eligibility file. Several others are limited in their ability to provide this information because of the nature of their electronic data collection system.</p>
+<p><strong>STATUS:</strong> Started in Fiscal Year 1975 (October 1, 1975 to September 30, 1976). This periodic (quarterly) data collection is active. These files are generally available approximately 2 years after the MSIS summary file.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> Upon request, with special agreement with the user. In most cases, personal identifying information is either omitted or scrambled to prevent the possibility of identifying individual records. If personal ID's or other identifiable data are provided, a data release agreement is necessary to insure compliance with the Privacy Act.</p>
+<p><strong>WEB SITE:</strong> <a href="http://www.hcfa.gov" target="_blank">http://www.hcfa.gov</a></p>
+<p><strong>CONTACT PERSON:</strong> Mike Rappaport<br />
+	Office of Informational Services<br />
+	Centers for Medicare &amp; Medicaid Services<br />
+	7500 Security Blvd., N3-16-28<br />
+	Baltimore, Maryland 21244<br />
+	410-786-6759; Fax: 410-786-0182<br /><a href="mailto:mrappaport@cms.hhs.gov">mrappaport@hcfa.gov</a></p>
+<p> </p>
+<hr /><p><a name="MCBS" id="MCBS"></a><strong>TITLE:</strong> Medicare Current Beneficiary Survey</p>
+<p><strong>ACRONYM: </strong> MCBS</p>
+<p><strong>AGENCY/PROGRAM:</strong> Office of Research, Development, and Information (ORDI), Centers for Medicare &amp; Medicaid Services</p>
+<p><strong>DESCRIPTION:</strong> The Medicare Current Beneficiary Survey (MCBS) is a continuing multipurpose survey of a representative sample of the Medicare population. The goal of ORDI is to learn about the health care beneficiaries receive, how much that care costs, and who pays for it. Although the survey is focused on the financing of health care, the initial interview collects a variety of basic information including demographic characteristics, health status, insurance, institutionalization, and living arrangements. The sample (a rotating panel) is designed to provide annual data for 12,000 respondents.</p>
+<p>Interviews are conducted three times a year. Questions about medical services, costs, and payments are asked in every interview after the initial interview. Some basic information is updated at every interview (insurance) or once a year (health status), as appropriate. Other information (education, race, sex) is collected only once.</p>
+<p>ORDI prepares two different types of files from the data: "Access to Care" and "Calendar Year Cost and Use." Both files summarize information by person. ORDI links Medicare claims and other administrative data to the survey data.</p>
+<p>The "Access to Care" files are available for 1991-2001; these are generally released in October, about 10 months after data collection ends. These "snapshots" of the initial interview and annual updates can be compared with each other as a time series. Although these releases include a full year's worth of Medicare bills and claims for the individuals surveyed, they do not include any information about non-Medicare services or costs. Weights for this file inflate estimates to an annual "always enrolled" Medicare population.</p>
+<p>The "Calendar Year and Use" files are available for 1992-2000. In addition to the information that appears in the "Access to Care" file, this file will also contain detailed data about non-Medicare services (drugs, nursing homes) and costs paid by other sources (Medicaid, private insurance, out-of-pocket). Weights for this file inflate estimates to annual "ever enrolled" and July 1 midpoint" Medicare population. This file includes data on: Functional/ Health Status; Services Utilization; Services Expenditure and financing; Socioeconomic; Age/Gender; Other Demographic; Socio-cultural; Behavioral; Other (nursing home characteristics, entitlement SS-SSI);.</p>
+<p><strong>RACE/ETHNICITY:</strong> Through 1997, sample respondents were asked to affiliate with one of the following race codes: American Indian/Alaskan Native; Asian or Pacific Islander; Black; White; Other. Beginning in 1998, respondents could choose as many of the following as they wished: Asian; African American; Native Hawaiian or Pacific Islander; White; American Indian or Alaska Native; Other race.</p>
+<p>Through 1997, respondents were asked whether they were of Hispanic origin; the wording was changed beginning in 1998 to ask whether they were of of Hispanic or Latino Origin.</p>
+<p><strong>DATA LIMITATIONS:</strong> Respondents are handed a card on which the race categories are displayed and are asked to identify the category to which they belong. Interviewers are prohibited from making suggestions and from explaining or defining any of the groups. If the answer is not one of the categories listed, the interviewer codes the response "91" (Other) and records the verbatim response. Names of ethnic groups or nationalities such as Irish or Cuban are not recorded; interviewers are instructed to direct the respondent back to the card and to probe for one of those categories. If multiple responses are given, interviewers probe for a response that fits into one of the categories. If the respondent is hostile to the idea of being classified in one of the groups provided, the interviewer records the response verbatim and continues with the interview.</p>
+<p><strong>STATUS:</strong> Started in September 1991, this continuous data collection is active.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> Upon request, with special agreement with the user.</p>
+<p> </p>
+<p>Researchers can receive assistance on the appropriate use of CMS data and guidance for acquiring data from CMS from The Research Data Assistance Center (ResDAC). ResDAC is a CMS contractor that provides free assistance to researchers interested in obtaining CMS data. Requests for assistance should be sent to:</p>
+<p>Research Data Assistance Center<br />
+	Box 97, D355<br />
+	420 Delaware Street S.E.<br />
+	Minneapolis, MN 55455-0381<br />
+	Telephone: 1-888-973-7322<br /><a href="http://www.resdac.umn.edu">http://www.resdac.umn.edu</a></p>
+<p><strong>WEB SITE:</strong> Please visit the CMS data website for further information. Use the Professional/Researcher pulldown menu, or navigate directly to <a href="http://cms.hhs.gov/data/">http://cms.hhs.gov/data/</a></p>
+<p><strong>CONTACT PERSON:</strong> Frank J. Eppig<br />
+	Office of Research, Development, and Information<br />
+	Centers for Medicare &amp; Medicaid Services<br />
+	7500 Security Blvd.<br />
+	C3-18-24<br />
+	Baltimore, Maryland 21244<br />
+	410-786-7950<br /><a href="mailto:FEppig@cms.hhs.gov">FEppig@cms.hhs.gov</a></p>
+<p> </p>
+<hr /><p><a name="MEDPAR" id="MEDPAR"></a><strong>TITLE:</strong> Medicare Provider Analysis and Review File</p>
+<p><strong>ACRONYM: </strong> MEDPAR</p>
+<p><strong>AGENCY/PROGRAM:</strong> Office of Information Services, Centers for Medicare &amp; Medicaid Services</p>
+<p><strong>DESCRIPTION:</strong> The Medicare Provider Analysis and Review (MEDPAR) file contains inpatient hospital and Skilled Nursing Facility (SNF) final action stay records, which are a major source of data for program analyses, evaluations, and utilization studies. Each MEDPAR record represents a stay in an inpatient hospital (where discharged) or SNF (may still be a patient). Only inpatient records with discharge dates are included in MEDPAR; SNF records are included even if discharge data are not present because discharge information is not always present. Each MEDPAR record may represent one claim or multiple claims, depending on the length of a beneficiary's stay and the amount of inpatient services used throughout the stay. Beginning in June 1995, the inpatient and SNF claims from the NCH Nearline Repository became the source for the MEDPAR file. MEDPAR files are available for fiscal and calendar years. The fiscal and calendar year MEDPAR files are created quarterly in March, June, September, and December. The MEDPAR file is available in a 60% sample size and two different 20% samples.</p>
+<p>The files contain data on : Functional/Health Status; Services Utilization; Services Expenditure and Financing; Age/Gender</p>
+<p><strong>RACE/ETHNICITY:</strong> Race/Ethnicity categories prior to July 1994: White; Black; Other; Unknown</p>
+<p>Race/Ethnicity categories from July 1994-Present: Asian or Pacific Islander; Hispanic; Black (Not of Hispanic Origin); American Indian or Alaskan Native; White (Not of Hispanic Origin): Other; Unknown</p>
+<p><strong>DATA LIMITATIONS:</strong> For the coding scheme used prior to July 1994, Asian, Hispanic, and North American values were contained in the Other" race category.</p>
+<p><strong>STATUS:</strong> Started in January 1986, this continuous data collection is active.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> Upon request, with special agreement with the user. Within CMS, data can be released based on a user's "need to know." If requester plans to release the data to CMS contractor or grantee, both must sign an Agreement for Release of Data with Individual Identifiers that bind the user to protect confidentiality of data.</p>
+<p>Other Federal agencies or outside requesters can receive identifiable data when they are needed for a project. CMS requires that appropriate data release agreements must be signed, fees paid, and research protocols submitted. Study protocols will be reviewed by CMS.</p>
+<p>Researchers can receive assistance on the appropriate use of CMS data and guidance for acquiring data from CMS from The Research Data Assistance Center (ResDAC). ResDAC is a CMS contractor that provides free assistance to researchers interested in obtaining CMS data. Requests for assistance should be sent to:</p>
+<p>Research Data Assistance Center<br />
+	Box 97, D355<br />
+	420 Delaware Street S.E.<br />
+	Minneapolis, MN 55455-0381<br />
+	Telephone: 1-888-973-7322<br /><a href="http://www.resdac.umn.edu">http://www.resdac.umn.edu</a></p>
+<p><strong>WEB SITE:</strong> Please visit the CMS data website for further information. Use the Professional/Researcher pulldown menu, or navigate directly to <a href="http://cms.hhs.gov/data/">http://cms.hhs.gov/data/</a></p>
+<p><strong>CONTACT PERSON:</strong> Mike Rappaport<br />
+	Office of Information Services<br />
+	Centers for Medicare &amp; Medicaid Services<br />
+	7500 Security Blvd.<br />
+	N2-12-24<br />
+	Baltimore, Maryland 21244-1850<br />
+	410-786-6759<br /><a href="mailto:mrappaport@cms.hhs.gov">mrappaport@cms.hhs.gov</a></p>
+<p> </p>
+<hr /><p><a name="CAHPS" id="CAHPS"></a><strong>TITLE:</strong> CAHPS® (Consumer Assessment of Health Plans) --Medicare Satisfaction Survey</p>
+<p><strong>ACRONYM: </strong> CAHPS</p>
+<p><strong>AGENCY/PROGRAM:</strong> Center for Beneficiary Choices, Centers for Medicare &amp; Medicaid Services</p>
+<p><strong>DESCRIPTION:</strong> CAHPS is an initiative that collects and reports objective information about beneficiaries' experiences and satisfaction with their health plan to help consumers and purchasers choose and assess among managed care plans. The CAHPS initiative was begun by the Agency for Healthcare Research and Quality (AHRQ). AHRQ developed a core CAHPS questionnaire that is applicable across different health care delivery systems (commercial insurance, Medicaid, and Medicare). The CAHPS team developed a CAHPS-based Medicare questionnaire with the CAHPS core questions, along with supplemental questions relevant to the Medicare population, for Medicare managed care plans, called the Medicare Satisfaction Survey.</p>
+<p>In 1997, CMS began administering this nationwide satisfaction survey to Medicare beneficiaries in managed care plans. Each year a cross-section of Medicare managed care enrollees stratified by plan are surveyed to assess their level of satisfaction with access, quality of care, plans' customer services, resolution of complaints, and utilization experience. In 2000, CMS expanded this effort to include beneficiaries in Medicare fee-for-service. Each year a cross-section of beneficiaries in fee-for-service are given the same CAHPS survey stratified across geographic units designed to match managed care service areas in order to facilitate comparison across delivery systems.</p>
+<p>In 2000, CMS also expanded the CAHPS effort to include beneficiaries who recently chose to leave their Medicare managed care plan, or disenrollees. The CAHPS disenrollee survey has two components. One component is a stratum for the Medicare Satisfaction Survey for managed care enrollees discussed above. The second component assesses beneficiaries' reasons for leaving their Medicare managed care plan.</p>
+<p> </p>
+<p>The primary purpose of Medicare CAHPS is to provide information to Medicare beneficiaries to help them make more informed choices among managed care plans. Additional purposes of Medicare CAHPS include:</p>
+<ul><li>Providing tabulations to health plans on their own performance, relative to others, that will help them identify problems and improve the quality of care and service they provide to beneficiaries (all beneficiary-specific information is protected by the Privacy Act and, consequently, will not be provided to the plans).</li>
+<li>Providing information to CMS that can be used to help monitor the quality of care and relative performance of Medicare managed care plans and the traditional Medicare program.</li>
+<li>Providing information to Quality Improvement Organizations (QIO) to support collaborative quality improvement activities with health plans in their area.</li>
+<li>Providing data for the Government Performance and Results Act (GPRA) requirements.</li>
+</ul><p><strong>RACE/ETHNICITY:</strong> Demographic information is collected for each responding Medicare beneficiary included in the CAHPS sample. One question on whether the beneficiary is of Hispanic or Latino origin or descent is included in the CAHPS instrument. One question on race is included as well. The response categories are: White, Black or African American, Asian, Native Hawaiian or other Pacific Islander and American Indian or Alaska Native.</p>
+<p><strong>STATUS:</strong> Started in 1997, the summary data from round 5 of the Medicare Satisfaction Survey for managed care enrollees, and round 2 of the Medicare Satisfaction Survey for beneficiaries in fee-for-service and disenrollees, are in the process of being uploaded to <em>Medicare Health Plan Compare</em>, a tool on <a href="http://www.Medicare.gov">www.Medicare.gov</a>. Summary data also will be mailed with the 2003 <em>Medicare &amp; You </em>handbooks in Fall 2002. Round 6 of the Medicare Satisfaction Survey for managed care enrollees, and round 3 of the Medicare Satisfaction Survey for beneficiaries in fee-for-service and disenrollees are currently in the field.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> Person level data are protected by HCFA's confidentiality statutes. Plans receive detailed reports describing the findings from the survey. QIO's receive patient-level files and reports for beneficiaries in their area. Summary information is available in the Medicare Handbook, <em>Medicare &amp; You</em>, as well as the CMS website for consumers, <a href="http://www.Medicare.gov">www.Medicare.gov</a>.</p>
+<p>Researchers can receive assistance on the appropriate use of CMS data and guidance for acquiring data from CMS from The Research Data Assistance Center (ResDAC). ResDAC is a CMS contractor that provides free assistance to researchers interested in obtaining CMS data. Requests for assistance should be sent to:</p>
+<p>Research Data Assistance Center<br />
+	Box 97, D355<br />
+	420 Delaware Street S.E.<br />
+	Minneapolis, MN 55455-0381<br />
+	Telephone: 1-888-973-7322<br /><a href="http://www.resdac.umn.edu">http://www.resdac.umn.edu</a></p>
+<p><strong>WEB SITE:</strong> Summary level data is available every Fall on <a href="http://www.Medicare.gov">www.Medicare.gov</a>. See also the CMS data website for further information. Use the Professional/Researcher pulldown menu, or navigate directly to <a href="http://cms.hhs.gov/data/">http://cms.hhs.gov/data/</a></p>
+<p><strong>CONTACT PERSON:</strong> Liz Goldstein<br />
+	Center for Beneficiary Choice<br />
+	Centers for Medicare &amp; Medicaid Services<br />
+	7500 Security Boulevard<br />
+	Mail Stop S1-15-03<br />
+	410-786-6665</p>
+<hr /><p><strong><a name="cmhs" id="cmhs"></a>TITLE:</strong> Continuous Medicare History Sample File</p>
+<p><strong>ACRONYM: </strong> CMHS</p>
+<p><strong>AGENCY/PROGRAM:</strong> Office of Research, Development, and Information, Centers for Medicare &amp; Medicaid Services</p>
+<p> </p>
+<p><strong>DESCRIPTION:</strong> The CMHS file contains beneficiary characteristics and summary utilization data for a five percent sample of Medicare beneficiaries. Beneficiaries are included in the sample based on Health Insurance Claim (HIC) number and Hospital Insurance (HI) or Supplementary Medical Insurance (SMI) benefit entitlement. The initial sample of beneficiaries was drawn from those individuals represented in the Health Insurance Master File, the predecessor to the Enrollment Database (EDB), as of April 1975. Each year, additional beneficiaries are added to the file from the EDB to maintain a five percent sample of the total Medicare population. Once a beneficiary is included in the sample, he or she remains in the file regardless of utilization activity or death. Each year, the demographic characteristics of new and previously included beneficiaries are updated using the Health Insurance Skeleton Eligibility Write-off (HISKEW) File. These characteristics are based on data from the midpoint of the year.</p>
+<p>Prior to Common Working File System (CWF) implementation, utilization data for each year were obtained from inpatient hospital, Skilled Nursing Facility (SNF), Home Health Agency (HHA), and outpatient bill records. Physician/supplier information was obtained from payment records. Since CWF implementation, claims records are used instead of bill and payment records. However, some utilization data are still obtained from Medicare Provider Analysis and Review (MEDPAR) inpatient hospital and SNF stay records.</p>
+<p><strong>RACE/ETHNICITY:</strong> Unknown; White; Black; Other; Asian; Hispanic; North American Native</p>
+<p><strong>DATA LIMITATIONS:</strong> The full set of race code values described in Field Characteristics may not have been in use at the time that a particular individual's race was recorded. For further discussion of race data limitations, see Arday, Arday, et. al., "HCFA's racial and ethnic data: current accuracy and recent improvements," Health Care Financing Review 21(4):107-116.</p>
+<p><strong>STATUS:</strong> Started in 1974, this continuous data collection is active.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> Please visit the CMS data website for further information. Use the Professional/Researcher pulldown menu, or navigate directly to <a href="http://cms.hhs.gov/data/">http://cms.hhs.gov/data/</a></p>
+<p>Researchers can receive assistance on the appropriate use of CMS data and guidance for acquiring data from CMS from The Research Data Assistance Center (ResDAC). ResDAC is a CMS contractor that provides free assistance to researchers interested in obtaining CMS data. Requests for assistance should be sent to:</p>
+<p>Research Data Assistance Center<br />
+	Box 97, D355<br />
+	420 Delaware Street S.E.<br />
+	Minneapolis, MN 55455-0381<br />
+	Telephone: 1-888-973-7322<br /><a href="http://www.resdac.umn.edu">http://www.resdac.umn.edu</a></p>
+<p><strong>CONTACT PERSON:</strong> Mary Kapp<br />
+	Office of Research, Development, and Information<br />
+	Centers for Medicare and Medicaid Services<br />
+	7500 Security Blvd.<br />
+	C3-19-07<br />
+	Baltimore, Maryland 21244-1850<br />
+	410-786-0360<br /><a href="mailto:mkapp@cms.hhs.gov">mkapp@cms.hhs.gov</a></p>
+<hr /><p><strong><a name="hsaf" id="hsaf"></a>TITLE:</strong> Hospice Standard Analytical File</p>
+<p><strong>ACRONYM: </strong> Hospice SAF</p>
+<p><strong>AGENCY/PROGRAM:</strong> Office of Information Services, Centers for Medicare and Medicaid Services</p>
+<p><strong>DESCRIPTION:</strong> Hospice care is for terminally ill patients whose medical life expectancy is six months or less. The Hospice Standard Analytical File contains 100% final action medical and support service claims from Medicare-approved hospices. It is the only file that contains only hospice claims. Included in the file are drugs for symptom control and pain relief, short-term respite care, care in a hospice facility, hospital, or nursing home when necessary, and other services not otherwise covered by Medicare. Home care is also covered. Beneficiaries who elect hospice care are not permitted to use standard Medicare to cover services for the treatment of conditions related to the terminal illness. Standard Medicare benefits are provided, however, for the treatment of conditions unrelated to the terminal illness.</p>
+<p>The Hospice SAF is developed from the Medicare National Claims History (NCH) repository. It is a final action claims level file in which all adjustments have been resolved. The Hospice SAF is obtained by processing NCH hospice claims through a series of algorithms designed to match original claims with adjustment claims to resolve all adjustments. Final action data relieves users of the need to account for adjustments and provides a uniform file for analysis purposes. Annual files are created each July for services incurred in the prior calendar year and processed through June of the current year (18-month window). Current year incurred activity is created after 6 months and then updated quarterly (September, December, and March) and finalized after 18 months in July. Calendar year files are available beginning in1991.</p>
+<p>The Data Extract System (DESY) provides an access path to the data. Several options are available for extracting complete files as well as subsets of the files. Record selections can be based on finder files of health insurance claim numbers, diagnosis codes, etc., as well as geographic conditions, or percentages. DESY provides the option of extracting only those fields necessary (a view) or the entire file.</p>
+<p>The file includes data on Functional/Health Status; Services Utilization; Services Expenditure and Financing; Age/Gender</p>
+<p><strong>RACE/ETHNICITY:</strong> Race/Ethnicity categories prior to July 1994: White; Black: Other; Unknown</p>
+<p>Race/Ethnicity categories from July 1994-forward: Asian or Pacific Islander, Hispanic; Black (Not of Hispanic Origin); American Indian or Alaskan Native; White (Not of Hispanic Origin); Other; Unknown</p>
+<p><strong>DATA LIMITATIONS:</strong> For the coding scheme used prior to July 1994, Asian, Hispanic, and North American values were contained in the "Other" race category.</p>
+<p><strong>STATUS:</strong> This continuous data collection is active.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> Both public use and identifiable data can be released within the Centers for Medicare &amp; Medicaid Services upon signing a Data Use Agreement. If released to a CMS contractor or grantee, both must sign a Data Use Agreement that binds the user to protect confidentiality of the data.</p>
+<p>Other Federal agencies or outside requestors can receive identifiable data when needed for a project. CMS requires that research protocols be submitted, appropriate data release agreements signed, and fees paid. CMS reviews all study protocols.</p>
+<p>Researchers can receive assistance on the appropriate use of CMS data and guidance for acquiring data from CMS from The Research Data Assistance Center (ResDAC). ResDAC is a CMS contractor that provides free assistance to researchers interested in obtaining CMS data. Requests for assistance should be sent to:</p>
+<p>Research Data Assistance Center<br />
+	Box 97, D355<br />
+	420 Delaware Street S.E.<br />
+	Minneapolis, MN 55455-0381<br />
+	Telephone: 1-888-973-7322<br /><a href="http://www.resdac.umn.edu">http://www.resdac.umn.edu</a></p>
+<p><strong>WEB SITE:</strong> Please visit the CMS data website for further information. Use the Professional/Researcher pulldown menu, or navigate directly to <a href="http://cms.hhs.gov/data/">http://cms.hhs.gov/data/</a></p>
+<p><strong>CONTACT PERSON:</strong> Judy Giles<br />
+	Office of Information Services<br />
+	Centers for Medicare &amp; Medicaid Services<br />
+	7500 Security Blvd., N1-15-03<br />
+	Baltimore, Maryland 21244-1850<br />
+	410-786-1946<br /><a href="mailto:jgiles@cms.hhs.gov">jgiles@cms.hhs.gov</a></p>
+<hr /><p><strong><a name="smrf" id="smrf"></a>TITLE:</strong> State Medicaid Research Files and Medicaid Analytic eXtract (Medicaid Analytic eXtract is the new name beginning with CY 1999 data).</p>
+<p> </p>
+<p><strong>ACRONYM: </strong> SMRF/MAX</p>
+<p><strong>AGENCY/PROGRAM:</strong> Office of Research, Development, and Information, Centers for Medicare &amp; Medicaid Services</p>
+<p> </p>
+<p><strong>DESCRIPTION:</strong> This database consists of detailed (person-level) data on the persons enrolled in Medicaid and the services they receive. There are five data files, for each state and year:</p>
+<p>A Person Summary File - This file contains one record for each person enrolled in Medicaid in that state and year. The file includes eligibility information for each month of the year, demographic characteristics of the enrollee and a summary of services received and Medicaid payments, by selected types of covered services. Separate files are available for Inpatient Hospital, Long Term Care, Prescription Drug, and Other Services.</p>
+<p>It is possible to link records from the Person Summary Files to the other SMRF files, using the enrollee's Medicaid identifier. Files are organized by calendar year and date of service.</p>
+<p><strong>RACE/ETHNICITY: </strong>1995 and earlier codes: White, not of Hispanic Origin; Black, not of Hispanic Origin; American Indian or Alaskan Native; Asian or Pacific Islander; Hispanic; and Unknown.</p>
+<p>1996-98 codes: White, not of Hispanic Origin (change to "White" beginning 10/98); Black, not of Hispanic Origin (change to "Black or African American" beginning 10/98); American Indian or Alaskan Native; Asian or Pacific Islander (changed to "Asian" beginning 10/98); Hispanic (Changed to "Hispanic or Latino - No Race Information Available" beginning 10/98); Native Hawaiian or Other Pacific Islander (new code beginning 10/98); Hispanic or Latino and One or More Races (new code beginning 10/98); More than One Race (new code beginning 10/98); and Unknown.</p>
+<p> </p>
+<p>1999 and later codes:<em> From Medicaid:</em> White; Black or African American; American Indian or Alaskan Native; Asian; Hispanic or Latino - No Race Information Available; Native Hawaiian or Other Pacific Islander; Hispanic or Latino and One or More Races; More than One Race; and Unknown. <em>Race/Ethnicity</em> f<em>rom a link to the Medicare Enrollment Data Base:</em> White; Black; Other; Asian; Hispanic; North American Native; and Unknown.</p>
+<p><em>Medicare Language Code from a link to the Medicare Enrollment Data Base: </em>Chinese; German; English; French; Greek; Italian; Japanese; Norwegian; Polish; Russian; Spanish; Swedish; Serbo-Croatian; and Unknown.</p>
+<p><strong>DATA LIMITATIONS: </strong>The methods of collecting information on race and ethnicity differ substantially across states and time periods. Since specifications for two new codes beginning 10/98 (Hispanic or Latino and One or More Races, and More than One Race) were not issued until May 2000, these code values may not appear in the data for some states.</p>
+<p><strong>STATUS:</strong> Started in 1987 (for selected states), this continuous data collection is active. The number of states included in the database has steadily increased.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> These data are subject to the Privacy Act. Therefore, there must be a disclosure exception of the Privacy Act or a routine use in the appropriate Privacy Act System of Records Notice that allows for disclosure of these data. Additionally, a written request, completed Data Use Agreement, evidence of sufficient funding and a copy of an appropriate protocol (or study design) must be forwarded to CMS. Finally, if beneficiary names and addresses are being released for the purpose of contacting beneficiaries, a draft Beneficiary Notification Letter is required.</p>
+<p>Researchers can receive assistance on the appropriate use of CMS data and guidance for acquiring data from CMS from The Research Data Assistance Center (ResDAC). ResDAC is a CMS contractor that provides free assistance to researchers interested in obtaining CMS data. Requests for assistance should be sent to:</p>
+<p>Research Data Assistance Center<br />
+	Box 97, D355<br />
+	420 Delaware Street S.E.<br />
+	Minneapolis, MN 55455-0381<br />
+	Telephone: 1-888-973-7322<br /><a href="http://www.resdac.umn.edu">http://www.resdac.umn.edu</a></p>
+<p><strong>WEB SITE:</strong> Please visit the CMS data website for further information. Use the Professional/Researcher pulldown menu, or navigate directly to <a href="http://cms.hhs.gov/data/">http://cms.hhs.gov/data/</a></p>
+<p><strong>CONTACT PERSON: </strong>Robyn Thomas<br />
+	Division of Information Distribution<br />
+	Enterprise Data Group<br />
+	Office of Information Services<br />
+	Centers for Medicare &amp; Medicaid Services<br />
+	Mail Stop N3-17-07<br />
+	7500 Security Boulevard<br />
+	Baltimore, Maryland 21244-1850<br />
+	410-786-3690 (CMS Data Hotline)<br />
+	888-973-7322<br /><a href="http://www.resdac@umn.edu">www.resdac@umn.edu</a> (ResDAC)</p>
+<hr /><p><strong><a name="mds" id="mds"></a>TITLE:</strong> Minimum Data Set</p>
+<p><strong>ACRONYM: </strong> MDS</p>
+<p><strong>AGENCY/PROGRAM:</strong> Centers for Medicaid and State Operations, Centers for Medicare &amp; Medicaid Services</p>
+<p> </p>
+<p><strong>DESCRIPTION:</strong> The Omnibus Budget Reconciliation Act of 1987 (OBRA '87) mandated that each certified nursing facility must conduct a "comprehensive, accurate, standardized, reproducible assessment of each resident's functional capacities." The Resident Assessment Instrument (RAI), which includes the Minimum Data Set (MDS), triggers, and Resident Assessment Protocols (RAPs), was developed and is currently in use as MDS version 2.0. The RAI helps the facility staff to gather definitive information on a resident's strengths and needs that must be addressed in an individualized care plan. It also assists staff to evaluate goal achievement and revise care plans accordingly by enabling the facility to track changes in the resident's status.</p>
+<p>MDS contains a core set of screening, clinical and functional assessments elements of the RAI, including common definitions and coding categories, that forms the foundation of the comprehensive assessment for all residents of long term care facilities certified to participate in Medicare or Medicaid. This assessment system provides a comprehensive, accurate, standardized, reproducible assessment of each long-term care facility resident's functional capabilities and helps staff to identify health problems. The MDS assessment records contain patient-identifiable data including identification information, demographic information and assessment elements such as communication/hearing patterns, vision patterns, mood and behavior patterns, psychosocial well-being, physical functioning and structural problems, continence control, disease diagnoses, health conditions, oral/nutritional status, oral/dental status, skin condition, activity pursuit patterns, medications, special treatments and procedures, and discharge potential and overall status.</p>
+<p>MDS has been in use by long term care facilities since 1990 to conduct assessments of residents on admission, annually, and when a resident experiences a significant change in status, in addition to abbreviated assessments on a quarterly basis. A final regulation requiring facilities to electronically submit MDS data was published December 23, 1997, with an effective date of June 22, 1998.</p>
+<p>MDS data for all residents of long term care facilities certified to participate in Medicare or Medicaid with an effective date of June 22, 1998, or later, is available from our National Repository and can be disclosed under the Privacy Act of 1974. The Privacy Act of 1974 and the System of Records are CMS's legal authorization to release the data. These legal requirements protect the confidentiality of individually identifiable data.</p>
+<p><strong>RACE/ETHNICITY:</strong> In consultation with the patient/resident, the respondent chooses from the following race/ethnicity categories: American Indian/Alaskan Native; Asian/Pacific Islander; Black, not of Hispanic origin; Hispanic; White, not of Hispanic origin</p>
+<p><strong>DATA LIMITATIONS:</strong> The classification is limited to one answer.</p>
+<p><strong>STATUS:</strong> Electronic submission started in June 1998, this continuous data collection is active.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> Within the Centers for Medicare &amp; Medicaid Services (CMS), MDS data can be released based only with a user's "need-to-know." Other Federal agencies or outside requestors can request identifiable data when needed for a project. MDS data may be obtained upon meeting both CMS's data release requirements and Privacy Act of 1974 disclosure provisions. To protect the confidentiality of the data, CMS requires that an appropriate Written Letter of Request, Data Use Agreement and Research Protocol must be signed and submitted. Once approval for release of the data is granted and fees are paid, the data may be obtained from CMS. The data is available on magnetic tape cartridges with a compressed or non-compressed format.</p>
+<p>Researchers can receive assistance on the appropriate use of CMS data and guidance for acquiring data from CMS from The Research Data Assistance Center (ResDAC). ResDAC is a CMS contractor that provides free assistance to researchers interested in obtaining CMS data. Requests for assistance should be sent to:</p>
+<p>Research Data Assistance Center<br />
+	Box 97, D355<br />
+	420 Delaware Street S.E.<br />
+	Minneapolis, MN 55455-0381<br />
+	Telephone: 1-888-973-7322<br /><a href="http://www.resdac.umn.edu">http://www.resdac.umn.edu</a></p>
+<p><strong>WEB SITE:</strong> Please visit the CMS data website for further information. Use the Professional/Researcher pulldown menu, or navigate directly to <a href="http://cms.hhs.gov/data/">http://cms.hhs.gov/data/</a></p>
+<p><strong>CONTACT PERSON:</strong> Karen Edrington<br />
+	Division of National Systems,<br />
+	Finance, Systems and Quality Group<br />
+	Centers for Medicare &amp; Medicaid Services<br />
+	7500 Security Blvd.<br />
+	S3-13-15<br />
+	Baltimore, Maryland 21244-1850<br />
+	410-786-2166<br /><a href="mailto:KEdrington@cms.hhs.gov">KEdrington@cms.hhs.gov</a></p>
+<hr /><p><strong><a name="seer" id="seer"></a>TITLE:</strong> Surveillance, Epidemiology, and End Results - Medicare Linked Database</p>
+<p> </p>
+<p><strong>ACRONYM: </strong> SEER-Medicare</p>
+<p><strong>AGENCY/PROGRAM:</strong> Office of Research Development and Information, Centers for Medicare and Medicaid Services (CMS)</p>
+<p> </p>
+<p><strong>DESCRIPTION:</strong> The SEER-Medicare database combines clinical information from population-based cancer registries with enrollment and claims information from the Medicare program. The SEER program, sponsored by the National Cancer Institute (NCI), receives uniformly reported data on all incident cancer cases (except non-melanoma skin cancer) from 11 population-based cancer registries covering 14% of the U.S population. For each reported case, SEER receives information on month and year of diagnosis, cancer site, patient demographics, extent of disease at diagnosis, therapy received within four months of diagnosis, and follow-up of vital status. Each SEER case is assigned a stage at diagnosis by NCI based on extent of disease (tumor size, nodal involvement, and metastasis).</p>
+<p>SEER data from 1973 to 1999 have been linked to Medicare enrollment records, using primarily Social Security Number, name, and date of birth. Among SEER cases aged 65 or over, 93% were found in Medicare enrollment files. Medicare claims data are available for linked cases from 1984 onward. Over 1 million cancer cases have been linked to Medicare records.</p>
+<p><strong>RACE/ETHNICITY:</strong> From SEER: White non-Hispanic, White Hispanic, Black, Chinese, Japanese, Filipino, American Indian/Eskimo/Aleutian, Hawaiian, Other, Unknown.</p>
+<p><strong>DATA LIMITATIONS:</strong> Hispanic ethnicity is identified through algorithms that identify Spanish surnames. Information on race is determined through medical records and provider records.</p>
+<p><strong>STATUS:</strong> The SEER and Medicare databases were first linked in 1991. The linkage has been updated three times. Current plans are to update the linkage at three year intervals.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> SEER-Medicare data are not available as public use files. Requests for data must be approved by CMS, NCI, and a representative of the SEER registries. Investigators must also sign data use agreements with CMS and NCI. Please visit the SEER-Medicare website for further information: <a href="http://healthservices.cancer.gov/seermedicare">http://healthservices.cancer.gov/seermedicare</a>.</p>
+<p>Researchers can receive assistance on the appropriate use of CMS data and guidance for acquiring data from CMS from The Research Data Assistance Center (ResDAC). ResDAC is a CMS contractor that provides free assistance to researchers interested in obtaining CMS data. Requests for assistance should be sent to:</p>
+<p>Research Data Assistance Center<br />
+	Box 97, D355<br />
+	420 Delaware Street S.E.<br />
+	Minneapolis, MN 55455-0381<br />
+	Telephone: 1-888-973-7322<br /><a href="http://www.resdac.umn.edu">http://www.resdac.umn.edu</a></p>
+<p><strong>WEB SITE:</strong> <a href="http://healthservices.cancer.gov/seermedicare">http://healthservices.cancer.gov/seermedicare</a> See also the CMS data website for further information. Use the Professional/Researcher pulldown menu, or navigate directly to <a href="http://cms.hhs.gov/data/">http://cms.hhs.gov/data/</a></p>
+<p><strong>CONTACT PERSON:</strong> Gerald Riley<br />
+	Centers for Medicare and Medicaid Services<br />
+	7500 Security Blvd.<br />
+	Room C3-20-17<br />
+	Baltimore, Md. 21244-1850<br />
+	410-786-6699<br /><a href="mailto:griley@cms.hhs.gov">griley@cms.hhs.gov</a></p>
+<hr /><p><strong><a name="oasis" id="oasis"></a>TITLE:</strong> The Outcome and Assessment Information Set (OASIS)</p>
+<p><strong>ACRONYM: </strong> OASIS</p>
+<p><strong>AGENCY/PROGRAM:</strong> Centers for Medicaid and State Operations, Centers for Medicare &amp; Medicaid Services</p>
+<p> </p>
+<p><strong>DESCRIPTION:</strong> The Outcome and Assessment Information Set (OASIS) is a group of data elements that represent core items of a comprehensive assessment for an adult home care patient; and form the basis for measuring patient outcomes for purposes of outcome-based quality improvement (OBQI). The OASIS is a key component of Medicare's partnership with the home care industry to foster and monitor improved home health care outcomes and is proposed to be an integral part of the revised Conditions of Participation for Medicare-certified home health agencies (HHAs).</p>
+<p>Most data items in the OASIS were derived in the context of a CMS-funded national research program (co-funded by the Robert Wood Johnson Foundation) to develop a system of outcome measures for home health care. This program, and the OASIS, has evolved over a ten-year developmental period. The core data items were refined through several iterations of clinical and empirical research. Other items were added later by a work group of home care experts to augment the outcome data set with selected items deemed essential for patient assessment. The goal was not to produce a comprehensive assessment instrument, but to provide a set of data items necessary for measuring patient outcomes and essential for assessment. Overall, the OASIS items have utility for outcome monitoring, clinical assessment, care planning, and other internal agency-level applications.</p>
+<p>OASIS data items encompass sociodemographic, environmental, support system, health status, and functional status attributes of adult (nonmaternity) patients. In addition, selected attributes of health service utilization are included. These several different types of attributes should be part of a comprehensive patient assessment, but the OASIS was not developed as a comprehensive assessment tool. In addition to measuring patient outcomes, OASIS data have three important uses in the areas of patient assessment and care planning for individual adult patients; agency-level case mix reports that contain aggregate statistics on various patient characteristics such as demographic, health, or functional status at start of care; and internal HHA performance improvement.</p>
+<p>OASIS data for Medicare and Medicaid patients receiving skilled services with an effective date of August 24, 1999, or later, is available from our National Repository and can be disclosed under the Privacy Act of 1974. The Privacy Act of 1974 and the System of Records are CMS's legal authorization to release the data. These legal requirements protect the confidentiality of individually identifiable data.</p>
+<p><strong>RACE/ETHNICITY:</strong> The patient chooses one or more of the following race/ethnicity categories: American Indian or Alaskan Native; Asian; Black or African American; Hispanic or Latino; Native Hawaiian or Pacific Islander; White; Unknown</p>
+<p><strong>DATA LIMITATIONS:</strong> The race/ethnicity classification is not limited to one answer, but all that apply, as identified by patient.</p>
+<p><strong>STATUS:</strong> Electronic submissions with an effective date of August 24, 1999, this continuous data collection is active.</p>
+<p><strong>HOW TO ACCESS DATA:</strong> Within the Centers for Medicare &amp; Medicaid Services (CMS), OASIS data can be released based only with a user's "need-to-know." Other Federal agencies or outside requestors can request identifiable data when needed for a project. OASIS data may be obtained upon meeting both CMS's data release requirements and Privacy Act of 1974 disclosure provisions. To protect the confidentiality of the data, CMS requires that an appropriate Written Letter of Request, Data Use Agreement and Research Protocol must be signed and submitted. Once approval for release of the data is granted and fees are paid, the data may be obtained from CMS. The data is available on magnetic tape cartridges with a compressed or non-compressed format.</p>
+<p>Researchers can receive assistance on the appropriate use of CMS data and guidance for acquiring data from CMS from The Research Data Assistance Center (ResDAC). ResDAC is a CMS contractor that provides free assistance to researchers interested in obtaining CMS data. Requests for assistance should be sent to:</p>
+<p>Research Data Assistance Center<br />
+	Box 97, D355<br />
+	420 Delaware Street S.E.<br />
+	Minneapolis, MN 55455-0381<br />
+	Telephone: 1-888-973-7322<br /><a href="http://www.resdac.umn.edu">http://www.resdac.umn.edu</a></p>
+<p><strong>WEB SITE:</strong> Please visit the CMS data website for further information. Use the Professional/Researcher pulldown menu, or navigate directly to <a href="http://cms.hhs.gov/data/">http://cms.hhs.gov/data/</a></p>
+<p>RESEARCHERS can receive assistance on the appropriate use of OASIS data and guidance for acquiring data from CMS from The Research Data Assistance Center (ResDAC). ResDAC is a CMS contractor that provides free assistance to researchers interested in obtaining OASIS data. Requests for assistance should be sent to:</p>
+<p>Research Data Assistance Center<br />
+	Box 97, D355<br />
+	420 Delaware Street S.E.<br />
+	Minneapolis, MN 55455-0381<br />
+	Telephone: 1-888-973-7322 E-Mail: ResDAC@tc.umn.edu</p>
+<p><strong>CONTACT PERSON:</strong> Karen Edrington<br />
+	Division of National Systems,<br />
+	Finance, Systems and Quality Group<br />
+	Centers for Medicare &amp; Medicaid Services<br />
+	7500 Security Blvd.<br />
+	S3-13-15<br />
+	Baltimore, Maryland 21244-1850<br />
+	410-786-2166<br /><a href="mailto:KEdrington@cms.hhs.gov">KEdrington@cms.hhs.gov</a></p>
+  </div>
+
+      <footer>
+          </footer>
+  
+    <div id="block-webform-client-block-158521" class="widget block block-webform" >
+  
+      
+  <div id="webform-ajax-wrapper-158521"><form class="webform-client-form webform-client-form-158521" action="/centers-medicare-medicaid-services" method="post" id="webform-client-form-158521" accept-charset="UTF-8"><div><div class="webform-progressbar">
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-radios webform-component--was-this-page-helpful">
+  <label for="edit-submitted-was-this-page-helpful">Was this page helpful? <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-was-this-page-helpful" class="form-radios"><div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-1" name="submitted[was_this_page_helpful]" value="1" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-1">Yes </label>
+
+</div>
+<div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-2" name="submitted[was_this_page_helpful]" value="0" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-2">No </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="4" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-XJAtkHXR7gelAZH2qrHv1zM0NYLmgztrnr8ZO-AdF-o" />
+<input type="hidden" name="form_id" value="webform_client_form_158521" />
+<input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-158521" />
+<div class="form-actions"><input class="webform-next button-primary btn btn-default form-submit" type="submit" id="edit-webform-ajax-next-158521" name="op" value="Next &gt;" /></div>
+<div class="is-useful-disclaimer"> <a href="/%23" class="" title="Survey Disclaimer" data-toggle="modal" data-target="#disclamerModal">Form Approved OMB# 0990-0379 Exp. Date 8/31/2017</a></div>
+<div class="modal fade" id="disclamerModal" tabindex="-1" role="dialog" aria-labelledby="disclamerModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="disclamerModalLabel">Survey Disclaimer</h2>
+      </div>
+      <div class="modal-body">
+         According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this information collection is 0990-0379. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, gather the data needed, and complete and review the information collection. If you have comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: U.S. Department of Health & Human Services, OS/OCIO/PRA, 200 Independence Ave., S.W., Suite 336-E, Washington D.C. 20201, Attention: PRA Reports Clearance Officer.      </div>
+    </div>
+  </div>
+</div></div></form></div>
+  </div> <!-- /.block -->
+<meta  itemscope="" itemid="https://aspe.hhs.gov/centers-medicare-medicaid-services" itemref="md1" />              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <footer  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Footer">     
+
+        
+                  
+        
+                  
+        
+                                    <div  id="footer_sitemap-footer_sitemap" class="col-sm-6 col-md-6 col-lg-4 ">
+                          
+                              <div id="block-footer-sitemap-footer-sitemap" class="widget block block-footer-sitemap" >
+  
+      
+  <div id="footer-sitemap" class="clearfix">
+  <div class="fs-block-content"><div class="menu-footer-utility"><ul class="footer_links_menu-footer-utility total-items-2 parent-items-0 single-items-0"><li class="menu-5021 depth-1 total-children-8 parent-children-0 single-children-8  first"><a href="/" title="look at ASPE Home" class="fs-root-link">ASPE Home</a><ul class="footer_links_menu-footer-utility total-items-8 parent-items-0 single-items-0"><li class="menu-5026 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/" title="look at HHS Home">HHS Home</a></li>
+<li class="menu-66281 depth-1 fs-no-children"><a href="http://www.usa.gov/" title="look at USA.gov">USA.gov</a></li>
+<li class="menu-66316 depth-1 fs-no-children"><a href="https://oig.hhs.gov/" title="look at Office of the Inspector General">Office of the Inspector General</a></li>
+<li class="menu-66321 depth-1 fs-no-children"><a href="http://www.whitehouse.gov" title="look at The White House">The White House</a></li>
+<li class="menu-5046 depth-1 fs-no-children"><a href="http://www.hhs.gov/Accessibility.html" title="look at Accessibility">Accessibility</a></li>
+<li class="menu-66326 depth-1 fs-no-children"><a href="http://www.hhs.gov/about/budget/index.html" title="look at Budget/Performance">Budget/Performance</a></li>
+<li class="menu-2551 depth-1 fs-no-children"><a href="http://www.hhs.gov/Privacy.html" title="look at Privacy Policy">Privacy Policy</a></li>
+<li class="menu-197776 depth-1 fs-no-children  last"><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" title="Nondiscrimination Notice">Nondiscrimination Notice</a></li>
+</ul></li>
+<li class="menu-5051 depth-1 total-children-4 parent-children-0 single-children-4  last"><a href="http://www.hhs.gov/foia/" title="look at FOIA" class="fs-root-link">FOIA</a><ul class="footer_links_menu-footer-utility total-items-4 parent-items-0 single-items-0"><li class="menu-5056 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/open/recordsandreports/plainwritingact/index.html" title="look at Plain Writing Act">Plain Writing Act</a></li>
+<li class="menu-5061 depth-1 fs-no-children"><a href="http://www.hhs.gov/asa/eeo/no_fear_bullet_3.html" title="look at No Fear Act">No Fear Act</a></li>
+<li class="menu-5066 depth-1 fs-no-children"><a href="http://www.hhs.gov/Disclaimer.html" title="look at Disclaimers">Disclaimers</a></li>
+<li class="menu-2546 depth-1 fs-no-children  last"><a href="http://www.hhs.gov/plugins.html" title="look at Viewers &amp; Players">Viewers &amp; Players</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-5 " id="stability_cms-contact_us">
+                          
+                              <div id="block-stability-cms-contact-us" class="widget block block-stability-cms" >
+  
+      
+  <div class="contacts-widget widget widget__footer">
+	<div class="widget-content">
+		<ul class="contacts-info-list">
+      			<li>
+<!--				<i class="fa fa-map-marker">Address</i>-->
+                <div class="info-icons">
+                    <img  alt="map" class= 'map-icons' src="/sites/all/themes/stability/stability_aspe/images/map.png"/>
+                </div>
+                <div class="info-item">
+					Assistant Secretary for Planning and Evaluation, Room 415F<br />
+U.S. Department of Health and Human Services<br />
+200 Independence Avenue, SW<br />
+Washington, D.C. 20201				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-phone">phone</i>-->
+                <div class="info-icons">
+                    <img alt="phone" src="/sites/all/themes/stability/stability_aspe/images/phone.png"/>
+                </div>
+				<div class="info-item">
+					+1 202.690.7858				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-envelope">email</i>-->
+                <div class="info-icons">
+                    <img alt="mail" src="/sites/all/themes/stability/stability_aspe/images/mail-white.png"/>
+                </div>
+				<span class="info-item">
+					<a href="mailto:osaspeinfo@hhs.gov">osaspeinfo@hhs.gov</a>
+				</span>
+			</li>
+      			                					</ul>
+	</div>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-3 " id="footer">
+                          
+                              <div id="block-block-36" class="widget block block-block" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sign-up</span> for Email Updates</h3>
+		</div>
+    
+  <div class="email_updates">
+<button class="btn btn-default" name="subscribe-button" type="submit" value="subscribe">subscribe</button>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-12 " id="menu-menu-footer-language-menu">
+                          
+                              <div id="block-menu-menu-footer-language-menu" class="widget block block-menu" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Language</span> Assistance Available</h3>
+		</div>
+    
+  <ul class="menu"><li class="first expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#spanish" title="Español">Español</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#chinese" title="繁體中文">繁體中文</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#vietnamese" title="Tiếng Việt">Tiếng Việt</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#korean" title="한국어">한국어</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#tagalog" title="Tagalog">Tagalog</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#russian" title="Русский">Русский</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#arabic" title="العربية">العربية</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#creole" title="Kreyòl Ayisyen">Kreyòl Ayisyen</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#french" title="Français">Français</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#polish" title="Polski">Polski</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#portuguese" title="Português">Português</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#italian" title="Italiano">Italiano</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#german" title="Deutsch">Deutsch</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#japanese" title="日本語">日本語</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#farsi" title="فارسی">فارسی</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#english" title="English">English</a></li>
+</ul></li>
+</ul>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+      </div>
+
+          </div>
+    
+    
+      </footer>
+    
+
+    <!--/PAGEWATCH-->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+                        </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="social-links-wrapper">
+              <span class="social-links-txt">Connect with us</span>
+              <ul class="social-links social-links__dark">
+                                                  <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw-grey.png"/></a></li>
+                                <!--                --><!--                  <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin-grey.png"/></a></li>-->
+<!--                -->
+                                                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>  <script type="text/javascript" src="/sites/default/files/advagg_js/js__VWRymaMz6HfrhnrcJNGcDiSvLVrvhaXvBa7nrBYy8gc__jntPwP3D6myJZH1jW19fXrk5cYMHGRL8NQION22VSEA__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5486d15a696bff0c"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__g6mKbcakHxQkz4ZHYaxdO_xqONINvRMgsHh1zAK-fr0__ATHtEmHaeZ0jidpGU22EkhmPDBSgjD8z0bVDQMI-BIY__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__KUp4PrfOt9BSXUVl8Ctb3dhCMBe4MNVMeb4Gyorx8yY__7g4BeXscCIZAfuu1vxsCj2RIemg-eEK0QpChP9LDmFQ__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__PNjAgubM_3xXRLp4uLsYnv8wQAdT89-RYkSPxT6T45c__rFQwFK4pA5ZaWZSF7FPTfKbbpus0h-5IS8ayrNZGrb4__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__vQiLul2UcfC4nBAR09mhYVBYzRmiNDm2dj3GgSubV38__w84oZe-ZODKe7XnnlbrjV4IWHISOy4PioFEMVgx9hZo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__QJw3g0kOdwsv4twSZLP931zBzsHy50VEHpEN_znIitQ__A6QOuWXElDipBM2iChbWhjAAt3KlUwZ-jODoxdpbwiw__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stability_aspe","theme_token":"yFLyY6tlS_J5D3xn_0KDb5Jae7YM8Wc4JSPpAhL0cO8","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/footable.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/aspe_nodes.admin.css":1,"sites\/all\/modules\/custom\/aspe_views\/theme\/css\/aspe_views.admin.css":1,"sites\/all\/modules\/forked\/book\/book.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/openpublic\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.css":1,"profiles\/openpublic\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openpublic\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/openpublic\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/themes\/stability\/css\/bootstrap.min.css":1,"sites\/all\/themes\/stability\/css\/fonts\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.theme.css":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/stability\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/stability\/css\/theme.css":1,"sites\/all\/themes\/stability\/css\/theme-elements.css":1,"sites\/all\/themes\/stability\/css\/animate.min.css":1,"sites\/all\/themes\/stability\/css\/skins\/red.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/slideshow.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/font-main.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/styleless.less":1,"sites\/all\/themes\/stability\/css\/skins\/blue.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/aspe\/theme\/js\/aspe.login-confirm.js":1,"sites\/all\/modules\/custom\/aspe_report\/modules\/aspe_databooks\/js\/aspe_databooks.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.highcharts.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/datatables\/dataTables.min.js":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.min.js":1,"sites\/all\/libraries\/highcharts\/highcharts.js":1,"sites\/all\/libraries\/highcharts\/highcharts.exporting.js":1,"sites\/all\/libraries\/highcharts\/highcharts.map.js":1,"sites\/all\/libraries\/highcharts\/highcharts.us-all.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.footable.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5486d15a696bff0c":1,"misc\/progress.js":1,"profiles\/openpublic\/modules\/contrib\/webform\/js\/webform.js":1,"profiles\/openpublic\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/stability\/vendor\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/stability\/vendor\/bootstrap.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flexnav.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flickrfeed.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.sloppy-masonry.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.fitvids.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.stellar.min.js":1,"sites\/all\/themes\/stability\/vendor\/snap.svg-min.js":1,"sites\/all\/themes\/stability\/js\/custom.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/aspe.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/html5shiv.min.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/main-menu.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/keyboard-control.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tabBehavior.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tileStringTrimmer.js":1}},"webform":{"conditionals":{"webform-client-form-158521":{"ruleGroups":[],"sourceMap":[],"values":[]}}},"ajax":{"edit-webform-ajax-next-158521":{"callback":"webform_ajax_callback","wrapper":"webform-ajax-wrapper-158521","progress":{"message":"","type":"throbber"},"event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Next \u003E"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/centers-medicare-medicaid-services":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"([a-z0-9]\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This website contains links to other federal and state agencies and private organizations. The Department of Health and Human Services (HHS) cannot attest to the accuracy of information provided by these nonfederal website links. Linking to nonfederal sites does not constitute an endorsement by HHS or any of its employees of the sponsors or the information and products presented on the sites. You will be subject to the destination site\u0027s privacy policy when you leave the ASPE website.\r\n\r\nThank you for visiting aspe.hhs.gov!","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"stability":{"flickr_id":"52617155@N08","logo_sticky":"28"},"field_group":{"div":"full"}});
+//--><!]]>
+</script>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config={pubid:"ra-5486d15a696bff0c",ui_click:false}
+//--><!]]>
+</script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4837db659","applicationID":"10708002","transactionName":"MwNaZBRSXEtXB0BdWQpJeVMSWl1WGQpbUFM7FllXA2xEUVMT","queueTime":0,"applicationTime":1167,"atts":"H0RZElxIT0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

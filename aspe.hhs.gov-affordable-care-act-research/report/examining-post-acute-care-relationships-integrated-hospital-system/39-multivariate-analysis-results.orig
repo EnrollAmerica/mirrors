@@ -1,0 +1,2078 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">  <!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="next" href="/report/examining-post-acute-care-relationships-integrated-hospital-system/391-ordinary-least-squares-regression-predicting-index-admission-length-stay" />
+<link rel="up" href="/report/examining-post-acute-care-relationships-integrated-hospital-system/3-results" />
+<link rel="prev" href="/report/examining-post-acute-care-relationships-integrated-hospital-system/381-part-b-physician-service-utilization-within-post-acute-care-episodes" />
+<link rel="shortcut icon" href="https://aspe.hhs.gov/sites/default/files/Favicon2.png" type="image/png" />
+<meta name="description" content="The regression models presented here provide more information on the factors that affect (1) 78 index admission length of stay; (2) use of any PAC services; (3) first site of PAC, (4) readmission to acute hospitals during PAC episodes; and (5) total episode payments. These five models were run using three sets of independent variables. The key differences between these sets of independent variables were the severity measures." />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://aspe.hhs.gov/report/examining-post-acute-care-relationships-integrated-hospital-system/39-multivariate-analysis-results" />
+<link rel="shortlink" href="https://aspe.hhs.gov/node/182271" />
+<meta property="og:site_name" content="ASPE" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aspe.hhs.gov/report/examining-post-acute-care-relationships-integrated-hospital-system/39-multivariate-analysis-results" />
+<meta property="og:title" content="3.9 Multivariate analysis results" />
+<meta property="og:description" content="The regression models presented here provide more information on the factors that affect (1) 78 index admission length of stay; (2) use of any PAC services; (3) first site of PAC, (4) readmission to acute hospitals during PAC episodes; and (5) total episode payments. These five models were run using three sets of independent variables. The key differences between these sets of independent variables were the severity measures." />
+<meta property="og:updated_time" content="2016-02-17T02:37:59-05:00" />
+<meta property="article:published_time" content="2016-02-15T13:21:55-05:00" />
+<meta property="article:modified_time" content="2016-02-17T02:37:59-05:00" />
+
+  <title>3.9 Multivariate analysis results  | ASPE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+  <link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__5ln8neBOcJfyUveiD4y9fhI6kHBLOQ_YL0mMC-LS9a0__TPJIZT9UBnf_685NlFTJ5KnZVsjwFk6ACQ-nwwygmwU__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ng49uRH5y4Hl9VF9hHW_vXOj-mcOc2u2ShJqJ1YKIGU__FoMCD14GBvZaRiqSQ_JpP1w3rDB21n7H2Ar4pRZaIh8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__Hskudx14OJ5Hz8vqU7CUgN6SDV5rINZuEq9VuGsSeyc__EwNIl3xeFrniW2TmonovTzhSs3X5MdFps210puE7jog__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__9rZoaX9BdzjjNucvYxduxeNAVO2zgW_Rvjhb5rq5whc__lSr_y16grDSgHf4booPChnF7QXz3TQY3hafH49twE0k__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZgfI_ZPib5yVY0o5aKo_6TFn946Tuu_nFDa0ySTmkSc__2FTFrNw2eNh0mpHIOA34r6YRwBZMm2PjJ_JubnwLigg__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__dxabpJ5rQgDSixKgLJZjWc1beC6mpROKwVrmWxI5eno__rqhz_hGsE_i59O7-W991o71_Jxw1QOtGMxn4nsOLHY8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZbRCq2NqWgK-HXAQI3So0N1n0nr4HonsJS3eQuuxukw__7Olkk8Locn8Dj0eR0Ww3rbV9lks9sxipcboMXB18RRs__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+
+	<!-- Head Libs -->
+	<script src="/sites/all/themes/stability/stability_aspe/vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/sites/all/themes/stability/vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" href="/sites/all/themes/stability/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/stability/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/stability/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/stability/images/apple-touch-icon-144x144.png">
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-182271 node-type-book">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-JLFR"
+                  height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JLFR');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-nav" class="accessibility_menu">
+    <strong>Shortcut Navigation:</strong>
+    <ul>
+      <li><a href="#content" accesskey="c" title="Skip to page content (ctrl/alt + c)">Page Content</a></li>
+      <li><a href="#nav" accesskey="m" title="Skip to main navigation menu (ctrl/alt + m)">Site Navigation</a></li>
+
+      <li><a href="#Footer" accesskey="f" title="Skip to footer (ctrl/alt + f)">Footer</a></li>
+    </ul>
+  </div>
+
+    
+<div class="site-wrapper">
+  
+  <header class="header header-menu-fullw header-top-clean">
+    <div id="brand-bar">
+        <div class="container">
+                    <img alt='bird' src="/sites/all/themes/stability/stability_aspe/images/bird.png"> <a target="blank" tabindex="4" href="http://www.hhs.gov/">U.S. Department of Health & Human Services</a>
+        </div>
+
+    </div>
+    <div class="header-main">
+        <div class="container clearfix">
+            <div class="social-links-wrapper">
+                <ul class="social-links social-links__light">
+                                                          <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw.png"/></a></li>
+                                    <!--                  --><!--                    <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin.png"/></a></li>-->
+<!--                  -->
+                                                                      </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                                <div class="site_name_wrapper">
+                                     <span class="h1">
+                                      <a href="/">ASPE</a>
+                                       </span>
+                                  <p class="tagline"><p>Office of The Assistant Secretary</p><p> for Planning and Evaluation</p></p>
+                    </div>
+            </div>
+            <!-- Logo / End -->
+            <div class="header_right_wrapper">
+                <div class="search-form">
+                    <form action="/report/examining-post-acute-care-relationships-integrated-hospital-system/39-multivariate-analysis-results" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class = "input-group"><div class="form-type-textfield form-item-search-block-form form-item form-group">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search Site..." class="form-control form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input class="btn btn-primary btn-icon form-submit" type="image" id="edit-submit" name="submit" value="Search" src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/search-white2.png" alt="Search" title="Search" /></div></div><input type="hidden" name="form_build_id" value="form-KS9KDd93lbSYQvqDDEqsnJKr3fgNBTbeRpayrmuegnA" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </div>
+                <button type="button" class="navbar-toggle" value="Menu">
+                    <i class="fa fa-bars"></i>Menu
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-main">
+        <div class="container">
+          <ul data-breakpoint="767" class="flexnav">
+                <li class="first expanded"><a href="/basic-search/about" title="">About</a><ul><li class="first leaf"><a href="/mission" title="">Mission</a></li>
+<li class="leaf"><a href="/key-staff" title="">Leadership</a></li>
+<li class="leaf"><a href="https://www.usajobs.gov/" title="">Careers</a></li>
+<li class="expanded"><a href="/coordination" title="linkTo">Coordination</a><ul><li class="first leaf"><a href="/evaluation-evidence" title="">Evaluation &amp; Evidence</a></li>
+<li class="leaf"><a href="/national-alzheimers-project-act">National Alzheimer&#039;s Project Act</a></li>
+<li class="leaf"><a href="/health-and-human-services-hhs-data-council">HHS Data Council</a></li>
+<li class="last leaf"><a href="/national-committee-vital-and-health-statistics" title="National Council on Vital and Health Statistics">National Council on Vital and Health Statistics</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/divisions" title="">Offices</a><ul><li class="first leaf"><a href="/office-disability-aging-and-long-term-care-policy-daltcp">Disability, Aging, and Long-Term Care Policy</a></li>
+<li class="leaf"><a href="/office-health-policy-hp">Health Policy</a></li>
+<li class="leaf"><a href="/office-human-services-policy">Human Services Policy</a></li>
+<li class="last leaf"><a href="/office-science-and-data-policy">Science and Data Policy</a></li>
+</ul></li>
+<li class="leaf"><a href="/strategic-planning" title="Strategic Planning">Strategic Planning</a></li>
+<li class="last leaf"><a href="/contact-aspe" title="">Contact ASPE</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/topics" title="">Topics</a><ul><li class="first leaf"><a href="/affordable-care-act-research">Affordable Care Act Research</a></li>
+<li class="leaf"><a href="/alzheimers-dementia">Alzheimer&#039;s / Dementia</a></li>
+<li class="leaf"><a href="/early-childhood">Early Childhood</a></li>
+<li class="leaf"><a href="/incarceration-reentry">Incarceration &amp; Reentry</a></li>
+<li class="leaf"><a href="/opioid-abuse-us-and-hhs-actions-address-opioid-drug-related-overdoses-and-deaths" title="Opioids">Opioids</a></li>
+<li class="leaf"><a href="/patient-centered-outcomes-research-trust-fund">Patient-Centered Outcomes Research Trust Fund (PCORTF)</a></li>
+<li class="expanded"><a href="/basic-search/poverty" title="">Poverty</a><ul><li class="first leaf"><a href="/poverty-guidelines">Poverty Guidelines</a></li>
+<li class="last leaf"><a href="/poverty-estimates-trends-and-analysis">Poverty Analysis</a></li>
+</ul></li>
+<li class="leaf"><a href="/teen-pregnancy-prevention">Teen Pregnancy Prevention</a></li>
+<li class="leaf"><a href="/homelessness">Homelessness</a></li>
+<li class="last leaf"><a href="/medicare-access-and-chip-reauthorization-act-2015">MACRA</a></li>
+</ul></li>
+<li class="leaf"><a href="/reports" title="">Publications</a></li>
+<li class="last expanded"><a href="/basic-search/datasets" title="">Data and Tools</a><ul><li class="first last leaf"><a href="/evaluations" title="">Evaluation Database</a></li>
+</ul></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation / End -->
+</header>  <div class="main" role="main">
+    <!--PAGEWATCH CODE="USHHS_458"-->
+    <section class="page-heading">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+                <h1>
+                                  Examining Post Acute Care Relationships in an Integrated Hospital System.
+                    
+          3.9 Multivariate analysis results         </h1>
+                                 <p class="author">
+                                                 <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2009-02-01T00:00:00-05:00">02/01/2009</span>               
+                           </p>
+
+
+                  </div>
+
+
+        <div class="col-md-6">
+           <ul class="breadcrumb"><li class="first"><a href="/" title="Home">Home</a></li>
+<li><a href="/report/examining-post-acute-care-relationships-integrated-hospital-system" title="Examining Post Acute Care Relationships in an Integrated Hospital System">Examining Post Acute Care Rela...</a></li>
+<li><a href="/report/examining-post-acute-care-relationships-integrated-hospital-system/3-results" title="3. Results">3. Results</a></li>
+<li class="last">3.9 Multivariate analysis resu...</li>
+</ul>        </div>
+
+
+    </div>
+  </div>
+</section>
+    
+      <div  class="nd-region nd-region-filter">
+  
+       
+
+    
+      <div  id="Filter" class="row">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region nd-region-similar-content">
+  
+       
+
+    
+      <div  id="Similar-Content" class="row">     
+
+        
+                  
+        
+                                    <div  id="top" class="">
+                          
+                              <div id="block-views-2100ccfdd214bdbcf634d7e4832c265b" class="widget block block-views solr-similar-content" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Similar</span> content</h3>
+		</div>
+    
+  <div class="view view-similar-content-solr view-id-similar_content_solr view-display-id-block_solr_similar_content view-dom-id-9cfedc45f0b5a0e32a45dc10072f7d16">
+        
+  
+  
+      
+    
+    <span class="field-content"><a href="/basic-report/examining-relationships-integrated-hospital-system">Examining Relationships in an Integrated Hospital System</a></span>    
+    <span class="field-content"><a href="/basic-report/study-stroke-post-acute-care-costs-and-outcomes-final-report">A Study of Stroke Post-Acute Care Costs and Outcomes: Final Report</a></span>    
+    <span class="field-content"><a href="/execsum/study-stroke-post-acute-care-costs-and-outcomes-final-report">A Study of Stroke Post-Acute Care Costs and Outcomes: Final Report</a></span>    
+    <span class="field-content"><a href="/basic-report/post-acute-and-long-term-care-primer-services-expenditures-and-payment-methods">Post-Acute and Long-Term Care: A Primer on Services, Expenditures and Payment Methods</a></span>    
+    <span class="field-content"><a href="/basic-report/substitutability-across-institutional-post-acute-care-settings-1998-2006">Substitutability Across Institutional Post-Acute Care Settings: 1998-2006</a></span>  
+  
+  
+  
+  
+  
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Content">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  class="col-md-12 " id="content">
+                          
+                              <div id="block-aspe-aspe-addthis" class="widget block block-aspe" >
+  
+      
+  <div class="clearfix">
+  <ul class="addthis_sharing_toolbox node-share__links" data-url="https://aspe.hhs.gov/report/examining-post-acute-care-relationships-integrated-hospital-system/39-multivariate-analysis-results" data-title="3.9 Multivariate analysis results ">
+    <li><a class="addthis_button_print"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/print-white.png" alt="print" /></a></li>
+    <li><a class="addthis_button_email"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/mail-white.png" alt="email" /></a></li>
+    <li><a class="addthis_button_twitter"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/tw.png" alt="twitter" /></a></li>
+<!--    <li><a class="addthis_button_facebook">--><!--</a></li>-->
+    <li><a class="addthis_button_compact"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/plus-white.png" alt="compact" /></a></li>
+  </ul>
+</div>
+
+  </div> <!-- /.block -->
+
+                
+    
+  
+  <div class="content clearfix node-book ">
+    <p>The regression models presented here provide more information on the factors that affect (1) 78 index admission length of stay; (2) use of any PAC services; (3) first site of PAC, (4) readmission to acute hospitals during PAC episodes; and (5) total episode payments. These five models were run using three sets of independent variables. The key differences between these sets of independent variables were the severity measures. In our previous ASPE analyses using the 2005 Medicare claims data, we used the APR-DRG severity measures and these variables were included in one of the sets of independent variables presented here (Set 1). In our work using the 2006 Medicare claims data, we moved to using the MS-DRG severity measures given that CMS policy has adopted the use of MS-DRGs as of FY 2008. The MS-DRGs were included in place of the APR-DRG severity of illness variables in the second set of independent variables (Set 2). MS-DRGs have fewer categories differentiating severity of illness, and for that reason, the third set of independent variables we used included both MS-DRG severity levels and HCCs (Set 3). The HCC variables indicate the presence of the 11 most common comorbid conditions that were present in at least 5.0 percent of the study sample. The adjusted R2, measuring the degree to which the independent variables predict the dependent variable, increased notably with the addition of the 11 HCC variables, indicating the usefulness of the HCCs in addition to the MS-DRGs in predicting the outcome variables. The adjusted R2 in the models predicting total episode payment was 0.1319 in the models using the APR-DRG severity measures, the adjusted R2 decreased to 0.0689 in the models using the MS-DRG, and the adjusted R2 increased to 0.2804 when using both the MS-DRG and the HCC indicator variables. The HCCs provide an opportunity to learn more about the effects of comorbid conditions on the dependent variables of interest.</p>
+<p>The results of the regression models are presented in <strong>Table 3-24</strong>, <strong>Table 3-25</strong>, and <strong>Table 3-26</strong>. These three tables contain the regression models predicting index acute admission length of stay, any PAC use, and first site of PAC care for the three sets of independent variables (Sets 1, 2, and 3, respectively). <strong>Table 3-27</strong> contains the results for the models predicting readmission during PAC episodes and episode payment for each of the three sets of independent variables.</p>
+<p>The results of the binomial and multinomial logits are presented as odds ratios. Values &lt; 1 indicate a negative association; values &gt;1 indicate a positive association. Exponentiated coefficients from the multinomial logistic regression are relative risk ratios. They identify the proportional change in the risk (probability) of discharge to each PAC setting relative to the risk of discharge to hospital outpatient therapy, which is associated with a one-unit change in the explanatory variable. Values &lt; 1 indicate an associated risk reduction. The binomial results represent the average effects across PAC sites while the multinomial model presents the odds of using a particular type of service relative to the odds of using hospital outpatient therapy. This is useful for examining the magnitude of the differences in the probability of admission to one site versus another compared to the average case with a particular beneficiary or market characteristic. The coefficients reported for the ordinary least squares (OLS) model predicting index admission length of stay and episode payments reflect the increase in index admission days and payments for a one-unit change in the independent variable. Positive coefficient values indicate an increase in length of stay or episode payment with increasing values of the independent variable.</p>
+<table border="1" class="footable sort-disable table" summary="This is a data table containing 7 columns."><caption><strong>Table 3-24. Regression Results Predicting Index Admission Length of Stay, Any PAC Use, and First Discharge Destination Using Independent Variable Set 1 (APR-DRGs), 2006</strong></caption>
+<thead><tr><th colspan="2"> </th>
+<th scope="col">OLS Regression<br />
+				Predicting Index Acute Admission LOS</th>
+<th scope="col">Binomial Logit<sup>1</sup><br />
+				Predicting PAC/NoPAC</th>
+<th colspan="4" scope="col">Multinomial Logit: Predicting Discharge Destination<sup>2</sup></th>
+</tr><tr><th colspan="2" scope="col">Variable</th>
+<th scope="col">Coefficient<sup>3</sup></th>
+<th scope="col">Odds Ratio<sup>3</sup></th>
+<th scope="col">Home Health<br />
+				Odds Ratio<sup>3</sup></th>
+<th scope="col">IRF<br />
+				Odds Ratio<sup>3</sup></th>
+<th scope="col">LTCH<br />
+				Odds Ratio<sup>3</sup></th>
+<th scope="col">SNF<br />
+				Odds Ratio<sup>3</sup></th>
+</tr></thead><tfoot><tr><td colspan="8">
+<p><sup>1.</sup> Note that the reference group for the binomial logit is No PAC Use.<br /><sup>2.</sup> Note that the reference group for the multinomial logit is Hospital Outpatient Therapy.<br /><sup>3.</sup> Significance * p&lt;0.05. ** p&lt;0.01, *** p&lt;0.0001.<br /><sup>4.</sup> The reference group for age is &lt;65.<br /><sup>5.</sup> The reference group includes White, Asian, Hispanic, North American Native, Unknown, and Other.<br /><sup>6.</sup> The reference group for APR-DRG Severity Index is minor.<br /><sup>7.</sup> The reference group for the census division variables is New England.<br /><sup>8.</sup> The reference group for each of these variables is the absence of this type of organizational relationship.<br /><sup>9.</sup> The reference group is rural location.<br /><sup>10.</sup> The reference group is for-profit.<br /><sup>11.</sup> The reference group for each of these variables is the absence of this DRG as the index acute admission DRG.</p>
+<p><strong>SOURCE:</strong> RTI analysis of 2006 Medicare claims 5% sample.</p>
+</td>
+</tr></tfoot><tbody><tr><td colspan="2" scope="row"><strong>Intercept</strong></td>
+<td>2.415***</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><td rowspan="6" scope="row"><strong>Demographics</strong></td>
+<td scope="row"><strong>Female</strong></td>
+<td>0.028</td>
+<td>1.314***</td>
+<td>1.183***</td>
+<td>1.282***</td>
+<td>1.060</td>
+<td>1.431***</td>
+</tr><tr><td scope="row"><strong>Any Medicaid in 2005</strong></td>
+<td>0.253***</td>
+<td>1.415***</td>
+<td>0.682***</td>
+<td>0.602***</td>
+<td>0.988</td>
+<td>1.333***</td>
+</tr><tr><td scope="row"><strong>Age 65-74<sup>4</sup></strong></td>
+<td>0.026</td>
+<td>1.645***</td>
+<td>1.160**</td>
+<td>1.093</td>
+<td>0.799**</td>
+<td>1.410***</td>
+</tr><tr><td scope="row"><strong>Age 75-84</strong></td>
+<td>0.177***</td>
+<td>2.834***</td>
+<td>1.449***</td>
+<td>1.676***</td>
+<td>1.078</td>
+<td>3.248***</td>
+</tr><tr><td scope="row"><strong>Ages 85 +</strong></td>
+<td>0.083**</td>
+<td>5.052***</td>
+<td>1.247***</td>
+<td>1.317***</td>
+<td>0.885</td>
+<td>4.859***</td>
+</tr><tr><td scope="row"><strong>Black<sup>5</sup></strong></td>
+<td>0.368***</td>
+<td>0.977</td>
+<td>1.123**</td>
+<td>0.978</td>
+<td>1.458***</td>
+<td>0.924</td>
+</tr><tr><td rowspan="3" scope="row"><strong>Severity</strong></td>
+<td scope="row"><strong>APR-DRG Severity Index = moderate<sup>6</sup></strong></td>
+<td>1.298***</td>
+<td>1.776***</td>
+<td>1.272***</td>
+<td>1.515***</td>
+<td>1.804***</td>
+<td>1.869***</td>
+</tr><tr><td scope="row"><strong>APR-DRG Severity Index = major</strong></td>
+<td>3.966***</td>
+<td>3.282***</td>
+<td>1.710***</td>
+<td>2.376***</td>
+<td>3.261***</td>
+<td>3.226***</td>
+</tr><tr><td scope="row"><strong>APR-DRG Severity Index = extreme</strong></td>
+<td>12.061***</td>
+<td>7.712***</td>
+<td>1.691***</td>
+<td>4.775***</td>
+<td>5.223***</td>
+<td>6.376***</td>
+</tr><tr><td rowspan="3" scope="row"><strong>Supply</strong></td>
+<td scope="row"><strong>IRF beds/1,000 beneficiaries/state</strong></td>
+<td>-0.050</td>
+<td>1.021</td>
+<td>0.752***</td>
+<td>1.905***</td>
+<td>0.795**</td>
+<td>0.718***</td>
+</tr><tr><td scope="row"><strong>SNF beds/1,000 beneficiaries/state</strong></td>
+<td>-0.001</td>
+<td>1.000</td>
+<td>0.975***</td>
+<td>0.987***</td>
+<td>0.998***</td>
+<td>0.999</td>
+</tr><tr><td scope="row"><strong>LTCH beds/1,000 beneficiaries/state</strong></td>
+<td>-0.022</td>
+<td>1.045***</td>
+<td>1.333***</td>
+<td>1.057</td>
+<td>1.162***</td>
+<td>1.146***</td>
+</tr><tr><td rowspan="8" scope="row"><strong>Census Division<sup>7</sup></strong></td>
+<td scope="row"><strong>Middle Atlantic</strong></td>
+<td>0.666***</td>
+<td>0.826***</td>
+<td>1.069</td>
+<td>1.104</td>
+<td>0.991</td>
+<td>0.845*</td>
+</tr><tr><td scope="row"><strong>East North Central</strong></td>
+<td>-0.318***</td>
+<td>0.645***</td>
+<td>0.629***</td>
+<td>0.620***</td>
+<td>1.000</td>
+<td>0.619***</td>
+</tr><tr><td scope="row"><strong>West North Central</strong></td>
+<td>-0.257***</td>
+<td>0.544***</td>
+<td>0.458***</td>
+<td>0.364***</td>
+<td>0.651*</td>
+<td>0.361***</td>
+</tr><tr><td scope="row"><strong>South Atlantic</strong></td>
+<td>-0.053</td>
+<td>0.623***</td>
+<td>0.710***</td>
+<td>0.738**</td>
+<td>0.676*</td>
+<td>0.634***</td>
+</tr><tr><td scope="row"><strong>East South Central</strong></td>
+<td>-0.085</td>
+<td>0.538***</td>
+<td>0.603***</td>
+<td>0.799*</td>
+<td>0.931</td>
+<td>0.550***</td>
+</tr><tr><td scope="row"><strong>West South Central</strong></td>
+<td>0.009</td>
+<td>0.462***</td>
+<td>0.828*</td>
+<td>0.800*</td>
+<td>2.253***</td>
+<td>0.306***</td>
+</tr><tr><td scope="row"><strong>Mountain</strong></td>
+<td>-0.390***</td>
+<td>0.548***</td>
+<td>0.602***</td>
+<td>0.821</td>
+<td>1.378</td>
+<td>0.648***</td>
+</tr><tr><td scope="row"><strong>Pacific</strong></td>
+<td>-0.132*</td>
+<td>0.426***</td>
+<td>0.720***</td>
+<td>0.814</td>
+<td>1.449*</td>
+<td>0.437***</td>
+</tr><tr><td rowspan="9" scope="row"><strong>Organizational Relationships of Discharging Acute Hospital<sup>8</sup></strong></td>
+<td scope="row"><strong>Any Colocated Provider</strong></td>
+<td>0.014</td>
+<td>1.009</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr><tr><td scope="row"><strong>Any Subprovider</strong></td>
+<td>0.137***</td>
+<td>1.008</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr><tr><td scope="row"><strong>Any Subprovider IRF</strong></td>
+<td>-</td>
+<td>-</td>
+<td>1.044</td>
+<td>1.917***</td>
+<td>0.874*</td>
+<td>0.815***</td>
+</tr><tr><td scope="row"><strong>Any Subprovider SNF</strong></td>
+<td>-</td>
+<td>-</td>
+<td>0.940*</td>
+<td>0.764***</td>
+<td>0.780***</td>
+<td>1.183***</td>
+</tr><tr><td scope="row"><strong>Any Subprovider HHA</strong></td>
+<td>-</td>
+<td>-</td>
+<td>1.001</td>
+<td>0.945</td>
+<td>0.812**</td>
+<td>1.052*</td>
+</tr><tr><td scope="row"><strong>Any Colocated IRF</strong></td>
+<td>-</td>
+<td>-</td>
+<td>1.275**</td>
+<td>2.265***</td>
+<td>0.845</td>
+<td>0.895</td>
+</tr><tr><td scope="row"><strong>Any Colocated SNF</strong></td>
+<td>-</td>
+<td>-</td>
+<td>1.085*</td>
+<td>1.022</td>
+<td>0.988</td>
+<td>1.142**</td>
+</tr><tr><td scope="row"><strong>Any Colocated HHA</strong></td>
+<td>-</td>
+<td>-</td>
+<td>0.884*</td>
+<td>0.797**</td>
+<td>0.927</td>
+<td>0.848**</td>
+</tr><tr><td scope="row"><strong>Any Colocated LTCH</strong></td>
+<td>-</td>
+<td>-</td>
+<td>0.885**</td>
+<td>0.934</td>
+<td>1.512***</td>
+<td>0.742***</td>
+</tr><tr><td rowspan="4" scope="row"><strong>Characteristics of Discharging Acute Hospital</strong></td>
+<td scope="row"><strong>Number of Beds</strong></td>
+<td>0.000***</td>
+<td>1.000</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr><tr><td scope="row"><strong>Urban Location<sup>9</sup></strong></td>
+<td>0.346***</td>
+<td>1.166***</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr><tr><td scope="row"><strong>Not-for-profit<sup>10</sup></strong></td>
+<td>-0.031</td>
+<td>1.006</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr><tr><td scope="row"><strong>Government run<sup>10</sup></strong></td>
+<td>0.079*</td>
+<td>0.962*</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr><tr><td rowspan="5" scope="row"><strong>Acute DRG<sup>11</sup></strong></td>
+<td scope="row"><strong>DRG 209 Major Joint &amp; Limb Reattachment Procedures of Lower Extremity</strong></td>
+<td>-0.239***</td>
+<td>25.189***</td>
+<td>1.277***</td>
+<td>4.411***</td>
+<td>0.401***</td>
+<td>1.953***</td>
+</tr><tr><td scope="row"><strong>DRG 089 Simple Pneumonia &amp; Pleurisy Age &gt;17 w CC</strong></td>
+<td>-0.244***</td>
+<td>0.959*</td>
+<td>0.711***</td>
+<td>0.189***</td>
+<td>0.375***</td>
+<td>0.692***</td>
+</tr><tr><td scope="row"><strong>DRG 014 Specific Cerebrovascular Disorders Except TIA</strong></td>
+<td>0.051</td>
+<td>4.008***</td>
+<td>0.562***</td>
+<td>6.086</td>
+<td>1.211</td>
+<td>1.002</td>
+</tr><tr><td scope="row"><strong>DRG 127 Heart Failure &amp; Shock</strong></td>
+<td>-0.199***</td>
+<td>1.002</td>
+<td>1.366***</td>
+<td>0.297**</td>
+<td>0.582</td>
+<td>0.849**</td>
+</tr><tr><td scope="row"><strong>DRG 210 Hip &amp; Femur Procedures Except Major Joint Age &gt;17 w CC</strong></td>
+<td>0.814***</td>
+<td>15.395***</td>
+<td>0.644**</td>
+<td>13.204***</td>
+<td>2.489***</td>
+<td>5.155***</td>
+</tr></tbody></table><p> </p>
+<table border="1" class="footable sort-disable table" summary="This is a data table containing 7 columns."><caption><strong>Table 3-25. Regression Results Predicting Index Admission Length of Stay, Any PAC Use, and First Discharge Destination Using Independent Variable Set 2 (MS-DRGs), 2006</strong></caption>
+<thead><tr><th colspan="2"> </th>
+<th scope="col">OLS Regression<br />
+				Predicting Index Acute Admission LOS</th>
+<th scope="col">Binomial Logit<sup>1</sup><br />
+				Predicting PAC/NoPAC</th>
+<th colspan="4" scope="col">Multinomial Logit: Predicting Discharge Destination<sup>2</sup></th>
+</tr><tr><th colspan="2" scope="col">Variable</th>
+<th scope="col">Coefficient<sup>3</sup></th>
+<th scope="col">Odds Ratio<sup>3</sup></th>
+<th scope="col">Home Health<br />
+				Odds Ratio<sup>3</sup></th>
+<th scope="col">IRF<br />
+				Odds Ratio<sup>3</sup></th>
+<th scope="col">LTCH<br />
+				Odds Ratio<sup>3</sup></th>
+<th scope="col">SNF<br />
+				Odds Ratio<sup>3</sup></th>
+</tr></thead><tfoot><tr><td colspan="8">
+<p><sup>1.</sup> Note that the reference group for the binomial logit is No PAC Use.<br /><sup>2.</sup> Note that the reference group for the multinomial logit is Outpatient Therapy.<br /><sup>3.</sup> Significance * p&lt;0.05. ** p&lt;0.01, *** p&lt;0.0001.<br /><sup>4.</sup> The reference group for age is &lt;65.<br /><sup>5.</sup> The reference group includes White, Asian, Hispanic, North American Native, Unknown, and Other.<br /><sup>6.</sup> The reference group for MS-DRG Severity Index No CCs.<br /><sup>7.</sup> The reference group for the census division variables is New England.<br /><sup>8.</sup> The reference group for each of these variables is the absence of this type of organizational relationship.<br /><sup>9.</sup> The reference group is rural location.<br /><sup>10.</sup> The reference group is for-profit.<br /><sup>11.</sup> The reference group for each of these variables is the absence of this DRG as the index acute admission DRG.</p>
+<p><strong>SOURCE:</strong> RTI analysis of 2006 Medicare claims 5% sample.</p>
+</td>
+</tr></tfoot><tbody><tr><td colspan="2" scope="row"><strong>Intercept</strong></td>
+<td>3.029***</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><td rowspan="6" scope="row"><strong>Demographics</strong></td>
+<td scope="row"><strong>Female</strong></td>
+<td>-0.071***</td>
+<td>1.283***</td>
+<td>1.161***</td>
+<td>1.246***</td>
+<td>0.903*</td>
+<td>1.375***</td>
+</tr><tr><td scope="row"><strong>Any Medicaid in 2005</strong></td>
+<td>0.374***</td>
+<td>1.458***</td>
+<td>0.684***</td>
+<td>0.598***</td>
+<td>0.988</td>
+<td>1.340***</td>
+</tr><tr><td scope="row"><strong>Age 65-74<sup>4</sup></strong></td>
+<td>0.069*</td>
+<td>1.636***</td>
+<td>1.155**</td>
+<td>1.105</td>
+<td>0.782**</td>
+<td>1.413***</td>
+</tr><tr><td scope="row"><strong>Age 75-84</strong></td>
+<td>0.362***</td>
+<td>2.916***</td>
+<td>1.443***</td>
+<td>1.692***</td>
+<td>0.999</td>
+<td>3.283***</td>
+</tr><tr><td scope="row"><strong>Ages 85 +</strong></td>
+<td>0.400***</td>
+<td>5.351***</td>
+<td>1.252***</td>
+<td>1.313***</td>
+<td>0.785**</td>
+<td>4.949***</td>
+</tr><tr><td scope="row"><strong>Black<sup>5</sup></strong></td>
+<td>0.314***</td>
+<td>0.979</td>
+<td>1.128**</td>
+<td>0.977</td>
+<td>1.489***</td>
+<td>0.923*</td>
+</tr><tr><td rowspan="2" scope="row"><strong>Severity<sup>6</sup></strong></td>
+<td scope="row"><strong>MS-DRG Severity Index = CC</strong></td>
+<td>1.828***</td>
+<td>1.677***</td>
+<td>1.437***</td>
+<td>1.485***</td>
+<td>1.236**</td>
+<td>1.610***</td>
+</tr><tr><td scope="row"><strong>MS-DRG Severity Index = MCC</strong></td>
+<td>4.803***</td>
+<td>2.659***</td>
+<td>1.296***</td>
+<td>1.942***</td>
+<td>3.695***</td>
+<td>2.212***</td>
+</tr><tr><td rowspan="3" scope="row"><strong>Supply</strong></td>
+<td scope="row"><strong>IRF beds/1,000 beneficiaries/state</strong></td>
+<td>-0.075</td>
+<td>1.014</td>
+<td>0.743***</td>
+<td>1.883***</td>
+<td>1.437**</td>
+<td>0.790***</td>
+</tr><tr><td scope="row"><strong>SNF beds/1,000 beneficiaries/state</strong></td>
+<td>-0.001</td>
+<td>1.000</td>
+<td>0.974***</td>
+<td>0.987***</td>
+<td>0.979***</td>
+<td>0.998</td>
+</tr><tr><td scope="row"><strong>LTCH beds/1,000 beneficiaries/state</strong></td>
+<td>-0.034</td>
+<td>1.039***</td>
+<td>1.331***</td>
+<td>1.049</td>
+<td>1.754***</td>
+<td>1.151***</td>
+</tr><tr><td rowspan="8" scope="row"><strong>Census Division<sup>7</sup></strong></td>
+<td scope="row"><strong>Middle Atlantic</strong></td>
+<td>0.651***</td>
+<td>0.828***</td>
+<td>1.069</td>
+<td>1.111</td>
+<td>0.977</td>
+<td>0.841*</td>
+</tr><tr><td scope="row"><strong>East North Central</strong></td>
+<td>-0.218***</td>
+<td>0.670***</td>
+<td>0.637***</td>
+<td>0.644***</td>
+<td>1.064</td>
+<td>0.631***</td>
+</tr><tr><td scope="row"><strong>West North Central</strong></td>
+<td>-0.237**</td>
+<td>0.560***</td>
+<td>0.459***</td>
+<td>0.370***</td>
+<td>0.684</td>
+<td>0.362***</td>
+</tr><tr><td scope="row"><strong>South Atlantic</strong></td>
+<td>0.040</td>
+<td>0.645***</td>
+<td>0.706***</td>
+<td>0.742**</td>
+<td>0.712*</td>
+<td>0.638***</td>
+</tr><tr><td scope="row"><strong>East South Central</strong></td>
+<td>-0.045</td>
+<td>0.553***</td>
+<td>0.609***</td>
+<td>0.816*</td>
+<td>1.009</td>
+<td>0.559***</td>
+</tr><tr><td scope="row"><strong>West South Central</strong></td>
+<td>0.095</td>
+<td>0.480***</td>
+<td>0.824*</td>
+<td>0.796*</td>
+<td>2.263***</td>
+<td>0.302***</td>
+</tr><tr><td scope="row"><strong>Mountain</strong></td>
+<td>-0.344***</td>
+<td>0.567***</td>
+<td>0.601***</td>
+<td>0.828</td>
+<td>1.432</td>
+<td>0.654***</td>
+</tr><tr><td scope="row"><strong>Pacific</strong></td>
+<td>-0.159*</td>
+<td>0.433***</td>
+<td>0.714***</td>
+<td>0.814</td>
+<td>1.515*</td>
+<td>0.436***</td>
+</tr><tr><td rowspan="9" scope="row"><strong>Organizational Relationships of Discharging Acute Hospital<sup>8</sup></strong></td>
+<td scope="row"><strong>Any Colocated Provider</strong></td>
+<td>0.004</td>
+<td>1.008</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr><tr><td scope="row"><strong>Any Subprovider</strong></td>
+<td>0.144***</td>
+<td>1.007</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr><tr><td scope="row"><strong>Any Subprovider IRF</strong></td>
+<td>-</td>
+<td>-</td>
+<td>1.043</td>
+<td>1.926***</td>
+<td>0.909</td>
+<td>0.824***</td>
+</tr><tr><td scope="row"><strong>Any Subprovider SNF</strong></td>
+<td>-</td>
+<td>-</td>
+<td>0.953</td>
+<td>0.774***</td>
+<td>0.800***</td>
+<td>1.191***</td>
+</tr><tr><td scope="row"><strong>Any Subprovider HHA</strong></td>
+<td>-</td>
+<td>-</td>
+<td>0.996</td>
+<td>0.937**</td>
+<td>0.779***</td>
+<td>1.047</td>
+</tr><tr><td scope="row"><strong>Any Colocated IRF</strong></td>
+<td>-</td>
+<td>-</td>
+<td>1.264*</td>
+<td>2.339***</td>
+<td>0.888</td>
+<td>0.930</td>
+</tr><tr><td scope="row"><strong>Any Colocated SNF</strong></td>
+<td>-</td>
+<td>-</td>
+<td>1.071*</td>
+<td>1.003</td>
+<td>0.977</td>
+<td>1.128**</td>
+</tr><tr><td scope="row"><strong>Any Colocated HHA</strong></td>
+<td>-</td>
+<td>-</td>
+<td>0.888*</td>
+<td>0.803**</td>
+<td>0.927</td>
+<td>0.860**</td>
+</tr><tr><td scope="row"><strong>Any Colocated LTCH</strong></td>
+<td>-</td>
+<td>-</td>
+<td>0.870**</td>
+<td>0.925</td>
+<td>1.588***</td>
+<td>0.743***</td>
+</tr><tr><td rowspan="4" scope="row"><strong>Characteristics of Discharging Acute Hospital</strong></td>
+<td scope="row"><strong>Number of Beds</strong></td>
+<td>0.001***</td>
+<td>1.000</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr><tr><td scope="row"><strong>Urban Location<sup>9</sup></strong></td>
+<td>0.468***</td>
+<td>1.200***</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr><tr><td scope="row"><strong>Not-for-profit<sup>10</sup></strong></td>
+<td>0.008</td>
+<td>1.020</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr><tr><td scope="row"><strong>Government run<sup>10</sup></strong></td>
+<td>0.096**</td>
+<td>0.965*</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr><tr><td rowspan="5" scope="row"><strong>Acute DRG<sup>11</sup></strong></td>
+<td scope="row"><strong>DRG 209 Major Joint &amp; Limb Reattachment Procedures of Lower Extremity</strong></td>
+<td>0.179***</td>
+<td>25.909***</td>
+<td>1.314***</td>
+<td>4.340***</td>
+<td>0.248***</td>
+<td>1.955***</td>
+</tr><tr><td scope="row"><strong>DRG 089 Simple Pneumonia &amp; Pleurisy Age &gt;17 w CC</strong></td>
+<td>-0.464***</td>
+<td>0.920***</td>
+<td>0.675***</td>
+<td>0.181***</td>
+<td>0.361***</td>
+<td>0.668***</td>
+</tr><tr><td scope="row"><strong>DRG 014 Specific Cerebrovascular Disorders Except TIA</strong></td>
+<td>-0.290***</td>
+<td>3.629***</td>
+<td>0.519***</td>
+<td>5.459</td>
+<td>0.884</td>
+<td>0.892*</td>
+</tr><tr><td scope="row"><strong>DRG 127 Heart Failure &amp; Shock</strong></td>
+<td>-1.050***</td>
+<td>0.836***</td>
+<td>1.270***</td>
+<td>0.257***</td>
+<td>0.402</td>
+<td>0.720***</td>
+</tr><tr><td scope="row"><strong>DRG 210 Hip &amp; Femur Procedures Except Major Joint Age &gt;17 w CC</strong></td>
+<td>0.365***</td>
+<td>13.455***</td>
+<td>0.570***</td>
+<td>11.361**</td>
+<td>1.802***</td>
+<td>4.382***</td>
+</tr></tbody></table><table border="1" class="footable sort-disable table" summary="This is a data table containing 7 columns."><caption><strong>Table 3-26. Regression Results Predicting Index Admission Length of Stay, Any PAC Use, and First Discharge Destination Using Independent Variable Set 3 (MS-DRGs + HCC), 2006</strong></caption>
+<thead><tr><th colspan="2"> </th>
+<th scope="col">OLS Regression<br />
+				Predicting<br />
+				Index Acute Admission LOS</th>
+<th scope="col">Binomial Logit<sup>1</sup><br />
+				Predicting PAC/NoPAC</th>
+<th colspan="4" scope="col">Multinomial Logit: Predicting Discharge Destination<sup>2</sup></th>
+</tr><tr><th colspan="2" scope="col">Variable</th>
+<th scope="col">Coefficient<sup>3</sup></th>
+<th scope="col">Odds Ratio<sup>3</sup></th>
+<th scope="col">Home Health<br />
+				Odds Ratio<sup>3</sup></th>
+<th scope="col">IRF<br />
+				Odds Ratio<sup>3</sup></th>
+<th scope="col">LTCH<br />
+				Odds Ratio<sup>3</sup></th>
+<th scope="col">SNF<br />
+				Odds Ratio<sup>3</sup></th>
+</tr></thead><tfoot><tr><td colspan="8">
+<p><sup>1.</sup> Note that the reference group for the binomial logit is No PAC Use.<br /><sup>2.</sup> Note that the reference group for the multinomial logit is Hospital Outpatient Therapy.<br /><sup>3.</sup> Significance * p&lt;0.05. ** p&lt;0.01, *** p&lt;0.0001.<br /><sup>4.</sup> The reference group for age is &lt;65.<br /><sup>5.</sup> The reference group includes White, Asian, Hispanic, North American Native, Unknown, and Other.<br /><sup>6.</sup> The reference group for MS-DRG Severity Index is No CCs.<br /><sup>7.</sup> The reference group for each of the HCC variables is the absence of the HCC.<br /><sup>8.</sup> The reference group for the census division variables is New England.<br /><sup>9.</sup> The reference group for each of these variables is the absence of this type of organizational relationship.<br /><sup>10.</sup> The reference group is rural location.<br /><sup>11.</sup> The reference group is for-profit.</p>
+<p><strong>SOURCE:</strong> RTI analysis of 2006 Medicare claims 5% sample.</p>
+</td>
+</tr></tfoot><tbody><tr><td colspan="2" scope="row"><strong>Intercept</strong></td>
+<td>2.904***</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><td rowspan="6" scope="row"><strong>Demographics</strong></td>
+<td scope="row"><strong>Female</strong></td>
+<td>0.020</td>
+<td>1.329***</td>
+<td>1.203***</td>
+<td>1.27***</td>
+<td>0.943</td>
+<td>1.385***</td>
+</tr><tr><td scope="row"><strong>Any Medicaid in 2005</strong></td>
+<td>0.355***</td>
+<td>1.301***</td>
+<td>0.657***</td>
+<td>0.535***</td>
+<td>1.044</td>
+<td>1.266***</td>
+</tr><tr><td scope="row"><strong>Age 65-74<sup>4</sup></strong></td>
+<td>-0.024</td>
+<td>1.799***</td>
+<td>1.143**</td>
+<td>1.221***</td>
+<td>0.715***</td>
+<td>1.46***</td>
+</tr><tr><td scope="row"><strong>Age 75-84</strong></td>
+<td>0.126***</td>
+<td>2.808***</td>
+<td>1.383***</td>
+<td>1.526***</td>
+<td>0.917</td>
+<td>3.087***</td>
+</tr><tr><td scope="row"><strong>Ages 85 +</strong></td>
+<td>0.041</td>
+<td>4.559***</td>
+<td>1.181***</td>
+<td>0.989</td>
+<td>0.719**</td>
+<td>4.248***</td>
+</tr><tr><td scope="row"><strong>Black<sup>5</sup></strong></td>
+<td>0.413***</td>
+<td>0.96**</td>
+<td>1.156**</td>
+<td>0.975</td>
+<td>1.643***</td>
+<td>0.938</td>
+</tr><tr><td rowspan="13" scope="row"><strong>Severity<sup>6,7</sup></strong></td>
+<td scope="row"><strong>MS-DRG Severity Index = CC</strong></td>
+<td>1.356***</td>
+<td>1.251***</td>
+<td>1.259***</td>
+<td>1.088*</td>
+<td>1.235**</td>
+<td>1.39***</td>
+</tr><tr><td scope="row"><strong>MS-DRG Severity Index = MCC</strong></td>
+<td>3.426***</td>
+<td>1.698***</td>
+<td>1.2***</td>
+<td>1.267***</td>
+<td>1.926***</td>
+<td>1.835***</td>
+</tr><tr><td scope="row"><strong>HCC80: Congestive Heart Failure</strong></td>
+<td>0.553***</td>
+<td>1.097***</td>
+<td>1.139***</td>
+<td>0.809***</td>
+<td>1.236**</td>
+<td>1.071*</td>
+</tr><tr><td scope="row"><strong>HCC92: Specified Heart Arrhythmias</strong></td>
+<td>0.735***</td>
+<td>0.995</td>
+<td>1.213***</td>
+<td>1.111***</td>
+<td>1.402***</td>
+<td>1.159***</td>
+</tr><tr><td scope="row"><strong>HCC108: Chronic Obstructive Pulmonary Disease</strong></td>
+<td>0.260***</td>
+<td>1.011</td>
+<td>1.146***</td>
+<td>0.815***</td>
+<td>1.101</td>
+<td>1.049</td>
+</tr><tr><td scope="row"><strong>HCC19: Diabetes without Complication</strong></td>
+<td>-0.392***</td>
+<td>1.003</td>
+<td>1.113**</td>
+<td>1.024**</td>
+<td>0.74***</td>
+<td>1.04</td>
+</tr><tr><td scope="row"><strong>HCC131: Renal Failure</strong></td>
+<td>0.752***</td>
+<td>1.13***</td>
+<td>0.869***</td>
+<td>0.791***</td>
+<td>1.399***</td>
+<td>0.943</td>
+</tr><tr><td scope="row"><strong>HCC79: Cardio-Respiratory Failure and Shock</strong></td>
+<td>3.553***</td>
+<td>1.811***</td>
+<td>1.111*</td>
+<td>1.58*</td>
+<td>7.461***</td>
+<td>1.368***</td>
+</tr><tr><td scope="row"><strong>HCC158: Hip Fracture/Dislocation</strong></td>
+<td>1.282***</td>
+<td>12.175***</td>
+<td>0.675***</td>
+<td>9.939***</td>
+<td>3.217***</td>
+<td>4.318***</td>
+</tr><tr><td scope="row"><strong>HCC105: Vascular Disease</strong></td>
+<td>0.093**</td>
+<td>0.852***</td>
+<td>1.127*</td>
+<td>0.869*</td>
+<td>1.043</td>
+<td>0.981</td>
+</tr><tr><td scope="row"><strong>HCC164: Major Complications of Medical Care and Trauma</strong></td>
+<td>2.700***</td>
+<td>1.974***</td>
+<td>1.681***</td>
+<td>2.326***</td>
+<td>2.874***</td>
+<td>1.528***</td>
+</tr><tr><td scope="row"><strong>HCC96: Ischemic or Unspecified Stroke</strong></td>
+<td>0.730</td>
+<td>3.465***</td>
+<td>0.538***</td>
+<td>5.363***</td>
+<td>1.983***</td>
+<td>0.937</td>
+</tr><tr><td scope="row"><strong>HCC83: Angina Pectoris/Old Myocardial Infarction</strong></td>
+<td>-0.802***</td>
+<td>0.686***</td>
+<td>1.051</td>
+<td>0.874</td>
+<td>0.358***</td>
+<td>0.761***</td>
+</tr><tr><td rowspan="3" scope="row"><strong>Supply</strong></td>
+<td scope="row"><strong>IRF beds/1,000 beneficiaries/state</strong></td>
+<td>-0.137**</td>
+<td>1.002</td>
+<td>0.739***</td>
+<td>1.885***</td>
+<td>1.45**</td>
+<td>0.768***</td>
+</tr><tr><td scope="row"><strong>SNF beds/1000 beneficiaries/state</strong></td>
+<td>-0.002</td>
+<td>1</td>
+<td>0.974***</td>
+<td>0.987***</td>
+<td>0.977***</td>
+<td>0.998</td>
+</tr><tr><td scope="row"><strong>LTCH beds/1000 beneficiaries/state</strong></td>
+<td>-0.002</td>
+<td>1.003**</td>
+<td>1.338***</td>
+<td>1.057</td>
+<td>1.878***</td>
+<td>1.162***</td>
+</tr><tr><td rowspan="8" scope="row"><strong>Census Division<sup>8</sup></strong></td>
+<td scope="row"><strong>Middle Atlantic</strong></td>
+<td>0.720***</td>
+<td>0.793***</td>
+<td>1.078</td>
+<td>1.073</td>
+<td>1.075</td>
+<td>0.841**</td>
+</tr><tr><td scope="row"><strong>East North Central</strong></td>
+<td>-0.240***</td>
+<td>0.673***</td>
+<td>0.643***</td>
+<td>0.665***</td>
+<td>1.08</td>
+<td>0.636***</td>
+</tr><tr><td scope="row"><strong>West North Central</strong></td>
+<td>-0.233**</td>
+<td>0.582***</td>
+<td>0.47***</td>
+<td>0.385***</td>
+<td>0.69</td>
+<td>0.37***</td>
+</tr><tr><td scope="row"><strong>South Atlantic</strong></td>
+<td>-0.027</td>
+<td>0.646***</td>
+<td>0.725***</td>
+<td>0.76**</td>
+<td>0.697*</td>
+<td>0.645***</td>
+</tr><tr><td scope="row"><strong>East South Central</strong></td>
+<td>-0.073</td>
+<td>0.554***</td>
+<td>0.62***</td>
+<td>0.822*</td>
+<td>0.997</td>
+<td>0.561***</td>
+</tr><tr><td scope="row"><strong>West South Central</strong></td>
+<td>0.102</td>
+<td>0.489***</td>
+<td>0.842*</td>
+<td>0.813*</td>
+<td>2.362***</td>
+<td>0.304***</td>
+</tr><tr><td scope="row"><strong>Mountain</strong></td>
+<td>-0.444***</td>
+<td>0.588***</td>
+<td>0.616***</td>
+<td>0.859</td>
+<td>1.279</td>
+<td>0.663***</td>
+</tr><tr><td scope="row"><strong>Pacific</strong></td>
+<td>-0.190**</td>
+<td>0.461***</td>
+<td>0.741**</td>
+<td>0.862</td>
+<td>1.541*</td>
+<td>0.443***</td>
+</tr><tr><td rowspan="9" scope="row"><strong>Organizational Relationships of Discharging Acute Hospital<sup>9</sup></strong></td>
+<td scope="row"><strong>Any Colocated Provider</strong></td>
+<td>0.007</td>
+<td>1.006</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr><tr><td scope="row"><strong>Any Subprovider</strong></td>
+<td>0.135***</td>
+<td>0.996</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr><tr><td scope="row"><strong>Any Subprovider IRF</strong></td>
+<td>-</td>
+<td>-</td>
+<td>1.042</td>
+<td>1.968***</td>
+<td>0.901*</td>
+<td>0.829***</td>
+</tr><tr><td scope="row"><strong>Any Subprovider SNF</strong></td>
+<td>-</td>
+<td>-</td>
+<td>0.953</td>
+<td>0.769***</td>
+<td>0.784***</td>
+<td>1.185***</td>
+</tr><tr><td scope="row"><strong>Any Subprovider HHA</strong></td>
+<td>-</td>
+<td>-</td>
+<td>0.991</td>
+<td>0.916**</td>
+<td>0.773***</td>
+<td>1.036</td>
+</tr><tr><td scope="row"><strong>Any Colocated IRF</strong></td>
+<td>-</td>
+<td>-</td>
+<td>1.258*</td>
+<td>2.349***</td>
+<td>0.829</td>
+<td>0.928</td>
+</tr><tr><td scope="row"><strong>Any Colocated SNF</strong></td>
+<td>-</td>
+<td>-</td>
+<td>1.073*</td>
+<td>1.014</td>
+<td>0.982</td>
+<td>1.132**</td>
+</tr><tr><td scope="row"><strong>Any Colocated HHA</strong></td>
+<td>-</td>
+<td>-</td>
+<td>0.885*</td>
+<td>0.802**</td>
+<td>0.947</td>
+<td>0.862**</td>
+</tr><tr><td scope="row"><strong>Any Colocated LTCH</strong></td>
+<td>-</td>
+<td>-</td>
+<td>0.863**</td>
+<td>0.935</td>
+<td>1.556***</td>
+<td>0.743***</td>
+</tr><tr><td rowspan="4" scope="row"><strong>Characteristics of Discharging Acute Hospital</strong></td>
+<td scope="row"><strong>Number of Beds</strong></td>
+<td>0.001***</td>
+<td>1.000**</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><td scope="row"><strong>Urban Location<sup>10</sup></strong></td>
+<td>0.415***</td>
+<td>1.209***</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><td scope="row"><strong>Not-for-profit<sup>11</sup></strong></td>
+<td>-0.034</td>
+<td>1.013</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><td scope="row"><strong>Government run<sup>11</sup></strong></td>
+<td>0.072*</td>
+<td>0.933***</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr></tbody></table><table border="1" class="footable sort-disable table" summary="This is a data table containing 7 columns."><caption><strong>Table 3-27. Regression Results Predicting Readmission During PAC Episode, 2006</strong></caption>
+<thead><tr><th colspan="2"> </th>
+<th colspan="3" scope="col">Binomial Logit Regressions<br />
+				Predicting Readmission</th>
+<th colspan="3" scope="col">OLS Regressions Predicting<br />
+				Episode Payments</th>
+</tr><tr><th colspan="2" scope="col">Variable</th>
+<th scope="col">Set 1<br />
+				APR-DRG</th>
+<th scope="col">Set 2<br />
+				MS-DRG</th>
+<th scope="col">Set 3<br />
+				MS-DRGs<br />
+				and HCCs</th>
+<th scope="col">Set 1<br />
+				APR-DRG</th>
+<th scope="col">Set 2<br />
+				MS-DRG</th>
+<th scope="col">Set 3<br />
+				MS-DRGs<br />
+				and HCCs</th>
+</tr></thead><tfoot><tr><td colspan="8">
+<p><sup>1.</sup> Significance * p&lt;0.05. ** p&lt;0.01, *** p&lt;0.0001.<br /><sup>2.</sup> The reference group for age is &lt;65.<br /><sup>3.</sup> The reference group includes White, Asian, Hispanic, North American Native, Unknown, and Other.<br /><sup>4.</sup> The reference group for APR-DRG Severity Index is minor.<br /><sup>5.</sup> The reference group for MS-DRG Severity Index is No CCs.<br /><sup>6.</sup> The reference group for the census division variables is New England.<br /><sup>7.</sup> The reference group for each of these variables is the absence of this type of organizational relationship.<br /><sup>8.</sup> The reference group is rural location.<br /><sup>9.</sup> The reference group is for-profit.<br /><sup>10.</sup> The reference group for each of these variables is the absence of this DRG as the index acute admission DRG.<br /><sup>11.</sup> The reference group for each of the HCC variables is the absence of the HCC.<br /><sup>12.</sup> The reference group is outpatient therapy.</p>
+<p><strong>SOURCE:</strong> RTI analysis of 2006 Medicare claims 5% sample.</p>
+</td>
+</tr></tfoot><tbody><tr><td rowspan="6" scope="row"><strong>Demographics</strong></td>
+<td scope="row"><strong>Female</strong></td>
+<td>0.889***</td>
+<td>0.878***</td>
+<td>0.924***</td>
+<td>-688***</td>
+<td>-950***</td>
+<td>-411***</td>
+</tr><tr><td scope="row"><strong>Any Medicaid in 2005</strong></td>
+<td>1.071***</td>
+<td>1.085***</td>
+<td>1.152***</td>
+<td>1,464***</td>
+<td>1,902***</td>
+<td>1,616***</td>
+</tr><tr><td scope="row"><strong>Age 65-74<sup>2</sup></strong></td>
+<td>0.856***</td>
+<td>0.861***</td>
+<td>0.882***</td>
+<td>2,131***</td>
+<td>2,090***</td>
+<td>1,907***</td>
+</tr><tr><td scope="row"><strong>Age 75-84</strong></td>
+<td>0.962</td>
+<td>0.973</td>
+<td>1.025</td>
+<td>3,138***</td>
+<td>3,541***</td>
+<td>2,563***</td>
+</tr><tr><td scope="row"><strong>Ages 85 +</strong></td>
+<td>0.967</td>
+<td>0.992</td>
+<td>1.12***</td>
+<td>2,825***</td>
+<td>3,689***</td>
+<td>1,838***</td>
+</tr><tr><td scope="row"><strong>Black<sup>3</sup></strong></td>
+<td>1.159***</td>
+<td>1.157***</td>
+<td>1.127***</td>
+<td>1,272***</td>
+<td>1,273***</td>
+<td>1,452***</td>
+</tr><tr><td rowspan="5" scope="row"><strong>Severity</strong></td>
+<td scope="row"><strong>APR-DRG Severity Index = moderate<sup>4</sup></strong></td>
+<td>1.412***</td>
+<td> </td>
+<td> </td>
+<td>3,896***</td>
+<td> </td>
+<td> </td>
+</tr><tr><td scope="row"><strong>APR-DRG Severity Index = major</strong></td>
+<td>1.872***</td>
+<td> </td>
+<td> </td>
+<td>11,389***</td>
+<td> </td>
+<td> </td>
+</tr><tr><td scope="row"><strong>APR-DRG Severity Index = extreme</strong></td>
+<td>1.916***</td>
+<td> </td>
+<td> </td>
+<td>36,537***</td>
+<td> </td>
+<td> </td>
+</tr><tr><td scope="row"><strong>MS-DRG Severity index = CC<sup>5</sup></strong></td>
+<td> </td>
+<td>1.212***</td>
+<td>1.293***</td>
+<td> </td>
+<td>4,632***</td>
+<td>2,217***</td>
+</tr><tr><td scope="row"><strong>MS-DRG Severity index = MCC</strong></td>
+<td> </td>
+<td>1.391***</td>
+<td>1.387***</td>
+<td> </td>
+<td>11,995***</td>
+<td>6,313***</td>
+</tr><tr><td rowspan="3" scope="row"><strong>Supply</strong></td>
+<td scope="row"><strong>IRF beds/1,000 beneficiaries/state</strong></td>
+<td>0.961</td>
+<td>0.972</td>
+<td>0.968</td>
+<td>-1,555***</td>
+<td>-1,649***</td>
+<td>-1,862***</td>
+</tr><tr><td scope="row"><strong>SNF beds/1,000 beneficiaries/state</strong></td>
+<td>0.998</td>
+<td>0.999</td>
+<td>1</td>
+<td>-26*</td>
+<td>-26**</td>
+<td>-32***</td>
+</tr><tr><td scope="row"><strong>LTCH beds/1,000 beneficiaries/state</strong></td>
+<td>1.040*</td>
+<td>1.033*</td>
+<td>1.021</td>
+<td>1,044</td>
+<td>979***</td>
+<td>1,088***</td>
+</tr><tr><td rowspan="8" scope="row"><strong>Census Division<sup>6</sup></strong></td>
+<td scope="row"><strong>Middle Atlantic</strong></td>
+<td>1.160**</td>
+<td>1.142*</td>
+<td>1.112*</td>
+<td>841**</td>
+<td>806*</td>
+<td>911**</td>
+</tr><tr><td scope="row"><strong>East North Central</strong></td>
+<td>1.163**</td>
+<td>1.162***</td>
+<td>1.108*</td>
+<td>-2,065***</td>
+<td>-1,727***</td>
+<td>-1,840***</td>
+</tr><tr><td scope="row"><strong>West North Central</strong></td>
+<td>1.075</td>
+<td>1.069</td>
+<td>1.076</td>
+<td>-3,619***</td>
+<td>-3,510***</td>
+<td>-3,494***</td>
+</tr><tr><td scope="row"><strong>South Atlantic</strong></td>
+<td>1.014</td>
+<td>1.022</td>
+<td>0.988</td>
+<td>-3,242***</td>
+<td>-2,907***</td>
+<td>-3,159***</td>
+</tr><tr><td scope="row"><strong>East South Central</strong></td>
+<td>1.172**</td>
+<td>1.181*</td>
+<td>1.073</td>
+<td>-3,388***</td>
+<td>-3,226***</td>
+<td>-3,388***</td>
+</tr><tr><td scope="row"><strong>West South Central</strong></td>
+<td>1.307**</td>
+<td>1.281***</td>
+<td>1.145**</td>
+<td>-1,453***</td>
+<td>-1,147***</td>
+<td>-1,229***</td>
+</tr><tr><td scope="row"><strong>Mountain</strong></td>
+<td>0.927</td>
+<td>0.934</td>
+<td>0.961</td>
+<td>-2,215***</td>
+<td>-1,995***</td>
+<td>-2,264***</td>
+</tr><tr><td scope="row"><strong>Pacific</strong></td>
+<td>0.911</td>
+<td>0.911*</td>
+<td>0.9**</td>
+<td>-1,645***</td>
+<td>-1,690***</td>
+<td>-1,736***</td>
+</tr><tr><td rowspan="2" scope="row"><strong>Organizational Relationships of Discharging Acute Hospital<sup>7</sup></strong></td>
+<td scope="row"><strong>Any Colocated Provider</strong></td>
+<td>0.985</td>
+<td>0.982</td>
+<td>1.006</td>
+<td>340**</td>
+<td>332**</td>
+<td>348**</td>
+</tr><tr><td scope="row"><strong>Any Subprovider</strong></td>
+<td>0.971</td>
+<td>0.966*</td>
+<td>0.973*</td>
+<td>392***</td>
+<td>412***</td>
+<td>346**</td>
+</tr><tr><td rowspan="5" scope="row"><strong>Characteristics of Discharging Acute Hospital</strong></td>
+<td scope="row"><strong>Number of Beds</strong></td>
+<td>1.000</td>
+<td>1.000*</td>
+<td>1.000*</td>
+<td>3***</td>
+<td>4***</td>
+<td>3***</td>
+</tr><tr><td scope="row"><strong>Urban Location<sup>8</sup></strong></td>
+<td>1.066*</td>
+<td>1.075***</td>
+<td>1.035*</td>
+<td>3,757***</td>
+<td>4,221***</td>
+<td>4,105***</td>
+</tr><tr><td scope="row"><strong>Not-for-profit<sup>9</sup></strong></td>
+<td>0.930**</td>
+<td>0.936*</td>
+<td>0.94**</td>
+<td>-499***</td>
+<td>-344*</td>
+<td>-497***</td>
+</tr><tr><td scope="row"><strong>Government run<sup>9</sup></strong></td>
+<td>0.961</td>
+<td>0.961</td>
+<td>0.988</td>
+<td>208</td>
+<td>262</td>
+<td>75</td>
+</tr><tr><td scope="row"><strong>IndexLOS</strong></td>
+<td>1.026***</td>
+<td>1.031***</td>
+<td>1.033***</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><td rowspan="5" scope="row"><strong>Acute DRG<sup>10</sup></strong></td>
+<td scope="row"><strong>DRG 209 Major Joint &amp; Limb Reattachment Procedures of Lower Extremity</strong></td>
+<td>0.421***</td>
+<td>0.436***</td>
+<td> </td>
+<td>8,022***</td>
+<td>8,968***</td>
+<td> </td>
+</tr><tr><td scope="row"><strong>DRG 089 Simple Pneumonia &amp; Pleurisy Age &gt;17 w CC</strong></td>
+<td>0.944</td>
+<td>0.955</td>
+<td> </td>
+<td>-5,465***</td>
+<td>-5,827***</td>
+<td> </td>
+</tr><tr><td scope="row"><strong>DRG 014 Specific Cerebrovascular Disorders Except TIA</strong></td>
+<td>1.015</td>
+<td>0.992</td>
+<td> </td>
+<td>7,726***</td>
+<td>6,972***</td>
+<td> </td>
+</tr><tr><td scope="row"><strong>DRG 127 Heart Failure &amp; Shock</strong></td>
+<td>1.605***</td>
+<td>1.525***</td>
+<td> </td>
+<td>-2,390***</td>
+<td>-4,495***</td>
+<td> </td>
+</tr><tr><td scope="row"><strong>DRG 210 Hip &amp; Femur Procedures Except Major Joint Age &gt;17 w CC</strong></td>
+<td>0.931</td>
+<td>0.902*</td>
+<td> </td>
+<td>17,130***</td>
+<td>16,164***</td>
+<td> </td>
+</tr><tr><td rowspan="11" scope="row"><strong>Comorbid Conditions<sup>11</sup></strong></td>
+<td scope="row"><strong>HCC80: Congestive Heart Failure</strong></td>
+<td> </td>
+<td> </td>
+<td>1.287***</td>
+<td> </td>
+<td> </td>
+<td>2,523***</td>
+</tr><tr><td scope="row"><strong>HCC92: Specified Heart Arrhythmias</strong></td>
+<td> </td>
+<td> </td>
+<td>1.16***</td>
+<td> </td>
+<td> </td>
+<td>2,577***</td>
+</tr><tr><td scope="row"><strong>HCC108: Chronic Obstructive Pulmonary Disease</strong></td>
+<td> </td>
+<td> </td>
+<td>1.241***</td>
+<td> </td>
+<td> </td>
+<td>-614***</td>
+</tr><tr><td scope="row"><strong>HCC19: Diabetes without Complication</strong></td>
+<td> </td>
+<td> </td>
+<td>1.109***</td>
+<td> </td>
+<td> </td>
+<td>-126</td>
+</tr><tr><td scope="row"><strong>HCC131: Renal Failure</strong></td>
+<td> </td>
+<td> </td>
+<td>1.255***</td>
+<td> </td>
+<td> </td>
+<td>2,784***</td>
+</tr><tr><td scope="row"><strong>HCC79: Cardio-Respiratory Failure and Shock</strong></td>
+<td> </td>
+<td> </td>
+<td>0.999</td>
+<td> </td>
+<td> </td>
+<td>14,900***</td>
+</tr><tr><td scope="row"><strong>HCC158: Hip Fracture/Dislocation</strong></td>
+<td> </td>
+<td> </td>
+<td>1.003</td>
+<td> </td>
+<td> </td>
+<td>16,707***</td>
+</tr><tr><td scope="row"><strong>HCC105: Vascular Disease</strong></td>
+<td> </td>
+<td> </td>
+<td>1.187***</td>
+<td> </td>
+<td> </td>
+<td>1,544***</td>
+</tr><tr><td scope="row"><strong>HCC164: Major Complications of Medical Care and Trauma</strong></td>
+<td> </td>
+<td> </td>
+<td>0.98</td>
+<td> </td>
+<td> </td>
+<td>12,604***</td>
+</tr><tr><td scope="row"><strong>HCC96: Ischemic or Unspecified Stroke</strong></td>
+<td> </td>
+<td> </td>
+<td>1.143***</td>
+<td> </td>
+<td> </td>
+<td>10,675***</td>
+</tr><tr><td scope="row"><strong>HCC83: Angina Pectoris/Old Myocardial Infarction</strong></td>
+<td> </td>
+<td> </td>
+<td>1.998</td>
+<td> </td>
+<td> </td>
+<td>-1,026***</td>
+</tr><tr><td rowspan="4" scope="row"><strong>First PAC Setting<sup>12</sup></strong></td>
+<td scope="row"><strong>SNF</strong></td>
+<td>1.214</td>
+<td>1.232***</td>
+<td>7.043***</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><td scope="row"><strong>LTCH</strong></td>
+<td>1.196**</td>
+<td>1.299***</td>
+<td>7.917***</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><td scope="row"><strong>HHA</strong></td>
+<td>1.227</td>
+<td>1.234***</td>
+<td>7.464***</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><td scope="row"><strong>IRF</strong></td>
+<td>1.357</td>
+<td>1.356***</td>
+<td>7.557***</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr></tbody></table><div> </div>
+<ul class="collapsibleList links-controll level5">
+
+  <li class="collapsibleListClosed">
+
+          <div class="book-links">
+              </div>
+    
+    
+    <a tabindex="0" href='#' class="links-disabled">
+      <h5                data-target="ajax-target-node-182276" data-source="/node/182276" class="jquery_ajax_load"
+                >
+
+          3.9.1 Ordinary Least Squares Regression Predicting Index Admission Length of Stay       </h5>
+    </a>
+    
+      <ul class="collapsibleChild level6" id="ajax-target-node-182276">
+        
+                      <li class="chapter_content ">
+              <p>The results of the models predicting index admission length of stay highlight the importance of severity measures (<strong>Table 3-24</strong>, <strong>Table 3-25</strong>, and <strong>Table 3-26</strong>). The results using independent variable Set 1 with the APR-DRG severity measures (<strong>Table 3-24</strong>) indicate that beneficiaries in APR-DRG severity level 4 (extreme severity) have a mean length of stay that is 12.1 days longer than that of beneficiaries in the lowest APR-DRG severity level. Similarly, in looking at the regression model predicting index admission length of stay using the MS-DRG severity measures (Set 2, <strong>Table 3-25</strong>) beneficiaries in the MS-DRG MCC severity level had a length of stay 4.8 days longer than that of beneficiaries in the MS-DRG No CC level. When the HCCs were added to the multivariate models as severity measures (Set 3, <strong>Table 3-26</strong>), we see that after controlling for MS-DRG severity levels, beneficiaries with particular comorbid conditions are likely to have longer lengths of stay in the acute setting. For example, beneficiaries with HCC 79 Cardio-Respiratory Failure and Shock have an index admission length of stay 3.6 days longer than that of beneficiaries without this HCC.</p>
+<p>Indicator variables for acute DRGs were included in independent variable Sets 1 and 2 (Note that these variables were not included in Set 3 because of the high degree of correlation between the DRG and HCC indicators). In Set 1, only beneficiaries with DRG 210 had significantly longer length of stay (<strong>Table 3-24</strong>). Beneficiaries admitted to acute hospitals for DRG 209, DRG 089, and DRG 127 had shorter lengths of stay compared to those of beneficiaries admitted for other diagnoses. The results from Set 2 showed that both beneficiaries in DRGs 209 and 210 had significantly longer index admission lengths of stay than those of beneficiaries in other DRGS (<strong>Table 3-25</strong>).</p>
+<p>The impact of age on index admission length of stay varied across the sets of independent variables. When using the APR-DRG severity measures and the MS-DRG severity measures (Sets 1 and 2, <strong>Table 3-24</strong> and <strong>Table 3-25</strong>), increasing age was associated with increasing index admission lengths of stay. However, when using the MS-DRG and HCCs (Set 3, <strong>Table 3-26</strong>), only the coefficient on the age 75 to 84 variable was significant indicating that beneficiaries in this age group had a length of stay 0.13 days longer than that of beneficiaries younger than 65.</p>
+<p>Results of the impact of census region was similar across models; beneficiaries in the Middle Atlantic had slightly longer index admission lengths of stay compared with beneficiaries in New England. Beneficiaries from the East North Central, West North Central, Mountain, and Pacific census division had shorter index admission lengths of stay than did those in New England. Since the models controlled for patient differences, this seems to reflect local practice pattern differences.</p>
+<p>Supply of services did not have a significant effect on index admission length of stay with the exception of the supply of IRF beds using independent variable Set 3 (<strong>Table 3-26</strong>). In this model, an increase in supply of IRF beds was associated with a shorter index admission length of stay. In looking at the characteristics of the acute hospitals, both urban location and government-run hospitals were associated with longer index admission length of stay.</p>
+<p>Across all three sets of independent variables, the presence of any PAC subprovider was associated with an increase in index admission length of stay. For example, in the results using independent variable Set 3 (<strong>Table 3-26</strong>), beneficiaries discharged from an acute hospital with any PAC subprovider had index admission lengths of stay that were 0.135 days longer than those of beneficiaries discharged from acute hospitals without subproviders. The presence of any colocated post-acute provider was not significant in predicting index admission length of stay.</p>
+            </li>
+                    
+              </ul>
+
+  </li>
+
+</ul>
+
+<ul class="collapsibleList links-controll level5">
+
+  <li class="collapsibleListClosed">
+
+          <div class="book-links">
+              </div>
+    
+    
+    <a tabindex="0" href='#' class="links-disabled">
+      <h5                data-target="ajax-target-node-182281" data-source="/node/182281" class="jquery_ajax_load"
+                >
+
+          3.9.2 Binomial Logit Regression Predicting Use of Post-Acute Care      </h5>
+    </a>
+    
+      <ul class="collapsibleChild level6" id="ajax-target-node-182281">
+        
+                      <li class="chapter_content ">
+              <p>As in the model predicting index acute admission length stay, severity measures were important factors in predicting the use of any PAC services. The odds of using any post-acute care services increased with increasing severity level across each set of severity measures. In the case of APR-DRGs (Set 1, <strong>Table 3-24</strong>), for beneficiaries in APR-DRG level 4 (extreme severity), the odds of using any PAC were 7.7 times the odds for beneficiaries in the lowest severity level. The odds of using any PAC were also higher for beneficiaries with MS-DRG with MCC (OR=2.7) and with CC (OR=1.7) compared with beneficiaries without CCs (Set 2, <strong>Table 3-25</strong>).</p>
+<p>In Set 3 (<strong>Table 3-27</strong>), the magnitude of the odds ratios were smaller on the MS-DRG variables compared to Set 2 (w MMC OR=1.7; w CC OR=1.3), but the direction was the same indicating increasing odds of PAC use with increasing severity. In this model, many of the HCC measures also increased the odds of using any PAC services. For example, beneficiaries with HCC96 Ischemic or Unspecified Stroke had 3.5 times the odds of using PAC compared beneficiaries without this HCC. In the models without the HCC indicators (Set 1, <strong>Table 3-25</strong>, and Set 2, <strong>Table 3-26</strong>), the DRG indicator variables demonstrated similar results. The odds of using any PAC service were significantly higher for beneficiaries with index acute hospital admission for DRGs 209, 210, and 014.</p>
+<p>Age was another significant factor in these models. Increasing age was associated with higher odds of PAC use. For example, in the model run using APR-DRG severity measures (Set 1, <strong>Table 3-25</strong>), the odds of using any PAC for beneficiaries aged 75-84 were 2.8 times the odds for beneficiaries less than age 65 and the odds increased to 5.1 for beneficiaries aged 85 and older. Similar patterns were observed across the independent variable sets.</p>
+<p>The census region variables were each significant across the models indicating that the odds of using any PAC services were lower in each region compared to odds of PAC use in New England. The only supply variable that was significant across the models was the supply of LTCH beds/1,000 beneficiaries. Higher numbers of LTCH beds per beneficiary was associated with a slight increase in the odds of any PAC use.</p>
+<p>The odds of PAC use were approximately 20.0 percent higher for beneficiaries discharged from hospitals located in urban areas compared with nonurban areas (OR=1.21 in Set 3, <strong>Table 3-26</strong>). Beneficiaries discharged from government-run hospitals were slightly less likely to use PAC compared with other beneficiaries (OR=0.93 in Set 3, <strong>Table 3-26</strong>).</p>
+<p>The organizational relationship variables in this model were not significant indicating that the presence of any colocated post-acute providers or post-acute subproviders does not affect the odds of using PAC.</p>
+            </li>
+                    
+              </ul>
+
+  </li>
+
+</ul>
+
+<ul class="collapsibleList links-controll level5">
+
+  <li class="collapsibleListClosed">
+
+          <div class="book-links">
+              </div>
+    
+    
+    <a tabindex="0" href='#' class="links-disabled">
+      <h5                data-target="ajax-target-node-182286" data-source="/node/182286" class="jquery_ajax_load"
+                >
+
+          3.9.3 Multinomial Logit Predicting First Site of Post-Acute Care      </h5>
+    </a>
+    
+      <ul class="collapsibleChild level6" id="ajax-target-node-182286">
+        
+                      <li class="chapter_content ">
+              <p>The effect of severity on first site of PAC demonstrates that the odds of discharge to IRFs, LTCHs, and SNFs are much higher compared to the odds of discharge to hospital outpatient therapy or home health for beneficiaries of higher severity. For example, in the multinomial model run using the APR-DRG severity measures (Set 1, <strong>Table 3-24</strong>), the odds of discharge to LTCH for beneficiaries in APR-DRG severity level 4 (extreme) were 5.2 times the odds of discharge to hospital outpatient therapy. Using the APR-DRG severity levels variables, it is clear that the odds of discharge to inpatient post-acute settings increases with increasing severity. While similar patterns are observed in using MS-DRG severity measures (Set 2, <strong>Table 3-25</strong>), and MS-DRG and HCCs as severity measures (Set 3, <strong>Table 3-26</strong>), the magnitude of the odds ratios in these models were not as large. The model using the MS-DRG and HCC severit measures (<strong>Table 3-26</strong>), does highlight the role of particular HCCs in predicting first site of PAC. For example, the odds of discharge to IRFs for beneficiaries with HCC 158 Hip Fracture/Dislocation are 9.9 times the odds of beneficiaries without this HCC due to the rehabilitative services that these patients often require. Beneficiaries with HCC 79 Cardio-Respiratory Failure and Shock had 7.5 times the odds of being discharged to LTCHs compared with beneficiaries without this HCC and this may reflect the medical complexity of these patients.</p>
+<p>Patterns of the effect of age varied across models and by first site of PAC (<strong>Tables 3-24</strong>, <strong>3-25</strong>, and <strong>3-26</strong>). Across all models, the odds of being discharged to SNFs increased with increasing age. Also across all models, the odds of being discharged to HHAs were lower for beneficiaries aged 85 or older compared with the odds for beneficiaries aged 75-84, indicating that these oldest beneficiaries may be more likely to be discharged directly to inpatient PAC following an inpatient stay.</p>
+<p>The findings from the organizational variables indicate that organizational relationships do have some effect on the first site of care for beneficiaries discharged to PAC. In the models using the APR-DRG severity measures (Set 1, <strong>Table 3-24</strong>), we found that for beneficiaries discharged from an acute hospital with an IRF subprovider, the odds of being discharged to an IRF were 1.9 times the odds of being discharged to outpatient therapy. Similarly, for beneficiaries discharged from an acute with a colocated IRF, the odds of discharge to IRF were 2.3 times the odds of discharge to outpatient therapy. Similar results were seen across the models (<strong>Table 3-25</strong> and <strong>Table 3-26</strong>). The organizational relationship variables also indicated increases in the odds of discharge to SNF for beneficiaries discharged from providers with SNF subproviders or colocated SNFs and an increase in odds of discharge to LTCH for beneficiaries discharged from acute hospitals with colocated LTCHs. The presence of organizationally related home health agencies did not increase the likelihood of discharge to HHA.</p>
+            </li>
+                    
+              </ul>
+
+  </li>
+
+</ul>
+
+<ul class="collapsibleList links-controll level5">
+
+  <li class="collapsibleListClosed">
+
+          <div class="book-links">
+              </div>
+    
+    
+    <a tabindex="0" href='#' class="links-disabled">
+      <h5                data-target="ajax-target-node-182291" data-source="/node/182291" class="jquery_ajax_load"
+                >
+
+          3.9.4 Binomial Logit Regression Predicting Readmission During Post-Acute Care Episodes      </h5>
+    </a>
+    
+      <ul class="collapsibleChild level6" id="ajax-target-node-182291">
+        
+                      <li class="chapter_content ">
+              <p>As in the other models, severity is an important predictor of acute hospital readmission during PAC episodes. The odds of readmission increase with increasing severity. In the binomial logit model using both the MS-DRG severity measures and the HCCs (Set 3, <strong>Table 3-27</strong>), the odds of readmission for beneficiaries with MS-DRG w/MCC are 1.4 times the odds of readmission for beneficiaries without CCs. The odds of readmission are also higher for beneficiaries with particular HCCCs. The odds of readmission for beneficiaries with HCC80 Congestive Heart Failure are 1.3 times those for beneficiaries without this HCC.</p>
+<p>The odds of readmission during a PAC episode also varied by demographic characteristics. The odds of readmission were higher for older beneficiaries, for beneficiaries enrolled in Medicaid, and for non-white beneficiaries. The post-acute care supply variables were not significant predictors of readmission. In looking at geography, there were very few significant differences compared to the New England region. In looking at the binomial model using the MS-DRG severity measure and the HCCs, the odds of readmission were significantly higher in the Middle Atlantic (OR=1.112) and the West South Central (OR=1.145) compared to New England. The beneficiary's index admission length of stay was also a significant predictor of readmission in this model (OR=1.033) (Set 3, <strong>Table 3-27</strong>).</p>
+<p>Another interesting finding to note in this regression is related to the organizational relationship variables. The odds of readmission for beneficiaries discharged to colocated providers are not significantly different from those for other beneficiaries. Using the MS-DRG severity measure and the HCCs (Sets 2 and 3, <strong>Table 3-27</strong>), we found that the odds of being readmitted during a PAC episode was slightly lower than for other beneficiaries.</p>
+            </li>
+                    
+              </ul>
+
+  </li>
+
+</ul>
+
+<ul class="collapsibleList links-controll level5">
+
+  <li class="collapsibleListClosed">
+
+          <div class="book-links">
+              </div>
+    
+    
+    <a tabindex="0" href='#' class="links-disabled">
+      <h5                data-target="ajax-target-node-182296" data-source="/node/182296" class="jquery_ajax_load"
+                >
+
+          3.9.5 Ordinary Least Squares Regression Predicting Post-Acute Care Episode Payment      </h5>
+    </a>
+    
+      <ul class="collapsibleChild level6" id="ajax-target-node-182296">
+        
+                      <li class="chapter_content ">
+              <p>In the regression predicting PAC episode payments, increasing severity is associated with increases in episode payments. For example, in the model using MS-DRG severity measures and HCCs (Set 3, <strong>Table 3-27</strong>), beneficiaries with MS-DRG w/MCC have $6,313 higher episode payments compared to beneficiaries in the lowest severity level. The magnitude of the impact of particular comorbid conditions is also demonstrated in looking at the coefficients for the HCC variables in this model Beneficiaries with HCC 158 Hip Fracture/Dislocation and HCC 79 Cardio-Respiratory Failure and Shock were associated with the largest increases in episode payments. These conditions may be proxy measures for frailty or other unmeasured signs of general decline.</p>
+<p>Increasing age was associated with increasing episode payments except for beneficiaries aged 85 or older. Female beneficiaries were associated with lower episode payments and beneficiaries on Medicaid had higher episode payments. Across the models, episode payments were lower for all census regions than for New England with the exception of the Middle Atlantic. Across all models the presence of a colocated post-acute provider or a post-acute subprovider was associated with increases in episode payments.</p>
+            </li>
+                    
+              </ul>
+
+  </li>
+
+</ul>
+
+<div class="download_report">
+        <h4>
+        <a href="/report/examining-post-acute-care-relationships-integrated-hospital-system">View full report</a>    </h4>
+    
+                        <div class="pdf-prev">
+                <img src="https://aspe.hhs.gov/system/files/pdfpreview/6915f8d740d5c6e673fc8c5deb54df3d.png" alt="Preview" title="Preview" />            </div>
+                <a class="btn btn-sm btn-default download-file"
+           href="https://aspe.hhs.gov/system/files/pdf/75761/report.pdf">Download</a>
+
+        <p class="download_title">&quot;report.pdf&quot;
+            (pdf,
+            1.14Mb)</p>
+        <p>Note: Documents in PDF format require the <a href="http://www.adobe.com/products/acrobat/readstep2.html">Adobe
+                Acrobat Reader&reg;</a>. If you experience problems with PDF documents, please <a
+                href="http://www.adobe.com/products/acrobat/readstep2.html">download the latest version of the
+                Reader&reg;</a>
+        </p>
+    </div>
+<div class="group-tags"><div class="field-label">Tags:&nbsp;</div><a href="/terms/medicare">Medicare</a><a href="/terms/medicare-post-acute-care">Medicare Post Acute Care</a><a href="/terms/medicare-0">Medicare</a></div>  </div>
+
+      <footer>
+          </footer>
+  
+    <div id="block-webform-client-block-158521" class="widget block block-webform" >
+  
+      
+  <div id="webform-ajax-wrapper-158521"><form class="webform-client-form webform-client-form-158521" action="/report/examining-post-acute-care-relationships-integrated-hospital-system/39-multivariate-analysis-results" method="post" id="webform-client-form-158521" accept-charset="UTF-8"><div><div class="webform-progressbar">
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-radios webform-component--was-this-page-helpful">
+  <label for="edit-submitted-was-this-page-helpful">Was this page helpful? <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-was-this-page-helpful" class="form-radios"><div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-1" name="submitted[was_this_page_helpful]" value="1" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-1">Yes </label>
+
+</div>
+<div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-2" name="submitted[was_this_page_helpful]" value="0" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-2">No </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="4" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-SMRgpCdDLYTz16HKbgOb8u8Iw4tMXqH06zo5YXx5n80" />
+<input type="hidden" name="form_id" value="webform_client_form_158521" />
+<input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-158521" />
+<div class="form-actions"><input class="webform-next button-primary btn btn-default form-submit" type="submit" id="edit-webform-ajax-next-158521" name="op" value="Next &gt;" /></div>
+<div class="is-useful-disclaimer"> <a href="/%23" class="" title="Survey Disclaimer" data-toggle="modal" data-target="#disclamerModal">Form Approved OMB# 0990-0379 Exp. Date 8/31/2017</a></div>
+<div class="modal fade" id="disclamerModal" tabindex="-1" role="dialog" aria-labelledby="disclamerModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="disclamerModalLabel">Survey Disclaimer</h2>
+      </div>
+      <div class="modal-body">
+         According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this information collection is 0990-0379. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, gather the data needed, and complete and review the information collection. If you have comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: U.S. Department of Health & Human Services, OS/OCIO/PRA, 200 Independence Ave., S.W., Suite 336-E, Washington D.C. 20201, Attention: PRA Reports Clearance Officer.      </div>
+    </div>
+  </div>
+</div></div></form></div>
+  </div> <!-- /.block -->
+<meta  itemscope="" itemid="https://aspe.hhs.gov/report/examining-post-acute-care-relationships-integrated-hospital-system/391-ordinary-least-squares-regression-predicting-index-admission-length-stay" itemref="md1" /><meta  itemscope="" itemid="https://aspe.hhs.gov/report/examining-post-acute-care-relationships-integrated-hospital-system/392-binomial-logit-regression-predicting-use-post-acute-care" itemref="md2" /><meta  itemscope="" itemid="https://aspe.hhs.gov/report/examining-post-acute-care-relationships-integrated-hospital-system/393-multinomial-logit-predicting-first-site-post-acute-care" itemref="md3" /><meta  itemscope="" itemid="https://aspe.hhs.gov/report/examining-post-acute-care-relationships-integrated-hospital-system/394-binomial-logit-regression-predicting-readmission-during-post-acute-care-episodes" itemref="md4" /><meta  itemscope="" itemid="https://aspe.hhs.gov/report/examining-post-acute-care-relationships-integrated-hospital-system/395-ordinary-least-squares-regression-predicting-post-acute-care-episode-payment" itemref="md5" /><meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/examining-post-acute-care-relationships-integrated-hospital-system" itemref="md6" /><meta  itemscope="" itemid="https://aspe.hhs.gov/report/examining-post-acute-care-relationships-integrated-hospital-system/39-multivariate-analysis-results" itemref="md7 md9 md11 md13" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/medicare" id="md9" itemref="md8" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/medicare-post-acute-care" id="md11" itemref="md10" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/medicare-0" id="md13" itemref="md12" />              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <footer  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Footer">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  id="footer_sitemap-footer_sitemap" class="col-sm-6 col-md-6 col-lg-4 ">
+                          
+                              <div id="block-footer-sitemap-footer-sitemap" class="widget block block-footer-sitemap" >
+  
+      
+  <div id="footer-sitemap" class="clearfix">
+  <div class="fs-block-content"><div class="menu-footer-utility"><ul class="footer_links_menu-footer-utility total-items-2 parent-items-0 single-items-0"><li class="menu-5021 depth-1 total-children-8 parent-children-0 single-children-8  first"><a href="/" title="look at ASPE Home" class="fs-root-link">ASPE Home</a><ul class="footer_links_menu-footer-utility total-items-8 parent-items-0 single-items-0"><li class="menu-5026 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/" title="look at HHS Home">HHS Home</a></li>
+<li class="menu-66281 depth-1 fs-no-children"><a href="http://www.usa.gov/" title="look at USA.gov">USA.gov</a></li>
+<li class="menu-66316 depth-1 fs-no-children"><a href="https://oig.hhs.gov/" title="look at Office of the Inspector General">Office of the Inspector General</a></li>
+<li class="menu-66321 depth-1 fs-no-children"><a href="http://www.whitehouse.gov" title="look at The White House">The White House</a></li>
+<li class="menu-5046 depth-1 fs-no-children"><a href="http://www.hhs.gov/Accessibility.html" title="look at Accessibility">Accessibility</a></li>
+<li class="menu-66326 depth-1 fs-no-children"><a href="http://www.hhs.gov/about/budget/index.html" title="look at Budget/Performance">Budget/Performance</a></li>
+<li class="menu-2551 depth-1 fs-no-children"><a href="http://www.hhs.gov/Privacy.html" title="look at Privacy Policy">Privacy Policy</a></li>
+<li class="menu-197776 depth-1 fs-no-children  last"><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" title="Nondiscrimination Notice">Nondiscrimination Notice</a></li>
+</ul></li>
+<li class="menu-5051 depth-1 total-children-4 parent-children-0 single-children-4  last"><a href="http://www.hhs.gov/foia/" title="look at FOIA" class="fs-root-link">FOIA</a><ul class="footer_links_menu-footer-utility total-items-4 parent-items-0 single-items-0"><li class="menu-5056 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/open/recordsandreports/plainwritingact/index.html" title="look at Plain Writing Act">Plain Writing Act</a></li>
+<li class="menu-5061 depth-1 fs-no-children"><a href="http://www.hhs.gov/asa/eeo/no_fear_bullet_3.html" title="look at No Fear Act">No Fear Act</a></li>
+<li class="menu-5066 depth-1 fs-no-children"><a href="http://www.hhs.gov/Disclaimer.html" title="look at Disclaimers">Disclaimers</a></li>
+<li class="menu-2546 depth-1 fs-no-children  last"><a href="http://www.hhs.gov/plugins.html" title="look at Viewers &amp; Players">Viewers &amp; Players</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-5 " id="stability_cms-contact_us">
+                          
+                              <div id="block-stability-cms-contact-us" class="widget block block-stability-cms" >
+  
+      
+  <div class="contacts-widget widget widget__footer">
+	<div class="widget-content">
+		<ul class="contacts-info-list">
+      			<li>
+<!--				<i class="fa fa-map-marker">Address</i>-->
+                <div class="info-icons">
+                    <img  alt="map" class= 'map-icons' src="/sites/all/themes/stability/stability_aspe/images/map.png"/>
+                </div>
+                <div class="info-item">
+					Assistant Secretary for Planning and Evaluation, Room 415F<br />
+U.S. Department of Health and Human Services<br />
+200 Independence Avenue, SW<br />
+Washington, D.C. 20201				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-phone">phone</i>-->
+                <div class="info-icons">
+                    <img alt="phone" src="/sites/all/themes/stability/stability_aspe/images/phone.png"/>
+                </div>
+				<div class="info-item">
+					+1 202.690.7858				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-envelope">email</i>-->
+                <div class="info-icons">
+                    <img alt="mail" src="/sites/all/themes/stability/stability_aspe/images/mail-white.png"/>
+                </div>
+				<span class="info-item">
+					<a href="mailto:osaspeinfo@hhs.gov">osaspeinfo@hhs.gov</a>
+				</span>
+			</li>
+      			                					</ul>
+	</div>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-3 " id="footer">
+                          
+                              <div id="block-block-36" class="widget block block-block" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sign-up</span> for Email Updates</h3>
+		</div>
+    
+  <div class="email_updates">
+<button class="btn btn-default" name="subscribe-button" type="submit" value="subscribe">subscribe</button>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-12 " id="menu-menu-footer-language-menu">
+                          
+                              <div id="block-menu-menu-footer-language-menu" class="widget block block-menu" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Language</span> Assistance Available</h3>
+		</div>
+    
+  <ul class="menu"><li class="first expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#spanish" title="Español">Español</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#chinese" title="繁體中文">繁體中文</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#vietnamese" title="Tiếng Việt">Tiếng Việt</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#korean" title="한국어">한국어</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#tagalog" title="Tagalog">Tagalog</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#russian" title="Русский">Русский</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#arabic" title="العربية">العربية</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#creole" title="Kreyòl Ayisyen">Kreyòl Ayisyen</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#french" title="Français">Français</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#polish" title="Polski">Polski</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#portuguese" title="Português">Português</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#italian" title="Italiano">Italiano</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#german" title="Deutsch">Deutsch</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#japanese" title="日本語">日本語</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#farsi" title="فارسی">فارسی</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#english" title="English">English</a></li>
+</ul></li>
+</ul>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+      </div>
+
+          </div>
+    
+    
+      </footer>
+    
+
+    <!--/PAGEWATCH-->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+                        </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="social-links-wrapper">
+              <span class="social-links-txt">Connect with us</span>
+              <ul class="social-links social-links__dark">
+                                                  <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw-grey.png"/></a></li>
+                                <!--                --><!--                  <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin-grey.png"/></a></li>-->
+<!--                -->
+                                                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>  <script type="text/javascript" src="/sites/default/files/advagg_js/js__VWRymaMz6HfrhnrcJNGcDiSvLVrvhaXvBa7nrBYy8gc__jntPwP3D6myJZH1jW19fXrk5cYMHGRL8NQION22VSEA__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5486d15a696bff0c"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__g6mKbcakHxQkz4ZHYaxdO_xqONINvRMgsHh1zAK-fr0__ATHtEmHaeZ0jidpGU22EkhmPDBSgjD8z0bVDQMI-BIY__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__KUp4PrfOt9BSXUVl8Ctb3dhCMBe4MNVMeb4Gyorx8yY__7g4BeXscCIZAfuu1vxsCj2RIemg-eEK0QpChP9LDmFQ__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__-lTibmScdz72f0-5WA9kxuPp-TZJEfyLCI6M2oC8I7o__WokrfyLOTIIjCC2mi9PpCwBq3hzxExmsz_JSnp4-OsM__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__vQiLul2UcfC4nBAR09mhYVBYzRmiNDm2dj3GgSubV38__w84oZe-ZODKe7XnnlbrjV4IWHISOy4PioFEMVgx9hZo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__QJw3g0kOdwsv4twSZLP931zBzsHy50VEHpEN_znIitQ__A6QOuWXElDipBM2iChbWhjAAt3KlUwZ-jODoxdpbwiw__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stability_aspe","theme_token":"09VHOcxaNKG51-6Dgl_MeCJa7kofWZ5JKJgZbOhrsWg","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/footable.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/aspe_nodes.admin.css":1,"sites\/all\/modules\/custom\/aspe_views\/theme\/css\/aspe_views.admin.css":1,"sites\/all\/modules\/forked\/book\/book.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/openpublic\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.css":1,"profiles\/openpublic\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openpublic\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/openpublic\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/themes\/stability\/css\/bootstrap.min.css":1,"sites\/all\/themes\/stability\/css\/fonts\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.theme.css":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/stability\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/stability\/css\/theme.css":1,"sites\/all\/themes\/stability\/css\/theme-elements.css":1,"sites\/all\/themes\/stability\/css\/animate.min.css":1,"sites\/all\/themes\/stability\/css\/skins\/red.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/slideshow.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/font-main.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/styleless.less":1,"sites\/all\/themes\/stability\/css\/skins\/blue.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/aspe\/theme\/js\/aspe.login-confirm.js":1,"sites\/all\/modules\/custom\/aspe_report\/modules\/aspe_databooks\/js\/aspe_databooks.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.highcharts.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/datatables\/dataTables.min.js":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.min.js":1,"sites\/all\/libraries\/highcharts\/highcharts.js":1,"sites\/all\/libraries\/highcharts\/highcharts.exporting.js":1,"sites\/all\/libraries\/highcharts\/highcharts.map.js":1,"sites\/all\/libraries\/highcharts\/highcharts.us-all.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.footable.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5486d15a696bff0c":1,"misc\/progress.js":1,"profiles\/openpublic\/modules\/contrib\/webform\/js\/webform.js":1,"sites\/all\/modules\/custom\/aspe_book\/theme\/js\/async.js":1,"sites\/all\/modules\/custom\/aspe_book\/theme\/js\/aspe_book.jquery_ajax_load.js":1,"sites\/all\/modules\/custom\/aspe_book\/theme\/js\/aspe_book.filtering.js":1,"sites\/all\/modules\/custom\/aspe_book\/theme\/js\/aspe_book.collapsible.js":1,"profiles\/openpublic\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/stability\/vendor\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/stability\/vendor\/bootstrap.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flexnav.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flickrfeed.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.sloppy-masonry.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.fitvids.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.stellar.min.js":1,"sites\/all\/themes\/stability\/vendor\/snap.svg-min.js":1,"sites\/all\/themes\/stability\/js\/custom.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/aspe.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/html5shiv.min.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/main-menu.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/keyboard-control.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tabBehavior.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tileStringTrimmer.js":1}},"webform":{"conditionals":{"webform-client-form-158521":{"ruleGroups":[],"sourceMap":[],"values":[]}}},"ajax":{"edit-webform-ajax-next-158521":{"callback":"webform_ajax_callback","wrapper":"webform-ajax-wrapper-158521","progress":{"message":"","type":"throbber"},"event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Next \u003E"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/report\/examining-post-acute-care-relationships-integrated-hospital-system\/39-multivariate-analysis-results":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"([a-z0-9]\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This website contains links to other federal and state agencies and private organizations. The Department of Health and Human Services (HHS) cannot attest to the accuracy of information provided by these nonfederal website links. Linking to nonfederal sites does not constitute an endorsement by HHS or any of its employees of the sponsors or the information and products presented on the sites. You will be subject to the destination site\u0027s privacy policy when you leave the ASPE website.\r\n\r\nThank you for visiting aspe.hhs.gov!","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"stability":{"flickr_id":"52617155@N08","logo_sticky":"28"},"jquery_ajax_load":{"trigger":".jquery_ajax_load","target":"#jquery_ajax_load_target","toggle":true,"animation":true,"base_path":"\/","module_path":"sites\/all\/modules\/custom\/aspe_book","site_name":"ASPE"},"field_group":{"div":"full"}});
+//--><!]]>
+</script>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config={pubid:"ra-5486d15a696bff0c",ui_click:false}
+//--><!]]>
+</script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4837db659","applicationID":"10708002","transactionName":"MwNaZBRSXEtXB0BdWQpJeVMSWl1WGQpbUFM7FllXA2xEUVMT","queueTime":0,"applicationTime":1274,"atts":"H0RZElxIT0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

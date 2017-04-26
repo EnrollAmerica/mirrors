@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">  <!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://aspe.hhs.gov/sites/default/files/Favicon2.png" type="image/png" />
+<meta name="description" content="Contents" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://aspe.hhs.gov/execsum/transition-events-dynamics-poverty" />
+<link rel="shortlink" href="https://aspe.hhs.gov/node/98711" />
+<meta property="og:site_name" content="ASPE" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aspe.hhs.gov/execsum/transition-events-dynamics-poverty" />
+<meta property="og:title" content="Transition Events in the Dynamics of Poverty" />
+<meta property="og:description" content="Contents" />
+<meta property="og:updated_time" content="2017-02-21T11:59:16-05:00" />
+<meta property="article:published_time" content="2015-09-29T06:50:23-04:00" />
+<meta property="article:modified_time" content="2017-02-21T11:59:16-05:00" />
+
+  <title>Transition Events in the Dynamics of Poverty | ASPE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+  <link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__5ln8neBOcJfyUveiD4y9fhI6kHBLOQ_YL0mMC-LS9a0__TPJIZT9UBnf_685NlFTJ5KnZVsjwFk6ACQ-nwwygmwU__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ng49uRH5y4Hl9VF9hHW_vXOj-mcOc2u2ShJqJ1YKIGU__FoMCD14GBvZaRiqSQ_JpP1w3rDB21n7H2Ar4pRZaIh8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__Hskudx14OJ5Hz8vqU7CUgN6SDV5rINZuEq9VuGsSeyc__EwNIl3xeFrniW2TmonovTzhSs3X5MdFps210puE7jog__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__9rZoaX9BdzjjNucvYxduxeNAVO2zgW_Rvjhb5rq5whc__lSr_y16grDSgHf4booPChnF7QXz3TQY3hafH49twE0k__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZgfI_ZPib5yVY0o5aKo_6TFn946Tuu_nFDa0ySTmkSc__2FTFrNw2eNh0mpHIOA34r6YRwBZMm2PjJ_JubnwLigg__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__dxabpJ5rQgDSixKgLJZjWc1beC6mpROKwVrmWxI5eno__rqhz_hGsE_i59O7-W991o71_Jxw1QOtGMxn4nsOLHY8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZbRCq2NqWgK-HXAQI3So0N1n0nr4HonsJS3eQuuxukw__7Olkk8Locn8Dj0eR0Ww3rbV9lks9sxipcboMXB18RRs__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+
+	<!-- Head Libs -->
+	<script src="/sites/all/themes/stability/stability_aspe/vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/sites/all/themes/stability/vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" href="/sites/all/themes/stability/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/stability/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/stability/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/stability/images/apple-touch-icon-144x144.png">
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-98711 node-type-report-exec-sum">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-JLFR"
+                  height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JLFR');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-nav" class="accessibility_menu">
+    <strong>Shortcut Navigation:</strong>
+    <ul>
+      <li><a href="#content" accesskey="c" title="Skip to page content (ctrl/alt + c)">Page Content</a></li>
+      <li><a href="#nav" accesskey="m" title="Skip to main navigation menu (ctrl/alt + m)">Site Navigation</a></li>
+
+      <li><a href="#Footer" accesskey="f" title="Skip to footer (ctrl/alt + f)">Footer</a></li>
+    </ul>
+  </div>
+
+    
+<div class="site-wrapper">
+  
+  <header class="header header-menu-fullw header-top-clean">
+    <div id="brand-bar">
+        <div class="container">
+                    <img alt='bird' src="/sites/all/themes/stability/stability_aspe/images/bird.png"> <a target="blank" tabindex="4" href="http://www.hhs.gov/">U.S. Department of Health & Human Services</a>
+        </div>
+
+    </div>
+    <div class="header-main">
+        <div class="container clearfix">
+            <div class="social-links-wrapper">
+                <ul class="social-links social-links__light">
+                                                          <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw.png"/></a></li>
+                                    <!--                  --><!--                    <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin.png"/></a></li>-->
+<!--                  -->
+                                                                      </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                                <div class="site_name_wrapper">
+                                     <span class="h1">
+                                      <a href="/">ASPE</a>
+                                       </span>
+                                  <p class="tagline"><p>Office of The Assistant Secretary</p><p> for Planning and Evaluation</p></p>
+                    </div>
+            </div>
+            <!-- Logo / End -->
+            <div class="header_right_wrapper">
+                <div class="search-form">
+                    <form action="/execsum/transition-events-dynamics-poverty" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class = "input-group"><div class="form-type-textfield form-item-search-block-form form-item form-group">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search Site..." class="form-control form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input class="btn btn-primary btn-icon form-submit" type="image" id="edit-submit" name="submit" value="Search" src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/search-white2.png" alt="Search" title="Search" /></div></div><input type="hidden" name="form_build_id" value="form-6wgrKc25tdVd2gwlcicLdocS43mlpGInaAU-aTcG5jQ" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </div>
+                <button type="button" class="navbar-toggle" value="Menu">
+                    <i class="fa fa-bars"></i>Menu
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-main">
+        <div class="container">
+          <ul data-breakpoint="767" class="flexnav">
+                <li class="first expanded"><a href="/basic-search/about" title="">About</a><ul><li class="first leaf"><a href="/mission" title="">Mission</a></li>
+<li class="leaf"><a href="/key-staff" title="">Leadership</a></li>
+<li class="leaf"><a href="https://www.usajobs.gov/" title="">Careers</a></li>
+<li class="expanded"><a href="/coordination" title="linkTo">Coordination</a><ul><li class="first leaf"><a href="/evaluation-evidence" title="">Evaluation &amp; Evidence</a></li>
+<li class="leaf"><a href="/national-alzheimers-project-act">National Alzheimer&#039;s Project Act</a></li>
+<li class="leaf"><a href="/health-and-human-services-hhs-data-council">HHS Data Council</a></li>
+<li class="last leaf"><a href="/national-committee-vital-and-health-statistics" title="National Council on Vital and Health Statistics">National Council on Vital and Health Statistics</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/divisions" title="">Offices</a><ul><li class="first leaf"><a href="/office-disability-aging-and-long-term-care-policy-daltcp">Disability, Aging, and Long-Term Care Policy</a></li>
+<li class="leaf"><a href="/office-health-policy-hp">Health Policy</a></li>
+<li class="leaf"><a href="/office-human-services-policy">Human Services Policy</a></li>
+<li class="last leaf"><a href="/office-science-and-data-policy">Science and Data Policy</a></li>
+</ul></li>
+<li class="leaf"><a href="/strategic-planning" title="Strategic Planning">Strategic Planning</a></li>
+<li class="last leaf"><a href="/contact-aspe" title="">Contact ASPE</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/topics" title="">Topics</a><ul><li class="first leaf"><a href="/affordable-care-act-research">Affordable Care Act Research</a></li>
+<li class="leaf"><a href="/alzheimers-dementia">Alzheimer&#039;s / Dementia</a></li>
+<li class="leaf"><a href="/early-childhood">Early Childhood</a></li>
+<li class="leaf"><a href="/incarceration-reentry">Incarceration &amp; Reentry</a></li>
+<li class="leaf"><a href="/opioid-abuse-us-and-hhs-actions-address-opioid-drug-related-overdoses-and-deaths" title="Opioids">Opioids</a></li>
+<li class="leaf"><a href="/patient-centered-outcomes-research-trust-fund">Patient-Centered Outcomes Research Trust Fund (PCORTF)</a></li>
+<li class="expanded"><a href="/basic-search/poverty" title="">Poverty</a><ul><li class="first leaf"><a href="/poverty-guidelines">Poverty Guidelines</a></li>
+<li class="last leaf"><a href="/poverty-estimates-trends-and-analysis">Poverty Analysis</a></li>
+</ul></li>
+<li class="leaf"><a href="/teen-pregnancy-prevention">Teen Pregnancy Prevention</a></li>
+<li class="leaf"><a href="/homelessness">Homelessness</a></li>
+<li class="last leaf"><a href="/medicare-access-and-chip-reauthorization-act-2015">MACRA</a></li>
+</ul></li>
+<li class="leaf"><a href="/reports" title="">Publications</a></li>
+<li class="last expanded"><a href="/basic-search/datasets" title="">Data and Tools</a><ul><li class="first last leaf"><a href="/evaluations" title="">Evaluation Database</a></li>
+</ul></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation / End -->
+</header>  <div class="main" role="main">
+    <!--PAGEWATCH CODE="USHHS_458"-->
+    <section class="page-heading">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+                <h1>
+                    
+          Transition Events in the Dynamics of Poverty        </h1>
+                                 <p class="author">
+                                                 <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2002-09-01T00:00:00-04:00">09/01/2002</span>               
+                           </p>
+
+
+                  </div>
+
+
+        <div class="col-md-6">
+           <ul class="breadcrumb"><li class="first"><a href="/" title="Home">Home</a></li>
+<li class="last">Transition Events in the Dynam...</li>
+</ul>        </div>
+
+
+    </div>
+  </div>
+</section>
+    
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Content">     
+
+        
+                  
+        
+                                    <div  class="col-md-12 " id="content">
+                          
+                              <div id="block-aspe-aspe-addthis" class="widget block block-aspe" >
+  
+      
+  <div class="clearfix">
+  <ul class="addthis_sharing_toolbox node-share__links" data-url="https://aspe.hhs.gov/execsum/transition-events-dynamics-poverty" data-title="Transition Events in the Dynamics of Poverty">
+    <li><a class="addthis_button_print"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/print-white.png" alt="print" /></a></li>
+    <li><a class="addthis_button_email"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/mail-white.png" alt="email" /></a></li>
+    <li><a class="addthis_button_twitter"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/tw.png" alt="twitter" /></a></li>
+<!--    <li><a class="addthis_button_facebook">--><!--</a></li>-->
+    <li><a class="addthis_button_compact"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/plus-white.png" alt="compact" /></a></li>
+  </ul>
+</div>
+
+  </div> <!-- /.block -->
+
+                
+    
+  
+  <div class="content clearfix node-report-exec-sum">
+    <p><a id="TOC">Contents</a></p>
+<p> </p>
+<ol style="list-style-type:decimal"><li><a href="#q1">What are the dynamics behind changes in the poverty rate over time?</a></li>
+<li><a href="#q2">What events increase individuals likelihood of entering and exiting poverty?</a>
+<ul><li><a href="#Descriptive">Descriptive Results</a>
+<ul><li><a href="#Poverty">Poverty Entries, Descriptive Results</a></li>
+<li><a href="#exits">Poverty Exits, Descriptive Results</a></li>
+</ul></li>
+<li><a href="#Multivariate">Multivariate Results</a>
+<ul><li><a href="#entries-mult">Poverty Entries, Multivariate Results</a></li>
+<li><a href="#exits-mul">Poverty Exits, Multivariate Results</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#q3">What is the likelihood of entering and exiting poverty given these different events?</a>
+<ul><li><a href="#Likelihood">Likelihood of Poverty Entry</a></li>
+<li><a href="#like-exit">Likelihood of Poverty Exit</a></li>
+</ul></li>
+</ol><ul><li><a href="#Main">Main Findings</a></li>
+</ul><ul><li><a href="#Endnotes">Endnotes</a></li>
+</ul><p>The poverty rate has fallen from over 15 percent in 1993  one of its highest levels in three decades, to 11.3 percent in 2000  its lowest level in two decades. What events triggered entries into and exits from poverty during the last three decades? What role do events such as changes in household composition, employment status, and disability status play in individuals entries into and exits from poverty? Understanding why individuals enter and exit poverty may be useful for effective policy, yet little is known about the events associated with poverty.</p>
+<p>Several researchers have examined the relationship between events and poverty transitions, where these trigger events include changes in household composition, employment status, and disability status. Surprisingly, most studies use only descriptive analyses. While informative, descriptive analyses provide limited information because individuals can experience more than one event at a time, thereby making it impossible to disentangle the relationship between one event and a poverty transition from that of other events or demographic characteristics. This study adds to our understanding of the role events play in individuals entries into and exits from poverty by using a multivariate framework, which disentangles the relationship between different events and poverty transitions.</p>
+<p>This study sheds light on three questions that remain largely unanswered in the poverty literature:</p>
+<ol style="list-style-type:decimal"><li><a href="#q1">What are the dynamics behind changes in the poverty rate over time?</a></li>
+<li><a href="#q2">What events increase individuals' likelihood of entering and exiting poverty?</a></li>
+<li><a href="#q3">What is the likelihood of entering and exiting poverty given these different events?</a></li>
+</ol><p>We answer the questions posed above using two longitudinal data sets. We use yearly data from the 1975-1997 panels of the Panel Study of Income Dynamics (PSID) as well as monthly data from the 1988, 1990, and 1996 panels of the Survey of Income and Program Participation (SIPP). Using both the PSID and SIPP allows us to examine: (1) poverty dynamics measured with monthly (SIPP) and yearly (PSID) reporting periods; (2) events over two decades (PSID) and since the 1996 federal welfare reform (SIPP); and (3) the extent to which the results differ across the two data sets.</p>
+<p>We examine poverty dynamics over time and measure transitions into and out of poverty using the official definition of poverty. While we recognize several shortcomings associated with the official poverty measure, it is the most commonly used measure of poverty in transitions research and offers an easily implemented, straightforward method for measuring the economic status of individuals.</p>
+<p>In brief, we find that poverty entries and exits have changed over the past two decades, with the mid 1990s seeing an increase in both entries into poverty and exits from poverty. Descriptive analyses of poverty entries and exits show that shifts in household structure (i.e., transitions from a two-adult to a female-headed household and vice versa) are relatively rare events in the population, but individuals who experience these events are the most likely to transition into or out of poverty. While individuals who experience employment shifts are somewhat less likely to experience a poverty transition (than those with a household structure shift), shifts in employment are more common events in the population at large, and so are associated with a larger share of transitions into and out of poverty. Controlling for demographic and economic factors in the multivariate analyses, we find the likelihood of entering or exiting poverty to be highest for persons living in households with employment changes, followed by persons living in households with a shift in headship. These findings are discussed further in the executive summary, and expanded on in the full report.</p>
+<h2><a id="q1">1. What are the dynamics behind changes in the poverty rate over time?</a></h2>
+<p>Our examination of changes in the poverty rate over the 22 years from 1975 through 1996, using PSID data, finds that the annual poverty rate was relatively low in the mid-to-late 1970s, moderate in the mid-to-late 1980s, and high in the early-to-mid 1980s and early-to-mid 1990s. The dynamics behind these changes in the poverty rate illustrate that, not surprisingly, the number of people entering poverty is greater than the number of people exiting poverty when the poverty rate is increasing and vice versa when the poverty rate is decreasing (<a href="#fig1">ES Figure 1</a>).</p>
+<p style="text-align:center"><img alt="ES Figure 1. The Poverty Rate and Number of People Entering and Exiting Poverty, 1976-1996. Panel Study of Income Dynamics (PSID)." src="/system/files/exec_sum_images/98711/es-fig1_0.gif" style="border:0px solid; height:530px; width:596px" /></p>
+<p>The number of people entering and exiting remained relatively constant from 1975 until the early 1990s, when both jumped dramatically (<a href="#fig1">ES Figure 1</a>). The high levels of poverty entries and exits in the mid-1990s suggest that poverty rates remained high over this period because entries and exits were both high, not because both were low. Many people were cycling in and out of poverty. A look at the early-to-mid 1980s, another period where poverty rates remained high, reveals that this was not always the case. The number of people entering and exiting poverty in this period is comparatively low. The early-to-mid 1980s were characterized by fewer people staying in poverty rather than many people cycling through. In general, the early-to-mid 1990s look different from earlier time periods.</p>
+<h2><a id="q2">2. What events increase individuals likelihood of entering and exiting poverty?</a></h2>
+<p>Many events throw people into poverty and many events help people exit from poverty. There appears to be no single path into or out of poverty. We find that changes in household composition, employment, and disability status are most important. Changes in economic conditions (state unemployment rates, GDP) have only a slight influence on poverty transitions, though the level of economic conditions are important. More specific findings from the descriptive and multivariate analyses, using both the PSID and SIPP, are discussed below.</p>
+<p style="text-align:right">[ Go to <a href="#TOC">Contents</a> ]</p>
+<h2 style="text-align:center"><a id="Descriptive">Descriptive Results</a></h2>
+<h3><a id="Poverty">Poverty Entries, Descriptive Results</a></h3>
+<p>The poverty entry trigger events are experienced by a small, but significant portion of the sample. The proportion of persons who experience these events is higher when measured annually with PSID data than monthly with SIPP data. Employment changes are the most common entry trigger events experienced by persons in both the PSID and SIPP data. Having a child under age six enter the household is also a relatively common event, whereas shifting from a two-adult to a female-headed household is a relatively rare event. While shifting from a two-adult to a female-headed household is a fairly rare event, individuals who experience this event are by far the most likely to enter poverty. Loss of employment, onset of a disability, and having a child under age six enter the household are also associated with an above average likelihood of entering poverty. Below we discuss these descriptive statistics for the PSID (<a href="#fig2">ES Figures 2</a> and <a href="#fig3">3</a>) and SIPP (<a href="#fig4">ES Figures 4</a> and <a href="#fig5">5</a>) in more detail.</p>
+<h4><em>PSID: Descriptive poverty entry results</em></h4>
+<p>The entry trigger events are experienced by one to seven percent of the sample over the course of a year (<a href="#fig2">ES Figure 2</a>). A loss of employment by the wife or other household members are the most common events (6.5 and 6.9 percent of the sample), followed by the household head becoming disabled (5.5 percent), and by the birth of a child (4.8 percent). Other changes in household composition-including a change from a two-adult to a female-headed household and a young adult setting up his or her own household-are relatively rare events experienced by less than two percent of the sample.</p>
+<p style="text-align:center"><img alt="ES Figure 2. Percent Experiencing Entry Trigger Event, 1975-97 Waves of the Panel Study of Income Dynamics (PSID)." src="/system/files/exec_sum_images/98711/es-fig2_0.gif" style="border:0px solid; height:389px; width:548px" /></p>
+<p>The PSID descriptive results presented in <a href="#fig3">ES Figure 3</a> suggest that persons who experience these key trigger events in a given year are more likely to enter poverty that year than the total sample. Persons who shift from living in a two-adult household to a female-headed household, a fairly rare event, are by far the most likely to enter poverty (12.4 percent). Persons experiencing changes in labor supply are less likely to enter poverty than those shifting to a female-headed household (4.5 to 6.4 percent), as are persons living in a household where the head becomes disabled (6.8 percent), a young child is born (5.7 percent), or a young adult sets up his or her own household (5.2 percent).</p>
+<p style="text-align:center"><img alt="ES Figure 3. Percent Entering Poverty Among Persons Experiencing Entry Trigger Event, 1975-97 Waves of the Panel Study of Income Dynamics (PSID)." src="/system/files/exec_sum_images/98711/es-fig3_0.gif" style="border:0px solid; height:432px; width:565px" /></p>
+<p>While those who shift to a female-headed household are the most likely to enter poverty, this event does not explain why most people are poor, because only a small fraction of the population experiences this event. Employment loss is a far more likely explanation. In descriptive analyses of those entering poverty (not shown here), employment is indeed the most common event associated with poverty entry. Nearly 40 percent of those entering poverty had a household member lose a job. A change in disability status plays the next largest role (11 percent of those entering poverty), followed by a young child entering the household (8 percent), a shift to a female-headed household (6 percent), and a young adult setting up his or her own household (2 percent).</p>
+<h4><em>SIPP: Descriptive poverty entry results </em></h4>
+<p>The SIPP descriptive results highlight the lower percent of persons entering poverty or experiencing an event when measured monthly in the SIPP than annually in the PSID (<a href="#fig4">ES Figures 4</a> and <a href="#fig5">5</a>). Only one percent of the SIPP person-month sample enters poverty in a given month as compared with three percent of the PSID person-year sample in a given year. And, not surprisingly, persons are much less likely to experience an event in a month, than at any time over the past year.</p>
+<p style="text-align:center"><img alt="ES Figure 4. Percent Experiencing Entry Trigger Event, Survey of Income and Program Participation (SIPP)." src="/system/files/exec_sum_images/98711/es-fig4_0.gif" style="border:0px solid; height:391px; width:556px" /></p>
+<p style="text-align:center"><img alt="ES Figure 5. Percent Entering Poverty Among Persons Experiencing Entry Trigger Event, Survey of Income and Program Participation (SIPP)." src="/system/files/exec_sum_images/98711/es-fig5_0.gif" style="border:0px solid; height:387px; width:552px" /></p>
+<p>The SIPP monthly data confirm the general findings from the PSID annual data: (1) Persons who experience each of the key trigger events in a given month are significantly more likely to enter poverty that month than the total sample; (2) Persons who shift from living in a two-adult household to a female-headed household, a relatively rare event, are the most likely to enter poverty; and (3) Even though persons who shift to a female-headed household are the most likely to enter poverty, this event accounts for a much smaller percent of poverty entries than a loss of employment because relatively few people experience a shift to a female-headed household.</p>
+<h3><a id="exits">Poverty Exits, Descriptive Results</a></h3>
+<p>The poverty exit trigger events are experienced by a somewhat larger portion of the sample than the poverty entry trigger events. The proportion of persons who experience these exit events is higher when measured annually with PSID data than monthly with SIPP data. Employment changes are the most common exit trigger events experienced by persons in both the PSID and SIPP data. This is followed by living with a household head who ceases to be disabled. Living in a household that shifts from a female-headed to a two-adult headed household and in a household where the head's educational attainment increases are somewhat rare events. While shifting from a female-headed to a two-adult household is a fairly rare event, individuals who experience this event are the most likely to exit poverty. Gaining employment, having a disability that ceases, and increasing educational attainment are also associated with above average likelihoods of entering poverty. Below we discuss these descriptive statistics for the PSID (<a href="#fig6">ES Figures 6</a> and <a href="#fig7">7</a>) and SIPP (<a href="#fig8">ES Figures 8</a> and <a href="#fig9">9</a>) in more detail.</p>
+<h4><em>PSID: Descriptive poverty exit results </em></h4>
+<p>For the key events hypothesized to affect poverty exits, we again find that changes in labor supply are the most common trigger events, (6.2 to 10.5 percent, <a href="#fig6">ES Figure 6</a>), followed by a change in disability status (8.8 percent), and a shift from a female-headed to a two-adult household (1.4 percent). Less than one percent of the sample experienced a change in the household head's education status.</p>
+<p> </p>
+<p style="text-align:center"><img alt="ES Figure 6. Percent Experiencing Exit Trigger Event, 1975-97 Waves of the Panel Study of Income Dynamics (PSID)." src="/system/files/exec_sum_images/98711/es-fig6_0.gif" style="border:0px solid; height:378px; width:575px" /></p>
+<p style="text-align:left">Persons experiencing each of the key exit trigger events in a given year are significantly more likely to exit poverty that year than the total sample, with the exception of those whose household head received an associate's degree or higher (<a href="#fig7">ES Figure 7</a>). Similar to the findings for poverty entry, persons who shift from living in a female-headed to a two-adult household are the most likely to experience a poverty transition-55.7 percent exit poverty. However, because relatively few people experience this event, it is not most often associated with poverty exits. Changes in labor supply are often associated with poverty exits in the total population.</p>
+<p style="text-align:center"><img alt="ES Figure 7. Percent Exiting Poverty Among Persons Experiencing Exit Trigger Event, 1975-97 Waves of the Panel Study of Income Dynamics (PSID)." src="/system/files/exec_sum_images/98711/es-fig7_0.gif" style="border:0px solid; height:406px; width:561px" /></p>
+<h4> </h4>
+<p style="text-align:left"><em>SIPP: Descriptive poverty exit results</em></p>
+<p style="text-align:left">The SIPP data reveal a lower percentage of persons experiencing each event and exiting poverty when measured monthly than when measured annually in the PSID (<a href="#fig8">ES Figures 8</a> and <a href="#fig9">9</a>). Only nine to 11 percent of the SIPP person-month samples exit poverty as compared with 36 percent of the PSID person-year sample. The other general descriptive results remain unchanged.</p>
+<p style="text-align:center"><img alt="ES Figure 8. Percent Experiencing Exit Trigger Event, Survey of Income and Program Participation (SIPP)." src="/system/files/exec_sum_images/98711/es-fig8_0.gif" style="border:0px solid; height:387px; width:552px" /></p>
+<p style="text-align:center"><img alt="ES Figure 9. Percent Exiting Poverty Among Persons Experiencing Exit Trigger Event, Survey of Income Program Participation (SIPP)." src="/system/files/exec_sum_images/98711/es-fig9_0.gif" style="border:0px solid; height:407px; width:523px" /></p>
+<h2 style="text-align:center"><a id="Multivariate">Multivariate Results</a></h2>
+<p>The general findings from the multivariate analyses are similar for the poverty entry and poverty exit models. The multivariate analyses confirm that many events are related to individuals' likelihood of entering and exiting poverty, although a different event is identified as most important in poverty transitions.<a href="#1"><sup>(1)</sup></a> Controlling for multiple events and household and economic characteristics reduces the observed relationship between household structure shifts and poverty, and employment changes emerge as being most strongly related to poverty entries and exits, not shifts in household structure.<sup><a href="#2">(2)</a></sup> Below we discuss the findings from the poverty entry analysis, and then turn to the poverty exit analysis.</p>
+<h3><a id="entries-mult">Poverty Entries, Multivariate Results </a></h3>
+<p>The PSID and SIPP analyses identify many events that are associated with individuals' entries into poverty. Even though the PSID examines yearly poverty entries and the SIPP analysis examines <em>monthly </em>poverty entries, the PSID and SIPP results are quite similar. In both the PSID and SIPP analyses, individuals living in a household that experiences the loss of employment are the most likely to enter poverty, followed by individuals in households that shift from two adults to female-headed. We also find that having a child under age six enter the household and the onset of a disability are related to poverty entries. There is some evidence that increases in the unemployment rate increase poverty entries.<sup><a href="#3">(3)</a></sup> This suggests that economic conditions do affect whether individuals enter poverty. Many of the other household and geographic characteristic control variables are significantly related to poverty entries. Highlights from these analyses are presented for the PSID in <a href="#fig10">ES Figure 10</a> and for the SIPP in <a href="#fig11">ES Figure 11</a>.</p>
+<h4><em>PSID: Multivariate poverty entry results </em></h4>
+<p>Individuals experiencing many of the trigger events are significantly more likely to enter poverty, even after controlling for other events that may occur during the same time period as well as demographic characteristics and economic conditions (<a href="#fig10">ES Figure 10</a>). Of the trigger events examined, individuals living in a household that experiences a loss of employment are the most likely to enter poverty (a 13.3, 5.5, and 3.8 percentage point increase in the likelihood of entering poverty if the head, spouse, or other household members lose their job, respectively). This is followed by individuals in households that shift from being headed by two adults to being headed by only a female (11.9 percentage point increase). Persons living in households that have a child under age six enter and young adults who set up their own households have smaller changes in the likelihood of entering poverty (2.4 and 1.2 percentage points, respectively).</p>
+<p style="text-align:center"><img alt="ES Figure 10. Change in the Likelihood of Entering Poverty if Event Occurs, Controlling for other Events and Characteristics 1975-97 Waves of the Panel Study of Income Dynamics (PSID)." src="/system/files/exec_sum_images/98711/es-fig10_0.gif" style="border:0px solid; height:379px; width:574px" /></p>
+<h4><em>SIPP: Multivariate poverty entry results </em></h4>
+<p>Loss of employment by the household head has the largest impact on poverty entry in both the 1988/90 and 1996 SIPP panels (10.0 and 12.3 percentage points, respectively, <a href="#fig11">ES Figure 11</a>). Losses of employment by the spouse and other family members have smaller, yet significant, effects (1.1 to 6.0 percentage points). Having a child under age six enter the household increases the likelihood of entering poverty by roughly 3.5 percentage points, which is similar to the 2.4 percentage point increase found in the PSID analysis. Shifting from a two-adult to a female-headed household increases the likelihood of entering poverty in both periods--by 8.9 percentage points in the 1988/90 SIPP and only 1.3 percentage points in the 1996 SIPP, which is considerably smaller than the increase found in our analysis of PSID data (11.9 percentage points).</p>
+<p style="text-align:center"><img alt="ES Figure 11. Change in the Likelihood of Entering Poverty if Event Occurs, Controlling for other Events and Characteristics, Survey of Income and Program Participation (SIPP)." src="/system/files/exec_sum_images/98711/es-fig11_0.gif" style="border:0px solid; height:367px; width:574px" /></p>
+<p>The SIPP results suggest that over the 1988-92 (i.e., 1988/1990 SIPP panel) to 1997-99 (i.e., 1996 SIPP panel) time period, shifts from two-adult to female-headed households  measured while controlling for shifts in employment  became less important in individuals' poverty entries. Because changes in household structure are often associated with changes in employment, we estimated a second set of models that exclude employment changes (not shown). The results from these models show a similar relationship between poverty entries and household structure shifts in the 1988-92 and 1997-99 periods. One possible explanation for this pattern is that in the latter period changes in household structure are operating indirectly through employment to a greater extent than in the earlier period.</p>
+<h3><a id="exits-mul">Poverty Exits, Multivariate Results</a></h3>
+<p>The events included in the poverty exit models differ somewhat from those included in the poverty entry models. A shift in household structure  from a female-headed to a two-parent household  is the only family composition trigger event included in the poverty exit models.<sup><a href="#4">(4)</a></sup> Another difference is that the poverty exit models include increases in educational attainment as a trigger event.</p>
+<p>Many of the events associated with poverty entries are also associated with poverty exits. The PSID and SIPP analyses show some similarities, although the results differ across the two data sets to a greater extent in the poverty exit models than in the poverty entry models. In general, individuals living in households that experience an employment gain are the most likely to exit poverty. Shifts from a female-headed to a two-adult household also emerge as an important factor in poverty exits. One difference between the PSID and SIPP analyses is the extent to which increases in educational attainment are related to poverty exits. Our SIPP analysis shows that receiving a high school or advanced degree is significantly related to poverty exits, while no relationship is found in the PSID analysis. Changes in economic conditions  changes in state unemployment rates and GDP  have only a slight influence on poverty exits, but the unemployment rate is significantly related to poverty exits.<sup><a href="#5">(5)</a></sup> Many of the other household and geographic characteristic control variables are significantly related to poverty exits, as well as the poverty spell information. Highlights from these analyses are presented for the PSID in <a href="#fig12">ES Figures 12</a> and for the SIPP in <a href="#fig13">ES Figure 13</a>.</p>
+<h4><em>PSID: Multivariate poverty exit results </em></h4>
+<p>Fewer events are associated with poverty exits than with poverty entries (<a href="#fig12">ES Figure 12</a>). Like our examination of poverty entries, the results suggest that shifts in employment are the most important events. The striking difference is the importance of employment gains by the spouse (29.4 percentage point change) and other household members (15 percentage point change), relative to an employment gain by the household head (7.3 percentage point change). A shift in household structure (12.4 percentage point change) is generally less important than employment gains. These differ from our descriptive results which identified shifts in household structure as more important than shifts in employment.</p>
+<p style="text-align:center"><img alt="Figure 12. Change in the Likelihood of Exiting Poverty if Event Occurs, Controlling for other Events and Characteristics 1975-97 Waves of the Panel Study of Income Dynamics (PSID)." src="/system/files/exec_sum_images/98711/es-fig12_0.gif" style="border:0px solid; height:320px; width:573px" /></p>
+<p><em>While individuals living with a household head who becomes disabled are more likely to enter poverty, individuals who live with a household head who ceases to be disabled are not</em> more likely to exit poverty. We also examine whether a change in educational attainment is related to the probability of exiting poverty, but find no relationship.</p>
+<h4><em>SIPP: Multivariate poverty exit results</em></h4>
+<p>Many more of the trigger events are significantly related to poverty exits in the SIPP analysis as compared to the PSID analysis. The SIPP analysis shows the importance of employment gains in individuals' exits from poverty, but employment gains do not dominate the other events in the SIPP analysis as they do in the PSID analysis.</p>
+<p>The 1996 SIPP results suggest that employment gains are most often associated with exits from poverty (28.3 to 29.6 percentage point change, <a href="#fig13">ES Figure 13</a>). This, however, is not followed by shifts from female-headed to two-adult households as in the PSID analysis. Instead, we find that increases in educational attainment  completing a high school (7.4 percentage points) or higher-level degree (27.0 percentage points)  are the next most important events. This increased likelihood of exiting poverty upon completing a schooling degree may be due to the higher wages individuals generally command with higher levels of education, as well as increased hours of work which may coincide with the completion of school.</p>
+<p style="text-align:center"><img alt="ES Figure 13. Change in the Likelihood of Exiting Poverty if Event Occurs, Controlling for other Events and Characteristics, Survey of Income and Program Participation (SIPP)." src="/system/files/exec_sum_images/98711/es-fig13_0.gif" style="border:0px solid; height:442px; width:577px" /></p>
+<p>A comparison of the 1988/1990 and 1996 SIPP panel results show that household structure shifts are important in the two periods, but that there is a substantial difference in the estimated relationship between household structure shifts and poverty exits over this time (<a href="#fig13">ES Figure 13</a>). With a shift from a female-headed to a two-adult household, individuals likelihood of exiting poverty in the 1988-92 period (i.e., 1988/1990 SIPP panel) increased by 24.9 percentage points, whereas in the 1997-99 period it only increased by 4.8 percentage points. Like our analysis of poverty entries, further analyses suggest that this difference between household structure shifts and poverty exits in the two time periods may occur because changes in household structure operate indirectly through employment to a greater extent in the 1997-99 period than in the 1988-92 period.<sup><a href="#6">(6)</a></sup></p>
+<h2><a id="q3">3. What is the likelihood of entering and exiting poverty given these different events?</a></h2>
+<p>Estimates from the multivariate analysis are used to calculate the overall likelihood of entering poverty if an individual experiences a particular event in a given year, using the PSID, and in a given month, using the SIPP. These likelihood values are interpreted by comparing the likelihood of entering/exiting poverty when an event occurs with the overall average likelihood of entering/exiting poverty. The patterns of these likelihood findings follow the patterns from the multivariate analyses. Consistent with the multivariate analyses, for example, we find that individuals living in households that experience an employment change have the highest likelihood of changing their poverty status. Below we discuss the relationship between trigger events and individuals' likelihood of entering poverty, and then turn to poverty exits.</p>
+<h3><a id="Likelihood">Likelihood of Poverty Entry </a></h3>
+<p>In both the PSID and SIPP analyses, all six poverty entry trigger events are associated with an above average likelihood of entering poverty. Individuals who live in a household that experiences an employment loss are the most likely to enter poverty. This is, in general, followed by individuals who live in a household that experiences a shift from two-adult headed to female-headed. More detailed information from the PSID analysis is presented in <a href="#fig14">ES Figures 14</a> and results from the SIPP analysis are presented in <a href="#fig15">ES Figure 15</a>.</p>
+<h4><em>PSID: Likelihood of poverty entry </em></h4>
+<p>The likelihood of entering poverty is highest, all else equal, for persons living in households with a head who loses employment, 16.7 percent. The likelihood of entering poverty if one shifts from two-adult to female-headed household is slightly lower at 15.3 percent. If the spouse loses employment, another household member loses employment, or the head becomes disabled the likelihood of entering poverty is 8.9 percent, 7.2 percent, and 5.8 percent, respectively. For the two remaining household composition shifts  child under age six enters household and young adults set up own household  the likelihoods of entering poverty are 5.8 percent and 4.6 percent, respectively.</p>
+<p style="text-align:center"><img alt="ES Figure 14. Change in the Likelihood of Entering Poverty if Event Occurs, Controlling for other Events and Characteristics 1975-97 Waves of the Panel Study of Income Dynamics (PSID)." src="/system/files/exec_sum_images/98711/es-fig14_0.gif" style="border:0px solid; height:402px; width:575px" /></p>
+<h4><em>SIPP: Likelihood of poverty entry</em></h4>
+<p>In the 1997-99 period, employment losses dominate the other events and are more likely to lead to a poverty entry. The likelihood of entering poverty in a month is 13.6 percent if the head loses employment, 7.3 percent if the spouse loses employment, and 6.6 percent if another family member loses employment  significantly higher than the average entry likelihood of 1.3 percent. In the 1988-92 period, these probabilities are somewhat lower: 11.1 percent, 2.2 percent, and 3.5 percent, respectively. As mentioned in the discussion of the multivariate analysis, models that include both household structure and employment shifts show a substantial difference in the relationship between household structure shifts and poverty entries in the 1997-99 period vs. the 1988-92 period. The likelihood of entering poverty if the household shifts from two-adult to female-headed is 10.0 percent in the 1988-92 period, and is 2.6 percent in the 1996-99 period. This difference, however, is eliminated when employment changes are excluded from the model.<sup><a href="#7">(7)</a></sup> If a child under age six enters the household, the likelihood of entering poverty is roughly 5 percent in both the 1988-92 and 1997-99 periods.</p>
+<p style="text-align:center"><img alt="ES Figure 15.  Likelihood of Entering Poverty if Event Occurs, Controlling for Other Events and Characteristics, Survey of Income and Program Participation (SIPP)." src="/system/files/exec_sum_images/98711/es-fig15_0.gif" style="border:0px solid; height:397px; width:584px" /></p>
+<h3><a id="like-exit">Likelihood of Poverty Exit</a></h3>
+<p>Many of the events associated with poverty entries are also associated with poverty exits. However, more events are associated with an above average likelihood of exiting poverty in the monthly SIPP analysis as compared to the annual PSID analysis. The SIPP analysis suggests that individuals living with a household head who receives a high school or advanced degree have an above average likelihood of exiting poverty, while the PSID analysis finds no such benefit for individuals in these households. In general, the results suggest that individuals living in households that experience an employment gain are the most likely to exit poverty, followed by those living in a household that shifts from female-headed to two-adult headed. More detailed information from the PSID analysis is presented in <a href="#fig16">ES Figures 16</a> and results from the SIPP analysis are presented in <a href="#fig17">ES Figure 17</a>.</p>
+<h4><em>PSID: Likelihood of poverty exit</em></h4>
+<p>The PSID results suggest that the likelihood of exiting poverty is above average for persons living in households that experience an employment gain or a shift from female-headed to two-adult headed, but is not above average for individuals in households where the head either ceases to be disabled or increases his/her educational attainment. The likelihood of exiting poverty in a year is 65.2 percent if the spouse gains employment, 50.8 percent if another household member gains employment, and 43.1 percent if the head gains employment  significantly higher than the average exit likelihood of 35.8 percent. For persons living in a household that shifts from female-headed to two-adult headed, the likelihood of exiting poverty in a year is 48.2 percent.</p>
+<p style="text-align:center"><img alt="Figure 16.  Likelihood of Exiting Poverty if Event Occurs, Controlling for Other Events and Characteristics, 1975-97 Waves of the Panel Study of Income Dynamics (PSID)." src="/system/files/exec_sum_images/98711/es-fig16_0.gif" style="border:0px solid; height:363px; width:575px" /></p>
+<h4><em>SIPP: Likelihood of poverty exit</em></h4>
+<p>In the 1996-99 period, employment gains are most likely to lead to a poverty exit. The likelihood of exiting poverty in a month is 37.4 percent if the head gains employment, 37.5 percent if the spouse gains employment, and 38.7 percent if another family member gains employment  significantly higher than the average exit likelihood of 9.1 percent. In the 1988-92 period, these likelihoods are similar, but slightly lower: 29.1 percent, 29.8 percent, and 33.3 percent, respectively. Increases in educational attainment also play an important role in poverty exits. The likelihood of exiting poverty when the household head receives an advanced degree is between 31 and 36 percent, close in magnitude to the employment gain likelihoods. Again, models that include both household structure and employment shifts show a substantial difference in the relationship between household structure shifts and poverty entries in the 1997-99 and 1988-92 periods. The likelihood of exiting poverty if the household shifts from female-headed to two-adult headed is 35.8 percent in the 1988-92 period, and is 13.9 percent in the 1996-99 period. This difference, however, is eliminated when employment changes are excluded from the model.</p>
+<p style="text-align:center"><img alt="ES Figure 17.  Likelihood of Exiting Poverty if Event Occurs, Controlling for Other Events and Characteristics, Survey of Income and Program Participation (SIPP)." src="/system/files/exec_sum_images/98711/es-fig17_0.gif" style="border:0px solid; height:379px; width:574px" /></p>
+<h2 style="text-align:center"><a id="Main">Main Findings</a></h2>
+<p>Our examination of changes in the poverty rate over the 22 years from 1975 through 1996, using PSID data, finds that the annual poverty rate was relatively low in the mid-to-late 1970s, moderate in the mid-to-late 1980s, and high in the early-to-mid 1980s and early-to-mid 1990s. Analysis of poverty entries and exits over these two decades shows that the early-to-mid 1990s look different from earlier years. The high poverty rates in the mid-1990s were characterized by many people cycling through poverty, while the high poverty rates in the early-to-mid 1980s were characterized by fewer people staying in poverty.</p>
+<p>In terms of events associated with poverty entries and exits, this studys main descriptive finding  that persons who experience a major shift in household composition are the most likely to transition into and out of poverty  is somewhat overlooked in the literature because most studies examine events only among those who enter or exit poverty. In doing so, these studies place emphasis on the likelihood of experiencing an event among poor persons rather than on the likelihood of entering/exiting poverty among persons who experience an event. Since the likelihood of experiencing a shift from a two-adult to a female-headed household or vice versa is low, especially relative to the likelihood of experiencing a change in employment, the shift in household composition appears less important than a change in employment. As descriptive analyses by Ruggles and Williams (1987) and Duncan and Rodgers (1988) find, major changes in household composition are rare, but they are associated with large changes in the likelihood of a change in poverty status when they do occur.</p>
+<p>The main finding from the multivariate analyses  that changes in employment, not household composition, are the most strongly related to poverty transitions  is a new finding in that earlier studies have not examined the relationship between household events and poverty in a multivariate framework. Changes in employment are even more important in the recent 1997 to 1999 time period  after federal welfare reform and during a booming economy  than in the 1988 to 1992 time period. In addition, changes in household composition became less important in this time period. Future research should examine how these events differ for important subgroups in the population such as children and minorities.</p>
+<p style="text-align:right">[ Go to <a href="#TOC">Contents</a> ]</p>
+<h2><a id="Endnotes">Endnotes</a></h2>
+<p><a>1.</a>  Because some events (e.g., employment status) are choice variables and thus potentially endogenous, the multivariate analyses do not necessarily identify a causal relationship between the event and poverty transition. The analyses identify a conditional relationship  the relationship after controlling for other events and characteristics.</p>
+<p><a>2.</a>  Control variables include characteristics of the household head (age, race, and educational attainment), household (female-headed household, number of adults 18-61, number of children), geographic characteristics (region and MSA), economic indicators (state unemployment rate and GDP), poverty spell information (observed duration of current spell at time <em>t</em>, observed number of prior spells, left censored spell identifier), and year identifiers. Control variables that are tied to the event variables, such as female-headed household, are defined so that the event variable captures the full effect of the event.</p>
+<p><a>3.</a>  We examine whether the estimated relationship between poverty entries and <em>changes </em>in economic conditions are mitigated by the inclusion of employment changes in the model. Our analysis suggests this is not the case. We estimate a second set of models that exclude the employment change variables, and compare results across models that include and exclude the employment change variables. We find little difference in relationship between poverty entries and the economic change variables across the two models.</p>
+<p><a>4.</a>  Household composition variables that identify whether a child under age six enters the household and whether a young adult sets up their own households are excluded from the poverty exit models, as they are events associated with poverty entries, not poverty exits.</p>
+<p><a>5.</a>  Similar to the poverty entry analysis, we examine whether the estimated relationship between poverty exits and changes in economic conditions are mitigated by the inclusion of employment changes in the model; we find that this is not the case.</p>
+<p><a>6.</a>  Models that exclude employment changes find a similar relationship between poverty exits and household structure shifts in the 1988-92 and 1997-99 periods. The results from models estimated without employment changes are important because changes in household structure are often associated with changes in employment.</p>
+<p><a>7.</a>  Models that exclude employment changes find a similar relationship between poverty entries and household structure shifts in the 1988-92 and 1997-99 periods.</p>
+<div class="group-tags"><div class="field-label">Tags:&nbsp;</div><a href="/terms/economic-support-and-employment">Economic Support and Employment</a><a href="/terms/employmentself-sufficiency">Employment/Self-Sufficiency</a><a href="/terms/low-income-populations-0">Low-Income Populations</a><a href="/terms/poverty-and-measurement">Poverty and Measurement</a><a href="/terms/poverty-and-income-dynamics-0">Poverty and Income Dynamics</a><a href="/terms/poverty-income-and-assets">Poverty, Income, and Assets</a><a href="/terms/poverty-and-income-dynamics">Poverty and Income Dynamics</a></div>  </div>
+
+      <footer>
+          </footer>
+  
+    <div id="block-webform-client-block-158521" class="widget block block-webform" >
+  
+      
+  <div id="webform-ajax-wrapper-158521"><form class="webform-client-form webform-client-form-158521" action="/execsum/transition-events-dynamics-poverty" method="post" id="webform-client-form-158521" accept-charset="UTF-8"><div><div class="webform-progressbar">
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-radios webform-component--was-this-page-helpful">
+  <label for="edit-submitted-was-this-page-helpful">Was this page helpful? <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-was-this-page-helpful" class="form-radios"><div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-1" name="submitted[was_this_page_helpful]" value="1" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-1">Yes </label>
+
+</div>
+<div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-2" name="submitted[was_this_page_helpful]" value="0" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-2">No </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="4" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-l5fdqKkA1egy3RN8w02mH3G_ATT5GY9qgnIqh3UKMZM" />
+<input type="hidden" name="form_id" value="webform_client_form_158521" />
+<input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-158521" />
+<div class="form-actions"><input class="webform-next button-primary btn btn-default form-submit" type="submit" id="edit-webform-ajax-next-158521" name="op" value="Next &gt;" /></div>
+<div class="is-useful-disclaimer"> <a href="/%23" class="" title="Survey Disclaimer" data-toggle="modal" data-target="#disclamerModal">Form Approved OMB# 0990-0379 Exp. Date 8/31/2017</a></div>
+<div class="modal fade" id="disclamerModal" tabindex="-1" role="dialog" aria-labelledby="disclamerModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="disclamerModalLabel">Survey Disclaimer</h2>
+      </div>
+      <div class="modal-body">
+         According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this information collection is 0990-0379. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, gather the data needed, and complete and review the information collection. If you have comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: U.S. Department of Health & Human Services, OS/OCIO/PRA, 200 Independence Ave., S.W., Suite 336-E, Washington D.C. 20201, Attention: PRA Reports Clearance Officer.      </div>
+    </div>
+  </div>
+</div></div></form></div>
+  </div> <!-- /.block -->
+<meta  itemscope="" itemid="https://aspe.hhs.gov/execsum/transition-events-dynamics-poverty" itemref="md1 md3 md5 md7 md9 md11 md13 md15" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/economic-support-and-employment" id="md3" itemref="md2" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/employmentself-sufficiency" id="md5" itemref="md4" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/low-income-populations-0" id="md7" itemref="md6" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/poverty-and-measurement" id="md9" itemref="md8" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/poverty-and-income-dynamics-0" id="md11" itemref="md10" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/poverty-income-and-assets" id="md13" itemref="md12" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/poverty-and-income-dynamics" id="md15" itemref="md14" />              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <footer  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Footer">     
+
+        
+                  
+        
+                  
+        
+                                    <div  id="footer_sitemap-footer_sitemap" class="col-sm-6 col-md-6 col-lg-4 ">
+                          
+                              <div id="block-footer-sitemap-footer-sitemap" class="widget block block-footer-sitemap" >
+  
+      
+  <div id="footer-sitemap" class="clearfix">
+  <div class="fs-block-content"><div class="menu-footer-utility"><ul class="footer_links_menu-footer-utility total-items-2 parent-items-0 single-items-0"><li class="menu-5021 depth-1 total-children-8 parent-children-0 single-children-8  first"><a href="/" title="look at ASPE Home" class="fs-root-link">ASPE Home</a><ul class="footer_links_menu-footer-utility total-items-8 parent-items-0 single-items-0"><li class="menu-5026 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/" title="look at HHS Home">HHS Home</a></li>
+<li class="menu-66281 depth-1 fs-no-children"><a href="http://www.usa.gov/" title="look at USA.gov">USA.gov</a></li>
+<li class="menu-66316 depth-1 fs-no-children"><a href="https://oig.hhs.gov/" title="look at Office of the Inspector General">Office of the Inspector General</a></li>
+<li class="menu-66321 depth-1 fs-no-children"><a href="http://www.whitehouse.gov" title="look at The White House">The White House</a></li>
+<li class="menu-5046 depth-1 fs-no-children"><a href="http://www.hhs.gov/Accessibility.html" title="look at Accessibility">Accessibility</a></li>
+<li class="menu-66326 depth-1 fs-no-children"><a href="http://www.hhs.gov/about/budget/index.html" title="look at Budget/Performance">Budget/Performance</a></li>
+<li class="menu-2551 depth-1 fs-no-children"><a href="http://www.hhs.gov/Privacy.html" title="look at Privacy Policy">Privacy Policy</a></li>
+<li class="menu-197776 depth-1 fs-no-children  last"><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" title="Nondiscrimination Notice">Nondiscrimination Notice</a></li>
+</ul></li>
+<li class="menu-5051 depth-1 total-children-4 parent-children-0 single-children-4  last"><a href="http://www.hhs.gov/foia/" title="look at FOIA" class="fs-root-link">FOIA</a><ul class="footer_links_menu-footer-utility total-items-4 parent-items-0 single-items-0"><li class="menu-5056 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/open/recordsandreports/plainwritingact/index.html" title="look at Plain Writing Act">Plain Writing Act</a></li>
+<li class="menu-5061 depth-1 fs-no-children"><a href="http://www.hhs.gov/asa/eeo/no_fear_bullet_3.html" title="look at No Fear Act">No Fear Act</a></li>
+<li class="menu-5066 depth-1 fs-no-children"><a href="http://www.hhs.gov/Disclaimer.html" title="look at Disclaimers">Disclaimers</a></li>
+<li class="menu-2546 depth-1 fs-no-children  last"><a href="http://www.hhs.gov/plugins.html" title="look at Viewers &amp; Players">Viewers &amp; Players</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-5 " id="stability_cms-contact_us">
+                          
+                              <div id="block-stability-cms-contact-us" class="widget block block-stability-cms" >
+  
+      
+  <div class="contacts-widget widget widget__footer">
+	<div class="widget-content">
+		<ul class="contacts-info-list">
+      			<li>
+<!--				<i class="fa fa-map-marker">Address</i>-->
+                <div class="info-icons">
+                    <img  alt="map" class= 'map-icons' src="/sites/all/themes/stability/stability_aspe/images/map.png"/>
+                </div>
+                <div class="info-item">
+					Assistant Secretary for Planning and Evaluation, Room 415F<br />
+U.S. Department of Health and Human Services<br />
+200 Independence Avenue, SW<br />
+Washington, D.C. 20201				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-phone">phone</i>-->
+                <div class="info-icons">
+                    <img alt="phone" src="/sites/all/themes/stability/stability_aspe/images/phone.png"/>
+                </div>
+				<div class="info-item">
+					+1 202.690.7858				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-envelope">email</i>-->
+                <div class="info-icons">
+                    <img alt="mail" src="/sites/all/themes/stability/stability_aspe/images/mail-white.png"/>
+                </div>
+				<span class="info-item">
+					<a href="mailto:osaspeinfo@hhs.gov">osaspeinfo@hhs.gov</a>
+				</span>
+			</li>
+      			                					</ul>
+	</div>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-3 " id="footer">
+                          
+                              <div id="block-block-36" class="widget block block-block" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sign-up</span> for Email Updates</h3>
+		</div>
+    
+  <div class="email_updates">
+<button class="btn btn-default" name="subscribe-button" type="submit" value="subscribe">subscribe</button>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-12 " id="menu-menu-footer-language-menu">
+                          
+                              <div id="block-menu-menu-footer-language-menu" class="widget block block-menu" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Language</span> Assistance Available</h3>
+		</div>
+    
+  <ul class="menu"><li class="first expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#spanish" title="Español">Español</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#chinese" title="繁體中文">繁體中文</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#vietnamese" title="Tiếng Việt">Tiếng Việt</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#korean" title="한국어">한국어</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#tagalog" title="Tagalog">Tagalog</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#russian" title="Русский">Русский</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#arabic" title="العربية">العربية</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#creole" title="Kreyòl Ayisyen">Kreyòl Ayisyen</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#french" title="Français">Français</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#polish" title="Polski">Polski</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#portuguese" title="Português">Português</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#italian" title="Italiano">Italiano</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#german" title="Deutsch">Deutsch</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#japanese" title="日本語">日本語</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#farsi" title="فارسی">فارسی</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#english" title="English">English</a></li>
+</ul></li>
+</ul>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+      </div>
+
+          </div>
+    
+    
+      </footer>
+    
+
+    <!--/PAGEWATCH-->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+                        </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="social-links-wrapper">
+              <span class="social-links-txt">Connect with us</span>
+              <ul class="social-links social-links__dark">
+                                                  <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw-grey.png"/></a></li>
+                                <!--                --><!--                  <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin-grey.png"/></a></li>-->
+<!--                -->
+                                                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>  <script type="text/javascript" src="/sites/default/files/advagg_js/js__VWRymaMz6HfrhnrcJNGcDiSvLVrvhaXvBa7nrBYy8gc__jntPwP3D6myJZH1jW19fXrk5cYMHGRL8NQION22VSEA__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5486d15a696bff0c"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__g6mKbcakHxQkz4ZHYaxdO_xqONINvRMgsHh1zAK-fr0__ATHtEmHaeZ0jidpGU22EkhmPDBSgjD8z0bVDQMI-BIY__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__KUp4PrfOt9BSXUVl8Ctb3dhCMBe4MNVMeb4Gyorx8yY__7g4BeXscCIZAfuu1vxsCj2RIemg-eEK0QpChP9LDmFQ__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__PNjAgubM_3xXRLp4uLsYnv8wQAdT89-RYkSPxT6T45c__rFQwFK4pA5ZaWZSF7FPTfKbbpus0h-5IS8ayrNZGrb4__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__vQiLul2UcfC4nBAR09mhYVBYzRmiNDm2dj3GgSubV38__w84oZe-ZODKe7XnnlbrjV4IWHISOy4PioFEMVgx9hZo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__QJw3g0kOdwsv4twSZLP931zBzsHy50VEHpEN_znIitQ__A6QOuWXElDipBM2iChbWhjAAt3KlUwZ-jODoxdpbwiw__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stability_aspe","theme_token":"jghclA7CrSvdTuDEjtu8lWnStCYOW8EQ2Ilj78KRsRk","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/footable.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/aspe_nodes.admin.css":1,"sites\/all\/modules\/custom\/aspe_views\/theme\/css\/aspe_views.admin.css":1,"sites\/all\/modules\/forked\/book\/book.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/openpublic\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.css":1,"profiles\/openpublic\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openpublic\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/openpublic\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/themes\/stability\/css\/bootstrap.min.css":1,"sites\/all\/themes\/stability\/css\/fonts\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.theme.css":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/stability\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/stability\/css\/theme.css":1,"sites\/all\/themes\/stability\/css\/theme-elements.css":1,"sites\/all\/themes\/stability\/css\/animate.min.css":1,"sites\/all\/themes\/stability\/css\/skins\/red.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/slideshow.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/font-main.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/styleless.less":1,"sites\/all\/themes\/stability\/css\/skins\/blue.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/aspe\/theme\/js\/aspe.login-confirm.js":1,"sites\/all\/modules\/custom\/aspe_report\/modules\/aspe_databooks\/js\/aspe_databooks.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.highcharts.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/datatables\/dataTables.min.js":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.min.js":1,"sites\/all\/libraries\/highcharts\/highcharts.js":1,"sites\/all\/libraries\/highcharts\/highcharts.exporting.js":1,"sites\/all\/libraries\/highcharts\/highcharts.map.js":1,"sites\/all\/libraries\/highcharts\/highcharts.us-all.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.footable.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5486d15a696bff0c":1,"misc\/progress.js":1,"profiles\/openpublic\/modules\/contrib\/webform\/js\/webform.js":1,"profiles\/openpublic\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/stability\/vendor\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/stability\/vendor\/bootstrap.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flexnav.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flickrfeed.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.sloppy-masonry.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.fitvids.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.stellar.min.js":1,"sites\/all\/themes\/stability\/vendor\/snap.svg-min.js":1,"sites\/all\/themes\/stability\/js\/custom.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/aspe.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/html5shiv.min.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/main-menu.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/keyboard-control.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tabBehavior.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tileStringTrimmer.js":1}},"webform":{"conditionals":{"webform-client-form-158521":{"ruleGroups":[],"sourceMap":[],"values":[]}}},"ajax":{"edit-webform-ajax-next-158521":{"callback":"webform_ajax_callback","wrapper":"webform-ajax-wrapper-158521","progress":{"message":"","type":"throbber"},"event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Next \u003E"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/execsum\/transition-events-dynamics-poverty":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"([a-z0-9]\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This website contains links to other federal and state agencies and private organizations. The Department of Health and Human Services (HHS) cannot attest to the accuracy of information provided by these nonfederal website links. Linking to nonfederal sites does not constitute an endorsement by HHS or any of its employees of the sponsors or the information and products presented on the sites. You will be subject to the destination site\u0027s privacy policy when you leave the ASPE website.\r\n\r\nThank you for visiting aspe.hhs.gov!","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"stability":{"flickr_id":"52617155@N08","logo_sticky":"28"},"field_group":{"div":"full"}});
+//--><!]]>
+</script>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config={pubid:"ra-5486d15a696bff0c",ui_click:false}
+//--><!]]>
+</script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4837db659","applicationID":"10708002","transactionName":"MwNaZBRSXEtXB0BdWQpJeVMSWl1WGQpbUFM7FllXA2xEUVMT","queueTime":0,"applicationTime":753,"atts":"H0RZElxIT0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

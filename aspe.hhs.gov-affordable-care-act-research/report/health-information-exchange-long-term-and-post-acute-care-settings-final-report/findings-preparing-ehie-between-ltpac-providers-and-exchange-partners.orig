@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">  <!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="next" href="/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/findings-implementing-ehie-between-ltpac-providers-and-exchange-partners" />
+<link rel="up" href="/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report" />
+<link rel="prev" href="/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/purpose-and-background" />
+<link rel="shortcut icon" href="https://aspe.hhs.gov/sites/default/files/Favicon2.png" type="image/png" />
+<meta name="description" content="This section seeks to answer the following research questions:" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://aspe.hhs.gov/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/findings-preparing-ehie-between-ltpac-providers-and-exchange-partners" />
+<link rel="shortlink" href="https://aspe.hhs.gov/node/205296" />
+<meta property="og:site_name" content="ASPE" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aspe.hhs.gov/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/findings-preparing-ehie-between-ltpac-providers-and-exchange-partners" />
+<meta property="og:title" content="Findings: Preparing for Ehie Between Ltpac Providers and Exchange Partners" />
+<meta property="og:description" content="This section seeks to answer the following research questions:" />
+<meta property="og:updated_time" content="2016-08-12T01:24:05-04:00" />
+<meta property="article:published_time" content="2016-07-12T15:15:45-04:00" />
+<meta property="article:modified_time" content="2016-08-12T01:24:05-04:00" />
+
+  <title>Findings: Preparing for Ehie Between Ltpac Providers and Exchange Partners | ASPE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+  <link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__5ln8neBOcJfyUveiD4y9fhI6kHBLOQ_YL0mMC-LS9a0__TPJIZT9UBnf_685NlFTJ5KnZVsjwFk6ACQ-nwwygmwU__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ng49uRH5y4Hl9VF9hHW_vXOj-mcOc2u2ShJqJ1YKIGU__FoMCD14GBvZaRiqSQ_JpP1w3rDB21n7H2Ar4pRZaIh8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__Hskudx14OJ5Hz8vqU7CUgN6SDV5rINZuEq9VuGsSeyc__EwNIl3xeFrniW2TmonovTzhSs3X5MdFps210puE7jog__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__9rZoaX9BdzjjNucvYxduxeNAVO2zgW_Rvjhb5rq5whc__lSr_y16grDSgHf4booPChnF7QXz3TQY3hafH49twE0k__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZgfI_ZPib5yVY0o5aKo_6TFn946Tuu_nFDa0ySTmkSc__2FTFrNw2eNh0mpHIOA34r6YRwBZMm2PjJ_JubnwLigg__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__dxabpJ5rQgDSixKgLJZjWc1beC6mpROKwVrmWxI5eno__rqhz_hGsE_i59O7-W991o71_Jxw1QOtGMxn4nsOLHY8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZbRCq2NqWgK-HXAQI3So0N1n0nr4HonsJS3eQuuxukw__7Olkk8Locn8Dj0eR0Ww3rbV9lks9sxipcboMXB18RRs__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+
+	<!-- Head Libs -->
+	<script src="/sites/all/themes/stability/stability_aspe/vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/sites/all/themes/stability/vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" href="/sites/all/themes/stability/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/stability/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/stability/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/stability/images/apple-touch-icon-144x144.png">
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-205296 node-type-book">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-JLFR"
+                  height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JLFR');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-nav" class="accessibility_menu">
+    <strong>Shortcut Navigation:</strong>
+    <ul>
+      <li><a href="#content" accesskey="c" title="Skip to page content (ctrl/alt + c)">Page Content</a></li>
+      <li><a href="#nav" accesskey="m" title="Skip to main navigation menu (ctrl/alt + m)">Site Navigation</a></li>
+
+      <li><a href="#Footer" accesskey="f" title="Skip to footer (ctrl/alt + f)">Footer</a></li>
+    </ul>
+  </div>
+
+    
+<div class="site-wrapper">
+  
+  <header class="header header-menu-fullw header-top-clean">
+    <div id="brand-bar">
+        <div class="container">
+                    <img alt='bird' src="/sites/all/themes/stability/stability_aspe/images/bird.png"> <a target="blank" tabindex="4" href="http://www.hhs.gov/">U.S. Department of Health & Human Services</a>
+        </div>
+
+    </div>
+    <div class="header-main">
+        <div class="container clearfix">
+            <div class="social-links-wrapper">
+                <ul class="social-links social-links__light">
+                                                          <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw.png"/></a></li>
+                                    <!--                  --><!--                    <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin.png"/></a></li>-->
+<!--                  -->
+                                                                      </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                                <div class="site_name_wrapper">
+                                     <span class="h1">
+                                      <a href="/">ASPE</a>
+                                       </span>
+                                  <p class="tagline"><p>Office of The Assistant Secretary</p><p> for Planning and Evaluation</p></p>
+                    </div>
+            </div>
+            <!-- Logo / End -->
+            <div class="header_right_wrapper">
+                <div class="search-form">
+                    <form action="/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/findings-preparing-ehie-between-ltpac-providers-and-exchange-partners" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class = "input-group"><div class="form-type-textfield form-item-search-block-form form-item form-group">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search Site..." class="form-control form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input class="btn btn-primary btn-icon form-submit" type="image" id="edit-submit" name="submit" value="Search" src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/search-white2.png" alt="Search" title="Search" /></div></div><input type="hidden" name="form_build_id" value="form-j2MoKVTG57kSZ0g81MnFPTVryhsqNOvNKiUNXFs83NA" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </div>
+                <button type="button" class="navbar-toggle" value="Menu">
+                    <i class="fa fa-bars"></i>Menu
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-main">
+        <div class="container">
+          <ul data-breakpoint="767" class="flexnav">
+                <li class="first expanded"><a href="/basic-search/about" title="">About</a><ul><li class="first leaf"><a href="/mission" title="">Mission</a></li>
+<li class="leaf"><a href="/key-staff" title="">Leadership</a></li>
+<li class="leaf"><a href="https://www.usajobs.gov/" title="">Careers</a></li>
+<li class="expanded"><a href="/coordination" title="linkTo">Coordination</a><ul><li class="first leaf"><a href="/evaluation-evidence" title="">Evaluation &amp; Evidence</a></li>
+<li class="leaf"><a href="/national-alzheimers-project-act">National Alzheimer&#039;s Project Act</a></li>
+<li class="leaf"><a href="/health-and-human-services-hhs-data-council">HHS Data Council</a></li>
+<li class="last leaf"><a href="/national-committee-vital-and-health-statistics" title="National Council on Vital and Health Statistics">National Council on Vital and Health Statistics</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/divisions" title="">Offices</a><ul><li class="first leaf"><a href="/office-disability-aging-and-long-term-care-policy-daltcp">Disability, Aging, and Long-Term Care Policy</a></li>
+<li class="leaf"><a href="/office-health-policy-hp">Health Policy</a></li>
+<li class="leaf"><a href="/office-human-services-policy">Human Services Policy</a></li>
+<li class="last leaf"><a href="/office-science-and-data-policy">Science and Data Policy</a></li>
+</ul></li>
+<li class="leaf"><a href="/strategic-planning" title="Strategic Planning">Strategic Planning</a></li>
+<li class="last leaf"><a href="/contact-aspe" title="">Contact ASPE</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/topics" title="">Topics</a><ul><li class="first leaf"><a href="/affordable-care-act-research">Affordable Care Act Research</a></li>
+<li class="leaf"><a href="/alzheimers-dementia">Alzheimer&#039;s / Dementia</a></li>
+<li class="leaf"><a href="/early-childhood">Early Childhood</a></li>
+<li class="leaf"><a href="/incarceration-reentry">Incarceration &amp; Reentry</a></li>
+<li class="leaf"><a href="/opioid-abuse-us-and-hhs-actions-address-opioid-drug-related-overdoses-and-deaths" title="Opioids">Opioids</a></li>
+<li class="leaf"><a href="/patient-centered-outcomes-research-trust-fund">Patient-Centered Outcomes Research Trust Fund (PCORTF)</a></li>
+<li class="expanded"><a href="/basic-search/poverty" title="">Poverty</a><ul><li class="first leaf"><a href="/poverty-guidelines">Poverty Guidelines</a></li>
+<li class="last leaf"><a href="/poverty-estimates-trends-and-analysis">Poverty Analysis</a></li>
+</ul></li>
+<li class="leaf"><a href="/teen-pregnancy-prevention">Teen Pregnancy Prevention</a></li>
+<li class="leaf"><a href="/homelessness">Homelessness</a></li>
+<li class="last leaf"><a href="/medicare-access-and-chip-reauthorization-act-2015">MACRA</a></li>
+</ul></li>
+<li class="leaf"><a href="/reports" title="">Publications</a></li>
+<li class="last expanded"><a href="/basic-search/datasets" title="">Data and Tools</a><ul><li class="first last leaf"><a href="/evaluations" title="">Evaluation Database</a></li>
+</ul></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation / End -->
+</header>  <div class="main" role="main">
+    <!--PAGEWATCH CODE="USHHS_458"-->
+    <section class="page-heading">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+                <h1>
+                                  Health Information Exchange in Long-Term and Post-Acute Care Settings: Final Report.
+                    
+          Findings: Preparing for Ehie Between Ltpac Providers and Exchange Partners        </h1>
+                                 <p class="author">
+                                                 <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2015-11-01T00:00:00-04:00">11/01/2015</span>               
+                           </p>
+
+
+                  </div>
+
+
+        <div class="col-md-6">
+           <ul class="breadcrumb"><li class="first"><a href="/" title="Home">Home</a></li>
+<li><a href="/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report" title="Health Information Exchange in Long-Term and Post-Acute Care Settings: Final Report">Health Information Exchange in...</a></li>
+<li class="last">Findings: Preparing for Ehie B...</li>
+</ul>        </div>
+
+
+    </div>
+  </div>
+</section>
+    
+      <div  class="nd-region nd-region-filter">
+  
+       
+
+    
+      <div  id="Filter" class="row">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region nd-region-similar-content">
+  
+       
+
+    
+      <div  id="Similar-Content" class="row">     
+
+        
+                  
+        
+                                    <div  id="top" class="">
+                          
+                              <div id="block-views-2100ccfdd214bdbcf634d7e4832c265b" class="widget block block-views solr-similar-content" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Similar</span> content</h3>
+		</div>
+    
+  <div class="view view-similar-content-solr view-id-similar_content_solr view-display-id-block_solr_similar_content view-dom-id-6acac95feb996e61f25cefe5b2c9c682">
+        
+  
+  
+      
+    
+    <span class="field-content"><a href="/pdf-report/health-information-exchange-long-term-and-post-acute-care-settings-final-report">Health Information Exchange in Long-Term and Post-Acute Care Settings: Final Report</a></span>    
+    <span class="field-content"><a href="/execsum/long-term-and-post-acute-care-providers-engaged-health-information-exchange-final-report">Long-Term and Post-Acute Care Providers Engaged in Health Information Exchange: Final Report</a></span>    
+    <span class="field-content"><a href="/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report">Health Information Exchange in Long-Term and Post-Acute Care Settings: Final Report</a></span>    
+    <span class="field-content"><a href="/basic-report/ehr-payment-incentives-providers-ineligible-payment-incentives-and-other-funding-study">EHR Payment Incentives for Providers Ineligible for Payment Incentives and Other Funding Study</a></span>    
+    <span class="field-content"><a href="/basic-report/ehr-payment-incentives-providers-ineligible-payment-incentives-and-other-funding-study-appendices">EHR Payment Incentives for Providers Ineligible for Payment Incentives and Other Funding Study. Appendices.</a></span>  
+  
+  
+  
+  
+  
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Content">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  class="col-md-12 " id="content">
+                          
+                              <div id="block-aspe-aspe-addthis" class="widget block block-aspe" >
+  
+      
+  <div class="clearfix">
+  <ul class="addthis_sharing_toolbox node-share__links" data-url="https://aspe.hhs.gov/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/findings-preparing-ehie-between-ltpac-providers-and-exchange-partners" data-title="Findings: Preparing for Ehie Between Ltpac Providers and Exchange Partners">
+    <li><a class="addthis_button_print"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/print-white.png" alt="print" /></a></li>
+    <li><a class="addthis_button_email"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/mail-white.png" alt="email" /></a></li>
+    <li><a class="addthis_button_twitter"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/tw.png" alt="twitter" /></a></li>
+<!--    <li><a class="addthis_button_facebook">--><!--</a></li>-->
+    <li><a class="addthis_button_compact"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/plus-white.png" alt="compact" /></a></li>
+  </ul>
+</div>
+
+  </div> <!-- /.block -->
+
+                
+    
+  
+  <div class="content clearfix node-book ">
+    <p>This section seeks to answer the following research questions:</p>
+<ul><li>
+<p>What community characteristics and/or programs (e.g., service delivery and payment models, special initiatives, collaborations, etc.) enabled and continue to support the electronic exchange of health information between LTPAC providers and their HIE trading partners (e.g., physicians, hospitals, pharmacies/pharmacists, etc.)? What was/is the focus of these activities (e.g., improving coordination/continuity of care, increasing efficiencies and reducing costs, identifying information exchange needs, building trust, etc.)? Over what period of time were these activities implemented prior to and during implementation of HIE activities?</p>
+</li>
+<li>
+<p>What business/organizational/quality/other factors lead to the LTPAC provider's decision to engage and invest in eHIE?</p>
+</li>
+<li>
+<p>What activities (e.g., technological, policy, financial and human workflow) were undertaken by the LTPAC provider to prepare for and enable the provider/staff to engage in eHIE?</p>
+</li>
+</ul><p>There was one research question in the RFP relating to cost of eHIE solutions that we were unable to answer. Federal and state grants that were used to stand up the exchange initiatives are identified in this section. However, fees used to sustain HIE were deemed proprietary information and HIEs unwilling to publicly disclose fee schedules. This section will instead focus on the costs associated with standing up eHIE in a region and the grants that supported those efforts. We will additionally discuss federal and state policies, programs and reforms that impact a regions planning for eHIE.</p>
+<h3 style="text-align:center">Funding and Financing</h3>
+<p>As shown in the environment or context (top row) level of the Conceptual Framework, federal cooperative agreements, grants, or demonstrations were the initial source of funding for eHIE initiatives with LTPAC providers. Nearly every organization that we spoke with in our stakeholder discussions and on our case study site visits, save for one, had been the beneficiary of federal funds for enabling eHIE. Specifically, cooperative agreements and grants administered through ONC programs played a major role. A few initiatives also received state funds to stand up exchange.</p>
+<p>Though ARRA HITECH provided the initial spark for federal and state funding for EHR adoption, HIE, and MU, all of our data sources affirmed that private efforts and funding for eHIE and LTPAC providers will become increasingly critical to sustaining eHIE with LTPAC providers in the future. This means an intensified search for cost-effective eHIE solutions that show a ROI for not only Medicare and Medicaid but key provider groups that must participate in and support exchange.</p>
+<p><em><strong>Federal</strong></em></p>
+<p>Our stakeholder interviews highlighted the many sources of federal funding that HIEs could capitalize on to recruit and initiate exchange with LTPAC providers. Some HIEs leveraged funds under their State HIE Cooperative Agreement Programs. For example, some stakeholders were the recipients of ONC Challenge grants, which provided additional funds for breakthrough innovations in HIE to regions participating in the State HIE Cooperative Agreement Program.<sup><a href="https://aspe.hhs.gov/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/notes#note19">19</a></sup> Four states targeted in our stakeholder discussions focused their efforts as Challenge Grant awardees on HIE involving LTPAC providers (e.g., Colorado, Indiana, Massachusetts, and Maryland).<sup><a href="https://aspe.hhs.gov/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/notes#note20">20</a></sup> Similarly, several states that participated in our stakeholder discussions (e.g., Indiana, Maine, and Pennsylvania) targeted LTPAC providers as part of their Beacon Community Program Agreement efforts.<sup><a href="https://aspe.hhs.gov/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/notes#note21">21</a></sup></p>
+<p>Through our stakeholder discussions we identified one CMS Medicare Quality Improvement Organization (QIO) initiative that operated from 2012-2013 provided technical assistance to LTPAC and other providers in Colorado, Minnesota, and Pennsylvania through the HIT for Post-Acute Care Special Innovation Project (HITPAC).<sup><a href="https://aspe.hhs.gov/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/notes#note22">22</a></sup> This initiative helped providers optimize their use of HIT to support medication management, care coordination in transitions of care, and advancements in HIE.<sup><a href="https://aspe.hhs.gov/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/notes#note23">23</a></sup></p>
+<p>We further studied some of the LTPAC providers involved in this initiative during our case study site visit to Minnesota. In September 2012, the Minnesota-based QIO Stratis Health was awarded a one-year $1,139,858 contract with CMS through its 10th Scope of Work<sup><a href="https://aspe.hhs.gov/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/notes#note24">24</a></sup> to help NFs further adopt EHRs and work towards eHIE. After completing the HITPAC project, eHIE activities were suspended, but Ebenezer sought opportunities to keep eHIE momentum going from and continue pursuing eHIE between NFs and acute care. As a result, Ebenezer pursued a Performance-Based Incentive Payment Plan (PIPP) grant from the State of Minnesota to continue pursuing eHIE in the form of DSM, Tiger Texting, lab integration and CCD exchange (described below).</p>
+<p>CMS Center for Medicare and Medicaid Innovation (CMMI) Demonstration Program provides grant funds to support a variety of activities, including to identify solutions that reduce hospital admissions. Some of the stakeholders we interviewed are using these funds to pursue eHIE between hospitals and targeted LTPAC providers. For example, the Curators of the University of Missouri was awarded a Health Care Innovation Award Initiative to develop and strengthen eHIE between hospitals and NHs and HHAs.<sup><a href="https://aspe.hhs.gov/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/notes#note25">25</a></sup></p>
+<p>Finally, some states may apply for and receive SIM grants to support eHIE and related efforts with LTPAC providers. SIM grants provide funding and technical assistance to states to develop and test delivery models to improve performance and quality while decreasing costs.<sup><a href="https://aspe.hhs.gov/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/notes#note26">26</a></sup> The Fairview-Ebenezer initiative studied in Minnesota, for example, sought but has not yet received a SIM Model Test Award to enable exchange of data between NFs and EMS.</p>
+<p>As of our case study site visit, Ebenezer had received a developmental grant, which provided about one year of funding, from June 2014 to May 1, 2015. They have since solicited an implementation grant from the state, and anticipate learning whether they will be awarded funds by end of summer 2015. As of September 30, 2015 Ebenezer has not been awarded a Round 2 grant to pursue implementation of eHIE.</p>
+<p>On the other hand, the Benedictine initiative also studied in Minnesota, was unable to apply for SIM dollars because they proposed using funds to continue developing software capabilities. Reportedly, the state cannot or will not pay for development of software capabilities through this grant.</p>
+<p>One of our case study sites (KeyHIE) leveraged many of the federal grants described above to implement eHIE. In 2004, AHRQ awarded Geisinger a $1.5 million grant to "develop a secure web-based network that links participating hospitals and other health care providers in the region, providing seamless and secure access to patients' health information, including diagnoses, test results, allergies, and medication lists."<sup><a href="https://aspe.hhs.gov/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/notes#note27">27</a></sup> In 2010, ONC awarded Geisinger a three-year Beacon Community grant totaling $16 million. Geisinger used the grant to build on its KeyHIE efforts and extend the benefits of other Geisinger-led HIT initiatives to other providers in the community.<sup><a href="https://aspe.hhs.gov/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/notes#note28">28</a></sup> KeyHIE, incorporated as an independent corporation under the Geisinger Foundation in December 2013, is now its own legal corporate entity that reports to Geisinger leadership but is governed as a community resource. Soon after, in 2014, HRSA awarded KeyHIE a three-year grant for $900k to expand its network to 55 LTPAC providers in Pennsylvania. Grant funds will be used to develop on three HIT solutions within KeyHIE--KeyHIE Transform, MyKeyCare and DSM.</p>
+<p>Some other federal resources--financial and non-financial, direct or indirect--are available to help financially support eHIE efforts generally or with LTPAC providers more specifically. For example, under the Medicaid EHR Incentive program states are eligible for a 90-10 match for certain Medicaid HIE related activities and while states cannot directly support HIE efforts with LTPAC providers, development of the HIE infrastructure may indirectly facilitate HIE between LTPAC providers and other providers over time. The 2015-2017 modifications restructures Stages 1 and 2 MU requirements for MU of certified EHRs supports settings and use cases across the care continuum. Several criteria are applicable to LTPAC providers including those around transitions of care, care plans, privacy and security, and potentially other areas.<sup><a href="https://aspe.hhs.gov/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/notes#note29">29</a></sup></p>
+<p>As note previously some of the major federal ARRA HITECH programs specifically designed to foster eHIE development and innovation came to an end (i.e., first major phase of state HIE cooperative agreements, Beacon). According to our stakeholder interviews, this has left some eHIE organizations and providers struggling to find funding sources to support further HIE infrastructure development and to sustain and expand current efforts. An ONC funding opportunity announcement (FOA) to support additional HIE efforts was released in early summer 2015. Initially only $28 million of awards were anticipated; the final FOA also resulted in ten $1 million grants for a total of $38 million in HIE investment.<sup><a href="https://aspe.hhs.gov/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/notes#note30">30</a></sup> Through this effort three states (Colorado, Delaware, and Illinois) will be supporting eHIE with LTPAC providers. This level of funding is much lower than at the high of the ONC State HIE Cooperative Agreement program, which awarded $540 million.<sup><a href="https://aspe.hhs.gov/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/notes#note31">31</a></sup></p>
+<p><em><strong>State</strong></em></p>
+<p>The literature identified some sources of state funding for HIE with LTPAC efforts. The most notable example is the Healthcare Efficiency and Affordability Law for New Yorkers Capital Grant Program (HEAL NY).<sup><a href="https://aspe.hhs.gov/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/notes#note32">32</a></sup> HEAL NY, which started in 2006, represents more than an $800 million investment of public-private funds in EHRs and eHIE and aims to develop a health information network for New York State by linking together community-based regional health information organizations (RHIOs) that adhere to common standards and policies. RHIOs' roles included convening and governing community stakeholders, promoting collaboration and data sharing, and implementing technology for eHIE. As of 2012, 12 non-profit RHIOs provided eHIE services across New York State in compliance with state requirements using a variety of commercial products. Notably, 54% of the grantees targeted long-term care providers (though the article does not specify the types of providers falling into that category) and 24% targeted home care providers.<sup><a href="https://aspe.hhs.gov/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/notes#note33">33</a></sup></p>
+<p>The initiatives studied in our case study site visit to Minnesota were the recipient of state grants to implement eHIE with LTPAC providers. The Fairview-Ebenezer initiative was the recipient of state funds to enable eHIE with LTPAC providers. For example, they received PIPP, a two-year grant for approximately $385,000 that will end September 2016. Ebenezer is using PIPP dollars to further exchange using secure health care messaging applications such as Tiger Texting, advancing their CCD exchange with non-business affiliates and expanding exchange with state and commercial labs. The state was also a recipient of a Testing Experience and Functional Tools (TEFT) grant by CMS (about $500k) in March 2014. TEFT funded a demonstration for organizations to bring personal health records to deliver LTSS data to beneficiaries and their caregivers. One respondent noted that this state funding solicitation built on learnings from past projects such as SIM, the Fairview-Ebenezer PIPP project, and other efforts to integrate and improve care.</p>
+<p>Benedictine was awarded $375,000 from the State of Minnesota to develop MatrixCare software such that it can exchange CCDs with Allina's Epic system peer-to-peer to support transitions of care between the Allina hospital and the Benedictine NF. The Benedictine-Allina project is primarily funded through the state grant and provider investment.</p>
+<p><em><strong>Subscription Fees</strong></em></p>
+<p>As demonstrated in the regional structure (middle row) level of the Conceptual Framework, a complement to federal funding sources, many of the initiatives studied charge a subscription fee to participants. For example, the Colorado Regional Health Information Organization (CORHIO) was an ONC Grantee (through the State Health Information Exchange Cooperative Agreement and the Challenge Grant). However, CORHIO transitioned to a $25 per user per organization subscription fees in 2014 to fund itself as ONC cooperative agreement and grant resources wound down.<sup><a href="https://aspe.hhs.gov/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/notes#note34">34</a></sup> These subscription fees were not waived for LTPAC providers.</p>
+<p>The Indiana Health Information Exchange (IHIE), a private HIE, has a subscription fee financial model as well. However, federal resources related to eHIE and policies (e.g., Stage 2 MU of the Medicaid/Medicare EHR Incentive Program) played an early role in the development of infrastructure that is now being sustained through subscription/user fees. As of December 2014, there were approximately four Kindred long-term care facilities working with IHIE, with plans to bring more on. Kindred is a national chain with 2,730 locations in 47 states.<sup><a href="https://aspe.hhs.gov/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/notes#note35">35</a></sup> IHIE was initially affiliated with Regenstrief Institute, but has been an independent entity for more than two years.</p>
+<p>KeyHIE now charges participating providers a subscription fee, priced by provider type and size, for ongoing use. This has been critical to the sustainability of the HIE since many of the federal grants that were leveraged to stand up eHIE (described above) have expired. Startup costs vary depending on the technology solution; an EHR connection can be quite expensive, particularly for larger facilities, while Transform is a much lower cost option.</p>
+<p>The initiatives studied in Minnesota are not driven by a Health Data Intermediary or HIO, which would typically serve as a data aggregator and charge ongoing fees for connecting and querying for health information. As a result, participating facilities are not charged subscription fees. Allina, the hospital system working with Benedictine, is becoming an HIO but it envisions eHIE serving the development of their ACO and does not have plans to charge subscriptions. Providers will have to pay their vendors to develop the integration in order to connect to the HIE product. Reportedly those costs range from $2,000-30,000 per entity, which can be substantial for certain entities.</p>
+<p>Apart from efforts to facilitate robust bidirectional eHIE, facilities involved in all of the initiatives studied reportedly have access to hospital portals to view patient information at partner organizations. These are highly affordable solutions, costing facilities only about $75/year.</p>
+<h3 style="text-align:center">Health Information Technology for Economic and Clinical Health Programs</h3>
+<p>In 2009, Congress passed the ARRA, which contained provisions collectively known as "HITECH"<sup><a href="https://aspe.hhs.gov/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/notes#note36">36</a></sup> (shown in the Environment or Context level of the Conceptual Framework). The purpose of ARRA HITECH was to accelerate the digitization of the American health care system through greater adoption and the MU of EHRs and eHIE. The Medicare and Medicaid EHR incentive programs are the main mechanism through which providers, specifically eligible hospitals and eligible professionals, can access the financial resources to support the purchase or upgrade their EHRs. Additionally, through the successive stages of MU (Stages 1, 2, and 3, and for Medicaid providers only, a preliminary stage called Adopt, Implement, and Upgrade), the Medicare and Medicaid EHR incentive programs make available incentive payments to eligible providers who use certified EHR technology in the ways intended to improve the quality and efficiency of care.</p>
+<p>Of particular importance to this project, LTPAC providers were not defined as eligible hospitals or eligible professionals under HITECH, so they were ineligible for the Medicare and Medicaid EHR Incentive programs or technical assistance through the Regional Extension Center (REC) program. Despite their ineligibility, the literature shows that the LTPAC provider community has worked to shape EHR Incentive Program MU criteria at the federal level. For example, per an August 1, 2012, letter from the President of American Physical Therapy Association to ONC regarding 2015-2017 modifications restructures Stages 1 and 2 MU requirements for the Medicaid/Medicare EHR Incentive Programs related to eHIE and transitions of care with LTPAC providers: "It is important that input from [LTPAC] providers is considered in the evolution of MU requirements so that patient data are accurate, accessible and transferred with the highest degree of security protocols in place to protect patient privacy."</p>
+<p>The Federal Government has also supported policies that facilitate EHR adoption in LTPAC facilities. For example, ONC's 2014 "Health Information Technology: Standards, Implementation Specifications, and Certification Criteria for Electronic Health Record Technology, Final Rule" encourages EHR technology developers to certify EHR Modules to the transitions of care certification criteria (§170.314(b)(1) and (2)) as well as any other certification criteria that may make it more effective and efficient for eligible professionals, eligible hospitals, and critical access hospitals to electronically exchange health information with health care providers in other health care settings.<sup><a href="https://aspe.hhs.gov/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/notes#note37">37</a></sup></p>
+<p>And many of LTPAC providers' key exchange partners (e.g., hospitals, medical groups) were defined as eligible hospitals and eligible professionals and the MU requirements for the Medicaid/Medicare EHR Incentive Programs (along with other health care reforms) are beginning to give more incentive for these eligible hospitals and eligible professionals to engage in eHIE with LTPAC providers. Findings from the literature review<sup><a href="https://aspe.hhs.gov/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/notes#note38">38</a></sup> and stakeholder discussions indicate that Stage 2 MU provided some incentives for eligible hospitals and eligible professionals to begin engaging in eHIE with LTPAC providers. This perspective is consistent with findings from the project's two case studies, with respondents in Minnesota also mentioning Stage 3 MU requirements as a motivating factor for hospital, organized delivery system, and medical group engagement in eHIE with LTPAC providers.</p>
+<p>However, conversations with stakeholders across the United States indicate that competition for HIT resources within acute care provider organizations continues to be a challenge. For example, in the Missouri Quality Initiative there was an indication that organization delivery systems and hospitals were hesitant to allocate the resources needed to make DSM operational, and there was a general surprise in the technical complexity of what was required to make DSM operational. Acute care providers also continue to report staffing and information technology budget cutbacks due to financial pressures and multiple competing demands and projects. Although some HIEs indicated that the Medicaid/ Medicare EHR Incentive Program Stage 2 MU requirement for data exchange with non-affiliates was the lever used to get some acute and primary care providers as well as specialists to begin to exchange data with LTPAC providers, During this stage of the program, attestation was the priority. As a result, efforts to facilitate eHIE with LTPAC providers were often sidelined. While not specifically cited in the Pennsylvania case study, this finding is consistent with the Minnesota case study. Several respondents in Minnesota noted that provider efforts to meet MU requirements for the EHR Incentive Programs can sometimes have the opposite effect on eHIE involving LTPAC providers; in some instances, provider efforts to meet these requirements more generally have left fewer resources for developing interoperability with LTPAC providers, resulting in delays in investments in this area.</p>
+<h3 style="text-align:center">Privacy and Security Laws and Regulations</h3>
+<p>Privacy and security policies and requirements (shown in the Environment or Context level of the Conceptual Framework) are critical but can pose barriers to HIE with LTPAC providers and their exchange partners. Although all providers must meet Health Insurance Portability and Accountability Act (HIPAA) and other federal privacy and security requirements, states can pass additional requirements related to privacy and security and penalties for data breaches. One important way in which state privacy and security policy varies is whether patients or their legal guardians must opt-in or opt-out of HIE (i.e., actively give consent for all or some parts of their data to be exchanged).</p>
+<p>Opt-in policies have been found to increase the cost of HIE participation for providers and therefore decrease participation in HIE efforts, while opt-out policies decrease costs and increase provider participation. In Maine, which adopted an opt-out policy for patient consent for general medical data sharing, the eHIE includes the records of over 88% of the population. Only 1.1% of the state's population has opted out of participating in the eHIE. This is not to say that opt-in policies create an insurmountable barrier to eHIE for providers but additional thought about workflow redesign is required. For example, Massachusetts has an opt-in policy but providers reportedly have integrated the consent process into their workflows so that consent can be obtained efficiently.</p>
+<p>This experience is consistent with findings from the KeyHIE case study. KeyHIE currently has a more restrictive approach to security than Pennsylvania requires. KeyHIE employs an opt-in privacy model, which requires providers to actively seek consent from patients in order to exchange their health information, and limits access to patient information to organizations that consent to follow KeyHIE's RHIO agreement.<sup><a href="https://aspe.hhs.gov/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/notes#note39">39</a></sup> Some respondents suggested that in order to encourage greater eHIE, KeyHIE will synchronize with state laws and providers will soon be able to elect to implement the less restrictive opt-out policy. Granting this option may improve a providers' ability to actively exchange their patients' data. For example, one respondent commented that once Pennsylvania became an opt-out state in 2012, "it made things easier."</p>
+<p>A related issue is whether and how much state privacy and security law varies from federal policies. If states do not harmonize their policies with federal law, providers must understand how the two differ and follow the more stringent policy. For this reason, Wisconsin is planning to harmonize state law with HIPAA so that no additional consent is required and patient health information is automatically included without an option for patients to opt-out. Findings from the Minnesota case study indicate that within the state there are diverse opinions on what state privacy laws and regulations require and prohibit. Interpretation of the state's HIE statute (Minn. Stat. §62J.498 sub. 1(f)),<sup><a href="https://aspe.hhs.gov/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/notes#note40">40</a></sup> which defines requirements around privacy and security, varies by provider organization. Some organizations are more conservative than others. For example, some organizations could interpret the HIE law as meaning that patient consent needs to be obtained annually while others could require patient permission for each data sharing with each provider. One organized delivery system is working on moving from an opt-out to an opt-in model but has run into some "political" challenges from organization leadership in making that shift.</p>
+<h3 style="text-align:center">The Improving Medicare Post-Acute Care Transformation Act of 2014</h3>
+<p>One policy area that has the potential to impact future LTPAC provider involvement in eHIE (and eHIE activities more generally) but does not appear to be on the radar of most of the stakeholders interviewed yet is the IMPACT Act (shown in the Environment or Context level of the Conceptual Framework). The IMPACT Act requires that CMS standardize post-acute care patient assessment data, including data with regard to specified patient assessment instrument categories and quality measures. In addition, the IMPACT Act intends for data comparability to allow for cross-setting quality comparison in settings including skilled nursing facilities (SNFs), HHAs, IRFs, and LTCHs, and, importantly, it conveys the inclusion of patient-centeredness in its references and requirements related to capturing patient preferences and goals.<sup><a href="https://aspe.hhs.gov/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/notes#note41">41</a></sup> The IMPACT Act also requires that standardized post-acute care assessment data elements be made interoperable so as to support the exchange of such data among post-acute care and other providers in order to support access to longitudinal information and coordinated care. The provisions in the IMPACT Act will drive data standardization in post-acute care settings and will support the use of interoperable HIT systems within the LTPAC and interoperable HIE with and by this sector.</p>
+<p>Case study respondents in every category were asked how the passage of the IMPACT Act has affected eHIE in their region. A minority of respondents recognized the name of the law, and a few respondents could briefly describe the law and its implications for LTPAC providers and eHIE. Those respondents who were aware of the Act were very positive about its potential impact.</p>
+<h3 style="text-align:center">Medicare and Medicaid Programs: Reform of Requirements for Long-Term Care Facilities; Proposed Rule (CMS-3260-P)</h3>
+<p>On July 16, 2015, CMS announced a proposed rule that would update long-term care facility requirements for participation in Medicare and Medicaid (shown in the Environment or Context level of the Conceptual Framework). The proposed rule includes best practices for resident care, implements safeguards previously identified by stakeholders, and includes additional protections required by the Affordable Care Act (ACA). Changes include improvements to care planning (e.g., discharge planning with an interdisciplinary team, taking into account the caregiver's capacity, providing follow-up information to residents, and ensuring that instructions are transmitted to receiving facilities).<sup><a href="https://aspe.hhs.gov/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/notes#note42">42</a></sup> Of interest for this study is that the proposed rule would require long-term care facilities to send patient care summaries in the event of a transfer. While the proposed rule does not require the summary to be in digital form, the rule "encourage[s] facilities to explore how the use of certified health IT can support their efforts to electronically develop and share standardized discharge summaries...".</p>
+<p>The proposed rule's 60-day comment period, which should have ended on September 14, 2015, was extended for an additional 30 days, until October 14, 2015.<sup><a href="https://aspe.hhs.gov/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/notes#note43">43</a></sup></p>
+<p>Though the proposed rule was announced after the Urban Institute team conducted the project's review of literature, stakeholder discussions, and site visits, the rule's requirements around care planning could have implications for LTPAC involvement in eHIE (if and when the rule is issued as final). This remains an issue to watch going forward.</p>
+<h3 style="text-align:center">Payment and Delivery Reforms</h3>
+<p>As already noted, payment and delivery reforms have the potential to impact LTPAC involvement in eHIE (shown in the Environment or Context level of the Conceptual Framework). The Federal Government is pushing many of these reforms (e.g., CMMI's ACO Medicare Shared Savings Program, Medicare's hospital readmission policy) while others are led by local providers (e.g., Geisinger's bundled payments program) or state governments (e.g., Minnesota's bundled payments program, called "baskets of care"). Many of these payment and delivery reforms require providers to engage in care coordination and population management.</p>
+<p>An important component of any effort to provide those types of services is access to patient health care data across the continuum of care, which includes primary, acute, post-acute, and long-term care. Access to this range of data enables providers to form a better, more holistic picture of their patients' care needs and the care delivered by a range of providers to meet that need. HIE between LTPAC providers and other providers is a promising if not critical tool for giving those providers access to information across the continuum of care.</p>
+<p>Findings from both the review of literature and stakeholder discussion indicate that payment and delivery reforms in general provide financial incentives for hospital and organized delivery systems to engage in eHIE with LTPAC providers. These findings are generally consistent with those from the case studies but the Urban Institute team found important differences in the experiences of providers in the KeyHIE region and the Minneapolis region.</p>
+<p>In the KeyHIE region, LTPAC provide reaction to these reforms in the context of KeyHIE differs by provider type--these reforms seem to be driving NF interest to join KeyHIE more so than HHAs. NFs and HHAs seem to differ in the extent to which these providers see ACOs, CMS' readmission penalties, and bundling as a motivating factor for greater involvement in KeyHIE. NFs seem more motivated by the potential future impact of these reforms on their organization and its relationship with local hospitals and organized delivery systems. Some NFs feel that these reforms are pushing hospitals and organized delivery systems to institute preferred provider networks and that their involvement in KeyHIE could position them to become the preferred providers of those local hospitals and organized delivery systems in the future. Geisinger's health plan, which would have a powerful role in setting provider networks, also seems to be providing an additional push for LTPAC providers to participate in KeyHIE. HHAs seem to be less motivated by the potential future impact of these reforms on their prospects on becoming a preferred provider for area hospitals and are more interested in the potential for KeyHIE to improve efficiency and the quality of care their patients receive.</p>
+<p>As a result, HHAs are generally easier to recruit for participation in KeyHIE and are more likely to be in the initial phase of data exchange. The value proposition of participating in KeyHIE--the potential for efficiency gains and quality improvement--is clearer for HHAs compared to NFs. In general, HHAs were farther ahead than the NFs in KeyHIE implementation and in thinking about and experiencing the impact of their participation in KeyHIE on their workflow.</p>
+<p>In the Minneapolis region, payment and delivery system reforms may affect acute provider interest in exchanging health data with LTPAC providers differently.</p>
+<ul><li>
+<p>Medicare' hospital readmission penalty policy has fostered hospital and integrated delivery system interest in becoming connected to LTPAC providers. Since LTPAC providers take responsibility for many patients discharged from hospitals, ensuring smooth transitions and sufficient information exchange about a patient's care can help to limit unnecessary hospital readmissions and help hospitals and integrated delivery systems avoid incurring financial penalties from the Medicare's readmission policy.</p>
+</li>
+<li>
+<p>ACOs are common in Minneapolis and in Minnesota in general. Many stakeholders expect that their proliferation will facilitate interoperability with LTPAC providers in the state. However, provider adoption of the ACO model of care seems so far to be a weak motivating force for [primary and acute care providers] engaging in eHIE with LTPAC providers.</p>
+</li>
+<li>
+<p>Renewed interest in Minnesota's baskets of care program may actively shift the integrated delivery systems' focus away from achieving interoperability with LTPAC providers. One respondent from an integrated delivery system noted that as the policy conversation within that organization shifts from hospital readmission penalties to bundled payments, interoperability with LTPAC providers becomes less important. That respondent indicated that the bundled payments ultimately chosen would likely revolve around specialty services, where there is likely high variability in rates, not LTPAC services. To the extent that integrated delivery systems have to partner with specialty physicians outside of their network to offer those bundles, interoperability with specialty providers becomes a high priority, and LTPAC providers become less important</p>
+</li>
+</ul><p><em><strong>Size and Scale of Current eHIE Efforts in the United States</strong></em></p>
+<p>The exact numbers and types of providers participating in initiatives designed to promote eHIE involving LTPAC providers were sometimes difficult to discern in both the literature and stakeholder discussions. Some of these projects targeted SNFs, NHs, or home health specifically, but many aimed to include "LTPAC providers," which was defined broadly without further describing the exact setting of care. However, the information we were able to gather through our stakeholder discussions demonstrates that there is significant variation in the number and types of LTPAC and other providers (e.g., hospitals, medical groups, laboratories, pharmacies) participating in eHIE (shown in the Regional Structure level of the Conceptual Framework).</p>
+<p>Through the stakeholder discussions, the Urban Institute team was able to ascertain estimates of participating hospital and LTPAC providers and gain a sense of the range of hospital and LTPAC participation and scale of the HIE effort. In some regions and states (Massachusetts, Minnesota, and Missouri), around 1% of hospitals and medical groups in the state are participating. In other regions and states at least 35 hospitals are participating in the HIE. For example, in Colorado, 95% of hospitals are participate in the HIE, and in Ohio 90% do. About 18% of hospitals in Maine participate in the HIE. KeyHIE falls roughly in the middle of these two tails of the distribution with about 7% hospitals.</p>
+<p>Similarly, there is significant variation across states in the number of LTPAC providers participating in eHIE. Massachusetts and Minnesota have a relatively small number of participating LTPAC providers (i.e., ten LTPAC facilities). Colorado (N=120) and Ohio (N=175) are among the states with the largest number of participating LTPAC providers. Maryland, Maine, and Missouri, fall in between with 11-40 participating LTPAC providers. In Pennsylvania, reportedly about 30% of long-term care facilities are participating in KeyHIE. We were unable to discern an exact number in Indiana, but LTPAC provider involvement there is noteworthy because it consists of two of the largest national, for-profit chains, Golden Living and Kindred Healthcare, that have or are implementing an EHR (e.g., PointClickCare [PCC]).</p>
+<p><em><strong>LTPAC Providers' eHIE Capacity</strong></em></p>
+<p>The best available information in the literature suggests that LTPAC providers are lagging behind other key providers (e.g., 58% of hospitals now have a basic EHR) in the adoption and use of certified EHRs (shown in the Provider Organization level of the Conceptual Framework).<sup><a href="https://aspe.hhs.gov/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/notes#note44">44</a></sup> See the "LTPAC Providers and EHR Adoption" section for further information on this topic.</p>
+<p>Our stakeholder discussion informants, who were primarily from HIEs, reported that LTPAC providers in their region generally had low rates of EHR adoption and ability to engage in more robust eHIE. Some LTPAC providers may have EHRs but not have activated and started using HIE modules for various reasons (e.g., too expensive, no perceived ability to exchange with partners). Hospitals and physicians, themselves, are struggling with eHIE. According to a recent article, only four in ten hospitals reported they can electronically share data with other providers<sup><a href="https://aspe.hhs.gov/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/notes#note45">45</a></sup> and only 14% share data with ambulatory care providers or hospitals outside their organizations.<sup><a href="https://aspe.hhs.gov/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/notes#note46">46</a></sup> However, there appears to be considerable variation between different LTPAC provider types (e.g., NFs versus residential care facilities) and within LTPAC providers (e.g., different types of NFs) so comparisons are challenging.</p>
+<p>The sites selected for more in-depth case studies were chosen in part because their markets for exchange between LTPAC providers (especially NFs and HHAs) and their exchange partners were considered relatively mature. Findings from the KeyHIE case study confirm that is more advanced than most regions of the country and has the potential to expend LTPAC provider involvement well beyond current levels, while the two initiatives included in the Minnesota case study were farther behind.</p>
+<p><em><strong>Market Consolidation and Competition</strong></em></p>
+<p>The Urban Institute team found the following patterns regarding market consolidation and competition in our stakeholder discussions and the literature (see Provider Organization Characteristics level of Conceptual Framework). With respect to acute care providers, large organized delivery systems (e.g., Cleveland Clinic, Kaiser) or hospitals often play a major role in initiating eHIE involving LTPAC providers, particularly skilled nursing facilities (SNFs) and HHAs, and related care coordination efforts. These arrangements can take the form of preferred provider contractual arrangements or be more informal, based admission, discharge, transfer patterns and referral arrangements. Much of the research reporting exchange between LTPAC and other providers is occurring for LTPAC providers with strong affiliations and close proximity to large hospitals or health systems.<sup><a href="https://aspe.hhs.gov/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/notes#note47">47</a></sup></p>
+<p>This finding is consistent with the KeyHIE case study and, with one exception, the Minnesota case study. KeyHIE was driven by the initial leadership provided by the region's dominant provider organization, Geisinger Health System, as one of the initial sponsoring organizations for KeyHIE. Geisinger serves approximately 3 million residents in the Northcentral, Southcentral, and Northeast regions of Pennsylvania and employs 23,500 staff, including about 1,200 physicians, 400 residents/fellows, and 4,600 registered nurses and licensed practical nurses.<sup><a href="https://aspe.hhs.gov/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/notes#note48">48</a></sup> Recent Geisinger actions have pushed the region's provider community toward even greater consolidation. As one respondent put it, Geisinger is in an "acquisitions phase"; the system has made a number of small acquisitions in recent years, mostly hospitals and small systems, but more recently Geisinger has reportedly become interested in purchasing LTPAC providers. For example, SUN Home Health, which has several facilities operating in Pennsylvania, was recently acquired by Geisinger. Several respondents indicated that this shift was due to the emergence of ACOs, hospital readmission penalties and other payment policies.</p>
+<p>Minnesota's provider landscape is mostly made up of large integrated delivery systems or multi-specialty group practices, with small independent providers serving rural parts of the state. The hospitals and physicians serving Minneapolis and the surrounding area are generally owned or affiliated with one of several system (e.g., Allina Health, Fairview Health Services) or multi-specialty group practices (e.g., Fairview Physicians Associates, which is independent but affiliated with Fairview Health Services). In the Minnesota case study, both eHIE initiatives involved LTPAC providers that were owned or closely linked to a nearby hospital system.</p>
+<p>A key difference in the Minnesota experience relates to the organization that initiated eHIE between LTPAC providers and their exchange partners. The Fairview-Ebenezer initiative was driven by the organized delivery system itself, which is consistent the majority of eHIE initiative discussed with stakeholders and in the literature and the KeyHIE case study. However, HIE in the Benedictine-Allina initiative was pushed by the LTPAC side (Benedictine). BHS is a non-profit health system based in Minnesota. Though it is not a large national chain provider, it does have facilities in multiple states (Minnesota, North Dakota, Missouri, Wisconsin, South Dakota, and Illinois). Information obtained through the stakeholder discussions and the literature indicates that LTPAC providers rarely are the lead organization in eHIE initiatives or on the board of a regional HIE.</p>
+<p>Many of the NFs and HHAs in Minnesota are owned and operated by senior service health systems and large integrated delivery systems, respectively, which may facilitate LTPAC provider leadership and involvement in eHIE initiatives. BHS, for example, provides complete long-term care services for aging adults, including independent housing, assisted living, skilled nursing and rehabilitation services. Fairview Health Services, a non-profit health care system includes hospitals, aligned physicians, and clinics as well as "senior adult services" which include NFs. These senior services fall under the Ebenezer arm of the organization and have been a part of Fairview Health Services since 1995. The major national chains (Brookdale, Sunrise and Golden Living) also have a presence in Minnesota and may be better positioned for exchange and inclusion in delivery system reform than smaller facilities.</p>
+<p>Finally, the stakeholder discussions and literature point to a second potential pattern: groups of hospitals and hospital associations can also play a role in supporting eHIE with LTPAC providers in the state. Our stakeholder discussions suggest that this kind of collective action appears to depend on how competitive systems or hospitals are in a region and the extent to which they see eHIE with LTPAC providers as an area in which cooperation rather than competition is to their advantage. In other words, hospitals and hospital associations support eHIE with LTPAC providers when it can benefit them and their strategies.</p>
+<p>The Urban Institute team found limited involvement from provider associations in the Minnesota case study and little to no involvement in the Pennsylvania case study. There are two active and influential associations for "older adult service" providers in Minnesota: LeadingAge and Care Providers. LeadingAge Minnesota is the largest association of organizations serving Minnesota seniors. Care Providers is a long-term care trade association representing NFs, assisted living, home care, and hospice, with over 800 members. These organizations supported and publicized state efforts in administering a survey to LTPAC providers which showed that 69% of NFs had an EHR in 2011. They were also instrumental in securing exemptions for post-acute care providers from the state's EHR mandate and will be contributing to the LTPAC Roadmap, a component of their SIM grant (mentioned above).<sup><a href="https://aspe.hhs.gov/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/notes#note49">49</a></sup></p>
+<p><em><strong>Business Case for LTPAC Engagement in eHIE Initiatives</strong></em></p>
+<p>Several stakeholders reported during discussions with the Urban Institute team that it is sometimes difficult to get the interest of acute care providers in exchanging data with LTPAC providers (see Provider Organization Characteristic level of Conceptual Framework). The principal reasons identified are the acute care providers' current focus on their internal EHR system implementation and Medicare/Medicaid EHR Incentive Program Stage 2 MU attestation. It appears that the competition for HIT resources within acute care provider organizations continues to be a challenge. Acute care providers also continue to report staffing and information technology budget constraints due to financial pressures and multiple competing demands and projects. Although some HIOs indicated that the Stage 2 MU requirement for data exchange with non-affiliates was the lever used to get some acute and primary care providers as well as specialists to begin to exchange data with LTPAC providers, attestation was the priority and competed with demand for eHIE with LTPAC providers.</p>
+<p>Findings from the literature review indicate that some professional association activity supports this notion that sometimes it is difficult for LTPAC providers to engage acute care providers. For example, in the recent Health Information and Management Systems Society (HIMSS) LTPAC Task Force meeting (December 10, 2014) there was a consistent view voiced by LTPAC providers (national chains) that they are having a difficult time "getting the attention" of acute care providers.</p>
+<p>Even in initiatives like the ones included in this project's case studies, where acute care providers were willing to include or participate in eHIE initiatives involving LTPAC providers, some reluctance from the acute care side remains due workflow issues described below.</p>
+<p>The literature and stakeholder discussions included little information about factors that contribute to an LTPAC provider's decision to engage in eHIE, but findings from the two case studies shed some light on this topic. Generally, LTPAC providers who recognize the potential for eHIE to improve quality, increase efficiency, or secure referral sources from local hospitals tend to be more interested in engaging in eHIE.</p>
+<p>Several LTPAC providers in Pennsylvania recognize that having an interoperable EHR may lead to strategic partnerships with acute care trading partners, especially HHAs. Many commented that having an interoperable EHR and access to KeyHIE could be used as a "public relations" tool to communicate to acute care providers that, "we'll make your referral process easier." Respondents in Minnesota also recognized the strategic value of possessing interoperable EHRs. One respondent noted that referral sources will likely eventually depend on whether a provider has an interoperable EHR. Though not specifically articulated by the respondent, this would likely apply to LTPAC providers in addition to other types of providers. In fact, one prominent EHR vendor said that NFs are beginning to understand the value they can bring to acute care providers by implementing eHIE. The respondent said this is the "main conversation we engage with [NFs] on".</p>
+<p>In addition, improved outcomes, efficiency, and quality of care were a major motivation for both the Benedictine-Allina and Fairview-Ebenezer initiatives. Fairview includes LTPAC providers in their system but even within that system they want a better exchange strategy. The driver is improving patient care and transitions of care. Fairview believes that if they improve process, they can improve outcomes. Moreover, Fairview recognized the impending staff shortages, especially in the LTPAC arena. They believed the technology would allow Fairview to continue to operate efficiently in spite of shortages. Though Fairview did not provide examples of efficiency gains, a respondent in Pennsylvania indicated that technology can reduce time spent on intake processes.</p>
+<p>The Benedictine-Allina initiative had two primary drivers. First, information technology staff at Benedictine examined office efficiencies and found that systematic documentation of services provided, which determines payment, was poor. Benedictine staff believe that the use of technology will enable more complete service delivery documentation. Second, Benedictine's leadership recognized the move in health care towards quality, which is enabled by interoperable technology. Some respondents also felt the CCD process would save them time on admissions--even if only demographic information is re-used to populate various documents. One respondent said that amount of paperwork NFs have to do has grown exponentially as a result of new regulations, which requires 4-5 FTE in admissions to complete. If this process saves 15 minutes just by prepopulating the admissions form, it could result in real savings. This was echoed by a respondent from Fairview Health Services who, though lacking hard evidence, expects that being technologically progressive will result in FTE savings.</p>
+<p>In contrast, in the Pennsylvania case study LTPAC providers did not consistently believe that their participation in KeyHIE would lead to quality and efficiency improvements though they generally believed that their participation could potentially preserve referral streams from local hospitals in the future. Moreover, the perceived value of eHIE seemed to differ by provider types. Respondents from KeyHIE indicated that HHAs are generally easier to recruit for participation in KeyHIE and are more likely to be in the initial phase of data exchange. Many of the individuals with whom we spoke believe the value proposition of participating in KeyHIE--the potential for efficiency gains and quality improvement--is clearer for HHAs compared to NFs. Many respondents from HHAs agreed. One indicated that "HH is a no brainer...(exchange) allows the HHA a much better picture of what's going on with the patient's care in real-time. The discussion with home health, it only takes a minute.". Efficiency and quality gains seem more obvious for HHAs compared to NFs partially due to differences in referral patterns and the physical proximity to patients (see the section below on workflow for details).</p>
+<p>HHAs and NFs have very different workflow patterns that have important implications for incorporating eHIE into their organizations. Differing referral patterns and physical proximity to patients yield different eHIE needs. For example, HHAs receive patient referrals from a variety of settings, including hospitals, NFs, primary care practices, and specialty practices; NFs on the other hand receive referrals primarily from a few local hospitals. Without eHIE, HHA staff spends considerable time reaching out to these different referral sources and tracking down the information needed to serve their patients.</p>
+<p>Another workflow issue that affects LTPAC involvement in eHIE is the proximity of HHA and NF patients to the facility and clinicians providing their care. HHA patients are located in their home while NF patients reside in the facility. As a result, staff at HHAs are not always aware of a change in patient health status or the doctor's orders. One problem was frequently described in both case study sites visits: if a home health patient visits an ER or is admitted to the hospital, the HHA will not know unless the patient or a family member calls the HHA. When the home health nurse arrives at the patient's home and no one answers the door, the nurse will have to spend time trying to figure out if the patient is in the home and in need of assistance or at a hospital. NFs on the other hand typically have their patients' onsite and are aware of a change in patient status when it occurs. In one of the case study sites (Pennsylvania), these workflow patterns resulted in HHAs that were more motivated to exchange information than NFs.</p>
+<h3 style="text-align:center">Long-Term and Post-Acute Care Provider Preparation Activities</h3>
+<p><em><strong>Technological</strong></em></p>
+<p>Historically staff at LTPAC facilities has used a variety of mechanisms, including telephone calls and faxes, to obtain critical patient information. Using eHIE to gather information, in contrast, may require use of new technologies such as desktop computers, EHRs, and portable devices such as tablets or notebook computers, to capture data during the patient encounter as well as support exchange (e.g., data transport mechanisms and tools in use by partners). Moreover, new data transport methods and formats such as DSM and the Transform tool developed by KeyHIE which require technological infrastructure, have been introduced in LTPAC facilities.</p>
+<p>The literature review and stakeholder discussions described how much of the preparation for the new technologies (e.g., transport methods, formats) were centered on the regional HIEs; historically LTPAC providers were uninvolved in developing the national vision for eHIE. However, LTPAC providers have been involved in national collaborative groups such as the LTPAC Health Information Technology Collaborative, which develops and defines LTPAC providers' vision for HIT and the ONC-convened LTPAC Roundtable, which expands the national vision for HIT to include LTPAC providers.<sup><a href="https://aspe.hhs.gov/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/notes#note50">50</a></sup> For example, experts who participated in the ONC LTPAC Roundtable suggested that strategies to collect and exchange data need to consider the needs of both senders of receivers.</p>
+<p>In both case study sites, initiative leaders played a big role in determining the technological changes necessary for eHIE. In Pennsylvania, KeyHIE performs an analysis of LTPAC facilities ahead of installation of new technologies to determine which of its tools would be the "best fit" for the facility based on EHR capabilities. In Minnesota, information technology staff from Benedictine was instrumental in working with vendors to develop the technology to enable exchange of the CCD (see Provider Organization Characteristics level of Conceptual Framework).</p>
+<p><em><strong>Human Workflow</strong></em></p>
+<p>Implementing the technological changes to enable eHIE by LTPAC facilities with other providers creates a disruption in workflow for staff at all levels in the LTPAC facility, from providers to front office staff (see Provider Organization Characteristics level of Conceptual Framework). The literature revealed that a number of factors create challenges for introducing new technology in LTPAC facilities. There are high staff turnover rates in LTPAC facilities,<sup><a href="https://aspe.hhs.gov/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/notes#note51">51</a></sup> and nursing staff working in LTPAC facilities may be relatively older and have less education and training compared to nurses in other settings. As a result, they likely have less experience with computer systems generally and HIT specifically.<sup><a href="https://aspe.hhs.gov/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/notes#note52">52</a></sup> Additionally, there are large number of nurses at SNFs that work part time. All of these staffing issues pose challenges for conducting EHR or other HIT education and training sessions.<sup><a href="https://aspe.hhs.gov/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/notes#note53">53</a></sup></p>
+<p>Our stakeholder discussions suggested that there were limited resources dedicated to staff education and training. However, in both of our case study sites LTPAC staff were provided significant support from within and without the LTPAC facilities.</p>
+<p><em><strong>Staff Education and Training</strong></em></p>
+<p>All of the data sources we explored in this research highlighted the need for staff education and training at LTPAC facilities. Findings from the literature, stakeholder discussions, and case studies indicate that staff at LTPAC facilities tended to be older and less technologically adept and therefore in need of more extensive education and training compared to staff at hospitals and other providers (see Provider Organization Characteristics level of Conceptual Framework). Discussions with key stakeholders revealed that despite the high need for HIT training, LTPAC providers have limited options to provide EHR and HIE education for their staff. Generally, federally supported technical assistance programs that could potentially assist LTPAC providers, such as the ONC RECs and HIT work force training programs have ended,<sup><a href="https://aspe.hhs.gov/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/notes#note54">54</a></sup> and few vendors provide this training free of charge or at a price point that many LTPAC providers can afford.</p>
+<p>However, some of the initiatives to promote exchange in LTPAC facilities that we examined have provided staff education and training, including CORHIO and those studied during our site visits. Respondents from both site visits were reportedly provided extensive training through either their HIE Organization (e.g., KeyHIE) or by the LTPAC facilities themselves (e.g., Ebenezer and Benedictine), which enabled ease of use.</p>
+<p>In Pennsylvania, the burden of training LTPAC facility staff largely fell on KeyHIE. Because of the intensive training and follow-on technical assistance provided by KeyHIE, few providers who were using KeyHIE to exchange data reported workflow issues in using KeyHIE to exchange data. KeyHIE staff reportedly provides two full-day sessions of training to users and were highly responsive to any phone inquiries in the event of issues after the technology was in place. Training from KeyHIE is included in the ongoing subscription fee.</p>
+<p>In Minnesota, the LTPAC facilities provided training to their own staff. At St. Gertrude's, one of the younger staff members indicated that learning to use MatrixCare to exchange CCDs took "five minutes of training". However, as indicated in the literature and stakeholder discussions, the transition to electronic operations has been more challenging for older staff, who still prefer working with paper. Fairview also manages staff education and training in-house for both HHAs and NFs. Upon hire, every new Fairview Health Services employee must complete a two-day HIT course. This suggests that large integrated delivery systems that own LTPAC facilities may be able to leverage existing HIT staff and training capability that may have been developed with EHR Incentive payments to extend training to their affiliated LTPAC entities. These incentive payments are not available to LTPAC providers.</p>
+<div class="download_report">
+        <h4>
+        <a href="/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report">View full report</a>    </h4>
+    
+                        <div class="pdf-prev">
+                <img src="https://aspe.hhs.gov/system/files/pdfpreview/41a6d4c1ab4322b7ac884403e324f5d0.png" alt="Preview" title="Preview" />            </div>
+                <a class="btn btn-sm btn-default download-file"
+           href="https://aspe.hhs.gov/system/files/pdf/205271/LTPACsetting.pdf">Download</a>
+
+        <p class="download_title">&quot;LTPACsetting.pdf&quot;
+            (pdf,
+            1.22Mb)</p>
+        <p>Note: Documents in PDF format require the <a href="http://www.adobe.com/products/acrobat/readstep2.html">Adobe
+                Acrobat Reader&reg;</a>. If you experience problems with PDF documents, please <a
+                href="http://www.adobe.com/products/acrobat/readstep2.html">download the latest version of the
+                Reader&reg;</a>
+        </p>
+    </div>
+<div class="group-tags"><div class="field-label">Tags:&nbsp;</div><a href="/terms/information-technology">Information Technology</a><a href="/terms/electronic-health-records-ehr">Electronic Health Records (EHR)</a><a href="/terms/information-technology-0">Information Technology</a><a href="/terms/health-information-technology">Health Information Technology</a><a href="/terms/post-acute-care-and-services-0">Post-Acute Care and Services</a><a href="/terms/long-term-care">Long-Term Care</a></div>  </div>
+
+      <footer>
+          </footer>
+  
+    <div id="block-webform-client-block-158521" class="widget block block-webform" >
+  
+      
+  <div id="webform-ajax-wrapper-158521"><form class="webform-client-form webform-client-form-158521" action="/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/findings-preparing-ehie-between-ltpac-providers-and-exchange-partners" method="post" id="webform-client-form-158521" accept-charset="UTF-8"><div><div class="webform-progressbar">
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-radios webform-component--was-this-page-helpful">
+  <label for="edit-submitted-was-this-page-helpful">Was this page helpful? <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-was-this-page-helpful" class="form-radios"><div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-1" name="submitted[was_this_page_helpful]" value="1" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-1">Yes </label>
+
+</div>
+<div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-2" name="submitted[was_this_page_helpful]" value="0" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-2">No </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="4" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-6thBgNGgidkFr2lPKKUNKaVsi_8RSpBDqIcvyLbSgvs" />
+<input type="hidden" name="form_id" value="webform_client_form_158521" />
+<input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-158521" />
+<div class="form-actions"><input class="webform-next button-primary btn btn-default form-submit" type="submit" id="edit-webform-ajax-next-158521" name="op" value="Next &gt;" /></div>
+<div class="is-useful-disclaimer"> <a href="/%23" class="" title="Survey Disclaimer" data-toggle="modal" data-target="#disclamerModal">Form Approved OMB# 0990-0379 Exp. Date 8/31/2017</a></div>
+<div class="modal fade" id="disclamerModal" tabindex="-1" role="dialog" aria-labelledby="disclamerModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="disclamerModalLabel">Survey Disclaimer</h2>
+      </div>
+      <div class="modal-body">
+         According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this information collection is 0990-0379. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, gather the data needed, and complete and review the information collection. If you have comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: U.S. Department of Health & Human Services, OS/OCIO/PRA, 200 Independence Ave., S.W., Suite 336-E, Washington D.C. 20201, Attention: PRA Reports Clearance Officer.      </div>
+    </div>
+  </div>
+</div></div></form></div>
+  </div> <!-- /.block -->
+<meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/health-information-exchange-long-term-and-post-acute-care-settings-final-report" itemref="md1" /><meta  itemscope="" itemid="https://aspe.hhs.gov/report/health-information-exchange-long-term-and-post-acute-care-settings-final-report/findings-preparing-ehie-between-ltpac-providers-and-exchange-partners" itemref="md2 md4 md6 md8 md10 md12 md14" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/information-technology" id="md4" itemref="md3" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/electronic-health-records-ehr" id="md6" itemref="md5" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/information-technology-0" id="md8" itemref="md7" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/health-information-technology" id="md10" itemref="md9" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/post-acute-care-and-services-0" id="md12" itemref="md11" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/long-term-care" id="md14" itemref="md13" />              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <footer  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Footer">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  id="footer_sitemap-footer_sitemap" class="col-sm-6 col-md-6 col-lg-4 ">
+                          
+                              <div id="block-footer-sitemap-footer-sitemap" class="widget block block-footer-sitemap" >
+  
+      
+  <div id="footer-sitemap" class="clearfix">
+  <div class="fs-block-content"><div class="menu-footer-utility"><ul class="footer_links_menu-footer-utility total-items-2 parent-items-0 single-items-0"><li class="menu-5021 depth-1 total-children-8 parent-children-0 single-children-8  first"><a href="/" title="look at ASPE Home" class="fs-root-link">ASPE Home</a><ul class="footer_links_menu-footer-utility total-items-8 parent-items-0 single-items-0"><li class="menu-5026 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/" title="look at HHS Home">HHS Home</a></li>
+<li class="menu-66281 depth-1 fs-no-children"><a href="http://www.usa.gov/" title="look at USA.gov">USA.gov</a></li>
+<li class="menu-66316 depth-1 fs-no-children"><a href="https://oig.hhs.gov/" title="look at Office of the Inspector General">Office of the Inspector General</a></li>
+<li class="menu-66321 depth-1 fs-no-children"><a href="http://www.whitehouse.gov" title="look at The White House">The White House</a></li>
+<li class="menu-5046 depth-1 fs-no-children"><a href="http://www.hhs.gov/Accessibility.html" title="look at Accessibility">Accessibility</a></li>
+<li class="menu-66326 depth-1 fs-no-children"><a href="http://www.hhs.gov/about/budget/index.html" title="look at Budget/Performance">Budget/Performance</a></li>
+<li class="menu-2551 depth-1 fs-no-children"><a href="http://www.hhs.gov/Privacy.html" title="look at Privacy Policy">Privacy Policy</a></li>
+<li class="menu-197776 depth-1 fs-no-children  last"><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" title="Nondiscrimination Notice">Nondiscrimination Notice</a></li>
+</ul></li>
+<li class="menu-5051 depth-1 total-children-4 parent-children-0 single-children-4  last"><a href="http://www.hhs.gov/foia/" title="look at FOIA" class="fs-root-link">FOIA</a><ul class="footer_links_menu-footer-utility total-items-4 parent-items-0 single-items-0"><li class="menu-5056 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/open/recordsandreports/plainwritingact/index.html" title="look at Plain Writing Act">Plain Writing Act</a></li>
+<li class="menu-5061 depth-1 fs-no-children"><a href="http://www.hhs.gov/asa/eeo/no_fear_bullet_3.html" title="look at No Fear Act">No Fear Act</a></li>
+<li class="menu-5066 depth-1 fs-no-children"><a href="http://www.hhs.gov/Disclaimer.html" title="look at Disclaimers">Disclaimers</a></li>
+<li class="menu-2546 depth-1 fs-no-children  last"><a href="http://www.hhs.gov/plugins.html" title="look at Viewers &amp; Players">Viewers &amp; Players</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-5 " id="stability_cms-contact_us">
+                          
+                              <div id="block-stability-cms-contact-us" class="widget block block-stability-cms" >
+  
+      
+  <div class="contacts-widget widget widget__footer">
+	<div class="widget-content">
+		<ul class="contacts-info-list">
+      			<li>
+<!--				<i class="fa fa-map-marker">Address</i>-->
+                <div class="info-icons">
+                    <img  alt="map" class= 'map-icons' src="/sites/all/themes/stability/stability_aspe/images/map.png"/>
+                </div>
+                <div class="info-item">
+					Assistant Secretary for Planning and Evaluation, Room 415F<br />
+U.S. Department of Health and Human Services<br />
+200 Independence Avenue, SW<br />
+Washington, D.C. 20201				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-phone">phone</i>-->
+                <div class="info-icons">
+                    <img alt="phone" src="/sites/all/themes/stability/stability_aspe/images/phone.png"/>
+                </div>
+				<div class="info-item">
+					+1 202.690.7858				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-envelope">email</i>-->
+                <div class="info-icons">
+                    <img alt="mail" src="/sites/all/themes/stability/stability_aspe/images/mail-white.png"/>
+                </div>
+				<span class="info-item">
+					<a href="mailto:osaspeinfo@hhs.gov">osaspeinfo@hhs.gov</a>
+				</span>
+			</li>
+      			                					</ul>
+	</div>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-3 " id="footer">
+                          
+                              <div id="block-block-36" class="widget block block-block" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sign-up</span> for Email Updates</h3>
+		</div>
+    
+  <div class="email_updates">
+<button class="btn btn-default" name="subscribe-button" type="submit" value="subscribe">subscribe</button>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-12 " id="menu-menu-footer-language-menu">
+                          
+                              <div id="block-menu-menu-footer-language-menu" class="widget block block-menu" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Language</span> Assistance Available</h3>
+		</div>
+    
+  <ul class="menu"><li class="first expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#spanish" title="Español">Español</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#chinese" title="繁體中文">繁體中文</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#vietnamese" title="Tiếng Việt">Tiếng Việt</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#korean" title="한국어">한국어</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#tagalog" title="Tagalog">Tagalog</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#russian" title="Русский">Русский</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#arabic" title="العربية">العربية</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#creole" title="Kreyòl Ayisyen">Kreyòl Ayisyen</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#french" title="Français">Français</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#polish" title="Polski">Polski</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#portuguese" title="Português">Português</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#italian" title="Italiano">Italiano</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#german" title="Deutsch">Deutsch</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#japanese" title="日本語">日本語</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#farsi" title="فارسی">فارسی</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#english" title="English">English</a></li>
+</ul></li>
+</ul>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+      </div>
+
+          </div>
+    
+    
+      </footer>
+    
+
+    <!--/PAGEWATCH-->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+                        </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="social-links-wrapper">
+              <span class="social-links-txt">Connect with us</span>
+              <ul class="social-links social-links__dark">
+                                                  <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw-grey.png"/></a></li>
+                                <!--                --><!--                  <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin-grey.png"/></a></li>-->
+<!--                -->
+                                                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>  <script type="text/javascript" src="/sites/default/files/advagg_js/js__VWRymaMz6HfrhnrcJNGcDiSvLVrvhaXvBa7nrBYy8gc__jntPwP3D6myJZH1jW19fXrk5cYMHGRL8NQION22VSEA__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5486d15a696bff0c"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__g6mKbcakHxQkz4ZHYaxdO_xqONINvRMgsHh1zAK-fr0__ATHtEmHaeZ0jidpGU22EkhmPDBSgjD8z0bVDQMI-BIY__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__KUp4PrfOt9BSXUVl8Ctb3dhCMBe4MNVMeb4Gyorx8yY__7g4BeXscCIZAfuu1vxsCj2RIemg-eEK0QpChP9LDmFQ__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__-lTibmScdz72f0-5WA9kxuPp-TZJEfyLCI6M2oC8I7o__WokrfyLOTIIjCC2mi9PpCwBq3hzxExmsz_JSnp4-OsM__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__vQiLul2UcfC4nBAR09mhYVBYzRmiNDm2dj3GgSubV38__w84oZe-ZODKe7XnnlbrjV4IWHISOy4PioFEMVgx9hZo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__QJw3g0kOdwsv4twSZLP931zBzsHy50VEHpEN_znIitQ__A6QOuWXElDipBM2iChbWhjAAt3KlUwZ-jODoxdpbwiw__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stability_aspe","theme_token":"kH81zz0er2b8zMxnVOdbWX2glv7ImlhgnXzZynVZ6kg","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/footable.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/aspe_nodes.admin.css":1,"sites\/all\/modules\/custom\/aspe_views\/theme\/css\/aspe_views.admin.css":1,"sites\/all\/modules\/forked\/book\/book.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/openpublic\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.css":1,"profiles\/openpublic\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openpublic\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/openpublic\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/themes\/stability\/css\/bootstrap.min.css":1,"sites\/all\/themes\/stability\/css\/fonts\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.theme.css":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/stability\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/stability\/css\/theme.css":1,"sites\/all\/themes\/stability\/css\/theme-elements.css":1,"sites\/all\/themes\/stability\/css\/animate.min.css":1,"sites\/all\/themes\/stability\/css\/skins\/red.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/slideshow.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/font-main.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/styleless.less":1,"sites\/all\/themes\/stability\/css\/skins\/blue.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/aspe\/theme\/js\/aspe.login-confirm.js":1,"sites\/all\/modules\/custom\/aspe_report\/modules\/aspe_databooks\/js\/aspe_databooks.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.highcharts.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/datatables\/dataTables.min.js":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.min.js":1,"sites\/all\/libraries\/highcharts\/highcharts.js":1,"sites\/all\/libraries\/highcharts\/highcharts.exporting.js":1,"sites\/all\/libraries\/highcharts\/highcharts.map.js":1,"sites\/all\/libraries\/highcharts\/highcharts.us-all.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.footable.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5486d15a696bff0c":1,"misc\/progress.js":1,"profiles\/openpublic\/modules\/contrib\/webform\/js\/webform.js":1,"sites\/all\/modules\/custom\/aspe_book\/theme\/js\/async.js":1,"sites\/all\/modules\/custom\/aspe_book\/theme\/js\/aspe_book.jquery_ajax_load.js":1,"sites\/all\/modules\/custom\/aspe_book\/theme\/js\/aspe_book.filtering.js":1,"sites\/all\/modules\/custom\/aspe_book\/theme\/js\/aspe_book.collapsible.js":1,"profiles\/openpublic\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/stability\/vendor\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/stability\/vendor\/bootstrap.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flexnav.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flickrfeed.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.sloppy-masonry.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.fitvids.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.stellar.min.js":1,"sites\/all\/themes\/stability\/vendor\/snap.svg-min.js":1,"sites\/all\/themes\/stability\/js\/custom.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/aspe.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/html5shiv.min.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/main-menu.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/keyboard-control.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tabBehavior.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tileStringTrimmer.js":1}},"webform":{"conditionals":{"webform-client-form-158521":{"ruleGroups":[],"sourceMap":[],"values":[]}}},"ajax":{"edit-webform-ajax-next-158521":{"callback":"webform_ajax_callback","wrapper":"webform-ajax-wrapper-158521","progress":{"message":"","type":"throbber"},"event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Next \u003E"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/report\/health-information-exchange-long-term-and-post-acute-care-settings-final-report\/findings-preparing-ehie-between-ltpac-providers-and-exchange-partners":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"([a-z0-9]\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This website contains links to other federal and state agencies and private organizations. The Department of Health and Human Services (HHS) cannot attest to the accuracy of information provided by these nonfederal website links. Linking to nonfederal sites does not constitute an endorsement by HHS or any of its employees of the sponsors or the information and products presented on the sites. You will be subject to the destination site\u0027s privacy policy when you leave the ASPE website.\r\n\r\nThank you for visiting aspe.hhs.gov!","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"stability":{"flickr_id":"52617155@N08","logo_sticky":"28"},"jquery_ajax_load":{"trigger":".jquery_ajax_load","target":"#jquery_ajax_load_target","toggle":true,"animation":true,"base_path":"\/","module_path":"sites\/all\/modules\/custom\/aspe_book","site_name":"ASPE"},"field_group":{"div":"full"}});
+//--><!]]>
+</script>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config={pubid:"ra-5486d15a696bff0c",ui_click:false}
+//--><!]]>
+</script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4837db659","applicationID":"10708002","transactionName":"MwNaZBRSXEtXB0BdWQpJeVMSWl1WGQpbUFM7FllXA2xEUVMT","queueTime":0,"applicationTime":1311,"atts":"H0RZElxIT0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

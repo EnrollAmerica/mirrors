@@ -1,0 +1,1519 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">  <!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="../sites/default/files/Favicon2.png" type="image/png" />
+<meta name="description" content="Prepared for: U.S. Department of Health and Human Services Office of the Secretary Assistant Secretary for Planning and Evaluation Prepared by: Prashila Dullabh, Adil Moiduddin and Elizabeth Babalola NORC at the University of Chicago June 2009" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="white-paper-measurement-utilization-installed-ehr.html" />
+<link rel="shortlink" href="https://aspe.hhs.gov/node/156586" />
+<meta property="og:site_name" content="ASPE" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aspe.hhs.gov/basic-report/white-paper-measurement-utilization-installed-ehr" />
+<meta property="og:title" content="White Paper: Measurement of the Utilization of an Installed EHR" />
+<meta property="og:description" content="Prepared for: U.S. Department of Health and Human Services Office of the Secretary Assistant Secretary for Planning and Evaluation Prepared by: Prashila Dullabh, Adil Moiduddin and Elizabeth Babalola NORC at the University of Chicago June 2009" />
+<meta property="og:updated_time" content="2016-02-09T08:51:38-05:00" />
+<meta property="article:published_time" content="2015-12-03T12:11:41-05:00" />
+<meta property="article:modified_time" content="2016-02-09T08:51:38-05:00" />
+
+  <title>White Paper: Measurement of the Utilization of an Installed EHR | ASPE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+  <link type="text/css" rel="stylesheet" href="../sites/default/files/advagg_css/css__5ln8neBOcJfyUveiD4y9fhI6kHBLOQ_YL0mMC-LS9a0__TPJIZT9UBnf_685NlFTJ5KnZVsjwFk6ACQ-nwwygmwU__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/advagg_css/css__ng49uRH5y4Hl9VF9hHW_vXOj-mcOc2u2ShJqJ1YKIGU__FoMCD14GBvZaRiqSQ_JpP1w3rDB21n7H2Ar4pRZaIh8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/advagg_css/css__Hskudx14OJ5Hz8vqU7CUgN6SDV5rINZuEq9VuGsSeyc__EwNIl3xeFrniW2TmonovTzhSs3X5MdFps210puE7jog__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/advagg_css/css__9rZoaX9BdzjjNucvYxduxeNAVO2zgW_Rvjhb5rq5whc__lSr_y16grDSgHf4booPChnF7QXz3TQY3hafH49twE0k__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/advagg_css/css__ZgfI_ZPib5yVY0o5aKo_6TFn946Tuu_nFDa0ySTmkSc__2FTFrNw2eNh0mpHIOA34r6YRwBZMm2PjJ_JubnwLigg__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/advagg_css/css__dxabpJ5rQgDSixKgLJZjWc1beC6mpROKwVrmWxI5eno__rqhz_hGsE_i59O7-W991o71_Jxw1QOtGMxn4nsOLHY8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/advagg_css/css__ZbRCq2NqWgK-HXAQI3So0N1n0nr4HonsJS3eQuuxukw__7Olkk8Locn8Dj0eR0Ww3rbV9lks9sxipcboMXB18RRs__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+
+	<!-- Head Libs -->
+	<script src="../sites/all/themes/stability/stability_aspe/vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/sites/all/themes/stability/vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" href="../sites/all/themes/stability/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="../sites/all/themes/stability/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="../sites/all/themes/stability/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="../sites/all/themes/stability/images/apple-touch-icon-144x144.png">
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-156586 node-type-basic-report">
+<!-- Google Tag Manager -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-JLFR"
+                  height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JLFR');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-nav" class="accessibility_menu">
+    <strong>Shortcut Navigation:</strong>
+    <ul>
+      <li><a href="white-paper-measurement-utilization-installed-ehr.html#content" accesskey="c" title="Skip to page content (ctrl/alt + c)">Page Content</a></li>
+      <li><a href="white-paper-measurement-utilization-installed-ehr.html#nav" accesskey="m" title="Skip to main navigation menu (ctrl/alt + m)">Site Navigation</a></li>
+
+      <li><a href="white-paper-measurement-utilization-installed-ehr.html#Footer" accesskey="f" title="Skip to footer (ctrl/alt + f)">Footer</a></li>
+    </ul>
+  </div>
+
+    
+<div class="site-wrapper">
+  
+  <header class="header header-menu-fullw header-top-clean">
+    <div id="brand-bar">
+        <div class="container">
+                    <img alt='bird' src="../sites/all/themes/stability/stability_aspe/images/bird.png"> <a target="blank" tabindex="4" href="http://www.hhs.gov/">U.S. Department of Health & Human Services</a>
+        </div>
+
+    </div>
+    <div class="header-main">
+        <div class="container clearfix">
+            <div class="social-links-wrapper">
+                <ul class="social-links social-links__light">
+                                                          <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="../sites/all/themes/stability/stability_aspe/images/tw.png"/></a></li>
+                                    <!--                  --><!--                    <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin.png"/></a></li>-->
+<!--                  -->
+                                                                      </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                                <div class="site_name_wrapper">
+                                     <span class="h1">
+                                      <a href="../images/exit_disclaimer.jpg.html">ASPE</a>
+                                       </span>
+                                  <p class="tagline"><p>Office of The Assistant Secretary</p><p> for Planning and Evaluation</p></p>
+                    </div>
+            </div>
+            <!-- Logo / End -->
+            <div class="header_right_wrapper">
+                <div class="search-form">
+                    <form action="white-paper-measurement-utilization-installed-ehr.html" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class = "input-group"><div class="form-type-textfield form-item-search-block-form form-item form-group">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search Site..." class="form-control form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input class="btn btn-primary btn-icon form-submit" type="image" id="edit-submit" name="submit" value="Search" src="../sites/all/themes/stability/stability_aspe/images/search-white2.png" alt="Search" title="Search" /></div></div><input type="hidden" name="form_build_id" value="form-4KdL6fVb7qX8Z4ePCTSoH2ZX_nj4qrgBCwO_y15hMl0" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </div>
+                <button type="button" class="navbar-toggle" value="Menu">
+                    <i class="fa fa-bars"></i>Menu
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-main">
+        <div class="container">
+          <ul data-breakpoint="767" class="flexnav">
+                <li class="first expanded"><a href="../basic-search/about.html" title="">About</a><ul><li class="first leaf"><a href="../node/41366.html" title="">Mission</a></li>
+<li class="leaf"><a href="../key-staff.html" title="">Leadership</a></li>
+<li class="leaf"><a href="https://www.usajobs.gov/" title="">Careers</a></li>
+<li class="expanded"><a href="../node/83081.html" title="linkTo">Coordination</a><ul><li class="first leaf"><a href="../node/94561.html" title="">Evaluation &amp; Evidence</a></li>
+<li class="leaf"><a href="../node/83126.html">National Alzheimer&#039;s Project Act</a></li>
+<li class="leaf"><a href="../hhs-data-council.html">HHS Data Council</a></li>
+<li class="last leaf"><a href="../node/83076.html" title="National Council on Vital and Health Statistics">National Council on Vital and Health Statistics</a></li>
+</ul></li>
+<li class="expanded"><a href="../basic-search/divisions.html" title="">Offices</a><ul><li class="first leaf"><a href="../daltcp/home.htm">Disability, Aging, and Long-Term Care Policy</a></li>
+<li class="leaf"><a href="../node/57001.html">Health Policy</a></li>
+<li class="leaf"><a href="../hsp/index.shtml.html">Human Services Policy</a></li>
+<li class="last leaf"><a href="../node/57011.html">Science and Data Policy</a></li>
+</ul></li>
+<li class="leaf"><a href="../node/83096.html" title="Strategic Planning">Strategic Planning</a></li>
+<li class="last leaf"><a href="../node/83911.html" title="">Contact ASPE</a></li>
+</ul></li>
+<li class="expanded"><a href="../basic-search/topics.html" title="">Topics</a><ul><li class="first leaf"><a href="../health/reports/2012/ACA-Research/index.cfm.html">Affordable Care Act Research</a></li>
+<li class="leaf"><a href="../node/101296.html">Alzheimer&#039;s / Dementia</a></li>
+<li class="leaf"><a href="../node/105551.html">Early Childhood</a></li>
+<li class="leaf"><a href="../node/103281.html">Incarceration &amp; Reentry</a></li>
+<li class="leaf"><a href="../node/83056.html" title="Opioids">Opioids</a></li>
+<li class="leaf"><a href="../node/83296.html">Patient-Centered Outcomes Research Trust Fund (PCORTF)</a></li>
+<li class="expanded"><a href="../basic-search/poverty.html" title="">Poverty</a><ul><li class="first leaf"><a href="../node/107166.html">Poverty Guidelines</a></li>
+<li class="last leaf"><a href="../node/107171.html">Poverty Analysis</a></li>
+</ul></li>
+<li class="leaf"><a href="../node/164501.html">Teen Pregnancy Prevention</a></li>
+<li class="leaf"><a href="../node/100556.html">Homelessness</a></li>
+<li class="last leaf"><a href="../node/117441.html">MACRA</a></li>
+</ul></li>
+<li class="leaf"><a href="../reports.html" title="">Publications</a></li>
+<li class="last expanded"><a href="../basic-search/datasets.html" title="">Data and Tools</a><ul><li class="first last leaf"><a href="../pic/index.cfm.html" title="">Evaluation Database</a></li>
+</ul></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation / End -->
+</header>  <div class="main" role="main">
+    <!--PAGEWATCH CODE="USHHS_458"-->
+    <section class="page-heading">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+                <h1>
+                    
+          White Paper: Measurement of the Utilization of an Installed EHR        </h1>
+                                 <p class="author">
+                                                 <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2015-12-03T00:00:00-05:00">12/03/2015</span>               
+                           </p>
+
+
+                  </div>
+
+
+        <div class="col-md-6">
+           <ul class="breadcrumb"><li class="first"><a href="../images/exit_disclaimer.jpg.html" title="Home">Home</a></li>
+<li class="last">White Paper: Measurement of th...</li>
+</ul>        </div>
+
+
+    </div>
+  </div>
+</section>
+    
+      <div  class="nd-region nd-region-filter">
+  
+       
+
+    
+      <div  id="Filter" class="row">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region nd-region-similar-content">
+  
+       
+
+    
+      <div  id="Similar-Content" class="row">     
+
+        
+                  
+        
+                                    <div  id="top" class="">
+                          
+                              <div id="block-views-2100ccfdd214bdbcf634d7e4832c265b" class="widget block block-views solr-similar-content" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Similar</span> content</h3>
+		</div>
+    
+  <div class="view view-similar-content-solr view-id-similar_content_solr view-display-id-block_solr_similar_content view-dom-id-332ad01d14ac16c87e65413835e68848">
+        
+  
+  
+      
+    
+    <span class="field-content"><a href="literature-review-and-synthesis-existing-surveys-health-information-technology-including-surveys-health-information-technology-nursing-homes-and-home-health.html">Literature Review and Synthesis: Existing Surveys on Health Information Technology, including Surveys on Health Information Technology in Nursing Homes and Home Health</a></span>    
+    <span class="field-content"><a href="report-health-information-exchange-post-acute-and-long-term-care.html">Report on Health Information Exchange in Post-Acute and Long-Term Care</a></span>    
+    <span class="field-content"><a href="survey-questions-ehr-adoption-and-use-nursing-homes-final-report.html">Survey Questions for EHR Adoption and Use in Nursing Homes: Final Report</a></span>    
+    <span class="field-content"><a href="case-studies-electronic-health-records-post-acute-and-long-term-care.html">Case Studies of Electronic Health Records in Post-Acute and Long-Term Care</a></span>    
+    <span class="field-content"><a href="ehr-payment-incentives-providers-ineligible-payment-incentives-and-other-funding-study-appendices.html">EHR Payment Incentives for Providers Ineligible for Payment Incentives and Other Funding Study. Appendices.</a></span>  
+  
+  
+  
+  
+  
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Content">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  class="col-md-12 " id="content">
+                          
+                              <div id="block-aspe-aspe-addthis" class="widget block block-aspe" >
+  
+      
+  <div class="clearfix">
+  <ul class="addthis_sharing_toolbox node-share__links" data-url="https://aspe.hhs.gov/basic-report/white-paper-measurement-utilization-installed-ehr" data-title="White Paper: Measurement of the Utilization of an Installed EHR">
+    <li><a class="addthis_button_print"><img src="../sites/all/themes/stability/stability_aspe/images/print-white.png" alt="print" /></a></li>
+    <li><a class="addthis_button_email"><img src="../sites/all/themes/stability/stability_aspe/images/mail-white.png" alt="email" /></a></li>
+    <li><a class="addthis_button_twitter"><img src="../sites/all/themes/stability/stability_aspe/images/tw.png" alt="twitter" /></a></li>
+<!--    <li><a class="addthis_button_facebook">--><!--</a></li>-->
+    <li><a class="addthis_button_compact"><img src="../sites/all/themes/stability/stability_aspe/images/plus-white.png" alt="compact" /></a></li>
+  </ul>
+</div>
+
+  </div> <!-- /.block -->
+
+                
+    
+  
+  <div class="content clearfix node-basic-report">
+    <p style="text-align:center">Prepared for:<br />
+	U.S. Department of Health and Human Services<br />
+	Office of the Secretary<br />
+	Assistant Secretary for Planning and Evaluation</p>
+<p style="text-align:center">Prepared by:<br />
+	Prashila Dullabh, Adil Moiduddin and Elizabeth Babalola<br />
+	NORC at the University of Chicago</p>
+<p style="text-align:center">June 2009</p>
+<p><em>This report was prepared under the direction of James Sorace, Office of Science and Data Policy, Caroline Taplin, Office of Health Policy and Dale C. Hitchcock, Office of Science and Data Policy.<br />
+	This report may be found online at:<br />
+	http://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml.</em></p>
+<p><a name="skip" id="skip"></a></p>
+<h2><a name="_Toc232577649" id="_Toc232577649">INTRODUCTION</a></h2>
+<p>NORC at the University of Chicago is pleased to present this report entitled “<em>Measurement of the Utilization of an Installed EHR</em>” for the Assistant Secretary for Planning and Evaluation (ASPE) at the U.S. Department of Health and Human Services (HHS). In the face of rising costs and concerns about quality in the United States health care sector, an emphasis has been placed on the critical role that health information technology (IT) will play. Electronic Health Records (EHRs) have great potential to improve patient outcomes, increase patient safety, and bring about overall improvements in the quality of care delivered. As a result, the President, Congress and others have placed a great deal of attention on promoting widespread adoption of EHR technology.  The 2009 American Recovery and Reinvestment Act (ARRA) authorized approximately $36 billion towards health IT, with a significant amount to promote the ‘<em>meaningful use’ and adoption of certified EHRs.</em><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn1" name="_ednref1" title="" id="_ednref1"><sup>[i]</sup></a></p>
+<p>While the concept and definition of <em>meaningful use</em> is yet to be agreed upon, it will include provisions for e-Prescribing, Clinical Decision Support (CDS), interoperability, and quality measurement.<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn2" name="_ednref2" title="" id="_ednref2"><sup>[ii]</sup></a> The regulatory interpretation of <em>meaningful use </em>will have important implications across the medical and health IT industries.  EHR vendors with less comprehensive systems will argue that their systems will be able to meet <em>meaningful use</em> with only a few modifications and will advocate for looser measures of <em>meaningful use. </em>Vendors with comprehensive EHR systems are likely to argue for more specific interpretations. Similarly, there is concern on the part of organizations that have spent significant amounts of money purchasing systems that may not meet the requirements for <em>meaningful use</em>. Developing a better understanding of the functions that are most commonly used in EHRs provides a basis for defining key criteria for <em>meaningful use</em>. For example, many practices are beginning to use electronic exchange of lab results to ensure that they receive results on a more timely basis to improve internal efficiencies and improve the quality of care delivered.</p>
+<p>In order to define meaningful use, it is also critical to consider the intended goals and outcomes of EHR use according to key stakeholders. Ultimately the motivation to adopt enabling technologies like EHRs is largely driven by the need to improve the quality of care that is being delivered. The Institute of Medicine, in its landmark reports <em>To Err is Human</em> and <em>Crossing the Quality Chasm,</em> highlighted the EHR as a method to improve health care quality and reduce costs. EHRs can facilitate quality improvement by reducing medical errors, providing easy access to patient information, acting as a tool to engage patients in their healthcare and providing alerts and reminders that improve patient safety. Many practices have cited quality improvement as a primary goal of their adopting an EHR system.<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn3" name="_ednref3" title="" id="_ednref3"><sup>[iii]</sup></a> Discussions on meaningful use by the National Committee for Vital Health and Statistics (NCVHS)<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn4" name="_ednref4" title="" id="_ednref4"><sup>[iv]</sup></a>, Markle<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn5" name="_ednref5" title="" id="_ednref5"><sup>[v]</sup></a>  and the Healthcare Information and Management Systems Society (HIMSS)<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn6" name="_ednref6" title="" id="_ednref6"><sup>[vi]</sup></a> all have identified quality improvement as one of the overarching priorities when defining meaningful use.</p>
+<p>In spite of the great interest in EHR adoption a great deal is unknown about the use of specific features of EHRs, and there is no standard set of methods that reproducibly measures their utilization. Issues that contribute to making the question of quantifying adoption challenging include the lack of a clear definition of an EHR, a lack of standards to measure usage and inconsistencies in how EHR functions are described across the myriad of vendor products that are available today. There have been numerous survey efforts to capture estimates of the level of EHR adoption in the United States. However, survey approaches have some inherent limitations related to validity, reliability, granularity and positive sampling biases. In addition, while there are many studies which measure the rate of adoption of EHRs, there is significantly less information to be found regarding actual physician use of EHR features.</p>
+<p>To further confound matters there is no standard definition of adoption for EHRs.  A Robert Wood Johnson Foundation report titled <em>Health IT in the United States: The Information Base for Progress</em> defined adoption as “a process that, for measurement purposes, captures the acquisition, installation and use of EHRs”<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn7" name="_ednref7" title="" id="_ednref7"><sup>[vii]</sup></a>. It was recommended that, in order to achieve accurate results, EHR adoption surveys should assess these three domains. Based on this definition, it is clear that adoption does not necessarily equal usage. For many practices, it often only indicates implementation: studies that merely address this dimension of adoption are assessing system availability rather than the extent to which the technology is actually being used. In measuring the level of adoption in practices, some studies have taken the approach of full versus partial adoption, where the fully functional system contained clinical support features and included more advanced computerized physician order entry (CPOE) and results management features. <a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn8" name="_ednref8" title="" id="_ednref8"><sup>[viii]</sup></a>,<sup><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn9" name="_ednref9" title="" id="_ednref9">[ix]</a></sup>  This, perhaps more than other methods, most accurately captures the state of EHR use in the United States.      </p>
+<p>The purpose of this white paper is to discuss some of the limitations of current methods to assess EHR adoption, to enhance our understanding of EHRs used in ambulatory care settings and to explore the feasibility of systematic approaches of tracking EHR usage over time. While our interest in EHR adoption applies broadly to the ambulatory care setting, we focus more specifically on federally supported health centers and other safety-net providers.   Nationally, community health centers provide medical care to more than 16 million individuals, many of whom are uninsured and/or have chronic conditions.<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn10" name="_ednref10" title="" id="_ednref10"><sup>[x]</sup></a> EHRs can contribute significantly to improving healthcare and reducing health disparities for this vulnerable population. Knowledge about EHR adoption and utilization in health centers is limited as there are few nationwide studies on this topic. </p>
+<p>Our paper covers several topics that we have researched through review of the literature as well as through a series of discussions with health center and health center network representatives and experts in the field.  Topics addresses in the paper include:</p>
+<ul><li>An overview of major surveys that have been used to asses adoption and utilization including a review of some of the limitations of this approach.</li>
+<li>An overview of the major EHR models and the core functions of EHRs.</li>
+<li>A review of the EHR functions that are most commonly used and the use of standards to support interoperability.</li>
+<li>The development of a standard set of utilization metrics (including the use of encounter notes, medical history, medication lists, allergy lists, problems lists, order entry functions largely focused around lab order entry, the viewing of laboratory results and the use of patient demographics) that a certified EHR could automatically generate on an installation and provider specific basis.</li>
+<li>A discussion of conclusions as they relate to ongoing federal efforts to promote EHR adoption and <em>meaningful use</em> and the need for additional areas of analysis to address current gaps in knowledge. </li>
+</ul><p>To begin with, we provide a background section that includes our current knowledge regarding adoption and the current challenges associated with measuring utilization in a consistent manner. We also elaborate on the importance of developing methods to more objectively assess EHR use and discuss some options that may be available to accomplish this.</p>
+<p>[ Go to <a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#TOC">Contents</a> ]</p>
+<h2><a name="_Toc232577650" id="_Toc232577650">IMPORTANCE AND RELEVANCE OF THE STUDY</a></h2>
+<p>For the past decade, adoption of electronic health records (EHRs) has been proposed as one of the most viable approaches to improving health care.<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn11" name="_ednref11" title="" id="_ednref11"><sup>[xi]</sup></a> Despite the profusion of initiatives aimed towards accelerating the adoption of EHRs and the rising impetus for practices to adopt EHR systems, the health care sector is far behind other industries with respect to IT adoption. <a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn12" name="_ednref12" title="" id="_ednref12"><sup>[xii]</sup></a> At the same time, EHR adoption in the United States lags significantly behind that of many other Western countries. <a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn13" name="_ednref13" title="" id="_ednref13"><sup>[xiii]</sup></a> Estimates of ambulatory EHR use in Austria, Belgium and Australia are 75%, 78% and 79-90% respectively while Denmark, England, Finland, the Netherlands and New Zealand have reported rates above 90%. <a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn14" name="_ednref14" title="" id="_ednref14"><sup>[xiv]</sup></a> In fact, a report released by Harris Interactive showed that the United States was far behind all but a few European countries in terms of EHR adoption. <a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn15" name="_ednref15" title="" id="_ednref15"><sup>[xv]</sup></a></p>
+<p>Nevertheless, adoption of Electronic Health Records in the United States is slowly progressing. Figures estimate that by 2006, 17% to 24% of physician practices had implemented EHR systems<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn16" name="_ednref16" title="" id="_ednref16"><sup>[xvi]</sup></a>. When a distinction between a fully functional and a basic system is made, the percentage of practices using a fully functional EHR becomes significantly lower. A Robert Wood Johnson Foundation funded seminal report outlined the minimal criteria for defining EHRs. EHR systems were categorized as “fully functional” or “basic” based on their functionalities. The primary differences between a fully functional and basic EHR was the absence of certain order entry capabilities and clinical decision support in the basic EHR system.<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn17" name="_ednref17" title="" id="_ednref17"><sup>[xvii]</sup></a> Based on these criteria, the 2008 National Ambulatory Medical Care Survey showed that 38% of physicians indicated having an EHR, of which only 4% reported using an EHR that could be identified as fully functional (patient demographics, problem lists, clinical notes, medical history and follow-up, orders for prescriptions, orders for tests, prescription orders sent electronically, viewing laboratory and imaging results, warnings of drug interactions or contraindications, out-of-range test levels, and reminders for guideline-based interventions) while 17% used a basic system (patient demographics, problem lists, clinical notes, orders for prescription, and viewing laboratory and imaging results). <a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn18" name="_ednref18" title="" id="_ednref18"><sup>[xviii]</sup></a></p>
+<p>Central to the discussion on EHR adoption is the need to have a consistent, industry accepted definition of an EHR.<em> </em>Developing consensus on a precise definition of an EHR has been a challenge.  Many studies have been impeded by poor or vague definitions of EHRs which have resulted in limited findings. In 2008, the National Alliance for Health Information Technology (NAHIT) defined the EHR as “an electronic record of health-related information on an individual that conforms to nationally recognized interoperability standards and that can be created, managed and consulted by authorized clinicians and staff across more than one health care organization”<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn19" name="_ednref19" title="" id="_ednref19"><sup>[xix]</sup></a>. For the purposes of this study, we adopt this definition.</p>
+<p>In addition to defining an EHR, another challenge has been developing a consistent set of functions that constitute an EHR.  Early work was done by the IOM who developed the initial framework to identify the functionalities that constitute an effective EHR system<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn20" name="_ednref20" title="" id="_ednref20"><sup>[xx]</sup></a>.  Health Level Seven (HL7) <a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn21" name="_ednref21" title="" id="_ednref21"><sup>[xxi]</sup></a> , a standards development organization, has further expanded the work done by the IOM and most recently the Certification Commission for Health Information Technology (CCHIT)<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn22" name="_ednref22" title="" id="_ednref22"><sup>[xxii]</sup></a>, an independent, voluntary, private-sector initiative, has extensively leveraged the HL7 functional model to develop their certification criteria for EHR vendors.   Despite these efforts, there remains significant variability in how vendors describe different functions within the EHR which further confounds efforts to assess current EHR adoption and use in a consistent and reliable way.</p>
+<p>It is important to recognize that the adoption of EHRs does not simply stop at installation. The dimensions of system use must also be incorporated into any study truly seeking to understand the rates of EHR adoption. EHRs are composed of many distinct features and assessing the use of these specific functionalities provides insight into how EHRs are being adopted in practice.</p>
+<p>Finally, utilizing <em>automated reporting mechanisms</em> within EHRs appears to be a potential avenue for obtaining accurate data regarding EHR adoption rates. With automated reporting, aggregated data can potentially be delivered on a periodic basis directly from the EHR to a central database for analysis. With automated reporting, there would be no requirement for physicians or technical staff to be recruited for survey completion. This could overcome many of the limitations inherent in self-reporting measures. The process would be far less labor-intensive for providers and office staff and would allow for more frequent and up-to-date assessments of EHR usage.  In addition automated reporting would potentially reduce inconsistencies across different sites, thereby contributing to maintaining the veracity of the data collected.  Trusted third-parties can then compile this data into a user-friendly format that will provide a more accurate assessment of current adoption patterns and can be used to inform further funding approaches and research. Implementing an automated reporting mechanism can have a dramatic impact on the state of EHR adoption research. </p>
+<p>As of 2009, while there have been no coordinated efforts to develop an automated reporting tool to report data on the use of particular EHR functions, CCHIT in its testimony to the National Committee on Vital and Health Statistics Executive Subcommittee hearing on “meaningful use” of health Information technology in April 2009, suggested the creation of an automated reporting tool as an open source project. <a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn23" name="_ednref23" title="" id="_ednref23"><sup>[xxiii]</sup></a> In addition to assessing current EHR functionality and the current use of EHRs in the safety-net and other ambulatory care settings this report will also review what efforts are currently underway to automate the data collection process and the feasibility of implementing automating reporting on a large scale.</p>
+<p>[ Go to <a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#TOC">Contents</a> ]</p>
+<h2><a name="_Toc232577651" id="_Toc232577651">STUDY APPROACH</a></h2>
+<p>In conducting this study, we sought to develop a clearer understanding of what efforts have been undertaken to assess EHR adoption at a national level, to understand the typical scope of EHR implementation in the field and specifically to explore how EHR functions were being used. We begin our overview of the study with a brief discussion of the overall approach and specific methods used to collect and analyze the information presented in this paper. NORC conducted a review of published and unpublished literature to identify previous studies of EHR adoption.  We also conducted targeted Internet searches using the Google and Google Scholar search engines in order to identify government reports, unpublished articles and other relevant resources.   There was specific effort made to identify studies assessing EHR adoption and use in ambulatory settings, as well as those focusing specifically on health centers and the safety-net. To further inform the study, we conducted telephone conversations with individuals representing major ambulatory EHR vendors, health center representatives, ambulatory practices and other key informants involved with quality improvement and EHR adoption. </p>
+<p>To develop a comprehensive list of the key clinical and administrative functions within an EHR system, we reviewed the initial IOM core functionalities of an EHR system<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn24" name="_ednref24" title="" id="_ednref24"><sup>[xxiv]</sup></a>  and expanded on this by looking at the HL7 functional model and the CCHIT criteria for ambulatory EHRs.  We also reviewed the major surveys assessing EHR adoption, identifying the common EHR features that were examined in each. We organized the features into eight function-based categories:  “Organize Patient Data”, “Compile Lists”, “Receive and Display Information”, “Order Entry (CPOE)”, “Decision Support”, “Communication and Connectivity”, “Administrative and Billing Support” and “Other”. Effort was made to be as accurate as possible when categorizing the EHR functionalities. As a result, there are both granular and broad functions listed in each category. For instance, some surveys mentioned the higher level function of CPOE but did not specify particular tests. In these cases, the higher-level feature “CPOE (‘Order Tests’)” was selected.  The results of our analysis are illustrated in Appendix A.</p>
+<p>In identifying which surveys to include in our analysis, we used several criteria. First, we focused our search on surveys of ambulatory settings. Second, we sought to identify surveys utilizing nationally representative samples. Finally, surveys of EHR use in health centers were specifically included. To the extent that any additional surveys were deemed to be of use in our study, we also included them in our analysis. The result is that 9 surveys were identified (Appendix B). Six of these studies were large-scale national studies that measured EHR adoption, two were surveys developed to assess health IT use in health centers and one was a statewide survey assessing EHR functionality and the level of physician use of the specific functions. This final survey, conducted by Simon et al., was used as part of their study to identify current gaps in EHR adoption and usage. It was one of the few instruments that included items assessing the availability of different EHR functions as well as the degree to which the physician used each of those functions. We were able to successfully obtain all 10 survey instruments.  These instruments are described in the paragraphs below. </p>
+<p> Our literature search identified three recurring national representative surveys that assessed EHR adoption. The National Ambulatory Medical Care Survey (NAMCS) and the National Hospital Ambulatory Medical Care Survey (NHAMCS) both included the same sections measuring EHR use in practices. The Center for Studying Health System Change Community Tracking Study Physician Survey included a section assessing the use of IT in physician practices.</p>
+<p>Four other key national studies emerged. The National Survey of EHR Adoption was developed by the DesRoches et al. study team and represents one of the most comprehensive studies on EHR adoption to date. Also included was the Commonwealth Fund National Survey of Physicians and Quality of Care, a 2003 survey which explored physicians’ use of IT tools. The Medical Group Management Association (MGMA) conducted a 2005 survey to assess the adoption of health IT in their medical practices.The2007 Office Systems Survey which was administered by the Centers for Medicare &amp; Medicaid Services (CMS) as part of their Doctors Office Quality Information Technology (DOQ-IT) initiative was also included in our analysis.</p>
+<p>Two surveys of health center adoption of health IT emerged. A 2005 survey administered by the Community Clinics Initiative to assess information management in health centers was identified. Finally, the 2006 National Association of Community Health Centers (NACHC) survey of Health Center Use of Electronic Health Information was the first national measure developed to specifically access health center adoption of HIT.</p>
+<p>We developed an initial list of key informants based on the findings of our literature search, through discussions with ASPE and using previously-acquired contacts in the field. A classic snowballing technique was utilized in order to further identify candidates for interview. A listing of key informants and the themes and concepts covered with them is provided in Exhibit A below.</p>
+<table border="1" cellpadding="0" cellspacing="0" style="width:100%"><caption><strong>EXHIBIT 1: DISCUSSION PARTICIPANTS AND TOPICS</strong></caption>
+<thead><tr><th scope="COL">Participant</th>
+<th scope="COL">Organizations</th>
+<th scope="COL">Discussion Topics</th>
+</tr><tr><th scope="ROW">Health Center Networks and Practices</th>
+<td>
+<ul><li>Oregon Community Health Information Network (OCHIN)</li>
+<li>Primary Care Information Project (PCIP)</li>
+<li>Alliance of Chicago</li>
+<li>Health Choice Network (HCN)</li>
+<li>Roswell Pediatric Center PC</li>
+</ul></td>
+<td>
+<ul><li>Brief Background on the clinic/network or ambulatory care practice including the number of providers, services provided and IT infrastructure</li>
+<li>Background on EHR product including name of vendor, hosting model, percentage of clinicians using the system and percentage of clinical encounters documented in the EHR</li>
+<li>Features and Function of the EHR system that are most and least commonly used</li>
+<li>Data exchange standards – Medications, eRX, Patient summary, Problem list, Lab results, Images, HL7</li>
+<li>Overview of existing processes for evaluating EHR system use</li>
+<li>Role of vendor in collecting usage data</li>
+<li>Feasibility of instituting an automated data collection mechanism for usage data</li>
+</ul></td>
+</tr><tr><th scope="ROW">Informants</th>
+<td>
+<ul><li>MGMA</li>
+<li>New Hampshire Institute of Health Policy and Practice (NHIHPP)</li>
+</ul></td>
+<td>
+<ul><li>Overview of the work the organization has done in the area of EHR adoption</li>
+<li>Current use of EHRs within ambulatory practices. Availability of specific EHR features</li>
+<li>Evidence of practices monitoring EHR usage</li>
+<li>Vendor capabilities for automated data collection</li>
+<li>EHRs and meaningful use</li>
+</ul></td>
+</tr><tr><th scope="ROW">Vendors</th>
+<td> 
+<ul><li>Centricity EMR (GE)</li>
+<li>NextGen</li>
+<li>eCW</li>
+</ul></td>
+<td>
+<ul><li>Background on the vendor product, confirm EHR functions</li>
+<li>Standards supported by the product</li>
+<li>Extant process for collecting and reporting usage data</li>
+<li>Audit logging</li>
+<li>Overview of vendor reporting capability</li>
+</ul></td>
+</tr></thead></table><p>The health centers included in this study were not intended to be a representative sample but instead are a small subsample of early EHR adopters and their protégés. Examples of the key discussion areas covered with health centers include a background of the organization’s use of EHRs, an overview of the features and functions available in the system and evaluation of the use of the system (we made an effort to assess how and if health centers used the majority of the functionalities offered and in what percentage of patient encounters the EHR was used).<em> </em>Health centers were also asked if they were aware of any capabilities that their EHR system had to capture usage data and if any internal measures of EHR use were conducted. In analyzing respondents’ answers, we sought to identify any common EHR use experiences of the practices.</p>
+<p>The main themes covered in the discussions with vendors included a background of the vendor product, CCHIT certification, an overview of the processes the vendor had instituted for collecting and reporting on usage data and questions regarding the vendors’ technical capabilities for an automatic reporting mechanism. We also made an effort to understand vendors’ business reporting policies and the technical architecture of each product.</p>
+<p>[ Go to <a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#TOC">Contents</a> ]</p>
+<h2><a name="_Toc232577652" id="_Toc232577652">CURRENT METHODS OF ASSESSING EHR ADOPTION</a></h2>
+<p>Current methods of assessing EHR adoption are largely focused on survey methods, in some cases augmented by site visits and key informant discussions. Several key ongoing surveys exist. The National Ambulatory Medical Care Survey (NAMCS) and the National Hospital Ambulatory Medical Care Survey (NHAMCS) are annual probability surveys conducted by the Center for Disease Control’s National Center for Health Statistics. The NAMCS is a survey of non-federally employed office-based physicians practicing in the 50 states or in D.C., excluding radiologists, anesthesiologists, and pathologists. The NHAMCS focuses on hospital emergency and outpatient departments, not including federal, military and Veteran’s Administration hospitals.<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn25" name="_ednref25" title="" id="_ednref25"><sup>[xxv]</sup></a> The Center for Studying Health System Change conducts the Community Tracking Study (CTS) Physician Survey, a nationally representative survey of non-federal physicians. Five rounds of the survey, which covers a range of topics including physicians’ IT use, have been conducted, with the latest occurring in 2008.<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn26" name="_ednref26" title="" id="_ednref26"><sup>[xxvi]</sup></a>  The Centers for Medicare &amp; Medicaid Services (CMS) in 2006 and 2007 conducted the Office Systems Survey, a federal survey that was administered as part of their Doctors Office Quality Information Technology (DOQ-IT) initiative<em>. </em>The Community Clinics Initiative (CCI), supported by the Tides Center and the California Endowment, has conducted four rounds of its Information Management Assessment Survey. The last round of the survey was administered in 2005 to the 190 CCI grantees.<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn27" name="_ednref27" title="" id="_ednref27"><sup>[xxvii]</sup></a></p>
+<p>Among the national one-time surveys of EHR adoption, several need to be mentioned. The NACHC survey was the first national survey which assessed adoption of health IT systems by community health centers. A 2005 MGMA survey and the 2003 Commonwealth Fund survey also provided valuable information regarding EHR adoption.</p>
+<p>Research has shown that survey estimates of EHR adoption can be largely dependent on the survey method, EHR functionalities measured, timing of implementation, and on the clinical context examined (i.e., size of the practice, inpatient vs. outpatient use).<sup><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn28" name="_ednref28" title="" id="_ednref28"><sup>[xxviii]</sup></a></sup></p>
+<p><u>Limitations of Surveys to Assess EHR Adoption.</u><strong><em> </em></strong>While surveys have been used extensively and have provided most of the current information regarding the current state of adoption there are shortcomings to using this approach.  Some of the general issues with survey methods include ensuring adequate response rates, respondents that are targeted for completion of the survey and positive self selection bias in that individuals that are more technically savvy may be more inclined to respond. Below we also highlight some additional factors that may influence the results that are obtained through surveys.</p>
+<p><u>Timing of Implementation.</u><strong><em> </em></strong>Researchers have noted that the timing of an EHR’s implementation can influence the nature of EHR use in the facility. For systems that have been adopted more recently, more functions and advanced functionality are likely to be included in the EHR. However, the practice may be less apt to use these additional functions. An explanation that has been proposed for this phenomenon is that there is a learning curve wherein physicians with recently implemented systems tend to primarily make use of the more basic EHR features. In a study comparing the EHR use of early and later adopters, Menachemi et al. found that EHR systems used by the more recent adopters appeared to be missing key patient safety and cost control functions such as those of electronically prescribing medications, weight based dosing, patient education materials and coding advice to physicians as these had not been implemented by sites.<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn29" name="_ednref29" title="" id="_ednref29"><sup><sup>[xxix]</sup></sup></a></p>
+<p><u>EHR Functionalities and Lack of Standardized Definitions.</u><strong><em> </em></strong>Another subject of concern is that the general public does not yet fully understand how EHR systems are defined. A recent study by DesRoches et al. found as much as a 9% difference in reported rates of EHR adoption when a distinction was made between a full EHR system and a partial EHR system.<sup><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn30" name="_ednref30" title="" id="_ednref30"><sup>[xxx]</sup></a></sup> Another study, assessing HIT adoption in 725 Community Health Centers, found that of 177 facilities that reported having either a full or partial EHR system, 49% did not actually meet the minimum requirements for EHR functionality that had been set forth in the Robert Wood Johnson report.<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn31" name="_ednref31" title="" id="_ednref31"><sup>[xxxi]</sup></a> Additionally, a report from the Centers for Disease Control and Prevention indicated that almost 1 in 5 of physicians surveyed who reported that they had a “full electronic medical record” also indicated that their system was unable to maintain clinical notes or access laboratory results,  both features regarded by many experts as necessary for even a basic EHR system. <a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn32" name="_ednref32" title="" id="_ednref32"><sup><sup>[xxxii]</sup></sup></a> The 2005 American Academy of Family Physicians survey, which did not provide respondents with a definition of EHR, found that 46% of those surveyed reported having an EHR. This estimate is far higher than those obtained in studies that precisely defined EHRs, suggesting that the way in which the EHR system is defined does impact results.<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn33" name="_ednref33" title="" id="_ednref33"><sup><sup>[xxxiii]</sup></sup></a> With all data collection efforts, there is a fundamental need to develop a clear, succinct definition of the variable of interest. However, some surveys allow respondents to themselves determine whether their system qualifies as an EHR system. Similar issues can arise in terms of the definition of adoption used in the study. Thus, study results are likely to vary when a distinction is made between EHR implementation and actual use.</p>
+<p><u>Role of Clinical Context.</u> In terms of practice setting for instance, rates of EHR adoption and use have been found to significantly differ between large and small or solo practices. Generally, larger practices are significantly more likely to have implemented an EHR system. <a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn34" name="_ednref34" title="" id="_ednref34"><sup><sup>[xxxiv]</sup></sup></a><sup>,<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn35" name="_ednref35" title="" id="_ednref35"><sup>[xxxv]</sup></a>,<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn36" name="_ednref36" title="" id="_ednref36"><sup>[xxxvi]</sup></a>,<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn37" name="_ednref37" title="" id="_ednref37"><sup>[xxxvii]</sup></a>,<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn38" name="_ednref38" title="" id="_ednref38"><sup>[xxxviii]</sup></a> </sup>For these practices, not only is the cost per physician of system implementation and maintenance lower, but the necessary capital and resources are more readily available. Additionally, larger practices would be better able to handle the initial decrease in productivity that would occur as clinicians became adjusted to the novel workflows associated with the use of the EHR. Larger practices have also been found to be more likely to exhibit higher levels of functional use of EHR technology. Several explanations have been suggested for this. It is possible that these larger practices are better able to support and train their clinicians, that they might have implemented systems that are more user-friendly; or, by virtue of their volume of physicians, allow clinicians more time to fully learn how to use the system. <a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn39" name="_ednref39" title="" id="_ednref39"><sup><sup>[xxxix]</sup></sup></a></p>
+<p><u>Variations in Survey Methodology.</u> This significant level of variance in study methodology and in survey content results in a lack of consistency for study results, making it a challenge for any single survey approach to yield a reliable estimate of EHR adoption. Furthermore, because reported rates vary so greatly between studies, attempts to conduct meta-analyses or to rely on averages between studies are hindered.</p>
+<p>Moreover, the installation and availability of a particular EHR feature to physicians in the practice does not indicate usage. Indeed, when questioned, some physicians have indicated that their practice has an EHR system available but that they do not personally make use of its features.<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn40" name="_ednref40" title="" id="_ednref40"><sup>[xl]</sup></a> Very few of the surveys identified in this literature review included measures assessing the degree of EHR use. Many merely captured the implementation aspect of adoption rather than assessing actual system use by physicians. The 2001 NAMCS was the first to include items assessing EHR adoption. However, not until the 2005 survey did the NAMCS begin including questions about EHR functionality.<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn41" name="_ednref41" title="" id="_ednref41"><sup>[xli]</sup></a> Similarly, in many of the studies reviewed, the measure of EHR adoption was limited to a single item asking respondents to indicate whether their practice had adopted EHR technology.<sup><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn42" name="_ednref42" title="" id="_ednref42"><sup>[xlii]</sup></a></sup>  Such measures are insufficient to measure relevant EHR use and also do not capture frequency of EHR use.</p>
+<p>The reality is that many practices that report having a fully functional EHR system in place might only be making use of some of its basic capabilities such as recording patient demographics, clinical notes, problem lists and medication lists. While EHRs’ quick physician access to patient records provide an immense advantage to paper charts, it is the higher-level functions such as Clinical Decision Support (CDS), e-Prescribing (eRx) and laboratory order entry that have been shown to have the greatest impact on improving patient outcome, reducing costs and increasing efficiency.<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn43" name="_ednref43" title="" id="_ednref43"><sup>[xliii]</sup></a>, <a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn44" name="_ednref44" title="" id="_ednref44"><sup>[xliv]</sup></a>  Nevertheless, these more advanced EHR features are likely to remain unused. There are numerous reasons why these functions may not be used-- ranging from EHR systems design issues, provider workflow interruptions that result in reduced efficiency for the physicians, and lack of awareness of full EHR capability.  For instance, it has been noted that some EHRs’ CDS systems are more sensitive than others, resulting in an inordinately high number of drug interactions being reported.  When faced with such systems, physicians are likely to turn the alerts off (assuming they are given this option). Although it would be useful to better understand providers’ use of the specific EHR features, few of the past EHR studies have included such questions.</p>
+<p>As discussed beforehand, the mere fact that practices have “adopted” EHR technology does not indicate that EHRs are being used. Although a particular facility might have EHRs available, participation might not be mandatory and individual practitioners might choose not to make use of the system.  For instance, a study conducted by Simon et al. found that less than half of the physicians who had systems with clinical decision support, transmittal of electronic prescriptions, and radiology order entry actually used any of these functions most or all of the time.<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn45" name="_ednref45" title="" id="_ednref45"><sup><sup>[xlv]</sup></sup></a> Therefore, assessing adoption simply by looking at availability is an inadequate measure of the actual use of specific functions of the EHR.</p>
+<p>[ Go to <a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#TOC">Contents</a> ]</p>
+<h2><a name="_Toc232577653" id="_Toc232577653">EHR FUNCTIONALITY REQUIREMENTS</a></h2>
+<p>There has been considerable work done by federally funded initiatives, standards development organizations and private organizations involved in quality improvement to develop a framework of EHR functions that includes a description of the different functions, interoperability standards and support for collecting and reporting on quality metrics.  These activities have played a significant role in building industry consensus on the scope of an EHR system and have influenced the development of EHR products and certification efforts. </p>
+<p>We begin with a brief overview of the key industry activities that have been undertaken to identify functionalities of an EHR system. In response to a request from the Department of Health and Human Services (DHHS), in 2003 the IOM developed a comprehensive list of the key care delivery-related capabilities of an EHR system.<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn46" name="_ednref46" title="" id="_ednref46"><sup>[xlvi]</sup></a> These features are organized into eight categories and are arranged by both time frame of implementation and site of care. The eight categories are: Health Information and Data, Results Management, Decision Support, Order Entry/Management, Electronic Communication and Connectivity, Patient Support, Administrative Processes and Reporting and Population Health Management. Additionally, IOM gives a detailed basis for the inclusion of each feature and highlights their potential benefits as well as their primary and secondary uses. </p>
+<p>To expand the initial work done by IOM, in 2004 Health Level Seven (HL7), an international standards development organization (SDO) at the forefront of standards development for clinical and administrative data, released the initial EHR – S Functional Model (EHR – S FM), an overview of the key possible functionalities of an EHR system<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn47" name="_ednref47" title="" id="_ednref47"><sup>[xlvii]</sup></a>. Since 2004, the EHR-S FM has been refined and the latest version of the model consists of a list of function names and descriptions. The functions are identified in the areas of Direct Care, Information Infrastructure and Supportive functions. HL7 has also developed health IT communications protocols.</p>
+<p>Beginning in 2005, CCHIT has leveraged the work done by HL7 and the Health Information Technology and Standards Panel (HITSP)<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ftn1" name="_ftnref1" title="" id="_ftnref1"><sup>[1]</sup></a> in establishing a detailed set of EHR criteria in the areas of functionality, interoperability and security. In developing these certification requirements, CCHIT sought extensive public input and considered both current vendor capabilities and the electronic functions required to provide efficient, safe and high quality patient care.<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn48" name="_ednref48" title="" id="_ednref48"><sup>[xlviii]</sup></a> About 450 CCHIT criteria currently exist, addressing everything from the basic functions of creating patient-specific problem lists and storing medication information to more advanced features such as the exchange of external clinical documents and e-Prescribing (eRx). Functionalities that CCHIT proposes to introduce as part of the next year’s certification criteria are identified, as are those scheduled for eventual introduction into the certification criteria.  Appendix C provides an overview of the scope of EHR functions covered by the HL7 and CCHIT functionality models.</p>
+<p>Currently, about 50% of all vendors in the market have CCHIT-certified products. <a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn49" name="_ednref49" title="" id="_ednref49"><sup>[xlix]</sup></a> However, as healthcare organizations increasingly look for certified products, more vendors are likely to be submitting their products thorough a certification process.  The 2009 ARRA also called for the adoption of ‘certified EHRs’ and, as the regulatory interpretation of ‘meaningful use’ is finalized in the coming months, this will invariably further influence the development of certification criteria for ambulatory EHRs. </p>
+<p>The Centers for Medicare and Medicaid Services (CMS) Physician Quality Reporting Initiative (PQRI) is a general incentive payment program for physicians who care for Medicare and Medicaid patients. The 2009 PQRI consists of 186 measures, one of which is an Electronic Health Record Test developed to document whether physicians have adopted and are using health IT. Qualified EHRs must be CCHIT-certified or meet several criteria including the ability to manage problem and medication lists, to meet basic privacy and security elements, and to manually or electronically store and display laboratory results as discrete searchable elements.<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn50" name="_ednref50" title="" id="_ednref50"><sup>[l]</sup></a> The CMS reporting measures are run by eligible providers on a voluntary basis and this information is self reported through the claims data system. In 2009, a separate e-Prescribing reporting program was established for physicians to report on their adoption and use of qualified e-Prescribing systems.</p>
+<p>In 2008, the National Quality Forum (NQF) developed nine structural measures aimed at assessing and encouraging clinician adoption of health IT. These measures are in the domains of e-Prescribing, interoperable EHR, care management, quality registry and Medical Home.</p>
+<p>Our discussions with health center and network staff, vendors and other key informants indicate that, despite all these efforts, there is considerable variation in how EHR functions are described in different vendor products. For example, the terms smart forms and template forms are often used interchangeably to describe structured forms for particular disease conditions and varying levels of clinical decision support. There is also considerable variation in how a particular feature gets implemented, for example e-Prescribing may imply end–to-end electronic prescribing or simply a function that enables a provider to type the prescription using the EHR and then print the scripts to a local printer at which point they are then handed over to the patient.  </p>
+<p>[ Go to <a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#TOC">Contents</a> ]</p>
+<h2><a name="_Toc232577654" id="_Toc232577654">NATURE OF EHR USE IN AMBULATORY CARE SETTINGS</a></h2>
+<p>Several studies have found important variations in the features of the EHR systems implemented by different practices.<sup></sup>Many systems included basic EHR functions such as patient demographics, clinical notes, problem lists and medication lists. However, the more advanced features like clinical decision support, and computerized physician order entry (CPOE) were significantly less available.<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn51" name="_ednref51" title="" id="_ednref51"><sup><sup>[li]</sup></sup></a><sup> , <a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn52" name="_ednref52" title="" id="_ednref52"><sup>[lii]</sup></a></sup> For instance, the 2005 MGMA study found that almost all respondents’ EHRs included the basic features mentioned above. The study also found that the least available features were immunization tracking, clinical decision support in the form of clinical guidelines, and those associated with e-Prescribing such as drug formularies, drug reference information and drug interaction warnings. <a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn53" name="_ednref53" title="" id="_ednref53"><sup><sup>[liii]</sup></sup></a> In addition to being less available, when available these features are also likely to be less used than other EHR features. In a 2007 study, clinical decision support and electronic prescribing with electronic transmittal to pharmacies were found to be among the least used EHR features. <a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn54" name="_ednref54" title="" id="_ednref54"><sup>[liv]</sup></a></p>
+<p>We begin our discussion with a review of the functions that are commonly used by all practices, followed by a review of more advanced functions that tend to be deployed more commonly in mid-to-large practice settings.  To fully understand how EHR functions are implemented and used and their capacity to exchange information with systems that are outside the practice, we also include a discussion on the different technical standards that support these functions and to what extent these standards are being used.</p>
+<p>Our discussions with health center network representatives and ambulatory care practices showed that in general the more basic , or first tier, EHR features such as those of patient demographics, recording patient vitals, documentation of notes, entering medication and allergy information, problem lists, referrals, billing (particularly in smaller practices), medical summary and entering insurance information features were the most frequently used.  These were common functionalities that were cited as having been implemented in almost all health center practices. A California Healthcare Foundation (CHCF) study of community health centers’ adoption of health IT showed that, among those that reported having an EHR, virtually all had the patient demographics feature and 83 percent had electronic clinical notes.<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn55" name="_ednref55" title="" id="_ednref55"><sup>[lv]</sup></a> These findings are not surprising as the use of such features is more or less necessary within the EHR. In the case of patient demographics for instance, it is difficult to conceptualize using any of the features included within the EHR without having entered patient data.</p>
+<p>Meanwhile, features such as drug formularies and eligibility checking received lower levels of use or were not used at all.  In the case of drug formularies, some practices reported that it was difficult to have a comprehensive formulary as all insurance plans may not have chosen to participate.  Health plans also tended to change their formularies and formularies in the EHR may not necessarily have been updated in a timely way which resulted in providers not being very keen to use this function. Some features, for example eligibility checking, were reportedly very hard to integrate into the EHR. Instead, practices sometimes chose to make use of the eligibility checking through their existing practice management systems. Additional second-tier functions included varying degrees of clinical decision support including smart forms, alerts and reminders, drug interaction checking and clinical guidelines.  Second tier functions were often not implemented when the systems were first installed and there also appeared to be variability in terms of the size of the practice; larger practices seemed to be more equipped to implement more advanced clinical decisions support features compared to smaller practices.  Below we provide a more detailed description of a subset of EHR features that are most commonly used as well as those functions that appear to be rapidly increasing in use.</p>
+<h3>ELECTRONIC EXCHANGE OF LABORATORY INFORMATION</h3>
+<p>Informants for this report indicated that the electronic exchange of lab results was one of the features of the EHR system that was most commonly used.  In most instances EHRs had established unidirectional interfaces with national labs (Quest or LabCorp) or local labs and sites were receiving results electronically.  Similar results were found in a report developed for the Assistant Secretary for Planning and Evaluation looking at the Electronic Exchange of Clinical Laboratory Information. <a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn56" name="_ednref56" title="" id="_ednref56"><sup>[lvi]</sup></a> Many sites reported that establishing interfaces with hospital labs was more difficult and oftentimes there was reluctance on the part of the hospital to establish a results interface with health centers and ambulatory care providers.  In cases where results interfaces were established, providers routinely used the EHR to order labs that resulted in printed lab requisitions.  In most cases the lab specimen was drawn at the clinic or the practice and was then sent together with the lab requisition form to a local, hospital or national lab.  A few of the sites reported supporting bi-directional lab interfaces; however this was not common.  In cases where lab interfaces were established with the lab, almost 100% of the results were received electronically.</p>
+<p>Sites also reported a growing trend to support bidirectional interfaces with labs and several are making significant efforts to interface with national and local labs. In some cases the orders interface is now being implemented in sites that had previously been using a results interface only.  Discussions with vendors also indicate that they are encouraging bidirectional lab interfaces at initial installation. The interface verification process is largely driven by interface implementation and is dependent on the vendor and provider requirements. In general, the time taken to validate a bi-directional interface is approximately twice that of a unidirectional interface. <a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn57" name="_ednref57" title="" id="_ednref57"><sup>[lvii]</sup></a></p>
+<p>All of the informants for this study indicated that there is a growing trend to use point of care (POC) devices in providers’ offices for a variety of lab tests including HbA1c, simple blood chemistries, pregnancy tests, HIV testing and cholesterol testing.  These POC devices allow for results to be quickly and more easily obtained because they eliminate the need to send away samples for laboratory testing. In addition, many of the tests performed on the POC devices fall into the category of waived tests<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn58" name="_ednref58" title="" id="_ednref58"><sup>[lviii]</sup></a> under the Clinical Laboratory Improvement Amendments (CLIA) requirements. Under CLIA, waived tests are defined as simple laboratory examinations and procedures. Tests that are waived by CLIA are cleared by the federal government because they employ methodologies that are simple and accurate so that erroneous results would be negligible or pose no reasonable risk of harm to the patient if the test is performed incorrectly. In cases where POC devices were being used, the extent to which they were integrated with the EHR varied. This resulted in health centers and practices supporting a variety of different workflows.  In cases where the POC device had established a direct interface with the EHR, results were automatically populated into the EHR in a structured manner from the POC devices. When there was no direct interface, the technician would either scan in a copy of the printed report or manually key in the results into the EHR.  Depending on the approach used, lab results from POC devices would therefore not always be available in the EHR in a format that could be used for quality reporting purposes. </p>
+<h3>E-Prescribing</h3>
+<p>According to an eHealth Initiative report on e-Prescribing, the physician adoption rate in 2007 was approximately 6% and accounted for only 2% of eligible prescriptions in the USA. <a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn59" name="_ednref59" title="" id="_ednref59"><sup>[lix]</sup></a> Other studies also report low penetration of electronic prescribing.<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn60" name="_ednref60" title="" id="_ednref60"><sup>[lx]</sup></a>  However, there appears to be a growing trend to make this function available, partly due to the incentives under the Medicare Improvements for Patients and Providers Act of 2008 which will, starting in 2009, provide a 2% incentive for all providers that use eRx for Medicare patients.<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn61" name="_ednref61" title="" id="_ednref61"><sup>[lxi]</sup></a></p>
+<p>Many of the health centers and ambulatory care practices we spoke to reported that a majority of the e-Prescribing done was only partly electronic and one site was yet to launch e-Prescribing. In cases where e-Prescribing is being used, the provider enters the prescription into the EHR using the e-Prescribing software.  However, three different approaches are currently being employed to route the prescription to the pharmacy. We describe these approaches in detail below.  Of particular note is that the CMS e-Prescribing program only pays for full e-Prescribing, when prescriptions are sent directly to the pharmacy from the point-of-care.<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn62" name="_ednref62" title="" id="_ednref62"><sup>[lxii]</sup></a></p>
+<ul><li>Fully electronic – Prescriptions are sent electronically to pharmacies in a paperless process, through the SureScripts-RxHub network. In this case, the prescription is electronically routed to the pharmacy information system.</li>
+<li>eFaxing – Prescription information is electronically faxed to pharmacies.  Using this process, a fax normally prints at the pharmacy and the pharmacist manually keys in the prescription into the pharmacy information system.</li>
+<li>Prescription printing – A hardcopy script is printed and handed to the patient who fills the prescription at a pharmacy of choice. Among those practices capable of e-Prescribing, this approach is generally used only in instances where patients are not able to indicate which pharmacy they will print the script at or if the pharmacy does not support e-Prescribing.</li>
+</ul><p>In general, most of the practices we spoke to reported that they are not using fully electronic prescribing but tend to use eFaxing.  Reasons cited for this included that at the time of initial implementation there were many barriers related to e-Prescribing, and that there did not appear to be any financial benefits from it. Furthermore, not all pharmacies have the capacity for e-Prescribing using the SureScripts-RxHub network. While the larger pharmacy chains are generally capable of receiving prescriptions electronically, many smaller pharmacies are not due to the high cost of implementation on the pharmacy end.   Another barrier cited was the inability to use eRx for controlled substances due to current Drug Enforcement Agency (DEA) rules for eRx.<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn63" name="_ednref63" title="" id="_ednref63"><sup>[lxiii]</sup></a> Practices that are currently using eRx report that they have an entirely separate workflow for controlled substances.  In most cases providers order controlled substances using special prescription pads.  These orders are not routinely re-entered into the EHR. In very few cases, sites reported that providers can use the EHR to order a controlled substance which is then printed onto non-copyable paper using a dedicated printer. This tends to be an expensive option for many practices and therefore is not routinely implemented.</p>
+<p>Of the practices that are using e-Prescribing, many of them also report that they have implemented clinical decision support functions which include formulary checking, drug-drug, drug-lab and drug-allergy checking.  A more detailed discussion of clinical decision support follows later in this section.</p>
+<p>Ambulatory practices recently have received a great deal of external push to perform e-Prescribing largely due to the Medicare incentives and through various quality improvement initiatives. Additionally, several discussants stated that their organizations are putting in a lot of effort into developing and customizing their e-Prescribing tools and encouraging the use of fully electronic prescribing within their practices.</p>
+<h3>Clinical Decision Support</h3>
+<p>Practices and health center networks reported having EHR systems with Clinical Decision Support (CDS) modules. These modules were capable of numerous functions including providing drug interaction alerts, clinical practice guidelines for particular chronic diseases, knowledge resources and prompts and reminders for health maintenance. In terms of level of use however, many of these CDS functions were in the second-tier, i.e. most likely implemented only once the EHR system had been in use for a while. In general, informants reported variable levels of use for CDS depending on the features in question. Providers also tended to use those functions only as it was relevant to their practice and specialty.</p>
+<p>For practices that had implemented smart forms, which essentially are forms customized for specific disease conditions like diabetes or coronary artery disease, there appeared to be high use of this type of decision support tool. While providers appeared to favor the use of smart forms, many practices reported the need to conduct extensive work at the initial stages to ensure that the forms were customized and adequately met the needs of the providers. Given the time and effort taken to develop customized templates, health center networks and mid-to-large size practices were more likely to use this. Several informants reported that their health centers and ambulatory practices had implemented alerts and reminders in their EHR system in order to support preventive services and e-Prescribing. Although this feature has great potential to be an extremely valuable EHR tool for increasing patient safety, informants indicated that many physicians experienced problems using the drug interaction alerts component of the CDS. Some perceived these alerts to be intrusive or annoying. Others felt the information offered by the alerts was redundant and unhelpful. In both cases, the alerts often acted to interrupt and slow down physicians’ workflow.  As a result, some practices allow physicians flexibility in this regard. A few sites reported that providers are allowed to selectively turn off or adjust the threshold for these warnings. Although the level of CDS alerts was sometimes set centrally at a level that all clinicians must prescribe to it, many systems allowed physicians this option (allowing EHR users the capacity to set the level of CDS interaction is a CCHIT-required functionality). Each clinician could then set their own threshold within the limits of the organization’s settings. It appeared that clinicians significantly took advantage of this option. There were also reports of physicians having the ability to adjust the level of alerts specific for each patient. For instance, a physician could adjust the threshold reminder level for mammograms for a patient whose previous mammogram returned abnormal results so that the system would request them more frequently than the standard interval.   </p>
+<p>Finally, sites reported that EHR vendors are increasingly making available knowledge resources that allows for context sensitive help from within the patient record.  While the availability of this function was not commonly reported, a few sites had implemented it and regarded it as a very useful tool for providers.</p>
+<h3>Use of Other EHR Functions</h3>
+<p>In looking at more advanced EHR functions, several discussants reported that they were beginning to use their EHR for referrals and for specialty reports such as radiology reports. Generally, mid and large sized practices were more likely to be expanding current EHR use in this direction.  Very few health centers and ambulatory care practices reported being able to receive radiology images. In cases where this was supported, the EHR generally received a link to the image which was hosted by an external Picture Archiving and Communication (PACS) system.  Practices indicated that this was preferred as radiology images can be fairly significant in size and many small and mid-sized provider offices did not have sufficient bandwidth to support the transport and storage of large radiologic images.  Respondents for this study also indicated that unless they had spent significant money in purchasing and installing high quality monitors, their ability to read and interpret the radiology images with any confidence was limited.  In general, practices reported that receiving the radiology report was far more important to them than receiving the images.  In cases where practices were not able to receive radiology or other reports electronically, most had at the very least implemented scanning technology that enabled them to scan the paper reports into the electronic health record.  Initially, practices would use such document imaging techniques but their use generally decreased over time as practices increasingly made use of the EHR system and adopted more advanced document management strategies.</p>
+<h3>Interoperability and Standards Support</h3>
+<p>With the increasing trend towards supporting health information exchange between different primary care providers, hospitals, specialists, labs, public health authorities and the emerging minute clinics, a significant focus has been placed on the capabilities within EHRs to support interoperability in the form of messaging and content standards.  In the sections above we discussed the scope of lab information exchange and e-Prescribing that is currently taking place.  In this section we focus largely on the current use of standards. Interoperability requires standards for both messaging (the way information is passed between systems) and data (the content of these messages). </p>
+<p>In general, the Health Level 7 (HL7) messaging standard is being used widely to support electronic exchange of information between provider practices and hospital, national and local labs. Sites were generally using some version of HL7 2.3 and very few sites indicated that they supported HL7 V2.51. Many of the health center networks that we spoke to used either commercially available or homegrown interface engines and reported that they spent significant amounts of time establishing interfaces with different labs and providers due to the significant variability in how the HL7 messaging standard had been implemented.</p>
+<p>For e-Prescribing, most sites reported that the EHRs they have support the National Council for Prescription Drug Programs (NCPPDP) standards for pharmacy data and this is what is currently being used.  Other than the Script standard there did not appear to be any use of National Drug Codes (NDC)<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn64" name="_ednref64" title="" id="_ednref64"><sup>[lxiv]</sup></a>, RxNorm or Systemized Nomenclature of Medicine (SNOMED)<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ftn2" name="_ftnref2" title="" id="_ftnref2"><sup>[2]</sup></a>. Most practices also reported that they are using the SureScripts-RxNorm network to connect to retail pharmacies.</p>
+<p>The Continuity of Care Document (CCD) and Continuity of Care Record (CCR) are two health record document standards that were developed to facilitate the transfer of health information among health care providers. The CCD, in addition to specifying what content should be contained within the record, also specifies the structure of the record. The sites included in this study generally supported the CCD while there were a few sites that indicated that they supported the CCR for patient summary data.  Although sites reported having the capability to exchange the CCD, they had limited experience in actually exchanging patient summaries as they reported that many sites that they routinely interact with were not able to receive the CCD. Additionally, one site representative noted that although the CCD standard was quite extensive, it did not necessarily contain all the information that they needed to transmit obstetrical information and consequently it was necessary for them to modify the format to expand on the information which was being exchanged.</p>
+<p>For sites that supported electronic exchange of lab information, there was very limited use of the Logical Observation Identifiers Names and Codes (LOINC)<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn65" name="_ednref65" title="" id="_ednref65"><sup>[lxv]</sup></a> standard for lab results.  Many of the EHR vendors reported that they were able to support LOINC but that the labs were not sending lab results using LOINC.  While it was noted that the major labs, Quest and LabCorp may support LOINC, many of the smaller labs that they had acquired were still largely using proprietary codes. In addition, none of the hospital labs were able to send results using LOINC. The approach commonly tended to be to accept whatever codes the labs were using and then map them to vendor proprietary codes in the specific EHR.</p>
+<p>As noted above, few if any ambulatory practices reported that they had the capability to receive radiological images and launch a DICOM image viewer. A few sites were receiving links to images that were stored in a third party Picture Archiving and Communication System (PACS) and could be viewed via the web. Consequently, we found very limited use of any Digital Communication (DICOM) standard.</p>
+<p>While there appears to be some convergence in the industry to use HL7 as the messaging standard, the great variability in how HL7 is implemented still makes exchange of information a costly and time-consuming process as practices need to work with their vendors and different data providers to ensure that the various HL7 fields are correctly mapped and that data exchange can take place.  There appears to generally be very limited use of data content standards and, while CCHIT certified products may support the standards, there appears to be limited use in the field.</p>
+<p>[ Go to <a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#TOC">Contents</a> ]</p>
+<h2><a name="_Toc232577655" id="_Toc232577655">ASSESSING EHR USAGE</a></h2>
+<p>In engaging with the vendors, practices and health center network representatives, we sought to identify whether any efforts were being made to measure EHR usage, to assess the extent to which the use of specific functions within the EHR was being measured, and to analyze how usage data that is collected is routinely used.  Efforts to monitor EHR use varied tremendously from site to site, dependent in part on the availability of IT resources, size of the organization, availability of canned reports within the EHR system and size of practice. In general, smaller sites, or sites that relied largely on their vendor for IT support reported that they were not routinely collecting or reviewing usage data.  In most cases, the vendor audit logs were a source of information to assess which providers had accessed different aspects of the EHR.  This was largely done in the context of ensuring the security and privacy of patient records. Our discussions with health center networks and other large EHR implementation projects (e.g., the Primary Care Information Project (PCIP) in New York - a program that is being run by the New York Department of Public Health and Mental Hygiene to support the adoption and use of EHRs among primary care providers in NYC's underserved communities<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn66" name="_ednref66" title="" id="_ednref66"><sup>[lxvi]</sup></a>) indicated that there is significant effort underway to assess utilization of different EHR functions at very granular levels.</p>
+<h3>Commonly monitored EHR Functions</h3>
+<p>For sites that were tracking EHR utilization, one of the common metrics being monitored was the number of electronic lab orders that were placed using the EHR and the percentage of lab results that were received electronically. Furthermore, sites had instituted varying levels of tracking to assess how quickly lab results were viewed by providers once they had become available in the EHR and how promptly clinical notes were signed once completed.  Other functions that were tracked included how many electronic notes were created and signed off on, and how many prescriptions were ordered using the e-Prescribing feature within the EHR.  A few sites reported that they also tracked various other clinical decisions support functions in the context of how many Smart Forms were being used, how many drug alerts were fired, and provider responses to these alerts.  A few sites reported that the EHR allows for providers to set their own threshold for alerts and reminders within the limits of the organization’s settings.  These sites reported tracking how thresholds were being modified by providers at the different location.</p>
+<p>In some cases, sites had implemented very robust capability to assess utilization of EHR functions, for example PCIP.  The current reporting mechanism from eCW tracked EHR usage in five domains: provider-level, practice-level, patient portal use, use of specific tools and daily procedures. In terms of provider-level use, PCIP tracked items such as the number of patient encounters, medications viewed, amount and types of claims generated, viewing and ordering of labs, referrals and the use of structured forms by the physician. For legal reasons, physicians were required to “lock” their clinical notes by digitally signing them. PCIP tracked the number of notes left unsigned for each provider at each facility.  The organization also made efforts to see if there were any patterns of clinical decision support suppressions in the system and tracked both the frequency and severity of drug and allergy alerts. The PCIP project examined whether providers accessed the e-Prescribing system and what percentage of those orders were EDI transactions, eFaxed and printed.</p>
+<p>At the practice level, PCIP assessed the use of the system by physicians and by other clinicians, the use of immunization registries, the use of the lab interface, and examined certain aspects of eFaxing such as the proportions of failed and received faxes. They also examined medical home indicators such as the percent of patients assigned to a primary care giver and the number of active patients seen in the last year with specific diagnoses. In terms of the patient portal, PCIP tracked factors such as the number of messages from providers to patients and the number of messages sent by patients.</p>
+<p>In general, for practices that were currently measuring EHR usage, there was a significant level of granularity in terms of the type of data collected. All sites reported that they are able to track usage both at the practice and at the physician level and assess the use of specific functions. The Alliance of Chicago, OCHIN and PCIP systems even had the ability to pool usage data by type of provider. The ability to perform such analysis is important because different patterns of EHR use can exist among different clinicians. Informants indicated that some of the usage data was easier to access particularly around basic features such as the use of templates, completing insurance information, and keeping track of the functions within the EHR system which had been disabled.  However, monitoring clinician use of more advanced features (e.g., CDS) was particularly challenging. Practices had to work closely with their clinical staff to identify the measures of interest and determine how this information could be presented in a way that would be most useful to the practice.</p>
+<h3>Reporting on Quality Metrics</h3>
+<p>Unlike monitoring of usage, most of the sites that we spoke to were using EHRs to assist in reporting on different quality metrics.  Many of the health center networks were reporting out on the HRSA quality indicators<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn67" name="_ednref67" title="" id="_ednref67"><sup>[lxvii]</sup></a>, which include blood pressure control in hypertension, HbA1c in diabetics, pap smears and mammography for women, immunization for children less than 2 years, depressions screening and colorectal cancer screening.  In general, sites did not use their EHR for quality reporting, but instead populated a registry or a vendor supplied reporting database with the subset of information that was needed for quality reporting.  Many sites indicated that this approach was more feasible as they did not want to run reports against the production database because this could potentially slow the EHR system down.  Sites also reported that many EHR systems lacked out-of-the box reporting capability for quality metrics and therefore opted to use more sophisticated tools in the form of registries or custom databases with enhanced reporting tools.</p>
+<h3>Challenges and Barriers to collecting Utilization Data</h3>
+<p>Sites reported a number of different issues related to collecting and analyzing utilization data which included not having any guidelines for deciding what they should track to assess utilization, what were the optimum metrics to use and any standard reporting templates.  It was also noted that once the metrics had been decided on, a fair amount of effort was required to obtain a clean set of usage data so that it could more effectively be used for reporting.</p>
+<p>In addition to this, some of the health center networks discovered that having a lot of data available did not necessarily mean an equivalent level of useful information could be abstracted. Rather, it was likely to complicate or impede the process of analyzing the results. Sites had to balance the need for obtaining detailed reports with placing priority on tracking items that were either feasible or practical.</p>
+<p>Discussants highlighted the fact that most vendors did not build their system with the anticipation that clients would desire to measure detailed usage data. As a result, a significant amount of customization was needed to existing reporting capability in order to obtain granular levels of usage data. In some cases, sites that possessed in-house expertise undertook the programming and customizations that were necessary while in other cases the sites worked very closely with their vendor to build custom reports.   Many sites reported that data was being collected and stored in the EHR system but accessing this information in a meaningful way involved significant effort. Given that a significant level of experience was needed both with the vendor product and with respect to developing and generating custom reports, many sites noted that this would not be something that smaller practices would be able to undertake on their own.</p>
+<p>Sites also noted that, in most cases, focusing on system implementation was at the forefront of their priorities and assessing use of the various functions in the EHR was often only initiated once the major production issues had been dealt with and the site had transitioned into the mode of maintaining the EHR.</p>
+<p>[ Go to <a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#TOC">Contents</a> ]</p>
+<h2><a name="_Toc232577656" id="_Toc232577656">EHR VENDOR REPORTING CAPABILITIES</a></h2>
+<p>One of the areas explored in particular detail with discussion participants was vendors’ capacity to internally track the use of specific EHR functionalities and the role that vendors played in practices’ assessment of their EHR usage. Vendors are compelled to adapt their standard reports to suit the data collection needs of their clients and it is in their interest to help practices examine the usage of their system. Some EHR vendors provide practices with the ability to run basic utilization reports out of the box while others work closely with the site to assist them in developing the customized reports.</p>
+<p>Vendor capabilities for tracking EHR system usage varied greatly. While some products, such as Epic and eCW, had fairly robust reporting capabilities out of the box, other products had significantly more limited capabilities. The PCIP project selected eCW as their EHR system and has since implemented this in hundreds of small provider offices.  Informants on the PCIP indicated that there were numerous highly customized reports that were developed as part of this project and these reports were subsequently made available by the vendor as part of their library of canned reports.   Discussions with eCW indicate that the EHR is capable of providing both provider and facility-level usage data, as well as reporting on the activities of the same provider in different facilities. </p>
+<p> Review of the 2008 CCHIT certification criteria for ambulatory EHRs include the need for audit trails that record, 1) the date and time of the event; 2) the component of the system (e.g. software component, hardware component) where the event occurred; 3) type of event (including data description and patient identifier where relevant); 4) subject identity and 5) outcome of the event. <a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn68" name="_ednref68" title="" id="_ednref68"><sup>[lxviii]</sup></a>  Further review of the 2008 test scripts for Security and Reliability criteria indicate that functions covered under the software component include viewing, updating, validating and exporting the patient record.<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn69" name="_ednref69" title="" id="_ednref69"><sup>[lxix]</sup></a> </p>
+<p>Overall, in seeking to obtain information regarding what was currently feasible with respect to reporting and monitoring, we discovered that vendors generally had very basic reporting capability for usage data that was available in the form of canned reports. Where sites were monitoring system usage at a granular level, they were either working with the vendor IT team to create the report or had independently undertaken the task of building customized reports (this was mostly done by networks). In almost all cases, significant customization was required in order to extract the kind of information sites were interested in from the EHR. It appears that there will need to be significant changes made in existing reporting systems to ensure that they are able to report on granular use of EHR functions.</p>
+<p>Most sites reported having established a clinical warehouse, some form of database that was updated regularly with information from the EHR, were reports were being generated directly from the databases using SQL queries. In a few cases, this feature was made available “off the shelf “by the EHR vendor. However, sites wishing to run more complicated reports generally had to work with their EHR vendors or an in-house technical team to customize their system.  </p>
+<p>[ Go to <a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#TOC">Contents</a> ]</p>
+<h2><a name="_Toc232577657" id="_Toc232577657">CONCLUSIONS</a>   </h2>
+<p><u>Limitations in the use of surveys as a method to assess EHR adoption.</u><strong> </strong>Survey<strong> </strong>methods pose many challenges because of their inherent shortcomings and published estimates of EHR adoption are of varying quality. In a report comparing existing surveys assessing EHR adoption up till the year 2008, it was found that very few were adequate to accurately capture the state of EHR use in the United States.<a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_edn70" name="_ednref70" title="" id="_ednref70"><sup>[lxx]</sup></a> Limitations such as those outlined above spur the need to develop a standardized method to consistently and more reliably characterize the state of EHR adoption in the United States.</p>
+<p><u>Commonly used EHR functions.</u><strong><em> </em></strong>Review of current EHR use in ambulatory care settings suggests that in all practices (small, mid and large) there are certain basic clinical and administrative functions that are commonly used.  The clinical functions used include encounter notes, medication lists, allergy lists, problems lists, and order entry functions largely focused around lab order entry and results delivery.  The use of eRX appears to be increasing dramatically but current use is still limited. Practices of all sizes also report that they support clinical decision support functions related to eRx largely in the form of drug interaction and drug-allergy checking.  More comprehensive clinical decision support functions tend to be more common in larger practices and may include the use of smart forms, preventive care reminders, clinical guidelines and knowledge resources.  While sites report  using EHR data for quality reporting, in most cases a third party registry product or alternate database is used to generate these reports. Ambulatory EHRs have limited out-of-the box capability for quality reporting and oftentimes, due to concerns regarding system speed and response times, quality reporting is not done off the production database.</p>
+<p><u>Current use of Standards Limited.</u><strong><em> </em></strong>Despite the availability of industry accepted standards and 2008 CCHIT requirements that certified EHRs support certain standards, current use in ambulatory care settings appears to be limited.  While most sites report using HL7 for messaging many of them are not yet on HL7 V2.51.   With respect to data content standards, NCPDP Script is being used for eRx. Some sites report that they generate a CCR or a CCD but have had limited experience in its use as organizations that they interact with often are not able to accept summary documents in this format. There is virtually no active use of LOINC for lab results even though lab results are one of the most commonly used functions within the EHR.  Sites report that lab results from national, hospital or local labs are not LOINC coded even though the EHRs are able to receive LOINC codes.  Similarly there appeared to be no use of SNOMED-CT. To promote standards use it is important to combine standards recommendations with specific implementation approaches and realistic best practices.</p>
+<p><u>Tremendous variability in how EHR use is being monitored.</u><strong><em> </em></strong>Current practices in the tracking of EHR utilization data vary in the granularity of tracking, the features being tracked, metrics that are being used to assess utilization, the reporting database and the kinds of reports that are being generated.  Furthermore, many smaller practices do not appear to have the IT resources and infrastructure to support any form of utilization tracking.   Very few EHR products have canned or out-of-the box utilization reports.  Larger sites and health centers appear to be tracking some utilization data but this tends to be highly customized for the site, either by in-house IT personnel or by the vendor.  In order to promote a more standardized and consistent approach to utilization reporting,  a standard set of measures will need to be developed and collaboration with the EHR vendors will be necessary to develop reports that include the same data elements and support  a uniform format. </p>
+<p><u>Vendors have limited out-of the box reporting capability but usage data is being collected for auditing purposes.</u><strong><em> </em></strong>Under HIPAA, many vendors provide auditing capabilities within the EHR which would include who accessed the patient record, the date and time, what aspects of the patient record were viewed or modified and what, if any, information was printed . While CCHIT includes some specifications on the granularity of audit reporting that certified systems must support, practices often selectively decide the level of granularity they will use for auditing purposes.  Practices often trade-off detailed audit reporting so as not to impact the speed and responsiveness of their EHR.  Given that many vendors can audit access and use of the EHR, the data collected could serve as a surrogate for utilization data.  However additional work will need to be done in order to assess the gaps between auditing capability and the scope of EHR functions as well as how certain clinical decisions support functions like alerts and reminders can be tracked.  Furthermore, ongoing certification efforts will likely need to introduce greater specificity regarding how different EHR functions should be audited as well as design test scripts that cover the broad range of use cases that may apply based on different interactions with the EHR.</p>
+<p><u>Feasibility of an automated reporting mechanism.</u><strong><em> </em></strong>Today, practices are using different mechanisms of varying degrees of automation to report on quality measures.  Some EHR vendors like GE and AllScripts are already providing options for their install base to upload de-identified clinical data on a monthly basis to a centralized research server.  PCIP routinely collects very detailed utilization reports from the 1000+ providers that have installed eCW. Discussions with the various EHR vendors suggest that the capability of generating automated reports is technically feasible and in some cases currently exists.  A careful review and comparison of the different methods that are currently being used would inform the optimal design of an automated reporting process. Additionally, developing a set of standard metrics and common definitions around specific functions across different EHR products are important next steps.</p>
+<p><u>Proposed minimum set of functions to monitor EHR use.</u><strong>  </strong>Our study indicates that there exists variability in the EHR functions that are used based on practice size, practice specialty and length of time for which the EHR has been implemented.  However, there is a practical set of minimum functions that would apply to practices regardless of size or specialty that could potentially be used to monitor usage in a systematic manner.  This basic set of functions includes the use of encounter notes, medical history, medication lists, allergy lists, problems lists, order entry functions largely focused around lab order entry, the viewing of laboratory results and the use of patient demographics.  Additionally, EHR systems could potentially report out on number of providers in a practice that use the system and the number of patients that are entered into the system.  Although the adoption of eRx in ambulatory practices is still low, once implemented, the monitoring of the eRx function appears to be very similar to that of lab orders and could be implemented with minimal effort.  For most of the functions identified here, vendors appear to have the ability to currently track these functions and generate reports. In a few cases, additional EHR configuration and customization may be necessary to generate the necessary usage data.</p>
+<p><u>Potential areas for future study.</u><strong><em>  </em></strong>Findings from this study indicate that there is a common set of EHR functions that all practices are likely to have purchased from their vendor and that sites would be capable of implementing.  Most EHR vendors have capability to track usage of these common functions even though they may not all support the same robust reporting capabilities.  While additional work needs to be done to define the standard set of measures that could be applied to all EHR systems, undertaking a few pilot projects in health centers and other ambulatory care settings would provide a good starting point to assess the feasibility of more broad scale implementations.  Pilot studies would also be likely to produce a rich set of information on issues and proposed solutions and how larger scale studies should be refined.</p>
+<p>Finally, health centers, by virtue of their mission and the populations they serve, may also benefit more than other ambulatory providers from EHR adoption.   A number of health centers have established networks to adopt health IT.  Future initiatives to promote health IT use in health centers and health center networks would have much to gain by providing guidance on the EHR functions that are commonly available and are most likely to affect the quality of care delivered.  Furthermore by providing tools to health centers and networks to monitor EHR utilization these organizations would be better equipped to take actions to promote EHR use and adoption proactively. </p>
+<p> </p>
+<table border="1" cellpadding="0" cellspacing="0"><caption>
+<h2>APPENDIX A: SURVEY ITEMS ADDRESSING THE FUNCTIONALITY OF ELECTRONIC HEALTH RECORDS</h2>
+</caption>
+<thead><tr><th rowspan="2" scope="COL">FUNCTION CATEGORY</th>
+<th rowspan="2" scope="COL">EHR FUNCTION</th>
+<th colspan="11" scope="COL">MEASURES</th>
+</tr><tr><th scope="COL">NACHC 2006</th>
+<th scope="COL">CMS DOQ-IT Office Systems Survey</th>
+<th scope="COL">Common- wealth Fund (2003)</th>
+<th scope="COL">CTS Physician Survey</th>
+<th scope="COL">MGMA Survey (2005)</th>
+<th scope="COL">National Survey of EHR Adoption</th>
+<th scope="COL">CCI 2005</th>
+<th scope="COL">Simon (2005)</th>
+<th scope="COL">NAMCS/ NHAMCS (2007-2008)</th>
+<th scope="COL">NQF</th>
+<th scope="COL">CMS PQRI Programs</th>
+</tr></thead><tbody><tr><th rowspan="7" scope="ROW">ORGANIZE PATIENT DATA</th>
+<th scope="ROW">Patient Demographics</th>
+<td>●</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>●</td>
+<td>●</td>
+<td> </td>
+<td> </td>
+<td>●</td>
+<td> </td>
+<td> </td>
+</tr><tr><th scope="ROW">Clinical/Encounter Notes</th>
+<td>●</td>
+<td>●</td>
+<td> </td>
+<td>●</td>
+<td>●</td>
+<td>●</td>
+<td> </td>
+<td>●</td>
+<td>●</td>
+<td> </td>
+<td> </td>
+</tr><tr><th scope="ROW">Medical History</th>
+<td>●</td>
+<td> </td>
+<td>●</td>
+<td> </td>
+<td>●</td>
+<td>●</td>
+<td> </td>
+<td> </td>
+<td>●</td>
+<td> </td>
+<td> </td>
+</tr><tr><th scope="ROW">Record Patient-Specific Information (Dosing, Care Plan)</th>
+<td> </td>
+<td>●</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><th scope="ROW">Patient Consent</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><th scope="ROW">Generate Reports (e.g. based on patient demographics or clinical data)</th>
+<td> </td>
+<td>●</td>
+<td>●</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>●</td>
+<td> </td>
+<td> </td>
+<td>●</td>
+<td>●</td>
+</tr><tr><th scope="ROW">Advance Directives</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><th rowspan="3" scope="ROW">COMPILE LISTS</th>
+<th scope="ROW">Medication Lists</th>
+<td>●</td>
+<td>●</td>
+<td> </td>
+<td>●</td>
+<td>●</td>
+<td>●</td>
+<td> </td>
+<td>●</td>
+<td> </td>
+<td>●</td>
+<td>●</td>
+</tr><tr><th scope="ROW">Allergy Lists</th>
+<td> </td>
+<td>●</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><th scope="ROW">Problem/Diagnoses Lists</th>
+<td> </td>
+<td>●</td>
+<td> </td>
+<td>●</td>
+<td>●</td>
+<td>●</td>
+<td> </td>
+<td>●</td>
+<td>●</td>
+<td>●</td>
+<td>●</td>
+</tr><tr><th rowspan="4" scope="ROW">RECEIVE AND DISPLAY INFO</th>
+<th scope="ROW">Laboratory Test Results</th>
+<td> ● </td>
+<td>●</td>
+<td>●</td>
+<td>●</td>
+<td> </td>
+<td>●</td>
+<td> </td>
+<td>●</td>
+<td>●</td>
+<td>●</td>
+<td>●</td>
+</tr><tr><th scope="ROW">Radiology Results</th>
+<td> </td>
+<td>●</td>
+<td>●</td>
+<td>●</td>
+<td> </td>
+<td> </td>
+<td>●</td>
+<td>●</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><th scope="ROW">Radiology Imaging Results</th>
+<td>● </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>●</td>
+<td>●</td>
+<td>●</td>
+<td> </td>
+<td>●</td>
+<td>●</td>
+<td> </td>
+</tr><tr><th scope="ROW">External Clinical Documents (Capture and Store)</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><th rowspan="5" scope="ROW">ORDER ENTRY (CPOE)</th>
+<th scope="ROW">Electronic Prescribing</th>
+<td>● </td>
+<td>●</td>
+<td>●</td>
+<td>●</td>
+<td>●</td>
+<td>●</td>
+<td>●</td>
+<td>●</td>
+<td>●</td>
+<td>●</td>
+<td>●</td>
+</tr><tr><th scope="ROW">CPOE (“Order Tests”)</th>
+<td>●</td>
+<td> </td>
+<td>●</td>
+<td>●</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>●</td>
+<td> </td>
+<td> </td>
+</tr><tr><th scope="ROW">Reorder Prescriptions</th>
+<td> </td>
+<td>●</td>
+<td> </td>
+<td> </td>
+<td>●</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><th scope="ROW">Laboratory Order Entry</th>
+<td> </td>
+<td>●</td>
+<td> </td>
+<td> </td>
+<td>●</td>
+<td>●</td>
+<td>●</td>
+<td>●</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><th scope="ROW">Radiology Order Entry</th>
+<td> </td>
+<td>●</td>
+<td> </td>
+<td> </td>
+<td>●</td>
+<td>●</td>
+<td>●</td>
+<td>●</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><th rowspan="9" scope="ROW">DECISION SUPPORT</th>
+<th scope="ROW">Clinical Decision Support</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>●</td>
+<td> </td>
+</tr><tr><th scope="ROW">Reminders for Care Activities</th>
+<td>●</td>
+<td>●</td>
+<td>●</td>
+<td>●</td>
+<td> </td>
+<td>●</td>
+<td>●</td>
+<td>●</td>
+<td>●</td>
+<td>●</td>
+<td> </td>
+</tr><tr><th scope="ROW">Dosing Calculator</th>
+<td> </td>
+<td>●</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><th scope="ROW">Preventive Services</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>●</td>
+<td> </td>
+<td>●</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>●</td>
+<td> </td>
+</tr><tr><th scope="ROW">Drug Alerts (Interactions, Allergies, dosing e.t.c.)</th>
+<td>● </td>
+<td>●</td>
+<td>●</td>
+<td>●</td>
+<td>●</td>
+<td>●</td>
+<td> </td>
+<td> </td>
+<td>●</td>
+<td> </td>
+<td>●</td>
+</tr><tr><th scope="ROW">Disease or Chronic Care Management</th>
+<td> </td>
+<td>●</td>
+<td>●</td>
+<td> </td>
+<td> </td>
+<td>●</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>●</td>
+<td> </td>
+</tr><tr><th scope="ROW">Knowledge Resources</th>
+<td>●</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>●</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><th scope="ROW">Diagnostic Decision Support</th>
+<td>●</td>
+<td> </td>
+<td>●</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><th scope="ROW">Clinical Guidelines</th>
+<td> </td>
+<td>● </td>
+<td>●</td>
+<td>●</td>
+<td>●</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>●</td>
+<td> </td>
+</tr><tr><th rowspan="3" scope="ROW">COMMUNICATION AND CONNECTIVITY</th>
+<th scope="ROW">Electronic Referrals</th>
+<td> </td>
+<td>●</td>
+<td> </td>
+<td> </td>
+<td>●</td>
+<td>●</td>
+<td>●</td>
+<td>●</td>
+<td> </td>
+<td>●</td>
+<td> </td>
+</tr><tr><th scope="ROW">Clinical Messaging/ e-mail</th>
+<td> </td>
+<td> </td>
+<td>●</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>●</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><th scope="ROW">Medical Devices</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><th rowspan="5" scope="ROW">ADMINISTRATIVEAND BILLING SUPPORT</th>
+<th scope="ROW">Scheduling Management</th>
+<td> </td>
+<td>●</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>●</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><th scope="ROW">Eligibility Information</th>
+<td>●</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>●</td>
+</tr><tr><th scope="ROW">Electronic Billing/ Integration with Practice Billing System</th>
+<td>●</td>
+<td>●</td>
+<td>●</td>
+<td> </td>
+<td>●</td>
+<td>●</td>
+<td> </td>
+<td> </td>
+<td>●</td>
+<td> </td>
+<td> </td>
+</tr><tr><th scope="ROW">Drug Formularies</th>
+<td>●</td>
+<td>●</td>
+<td> </td>
+<td>●</td>
+<td>●</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>●</td>
+</tr><tr><th scope="ROW">Clinical Task Assignment and Routing</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><th rowspan="4" scope="ROW">OTHER</th>
+<th scope="ROW">Backup</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><th scope="ROW">Immunization Tracking</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>●</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr><tr><th scope="ROW">Public Health Reporting</th>
+<td>●</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>●</td>
+<td> </td>
+<td> </td>
+<td>●</td>
+<td> </td>
+<td> </td>
+</tr><tr><th scope="ROW">Patient Support (e.g. home monitoring, patient education materials, patient access to electronic records, email patients)</th>
+<td> </td>
+<td>● </td>
+<td>●</td>
+<td> </td>
+<td> </td>
+<td>●</td>
+<td>●</td>
+<td> </td>
+<td> </td>
+<td>●</td>
+<td> </td>
+</tr></tbody></table><p>[ Go to <a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#TOC">Contents</a> ]</p>
+<p> </p>
+<table border="1" cellpadding="0" cellspacing="0"><caption>
+<h2>Appendix B: Survey Sources for Appendix A</h2>
+</caption>
+<tbody><tr><th scope="COL">Survey</th>
+<th scope="COL">Source</th>
+</tr><tr><td><strong>NACHC (2006)</strong></td>
+<td>Alexandra E. Shields, Peter Shin, Michael G. Leu, Douglas E. Levy, Renée Marie Betancourt, Dan Hawkins, and Michelle Proser “Adoption Of Health Information Technology In Community Health Centers: Results Of A National Survey” <em>Health Affairs</em>, September/October 2007; 26(5): 1373-1383.</td>
+</tr><tr><td><strong>CMS DOQ-IT Office Systems Survey</strong></td>
+<td>https://secure2.mhic.org/cms/index.html</td>
+</tr><tr><td><strong>Commonwealth Fund (2003)</strong></td>
+<td>A.M. Audet, M.M. Doty, J. Peugh, J. Shamasdin, K. Zapert, S. Schoenbaum,"Information Technologies: When Will They Make it into Physicians' Black Bags?" <em>Medscape General Medicine </em>6, no .4(2004):2.</td>
+</tr><tr><td><strong>Center for Studying System Health Change CTS Physician Survey</strong></td>
+<td>Grossman, Joy M. and Marie C. Reed, <em>Clinical Information Technology Gaps Persist Among Physicians</em>, <a href="http://www.hschange.org/CONTENT/891/">Issue Brief No. 106</a>, Center for Studying Health System Change, Washington, D.C. (November 2006); and Blumenthal, David, et al., Health Information Technology in the United States: The Information Base for Progress, Robert Wood Johnson Foundation, Princeton, New Jersey (2006).</td>
+</tr><tr><td><strong>MGMA Survey (2005)</strong></td>
+<td>D.N. Gans, J.E. Kralewski, T. Hammons, B. Dowd, "Medical Groups' Adoption of Electronic Health Records and Information Systems," <em>Health Affairs </em>24, no. 5 (2005): 1323-1333.</td>
+</tr><tr><td><strong>National Survey of EHR Adoption</strong></td>
+<td>DesRoches, Catherine M., Campbell, Eric G., Rao, Sowmya R., Donelan, Karen, Ferris, Timothy G., Jha, Ashish, Kaushal, Rainu, Levy, Douglas E., Rosenbaum, Sara, Shields, Alexandra E., Blumenthal, David<br /><em>Electronic Health Records in Ambulatory Care -- A National Survey of Physicians.</em> N Engl J Med 2008 359: 50-60</td>
+</tr><tr><td><strong>CCI (2005)</strong></td>
+<td>CCI, "2005 Information Management Assessment Survey, Executive Director Version, "http://healthit.ahrq.gov/portal/server.pt/gateway/PTARGS_0_1248_811156_0_0_18/CCI_ED_survey_2005.pdf”; and "Medical Director Version, "http://healthit.ahrq.gov/portal/server.pt/gateway/PTARGS_0_1248_811158_0_0_18/CCI_MD_survey_2005.pdf”</td>
+</tr><tr><td><strong>Simon Survey</strong></td>
+<td>Steven R. Simon; Rainu Kaushal; Paul D. Cleary; Chelsea A. Jenter; Lynn A. Volk; E. John Orav; Elisabeth Burdick; Eric G. Poon; David W. Bates <em>Physicians and Electronic Health Records: A Statewide Survey</em><br />
+				Arch Intern Med. 2007;167(5):507-512.</td>
+</tr><tr><td><strong>NAMCS/NHAMCS 2008</strong></td>
+<td>Hsiao CJ, Burt CW, Rechtsteiner E, Hing E, Woodwell DA, Sisk JE. Preliminary estimates of electronic medical records use by office-based physicians: United States, 2008. Health E-Stat. National Center for Health Statistics. 2008. Available from: http://www.cdc.gov/nchs/products/pubs/pubd/hestats/hestats .htm</td>
+</tr></tbody></table><p>[ Go to <a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#TOC">Contents</a> ]</p>
+<p> </p>
+<table border="1" cellpadding="0" cellspacing="0"><caption>
+<h2>APPENDIX C: EHR FUNCTIONALITY REQUIREMENTS</h2>
+</caption>
+<tbody><tr><th colspan="2" scope="COL">EHR FUNCTION</th>
+<th scope="COL">HL7</th>
+<th scope="COL">CCHIT</th>
+</tr><tr><th rowspan="7" scope="ROW">Organize Patient Data</th>
+<th scope="ROW">Patient Demographics</th>
+<td><strong>X</strong></td>
+<td><strong>X</strong></td>
+</tr><tr><th scope="ROW">Clinical/Encounter Notes</th>
+<td><strong>X</strong></td>
+<td><strong>X</strong></td>
+</tr><tr><th scope="ROW">Medical History</th>
+<td><strong>X</strong></td>
+<td><strong>X</strong></td>
+</tr><tr><th scope="ROW">Record Patient-Specific Information</th>
+<td><strong>X</strong></td>
+<td><strong>X</strong></td>
+</tr><tr><th scope="ROW">Patient Consent</th>
+<td><strong>X</strong></td>
+<td><strong>X</strong></td>
+</tr><tr><th scope="ROW">Generate Reports</th>
+<td><strong>X</strong></td>
+<td><strong>X</strong></td>
+</tr><tr><th scope="ROW">Advance Directives</th>
+<td><strong>X</strong></td>
+<td><strong>X</strong></td>
+</tr><tr><th rowspan="3" scope="ROW"><strong>Compile Lists</strong></th>
+<th scope="ROW">Medication Lists</th>
+<td><strong>X</strong></td>
+<td><strong>X</strong></td>
+</tr><tr><th scope="ROW">Allergy Lists</th>
+<td><strong>X</strong></td>
+<td><strong>X</strong></td>
+</tr><tr><th scope="ROW">Problem/Diagnoses Lists</th>
+<td><strong>X</strong></td>
+<td><strong>X</strong></td>
+</tr><tr><th rowspan="4" scope="ROW">Receive and Display Information</th>
+<th scope="ROW">Laboratory Test Results</th>
+<td><strong>X</strong></td>
+<td><strong>X</strong></td>
+</tr><tr><th scope="ROW">Radiology Results</th>
+<td><strong>X</strong></td>
+<td><strong>X</strong></td>
+</tr><tr><th scope="ROW">Radiology Imaging Results</th>
+<td><strong>X</strong></td>
+<td><strong>X</strong></td>
+</tr><tr><th scope="ROW">Capture External Clinical Documents</th>
+<td><strong>X</strong></td>
+<td><strong>X</strong></td>
+</tr><tr><th rowspan="4" scope="ROW"><strong>Order Entry (CPOE)</strong></th>
+<th scope="ROW">Electronic Prescribing</th>
+<td><strong>X</strong></td>
+<td><strong>X</strong></td>
+</tr><tr><th scope="ROW">Reorder Prescriptions</th>
+<td><strong>X</strong></td>
+<td><strong>X</strong></td>
+</tr><tr><th scope="ROW">Laboratory Order Entry</th>
+<td><strong>X</strong></td>
+<td><strong>2010</strong></td>
+</tr><tr><th scope="ROW">Radiology Order Entry</th>
+<td><strong>X</strong></td>
+<td><strong>2010</strong></td>
+</tr><tr><th rowspan="7" scope="ROW"><strong>Decision Support</strong></th>
+<th scope="ROW">Reminders for Care Activities</th>
+<td><strong>X</strong></td>
+<td><strong>X</strong></td>
+</tr><tr><th scope="ROW">Dosing Calculator</th>
+<td><strong>X</strong></td>
+<td><strong>X</strong></td>
+</tr><tr><th scope="ROW">Preventive Services</th>
+<td><strong>X</strong></td>
+<td><strong>X</strong></td>
+</tr><tr><th scope="ROW">Drug Alerts</th>
+<td><strong>X</strong></td>
+<td><strong>X</strong></td>
+</tr><tr><th scope="ROW">Disease or Chronic Care Management</th>
+<td><strong>X</strong></td>
+<td><strong>2010</strong></td>
+</tr><tr><th scope="ROW">Knowledge Resources</th>
+<td><strong>X</strong></td>
+<td><strong>X</strong></td>
+</tr><tr><th scope="ROW">Clinical Guidelines</th>
+<td><strong>X</strong></td>
+<td><strong>X</strong></td>
+</tr><tr><th rowspan="3" scope="ROW">Communication and Connectivity</th>
+<th scope="ROW">Electronic Referrals</th>
+<td><strong>X</strong></td>
+<td><strong>X</strong></td>
+</tr><tr><th scope="ROW">Clinical Messaging/ E-mail</th>
+<td><strong>X</strong></td>
+<td><strong>X</strong></td>
+</tr><tr><th scope="ROW">Medical Devices</th>
+<td><strong>X</strong></td>
+<td><strong>X</strong></td>
+</tr><tr><th rowspan="5" scope="ROW"><strong>Administrative and Billing Support</strong></th>
+<th scope="ROW">Scheduling Management</th>
+<td><strong>X</strong></td>
+<td><strong>X</strong></td>
+</tr><tr><th scope="ROW">Eligibility Information        </th>
+<td><strong>X</strong></td>
+<td><strong>X</strong></td>
+</tr><tr><th scope="ROW">Electronic Billing/ Integration with Practice Billing System</th>
+<td> </td>
+<td> </td>
+</tr><tr><th scope="ROW">Drug Formularies</th>
+<td><strong>X</strong></td>
+<td><strong>X</strong></td>
+</tr><tr><th scope="ROW">Clinical Task Assignment and Routing</th>
+<td><strong>X</strong></td>
+<td><strong>X</strong></td>
+</tr><tr><th rowspan="3" scope="ROW"><strong>Other</strong></th>
+<th scope="ROW">Immunization Tracking</th>
+<td><strong>X</strong></td>
+<td><strong>X</strong></td>
+</tr><tr><th scope="ROW">Public Health Reporting</th>
+<td><strong>X</strong></td>
+<td><strong>2010</strong></td>
+</tr><tr><th scope="ROW">Patient Support</th>
+<td><strong>X</strong></td>
+<td><strong>X</strong></td>
+</tr></tbody></table><p> </p>
+<p>[ Go to <a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#TOC">Contents</a> ]</p>
+<p> </p>
+<hr /><p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ftnref1" name="_ftn1" title="" id="_ftn1">[1]</a> HITSP is a cooperative partnership between public and private sector stakeholders tasked with developing a broadly accepted set of standards that contributes to interoperability and health information exchange, and identifying gaps in standards development. HITSP has been tasked with harmonizing standards, developing nationwide health information network prototypes and recommending necessary changes to standardize diverse security and privacy policies. The goal of this effort is to achieve a widely accepted and useful set of standards that will enable and support widespread interoperability among healthcare software applications. </p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ftnref2" name="_ftn2" title="" id="_ftn2">[2]</a> SNOMED is a structured collection of clinical terms used in health and healthcare; from a lab perspective, it is used to code test results. It has been around since the late 1970s and has support from a number of the major standards initiatives including HL7, Digital Imaging and Communications in Medicine (DICOM), the Accredited Standards Committee (ACS) X12, and International Organization for Standardization (ISO). SNOMED has also been mapped to ICD 9 and there are efforts underway to map it to ICD10</p>
+<p> </p>
+<hr /><p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref1" name="_edn1" title="" id="_edn1">[i]</a> Rosenbaum, S., Cartwright-Smith, L., Burke, T., Borzi, P., &amp; Goldstein, M. <em>An overview of major health information technology, public health, Medicaid, and COBRA provisions of the American recovery and reinvestment act of 2009.</em> George Washington University.</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref2" name="_edn2" title="" id="_edn2">[ii]</a> <a href="http://www.ncvhs.hhs.gov/090428ag.htm">NATIONAL COMMITTEE ON VITAL AND HEALTH STATISTICS, Hearing on "Meaningful Use" of Health Information Technology</a></p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref3" name="_edn3" title="" id="_edn3">[iii]</a> Murchinson, J. V., Apodaca, A., Sison, C. E., Rosenberg, C., &amp; Swafford, R. For the record: EHR adoption in the safety net.<em> California HealthCare Foundation, 2009.</em></p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref4" name="_edn4" title="" id="_edn4">[iv]</a> <a href="http://www.ncvhs.hhs.gov/090428ag.htm">NATIONAL COMMITTEE ON VITAL AND HEALTH STATISTICS, Hearing on "Meaningful Use" of Health Information Technology</a></p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref5" name="_edn5" title="" id="_edn5">[v]</a> <a href="http://www.markle.org/downloadable_assets/20090430_meaningful_use.pdf">http://www.markle.org/downloadable_assets/20090430_meaningful_use.pdf</a></p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref6" name="_edn6" title="" id="_edn6">[vi]</a> <a href="http://www.himss.org/EconomicStimulus/docs/HIMSSDraftMeaningfulUsebyHospitals.pdf">HIMSS Discussion Draft on the Definition of Meaningful Use of Certified EHR Technology for Physicians, April 1, 2009</a></p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref7" name="_edn7" title="" id="_edn7">[vii]</a> Blumenthal, D., DesRoches, C., Donelan, K., Ferris, T., Jha, A., &amp; Kaushal, R. (2006). <em>Health information technology in the United States: The information base for progress. </em>Robert Wood Johnson Foundation.</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref8" name="_edn8" title="" id="_edn8">[viii]</a> DesRoches, C. M., Campbell, E. G., Rao, S. R., Donelan, K., Ferris, T. G., Jha, A., et al. (2008). Electronic health records in ambulatory care -- A national survey of physicians.<em> The New England Journal of Medicine, 359</em>(1), 50-60.</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref9" name="_edn9" title="" id="_edn9">[ix]</a> Health information technology in the United States: Where we stand, 2008. Robert Wood Johnson Foundation, 2008.</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref10" name="_edn10" title="" id="_edn10">[x]</a> Health information technology in the United States: Where we stand, 2008. Robert Wood Johnson Foundation, 2008.</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref11" name="_edn11" title="" id="_edn11">[xi]</a> Institute of Medicine. (2001). <em>Crossing the quality chasm: A new health system for the 21st century</em> National Academy Press Washington, DC.</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref12" name="_edn12" title="" id="_edn12">[xii]</a> Ford, E. W., Menachemi, N., &amp; Phillips, M. T. (2006). Predicting the adoption of electronic health records by physicians: When will health care be paperless?<em> Journal of the American Medical Informatics Association, 13</em>(1), 106-112.</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref13" name="_edn13" title="" id="_edn13">[xiii]</a> <em>Health information technology in the United States: Where we stand, 2008</em>. Robert Wood Johnson Foundation, 2008.</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref14" name="_edn14" title="" id="_edn14">[xiv]</a> Ibid</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref15" name="_edn15" title="" id="_edn15">[xv]</a> European physicians, especially in Sweden, Netherlands and Denmark, lead U.S. in use of electronic medical records; general practitioners in Scandinavia, Netherlands and UK are using IT more than other doctors in European countries and more than primary care physicians in the U.S.(2002). <em>Harris Interactive, 2</em>(16)</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref16" name="_edn16" title="" id="_edn16"><strong><em><strong>[xvi]</strong></em></strong></a><strong><em> </em></strong>Blumenthal, D., DesRoches, C., Donelan, K., Ferris, T., Jha, A., &amp; Kaushal, R. (2006). <em>Health information technology in the United States: The information base for progress. </em>Robert Wood Johnson Foundation. Johnson Foundation, 2006.</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref17" name="_edn17" title="" id="_edn17">[xvii]</a> DesRoches, C. M., Campbell, E. G., Rao, S. R., Donelan, K., Ferris, T. G., Jha, A., et al. (2008). Electronic health records in ambulatory care -- A national survey of physicians.<em> The New England Journal of Medicine, 359</em>(1), 50-60.</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref18" name="_edn18" title="" id="_edn18">[xviii]</a> Hsiao, C., Burt, C., Rechtsteiner, E., Hing, E., Woodwell, D., &amp; Sisk, J. Preliminary estimates of electronic medical record use by office-based physicians: United states, 2008.<em> Health E-Stat, 2008.</em></p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref19" name="_edn19" title="" id="_edn19">[xix]</a> National Alliance for Health Information Technology. (April 2008). Defining key health information technology terms.</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref20" name="_edn20" title="" id="_edn20">[xx]</a> Institute of Medicine. (2003). Key capabilities of an Electronic Health Record system. National Academy Press Washington, DC.</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref21" name="_edn21" title="" id="_edn21">[xxi]</a> <a href="http://www.hl7.org/ehr/downloads/index_2007.asp">HL7 2007 EHR-S Functional Model</a></p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref22" name="_edn22" title="" id="_edn22">[xxii]</a> http://www.cchit.org/</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref23" name="_edn23" title="" id="_edn23">[xxiii]</a> http://www.ncvhs.hhs.gov/090429p09c.pdf</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref24" name="_edn24" title="" id="_edn24">[xxiv]</a> Institute of Medicine. (2003). Key capabilities of an Electronic Health Record system. National Academy Press Washington, DC.</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref25" name="_edn25" title="" id="_edn25">[xxv]</a> http://www.cdc.gov/nchs/about/major/ahcd/nhamcsds.htm</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref26" name="_edn26" title="" id="_edn26">[xxvi]</a> http://www.hschange.org/index.cgi?data=04</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref27" name="_edn27" title="" id="_edn27">[xxvii]</a> Community Clinics Initiative. (2006). Celebrating technology advances in California’s community clinics and health centers. http://www.communityclinics.org/content/general/detail/887.</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref28" name="_edn28" title="" id="_edn28">[xxviii]</a> Simon, S. R., Kaushal, R., Cleary, P. D., Jenter, C. A., Volk, L. A., Orav, E. J., et al. (2007). Physicians and electronic health records: A statewide survey.<em> Archives of Internal Medicine, 167</em>(5), 507-512.</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref29" name="_edn29" title="" id="_edn29">[xxix]</a> Menachemi, N., Ford, E. W., Beitsch, L. M., &amp; Brooks, R. G. (2007). Incomplete EHR adoption: Late uptake of patient safety and cost control functions.<em> American Journal of Medical Quality, 22</em>(5), 319-326.</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref30" name="_edn30" title="" id="_edn30">[xxx]</a> DesRoches, C. M., Campbell, E. G., Rao, S. R., Donelan, K., Ferris, T. G., Jha, A., et al. (2008). Electronic health records in ambulatory care -- A national survey of physicians.<em> The New England Journal of Medicine, 359</em>(1), 50-60.</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref31" name="_edn31" title="" id="_edn31">[xxxi]</a> Shields, A. E., Shin, P., Leu, M. G., Levy, D. E., Betancourt, R. M., Hawkins, D., et al. (2007). Adoption of health information technology in community health centers: Results of A national survey.<em> Health Affairs, 26</em>(5), 1373-1383.</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref32" name="_edn32" title="" id="_edn32">[xxxii]</a> Simon, S. R., Kaushal, R., Cleary, P. D., Jenter, C. A., Volk, L. A., Orav, E. J., et al. (2007). Physicians and electronic health records: A statewide survey.<em> Archives of Internal Medicine, 167</em>(5), 507-512.</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref33" name="_edn33" title="" id="_edn33">[xxxiii]</a> Blumenthal, D., DesRoches, C., Donelan, K., Ferris, T., Jha, A., &amp; Kaushal, R. (2006). <em>Health information technology in the United States: The information base for progress. </em>Robert Wood Johnson Foundation.</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref34" name="_edn34" title="" id="_edn34">[xxxiv]</a> DesRoches, C. M., Campbell, E. G., Rao, S. R., Donelan, K., Ferris, T. G., Jha, A., et al. (2008). Electronic health records in ambulatory care -- A national survey of physicians.<em> The New England Journal of Medicine, 359</em>(1), 50-60.</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref35" name="_edn35" title="" id="_edn35">[xxxv]</a> Simon, S. R., Kaushal, R., Cleary, P. D., Jenter, C. A., Volk, L. A., Orav, E. J., et al. (2007). Physicians and electronic health records: A statewide survey.<em> Archives of Internal Medicine, 167</em>(5), 507-512.</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref36" name="_edn36" title="" id="_edn36">[xxxvi]</a> <a href="http://www.cdc.gov/nchs/products/pubs/pubd/hestats/electronic/electronic.htm">NAMCS: Electronic Medical Record Use by Office-Based Physicians: United States, 2005</a></p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref37" name="_edn37" title="" id="_edn37">[xxxvii]</a> Gans, D., Kralewski, J., Hammons, T., &amp; Dowd, B. (2005). Medical groups' adoption of electronic health records and information systems.<em> Health Affairs, 24</em>(5), 1323-1333.</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref38" name="_edn38" title="" id="_edn38">[xxxviii]</a> Burt, C. W., &amp; Sisk, J. E. (2005). Which physicians and practices are using electronic medical records?<em> Health Affairs, 24</em>(5), 1334-1343.</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref39" name="_edn39" title="" id="_edn39">[xxxix]</a> Simon, S. R., Kaushal, R., Cleary, P. D., Jenter, C. A., Volk, L. A., Orav, E. J., et al. (2007). Physicians and electronic health records: A statewide survey.<em> Archives of Internal Medicine, 167</em>(5), 507-512.</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref40" name="_edn40" title="" id="_edn40">[xl]</a> Menachemi, N., &amp; Brooks, R. G. EHR and other IT adoption among physicians: Results of a large-scale statewide analysis.<em> Integration and Interoperability, 20</em>(3), 79.</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref41" name="_edn41" title="" id="_edn41">[xli]</a> Health information technology in the United States: Where we stand, 2008. Robert Wood Johnson Foundation, 2008.</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref42" name="_edn42" title="" id="_edn42">[xlii]</a> Burt, C. W., &amp; Sisk, J. E. (2005). Which physicians and practices are using electronic medical records?<em> Health Affairs, 24</em>(5), 1334-1343.</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref43" name="_edn43" title="" id="_edn43">[xliii]</a> Menachemi, N., Ford, E. W., Beitsch, L. M., &amp; Brooks, R. G. (2007). Incomplete EHR adoption: Late uptake of patient safety and cost control functions.<em> American Journal of Medical Quality, 22</em>(5), 319-326.</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref44" name="_edn44" title="" id="_edn44">[xliv]</a> Simon, S. R., Kaushal, R., Cleary, P. D., Jenter, C. A., Volk, L. A., Orav, E. J., et al. (2007). Physicians and electronic health records: A statewide survey.<em> Archives of Internal Medicine, 167</em>(5), 507-512.</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref45" name="_edn45" title="" id="_edn45">[xlv]</a> Simon, S. R., Kaushal, R., Cleary, P. D., Jenter, C. A., Volk, L. A., Orav, E. J., et al. (2007). Physicians and electronic health records: A statewide survey.<em> Archives of Internal Medicine, 167</em>(5), 507-512.</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref46" name="_edn46" title="" id="_edn46">[xlvi]</a> Institute of Medicine. (2003). Key capabilities of an Electronic Health Record system. National Academy Press Washington, DC.</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref47" name="_edn47" title="" id="_edn47">[xlvii]</a> <a href="http://www.hl7.org/ehr/downloads/index_2004.asp">HL7 EHR-S Functional Model,  July 2004  DSTU package</a></p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref48" name="_edn48" title="" id="_edn48">[xlviii]</a>Certification Commission for Healthcare Information Technology. CCHIT certification – what does it require? (2008) &lt;http://mycourses.med.harvard.edu/ec_res/nt/930820C0-27CB-4D8D-92CA-C5C152738BD9/cchit.pdf&gt;</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref49" name="_edn49" title="" id="_edn49">[xlix]</a> http://assets1.csc.com/health_services/downloads/CSC_HITECH_Certification_4-9.pdf</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref50" name="_edn50" title="" id="_edn50">[l]</a> <a href="http://www.cms.hhs.gov/PQRI/15_MeasuresCodes.asp">Physician Quality Reporting Initiative Measure Specifications Manual for Claims and Registry</a></p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref51" name="_edn51" title="" id="_edn51">[li]</a> Menachemi, N., Ford, E. W., Beitsch, L. M., &amp; Brooks, R. G. (2007). Incomplete EHR adoption: Late uptake of patient safety and cost control functions.<em> American Journal of Medical Quality, 22</em>(5), 319-326.</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref52" name="_edn52" title="" id="_edn52">[lii]</a> Simon, S. R., Kaushal, R., Cleary, P. D., Jenter, C. A., Volk, L. A., Orav, E. J., et al. (2007). Physicians and electronic health records: A statewide survey.<em> Archives of Internal Medicine, 167</em>(5), 507-512.</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref53" name="_edn53" title="" id="_edn53">[liii]</a> Gans, D., Kralewski, J., Hammons, T., &amp; Dowd, B. (2005). Medical groups' adoption of electronic health records and information systems.<em> Health Affairs, 24</em>(5), 1323-1333.</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref54" name="_edn54" title="" id="_edn54">[liv]</a> Simon, S. R., Kaushal, R., Cleary, P. D., Jenter, C. A., Volk, L. A., Orav, E. J., et al. (2007). Physicians and electronic health records: A statewide survey.<em> Archives of Internal Medicine, 167</em>(5), 507-512.</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref55" name="_edn55" title="" id="_edn55">[lv]</a> Shields, A. E., Shin, P., Leu, M. G., Levy, D. E., Betancourt, R. M., Hawkins, D., et al. (2007). Adoption of health information technology in community health centers: Results of A national survey.<em> Health Affairs, 26</em>(5), 1373-1383.</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref56" name="_edn56" title="" id="_edn56">[lvi]</a> http://aspe.hhs.gov/sp/reports/2009/informationissues/report.html</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref57" name="_edn57" title="" id="_edn57">[lvii]</a> Dullabh, P., &amp; Moiduddin, A. (2008). Electronic exchange of clinical laboratory information: Issues and opportunities. Office of the Assistant Secretary for Planning and Evaluation and the U.S. Department of Health and Human Services &lt; http://aspe.hhs.gov/sp/reports/2009/informationissues/report.html&gt;.</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref58" name="_edn58" title="" id="_edn58">[lviii]</a> American Academy of Family Physicians. <em>CLIA waived and PPM tests defined.</em> (2009). &lt;http://www.aafp.org/online/en/home/practicemgt/pt/clia/cliawaiveddefined.html&gt;</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref59" name="_edn59" title="" id="_edn59">[lix]</a> Electronic prescribing: Becoming mainstream practice. EHealth Initiative (2008). &lt; http://www.ehealthinitiative.org/assets/Documents/eHI_CIMM_ePrescribing_Report_6-10-08_FINAL.pdf&gt;.</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref60" name="_edn60" title="" id="_edn60">[lx]</a> Ibid</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref61" name="_edn61" title="" id="_edn61">[lxi]</a> GovTrack.us. H.R. 6331--110th Congress (2008): Medicare Improvements for Patients and Providers Act of 2008, <em>GovTrack.us (database of federal legislation)</em> &lt;http://www.govtrack.us/congress/bill.xpd?bill=h110-6331&gt;</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref62" name="_edn62" title="" id="_edn62">[lxii]</a> http://frwebgate.access.gpo.gov/cgi-bin/getdoc.cgi?dbname=110_cong_bills&amp;docid=f:h6331enr.txt.pdf</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref63" name="_edn63" title="" id="_edn63">[lxiii]</a> <a href="http://edocket.access.gpo.gov/2008/pdf/E8-14405.pdf">Electronic Prescription of Controlled Substances: Proposed Rule</a></p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref64" name="_edn64" title="" id="_edn64">[lxiv]</a> http://www.fda.gov/cder/ndc/</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref65" name="_edn65" title="" id="_edn65">[lxv]</a> http://loinc.org/</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref66" name="_edn66" title="" id="_edn66">[lxvi]</a> http://www.nyc.gov/html/doh/html/pcip/pcip.shtml</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref67" name="_edn67" title="" id="_edn67">[lxvii]</a> Health Resources and Services Administration. <em>Quality improvement and safety net providers: Clinical quality core measures. &lt;</em>http://www.hrsa.gov/quality/coremeasures.htm&gt;</p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref68" name="_edn68" title="" id="_edn68">[lxviii]</a> <a href="http://www.cchit.org/files/certification/08/Ambulatory/CCHITCriteriaAMBULATORY08FINAL.pdf">CCHIT 2008 Criteria for Ambulatory EHRs</a></p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref69" name="_edn69" title="" id="_edn69">[lxix]</a> <a href="http://www.cchit.org/certify/ambulatory/index.asp">CCHIT Test Scripts, Security and Reliability Criteria for certification of Ambulatory EHR 2008</a></p>
+<p><a href="https://aspe.hhs.gov/sp/reports/2009/ehrutil/index.shtml#_ednref70" name="_edn70" title="" id="_edn70">[lxx]</a> <em>Health information technology in the United States: Where we stand, 2008</em>. Robert Wood Johnson Foundation, 2008.</p>
+<p> </p>
+
+  <div class="download_report">
+    
+                        <div class="pdf-prev">
+                <img src="https://aspe.hhs.gov/system/files/pdfpreview/438dd000e1f0bbaf3aba4cb43134f63c.png" alt="Preview" title="Preview" />            </div>
+                <a class="btn btn-sm btn-default download-file"
+           href="https://aspe.hhs.gov/system/files/pdf/180436/report.pdf">Download</a>
+
+        <p class="download_title">&quot;report.pdf&quot;
+            (pdf,
+            888.37Kb)</p>
+        <p>Note: Documents in PDF format require the <a href="http://www.adobe.com/products/acrobat/readstep2.html">Adobe
+                Acrobat Reader&reg;</a>. If you experience problems with PDF documents, please <a
+                href="http://www.adobe.com/products/acrobat/readstep2.html">download the latest version of the
+                Reader&reg;</a>
+        </p>
+    </div>
+  </div>
+
+      <footer>
+          </footer>
+  
+    <div id="block-webform-client-block-158521" class="widget block block-webform" >
+  
+      
+  <div id="webform-ajax-wrapper-158521"><form class="webform-client-form webform-client-form-158521" action="white-paper-measurement-utilization-installed-ehr.html" method="post" id="webform-client-form-158521" accept-charset="UTF-8"><div><div class="webform-progressbar">
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-radios webform-component--was-this-page-helpful">
+  <label for="edit-submitted-was-this-page-helpful">Was this page helpful? <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-was-this-page-helpful" class="form-radios"><div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-1" name="submitted[was_this_page_helpful]" value="1" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-1">Yes </label>
+
+</div>
+<div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-2" name="submitted[was_this_page_helpful]" value="0" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-2">No </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="4" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-nikqJLacIcBuZCu4jT9yPpwC7SclWL1E9HmAfy38-5k" />
+<input type="hidden" name="form_id" value="webform_client_form_158521" />
+<input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-158521" />
+<div class="form-actions"><input class="webform-next button-primary btn btn-default form-submit" type="submit" id="edit-webform-ajax-next-158521" name="op" value="Next &gt;" /></div>
+<div class="is-useful-disclaimer"> <a href="https://aspe.hhs.gov/%23" class="" title="Survey Disclaimer" data-toggle="modal" data-target="#disclamerModal">Form Approved OMB# 0990-0379 Exp. Date 8/31/2017</a></div>
+<div class="modal fade" id="disclamerModal" tabindex="-1" role="dialog" aria-labelledby="disclamerModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="disclamerModalLabel">Survey Disclaimer</h2>
+      </div>
+      <div class="modal-body">
+         According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this information collection is 0990-0379. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, gather the data needed, and complete and review the information collection. If you have comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: U.S. Department of Health & Human Services, OS/OCIO/PRA, 200 Independence Ave., S.W., Suite 336-E, Washington D.C. 20201, Attention: PRA Reports Clearance Officer.      </div>
+    </div>
+  </div>
+</div></div></form></div>
+  </div> <!-- /.block -->
+<meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/white-paper-measurement-utilization-installed-ehr" itemref="md1" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/white-paper-measurement-utilization-installed-ehr" itemref="md2 md3" />              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <footer  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Footer">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  id="footer_sitemap-footer_sitemap" class="col-sm-6 col-md-6 col-lg-4 ">
+                          
+                              <div id="block-footer-sitemap-footer-sitemap" class="widget block block-footer-sitemap" >
+  
+      
+  <div id="footer-sitemap" class="clearfix">
+  <div class="fs-block-content"><div class="menu-footer-utility"><ul class="footer_links_menu-footer-utility total-items-2 parent-items-0 single-items-0"><li class="menu-5021 depth-1 total-children-8 parent-children-0 single-children-8  first"><a href="../images/exit_disclaimer.jpg.html" title="look at ASPE Home" class="fs-root-link">ASPE Home</a><ul class="footer_links_menu-footer-utility total-items-8 parent-items-0 single-items-0"><li class="menu-5026 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/" title="look at HHS Home">HHS Home</a></li>
+<li class="menu-66281 depth-1 fs-no-children"><a href="http://www.usa.gov/" title="look at USA.gov">USA.gov</a></li>
+<li class="menu-66316 depth-1 fs-no-children"><a href="https://oig.hhs.gov/" title="look at Office of the Inspector General">Office of the Inspector General</a></li>
+<li class="menu-66321 depth-1 fs-no-children"><a href="http://www.whitehouse.gov" title="look at The White House">The White House</a></li>
+<li class="menu-5046 depth-1 fs-no-children"><a href="http://www.hhs.gov/Accessibility.html" title="look at Accessibility">Accessibility</a></li>
+<li class="menu-66326 depth-1 fs-no-children"><a href="http://www.hhs.gov/about/budget/index.html" title="look at Budget/Performance">Budget/Performance</a></li>
+<li class="menu-2551 depth-1 fs-no-children"><a href="http://www.hhs.gov/Privacy.html" title="look at Privacy Policy">Privacy Policy</a></li>
+<li class="menu-197776 depth-1 fs-no-children  last"><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" title="Nondiscrimination Notice">Nondiscrimination Notice</a></li>
+</ul></li>
+<li class="menu-5051 depth-1 total-children-4 parent-children-0 single-children-4  last"><a href="http://www.hhs.gov/foia/" title="look at FOIA" class="fs-root-link">FOIA</a><ul class="footer_links_menu-footer-utility total-items-4 parent-items-0 single-items-0"><li class="menu-5056 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/open/recordsandreports/plainwritingact/index.html" title="look at Plain Writing Act">Plain Writing Act</a></li>
+<li class="menu-5061 depth-1 fs-no-children"><a href="http://www.hhs.gov/asa/eeo/no_fear_bullet_3.html" title="look at No Fear Act">No Fear Act</a></li>
+<li class="menu-5066 depth-1 fs-no-children"><a href="http://www.hhs.gov/Disclaimer.html" title="look at Disclaimers">Disclaimers</a></li>
+<li class="menu-2546 depth-1 fs-no-children  last"><a href="http://www.hhs.gov/plugins.html" title="look at Viewers &amp; Players">Viewers &amp; Players</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-5 " id="stability_cms-contact_us">
+                          
+                              <div id="block-stability-cms-contact-us" class="widget block block-stability-cms" >
+  
+      
+  <div class="contacts-widget widget widget__footer">
+	<div class="widget-content">
+		<ul class="contacts-info-list">
+      			<li>
+<!--				<i class="fa fa-map-marker">Address</i>-->
+                <div class="info-icons">
+                    <img  alt="map" class= 'map-icons' src="../sites/all/themes/stability/stability_aspe/images/map.png"/>
+                </div>
+                <div class="info-item">
+					Assistant Secretary for Planning and Evaluation, Room 415F<br />
+U.S. Department of Health and Human Services<br />
+200 Independence Avenue, SW<br />
+Washington, D.C. 20201				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-phone">phone</i>-->
+                <div class="info-icons">
+                    <img alt="phone" src="../sites/all/themes/stability/stability_aspe/images/phone.png"/>
+                </div>
+				<div class="info-item">
+					+1 202.690.7858				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-envelope">email</i>-->
+                <div class="info-icons">
+                    <img alt="mail" src="../sites/all/themes/stability/stability_aspe/images/mail-white.png"/>
+                </div>
+				<span class="info-item">
+					<a href="mailto:osaspeinfo@hhs.gov">osaspeinfo@hhs.gov</a>
+				</span>
+			</li>
+      			                					</ul>
+	</div>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-3 " id="footer">
+                          
+                              <div id="block-block-36" class="widget block block-block" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sign-up</span> for Email Updates</h3>
+		</div>
+    
+  <div class="email_updates">
+<button class="btn btn-default" name="subscribe-button" type="submit" value="subscribe">subscribe</button>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-12 " id="menu-menu-footer-language-menu">
+                          
+                              <div id="block-menu-menu-footer-language-menu" class="widget block block-menu" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Language</span> Assistance Available</h3>
+		</div>
+    
+  <ul class="menu"><li class="first expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#spanish" title="Español">Español</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#chinese" title="繁體中文">繁體中文</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#vietnamese" title="Tiếng Việt">Tiếng Việt</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#korean" title="한국어">한국어</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#tagalog" title="Tagalog">Tagalog</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#russian" title="Русский">Русский</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#arabic" title="العربية">العربية</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#creole" title="Kreyòl Ayisyen">Kreyòl Ayisyen</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#french" title="Français">Français</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#polish" title="Polski">Polski</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#portuguese" title="Português">Português</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#italian" title="Italiano">Italiano</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#german" title="Deutsch">Deutsch</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#japanese" title="日本語">日本語</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#farsi" title="فارسی">فارسی</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#english" title="English">English</a></li>
+</ul></li>
+</ul>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+      </div>
+
+          </div>
+    
+    
+      </footer>
+    
+
+    <!--/PAGEWATCH-->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+                        </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="social-links-wrapper">
+              <span class="social-links-txt">Connect with us</span>
+              <ul class="social-links social-links__dark">
+                                                  <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="../sites/all/themes/stability/stability_aspe/images/tw-grey.png"/></a></li>
+                                <!--                --><!--                  <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin-grey.png"/></a></li>-->
+<!--                -->
+                                                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>  <script type="text/javascript" src="../sites/default/files/advagg_js/js__VWRymaMz6HfrhnrcJNGcDiSvLVrvhaXvBa7nrBYy8gc__jntPwP3D6myJZH1jW19fXrk5cYMHGRL8NQION22VSEA__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5486d15a696bff0c"></script>
+<script type="text/javascript" src="../sites/default/files/advagg_js/js__g6mKbcakHxQkz4ZHYaxdO_xqONINvRMgsHh1zAK-fr0__ATHtEmHaeZ0jidpGU22EkhmPDBSgjD8z0bVDQMI-BIY__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="../sites/default/files/advagg_js/js__KUp4PrfOt9BSXUVl8Ctb3dhCMBe4MNVMeb4Gyorx8yY__7g4BeXscCIZAfuu1vxsCj2RIemg-eEK0QpChP9LDmFQ__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="../sites/default/files/advagg_js/js__PNjAgubM_3xXRLp4uLsYnv8wQAdT89-RYkSPxT6T45c__rFQwFK4pA5ZaWZSF7FPTfKbbpus0h-5IS8ayrNZGrb4__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="../sites/default/files/advagg_js/js__vQiLul2UcfC4nBAR09mhYVBYzRmiNDm2dj3GgSubV38__w84oZe-ZODKe7XnnlbrjV4IWHISOy4PioFEMVgx9hZo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="../sites/default/files/advagg_js/js__QJw3g0kOdwsv4twSZLP931zBzsHy50VEHpEN_znIitQ__A6QOuWXElDipBM2iChbWhjAAt3KlUwZ-jODoxdpbwiw__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stability_aspe","theme_token":"bQIgp6y2mr281YuXdQ9T3xZZMMcavjnNxrUKDAcAT44","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/footable.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/aspe_nodes.admin.css":1,"sites\/all\/modules\/custom\/aspe_views\/theme\/css\/aspe_views.admin.css":1,"sites\/all\/modules\/forked\/book\/book.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/openpublic\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.css":1,"profiles\/openpublic\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openpublic\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/openpublic\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/themes\/stability\/css\/bootstrap.min.css":1,"sites\/all\/themes\/stability\/css\/fonts\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.theme.css":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/stability\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/stability\/css\/theme.css":1,"sites\/all\/themes\/stability\/css\/theme-elements.css":1,"sites\/all\/themes\/stability\/css\/animate.min.css":1,"sites\/all\/themes\/stability\/css\/skins\/red.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/slideshow.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/font-main.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/styleless.less":1,"sites\/all\/themes\/stability\/css\/skins\/blue.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/aspe\/theme\/js\/aspe.login-confirm.js":1,"sites\/all\/modules\/custom\/aspe_report\/modules\/aspe_databooks\/js\/aspe_databooks.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.highcharts.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/datatables\/dataTables.min.js":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.min.js":1,"sites\/all\/libraries\/highcharts\/highcharts.js":1,"sites\/all\/libraries\/highcharts\/highcharts.exporting.js":1,"sites\/all\/libraries\/highcharts\/highcharts.map.js":1,"sites\/all\/libraries\/highcharts\/highcharts.us-all.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.footable.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5486d15a696bff0c":1,"misc\/progress.js":1,"profiles\/openpublic\/modules\/contrib\/webform\/js\/webform.js":1,"profiles\/openpublic\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/stability\/vendor\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/stability\/vendor\/bootstrap.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flexnav.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flickrfeed.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.sloppy-masonry.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.fitvids.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.stellar.min.js":1,"sites\/all\/themes\/stability\/vendor\/snap.svg-min.js":1,"sites\/all\/themes\/stability\/js\/custom.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/aspe.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/html5shiv.min.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/main-menu.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/keyboard-control.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tabBehavior.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tileStringTrimmer.js":1}},"webform":{"conditionals":{"webform-client-form-158521":{"ruleGroups":[],"sourceMap":[],"values":[]}}},"ajax":{"edit-webform-ajax-next-158521":{"callback":"webform_ajax_callback","wrapper":"webform-ajax-wrapper-158521","progress":{"message":"","type":"throbber"},"event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Next \u003E"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/basic-report\/white-paper-measurement-utilization-installed-ehr":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"([a-z0-9]\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This website contains links to other federal and state agencies and private organizations. The Department of Health and Human Services (HHS) cannot attest to the accuracy of information provided by these nonfederal website links. Linking to nonfederal sites does not constitute an endorsement by HHS or any of its employees of the sponsors or the information and products presented on the sites. You will be subject to the destination site\u0027s privacy policy when you leave the ASPE website.\r\n\r\nThank you for visiting aspe.hhs.gov!","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"stability":{"flickr_id":"52617155@N08","logo_sticky":"28"},"field_group":{"div":"full","hidden":"full"}});
+//--><!]]>
+</script>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config={pubid:"ra-5486d15a696bff0c",ui_click:false}
+//--><!]]>
+</script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4837db659","applicationID":"10708002","transactionName":"MwNaZBRSXEtXB0BdWQpJeVMSWl1WGQpbUFM7FllXA2xEUVMT","queueTime":0,"applicationTime":1627,"atts":"H0RZElxIT0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

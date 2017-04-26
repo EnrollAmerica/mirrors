@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">  <!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://aspe.hhs.gov/sites/default/files/Favicon2.png" type="image/png" />
+<meta name="description" content="    U.S. Department of Health and Human Services   The Effect of Cash and Counseling on Medicaid and Medicare Costs: Findings for Adults in Three States Executive Summary" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://aspe.hhs.gov/execsum/effect-cash-and-counseling-medicaid-and-medicare-costs-findings-adults-three-states" />
+<link rel="shortlink" href="https://aspe.hhs.gov/node/99741" />
+<meta property="og:site_name" content="ASPE" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aspe.hhs.gov/execsum/effect-cash-and-counseling-medicaid-and-medicare-costs-findings-adults-three-states" />
+<meta property="og:title" content="The Effect of Cash and Counseling on Medicaid and Medicare Costs: Findings for Adults in Three States" />
+<meta property="og:description" content="    U.S. Department of Health and Human Services   The Effect of Cash and Counseling on Medicaid and Medicare Costs: Findings for Adults in Three States Executive Summary" />
+<meta property="og:updated_time" content="2017-03-20T00:48:53-04:00" />
+<meta property="article:published_time" content="2015-12-09T05:08:15-05:00" />
+<meta property="article:modified_time" content="2017-03-20T00:48:53-04:00" />
+
+  <title>The Effect of Cash and Counseling on Medicaid and Medicare Costs: Findings for Adults in Three States | ASPE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+  <link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__5ln8neBOcJfyUveiD4y9fhI6kHBLOQ_YL0mMC-LS9a0__TPJIZT9UBnf_685NlFTJ5KnZVsjwFk6ACQ-nwwygmwU__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ng49uRH5y4Hl9VF9hHW_vXOj-mcOc2u2ShJqJ1YKIGU__FoMCD14GBvZaRiqSQ_JpP1w3rDB21n7H2Ar4pRZaIh8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__Hskudx14OJ5Hz8vqU7CUgN6SDV5rINZuEq9VuGsSeyc__EwNIl3xeFrniW2TmonovTzhSs3X5MdFps210puE7jog__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__9rZoaX9BdzjjNucvYxduxeNAVO2zgW_Rvjhb5rq5whc__lSr_y16grDSgHf4booPChnF7QXz3TQY3hafH49twE0k__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZgfI_ZPib5yVY0o5aKo_6TFn946Tuu_nFDa0ySTmkSc__2FTFrNw2eNh0mpHIOA34r6YRwBZMm2PjJ_JubnwLigg__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__dxabpJ5rQgDSixKgLJZjWc1beC6mpROKwVrmWxI5eno__rqhz_hGsE_i59O7-W991o71_Jxw1QOtGMxn4nsOLHY8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZbRCq2NqWgK-HXAQI3So0N1n0nr4HonsJS3eQuuxukw__7Olkk8Locn8Dj0eR0Ww3rbV9lks9sxipcboMXB18RRs__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+
+	<!-- Head Libs -->
+	<script src="/sites/all/themes/stability/stability_aspe/vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/sites/all/themes/stability/vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" href="/sites/all/themes/stability/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/stability/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/stability/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/stability/images/apple-touch-icon-144x144.png">
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-99741 node-type-report-exec-sum">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-JLFR"
+                  height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JLFR');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-nav" class="accessibility_menu">
+    <strong>Shortcut Navigation:</strong>
+    <ul>
+      <li><a href="#content" accesskey="c" title="Skip to page content (ctrl/alt + c)">Page Content</a></li>
+      <li><a href="#nav" accesskey="m" title="Skip to main navigation menu (ctrl/alt + m)">Site Navigation</a></li>
+
+      <li><a href="#Footer" accesskey="f" title="Skip to footer (ctrl/alt + f)">Footer</a></li>
+    </ul>
+  </div>
+
+    
+<div class="site-wrapper">
+  
+  <header class="header header-menu-fullw header-top-clean">
+    <div id="brand-bar">
+        <div class="container">
+                    <img alt='bird' src="/sites/all/themes/stability/stability_aspe/images/bird.png"> <a target="blank" tabindex="4" href="http://www.hhs.gov/">U.S. Department of Health & Human Services</a>
+        </div>
+
+    </div>
+    <div class="header-main">
+        <div class="container clearfix">
+            <div class="social-links-wrapper">
+                <ul class="social-links social-links__light">
+                                                          <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw.png"/></a></li>
+                                    <!--                  --><!--                    <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin.png"/></a></li>-->
+<!--                  -->
+                                                                      </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                                <div class="site_name_wrapper">
+                                     <span class="h1">
+                                      <a href="/">ASPE</a>
+                                       </span>
+                                  <p class="tagline"><p>Office of The Assistant Secretary</p><p> for Planning and Evaluation</p></p>
+                    </div>
+            </div>
+            <!-- Logo / End -->
+            <div class="header_right_wrapper">
+                <div class="search-form">
+                    <form action="/execsum/effect-cash-and-counseling-medicaid-and-medicare-costs-findings-adults-three-states" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class = "input-group"><div class="form-type-textfield form-item-search-block-form form-item form-group">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search Site..." class="form-control form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input class="btn btn-primary btn-icon form-submit" type="image" id="edit-submit" name="submit" value="Search" src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/search-white2.png" alt="Search" title="Search" /></div></div><input type="hidden" name="form_build_id" value="form-qPBeTK6yB-w1pBHFOhJbcqKHzGHwXJ8NtmkOl7gdYXY" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </div>
+                <button type="button" class="navbar-toggle" value="Menu">
+                    <i class="fa fa-bars"></i>Menu
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-main">
+        <div class="container">
+          <ul data-breakpoint="767" class="flexnav">
+                <li class="first expanded"><a href="/basic-search/about" title="">About</a><ul><li class="first leaf"><a href="/mission" title="">Mission</a></li>
+<li class="leaf"><a href="/key-staff" title="">Leadership</a></li>
+<li class="leaf"><a href="https://www.usajobs.gov/" title="">Careers</a></li>
+<li class="expanded"><a href="/coordination" title="linkTo">Coordination</a><ul><li class="first leaf"><a href="/evaluation-evidence" title="">Evaluation &amp; Evidence</a></li>
+<li class="leaf"><a href="/national-alzheimers-project-act">National Alzheimer&#039;s Project Act</a></li>
+<li class="leaf"><a href="/health-and-human-services-hhs-data-council">HHS Data Council</a></li>
+<li class="last leaf"><a href="/national-committee-vital-and-health-statistics" title="National Council on Vital and Health Statistics">National Council on Vital and Health Statistics</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/divisions" title="">Offices</a><ul><li class="first leaf"><a href="/office-disability-aging-and-long-term-care-policy-daltcp">Disability, Aging, and Long-Term Care Policy</a></li>
+<li class="leaf"><a href="/office-health-policy-hp">Health Policy</a></li>
+<li class="leaf"><a href="/office-human-services-policy">Human Services Policy</a></li>
+<li class="last leaf"><a href="/office-science-and-data-policy">Science and Data Policy</a></li>
+</ul></li>
+<li class="leaf"><a href="/strategic-planning" title="Strategic Planning">Strategic Planning</a></li>
+<li class="last leaf"><a href="/contact-aspe" title="">Contact ASPE</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/topics" title="">Topics</a><ul><li class="first leaf"><a href="/affordable-care-act-research">Affordable Care Act Research</a></li>
+<li class="leaf"><a href="/alzheimers-dementia">Alzheimer&#039;s / Dementia</a></li>
+<li class="leaf"><a href="/early-childhood">Early Childhood</a></li>
+<li class="leaf"><a href="/incarceration-reentry">Incarceration &amp; Reentry</a></li>
+<li class="leaf"><a href="/opioid-abuse-us-and-hhs-actions-address-opioid-drug-related-overdoses-and-deaths" title="Opioids">Opioids</a></li>
+<li class="leaf"><a href="/patient-centered-outcomes-research-trust-fund">Patient-Centered Outcomes Research Trust Fund (PCORTF)</a></li>
+<li class="expanded"><a href="/basic-search/poverty" title="">Poverty</a><ul><li class="first leaf"><a href="/poverty-guidelines">Poverty Guidelines</a></li>
+<li class="last leaf"><a href="/poverty-estimates-trends-and-analysis">Poverty Analysis</a></li>
+</ul></li>
+<li class="leaf"><a href="/teen-pregnancy-prevention">Teen Pregnancy Prevention</a></li>
+<li class="leaf"><a href="/homelessness">Homelessness</a></li>
+<li class="last leaf"><a href="/medicare-access-and-chip-reauthorization-act-2015">MACRA</a></li>
+</ul></li>
+<li class="leaf"><a href="/reports" title="">Publications</a></li>
+<li class="last expanded"><a href="/basic-search/datasets" title="">Data and Tools</a><ul><li class="first last leaf"><a href="/evaluations" title="">Evaluation Database</a></li>
+</ul></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation / End -->
+</header>  <div class="main" role="main">
+    <!--PAGEWATCH CODE="USHHS_458"-->
+    <section class="page-heading">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+                <h1>
+                    
+          The Effect of Cash and Counseling on Medicaid and Medicare Costs: Findings for Adults in Three States        </h1>
+                                 <p class="author">
+                                                 <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2005-05-01T00:00:00-04:00">05/01/2005</span>               
+                           </p>
+
+
+                  </div>
+
+
+        <div class="col-md-6">
+           <ul class="breadcrumb"><li class="first"><a href="/" title="Home">Home</a></li>
+<li class="last">The Effect of Cash and Counsel...</li>
+</ul>        </div>
+
+
+    </div>
+  </div>
+</section>
+    
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Content">     
+
+        
+                  
+        
+                                    <div  class="col-md-12 " id="content">
+                          
+                              <div id="block-aspe-aspe-addthis" class="widget block block-aspe" >
+  
+      
+  <div class="clearfix">
+  <ul class="addthis_sharing_toolbox node-share__links" data-url="https://aspe.hhs.gov/execsum/effect-cash-and-counseling-medicaid-and-medicare-costs-findings-adults-three-states" data-title="The Effect of Cash and Counseling on Medicaid and Medicare Costs: Findings for Adults in Three States">
+    <li><a class="addthis_button_print"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/print-white.png" alt="print" /></a></li>
+    <li><a class="addthis_button_email"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/mail-white.png" alt="email" /></a></li>
+    <li><a class="addthis_button_twitter"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/tw.png" alt="twitter" /></a></li>
+<!--    <li><a class="addthis_button_facebook">--><!--</a></li>-->
+    <li><a class="addthis_button_compact"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/plus-white.png" alt="compact" /></a></li>
+  </ul>
+</div>
+
+  </div> <!-- /.block -->
+
+                
+    
+  
+  <div class="content clearfix node-report-exec-sum">
+    <p> </p>
+<p> </p>
+<p><strong>U.S. Department of Health and Human Services</strong></p>
+<p> </p>
+<p>The Effect of Cash and Counseling on Medicaid and Medicare Costs: Findings for Adults in Three States</p>
+<p>Executive Summary</p>
+<h3>Stacy Dale and Randall Brown</h3>
+<h3>Mathematica Policy Research, Inc.</h3>
+<h3>May 2005</h3>
+<hr /><blockquote><p><em>This report was prepared under contract HHS-100-95-0046 between the U.S. Department of Health and Human Services (HHS), Office of Disability, Aging and Long-Term Care Policy (DALTCP) and the University of Maryland. For additional information about the study, you may visit the DALTCP home page at http://aspe.hhs.gov/_/office_specific/daltcp.cfm or contact the ASPE Project Officer, Pamela Doty, at HHS/ASPE/DALTCP, Room 424E, H.H. Humphrey Building, 200 Independence Avenue, SW, Washington, DC 20201. Her e-mail address is: Pamela.Doty@hhs.gov.</em></p>
+</blockquote>
+<hr /><p> </p>
+<h2><a id="acknow" name="acknow">ACKNOWLEDGMENTS</a></h2>
+<p>Many people at Mathematica Policy Research, Inc. (MPR) made this report possible. Licia Gaber, Kate Scheppke, and Amy Zambrowski programmed the analysis, and Valerie Cheh provided thoughtful comments on an earlier draft. Patricia Ciaccio carefully edited the report, and Jane Nelson skillfully produced it.</p>
+<p>This report has also benefited greatly from the thoughtful comments and suggestions of individuals outside MPR. In particular, we appreciate the input of Pamela Doty, Sue Flanagan, Kevin Mahoney, Tonya Moore, Marie Squillace, and Lori Simon-Rusinowitz of the Cash and Counseling Demonstration and Evaluation management team; Debby Ellis of the IndependentChoices program (Arkansas); Tom Reimers, Susan Kaempfer and Carol Schulz of the Consumer-Directed Care program (Florida); Marguerite Schervish of the Centers for Medicare &amp; Medicaid Services (CMS); and external reviewers Peter Kemper, Josh Wiener, and Nancy Miller.</p>
+<p>Special thanks are also due to members of the Cash and Counseling staff program staff who cheerfully answered our questions and assisted us in obtaining administrative cost data. Sandra Barrett and Debby Ellis of Arkansas, Lou Comer and Juanita Webb of Florida, and Renee Davidson and Carolyn Selick of New Jersey particularly deserve mention.</p>
+<p>The opinions presented here are those of the authors and do not necessarily reflect those of the funders (the Robert Wood Johnson Foundation and the U.S. Department of Health and Human Services, Office of the Assistant Secretary for Planning and Evaluation), the Cash and Counseling National Program Office, the demonstration states, or CMS.</p>
+<p> </p>
+<h2><a id="execsum" name="execsum">EXECUTIVE SUMMARY</a></h2>
+<p>This study of the Cash and Counseling Demonstration program for adults in the three participating states--Arkansas, New Jersey, and Florida--examines how a new service delivery model of consumer direction affected Medicaid and Medicare service use and costs. The traditional system of providing Medicaid personal care services (PCS) through home care agencies gives consumers few choices about how and when their care is provided. Therefore, some consumers may not receive the type of care they feel they need, when and how they want it. As a result, some are dissatisfied with their care, have unmet needs, and are unhappy with the quality of their lives. The premise of the Cash and Counseling Demonstration was that, if consumers were given control over a cash allowance, they would select the types and amounts of care and services to best meet their needs and enhance their lives. When designed, the program was expected to cost no more per recipient per month of service than the traditional program.<sup><a href="#noteES1">1</a></sup> Furthermore, if there were sizable improvements in quality of life and reduction in unmet needs, other Medicaid costs might be reduced. On the other hand, if the care provided were inadequate, such costs might increase.</p>
+<p>Demonstration enrollment, which occurred between December 1998 and July 2002, was open to interested beneficiaries eligible for PCS under their state Medicaid plan (in Arkansas and New Jersey) or under a waiver (in Florida). After a baseline survey, enrollees were randomly assigned to direct their own personal assistance as Cash and Counseling consumers (the treatment group) or to receive services as usual from agencies (the control group). Cash and Counseling consumers had the opportunity to receive a monthly allowance, which they could use to hire their choice of caregivers or to buy other services or goods needed for daily living. To receive the allowance, consumers had to prepare a spending plan describing how they would use the allowance and have their counselor approve it. They also could call on counselors for support and advice on managing the allowance. Each state's program differed somewhat from the others in how it was implemented, the size of the allowance, and how the allowance could be used, but all three states kept the basic principle of providing an allowance with limited constraints and helping the consumer manage it.</p>
+<p>We drew outcome measures from Medicaid and Medicare claims data for the first postenrollment year for the full sample (2,008 people in Arkansas, 1,730 in New Jersey, and 1,817 in Florida), and for the first two years postenrollment for a cohort of early enrollees. Of particular interest were the program's effects on expenditures for the services that the program "costed-out" (that is, those services for which an allowance was provided instead) and on total expenditures for all Medicaid services. We used regression models to estimate program effects, while controlling for a comprehensive set of baseline characteristics. We constructed separate estimates for the elderly and nonelderly because of their potentially different needs, living situations, support networks, and types of disabilities, as well as for the first and second years postenrollment.</p>
+<h3>Results</h3>
+<p>By the third month after enrolling in the demonstration, more than 80 percent of treatment group members in Arkansas had received allowances. In Florida and New Jersey, the processes for setting up spending plans and allowances were time-consuming, so most treatment group members did not start receiving their allowances until at least six months after enrollment. About a third of treatment group members in New Jersey and almost half of those in Florida (62 percent of the elderly and 42 percent of the nonelderly) never received an allowance, mainly because they decided they were satisfied with the traditional program.</p>
+<p>In <strong>Arkansas</strong>, PCS expenditures were about twice as high for the treatment group as for the control group during the first year postenrollment, primarily because the control group received less care than it was authorized to receive. Nearly one-fourth of control group members did not receive any paid PCS. Those who did, as a group, received only 68 percent of the hours of care to which they were entitled, rather than the 86 percent they had historically received. The average total PCS expenditures among allowance recipients per month were slightly less than the costs that agencies would have incurred, on average, if they had been responsible for providing services to these consumers and supplied the historic proportion of baseline care plan hours.</p>
+<p>Savings in Medicaid expenditures on nursing facility, home health, and other Medicaid services partly offset the larger PCS costs of the treatment group. Thus, during the first postenrollment year, the treatment group's total Medicaid costs were only about 15 percent (or $1,531) higher than those of the control group (<a href="#tableES1">Table ES.1</a>). Because the savings in other Medicaid services (particularly nursing facility, home health, and other home care waiver services) grew between the first and second year, and the gap in PCS costs shrank somewhat, the difference in total Medicaid costs during the second year fell to $500 (5 percent of the control group mean), but this was a statistically insignificant amount. The fact that treatment group members had 40 percent fewer nursing facility stays than control group members was especially noteworthy. Results were similar for the elderly and nonelderly, although both the treatment-control difference in PCS expenditures and the savings in nonPCS expenditures were larger for the nonelderly.</p>
+<table align="center" border="1"><tbody><tr><th colspan="7"><strong><a id="tableES1" name="tableES1">TABLE ES.1</a>. Effect of Arkansas's Cash and Counseling on Personal Care and Medicaid Expenditures</strong></th>
+</tr><tr><th rowspan="2"> </th>
+<th colspan="3"><strong>Personal Care Expenditures<br />
+				(Dollars)</strong></th>
+<th colspan="3"><strong>All Medicaid Expenditures<br />
+				(Dollars)</strong></th>
+</tr><tr><th><strong>Treatment</strong></th>
+<th><strong>Control</strong></th>
+<th><strong>Difference</strong></th>
+<th><strong>Treatment</strong></th>
+<th><strong>Control</strong></th>
+<th><strong>Difference</strong></th>
+</tr><tr><th colspan="7">YEAR 1</th>
+</tr><tr><th>-  Nonelderly</th>
+<td>5,435</td>
+<td>2,430</td>
+<td>3,005***</td>
+<td>14,125</td>
+<td>12,862</td>
+<td>1,263</td>
+</tr><tr><th>-  Elderly</th>
+<td>4,313</td>
+<td>2,292</td>
+<td>2,021***</td>
+<td>11,523</td>
+<td>9,822</td>
+<td>1,701***</td>
+</tr><tr><th>-  All Ages</th>
+<td>4,605</td>
+<td>2,349</td>
+<td>2,256***</td>
+<td>12,219</td>
+<td>10,688</td>
+<td>1,531***</td>
+</tr><tr><th colspan="7">YEAR 2</th>
+</tr><tr><th>-  All Ages</th>
+<td>3,852</td>
+<td>1,839</td>
+<td>2,014***</td>
+<td>11,082</td>
+<td>10,582</td>
+<td>500</td>
+</tr><tr><td colspan="7"><strong>NOTE</strong>: Year 2 includes only those who enrolled in the demonstration before May 1, 2000.
+<p>				*** Treatment group mean diferent from control group mean at .01 level.</p></td>
+</tr></tbody></table><p>In <strong>New Jersey</strong>, PCS costs for the treatment group were 16 percent higher than for the control group during the first year, and this difference grew over time. The treatment-control difference in PCS costs was due largely to the fact that the treatment group was more likely to receive at least some PCS. For the nonelderly, however, costs per month for recipients also were higher for the treatment group. This appeared to be because nonelderly control group recipients received only about 90 percent of their baseline care plan amount, and no discount factor was applied to the baseline care plan in setting the allowance amount for treatment group members. Thus, the gap in personal care costs is larger for the nonelderly.</p>
+<p>Savings in other Medicaid services (transportation, home health, and nursing facility) offset about half the treatment group's higher PCS costs in the first year, yielding a small (statistically insignificant) treatment-control difference in total Medicaid costs (about $861, or four percent of total Medicaid costs for the full sample) (<a href="#tableES2">Table ES.2</a>). These expenditure results were similar for the elderly and nonelderly. The difference in total Medicaid costs grew to $2,379 in year 2, because the treatment-control difference in PCS expenditures grew by more than 60 percent, and the estimated savings in other Medicaid services essentially disappeared.</p>
+<table align="center" border="1"><tbody><tr><th colspan="7"><strong><a id="tableES2" name="tableES2">TABLE ES.2</a>. Effect of New Jersey's Cash and Counseling on Personal Care and Medicaid Expenditures</strong></th>
+</tr><tr><th rowspan="2"> </th>
+<th colspan="3"><strong>Personal Care Expenditures<br />
+				(Dollars)</strong></th>
+<th colspan="3"><strong>All Medicaid Expenditures<br />
+				(Dollars)</strong></th>
+</tr><tr><th><strong>Treatment</strong></th>
+<th><strong>Control</strong></th>
+<th><strong>Difference</strong></th>
+<th><strong>Treatment</strong></th>
+<th><strong>Control</strong></th>
+<th><strong>Difference</strong></th>
+</tr><tr><th colspan="7">YEAR 1</th>
+</tr><tr><th>-  Nonelderly</th>
+<td>11,166</td>
+<td>9,220</td>
+<td>1,946***</td>
+<td>26,863</td>
+<td>26,049</td>
+<td>814</td>
+</tr><tr><th>-  Elderly</th>
+<td>11,891</td>
+<td>10,650</td>
+<td>1,241***</td>
+<td>20,236</td>
+<td>19,407</td>
+<td>828</td>
+</tr><tr><th>-  All Ages</th>
+<td>11,557</td>
+<td>9,970</td>
+<td>1,587***</td>
+<td>23,370</td>
+<td>22,509</td>
+<td>861</td>
+</tr><tr><th colspan="7">YEAR 2</th>
+</tr><tr><th>-  All Ages</th>
+<td>11,337</td>
+<td>8,792</td>
+<td>2,545***</td>
+<td>22,033</td>
+<td>19,653</td>
+<td>2,379***</td>
+</tr><tr><td colspan="7"><strong>NOTE</strong>: Year 2 includes only those who enrolled in the demonstration before January 1, 2002.
+<p>				*** Treatment group mean diferent from control group mean at .01 level.</p></td>
+</tr></tbody></table><p>In <strong>Florida</strong>, waiver costs were $2,108 (or 15 percent) higher for the treatment group than for the control group (<a href="#tableES3">Table ES.3</a>). This difference was driven by the nonelderly, where the treatment-control difference in costs for waiver services was $3,696. In contrast, the treatment-control difference for these costs was only $433 (and statistically insignificant) for the elderly. Nonelderly allowance recipients incurred costs that were substantially higher-than-expected according to their baseline care plans. These high allowance costs appear to stem from the fact that many recipients, when they developed their spending plans, were assessed to need more care. Because there were no offsetting savings in other Medicaid costs, there was a sizable treatment-control difference in total Medicaid costs for the nonelderly and for the full sample. In year 2, the program's effects on Medicaid expenditures were similar to those in year 1. Finally, while the program had no effect on service receipt of waiver services in year 1, it did significantly affect it in year 2 for the elderly, as somewhat more treatment group members (81 percent) than control group members (76 percent) received waiver services.</p>
+<table align="center" border="1"><tbody><tr><th colspan="7"><strong><a id="tableES3" name="tableES3">TABLE ES.3</a>. Effect of Florida's Cash and Counseling on Waiver and Medicaid Expenditures</strong></th>
+</tr><tr><th rowspan="2"> </th>
+<th colspan="3"><strong>Waiver Expenditures<br />
+				(Dollars)</strong></th>
+<th colspan="3"><strong>All Medicaid Expenditures<br />
+				(Dollars)</strong></th>
+</tr><tr><th><strong>Treatment</strong></th>
+<th><strong>Control</strong></th>
+<th><strong>Difference</strong></th>
+<th><strong>Treatment</strong></th>
+<th><strong>Control</strong></th>
+<th><strong>Difference</strong></th>
+</tr><tr><th colspan="7">YEAR 1</th>
+</tr><tr><th>-  Nonelderly</th>
+<td>22,017</td>
+<td>18,321</td>
+<td>3,696***</td>
+<td>27,433</td>
+<td>24,106</td>
+<td>3,327***</td>
+</tr><tr><th>-  Elderly</th>
+<td>10,496</td>
+<td>10,063</td>
+<td>433</td>
+<td>15,971</td>
+<td>15,833</td>
+<td>137</td>
+</tr><tr><th>-  All Ages</th>
+<td>16,301</td>
+<td>14,193</td>
+<td>2,108***</td>
+<td>23,745</td>
+<td>19,973</td>
+<td>1,772***</td>
+</tr><tr><th colspan="7">YEAR 2</th>
+</tr><tr><th>-  All Ages</th>
+<td>18,354</td>
+<td>15,978</td>
+<td>2,375***</td>
+<td>24,394</td>
+<td>21,676</td>
+<td>2,718***</td>
+</tr><tr><td colspan="7"><strong>NOTE</strong>: Year 2 includes only those who enrolled in the demonstration before October 1, 2001.
+<p>				*** Treatment group mean diferent from control group mean at .01 level.</p></td>
+</tr></tbody></table><p>In all three states, the treatment group's use and cost of Medicare services was similar to that of the control group. Therefore, the program's effects on combined Medicare and Medicaid service use and costs are similar to the effects on Medicaid use and costs.</p>
+<h3>Lessons</h3>
+<p><strong>A key benefit of the program--increasing access to paid care--may lead to increased costs</strong>. Arkansas wanted its program to increase access to paid care. Florida and New Jersey, however, restricted their programs to consumers who already were receiving services (Florida) or who had been assessed and authorized to receive personal care by an agency (New Jersey). As a result, the program's impact on whether beneficiaries received paid care was limited to the second year in Florida, but it was sizable in New Jersey and particularly striking in Arkansas. Apparently, Cash and Counseling increased beneficiaries' access to paid care because, even though there was a labor shortage, they could hire family and friends. This, in turn, resulted in higher personal care costs for the treatment group.</p>
+<p>If agencies cannot provide the hours authorized in the care plan, costs per month of services/benefits received may be higher than they would be otherwise. In Arkansas and New Jersey, costs per month of benefits were higher for treatment group recipients than for control group recipients, mainly because the control group received less care than they were expected to, at least partly due to severe labor shortages during the study period. The treatment group in these states received allowances approximately equal to the expected cost of obtaining authorized services in the care plan. In Florida, the primary reason for the treatment group's higher costs per recipient month among the nonelderly was that allowance recipients were more likely than those in the traditional program to be reassessed as needing more care than was in their original care plan.</p>
+<p><strong>Cash and Counseling can reduce the need for other Medicaid services, but it did not do so consistently across states and time periods</strong>. In Arkansas, savings in nursing facility and other long-term care services were enough to offset about 20 percent of the treatment group's higher personal care costs during the first postenrollment year and 75 percent of these costs during the second postenrollment year. Likewise, in New Jersey, savings in nursing facility and home health services were enough to offset about half the treatment-control difference in personal care costs in the first postenrollment year; however, these savings did not persist in the second postenrollment year.</p>
+<h3>Policy Implications</h3>
+<p>In all three states, the program had large, overwhelmingly positive effects on the well-being of consumers and caregivers. In addition, in two of the states, costs for the treatment group did not exceed the costs the state would have incurred for delivering the approved baseline care plan services. In all three states, Cash and Counseling increased the likelihood that beneficiaries would receive paid services, greatly increased consumers' satisfaction with their care and their quality of life, and reduced their unmet needs (Carlson et al. 2005). It also reduced caregiver stress in all three states (Foster et al. 2005c). However, the higher initial costs of consumer direction under Cash and Counseling might discourage some states from adopting a similar program. Most states are having difficulty controlling their Medicaid budgets, so the effects of any new program on states' costs is likely to be an important factor in whether states adopt such programs. An important fact for states to consider is that this evaluation was conducted over a two-year follow-up period that started immediately after enrollment began. Since the evaluation, states have identified the sources of the higher costs for this innovative program and have implemented procedures to reduce these costs.</p>
+<p>One approach to limiting cost increases might be to try to minimize enrollment in the program, but this could be counterproductive. The major source of higher costs in two of the states was attributable to the increased proportion of consumers receiving any services. If this increase is due in part to some consumers enrolling in the demonstration who otherwise would never have sought care under the traditional program, states might try to control these costs by limiting enrollment in consumer-directed care to consumers who were already receiving services under the traditional program. However, this would defeat the purpose of expanding access to paid care in rural areas or other areas where agencies cannot find enough workers. Even in cities, a tight labor market may make it difficult for agencies to hire enough workers at wage rates compatible with the Medicaid payment for such services. Furthermore, some consumers may not be willing to accept agency services because of problems encountered in the past with agency workers (such as unreliability, theft, or abuse). Thus, limiting enrollment to those who had already been receiving agency services would unfairly penalize some eligible consumers and undermine a primary objective some states have for introducing consumer direction: improving access to care. The finding that the largest reductions in Medicaid nursing home and other long-term care costs were in states and age groups that had the largest increases in access to care validates the wisdom of this objective.</p>
+<p>Based on the experience of the three demonstration states, other states interested in reaping the benefits of Cash and Counseling but concerned about program costs should consider the following issues:</p>
+<p><strong>Recoupment</strong>. States considering consumer-directed care may wish to adopt procedures to recover funds the consumer does not need. (This might happen, for example, if a consumer were hospitalized, had disenrolled, or had saved money not designated for a particular purchase). Each of the demonstration states eventually adopted such procedures, which can be implemented fairly if counselors give consumers adequate warning to help them avoid losing funds they may be saving for a legitimate purpose.</p>
+<p><strong>Reassessments</strong>. Cash and Counseling programs need to ensure that care plan amounts are no more likely to be increased if consumers receive an allowance than if they participate in the traditional program. Independent parties, rather than counselors or other people who might be inclined to advocate for consumers, might be used to conduct reassessments. Ideally, states would adopt standardized assessment procedures that are blind to whether consumers direct their own care and would develop comprehensive training for those conducting assessments and reassessments. Florida is implementing such changes.</p>
+<p><strong>Savings on Counseling and Fiscal Services</strong>. Arkansas learned a valuable lesson in how to provide counseling and fiscal services in a more cost-effective manner to more accurately reflect the level of effort that providing these services required. When the demonstration began, Arkansas paid the counseling/fiscal agencies a high monthly payment ($115 per month) starting when a consumer enrolled in the program, even though the consumer was not yet receiving an allowance or using bookkeeping or counseling services regularly. The state changed its procedure, making a one-time payment after the spending plan was developed, then paying a monthly fee of $75 after the consumer started the allowance. Arkansas found that this gave the counseling/fiscal agent an incentive to help the consumer complete the spending plan and reduced the state's costs for fiscal agent and counseling services.</p>
+<p><strong>Allowance Discount Factor</strong>. States should consider adjusting the allowance (reducing it by multiplying the care plan value by a "discount" factor) to ensure that it is on par with the costs of services that consumers would be likely to receive, on average, from an agency (since agency care recipients do not always receive the full value of services in their care plans). States also should monitor the discount factor closely and possibly change it. In retrospect, treatment group costs for the nonelderly in New Jersey would have been much closer to control group costs if the state had discounted the allowance as Arkansas and Florida did, because control group members in New Jersey received only about 90 percent of the care they were authorized to receive. Even Arkansas's discount factor of 86 percent was not as low as the 68 percent ratio that control group members actually experienced during the study period.</p>
+<p>Before setting or changing the discount factor, however, states should investigate why beneficiaries in the traditional program do not receive the services they need. Few policymakers would want to hold costs down by depriving beneficiaries of services that assessment staff authorize as necessary. On the other hand, if care plans are routinely set at overly generous amounts, or if there are other reasons that consumers do not get all the services authorized, discounting the allowance based on historical data is appropriate.</p>
+<p>Even here, however, discounting allowances downward for all consumers to reflect the average penalizes those who truly need all services authorized in their care plan. Nonetheless, Arkansas and Florida consumers were much more satisfied under Cash and Counseling, despite the discounting of their allowance. Whatever cost-cutting measures are introduced, policymakers need to monitor whether such measures reduce the quality of care received. Furthermore, states should weigh the potential for reducing nursing facility costs against the higher costs they may incur for personal care. If the effects on nursing home and long-term care costs, such as those observed in Arkansas and New Jersey, can be replicated elsewhere (and perhaps increased), while keeping cost per month of service close to the levels of the traditional program, consumers, their families, and the state will all benefit.</p>
+<h3>Assessing the Trade-Offs</h3>
+<p>Only states can decide whether they are willing to risk incurring slightly higher total Medicaid costs to reap Cash and Counseling's sizable gains in consumer and caregiver well-being. If states draw on the experiences of the three demonstration states, they should be able to find ways to keep total Medicaid costs at the level incurred under the traditional system. Modest percentages (about 8-20 percent) of eligible consumers participated in Cash and Counseling (even though the states undertook considerable outreach efforts to increase enrollment). Therefore, the total impact on Medicaid costs is likely to be modest, even if no changes were implemented to control personal care costs under Cash and Counseling.</p>
+<h3>Notes</h3>
+<ol><li>
+<p><a id="noteES1" name="noteES1">Cash</a> and Counseling had to meet the CMS's budget neutrality test for Medicaid Section 1115 demonstrations. This meant that costs per recipient per month for personal care and other core services should not exceed the per person, per month cost for those receiving agency services. The federal budget neutrality test examines program costs over an entire demonstration rather than for the early postenrollment years only. Therefore, the outcomes in this report do not indicate whether the consumer-directed programs in Arkansas, Florida, or New Jersey met this budget neutrality test.</p>
+</li>
+</ol><table align="CENTER" border="5"><tbody><tr><td>The Full Report is also available from the DALTCP website (<a href="http://aspe.hhs.gov/_/office_specific/daltcp.cfm">http://aspe.hhs.gov/_/office_specific/daltcp.cfm</a>) or directly at <a href="/daltcp/reports/3stcost.htm">http://aspe.hhs.gov/daltcp/reports/3stcost.htm</a>.</td>
+</tr></tbody></table><p> </p>
+<div class="group-tags"><div class="field-label">Tags:&nbsp;</div><a href="/terms/consumer-choice">Consumer Choice</a><a href="/terms/cash-and-counseling-demonstration">Cash and Counseling Demonstration</a><a href="/terms/disability-aging-and-long-term-care-research">Disability, Aging and Long-Term Care Research</a><a href="/terms/publications-2">Publications</a><a href="/terms/highlighted-issues">Highlighted Issues</a><a href="/terms/consumer-directed-carecash-and-counseling">Consumer-Directed Care/Cash and Counseling</a><a href="/terms/home-and-community-based-services">Home and Community-Based Services</a><a href="/terms/personal-care-services">Personal Care Services</a></div>  </div>
+
+      <footer>
+          </footer>
+  
+    <div id="block-webform-client-block-158521" class="widget block block-webform" >
+  
+      
+  <div id="webform-ajax-wrapper-158521"><form class="webform-client-form webform-client-form-158521" action="/execsum/effect-cash-and-counseling-medicaid-and-medicare-costs-findings-adults-three-states" method="post" id="webform-client-form-158521" accept-charset="UTF-8"><div><div class="webform-progressbar">
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-radios webform-component--was-this-page-helpful">
+  <label for="edit-submitted-was-this-page-helpful">Was this page helpful? <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-was-this-page-helpful" class="form-radios"><div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-1" name="submitted[was_this_page_helpful]" value="1" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-1">Yes </label>
+
+</div>
+<div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-2" name="submitted[was_this_page_helpful]" value="0" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-2">No </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="4" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-B2GiEXVaSSUeYat1a6hQrzeOSfOVOn5I3AooxMRB9JA" />
+<input type="hidden" name="form_id" value="webform_client_form_158521" />
+<input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-158521" />
+<div class="form-actions"><input class="webform-next button-primary btn btn-default form-submit" type="submit" id="edit-webform-ajax-next-158521" name="op" value="Next &gt;" /></div>
+<div class="is-useful-disclaimer"> <a href="/%23" class="" title="Survey Disclaimer" data-toggle="modal" data-target="#disclamerModal">Form Approved OMB# 0990-0379 Exp. Date 8/31/2017</a></div>
+<div class="modal fade" id="disclamerModal" tabindex="-1" role="dialog" aria-labelledby="disclamerModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="disclamerModalLabel">Survey Disclaimer</h2>
+      </div>
+      <div class="modal-body">
+         According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this information collection is 0990-0379. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, gather the data needed, and complete and review the information collection. If you have comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: U.S. Department of Health & Human Services, OS/OCIO/PRA, 200 Independence Ave., S.W., Suite 336-E, Washington D.C. 20201, Attention: PRA Reports Clearance Officer.      </div>
+    </div>
+  </div>
+</div></div></form></div>
+  </div> <!-- /.block -->
+<meta  itemscope="" itemid="https://aspe.hhs.gov/execsum/effect-cash-and-counseling-medicaid-and-medicare-costs-findings-adults-three-states" itemref="md1 md3 md5 md7 md9 md11 md13 md15 md17" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/consumer-choice" id="md3" itemref="md2" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/cash-and-counseling-demonstration" id="md5" itemref="md4" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/disability-aging-and-long-term-care-research" id="md7" itemref="md6" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/publications-2" id="md9" itemref="md8" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/highlighted-issues" id="md11" itemref="md10" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/consumer-directed-carecash-and-counseling" id="md13" itemref="md12" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/home-and-community-based-services" id="md15" itemref="md14" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/personal-care-services" id="md17" itemref="md16" />              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <footer  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Footer">     
+
+        
+                  
+        
+                  
+        
+                                    <div  id="footer_sitemap-footer_sitemap" class="col-sm-6 col-md-6 col-lg-4 ">
+                          
+                              <div id="block-footer-sitemap-footer-sitemap" class="widget block block-footer-sitemap" >
+  
+      
+  <div id="footer-sitemap" class="clearfix">
+  <div class="fs-block-content"><div class="menu-footer-utility"><ul class="footer_links_menu-footer-utility total-items-2 parent-items-0 single-items-0"><li class="menu-5021 depth-1 total-children-8 parent-children-0 single-children-8  first"><a href="/" title="look at ASPE Home" class="fs-root-link">ASPE Home</a><ul class="footer_links_menu-footer-utility total-items-8 parent-items-0 single-items-0"><li class="menu-5026 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/" title="look at HHS Home">HHS Home</a></li>
+<li class="menu-66281 depth-1 fs-no-children"><a href="http://www.usa.gov/" title="look at USA.gov">USA.gov</a></li>
+<li class="menu-66316 depth-1 fs-no-children"><a href="https://oig.hhs.gov/" title="look at Office of the Inspector General">Office of the Inspector General</a></li>
+<li class="menu-66321 depth-1 fs-no-children"><a href="http://www.whitehouse.gov" title="look at The White House">The White House</a></li>
+<li class="menu-5046 depth-1 fs-no-children"><a href="http://www.hhs.gov/Accessibility.html" title="look at Accessibility">Accessibility</a></li>
+<li class="menu-66326 depth-1 fs-no-children"><a href="http://www.hhs.gov/about/budget/index.html" title="look at Budget/Performance">Budget/Performance</a></li>
+<li class="menu-2551 depth-1 fs-no-children"><a href="http://www.hhs.gov/Privacy.html" title="look at Privacy Policy">Privacy Policy</a></li>
+<li class="menu-197776 depth-1 fs-no-children  last"><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" title="Nondiscrimination Notice">Nondiscrimination Notice</a></li>
+</ul></li>
+<li class="menu-5051 depth-1 total-children-4 parent-children-0 single-children-4  last"><a href="http://www.hhs.gov/foia/" title="look at FOIA" class="fs-root-link">FOIA</a><ul class="footer_links_menu-footer-utility total-items-4 parent-items-0 single-items-0"><li class="menu-5056 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/open/recordsandreports/plainwritingact/index.html" title="look at Plain Writing Act">Plain Writing Act</a></li>
+<li class="menu-5061 depth-1 fs-no-children"><a href="http://www.hhs.gov/asa/eeo/no_fear_bullet_3.html" title="look at No Fear Act">No Fear Act</a></li>
+<li class="menu-5066 depth-1 fs-no-children"><a href="http://www.hhs.gov/Disclaimer.html" title="look at Disclaimers">Disclaimers</a></li>
+<li class="menu-2546 depth-1 fs-no-children  last"><a href="http://www.hhs.gov/plugins.html" title="look at Viewers &amp; Players">Viewers &amp; Players</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-5 " id="stability_cms-contact_us">
+                          
+                              <div id="block-stability-cms-contact-us" class="widget block block-stability-cms" >
+  
+      
+  <div class="contacts-widget widget widget__footer">
+	<div class="widget-content">
+		<ul class="contacts-info-list">
+      			<li>
+<!--				<i class="fa fa-map-marker">Address</i>-->
+                <div class="info-icons">
+                    <img  alt="map" class= 'map-icons' src="/sites/all/themes/stability/stability_aspe/images/map.png"/>
+                </div>
+                <div class="info-item">
+					Assistant Secretary for Planning and Evaluation, Room 415F<br />
+U.S. Department of Health and Human Services<br />
+200 Independence Avenue, SW<br />
+Washington, D.C. 20201				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-phone">phone</i>-->
+                <div class="info-icons">
+                    <img alt="phone" src="/sites/all/themes/stability/stability_aspe/images/phone.png"/>
+                </div>
+				<div class="info-item">
+					+1 202.690.7858				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-envelope">email</i>-->
+                <div class="info-icons">
+                    <img alt="mail" src="/sites/all/themes/stability/stability_aspe/images/mail-white.png"/>
+                </div>
+				<span class="info-item">
+					<a href="mailto:osaspeinfo@hhs.gov">osaspeinfo@hhs.gov</a>
+				</span>
+			</li>
+      			                					</ul>
+	</div>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-3 " id="footer">
+                          
+                              <div id="block-block-36" class="widget block block-block" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sign-up</span> for Email Updates</h3>
+		</div>
+    
+  <div class="email_updates">
+<button class="btn btn-default" name="subscribe-button" type="submit" value="subscribe">subscribe</button>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-12 " id="menu-menu-footer-language-menu">
+                          
+                              <div id="block-menu-menu-footer-language-menu" class="widget block block-menu" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Language</span> Assistance Available</h3>
+		</div>
+    
+  <ul class="menu"><li class="first expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#spanish" title="Español">Español</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#chinese" title="繁體中文">繁體中文</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#vietnamese" title="Tiếng Việt">Tiếng Việt</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#korean" title="한국어">한국어</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#tagalog" title="Tagalog">Tagalog</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#russian" title="Русский">Русский</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#arabic" title="العربية">العربية</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#creole" title="Kreyòl Ayisyen">Kreyòl Ayisyen</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#french" title="Français">Français</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#polish" title="Polski">Polski</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#portuguese" title="Português">Português</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#italian" title="Italiano">Italiano</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#german" title="Deutsch">Deutsch</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#japanese" title="日本語">日本語</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#farsi" title="فارسی">فارسی</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#english" title="English">English</a></li>
+</ul></li>
+</ul>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+      </div>
+
+          </div>
+    
+    
+      </footer>
+    
+
+    <!--/PAGEWATCH-->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+                        </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="social-links-wrapper">
+              <span class="social-links-txt">Connect with us</span>
+              <ul class="social-links social-links__dark">
+                                                  <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw-grey.png"/></a></li>
+                                <!--                --><!--                  <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin-grey.png"/></a></li>-->
+<!--                -->
+                                                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>  <script type="text/javascript" src="/sites/default/files/advagg_js/js__VWRymaMz6HfrhnrcJNGcDiSvLVrvhaXvBa7nrBYy8gc__jntPwP3D6myJZH1jW19fXrk5cYMHGRL8NQION22VSEA__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5486d15a696bff0c"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__g6mKbcakHxQkz4ZHYaxdO_xqONINvRMgsHh1zAK-fr0__ATHtEmHaeZ0jidpGU22EkhmPDBSgjD8z0bVDQMI-BIY__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__KUp4PrfOt9BSXUVl8Ctb3dhCMBe4MNVMeb4Gyorx8yY__7g4BeXscCIZAfuu1vxsCj2RIemg-eEK0QpChP9LDmFQ__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__PNjAgubM_3xXRLp4uLsYnv8wQAdT89-RYkSPxT6T45c__rFQwFK4pA5ZaWZSF7FPTfKbbpus0h-5IS8ayrNZGrb4__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__vQiLul2UcfC4nBAR09mhYVBYzRmiNDm2dj3GgSubV38__w84oZe-ZODKe7XnnlbrjV4IWHISOy4PioFEMVgx9hZo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__QJw3g0kOdwsv4twSZLP931zBzsHy50VEHpEN_znIitQ__A6QOuWXElDipBM2iChbWhjAAt3KlUwZ-jODoxdpbwiw__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stability_aspe","theme_token":"JwPeuf3szLLtHFJTV7rIYSvL0h7tNmiUJhPDQV_VXMY","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/footable.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/aspe_nodes.admin.css":1,"sites\/all\/modules\/custom\/aspe_views\/theme\/css\/aspe_views.admin.css":1,"sites\/all\/modules\/forked\/book\/book.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/openpublic\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.css":1,"profiles\/openpublic\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openpublic\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/openpublic\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/themes\/stability\/css\/bootstrap.min.css":1,"sites\/all\/themes\/stability\/css\/fonts\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.theme.css":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/stability\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/stability\/css\/theme.css":1,"sites\/all\/themes\/stability\/css\/theme-elements.css":1,"sites\/all\/themes\/stability\/css\/animate.min.css":1,"sites\/all\/themes\/stability\/css\/skins\/red.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/slideshow.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/font-main.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/styleless.less":1,"sites\/all\/themes\/stability\/css\/skins\/blue.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/aspe\/theme\/js\/aspe.login-confirm.js":1,"sites\/all\/modules\/custom\/aspe_report\/modules\/aspe_databooks\/js\/aspe_databooks.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.highcharts.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/datatables\/dataTables.min.js":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.min.js":1,"sites\/all\/libraries\/highcharts\/highcharts.js":1,"sites\/all\/libraries\/highcharts\/highcharts.exporting.js":1,"sites\/all\/libraries\/highcharts\/highcharts.map.js":1,"sites\/all\/libraries\/highcharts\/highcharts.us-all.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.footable.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5486d15a696bff0c":1,"misc\/progress.js":1,"profiles\/openpublic\/modules\/contrib\/webform\/js\/webform.js":1,"profiles\/openpublic\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/stability\/vendor\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/stability\/vendor\/bootstrap.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flexnav.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flickrfeed.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.sloppy-masonry.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.fitvids.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.stellar.min.js":1,"sites\/all\/themes\/stability\/vendor\/snap.svg-min.js":1,"sites\/all\/themes\/stability\/js\/custom.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/aspe.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/html5shiv.min.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/main-menu.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/keyboard-control.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tabBehavior.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tileStringTrimmer.js":1}},"webform":{"conditionals":{"webform-client-form-158521":{"ruleGroups":[],"sourceMap":[],"values":[]}}},"ajax":{"edit-webform-ajax-next-158521":{"callback":"webform_ajax_callback","wrapper":"webform-ajax-wrapper-158521","progress":{"message":"","type":"throbber"},"event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Next \u003E"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/execsum\/effect-cash-and-counseling-medicaid-and-medicare-costs-findings-adults-three-states":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"([a-z0-9]\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This website contains links to other federal and state agencies and private organizations. The Department of Health and Human Services (HHS) cannot attest to the accuracy of information provided by these nonfederal website links. Linking to nonfederal sites does not constitute an endorsement by HHS or any of its employees of the sponsors or the information and products presented on the sites. You will be subject to the destination site\u0027s privacy policy when you leave the ASPE website.\r\n\r\nThank you for visiting aspe.hhs.gov!","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"stability":{"flickr_id":"52617155@N08","logo_sticky":"28"},"field_group":{"div":"full"}});
+//--><!]]>
+</script>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config={pubid:"ra-5486d15a696bff0c",ui_click:false}
+//--><!]]>
+</script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4837db659","applicationID":"10708002","transactionName":"MwNaZBRSXEtXB0BdWQpJeVMSWl1WGQpbUFM7FllXA2xEUVMT","queueTime":0,"applicationTime":843,"atts":"H0RZElxIT0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

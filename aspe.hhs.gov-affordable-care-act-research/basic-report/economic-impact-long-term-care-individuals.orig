@@ -1,0 +1,1515 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">  <!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://aspe.hhs.gov/sites/default/files/Favicon2.png" type="image/png" />
+<meta name="description" content="U.S. Department of Health and Human Services The Economic Impact of Long-Term Care on Individuals" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://aspe.hhs.gov/basic-report/economic-impact-long-term-care-individuals" />
+<link rel="shortlink" href="https://aspe.hhs.gov/node/67356" />
+<meta property="og:site_name" content="ASPE" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aspe.hhs.gov/basic-report/economic-impact-long-term-care-individuals" />
+<meta property="og:title" content="The Economic Impact of Long-Term Care on Individuals" />
+<meta property="og:description" content="U.S. Department of Health and Human Services The Economic Impact of Long-Term Care on Individuals" />
+<meta property="og:updated_time" content="2017-03-22T14:29:41-04:00" />
+<meta property="article:published_time" content="2015-12-09T05:23:51-05:00" />
+<meta property="article:modified_time" content="2017-03-22T14:29:41-04:00" />
+
+  <title>The Economic Impact of Long-Term Care on Individuals | ASPE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+  <link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__5ln8neBOcJfyUveiD4y9fhI6kHBLOQ_YL0mMC-LS9a0__TPJIZT9UBnf_685NlFTJ5KnZVsjwFk6ACQ-nwwygmwU__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ng49uRH5y4Hl9VF9hHW_vXOj-mcOc2u2ShJqJ1YKIGU__FoMCD14GBvZaRiqSQ_JpP1w3rDB21n7H2Ar4pRZaIh8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__Hskudx14OJ5Hz8vqU7CUgN6SDV5rINZuEq9VuGsSeyc__EwNIl3xeFrniW2TmonovTzhSs3X5MdFps210puE7jog__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__9rZoaX9BdzjjNucvYxduxeNAVO2zgW_Rvjhb5rq5whc__lSr_y16grDSgHf4booPChnF7QXz3TQY3hafH49twE0k__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZgfI_ZPib5yVY0o5aKo_6TFn946Tuu_nFDa0ySTmkSc__2FTFrNw2eNh0mpHIOA34r6YRwBZMm2PjJ_JubnwLigg__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__dxabpJ5rQgDSixKgLJZjWc1beC6mpROKwVrmWxI5eno__rqhz_hGsE_i59O7-W991o71_Jxw1QOtGMxn4nsOLHY8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZbRCq2NqWgK-HXAQI3So0N1n0nr4HonsJS3eQuuxukw__7Olkk8Locn8Dj0eR0Ww3rbV9lks9sxipcboMXB18RRs__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+
+	<!-- Head Libs -->
+	<script src="/sites/all/themes/stability/stability_aspe/vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/sites/all/themes/stability/vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" href="/sites/all/themes/stability/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/stability/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/stability/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/stability/images/apple-touch-icon-144x144.png">
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-67356 node-type-basic-report">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-JLFR"
+                  height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JLFR');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-nav" class="accessibility_menu">
+    <strong>Shortcut Navigation:</strong>
+    <ul>
+      <li><a href="#content" accesskey="c" title="Skip to page content (ctrl/alt + c)">Page Content</a></li>
+      <li><a href="#nav" accesskey="m" title="Skip to main navigation menu (ctrl/alt + m)">Site Navigation</a></li>
+
+      <li><a href="#Footer" accesskey="f" title="Skip to footer (ctrl/alt + f)">Footer</a></li>
+    </ul>
+  </div>
+
+    
+<div class="site-wrapper">
+  
+  <header class="header header-menu-fullw header-top-clean">
+    <div id="brand-bar">
+        <div class="container">
+                    <img alt='bird' src="/sites/all/themes/stability/stability_aspe/images/bird.png"> <a target="blank" tabindex="4" href="http://www.hhs.gov/">U.S. Department of Health & Human Services</a>
+        </div>
+
+    </div>
+    <div class="header-main">
+        <div class="container clearfix">
+            <div class="social-links-wrapper">
+                <ul class="social-links social-links__light">
+                                                          <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw.png"/></a></li>
+                                    <!--                  --><!--                    <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin.png"/></a></li>-->
+<!--                  -->
+                                                                      </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                                <div class="site_name_wrapper">
+                                     <span class="h1">
+                                      <a href="/">ASPE</a>
+                                       </span>
+                                  <p class="tagline"><p>Office of The Assistant Secretary</p><p> for Planning and Evaluation</p></p>
+                    </div>
+            </div>
+            <!-- Logo / End -->
+            <div class="header_right_wrapper">
+                <div class="search-form">
+                    <form action="/basic-report/economic-impact-long-term-care-individuals" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class = "input-group"><div class="form-type-textfield form-item-search-block-form form-item form-group">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search Site..." class="form-control form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input class="btn btn-primary btn-icon form-submit" type="image" id="edit-submit" name="submit" value="Search" src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/search-white2.png" alt="Search" title="Search" /></div></div><input type="hidden" name="form_build_id" value="form-aIr74CZcFS_rupwJZxkn4o0oR_ywjzkCwSD9Ou01ipM" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </div>
+                <button type="button" class="navbar-toggle" value="Menu">
+                    <i class="fa fa-bars"></i>Menu
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-main">
+        <div class="container">
+          <ul data-breakpoint="767" class="flexnav">
+                <li class="first expanded"><a href="/basic-search/about" title="">About</a><ul><li class="first leaf"><a href="/mission" title="">Mission</a></li>
+<li class="leaf"><a href="/key-staff" title="">Leadership</a></li>
+<li class="leaf"><a href="https://www.usajobs.gov/" title="">Careers</a></li>
+<li class="expanded"><a href="/coordination" title="linkTo">Coordination</a><ul><li class="first leaf"><a href="/evaluation-evidence" title="">Evaluation &amp; Evidence</a></li>
+<li class="leaf"><a href="/national-alzheimers-project-act">National Alzheimer&#039;s Project Act</a></li>
+<li class="leaf"><a href="/health-and-human-services-hhs-data-council">HHS Data Council</a></li>
+<li class="last leaf"><a href="/national-committee-vital-and-health-statistics" title="National Council on Vital and Health Statistics">National Council on Vital and Health Statistics</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/divisions" title="">Offices</a><ul><li class="first leaf"><a href="/office-disability-aging-and-long-term-care-policy-daltcp">Disability, Aging, and Long-Term Care Policy</a></li>
+<li class="leaf"><a href="/office-health-policy-hp">Health Policy</a></li>
+<li class="leaf"><a href="/office-human-services-policy">Human Services Policy</a></li>
+<li class="last leaf"><a href="/office-science-and-data-policy">Science and Data Policy</a></li>
+</ul></li>
+<li class="leaf"><a href="/strategic-planning" title="Strategic Planning">Strategic Planning</a></li>
+<li class="last leaf"><a href="/contact-aspe" title="">Contact ASPE</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/topics" title="">Topics</a><ul><li class="first leaf"><a href="/affordable-care-act-research">Affordable Care Act Research</a></li>
+<li class="leaf"><a href="/alzheimers-dementia">Alzheimer&#039;s / Dementia</a></li>
+<li class="leaf"><a href="/early-childhood">Early Childhood</a></li>
+<li class="leaf"><a href="/incarceration-reentry">Incarceration &amp; Reentry</a></li>
+<li class="leaf"><a href="/opioid-abuse-us-and-hhs-actions-address-opioid-drug-related-overdoses-and-deaths" title="Opioids">Opioids</a></li>
+<li class="leaf"><a href="/patient-centered-outcomes-research-trust-fund">Patient-Centered Outcomes Research Trust Fund (PCORTF)</a></li>
+<li class="expanded"><a href="/basic-search/poverty" title="">Poverty</a><ul><li class="first leaf"><a href="/poverty-guidelines">Poverty Guidelines</a></li>
+<li class="last leaf"><a href="/poverty-estimates-trends-and-analysis">Poverty Analysis</a></li>
+</ul></li>
+<li class="leaf"><a href="/teen-pregnancy-prevention">Teen Pregnancy Prevention</a></li>
+<li class="leaf"><a href="/homelessness">Homelessness</a></li>
+<li class="last leaf"><a href="/medicare-access-and-chip-reauthorization-act-2015">MACRA</a></li>
+</ul></li>
+<li class="leaf"><a href="/reports" title="">Publications</a></li>
+<li class="last expanded"><a href="/basic-search/datasets" title="">Data and Tools</a><ul><li class="first last leaf"><a href="/evaluations" title="">Evaluation Database</a></li>
+</ul></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation / End -->
+</header>  <div class="main" role="main">
+    <!--PAGEWATCH CODE="USHHS_458"-->
+    <section class="page-heading">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+                <h1>
+                    
+          The Economic Impact of Long-Term Care on Individuals        </h1>
+                                 <p class="author">
+                                                 <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="1994-10-01T00:00:00-04:00">10/01/1994</span>               
+                           </p>
+
+
+                  </div>
+
+
+        <div class="col-md-6">
+           <ul class="breadcrumb"><li class="first"><a href="/" title="Home">Home</a></li>
+<li class="last">The Economic Impact of Long-Te...</li>
+</ul>        </div>
+
+
+    </div>
+  </div>
+</section>
+    
+      <div  class="nd-region nd-region-filter">
+  
+       
+
+    
+      <div  id="Filter" class="row">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region nd-region-similar-content">
+  
+       
+
+    
+      <div  id="Similar-Content" class="row">     
+
+        
+                  
+        
+                                    <div  id="top" class="">
+                          
+                              <div id="block-views-2100ccfdd214bdbcf634d7e4832c265b" class="widget block block-views solr-similar-content" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Similar</span> content</h3>
+		</div>
+    
+  <div class="view view-similar-content-solr view-id-similar_content_solr view-display-id-block_solr_similar_content view-dom-id-28783ec1a96061547c3f3ac024851920">
+        
+  
+  
+      
+    
+    <span class="field-content"><a href="/basic-report/analysis-long-term-care-reform-proposals">An Analysis of Long-Term Care Reform Proposals</a></span>    
+    <span class="field-content"><a href="/execsum/report-secretary-private-financing-long-term-care-elderly">Report to the Secretary on Private Financing of Long-Term Care for the Elderly</a></span>    
+    <span class="field-content"><a href="/basic-report/emerging-private-financing-system">The Emerging Private Financing System</a></span>    
+    <span class="field-content"><a href="/basic-report/modeling-decision-purchase-private-long-term-care-insurance">Modeling the Decision to Purchase Private Long-Term Care Insurance</a></span>    
+    <span class="field-content"><a href="/basic-report/long-term-care-insurance-research-brief">Long-Term Care Insurance Research Brief</a></span>  
+  
+  
+  
+  
+  
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Content">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  class="col-md-12 " id="content">
+                          
+                              <div id="block-aspe-aspe-addthis" class="widget block block-aspe" >
+  
+      
+  <div class="clearfix">
+  <ul class="addthis_sharing_toolbox node-share__links" data-url="https://aspe.hhs.gov/basic-report/economic-impact-long-term-care-individuals" data-title="The Economic Impact of Long-Term Care on Individuals">
+    <li><a class="addthis_button_print"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/print-white.png" alt="print" /></a></li>
+    <li><a class="addthis_button_email"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/mail-white.png" alt="email" /></a></li>
+    <li><a class="addthis_button_twitter"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/tw.png" alt="twitter" /></a></li>
+<!--    <li><a class="addthis_button_facebook">--><!--</a></li>-->
+    <li><a class="addthis_button_compact"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/plus-white.png" alt="compact" /></a></li>
+  </ul>
+</div>
+
+  </div> <!-- /.block -->
+
+                
+    
+  
+  <div class="content clearfix node-basic-report">
+    <p><strong>U.S. Department of Health and Human Services</strong></p>
+<p>The Economic Impact of Long-Term Care on Individuals</p>
+<h3>Lisa Alecxih and David Kennell</h3>
+<h3>Lewin/ICF, Inc.</h3>
+<h3>October 1994</h3>
+<hr /><blockquote><p><em>This report was prepared under contract between the U.S. Department of Health and Human Services (HHS) and Lewin/ICF, Inc. For additional information about the study, you may visit the DALTCP home page at <a href="http://aspe.hhs.gov/daltcp/home.htm">http://aspe.hhs.gov/daltcp/home.htm</a> or contact the ASPE Project Officer, John Drabek, at HHS/ASPE/DALTCP, Room 424E, H.H. Humphrey Building, 200 Independence Avenue, SW, Washington, DC 20201. His e-mail address is: <a href="mailto:John.Drabek@hhs.gov">John.Drabek@hhs.gov</a>.</em></p>
+</blockquote>
+<hr /><h2>TABLE OF CONTENTS</h2>
+<p><a href="#secI">I. INTRODUCTION</a></p>
+<p><a href="#secII">II. THE FINANCIAL RESOURCES OF THE ELDERLY</a></p>
+<p>II.A. Economic Characteristics of the Elderly</p>
+<p>II.B. Economic Characteristics of the Disabled Elderly</p>
+<p><a href="#secIII">III. ECONOMIC IMPACT OF LONG-TERM CARE USE</a></p>
+<p>III.A. Factors Which Determine the Economic Impact of Long-term Care Use</p>
+<p>III.B. Long-Term Care Costs Affect Different Groups of Users</p>
+<p><a href="#secIV">IV. MEDICAID SPEND DOWN</a></p>
+<p><a href="#secV">V. THE AFFORDABILITY OF LONG-TERM CARE</a></p>
+<p><a href="#secVI">VI. IMPACT OF ACUTE CARE EXPENDITURES ON THE DISABLED ELDERLY</a></p>
+<p>VI.A. Out-of-Pocket Acute Care Expenses of the Elderly</p>
+<p>VI.B. Acute Care Use of the Disabled Elderly</p>
+<p><a href="#secVII">VII. THE POTENTIAL IMPACT OF PRIVATE LONG-TERM CARE INSURANCE</a></p>
+<p>VII.A. The Potential Impact of Long-Term Care Insurance on Public and Private Expenditures for Long-term Care</p>
+<p>VII.B. How Affordable is Private Insurance?</p>
+<p>VII.C. Who is a Good Candidate for Insurance?</p>
+<p><a href="#secVIII">VIII. CONCLUSIONS</a></p>
+<p><a href="#secIX">IX. NOTES</a></p>
+<h2><a id="secI" name="secI">I. INTRODUCTION</a></h2>
+<p>The major public insurance program for the elderly, Medicare, does not provide long-term care benefits for chronic disabling conditions. Only about 12 percent of the elderly are enrolled in the Medicaid program, either in nursing homes or in the community, and only about five percent participate in any kind of private financing plan for long-term care. Thus, more than four out of five elderly persons lack adequate public or private insurance for long-term care and are vulnerable to the financial risks associated with long-term care use.</p>
+<p>Users of formal long-term care services face important economic consequences. These consequences are primarily a function of: (1) the amount of care used; and (2) the user's financial resources. The economic impact of a short nursing home stay is not likely to be great for most people. Nor will the economic impact of long-term care use be significant for the wealthy, regardless of how much care they need. On the other hand, the economic impact on elderly people of moderate means who require extended care can be enormous.</p>
+<p>An understanding of the economic impact of long-term care on individuals is a prerequisite for an informed policy debate. Before devising a new set of policies, it is important to understand what effects the current long-term care system has on the elderly, who is most severely affected, and under what circumstances. To this end, this chapter examines the following questions:</p>
+<ul><li>
+<p>What are the financial resources of the elderly, and how does the economic status of the elderly affect their ability to purchase long-term care services without public assistance?</p>
+</li>
+<li>
+<p>How does the use of long-term care affect the financial well-being of those who need care?</p>
+</li>
+<li>
+<p>Who can afford long-term care and which groups experience the greatest economic burden?</p>
+</li>
+<li>
+<p>What is the combined impact of acute and long-term care costs on elderly persons?</p>
+</li>
+<li>
+<p>How affordable are private financing mechanisms for long-term care? What percentage of elderly persons cannot afford to participate in private financing plans?</p>
+</li>
+</ul><h2><a id="secII" name="secII">II. THE FINANCIAL RESOURCES OF THE ELDERLY</a></h2>
+<p>The ability of the elderly to buy long-term care services with private resources largely depends upon their personal income and assets. As among the non-elderly population, there is considerable economic diversity among the elderly. Some are very well off, others live in poverty.</p>
+<p>Although users of long-term care are generally disabled (particularly the oldest old), it is important to examine the financial resources of both the entire elderly population and the disabled elderly because most users of long-term care have not always been disabled. For example, approximately one-half of all persons entering nursing homes over a two year period were not disabled up to 24 months prior to their entry. <a href="#note1">1</a></p>
+<h3>II.A. Economic Characteristics of the Elderly</h3>
+<p>Most elderly persons (64 percent) live in families with modest incomes (150 to 299 percent of the poverty level) or moderate to high incomes (300 percent of the poverty level or above) as shown in <a href="#TABLE1">Table 1</a>. However, over one in three elderly persons lives in a poor or near-poor family (income less than 150 percent of the poverty level). <a href="#note2">2</a> In 1990, the median annual income of these poor and near-poor elderly families was $6,834, or $570 per month.</p>
+<p>The elderly's income is derived from four primary sources: (1) Social Security; (2) pension income; (3) employment earnings; and (4) income from assets (see <a href="#TABLE1">Table 1</a>). Elderly persons in low-income families live primarily on Social Security, while those with moderate to high incomes receive a much higher percentage of their total income from pensions, employment, and assets. Low income persons receive an average of 71 percent of their total income from Social Security. In contrast, persons with moderate to high incomes receive only 23 percent of their income from Social Security, even though they receive higher Social Security benefits. Twenty percent of their income comes from pensions, 29 percent from employment, and 23 percent from income on assets.</p>
+<p>Many elderly persons have substantial asset holdings (both financial assets and home equity) due to the accumulation of wealth over their lifetimes. Indeed, the income and asset characteristics of elderly households are very different from those of non-elderly households. The elderly, in general, have lower incomes, but far greater assets. In 1988, the median net worth of elderly households was about twice that of non-elderly households.<a href="#note3">3</a> For example, in 1988, while the median <em>income</em> of households under age 35 was about <em>twice</em> that of households over the age of 75 ($24,000 versus $11,724), the median <em>net worth</em> of households over age 75 was approximately ten times that of households under age 35 ($61,491 versus $6,078).<a href="#note4">4</a></p>
+<p>In recent years, the average net worth of elderly households has increased, while the average net worth of non-elderly households has declined. Between 1984 and 1988, the median net worth of elderly households increased from $68,600 to $73,471 (in 1988 dollars), an increase of 7 percent.<a href="#note5">5</a> Over the same time period, the median net worth of non-elderly households declined in real terms. For example, the median net worth of households between the ages of 35 and 44 declined by 18 percent over this four-year period.</p>
+<p>The distribution of wealth among the elderly is highly skewed towards those with the highest incomes. As shown in <a href="#TABLE2">Table 2</a>, over 20 percent of poor and near-poor elderly persons have no financial assets whatsoever, whereas almost all elderly persons in the higher income groups have financial assets.<a href="#note6">6</a> Of those with financial assets, the median amount of assets owned by the poor and poor-near elderly was approximately $5,510 in 1990. By comparison, the median amount of financial assets owned by elderly persons with modest incomes was about five and half times higher--$30,310. The median amount of financial assets owned by the highest income group was $84,920, more than 15 times higher than those in the low income group. The vast majority of the wealth owned by the elderly is owned by those with the highest incomes.</p>
+<p>In comparison to financial assets, home equity assets are more evenly distributed across income groups. Although 40 percent of the elderly with low incomes do not have any home equity, those who do have fairly significant amounts.<a href="#note7">7</a> The median amount of home equity owned by poor and near-poor elderly persons who owned their homes was about $30,500 in 1990. Although non-poor elderly persons had more home equity, the differential in home equity assets is nowhere near as great as the difference in financial assets (see <a href="#TABLE2">Table 2</a>). Home equity assets comprise the vast majority of the assets held by poor and near-poor elderly persons. Although elderly persons with higher incomes have more home equity than those with low incomes, it does not comprise a majority of their net worth.</p>
+<p>Although the elderly have more wealth than the non-elderly, the percentage of elderly persons with both low income and low wealth is <em>higher</em> than the percentage of non-elderly persons with both low income and low wealth.<a href="#note8">8</a> Low income elderly (those with income less than 150 percent of the poverty level) constitute over one-third of the elderly population but hold less than five percent of financial assets. This demonstrates the skewed nature of wealth toward higher income elderly.</p>
+<p>Older elderly persons are more likely to be poor or near-poor than the younger elderly. As shown in <a href="#TABLE3">Table 3</a>, 35 percent of elderly persons between the ages of 65 and 74 live in families with low incomes. In comparison, almost two-thirds of the elderly over age 85 live in poor or near-poor households.</p>
+<p>The higher rate of poverty among the very old is partly due to their marital status. Many elderly women become poor as a result of their husbands' death, as evidenced by the many poor people over the age of 85 who are widows living alone with a primary source of income of Social Security survivor's benefits. A widow can become poor as a result of her husband's death for three main reasons: 1) a loss of pension income; 2) a decline in Social Security benefits; and 3) the expenses related to her husband's death. Overall, about two-thirds of elderly persons who are poor or near-poor are not married, and over half live alone. The elderly population with the highest rate of poverty are very old widows who live by themselves.</p>
+<p>Older age groups among the elderly are at higher risk of needing long-term care. <a href="#TABLE4">Table 4</a> takes a closer look at the economic circumstances of persons age 75 and older. As expected, fewer persons age 75 and over are in families in which someone is still working, and fewer have pension income. As a result, almost half of all persons over age 75 are in poor or near-poor families. Median family income for all persons over the age of 75 was under $1,000 per month in 1990.</p>
+<h3>II.B. Economic Characteristics of the Disabled Elderly</h3>
+<p>Of greater relevance to long-term care policy discussions is the economic circumstances of the disabled elderly who most often need to buy long-term care services. Unfortunately, this group is also the least able to afford long-term care services. As shown in <a href="#TABLE5">Table 5</a>, the disabled elderly are more likely to have low incomes than the non-disabled elderly.<a href="#note9">9</a> Over half of all disabled elderly persons live in poor or near-poor families. In comparison, only about one-third of the non-disabled elderly have low incomes. Also, median financial assets of the elderly disabled are only about one-third that of the non-disabled.</p>
+<p>The lower incomes and assets of the disabled elderly are not simply a function of their disability, but also of their age, marital status, and living arrangements. They are more likely to be old, unmarried, and living alone--other factors that are associated with being poor. In sum, elderly persons at the greatest risk of poverty are also those at the greatest risk of being disabled and needing long-term care.</p>
+<h2><a id="secIII" name="secIII">III. ECONOMIC IMPACT OF LONG-TERM CARE USE</a></h2>
+<p>The financial circumstances of the elderly are highly diverse, although elderly persons at the highest risk of needing long-term care are more likely to be poor or near-poor. But what is the actual impact of long-term care use on the elderly? For many, the use of long-term care has minor financial impacts. For others, the impact of long-term care use can be catastrophic. It can cause the depletion of lifetime savings, dramatically reduce one's standard of living, or force someone to purchase less care than they need. Economic considerations also sometimes force people to enter a nursing home even though they would rather be home, just because it is easier to qualify for Medicaid coverage in a nursing home than at home.</p>
+<h3>III.A. Factors Which Determine the Economic Impact of Long-term Care Use</h3>
+<p>The financial effects of long-term care use differ according to:</p>
+<ul><li>the <em>type</em> of services used;</li>
+<li>the <em>duration</em> of care; and</li>
+<li>the <em>level</em> of financial resources available to pay for care.</li>
+</ul><p>Depending on the interaction of these variables, an individual's long-term care use can have little or no impact, a limited impact, or catastrophic consequences.</p>
+<h4>Type of Services Used</h4>
+<p>Nursing home care has a far greater financial impact on the elderly than other types of long-term care. Indeed, nursing home care is the largest out-of-pocket health care cost for elderly consumers, accounting for 42 percent of all out-of-pocket health care payments. At an average price of around $80 per day in 1990, the cost of a private nursing home stay can build up very quickly.</p>
+<p>Not all persons who enter nursing homes, however, suffer severe economic impacts. Many elderly people enter nursing homes for relatively short stays after being in the hospital for an acute illness, where Medicare will pay for the first 20 days of a nursing home stay if the stay meets Medicare skilled nursing facility (SNF) criteria. About 20 percent of all nursing home admissions are covered by Medicare for at least the first part of the stay.</p>
+<p>Home care generally has less of a financial impact on the elderly. First, most elderly persons who receive care at home do not use formal (paid) care. At a point-in-time, only about 20-25 percent of the elderly with functional impairments receive formal services in their homes. Of these, according to data collected in the 1982 National Long-Term Care Survey, about half paid for their own care without help from third-party coverage or other sources.<a href="#note10">10</a> In 1982, disabled elderly persons in the community who paid for home care services spent an average of $222 per month (in 1990 dollars); about half spent less than $54 per month, and ten percent paid more than $540 per month.</p>
+<p>Data from the 1987 National Medical Expenditure Survey (NMES) provide information on the home health care use of disabled persons over the course of an entire year. These data indicate that nearly one-third of the disabled elderly (32 percent) use formal home care services. For users, the average number of annual visits was approximately 80. Nearly one half of spending for these services was paid out-of-pocket, while Medicare and Medicaid paid approximately 20 and 25 percent respectively.</p>
+<p>Both the costs of private nursing home care and of home care vary significantly around the country, largely depending upon local labor costs. In areas with an excess supply of labor, it is possible to hire home care workers at close to the minimum wage, particularly if services are not purchased through a formal home care agency. Private nursing home prices also reflect local labor costs--as well as capital costs and state regulatory costs.</p>
+<p>In the aggregate, the elderly spent about $19.0 billion for nursing home care out of their own pockets in 1989, and about $2.4 billion for home care. Thus, private payments for nursing home care outweigh spending for home care services by about eight to one.</p>
+<h4>Duration of Care</h4>
+<p>How long a person uses long-term care services has considerable influence on the financial impact of using long-term care. Although many elderly may be able to afford $7,500 for a three-month nursing home stay in 1990, few can afford the $90,000 required for a three-year stay.</p>
+<p>Many elderly persons who use nursing home care experience little financial impact because they have short stays. For example, about 40 to 50 percent of persons turning age 65 in 1990 will enter a nursing home at some point during their remaining lifetime. Of these, one in three will use less than two months of care, in total, over their lifetime. Paying for a two month nursing home stay out-of-pocket in 1990 required a little less than $5,000 in financial resources, an amount many elderly can afford. And, as discussed above, many of these short stays are partly or fully paid for by Medicare.</p>
+<p>On the other hand, about 20 percent of all persons turning age 65 in 1990 will spend a year or more in a nursing home before they die--about 45 percent of all nursing home users. Although many of these persons will have Medicare and/or Medicaid coverage for all or part of their stays, many others will pay for most of their care privately. At $30,000 per year, a year or more of nursing home care not covered by Medicare or Medicaid is beyond the means of many elderly persons.</p>
+<h4>Level of Resources</h4>
+<p>Obviously, the economic impact of long-term care is also related to the amount of income and assets an elderly person has when they start needing care. Previously, we discussed the diverse financial resources of elderly persons, and the correlation between elderly persons at risk of being poor and near-poor and at risk of needing of long-term care. However, the ability to purchase long-term care services relates not only to one's absolute level of financial resources, but also to other circumstances. For example, even though single persons generally have fewer resources than couples, paying for nursing home care out-of-pocket can be less difficult for single persons who are likely to be permanent nursing home residents because they do not have to maintain a separate household for a non-institutionalized spouse.</p>
+<p>In addition, a single person may have less of a need to preserve financial assets. A nursing home resident with a non-institutionalized spouse will want to preserve assets for the future financial security of the spouse. The depletion of assets, in and of itself, is not necessarily a drastic economic event for unmarried nursing home residents, as long as there are sufficient assets to pay for all the care that will be required. In general, the depletion of lifetime savings for a single person is probably less devastating than asset depletion for a couple.</p>
+<p>Indeed, asset depletion during the later stages of life is a normal event in "precautionary" theories of savings accumulation and depletion. Just because someone is depleting assets to pay for nursing home care does not mean that they are necessarily suffering a severe economic event.<a href="#note11">11</a> People accumulate assets during their lifetimes precisely because they know that they will have to draw upon those assets during their retirement years. The question is whether people have adequately saved for the possibility of needing nursing home care, and what effect the use of long-term care has on someone's use of their accumulated assets over the course of the remainder of their life.</p>
+<p>It is often assumed that a person who qualifies for Medicaid coverage upon admission to a nursing home experiences little financial impact because they are "insured" by Medicaid. However, Medicaid nursing home insurance has a very high copayment requirement--all income except for $30 per month. Thus, persons on Medicaid with relatively high incomes but few assets can still experience significant financial impacts. All income must be applied to the cost of nursing home care, and little or no income is available to pay for "amenities" such as clothing, trips outside the home, hair appointments, birthday presents for relatives, or telephone calls.</p>
+<p>Another consideration is that although nursing home care costs more than home care, payments for nursing home care include shelter and food, as well as services. Thus, although someone may have lower out-of-pocket costs for home care services, the economic impact on their standard of living can be much greater, if they have less income left for living expenses. They may use less heating fuel, take fewer baths, eat less well, or not use other medical services, such as taking prescription medicines. The economic impact of using home care services must be assessed both in the context of an individual's financial resources <em>and</em> their other living expenses.</p>
+<p>In sum, the economic impacts of long-term care use on individuals depends upon the type of care they need, how long they need it, and how well they can afford it. Other factors must also be considered, such as whether a nursing home recipient has a non-institutionalized spouse, and what other living expenses a home care user has reduced in order to pay for formal services.</p>
+<h3>III.B. Long-Term Care Costs Affect Different Groups of Users</h3>
+<p>This section discusses how the use of long-term care affects different types of users. We begin by talking about types of long-term care use that have little or no financial impact. Other types of use have a moderate impact; they may significantly affect an individual's economic circumstances, but not to a devastating degree. Finally, there are some persons for whom the use of long-term care turns into a financial catastrophe.</p>
+<h4>Little or No Financial Impact</h4>
+<ul><li>
+<p><strong>Persons recovering from an acute care episode where longterm care services are covered by Medicare</strong>. About 14 percent of all nursing home admissions consist of persons who are both admitted and discharged on Medicare.<a href="#note12">12</a> The vast majority of these persons are discharged prior to using 21 days of care, and therefore they have no co-payment requirements for Medicare-covered days after the 20th day.</p>
+</li>
+<li>
+<p><strong>Persons who qualify for Medicaid in the community in States that have more generous long-term care coverage</strong>. Persons who qualify for Medicaid in the community already have "long-term care insurance," although the degree to which States provide long-term care coverage for Medicaid beneficiaries varies substantially from State to State. Medicaid recipients in States with broad home care coverage may have relatively good access to Medicaid-financed home care services, while recipients in other States may have little or no access, in spite of being "insured." Approximately 2.4 million elderly were Medicaid enrollees in the community in 1990. (8 percent of the elderly population)</p>
+</li>
+<li>
+<p><strong>Persons with mild impairments who receive informal care only from a spouse, family, or friends</strong>. About three out of four persons living in the community with IADL and/or ADL impairments receive no paid care at all. They receive all of their care from spouses, family or friends. It is important to note that not all of these persons experience little or no financial impact from using long-term care. If family members or friends have reduced or terminated employment in order to serve as caregivers, then substantial financial impacts may have occurred, if not directly on the recipient of care, then on the caregiver.</p>
+</li>
+</ul><h4>Moderate or Short-Term Financial Impacts</h4>
+<ul><li>
+<p><strong>Private pay patients with short nursing home stays. Most nursing home stays are not long stays</strong>. Even most persons who are not covered by Medicare or Medicaid when they enter a nursing home experience only moderate financial impacts. About half of all persons who enter nursing homes as private pay patients are discharged in three months or less.<a href="#note13">13</a> With the average cost of a three-month nursing home stay somewhere between $7,000 and $8,000 in 1990, a short term nursing home stay would have a moderate financial impact, but not a catastrophic impact on most elderly persons.</p>
+</li>
+<li>
+<p><strong>Elderly persons who qualify for Medicaid upon admission to a nursing home</strong>. Research indicates that about half of all elderly persons who are eligible for Medicaid during the first month of their nursing home stay were <em>not</em> eligible for Medicaid prior to entering a nursing home.<a href="#note14">14</a> These persons generally have low assets, but too much income to qualify for Medicaid outside a nursing home. Once they enter a nursing home, they must contribute all of their income to the cost of their care, except for a small personal needs allowance of $30 per month in most States. For these persons, the major financial impact is that they are left with virtually no discretionary income once they enter a nursing home--they have become entirely dependent on Medicaid and the nursing home to provide shelter, food and services.</p>
+</li>
+<li>
+<p><strong>Elderly persons with adequate financial resources</strong>. About 25 percent of the elderly live in families with moderate to high incomes, and which have significant financial assets. The median annual family income of persons in this group in 1990 was about $34,000. In addition, median financial assets owned by persons in this group was about $85,000, and almost 90 percent owned additional equity in their homes. Single elderly persons in this income group will generally have sufficient income and assets to pay for several years of nursing home care. For married couples, there may be a more substantial financial impact on the standard of living of the non-institutionalized spouse, given the share of their combined incomes that must be used to pay for private nursing home care.<a href="#note15">15</a></p>
+</li>
+</ul><h4>Catastrophic Impacts</h4>
+<ul><li>
+<p><strong>Elderly persons with moderate income and assets who require extended nursing home care</strong>. About one in four persons who enter nursing homes as private pay clients stay for one year or more. Persons with modest incomes(between $12,000 and $25,000 annually) cannot afford the private cost of nursing home care from their current income and must also use their assets to meet their monthly nursing home payments. Many persons of moderate means who require extended nursing home care end up depleting <em>all</em> of their financial assets and applying for Medicaid coverage. This process is referred to as "Medicaid spend down." Other persons may not ever spend down all the way to Medicaid eligibility levels, but still deplete the vast majority of their total financial wealth before death or discharge. Persons who are discharged alive after depleting most of their life's savings in a nursing home may not be able to be financially independent in the community and may subsequently become eligible for Medicaid or other forms of public assistance (e.g., SSI or food stamps).</p>
+</li>
+<li>
+<p><strong>Poor and near-poor disabled persons living in the community who do not qualify for Medicaid</strong>. Many disabled elderly persons living in the community have income below or slightly above the poverty level, but do not qualify for Medicaid coverage. These persons cannot afford to buy formal home care services, because they have little or no discretionary income. They may also have other out-of-pocket health care costs, such as for prescription drugs and Medicare Part B co-payments for doctor's visits. Severely impaired elderly persons in this group, if they have families, can become heavy burdens on their informal caregivers. Others have long-term care needs which go unmet. Some enter nursing homes, even though they would rather stay at home, simply because they can qualify for Medicaid coverage more easily if they do so. Although many disabled elderly persons fall into this category, reliable estimates are lacking.</p>
+</li>
+</ul><p>In sum, many users of long-term care do not experience severe financial impact as a result of needing long-term care. Either they receive all of their care from informal caregivers, or they only need care for a short period of time, or they have sufficient financial resources to purchase long-term care services even over an extended period of time.</p>
+<p>Other people experience severe financial impact as a result of needing long-term care. A group that suffers particularly severe effects from long-term care is middle-class elderly persons who require extended nursing home care. They cannot afford to pay for their care from current income, and end up depleting a substantial amount of their accumulated life savings, or even all of their financial assets, in paying for nursing home care.</p>
+<p>Another group which suffer a severe impact is poor and near-poor disabled persons living in the community who need home care services but who do not qualify for Medicaid coverage. Rather than experiencing severe financial hardship, this latter group is more likely to either have unmet, or undermet needs, or to become a burden on their spouses and families providing care. Some States have non-Medicaid programs which provide home care services to this population, but most do not.</p>
+<h2><a id="secIV" name="secIV">IV. MEDICAID SPEND DOWN</a></h2>
+<p>People who enter nursing homes, deplete their financial assets, and then apply for Medicaid coverage, are commonly identified as a population which experiences severe financial impacts from using long-term care. This process is commonly referred to as "Medicaid spend down." A number of research studies have been conducted in recent years focusing on the Medicaid spend down phenomenon. This section provides a brief summary of the spend down literature.</p>
+<p>Research on Medicaid spend down poses special methodological challenges. Ideally, a study of Medicaid spend down would follow a representative sample of nursing home admissions, and then track changes in nursing home payment sources for all sample members across all episodes of care, until virtually all members of the cohort have died. Existing studies obviously fall short of this ideal, and thus must be interpreted in the context of specific limitations in data and methods.<a href="#note16">16</a></p>
+<p>Two studies of the 1985 National Nursing Home Discharge Survey found that only about 10-11 percent of all persons who entered nursing homes as private pay patients spent down to Medicaid prior to discharge.<a href="#note17">17</a>, <a href="#note18">18</a> The major limitation of these studies is that they only examine spend down patterns over a single nursing home stay, and thus do not account for spend down episodes that may occur during prior or subsequent stays. Therefore, they tend to underestimate the rate of Medicaid spend down over all nursing home stays.</p>
+<p>A recent study of the Institutional Population Component (IPC) of the 1987 National Medical Expenditures Survey found that 26.3 percent of all elderly persons who entered nursing homes as private pay patients had spend down to Medicaid at the time of the survey.<a href="#note19">19</a> However, because this study looked at current residents, rather than discharges, it oversamples nursing home users with long lengths-of-stay, who are more likely to spend down than residents with shorter stays. This sampling approach is therefore likely to bias estimates of spend down upward.</p>
+<p>Other studies have looked at spend down patterns in individual States. One study showed that 27 percent of all nursing home users in Michigan who were eligible for Medicaid at some point in 1984 had begun their stay as a private pay patient.<a href="#note20">20</a> Several studies have been conducted of the Connecticut Nursing Home Patient Registry, a unique data set which has tracked all nursing home users in that State since 1977. A study of a discharge sample showed that 39 percent of all Medicaid discharges had begun their stay as a private pay client, and about 17 percent of all persons who had begun their stay as private pay client had spent down to Medicaid.<a href="#note21">21</a> This study also documented the importance of looking at the experiences of nursing home users over multiple nursing home admissions, since 77 percent of all persons who had spent down had more than one nursing home stay.</p>
+<p>Two other studies using the Connecticut Nursing Home Patient Registry have tracked nursing home admission cohorts. One study of a one-year admission cohort showed that 21 percent of all persons admitted as private pay had spent down after 7-8 years, and 39 percent of all persons who ever qualified for Medicaid had begun their stay as a private payer.<a href="#note22">22</a> Another study which looked at successive admission cohorts over six years found roughly similar results: 22 percent of persons beginning their stay as private payers had spent down, and about 44 percent of all persons who received Medicaid at some point during their stay had begun their stay as private pay patients.<a href="#note23">23</a></p>
+<p>One observation from the State-specific studies is that it appears that Medicaid spend down patterns differ significantly from State to State. For example, comparisons of the Connecticut nursing home population with the National Nursing Home Survey sample suggest that nursing home users in Connecticut are more likely to begin their stay as private payers, and are less likely to spend down, than the national average.<a href="#note24">24</a> This may be due to the fact that the elderly in Connecticut are wealthier, on average, than the national elderly population.</p>
+<p>These findings again underscore the observation that the financial impact of being a long-term care user can vary greatly depending upon where one lives. There is a less devastating impact in States where the elderly, on average, have more financial resources to pay for care (i.e. wealthier States) and where State Medicaid programs provide broader long-term care coverage.</p>
+<p>Not all persons spend down to Medicaid as a result of an extended nursing home stay. In fact, the spend down research suggests that between 40 and 55 percent of persons who spend down do so within six months of nursing home admission.<a href="#note25">25</a> Thus, many persons who spend down are persons of modest means who spend their available assets rapidly once they enter a nursing home, and qualify for Medicaid soon after admission.</p>
+<p>A few efforts have been made to estimate the extent to which elderly persons spend down to Medicaid eligibility levels outside of a nursing home. One study estimated that although the likelihood of spending down to Medicaid increases dramatically once an individual enters a nursing home, that the actual <em>number</em> of disabled elderly persons who convert to Medicaid is higher in the community.<a href="#note26">26</a> However, data on the extent to which out-of-pocket costs for long-term care and other health care services cause elderly people to spend down to Medicaid eligibility levels in the community are lacking. Other research suggests that health care costs are not the major contributing factor.<a href="#note27">27</a></p>
+<h2><a id="secV" name="secV">V. THE AFFORDABILITY OF LONG-TERM CARE</a></h2>
+<p>Research on how people pay for nursing home care provides only part of the picture on the economic impact of long-term care use on individuals. For example, although we can conduct research on the extent to which people are able to pay privately for nursing home care without spending down to Medicaid, this does not give us information about the specific economic impact on these individuals. The spend down research looks at the economic impact of nursing home use on individuals through a relatively narrow lens. Even among people who never spend down to Medicaid, severe economic impact can occur. To what extent are people selling their homes in order to stay off Medicaid? Are children helping to pay for their parents' care? What level of financial resources did these individuals begin their nursing home stay with, and how much remained when they left?</p>
+<p>In addition, data on the number, or percentage, of people who spend down to Medicaid over time do not convey the complete picture. To what extent are Medicaid spend downers people who may be qualifying for Medicaid prematurely because they have successfully protected their assets through "Medicaid estate planning" strategies? How many have been able to keep their homes and still qualify for Medicaid? How does Medicaid spend down affect community spouses? In sum, although some research has been conducted on the economic impact of long-term care costs on individuals, there is much that is still not known.</p>
+<p>Another lens that can be used to look at the economic impact of long-term care on individuals is to estimate the "affordability" of long-term care for <em>potential</em> users of long-term care living in the community. In this approach, we estimate the ability of noninstitutionalized elderly persons to finance a potential nursing home stay out of their annual savings or discretionary income.</p>
+<p>Development of these estimates requires assumptions about what constitutes "affordability." First, the resources an individual has "available" to pay for care must be determined. What changes in lifestyle and financial status should be expected of elderly persons when they require long-term care services? Also, what role does the depletion of financial assets play in defining "affordability"? In brief, out of an individual's or family's total income and assets, how does one define what is affordable and what is not?</p>
+<p>With these caveats in mind, analyses of the ability of the elderly to "afford" long-term care were conducted using alternative measures of affordability. These measures were used to assess the percentage of persons over the age of 65 who could afford to purchase <em><strong>one year of privately-financed nursing home care</strong></em>. The analyses focus on the affordability of nursing home care, as opposed to home care, because nursing home costs pose the greater financial risk to the elderly.</p>
+<p>Different measures of affordability were developed for couples and individuals. Other factors being equal, nursing home care is more affordable to individuals because there is no need to preserve income and assets for the non-institutionalized spouse. However, as discussed in Section I, elderly couples generally have more financial resources than do individuals. Thus, estimates of the affordability of long-term care for couples and individuals are presented separately below.</p>
+<h3>Couples</h3>
+<p>For nursing home care to be affordable for an elderly couple, adequate income must be preserved for the community dwelling spouse for fixed expenses such as housing, and health and other types of insurance. These costs would not decline when one spouse is institutionalized. Other household expenses (food, transportation, clothing) would also continue, although at a reduced level. Three measures of "affordability" were developed for couples:</p>
+<ul><li>
+<p>The <strong>"No Assets"</strong> definition estimates the percentage of couples who could afford one year of nursing home care for one spouse entirely from combined total income, without depleting any assets.<a href="#note28">28</a> Further, the cost of nursing home care is defined as affordable only if the community spouse did not experience a decline in available income for current household expenditures. Thus, the couple's housing, health and personal insurance expenditures were assumed to be unavailable to pay for long-term care. All other expenditures were assumed to be protected for the community spouse at a level two-thirds of the couple's pre-institutionalized level, meaning one-third of these expenditures were considered available to pay for care.</p>
+</li>
+<li>
+<p>The <strong>"50% of Assets Over 4 years"</strong> definition estimates the percentage of couples who could afford one year of nursing home care if they used up 50 percent of their combined financial assets (excluding home equity) over a four-year period. Protected income for the community dwelling spouse is defined the same as above. This definition essentially indicates the percentage of couples who could afford to pay for up to four years of care before depleting 50 percent of their financial assets.</p>
+</li>
+<li>
+<p>The <strong>"50% of Assets in 1 year"</strong> definition estimates the percentage of couples who could afford one year of nursing home care if they used up to 50 percent of their financial assets in one year. Further, it also allows the community spouse to keep only 50 percent of all non-housing, health, and personal insurance expenditures. Finally, previous household expenditures for alcohol, tobacco, and charitable contributions are made available to pay for care.</p>
+</li>
+</ul><p>Using these alternative definitions of affordability, we found that from 3 to 48 percent of elderly couples could afford to pay privately for a one year stay in a nursing home (see <a href="#TABLE6">Table 6</a>). Only three percent of couples could afford to pay for care without using any of their financial assets (at the defined protected income level for the community spouse). If couples use their financial assets at a rate that would deplete 50 percent of their assets over four years, about 16 percent could afford a one year nursing home stay (also a four-year stay). Only when half of all financial assets are assumed to be immediately spent down, and a lower protected income for the community spouse is assumed, does the proportion of families able to afford a year of care approach 50 percent.</p>
+<p>We also examined available resources for couples aged 65 and older where at least one spouse was disabled. We defined disability to include persons who require assistance with personal needs such as eating, bathing, or dressing. These disabled individuals who reside in the community are at greatest risk of needing nursing home care in the near future and hence represent an alternative group to consider when estimating who could afford to pay privately for nursing home care. The results are quite similar to those for all couples.</p>
+<h3>Single Persons</h3>
+<p>Different measures of affordability were used for single persons, since there is no community-dwelling spouse who must still meet basic consumption needs. Because the institutionalized person's needs for food and other basic living expenses would be met by the nursing home, many current expenditures are foregone. Thus, fewer expenses need to be subtracted from total income in determining the amount of income available to pay for nursing home care.</p>
+<p>Nonetheless, one consideration is whether someone who owns a home is allowed to keep the home in case the individual is able to return to the community. If so, expenses for maintaining the home in a nursing home user's absence must be deducted.</p>
+<p>Another difference between couples and singles arises in the treatment of financial assets, because it is not necessary to assume that half of the financial assets need to be reserved for the community dwelling spouse. All assets are potentially available to pay for nursing home care.</p>
+<p>Thus, for single persons, the following three definitions of affordability were used:</p>
+<ul><li>
+<p><strong>No Assets</strong>. This definition estimated the percentage of single persons who could afford one year of nursing home care without depleting any financial assets. It was assumed that a homeowner would be allowed to maintain an owned home by excluding housing-related expenditures from available income (aside from purchases on new household equipment or furnishings). The individual is also assumed to continue current spending on insurance, personal care needs, reading, apparel, and services and miscellaneous expenses.</p>
+</li>
+<li>
+<p><strong>All Assets over 4 Years</strong>. This definition is the same as the "no assets" definition except that it assumes that all assets are used to pay for care over a four-year period. It essentially indicates the percentage of persons who could afford to pay privately for nursing home stays of up to four years.</p>
+</li>
+<li>
+<p><strong>All Assets in 1 Year</strong>. This definition assumes all financial assets are spent over one year. The amount of income available to pay for care is the same definition used in the prior two definitions.</p>
+</li>
+</ul><p>The findings indicate that somewhat smaller percentages of single persons could afford to pay for one year of nursing home care than elderly couples (see <a href="#TABLE7">Table 7</a>). This is somewhat surprising, given that the definitions employed allow a higher percentage of income and assets to be available to pay for care for single persons. However, as previously discussed, single elderly persons have lower average incomes and assets than elderly couples.</p>
+<p>As also shown in <a href="#TABLE7">Table 7</a>, the most likely users of nursing home care, the disabled elderly living alone, have the least ability to meet their own needs. Almost none of these individuals could pay for care without using their financial assets, and even then, only about 17 percent could afford up to one year of care.</p>
+<h2><a id="secVI" name="secVI">VI. IMPACT OF ACUTE CARE EXPENDITURES ON THE DISABLED ELDERLY</a></h2>
+<p>Elderly persons with chronic disabling conditions are likely to also have expenses for acute medical care in addition to their long-term care requirements. Even though most acute care expenditures are covered by public or private insurance, the costs of recurring prescriptions, doctor's visits, and hospital stays due to deductibles, copayments, and non-covered services can add up very quickly. Some data on the out-of-pocket expenses of the elderly and the use of acute care services by the disabled elderly are available, but there are limited data on the interaction and combined out-of-pocket burden of acute and longterm care needs.</p>
+<h3>VI.A. Out-of-Pocket Acute Care Expenses of the Elderly</h3>
+<p>Out-of-pocket medical expenditures for services other than long-term care can be a financial burden for many elderly persons. In 1987, the most recent year of available data, 94 percent of the non-institutionalized elderly had some type of health care expenditure. The average annual expenditure for these persons was approximately $4,560. Twenty-one percent of these expenditures, or nearly $1,000 were financed out-of-pocket, while Medicaid covered a little less than one-half, and private insurance covered 16 percent. The remaining 16 percent of average expenditures among the elderly were financed by Medicaid, other public programs (such as the Indian Health Service), Worker's Compensation, charity and other private sources.<a href="#note29">29</a></p>
+<p>The elderly spend, on average, almost 12 percent of their income for out-of-pocket <em>acute</em> medical expenses. One-fifth of the elderly spend more than 15 percent, and one-tenth spend over 20 percent of their income.<a href="#note30">30</a></p>
+<p>Out-of-pocket medical expenditures are a particular problem for low income elderly persons. Persons with income less than $10,000 in 1986 spent an average of 14 percent of their income on medical expenses, double the share of income spent by persons with income above $10,000. For the lower income group, one-third spent more than 15 percent of their income, compared to 6 percent for those with higher incomes. The out-of-pocket medical expenses causing the expenditure of these high percentages of income are not very large; two-thirds of the low income group spending over 15 percent of their income had out-of-pocket expenses of less than $1,500.</p>
+<h3>VI.B. Acute Care Use of the Disabled Elderly</h3>
+<p>The disabled elderly are at greater risk of high out-of-pocket acute care medical expenses than the non-disabled population. Poor health and high levels of impairment for the disabled elderly population increase the use of medical care. In 1984, three-quarters of the severely impaired elderly population reported being in poor to fair health compared to one-quarter of the non-impaired population. Severely impaired elderly persons had over twice the number of physician contacts and three times the probability of a hospital stay in a year than the non-impaired population. The severely impaired elderly population was also more likely to rely on Medicare coverage alone than the non-impaired elderly population, resulting in a higher liability for Medicare copayments and non-Medicare covered services.</p>
+<p>An analysis of the average out-of-pocket expenditures per month for disabled elderly persons found that 94 percent of this group had out-of-pocket health care expenditures, and the average per month for all elderly disabled persons was close to $130 in 1982. Out-of-pocket expenditures were distributed by type of service as follows: 42 percent for acute care services (hospital stays and physician care); 20 percent for prescription medicines; 14 percent for home and community-based services; and 25 percent for nursing home care.<a href="#note31">31</a></p>
+<p>The level of out-of-pocket expenditures for health care services among the disabled elderly increases with income level. For example, average monthly expenditures for those with monthly income greater than $1,000 were approximately $167 while those with monthly income less than $500 spent approximately $96 per month out-of-pocket. (See <a href="#TABLE8">Table 8</a>) However, disabled elderly with lower income have a much higher likelihood of spending over 15 percent of income on out-of-pocket health expenses. Overall, 41 percent of the disabled elderly spent more than 15 percent of their income on out-of-pocket health expenses. Among those with monthly income greater than $1,000 per month, 18 percent spend more than 15 percent of income, while 53 percent of those with monthly income of $500 exceeded this level. Nursing home use was the biggest contributor to catastrophic expenses. The probability of nursing home users having out-of-pocket health care expenditures in excess of 15 percent of income was over two and one-half times that of non-nursing home users.</p>
+<h2><a id="secVII" name="secVII">VII. THE POTENTIAL IMPACT OF PRIVATE LONG-TERM CARE INSURANCE</a></h2>
+<p>Private long-term care insurance, and other risk-pooling mechanisms, can mitigate the financial impacts of long-term care on individuals by spreading long-term care costs across users and non-users of services. However, a key issue in the policy debate is the affordability of private long-term care insurance. This section examines three important questions regarding the potential impact of private long-term care insurance for reducing out-of-pocket costs for long-term care:</p>
+<ul><li>
+<p>What impact can private long-term care insurance have on public and private expenditures for long-term care?</p>
+</li>
+<li>
+<p>How affordable is private long-term care insurance?</p>
+</li>
+<li>
+<p>Who is a good candidate for purchasing long-term care insurance?</p>
+</li>
+</ul><p>The section focuses on the potential impacts of private long-term care insurance, as opposed to other private financing mechanisms, such as CCRCs and home equity conversions, because it is the most prevalent risk pooling mechanism, and likely to have the greatest impact on the future financing of long-term care. Other private financing mechanisms will also have impacts, but probably to a lesser extent.</p>
+<h3>VII.A. The Potential Impact of Long-Term Care Insurance on Public and Private Expenditures for Long-term Care</h3>
+<p>Even though there has been dramatic growth in the private long-term care insurance market over the last seven years, private insurance is not likely to have a major impact on public and private expenditures for long-term care in the short run. First, only a small percentage of elderly persons currently have insurance, and even most of those who do are not likely to need long-term care (submit claims) for another ten to twenty years. Consequently, in examining the potential impact of long-term care insurance on public and private expenditures, one must project this impact into the relatively distant future.</p>
+<p>According to estimates generated from the Brookings/ICF Long-Term Care Financing Model, between 10 and 30 percent of the elderly will have private long-term care insurance coverage by the year 2020, thirty years from now. This estimate assumes that there will be no major changes in public policy, or in the private sector, to make private insurance more affordable than it is today, for example, by changing the tax status of employer and employee contributions to private long-term care insurance premiums.</p>
+<p>This increased market penetration of private insurance is projected to occur for the following reasons:</p>
+<ul><li>
+<p>Continued growth in real incomes among the elderly will make private insurance more affordable to a greater percentage of the elderly.</p>
+</li>
+<li>
+<p>Private insurance will be more widely available, and individuals will have more opportunities to purchase insurance at younger ages, further increasing its affordability.</p>
+</li>
+<li>
+<p>The value of the elderly's financial assets will also continue to grow, increasing the demand for the asset protection provided by insurance (i.e. the financial risks of long-term care use will increase).</p>
+</li>
+<li>
+<p>The elderly will become more aware of the need to protect themselves from the financial risks of long-term care, further increasing demand.</p>
+</li>
+<li>
+<p>The group market will continue to grow, increasing the availability of policies with lower premiums.</p>
+</li>
+</ul><p>Under these market penetration assumptions, it is estimated that private long-term care insurance will finance approximately three to seven percent of all nursing home costs by the year 2020, depending on the price and coverage offered by the policies which are purchased.</p>
+<p>This level of increased private insurance coverage would lower both out-of-pocket expenditures for purchasers and Medicaid expenditures. <a href="#TABLE9">Table 9</a> shows projected public and private expenditures for nursing home care in 2018 under two alternative scenarios: (1) the long-term care insurance market does not develop and no one has insurance; and (2) long-term care insurance is purchased by 30 percent of the elderly.</p>
+<p>Compared to a future in which no one has private insurance, it is estimated that 30 percent coverage would reduce aggregate out-of-pocket expenditures for nursing home care by approximately six percent. Increased private insurance would also reduce Medicaid spending by about three percent, since fewer elderly would be forced to spend down to Medicaid eligibility. The percentage of total long-term care expenditures financed by Medicaid would decline from 40.4 percent without insurance to 37.9 percent with insurance coverage.</p>
+<p>For individual purchasers of insurance, reductions in out-of-pocket expenditures for long-term care would be substantial. In the long run, policyholders would pay about half as much out-of-pocket for nursing home care as they would have paid without insurance (44 percent of the total cost, instead of 88 percent). Long-term care insurance would cover approximately half of annual nursing home expenditures for purchasers in 2018. Medicaid expenditures for insurance purchasers would only be about one-third of what they would have been had insurance not been purchased.</p>
+<h3>VII.B. How Affordable is Private Insurance?</h3>
+<p>The affordability of private long-term care insurance is a subject of heated debate. It is an issue that is central to discussions concerning whether the majority of the elderly can afford to protect themselves from the high costs of long-term care, or whether public financing mechanisms are necessary to provide adequate protection.</p>
+<p>The concept of "affordability" has a number of dimensions, and people differ greatly on whether or not they think they can "afford" to buy a certain product. The following factors should be considered:</p>
+<ul><li>
+<p>The affordability of private long-term care insurance will vary depending upon the breadth and depth of coverage which a policy offers. The price of long-term care insurance varies according to the specific coverage terms of the policy. For example, a policy with a long waiting period (deductible) costs less than a policy with a short waiting period, because most nursing home stays are short.</p>
+</li>
+<li>
+<p>The concept of affordability also rests on assumptions about the percentage of income which can be allocated to the purchase of insurance. Some researchers have defined insurance to be affordable if it costs less than 5 or 10 percent of family income. But this standard ignores family circumstances that dictate whether such a share of income is feasible. Many families may not have that much to spare, while, for others, a 10 percent share of income may not be too large a commitment. Also at issue is whether potential purchasers might use asset holdings to pay for long-term care insurance.<a href="#note32">32</a></p>
+</li>
+<li>
+<p>As previously discussed, the cost of private insurance goes up significantly with age. Thus, affordability also relates to when people first purchase insurance. In essence, private long-term care insurance involves saving for the future, and the younger someone starts saving, the more affordable insurance becomes.</p>
+</li>
+<li>
+<p>The current and future affordability of private insurance may differ, depending upon relative increases in the real cost of insurance and real family incomes.</p>
+</li>
+</ul><p>The Brookings/ICF Long-term Care Financing Model was used to conduct a series of analyses on the affordability of private long-term care insurance, using different assumptions about the amount of "available resources" families have to purchase insurance. However, it is necessary to point out that not all individuals who could afford to purchase insurance under these assumptions will actually do so. Families may elect to use "available resources" for other types of needs, such as saving for a child's education or meeting projected retirement needs. Moreover, because long-term care insurance is often promoted as a means for protecting assets, a family devoting all of its savings to the purchase of insurance will have fewer assets to protect. Consequently, all of these definitions should be viewed as alternative estimates of who <em>could</em> afford to purchase insurance, not who <em>will</em> purchase insurance.</p>
+<p>Three alternative definitions of "available resources" were used in the analysis:</p>
+<ul><li>
+<p><em>50% of Annual Savings</em>. This definition assumes that half of all annual savings, after taxes and all household expenditures are subtracted, are available to purchase insurance. This means that the family's spending patterns would remain unchanged and that they would not use any of their assets to buy insurance.</p>
+</li>
+<li>
+<p><em>100% of Annual Savings</em>. This definition assumes that all the family's annual savings available from income, after taxes and all household expenditures are subtracted, are used to purchase insurance. Like the first definition, the family's spending patterns would remain unchanged and no assets would be used to buy insurance.</p>
+</li>
+<li>
+<p>Annual Savings Plus Some Discretionary Income. This definition assumes that the family would forgo all of its annual savings plus some of its other expenditures in order to afford a long-term care insurance policy. The definition assumes that, if necessary, families would sacrifice on some luxury items and forgo big ticket purchases to come up with a sufficient amount to pay the cost of premiums.<a href="#note33">33</a></p>
+</li>
+</ul><p>It is important to note that <em>none</em> of the definitions require families to use any of their accumulated assets to buy insurance, and only the third definition assumes families will change their usual spending patterns.</p>
+<p>We compared these estimates of available resources with the premium costs of two prototype long-term care insurance products. The costs of these prototype policies, by age of purchase, are presented in <a href="#TABLE10">Table 10</a>. Annual premium costs range from $285 for the lower-priced policy for purchasers in the youngest age group (45-49) to $4,073 for the higher-priced policy for persons in the oldest age group (age 75-79).<a href="#note34">34</a></p>
+<p>The results indicate that:</p>
+<ul><li>
+<p>the percentage of persons able to afford a policy declines with age; this occurs primarily because premiums increase with the age of initial purchase;</p>
+</li>
+<li>
+<p>for single persons from age 55 to 74, about 20-44 percent of the elderly could afford a policy under the range of assumptions used (see <a href="#TABLE11">Table 11</a>);</p>
+</li>
+<li>
+<p>far fewer single persons over the age of 75 could afford to buy a policy, particularly a higher-priced policy that includes coverage of home care services;</p>
+</li>
+<li>
+<p>for couples headed by a person from age 55 to 74, 34-69 percent could afford a policy. Affordability is higher for couples because they have higher incomes (and more savings) and because they can buy one policy. (See <a href="#TABLE12">Table 12</a>.)</p>
+</li>
+</ul><p>Additional analyses were conducted to assess the affordability of private insurance using both income and asset criteria, instead of just income criteria. Persons with fewer than $10,000 in financial assets were considered unable to afford a policy. These persons also have less incentive to buy insurance because they have fewer assets to protect.</p>
+<p>Adding asset criteria reduces the percentage of persons able to afford insurance. For example, 37 percent of single adult households between the ages of 45 and 79 could afford the lower-priced policy if they used 100 percent of their annual savings. If we restrict consideration to only those who have at least $10,000 in financial assets, the percentage who could afford a policy drops to 20 percent.</p>
+<p>The Health Insurance Association of America (HIAA) sponsored a survey of purchasers of long-term care insurance age 55 and older in 1990.<a href="#note35">35</a> Although the data do not permit determination of the purchase rate of long-term care insurance (the number of purchasers over the total number of persons) because the data are not weighted to be a representative sample, it does offer information concerning the characteristics of purchasers compared to the general population.</p>
+<p>Among persons age 55 and older, purchasers of individual longterm care insurance tend to be younger elderly persons with higher levels of income, assets and education than the general population. Purchasers are more likely to be between the ages of 65 and 74 than the general population (58 percent versus 34 percent). This confirms that in 1990 people tend to make purchase decisions as they get closer to an age of needing longterm care. The small proportion of the oldest old among purchasers also demonstrates the effect of underwriting and the fact that some companies did not offer policies to persons over age 80. In 1990, over 70 percent of purchasers have household income of $20,000 or more compared to 36 percent of the general population age 55 and older. Over 40 percent of purchasers have liquid assets greater than $100,000 compared to seven percent among the general population. Finally, over 60 percent of purchasers had some post-high school education while only 18 percent did among the general population. Unfortunately, the reported data do not permit an analysis of the reasonableness of assumptions using premiums as a percent of income as an affordability criteria.</p>
+<h3>VII.C. Who is a Good Candidate for Insurance?</h3>
+<p>In examining prospects for the future growth of the long-term care insurance market, another relevant question is: Even for those who can afford to buy insurance, is it an appropriate purchase? Long-term care insurance can serve a number of objectives. Its primary objective is to reduce out-of-pocket costs that might otherwise deplete, even exhaust, someone's accumulated net worth. It also reduces the risk and fear of spending down to Medicaid eligibility. Private insurance can also improve access to better quality care.</p>
+<p>However, for private long-term care insurance to serve these objectives, individuals must not only have sufficient resources to pay premiums, but also the resources to cover copayments and deductibles after they become eligible for insurance benefits. Although it is difficult to establish appropriate income and asset standards for the purchase of private long-term care insurance, persons should be able to afford the premiums required, the deductibles (which routinely amount to several thousand dollars), and the copayments associated with long-term care products.</p>
+<p>To address this issue, estimates of the deductible amounts and annual copayments required for someone who bought a policy in 1990, and then entered a nursing home 15 years later were made. We assumed that the policy paid $80 per day, with a deductible period of 90 days. We also assumed that the individual had purchased an unindexed policy, and that nursing home prices had increased by 5.5 percent per year over the 15 year period, leaving the insurance purchaser with a significant copayment for daily costs over the $80 benefit amount.</p>
+<p>Under these assumptions, the deductible would cost $16,110 and the individual's first year's copayments would have been $27,225 in the year 2005 (see <a href="#TABLE13">Table 13</a>). In 1990 dollars, the deductible is equivalent to $8,900 and the copayments are equal to $15,100. This means that the individual who bought this policy would have approximately $24,000 in cost sharing for the first year in a nursing home, in 1990 dollars.</p>
+<p>Policies which are partially or fully-indexed will have lower cost sharing requirements when claims against the policy are actually made. As shown in <a href="#TABLE13">Table 13</a>, if an individual purchased a fully indexed policy, the required cost sharing for the first year of nursing home use would only amount to $16,110 (or $8,900 in 1990 dollars). However, the premiums for this type of policy are higher. First year cost sharing requirements for someone who purchased a partially-indexed policy would lie in-between these two amounts: the purchaser would need $26,835 to pay first year costs above and beyond covered benefits ($14,900 in 1990 dollars).</p>
+<p>Consequently, in assessing the "affordability" of long-term care insurance, one must take into account not only the actual premium cost of the policy, but also the depth of coverage which the policy will provide when benefits are paid down the road. While some individuals may be able to "afford" one of the lower-priced policies, such as those which do not include protection against inflation, these policies may actually provide very limited or no protection whatsoever, because cost sharing requirements will consume all of the policyholder's resources in deductibles and copayments prior to paying many benefits. In essence, people who would spend down to Medicaid eligibility levels relatively quickly (e.g. within six months of nursing home entry) are probably not good candidates for private insurance.</p>
+<p>The purchase of long-term care insurance is primarily of value to persons with substantial incomes and assets to protect. For most couples, the primary motivation is to ensure that the income and assets of the non-institutionalized spouse will be protected if one of them enters a nursing home. For single individuals, the primary motivation is to protect their estates from being depleted, so that they may pass their estates on to their heirs. Nearly one-half of the purchasers of long-term care insurance in 1990 cited minimizing financial exposure and protecting family resources as the most important reason for purchase.<a href="#note36">36</a> Preserving income and assets for one's own self is rarely a primary objective, because most persons with extended nursing home stays do not return home.</p>
+<p>However, even people who have no spouse and no desire to protect their estates for their heirs may have an additional objective in purchasing private insurance--staying off Medicaid. Over 90 percent of purchasers in 1990 cited avoiding dependence on Medicaid as a very important or important reason for purchasing long-term care insurance.<a href="#note37">37</a> Some Medicaid recipients have reduced access to nursing homes. In particular, they may have limited access to better quality nursing homes.<a href="#note38">38</a> Even individuals who enter higher quality homes as private pay clients are not guaranteed that they will stay in those homes once they spend down to Medicaid. They may have a hospitalization, and then find that no bed is available in their prior home upon hospital discharge. Thus, to the extent that insurance coverage enables an individual to sustain or to guarantee private pay status for a longer period, purchasers of private long-term care insurance may have preferred access to a wider range of nursing homes, including better quality homes.</p>
+<p>In addition, policies covering home care may increase access to these services by making them more affordable to persons who cannot qualify for means-tested public benefits. This, in turn, can decrease dependence on informal care, giving the disabled elderly more control over how much functional assistance they receive as well as when, how, and by whom assistance is provided. With greater ability to pay for home care, the elderly disabled may worry less about being a burden on family and friends, and their families may worry less about whether they are receiving the care they need. In the HIAA survey of purchasers, 30 percent cited avoiding dependence as the most important reason for purchasing long-term care insurance.</p>
+<p>In some cases, home care coverage may also help the disabled elderly sustain independent living; that is, it may help to avoid or postpone moving in with adult children, or at a minimum rely less on informal support systems. However, in order for home care to aid in independent living, elderly long-term care insurance beneficiaries may have to forgo asset protection and supplement their home care insurance benefits with sizable out-of-pocket payments. For this reason, stand-alone home care policies are also likely to be inappropriate for individuals with low incomes and assets even though these policies are oriented more toward increasing access to and affordability of services rather than asset protection.</p>
+<p>Coverage for home care services can result in much higher premium costs. Premiums for policies that cover both nursing home and home care are often double the cost of policies that cover nursing home care only. Much of the variation in premiums for home care is the result of the uncertainty among insurers about the future use of home care benefits among policyholders. In addition, it is more difficult to define the "insured event" for home care services, since it does not entail a clearcut event such as a nursing home admission. Thus, it is unclear, at this point in time, whether current home care benefits offered in long-term care insurance policies are worth the additional cost because of the limited circumstances under which benefits will be paid and the lack of a well-developed service delivery system to provide the benefits.</p>
+<h2><a id="secVIII" name="secVIII">VIII. CONCLUSIONS</a></h2>
+<p>The economic impact of long-term care on individuals depends primarily on the types of services they use, the duration of their care, and their available financial resources. Many elderly persons with long-term care needs experience little or no financial impact, others experience moderate economic impacts, and still others experience catastrophic impacts on their financial well-being. Understanding of the diverse economic impacts of long-term care use on individuals is key to informed debate about future directions in Federal and State long-term care policy. Although we have learned much in recent years about the economic impacts of long-term care, there is still much that is not well understood.</p>
+<p>Economically, the elderly are a highly diverse population. Contrary to what many people believe, the incomes of individuals and families do not become more equal as they enter retirement. In fact, there is considerable evidence that there is greater economic diversity among the elderly population than among the non-elderly.<a href="#note39">39</a> Wealth among the elderly is even more unevenly distributed than income. Those elderly with the highest incomes own the vast majority of all financial assets.</p>
+<p>A significant percentage of the elderly are poor or near-poor, with few financial assets. About 36 percent of the non-institutionalized elderly live in families with incomes below 150 percent of the poverty level, which was $11,800 for an elderly couple and $9,300 for a single individual in 1990. Most of these persons also have few financial assets. What wealth they do have is usually tied up in their homes. Although they are poor or near-poor, most have incomes or assets above Medicaid eligibility levels. Only about eight percent of the elderly living outside of nursing homes are enrolled in Medicaid.</p>
+<p>The elderly most at risk of needing long-term care have fewer financial resources than the non-disabled elderly. Poverty among the elderly is strongly associated with (1) being single; (2) living alone; and (3) being very old. This is also the group that is at the highest risk of needing paid long-term care services, since they have high rates of disability and fewer family and friends to provide informal care.</p>
+<p>Persons not eligible for Medicaid who have extended nursing home stays are at the greatest risk for experiencing catastrophic financial impacts from long-term care use. The average annual cost of a nursing home stay in 1990 was about $30,000. About 20 percent of all elderly persons turning age 65 in 1990 will spend a year or more in a nursing home before they die. Although many of these persons will have Medicare and/or Medicaid coverage for all or part of their nursing home stays, many others will be required to pay for most of their nursing home care with private resources. Recent studies indicate that somewhere between 10 and 25 percent of all persons who enter nursing homes spend down to Medicaid eligibility prior to their final discharge.</p>
+<p>Although "affordability" is difficult to measure, analyses indicate that very few of the elderly can afford a one-year stay in a nursing home. Almost no elderly couples or individuals can afford to pay for nursing home care without using their accumulated financial assets. Only forty to fifty percent of the elderly could afford to pay for one year of nursing home care without depleting available financial assets. Only ten to twenty percent could afford up to pay for up to four years of nursing home care.</p>
+<p>Poor and near-poor elderly persons living in the community, who are not eligible for Medicaid, experience a different type of economic impact--they cannot afford home care. Poor elderly who are eligible for Medicaid can receive publicly-financed home care services at no cost to themselves, although the availability of these services varies significantly from State to State. Poor and near-poor persons not eligible for Medicaid are generally not eligible for publicly-financed services, but cannot afford to buy them privately. These persons have a high likelihood of having unmet needs and/or imposing a heavy care burden on their family members. In these cases, the <em>economic</em> impacts can fall on families, rather than the recipients themselves.</p>
+<p>Private long-term care insurance provides an opportunity to ameliorate the economic impacts of long-term care use, but not everyone can afford it. Because long-term care insurance spreads the costs of long-term care across users and non-users, more people can afford to buy insurance than can afford to buy long-term care services without insurance. Good candidates for private insurance are persons who have adequate income to pay premiums and adequate financial resources to pay deductibles and co-payments. Higher-priced policies which have inflation protection mechanisms and shorter waiting periods have higher premium costs, but can significantly reduce cost sharing requirements if and when policyholders need care.</p>
+<p>Persons who purchase long-term care insurance will have reduced out-of-pocket costs, diminished risk and fear of spending down to Medicaid eligibility, and increased access to quality care. For persons between the ages of 45 and 79, long-term care insurance premiums are generally affordable for 37 percent of single persons and 59 percent of families with more than one adult if they choose to use all their annual savings to pay the premiums. The younger someone begins buying insurance, the more affordable it becomes. In brief, the sooner we start saving for future long-term care needs, the less financial risk we face later on.</p>
+<p>Even if the market for private long-term care insurance continues to expand, and achieves significant market penetration, public and private expenditures for long-term care will not be markedly affected over the short term. If 30 percent of the elderly have long-term care insurance coverage in thirty years, Medicaid expenditures for nursing home care would be approximately $1 billion (in 1989 dollars) less and out-of-pocket payments would be about $3 billion less than if there were no insurance coverage. However, for those who purchase long-term care insurance, the amount they would otherwise have to pay out-of-pocket for nursing home care would be cut in half.</p>
+<p>The risk of incurring catastrophic economic impacts from long-term care use is directly related to delayed planning for future needs. The longer people wait before they begin to plan for their future long-term care needs, the less "affordable" financial protection from high long-term care costs becomes. Currently, people fall into three distinct groups, in terms of their ability to plan for future needs:</p>
+<ul><li>
+<p><strong>Persons over age 80</strong>. Persons in this age group face the greatest risks of needing long-term care and incurring severe economic impacts from long-term care use. They are also, in general, the group with the fewest financial resources. For this group, the ability to purchase long-term care insurance is limited, because of age/underwriting restrictions or the cost of insurance. A small percentage can buy some protection by investing significant assets in CCRCs. However, most CCRCs still do not provide financial protection from extended nursing home stays.</p>
+</li>
+<li>
+<p><strong>Persons age 65-79</strong>. Individuals in this age group are less likely to be disabled and, in general, have greater financial resources. They still have opportunities to save for future long-term care needs. Analyses indicate that up to 30-50 percent of this group could afford to purchase long-term care insurance that offered significant financial protection. Persons in this group with low income and assets are less able to purchase insurance and have less incentive to buy insurance, since they have fewer assets to protect. Many will end up on Medicaid if they require extended nursing home care.</p>
+</li>
+<li>
+<p><strong>Persons under age 65</strong>. The vast majority of persons in this age group are not disabled and could afford to buy long-term care insurance at significantly reduced premium costs. Most people in this group do not recognize the need to plan for future long-term care needs, and will not do so without substantial public and private sector initiatives.</p>
+</li>
+</ul><p>The elderly of tomorrow are expected to be financially even better-off than the elderly of today. More will be able to afford to purchase their own long-term care services, although it is also possible that the use of long-term care will also increase, with increasing longevity. The more rapidly individuals start participating in risk pools, and the earlier they start, the more affordable long-term care will be to a greater percentage of the elderly. Medicaid and other public programs will remain the principal payer for most elderly persons with low incomes and assets, because they are not good candidates for private insurance. Moderate and upper-income elderly, who do not purchase financial protection, will continue to risk the possibility of experiencing catastrophic economic consequences if they require extended nursing home care.</p>
+<h2><a id="secIX" name="secIX">IX. NOTES</a></h2>
+<ol><li>
+<p><a id="note1" name="note1">Hanley</a>, et al. "Predicting Elderly Nursing Home Admissions: Results from the 1982-84 National Long Term Care Survey," <em><strong>Research on Aging</strong></em>. Sage Publications, Vol.12, No.2, June 1990.</p>
+</li>
+<li>
+<p><a id="note2" name="note2">For</a> a single elderly persons, 150 percent of the poverty level in 1990 is approximately $9,300. For an elderly couple, it is approximately $11,800. Elderly poverty levels are approximately 8 percent lower than the levels for non-elderly persons. Estimates in this section are based on family income, which means that sources of income and amounts for family members under the age of 65 are included for elderly persons living with others. Approximately 31 percent of the elderly live alone, 44 percent live with their spouse only, and the remaining 25 percent live with relatives or others.</p>
+</li>
+<li>
+<p><a id="note3" name="note3">The</a> new worth concepts used here does not account for human capital, vested pension assets, social security wealth or in kind transfers, such as Medicare.</p>
+</li>
+<li>
+<p><a id="note4" name="note4">U.S</a>. Bureau of the Census, Current Population Reports Series P-70, No.22, <em><strong>Household Wealth and Asset Ownership: 1988</strong></em>, U.S. Government Printing Office, Washington, D.C. 1990.</p>
+</li>
+<li>
+<p><a id="note5" name="note5">The</a> increase in median net worth of elderly households was primarily attributable to increased net worth among the 65 to 74 year age cohort. Median net worth of elderly households over age 75 declined slightly, from $62,865 to $61,491 over this period (although the standard errors of these statistics exceeds the difference between them). Source: U.S. Bureau of the Census, <em><strong>Household Wealth and Asset Ownership: 1988</strong></em>.</p>
+</li>
+<li>
+<p><a id="note6" name="note6">Financial</a> assets include savings accounts, savings bonds, checking accounts, money market funds, equity in rental property, equity on stock holdings, equity in a business, mortgages held, IRAs, and Keoghs less any consumer debt.</p>
+</li>
+<li>
+<p><a id="note7" name="note7">Home</a> equity is defined at the market value of the home minus mortgage or other debt associated with the house.</p>
+</li>
+<li>
+<p><a id="note8" name="note8">Radner</a>, D. "New Worth and Financial Assets by Age Groups in 1984." <em><strong>Social Security Bulletin</strong></em> Vol.52(3):2-15, March 1989.</p>
+</li>
+<li>
+<p><a id="note9" name="note9">These</a> data, drawn from the Survey of Income and Program Participation (SIPP) use a broad definition of disability. Disabled is defined as needing assistance moving around inside or outside the house, getting into our out of bed, or requiring personal care, such as eating, bathing, or dressing. The SIPP, unlike the National Long-Term Care Survey (NLTCS), does not include detailed measures of disability. The NLTCS, on the other hand, does not include detailed measures of income or wealth.</p>
+</li>
+<li>
+<p><a id="note10" name="note10">Liu</a>, K., Manton, K. and Liu B. "Home Care Expenses for the Disabled Elderly." <em><strong>Health Care Financing Review</strong></em> Vol.7(2):51-58, Winter 1985.</p>
+</li>
+<li>
+<p><a id="note11" name="note11">Pauly</a>, M. "The Rational Nonpurchase of Long-Term Care Insurance." <em><strong>Journal of Political Economy</strong></em> Vol.98(11):153-168, 1990.</p>
+</li>
+<li>
+<p><a id="note12" name="note12">Spence</a>, D. and Wiener, J.: "Estimating the Extent of Medicaid Spend Down in Nursing homes." <em><strong>Journal of Health Politics, Policy and Law</strong></em> Vol.15(3):607-626, Fall 1990.</p>
+</li>
+<li>
+<p><a id="note13" name="note13">Based</a> on single stays, not entire episodes of care.</p>
+</li>
+<li>
+<p><a id="note14" name="note14">Burwell</a>, B., Adams, E., and Meiners, M.: "Spend-down of Assets Before Medicaid Eligibility Among Elderly Nursing-Home Recipients in Michigan." <em><strong>Medical Care</strong></em> Vol.28(4):349-362, April 1990.</p>
+</li>
+<li>
+<p><a id="note15" name="note15">The</a> financial impact on non-institutionalized spouses of nursing home residents was ameliorated substantially by the spousal impoverishment provisions of the Medicare Catastrophic Coverage Act of 1988, one of the few provisions of the Act that was <em>not</em> subsequently repealed.</p>
+</li>
+<li>
+<p><a id="note16" name="note16">Adams</a>, K., Meiners, M. and Burwell, B. <em><strong>Medicaid Spend-Down in Nursing Homes: A Synthesis of Recent Research</strong></em>. Paper prepared for the Office of the Assistant Secretary for Planning and Evaluation, DHHS, under contract HHS-100-88-0041, November 1990. [<a href="syncries.htm">Full Report</a>]</p>
+</li>
+<li>
+<p><a id="note17" name="note17">Liu</a>, K., Doty, P. and Manton, K.: "Medicaid Spend-down in Nursing Homes." <em><strong>The Gerontologist</strong></em> Vol.30(1):7-15, 1990. [<a href="/daltcp/reports/medspnes.htm">Executive Summary</a>]</p>
+</li>
+<li>
+<p><a id="note18" name="note18">Wiener</a>, J. and Spence, D.: "Estimating the Extent of Medicaid Spend-Down in Nursing Homes." <em><strong>Journal of Health Politics, Policy and Law</strong></em> Vol.15(3):607-626, Fall 1990.</p>
+</li>
+<li>
+<p><a id="note19" name="note19">Short</a>, P., Kemper, P., Cornelius, L. and Walden, D.: "Public and Private Responsibility for Financing Nursing Home Care: The Effect of Medicaid Spend-Down." Paper presented at the 1990 meetings of the American Public Health Association, October 1990.</p>
+</li>
+<li>
+<p><a id="note20" name="note20">Burwell</a>, B. et al.: "Spend-Down of Assets Before Medicaid Eligibility Among Elderly Nursing Home Recipients in Michigan."</p>
+</li>
+<li>
+<p><a id="note21" name="note21">Farbstein</a>, K., Gruenberg, L. and Pattee, C.: "When Nursing Home Spend-Down Occurs: An Analysis of Multiple Episodes of Nursing Home Use From a Discharge Cohort." Study conducted for the Connecticut Partnership for Long Term Care Research Institute, September, 1989.</p>
+</li>
+<li>
+<p><a id="note22" name="note22">Gruenberg</a>, L, Farbstein, K., Hughes-Cromwick, P., Pattee, C., and Mahoney, K.: "An Analysis of the Spend-Down Patterns of Individuals Admitted to Nursing Homes in the State of Connecticut." Study conducted for the Connecticut Partnership for Long Term Care Research Institute, September, 1989.</p>
+</li>
+<li>
+<p><a id="note23" name="note23">Bice</a>, T. and Pattee, C.: "Nursing Home Stays and Spend-Down in the State of Connecticut: 1978-1983 Admission Cohorts." Study conducted for Planning and Evaluation, Department of Health and Human Services, October 1990. [<a href="/daltcp/reports/78nhctes.htm">Executive Summary</a>]</p>
+</li>
+<li>
+<p><a id="note24" name="note24">Farbstein</a>, K. et al: "When Nursing Home Spend-Down Occurs."</p>
+</li>
+<li>
+<p><a id="note25" name="note25">Adams</a>, K. et al: "Medicaid Spend-Down in Nursing Homes: A Synthesis of Recent Research." [<a href="syncries.htm">Full Report</a>]</p>
+</li>
+<li>
+<p><a id="note26" name="note26">Liu</a>, K. et al: "Medicaid Spend-Down in Nursing Homes."</p>
+</li>
+<li>
+<p><a id="note27" name="note27">Adams</a>, K.: "Enrollment in Medicaid by the Elderly: Which Catastrophe?" Paper prepared for the Office of Research, Health Care Financing Administration under contract no. HCFA-500-86-0016, 1990 (Draft).</p>
+</li>
+<li>
+<p><a id="note28" name="note28">Essentially</a>, this estimates the percentage of elderly couples who could afford to pay for private care indefinitely for one member, since no assets are needed to pay for care.</p>
+</li>
+<li>
+<p><a id="note29" name="note29">Hahn</a>, B. and Lefkowitz, D. (November 1992). "Annual Expenses and Sources of Payment for Health Care Services". (AHCPR Pub.No.9300007). National Medical Expenditure Survey Research, Findings 14.</p>
+</li>
+<li>
+<p><a id="note30" name="note30">Feder</a>, J., Moon, M. and Scanlon, W. (1987) "Medicare Reform: Nibbling at Catastrophic Costs", <em><strong>Health Affairs</strong></em> 6, 6-19.</p>
+</li>
+<li>
+<p><a id="note31" name="note31">Liu</a>, K. Perozek, M. and Manton, K. "Catastrophic Acute and Long-Term Care Costs: Risks Faced by Disabled Elderly Persons". [<a href="catacues.htm">Full Report</a>]</p>
+</li>
+<li>
+<p><a id="note32" name="note32">A</a> survey of long term care insurance purchasers indicates that approximately 60 percent of purchasers use liquid assets to help finance insurance premiums.</p>
+</li>
+<li>
+<p><a id="note33" name="note33">Specifically</a>, one-half of what the family now spends on tobacco, alcohol, and cash contributions to others and the full amount of spending on vehicles, educations, and household equipment and furnishings was subtracted. In addition to the fact that these last three groups of expenditures are discretionary, they also appear in these data in lump sum and thus exaggerate the spending patterns of many families. That is, many families extend their care payments over three or four years but the data on consumer expenditures show the full amount of the cost of the car on the date of purchase regardless of how it is financed.</p>
+</li>
+<li>
+<p><a id="note34" name="note34">The</a> lower priced policy is a nursing home only policy that covers four years of care after a 100 day waiting period. The higher priced four year policy includes a home care benefit. Both would pay $80 per day currently and would be adjusted over time for inflation.</p>
+</li>
+<li>
+<p><a id="note35" name="note35">HIAA</a>, "Who Buys Long-Term Care Insurance?" submitted by LifePlans, 1992.</p>
+</li>
+<li>
+<p><a id="note36" name="note36">HIAA</a>, 1990.</p>
+</li>
+<li>
+<p><a id="note37" name="note37">HIAA</a>, 1990.</p>
+</li>
+<li>
+<p><a id="note38" name="note38">General</a> Accounting Office, "Nursing Homes Admission Problems for Medicaid Recipients and Attempts to Solve Them," HRD-90-135, September 1990.</p>
+</li>
+<li>
+<p><a id="note39" name="note39">Crystal</a>, S. and Shea, D.: "Cumulative Advantage, Cumulative Disadvantage, and Inequality Among Elderly People." <em><strong>The Gerontologist</strong></em> Vol.30(4):437-443, August 1990.</p>
+</li>
+</ol><hr /><table><tbody><tr><td colspan="5"><strong><a id="TABLE1" name="TABLE1">TABLE 1</a>: SOURCES OF ANNUAL INCOME OF THE ELDERLY BY LEVEL OF INCOME (in 1990 dollars)</strong></td>
+</tr><tr><td rowspan="2"><strong>Family Income Source</strong></td>
+<td colspan="4"><strong>Family Income Level</strong></td>
+</tr><tr><td><strong>Low</strong></td>
+<td><strong>Modest</strong></td>
+<td><strong>Moderate to High</strong></td>
+<td><strong>Total</strong></td>
+</tr><tr><td><strong>Percent of Persons</strong></td>
+<td>36%</td>
+<td>40%</td>
+<td>24%</td>
+<td>100%</td>
+</tr><tr><td colspan="5"><strong>Social Security</strong></td>
+</tr><tr><td>   Percent with Income</td>
+<td>94%</td>
+<td>98%</td>
+<td>93%</td>
+<td>95%</td>
+</tr><tr><td>   Median Amount a</td>
+<td>$5,234</td>
+<td>$8,413</td>
+<td>$9,216</td>
+<td>$6,943</td>
+</tr><tr><td>   Average % of Total Income b</td>
+<td>71%</td>
+<td>47%</td>
+<td>23%</td>
+<td>51%</td>
+</tr><tr><td colspan="5"><strong>Pension</strong></td>
+</tr><tr><td>   Percent with Income</td>
+<td>28%</td>
+<td>66%</td>
+<td>68%</td>
+<td>52%</td>
+</tr><tr><td>   Median Amount a</td>
+<td>$1,253</td>
+<td>$3,574</td>
+<td>$8,550</td>
+<td>$3,737</td>
+</tr><tr><td>   Average % of Total Income b</td>
+<td>6%</td>
+<td>18%</td>
+<td>20%</td>
+<td>14%</td>
+</tr><tr><td colspan="5"><strong>Employment</strong></td>
+</tr><tr><td>   Percent with Income</td>
+<td>14%</td>
+<td>35%</td>
+<td>54%</td>
+<td>32%</td>
+</tr><tr><td>   Median Amount a</td>
+<td>$2,081</td>
+<td>$6,941</td>
+<td>$18,139</td>
+<td>$7,837</td>
+</tr><tr><td>   Average % of Total Income b</td>
+<td>5%</td>
+<td>16%</td>
+<td>23%</td>
+<td>13%</td>
+</tr><tr><td colspan="5"><strong>Asset</strong></td>
+</tr><tr><td>   Percent with Income</td>
+<td>62%</td>
+<td>92%</td>
+<td>97%</td>
+<td>82%</td>
+</tr><tr><td>   Median Amount a</td>
+<td>$467</td>
+<td>$1,769</td>
+<td>$6,161</td>
+<td>$1,677</td>
+</tr><tr><td>   Average % of Total Income b</td>
+<td>7%</td>
+<td>15%</td>
+<td>23%</td>
+<td>13%</td>
+</tr><tr><td colspan="5"><strong>Other</strong> c</td>
+</tr><tr><td>   Average % of Total Income b</td>
+<td>11%</td>
+<td>4%</td>
+<td>5%</td>
+<td>8%</td>
+</tr><tr><td><strong>Total Median Income</strong></td>
+<td>$6,834</td>
+<td>$16,442</td>
+<td>$34,208</td>
+<td>$14,846</td>
+</tr><tr><td colspan="5">
+<ol><li>Median amount for persons with income from this source.</li>
+<li>Average percent of family income for all persons.</li>
+<li>Other income includes SSI, rental income, and business income.</li>
+</ol></td>
+</tr><tr><td colspan="5">NOTE: Low income is defined as less than 150 percent of the poverty level; modest income is defined as between 150 and 299 percent of the poverty level and moderate to high income is defines as 300 percent of the poverty level or greater. Family income is based on income from all persons in the family. SOURCE: Lewin/ICF estimates based on data from the 1984 Survey on Income and Program Participation (SIPP).</td>
+</tr></tbody></table><table><tbody><tr><td colspan="5"><strong><a id="TABLE2" name="TABLE2">TABLE 2</a>: ASSETS OF THE ELDERLY BY LEVEL OF INCOME (in 1990 dollars)</strong></td>
+</tr><tr><td rowspan="2"><strong>Family Income Source</strong></td>
+<td colspan="4"><strong>Family Income Level</strong></td>
+</tr><tr><td><strong>Low</strong></td>
+<td><strong>Modest</strong></td>
+<td><strong>Moderate to High</strong></td>
+<td><strong>Total</strong></td>
+</tr><tr><td><strong>Percent of Persons</strong></td>
+<td>36%</td>
+<td>40%</td>
+<td>24%</td>
+<td>100%</td>
+</tr><tr><td colspan="5"><strong>Financial</strong> a</td>
+</tr><tr><td>   Percent of Persons with Assets</td>
+<td>78%</td>
+<td>96%</td>
+<td>99%</td>
+<td>90%</td>
+</tr><tr><td>   Median Amount b</td>
+<td>$5,509</td>
+<td>$30,309</td>
+<td>$84,921</td>
+<td>$26,704</td>
+</tr><tr><td colspan="5"><strong>Home Equity</strong></td>
+</tr><tr><td>   Percent of Persons with Equity</td>
+<td>60%</td>
+<td>81%</td>
+<td>88%</td>
+<td>75%</td>
+</tr><tr><td>   Median Amount b</td>
+<td>$30,538</td>
+<td>$44,821</td>
+<td>$64,830</td>
+<td>$45,021</td>
+</tr><tr><td colspan="5">
+<ol><li>Financial assets include: savings accounts, savings bonds, checking accounts, money market funds, equity in rental property, equity in stock holdings, equity in a business, mortgages held, IRAs, and Keoughs less consumer debt.</li>
+<li>Median amount for persons with assets.</li>
+</ol></td>
+</tr><tr><td colspan="5">NOTE: Low income is defined as less than 150 percent of the poverty level; modest income is defined as between 150 and 299 percent of the poverty level; and moderate to high income is defined as 300 percent of the poverty level or greater as high. Family income is based on income from all persons living in the family. SOURCE: Lewin/ICF estimates based on data from the 1984 Survey on Income and Program Participation (SIPP).</td>
+</tr></tbody></table><div class="bordered-text"><strong><a id="TABLE3" name="TABLE3">TABLE 3</a></strong>: unavailable at the time of HTML conversion--will be added at a later date. A copy can be requested from DALTCP.</div>
+<table><tbody><tr><td colspan="5"><strong><a id="TABLE4" name="TABLE4">TABLE 4</a>: SOURCES OF INCOME OF THE ELDERLY AGE 75 AND OVER BY LEVEL OF INCOME (in 1990 dollars)</strong></td>
+</tr><tr><td rowspan="2"><strong>Family Income Source</strong></td>
+<td colspan="4"><strong>Family Income Level</strong></td>
+</tr><tr><td><strong>Low</strong></td>
+<td><strong>Modest</strong></td>
+<td><strong>Moderate to High</strong></td>
+<td><strong>Total</strong></td>
+</tr><tr><td><strong>Percent of Persons</strong></td>
+<td>48%</td>
+<td>34%</td>
+<td>18%</td>
+<td>100%</td>
+</tr><tr><td colspan="5"><strong>Social Security</strong></td>
+</tr><tr><td>   Percent with Income</td>
+<td>95%</td>
+<td>98%</td>
+<td>96%</td>
+<td>96%</td>
+</tr><tr><td>   Median Amount a</td>
+<td>$5,183</td>
+<td>$7,504</td>
+<td>$8,871</td>
+<td>$6,214</td>
+</tr><tr><td>   Average % of Total Income b</td>
+<td>74%</td>
+<td>47%</td>
+<td>24%</td>
+<td>56%</td>
+</tr><tr><td colspan="5"><strong>Pension</strong></td>
+</tr><tr><td>   Percent with Income</td>
+<td>26%</td>
+<td>62%</td>
+<td>66%</td>
+<td>46%</td>
+</tr><tr><td>   Median Amount a</td>
+<td>$1,136</td>
+<td>$3,400</td>
+<td>$8,174</td>
+<td>$3,202</td>
+</tr><tr><td>   Average % of Total Income b</td>
+<td>6%</td>
+<td>17%</td>
+<td>17%</td>
+<td>11%</td>
+</tr><tr><td colspan="5"><strong>Employment</strong></td>
+</tr><tr><td>   Percent with Income</td>
+<td>6%</td>
+<td>25%</td>
+<td>51%</td>
+<td>21%</td>
+</tr><tr><td>   Median Amount a</td>
+<td>$2,312</td>
+<td>$9,865</td>
+<td>$17,941</td>
+<td>$10,087</td>
+</tr><tr><td>   Average % of Total Income b</td>
+<td>2%</td>
+<td>12%</td>
+<td>25%</td>
+<td>9%</td>
+</tr><tr><td colspan="5"><strong>Asset</strong></td>
+</tr><tr><td>   Percent with Income</td>
+<td>68%</td>
+<td>94%</td>
+<td>97%</td>
+<td>82%</td>
+</tr><tr><td>   Median Amount a</td>
+<td>$528</td>
+<td>$2,506</td>
+<td>$7,713</td>
+<td>$1,663</td>
+</tr><tr><td>   Average % of Total Income b</td>
+<td>9%</td>
+<td>19%</td>
+<td>28%</td>
+<td>16%</td>
+</tr><tr><td colspan="5"><strong>Other</strong> c</td>
+</tr><tr><td>   Average % of Total Income b</td>
+<td>9%</td>
+<td>5%</td>
+<td>6%</td>
+<td>8%</td>
+</tr><tr><td><strong>Total Median Income</strong></td>
+<td>$6,560</td>
+<td>$15,778</td>
+<td>$33,814</td>
+<td>$11,588</td>
+</tr><tr><td colspan="5">
+<ol><li>Median amount for persons with income from this source.</li>
+<li>Average percent of family income for all persons.</li>
+<li>Other income includes SSI, rental income, and business income.</li>
+</ol></td>
+</tr><tr><td colspan="5">NOTE: Low income is defined as less than 150 percent of the poverty level; modest income is defined as between 150 and 299 percent of the poverty level and moderate to high income is defines as 300 percent of the poverty level or greater. Family income is based on income from all persons in the family. SOURCE: Lewin/ICF estimates based on data from the 1984 Survey on Income and Program Participation (SIPP).</td>
+</tr></tbody></table><table><tbody><tr><td colspan="5"><strong><a id="TABLE5" name="TABLE5">TABLE 5</a>: DISTRIBUTION OF ALTERNATIVE GROUPS OF ELDERLY PERSONS BY FAMILY INCOME LEVEL (in 1990 dollars)</strong></td>
+</tr><tr><td rowspan="2"> </td>
+<td colspan="4"><strong>Family Income Level</strong></td>
+</tr><tr><td><strong>Low</strong></td>
+<td><strong>Modest</strong></td>
+<td><strong>Moderate to High</strong></td>
+<td><strong>Total</strong></td>
+</tr><tr><td>Non-Disabled Elderly</td>
+<td>33%</td>
+<td>42%</td>
+<td>25%</td>
+<td>100%</td>
+</tr><tr><td>Elderly Age 75 and Over</td>
+<td>48%</td>
+<td>34%</td>
+<td>18%</td>
+<td>100%</td>
+</tr><tr><td>Disabled Elderly</td>
+<td>52%</td>
+<td>31%</td>
+<td>16%</td>
+<td>100%</td>
+</tr><tr><td>Disabled Elderly Age 75 and Over</td>
+<td>55%</td>
+<td>30%</td>
+<td>15%</td>
+<td>100%</td>
+</tr><tr><td>All Elderly</td>
+<td>36%</td>
+<td>40%</td>
+<td>24%</td>
+<td>100%</td>
+</tr><tr><td colspan="5">NOTE: Low income is defines as less than 150 percent of the poverty level; modest income is defined as between 150 and 299 percent of the poverty level and moderate to high income is defines as 300 percent of the poverty level or greater. Family income is based on income from all persons in the family. SOURCE: Lewin/ICF estimates based on data from the 1984 Survey on Income and Program Participation (SIPP).</td>
+</tr></tbody></table><table><tbody><tr><td colspan="4"><strong><a id="TABLE6" name="TABLE6">TABLE 6</a>: PERCENT OF ELDERLY COUPLES ABLE TO PRIVATELY PAY FOR ONE YEAR OF LONG TERM CARE (in 1990 dollars)</strong></td>
+</tr><tr><td rowspan="2"> </td>
+<td colspan="3"><strong>Available Resources</strong></td>
+</tr><tr><td><strong>No Assets</strong></td>
+<td><strong>50% of Assets Over 4 Years</strong></td>
+<td><strong>50% of Assets Over 1 Year</strong></td>
+</tr><tr><td>All Elderly Couples</td>
+<td>3.2%</td>
+<td>16.1%</td>
+<td>48.0%</td>
+</tr><tr><td>Disabled Couples</td>
+<td>3.4%</td>
+<td>18.8%</td>
+<td>38.1%</td>
+</tr><tr><td colspan="4"><strong>No Assets</strong>--Housing, health and personal insurance expenditures are assumed to remain as is. Other expenditures are protected for the community spouse up to two-thirds of the preinstitutionalization level. Assets and asset income are left intact. <strong>50% of Assets over 4 Years</strong>--Assumes the expenditures projections listed above, allowing the community spouse all housing, health and personal insurance expenses and 2/3 of everything else. It also effectively requires that the couple devote up to half of its financial assets to the cost of the institutionalization over a four year period. <strong>50% of Assets over 1 Year</strong>--An upper bound on the contribution that could be expected form a couple would be to protect housing, health and personal insurance but no expenditures for alcohol, tobacco and ash contribution and only 1/2 of all other expenditures, and to require that the couple use of half of its financial assets in one year.</td>
+</tr><tr><td colspan="4">NOTE: Disability is defined as requiring assistance with personal needs such as eating, bathing, or dressing. SOURCE: Lewin/ICF and Urban Institute estimates based on a statistically matched data base of 1984 Consumer Expenditures Survey data and 1984 Survey of Income and Program Participation data.</td>
+</tr></tbody></table><table><tbody><tr><td colspan="4"><strong><a id="TABLE7" name="TABLE7">TABLE 7</a>: PERCENT OF ELDERLY COUPLES ABLE TO PRIVATELY PAY FOR ONE YEAR OF LONG TERM CARE (in 1990 dollars)</strong></td>
+</tr><tr><td rowspan="2"> </td>
+<td colspan="3"><strong>Available Resources</strong></td>
+</tr><tr><td><strong>No Assets</strong></td>
+<td><strong>All Assets Over 4 Years</strong></td>
+<td><strong>All Assets In 1 Year</strong></td>
+</tr><tr><td>All Single Persons</td>
+<td>0.5%</td>
+<td>12.3%</td>
+<td>39.5%</td>
+</tr><tr><td>Disabled Single Persons</td>
+<td>0.0%</td>
+<td>7.5%</td>
+<td>17.0%</td>
+</tr><tr><td colspan="4"><strong>No Assets</strong>--Housing, health and personal insurance expenditures are assumed to remain as is. Other expenditures are protected for the community spouse up to two-thirds of the preinstitutionalization level. Assets and asset income are left intact. <strong>50% of Assets over 4 Years</strong>--Assumes the expenditures projections listed above, allowing the community spouse all housing, health and personal insurance expenses and 2/3 of everything else. It also effectively requires that the couple devote up to half of its financial assets to the cost of the institutionalization over a four year period. <strong>50% of Assets over 1 Year</strong>--An upper bound on the contribution that could be expected form a couple would be to protect housing, health and personal insurance but no expenditures for alcohol, tobacco and ash contribution and only 1/2 of all other expenditures, and to require that the couple use of half of its financial assets in one year.</td>
+</tr><tr><td colspan="4">NOTE: Disability is defined as requiring assistance with personal needs such as eating, bathing, or dressing. SOURCE: Lewin/ICF and Urban Institute estimates based on a statistically matched data base of 1984 Consumer Expenditures Survey data and 1984 Survey of Income and Program Participation data.</td>
+</tr></tbody></table><table><tbody><tr><td colspan="5"><strong><a id="TABLE8" name="TABLE8">TABLE 8</a>: AVERAGE OUT-OF-POCKET EXPENDITURES PER MONTH AND THE PERCENTAGE OF DISABLED ELDERLY PERSONS WITH PRIVATE EXPENSES EXCEEDING 15% AND 20% OF INCOME, 1982</strong></td>
+</tr><tr><td rowspan="2"> </td>
+<td colspan="4"><strong>Income Per Month</strong></td>
+</tr><tr><td><strong>All Persons</strong></td>
+<td><strong>&lt;500</strong></td>
+<td><strong>$500-$1,000</strong></td>
+<td><strong>&gt;$1,000</strong></td>
+</tr><tr><td colspan="5"><strong>Out-of-Pocket</strong></td>
+</tr><tr><td>Average Expenditures Per Month</td>
+<td>$130</td>
+<td>$96</td>
+<td>$148</td>
+<td>$167</td>
+</tr><tr><td colspan="5"><strong>Out-of-Pocket Expenditures Exceeding Percentage of Income</strong></td>
+</tr><tr><td>&gt;15%</td>
+<td>41%</td>
+<td>53%</td>
+<td>40%</td>
+<td>18%</td>
+</tr><tr><td>   Nursing Home Users</td>
+<td>87%</td>
+<td>90%</td>
+<td>89%</td>
+<td>72%</td>
+</tr><tr><td>   Non Nursing Home Users</td>
+<td>35%</td>
+<td>47%</td>
+<td>33%</td>
+<td>12%</td>
+</tr><tr><td>&gt;20%</td>
+<td>30%</td>
+<td>42%</td>
+<td>27%</td>
+<td>11%</td>
+</tr><tr><td>   Nursing Home Users</td>
+<td>81%</td>
+<td>87%</td>
+<td>81%</td>
+<td>63%</td>
+</tr><tr><td>   Non Nursing Home Users</td>
+<td>23%</td>
+<td>35%</td>
+<td>20%</td>
+<td>6%</td>
+</tr><tr><td colspan="5">SOURCE: Liu, K., Perozek, M. and Manton, K. "Catastrophic Acute and Long-Term Care Costs: Risks Faced by Disabled Elderly Persons."</td>
+</tr></tbody></table><table><tbody><tr><td colspan="4"><strong><a id="TABLE9" name="TABLE9">TABLE 9</a>: PROJECTED NURSING HOME CARE EXPENDITURES FOR THE ELDERLY, 2018 (in billions of 1989 dollars)</strong></td>
+</tr><tr><td> </td>
+<td><strong>No Long Term Care Insurance Purchase</strong></td>
+<td><strong>With Long Term Care Insurance Purchase</strong></td>
+<td><strong>Percent Difference</strong></td>
+</tr><tr><td>Medicare</td>
+<td>$2.9</td>
+<td>$3.0</td>
+<td>3.5%</td>
+</tr><tr><td>Medicaid</td>
+<td>41.0</td>
+<td>39.6</td>
+<td>-3.4%</td>
+</tr><tr><td>Public</td>
+<td>$43.9</td>
+<td>$42.6</td>
+<td>-3.0%</td>
+</tr><tr><td>Long Term Care Insurance</td>
+<td>0.0</td>
+<td>7.5</td>
+<td>NA</td>
+</tr><tr><td>Out-of-Pocket</td>
+<td>57.7</td>
+<td>54.3</td>
+<td>-5.9%</td>
+</tr><tr><td>Private</td>
+<td>$57.7</td>
+<td>$61.8</td>
+<td>7.1%</td>
+</tr><tr><td><strong>Total</strong></td>
+<td>$101.5</td>
+<td>$104.4</td>
+<td>2.9%</td>
+</tr><tr><td colspan="4">NOTE: The long term care insurance policy modeled primarily covers nursing home care and the results assume 30 percent of the elderly purchase long term care insurance. SOURCE: Brookings/ICF Long Term Care Financing Model.</td>
+</tr></tbody></table><table><tbody><tr><td colspan="3"><strong><a id="TABLE10" name="TABLE10">TABLE 10</a>: LONG-TERM CARE INSURANCE POLICY PREMIUMS</strong></td>
+</tr><tr><td><strong>Age of Purchaser</strong></td>
+<td><strong>Lower Priced Policy</strong></td>
+<td><strong>Higher Priced Policy</strong></td>
+</tr><tr><td>45-49</td>
+<td>$285</td>
+<td>$1,025</td>
+</tr><tr><td>50-54</td>
+<td>377</td>
+<td>1,142</td>
+</tr><tr><td>55-59</td>
+<td>499</td>
+<td>1,269</td>
+</tr><tr><td>60-64</td>
+<td>660</td>
+<td>1,559</td>
+</tr><tr><td>65-69</td>
+<td>933</td>
+<td>1,902</td>
+</tr><tr><td>70-74</td>
+<td>1,355</td>
+<td>2,586</td>
+</tr><tr><td>75-79</td>
+<td>2,008</td>
+<td>4,073</td>
+</tr><tr><td colspan="3">NOTE: Both policies are marketed to individuals, not through a group market. The lower priced policy primarily covers nursing home services for four years at $80 per day, after meeting a 100 day deductible period. The higher priced policy also covers home care benefits at $40 per visit. Benefit amounts are indexed at five percent the original benefit amount annually.SOURCE: AMEX, 1990.</td>
+</tr></tbody></table><table><tbody><tr><td colspan="4"><strong><a id="TABLE11" name="TABLE11">TABLE 11</a>: PERCENT OF ELDERLY COUPLES ABLE TO PRIVATELY PAY FOR ONE YEAR OF LONG TERM CARE</strong></td>
+</tr><tr><td rowspan="2"><strong>Age</strong></td>
+<td colspan="3"><strong>Available Resources</strong></td>
+</tr><tr><td><strong>50% of Savings</strong></td>
+<td><strong>100% of Savings</strong></td>
+<td><strong>Savings Plus Some Discretionary Income</strong></td>
+</tr><tr><td>45-54</td>
+<td>34-43%</td>
+<td>40-46%</td>
+<td>52-58%</td>
+</tr><tr><td>55-59</td>
+<td>26-36%</td>
+<td>35-40%</td>
+<td>42-50%</td>
+</tr><tr><td>60-64</td>
+<td>23-32%</td>
+<td>31-36%</td>
+<td>38-47%</td>
+</tr><tr><td>65-74</td>
+<td>17-26%</td>
+<td>26-33%</td>
+<td>31-41%</td>
+</tr><tr><td>75-79</td>
+<td>6-15%</td>
+<td>15-31%</td>
+<td>18-35%</td>
+</tr><tr><td><strong>Total (55-74)</strong></td>
+<td>20-29%</td>
+<td>29-35%</td>
+<td>35-44%</td>
+</tr><tr><td><strong>Total (45-79)</strong></td>
+<td>21-30%</td>
+<td>29-37%</td>
+<td>36-46%</td>
+</tr><tr><td colspan="4"><strong>50% of Annual Savings</strong>--One-half of the savings available from income after taxes and all current expenditures are subtracted.<strong>100% of Annual Savings</strong>--Savings available from income after taxes and all current expenditures are subtracted.<strong>Annual Savings Plus Some Discretionary Income</strong>--Savings available from income after taxes less all basic expenditures, one half of what the family now spends on tobacco, alcohol, and cash contributions to others and the full amount of spending on vehicles, education, and household equipment and furnishings are subtracted.</td>
+</tr><tr><td colspan="4">NOTE: The lower percentage is for those who can afford the more expensive policy and the higher percentage under each definition is for those who can afford the lower priced policy. SOURCE: Lewin/ICF and Urban Institute estimates based on a statistically matched data base of 1984 Consumer Expenditures Survey data and 1984 Survey of Income and Program Participation data.</td>
+</tr></tbody></table><table><tbody><tr><td colspan="7"><strong><a id="TABLE12" name="TABLE12">TABLE 12</a>: PERCENT OF FAMILIES WITH TWO OR MORE ADULTS ABLE TO AFFORD LONG-TERM CARE INSURANCE</strong></td>
+</tr><tr><td rowspan="3"><strong>Age of Head of Household</strong></td>
+<td colspan="6"><strong>Available Resources</strong></td>
+</tr><tr><td colspan="2"><strong>50% of Savings</strong></td>
+<td colspan="2"><strong>100% of Savings</strong></td>
+<td colspan="2"><strong>Savings Plus Some Discretionary Income</strong></td>
+</tr><tr><td><strong>One Policy</strong></td>
+<td><strong>Two Policies</strong></td>
+<td><strong>One Policy</strong></td>
+<td><strong>Two Policies</strong></td>
+<td><strong>One Policy</strong></td>
+<td><strong>Two Policies</strong></td>
+</tr><tr><td>45-54</td>
+<td>56-61%</td>
+<td>49-60%</td>
+<td>60-62%</td>
+<td>56-61%</td>
+<td>77-79%</td>
+<td>74-78%</td>
+</tr><tr><td>55-59</td>
+<td>57-61%</td>
+<td>47-59%</td>
+<td>60-62%</td>
+<td>57-61%</td>
+<td>72-74%</td>
+<td>69-73%</td>
+</tr><tr><td>60-64</td>
+<td>47-52%</td>
+<td>37-49%</td>
+<td>51-54%</td>
+<td>47-52%</td>
+<td>64-66%</td>
+<td>59-65%</td>
+</tr><tr><td>65-74</td>
+<td>41-51%</td>
+<td>23-41%</td>
+<td>51-55%</td>
+<td>41-51%</td>
+<td>62-67%</td>
+<td>53-62%</td>
+</tr><tr><td>75-79</td>
+<td>34-51%</td>
+<td>13-35%</td>
+<td>49-59%</td>
+<td>34-51%</td>
+<td>62-70%</td>
+<td>46-63%</td>
+</tr><tr><td><strong>Total (55-74)</strong></td>
+<td>47-55%</td>
+<td>34-49%</td>
+<td>54-57%</td>
+<td>47-55%</td>
+<td>66-69%</td>
+<td>60-66%</td>
+</tr><tr><td><strong>Total (45-79)</strong></td>
+<td>50-57%</td>
+<td>38-52%</td>
+<td>56-59%</td>
+<td>50-57%</td>
+<td>70-73%</td>
+<td>64-71%</td>
+</tr><tr><td colspan="7"><strong>50% of Annual Savings</strong>--One-half of the savings available from income after taxes and all current expenditures are subtracted.<strong>100% of Annual Savings</strong>--Savings available from income after taxes and all current expenditures are subtracted.<strong>Annual Savings Plus Some Discretionary Income</strong>--Savings available from income after taxes less all basic expenditures, one half of what the family now spends on tobacco, alcohol, and cash contributions to others and the full amount of spending on vehicles, education, and household equipment and furnishings are subtracted.</td>
+</tr><tr><td colspan="7">NOTE: The lower percentage is for those who can afford the more expensive policy and the higher percentage under each definition is for those who can afford the lower priced policy.SOURCE: Lewin/ICF and Urban Institute estimates based on a statistically matched data base of 1984 Consumer Expenditures Survey data and 1984 Survey of Income and Program Participation data.</td>
+</tr></tbody></table><table><tbody><tr><td colspan="4"><strong><a id="TABLE13" name="TABLE13">TABLE 13</a>: EXPECTED DEDUCTIBLES AND COPAYMENTS UNDER LONG-TERM CARE INSURANCE (in normal dollars)</strong></td>
+</tr><tr><td><strong>Long-term Care Insurance Policy a</strong></td>
+<td><strong>Expected Deductible in 2005</strong></td>
+<td><strong>Expected Copayment in First Year</strong></td>
+<td><strong>Total</strong></td>
+</tr><tr><td>Unindexed</td>
+<td>$16,110</td>
+<td>$27,225</td>
+<td>$43,335</td>
+</tr><tr><td>Partially Indexed b</td>
+<td>$16,110</td>
+<td>$10,725</td>
+<td>$26,835</td>
+</tr><tr><td>Fully Indexed c</td>
+<td>$16,110</td>
+<td>$0</td>
+<td>$16,110</td>
+</tr><tr><td colspan="4">
+<ol><li>Policies are assumed to have a 90 day deductible and pay $80/day in 1990. Nursing home costs are assumed to be $179/day in 2005 (5.5 percent annual inflation). Policies are assumed to be purchased in 1990.</li>
+<li>Benefits increase at 5 percent of the original benefit.</li>
+<li>Benefits increase 5.5 percent annually.</li>
+</ol></td>
+</tr><tr><td colspan="4">SOURCE: Lewin/ICF estimates.</td>
+</tr></tbody></table><div class="group-tags"><div class="field-label">Tags:&nbsp;</div><a href="/terms/disability-aging-and-long-term-care-research">Disability, Aging and Long-Term Care Research</a><a href="/terms/publications-2">Publications</a><a href="/terms/expenditures">Expenditures</a><a href="/terms/asset-spenddown">Asset Spenddown</a><a href="/terms/healthcarelong-term-care-financing">Healthcare/Long-Term Care Financing</a><a href="/terms/medicaid-1">Medicaid</a><a href="/terms/medicaid-0">Medicaid</a></div>  </div>
+
+      <footer>
+          </footer>
+  
+    <div id="block-webform-client-block-158521" class="widget block block-webform" >
+  
+      
+  <div id="webform-ajax-wrapper-158521"><form class="webform-client-form webform-client-form-158521" action="/basic-report/economic-impact-long-term-care-individuals" method="post" id="webform-client-form-158521" accept-charset="UTF-8"><div><div class="webform-progressbar">
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-radios webform-component--was-this-page-helpful">
+  <label for="edit-submitted-was-this-page-helpful">Was this page helpful? <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-was-this-page-helpful" class="form-radios"><div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-1" name="submitted[was_this_page_helpful]" value="1" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-1">Yes </label>
+
+</div>
+<div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-2" name="submitted[was_this_page_helpful]" value="0" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-2">No </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="4" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-iBHY0GlQWOB_c7wMvjrNoAB56hciu8UhSTxhX2Gttp4" />
+<input type="hidden" name="form_id" value="webform_client_form_158521" />
+<input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-158521" />
+<div class="form-actions"><input class="webform-next button-primary btn btn-default form-submit" type="submit" id="edit-webform-ajax-next-158521" name="op" value="Next &gt;" /></div>
+<div class="is-useful-disclaimer"> <a href="/%23" class="" title="Survey Disclaimer" data-toggle="modal" data-target="#disclamerModal">Form Approved OMB# 0990-0379 Exp. Date 8/31/2017</a></div>
+<div class="modal fade" id="disclamerModal" tabindex="-1" role="dialog" aria-labelledby="disclamerModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="disclamerModalLabel">Survey Disclaimer</h2>
+      </div>
+      <div class="modal-body">
+         According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this information collection is 0990-0379. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, gather the data needed, and complete and review the information collection. If you have comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: U.S. Department of Health & Human Services, OS/OCIO/PRA, 200 Independence Ave., S.W., Suite 336-E, Washington D.C. 20201, Attention: PRA Reports Clearance Officer.      </div>
+    </div>
+  </div>
+</div></div></form></div>
+  </div> <!-- /.block -->
+<meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/economic-impact-long-term-care-individuals" itemref="md1 md3 md5 md7 md9 md11 md13 md15" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/disability-aging-and-long-term-care-research" id="md3" itemref="md2" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/publications-2" id="md5" itemref="md4" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/expenditures" id="md7" itemref="md6" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/asset-spenddown" id="md9" itemref="md8" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/healthcarelong-term-care-financing" id="md11" itemref="md10" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/medicaid-1" id="md13" itemref="md12" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/medicaid-0" id="md15" itemref="md14" />              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <footer  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Footer">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  id="footer_sitemap-footer_sitemap" class="col-sm-6 col-md-6 col-lg-4 ">
+                          
+                              <div id="block-footer-sitemap-footer-sitemap" class="widget block block-footer-sitemap" >
+  
+      
+  <div id="footer-sitemap" class="clearfix">
+  <div class="fs-block-content"><div class="menu-footer-utility"><ul class="footer_links_menu-footer-utility total-items-2 parent-items-0 single-items-0"><li class="menu-5021 depth-1 total-children-8 parent-children-0 single-children-8  first"><a href="/" title="look at ASPE Home" class="fs-root-link">ASPE Home</a><ul class="footer_links_menu-footer-utility total-items-8 parent-items-0 single-items-0"><li class="menu-5026 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/" title="look at HHS Home">HHS Home</a></li>
+<li class="menu-66281 depth-1 fs-no-children"><a href="http://www.usa.gov/" title="look at USA.gov">USA.gov</a></li>
+<li class="menu-66316 depth-1 fs-no-children"><a href="https://oig.hhs.gov/" title="look at Office of the Inspector General">Office of the Inspector General</a></li>
+<li class="menu-66321 depth-1 fs-no-children"><a href="http://www.whitehouse.gov" title="look at The White House">The White House</a></li>
+<li class="menu-5046 depth-1 fs-no-children"><a href="http://www.hhs.gov/Accessibility.html" title="look at Accessibility">Accessibility</a></li>
+<li class="menu-66326 depth-1 fs-no-children"><a href="http://www.hhs.gov/about/budget/index.html" title="look at Budget/Performance">Budget/Performance</a></li>
+<li class="menu-2551 depth-1 fs-no-children"><a href="http://www.hhs.gov/Privacy.html" title="look at Privacy Policy">Privacy Policy</a></li>
+<li class="menu-197776 depth-1 fs-no-children  last"><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" title="Nondiscrimination Notice">Nondiscrimination Notice</a></li>
+</ul></li>
+<li class="menu-5051 depth-1 total-children-4 parent-children-0 single-children-4  last"><a href="http://www.hhs.gov/foia/" title="look at FOIA" class="fs-root-link">FOIA</a><ul class="footer_links_menu-footer-utility total-items-4 parent-items-0 single-items-0"><li class="menu-5056 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/open/recordsandreports/plainwritingact/index.html" title="look at Plain Writing Act">Plain Writing Act</a></li>
+<li class="menu-5061 depth-1 fs-no-children"><a href="http://www.hhs.gov/asa/eeo/no_fear_bullet_3.html" title="look at No Fear Act">No Fear Act</a></li>
+<li class="menu-5066 depth-1 fs-no-children"><a href="http://www.hhs.gov/Disclaimer.html" title="look at Disclaimers">Disclaimers</a></li>
+<li class="menu-2546 depth-1 fs-no-children  last"><a href="http://www.hhs.gov/plugins.html" title="look at Viewers &amp; Players">Viewers &amp; Players</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-5 " id="stability_cms-contact_us">
+                          
+                              <div id="block-stability-cms-contact-us" class="widget block block-stability-cms" >
+  
+      
+  <div class="contacts-widget widget widget__footer">
+	<div class="widget-content">
+		<ul class="contacts-info-list">
+      			<li>
+<!--				<i class="fa fa-map-marker">Address</i>-->
+                <div class="info-icons">
+                    <img  alt="map" class= 'map-icons' src="/sites/all/themes/stability/stability_aspe/images/map.png"/>
+                </div>
+                <div class="info-item">
+					Assistant Secretary for Planning and Evaluation, Room 415F<br />
+U.S. Department of Health and Human Services<br />
+200 Independence Avenue, SW<br />
+Washington, D.C. 20201				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-phone">phone</i>-->
+                <div class="info-icons">
+                    <img alt="phone" src="/sites/all/themes/stability/stability_aspe/images/phone.png"/>
+                </div>
+				<div class="info-item">
+					+1 202.690.7858				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-envelope">email</i>-->
+                <div class="info-icons">
+                    <img alt="mail" src="/sites/all/themes/stability/stability_aspe/images/mail-white.png"/>
+                </div>
+				<span class="info-item">
+					<a href="mailto:osaspeinfo@hhs.gov">osaspeinfo@hhs.gov</a>
+				</span>
+			</li>
+      			                					</ul>
+	</div>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-3 " id="footer">
+                          
+                              <div id="block-block-36" class="widget block block-block" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sign-up</span> for Email Updates</h3>
+		</div>
+    
+  <div class="email_updates">
+<button class="btn btn-default" name="subscribe-button" type="submit" value="subscribe">subscribe</button>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-12 " id="menu-menu-footer-language-menu">
+                          
+                              <div id="block-menu-menu-footer-language-menu" class="widget block block-menu" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Language</span> Assistance Available</h3>
+		</div>
+    
+  <ul class="menu"><li class="first expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#spanish" title="Español">Español</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#chinese" title="繁體中文">繁體中文</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#vietnamese" title="Tiếng Việt">Tiếng Việt</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#korean" title="한국어">한국어</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#tagalog" title="Tagalog">Tagalog</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#russian" title="Русский">Русский</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#arabic" title="العربية">العربية</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#creole" title="Kreyòl Ayisyen">Kreyòl Ayisyen</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#french" title="Français">Français</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#polish" title="Polski">Polski</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#portuguese" title="Português">Português</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#italian" title="Italiano">Italiano</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#german" title="Deutsch">Deutsch</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#japanese" title="日本語">日本語</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#farsi" title="فارسی">فارسی</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#english" title="English">English</a></li>
+</ul></li>
+</ul>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+      </div>
+
+          </div>
+    
+    
+      </footer>
+    
+
+    <!--/PAGEWATCH-->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+                        </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="social-links-wrapper">
+              <span class="social-links-txt">Connect with us</span>
+              <ul class="social-links social-links__dark">
+                                                  <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw-grey.png"/></a></li>
+                                <!--                --><!--                  <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin-grey.png"/></a></li>-->
+<!--                -->
+                                                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>  <script type="text/javascript" src="/sites/default/files/advagg_js/js__VWRymaMz6HfrhnrcJNGcDiSvLVrvhaXvBa7nrBYy8gc__jntPwP3D6myJZH1jW19fXrk5cYMHGRL8NQION22VSEA__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5486d15a696bff0c"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__g6mKbcakHxQkz4ZHYaxdO_xqONINvRMgsHh1zAK-fr0__ATHtEmHaeZ0jidpGU22EkhmPDBSgjD8z0bVDQMI-BIY__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__KUp4PrfOt9BSXUVl8Ctb3dhCMBe4MNVMeb4Gyorx8yY__7g4BeXscCIZAfuu1vxsCj2RIemg-eEK0QpChP9LDmFQ__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__PNjAgubM_3xXRLp4uLsYnv8wQAdT89-RYkSPxT6T45c__rFQwFK4pA5ZaWZSF7FPTfKbbpus0h-5IS8ayrNZGrb4__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__vQiLul2UcfC4nBAR09mhYVBYzRmiNDm2dj3GgSubV38__w84oZe-ZODKe7XnnlbrjV4IWHISOy4PioFEMVgx9hZo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__QJw3g0kOdwsv4twSZLP931zBzsHy50VEHpEN_znIitQ__A6QOuWXElDipBM2iChbWhjAAt3KlUwZ-jODoxdpbwiw__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stability_aspe","theme_token":"EFgzldog57MlNZUFNdYCnb0scIpJJnQiV5Ya1QHEpaY","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/footable.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/aspe_nodes.admin.css":1,"sites\/all\/modules\/custom\/aspe_views\/theme\/css\/aspe_views.admin.css":1,"sites\/all\/modules\/forked\/book\/book.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/openpublic\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.css":1,"profiles\/openpublic\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openpublic\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/openpublic\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/themes\/stability\/css\/bootstrap.min.css":1,"sites\/all\/themes\/stability\/css\/fonts\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.theme.css":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/stability\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/stability\/css\/theme.css":1,"sites\/all\/themes\/stability\/css\/theme-elements.css":1,"sites\/all\/themes\/stability\/css\/animate.min.css":1,"sites\/all\/themes\/stability\/css\/skins\/red.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/slideshow.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/font-main.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/styleless.less":1,"sites\/all\/themes\/stability\/css\/skins\/blue.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/aspe\/theme\/js\/aspe.login-confirm.js":1,"sites\/all\/modules\/custom\/aspe_report\/modules\/aspe_databooks\/js\/aspe_databooks.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.highcharts.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/datatables\/dataTables.min.js":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.min.js":1,"sites\/all\/libraries\/highcharts\/highcharts.js":1,"sites\/all\/libraries\/highcharts\/highcharts.exporting.js":1,"sites\/all\/libraries\/highcharts\/highcharts.map.js":1,"sites\/all\/libraries\/highcharts\/highcharts.us-all.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.footable.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5486d15a696bff0c":1,"misc\/progress.js":1,"profiles\/openpublic\/modules\/contrib\/webform\/js\/webform.js":1,"profiles\/openpublic\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/stability\/vendor\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/stability\/vendor\/bootstrap.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flexnav.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flickrfeed.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.sloppy-masonry.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.fitvids.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.stellar.min.js":1,"sites\/all\/themes\/stability\/vendor\/snap.svg-min.js":1,"sites\/all\/themes\/stability\/js\/custom.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/aspe.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/html5shiv.min.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/main-menu.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/keyboard-control.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tabBehavior.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tileStringTrimmer.js":1}},"webform":{"conditionals":{"webform-client-form-158521":{"ruleGroups":[],"sourceMap":[],"values":[]}}},"ajax":{"edit-webform-ajax-next-158521":{"callback":"webform_ajax_callback","wrapper":"webform-ajax-wrapper-158521","progress":{"message":"","type":"throbber"},"event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Next \u003E"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/basic-report\/economic-impact-long-term-care-individuals":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"([a-z0-9]\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This website contains links to other federal and state agencies and private organizations. The Department of Health and Human Services (HHS) cannot attest to the accuracy of information provided by these nonfederal website links. Linking to nonfederal sites does not constitute an endorsement by HHS or any of its employees of the sponsors or the information and products presented on the sites. You will be subject to the destination site\u0027s privacy policy when you leave the ASPE website.\r\n\r\nThank you for visiting aspe.hhs.gov!","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"stability":{"flickr_id":"52617155@N08","logo_sticky":"28"},"field_group":{"div":"full","hidden":"full"}});
+//--><!]]>
+</script>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config={pubid:"ra-5486d15a696bff0c",ui_click:false}
+//--><!]]>
+</script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4837db659","applicationID":"10708002","transactionName":"MwNaZBRSXEtXB0BdWQpJbUIPHFtWUgFMGkYMFg==","queueTime":0,"applicationTime":25,"atts":"H0RZElxIT0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

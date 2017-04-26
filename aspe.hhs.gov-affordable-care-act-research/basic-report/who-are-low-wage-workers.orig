@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">  <!--<![endif]-->
+<head>
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://aspe.hhs.gov/sites/default/files/Favicon2.png" type="image/png" />
+<meta name="description" content="  ASPE RESEARCH BRIEF(*) Who are Low-Wage Workers? February 2009 This Research Brief is available on the Internet at:http://aspe.hhs.gov/hsp/09/LowWageWorkers/rb.shtml Printer Friendly Version in PDF format (6 pages)" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://aspe.hhs.gov/basic-report/who-are-low-wage-workers" />
+<link rel="shortlink" href="https://aspe.hhs.gov/node/66156" />
+<meta property="og:site_name" content="ASPE" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aspe.hhs.gov/basic-report/who-are-low-wage-workers" />
+<meta property="og:title" content="Who are Low-Wage Workers?" />
+<meta property="og:description" content="  ASPE RESEARCH BRIEF(*) Who are Low-Wage Workers? February 2009 This Research Brief is available on the Internet at:http://aspe.hhs.gov/hsp/09/LowWageWorkers/rb.shtml Printer Friendly Version in PDF format (6 pages)" />
+<meta property="og:updated_time" content="2017-03-23T14:51:43-04:00" />
+<meta property="article:published_time" content="2015-06-13T03:58:48-04:00" />
+<meta property="article:modified_time" content="2017-03-23T14:51:43-04:00" />
+
+  <title>Who are Low-Wage Workers? | ASPE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+  <link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__5ln8neBOcJfyUveiD4y9fhI6kHBLOQ_YL0mMC-LS9a0__TPJIZT9UBnf_685NlFTJ5KnZVsjwFk6ACQ-nwwygmwU__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ng49uRH5y4Hl9VF9hHW_vXOj-mcOc2u2ShJqJ1YKIGU__FoMCD14GBvZaRiqSQ_JpP1w3rDB21n7H2Ar4pRZaIh8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__Hskudx14OJ5Hz8vqU7CUgN6SDV5rINZuEq9VuGsSeyc__EwNIl3xeFrniW2TmonovTzhSs3X5MdFps210puE7jog__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__9rZoaX9BdzjjNucvYxduxeNAVO2zgW_Rvjhb5rq5whc__lSr_y16grDSgHf4booPChnF7QXz3TQY3hafH49twE0k__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZgfI_ZPib5yVY0o5aKo_6TFn946Tuu_nFDa0ySTmkSc__2FTFrNw2eNh0mpHIOA34r6YRwBZMm2PjJ_JubnwLigg__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__dxabpJ5rQgDSixKgLJZjWc1beC6mpROKwVrmWxI5eno__rqhz_hGsE_i59O7-W991o71_Jxw1QOtGMxn4nsOLHY8__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__ZbRCq2NqWgK-HXAQI3So0N1n0nr4HonsJS3eQuuxukw__7Olkk8Locn8Dj0eR0Ww3rbV9lks9sxipcboMXB18RRs__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.css" media="all" />
+
+	<!-- Head Libs -->
+	<script src="/sites/all/themes/stability/stability_aspe/vendor/modernizr.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/sites/all/themes/stability/vendor/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" href="/sites/all/themes/stability/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/stability/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/stability/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/stability/images/apple-touch-icon-144x144.png">
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-66156 node-type-basic-report">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-JLFR"
+                  height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JLFR');</script>
+<!-- End Google Tag Manager -->
+  <div id="skip-nav" class="accessibility_menu">
+    <strong>Shortcut Navigation:</strong>
+    <ul>
+      <li><a href="#content" accesskey="c" title="Skip to page content (ctrl/alt + c)">Page Content</a></li>
+      <li><a href="#nav" accesskey="m" title="Skip to main navigation menu (ctrl/alt + m)">Site Navigation</a></li>
+
+      <li><a href="#Footer" accesskey="f" title="Skip to footer (ctrl/alt + f)">Footer</a></li>
+    </ul>
+  </div>
+
+    
+<div class="site-wrapper">
+  
+  <header class="header header-menu-fullw header-top-clean">
+    <div id="brand-bar">
+        <div class="container">
+                    <img alt='bird' src="/sites/all/themes/stability/stability_aspe/images/bird.png"> <a target="blank" tabindex="4" href="http://www.hhs.gov/">U.S. Department of Health & Human Services</a>
+        </div>
+
+    </div>
+    <div class="header-main">
+        <div class="container clearfix">
+            <div class="social-links-wrapper">
+                <ul class="social-links social-links__light">
+                                                          <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw.png"/></a></li>
+                                    <!--                  --><!--                    <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin.png"/></a></li>-->
+<!--                  -->
+                                                                      </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                                <div class="site_name_wrapper">
+                                     <span class="h1">
+                                      <a href="/">ASPE</a>
+                                       </span>
+                                  <p class="tagline"><p>Office of The Assistant Secretary</p><p> for Planning and Evaluation</p></p>
+                    </div>
+            </div>
+            <!-- Logo / End -->
+            <div class="header_right_wrapper">
+                <div class="search-form">
+                    <form action="/basic-report/who-are-low-wage-workers" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class = "input-group"><div class="form-type-textfield form-item-search-block-form form-item form-group">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search Site..." class="form-control form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input class="btn btn-primary btn-icon form-submit" type="image" id="edit-submit" name="submit" value="Search" src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/search-white2.png" alt="Search" title="Search" /></div></div><input type="hidden" name="form_build_id" value="form-9xgIRdiXtalT9f33hld84ZC_tEGQBQe5N4xf_hBxmnI" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>                </div>
+                <button type="button" class="navbar-toggle" value="Menu">
+                    <i class="fa fa-bars"></i>Menu
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="nav-main">
+        <div class="container">
+          <ul data-breakpoint="767" class="flexnav">
+                <li class="first expanded"><a href="/basic-search/about" title="">About</a><ul><li class="first leaf"><a href="/mission" title="">Mission</a></li>
+<li class="leaf"><a href="/key-staff" title="">Leadership</a></li>
+<li class="leaf"><a href="https://www.usajobs.gov/" title="">Careers</a></li>
+<li class="expanded"><a href="/coordination" title="linkTo">Coordination</a><ul><li class="first leaf"><a href="/evaluation-evidence" title="">Evaluation &amp; Evidence</a></li>
+<li class="leaf"><a href="/national-alzheimers-project-act">National Alzheimer&#039;s Project Act</a></li>
+<li class="leaf"><a href="/health-and-human-services-hhs-data-council">HHS Data Council</a></li>
+<li class="last leaf"><a href="/national-committee-vital-and-health-statistics" title="National Council on Vital and Health Statistics">National Council on Vital and Health Statistics</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/divisions" title="">Offices</a><ul><li class="first leaf"><a href="/office-disability-aging-and-long-term-care-policy-daltcp">Disability, Aging, and Long-Term Care Policy</a></li>
+<li class="leaf"><a href="/office-health-policy-hp">Health Policy</a></li>
+<li class="leaf"><a href="/office-human-services-policy">Human Services Policy</a></li>
+<li class="last leaf"><a href="/office-science-and-data-policy">Science and Data Policy</a></li>
+</ul></li>
+<li class="leaf"><a href="/strategic-planning" title="Strategic Planning">Strategic Planning</a></li>
+<li class="last leaf"><a href="/contact-aspe" title="">Contact ASPE</a></li>
+</ul></li>
+<li class="expanded"><a href="/basic-search/topics" title="">Topics</a><ul><li class="first leaf"><a href="/affordable-care-act-research">Affordable Care Act Research</a></li>
+<li class="leaf"><a href="/alzheimers-dementia">Alzheimer&#039;s / Dementia</a></li>
+<li class="leaf"><a href="/early-childhood">Early Childhood</a></li>
+<li class="leaf"><a href="/incarceration-reentry">Incarceration &amp; Reentry</a></li>
+<li class="leaf"><a href="/opioid-abuse-us-and-hhs-actions-address-opioid-drug-related-overdoses-and-deaths" title="Opioids">Opioids</a></li>
+<li class="leaf"><a href="/patient-centered-outcomes-research-trust-fund">Patient-Centered Outcomes Research Trust Fund (PCORTF)</a></li>
+<li class="expanded"><a href="/basic-search/poverty" title="">Poverty</a><ul><li class="first leaf"><a href="/poverty-guidelines">Poverty Guidelines</a></li>
+<li class="last leaf"><a href="/poverty-estimates-trends-and-analysis">Poverty Analysis</a></li>
+</ul></li>
+<li class="leaf"><a href="/teen-pregnancy-prevention">Teen Pregnancy Prevention</a></li>
+<li class="leaf"><a href="/homelessness">Homelessness</a></li>
+<li class="last leaf"><a href="/medicare-access-and-chip-reauthorization-act-2015">MACRA</a></li>
+</ul></li>
+<li class="leaf"><a href="/reports" title="">Publications</a></li>
+<li class="last expanded"><a href="/basic-search/datasets" title="">Data and Tools</a><ul><li class="first last leaf"><a href="/evaluations" title="">Evaluation Database</a></li>
+</ul></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation / End -->
+</header>  <div class="main" role="main">
+    <!--PAGEWATCH CODE="USHHS_458"-->
+    <section class="page-heading">
+  <div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+                <h1>
+                    
+          Who are Low-Wage Workers?        </h1>
+                                 <p class="author">
+                                                 <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2009-02-28T00:00:00-05:00">02/28/2009</span>               
+                           </p>
+
+
+                  </div>
+
+
+        <div class="col-md-6">
+           <ul class="breadcrumb"><li class="first"><a href="/" title="Home">Home</a></li>
+<li class="last">Who are Low-Wage Workers?</li>
+</ul>        </div>
+
+
+    </div>
+  </div>
+</section>
+    
+      <div  class="nd-region nd-region-filter">
+  
+       
+
+    
+      <div  id="Filter" class="row">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region nd-region-similar-content">
+  
+       
+
+    
+      <div  id="Similar-Content" class="row">     
+
+        
+                  
+        
+                                    <div  id="top" class="">
+                          
+                              <div id="block-views-2100ccfdd214bdbcf634d7e4832c265b" class="widget block block-views solr-similar-content" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Similar</span> content</h3>
+		</div>
+    
+  <div class="view view-similar-content-solr view-id-similar_content_solr view-display-id-block_solr_similar_content view-dom-id-2accc3973934eecee617a972e876669b">
+        
+  
+  
+      
+    
+    <span class="field-content"><a href="/execsum/progress-toward-self-sufficiency-low-wage-workers">Progress toward Self-Sufficiency for Low-Wage Workers</a></span>    
+    <span class="field-content"><a href="/basic-report/progress-toward-self-sufficiency-low-wage-workers">Progress toward Self-Sufficiency for Low-Wage Workers</a></span>    
+    <span class="field-content"><a href="/execsum/characteristics-low-wage-workers-and-their-labor-market-experiences-evidence-mid-late-1990s">Characteristics of Low-Wage Workers and Their Labor Market Experiences: Evidence from the Mid- to Late 1990s</a></span>    
+    <span class="field-content"><a href="/pdf-report/progress-toward-self-sufficiency-low-wage-workers">Progress toward Self-Sufficiency for Low-Wage Workers</a></span>    
+    <span class="field-content"><a href="/execsum/successful-transitions-out-low-wage-work-temporary-assistance-needy-families-tanf-recipients-role-employers-coworkers-and-location-final-report">Successful Transitions out of Low-Wage Work for Temporary Assistance for Needy Families (TANF) Recipients: The Role of Employers, Coworkers, and Location, Final Report</a></span>  
+  
+  
+  
+  
+  
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+    
+    
+      </div>
+    
+
+
+      <div  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Content">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  class="col-md-12 " id="content">
+                          
+                              <div id="block-aspe-aspe-addthis" class="widget block block-aspe" >
+  
+      
+  <div class="clearfix">
+  <ul class="addthis_sharing_toolbox node-share__links" data-url="https://aspe.hhs.gov/basic-report/who-are-low-wage-workers" data-title="Who are Low-Wage Workers?">
+    <li><a class="addthis_button_print"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/print-white.png" alt="print" /></a></li>
+    <li><a class="addthis_button_email"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/mail-white.png" alt="email" /></a></li>
+    <li><a class="addthis_button_twitter"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/tw.png" alt="twitter" /></a></li>
+<!--    <li><a class="addthis_button_facebook">--><!--</a></li>-->
+    <li><a class="addthis_button_compact"><img src="https://aspe.hhs.gov/sites/all/themes/stability/stability_aspe/images/plus-white.png" alt="compact" /></a></li>
+  </ul>
+</div>
+
+  </div> <!-- /.block -->
+
+                
+    
+  
+  <div class="content clearfix node-basic-report">
+    <p> </p>
+<p>ASPE RESEARCH BRIEF<sup>(<a href="#About">*</a>)</sup></p>
+<p>Who are Low-Wage Workers?</p>
+<p>February 2009</p>
+<p><em>This Research Brief is available on the Internet at:</em><a href="http://aspe.hhs.gov/hsp/09/LowWageWorkers/rb.shtml">http://aspe.hhs.gov/hsp/09/LowWageWorkers/rb.shtml</a></p>
+<p><a href="/hsp/09/LowWageWorkers/rb.pdf">Printer Friendly Version in PDF format</a> (6 pages)</p>
+<div>
+<div class="bordered-text"><em>This brief examines the size and characteristics of the low-wage workforce and whether low-wage workers experience wage growth. We define low-wage workers as workers whose hourly wage rates are so low that even if they worked full-time, full-year their annual earnings would fall below the poverty line for a family of four. This wage rate is $8.63 in 2001, equivalent to $10.50 in 2008. Almost one-third of all workers ages 16 to 64 over 38 million people are low-wage workers in 2001. From 2001 to 2003, we find some evidence that low-wage workers are moving to higher wage jobs. But, the majority of low-wage workers either remain in low-wage jobs or are not working at all.</em></div>
+</div>
+<h2>Contents</h2>
+<ul><li><a href="#Summary">Summary</a></li>
+<li><a href="#Introduction">Introduction</a></li>
+<li><a href="#How">How many workers are low-wage workers?</a></li>
+<li><a href="#Who">Who are low-wage workers?</a></li>
+<li><a href="#make">How much do low-wage workers work and how much do they make?</a></li>
+<li><a href="#Are">Are low-wage workers progressing in the labor market?</a></li>
+<li><a href="#Conclusion">Conclusion</a></li>
+</ul><h2>Introduction</h2>
+<p>Over the last decade, American social policy has increasingly focused on encouraging and requiring work for those receiving government supports. Indeed, the earned income tax credit, the largest cash assistance program for low-income families, is available only to those who are working. And employment has been rising among some traditionally disadvantaged groups. For example, since the mid-1990s there have been dramatic increases in employment among single parents, from 59 percent in 1994 to 71 percent in 2004 (Lerman 2005). But much of this employment is in the low-wage labor market. As such, it is of great interest to policy makers to understand better the low-wage labor market and the factors that help low-wage workers attain higher wages and become self-sufficient. Towards this end, this brief examines who is in the low-wage labor market and whether they are experiencing wage growth.</p>
+<p>The data for this analysis come from the 2001 panel of the Survey of Income and Program Participation. This study follows prior ASPE-funded work (Schochet and Rangarajan 2004) and defines low-wage workers as workers ages 16 to 64 whose hourly wage rate is such that even if they worked full-time, full-year their annual earnings would fall below the poverty line for a family of four. This wage rate is $8.63 in 2001, equivalent to $10.50 in 2008. Our analysis identifies low-wage workers in January 2001 and analyzes their progression to higher paying jobs between 2001 and 2003.</p>
+<p>[ Go to <a href="#TOC">Contents</a> ]</p>
+<h2>How many workers are low-wage workers?</h2>
+<p>Almost one-third of all workers, 31 percent or over 38 million people, are low-wage workers in 2001. The percentage of low-wage workers is slightly higher than estimates for earlier time periods. A prior study using a similar definition found that 25 percent of workers in 1996 and 28 percent in 1999 were low-wage (Schochet and Rangarajan 2004<sup><a href="#1" id="ft1">[1]</a></sup>).</p>
+<p>Certain subgroups of workers are of particular interest to policy makers because they are the beneficiaries of public safety net and work support programs or have traditionally had more difficulties in the labor market. These groups include unmarried mothers and African-American men with at most a high school diploma or GED. Although these groups make up a relatively small part of all low-wage workers, 7 percent and 3.5 percent respectively, policies to assist or support low-wage workers may want to target these groups.</p>
+<p>In addition, low-wage workers living in low-income families (defined here as those with income less than twice the poverty line) are of special concern. These workers not only earn low wages but their families face difficult economic circumstances. Low-wage workers in higher income families are less likely to be the primary contributors to their familys income. Of all low-wage workers in January 2001, less than half (44 percent) lived in a low-income family, and just over one-quarter (26 percent) were in low-income families with children.</p>
+<p>Members of these key subgroups are disproportionately likely to be low-wage workers (see <a href="#fig1">Exhibit 1</a>). Of all working unmarried mothers, 45 percent are low-wage; of less-educated African-American men, 40 percent are low-wage. Even higher percentages of workers in low-income families and working unmarried mothers in low-income families are low-wage workers, 61 and 63 percent respectively.</p>
+<p><strong>Exhibit 1 Percent of Workers in Low-Wage Employment in January 2001, by Population Subgroup</strong></p>
+<p><img alt="Exhibit 1. Percent of Workers in Low-Wage Employment in January 2001, by Population Subgroup. See text for general explanation. Data are: All Workers 30.8%; Working Unmarried Mothers 44.5%; Working Less-educated African-American Men 40.2%; Workers in Low-Income Families 60.9%; and Working Unmarried Mothers in Low-Income Families 63.0%." src="/system/files/images-reports-basic/66156/fig1.gif" /></p>
+<p>[ Go to <a href="#TOC">Contents</a> ]</p>
+<h2>Who are low-wage workers?</h2>
+<p>Low-wage workers are different in important ways from workers earning higher wages. <a href="#t2">Exhibit 2</a> compares key characteristics across these groups. Low-wage workers are more likely than higher-wage workers (i.e., all non-low-wage workers) to be female, young, black or Hispanic, and never married. Almost 60 percent of all low-wage workers are female compared to only 44 percent of higher-wage workers. Of all low-wage workers, 17 percent are under age 20 (compared to 2 percent for higher-wage workers) and another 30 percent are ages 20 to 29 (compared to 20 percent for higher-wage workers). However, not all workers move on to higher wages with age about one-third of low-wage workers are 40 or older. A higher percentage of low-wage workers than higher-wage workers are black or Hispanic. This could reflect average differences in the factors connected with low wages, such as skills, education and experience, as well as discrimination. Also, low-wage workers are far less likely to be married than higher-wage workers, 39 versus 62 percent. This may be related to the younger ages of low-wage workers.</p>
+<p>The educational attainment of low-wage workers is lower than higher-wage workers. Nearly one-quarter (23.8 percent) of low-wage workers do not have a high-school degree or GED, while only 6 percent of higher-wage workers have not completed high school. This difference may, in part, be due to the age differences in the two groups. Three out of ten low-wage workers have some college, but only 10 percent have graduated from college. Almost one-third of higher-wage workers have a college education or more. Obviously, lack of education is one factor in the low wages of these workers.</p>
+<div>
+<table><caption><strong>Exhibit 2. Individual Characteristics of Low-Wage and Higher-Wage Workers in January 2001</strong></caption>
+<tbody><tr><td scope="col">Individual Characteristics</td>
+<td scope="col">Low-wage workers</td>
+<td scope="col">Higher-wage workers</td>
+</tr><tr><td colspan="3"><strong>Gender*</strong></td>
+</tr><tr><td>Male</td>
+<td>41.1%</td>
+<td>56.0%</td>
+</tr><tr><td>Female</td>
+<td>58.9%</td>
+<td>44.0%</td>
+</tr><tr><td colspan="3"><strong>Age*</strong></td>
+</tr><tr><td>Under 20</td>
+<td>17.3%</td>
+<td>1.5%</td>
+</tr><tr><td>20 to 29</td>
+<td>30.2%</td>
+<td>19.5%</td>
+</tr><tr><td>30 to 39</td>
+<td>20.3%</td>
+<td>28.3%</td>
+</tr><tr><td>40 to 49</td>
+<td>17.4%</td>
+<td>28.7%</td>
+</tr><tr><td>50 to 59</td>
+<td>11.3%</td>
+<td>18.5%</td>
+</tr><tr><td>60 to 64</td>
+<td>3.4%</td>
+<td>3.5%</td>
+</tr><tr><td colspan="3"><strong>Race/Ethnicity*</strong></td>
+</tr><tr><td>White, non-Hispanic</td>
+<td>64.0%</td>
+<td>75.6%</td>
+</tr><tr><td>Black, non-Hispanic</td>
+<td>13.9%</td>
+<td>10.2%</td>
+</tr><tr><td>Hispanic</td>
+<td>17.9%</td>
+<td>9.4%</td>
+</tr><tr><td>Other</td>
+<td>4.3%</td>
+<td>4.8%</td>
+</tr><tr><td colspan="3"><strong>Marital Status*</strong></td>
+</tr><tr><td>Married</td>
+<td>39.1%</td>
+<td>62.3%</td>
+</tr><tr><td>Separated, divorced, widowed</td>
+<td>14.4%</td>
+<td>15.5%</td>
+</tr><tr><td>Never married</td>
+<td>46.5%</td>
+<td>22.3%</td>
+</tr><tr><td colspan="3"><strong>Educational Attainment*</strong></td>
+</tr><tr><td>Less than high school</td>
+<td>23.8%</td>
+<td>6.1%</td>
+</tr><tr><td>High school/GED</td>
+<td>36.3%</td>
+<td>29.3%</td>
+</tr><tr><td>Some college</td>
+<td>30.0%</td>
+<td>32.1%</td>
+</tr><tr><td>College or more</td>
+<td>9.9%</td>
+<td>32.5%</td>
+</tr><tr><td colspan="3">* Indicates a statistically significant difference between low-wage and higher-wage workers.</td>
+</tr></tbody></table></div>
+<p>[ Go to <a href="#TOC">Contents</a> ]</p>
+<h2>How much do low-wage workers work and how much do they make?</h2>
+<p>The average low-wage worker works full-time hours (35 hours per week or more), but a substantial fraction of low-wage workers are part-time. Of all low-wage workers, 63 percent work full-time hours, 24 percent work from 20 to 34 hours a week, and 13 percent work less than twenty hours a week (<a href="#t3">Exhibit 3</a>). Far fewer higher-wage workers work part-time (10.5 percent). Of course, low hours and low wages together lead to lower incomes, especially for those who are primary earners. Some part-time low-wage workers may be choosing to work fewer hours. However, 9 percent of low-wage workers (about one-third of part-time low-wage workers) report they are working part-time involuntarily; that is, they were seeking but could not find full-time work. This involuntary part-time work is higher among our four subgroups of low-wage workers. For example, about 14 percent of less-educated African-American men report they are involuntarily working part-time, which represents almost half of all low-wage less-educated African-American men who work part-time. Also, given the lower wages being earned, it is not surprising that a disproportionate share of all low-wage workers work multiple jobs (11.4 percent) compared to higher-wage workers (7.6 percent).</p>
+<div>
+<table><caption><strong>Exhibit 3. Job Characteristics of Low-Wage and Higher-Wage Workers in January 2001</strong></caption>
+<tbody><tr><td scope="col">Job Characteristics</td>
+<td scope="col">Low-wage workers</td>
+<td scope="col">Higher-wage workers</td>
+</tr><tr><td colspan="3"><strong>Usual Hours Worked per Week*</strong></td>
+</tr><tr><td>    less than 20</td>
+<td>13.2%</td>
+<td>2.9%</td>
+</tr><tr><td>    20 to 34</td>
+<td>23.5%</td>
+<td>7.6%</td>
+</tr><tr><td>    35 to 40</td>
+<td>47.7%</td>
+<td>59.4%</td>
+</tr><tr><td>    more than 40</td>
+<td>15.6%</td>
+<td>30.1%</td>
+</tr><tr><td><strong>    Average hours worked*</strong></td>
+<td>34.7</td>
+<td>41.4</td>
+</tr><tr><td><strong>Involuntary Part-time*</strong></td>
+<td>9.1%</td>
+<td>3.3%</td>
+</tr><tr><td><strong>Working Multiple Jobs*</strong></td>
+<td>11.4%</td>
+<td>7.6%</td>
+</tr><tr><td><strong>Average Hourly Wage*</strong></td>
+<td>$6.50</td>
+<td>$17.50</td>
+</tr><tr><td colspan="3">* Indicates a statistically significant difference between low-wage and higher-wage workers.</td>
+</tr></tbody></table></div>
+<p>By definition, low-wage workers earn less per hour than higher-wage workers, but the difference is sizeable: The average low-wage worker makes $6.50 an hour while the average higher-wage worker makes $17.50 270 percent more.</p>
+<p>[ Go to <a href="#TOC">Contents</a> ]</p>
+<h2>Are low-wage workers progressing in the labor market?</h2>
+<p>To understand the implications of low-wage work on individuals and families well-being, we need to know if these workers are progressing to better paying jobs. We examine here low-wage workers movement from low-wage employment to moderate-wage or high-wage jobs between 2001 and 2003. We define moderate-wage jobs as those with a wage between the low-wage cut-off and two times that wage (between $8.63 and $17.25 in 2001) and high-wage jobs as those with a wage at least two times the low-wage threshold (at least $17.26 in 2001). <a href="#fig4">Exhibit 4</a> shows the percentage of low-wage workers making these transitions as well as the percentages who remain low-wage workers and who are not working in 2003.</p>
+<p>There is improvement in wages over this two year period for some low-wage workers. Of workers earning low wages in January 2001, 29 percent are earning moderate wages in January 2003 and another 5 percent are earning high wages. Among these workers who progressed, moderate-wage workers have a median wage rate of $10.17 and high-wage workers have a median wage rate of $22.17 (in 2001 dollars).</p>
+<p><strong>Exhibit 4. Status in January 2003 of Low-Wage Workers in January 2001</strong></p>
+<p><img alt="Exhibit 4. Status in January 2003 of Low-Wage Workers in January 2001. See text for explanation. The data: Not Employed 22.2%; Low-Wage Worker 43.9%; Moderate-Wage Worker 28.7%; and High-Wage Worker 5.2%." src="/system/files/images-reports-basic/66156/fig4.gif" /></p>
+<p><strong>Source:</strong> Authors' tabulations of the 2001 SIPP panel.<strong>Note:</strong> Low-wage workers are those making less than $8.63 in 2001 dollars. Moderate-wage workers are those making between the low-wage cut-off and two-times that wage (at least $8.63 but less than $17.26 in 2001 dollars). High-wage workers are those making at least two-times the low-wage threshold (at least $17.26 in 2001 dollars).</p>
+<p>Although this progress in wage growth is encouraging, a substantial percentage of low-wage workers, 44 percent, remain low-wage workers two years later. In addition, slightly more than one in five are not employed. To put this in context, 11 percent of workers with wages above the low-wage cut-off in 2001 are not working in 2003. So while joblessness is not uncommon even among higher-wage workers, the rate for low-wage workers is twice as high. These findings suggest that many low-wage workers are not substantially improving their economic circumstances over the two year period.</p>
+<p>[ Go to <a href="#TOC">Contents</a> ]</p>
+<h2>Conclusion</h2>
+<p>Almost one-third of workers in the economy earn low wages wages that at full-time work would leave a family of four below the poverty line. About 44 percent of these low-wage workers live in low-income families; about one-quarter are in low-income families with children. To address particular concerns for these low-wage workers, policies may want to distinguish between all low-wage workers and those in low-income families.</p>
+<p>Certain groups of workers are disproportionately low-wage including unmarried mothers and African-American men with high school education or less. Not surprisingly, low-wage workers are more likely to be female, young, black or Hispanic, and never married. Many low-wage workers also have low levels of education.</p>
+<p>Not all low-wage workers fit this profile, however. For example, about one-third of low-wage workers are over age 40. Greater access to education or training may increase wage prospects for some low-wage workers, but the impact of interventions may vary by the age of the worker. Increasing the number of hours low-wage workers work may improve incomes for some low-wage workers, but already about two-thirds are working full-time. In addition, 11 percent are working multiple jobs and almost 10 percent would like to work more hours but cannot find full-time jobs.</p>
+<p>Finally, we find some evidence that low-wage workers are moving to higher-wage jobs. Two years later, however, the majority of low-wage workers either remain in low-wage jobs or are not working at all. This signals the importance of considering employment policies to improve wage growth among workers, such as career ladders and skills training, as well as policies directly targeting employment and retention.</p>
+<p>[ Go to <a href="#TOC">Contents</a> ]</p>
+<h2>Endnote</h2>
+<p><a href="#ft1">1.</a> Schochet and Rangarajan (2004) exclude students, while students are included in the current study.</p>
+<p>[ Go to <a href="#TOC">Contents</a> ]</p>
+<h2>References</h2>
+<p>Lerman, Robert. (2005). <a href="http://www.urban.org/url.cfm?ID=311128">How Did the 2001 Recession Affect Single Mothers?</a> <em>Single Parents Earnings Monitor, </em>January. Washington, DC: The Urban Institute.</p>
+<p>Schochet, Peter, and Ann Rangarajan. (2004). <a href="http://aspe.hhs.gov/hsp/low-wage-workers04/index.htm">Characteristics of Low-Wage Workers and Their Labor Market Experiences:</a> <em>Evidence from the Mid- to Late 1990s</em>. Washington, DC: U.S. Department of Health and Human Services. &lt;<a href="http://aspe.hhs.gov/hsp/low-wage-workers04/index.htm">http://aspe.hhs.gov/hsp/low-wage-workers04/index.htm</a>&gt;</p>
+<p>[ Go to <a href="#TOC">Contents</a> ]</p>
+<div>
+<div class="bordered-text">This brief was prepared by Pamela Loprest, Gregory Acs, Caroline Ratcliffe, and Katie Vinopal of the Urban Institute under contract to ASPE. The brief presents an overview of the low-wage labor market and low-wage workers progression to higher wage employment in the early 2000s. This brief updates previous ASPE-funded research that examined the low-wage labor market in the 1990s. The economy experienced a recession in 2001 and less economic growth in the early 2000s compared to the mid- to late-1990s, making this research update a useful comparison.</div>
+</div>
+
+  <div class="download_report">
+    
+                        <div class="pdf-prev">
+                <img src="https://aspe.hhs.gov/system/files/pdfpreview/e7a050d7df295f5ffc7b6be7d3cee05f.png" alt="Preview" title="Preview" />            </div>
+                <a class="btn btn-sm btn-default download-file"
+           href="https://aspe.hhs.gov/system/files/pdf/180021/rb.pdf">Download</a>
+
+        <p class="download_title">&quot;rb.pdf&quot;
+            (pdf,
+            75.54Kb)</p>
+        <p>Note: Documents in PDF format require the <a href="http://www.adobe.com/products/acrobat/readstep2.html">Adobe
+                Acrobat Reader&reg;</a>. If you experience problems with PDF documents, please <a
+                href="http://www.adobe.com/products/acrobat/readstep2.html">download the latest version of the
+                Reader&reg;</a>
+        </p>
+    </div>
+<div class="group-tags"><div class="field-label">Tags:&nbsp;</div><a href="/terms/economic-support-and-employment">Economic Support and Employment</a><a href="/terms/employmentself-sufficiency">Employment/Self-Sufficiency</a><a href="/terms/employment">Employment</a><a href="/terms/low-income-workerslow-wage-labor-market">Low-Income Workers/Low-Wage Labor Market</a><a href="/terms/vulnerable-populations">Vulnerable Populations</a><a href="/terms/low-income-populations">Low-Income Populations</a></div>  </div>
+
+      <footer>
+          </footer>
+  
+    <div id="block-webform-client-block-158521" class="widget block block-webform" >
+  
+      
+  <div id="webform-ajax-wrapper-158521"><form class="webform-client-form webform-client-form-158521" action="/basic-report/who-are-low-wage-workers" method="post" id="webform-client-form-158521" accept-charset="UTF-8"><div><div class="webform-progressbar">
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-radios webform-component--was-this-page-helpful">
+  <label for="edit-submitted-was-this-page-helpful">Was this page helpful? <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-was-this-page-helpful" class="form-radios"><div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-1" name="submitted[was_this_page_helpful]" value="1" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-1">Yes </label>
+
+</div>
+<div class="form-type-radio form-item-submitted-was-this-page-helpful form-item radio">
+ <input required="required" type="radio" id="edit-submitted-was-this-page-helpful-2" name="submitted[was_this_page_helpful]" value="0" class="form-radio" />  <label for="edit-submitted-was-this-page-helpful-2">No </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="4" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-v7ecrOCpTNCcibfi5Wz4lKu8WIeEGDO2Ma1cZZb2uak" />
+<input type="hidden" name="form_id" value="webform_client_form_158521" />
+<input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-158521" />
+<div class="form-actions"><input class="webform-next button-primary btn btn-default form-submit" type="submit" id="edit-webform-ajax-next-158521" name="op" value="Next &gt;" /></div>
+<div class="is-useful-disclaimer"> <a href="/%23" class="" title="Survey Disclaimer" data-toggle="modal" data-target="#disclamerModal">Form Approved OMB# 0990-0379 Exp. Date 8/31/2017</a></div>
+<div class="modal fade" id="disclamerModal" tabindex="-1" role="dialog" aria-labelledby="disclamerModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="disclamerModalLabel">Survey Disclaimer</h2>
+      </div>
+      <div class="modal-body">
+         According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this information collection is 0990-0379. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, gather the data needed, and complete and review the information collection. If you have comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: U.S. Department of Health & Human Services, OS/OCIO/PRA, 200 Independence Ave., S.W., Suite 336-E, Washington D.C. 20201, Attention: PRA Reports Clearance Officer.      </div>
+    </div>
+  </div>
+</div></div></form></div>
+  </div> <!-- /.block -->
+<meta  itemscope="" itemid="https://aspe.hhs.gov/pdf-report/who-are-low-wage-workers" itemref="md1" /><meta  itemscope="" itemid="https://aspe.hhs.gov/basic-report/who-are-low-wage-workers" itemref="md2 md3 md5 md7 md9 md11 md13 md15" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/economic-support-and-employment" id="md5" itemref="md4" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/employmentself-sufficiency" id="md7" itemref="md6" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/employment" id="md9" itemref="md8" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/low-income-workerslow-wage-labor-market" id="md11" itemref="md10" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/vulnerable-populations" id="md13" itemref="md12" /><meta  itemscope="" itemid="https://aspe.hhs.gov/terms/low-income-populations" id="md15" itemref="md14" />              
+                          </div>
+                              
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+      </div>
+
+          </div>
+    
+    
+      </div>
+    
+
+
+      <footer  class="nd-region">
+  
+       
+
+          <div class = "container">
+    
+      <div  class="row" id="Footer">     
+
+        
+                  
+        
+                  
+        
+                  
+        
+                  
+        
+                                    <div  id="footer_sitemap-footer_sitemap" class="col-sm-6 col-md-6 col-lg-4 ">
+                          
+                              <div id="block-footer-sitemap-footer-sitemap" class="widget block block-footer-sitemap" >
+  
+      
+  <div id="footer-sitemap" class="clearfix">
+  <div class="fs-block-content"><div class="menu-footer-utility"><ul class="footer_links_menu-footer-utility total-items-2 parent-items-0 single-items-0"><li class="menu-5021 depth-1 total-children-8 parent-children-0 single-children-8  first"><a href="/" title="look at ASPE Home" class="fs-root-link">ASPE Home</a><ul class="footer_links_menu-footer-utility total-items-8 parent-items-0 single-items-0"><li class="menu-5026 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/" title="look at HHS Home">HHS Home</a></li>
+<li class="menu-66281 depth-1 fs-no-children"><a href="http://www.usa.gov/" title="look at USA.gov">USA.gov</a></li>
+<li class="menu-66316 depth-1 fs-no-children"><a href="https://oig.hhs.gov/" title="look at Office of the Inspector General">Office of the Inspector General</a></li>
+<li class="menu-66321 depth-1 fs-no-children"><a href="http://www.whitehouse.gov" title="look at The White House">The White House</a></li>
+<li class="menu-5046 depth-1 fs-no-children"><a href="http://www.hhs.gov/Accessibility.html" title="look at Accessibility">Accessibility</a></li>
+<li class="menu-66326 depth-1 fs-no-children"><a href="http://www.hhs.gov/about/budget/index.html" title="look at Budget/Performance">Budget/Performance</a></li>
+<li class="menu-2551 depth-1 fs-no-children"><a href="http://www.hhs.gov/Privacy.html" title="look at Privacy Policy">Privacy Policy</a></li>
+<li class="menu-197776 depth-1 fs-no-children  last"><a href="https://www.hhs.gov/civil-rights/for-individuals/nondiscrimination/index.html" title="Nondiscrimination Notice">Nondiscrimination Notice</a></li>
+</ul></li>
+<li class="menu-5051 depth-1 total-children-4 parent-children-0 single-children-4  last"><a href="http://www.hhs.gov/foia/" title="look at FOIA" class="fs-root-link">FOIA</a><ul class="footer_links_menu-footer-utility total-items-4 parent-items-0 single-items-0"><li class="menu-5056 depth-1 fs-no-children  first"><a href="http://www.hhs.gov/open/recordsandreports/plainwritingact/index.html" title="look at Plain Writing Act">Plain Writing Act</a></li>
+<li class="menu-5061 depth-1 fs-no-children"><a href="http://www.hhs.gov/asa/eeo/no_fear_bullet_3.html" title="look at No Fear Act">No Fear Act</a></li>
+<li class="menu-5066 depth-1 fs-no-children"><a href="http://www.hhs.gov/Disclaimer.html" title="look at Disclaimers">Disclaimers</a></li>
+<li class="menu-2546 depth-1 fs-no-children  last"><a href="http://www.hhs.gov/plugins.html" title="look at Viewers &amp; Players">Viewers &amp; Players</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-5 " id="stability_cms-contact_us">
+                          
+                              <div id="block-stability-cms-contact-us" class="widget block block-stability-cms" >
+  
+      
+  <div class="contacts-widget widget widget__footer">
+	<div class="widget-content">
+		<ul class="contacts-info-list">
+      			<li>
+<!--				<i class="fa fa-map-marker">Address</i>-->
+                <div class="info-icons">
+                    <img  alt="map" class= 'map-icons' src="/sites/all/themes/stability/stability_aspe/images/map.png"/>
+                </div>
+                <div class="info-item">
+					Assistant Secretary for Planning and Evaluation, Room 415F<br />
+U.S. Department of Health and Human Services<br />
+200 Independence Avenue, SW<br />
+Washington, D.C. 20201				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-phone">phone</i>-->
+                <div class="info-icons">
+                    <img alt="phone" src="/sites/all/themes/stability/stability_aspe/images/phone.png"/>
+                </div>
+				<div class="info-item">
+					+1 202.690.7858				</div>
+			</li>
+            			<li>
+<!--				<i class="fa fa-envelope">email</i>-->
+                <div class="info-icons">
+                    <img alt="mail" src="/sites/all/themes/stability/stability_aspe/images/mail-white.png"/>
+                </div>
+				<span class="info-item">
+					<a href="mailto:osaspeinfo@hhs.gov">osaspeinfo@hhs.gov</a>
+				</span>
+			</li>
+      			                					</ul>
+	</div>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-3 " id="footer">
+                          
+                              <div id="block-block-36" class="widget block block-block" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Sign-up</span> for Email Updates</h3>
+		</div>
+    
+  <div class="email_updates">
+<button class="btn btn-default" name="subscribe-button" type="submit" value="subscribe">subscribe</button>
+</div>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+                                    <div  class="col-sm-6 col-md-6 col-lg-12 " id="menu-menu-footer-language-menu">
+                          
+                              <div id="block-menu-menu-footer-language-menu" class="widget block block-menu" >
+  
+        <div class="title-accent">
+			<h3 class = "widget-title" ><span>Language</span> Assistance Available</h3>
+		</div>
+    
+  <ul class="menu"><li class="first expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#spanish" title="Español">Español</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#chinese" title="繁體中文">繁體中文</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#vietnamese" title="Tiếng Việt">Tiếng Việt</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#korean" title="한국어">한국어</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#tagalog" title="Tagalog">Tagalog</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#russian" title="Русский">Русский</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#arabic" title="العربية">العربية</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#creole" title="Kreyòl Ayisyen">Kreyòl Ayisyen</a></li>
+</ul></li>
+<li class="expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#french" title="Français">Français</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#polish" title="Polski">Polski</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#portuguese" title="Português">Português</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#italian" title="Italiano">Italiano</a></li>
+</ul></li>
+<li class="last expanded"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#german" title="Deutsch">Deutsch</a><ul><li class="first leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#japanese" title="日本語">日本語</a></li>
+<li class="leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#farsi" title="فارسی">فارسی</a></li>
+<li class="last leaf"><a href="https://www.hhs.gov/civil-rights/for-individuals/language-assistance/index.html#english" title="English">English</a></li>
+</ul></li>
+</ul>
+  </div> <!-- /.block -->
+              
+                          </div>
+                              
+        
+      </div>
+
+          </div>
+    
+    
+      </footer>
+    
+
+    <!--/PAGEWATCH-->
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+                        </div>
+          <div class="col-sm-6 col-md-8">
+            <div class="social-links-wrapper">
+              <span class="social-links-txt">Connect with us</span>
+              <ul class="social-links social-links__dark">
+                                                  <li><a href="http://twitter.com/hhs_aspe"><img alt="twitter" src="/sites/all/themes/stability/stability_aspe/images/tw-grey.png"/></a></li>
+                                <!--                --><!--                  <li><a href="http://--><!--"><img alt="linkedin" src="--><!--/images/linkedin-grey.png"/></a></li>-->
+<!--                -->
+                                                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>  <script type="text/javascript" src="/sites/default/files/advagg_js/js__VWRymaMz6HfrhnrcJNGcDiSvLVrvhaXvBa7nrBYy8gc__jntPwP3D6myJZH1jW19fXrk5cYMHGRL8NQION22VSEA__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5486d15a696bff0c"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__g6mKbcakHxQkz4ZHYaxdO_xqONINvRMgsHh1zAK-fr0__ATHtEmHaeZ0jidpGU22EkhmPDBSgjD8z0bVDQMI-BIY__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__KUp4PrfOt9BSXUVl8Ctb3dhCMBe4MNVMeb4Gyorx8yY__7g4BeXscCIZAfuu1vxsCj2RIemg-eEK0QpChP9LDmFQ__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__PNjAgubM_3xXRLp4uLsYnv8wQAdT89-RYkSPxT6T45c__rFQwFK4pA5ZaWZSF7FPTfKbbpus0h-5IS8ayrNZGrb4__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__vQiLul2UcfC4nBAR09mhYVBYzRmiNDm2dj3GgSubV38__w84oZe-ZODKe7XnnlbrjV4IWHISOy4PioFEMVgx9hZo__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__QJw3g0kOdwsv4twSZLP931zBzsHy50VEHpEN_znIitQ__A6QOuWXElDipBM2iChbWhjAAt3KlUwZ-jODoxdpbwiw__YASpjlMF4TMWgxnen_4K9EYMAww1U3QElt83Z7yKaXw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stability_aspe","theme_token":"3e-hstXybC5ZrsjXkyK_ZTQFhDUTaABwaC0iR068-ec","jquery_version":"1.10","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/footable.css":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/css\/aspe_nodes.admin.css":1,"sites\/all\/modules\/custom\/aspe_views\/theme\/css\/aspe_views.admin.css":1,"sites\/all\/modules\/forked\/book\/book.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/openpublic\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/openpublic\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.css":1,"profiles\/openpublic\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/openpublic\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/openpublic\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/themes\/stability\/css\/bootstrap.min.css":1,"sites\/all\/themes\/stability\/css\/fonts\/font-awesome\/css\/font-awesome.min.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.theme.css":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/stability\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/stability\/css\/theme.css":1,"sites\/all\/themes\/stability\/css\/theme-elements.css":1,"sites\/all\/themes\/stability\/css\/animate.min.css":1,"sites\/all\/themes\/stability\/css\/skins\/red.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/slideshow.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/font-main.css":1,"sites\/all\/themes\/stability\/stability_aspe\/css\/styleless.less":1,"sites\/all\/themes\/stability\/css\/skins\/blue.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/aspe\/theme\/js\/aspe.login-confirm.js":1,"sites\/all\/modules\/custom\/aspe_report\/modules\/aspe_databooks\/js\/aspe_databooks.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.highcharts.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/datatables\/dataTables.min.js":1,"sites\/all\/libraries\/datatables\/dataTables.responsive.min.js":1,"sites\/all\/libraries\/highcharts\/highcharts.js":1,"sites\/all\/libraries\/highcharts\/highcharts.exporting.js":1,"sites\/all\/libraries\/highcharts\/highcharts.map.js":1,"sites\/all\/libraries\/highcharts\/highcharts.us-all.js":1,"sites\/all\/modules\/custom\/aspe_nodes\/theme\/js\/aspe_nodes.footable.js":1,"http:\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-5486d15a696bff0c":1,"misc\/progress.js":1,"profiles\/openpublic\/modules\/contrib\/webform\/js\/webform.js":1,"profiles\/openpublic\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/stability\/vendor\/jquery-migrate-1.2.1.min.js":1,"sites\/all\/themes\/stability\/vendor\/bootstrap.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flexnav.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.flickrfeed.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.isotope.sloppy-masonry.min.js":1,"sites\/all\/themes\/stability\/vendor\/isotope\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/stability\/vendor\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/themes\/stability\/vendor\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.fitvids.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/stability\/vendor\/jquery.stellar.min.js":1,"sites\/all\/themes\/stability\/vendor\/snap.svg-min.js":1,"sites\/all\/themes\/stability\/js\/custom.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/aspe.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/html5shiv.min.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/main-menu.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/keyboard-control.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tabBehavior.js":1,"sites\/all\/themes\/stability\/stability_aspe\/js\/tileStringTrimmer.js":1}},"webform":{"conditionals":{"webform-client-form-158521":{"ruleGroups":[],"sourceMap":[],"values":[]}}},"ajax":{"edit-webform-ajax-next-158521":{"callback":"webform_ajax_callback","wrapper":"webform-ajax-wrapper-158521","progress":{"message":"","type":"throbber"},"event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Next \u003E"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/basic-report\/who-are-low-wage-workers":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"([a-z0-9]\\.gov)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This website contains links to other federal and state agencies and private organizations. The Department of Health and Human Services (HHS) cannot attest to the accuracy of information provided by these nonfederal website links. Linking to nonfederal sites does not constitute an endorsement by HHS or any of its employees of the sponsors or the information and products presented on the sites. You will be subject to the destination site\u0027s privacy policy when you leave the ASPE website.\r\n\r\nThank you for visiting aspe.hhs.gov!","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"stability":{"flickr_id":"52617155@N08","logo_sticky":"28"},"field_group":{"div":"full","hidden":"full"}});
+//--><!]]>
+</script>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config={pubid:"ra-5486d15a696bff0c",ui_click:false}
+//--><!]]>
+</script>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4837db659","applicationID":"10708002","transactionName":"MwNaZBRSXEtXB0BdWQpJeVMSWl1WGQpbUFM7FllXA2xEUVMT","queueTime":0,"applicationTime":694,"atts":"H0RZElxIT0U=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
